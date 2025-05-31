@@ -1,0 +1,137 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix ns11: <http://zbw.eu/stw/mapping/dbpedia/> .
+@prefix ns12: <http://dbpedia.org/resource/Settlers:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+
+dbr:Alliance_for_National_Reconstruction dbp:ideology dbr:Imperialism .
+
+dbr:Alliance_for_National_Reconstruction__Alliance_for_National_Reconstruction__1 dbo:ideology dbr:Imperialism .
+
+dbr:Canadian_Party dbo:ideology dbr:Imperialism ;
+    dbp:ideology dbr:Imperialism .
+
+dbr:Circassian_genocide dbp:motive dbr:Imperialism .
+
+<http://dbpedia.org/resource/Conservative_Party_of_Canada_(1867–1942)> dbp:ideology dbr:Imperialism .
+
+<http://dbpedia.org/resource/Conservative_Party_of_Canada_(1867–1942)__Conservative_Party_of_Canada__1> dbo:ideology dbr:Imperialism .
+
+dbr:Culture_and_Imperialism dbo:nonFictionSubject dbr:Imperialism ;
+    dbp:subject dbr:Imperialism .
+
+dbr:Faultline_49 dbo:nonFictionSubject dbr:Imperialism ;
+    dbp:subject dbr:Imperialism .
+
+dbr:Herero_and_Namaqua_genocide dbp:motive dbr:Imperialism .
+
+dbr:Japanese_war_crimes dbp:motive dbr:Imperialism .
+
+dbr:Léon-Étienne_Duval dbp:opposed dbr:Imperialism .
+
+dbr:Michael_Parenti dbp:mainInterests dbr:Imperialism .
+
+dbr:Mykhailo_Volobuiev dbo:knownFor dbr:Imperialism .
+
+dbr:Paul_K._MacDonald dbp:mainInterests dbr:Imperialism .
+
+dbr:Portuguese_Angola dbp:era dbr:Imperialism .
+
+dbr:Progressive_Party_\(Cape_Colony\) dbo:ideology dbr:Imperialism ;
+    dbp:ideology dbr:Imperialism .
+
+ns12:_The_Mythology_of_the_White_Proletariat dbo:nonFictionSubject dbr:Imperialism ;
+    dbp:subject dbr:Imperialism .
+
+dbr:Wolfgang_Mommsen dbo:academicDiscipline dbr:Imperialism ;
+    dbp:fields dbr:Imperialism .
+
+wikipedia-en:Imperialism foaf:primaryTopic dbr:Imperialism .
+
+dbr:Imperialism a dbo:Organisation,
+        owl:Thing ;
+    dbp:wikiPageUsesTemplate dbt:Authoritarian_types_of_rule,
+        dbt:Authority_control,
+        dbt:Blockquote,
+        dbt:Citation_needed,
+        dbt:Cite_book,
+        dbt:Cite_encyclopedia,
+        dbt:Cite_journal,
+        dbt:Div_col,
+        dbt:Div_col_end,
+        dbt:Dubious,
+        dbt:Empires,
+        dbt:Expand_section,
+        dbt:Fact,
+        dbt:ISBN,
+        dbt:International_relations,
+        dbt:Legend,
+        dbt:Main,
+        dbt:Main_article,
+        dbt:Monarchism,
+        dbt:Other_uses,
+        dbt:Page_needed,
+        dbt:Party_politics,
+        dbt:Political_ideologies,
+        dbt:Politics,
+        dbt:Redirect,
+        dbt:Refbegin,
+        dbt:Refend,
+        dbt:Reflist,
+        dbt:Rp,
+        dbt:See_also,
+        dbt:Short_description,
+        dbt:Which,
+        dbt:Wikiquote,
+        dbt:Wiktionary ;
+    dcterms:isPartOf ns11:target ;
+    dcterms:subject dbc:Authoritarianism,
+        dbc:History_of_colonialism,
+        dbc:Imperialism,
+        dbc:Invasions,
+        dbc:Marxian_economics,
+        dbc:Political_systems,
+        dbc:Political_theories ;
+    gold:hypernym dbr:Advocacy ;
+    skos:exactMatch <http://zbw.eu/stw/descriptor/11083-1> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Aleppo-OttomantroopsTopicalpressagency.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/All_areas_of_the_world_that_were_once_part_of_the_Portuguese_Empire.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Austro-Hungary_1914.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/British_Empire_1921.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/British_ships_in_Canton.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/China_imperialism_cartoon.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Colonial_Africa_1913_map.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Colonialism_in_1945_updated_legend.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Colonisation_1800.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/EN-QIN260BCE.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Expansion_of_the_Mongol_Empire.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/First_pictures_of_the_Japanese_occupation_of_Peiping_in_China.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/French_Empire_17th_century-20th_century.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/German_colonial.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Independence_Seaport_Museum_226.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Italian_empire_1940.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Japanese_Empire_(orthographic_projection).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Japanese_Special_Naval_Landing_Forces_on_the_deck_board_of_the_IJN_xxx,_June_11th.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/LaGuerreAMadagascar.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/OttomanEmpire1683.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Port_Said_from_air.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Punch_Rhodes_Colossus.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Qing_Empire_circa_1820_EN.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Raising_of_American_flag_at_Iolani_Palace_with_US_Marines_in_the_foreground_(detailed).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Resa_del_bacino_del_Brandewater.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Roman_Empire_Map.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Roubaud._Russian_troops_entering_Tiflis_in_1799.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Siege_of_Belgrade_(Nándorfehérvár)_1456.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Soviet_empire_1960.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Spanish_Caribbean_Islands_in_the_American_Viceroyalties_1600.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Spanish_Empire_Anachronous_en.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tipu_Sultan,_Indian_warrior_Emperor_of_Mysore.gif> .
+

@@ -1,0 +1,107 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix ns7: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema1: <http://schema.org/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Galaxy_\(British_TV_channel\) dbp:owner dbr:British_Satellite_Broadcasting .
+
+dbr:Galaxy_\(British_TV_channel\)__Galaxy__1 dbo:owningCompany dbr:British_Satellite_Broadcasting .
+
+dbr:Hardware_\(film\) dbo:productionCompany dbr:British_Satellite_Broadcasting ;
+    dbp:studio dbr:British_Satellite_Broadcasting .
+
+<http://dbpedia.org/resource/Heil_Honey_I'm_Home!> dbo:company dbr:British_Satellite_Broadcasting ;
+    dbp:company dbr:British_Satellite_Broadcasting .
+
+dbr:Memphis_Belle_\(film\) dbo:productionCompany dbr:British_Satellite_Broadcasting .
+
+dbr:Now_\(British_TV_channel\) dbo:owningCompany dbr:British_Satellite_Broadcasting .
+
+dbr:The_Computer_Channel_\(BSB\) dbo:owningCompany dbr:British_Satellite_Broadcasting .
+
+dbr:The_Movie_Channel_\(British_TV_channel\) dbo:owningCompany dbr:British_Satellite_Broadcasting ;
+    dbp:owner dbr:British_Satellite_Broadcasting .
+
+dbr:The_Power_Station_\(TV_channel\) dbo:owningCompany dbr:British_Satellite_Broadcasting ;
+    dbp:owner dbr:British_Satellite_Broadcasting .
+
+wikipedia-en:British_Satellite_Broadcasting foaf:primaryTopic dbr:British_Satellite_Broadcasting .
+
+dbr:British_Satellite_Broadcasting a yago:Abstraction100002137,
+        yago:Company108058098,
+        yago:Group100031264,
+        yago:Institution108053576,
+        yago:Organization108008335,
+        yago:SocialGroup107950920,
+        yago:WikicatCompaniesEstablishedIn1986,
+        yago:WikicatMediaCompaniesOfTheUnitedKingdom,
+        yago:YagoLegalActor,
+        yago:YagoLegalActorGeo,
+        yago:YagoPermanentlyLocatedEntity,
+        dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        schema1:Organization,
+        ns7:Agent,
+        ns7:SocialPerson,
+        owl:Thing,
+        wikidata:Q24229398,
+        wikidata:Q43229,
+        wikidata:Q4830453 ;
+    dbo:fate "Merged withSky Television plcto form BSkyB"@en ;
+    dbo:foundingDate "1986-12-11"^^xsd:date ;
+    dbo:foundingYear "1986"^^xsd:gYear ;
+    dbo:location dbr:England,
+        dbr:London,
+        dbr:Marco_Polo_House,
+        dbr:United_Kingdom ;
+    dbo:successor dbr:Sky_UK ;
+    dbp:wikiPageUsesTemplate dbt:Authority_control,
+        dbt:BSkyB,
+        dbt:British_Satellite_Broadcasting,
+        dbt:Citation_needed,
+        dbt:Cite_web,
+        dbt:ISBN,
+        dbt:Infobox_company,
+        dbt:Original_UK_satellite_channels,
+        dbt:Portal_bar,
+        dbt:Reflist,
+        dbt:Satcomm,
+        dbt:Short_description,
+        dbt:Small,
+        dbt:Use_British_English,
+        dbt:Use_dmy_dates ;
+    dcterms:subject dbc:1980s_in_British_television,
+        dbc:1980s_in_the_United_Kingdom,
+        dbc:1990_in_British_television,
+        dbc:1990_in_the_United_Kingdom,
+        dbc:1990_mergers_and_acquisitions,
+        dbc:1990s_in_British_television,
+        dbc:1990s_in_the_United_Kingdom,
+        dbc:British_companies_disestablished_in_1990,
+        dbc:British_companies_established_in_1986,
+        dbc:Defunct_mass_media_companies_of_the_United_Kingdom,
+        dbc:Direct_broadcast_satellite_services,
+        dbc:History_of_television_in_the_United_Kingdom,
+        dbc:Mass_media_companies_disestablished_in_1990,
+        dbc:Mass_media_companies_established_in_1986,
+        dbc:Sky_Group ;
+    gold:hypernym dbr:Company ;
+    schema1:sameAs <http://viaf.org/viaf/129759966> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/BSBDishes.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/British_Satellite_Broadcasting_logo.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Marco_Polo_House_(brighter_cropped_version).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Squarial2.jpg> ;
+    foaf:name "British Satellite Broadcasting plc"@en .
+

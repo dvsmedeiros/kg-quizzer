@@ -1,0 +1,664 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbd: <http://dbpedia.org/datatype/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix georss: <http://www.georss.org/georss/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix ns18: <http://dbpedia.org/ontology/PopulatedPlace/> .
+@prefix ns3: <http://dbpedia.org/resource/Carnie_Wilson:> .
+@prefix ns4: <http://dbpedia.org/resource/91/> .
+@prefix ogcgs: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema1: <http://schema.org/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:1952_Kern_County_earthquake dbp:countriesAffected dbr:Southern_California .
+
+dbr:1968_Borrego_Mountain_earthquake dbp:affected dbr:Southern_California .
+
+dbr:1987_Whittier_Narrows_earthquake dbp:countriesAffected dbr:Southern_California .
+
+dbr:1992_Joshua_Tree_earthquake dbp:countriesAffected dbr:Southern_California .
+
+dbr:1992_Landers_earthquake dbp:countriesAffected dbr:Southern_California .
+
+dbr:1994_Northridge_earthquake dbp:countriesAffected dbr:Southern_California .
+
+dbr:1999_Hector_Mine_earthquake dbp:countriesAffected dbr:Southern_California .
+
+dbr:2008_Chino_Hills_earthquake dbp:countriesAffected dbr:Southern_California .
+
+dbr:2014_La_Habra_earthquake dbp:affected dbr:Southern_California .
+
+dbr:2018_Southern_California_mudflows dbp:place dbr:Southern_California .
+
+dbr:2021_Orange_County_oil_spill dbp:location dbr:Southern_California .
+
+<http://dbpedia.org/resource/50/50_burger> dbo:region dbr:Southern_California .
+
+ns4:Perris_Valley_Line dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Allen_Tire_Company dbo:location dbr:Southern_California .
+
+dbr:Altar_Boys__Altar_Boys__1 dbo:hometown dbr:Southern_California .
+
+dbr:Annandale_Line dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Arlington_\(band\) dbo:hometown dbr:Southern_California .
+
+dbr:Asian_Americans_in_California dbo:populationPlace dbr:Southern_California ;
+    dbp:region dbr:Southern_California .
+
+dbr:Automobile_Club_of_Southern_California dbo:regionServed dbr:Southern_California ;
+    dbp:regionServed dbr:Southern_California .
+
+dbr:Balboa_Line dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Bally_Sports_SoCal dbp:area dbr:Southern_California .
+
+dbr:Bally_Sports_West dbp:area dbr:Southern_California .
+
+dbr:Barbara_McCauley dbo:birthPlace dbr:Southern_California .
+
+dbr:Bloodshed_\(band\) dbo:hometown dbr:Southern_California ;
+    dbp:origin dbr:Southern_California .
+
+dbr:Brett_Gurewitz dbo:hometown dbr:Southern_California .
+
+dbr:Brian_Virtue dbo:hometown dbr:Southern_California ;
+    dbp:origin dbr:Southern_California .
+
+dbr:Brown_Bag_Films dbo:regionServed dbr:Southern_California .
+
+dbr:Brytni_Sarpy dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:CIF_Southern_Section dbo:regionServed dbr:Southern_California ;
+    dbp:regionServed dbr:Southern_California .
+
+dbr:California_Avocado_Society dbo:location dbr:Southern_California ;
+    dbp:foundation dbr:Southern_California ;
+    dbp:location dbr:Southern_California .
+
+dbr:California_Central_Railway dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:California_Chaparral_Institute dbp:foundingLocation dbr:Southern_California .
+
+dbr:Camp_Kearny dbo:location dbr:Southern_California ;
+    dbp:location dbr:Southern_California .
+
+dbr:Career_Soldiers_\(band\) dbo:hometown dbr:Southern_California .
+
+ns3:_Unstapled dbo:location dbr:Southern_California ;
+    dbp:location dbr:Southern_California .
+
+dbr:Carpinteria_Offshore_Oil_Field dbp:region dbr:Southern_California .
+
+dbr:Carrizo_Gorge_Railway dbo:location dbr:Southern_California .
+
+dbr:Chad_Blinman dbo:hometown dbr:Southern_California .
+
+dbr:Chalk_Hills dbo:region dbr:Southern_California .
+
+dbr:Chelsea_Alden dbo:birthPlace dbr:Southern_California .
+
+dbr:Cheyne_Magnusson dbo:birthPlace dbr:Southern_California .
+
+dbr:Chinese_American_Museum dbo:type dbr:Southern_California .
+
+dbr:Coptic_Americans dbo:populationPlace dbr:Southern_California .
+
+<http://dbpedia.org/resource/Coptic_Orthodox_Diocese_of_Los_Angeles,_Southern_California,_and_Hawaii> dbo:territory dbr:Southern_California .
+
+dbr:Council_for_Watershed_Health dbo:regionServed dbr:Southern_California ;
+    dbp:region dbr:Southern_California .
+
+dbr:Culver_CityBus dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Dan_Gordon_\(screenwriter\) dbo:birthPlace dbr:Southern_California .
+
+dbr:Dana_Sue_Gray dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Daniel_Amos dbo:hometown dbr:Southern_California .
+
+dbr:Dave_Myers_and_The_Surftones dbo:hometown dbr:Southern_California .
+
+dbr:Dayshell dbo:hometown dbr:Southern_California .
+
+dbr:December_2017_Southern_California_wildfires dbp:location dbr:Southern_California .
+
+dbr:Diane_Anderson-Minshall dbo:birthPlace dbr:Southern_California .
+
+dbr:Diane_Michelle dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Empire_Wrestling_Federation dbp:location dbr:Southern_California .
+
+dbr:Epicenter_\(music_festival\) dbp:location dbr:Southern_California .
+
+dbr:Fabulous_Blitzkrieg dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Fedco dbp:areaServed dbr:Southern_California .
+
+<http://dbpedia.org/resource/Fedco__Federal_Employees'_Distributing_Company__1> dbo:regionServed dbr:Southern_California .
+
+dbr:Figueroa_Mountain_Brewing_Company dbo:regionServed dbr:Southern_California ;
+    dbp:areaServed dbr:Southern_California .
+
+<http://dbpedia.org/resource/Fosselman's_Ice_Cream_Company> dbo:regionServed dbr:Southern_California .
+
+dbr:Frankie_Kazarian dbo:billed dbr:Southern_California ;
+    dbp:billed dbr:Southern_California .
+
+dbr:Galt_Aureus dbo:hometown dbr:Southern_California ;
+    dbp:origin dbr:Southern_California .
+
+dbr:Garifuna_Americans dbo:populationPlace dbr:Southern_California ;
+    dbp:popplace dbr:Southern_California .
+
+<http://dbpedia.org/resource/Glendale–Burbank_Line> dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Gregg_Fienberg dbo:birthPlace dbr:Southern_California .
+
+dbr:Guatemalan_Americans dbo:populationPlace dbr:Southern_California .
+
+dbr:Haley_Tju dbo:birthPlace dbr:Southern_California .
+
+dbr:Heartist dbo:hometown dbr:Southern_California ;
+    dbp:origin dbr:Southern_California .
+
+dbr:Heidi_Zimmer dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Home_Town_Hero dbo:hometown dbr:Southern_California ;
+    dbp:origin dbr:Southern_California .
+
+dbr:Honduran_Americans dbo:populationPlace dbr:Southern_California ;
+    dbp:popplace dbr:Southern_California .
+
+dbr:Huntington_Library dbp:areaServed dbr:Southern_California .
+
+dbr:Hurricane_Kathleen dbp:areas dbr:Southern_California .
+
+dbr:Hutton_Companies dbo:regionServed dbr:Southern_California ;
+    dbp:areaServed dbr:Southern_California .
+
+dbr:Indonesian_Americans dbo:populationPlace dbr:Southern_California ;
+    dbp:popplace dbr:Southern_California .
+
+dbr:Innerpartysystem_\(album\) dbp:recorded dbr:Southern_California .
+
+dbr:Ithaka_\(artist\) dbo:hometown dbr:Southern_California .
+
+dbr:JFA_\(band\) dbo:hometown dbr:Southern_California .
+
+dbr:Jayam_Rutnam dbo:knownFor dbr:Southern_California .
+
+dbr:Jill_Barnett dbo:birthPlace dbr:Southern_California .
+
+dbr:Jo-Ann_Mapson dbo:birthPlace dbr:Southern_California .
+
+dbr:Joe_Sanberg dbo:birthPlace dbr:Southern_California .
+
+<http://dbpedia.org/resource/John_F._Kennedy_High_School_(La_Palma,_California)> dbo:region dbr:Southern_California ;
+    dbp:region dbr:Southern_California .
+
+dbr:John_Meredyth_Lucas dbo:birthPlace dbr:Southern_California .
+
+dbr:Jordan_Ifueko dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Juan_Pollo dbo:regionServed dbr:Southern_California .
+
+dbr:Justin_Chang dbo:birthPlace dbr:Southern_California .
+
+dbr:KCRW dbo:broadcastArea dbr:Southern_California .
+
+dbr:KFI dbo:broadcastArea dbr:Southern_California ;
+    dbp:area dbr:Southern_California .
+
+dbr:KIIS-FM dbo:broadcastArea dbr:Southern_California ;
+    dbp:area dbr:Southern_California .
+
+dbr:KLAA_\(AM\) dbp:area dbr:Southern_California .
+
+dbr:KLAA_\(AM\)__KLAA__1 dbo:broadcastArea dbr:Southern_California .
+
+dbr:KLAC dbo:broadcastArea dbr:Southern_California ;
+    dbp:area dbr:Southern_California .
+
+dbr:KMZT_\(AM\) dbo:broadcastArea dbr:Southern_California ;
+    dbp:area dbr:Southern_California .
+
+dbr:KNX_\(AM\) dbo:broadcastArea dbr:Southern_California ;
+    dbp:area dbr:Southern_California .
+
+dbr:KOGO_\(AM\) dbo:broadcastArea dbr:Southern_California ;
+    dbp:area dbr:Southern_California .
+
+dbr:KPFK dbo:broadcastArea dbr:Southern_California ;
+    dbp:area dbr:Southern_California .
+
+dbr:KRLA dbo:broadcastArea dbr:Southern_California ;
+    dbp:area dbr:Southern_California .
+
+dbr:KUSC dbo:broadcastArea dbr:Southern_California ;
+    dbp:area dbr:Southern_California .
+
+dbr:Kim_Wyman dbo:birthPlace dbr:Southern_California .
+
+dbr:Kristine_M._Larson dbo:birthPlace dbr:Southern_California .
+
+dbr:Kuma_von_Clifford dbp:birthPlace dbr:Southern_California .
+
+dbr:Lamanda_Park_Line dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Lauren_Records dbo:location dbr:Southern_California ;
+    dbp:location dbr:Southern_California .
+
+dbr:Leland_Sklar dbo:hometown dbr:Southern_California .
+
+dbr:Lightning_in_a_Bottle dbp:location dbr:Southern_California .
+
+dbr:Lindley_Bothwell dbo:occupation dbr:Southern_California .
+
+dbr:Litmus_Green dbo:hometown dbr:Southern_California .
+
+dbr:Llajas_Formation dbp:extent dbr:Southern_California .
+
+dbr:Los_Angeles_County_Arboretum_and_Botanic_Garden dbp:areaServed dbr:Southern_California .
+
+dbr:Lovelite_\(band\) dbo:hometown dbr:Southern_California ;
+    dbp:origin dbr:Southern_California .
+
+dbr:Mark_Bryan_\(artist\) dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Maureen_Child dbo:birthPlace dbr:Southern_California .
+
+dbr:May_Company_California dbo:regionServed dbr:Southern_California .
+
+dbr:Mel_Weitsman dbo:birthPlace dbr:Southern_California .
+
+<http://dbpedia.org/resource/Menifee,_California> dbo:subdivision dbr:Southern_California ;
+    dbp:subdivisionName dbr:Southern_California .
+
+dbr:Metrolink_\(California\) dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Michael_Hussar dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Michael_Shabaz dbo:residence dbr:Southern_California ;
+    dbp:residence dbr:Southern_California .
+
+<http://dbpedia.org/resource/Monrovia–Glendora_Line> dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Monster_Beverage dbp:foundation dbr:Southern_California .
+
+dbr:Mumps_\(rock_band\) dbo:hometown dbr:Southern_California ;
+    dbp:origin dbr:Southern_California .
+
+dbr:Murder_of_Reet_Jurvetson dbo:bodyDiscovered dbr:Southern_California .
+
+dbr:NBC_Sports_California dbp:area dbr:Southern_California .
+
+dbr:Naugles dbo:regionServed dbr:Southern_California .
+
+dbr:Neal_Rubin dbo:birthPlace dbr:Southern_California .
+
+dbr:Nolan_Bushnell dbo:residence dbr:Southern_California ;
+    dbp:residence dbr:Southern_California .
+
+dbr:Norms_Restaurants dbo:regionServed dbr:Southern_California ;
+    dbp:areaServed dbr:Southern_California .
+
+dbr:Nostalghia_\(musician\) dbo:hometown dbr:Southern_California .
+
+dbr:Nothing_Very_Important_and_Other_Stories dbp:setIn dbr:Southern_California .
+
+dbr:October_2007_California_wildfires dbp:location dbr:Southern_California .
+
+dbr:OneWest_Bank dbo:regionServed dbr:Southern_California ;
+    dbp:areaServed dbr:Southern_California .
+
+dbr:Pacific_Imperial_Railroad dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+<http://dbpedia.org/resource/Pacific_Southwest_District_of_the_Lutheran_Church–Missouri_Synod> dbo:territory dbr:Southern_California .
+
+dbr:Pacific_Surfliner dbp:locale dbr:Southern_California .
+
+dbr:Panamanian_Americans dbo:populationPlace dbr:Southern_California ;
+    dbp:popplace dbr:Southern_California .
+
+dbr:Panda_Inn dbo:regionServed dbr:Southern_California .
+
+dbr:Pasadena_Short_Line dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Pasadena_via_Oak_Knoll_Line dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Paul_Romero dbo:birthPlace dbr:Southern_California .
+
+dbr:Pavilions_\(supermarket\) dbo:regionServed dbr:Southern_California .
+
+dbr:Ralphs dbo:regionServed dbr:Southern_California ;
+    dbp:areaServed dbr:Southern_California .
+
+dbr:Rancho_Guajome_Adobe dbo:location dbr:Southern_California ;
+    dbp:location dbr:Southern_California .
+
+dbr:Rebecca_Reichmann_Tavares dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Rise_Above_Movement dbp:foundingLocation dbr:Southern_California .
+
+dbr:Robert_D._Cardona dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Robinsons-May dbo:regionServed dbr:Southern_California .
+
+dbr:San_Diegan_\(train\) dbp:locale dbr:Southern_California .
+
+dbr:San_Dieguito_River dbp:subdivisionName dbr:Southern_California .
+
+dbr:San_Fernando_Line dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Santa_Monica_Airport dbo:city dbr:Southern_California ;
+    dbp:cityServed dbr:Southern_California .
+
+dbr:Santiago_Canyon_Fire dbp:location dbr:Southern_California .
+
+dbr:Scorpio_Sky dbo:billed dbr:Southern_California ;
+    dbp:billed dbr:Southern_California .
+
+dbr:Scott_Law dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Secret_Army_Organization dbo:regionServed dbr:Southern_California ;
+    dbp:region dbr:Southern_California .
+
+dbr:Shattered_Faith dbo:hometown dbr:Southern_California .
+
+dbr:Sid_Smith_\(American_football\) dbp:college dbr:Southern_California .
+
+dbr:Sierra_Madre_Line dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Sierra_Vista_Line dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:SoCal_Uncensored dbp:billed dbr:Southern_California .
+
+dbr:SoCal_Val dbo:billed dbr:Southern_California ;
+    dbp:billed dbr:Southern_California .
+
+dbr:Sonic_Past_Music dbo:location dbr:Southern_California ;
+    dbp:location dbr:Southern_California .
+
+dbr:South_Pasadena_Local dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Southern_California_Intercollegiate_Athletic_Conference dbp:region dbr:Southern_California .
+
+dbr:Southern_California_Mormon_Choir dbp:origin dbr:Southern_California .
+
+dbr:Spectrum_SportsNet_\(Los_Angeles\) dbp:area dbr:Southern_California .
+
+dbr:Spectrum_SportsNet_LA dbp:area dbr:Southern_California .
+
+dbr:SportsChannel_Los_Angeles dbp:area dbr:Southern_California .
+
+dbr:Stephen_Kosslyn dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Stephen_R._Marquardt dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Strategicon_\(gaming_conventions\) dbo:location dbr:Southern_California ;
+    dbp:location dbr:Southern_California .
+
+dbr:SummerBreak dbo:location dbr:Southern_California ;
+    dbp:location dbr:Southern_California .
+
+dbr:Tahquitz_\(spirit\) dbp:region dbr:Southern_California .
+
+dbr:Takic_languages dbp:region dbr:Southern_California .
+
+dbr:Tataviam_language dbo:spokenIn dbr:Southern_California ;
+    dbp:region dbr:Southern_California .
+
+dbr:Tech_Coast_Angels dbo:location dbr:Southern_California ;
+    dbp:location dbr:Southern_California .
+
+dbr:The_Broad__The_Broad__1 dbo:location dbr:Southern_California .
+
+dbr:The_Flower_Fields dbo:regionServed dbr:Southern_California ;
+    dbp:areaServed dbr:Southern_California .
+
+dbr:The_Grilled_Cheese_Truck dbo:regionServed dbr:Southern_California .
+
+dbr:The_Joneses_\(band\) dbo:hometown dbr:Southern_California ;
+    dbp:origin dbr:Southern_California .
+
+dbr:The_Shadow_of_the_Hummingbird dbp:setting dbr:Southern_California .
+
+dbr:Thomas_Henry_Blythe dbo:knownFor dbr:Southern_California .
+
+dbr:Tilden_Smith dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Tilly_Greene dbo:birthPlace dbr:Southern_California ;
+    dbp:birthPlace dbr:Southern_California .
+
+dbr:Tim_Weed dbo:hometown dbr:Southern_California ;
+    dbp:origin dbr:Southern_California .
+
+dbr:Tom_Mylan dbo:birthPlace dbr:Southern_California .
+
+dbr:Tongva_language dbo:spokenIn dbr:Southern_California ;
+    dbp:states dbr:Southern_California .
+
+dbr:Topanga_Fire dbp:location dbr:Southern_California .
+
+<http://dbpedia.org/resource/USC_Trojans_men's_rugby> dbp:region dbr:Southern_California .
+
+<http://dbpedia.org/resource/Upland–San_Bernardino_Line> dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Vella_Lovell dbo:birthPlace dbr:Southern_California .
+
+dbr:Westwood_College dbo:city dbr:Southern_California .
+
+dbr:Whittier_Line dbo:location dbr:Southern_California ;
+    dbp:locale dbr:Southern_California .
+
+dbr:Wovenwar dbo:hometown dbr:Southern_California .
+
+dbr:X-Pistols dbo:hometown dbr:Southern_California .
+
+dbr:XEWW-AM dbo:broadcastArea dbr:Southern_California ;
+    dbp:area dbr:Southern_California .
+
+dbr:Xtreme_Pro_Wrestling dbp:location dbr:Southern_California .
+
+dbr:Z_Channel dbp:area dbr:Southern_California .
+
+wikipedia-en:Southern_California foaf:primaryTopic dbr:Southern_California .
+
+dbr:Los_Angeles dbo:subdivision dbr:Southern_California ;
+    dbp:subdivisionName dbr:Southern_California .
+
+<http://dbpedia.org/resource/Los_Angeles_County,_California> dbo:subdivision dbr:Southern_California ;
+    dbp:subdivisionName dbr:Southern_California .
+
+dbr:Southern_California a yago:AdministrativeDistrict108491826,
+        yago:Area108497294,
+        yago:District108552138,
+        yago:Location100027167,
+        yago:Object100002684,
+        yago:PhysicalEntity100001930,
+        yago:Region108630039,
+        yago:Region108630985,
+        yago:WikicatMegapolitanAreasOfCalifornia,
+        yago:WikicatRegionsOfCalifornia,
+        yago:YagoGeoEntity,
+        yago:YagoLegalActorGeo,
+        yago:YagoPermanentlyLocatedEntity,
+        dbo:Location,
+        dbo:Place,
+        dbo:PopulatedPlace,
+        dbo:Settlement,
+        schema1:Place,
+        owl:Thing,
+        geo1:SpatialThing,
+        wikidata:Q486972 ;
+    ns18:areaTotal "146347.2781745357"^^dbd:squareKilometre ;
+    dbo:areaTotal 1.463473e+11 ;
+    dbo:country dbr:United_States ;
+    dbo:subdivision dbr:California,
+        <http://dbpedia.org/resource/Imperial_County,_California>,
+        <http://dbpedia.org/resource/Kern_County,_California>,
+        <http://dbpedia.org/resource/Los_Angeles_County,_California>,
+        <http://dbpedia.org/resource/Orange_County,_California>,
+        <http://dbpedia.org/resource/Riverside_County,_California>,
+        <http://dbpedia.org/resource/San_Bernardino_County,_California>,
+        <http://dbpedia.org/resource/San_Diego_County,_California>,
+        <http://dbpedia.org/resource/San_Luis_Obispo_County,_California>,
+        <http://dbpedia.org/resource/Santa_Barbara_County,_California>,
+        <http://dbpedia.org/resource/Ventura_County,_California> ;
+    dbp:areaFootnotes ""@en ;
+    dbp:areaTotalSqMi 56505 ;
+    dbp:imageCaption "Images top to bottom, left to right: Downtown Los Angeles, San Diego Skyline, Village of La Jolla, Santa Monica Pier, Surfer at Black's Beach, Hollywood Sign, Disneyland, Hermosa Beach Pier"@en,
+        "Southern California"@en ;
+    dbp:imageMap "Southern California counties in red noshade.png"@en ;
+    dbp:mapCaption "Red: The ten counties of Southern California"@en ;
+    dbp:mapsize 275 ;
+    dbp:name "Southern California"@en ;
+    dbp:population 23762904 ;
+    dbp:populationAsOf 2020 ;
+    dbp:seat dbr:Los_Angeles ;
+    dbp:seatType "Largest city"@en ;
+    dbp:subdivisionName dbr:California,
+        <http://dbpedia.org/resource/Imperial_County,_California>,
+        <http://dbpedia.org/resource/Kern_County,_California>,
+        <http://dbpedia.org/resource/Los_Angeles_County,_California>,
+        <http://dbpedia.org/resource/Orange_County,_California>,
+        <http://dbpedia.org/resource/Riverside_County,_California>,
+        <http://dbpedia.org/resource/San_Bernardino_County,_California>,
+        <http://dbpedia.org/resource/San_Diego_County,_California>,
+        <http://dbpedia.org/resource/San_Luis_Obispo_County,_California>,
+        <http://dbpedia.org/resource/Santa_Barbara_County,_California>,
+        <http://dbpedia.org/resource/Ventura_County,_California>,
+        "United States"@en ;
+    dbp:subdivisionType dbr:List_of_counties_in_California,
+        dbr:List_of_sovereign_states,
+        "State"@en ;
+    dbp:wikiPageUsesTemplate dbt:Authority_control,
+        dbt:California,
+        dbt:Cite_book,
+        dbt:Cite_journal,
+        dbt:Clear,
+        dbt:Col-2,
+        dbt:Col-begin,
+        dbt:Col-end,
+        dbt:Colbegin,
+        dbt:Colend,
+        dbt:Commons_category,
+        dbt:Convert,
+        dbt:Coord,
+        dbt:Incomplete_list,
+        dbt:Infobox_settlement,
+        dbt:Main,
+        dbt:More_citations_needed,
+        dbt:More_citations_needed_section,
+        dbt:Multiple_image,
+        dbt:Nts,
+        dbt:Portal,
+        dbt:Redirects_here,
+        dbt:Reflist,
+        dbt:See_also,
+        dbt:Short_description,
+        dbt:Southern_California_megaregion,
+        dbt:Sup,
+        dbt:US_Census_population,
+        dbt:Use_mdy_dates,
+        dbt:Wide_image,
+        dbt:Wikivoyage ;
+    dcterms:subject dbc:Megapolitan_areas_of_California,
+        dbc:Regions_of_California,
+        dbc:Southern_California ;
+    gold:hypernym dbr:Region ;
+    schema1:sameAs <http://viaf.org/viaf/315160367> ;
+    georss:point "34.0 -117.0" ;
+    geo1:geometry "POINT(-117 34)"^^ogcgs:wktLiteral ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/AT&SF44CatLosAngelesCA9-24-66.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Beckman_Institute_Reflection.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Blacks_surfer_(cropped).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Distribution_of_high_income_households_across_LA_County.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Downtown_San_Bernardino.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hermosa_Beach_Pier_I_(262176665)_(cropped).jpeg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hollywood_Sign_PB050006.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-105_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-10_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-110_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-15_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-210_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-215_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-405_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-40_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-5_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-605_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-710_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-805_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-8_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/I-905_(CA).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/LaJollaSkyline.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/LaJolla_California.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Los_Angeles_downtown_p1000070.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Los_Angeles_downtown_sunset_cityscape.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Proctorvalleylake.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Royce_Hall_post_rain.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/San_Diego_panoramic_skyline_at_night.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/San_Gabriel_Mountains_(2972839468).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Santamonicapierandbeachpanorama.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sdmarina.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Shake_Map_Northridge_1994.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sleepingbeautycastle50.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/SocalfreewaysystemWIKI.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Southern_California.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Southern_California_Köppen.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Southern_California_counties_in_red_noshade.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sunset_pier.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Taco_Bell_Headquarters_Irvine.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Telegraph_Cucamonga_and_Ontario_Peaks.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Three_Arch_Bay_Photo_Taken_by_pilot_D_Ramey_Logan.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/US_101_(1961_cutout).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/US_395_(1961_cutout).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/US_95_(1961_cutout).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Venice,_California_Beach.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Wpdms_shdrlfi020l_tehachapi_mountains.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Yucca_Valley_California_2017.jpg> ;
+    foaf:name "Southern California"@en .
+

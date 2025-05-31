@@ -1,0 +1,21 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+
+dbr:Common_Market_Law_Review dbo:academicDiscipline dbr:Law_of_the_European_Union ;
+    dbp:discipline dbr:Law_of_the_European_Union .
+
+dbr:Henry_G._Schermers dbp:subDiscipline dbr:Law_of_the_European_Union .
+
+dbr:John_Bell_\(legal_scholar\) dbo:academicDiscipline dbr:Law_of_the_European_Union ;
+    dbp:fields dbr:Law_of_the_European_Union .
+
+wikipedia-en:Law_of_the_European_Union foaf:primaryTopic dbr:Law_of_the_European_Union .
+
+dbr:Law_of_the_European_Union dbp:wikiPageUsesTemplate dbt:R_from_move,
+        dbt:R_from_word_rearrangement,
+        dbt:Redirect_category_shell .
+

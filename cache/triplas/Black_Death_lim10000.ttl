@@ -1,0 +1,132 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Ole_Jørgen_Benedictow dbo:academicDiscipline dbr:Black_Death ;
+    dbp:fields dbr:Black_Death .
+
+dbr:Sharon_N._DeWitte dbp:mainInterests dbr:Black_Death .
+
+wikipedia-en:Black_Death foaf:primaryTopic dbr:Black_Death .
+
+dbr:Black_Death a yago:Abstraction100002137,
+        yago:Calamity107314838,
+        yago:Epidemic107435533,
+        yago:Event100029378,
+        yago:FundamentalQuantity113575869,
+        yago:Happening107283608,
+        yago:Measure100033615,
+        yago:MiddleAge115153472,
+        yago:Misfortune107304852,
+        yago:Outbreak107435273,
+        yago:Pandemic107435713,
+        yago:PsychologicalFeature100023100,
+        yago:TimeOfLife115144371,
+        yago:TimePeriod115113229,
+        yago:Trouble107289014,
+        yago:Wikicat14th-centuryDisasters,
+        yago:WikicatEpidemics,
+        yago:WikicatLateMiddleAges,
+        yago:WikicatMiddleAges,
+        yago:WikicatPandemics,
+        yago:YagoPermanentlyLocatedEntity,
+        dbo:MusicGenre,
+        dbo:Pandemic,
+        owl:Thing ;
+    dbo:disease dbr:Bubonic_plague ;
+    dbp:align "right"@en ;
+    dbp:alt "The spread of the Black Death in Europe and the Near East"@en ;
+    dbp:caption "Oriental rat flea  infected with the Yersinia pestis bacterium which appears as a dark mass in the gut. The foregut  of this flea is blocked by a Y. pestis biofilm; when the flea feeds on an uninfected host Y. pestis is regurgitated into the wound, causing infection."@en,
+        "The Oriental rat flea  engorged with blood. This species of flea is the primary vector for the transmission of Yersinia pestis, the organism responsible for spreading bubonic plague in most plague epidemics. Both male and female fleas feed on blood and can transmit the infection."@en,
+        "The spread of the Black Death in Europe, North Africa, and the Near East"@en ;
+    dbp:date 1346,
+        "April 2020"@en ;
+    dbp:deaths 75000000 ;
+    dbp:direction "horizontal"@en ;
+    dbp:disease dbr:Bubonic_plague ;
+    dbp:image "Flea infected with yersinia pestis.jpg"@en,
+        "Xenopsylla chepsis .jpg"@en ;
+    dbp:imageSize 400 ;
+    dbp:location "Eurasia and North Africa"@en ;
+    dbp:name "Black Death"@en ;
+    dbp:quote "The seventh year after it began, it came to England and first began in the towns and ports joining on the seacoasts, in Dorsetshire, where, as in other counties, it made the country quite void of inhabitants so that there were almost none left alive.... But at length it came to Gloucester, yea even to Oxford and to London, and finally it spread over all England and so wasted the people that scarce the tenth person of any sort was left alive."@en ;
+    dbp:reason 200000000 ;
+    dbp:source "Geoffrey the Baker, Chronicon Angliae"@en ;
+    dbp:width 25,
+        180,
+        214 ;
+    dbp:wikiPageUsesTemplate dbt:Authority_control,
+        dbt:Better_source_needed,
+        dbt:Black_Death,
+        dbt:Blockquote,
+        dbt:By_who%3F,
+        dbt:Circa,
+        dbt:Citation,
+        dbt:Citation_needed,
+        dbt:Cite_book,
+        dbt:Cite_journal,
+        dbt:Commons_category,
+        dbt:Convert,
+        dbt:Efn,
+        dbt:Epidemics,
+        dbt:Harvid,
+        dbt:History_of_infectious_disease,
+        dbt:In_Our_Time,
+        dbt:Infobox_pandemic,
+        dbt:Lang-grc,
+        dbt:Main,
+        dbt:Multiple_image,
+        dbt:Notelist,
+        dbt:Open_access,
+        dbt:Other_uses,
+        dbt:Page_needed,
+        dbt:Pp-vandalism,
+        dbt:ProQuest,
+        dbt:Quotation,
+        dbt:Quote_box,
+        dbt:R,
+        dbt:Refbegin,
+        dbt:Refend,
+        dbt:Reflist,
+        dbt:See_also,
+        dbt:Sfn,
+        dbt:Short_description,
+        dbt:Use_British_English,
+        dbt:Use_dmy_dates ;
+    dcterms:subject dbc:1340s_in_Asia,
+        dbc:1340s_in_Europe,
+        dbc:1350s_in_Asia,
+        dbc:1350s_in_Europe,
+        dbc:14th-century_health_disasters,
+        dbc:Black_Death,
+        dbc:Causes_of_death,
+        dbc:Eurasian_history,
+        dbc:History_of_medieval_medicine,
+        dbc:History_of_the_Middle_East,
+        dbc:Medieval_health_disasters,
+        dbc:Plague_pandemics,
+        dbc:Second_plague_pandemic ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/1346-1353_spread_of_the_Black_Death_in_Europe_map.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Acral_gangrene_due_to_plague.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Bubonic_plague_victims-mass_grave_in_Martigues,_France_1720-1721.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Doutielt1.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Doutielt3.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Flea_infected_with_yersinia_pestis.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Great_plague_of_london-1665.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Nuremberg_chronicles_-_Dance_of_Death_(CCLXIIIIv).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Paul_Fürst,_Der_Doctor_Schnabel_von_Rom_(coloured_version).png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Plague_bubo.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/The_Triumph_of_Death_P001393.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/World_distribution_of_plague_1998.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Xenopsylla_chepsis_(oriental_rat_flea).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Yersinia_pestis_fluorescent.jpeg> ;
+    foaf:name "Black Death"@en .
+

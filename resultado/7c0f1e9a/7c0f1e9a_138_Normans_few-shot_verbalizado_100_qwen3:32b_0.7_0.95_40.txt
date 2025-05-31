@@ -1,0 +1,27 @@
+<think>
+Okay, let's see. The user wants me to generate a CSV file based on the provided context and instructions. The task involves analyzing the content, extracting specific information, and formatting it into a structured CSV. 
+
+First, I need to go through each context block and identify the relevant data points. The instructions mention that each line in the CSV should contain the ID of the context (like "Contexto 32"), the question, the correct answer, and the incorrect answers. The incorrect answers need to be plausible but wrong options.
+
+Starting with Contexto 32, the question is about the architectural language of the Normans. The answer is "românico" (Romanesque). Possible incorrect answers might be other architectural styles like Gothic or Renaissance. 
+
+Next, Contexto 33 talks about the type of architecture that came after Norman in England. The correct answer is "nício do gótico" (beginning of Gothic). Incorrect options could be Renaissance or Baroque. 
+
+Contexto 34 mentions the person who used the church as a unifying force. The answer is "duques" (dukes). Incorrect answers might be bishops, kings, or popes.
+
+For each context, I need to ensure the question is clear, the correct answer is accurate, and the incorrect answers are plausible. I'll also check for any possible errors in the original data, like typos or inconsistencies. Once all entries are processed, I'll compile them into a CSV with the specified columns: ID, Question, Correct Answer, Incorrect Answers 1-3. Making sure the order and formatting are correct is crucial here.
+</think>
+
+```csv
+ID,Questão,Resposta Correta,Resposta Incorreta 1,Resposta Incorreta 2,Resposta Incorreta 3
+Contexto 32,Qual é o idioma da arquitetura normanda?,românico,gótico,renascentista,barroco
+Contexto 33,Que tipo de arquitectura veio antes de Norman na Inglaterra?,anglo-saxão,românico,gótico,bizantino
+Contexto 34,Quem usou a igreja para se unir?,duques,bispos,reis,papas
+Contexto 36,Qual é a peça mais conhecida da arte normanda?,tapeçaria de Bayeux,catedral de Rouen,abadia de Fécamp,abadia de Jumièges
+Contexto 37,Qual é o tipo mais importante de arte normanda preservada nas igrejas?,mosaicos,fontes batismais,coroas bizantinas,capitéis
+Contexto 38,Em que século ocorreram importantes desenvolvimentos da música clássica na Normandia?,século XI,século X,século XII,século IX
+Contexto 39,Para onde os monges fugiram?,sul da Itália,Espanha,Inglaterra,Alemanha
+Contexto 31,Onde estão Jersey e Guernsey?,Ilhas do Canal,França,Espanha,Bélgica
+Contexto 35,Quando foram as guerras religiosas francesas?,século XVI,século XV,século XVII,século XVIII
+Contexto 30,Quem vendeu os direitos?,Maciot de Bethencourt,Bethencourt,Enrique Pérez de Guzmán,Guillaume de Guzmán
+```

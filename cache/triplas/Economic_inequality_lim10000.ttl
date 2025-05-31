@@ -1,0 +1,145 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix ns11: <http://zbw.eu/stw/mapping/dbpedia/> .
+@prefix ns12: <http://dbpedia.org/resource/Winners_Take_All:> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:1968_movement_in_Pakistan dbp:causes dbr:Economic_inequality .
+
+dbr:After_Piketty dbp:subjects dbr:Economic_inequality .
+
+dbr:Anarchist_insurrection_of_Alt_Llobregat dbp:cause dbr:Economic_inequality .
+
+dbr:Branko_Milanović dbo:field dbr:Economic_inequality ;
+    dbp:field dbr:Economic_inequality .
+
+dbr:Capital_and_Ideology dbp:subjects dbr:Economic_inequality .
+
+dbr:Capital_in_the_Twenty-First_Century dbp:subjects dbr:Economic_inequality .
+
+dbr:IQ_and_the_Wealth_of_Nations dbo:nonFictionSubject dbr:Economic_inequality .
+
+dbr:Land_Reform_Movement_\(China\) dbp:motive dbr:Economic_inequality .
+
+dbr:Mick_Moore_\(political_economist\) dbo:mainInterest dbr:Economic_inequality ;
+    dbp:mainInterests dbr:Economic_inequality .
+
+dbr:Nathan_Cummings_Foundation dbp:focus dbr:Economic_inequality .
+
+dbr:Nora_Lustig dbo:field dbr:Economic_inequality .
+
+dbr:Occupy_Atlanta dbp:causes dbr:Economic_inequality .
+
+dbr:Occupy_Berlin dbp:causes dbr:Economic_inequality .
+
+dbr:Occupy_Buffalo dbp:causes dbr:Economic_inequality .
+
+dbr:Occupy_San_Diego dbp:causes dbr:Economic_inequality .
+
+dbr:Occupy_Texas_State dbp:causes dbr:Economic_inequality .
+
+dbr:Occupy_Windsor dbp:causes dbr:Economic_inequality .
+
+dbr:Richard_G._Wilkinson dbo:academicDiscipline dbr:Economic_inequality .
+
+dbr:Robert_Wade_\(scholar\) dbo:academicDiscipline dbr:Economic_inequality ;
+    dbp:fields dbr:Economic_inequality .
+
+dbr:The_Hidden_Wealth_of_Nations dbo:nonFictionSubject dbr:Economic_inequality .
+
+dbr:The_Rich_and_the_Rest_of_Us dbo:nonFictionSubject dbr:Economic_inequality ;
+    dbp:subject dbr:Economic_inequality .
+
+ns12:_The_Elite_Charade_of_Changing_the_World dbp:subjects dbr:Economic_inequality .
+
+wikipedia-en:Economic_inequality foaf:primaryTopic dbr:Economic_inequality .
+
+dbr:Economic_inequality a yago:Abstraction100002137,
+        yago:Cognition100023271,
+        yago:Communication100033020,
+        yago:Content105809192,
+        yago:Fact106636259,
+        yago:Index106639674,
+        yago:Information106634376,
+        yago:Issue105814650,
+        yago:Message106598915,
+        yago:PsychologicalFeature100023100,
+        yago:WikicatEconomicIndicators,
+        yago:WikicatGlobalizationIssues,
+        yago:WikicatSocialIssues,
+        dbo:Disease ;
+    dbp:align "right"@en ;
+    dbp:alt "Skid row tents"@en,
+        "a Beverly Hills mansion"@en ;
+    dbp:caption "An affluent house in Holmby Hills, Los Angeles, roughly 12 miles from downtown"@en,
+        "Tents of the homeless on the sidewalk in Skid Row, Los Angeles"@en ;
+    dbp:direction "vertical"@en ;
+    dbp:header "Wealth disparity in major cities"@en ;
+    dbp:image "Tenting in Los Angeles Skid Row.jpg"@en,
+        "The Manor, Holmby Hills, Los Angeles, in 2008.jpg"@en ;
+    dbp:width 250 ;
+    dbp:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:!>,
+        dbt:Anchor,
+        dbt:Citation,
+        dbt:Citation_needed,
+        dbt:Cite_book,
+        dbt:Cite_journal,
+        dbt:Cite_magazine,
+        dbt:Commons_category,
+        dbt:Div_col,
+        dbt:Div_col_end,
+        dbt:Flag,
+        dbt:Flagcountry,
+        dbt:For,
+        dbt:Further,
+        dbt:ISBN,
+        dbt:KOR,
+        dbt:Main,
+        dbt:Multiple_image,
+        dbt:Needs_update,
+        dbt:Other_uses,
+        dbt:Redirect,
+        dbt:Reflist,
+        dbt:Sfn,
+        dbt:Short_description,
+        dbt:TOC_limit,
+        dbt:Use_mdy_dates,
+        dbt:Vn,
+        dbt:Wealth,
+        dbt:When,
+        dbt:Why,
+        dbt:Wikiquote ;
+    dcterms:isPartOf ns11:target ;
+    dcterms:subject dbc:Distribution_of_wealth,
+        dbc:Economic_globalization,
+        dbc:Economic_inequality,
+        dbc:Libertarian_theory,
+        dbc:Occupy_Wall_Street,
+        dbc:Population_concepts,
+        dbc:Social_inequality ;
+    gold:hypernym dbr:Difference ;
+    skos:closeMatch <http://zbw.eu/stw/descriptor/15718-6> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/2018_Inequality-Adjusted_Human_Development_INdex.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/20220801_Economic_stratification_-_cross-class_friendships_-_bar_chart.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Countries_by_total_wealth_(trillions_USD),_Credit_Suisse.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Elon_Musk_Royal_Society_(crop2).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/GINI_index_World_Bank_up_to_2018.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Global_Wealth_Distribution_2020_(Property).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Global_changes_in_real_income_by_income_percentile_-_v1.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Going_up_or_down_advertisement.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Income_inequality_-_share_of_income_earned_by_top_1�975_to_2015.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kuznets_curve.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/OECD_gender_wage_gap.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tenting_in_Los_Angeles_Skid_Row.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/The_Manor,_Holmby_Hills,_Los_Angeles,_in_2008.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/US_Wealth_Inequality_-_v2.png> .
+

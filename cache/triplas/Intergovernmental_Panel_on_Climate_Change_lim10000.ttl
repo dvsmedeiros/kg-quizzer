@@ -1,0 +1,123 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix ns7: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Bert_Bolin dbo:knownFor dbr:Intergovernmental_Panel_on_Climate_Change .
+
+dbr:Filippo_Giorgi dbo:institution dbr:Intergovernmental_Panel_on_Climate_Change ;
+    dbp:workplaces dbr:Intergovernmental_Panel_on_Climate_Change .
+
+dbr:Julia_Slingo dbo:institution dbr:Intergovernmental_Panel_on_Climate_Change .
+
+dbr:Julie_Arblaster dbo:knownFor dbr:Intergovernmental_Panel_on_Climate_Change ;
+    dbp:knownFor dbr:Intergovernmental_Panel_on_Climate_Change .
+
+dbr:Kevin_E._Trenberth dbo:knownFor dbr:Intergovernmental_Panel_on_Climate_Change .
+
+dbr:Martti_Ahtisaari dbp:before dbr:Intergovernmental_Panel_on_Climate_Change .
+
+dbr:Mohan_Munasinghe dbo:knownFor dbr:Intergovernmental_Panel_on_Climate_Change .
+
+dbr:Rajendra_K._Pachauri dbo:occupation dbr:Intergovernmental_Panel_on_Climate_Change .
+
+dbr:Renewable_Energy_Sources_and_Climate_Change_Mitigation dbo:author dbr:Intergovernmental_Panel_on_Climate_Change ;
+    dbp:author dbr:Intergovernmental_Panel_on_Climate_Change .
+
+dbr:Richard_Samson_Odingo dbo:knownFor dbr:Intergovernmental_Panel_on_Climate_Change .
+
+dbr:Sergey_Gulev dbo:knownFor dbr:Intergovernmental_Panel_on_Climate_Change .
+
+wikipedia-en:Intergovernmental_Panel_on_Climate_Change foaf:primaryTopic dbr:Intergovernmental_Panel_on_Climate_Change .
+
+dbr:Intergovernmental_Panel_on_Climate_Change a yago:Abstraction100002137,
+        yago:AdministrativeUnit108077292,
+        yago:Agency108337324,
+        yago:Group100031264,
+        yago:Institution108053576,
+        yago:Organization108008335,
+        yago:PoliticalUnit108359949,
+        yago:SocialGroup107950920,
+        yago:State108168978,
+        yago:Unit108189659,
+        yago:WikicatClimateChangeOrganizations,
+        yago:WikicatIntergovernmentalOrganizations,
+        yago:WikicatInternationalEnvironmentalOrganizations,
+        yago:WikicatMeteorologicalInstitutionsAndStations,
+        yago:WikicatOrganisationsBasedInGeneva,
+        yago:WikicatOrganizationsEstablishedIn1988,
+        yago:WikicatUnitedNations,
+        yago:WikicatUnitedNationsSpecializedAgencies,
+        yago:WikicatWorkingGroups,
+        yago:WorkingGroup108408900,
+        yago:YagoLegalActor,
+        yago:YagoLegalActorGeo,
+        yago:YagoPermanentlyLocatedEntity,
+        dbo:Agent,
+        dbo:Organisation,
+        dbo:PersonFunction,
+        schema1:Organization,
+        ns7:Agent,
+        ns7:SocialPerson,
+        owl:Thing,
+        wikidata:Q24229398,
+        wikidata:Q43229 ;
+    dbo:abbreviation "IPCC" ;
+    dbo:headquarter dbr:Geneva ;
+    dbo:leaderFunction dbr:Intergovernmental_Panel_on_Climate_Change__PersonFunction__1 ;
+    dbo:parentOrganisation dbr:United_Nations_Environment_Program,
+        dbr:World_Meteorological_Organization ;
+    dbp:abbreviation "IPCC"@en ;
+    dbp:headquarters "Geneva, Switzerland"@en ;
+    dbp:leaderName dbr:Hoesung_Lee ;
+    dbp:leaderTitle "Chair"@en ;
+    dbp:name "Intergovernmental Panel on Climate Change"@en ;
+    dbp:parentOrganization dbr:United_Nations_Environment_Program,
+        dbr:World_Meteorological_Organization ;
+    dbp:type "Panel"@en ;
+    dbp:wikiPageUsesTemplate dbt:Annotated_link,
+        dbt:Authority_control,
+        dbt:Climate_change,
+        dbt:IPCC,
+        dbt:Infobox_organization,
+        dbt:Main,
+        dbt:Official_URL,
+        dbt:Official_website,
+        dbt:Portal,
+        dbt:Pp-move-indef,
+        dbt:Redirect,
+        dbt:Reflist,
+        dbt:Short_description,
+        dbt:Start_date_and_age,
+        dbt:TOC_level,
+        dbt:United_Nations,
+        dbt:Use_dmy_dates,
+        dbt:Wikisource ;
+    dcterms:subject dbc:Environmental_organizations_established_in_1988,
+        dbc:Intergovernmental_Panel_on_Climate_Change,
+        dbc:International_climate_change_organizations,
+        dbc:Organisations_based_in_Geneva,
+        dbc:Organizations_awarded_Nobel_Peace_Prizes,
+        dbc:Scientific_organizations_established_in_1988,
+        dbc:Swiss_Nobel_laureates,
+        dbc:United_Nations_Environment_Programme,
+        dbc:Working_groups,
+        dbc:World_Meteorological_Organization ;
+    gold:hypernym dbr:Body ;
+    schema1:sameAs <http://viaf.org/viaf/136641781> ;
+    skos:closeMatch <http://www.grid.ac/institutes/grid.482039.4> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Intergovernmental_Panel_on_Climate_Change_Logo.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/John_Houghton_High_Wycombe_20050226.jpg> ;
+    foaf:name "Intergovernmental Panel on Climate Change"@en .
+

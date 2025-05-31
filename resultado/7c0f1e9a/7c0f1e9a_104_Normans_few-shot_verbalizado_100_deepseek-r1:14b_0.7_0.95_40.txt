@@ -1,0 +1,66 @@
+<think>
+Ok, eu preciso gerar um arquivo CSV com base nas informações fornecidas no contexto. Primeiro, vou analisar as instruções e regras que foram dadas.
+
+Vendo os contextos de 1 a 39, cada um contém uma pergunta seguida por respostas possíveis. Por exemplo, no contexto 1 há uma pergunta sobre qual é o idioma falado na Normandia, com duas alternativas: Francês e Inglês. A resposta correta é Francês.
+
+Entendi que para cada contexto, devo criar uma linha no CSV. Cada linha terá três colunas:
+1. ID: que vai de 0001 a 0039.
+2. Questão: a pergunta feita no contexto.
+3. Resposta correta: a opção certa dentre as alternativas.
+
+Vou precisar garantir que o CSV esteja bem formatado, com as colunas separadas por vírgulas e cada entrada em uma nova linha. Além disso, devo remover quaisquer espaços extras para manter a limpeza do arquivo.
+
+Vou começar analisando cada contexto um por um. Por exemplo:
+
+- Contexto 1: Questão é "Qual é o idioma falado na Normandia?", respostas são Francês e Inglês. Resposta correta: Francês.
+- Contexto 2: Questão sobre a capital da Normandia, opções: Paris, Caen, Rouen, Lisieux. Resposta: Rouen.
+
+Continuarei assim para todos os contextos, identificando a pergunta e a resposta certa. Em seguida, formatarei cada entrada no CSV de acordo com o esquema definido.
+
+Preciso também verificar se todas as informações estão claras e que não há ambiguidades nas respostas. Caso haja alguma dúvida, talvez precise reconsiderar, mas acredito que as respostas fornecidas são suficientes.
+
+Por fim, vou montar o CSV com todas as entradas organizadas de forma clara e consistente.
+</think>
+
+```csv
+ID,Questão,Resposta correta
+0001,"Qual é o idioma falado na Normandia?",Francês
+0002,"Qual é a capital da Normandia?",Rouen
+0003,"Em qual século os normandos conquistaram a Inglaterra?",XNUMB; XI
+0004,"Quem foi o duque que ordenou a construção da Torre de Londres?", Guilherme I, o Conquistador
+0005,"Qual é o nome do código postal na Normandia?", Le code postal est 14 (Calvados), 27 (Eure), 50 (Manche), 61 (Orne) e 80 (Pas-de-Calais)
+0006,"Quem foi o fundador da Abadia de Mont-Saint-Michel?", Odo, o Bispo de Bayeux
+0007,"Qual é a principal colheita na Normandia hoje em dia?", Trigo
+0008,"Qual é a moeda usada na Normandia hoje em dia?", Euro
+0009,"Qual é a bandeira da Normandia?", Bandeira branca com um leão vermelho
+0010,"O que os normandos ajudaram a desenvolver na Inglaterra?", Sistema legal e construção de castelos
+0011,"Quem foi o rei que unificou a Inglaterra no século XI?", Eduardo I
+0012,"Qual é o principal porto na Normandia hoje em dia?", Cherbourg-Octeville
+0013,"O que os normandos fizeram para defender suas terras?", Construíram castelos e muralhas
+0014,"Quem foi o rei da Inglaterra após a Conquista Normanha?", Guilherme I, o Conquistador
+0015,"Qual é o significado da palavra 'Normandia' em latim?", Terra dos Normandos
+0016,"Em qual século os normandos se estabeleceram na Sicília?", Século XI
+0017,"Quem foi o fundador do Ducado de Normandia?", Carlos, o Grande ou Rollo
+0018,"Qual é a data da Conquista Normanha da Inglaterra?", 14 de outubro de 1066
+0019,"O que os normandos trouxeram para a Itália Sul?", Artes, arquitetura e sistema legal
+0020,"Qual é o principal rio na Normandia hoje em dia?", Rio Sena
+0021,"Quem foi o rei da Inglaterra após a Revolta dos Barões?", Henrique III
+0022,"Em qual século os normandos construíram castelos na Inglaterra?", Século XI
+0023,"Qual é a capital da França hoje em dia?", Paris
+0024,"Quem foi o fundador da Abadia de Fécamp?", Willigesius, o bispo de Rouen
+0025,"Qual é a principal exportação da Normandia hoje em dia?", Queijo e bebidas lácteas
+0026,"Qual é a principal indústria na Normandia hoje em dia?", Energias renováveis e turismo
+0027,"Quem foi o rei que governou a Inglaterra após a morte de Guilherme I?", Eduardo II
+0028,"Em qual século os normandos construíram a Torre de Londres?", Século XI
+0029,"Qual é o principal produto agrícola na Normandia hoje em dia?", Trigo e cevada
+0030,"Quem foi o fundador da Abadia de Jumièges?", Etienne I, conde de Rouen
+0031,"Qual é a principal universidade na Normandia hoje em dia?", Université de Caen
+0032,"Em qual século os normandos ajudaram a construir castelos na Alemanha?", Século XII
+0033,"Quem foi o rei que governou a Inglaterra após a morte de Henrique I?", Estêvão
+0034,"Qual é a principal cidade portuária na Normandia hoje em dia?", Le Havre
+0035,"O que os normandos fizeram para fortificar suas cidades?", Construíram muralhas e torres
+0036,"Quem foi o fundador da Abadia de Saint-Ouen?", Odão, o Bispo de Rouen
+0037,"Qual é a principal empresa na Normandia hoje em dia?", Industries Alimentaires du Bocage (IAB)
+0038,"Em qual século os normandos ajudaram a construir igrejas na Itália Sul?", Século XI
+0039,"Quem foi o rei que governou a Inglaterra após a morte de Estêvão?", Henrique II
+```

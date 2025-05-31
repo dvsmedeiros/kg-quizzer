@@ -1,0 +1,53 @@
+<think>
+Okay, I need to create a CSV file based on the information provided in various contexts numbered from 31 to 39. Each context has specific questions and answers that will form the rows of the CSV. The columns should be "Contexto", "Pergunta", and "Resposta". 
+
+First, I'll go through each context one by one.
+
+Starting with Contexto 31: It talks about Norman customary law, its development over centuries, and mentions two customals written in Latin. The questions are about where Jersey and Guernsey are located and how many customs the Norman customary law has. So the answers are "Ilhas do Canal" and "dois".
+
+Next, Contexto 32 discusses Norman architecture, highlighting the use of rounded arches and a unique Romanesque style in England and Italy. The questions ask about the architectural language and the type of arches, so I'll note "românico" and "arredondados".
+
+Contexto 33 focuses on the timeline of architecture in England, mentioning Anglo-Saxon before Norman and Gothic after. It also notes that Sicily has a unique Arab-Norman style. The questions here are about the preceding and succeeding architectural styles in England, and where the Arab-Norman style is found.
+
+Moving to Contexto 34: This one is about visual arts, starting with church reforms in the early 11th century led by Norman dukes using Cluniac reforms and scriptoria. The questions ask when the reform started and who used the church for unity, which would be "início do século" and "duques".
+
+Contexto 35 talks about French religious wars in the 16th century and the French Revolution in the 18th, both destroying Norman artistic heritage. The question is straightforward about when these wars occurred.
+
+Contexto 36 highlights Bayeux Tapestry as the most famous Norman art piece, commissioned by Odo of Bayeux using Kentish needlework. The questions are about the type of embroidery and who commissioned it.
+
+In Contexto 37, it's mentioned that in Southern Italy, Norman art is preserved through mosaics influenced by Greek, Lombard, and Arab styles. The question asks for the most important preserved art form in churches.
+
+Contexto 38 discusses developments in classical music in Normandy during the 11th century at Fécamp Abbey under Italian abbots who developed note notation systems still used today. The questions are about when these developments occurred and who the two abbots were.
+
+Finally, Contexto 39 talks about monks from Saint-Evroul fleeing to Southern Italy with Robert Guiscard, establishing a Latin monastery and continuing their singing tradition. The questions relate to where they fled, the name of the monastery, who supported them, and their known tradition.
+
+Now, I'll organize each context's question and answer into rows for the CSV, ensuring each row corresponds to one Q&A pair from each context.
+</think>
+
+Here is the organized CSV based on the provided contexts:
+
+```csv
+Contexto,Pergunta,Resposta
+31,Onde estão Jersey e Guernsey?,Ilhas do Canal
+31,Quantos costumes tem o direito costumeiro normando?,dois
+32,Qual é o idioma da arquitetura normanda?,românico
+32,Que tipo de arcos possui a arquitetura Norman?,arredondados
+33,Que lugar tinha o estilo arquitetônico árabe normando?,Sicília.
+33,Que tipo de arquitetura veio depois de Norman na Inglaterra?,nício do gótico.
+33,Que tipo de arquitetura veio antes de Norman na Inglaterra?,nglo-saxão
+34,Quando a reforma da igreja começou?,início do século
+34,Quem usou a igreja para se unir?,duques
+35,Quando foram as guerras religiosas francesas?,século XVI
+36,Qual é o tipo mais importante de bordado usado na tapeçaria de Bayeux?,bordado.
+36,Qual é a peça mais conhecida da arte normanda?,tapeçaria de Bayeux
+36,Quem encomendou a tapeçaria?,Odo
+37,Qual é o tipo mais importante de arte normanda preservada nas igrejas?,mosaicos
+38,Em que século ocorreram importantes desenvolvimentos da música clássica na Normandia?,XI
+38,Quem eram os dois abades na Abadia de Fécamp?,William de Volpiano e John de Ravenna
+39,Para onde os monges fugiram?,sul da Itália
+39,Que mosteiro os monges de Saint-Evroul estabeleceram na Itália?,Mosteiro latino em Sant'Eufemia.
+39,Quem frequentou os monges na Itália?,Robert Guiscard
+39,Por que tradição os monges de Saint-Evroul eram conhecidos?,canto
+```
+
+This CSV accurately reflects the information from each context, ensuring clarity and organization for easy reference.

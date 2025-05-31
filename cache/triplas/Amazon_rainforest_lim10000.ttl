@@ -1,0 +1,165 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix georss: <http://www.georss.org/georss/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix ogcgs: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix umbel-rc: <http://umbel.org/umbel/rc/> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Emilie_Snethlage dbo:knownFor dbr:Amazon_rainforest .
+
+dbr:Guillermo_Cervantes dbo:deathPlace dbr:Amazon_rainforest ;
+    dbp:deathPlace dbr:Amazon_rainforest .
+
+dbr:Habanero dbo:origin dbr:Amazon_rainforest .
+
+dbr:Macro-Otomákoan_languages dbp:region dbr:Amazon_rainforest .
+
+dbr:Maria_Koepcke dbo:deathPlace dbr:Amazon_rainforest ;
+    dbp:deathPlace dbr:Amazon_rainforest .
+
+dbr:Naked_and_Afraid_XL dbp:auxa dbr:Amazon_rainforest .
+
+<http://dbpedia.org/resource/Nature's_Microworlds> dbp:aux dbr:Amazon_rainforest .
+
+wikipedia-en:Amazon_rainforest foaf:primaryTopic dbr:Amazon_rainforest .
+
+dbr:Amazon_rainforest a yago:Abstraction100002137,
+        yago:Attribute100024264,
+        yago:Collection107951464,
+        yago:Condition113920835,
+        yago:Drought114537054,
+        yago:Dryness114536438,
+        yago:Forest108438533,
+        yago:Group100031264,
+        yago:RainForest108439126,
+        yago:State100024720,
+        yago:Vegetation108436759,
+        yago:WikicatDroughtsInAmerica,
+        yago:WikicatForests,
+        yago:WikicatForestsOfBolivia,
+        yago:WikicatForestsOfBrazil,
+        yago:WikicatForestsOfPeru,
+        yago:WikicatForestsOfVenezuela,
+        yago:WikicatRainforests,
+        dbo:ProtectedArea,
+        umbel-rc:Location_Underspecified,
+        owl:Thing,
+        geo1:SpatialThing ;
+    dbp:align "right"@en ;
+    dbp:caption "Deforestation in the Maranhão state of Brazil, 2016"@en,
+        "Timelapse of the deforestation 1984–2018"@en,
+        "Wildfires in Brazil's indigenous territory, 2017"@en ;
+    dbp:country "Bolivia, Brazil, Colombia, Ecuador, French Guiana , Guyana, Peru, Suriname, and Venezuela"@en ;
+    dbp:direction "horizontal"@en ;
+    dbp:image "Amazon Rainforest, Brazil Timelapse 1984-2018.gif"@en,
+        "Operação Hymenaea, Julho-2016 .jpg"@en,
+        "Terra Indígena Porquinhos, Maranhão .jpg"@en ;
+    dbp:mapCaption "Map of the Amazon rainforest ecoregions as delineated by the WWF in dark green and the Amazon drainage basin in light green."@en ;
+    dbp:mapImage "Amazon rainforest .svg"@en ;
+    dbp:name "Amazon rainforest"@en ;
+    dbp:nativeLang "es"@en,
+        "pt"@en ;
+    dbp:nativeName "Floresta amazônica"@en,
+        "Selva amazónica"@en ;
+    dbp:photo "Amazon17 .jpg"@en ;
+    dbp:photoCaption "Aerial view of the Amazon rainforest near Manaus"@en ;
+    dbp:totalWidth 700 ;
+    dbp:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:!>,
+        dbt:Authority_control,
+        dbt:Citation_needed,
+        dbt:Cite_journal,
+        dbt:Clear,
+        dbt:Commons_category,
+        dbt:Convert,
+        dbt:Coord,
+        dbt:Div_col,
+        dbt:Div_col_end,
+        dbt:Efn,
+        dbt:ISBN%3F,
+        dbt:Infobox_forest,
+        dbt:Main,
+        dbt:Multiple_image,
+        dbt:New7Wonders_of_Nature,
+        dbt:Notelist,
+        dbt:Pp-semi-vandalism,
+        dbt:Redirect2,
+        dbt:Refbegin,
+        dbt:Refend,
+        dbt:Reflist,
+        dbt:Regions_of_the_world,
+        dbt:See_also,
+        dbt:Short_description,
+        dbt:Use_mdy_dates,
+        dbt:Vague,
+        dbt:Visible_anchor,
+        dbt:Wikivoyage ;
+    dcterms:subject dbc:Amazon_River,
+        dbc:Amazon_basin,
+        dbc:Amazon_biome,
+        dbc:Amazon_rainforest,
+        dbc:Droughts_in_South_America,
+        dbc:Ecoregions_of_South_America,
+        dbc:Forestry_in_South_America,
+        dbc:Natural_history_of_Brazil,
+        dbc:Natural_history_of_Ecuador,
+        dbc:Natural_history_of_Peru,
+        dbc:Neotropical_ecoregions,
+        dbc:Rainforests,
+        dbc:Regions_of_South_America,
+        dbc:Tropical_and_subtropical_moist_broadleaf_forests ;
+    gold:hypernym dbr:Forest ;
+    georss:point "-3.0 -60.0" ;
+    geo1:geometry "POINT(-60 -3)"^^ogcgs:wktLiteral ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/2021_Top_ten_countries_for_tropical_primary_forest_loss_-_World_Resources_Institute.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/20220910_Amazon_deforestation_and_degradation,_by_country_-_Amazon_Watch.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Afternoon_Clouds_over_the_Amazon_Rainforest.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Amazon17_(5641020319).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Amazon_CIAT_(2).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Amazon_CIAT_(5).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Amazon_Rainforest,_Brazil_Timelapse_1984-2018.gif>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Amazon_rainforest_(orthographic_projection).svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ara_macao_-_two_at_Lowry_Park_Zoo.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Avicularia-geroldi-subadult.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Bauhinia_guianensis,_mature_liana_(9340889588).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Black_caiman_Macrofotografie_2.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Campo12Foto_2.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Climate_change_disturbances_of_rainforests_infographic.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Deforestation_of_Rainforest.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/DeforestationinBrazil2.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Dendrobates_azureus_(Dendrobates_tinctorius)_Edit.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Emperor_Tamarin_(EXPLORE)_(9714001143).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Eunectes_murinus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Fires_and_Deforestation_on_the_Amazon_Frontier,_Rondonia,_Brazil_-_August_12,_2007.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Fires_and_Deforestation_on_the_Amazon_Frontier,_Rondonia,_Brazil_-_September_30,_2007.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Giant_Waxy_Monkey_Frog.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Greenhouse_Gas_by_Sector.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Heliconia_aemygdiana_(14551077262).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hoatzins_in_Brazil.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Indian_protesters_from_Vale_do_Javarí_in_Belém_2009_1530FP8886.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Inneres_eines_Schabono_4.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Isolierte-Völker.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Isulas_(8583611782).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Manuel_Antonio_(43).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Many_parrots_-Anangu,_Yasuni_National_Park,_Ecuador_-clay_lick-8.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Operação_Hymenaea,_Julho-2016_(29399454651).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Parc_amazonien_de_Guyane,_une_balade_à_Saül.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Purus_Red_Howler_Monkey.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Roots_by_cesarpb.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/September_Smoke_Over_the_Amazon_from_2005-2008.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Skyline_Parcial_de_Manaus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Standing_jaguar.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Terra_Indígena_Porquinhos,_Maranhão_(38928905194).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Uakari_male.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Walking_tree.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Índios_isolados_no_Acre_5.jpg> .
+

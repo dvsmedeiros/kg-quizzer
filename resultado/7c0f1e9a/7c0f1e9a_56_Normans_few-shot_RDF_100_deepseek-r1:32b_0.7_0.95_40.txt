@@ -1,0 +1,39 @@
+<think>
+Okay, so I have this user who wants me to generate a CSV based on the provided content. The initial text is in Portuguese, and it seems like they've given me a bunch of context with various questions and answers related to different topics about the Normans—like their history, architecture, art, music, etc.
+
+First, I need to understand what exactly they're asking for. They mentioned generating a CSV based on instructions and rules. Looking back at the conversation, I think they provided some examples earlier, but in this case, maybe they want me to parse through all these contexts and extract key information into a structured format.
+
+I should probably identify each context as a separate section with its own set of questions and answers. Each context might represent a different topic or subject area. For example, the first context is about the user's role, then others are about history, architecture in England, art reforms, etc.
+
+My goal is to create a CSV where each row represents a context (topic), and within each context, there are multiple questions and their corresponding answers. The columns should be "Contexto" for the topic, "Pergunta" for the question, and "Resposta" for the answer.
+
+I need to ensure that each context is treated separately, even if some contexts have multiple questions and answers. So, I'll go through each context one by one, extract all the Q&A pairs within them, and structure them into rows in the CSV accordingly.
+
+Also, I should check if there are any specific instructions or rules they mentioned earlier about formatting, like avoiding markdown or ensuring data consistency. Since they provided an example response with a CSV, I'll follow that format closely to make sure it aligns with their expectations.
+
+I think I've got the gist of it. Now, time to organize all this information systematically into the CSV structure as specified.
+</think>
+
+```csv
+Contexto,Pergunta,Resposta
+Você é um especialista em história medieval normanda?,Que tipo de arquitetura veio depois de Norman na Inglaterra?,nício do gótico.
+Você é um especialista em história medieval normanda?,Que tipo de arquitetura veio antes de Norman na Inglaterra?,nglo-saxão.
+Você é um especialista em história medieval normanda?,Que lugar tinha o estilo arquitetônico árabe normando?,Sicília.
+História da Normandia e impactos na Inglaterra,Qual foi a importância do Conquistador Normando para a Inglaterra?,O Conquistador Normando introduziu mudanças significativas no governo e na cultura inglesa..
+História da Normandia e impactos na Inglaterra,O que aconteceu após a conquista normanda da Sicília?,A conquista da Sicília permitiu aos normandos expandir seu território e influência na Itália..
+História da Normandia e impactos na Inglaterra,Qual foi o nome do duque que conquistou a Sicília?,Ruggero II.
+Impactos da Conquista Norman sobre a Arquitetura na Inglaterra,A arquitetura normanda se destaca por quê nas regiões que eles subjugaram?,Uma nova etapa na história arquitetônica..
+Impactos da Conquista Norman sobre a Arquitetura na Inglaterra,Qual é o idioma da arquitetura normanda?,românico.
+Impactos da Conquista Norman sobre a Arquitetura na Inglaterra,Que tipo de arcos possui a arquitetura Norman?,arredondados.
+Reforma da Igreja e arte normanda,No início do século XI, os duques iniciaram um programa de reforma da igreja. Qual foi o objetivo disso?,Incentivar a reforma Cluniac de mosteiros e atividades intelectuais..
+Reforma da Igreja e arte normanda,Qual foi a principal força unificadora usada pelos duques na Normandia?,A igreja.
+Preservação do Patrimônio Normando,Quais guerras religiosas destruíram parte do patrimônio arquitetônico e artístico normando?,As guerras religiosas francesas no século XVI..
+Preservação do Patrimônio Normando,O que causou a destruição intencional de objetos religiosos na Revolução Francesa?,O ataque à religião..
+Arte Normanda,Qual é o tipo mais importante de arte normanda preservada nas igrejas?,mosaicos.
+Música Clássica na Normandia,No século XI, a Normandia foi um local de desenvolvimentos importantes na história da música clássica. Quais foram esses desenvolvimentos?,Desenvolvimento do sistema de denotar notas por letras..
+Música Clássica na Normandia,Quiçás os dois abades na Abadia de Fécamp que contribuíram para o desenvolvimento musical?,William de Volpiano e John de Ravenna.
+Canto e Mosteiros Normandos,Para onde os monges fugiram de Saint-Evroul?,sul da Itália..
+Canto e Mosteiros Normandos,Qaul mosteiro os monges de Saint-Evroul estabeleceram na Itália?,Mosteiro latino em Sant'Eufemia.
+Canto e Mosteiros Normandos,Quiçás o patrono dos monges na Itália?,Robert Guiscard.
+Canto e Mosteiros Normandos,Qual era a principal tradição dos monges de Saint-Evroul?,canto.
+```

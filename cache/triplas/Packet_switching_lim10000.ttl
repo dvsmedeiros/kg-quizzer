@@ -1,0 +1,72 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Donald_Davies dbo:knownFor dbr:Packet_switching ;
+    dbp:knownFor dbr:Packet_switching .
+
+dbr:Paul_Baran dbo:knownFor dbr:Packet_switching ;
+    dbp:knownFor dbr:Packet_switching .
+
+dbr:Sharla_Boehm dbo:academicDiscipline dbr:Packet_switching ;
+    dbp:field dbr:Packet_switching .
+
+dbr:W._David_Sincoskie dbo:knownFor dbr:Packet_switching ;
+    dbp:knownFor dbr:Packet_switching .
+
+wikipedia-en:Packet_switching foaf:primaryTopic dbr:Packet_switching .
+
+dbr:Packet_switching a yago:Artifact100021939,
+        yago:ComputerNetwork103085333,
+        yago:Instrumentality103575240,
+        yago:Medium106254669,
+        yago:Network103820728,
+        yago:Object100002684,
+        yago:PhysicalEntity100001930,
+        yago:System104377057,
+        yago:Telecommunication106271778,
+        yago:Whole100003553,
+        yago:WikicatComputerNetworks,
+        yago:WikicatTelecommunications,
+        dbo:Software,
+        owl:Thing ;
+    dbp:date "2009-08-01"^^xsd:date,
+        "2011-03-29"^^xsd:date ;
+    dbp:url <https://web.archive.org/web/20090801003519/http:/www.rogerdmoore.ca/PS/>,
+        <https://web.archive.org/web/20110329223245/http:/www.rand.org/about/history/baran-list.html> ;
+    dbp:wikiPageUsesTemplate dbt:Anchor,
+        dbt:Authority_control,
+        dbt:Blockquote,
+        dbt:Citation,
+        dbt:Citation_needed,
+        dbt:Further,
+        dbt:IETF_RFC,
+        dbt:Internet,
+        dbt:Main,
+        dbt:Multiplex_techniques,
+        dbt:Reflist,
+        dbt:See_also,
+        dbt:Short_description,
+        dbt:TOC_limit,
+        dbt:Telecommunications,
+        dbt:Use_American_English,
+        dbt:Webarchive,
+        dbt:When%3F ;
+    dcterms:subject dbc:Computer_networking,
+        dbc:History_of_the_Internet,
+        dbc:Network_protocols,
+        dbc:Packets_\(information_technology\) ;
+    gold:hypernym dbr:Method ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/CCITT_SGVII_X25_Advocates.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/NSFNET-traffic-visualization-1991.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Packet_Switching.gif> .
+

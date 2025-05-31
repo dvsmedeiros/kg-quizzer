@@ -1,0 +1,94 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix umbel-rc: <http://umbel.org/umbel/rc/> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Callianira_hexagona gold:hypernym dbr:Ctenophora .
+
+dbr:Coelenterata dbp:imageCaption dbr:Ctenophora .
+
+dbr:Coeloplana gold:hypernym dbr:Ctenophora .
+
+dbr:Vallicula gold:hypernym dbr:Ctenophora .
+
+wikipedia-en:Ctenophora foaf:primaryTopic dbr:Ctenophora .
+
+dbr:Ctenophora a yago:Animal100015388,
+        yago:Ctenophore101918744,
+        yago:Invertebrate101905661,
+        yago:LivingThing100004258,
+        yago:Object100002684,
+        yago:Organism100004475,
+        yago:PhysicalEntity100001930,
+        yago:Whole100003553,
+        yago:WikicatBioluminescentOrganisms,
+        yago:WikicatCtenophores,
+        dbo:Animal,
+        dbo:Species,
+        umbel-rc:Animal,
+        umbel-rc:BiologicalLivingObject,
+        umbel-rc:EukaryoticCell,
+        owl:Thing ;
+    dbp:authority "Eschscholtz, 1829"@en ;
+    dbp:imageCaption "\"Ctenophorae\" from Ernst Haeckel's Kunstformen der Natur, 1904"@en ;
+    dbp:name "Comb jellies"@en ;
+    dbp:subdivision """*Tentaculata
+*Nuda
+*Scleroctenophora"""@en ;
+    dbp:subdivisionRanks "Classes"@en ;
+    dbp:taxon "Ctenophora"@en ;
+    dbp:typeSpecies "Mnemiopsis leidyi"@en ;
+    dbp:wikiPageUsesTemplate dbt:Animalia,
+        dbt:Authority_control,
+        dbt:Automatic_taxobox,
+        dbt:Center,
+        dbt:Clade,
+        dbt:Clear,
+        dbt:Commons_category,
+        dbt:Convert,
+        dbt:Cvt,
+        dbt:Etymology,
+        dbt:Eukaryota_classification,
+        dbt:Extinct,
+        dbt:For,
+        dbt:Further,
+        dbt:Geo_range,
+        dbt:Good_article,
+        dbt:Grey,
+        dbt:IPAc-en,
+        dbt:ISBN,
+        dbt:Life_on_Earth,
+        dbt:Ma,
+        dbt:Reflist,
+        dbt:Short_description,
+        dbt:Singular,
+        dbt:Small,
+        dbt:Taxonbar,
+        dbt:Wikt ;
+    dcterms:subject dbc:Animal_phyla,
+        dbc:Articles_containing_video_clips,
+        dbc:Bioluminescent_ctenophores,
+        dbc:Cambrian_Series_2_first_appearances,
+        dbc:Ctenophores,
+        dbc:Extant_Cambrian_first_appearances ;
+    gold:hypernym dbr:Phylum ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Aulacoctena_cydippid_ctenophore.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Bathocyroe_fosteri.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ctenophore.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ctenophore2.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ctenophore_diagram_-_en.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Haeckel_Ctenophorae.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Juvenile_Bolinopsis_ctenophore.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/LightRefractsOf_comb-rows_of_ctenophore_Mertensia_ovum.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lobate_ctenophore.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Medusa010.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Pelagic_ctenophores.png> .
+

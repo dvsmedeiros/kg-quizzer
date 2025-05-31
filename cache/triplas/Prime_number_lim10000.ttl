@@ -1,0 +1,143 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+
+dbr:101_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:103_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:107_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:109_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:113_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:11_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:127_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:131_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:137_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:139_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:13_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:149_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:151_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:157_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:163_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:167_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:173_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:179_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:17_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:181_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:193_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:19_\(number\) dbp:factorization dbr:Prime_number .
+
+<http://dbpedia.org/resource/2,147,483,647> dbp:factorization dbr:Prime_number .
+
+dbr:211_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:23_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:29_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:3 dbp:factorization dbr:Prime_number .
+
+dbr:31_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:37_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:41_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:43_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:47_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:53_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:59_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:61_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:67_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:7 dbp:factorization dbr:Prime_number .
+
+dbr:71_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:73_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:83_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:89_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:97_\(number\) dbp:factorization dbr:Prime_number .
+
+dbr:Heinrich_Scherk dbo:knownFor dbr:Prime_number ;
+    dbp:knownFor dbr:Prime_number .
+
+dbr:Landon_Curt_Noll dbo:knownFor dbr:Prime_number .
+
+wikipedia-en:Prime_number foaf:primaryTopic dbr:Prime_number .
+
+dbr:Prime_number a owl:Thing ;
+    dbp:id "p/p074530"@en ;
+    dbp:mode "cs1"@en ;
+    dbp:title "Prime number"@en ;
+    dbp:wikiPageUsesTemplate dbt:As_of,
+        dbt:Authority_control,
+        dbt:Classes_of_natural_numbers,
+        dbt:Divisor_classes,
+        dbt:Efn,
+        dbt:Further,
+        dbt:Good_article,
+        dbt:In_Our_Time,
+        dbt:Main,
+        dbt:Mvar,
+        dbt:Notelist,
+        dbt:Number_theory,
+        dbt:OEIS,
+        dbt:Portal_bar,
+        dbt:Pp-vandalism,
+        dbt:Prime_number_classes,
+        dbt:Redirect,
+        dbt:Reflist,
+        dbt:Short_description,
+        dbt:Sister_project_links,
+        dbt:SpringerEOM,
+        dbt:Wide_image ;
+    dcterms:subject dbc:Articles_containing_proofs,
+        dbc:Integer_sequences,
+        dbc:Prime_numbers ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Gaussian_primes.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Gears_large.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Pentagon_construct.gif>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Prime-counting_relative_error.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Prime_number_Cuisenaire_rods_7.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Prime_numbers_in_arithmetic_progression_mod&nbsp;9_zoom_in.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Primes-vs-composites.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rhind_Mathematical_Papyrus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Riemann_zeta_function_absolute_value.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sieve_of_Eratosthenes_animation.gif>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sum_of_knots3.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ulam_2.png> .
+

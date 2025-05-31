@@ -1,0 +1,109 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+<http://en.wikipedia.org/wiki/1973_oil_crisis> foaf:primaryTopic <http://dbpedia.org/resource/1973_oil_crisis> .
+
+<http://dbpedia.org/resource/1973_oil_crisis> a yago:Abstraction100002137,
+        yago:Act100030358,
+        yago:Argumentation105773049,
+        yago:Attribute100024264,
+        yago:Calamity107314838,
+        yago:Cognition100023271,
+        yago:Condition113920835,
+        yago:Conflict100958896,
+        yago:Crisis113933560,
+        yago:Difficulty114408086,
+        yago:EconomicPolicy106656741,
+        yago:Embargo106660520,
+        yago:Event100029378,
+        yago:GroupAction101080366,
+        yago:Happening107283608,
+        yago:HigherCognitiveProcess105770664,
+        yago:Misfortune107304852,
+        yago:Policy106656408,
+        yago:Process105701363,
+        yago:Protectionism106658786,
+        yago:PsychologicalFeature100023100,
+        yago:Reasoning105772356,
+        yago:Situation114411243,
+        yago:State100024720,
+        yago:Thinking105770926,
+        yago:TradeBarrier106660224,
+        yago:Trouble107289014,
+        yago:WikicatEconomicDisasters,
+        yago:WikicatEmbargoes,
+        yago:WikicatEnergyCrises,
+        yago:WikicatNaturalResourceConflicts,
+        yago:YagoPermanentlyLocatedEntity,
+        owl:Thing ;
+    dbp:bot "medic"@en ;
+    dbp:caption "Price of oil"@en,
+        "Price of oil adjusted for inflation"@en ;
+    dbp:date "July 2022"@en ;
+    dbp:footer "West Texas Intermediate oil price history 1946–2022"@en ;
+    dbp:image "Crude-oil-price-history-chart-2022.webp"@en,
+        "Price of oil nominal price.webp"@en ;
+    dbp:width 250 ;
+    dbp:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:'s>,
+        dbt:As_of,
+        dbt:Authority_control,
+        dbt:Cbignore,
+        dbt:Citation_needed,
+        dbt:Cite_book,
+        dbt:Cite_journal,
+        dbt:Clarify,
+        dbt:Clear,
+        dbt:Cold_War,
+        dbt:Commons_category,
+        dbt:Convert,
+        dbt:Dead_link,
+        dbt:Div_col,
+        dbt:Div_col_end,
+        dbt:Financial_crises,
+        dbt:Further,
+        dbt:ISBN%3F,
+        dbt:Inflation,
+        dbt:More_citations_needed,
+        dbt:Multiple_image,
+        dbt:Petroleum_industry,
+        dbt:Portal,
+        dbt:Pp-30-500,
+        dbt:Reflist,
+        dbt:See_also,
+        dbt:Sfn,
+        dbt:Short_description,
+        dbt:Snd,
+        dbt:Toclimit,
+        dbt:Use_mdy_dates ;
+    dcterms:subject dbc:1973_in_economics,
+        dbc:1973_in_international_relations,
+        <http://dbpedia.org/resource/Category:Arab–Israeli_conflict>,
+        dbc:Embargoes,
+        dbc:Energy_crises,
+        dbc:Gold_standard,
+        dbc:History_of_the_petroleum_industry,
+        dbc:Inflation,
+        dbc:Natural_resource_conflicts,
+        dbc:Peak_oil,
+        dbc:Petroleum_economics,
+        dbc:Petroleum_politics,
+        dbc:Presidency_of_Richard_Nixon,
+        dbc:Scarcity ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Crude_oil_prices_since_1861.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/FLAG_POLICY_DURING_THE_1973_oil_crisis.gif>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Gas_Stealers_Beware_1974.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Gasoline_rations_-_Bureau_of_Engraving_and_Printing.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/No_gas_1974.gif>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Oil_Prices_Since_1861.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Oil_price_chronology-june2007.gif>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Opecrev.gif>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Potlatch_gas.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/US_Oil_Production_and_Imports_1920_to_2005.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/WOMEN_USES_HER_HOME_FIREPLACE_FOR_HEAT._A_NEWSPAPER_HEADLINE_BEFORE_HER_TELLS_OF_THE_COMMUNITY'S_LACK_OF_HEATING_OIL_-_NARA_-_555393.jpg> .
+

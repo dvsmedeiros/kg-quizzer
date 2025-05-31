@@ -1,0 +1,135 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:Christos_Papadimitriou dbo:academicDiscipline dbr:Computational_complexity_theory .
+
+dbr:Computer_science dbp:caption dbr:Computational_complexity_theory .
+
+dbr:David_Shmoys dbo:academicDiscipline dbr:Computational_complexity_theory ;
+    dbp:field dbr:Computational_complexity_theory .
+
+dbr:Georg_Gottlob dbo:academicDiscipline dbr:Computational_complexity_theory .
+
+dbr:Irit_Dinur dbo:academicDiscipline dbr:Computational_complexity_theory ;
+    dbp:field dbr:Computational_complexity_theory .
+
+dbr:Jean-Paul_Delahaye dbo:academicDiscipline dbr:Computational_complexity_theory ;
+    dbp:fields dbr:Computational_complexity_theory .
+
+dbr:Jelani_Nelson dbo:academicDiscipline dbr:Computational_complexity_theory .
+
+dbr:Larry_Stockmeyer dbo:knownFor dbr:Computational_complexity_theory .
+
+dbr:Miklós_Ajtai dbo:academicDiscipline dbr:Computational_complexity_theory ;
+    dbp:fields dbr:Computational_complexity_theory .
+
+dbr:Nikolai_Sergeevich_Bakhvalov dbo:knownFor dbr:Computational_complexity_theory ;
+    dbp:knownFor dbr:Computational_complexity_theory .
+
+dbr:Oscar_H._Ibarra dbo:knownFor dbr:Computational_complexity_theory .
+
+dbr:Peter_Bürgisser dbo:knownFor dbr:Computational_complexity_theory .
+
+dbr:Ran_Raz dbo:academicDiscipline dbr:Computational_complexity_theory ;
+    dbp:fields dbr:Computational_complexity_theory .
+
+dbr:Ronald_V._Book dbo:knownFor dbr:Computational_complexity_theory .
+
+dbr:Russell_Impagliazzo dbo:knownFor dbr:Computational_complexity_theory .
+
+dbr:Ryan_Williams_\(computer_scientist\) dbo:academicDiscipline dbr:Computational_complexity_theory ;
+    dbp:fields dbr:Computational_complexity_theory .
+
+dbr:Salil_Vadhan dbo:academicDiscipline dbr:Computational_complexity_theory ;
+    dbp:field dbr:Computational_complexity_theory .
+
+dbr:Scott_Aaronson dbo:academicDiscipline dbr:Computational_complexity_theory ;
+    dbp:fields dbr:Computational_complexity_theory .
+
+dbr:Sheila_Greibach dbo:academicDiscipline dbr:Computational_complexity_theory .
+
+dbr:Shmuel_Safra dbo:academicDiscipline dbr:Computational_complexity_theory ;
+    dbp:field dbr:Computational_complexity_theory .
+
+dbr:Stefan_Szeider dbo:academicDiscipline dbr:Computational_complexity_theory .
+
+dbr:Steven_Rudich dbp:subDiscipline dbr:Computational_complexity_theory .
+
+dbr:Thomas_Jerome_Schaefer dbo:academicDiscipline dbr:Computational_complexity_theory .
+
+dbr:Umesh_Vazirani dbo:academicDiscipline dbr:Computational_complexity_theory ;
+    dbp:fields dbr:Computational_complexity_theory .
+
+dbr:Vijay_Vazirani dbo:academicDiscipline dbr:Computational_complexity_theory ;
+    dbp:fields dbr:Computational_complexity_theory .
+
+dbr:Viliam_Geffert dbo:academicDiscipline dbr:Computational_complexity_theory ;
+    dbp:field dbr:Computational_complexity_theory .
+
+dbr:Virginia_Vassilevska_Williams dbo:academicDiscipline dbr:Computational_complexity_theory .
+
+dbr:Xi_Chen dbo:knownFor dbr:Computational_complexity_theory ;
+    dbp:knownFor dbr:Computational_complexity_theory .
+
+wikipedia-en:Computational_complexity_theory foaf:primaryTopic dbr:Computational_complexity_theory .
+
+dbr:Computational_complexity_theory a yago:Abstraction100002137,
+        yago:Act100030358,
+        yago:Activity100407535,
+        yago:Algorithm105847438,
+        yago:Arrangement105726596,
+        yago:Cognition100023271,
+        yago:DataStructure105728493,
+        yago:Event100029378,
+        yago:Procedure101023820,
+        yago:PsychologicalFeature100023100,
+        yago:Rule105846932,
+        yago:Structure105726345,
+        yago:WikicatAlgorithms,
+        yago:WikicatDataStructures,
+        yago:YagoPermanentlyLocatedEntity,
+        dbo:Organisation,
+        owl:Thing ;
+    dbp:bot "InternetArchiveBot"@en ;
+    dbp:date "January 2022"@en ;
+    dbp:fixAttempted "yes"@en ;
+    dbp:id "p/c130160"@en ;
+    dbp:title "Computational complexity classes"@en ;
+    dbp:wikiPageUsesTemplate dbt:Authority_control,
+        dbt:Citation,
+        dbt:Commonscat,
+        dbt:ComplexityClasses,
+        dbt:Computer_science,
+        dbt:Dead_link,
+        dbt:Div_col,
+        dbt:Div_col_end,
+        dbt:Garey-Johnson,
+        dbt:Harv,
+        dbt:Main,
+        dbt:Quote,
+        dbt:Reflist,
+        dbt:See_also,
+        dbt:Short_description,
+        dbt:Springer,
+        dbt:Use_mdy_dates,
+        dbt:Visible_anchor,
+        dbt:Wikt ;
+    dcterms:subject dbc:Computational_complexity_theory,
+        dbc:Computational_fields_of_study ;
+    gold:hypernym dbr:Branch ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Complexity_classes.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Complexity_subsets_pspace.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Decision_Problem.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sorting_quicksort_anim.gif>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/TSP_Deutschland_3.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Turing_machine_2b.svg> .
+

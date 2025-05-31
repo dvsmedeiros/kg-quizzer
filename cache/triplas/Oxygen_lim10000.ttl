@@ -1,0 +1,141 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix ns7: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+
+dbr:Antoine_Lavoisier dbo:knownFor dbr:Oxygen .
+
+dbr:Atmosphere_of_Mars dbp:chemical dbr:Oxygen .
+
+dbr:Atmosphere_of_Mercury dbp:chemical dbr:Oxygen .
+
+dbr:BOC_Kenya_Limited dbo:product dbr:Oxygen .
+
+dbr:Bottled_oxygen gold:hypernym dbr:Oxygen .
+
+dbr:Breathing_gas dbp:related dbr:Oxygen .
+
+dbr:Carl_Wilhelm_Scheele dbo:knownFor dbr:Oxygen .
+
+dbr:Hope_Street_\(album\) dbp:label dbr:Oxygen .
+
+dbr:Inox_Air_Products dbo:product dbr:Oxygen ;
+    dbp:products dbr:Oxygen .
+
+dbr:Joseph_Priestley dbo:knownFor dbr:Oxygen .
+
+dbr:Kaldo_converter gold:hypernym dbr:Oxygen .
+
+dbr:Michael_Sendivogius dbo:knownFor dbr:Oxygen .
+
+dbr:RD-0109 gold:hypernym dbr:Oxygen .
+
+dbr:RD-0110 gold:hypernym dbr:Oxygen .
+
+dbr:RD-0110R gold:hypernym dbr:Oxygen .
+
+dbr:RD-0124 gold:hypernym dbr:Oxygen .
+
+dbr:S1.5400 gold:hypernym dbr:Oxygen .
+
+wikipedia-en:Oxygen foaf:primaryTopic dbr:Oxygen .
+
+dbr:Oxygen a dbo:ChemicalCompound,
+        dbo:ChemicalSubstance,
+        dbo:MilitaryUnit,
+        dbo:RecordLabel,
+        ns7:ChemicalObject,
+        owl:Thing,
+        wikidata:Q11173 ;
+    dbp:b "y"@en ;
+    dbp:bSearch "Wikijunior:The Elements/Oxygen"@en ;
+    dbp:book "Chalcogens"@en,
+        "Chemical elements"@en,
+        "Oxygen"@en,
+        "Period 2 elements"@en ;
+    dbp:commons "y"@en ;
+    dbp:containerOnly "yes"@en ;
+    dbp:portal "Chemistry"@en,
+        "Medicine"@en ;
+    dbp:v "y"@en ;
+    dbp:vSearch "Oxygen atom"@en ;
+    dbp:wikiPageUsesTemplate dbt:About,
+        dbt:Anchor,
+        dbt:Authority_control,
+        dbt:Bartable,
+        dbt:CO2,
+        dbt:Chem,
+        dbt:Chembox,
+        dbt:Chembox_Hazards,
+        dbt:Cite_book,
+        dbt:Cite_web,
+        dbt:Clear,
+        dbt:Convert,
+        dbt:Diatomicelements,
+        dbt:Div_col,
+        dbt:Div_col_end,
+        dbt:Efn,
+        dbt:Featured_article,
+        dbt:Frac,
+        dbt:GHS03,
+        dbt:H-phrases,
+        dbt:In_Our_Time,
+        dbt:Infobox_oxygen,
+        dbt:Legend,
+        dbt:Main,
+        dbt:P-phrases,
+        dbt:Periodic_table_\(navbox\),
+        dbt:Pp-move-indef,
+        dbt:Pp-semi-indef,
+        dbt:R,
+        dbt:Reflist,
+        dbt:Refn,
+        dbt:See_also,
+        dbt:Spoken_Wikipedia,
+        dbt:Subject_bar,
+        dbt:Use_American_English,
+        dbt:Use_mdy_dates,
+        dbt:Val ;
+    dbp:wikt "y"@en ;
+    dcterms:subject dbc:Breathing_gases,
+        dbc:Chalcogens,
+        dbc:Chemical_elements,
+        dbc:Chemical_substances_for_emergency_medicine,
+        dbc:Diatomic_nonmetals,
+        dbc:E-number_additives,
+        dbc:Oxidizing_agents,
+        dbc:Oxygen,
+        dbc:Reactive_nonmetals ;
+    gold:hypernym dbr:Element ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/A_setup_for_preparation_of_Oxygen.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Acetone-3D-vdW.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Antoine_lavoisier.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Apollo_1_fire.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Clabecq_JPG01.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Compressed_gas_cylinders.mapp_and_oxygen.triddle.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Evolved_star_fusion_shells.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Goddard_and_Rocket.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hofmann_voltameter_fr.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Home_oxygen_concentrator.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Liquid_oxygen_in_a_magnet_2.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Oxygen_discharge_tube.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Oxygen_molecule.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Oxygen_molecule_orbitals_diagram.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Oxygenation-atm.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Phanerozoic_Climate_Change.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/PriestleyFuseli.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rust_screw.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/STS057-89-067_-_Wisoff_on_the_Arm_(Retouched).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Simple_photosynthesis_overview.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stilles_Mineralwasser.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Symptoms_of_oxygen_toxicity.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/WOA09_sea-surf_O2_AYool.png> .
+

@@ -1,0 +1,637 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix georss: <http://www.georss.org/georss/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix ns11: <http://globalwordnet.org/ili/> .
+@prefix ns19: <http://dbpedia.org/resource/Das_Nibelungenlied:> .
+@prefix ogcgs: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:1902_European_Rowing_Championships dbp:venue dbr:Rhine .
+
+dbr:1907_European_Rowing_Championships dbp:venue dbr:Rhine .
+
+dbr:Aar_\(Ill\) dbp:riverSystem dbr:Rhine .
+
+dbr:Aare dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Ahr dbo:riverMouth dbr:Rhine ;
+    dbp:mouth dbr:Rhine .
+
+dbr:Almaden_Vineyards dbp:otherProduct dbr:Rhine .
+
+dbr:Alte_Emscher dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Angerbach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Ankerbach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Atlantic_Biogeographic_Region dbp:rivers dbr:Rhine .
+
+dbr:Auer_\(Odenwald\) dbp:riverSystem dbr:Rhine .
+
+dbr:Battle_of_Rheinfelden dbo:place dbr:Rhine .
+
+dbr:Battle_of_the_Teutoburg_Forest dbo:territory dbr:Rhine .
+
+dbr:Biblis_Nuclear_Power_Plant dbp:psCoolingSource dbr:Rhine .
+
+dbr:Birs dbo:riverMouth dbr:Rhine ;
+    dbp:mouth dbr:Rhine .
+
+dbr:Birsig dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Brohlbach_\(Rhine\) dbo:riverMouth dbr:Rhine ;
+    dbp:mouth dbr:Rhine .
+
+dbr:Brücke_der_Solidarität dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Buhlbachsee dbo:outflow dbr:Rhine .
+
+dbr:Cathedral_Bridge dbo:crosses dbr:Rhine .
+
+dbr:Clades_Lolliana dbo:place dbr:Rhine .
+
+dbr:Continental_Biogeographic_Region dbp:rivers dbr:Rhine .
+
+ns19:_Ein_Heldenepos_in_39_Abenteuern dbo:nonFictionSubject dbr:Rhine .
+
+dbr:De_Rijn_\(1825\) dbp:shipNamesake dbr:Rhine .
+
+dbr:Deutz_Suspension_Bridge dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Dickopsbach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Duffesbach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Duisburg-Hochfeld_Railway_Bridge dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Dürrenbach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Düssel dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:East_Riding_of_Yorkshire_Yeomanry dbo:battle dbr:Rhine ;
+    dbp:battles dbr:Rhine .
+
+dbr:Eisbach_\(Rhine\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Elbling dbo:origin dbr:Rhine .
+
+dbr:Elisabeth_von_Adlerflycht dbo:notableWork dbr:Rhine .
+
+dbr:Emmerich_Rhine_Bridge dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Emscher dbo:riverMouth dbr:Rhine ;
+    dbp:mouth dbr:Rhine .
+
+dbr:Erft dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Ergolz dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Flehbach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Flehe_Bridge dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:French_Revolutionary_Wars dbo:territory dbr:Rhine .
+
+dbr:Frutz dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Geography_of_Germany dbp:longestRiver dbr:Rhine .
+
+dbr:Geography_of_the_Netherlands dbp:longestRiver dbr:Rhine .
+
+dbr:German_and_Sarmatian_campaigns_of_Constantine dbo:place dbr:Rhine .
+
+dbr:German_ship_Rhein_\(A513\) dbp:shipNamesake dbr:Rhine .
+
+dbr:Glatt_\(Rhine\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Godesberger_Bach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Hamm_Railway_Bridge dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Hardtbach_\(Rhine\) dbo:riverMouth dbr:Rhine ;
+    dbp:mouth dbr:Rhine .
+
+dbr:Haus-Knipp_railway_bridge dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Hohenzollern_Bridge dbo:crosses dbr:Rhine .
+
+dbr:Holzbrücke_Bad_Säckingen dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Ill_\(France\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Isenach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Itter_\(Rhine\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+<http://dbpedia.org/resource/Kaiserbrücke,_Mainz> dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Kander_\(Germany\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:discharge1Location dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Kennedy_Bridge_\(Bonn\) dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Kleine_Emscher dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Klemmbach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Kraichbach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Kriegbach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Kölner_Rudergesellschaft_1891 dbp:homeWater dbr:Rhine .
+
+dbr:Lahn dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Lake_Constance dbp:partOf dbr:Rhine .
+
+dbr:Lauter_\(Odenwald\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Lauter_\(Rhine\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Leibstadt_Nuclear_Power_Plant dbp:psCoolingSource dbr:Rhine .
+
+dbr:Leimbach_\(Rhine\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Lippe_\(river\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Ludendorff_Bridge dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:MV_Spirit_of_Chartwell dbp:shipRoute dbr:Rhine .
+
+dbr:Main_\(river\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Margaret_Hardenbroeck dbo:birthPlace dbr:Rhine ;
+    dbp:birthPlace dbr:Rhine .
+
+<http://dbpedia.org/resource/Marne–Rhine_Canal> dbp:connectsTo dbr:Rhine .
+
+dbr:Mathisleweiher dbo:outflow dbr:Rhine .
+
+dbr:Maxau_Rhine_Bridges dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Melbbach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Michelsbach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+<http://dbpedia.org/resource/Middle_Bridge,_Basel> dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Moder_\(river\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Moselle dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Mülheim-Kärlich_Nuclear_Power_Plant dbp:psCoolingSource dbr:Rhine .
+
+dbr:Nahe_\(Rhine\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Neckar dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Pfinz dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Pfrimm dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Philippsburg_Nuclear_Power_Plant dbp:psCoolingSource dbr:Rhine .
+
+dbr:Queich dbo:riverMouth dbr:Rhine .
+
+dbr:Rehbach_\(Palatinate\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Rettbergsaue dbo:location dbr:Rhine .
+
+<http://dbpedia.org/resource/Rhine_Bridge,_Germersheim_(railway)> dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+<http://dbpedia.org/resource/Rhine_Bridge,_Kehl> dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Rhine_Bridge_\(Worms\) dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Rhine_Falls dbp:watercourse dbr:Rhine .
+
+<http://dbpedia.org/resource/Rhône–Rhine_Canal> dbp:connectsTo dbr:Rhine .
+
+dbr:Riesling dbo:origin dbr:Rhine .
+
+dbr:Rotbach_\(Rhine\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Ruhr_\(river\) dbp:mouthLocation dbr:Rhine .
+
+dbr:Ruhr_\(river\)__Ruhr__1 dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Saar_\(Rhine\) dbo:riverMouth dbr:Rhine ;
+    dbp:mouth dbr:Rhine .
+
+dbr:Salzbach_\(Wiesbaden\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Sauer_\(Rhine\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Schierstein_Bridge dbo:crosses dbr:Rhine .
+
+dbr:Schwarza_\(Black_Forest\) dbp:riverSystem dbr:Rhine .
+
+dbr:Schwarzbach_\(Bergisches_Land\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Schwarzbach_\(Ried\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Schöpfebach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Selz dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Sieg dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:South_Bridge_\(Cologne\) dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Spiegelbach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Sulzbach_\(Rhine\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Tamina_\(river\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Theodor_Heuss_Bridge_\(Düsseldorf\) dbo:crosses dbr:Rhine .
+
+dbr:Three_Countries_Bridge dbo:crosses dbr:Rhine ;
+    dbp:crosses dbr:Rhine .
+
+dbr:Thur_\(Rhine\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Tom_Rennie dbp:deathPlace dbr:Rhine .
+
+dbr:Verkehrsverbund_Rhein-Ruhr dbo:namedAfter dbr:Rhine .
+
+dbr:Vilicher_Bach dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Waal_\(river\) dbp:source dbr:Rhine .
+
+dbr:Walluf_\(Rhine\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Weiach dbo:lowestPlace dbr:Rhine ;
+    dbp:lowest dbr:Rhine .
+
+dbr:Weiß_\(Sieg\) dbp:riverSystem dbr:Rhine .
+
+dbr:Welzbach_\(Rhine\) dbo:riverMouth dbr:Rhine ;
+    dbp:mouth dbr:Rhine .
+
+dbr:Wied_\(river\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Wisper dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Wupper dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine ;
+    dbp:mouthLocation dbr:Rhine .
+
+dbr:Wutach_\(river\) dbo:mouthMountain dbr:Rhine ;
+    dbo:mouthPlace dbr:Rhine .
+
+dbr:Zeubach_\(Wiesent\) dbp:riverSystem dbr:Rhine .
+
+wikipedia-en:Rhine foaf:primaryTopic dbr:Rhine .
+
+dbr:Basel dbo:lowestPlace dbr:Rhine .
+
+dbr:North_Sea dbo:inflow dbr:Rhine ;
+    dbp:inflow dbr:Rhine .
+
+dbr:Rhine a yago:BodyOfWater109225146,
+        yago:Boundary108512259,
+        yago:BoundaryLine108512736,
+        yago:Extremity108568978,
+        yago:GeologicalFormation109287968,
+        yago:Location100027167,
+        yago:NaturalDepression109366017,
+        yago:Object100002684,
+        yago:PhysicalEntity100001930,
+        yago:Region108630039,
+        yago:RiftValley109410224,
+        yago:River109411430,
+        yago:Stream109448361,
+        yago:Thing100002452,
+        yago:Valley109468604,
+        yago:Waterway109476331,
+        yago:WikicatBorderRivers,
+        yago:WikicatBordersOfGermany,
+        yago:WikicatFederalWaterwaysInGermany,
+        yago:WikicatInternationalRiversOfEurope,
+        yago:WikicatRiftValleys,
+        yago:WikicatRiversOfAlsace,
+        yago:WikicatRiversOfAustria,
+        yago:WikicatRiversOfBaden-Württemberg,
+        yago:WikicatRiversOfEurope,
+        yago:WikicatRiversOfFrance,
+        yago:WikicatRiversOfGermany,
+        yago:WikicatRiversOfHesse,
+        yago:WikicatRiversOfLiechtenstein,
+        yago:WikicatRiversOfNorthRhine-Westphalia,
+        yago:WikicatRiversOfRhineland-Palatinate,
+        yago:WikicatRiversOfSwitzerland,
+        yago:WikicatRiversOfTheNetherlands,
+        yago:WikicatRiversOfVorarlberg,
+        yago:YagoGeoEntity,
+        yago:YagoLegalActorGeo,
+        yago:YagoPermanentlyLocatedEntity,
+        dbo:BodyOfWater,
+        dbo:Location,
+        dbo:NaturalPlace,
+        dbo:Place,
+        dbo:River,
+        dbo:Stream,
+        schema1:BodyOfWater,
+        schema1:Place,
+        schema1:RiverBodyOfWater,
+        owl:Thing,
+        geo1:SpatialThing,
+        wikidata:Q4022,
+        wikidata:Q47521 ;
+    dbo:length 1.23e+06 ;
+    dbo:mouthElevation 0e+00 ;
+    dbo:mouthMountain dbr:Netherlands ;
+    dbo:mouthPlace dbr:Netherlands ;
+    dbo:riverMouth dbr:North_Sea ;
+    dbp:imageCaption "The Rhine in Basel, Switzerland"@en ;
+    dbp:imageSize 300 ;
+    dbp:mapCaption "Map of the Rhine basin"@en ;
+    dbp:mapSize 240 ;
+    dbp:mouth dbr:North_Sea ;
+    dbp:mouthLocation dbr:Netherlands ;
+    dbp:name "Rhine"@en ;
+    dbp:nameEtymology "Celtic Rēnos"@en ;
+    dbp:pushpinMapSize 240 ;
+    dbp:source dbr:Hinterrhein_\(river\),
+        dbr:Vorderrhein ;
+    dbp:source1Location "Tomasee , Surselva, Graubünden, Switzerland"@en ;
+    dbp:source2Location dbr:Graubünden,
+        dbr:Paradies_Glacier,
+        dbr:Switzerland ;
+    dbp:sourceConfluence <http://dbpedia.org/resource/Reichenau,_Switzerland> ;
+    dbp:sourceConfluenceLocation dbr:Graubünden,
+        dbr:Switzerland,
+        dbr:Tamins ;
+    dbp:subdivisionName dbr:Austria,
+        dbr:Basel,
+        dbr:Belgium,
+        dbr:Cologne,
+        dbr:Duisburg,
+        dbr:Düsseldorf,
+        dbr:France,
+        dbr:Germany,
+        dbr:Liechtenstein,
+        dbr:Luxembourg,
+        dbr:Netherlands,
+        dbr:Nijmegen,
+        dbr:Rotterdam,
+        dbr:Strasbourg,
+        dbr:Switzerland,
+        ""@en,
+        "Alsace, France"@en,
+        "Central and Western Europe"@en,
+        "Val di Lei, Italy"@en,
+        "Vorarlberg, South and Western Germany"@en ;
+    dbp:subdivisionType "Countries"@en,
+        "Largest cities"@en,
+        "Region"@en,
+        "Rhine Basin"@en ;
+    dbp:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:!>,
+        <http://dbpedia.org/resource/Template:'s>,
+        dbt:About,
+        dbt:According_to_whom,
+        dbt:As_of,
+        dbt:Authority_control,
+        dbt:Cite_EB1911,
+        dbt:Cite_book,
+        dbt:Cite_encyclopedia,
+        dbt:Cite_journal,
+        dbt:Cite_news,
+        dbt:Cite_web,
+        dbt:Clear,
+        dbt:Col-begin,
+        dbt:Col-break,
+        dbt:Col-end,
+        dbt:Convert,
+        dbt:Coord,
+        dbt:Efn,
+        dbt:Further,
+        dbt:Gallery,
+        dbt:IPA-de,
+        dbt:IPA-fr,
+        dbt:IPA-hu,
+        dbt:IPA-it,
+        dbt:IPA-la,
+        dbt:IPA-nl,
+        dbt:IPA-wa,
+        dbt:Infobox_river,
+        dbt:Lang-gsw,
+        dbt:Main,
+        dbt:Maplink,
+        dbt:Native_name_list,
+        dbt:Notelist,
+        dbt:PIE,
+        dbt:Reflist,
+        dbt:Rhine_Tributaries,
+        <http://dbpedia.org/resource/Template:Rhine–Meuse–Scheldt_delta>,
+        dbt:See_also,
+        dbt:Short_description,
+        dbt:Transl,
+        dbt:Unreferenced_section,
+        dbt:Use_American_English,
+        dbt:Use_dmy_dates ;
+    dcterms:subject dbc:Articles_containing_video_clips,
+        <http://dbpedia.org/resource/Category:Austria–Switzerland_border>,
+        dbc:Border_rivers,
+        dbc:Federal_waterways_in_Germany,
+        <http://dbpedia.org/resource/Category:France–Germany_border>,
+        dbc:Geography_of_Central_Europe,
+        dbc:Geography_of_Western_Europe,
+        <http://dbpedia.org/resource/Category:Germany–Switzerland_border>,
+        <http://dbpedia.org/resource/Category:Graubünden–St._Gallen_border>,
+        dbc:International_rivers_of_Europe,
+        <http://dbpedia.org/resource/Category:Liechtenstein–Switzerland_border>,
+        dbc:Rhine,
+        dbc:Rhine_basin,
+        dbc:Rifts_and_grabens,
+        dbc:Rivers_of_Aargau,
+        dbc:Rivers_of_Austria,
+        dbc:Rivers_of_Baden-Württemberg,
+        dbc:Rivers_of_Bas-Rhin,
+        dbc:Rivers_of_France,
+        dbc:Rivers_of_Gelderland,
+        dbc:Rivers_of_Germany,
+        dbc:Rivers_of_Grand_Est,
+        dbc:Rivers_of_Liechtenstein,
+        dbc:Rivers_of_North_Rhine-Westphalia,
+        dbc:Rivers_of_Overijssel,
+        dbc:Rivers_of_Rhineland-Palatinate,
+        dbc:Rivers_of_South_Holland,
+        dbc:Rivers_of_Switzerland,
+        dbc:Rivers_of_Utrecht_\(province\),
+        dbc:Rivers_of_Vorarlberg,
+        dbc:Rivers_of_the_Netherlands ;
+    gold:hypernym dbr:River ;
+    schema1:sameAs <http://viaf.org/viaf/259663544> ;
+    georss:point "46.6325 8.672222222222222" ;
+    geo1:geometry "POINT(8.6722221374512 46.632499694824)"^^ogcgs:wktLiteral ;
+    skos:exactMatch ns11:i86061 ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Abbinden_der_Maas_von_der_Waal_1904_aus_Hochwasserschutzgründen.gif>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Above_Tomasee.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Aerial_image_of_the_mouth_of_the_Rhine_into_Lake_Constance.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Beschädigte_Brücke.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Bodensee_satellit.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Castellum_NigrumPullum_vogelvlucht_impressie_Stevie_Xinas_2016.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Cologne_(Köln)_Rhine_River_view.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Crossingtherhine.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Emmerich_am_Rhein_Osten.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/FR-67-Strasbourg35.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Flusssystemkarte_Rhein_04.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Fähre-Altrip_Schiffe.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/John_Frostbrug.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Karte_Alpenrhein.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Karte_Hochrhein.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Konstanz_Blick_vom_Münsterturm.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Loreley_von_Spitznack.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Louis_XIV_crosses_the_Rhine_at_Lobith_-_Lodewijk_XIV_trekt_bij_het_Tolhuis_bij_Lobith_de_Rijn_over,_12_juni_1672_(Adam_Frans_van_der_Meulen).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Maas_Delta1.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Map_of_the_annual_average_discharge_of_Rhine_and_Maas_2000-2011_(EN).png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Marksburg1900.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Middle_Bridge,_Basel,_Switzerland.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/One_autumn_morning_in_Basel_v2.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rhein-Karte2.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rhein_Mainzer_Becken_stromab_von_Mainz_bei_Eltville_und_Erbach_vor_Bingen_Foto_2008_Wolfgang_Pehlemann_Wiesbaden_IMG_0263.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rhein_bei_Balzers_-_Blick_auf_Gonzen.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rhein_stromabwärts_bei_Erbach_im_Rheingau_mit_Insel_Mariannenau_Hessen_Landesgrenze_Rheinland-Pfalz_links_-_Foto_Wolfgang_Pehlemann_Wiesbaden_Photo_IMG_0274.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rheinfall_mit_Rheinfallbrücke_und_Schloss_Laufen.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rheinkilometer_Loreley.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rheinzusammenfluss.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rhinegrabencross.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/River_Rhein_Düsseldorf_Bird's_eye_view_-_Rathausufer_vor_histor._Altstadt_-_Rheinufer_NRW_Wolfgang_Pehlemann_DSCN1026.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Royal_Newfoundland_Regiment_crossing_the_Rhine_into_Germany.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/St.Goarshausen_Loreley_Burg_Katz_2016-03-27-17-13-57.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/The_Rhine_Hünxe_Germany_.jpeg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vue_aérienne_du_Rhin_à_Dusseldorf.jpg> ;
+    foaf:name "Rhine"@en .
+

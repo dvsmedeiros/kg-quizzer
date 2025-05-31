@@ -1,0 +1,40 @@
+<think>
+Okay, let's see. The user has provided a bunch of contexts in Portuguese, each with a question and answer. They want me to generate a CSV file based on these. The instruction says to follow the rules and format, so I need to make sure each row in the CSV corresponds to the question and answer pairs.
+
+First, I'll go through each context and extract the question and answer. For example, the first context is about the Norman architecture language, which is "românico". The question is "Qual é o idioma da arquitetura normanda?" and the answer is "românico". I'll need to put these into the CSV with the correct headers.
+
+Wait, the user mentioned that the CSV should have columns for "Pergunta" (Question) and "Resposta" (Answer). So each row will have these two fields. I need to make sure that the questions and answers are correctly paired and that there are no typos.
+
+Let me check each context one by one. For example, in Contexto 31, the question is "Onde estão Jersey e Guernsey" and the answer is "Ilhas do Canal." Then, the next question is "Quantos costumes tem o direito costumeiro normando?" with the answer "dois". I need to make sure that each entry is correctly formatted.
+
+I should also ensure that the CSV uses the correct encoding, probably UTF-8, and that the headers are in Portuguese. Also, check for any inconsistencies or errors in the data. For instance, in Contexto 36, the answer for the tapestry is "bordado" and the question is "Que tipo de bordado foi usado na criação da tapeçaria de Bayeux?" which matches.
+
+Once all the data is extracted, I'll format it into a CSV with the appropriate headers. Let me make sure that there are no empty fields and that each row corresponds to a unique question-answer pair. Double-checking each entry to avoid any mistakes.
+</think>
+
+```csv
+"Pergunta","Resposta"
+"Quem foi o rei das Ilhas Canárias?","Bethencourt"
+"Quem comprou os direitos?","Enrique Pérez de Guzmán"
+"Quem vendeu os direitos?","Maciot de Bethencourt"
+"Onde estão Jersey e Guernsey","Ilhas do Canal"
+"Quantos costumes tem o direito costumeiro normando?","dois"
+"Qual é o idioma da arquitetura normanda?","românico"
+"Que tipo de arcos possui a arquitetura Norman?","arredondados"
+"Que tipo de arquitetura veio depois de Norman na Inglaterra?","nício do gótico."
+"Que tipo de arquitetura veio antes de Norman na Inglaterra?","nglo-saxão"
+"Que lugar tinha o estilo arquitetônico árabe normando?","Sicília"
+"Quando a reforma da igreja começou?","início do século"
+"Quem usou a igreja para se unir?","duques"
+"Quando foram as guerras religiosas francesas?","século XVI"
+"Que tipo de bordado foi usado na criação da tapeçaria de Bayeux?","bordado."
+"Qual é a peça mais conhecida da arte normanda?","tapeçaria de Bayeux"
+"Quem encomendou a tapeçaria?","Odo"
+"Qual é o tipo mais importante de arte normanda preservada nas igrejas?","mosaicos"
+"Em que século ocorreram importantes desenvolvimentos da música clássica na Normandia?","século XI"
+"Quem eram os dois abades na Abadia de Fécamp?","William de Volpiano e John de Ravenna"
+"Para onde os monges fugiram?","sul da Itália"
+"Que mosteiro os monges de Saint-Evroul estabeleceram na Itália?","osteiro latino em Sant'Eufemia."
+"Quem frequentou os monges na Itália?","Robert Guiscard"
+"Por que tradição os monges de Saint-Evroul eram conhecidos?","canto"
+```

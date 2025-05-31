@@ -1,0 +1,114 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix ns11: <http://www.springernature.com/scigraph/things/subjects/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+
+dbr:Adaptive_NK_cell dbp:system dbr:Immune_system .
+
+dbr:B_cell dbp:system dbr:Immune_system .
+
+dbr:Basophil dbp:system dbr:Immune_system .
+
+dbr:Bone_marrow dbp:system dbr:Immune_system .
+
+dbr:Charles_Surh dbo:academicDiscipline dbr:Immune_system ;
+    dbp:fields dbr:Immune_system .
+
+dbr:César_Milstein dbo:knownFor dbr:Immune_system .
+
+dbr:Dendritic_cell dbp:system dbr:Immune_system .
+
+dbr:Eosinophil dbp:system dbr:Immune_system .
+
+dbr:Food_allergy dbo:medicalCause dbr:Immune_system .
+
+dbr:Granulocyte dbp:system dbr:Immune_system .
+
+dbr:Histiocyte dbp:system dbr:Immune_system .
+
+dbr:Lajos_Kemény dbo:knownFor dbr:Immune_system .
+
+dbr:Langerhans_cell dbp:system dbr:Immune_system .
+
+dbr:Lymphocyte dbp:system dbr:Immune_system .
+
+dbr:Macrophage dbp:system dbr:Immune_system .
+
+dbr:Mast_cell dbp:system dbr:Immune_system .
+
+dbr:Microfold_cell dbp:system dbr:Immune_system .
+
+dbr:Monoblast dbp:system dbr:Immune_system .
+
+dbr:Monocyte dbp:system dbr:Immune_system .
+
+dbr:Natural_killer_cell dbp:system dbr:Immune_system .
+
+dbr:Neutrophil dbp:system dbr:Immune_system .
+
+dbr:Pancreatic_islet_macrophage dbp:system dbr:Immune_system .
+
+dbr:Rheumatology dbo:specialization dbr:Immune_system ;
+    dbp:system dbr:Immune_system .
+
+dbr:Sepsis dbo:medicalCause dbr:Immune_system .
+
+dbr:T_cell dbp:system dbr:Immune_system .
+
+dbr:Tonsil dbp:system dbr:Immune_system .
+
+dbr:White_blood_cell dbp:system dbr:Immune_system .
+
+wikipedia-en:Immune_system foaf:primaryTopic dbr:Immune_system .
+
+dbr:Immune_system a owl:Thing ;
+    dbp:by "no"@en ;
+    dbp:label "Immune system"@en ;
+    dbp:lcheading "Immune system"@en ;
+    dbp:onlinebooks "yes"@en ;
+    dbp:wikiPageUsesTemplate dbt:Authority_control,
+        dbt:Cite_book,
+        dbt:Commons_category,
+        dbt:Div_col,
+        dbt:Div_col_end,
+        dbt:Featured_article,
+        dbt:Further,
+        dbt:Immune_receptors,
+        dbt:Immune_system,
+        dbt:Library_resources_box,
+        dbt:Lymphatic_system,
+        dbt:Main,
+        dbt:Portal_bar,
+        dbt:Refbegin,
+        dbt:Refend,
+        dbt:Reflist,
+        dbt:Rp,
+        dbt:Sfn,
+        dbt:Short_description,
+        dbt:System_and_organs,
+        dbt:Use_dmy_dates,
+        dbt:Wikiquote ;
+    dcterms:subject dbc:Immune_system ;
+    gold:hypernym dbr:System ;
+    skos:closeMatch ns11:cell-death-and-immune-response,
+        ns11:immune-system ;
+    skos:relatedMatch ns11:antimicrobial-responses ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/2220_Four_Chain_Structure_of_a_Generic_Antibody-IgG2_Structures.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Dexamethasone_structure.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Immune_response2.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Macs_killing_cancer_cell.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Neutrophil_with_anthrax_copy.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Paul_Ehrlich_1915.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Polio_Vaccination_-_Egypt_(16868521330).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Primary_immune_response_1.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rheumatoid_Arthritis.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/SEM_blood_cells.jpg> .
+

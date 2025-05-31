@@ -1,0 +1,146 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix umbel-rc: <http://umbel.org/umbel/rc/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:1256_Normannia dbp:namedAfter dbr:Normans .
+
+dbr:Alexander_of_Paris dbo:nationality dbr:Normans .
+
+dbr:Battle_of_Cerami dbp:combatant dbr:Normans .
+
+dbr:Battle_of_Civitate dbp:combatant dbr:Normans .
+
+dbr:Battle_of_Misilmeri dbp:combatant dbr:Normans .
+
+dbr:Battle_of_Montepeloso dbp:combatant dbr:Normans .
+
+dbr:Battle_of_Northam dbp:combatant dbr:Normans .
+
+dbr:Battle_of_Olivento dbp:combatant dbr:Normans .
+
+dbr:Battle_of_Soissons_\(923\) dbo:commander dbr:Normans .
+
+dbr:Callan_Motte dbp:occupants dbr:Normans .
+
+dbr:Cambro-Norman gold:hypernym dbr:Normans .
+
+dbr:Dún_Dealgan_Motte dbp:occupants dbr:Normans .
+
+dbr:Gortlownan_Motte dbp:occupants dbr:Normans .
+
+dbr:Greenmount_Motte dbp:occupants dbr:Normans .
+
+dbr:Hauteville_family dbp:ethnicity dbr:Normans .
+
+dbr:Kells_Castle dbp:occupants dbr:Normans .
+
+dbr:Lucien_Musset dbo:knownFor dbr:Normans .
+
+dbr:Lyons_family dbp:ethnicity dbr:Normans .
+
+dbr:Maid_Marian dbo:nationality dbr:Normans .
+
+dbr:Philbin dbp:ethnicity dbr:Normans .
+
+dbr:Richard_of_Salerno dbo:nationality dbr:Normans ;
+    dbo:stateOfOrigin dbr:Normans ;
+    dbp:nationality dbr:Normans .
+
+<http://dbpedia.org/resource/Siege_of_Mahdia_(1159–1160)> dbp:combatant dbr:Normans .
+
+<http://dbpedia.org/resource/St_Bride's_Church,_Llansantffraed> dbo:architecturalStyle dbr:Normans ;
+    dbp:style dbr:Normans .
+
+<http://dbpedia.org/resource/St_Mary's_Church,_Mortehoe> dbo:architecturalStyle dbr:Normans .
+
+dbr:Taunton_Castle dbo:type dbr:Normans .
+
+dbr:Waytemore_Castle dbo:builder dbr:Normans ;
+    dbp:builder dbr:Normans .
+
+wikipedia-en:Normans foaf:primaryTopic dbr:Normans .
+
+dbr:Normans a yago:Abstraction100002137,
+        yago:EthnicGroup107967382,
+        yago:Group100031264,
+        yago:People107942152,
+        yago:WikicatAncientGermanicPeoples,
+        yago:WikicatEthnicGroupsInEurope,
+        yago:WikicatGermanicPeoples,
+        yago:WikicatHistoricalEthnicGroupsOfEurope,
+        yago:WikicatNorthGermanicPeoples,
+        yago:WikicatRomancePeoples,
+        dbo:Country,
+        dbo:EthnicGroup,
+        umbel-rc:Country,
+        umbel-rc:Location_Underspecified,
+        umbel-rc:PopulatedPlace,
+        owl:Thing,
+        wikidata:Q41710 ;
+    dbo:language dbr:Latin,
+        dbr:Old_Norman,
+        dbr:Old_Norse ;
+    dbo:related dbr:Jersey_people,
+        dbr:Norse_people ;
+    dbo:religion dbr:Christianity,
+        dbr:Norse_paganism ;
+    dbp:imageCaption "Siege of a motte-and-bailey castle from the Bayeux Tapestry"@en ;
+    dbp:languages dbr:Latin,
+        dbr:Old_Norman,
+        dbr:Old_Norse,
+        ""@en ;
+    dbp:name "Normans"@en ;
+    dbp:related "Historical: Norse • Gallo-Romans • Franks"@en,
+        "Modern: Jèrriais • Guernésiais • French"@en ;
+    dbp:religions dbr:Christianity,
+        dbr:Norse_paganism ;
+    dbp:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:!>,
+        dbt:About,
+        dbt:Authority_control,
+        dbt:Blockquote,
+        dbt:Circa,
+        dbt:Citation,
+        dbt:Citation_needed,
+        dbt:Cite_book,
+        dbt:Clarify,
+        dbt:House_of_Normandy,
+        dbt:Ill,
+        dbt:Infobox_ethnic_group,
+        dbt:Main,
+        dbt:More_citations_needed_section,
+        dbt:NIE_Poster,
+        dbt:Norse_people,
+        dbt:Portal,
+        dbt:Refbegin,
+        dbt:Refend,
+        dbt:Reflist,
+        dbt:See_also,
+        dbt:Sfn,
+        dbt:Short_description,
+        dbt:Use_dmy_dates ;
+    dcterms:subject dbc:Normans ;
+    gold:hypernym dbr:People ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/911-1050_duche_de_normandie-en.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Adrano_normannisches_Kastell.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_Tapestry_scene19_detail_Castle_Dinan.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/David_on_harp.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/History_of_the_Normans_by_Dudo_of_Saint-Quentin.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Le_Canarien.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lion,_Norman_Italy_2.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lusignan.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/MarriageAoifeStrongbow.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Mms_chepstow_castle_from_river_wye.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Norman_Conquests_copy_(1).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tower_of_London,_Traitors_Gate.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Trim_Castle_6.jpg> .
+

@@ -1,0 +1,539 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix georss: <http://www.georss.org/georss/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix ns7: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ogcgs: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema1: <http://schema.org/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+dbr:1st_Scottish_Parliament dbp:body dbr:Scottish_Parliament .
+
+dbr:2nd_Scottish_Parliament dbp:body dbr:Scottish_Parliament .
+
+dbr:3rd_Scottish_Parliament dbp:body dbr:Scottish_Parliament .
+
+dbr:4th_Scottish_Parliament dbp:body dbr:Scottish_Parliament .
+
+dbr:5th_Scottish_Parliament dbp:body dbr:Scottish_Parliament .
+
+dbr:6th_Scottish_Parliament dbp:body dbr:Scottish_Parliament .
+
+dbr:Aberdeen_Central_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Aberdeen_Donside_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Aberdeen_North_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Aberdeen_South_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Aberdeen_South_and_North_Kincardine_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Aberdeenshire_East_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Aberdeenshire_West_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Abolish_the_Scottish_Parliament_Party dbp:seats1Title dbr:Scottish_Parliament .
+
+dbr:Action_for_Independence dbp:seats1Title dbr:Scottish_Parliament .
+
+dbr:Airdrie_and_Shotts_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Alba_Party dbp:seats2Title dbr:Scottish_Parliament .
+
+dbr:All_for_Unity dbp:seats2Title dbr:Scottish_Parliament .
+
+dbr:Almond_Valley_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Angus_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Angus_North_and_Mearns_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Angus_South_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Annabelle_Ewing dbp:office dbr:Scottish_Parliament .
+
+dbr:Argyll_and_Bute_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Auditor_General_for_Scotland dbp:nominator dbr:Scottish_Parliament ;
+    dbp:reportsTo dbr:Scottish_Parliament .
+
+dbr:Ayr_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Banff_and_Buchan_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Banffshire_and_Buchan_Coast_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:British_Unionist_Party dbp:seats1Title dbr:Scottish_Parliament .
+
+dbr:Cabinet_Secretary_for_Covid_Recovery dbp:memberOf dbr:Scottish_Parliament .
+
+dbr:Cabinet_Secretary_for_Education_and_Skills dbp:memberOf dbr:Scottish_Parliament .
+
+dbr:Cabinet_Secretary_for_Finance_and_the_Economy dbp:memberOf dbr:Scottish_Parliament ;
+    dbp:reportsTo dbr:Scottish_Parliament .
+
+dbr:Cabinet_Secretary_for_Health_and_Social_Care dbp:memberOf dbr:Scottish_Parliament .
+
+dbr:Cabinet_Secretary_for_Justice_and_Veterans dbp:reportsTo dbr:Scottish_Parliament .
+
+dbr:Cabinet_Secretary_for_Rural_Affairs_and_Islands dbp:memberOf dbr:Scottish_Parliament ;
+    dbp:reportsTo dbr:Scottish_Parliament .
+
+<http://dbpedia.org/resource/Cabinet_Secretary_for_Social_Justice,_Housing_and_Local_Government> dbp:memberOf dbr:Scottish_Parliament ;
+    dbp:reportsTo dbr:Scottish_Parliament .
+
+<http://dbpedia.org/resource/Cabinet_Secretary_for_the_Constitution,_External_Affairs_and_Culture> dbp:memberOf dbr:Scottish_Parliament ;
+    dbp:reportsTo dbr:Scottish_Parliament .
+
+<http://dbpedia.org/resource/Caithness,_Sutherland_and_Easter_Ross_(Scottish_Parliament_constituency)> dbp:parlName dbr:Scottish_Parliament .
+
+<http://dbpedia.org/resource/Caithness,_Sutherland_and_Ross_(Scottish_Parliament_constituency)> dbp:parlName dbr:Scottish_Parliament .
+
+<http://dbpedia.org/resource/Carrick,_Cumnock_and_Doon_Valley_(Scottish_Parliament_constituency)> dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Central_Fife_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Central_Scotland_\(Scottish_Parliament_electoral_region\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Clackmannanshire_and_Dunblane_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Clydebank_and_Milngavie_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Clydesdale_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Co-operative_Party dbp:seats3Title dbr:Scottish_Parliament .
+
+dbr:Coatbridge_and_Chryston_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Commissioner_for_Ethical_Standards_in_Public_Life_in_Scotland dbp:appointer dbr:Scottish_Parliament .
+
+dbr:Conservative_Party_\(UK\) dbp:seats3Title dbr:Scottish_Parliament .
+
+dbr:Cowdenbeath_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Cumbernauld_and_Kilsyth_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Cunninghame_North_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Cunninghame_South_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Deputy_First_Minister_of_Scotland dbp:memberOf dbr:Scottish_Parliament ;
+    dbp:reportsTo dbr:Scottish_Parliament .
+
+dbr:Devolution dbp:caption dbr:Scottish_Parliament .
+
+dbr:Dumbarton_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Dumfries_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Dumfriesshire_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Dundee_City_East_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Dundee_City_West_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Dundee_East_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Dundee_West_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Dunfermline_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Dunfermline_East_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Dunfermline_West_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:East_Kilbride_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:East_Lothian_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Eastwood_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Edinburgh_Central_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Edinburgh_East_and_Musselburgh_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Edinburgh_Eastern_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Edinburgh_North_and_Leith_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Edinburgh_Northern_and_Leith_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Edinburgh_Pentlands_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Edinburgh_South_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Edinburgh_Southern_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Edinburgh_West_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Edinburgh_Western_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Elaine_Bullard dbo:award dbr:Scottish_Parliament .
+
+<http://dbpedia.org/resource/Ettrick,_Roxburgh_and_Berwickshire_(Scottish_Parliament_constituency)> dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Falkirk_East_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Falkirk_West_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Galloway_and_Upper_Nithsdale_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Galloway_and_West_Dumfries_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Anniesland_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Baillieston_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Cathcart_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Govan_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Kelvin_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Maryhill_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Maryhill_and_Springburn_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Pollok_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Provan_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Rutherglen_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Shettleston_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Southside_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Glasgow_Springburn_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Gordon_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Greenock_and_Inverclyde_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+<http://dbpedia.org/resource/Hamilton,_Larkhall_and_Stonehouse_(Scottish_Parliament_constituency)> dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Hamilton_North_and_Bellshill_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Hamilton_South_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Independent_Green_Voice dbp:seats1Title dbr:Scottish_Parliament .
+
+<http://dbpedia.org/resource/Inverness_East,_Nairn_and_Lochaber_(Scottish_Parliament_constituency)> dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Inverness_and_Nairn_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:James_Dornan dbp:office dbr:Scottish_Parliament .
+
+dbr:Kilmarnock_and_Irvine_Valley_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Kilmarnock_and_Loudoun_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Kirkcaldy_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Labour_Party_\(UK\) dbp:seats3Title dbr:Scottish_Parliament .
+
+dbr:Labour_and_Co-operative dbp:seats3Title dbr:Scottish_Parliament .
+
+dbr:Leader_of_the_Opposition_\(Scotland\) dbp:department dbr:Scottish_Parliament .
+
+dbr:Liberal_Democrats_\(UK\) dbp:seats2Title dbr:Scottish_Parliament ;
+    dbp:seats3Title dbr:Scottish_Parliament .
+
+dbr:Linlithgow_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Livingston_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Lothian_\(Scottish_Parliament_electoral_region\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Lothians_\(Scottish_Parliament_electoral_region\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Mid_Fife_and_Glenrothes_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Mid_Scotland_and_Fife_\(Scottish_Parliament_electoral_region\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Midlothian_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Midlothian_North_and_Musselburgh_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+<http://dbpedia.org/resource/Midlothian_South,_Tweeddale_and_Lauderdale_(Scottish_Parliament_constituency)> dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Moray_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Motherwell_and_Wishaw_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Na_h-Eileanan_an_Iar_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:North_East_Fife_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:North_East_Scotland_\(Scottish_Parliament_electoral_region\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:North_Tayside_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Ochil_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Orkney_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Paisley_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Paisley_North_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Paisley_South_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Paul_Stallan dbo:significantProject dbr:Scottish_Parliament ;
+    dbp:significantProjects dbr:Scottish_Parliament .
+
+dbr:Perth_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Perthshire_North_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Perthshire_South_and_Kinross-shire_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Renfrewshire_North_and_West_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Renfrewshire_South_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+<http://dbpedia.org/resource/Ross,_Skye_and_Inverness_West_(Scottish_Parliament_constituency)> dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Roxburgh_and_Berwickshire_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Rutherglen_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Sandra_White dbp:office dbr:Scottish_Parliament .
+
+dbr:Scottish_Conservatives dbp:seats2Title dbr:Scottish_Parliament .
+
+dbr:Scottish_Government dbp:responsible dbr:Scottish_Parliament .
+
+dbr:Scottish_Greens dbp:seats2Title dbr:Scottish_Parliament .
+
+dbr:Scottish_Labour dbp:seats2Title dbr:Scottish_Parliament .
+
+dbr:Scottish_Liberal_Democrats dbp:seats2Title dbr:Scottish_Parliament .
+
+dbr:Scottish_Libertarian_Party dbp:seats5Title dbr:Scottish_Parliament .
+
+dbr:Scottish_Socialist_Party dbp:seats1Title dbr:Scottish_Parliament .
+
+dbr:Scottish_Unionist_Party_\(1986\) dbo:ideology dbr:Scottish_Parliament ;
+    dbp:ideology dbr:Scottish_Parliament ;
+    dbp:seats1Title dbr:Scottish_Parliament .
+
+dbr:Shetland_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+<http://dbpedia.org/resource/Skye,_Lochaber_and_Badenoch_(Scottish_Parliament_constituency)> dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Socialist_Party_\(England_and_Wales\) dbp:seats5Title dbr:Scottish_Parliament .
+
+dbr:South_Scotland_\(Scottish_Parliament_electoral_region\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Stirling_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Strathkelvin_and_Bearsden_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Trade_Unionist_and_Socialist_Coalition dbp:seats5Title dbr:Scottish_Parliament .
+
+<http://dbpedia.org/resource/Tweeddale,_Ettrick_and_Lauderdale_(Scottish_Parliament_constituency)> dbp:parlName dbr:Scottish_Parliament .
+
+dbr:UK_Withdrawal_from_the_European_Union_\(Legal_Continuity\)_\(Scotland\)_Bill_2018 dbp:legislature dbr:Scottish_Parliament .
+
+dbr:Uddingston_and_Bellshill_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:West_Aberdeenshire_and_Kincardine_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:West_Renfrewshire_\(Scottish_Parliament_constituency\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:West_Scotland_\(Scottish_Parliament_electoral_region\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:West_of_Scotland_\(Scottish_Parliament_electoral_region\) dbp:parlName dbr:Scottish_Parliament .
+
+dbr:Workers_Party_of_Britain dbp:seats4Title dbr:Scottish_Parliament .
+
+wikipedia-en:Scottish_Parliament foaf:primaryTopic dbr:Scottish_Parliament .
+
+dbr:First_Minister_of_Scotland dbp:department dbr:Scottish_Parliament ;
+    dbp:nominator dbr:Scottish_Parliament ;
+    dbp:reportsTo dbr:Scottish_Parliament .
+
+dbr:Presiding_Officer_of_the_Scottish_Parliament dbp:department dbr:Scottish_Parliament ;
+    dbp:memberOf dbr:Scottish_Parliament .
+
+dbr:Scotland dbp:legislature dbr:Scottish_Parliament .
+
+dbr:Scottish_National_Party dbp:seats2Title dbr:Scottish_Parliament .
+
+dbr:Scottish_Parliament a yago:Abstraction100002137,
+        yago:Assembly108163792,
+        yago:Gathering107975026,
+        yago:Group100031264,
+        yago:Legislature108163273,
+        yago:Parliament108319198,
+        yago:SocialGroup107950920,
+        yago:WikicatLegislaturesOfCountrySubdivisions,
+        yago:WikicatNationalLegislatures,
+        yago:WikicatParliamentsByCountry,
+        yago:WikicatUnicameralLegislatures,
+        dbo:Agent,
+        dbo:Legislature,
+        dbo:Organisation,
+        schema1:Organization,
+        ns7:Agent,
+        ns7:SocialPerson,
+        owl:Thing,
+        geo1:SpatialThing,
+        wikidata:Q11204,
+        wikidata:Q24229398,
+        wikidata:Q43229 ;
+    dbo:committeeInLegislature dbr:Audit,
+        dbr:Culture_of_Scotland,
+        dbr:Education_in_Scotland,
+        dbr:Healthcare_in_Scotland,
+        dbr:Local_government_in_Scotland,
+        dbr:Scots_law,
+        dbr:Sport_in_Scotland,
+        dbr:Tourism_in_Scotland,
+        dbr:Transport_in_the_United_Kingdom ;
+    dbo:electionDateLeader "2021-05-13"^^xsd:date ;
+    dbo:lastElectionDate "2021-05-06"^^xsd:date ;
+    dbo:leader dbr:Alison_Johnstone ;
+    dbo:legislativePeriodName "6th Scottish Parliament" ;
+    dbo:location dbr:Edinburgh,
+        dbr:Scotland,
+        dbr:Scottish_Parliament_Building ;
+    dbo:numberOfMembers "129"^^xsd:nonNegativeInteger ;
+    dbo:politicalPartyInLegislature dbr:Third_Sturgeon_government ;
+    dbo:type dbr:Unicameralism ;
+    dbp:b "yes"@en ;
+    dbp:backgroundColor "#500791"@en ;
+    dbp:coaPic "Scottish Parliament emblem.svg"@en ;
+    dbp:coaRes 260 ;
+    dbp:committees ""@en,
+        "Audit"@en,
+        "Committee on The Scottish Government's Handling of Harassment Complaints against Former Ministers,"@en,
+        "Economy, Energy and Tourism"@en,
+        "Education, Lifelong Learning and Culture"@en,
+        "Equal Opportunities"@en,
+        "Europe and External Relations"@en,
+        "Finance"@en,
+        "Health and Sport"@en,
+        "Justice"@en,
+        "Local Government and Communities"@en,
+        "Procedures"@en,
+        "Public Petitions"@en,
+        "Rural Affairs and Environment"@en,
+        "Scottish Parliamentary Pensions Scheme"@en,
+        "Standards and Public Appointments"@en,
+        "Subordinate Legislation"@en,
+        "Transport, Infrastructure,"@en,
+        "and Climate Change"@en ;
+    dbp:commons "yes"@en ;
+    dbp:commonsSearch "Scottish Parliament"@en ;
+    dbp:d "yes"@en ;
+    dbp:dSearch "Q206171"@en ;
+    dbp:election "2014-11-20"^^xsd:date,
+        "2021-05-13"^^xsd:date,
+        "2021-05-20"^^xsd:date ;
+    dbp:foundation "1999-05-12"^^xsd:date ;
+    dbp:houseType dbr:Unicameralism ;
+    dbp:lastElection "2021-05-06"^^xsd:date ;
+    dbp:leader dbr:Alison_Johnstone,
+        dbr:George_Adam,
+        dbr:Nicola_Sturgeon,
+        "--05-08"^^xsd:gMonthDay ;
+    dbp:leader1Type dbr:Presiding_Officer_of_the_Scottish_Parliament,
+        ""@en ;
+    dbp:leader2Type dbr:First_Minister_of_Scotland,
+        ""@en ;
+    dbp:leader3Type dbr:Minister_for_Parliamentary_Business ;
+    dbp:leader4Type dbr:Opposition_Parties_of_the_Scottish_Parliament ;
+    dbp:legislature 6 ;
+    dbp:meetingPlace dbr:Scottish_Parliament_Building,
+        "Edinburgh, Scotland"@en ;
+    dbp:members 129 ;
+    dbp:n "yes"@en ;
+    dbp:nSearch "Category:Scottish Parliament"@en ;
+    dbp:name "Scottish Parliament"@en ;
+    dbp:nativeName ""@en ;
+    dbp:nextElection "--05-07"^^xsd:gMonthDay ;
+    dbp:party dbr:Scottish_National_Party ;
+    dbp:politicalGroups "Government"@en,
+        "In co-operation with"@en,
+        """Opposition 
+
+
+
+Other"""@en ;
+    dbp:portal "Politics"@en,
+        "Scotland"@en ;
+    dbp:precededBy dbr:Parliament_of_Scotland,
+        dbr:Parliament_of_the_United_Kingdom ;
+    dbp:sessionAlt "Debating Chamber of the Scottish Parliament"@en ;
+    dbp:sessionRes 250 ;
+    dbp:sessionRoom "Scottish Parliament Debating Chamber 2.jpg"@en ;
+    dbp:structure "Scottish-parliament.svg"@en ;
+    dbp:structure1Alt "Scottish Parliament composition"@en ;
+    dbp:structure1Res 250 ;
+    dbp:v "yes"@en ;
+    dbp:votingSystem dbr:Additional_member_system ;
+    dbp:wikiPageUsesTemplate dbt:About,
+        dbt:Authority_control,
+        dbt:Bots,
+        dbt:Citation_needed,
+        dbt:Coord,
+        dbt:For,
+        dbt:IPA-gd,
+        dbt:ISBN,
+        dbt:Infobox_legislature,
+        dbt:Legend,
+        dbt:Main,
+        dbt:Official_URL,
+        dbt:Official_website,
+        dbt:Parliaments_in_Europe,
+        dbt:Party_color,
+        dbt:Politics_of_Scotland,
+        dbt:Reflist,
+        dbt:Refn,
+        dbt:Scotland_topics,
+        dbt:Scottish_Governments,
+        dbt:Scottish_Parliament_election_results_graph_\(percentage\),
+        dbt:See_also,
+        dbt:Short_description,
+        dbt:Subject_bar,
+        dbt:UK_legislatures,
+        dbt:Ubl,
+        dbt:Use_British_English,
+        dbt:Use_dmy_dates ;
+    dcterms:subject dbc:1999_establishments_in_Scotland,
+        dbc:Government_of_Scotland,
+        dbc:Parliaments_by_country,
+        dbc:Scottish_Parliament,
+        dbc:Scottish_devolution,
+        dbc:Unicameral_legislatures ;
+    gold:hypernym dbr:Legislature ;
+    schema1:sameAs <http://viaf.org/viaf/152958644> ;
+    georss:point "55.9519 -3.1751" ;
+    geo1:geometry "POINT(-3.1751000881195 55.951900482178)"^^ogcgs:wktLiteral ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Debating_chamber,_Scottish_Parliament_(31-05-2006).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Declaration_Glasgow_Kelvin.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Entrance_Plazza,_National_Galleries_of_Scotland.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Her_Majesty_Queen_Elizabeth_II_at_the_opening_of_the_Scottish_Parliament.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/MSP_Group_Shot_Dec2004-lg.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Scottish-parliament.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/ScottishParliamentFront.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Scottish_Parliament_Act.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Scottish_Parliament_Debating_Chamber_2.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Scottish_Parliament_election_map_2021.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Scottish_Parliament_emblem.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/The_Queen_at_the_Scottish_Parliament.jpg> ;
+    foaf:name "Scottish Parliament"@en .
+

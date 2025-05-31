@@ -1,0 +1,92 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Camisard gold:hypernym dbr:Huguenots .
+
+dbr:Catholic_Church_in_France dbp:separations dbr:Huguenots .
+
+<http://dbpedia.org/resource/Huguenot,_Orange_County,_New_York> dbo:namedAfter dbr:Huguenots ;
+    dbp:namedFor dbr:Huguenots .
+
+<http://dbpedia.org/resource/Huguenot,_Staten_Island> dbo:namedAfter dbr:Huguenots ;
+    dbp:namedFor dbr:Huguenots .
+
+dbr:Scotch-Irish_Americans dbo:related dbr:Huguenots ;
+    dbp:related dbr:Huguenots .
+
+wikipedia-en:Huguenots foaf:primaryTopic dbr:Huguenots .
+
+dbr:Huguenots a owl:Thing ;
+    dbp:date "2010-12-31"^^xsd:date,
+        "2017-10-27"^^xsd:date ;
+    dbp:url <https://web.archive.org/web/20101231030631/http:/www.hugenoot.org.za/hist-hug.htm>,
+        <https://web.archive.org/web/20171027063644/http:/www.huguenot.netnation.com/general/> ;
+    dbp:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:'_'>,
+        dbt:Authority_control,
+        dbt:Calvinism,
+        dbt:Christianity_footer,
+        dbt:Circa,
+        dbt:Citation_needed,
+        dbt:Cite_web,
+        dbt:Clear,
+        dbt:Commons_category,
+        dbt:Details,
+        dbt:EngvarB,
+        dbt:French_diaspora,
+        dbt:History_of_Christianity,
+        dbt:IPA-fr,
+        dbt:IPAc-en,
+        dbt:ISBN,
+        dbt:Legend,
+        dbt:Main,
+        dbt:Other_uses,
+        dbt:Portal,
+        dbt:Refbegin,
+        dbt:Refend,
+        dbt:Reflist,
+        dbt:Reign,
+        dbt:Respell,
+        dbt:See_also,
+        dbt:Short_description,
+        dbt:Use_dmy_dates,
+        dbt:Webarchive,
+        dbt:Wikisource1911Enc,
+        dbt:Wiktionary ;
+    dcterms:subject dbc:Anti-Catholicism_in_France,
+        dbc:Ethnoreligious_groups,
+        dbc:French_Wars_of_Religion,
+        dbc:French_diaspora,
+        dbc:Huguenot_history,
+        dbc:Huguenot_history_in_France,
+        dbc:Huguenots,
+        dbc:Religion_in_the_Ancien_Régime ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/CalasChapbook.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Croix_huguenote.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Expulsion_from_La_Rochelle_of_300_Protestant_famillies_Nov_1661_Jan_Luiken_1649_1712.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Fort_caroline.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/FrenchProtestantChurch.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Henry_IV_en_Herculeus_terrassant_l_Hydre_de_Lerne_cad_La_ligue_Catholique_Atelier_Toussaint_Dubreuil_circa_1600.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/HuguenotMemorialMuseum.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Huguenot_Cemetery,_Cork.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Huguenot_canterbury.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Huguenot_cross.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Huguenot_lovers_on_St._Bartholomew's_Day.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Huguenot_obelisk.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Jean_Hasbrouck_House.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/La_masacre_de_San_Bartolomé,_por_François_Dubois.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Massacre_of_the_Vaudois_of_Merindol.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Michelade.jpeg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Protestant_France.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Reagan_Mitterrand_1984_(cropped).jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Relief_1885.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/WalloonMonumentNYC.gif> .
+

@@ -1,0 +1,35 @@
+ Ao criar um novo arquivo, crie uma pasta chamada "output" e copie as instruções de cima para lá. Em seguida, execute as etapas abaixo na ordem exata em que elas estão listadas. 
+
+### Etapa 1: Crie uma variável chamada 'data'.
+```python
+data = "2017-04-05"
+```
+
+### Etapa 2: Definir o arquivo CSV em formatos de texto padrão, separado por espaços.
+```python
+text = "Normandy;Norman France;10th Century;1066\nNormandie;France Normande;XIe Siecle;1066"
+```
+
+### Etapa 3: Divide a linha em pares de chaves.
+```python
+keyvalue = text.split(";")
+```
+
+### Etapa 4: Crie uma lista vazia chamada 'pares'.
+```python
+pares = []
+```
+
+### Etapa 5: Para cada item em keyvalue, crie um novo par de chaves e coloque-os na lista 'pares'.
+```python
+for i in range(len(keyvalue)):
+    key, value = keyvalue[i].split(";")
+    pares.append((key, value))
+```
+
+### Etapa 6: Exportar o arquivo CSV usando a lista 'pares'.
+```python
+with open('output/normandy.csv', 'w') as f:
+    writer = csv.writer(f)
+    writer.writerows(pares)
+```
