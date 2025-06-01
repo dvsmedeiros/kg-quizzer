@@ -1,0 +1,19 @@
+Vamos gerar o arquivo CSV com base no dado fornecido. Vou estruturar a informação de maneira clara e organizada. Aqui está como ficaria:
+
+```csv
+uri,ns2:powerType,dcterms:subject,ns3:hypeynym,foaf:depiction
+http://dbpedia.org/resource/Steam_engine,"http://dbpedia.org/resource/Template:Steam_engine_applications",http://dbpedia.org/resource/Category:18th-century_inventions,<http://dbpedia.org/resource/Engine>,<http://commons.wikimedia.org/wiki/Special:FilePath/Dampfkessel_für_eine_Stationärdampfmaschine_im_Textilmuseum_Bocholt.jpg>,
+http://dbpedia.org/resource/Steam_engine,"http://dbpedia.org/resource/Template:Steam_engine_applications",http://dbpedia.org/resource/Category:18th-century_inventions,<http://dbpedia.org/resource/Engine>,<http://commons.wikimedia.org/wiki/Special:FilePath/Dampfturbine_Laeufer01.jpg>,
+http://dbpedia.org/resource/Steam_engine,"http://dbpedia.org/resource/Template:Steam_engine_applications",http://dbpedia.org/resource/Category:18th-century_inventions,<http://dbpedia.org/resource/Engine>,<http://commons.wikimedia.org/wiki/Special:FilePath/Oscillating_cylinder.svg>,
+http://dbpedia.org/resource/Steam_engine,"http://dbpedia.org/resource/Template:Steam_engine_applications",http://dbpedia.org/resource/Category:18th-century_inventions,<http://dbpedia.org/resource/Engine>,<http://commons.wikimedia.org/wiki/Special:FilePath/Steam_powered_road-locomotive_from_England.png>,
+http://dbpedia.org/resource/Steam_engine,"http://dbpedia.org/resource/Template:Steam_engine_applications",http://dbpedia.org/resource/Category:18th-century_inventions,<http://dbpedia.org/resource/Engine>,<http://commons.wikimedia.org/wiki/Special:FilePath/Uniflow_steam_engine.gif>
+```
+
+**Explicação das colunas:**
+- `uri`: A URL do objeto na DBPedia.
+- `ns2:powerType`: Referência à marcação que define a potência do motor (neste caso, "http://dbpedia.org/resource/Template:Steam_engine_applications").
+- `dcterms:subject`: Categoria relacionada ao tema da entidade.
+- `ns3:hypeynym`: Classe ou entidade genérica com relação à entidade atual (`<http://dbpedia.org/resource/Engine>`).
+- `foaf:depiction`: Referências a imagens que representam o objeto.
+
+Este CSV foi criado para listar um único objeto (Steam engine) e suas relações de marcação, categoria e depuração. Se você tiver mais objetos ou desejar adicionar informações adicionais, basta incluir mais linhas neste formato.

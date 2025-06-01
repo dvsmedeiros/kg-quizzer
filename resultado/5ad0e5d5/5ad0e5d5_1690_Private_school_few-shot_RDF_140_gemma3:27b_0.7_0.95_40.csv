@@ -1,0 +1,7 @@
+pergunta;resposta
+    The school name; or None if the school name could not be extracted.
+  match = re.search(r"/([^/]+)$"; url)
+    return match.group(1).replace("_"; " ").title()
+    The school name; or None if the school name could not be extracted.
+  match = re.search(r"/([^/]+)$"; url)
+    return match.group(1).replace("_"; " ").title()

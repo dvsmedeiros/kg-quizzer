@@ -1,0 +1,42 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in CSV format based on the provided context about packet switching. Let me start by understanding the context and the facts given.
+
+First, the context talks about packet switching in telecommunications, mentioning Paul Baran and Donald Davies. Baran developed the concept of distributed adaptive message block switching in the early 1960s, which aimed to provide fault-tolerant routing. His work contradicted the pre-allocation of network bandwidth. Davies is credited with coining the term "packet switching" and inspiring networks like ARPANET.
+
+The facts section has some RDF triples, but maybe they're not as important as the context. The main points are the contributions of Baran and Davies, the purpose of packet switching, and how it contrasts with circuit switching.
+
+Now, I need to create 10 varied questions. Let me brainstorm possible questions:
+
+1. Who developed packet switching? (Answer: Paul Baran and Donald Davies)
+2. What is packet switching? (Answer: A method of grouping data into packets)
+3. What was Baran's goal? (Answer: Fault-tolerant, efficient routing)
+4. What did Baran's concept contradict? (Answer: Pre-allocation of bandwidth)
+5. Who coined the term "packet switching"? (Answer: Donald Davies)
+6. What is the primary basis of data communications? (Answer: Packet switching)
+7. Which network used packet switching? (Answer: ARPANET)
+8. How does packet switching differ from circuit switching? (Answer: Packet switching uses variable bandwidth)
+9. What is the function of the header in a packet? (Answer: Directs the packet to its destination)
+10. What is the payload in a packet? (Answer: Data extracted by the destination)
+
+Wait, the examples in the user's prompt had specific answers, so I need to make sure the answers are concise and directly from the context. Let me check each point again.
+
+For example, the first question might be "Who developed the concept of packet switching?" with answer "Paul Baran and Donald Davies." But need to verify if the context mentions both. Yes, the context says Baran developed the concept and Davies is credited with the term.
+
+Another question: "What is the main characteristic of packet switching?" Answer: Grouping data into packets.
+
+Wait, the example answers are short, so I need to keep them under 10 words. Let me structure each question and answer pair, ensuring they are unique and cover different aspects.
+
+I should avoid repetition. Let me list possible questions and their answers, ensuring they are all distinct and based on the context. Then format them into CSV with semicolons.
+</think>
+
+pergunta;resposta  
+Quem desenvolveu o conceito de comutação de pacotes?;Paul Baran e Donald Davies  
+O que é a comutação de pacotes?;Método de agrupar dados em pacotes  
+Qual era o objetivo do sistema de Baran?;Fornecer roteamento eficiente e tolerante a falhas  
+O que Baran contradizia?;Princípios de pré-alocação de largura de banda  
+Quem cunhou o termo "comutação de pacotes"?;Donald Davies  
+Qual é a base principal das comunicações de dados?;Comutação de pacotes  
+Qual rede utilizou comutação de pacotes?;ARPANET  
+Como a comutação de pacotes difere da comutação de circuitos?;Usa largura de banda variável  
+Qual é a função da camada de cabeçalho dos pacotes?;Direcionar o pacote para o destino  
+O que é o payload dos pacotes?;Dados extraídos pelo sistema de destino

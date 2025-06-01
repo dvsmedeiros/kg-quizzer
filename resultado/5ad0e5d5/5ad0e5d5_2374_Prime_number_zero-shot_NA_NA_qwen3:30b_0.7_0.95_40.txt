@@ -1,0 +1,49 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs in CSV format based on the given context about prime numbers. Let me start by understanding the context thoroughly.
+
+First, the context explains what prime numbers are, their properties, the fundamental theorem of arithmetic, methods to check primality like trial division, Miller-Rabin, and AKS, the largest known prime, Euclid's proof of infinite primes, the prime number theorem, unsolved problems like Goldbach's conjecture, and applications in cryptography and abstract algebra.
+
+I need to create questions that cover these key points. Each question should be relevant, and the answers must be concise, under 10 words. Let me brainstorm possible questions:
+
+1. What defines a prime number? (Answer: A natural number greater than 1 not a product of two smaller numbers.)
+2. What's the fundamental theorem of arithmetic? (Answer: Every number is a prime or product of primes uniquely.)
+3. What's a simple method to check primality? (Answer: Trial division tests divisibility by integers up to sqrt(n).)
+4. What's the largest known prime as of 2018? (Answer: A Mersenne prime with 24,862,048 digits.)
+5. Who proved there are infinitely many primes? (Answer: Euclid around 300 BC.)
+6. What does the prime number theorem state? (Answer: Probability of a large number being prime decreases with digits.)
+7. What's Goldbach's conjecture? (Answer: Every even integer >2 is sum of two primes.)
+8. What's a prime element in algebra? (Answer: An element that can't be factored into non-units.)
+9. How are primes used in IT? (Answer: Public-key cryptography relies on prime factorization difficulty.)
+10. What's a composite number? (Answer: A number with factors other than 1 and itself.)
+
+Wait, I need to ensure answers are under 10 words. Let me check each:
+
+1. "A natural number greater than 1 not a product of two smaller numbers." – 12 words. Need to shorten. Maybe "Natural number >1 not product of smaller numbers." – 9 words.
+2. "Every number is a prime or product of primes uniquely." – 8 words. Good.
+3. "Trial division tests divisibility by integers up to sqrt(n)." – 9 words. Good.
+4. "A Mersenne prime with 24,862,048 digits." – 7 words. Perfect.
+5. "Euclid around 300 BC." – 4 words. Yes.
+6. "Probability of a large number being prime decreases with digits." – 10 words. Maybe "Probability decreases with digits." – 5 words. But the original answer was more accurate. Hmm. The prime number theorem says the probability is inversely proportional to the logarithm of the number. So maybe "Probability inversely proportional to logarithm." – 6 words. But the user's example answer for the prime number theorem was "probability inversely proportional to its number of digits, that is, to its logarithm." But the answer needs to be under 10 words. So "Probability inversely proportional to logarithm." – 6 words. That's better.
+7. "Every even integer >2 is sum of two primes." – 7 words. Good.
+8. "An element that can't be factored into non-units." – 8 words. Good.
+9. "Public-key cryptography relies on prime factorization difficulty." – 8 words. Good.
+10. "A number with factors other than 1 and itself." – 7 words. Yes.
+
+Now, check if all answers are accurate. For example, the prime number theorem's answer: the original context says "the probability... inversely proportional to its number of digits, that is, to its logarithm." So the answer should capture that. Maybe "Probability inversely proportional to logarithm." That's concise and accurate.
+
+Also, check for duplicates and ensure each question is distinct. The questions cover different aspects: definitions, theorems, methods, examples, historical facts, unsolved problems, algebraic concepts, applications.
+
+Now, format them into CSV with semicolons. Make sure no extra text, just the CSV. Let me write them out.
+</think>
+
+pergunta;resposta
+O que define um número primo?;Natural número maior que 1 não produto de menores
+Qual é o teorema fundamental da aritmética?;Todo número é primo ou produto único de primos
+Qual método simples verifica primalidade?;Divisão por inteiros até raiz quadrada
+Qual o maior primo conhecido até 2018?;Primo de Mersenne com 24.862.048 dígitos
+Quem provou infinitos primos?;Euclides em 300 a.C.
+O que afirma o teorema dos números primos?;Probabilidade inversa ao logaritmo da quantidade de dígitos
+O que é a conjectura de Goldbach?;Todo inteiro par >2 é soma de dois primos
+O que é um elemento primo em álgebra?;Elemento não fatorável em não-unidades
+Como os primos são usados na tecnologia?;Criptografia pública depende fatoração difícil
+O que é um número composto?;Número com fatores além de 1 e si mesmo

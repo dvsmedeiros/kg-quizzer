@@ -1,0 +1,38 @@
+<think>
+Okay, I need to generate a quiz with 10 questions based on the given context about British Satellite Broadcasting (BSB). Let me start by understanding the information provided.
+
+First, the abstract says that BSB was a TV company in London that started broadcasting on March 25, 1990. They merged with Sky Television to form BSkyB on November 2, 1990. So I can create questions about their founding date and merger details.
+
+Looking at the facts section, there are several RDF triples. For example, BSB owned channels like Galaxy, Now, The Computer Channel, etc. These can be used to make questions about which company owned these channels.
+
+Also, BSB was involved in producing films like Hardware, Heil Honey I'm Home!, and Memphis Belle. That gives me material for questions about production companies.
+
+I need to ensure each question is unique and covers different aspects of the information. Let me list out potential topics:
+
+1. Founding date
+2. Merger details (with whom and when)
+3. Company type/industry
+4. Location
+5. Owned channels
+6. Production films
+7. Successor company after merger
+8. Year of founding
+
+I should vary the questions to cover each topic without repetition. Let me draft each question, making sure the answers are concise and directly from the context.
+
+Now, I'll structure each pair as per the CSV format with semicolon separators. I'll ensure that the output is clean and only contains the required lines without any extra text.
+</think>
+
+```
+pergunta;resposta
+Qual foi a data de fundação da British Satellite Broadcasting?;1986
+Quando começou a transmitir a BSB?;25 de março de 1990
+Com qual empresa a BSB se fusionou?;Sky Television plc
+Qual era o local de sede da BSB?;Londres
+Qual canal pertencia à British Satellite Broadcasting?;Galaxy
+Qual empresa sucedeu a BSB após sua fusão?;BSkyB
+Em qual ano a BSB começou suas operações?;1986
+Qual filme teve produção pela BSB?;Hardware
+Quais canais eram propriedade da BSB além do Galaxy?;Now, The Computer Channel, The Movie Channel, The Power Station
+A BSB pertence a qual setor econômico principal?;Mídia
+```

@@ -1,0 +1,5 @@
+pergunta;resposta
+Now; thinking about how to structure the CSV:
+3. **Handling Mix Data Types**: Since some fields contain both numbers and strings; I'll need to include quotes around such fields in the CSV to preserve the integrity of the data when dealing with text that already contains commas or other special characters.
+I also need to pay attention to any fields that are nested or have arrays within them. For instance; the field "ns2:link" contains both text and a hyperlink URL. This could be problematic for a CSV format since it's not straightforward to represent URLs in a simple CSV without losing information about spaces and special characters.
+Lastly; ensuring that the CSV file is properly formatted with correct commas separating each value and handling any encoding issues (like UTF-8) that might arise from special characters in place names or descriptions.

@@ -1,0 +1,29 @@
+<think>
+Okay, so the user has asked me to generate a quiz based on the provided context about the University of Chicago. They want 10 question-response pairs in CSV format with specific guidelines.
+
+First, I need to make sure each question is relevant to the context and each answer is concise—up to 10 words. The language should be Portuguese, and the separator is a semicolon.
+
+I'll start by reading through the context carefully to extract key points. The university's location, main campus, ranking, structure (undergraduate college and divisions), professional schools, campuses abroad, notable scholars, contributions to academic fields, historical achievements like the nuclear reaction and radiocarbon dating, research labs, press, Nobel laureates, and distinguished faculty and alumni.
+
+For each point, I'll formulate a question that directly relates to it. Then, I'll craft a short answer based on the information provided. It's important to ensure the answers are accurate and match the context given.
+
+I should cover various aspects of the university to make the quiz comprehensive. Including both factual questions about locations, names, and achievements, as well as more specific details like the number of Nobel laureates or the name of the medical school.
+
+I need to double-check that each question is clear and that the answer is correct according to the context. Also, I should avoid making any assumptions beyond what's provided.
+
+Finally, I'll compile all 10 pairs into a CSV format as specified, ensuring proper semicolon separation and correct formatting.
+</think>
+
+```csv
+pergunta;resposta
+Qual é o nome completo da universidade?;University of Chicago
+Onde está localizada a principal campus da universidade?;Hyde Park neighborhood, Chicago
+Quantas divisões de pesquisa graduada a universidade possui?;Cinco
+Quais são as unidades profissionais da universidade?;Escola de Direito, Escola de Negócios, Escola de Medicina, Escola de Serviço Social, Escola de Políticas Públicas, Escola Divindária, Graham School of Continuing Liberal and Professional Studies e Pritzker School of Molecular Engineering
+Quais são os campus internacionais da universidade?;London, Paris, Beijing, Delhi e Hong Kong
+Qual foi a contribuição histórica do Metallurgical Laboratory?;Primer reator nuclear autossustentável (Chicago Pile-1)
+Qual técnica revolucionária foi desenvolvida em química?;Datação com carbono-14
+Quais laboratórios são administrados pela universidade?;Fermi National Accelerator Laboratory e Argonne National Laboratory
+Qual é o nome da editora da universidade?;University of Chicago Press
+Quantos laureados do Nobel a universidade já teve?;97
+```

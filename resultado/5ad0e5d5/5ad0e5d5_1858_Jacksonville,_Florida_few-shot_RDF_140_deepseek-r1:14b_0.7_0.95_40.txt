@@ -1,0 +1,30 @@
+<think>
+Ok, vamos ver como eu posso ajudar com isso. Primeiro, entendo que a pessoa forneceu um conjunto de dados em RDF no formato Turtle, onde muitos recursos (representados por URIs) estão associados à cidade de Jacksonville, Flórida. Cada linha parece estar indicando alguma relação ou propriedade relacionada a Jacksonville.
+
+Agora, ela está pedindo para gerar um CSV com base nestas instruções e regras. Acho que o objetivo é pegar essas informações e transformá-las em uma tabela estruturada no formato CSV (comma-separated values), onde cada linha representa um recurso ligado a Jacksonville e as colunas são as propriedades associadas.
+
+Primeiro, preciso identificar quais são as propriedades mencionadas. Vejo que há várias namespaces usadas, como ns1 e ns2, que parecem estar relacionadas a diferentes aspectos da cidade, como clima, geografia, cultura, etc. Além disso, muitas entidades estão ligadas a Jacksonville usando predicados como "a", "ns1:areaWater", "ns1:namedAfter", etc.
+
+Vou precisar extrair todas essas informações e organizá-las em um formato de tabela. Provavelmente, cada linha do CSV corresponderá a uma entidade específica, com as colunas representando as propriedades como "Nome da Entidade", "Tipo", "Área d'água", "Nomeado após", "Fuso horário" e assim por diante.
+
+Além disso, preciso prestar atenção para não duplicar informações e manter a consistência nas colunas. Talvez seja necessário normalizar os dados, convertendo valores de metros quadrados para hectares ou ajustando formatos de datas e temperaturas conforme necessário.
+
+Também noto que algumas linhas no RDF estão em português, o que pode complicar a leitura automática. Vou precisar verificar se isso é relevante ou se posso ignorá-lo, dependendo das instruções específicas para o CSV.
+
+Finalmente, vou estruturar o CSV com as colunas adequadas e preencher cada linha com os dados extraídos do RDF fornecido.
+</think>
+
+```csv
+Resource,Type,Area Water (sq meters),Named After,Fuse Hourly,ZonalLowF,Link,Record HighF,Nickname,Precipitation Inch,Sun Percents,Mouth Location,Builders,Historic Building,Railroad Headquarters,Relay City,AM Radio Call Sign,Terrain,Waterside
+http://dbpedia.org/resource/Jacksonville,_Florida,City,null,"Andrew Jackson","Eastern Time Zone",47,"Interstate 95 in Florida",91,"Jax, The River City, The Bold New City of the South",2,62,"St. Johns River","SS_Morris_C._Feinstone, SS_Thomas_Sully, RV_Gloria_Michelle, PSS_World_Medical",Seaboard System Railroad,River City,WJCT TV
+http://dbpedia.org/resource/Andrew_Jackson,Person,
+http://dbpedia.org/resource/St._Johns_River,River,"St. Johns River flows into Jacksonville"
+http://dbpedia.org/resource/San_Jose_Episcopal_Church,Church,
+http://dbpedia.org/resource/Kingsley_Plantation,Plantation,
+http://dbpedia.org/resource/Main_Street_Bridge_(Jacksonville),Bridge,
+http://dbpedia.org/resource/John_S._Sammis_House,Mansion,
+http://dbpedia.org/resource/John_Theus,Person,
+http://dbpedia.org	resource/Rick_Tillis,Person,
+http://dbpedia.org/resource/Tom_Petway,Person,
+http://dbpedia.org/resource/U.S._Route_23_in_Florida,Road,null,Jacksonville
+```

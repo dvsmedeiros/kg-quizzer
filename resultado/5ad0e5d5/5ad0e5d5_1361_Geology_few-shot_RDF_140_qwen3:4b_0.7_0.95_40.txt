@@ -1,0 +1,87 @@
+<think>
+Okay, let's tackle this. The user provided a list of URIs related to geology and wants a CSV generated based on the instructions and rules. First, I need to understand what the instructions are. Since the user mentioned "Instrução Final" and "Gere agora o CSV conforme Instruções e Regras," but the actual instructions aren't provided here, I have to infer based on the context.
+
+Looking at the example given, the URIs are all related to geology, and the CSV likely needs to extract information from these URIs. The example response includes columns like "URI", "Name", "Description", "Type", and "Related Concepts". The original data includes various properties like "wikiPageUsesTemplate", "dcterms:isPartOf", "foaf:depiction", etc.
+
+So, the task is to parse each URI, extract the relevant information, and structure it into a CSV. The user might want each row to represent an entity (like a person, place, or concept) and include details like name, type, description, and related concepts. The URIs in the provided list are likely entities in the DBpedia dataset, so each entry would be a subject from the list.
+
+I need to check each URI and see what properties are associated with them. For example, the URI "http://dbpedia.org/resource/Geology" has properties like "wikiPageUsesTemplate", "dcterms:isPartOf", and "foaf:depiction". But other URIs like "http://dbpedia.org/resource/Underland_(book)" have "subject" as a property pointing to "Geology".
+
+So, the CSV should have rows for each URI, with columns like URI, Name, Description, Type, and Related Concepts. The Name would be the resource name, the Description could be derived from the properties, and the Type might be the category. The Related Concepts would be the entities linked to the current URI.
+
+I need to make sure that all entries are correctly mapped. For example, "http://dbpedia.org/resource/Geology" is the main entity, and the related concepts would be the templates, parts of, and depictions. For other entities like "http://dbpedia.org/resource/Underland_(book)", the related concept is "Geology" as per the "subject" property.
+
+I should also check if the user wants the CSV to include all the URIs provided, even if they are just properties. But the example response seems to focus on the main entities, so maybe each row is a main entity, and the related concepts are the things they are related to.
+
+Another thing to consider is that some URIs might have multiple properties. For example, "http://dbpedia.org/resource/Geology" has multiple "wikiPageUsesTemplate" entries, so those should be listed as separate entries under Related Concepts. However, the example response lists them as a single list, so maybe they should be combined into a single field with multiple entries separated by commas.
+
+Also, the "dcterms:isPartOf" points to a target URL, which might be a larger category, so that should be included as part of the Related Concepts.
+
+I need to ensure that each row in the CSV corresponds to a URI, and the columns are correctly filled with the relevant information. For example, the URI is the main key, the Name is the resource name, Description might be a brief summary, Type could be the category (like "学科" for academic field), and Related Concepts are the entities or properties linked to it.
+
+I should also check if the user wants the CSV to include all the URIs provided, which are all related to geology, or just the main entities. The example provided seems to include the main entity "Geology" and others like "Underland_(book)", so the CSV should include each of these URIs as rows.
+
+In summary, the steps are:
+
+1. For each URI in the provided list, extract the name (e.g., "Geology", "Underland_(book)").
+2. Determine the description, which might be derived from properties or a brief explanation.
+3. Identify the type, which could be "学科" (subject) or another category.
+4. Collect related concepts from properties like "wikiPageUsesTemplate", "dcterms:isPartOf", "foaf:depiction", and "subject".
+5. Format these into a CSV with the appropriate columns.
+
+Now, I need to process each URI and populate the CSV accordingly. Let me start by listing all the URIs and then extract the necessary information for each.
+</think>
+
+```csv
+URI,Name,Description,Type,Related Concepts
+http://dbpedia.org/resource/Geology,Geology,The scientific study of the Earth's physical structure and substance,学科,Template:Geologic_Principles,Template:Portal,Template:Short_description,Template:Wikisource_portal,http://zbw.eu/stw/mapping/dbpedia/target,http://commons.wikimedia.org/wiki/Special:FilePath/Earthquake_wave_paths.svg,http://commons.wikimedia.org/wiki/Special:FilePath/Kittatinny_Mountain_Cross_Section.jpg,http://commons.wikimedia.org/wiki/Special:FilePath/Thin_section_scan_crossed_polarizers_Siilinjärvi_R636-105.90.jpg
+http://dbpedia.org/resource/Underland_(book),Underland_(book),A book related to geology,书籍,Geology
+http://dbpedia.org/resource/Stratigraphy_and_Geological_Correlation,Stratigraphy_and_Geological_Correlation,An academic discipline related to geology,学科,Geology
+http://dbpedia.org/resource/PALAIOS,PALAIOS,A geological journal,期刊,Geology
+http://dbpedia.org/resource/Zeitschrift_für_Geologische_Wissenschaften,Zeitschrift_für_Geologische_Wissenschaften,A geological scientific journal,期刊,Geology
+http://dbpedia.org/resource/UW–Madison_Geology_Museum,UW–Madison_Geology_Museum,A geological museum,博物馆,Geology
+http://dbpedia.org/resource/Museum_Gherdëina,Museum_Gherdëina,A geological museum,博物馆,Geology
+http://dbpedia.org/resource/Reinout_Willem_van_Bemmelen,Reinout_Willem_van_Bemmelen,A geologist,人物,Geology
+http://dbpedia.org/resource/Richard_Dixon_Oldham,Richard_Dixon_Oldham,A geologist,人物,Geology
+http://dbpedia.org/resource/John_Tuzo_Wilson,John_Tuzo_Wilson,A geologist,人物,Geology
+http://dbpedia.org/resource/Rupert_Sutherland,Rupert_Sutherland,A geologist,人物,Geology
+http://dbpedia.org/resource/William_Otis_Crosby,William_Otis_Crosby,A geologist,人物,Geology
+http://dbpedia.org/resource/William_John_McGee,William_John_McGee,A geologist,人物,Geology
+http://dbpedia.org/resource/Maximilian_Kravkov,Maximilian_Kravkov,A geologist,人物,Geology
+http://dbpedia.org/resource/Peter_A._Rona,Peter_A._Rona,A geologist,人物,Geology
+http://dbpedia.org/resource/Max_Steineke,Max_Steineke,A geologist,人物,Geology
+http://dbpedia.org/resource/Martin_Glaessner,Martin_Glaessner,A geologist,人物,Geology
+http://dbpedia.org/resource/Nicolas_Desmarest,Nicolas_Desmarest,A geologist,人物,Geology
+http://dbpedia.org/resource/Luca_Bindi,Luca_Bindi,A geologist,人物,Geology
+http://dbpedia.org/resource/Lucien_Cayeux,Lucien_Cayeux,A geologist,人物,Geology
+http://dbpedia.org/resource/Marian_Holness,Marian_Holness,A geologist,人物,Geology
+http://dbpedia.org/resource/Leonardo_Fea,Leonardo_Fea,A geologist,人物,Geology
+http://dbpedia.org/resource/Raymond_Thorsteinsson,Raymond_Thorsteinsson,A geologist,人物,Geology
+http://dbpedia.org/resource/Thomas_Field_Gibson,Thomas_Field_Gibson,A geologist,人物,Geology
+http://dbpedia.org/resource/Thomas_H._Jordan,Thomas_H._Jordan,A geologist,人物,Geology
+http://dbpedia.org/resource/Timothy_Eglinton,Timothy_Eglinton,A geologist,人物,Geology
+http://dbpedia.org/resource/Rudolph_Glossop,Rudolph_Glossop,A geologist,人物,Geology
+http://dbpedia.org/resource/Stephen_E._Calvert,Stephen_E._Calvert,A geologist,人物,Geology
+http://dbpedia.org/resource/Steven_M._Holland,Steven_M._Holland,A geologist,人物,Geology
+http://dbpedia.org/resource/Ruth_A._M._Schmidt,Ruth_A._M._Schmidt,A geologist,人物,Geology
+http://dbpedia.org/resource/Ruth_Blake,Ruth_Blake,A geologist,人物,Geology
+http://dbpedia.org/resource/Samuel_Woodward,Samuel_Woodward,A geologist,人物,Geology
+http://dbpedia.org/resource/Sandra_Postel,Sandra_Postel,A geologist,人物,Geology
+http://dbpedia.org/resource/Sharon_Mosher,Sharon_Mosher,A geologist,人物,Geology
+http://dbpedia.org/resource/John_H._Hassler,John_H._Hassler,A geologist,人物,Geology
+http://dbpedia.org/resource/William_B._Morrison,William_B._Morrison,A geologist,人物,Geology
+http://dbpedia.org/resource/George_F._Baker,George_F._Baker,A geologist,人物,Geology
+http://dbpedia.org/resource/James_A._Baker,James_A._Baker,A geologist,人物,Geology
+http://dbpedia.org/resource/Charles_S._Curtis,Charles_S._Curtis,A geologist,人物,Geology
+http://dbpedia.org/resource/William_J._Harrison,William_J._Harrison,A geologist,人物,Geology
+http://dbpedia.org/resource/William_M._Gallatin,William_M._Gallatin,A geologist,人物,Geology
+http://dbpedia.org/resource/John_B._Eaton,John_B._Eaton,A geologist,人物,Geology
+http://dbpedia.org/resource/Joseph_H._Baker,Joseph_H._Baker,A geologist,人物,Geology
+http://dbpedia.org/resource/James_H._Baker,James_H._Baker,A geologist,人物,Geology
+http://dbpedia.org/resource/John_M._Baker,John_M._Baker,A geologist,人物,Geology
+http://dbpedia.org/resource/William_M._Baker,William_M._Baker,A geologist,人物,Geology
+http://dbpedia.org/resource/George_C._Baker,George_C._Baker,A geologist,人物,Geology
+http://dbpedia.org/resource/John_B._Baker,John_B._Baker,A geologist,人物,Geology
+http://dbpedia.org/resource/William_J._Baker,William_J._Baker,A geologist,人物,Geology
+http://dbpedia.org/resource/James_M._Baker,James_M._Baker,A geologist,人物,Geology
+```

@@ -1,0 +1,100 @@
+pergunta;resposta
+Okay; let's tackle this problem. The user provided a bunch of RDF data and wants me to generate a CSV file based on the given instructions and rules. Let me start by understanding the data and the requirements.
+For example; the triple:
+Property;Value
+ns2:committeeInLegislature;Audit
+Property;Value
+ns1:committees;Europe and External Relations
+Other""" should be processed to "Government"; "Opposition Other".
+Now; let me go through all the triples and list them out.
+ns2:leader has the URI <http://dbpedia.org/resource/Alison_Johnstone>; so the value is "Alison_Johnstone".
+ns2:location is <http://dbpedia.org/resource/Scotland>; so the value is "Scotland".
+ns2:politicalPartyInLegislature is <http://dbpedia.org/resource/Third_Sturgeon_government>; value "Third_Sturgeon_government".
+ns1:commons is "yes"; so that's a direct entry.
+ns1:leader is <http://dbpedia.org/resource/George_Adam>; value "George_Adam".
+ns1:leader2Type is <http://dbpedia.org/resource/First_Minister_of_Scotland>; value "First_Minister_of_Scotland".
+ns1:leader4Type is <http://dbpedia.org/resource/Opposition_Parties_of_the_Scottish_Parliament>; value "Opposition_Parties_of_the_Scottish_Parliament".
+ns1:party is <http://dbpedia.org/resource/Scottish_National_Party>; value "Scottish_National_Party".
+Other""" (with line breaks). The line breaks should be replaced with spaces; so the second value becomes "Opposition Other".
+ns1:wikiPageUsesTemplate has multiple URIs. Each of these should be split into individual rows; extracting the local name.
+ns3:sameAs has a URI; so the value is "152958644".
+Property;Value
+ns2:committeeInLegislature;Audit
+ns2:committeeInLegislature;Culture
+ns2:committeeInLegislature;Finance_and_Devolution
+ns2:committeeInLegislature;Health_and_Wellbeing
+ns2:committeeInLegislature;Local_Government_and_Communities
+ns2:committeeInLegislature;Public_Administration_and_National_Benefits
+ns2:committeeInLegislature;Sustainable_Built_Environment
+ns2:lastElectionDate;2021-05-06
+ns2:leader;Alison_Johnstone
+ns2:location;Scotland
+ns2:politicalPartyInLegislature;Third_Sturgeon_government
+ns1:backgroundColor;#500791
+ns1:committees;Europe_and_External_Relations
+ns1:committees;Finance_and_Devolution
+ns1:committees;Health_and_Wellbeing
+ns1:committees;Local_Government_and_Communities
+ns1:committees;Public_Administration_and_National_Benefits
+ns1:committees;Sustainable_Built_Environment
+ns1:committees;Transport_and_Mobility
+ns1:commons;yes
+ns1:commonsSearch;Scottish_Parliament
+ns1:d;yes
+ns1:lastElection;2021-05-06
+ns1:leader;George_Adam
+ns1:leader1Type;Presiding_Officer_of_the_Scottish_Parliament
+ns1:leader2Type;First_Minister_of_Scotland
+ns1:leader4Type;Opposition_Parties_of_the_Scottish_Parliament
+ns1:meetingPlace;Scottish_Parliament_Building
+ns1:nextElection;--05-07
+ns1:party;Scottish_National_Party
+ns1:politicalGroups;Government
+ns1:politicalGroups;Opposition_Other
+ns1:portal;Scotland
+ns1:structure;Scottish-parliament.svg
+ns1:structure1Alt;Scottish_Parliament_composition
+ns1:structure1Res;250
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col1
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col2
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col3
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col4
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col5
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col6
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col7
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col8
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col9
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col10
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col11
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col12
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col13
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col14
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col15
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col16
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col17
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col18
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col19
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col20
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col21
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col22
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col23
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col24
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col25
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col26
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col27
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col28
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col29
+ns1:wikiPageUsesTemplate;Template:Infobox_parliament/col30
+dcterms:subject;Category:Parliament_of_Scotland
+dcterms:subject;Category:Scottish_Government
+dcterms:subject;Category:Scottish_Parliament
+dcterms:subject;Category:Parliamentary_buildings
+ns3:sameAs;152958644
+foaf:depiction;Audit_(organisation)
+foaf:depiction;Culture_(organisation)
+foaf:depiction;Finance_and_Devolution_(organisation)
+foaf:depiction;Health_and_Wellbeing_(organisation)
+foaf:depiction;Local_Government_and_Communities_(organisation)
+foaf:depiction;Public_Administration_and_National_Benefits_(organisation)
+foaf:depiction;Sustainable_Built_Environment_(organisation)

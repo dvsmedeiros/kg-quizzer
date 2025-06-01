@@ -1,0 +1,29 @@
+<think>
+Alright, I need to generate a CSV with 10 question-answer pairs based on the provided context about steam engines. The user has specified that each pair should be in Portuguese, separated by a semicolon, and only contain the CSV without any extra text.
+
+First, I'll read through the context carefully to identify key points that can form questions. Topics include the working fluid (steam), components like pistons and cylinders, energy conversion using connecting rods and cranks, external combustion engines, the Rankine cycle, historical inventors such as Ayanz y Beaumont, Savery, Newcomen, and Watt, their contributions, and the timeline of steam engine usage.
+
+I'll start by noting each key fact and think about how to phrase it as a question. For example, the working fluid is steam, so I can ask "Qual é o fluido de trabalho da máquina a vapor?" The answer would be "Vapor."
+
+Next, components: pistons and cylinders are essential, leading to a question about which parts move in the engine. The connecting rod and crank convert motion, so that's another question.
+
+I should ensure each question is clear and directly relates to the context without ambiguity. I'll avoid complex phrasing to keep it straightforward. Also, making sure the answers are concise, up to 10 words in Portuguese.
+
+I'll go through each paragraph, extract main ideas, turn them into questions, and verify that the answers accurately reflect the information given. It's important to cover a range of topics from basic components to historical developments and technological impacts.
+
+After drafting all pairs, I'll double-check for any errors or inconsistencies with the context. Ensuring that all 10 are included without repetition is crucial. Once satisfied, I'll format them into the required CSV structure.
+</think>
+
+```
+pergunta;resposta
+Qual é o fluido de trabalho da máquina a vapor?;Vapor
+Quais partes se movem na máquina a vapor para realizar trabalho mecânico?;Pistão e cilindro
+Como a força do vapor é convertida em força rotacional?;Por meio de uma biela e manivela
+A máquina a vapor é um exemplo de qual tipo de motor térmico externo?;Motor de combustão externa
+Qual ciclo termodinâmico ideal analisa o processo da máquina a vapor?;Ciclo Rankine
+Quem patenteou a primeira bomba movida a vapor para drenagem de minas em 1606?;Jerónimo de Ayanz y Beaumont
+Qual inventor é considerado pioneiro no uso comercial de dispositivos movidos a vapor?;Thomas Savery
+Quando foi desenvolvido o primeiro motor a vapor com sucesso comercial que transmitia força contínua?;1712
+Qual melhoria importante fez James Watt em 1764?;Remoção do vapor gasto para um recipiente separado
+Por que as turbinas a vapor substituíram os motores de pistão no século XX?;Menor custo, maior velocidade e eficiência
+```

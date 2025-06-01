@@ -1,0 +1,9 @@
+pergunta;resposta
+Okay; I need to help the user generate a CSV based on the provided JSON structure. Let me start by understanding what's given.
+Another thing to consider is handling multiple educational backgrounds; like a high school diploma followed by an associate's degree. I'll need to combine these in the CSV correctly.
+3. For each object; extract all relevant fields:
+5. Combine the extracted data into a CSV format; ensuring correct formatting.
+with open('data.json'; 'r') as f:
+    writer SetWidth(max(len('Name'); len('Position')))  # Ajustar o separador conforme necessário
+        first_name = f"{person['first_name']}; {person['last_name']}"
+Se você quiser que use o separador de linhas em um formato mais limpo; pode usar:

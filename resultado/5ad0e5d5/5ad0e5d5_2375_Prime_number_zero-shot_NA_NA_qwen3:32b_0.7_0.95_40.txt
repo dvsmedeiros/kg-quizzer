@@ -1,0 +1,37 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs in CSV format based on the provided context about prime numbers. Let me start by carefully reading the context to identify key points.
+
+First, the context defines prime numbers and composite numbers. So I can ask what a prime number is and what a composite number is. The example given is 5 being prime and 4 being composite. That's a good start for two questions.
+
+Next, the fundamental theorem of arithmetic is mentioned. That's another key point. The question could be about the theorem's role in number theory.
+
+Then there's the property of being prime called primality. So a question about the term for a number's prime property.
+
+The context talks about trial division, Miller-Rabin, and AKS tests. These are methods for checking primality. Each can be a separate question: the simplest method, the probabilistic one, and the deterministic one.
+
+Mersenne primes are highlighted as having a large number of digits. A question about the largest known prime type.
+
+The infinite nature of primes from Euclid's proof is another point. So asking about the proof of their infinitude.
+
+The prime number theorem is mentioned regarding distribution. A question about the theorem's statement.
+
+Goldbach's conjecture and the twin prime conjecture are unsolved problems. Questions on each.
+
+Lastly, the application in public-key cryptography ties primes to real-world use. That's the final question.
+
+I need to ensure each answer is concise, under 10 words. Let me check each question and answer for clarity and correctness. Also, confirm the CSV format with semicolons and no markdown. That should cover all requirements.
+</think>
+
+```
+pergunta;resposta
+O que é um número primo?;Número natural maior que 1 e não divisível por outros números
+Como se chama um número não primo maior que 1?;Composto
+Qual teorema fundamenta a importância dos primos?;Teorema fundamental da aritmética
+Qual é o método mais simples para verificar primalidade?;Divisão por números entre 2 e n-1
+Qual teste de primalidade é rápido mas pode ter erros?;Miller-Rabin
+Qual teste de primalidade é determinístico mas lento?;AKS
+Que tipo de números primos têm registros com milhões de dígitos?;Mersenne
+Quem demonstrou a infinitude dos números primos?;Euclides
+Qual teorema modela a distribuição dos primos?;Teorema dos números primos
+Qual conjectura diz que todo par é soma de dois primos?;Conjectura de Goldbach
+```

@@ -1,0 +1,42 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs in CSV format based on the provided context and facts. First, I need to make sure I understand the requirements. The questions should be in Portuguese, each with a short answer (up to 10 words), and separated by semicolons. The answers must be directly from the context or derivable from it.
+
+Looking at the context, the main points are: Harvard's founding in 1636, named after John Harvard, located in Cambridge, Massachusetts, part of the Ivy League, ten academic faculties, endowment of $50.9 billion, Harvard Library with 79 libraries and 20.4 million items, Charles W. Eliot's role, Nobel laureates, U.S. presidents as alumni, etc.
+
+Now, the facts list a lot of individuals associated with Harvard, their alma mater, workplaces, etc. But the user wants the questions to be varied and cover the context broadly. So I should mix questions about Harvard's history, structure, endowment, library, notable people, and achievements.
+
+Let me start with the founding. "Quando a Universidade de Harvard foi fundada?" Answer: 1636. That's straightforward. Next, the founder's name: "Qual indivíduo recebeu o nome da universidade?" Answer: John Harvard. Then location: "Em que cidade a Universidade de Harvard está localizada?" Cambridge, Massachusetts.
+
+The endowment is $50.9 billion, so a question about that. The library's number of libraries and items. The number of Nobel laureates and U.S. presidents. Also, the number of academic faculties (ten). The role of Charles W. Eliot in transforming it into a research university. The association founded in 1900 (Association of American Universities). And the number of billionaires among alumni (188).
+
+I need to ensure each question is unique and covers different aspects. Let me check the example given to match the structure. The answers should be concise. Also, avoid repeating similar questions. For instance, not multiple questions about the same president or Nobel laureates.
+
+Wait, the context mentions "eight U.S. presidents" and "188 living billionaires". Also, the library has 79 libraries and 20.4 million items. The endowment is $50.9 billion. The number of academic faculties is ten. The Association of American Universities was co-founded in 1900. Charles W. Eliot's role. The library is the largest academic system. The medical campus in Longwood. The endowment per student is fifth in the U.S.
+
+So I can create questions on these points. Let me list them out:
+
+1. Fundação (1636)
+2. Nome do fundador (John Harvard)
+3. Localização (Cambridge, MA)
+4. Endowment ($50.9 billion)
+5. Número de bibliotecas (79)
+6. Itens na biblioteca (20.4 milhões)
+7. Nobel laureates (150)
+8. U.S. presidents (oito)
+9. Faculdades acadêmicas (dez)
+10. Associação de 1900 (Associação de Universidades Americanas)
+
+That's ten. Let me check if all answers are in the context. Yes. Now, phrasing the questions in Portuguese. Ensure answers are concise. Also, check for any repetition or similar questions. Looks good. Now format as CSV with semicolons.
+</think>
+
+pergunta;resposta
+Quando a Universidade de Harvard foi fundada?;1636
+Qual indivíduo recebeu o nome da universidade?;John Harvard
+Em que cidade a Universidade de Harvard está localizada?;Cambridge, Massachusetts
+Qual é o valor do patrimônio líquido da Universidade de Harvard?;$50,9 bilhões
+Quantas bibliotecas compõem a Harvard Library?;79 bibliotecas
+Quantos itens estão disponíveis na Harvard Library?;20,4 milhões de itens
+Quantos ganhadores do Nobel são alumni da Universidade de Harvard?;150 ganhadores do Nobel
+Quantos presidentes dos Estados Unidos são alumni da Universidade de Harvard?;oito presidentes dos EUA
+Quantas faculdades acadêmicas compõem a Universidade de Harvard?;dez faculdades acadêmicas
+Qual organização foi co-fundada pela Universidade de Harvard em 1900?;Associação de Universidades Americanas

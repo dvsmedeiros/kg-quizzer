@@ -1,0 +1,42 @@
+<think>
+Primeiro, preciso compreender o contexto em que estou trabalhando. O user deseja que eu gere um CSV com 10 pares de perguntas-respostas baseadas no conteúdo sobre a complexidade computacional teórica. Os questionários devem ser variados e as respostas curtes, até 10 palavras.
+
+Para isso, vou analisar o contexto fornecido, que inclui definições, exemplos e relacionamentos entre os elementos da complexidade computacional. Preciso identificar termos-chave e concepts relevantes que podem ser formulados em forma de perguntas.
+
+Primeiro, listo os elementos do contexto:
+- Computational complexity theory
+- Computational problems
+- Algorithms
+- Resources (time, memory)
+- Models of computation (Turing machines, circuits)
+- Complexity classes (P, NP, etc.)
+- Difficulty/inherently difficult problems
+- Practical limits on computing
+- Branches related: Analysis of algorithms, Computability theory
+- Specific terms like "circuit complexity," "complexity subsets PSPACE"
+
+Agora, vou criar perguntas que sejam variadas e abrangentes, cobrindo esses elementos. As respostas devem estar diretamente relacionadas ao contexto, sem ter que inference muito.
+
+Vou começar traduzindo algumas definições para formar perguntas:
+1. "Que mede a complexidade de um problema computacional?" Resposta: "Quantidade de recursos."
+2. "O que define a complexidade de um problema?" Resposta: "Tempo e espaço."
+3. "Qual é o campo que estuda os limites de problemas computacionais?" Resposta: "Computational complexity theory."
+
+Seguindo esse processo, vou criar as 10 perguntas e respostas, garantindo que elas cobram diferentes aspectos do contexto, como definições básicas, usos práticos, campos relacionados e exemplos específicos.
+
+É importante evitar repeties, portanto, vou verificar que cada pergunta seja única em seu contexto de aplicação. Além disso, todas as respostas devem ser curtes e claras, dentro da limitação de 10 palavras.
+
+Finalmente, organizarei as perguntas/respostas no formato CSV, separando cada par com um ponto virgula e garantirei que a saída seja exata e conforme os requisitos do user.
+</think>
+
+pergunta;resposta  
+Quais dois campos da ciência da computação teórica refletem de perto a teoria da complexidade computacional?;Análise de algoritmos e teoria da computabilidade  
+O que é medido para determinar a complexidade do circuito?;Número de portas em um circuito  
+Quais campos da ciência da computação analisa os requisitos de recursos de um algoritmo específico isolado em si mesmo dentro de um determinado problema?;Análise de algoritmos  
+Qual unidade é medida para determinar a complexidade do circuito?;Número de portas em um circuito  
+Que tipo de problemas são classificados utilizando a teoria da complexidade computacional?;Problemas com uma dificuldade inerente  
+O que define a complexidade dos problemas na computação cotidiana?;Determinar os limites práticos sobre o que os computadores podem ou não fazer  
+Quais são os dois principais recursos básicos usados para medir a complexidade?;Tempo e armazenamento  
+Que medida de um problema computacional define amplamente a dificuldade inerente da solução?;Sua SOLUTION necesse para a resolução  
+Por qual atributo principal os problemas computacionais são classificados utilizando a teoria da complexidade computacional?;Dificuldade inerente  
+O que é responsável por determinar a complexidade de um problema computacional?;Tempo e espaço

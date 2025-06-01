@@ -1,0 +1,60 @@
+<think>
+Okay, so I need to generate a quiz based on the provided context about the immune system. The user wants 10 question pairs in CSV format, with each question being relevant and having a short correct answer.
+
+First, I'll go through the context to identify key points that can be turned into questions. The context is quite detailed, so there's plenty to work with.
+
+Starting from the top, it mentions the immune system as a network protecting organisms from diseases. That seems like a good starting point for a question about its main purpose.
+
+Next, it talks about two major subsystems: innate and adaptive. So I can create a question asking which one provides a tailored response.
+
+The context also discusses how many species have an immune system, so that's another fact to use in a question.
+
+It mentions bacteria having rudimentary immune systems with enzymes protecting against viruses. That makes for a good biology-related question.
+
+Phagocytosis and antimicrobial peptides are part of the basic mechanisms, which I can use as well.
+
+The context goes on about adaptive immunity creating immunological memory, so that's another point to consider.
+
+Vaccination is mentioned as related to adaptive immunity, so I'll include that in a question.
+
+Immunity dysfunction leading to diseases like autoimmune disorders and immunodeficiency is covered. That could be the basis for a question.
+
+Specific examples of immune system issues, such as severe combined immunodeficiency or HIV/AIDS, are provided. So I can create a question about these conditions.
+
+Lastly, it mentions that most organisms have an immune system, so that's another fact to use.
+
+I need to make sure each question is clear and directly relates to the context without being too vague. The answers should be concise, up to 10 words. Also, since the user specified Portuguese, I'll structure everything in Portuguese.
+
+Let me list out these points again:
+
+1. Main purpose of immune system.
+2. Subsystem providing tailored response (adaptive).
+3. Number of species with immune systems.
+4. Bacteria's rudimentary immune mechanism.
+5. Basic mechanisms include phagocytosis and antimicrobial peptides.
+6. Adaptive immunity creates immunological memory, leading to enhanced responses.
+7. Relation between adaptive immunity and vaccination.
+8. Immunity dysfunction causing autoimmune diseases.
+9. Example of an immune system-related disease (HIV/AIDS).
+10. Most organisms have an immune system.
+
+Now I'll translate these into questions in Portuguese, ensuring each has a correct short answer based on the context provided.
+
+I should also double-check that each question is unique and covers different aspects to ensure variety and thoroughness. No duplicates or too similar points.
+
+Once all 10 are drafted, I'll format them as CSV pairs separated by semicolons, with no additional text.
+</think>
+
+```csv
+pergunta;resposta
+O que é a principal funcionalidade do sistema imunitário?; proteger um organismo de doenças
+Qual subsystema do sistema imunitário provides a tailored response to stimuli?; adaptivo
+Quais percentuais das espécies possuem algum tipo de sistema imunitário?; Nearly all organisms
+O que é a natureza rudimentar do sistema imunitário em bacterias?; Enzimas que protegem contra infecções virais
+Qual mecanismo básico do sistema imunitário inclui phagocytosis e antimicrobial peptides?; Phagocitosis, antimicrobiana e complemento
+O que é causado pelo adaquado imunidade?; Imunologia记忆
+Adaptable (adaptive) immunity está relacionada com quais imunização?; vacinação
+Quais doenças podem resultar de funcionalidade imunitária excessiva?; Doenças autoimunes
+Uma exemplo de doença causada por imunodeficiência é:; HIV/AIDS
+Muitas espécies têm algum tipo de sistema imunitário. Verdadeiro ou falso?; Verdadeiro
+```

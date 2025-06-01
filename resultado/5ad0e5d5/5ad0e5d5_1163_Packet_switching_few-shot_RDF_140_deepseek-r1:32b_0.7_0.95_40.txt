@@ -1,0 +1,117 @@
+<think>
+Alright, I need to generate 10 question-answer pairs in Portuguese based on the provided context and facts. Let me start by understanding the content.
+
+The abstract talks about packet switching, its development by Paul Baran in the early 60s under the RAND Corporation funded by the U.S. Department of Defense. It mentions that his concept was called "distributed adaptive message block switching" aimed at fault-tolerant routing for telecommunication messages. His ideas contrasted with pre-allocated network bandwidth as seen in Bell System developments. Later, Donald Davies coined the term packet switching and inspired many networks, including ARPANET.
+
+Looking at the facts, there are RDF triples indicating that both Paul Baran and Donald Davies are known for packet switching. Sharla Boehm's academic discipline is packet switching, and W. David Sincoskie is also known for it.
+
+Now, I need to create varied questions covering these points without repeating similar ones. The answers should be concise, up to 10 words.
+
+Let me outline possible questions:
+
+1. Who developed packet switching in the early 60s?
+   - Paul Baran
+
+2. What was the original name of packet switching by Baran?
+   - "Distributed adaptive message block switching"
+
+3. Where did Baran develop his concept?
+   - RAND Corporation
+
+4. Which organization funded Baran's research?
+   - U.S. Department of Defense
+
+5. How does packet switching differ from traditional methods?
+   - No pre-allocation of bandwidth
+
+6. Who popularized the term "packet switching" later?
+   - Donald Davies
+
+7. What did Donald Davies contribute besides coining the term?
+   - Inspired several networks, including ARPANET
+
+8. Besides Baran and Davies, who else is associated with packet switching?
+   - Sharla Boehm and W. David Sincoskie
+
+9. Why was Baran's concept significant?
+   - Provided fault-tolerant routing for telecommunication messages
+
+10. What was the main goal of Baran's research?
+    - To create a reliable, efficient routing method
+
+Wait, but some points need to be precise. For example, question 4 should say U.S. Department of Defense funded RAND Corporation.
+
+Also, question 6 needs to mention that Davies worked at National Physical Laboratory in 1965.
+
+Let me adjust:
+
+Question 6: Who is credited with coining the term "packet switching"?
+Answer: Donald Davies
+
+But perhaps more precise: "Donald Davies is credited with coining the modern term packet switching and inspiring numerous networks..."
+
+Wait, but the answer needs to be short. So maybe just "Donald Davies."
+
+But in the example, they included more details.
+
+Hmm, looking back at the user's example, answers were sometimes longer. But per instructions, the answer should be up to 10 words.
+
+So I'll aim for concise answers.
+
+Let me rephrase:
+
+1. Who developed packet switching?
+   - Paul Baran
+
+2. What was the original term used by Baran?
+   - "Distributed adaptive message block switching"
+
+3. Where did Baran develop this concept?
+   - RAND Corporation
+
+4. Which organization funded Baran's work?
+   - U.S. Department of Defense
+
+5. What was a key difference of packet switching from previous methods?
+   - No pre-allocation of bandwidth
+
+6. Who popularized the term "packet switching" later?
+   - Donald Davies
+
+7. Where did Donald Davies work when he contributed to packet switching?
+   - National Physical Laboratory
+
+8. Besides Baran and Davies, who else is known for packet switching?
+   - Sharla Boehm and W. David Sincoskie
+
+9. What was the goal of Baran's research?
+   - Fault-tolerant routing for telecommunication messages
+
+10. What inspired Davies to develop packet switching further?
+    - His work in 1965 at National Physical Laboratory
+
+Wait, but question 7 and 10 might be similar. Maybe better to make question 10 about the impact of Davies' work.
+
+Alternatively:
+
+10. What significant network adopted packet switching due to Davies' influence?
+    - ARPANET in the U.S.
+
+That's concise and fits within 10 words.
+
+Now, I'll structure these into the CSV format as per instructions.
+</think>
+
+```
+pergunta;resposta
+Quem desenvolveu o método de comutação de pacotes?;Paul Baran
+Qual foi o nome original do conceito desenvolvido por Paul Baran?;"Distributed adaptive message block switching"
+Onde Paul Baran desenvolveu seu conceito?;Corporation RAND
+Qual órgão financiou os estudos de Paul Baran?;Departamento de Defesa dos EUA
+De que maneira a comutação de pacotes difere dos métodos tradicionais?;Sem pré- alocação de largura de banda
+Quem popularizou o termo "comutação de pacotes"?;Donald Davies
+Onde Donald Davies trabalhou ao desenvolver sua contribuição para a comutação de pacotes?;Laboratório Nacional de Física
+Além de Paul Baran e Donald Davies, quem mais é reconhecido por seu trabalho em comutação de pacotes?;Sharla Boehm e W. David Sincoskie
+Qual era o objetivo principal do conceito desenvolvido por Paul Baran?;Prover um método de roteamento eficiente e tolerante a falhas para mensagens de telecomunicação
+Qual rede significativa adotou a comutação de pacotes influenciada pelo trabalho de Donald Davies?;ARPANET nos EUA
+```

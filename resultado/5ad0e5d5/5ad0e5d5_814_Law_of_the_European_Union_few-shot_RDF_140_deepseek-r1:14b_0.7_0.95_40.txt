@@ -1,0 +1,36 @@
+<think>
+Okay, I need to create 10 question-answer pairs in Portuguese based on the given context about European Union law. The output should be a CSV with each line as "pergunta;resposta". 
+
+First, let me review the context and facts provided. The abstract explains that EU law is supranational, operates within 27 member states, and was established starting from the 1952 European Coal and Steel Community. It aims to promote peace, social justice, a social market economy with full employment, environmental protection. The Treaties form its constitutional structure, and the Court of Justice interprets EU law.
+
+The facts section includes RDF triples about resources related to Law of the European Union, mentioning people like Henry G. Schermers and John Bell as legal scholars in this field. Also, there's a connection to Common Market Law Review and Wikipedia pages.
+
+I need to generate varied questions that cover different aspects of EU law. Each question should have one correct answer based on the context or inferable from it.
+
+Possible topics for questions:
+1. When was the European Union's legal framework established? (From abstract)
+2. What is a key objective of EU law? (Peace, social justice, etc.)
+3. Which court interprets EU law? (Court of Justice of the EU)
+4. How many member states are in the EU as per the context? (27)
+5. What is the primary focus of Common Market Law Review? (From RDF)
+6. Who are notable legal scholars in EU law? (Schermers, Bell)
+7. What structure forms the basis of EU Treaties? (Constitutional structure)
+8. What economic model does EU promote? (Social market economy with full employment)
+9. Which template is used in Wikipedia for redirect categories related to EU Law? (Redirect_category_shell)
+10. What year marked the beginning of EU integration? (1952)
+
+Now, I'll draft each question and answer ensuring they are clear and each has a single correct response based on the provided context.
+</think>
+
+```csv
+quando foi estabelecido o marco legal da união europeia;em 1952 com a fundação da communauté européeenne du charbon et de l'acier
+qual é um objetivo chave da lei da união europeia;promover a justiça social e paz entre os Estados-membros
+qual tribunal interpreta a legislação da união europeia;judicial branch coletivamente conhecida como o Tribunal de Justiça da União Europeia
+quantos estados-membros tem a união europeia;27
+qual é a principal revista jurídica do mercado comum;common market law review
+quem são os acadêmicos notáveis na área de direito da UE;henry g. schermers e john bell
+qual estrutura forma a base dos tratados da UE;tratados que formam sua estrutura constitucional
+qual modelo econômico promove a UE;o mercado social com emprego pleno
+qual template é usado na wikipédia para categorias de redirecionamento da lei da UE;template redirect_category_shell
+ano marco da integração europeia;1952
+```

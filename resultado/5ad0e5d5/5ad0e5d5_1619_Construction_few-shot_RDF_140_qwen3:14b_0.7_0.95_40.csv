@@ -1,0 +1,17 @@
+pergunta;resposta
+Here; the object is a URL.
+<http://dbpedia.org/resource/Construction> ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:DEU>; <http://dbpedia.org/resource/Template:More_citations_needed_section> ;
+For example; the line:
+Similarly; the line:
+<http://dbpedia.org/resource/Construction> ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:DEU>; <http://dbpedia.org/resource/Template:More_citations_needed_section> ;
+This has two URLs as the object; so this should be split into two rows.
+1. Split all the lines into individual triples; handling the cases where the object has multiple values.
+3. If the object is a list (like the data or wikiPageUsesTemplate); split into separate rows.
+Now; I'll need to process each line accordingly. Let's go through the data step by step.
+Wait; that's the same as the previous line. Maybe a duplicate.
+And this pattern continues for many other entities; each with similar properties.
+After processing all these entities; we come to the line for "Construction" itself:
+This has four data points. So; split into four rows:
+<http://dbpedia.org/resource/Construction> ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:DEU>; <http://dbpedia.org/resource/Template:More_citations_needed_section> ;
+This has two templates. So; split into two rows:
+3. **Duplicates**: Duplicate entries (e.g.; `ns1:service` for Abengoa) are retained as they appear in the source data.

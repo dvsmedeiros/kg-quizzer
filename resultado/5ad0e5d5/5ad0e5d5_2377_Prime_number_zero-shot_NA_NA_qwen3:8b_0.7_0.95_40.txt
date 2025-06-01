@@ -1,0 +1,64 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in CSV format based on the provided context about prime numbers. Let me start by understanding the context thoroughly. The text explains prime numbers, composite numbers, the fundamental theorem of arithmetic, primality tests like trial division, Miller-Rabin, and AKS, mentions Mersenne primes, the largest known prime, Euclid's proof of infinite primes, the prime number theorem, unsolved problems like Goldbach's conjecture and the twin prime conjecture, and their applications in cryptography and abstract algebra.
+
+First, I should identify key concepts and terms from the text. Here are some important points:
+1. Definition of prime numbers.
+2. Composite numbers vs primes.
+3. Fundamental theorem of arithmetic.
+4. Primality tests (trial division, Miller-Rabin, AKS).
+5. Mersenne primes and the largest known prime.
+6. Euclid's proof of infinite primes.
+7. No simple formula to separate primes from composites.
+8. Prime number theorem and distribution.
+9. Unsolved conjectures (Goldbach, twin primes).
+10. Applications in cryptography and abstract algebra (prime elements, ideals).
+
+Now, I need to create 10 questions that are relevant to these points. Each question should have a concise answer, up to 10 words. Let me brainstorm possible questions:
+
+1. What is a prime number? → Answer: Natural number >1 with no divisors other than 1 and itself.
+2. What is a composite number? → Answer: Natural number >1 that is not prime.
+3. What is the fundamental theorem of arithmetic? → Answer: Every number >1 is prime or product of primes uniquely.
+4. What is trial division? → Answer: Method checking if a number is divisible by integers 2 to n.
+5. What is a Mersenne prime? → Answer: Prime of the form 2^n -1.
+6. What is the largest known prime as of 2018? → Answer: Mersenne prime with 24,862,048 digits.
+7. Who proved there are infinitely many primes? → Answer: Euclid around 300 BC.
+8. What does the prime number theorem state? → Answer: Probability of a large number being prime is inversely proportional to its logarithm.
+9. What is Goldbach's conjecture? → Answer: Every even integer >2 is sum of two primes.
+10. What are prime elements in abstract algebra? → Answer: Objects behaving like prime numbers.
+
+Wait, some answers might be longer than 10 words. Let me check and adjust:
+
+For question 1: "Natural number >1 with no divisors other than 1 and itself." That's 10 words.
+
+Question 2: "Natural number >1 that is not prime." 6 words.
+
+Question 3: "Every number >1 is prime or product of primes uniquely." 10 words.
+
+Question 4: "Method checking divisibility by integers 2 to n." 8 words.
+
+Question 5: "Prime of the form 2^n -1." 5 words.
+
+Question 6: "Mersenne prime with 24,862,048 digits." 7 words.
+
+Question 7: "Euclid around 300 BC." 4 words.
+
+Question 8: "Probability of a large number being prime is inversely proportional to its logarithm." That's too long. Let me rephrase: "Probability of a large number being prime is inversely proportional to its log." 10 words.
+
+Question 9: "Every even integer >2 is sum of two primes." 8 words.
+
+Question 10: "Objects behaving like prime numbers." 6 words.
+
+That should work. Now, I need to format them into CSV with semicolons. Let me make sure each pair is correctly separated and the answers are concise.
+</think>
+
+pergunta;resposta
+O que é um número primo?;Natural número >1 com divisores apenas 1 e ele mesmo
+O que é um número composto?;Natural número >1 que não é primo
+Qual é o teorema fundamental da aritmética?;Todo número >1 é primo ou produto único de primos
+O que é a divisão de tentativa?;Método que testa divisibilidade por inteiros 2 a n
+O que é um primo de Mersenne?;Primo da forma 2^n -1
+Qual é o maior primo conhecido em 2018?;Primo de Mersenne com 24,862,048 dígitos
+Quem provou que há infinitos primos?;Euclides por volta de 300 a.C.
+O que afirma o teorema dos números primos?;Probabilidade de um grande número ser primo é inversamente proporcional ao seu log
+Qual é a conjectura de Goldbach?;Todo número par >2 é soma de dois primos
+O que são elementos primos em álgebra abstrata?;Objetos que se comportam como números primos

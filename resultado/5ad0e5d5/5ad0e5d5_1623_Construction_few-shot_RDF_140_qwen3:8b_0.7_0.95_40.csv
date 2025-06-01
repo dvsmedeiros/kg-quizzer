@@ -1,0 +1,6 @@
+pergunta;resposta
+Let me start by parsing the provided RDF data. Each line seems to be a triple in the format of subject predicate object. For example; one line is:
+3. For predicates "ns1:barWidth" and "ns1:data"; split the values into separate rows.
+Here; the URI is <http://dbpedia.org/resource/Construction>.
+Another thing to watch out for is that some lines might have multiple predicates for the same URI. For instance; a line might have:
+I need to make sure that all such entries are processed correctly; handling the special cases for "ns1:barWidth" and "ns1:data".

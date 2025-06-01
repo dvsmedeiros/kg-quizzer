@@ -1,0 +1,30 @@
+<think>
+Okay, I need to generate a CSV based on the given instructions and data. Let me start by understanding the requirements. The user wants a CSV with specific information about the Yuan Dynasty. The data provided includes a lot of structured information from DBpedia, so I need to extract relevant details.
+
+First, I should look at the "instructions" and "rules" again. The user mentioned that the CSV should be in Portuguese, so I need to make sure the column headers and values are in Portuguese. Also, the data should come from the provided "context" which includes the DBpedia data.
+
+Looking at the DBpedia data, there are various properties like ns2:capital, ns2:leader, ns2:years, ns2:status, etc. I need to map these to appropriate columns in the CSV. Let me list possible columns:
+
+- Nome da Dinastia (Yuan Dynasty)
+- Período de Existência (Years)
+- Capital (Capital)
+- Líder (Leader)
+- Moeda (Currency)
+- Línguas (Languages)
+- Religiões (Religions)
+- Estado (Status)
+- Outras Informações (Other details)
+
+Now, checking the DBpedia data for each of these. For example, the "ns2:years" has "1271", which is the start year. The "ns2:yearEnd" is "1368". The capital is "Shangdu". The leader is "Kublai Khan". The currency is "Predominantly Paper Currency, with a small amount of Chinese cash in use". The languages are "Chinese_language" and "Middle_Mongol". Religions are a list including Buddhism, Mongolian Tengrism, etc. The status is "Conquest dynasty of Imperial China".
+
+I need to ensure that the values are correctly translated or adapted to Portuguese. For example, "Capital" becomes "Capital", "Líder" for leader, "Moeda" for currency, etc. Also, check if there are multiple values, like the years, which might need to be combined. The "ns2:after" and "ns2:before" might be useful for context, but maybe not necessary for the main CSV.
+
+I should also check for any other relevant properties. For example, "ns2:eventEnd" is "Fall of Khanbaliq" and "eventPre" is "Enthronement of Genghis Emperor". These could be additional fields, but the user might want the main ones. The user provided an example in the instructions, so maybe follow that structure.
+
+Now, compiling all the information into a CSV format with headers in Portuguese. Make sure each row corresponds to the Yuan Dynasty's data. Check for any missing fields or errors. For example, the "religion" field has a long list, so I need to present it as a single string, maybe separated by commas.
+
+Finally, ensure that the CSV is correctly formatted with commas and proper encoding. Avoid any markdown, just plain CSV. Let me put it all together now.
+</think>
+
+"Nome da Dinastia","Período de Existência","Capital","Líder","Moeda","Línguas","Religiões","Estado","Outras Informações"
+"Yuan Dynasty","1271–1368","Shangdu","Kublai Khan","Moeda de papel predominante, com pequena quantidade de dinheiro chinês em circulação","Língua Chinesa, Mongol Médio","Budismo, Tengrismo Mongol, Adoração do Céu Chinês, Xamanismo, Taoísmo, Confucionismo, religião popular chinesa, cristianismo nestoriano chinês, cristianismo católico, judaísmo, maniqueísmo chinês, islamismo","Dinastia de conquista da China Imperial","Ano de início: 1271; Ano de fim: 1368; Capital: Shangdu; Líder: Kublai Khan; Moeda: Papel e dinheiro chinês; Línguas: Chinês e Mongol; Religiões: Múltiplas"

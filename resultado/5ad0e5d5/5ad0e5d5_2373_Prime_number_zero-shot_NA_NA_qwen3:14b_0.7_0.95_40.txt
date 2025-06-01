@@ -1,0 +1,32 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in CSV format based on the provided context about prime numbers. Let me start by reading through the context carefully to identify key points. 
+
+First, the definition of a prime number: a natural number greater than 1 not being a product of two smaller natural numbers. Then, composite numbers are mentioned as the opposite. The example with 5 and 4 is important. The fundamental theorem of arithmetic is a major point, as well as the methods for checking primality like trial division, Miller-Rabin, and AKS tests. Mersenne primes and the largest known prime as of 2018 are also mentioned. Euclid's proof of infinite primes, the prime number theorem, Goldbach's conjecture, twin prime conjecture, and applications in cryptography and abstract algebra.
+
+Now, I need to form questions that target these concepts. Each question should be clear and directly related to the context. Answers must be concise, under 10 words. Let me list possible questions:
+
+1. What is a prime number? (Answer: Natural number >1 not product of smaller numbers.)
+2. What is a composite number? (Answer: Natural number >1 that is not prime.)
+3. What theorem states that every number is a product of primes? (Fundamental theorem of arithmetic.)
+4. Which method is a simple but slow primality check? (Trial division.)
+5. What is the largest known prime as of 2018? (Mersenne prime with 24,862,048 digits.)
+6. Who proved there are infinitely many primes? (Euclid around 300 BC.)
+7. What conjecture states every even integer >2 is sum of two primes? (Goldbach's conjecture.)
+8. What is the prime number theorem's main point? (Probability of a number being prime inversely proportional to its digits.)
+9. What are primes used for in cryptography? (Public-key cryptography relies on factoring difficulty.)
+10. What are prime elements in abstract algebra? (Objects that behave like primes.)
+
+Wait, the answer for the largest known prime should mention the number of digits. Also, the prime number theorem answer needs to be concise. Let me check the word count for each answer. They all seem under 10 words. Okay, that should work. Let me format them into CSV as specified.
+</think>
+
+pergunta;resposta
+O que define um número primo?;Número natural maior que 1 que não é produto de números menores
+Qual é o exemplo de número composto mencionado no texto?;4 (2 × 2)
+Qual teorema relaciona todos os números naturais a primos?;Teorema fundamental da aritmética
+Qual método de verificação de primalidade é lento, mas simples?;Divisão por tentativa
+Qual é o maior número primo conhecido em 2018?;Primo de Mersenne com 24,862,048 dígitos
+Quem provou que existem infinitos números primos?;Euclides (século III a.C.)
+Qual conjectura afirma que todo número par >2 é soma de dois primos?;Conjectura de Goldbach
+Qual teorema descreve a distribuição de primos em números grandes?;Teorema dos números primos
+Como os números primos são utilizados em criptografia?;Baseiam-se na dificuldade de fatoração de números grandes
+O que são elementos primos em álgebra abstrata?;Objetos que se comportam de forma generalizada como números primos

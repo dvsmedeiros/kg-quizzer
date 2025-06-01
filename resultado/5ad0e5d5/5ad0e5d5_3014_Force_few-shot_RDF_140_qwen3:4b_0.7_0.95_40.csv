@@ -1,0 +1,16 @@
+pergunta;resposta
+But in the data; the first entry is:
+Then; foaf:depiction has two objects (two URLs).
+Additionally; there's another line:
+Therefore; the CSV should have the following rows:
+Therefore; the CSV should have these 9 entries.
+http://dbpedia.org/resource/Force> ns1:hypernym; http://dbpedia.org/resource/Force
+Then; the data starts with:
+Then; the next lines are the ones with the wikiPageUsesTemplate and foaf:depiction.
+Then; the last line is the Newton subject with ns2:quantity and object Force.
+Then; the next line is:
+Then; the line with ns2:wikiPageUsesTemplate has five objects.
+Then; the foaf:depiction has two objects.
+Then; the last line is the Newton with ns2:quantity.
+Therefore; the CSV should have 10 rows.
+Therefore; the answer is a CSV with these 10 rows.

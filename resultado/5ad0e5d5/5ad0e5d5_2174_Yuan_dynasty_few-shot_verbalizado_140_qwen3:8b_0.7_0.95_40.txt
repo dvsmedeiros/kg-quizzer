@@ -1,0 +1,38 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in CSV format based on the provided context and facts about the Yuan dynasty. Let me start by understanding the requirements. The user wants each question to be relevant to the context, with a short answer (up to 10 words), and the output should be exactly 10 lines in the specified format.
+
+First, I'll go through the context and facts to identify key points. The Yuan dynasty was established by Kublai Khan in 1271, succeeded the Song dynasty, and preceded the Ming. It was a Mongol-led dynasty, with Genghis Khan as the founder. The dynasty lasted until 1368, and it had various cultural, religious, and administrative aspects.
+
+Looking at the facts, there are many details like the use of specific templates, images, languages, and events. But the main focus should be on the historical aspects. I need to ensure the questions are varied and not repetitive. Let me list possible questions:
+
+1. What was the official name of the Yuan dynasty? – Answer: Great Yuan
+2. Who established the Yuan dynasty? – Kublai Khan
+3. What dynasty preceded the Yuan? – Song dynasty
+4. What dynasty followed the Yuan? – Ming dynasty
+5. When did Kublai Khan proclaim the dynasty? – 1271
+6. Who was the founder of the Yuan dynasty? – Genghis Khan (though he wasn't the ruler, but he's considered the founder)
+7. What was the capital of the Yuan dynasty? – Shangdu
+8. What was the ruling language? – Chinese language
+9. What religion was practiced? – Buddhism, Mongolian Tengrism, etc. (Need to make it concise)
+10. When did the Yuan dynasty end? – 1368
+
+Wait, some answers might need to be more specific. For example, the official name is "Great Yuan" or "Dà Yuán". Also, the dynasty was established by Kublai Khan, but the founder is Genghis Khan. Need to check the context again. The context says Kublai placed his grandfather Genghis Khan as the official founder. So question 6 could be "Who was the official founder of the Yuan dynasty?" with answer Genghis Khan.
+
+Also, the dynasty used the Chinese language and Middle Mongol. The religions mentioned include Buddhism, Mongolian Tengrism, etc. The answer should be concise. Maybe "Buddhism, Mongolian Tengrism, and others."
+
+Check for repetition. The example given includes questions about the name, founder, predecessor, successor, establishment year, etc. Need to ensure each question is unique and covers different aspects.
+
+Let me structure the CSV entries now, making sure each answer is under 10 words and correct.
+</think>
+
+pergunta;resposta  
+Qual foi o nome oficial da dinastia Yuan?;Grande Yuan  
+Quem estabeleceu a dinastia Yuan?;Kublai Khan  
+Qual dinastia antecedeu o Yuan?;dinastia Song  
+Qual dinastia sucedeu o Yuan?;dinastia Ming  
+Quando Kublai Khan proclamou a dinastia?;1271  
+Quem foi o fundador oficial do Yuan?;Genghis Khan  
+Qual era a língua dominante?;chinesa  
+Quais religiões eram praticadas?;budismo, tengerismo mongol, outras  
+Quando a dinastia Yuan terminou?;1368  
+Qual era a capital do Yuan?;Shangdu

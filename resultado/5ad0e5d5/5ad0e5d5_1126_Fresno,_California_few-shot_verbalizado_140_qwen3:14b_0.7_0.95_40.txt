@@ -1,0 +1,43 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in CSV format based on the provided context and facts. Let's start by reviewing the context and the facts to identify key points that can form questions.
+
+First, from the context: Fresno is the fifth most populous city in California, became a city in 1885, founded as a railway station in 1872, located in the San Joaquin Valley, near Los Angeles, Sacramento, and San Francisco. It's the third-largest majority-Hispanic city, and there's mention of droughts affecting water security.
+
+Looking at the facts, there are various sports teams, birthplaces of people, locations of events, models used in Wikipedia pages, area codes, population rankings, and other geographical details.
+
+Now, I need to ensure that each question is unique and covers different aspects. Let's start with the population ranking. The context says it's the 34th most populous city in the nation, so a question about that makes sense. The answer would be "34".
+
+Next, the year it was incorporated, which is 1885. Then, the founder's name is Central Pacific Railroad, but the context mentions it was founded as a railway station of the Central Pacific Railroad, so maybe "Central Pacific Railroad" as the answer.
+
+The name meaning in Spanish is "ash tree", so a question about the meaning of the name. The distance from Los Angeles is 350 km, as per the context. The largest city in the greater Central Valley region is Fresno, so that's another question.
+
+The third-largest majority-Hispanic city in the US is Fresno, so that's another point. The year it was founded as a railway station is 1872. The UTC offset is 480.0, which can be a question. Lastly, the area covered by water in square miles is 1.21, but wait, the context mentions 300 km² total area, but the facts have "área coberta por água (mi²) 1.21". Wait, the user's context says "covers about 115 square miles (300 km2)", but the facts have "área coberta por água (mi²) 1.21". So maybe that's a question about the water area.
+
+Wait, need to check the facts again. The facts have "Fresno, California possui área coberta por água (mi²) 1.21". So the answer would be 1.21 square miles.
+
+Now, ensuring that I don't repeat questions. Let me list them:
+
+1. What is Fresno's population ranking in the United States?;34
+2. In which year was Fresno incorporated as a city?;1885
+3. What was the original purpose of Fresno's founding?;railway station of the Central Pacific Railroad
+4. What does the name "Fresno" mean in Spanish?;ash tree
+5. How far is Fresno from Los Angeles?;350 km
+6. What is the largest city in the greater Central Valley region?;Fresno
+7. What is the third-largest majority-Hispanic city in the United States?;Fresno
+8. In which year was Fresno founded as a railway station?;1872
+9. What is the UTC offset of Fresno, California?;480.0
+10. What is the area covered by water in Fresno, California, in square miles?;1.21
+
+That makes 10 questions. Let me check if all answers are correctly derived from the context or facts. Yes, all are covered. Now format them into CSV with the required structure.
+</think>
+
+"Qual é o ranking populacional de Fresno nos Estados Unidos?";"34"
+"Em que ano Fresno foi incorporado como cidade?";"1885"
+"Qual era o propósito original da fundação de Fresno?";"estaçāo ferroviária da Central Pacific Railroad"
+"O que significa o nome 'Fresno' em espanhol?";"carvalho"
+"Qual a distância entre Fresno e Los Angeles?";"350 km"
+"Qual é a maior cidade da região maior do Vale do Sacramento?";"Fresno"
+"Qual é a terceira maior cidade com maioria hispânica nos Estados Unidos?";"Fresno"
+"Em que ano Fresno foi fundado como estaçāo ferroviária?";"1872"
+"Qual é o desvio do UTC de Fresno, Califórnia?";"480.0"
+"Qual é a área coberta por água em Fresno, Califórnia, em milhas quadradas?";"1.21"

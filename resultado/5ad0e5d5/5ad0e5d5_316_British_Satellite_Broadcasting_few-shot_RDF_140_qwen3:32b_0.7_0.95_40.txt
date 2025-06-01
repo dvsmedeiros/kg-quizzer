@@ -1,0 +1,47 @@
+<think>
+Vou analisar o contexto fornecido e gerar 10 pares pergunta-resposta no formato CSV, seguindo as instruções.
+
+O contexto é sobre a British Satellite Broadcasting (BSB), uma empresa de televisão por satélite no Reino Unido.
+
+Vamos extrair informações relevantes:
+
+1. BSB foi uma empresa de televisão por satélite com sede em Londres
+2. Fornecia serviços de transmissão por satélite para o Reino Unido
+3. Começou a transmitir em 25 de março de 1990
+4. Foi fundada em 1986 (indicado pela propriedade ns1:foundingYear)
+5. Foi fundida com a Sky Television plc em 2 de novembro de 1990 para formar British Sky Broadcasting (BSkyB)
+6. BSB era proprietária de vários canais de TV, incluindo Galaxy, Now, The Computer Channel, The Movie Channel e The Power Station
+7. BSB produziu filmes como "Hardware" e "Memphis Belle"
+8. Sediada em Marco Polo House, Londres, Inglaterra
+9. Foi uma empresa de mídia do Reino Unido
+10. Foi dissolvida em 1990 após a fusão
+
+Agora, vou criar 10 pares pergunta-resposta com base nessas informações:
+
+1. Qual foi a data de início das transmissões da BSB?;25 de março de 1990
+2. Em que data a BSB foi fundada?;1986
+3. Qual foi o resultado da fusão da BSB com a Sky Television?;British Sky Broadcasting
+4. Com quem a BSB se fundiu em 1990?;Sky Television
+5. Qual foi a data da fusão da BSB com a Sky Television?;2 de novembro de 1990
+6. Qual canal de TV era de propriedade da BSB?;Galaxy
+7. Qual canal de filmes era de propriedade da BSB?;The Movie Channel
+8. Qual canal de computação era de propriedade da BSB?;The Computer Channel
+9. Onde a BSB tinha sua sede?;Londres
+10. Qual filme foi produzido pela BSB?;Hardware
+
+Vamos formatar isso no formato CSV solicitado:
+</think>
+
+```
+pergunta;resposta
+Qual foi a data de início das transmissões da BSB?;25 de março de 1990
+Em que data a BSB foi fundada?;1986
+Qual foi o resultado da fusão da BSB com a Sky Television?;British Sky Broadcasting
+Com quem a BSB se fundiu em 1990?;Sky Television
+Qual foi a data da fusão da BSB com a Sky Television?;2 de novembro de 1990
+Qual canal de TV era de propriedade da BSB?;Galaxy
+Qual canal de filmes era de propriedade da BSB?;The Movie Channel
+Qual canal de computação era de propriedade da BSB?;The Computer Channel
+Onde a BSB tinha sua sede?;Londres
+Qual filme foi produzido pela BSB?;Hardware
+```

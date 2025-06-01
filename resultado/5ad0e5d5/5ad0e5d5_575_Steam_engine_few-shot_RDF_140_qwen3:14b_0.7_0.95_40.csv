@@ -1,0 +1,3 @@
+pergunta;resposta
+I should also pay attention to the namespaces. For example; "ns1" and "ns2" might represent different ontologies. The CSV should include the full predicate URI as the predicate column. 
+Another thing to note is that some entries have multiple objects. For instance; the "ns2:wikiPageUsesTemplate" predicate has multiple templates listed. Each of these should be separate rows with the same subject and predicate but different objects.

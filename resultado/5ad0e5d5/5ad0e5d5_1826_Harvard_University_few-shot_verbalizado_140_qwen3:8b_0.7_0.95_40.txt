@@ -1,0 +1,116 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in CSV format based on the provided context and facts about Harvard University. Let me start by understanding the requirements.
+
+First, the questions should be varied and cover different aspects of Harvard. The answers must be concise, up to 10 words, and directly inferable from the context or facts. I need to avoid repeating similar questions. 
+
+Looking at the context, key points include Harvard's founding in 1636, John Harvard as the benefactor, its status as the oldest university in the US, the endowment size, the Harvard Library details, and its affiliation with the Association of American Universities. Also, there's information about notable alumni, presidents, and the structure of the university with multiple campuses.
+
+The facts list many individuals with Harvard as their alma mater or affiliated institutions. Some examples are John Simpkins, William Tan, Oliver S. Picher, etc. There are also mentions of the Harvard Extension School, NCAA Division I affiliations, and specific faculty members.
+
+I need to make sure each question is unique. For example, one question could be about the founding year, another about the benefactor, another about the library size, and others about notable alumni or institutions. Let me check the example given to ensure the format is correct: pergunta;resposta.
+
+Let me start listing possible questions:
+
+1. When was Harvard University founded? Answer: 1636.
+2. Who was the first benefactor of Harvard? Answer: John Harvard.
+3. What is the largest academic library system in the world? Answer: Harvard Library.
+4. How many libraries are in Harvard's library system? Answer: 79 individual libraries.
+5. What is Harvard's endowment value? Answer: $50.9 billion.
+6. Which organization did Harvard co-found in 1900? Answer: Association of American Universities.
+7. How many U.S. presidents are Harvard alumni? Answer: Eight U.S. presidents.
+8. Which campus is the main campus of Harvard? Answer: Cambridge campus.
+9. What is Harvard's NCAA affiliation? Answer: NCAA Division I.
+10. Who was the president during the Great Depression and WWII? Answer: James B. Conant.
+
+Wait, the example includes questions about the number of Nobel laureates, but the context mentions 150. However, the facts list many alumni, but the context states "150 ganhadores do Nobel," so that's a possible question. However, the user might prefer to use the context's info rather than the facts. Let me verify the context again.
+
+The context says: "Harvard's alumni include eight U.S. presidents and 188 living billionaires, the most of any university. Fourteen Turing Award laureates have been Harvard affiliates." But the facts list many individuals, but maybe the context's numbers are more reliable. However, the user's example includes "Quantos ganhadores do Nobel estão entre os ex-alunos da escola?;150 ganhadores do Nobel," which is in the example. Wait, the user's example includes that, but in the context provided, the original text says: "Harvard's alumni include eight U.S. presidents and 188 living billionaires, the most of any university. Fourteen Turing Award laureates have been Harvard affiliates." There's no mention of Nobel laureates in the context. Wait, the user's example includes a question about Nobel laureates with answer 150, but in the context given, the original text doesn't mention that. Wait, maybe the user's example is from a different source. However, the user's instruction says to use the provided context and facts. Let me check the facts again.
+
+Looking at the facts, there are entries like "Harvard University possui afiliações esportivas NCAA Division I" and "Harvard Extension School possui entidade pai Harvard University." The context mentions "Harvard Library is the world's largest academic library system, comprising 79 individual libraries holding about 20.4 million items." The context also says "Harvard's endowment is valued at $50.9 billion, making it the wealthiest academic institution in the world." The context mentions "James B. Conant led the university through the Great Depression and World War II, and liberalized admissions after the war." The context also says "Harvard's alumni include eight U.S. presidents and 188 living billionaires, the most of any university. Fourteen Turing Award laureates have been Harvard affiliates." There's no mention of Nobel laureates in the context, but the user's example includes a question about Nobel laureates. However, the user's instruction says to use the context provided. So maybe the user's example is from a different source. But since the user provided the example, perhaps the answer should follow the example's structure, but I need to use the context provided. Wait, the user says "use o conteúdo abaixo (abstract, triplas e exemplos few-shot) como base de conhecimento." The facts provided include "Harvard University possui afiliações esportivas NCAA Division I" and "Harvard Extension School possui entidade pai Harvard University." The context mentions "Harvard's alumni include eight U.S. presidents and 188 living billionaires, the most of any university. Fourteen Turing Award laureates have been Harvard affiliates." But no Nobel laureates. So perhaps the user's example is incorrect, but I should follow the context. However, the user's example includes a question about Nobel laureates with answer 150, which is not in the context. Therefore, I need to avoid that unless the context includes it. Wait, the context says "Harvard's alumni include... 188 living billionaires... Fourteen Turing Award laureates..." but no Nobel. Therefore, I shouldn't include that. 
+
+So I need to focus on the context and facts provided. The facts list many individuals with Harvard as their alma mater or affiliated institutions. For example, "John Simpkins possui alma mater Harvard University." But the user's example includes questions about specific individuals, but the instructions say the questions should be varied and cover the context. Maybe the questions can be about the university's structure, history, notable alumni, etc.
+
+Let me structure the questions based on the context:
+
+1. When was Harvard University founded? Answer: 1636.
+2. Who was the first benefactor of Harvard? Answer: John Harvard.
+3. What is the largest academic library system in the world? Answer: Harvard Library.
+4. How many libraries are in Harvard's library system? Answer: 79 individual libraries.
+5. What is Harvard's endowment value? Answer: $50.9 billion.
+6. Which organization did Harvard co-found in 1900? Answer: Association of American Universities.
+7. What is Harvard's main campus called? Answer: Cambridge campus.
+8. What is Harvard's NCAA affiliation? Answer: NCAA Division I.
+9. Who was the president during the Great Depression and WWII? Answer: James B. Conant.
+10. How many U.S. presidents are Harvard alumni? Answer: Eight U.S. presidents.
+
+Wait, the user's example includes a question about the number of Nobel laureates, but since the context doesn't mention that, I should avoid that. However, the facts list many individuals, but the user's example might not be aligned. Alternatively, maybe the user's example is not part of the current context. Let me check the context again. The context does not mention Nobel laureates, so I can't include that. Therefore, the questions should focus on the context's information. 
+
+Now, let me check if the answers are within 10 words. The answers like "1636" are concise. "John Harvard" is one answer. "Harvard Library" is the answer for the largest library. "79 individual libraries" for the number of libraries. "$50.9 billion" for endowment. "Association of American Universities" for the 1900 co-founded organization. "Cambridge campus" for main campus. "NCAA Division I" for affiliation. "James B. Conant" for president during the Great Depression and WWII. "Eight U.S. presidents" for the number of presidents. 
+
+These answers are all concise. Now, I need to format them into CSV with pergunta;resposta. Let me ensure that the questions are in Portuguese, as the user's example uses Portuguese. For example, "Quando foi fundada a Universidade Harvard?;1636." 
+
+Wait, the user's instructions are in Portuguese, so the questions should be in Portuguese. Let me adjust the questions accordingly. For example:
+
+1. Quando foi fundada a Universidade Harvard?;1636
+2. Quem foi o primeiro beneficiário da Universidade Harvard?;John Harvard
+3. Qual é o maior sistema bibliotecário acadêmico do mundo?;Harvard Library
+4. Quantas bibliotecas compõem o sistema bibliotecário da Harvard?;79 bibliotecas individuais
+5. Qual é o valor do patrimônio da Universidade Harvard?;$50,9 bilhões
+6. Qual organização a Harvard co-fundou em 1900?;Association of American Universities
+7. Qual é o campus principal da Universidade Harvard?;Cambridge campus
+8. Qual é a afiliação da Harvard no NCAA?;NCAA Division I
+9. Quem foi o presidente da Harvard durante a Grande Depressão e a Segunda Guerra Mundial?;James B. Conant
+10. Quantos presidentes dos EUA são alumni da Harvard?;Oito presidentes dos EUA
+
+Wait, but the answer for the number of libraries is "79 bibliotecas individuais" which is more than 10 words. The user's instruction says answers should be up to 10 words. "79 bibliotecas individuais" is 4 words. So that's okay. Similarly, "NCAA Division I" is 3 words. 
+
+I need to ensure the answers are in Portuguese. For example, "Harvard Library" is the answer for the largest library, but in Portuguese, it's "Biblioteca Harvard" or "Sistema Bibliotecário Harvard." The context says "Harvard Library is the world's largest academic library system," so the answer would be "Sistema Bibliotecário Harvard" or "Biblioteca Harvard." 
+
+But the user's example uses "Harvard Library" as the answer. Let me check the user's example again. The user's example includes "Quantos ganhadores do Nobel estão entre os ex-alunos da escola?;150 ganhadores do Nobel," which is in Portuguese. So perhaps the answers should be in Portuguese, but the actual terms like "Harvard Library" are kept as is. 
+
+Alternatively, the user might expect the answers in Portuguese, but the terms like "Harvard" are proper nouns. For example, "Harvard Library" would be "Biblioteca Harvard" in Portuguese. However, the user's example uses "Harvard Library" as the answer. Let me check the user's example again. 
+
+In the user's example, the question is in Portuguese, but the answer is in English. For example: "Quantos ganhadores do Nobel estão entre os ex-alunos da escola?;150 ganhadores do Nobel." Wait, no, the answer is in Portuguese as well. Wait, the user's example is:
+
+Quantos ganhadores do Nobel estão entre os ex-alunos da escola?;150 ganhadores do Nobel.
+
+So the answer is in Portuguese, but the number is in Portuguese. So the answer should be in Portuguese. Therefore, the answer for the largest library would be "Biblioteca Harvard" or "Sistema Bibliotecário Harvard." 
+
+But the context says "Harvard Library is the world's largest academic library system," so the answer would be "Biblioteca Harvard" or "Sistema Bibliotecário Harvard." 
+
+Alternatively, the user might accept the answer as "Harvard Library" even in Portuguese. However, the user's example uses "Harvard Library" as the answer. 
+
+Given that, I'll proceed with the answers as in the example, using proper nouns in English. 
+
+So the final CSV would be:
+
+Quando foi fundada a Universidade Harvard?;1636
+Quem foi o primeiro beneficiário da Universidade Harvard?;John Harvard
+Qual é o maior sistema bibliotecário acadêmico do mundo?;Harvard Library
+Quantas bibliotecas compõem o sistema bibliotecário da Harvard?;79 bibliotecas individuais
+Qual é o valor do patrimônio da Universidade Harvard?;$50,9 bilhões
+Qual organização a Harvard co-fundou em 1900?;Association of American Universities
+Qual é o campus principal da Universidade Harvard?;Cambridge campus
+Qual é a afiliação da Harvard no NCAA?;NCAA Division I
+Quem foi o presidente da Harvard durante a Grande Depressão e a Segunda Guerra Mundial?;James B. Conant
+Quantos presidentes dos EUA são alumni da Harvard?;Oito presidentes dos EUA
+
+Wait, the answer for the number of libraries is "79 bibliotecas individuais" which is 4 words. The answer for the value of the endowment is "$50,9 bilhões" which is 3 words. The answer for the number of presidents is "Oito presidentes dos EUA" which is 4 words. All within the 10-word limit. 
+
+I think this meets the requirements. Let me double-check each answer against the context and facts. The founding year is 1636, correct. John Harvard as the benefactor, correct. Harvard Library as the largest system, correct. 79 libraries, correct. Endowment value $50.9 billion, correct. Association of American Universities co-founded in 1900, correct. Cambridge campus as main campus, correct. NCAA Division I affiliation, correct. James B. Conant as president during the Great Depression and WWII, correct. Eight U.S. presidents as alumni, correct. 
+
+Yes, these answers are all accurate based on the context. The facts list many individuals, but the questions here focus on the context's information. The user's example includes a question about Nobel laureates, but since the context doesn't mention that, I excluded it. Instead, I included questions about the university's structure and history. 
+
+Thus, the final CSV should be as above.
+</think>
+
+Quando foi fundada a Universidade Harvard?;1636  
+Quem foi o primeiro beneficiário da Universidade Harvard?;John Harvard  
+Qual é o maior sistema bibliotecário acadêmico do mundo?;Harvard Library  
+Quantas bibliotecas compõem o sistema bibliotecário da Harvard?;79 bibliotecas individuais  
+Qual é o valor do patrimônio da Universidade Harvard?;$50,9 bilhões  
+Qual organização a Harvard co-fundou em 1900?;Association of American Universities  
+Qual é o campus principal da Universidade Harvard?;Cambridge campus  
+Qual é a afiliação da Harvard no NCAA?;NCAA Division I  
+Quem foi o presidente da Harvard durante a Grande Depressão e a Segunda Guerra Mundial?;James B. Conant  
+Quantos presidentes dos EUA são alumni da Harvard?;Oito presidentes dos EUA

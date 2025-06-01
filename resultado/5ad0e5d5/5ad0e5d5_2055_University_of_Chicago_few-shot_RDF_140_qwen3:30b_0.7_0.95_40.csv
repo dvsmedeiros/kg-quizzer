@@ -1,0 +1,8 @@
+pergunta;resposta
+The data has a lot of entries with URIs and properties. Each line seems to be a triple in the format: subject, predicate, object. For example, "http://dbpedia.org/resource/University_of_Chicago ns2:numberOfStudents "18452" ;" which translates to the University of Chicago having 18,452 students. But there are also other properties like ns1:usnwrNu, ns1:usnwrW, and ns1:wikiPageUsesTemplate.
+But the lines can be split into multiple lines, as in the example with "ns1:usnwrNu "6" ;" which is a continuation of the previous line.
+Given the uncertainty, perhaps the safest way is to treat each line as a separate triple. However, the first line has the subject, and the next lines have the predicates but not the subject. So, for example, the line "ns1:usnwrNu "6" ;" would have the same subject as the previous line.
+For example, the line "University_of_Chicago ns2:numberOfStudents "18452" ;" would have the subject "University_of_Chicago", predicate "ns2:numberOfStudents", and object "18452".
+Another line "ns1:usnwrNu "6" ;" would have the same subject, predicate "ns1:usnwrNu", and object "6".
+Another example line: "Robert_Lucas_Jr.> ns2:institution <http://dbpedia.org/resource/University_of_Chicago> ;" – here, the subject is "Robert_Lucas_Jr.", predicate is "ns2:institution", object is the URI.
+But wait, the line "Robert_Lucas_Jr.> ns2:institution <http://dbpedia.org/resource/University_of_Chicago> ;" – the subject is "Robert_Lucas_Jr.", but the '>' is part of the URI? That seems odd. Maybe it's a typo. Maybe the subject is "Robert_Lucas_Jr." and the predicate is "ns2:institution".

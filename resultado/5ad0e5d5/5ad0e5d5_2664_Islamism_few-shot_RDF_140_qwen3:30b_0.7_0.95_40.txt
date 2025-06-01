@@ -1,0 +1,96 @@
+<think>
+Okay, let me try to figure out how to generate the CSV based on the user's query. The user provided a lot of RDF data, mostly in Turtle format, and wants a CSV output. The instructions mention using the given data and following the rules, but the actual rules aren't specified here. I need to infer what the user is expecting.
+
+First, I'll look at the data. There are multiple entries with URIs, types, and various properties like `ns2:date`, `ns2:text`, `ns3:hypernym`, etc. The user might want a CSV that includes the URIs and their corresponding properties. 
+
+But the user's final instruction says "Gere agora o CSV conforme Instruções e Regras." which translates to "Generate the CSV according to the instructions and rules." However, the original instruction (in Portuguese) is missing. Since the user included the data, maybe the rules are to extract specific properties into CSV columns.
+
+Looking at the data, each entry has a URI, then properties like `a` (type), `ns2:bot`, `ns2:date`, `ns2:text`, `ns2:wikiPageUsesTemplate`, `ns3:hypernym`, and `foaf:depiction`. The user might want these properties as columns in the CSV, with the URI as the first column.
+
+But the user's example response has columns like "URI", "Type", "Bot", "Date", "Text", "Template", "Hypernym", "Depiction". That seems to match. So the CSV should have each URI and their respective properties.
+
+However, some properties have multiple values. For example, `ns2:date` has "April 2022" and "June 2022", and `ns2:wikiPageUsesTemplate` has multiple templates. In CSV, these would need to be separated by commas or semicolons. Similarly, `foaf:depiction` has multiple URLs.
+
+So the steps would be:
+
+1. Identify all unique properties from the data.
+2. For each URI, list the values of each property.
+3. Format the CSV with headers corresponding to the properties.
+4. Handle multiple values by concatenating them with a separator.
+
+But the user's example response uses "URI", "Type", "Bot", "Date", "Text", "Template", "Hypernym", "Depiction" as headers. So I need to map the RDF properties to these headers.
+
+For example:
+- `a` (type) becomes "Type".
+- `ns2:bot` becomes "Bot".
+- `ns2:date` becomes "Date".
+- `ns2:text` becomes "Text".
+- `ns2:wikiPageUsesTemplate` becomes "Template".
+- `ns3:hypernym` becomes "Hypernym".
+- `foaf:depiction` becomes "Depiction".
+
+Each of these properties may have multiple values, so I need to join them with a delimiter like semicolon or comma.
+
+Now, looking at the data:
+
+- The first entry is `<http://dbpedia.org/resource/Islamism>`, which has multiple properties. The other entries are like `<http://dbpedia.org/resource/...>` with properties pointing to "Islamism".
+
+Wait, but in the data provided, there are multiple entries where the subject is a resource (like "Muslim Brotherhood in Iraq") and the predicate is something like `ns2:ideology` pointing to "Islamism". But the user's main focus might be on the "Islamism" entry.
+
+But the user's data includes multiple resources, each with their properties. However, the user might want a CSV where each row is a resource, and columns are the properties. But the example response seems to focus on the "Islamism" entry.
+
+Alternatively, maybe the user wants a list of all resources that have a relation to "Islamism". For example, the entries like `<http://dbpedia.org/resource/Muslim_Brotherhood_in_Iraq>` with `ns2:ideology` pointing to "Islamism".
+
+But the user's instruction is a bit unclear. However, based on the example response, the user might want a CSV where each row is a resource that is an instance of "Islamism" or related to it. But the data provided includes both resources that are instances of "Islamism" and those that have properties pointing to it.
+
+Alternatively, the user might want a CSV that lists all the properties of the "Islamism" entry. The example response shows the "Islamism" URI with its properties.
+
+So, considering that, the CSV should have the "Islamism" URI as the first row, with its properties as columns. But the user's data includes multiple resources, so maybe the CSV should list all resources that are related to "Islamism" via certain properties.
+
+But without clear rules, it's challenging. However, the user's example response includes the "Islamism" entry with its properties, so I'll proceed with that.
+
+So, the CSV would have the following columns:
+
+- URI
+- Type
+- Bot
+- Date
+- Text
+- Template
+- Hypernym
+- Depiction
+
+For the "Islamism" URI, the values would be:
+
+- Type: Abstraction, Disagreement, Dispute, Event, Orientation, WikicatPoliticalNeologisms, YagoPermanentlyLocatedEntity, PersonFunction
+- Bot: medic
+- Date: April 2022, June 2022
+- Text: The Persian text provided
+- Template: Cite_journal, Columns-list, Islamism, Main, Portal_bar, Rp, Salafi, Short_description, Social_and_political_philosophy, Third-party-inline, Wikiquote-inline
+- Hypernym: Movement
+- Depiction: URLs from Commons
+
+But in CSV format, these need to be separated by commas, and multiple values joined with a delimiter. So the final CSV would look like:
+
+"URI","Type","Bot","Date","Text","Template","Hypernym","Depiction"
+"<http://dbpedia.org/resource/Islamism>","Abstraction100002137, Disagreement107180787, Dispute107181935, Event100029378, Orientation106208021, WikicatPoliticalNeologisms, YagoPermanentlyLocatedEntity, PersonFunction","medic","April 2022, June 2022","Persian: 
+اساس این مجلس محترم مقدس بر امور مذکور مبتنی است. بر هر مسلمی سعی و اهتمام در استحکام و تشیید این اساس قویم لازم، و اقدام در موجبات اختلال آن محاده و معانده با صاحب شریعت مطهره علی الصادع بها و آله الطاهرین افضل الصلاه و السلام، و خیانت به دولت قوی شوکت است.
+الاحقر نجل المرحوم الحاج میرزا خلیل قدس سره محمد حسین،
+حررّہ الاحقر الجانی محمد کاظم الخراسانی، من الاحقر عبدالله المازندرانی 
+
+“Because we are aware of the intended reasons for this institution, it is therefore incumbent on every Muslim to support its foundation, and those who try to defeat it, and their action against it, are considered contrary to shari‘a.”","Template:Cite_journal, Template:Columns-list, Template:Islamism, Template:Main, Template:Portal_bar, Template:Rp, Template:Salafi, Template:Short_description, Template:Social_and_political_philosophy, Template:Third-party-inline, Template:Wikiquote-inline","Movement","http://commons.wikimedia.org/wiki/Special:FilePath/Jokowi_berpidato_Aksi_2_Desember.jpg, http://commons.wikimedia.org/wiki/Special:FilePath/Sayyid_Qutb.jpg, http://commons.wikimedia.org/wiki/Special:FilePath/آخوند_ملا_کاظم_خراسانی.jpg"
+
+But I need to make sure that the quotes and commas are properly escaped. Also, the Persian text and the quotes within the text need to be handled correctly. However, in CSV, fields containing commas should be enclosed in quotes.
+
+So the final CSV should have each value in quotes, with commas separating the fields. For multiple values, they are separated by commas within the same quoted field.
+
+This seems to align with the example response the user provided earlier. So I'll structure the CSV accordingly.
+</think>
+
+"URI","Type","Bot","Date","Text","Template","Hypernym","Depiction"
+"<http://dbpedia.org/resource/Islamism>","<http://dbpedia.org/class/yago/Abstraction100002137>, <http://dbpedia.org/class/yago/Disagreement107180787>, <http://dbpedia.org/class/yago/Dispute107181935>, <http://dbpedia.org/class/yago/Event100029378>, <http://dbpedia.org/class/yago/Orientation106208021>, <http://dbpedia.org/wiki/Category:Political_neologisms>, <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>, <http://dbpedia.org/ontology/PersonFunction>","medic","April 2022, June 2022","Persian: 
+اساس این مجلس محترم مقدس بر امور مذکور مبتنی است. بر هر مسلمی سعی و اهتمام در استحکام و تشیید این اساس قویم لازم، و اقدام در موجبات اختلال آن محاده و معانده با صاحب شریعت مطهره علی الصادع بها و آله الطاهرین افضل الصلاه و السلام، و خیانت به دولت قوی شوکت است.
+الاحقر نجل المرحوم الحاج میرزا خلیل قدس سره محمد حسین،
+حررّہ الاحقر الجانی محمد کاظم الخراسانی، من الاحقر عبدالله المازندرانی 
+
+“Because we are aware of the intended reasons for this institution, it is therefore incumbent on every Muslim to support its foundation, and those who try to defeat it, and their action against it, are considered contrary to shari‘a.”","<http://dbpedia.org/ontology/wikiPageUsesTemplate>, <http://dbpedia.org/ontology/wikiPageUsesTemplate>, <http://dbpedia.org/ontology/wikiPageUsesTemplate>, <http://dbpedia.org/ontology/wikiPageUsesTemplate>, <http://dbpedia.org/ontology/wikiPageUsesTemplate>, <http://dbpedia.org/ontology/wikiPageUsesTemplate>, <http://dbpedia.org/ontology/wikiPageUsesTemplate>, <http://dbpedia.org/ontology/wikiPageUsesTemplate>, <http://dbpedia.org/ontology/wikiPageUsesTemplate>, <http://dbpedia.org/ontology/wikiPageUsesTemplate>, <http://dbpedia.org/ontology/wikiPageUsesTemplate>","<http://dbpedia.org/class/yago/Movement>","<http://commons.wikimedia.org/wiki/Special:FilePath/Jokowi_berpidato_Aksi_2_Desember.jpg>, <http://commons.wikimedia.org/wiki/Special:FilePath/Sayyid_Qutb.jpg>, <http://commons.wikimedia.org/wiki/Special:FilePath/%D8%A2%D8%AE%D9%88%D9%86%D8%AF_%D9%85%D9%84%D8%A7_%DA%98%D9%82%D9%85_%D8%AD%D8%B1%D8%A7%D8%B3%D8%A7%D9%86%D9%8A.jpg>"

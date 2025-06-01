@@ -1,0 +1,56 @@
+<think>
+Okay, so I need to generate 10 question-answer pairs based on the given context about prime numbers. The output should be in CSV format with a semicolon as the separator. Each pair consists of a relevant question and a short correct answer in Portuguese. 
+
+First, I'll read through the context carefully to identify key points that can form questions. Let's break down the information:
+
+1. Definition of prime numbers: greater than 1, not a product of smaller natural numbers.
+2. Composite numbers are those greater than 1 that aren't prime.
+3. Example given is 5 being prime and 4 being composite.
+4. Fundamental theorem of arithmetic: every number >1 is either prime or can be factored into primes uniquely.
+5. Primality is the property of being prime.
+6. Trial division method for checking primality, but it's slow.
+7. Faster methods like Miller-Rabin (probabilistic) and AKS (deterministic but slow).
+8. Largest known prime as of 2018 is a Mersenne prime with over 24 million digits.
+9. Euclid proved there are infinitely many primes around 300 BC.
+10. Prime number theorem: probability inversely proportional to log of the number.
+11. Unsolved conjectures like Goldbach's and twin primes.
+12. Applications in IT, especially cryptography.
+
+Now, I'll formulate questions based on these points:
+
+1. What defines a prime number? (Answer: número natural maior que 1)
+2. How are composite numbers different from primes? (Answer: produto de dois números menores)
+3. Why is 5 considered prime? (Answer: fatorado apenas por 1 e ele mesmo)
+4. Which theorem states that every number >1 can be factored uniquely into primes? (Answer: teorema fundamental da aritmética)
+5. What's the term for a number not being prime? (Answer: número composto)
+6. How do you check if a number is prime via trial division? (Answer: testando divisores entre 2 e √n)
+7. Which algorithm probabilistically checks primality quickly? (Answer: Miller-Rabin)
+8. What's the largest known prime as of 2018? (Answer: primo de Mersenne com 24,862,048 dígitos)
+9. Who proved there are infinitely many primes? (Answer: Euclides)
+10. Name two unsolved conjectures about primes. (Answer: Conjectura de Goldbach e twin prime)
+
+I need to make sure each answer is concise and in Portuguese. Also, the CSV should have a header with "pergunta;resposta" followed by each pair on separate lines.
+
+Let me structure this correctly:
+
+- Start with the header.
+- Each line after that has a question and its corresponding answer, separated by semicolons.
+
+I'll ensure there are exactly 10 pairs. Let's double-check each point to make sure I haven't missed any important details or made any errors in translation or fact.
+
+Everything seems correct. Now, I can compile the CSV as instructed.
+</think>
+
+```
+pergunta;resposta
+Qual é a definição de um número primo?;número natural maior que 1
+Como se define um número composto?;produto de dois números menores
+Por que o número 5 é considerado primo?;fatorado apenas por 1 e ele mesmo
+Qual teorema afirma que todo número maior que 1 pode ser fatorado em primos de forma única?;teorema fundamental da aritmética
+Qual é o termo para um número que não é primo?;número composto
+Como se verifica a primalidade via divisão试?;testando divisores entre 2 e √n
+Qual algoritmo probabilisticamente rápido para verificar primalidade?;Miller-Rabin
+Qual foi o maior primo conhecido em 2018?;primo de Mersenne com 24,862,048 dígitos
+Quem provou que existem infinitos primos?;Euclides
+Nomeie duas conjecturas não resolvidas sobre primos.;Conjectura de Goldbach e twin prime
+```

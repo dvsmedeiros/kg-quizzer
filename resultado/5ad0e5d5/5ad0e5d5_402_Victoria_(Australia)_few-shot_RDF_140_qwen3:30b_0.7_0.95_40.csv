@@ -1,0 +1,10 @@
+pergunta;resposta
+For example; the first line is:
+Similarly; the foaf:depiction line has the Object as <http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg>.
+But the user's input includes many other triples; like:
+But the rest of the input is individual triples; each ending with a period.
+But assuming that the input is correct; we need to process all the triples.
+Therefore; the CSV would look like:
+But the user's input also includes other triples; such as:
+<http://dbpedia.org/resource/Victoria_(Australia)>_ns1:wikiPageUsesTemplate;<http://dbpedia.org/resource/Template:Expand_section>
+<http://dbpedia.org/resource/Victoria_(Australia)>_foaf:depiction;<http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg>

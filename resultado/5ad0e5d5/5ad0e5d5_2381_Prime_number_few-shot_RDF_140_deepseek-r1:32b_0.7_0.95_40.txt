@@ -1,0 +1,31 @@
+<think>
+Bem, como iniciante na geração de quizzes sobre números primos, preciso compreender os requisitos do usuário. Ele deseja 10 pares de perguntas e respostas no formato CSV, em português, usando ponto e vírgula como separador. As perguntas devem ser variadas e abrangentes, baseando-se no contexto fornecido.
+
+Primeiro, leio atentamente o contexto sobre números primos, incluindo definições básicas, exemplos, teoremas fundamentais, métodos de verificação de primalidade (como trial division, Miller-Rabin e AKS), além de aplicações e questões ainda não resolvidas como conjecturas de Goldbach e twin primes.
+
+Depois, olho para os fatos fornecidos, que incluem várias URLs relacionadas a números primos e pessoas conhecidas por trabalhar com eles. Isso me ajuda a identificar pontos-chave para as perguntas.
+
+Agora, preciso garantir que cada pergunta tenha uma única resposta correta e que ela esteja claramente contida ou inferível do contexto. Variedade é importante, então abro tópicos como definição de números primos, exemplos, teoremas, métodos de verificação, aplicações, maiores números primos conhecidos, conjecturas, e pessoas relevantes.
+
+Por exemplo, uma pergunta sobre a definição de número primo pode vir diretamente do contexto. Outra pode se focar em um exemplo específico, como o 5 ser primo. Também devo incluir perguntas sobre teoremas, como o fundamental da aritmética, e métodos de verificação, como a divisão de tentativa.
+
+É importante evitar repetições e garantir que cada pergunta aborde um aspecto diferente do tema. Além disso, manter as respostas curtas, com até 10 palavras, é crucial para o formato CSV desejado.
+
+Depois de listar as perguntas e respostas, reviso para garantir que todas estejam alinhadas com as instruções e regras fornecidas. Verifico se cada resposta está correta e se a pergunta é clara e direta.
+
+No final, organizo tudo em um CSV com as colunas 'pergunta' e 'resposta', separadas por ponto e vírgula, garantindo que haja exatamente 10 linhas.
+</think>
+
+```
+pergunta;resposta
+Qual é a definição de um número primo?;Número maior que 1 não pode ser escrito como produto de dois menores.
+Que tipo de número é chamado de composto?;Números maiores que 1 que podem ser divididos por outros além de 1 e ele mesmo.
+Qual teorema afirma que todo número natural maior que 1 pode ser fatorado em números primos de forma única?;Teorema Fundamental da Aritmética.
+Quais são os dois principais testes de primalidade para grandes números?;Teste de Miller-Rabin e AKS.
+Qual é o nome do processo mais simples, mas mais lento, para verificar a primalidade?;Divisão de tentativa.
+Qual é a propriedade que define se um número é primo ou não?;Primalidade.
+Em janeiro de 2016, quantos dígitos tinha o maior primo conhecido?;22.338.618 dígitos decimais.
+Quem demonstrou que existem infinitos números primos em torno de 300 a.C.?;Euclides.
+Qual conjectura sugere que existem infinitos pares de primos com diferença 2?;Conjectura dos Primos Gêmeos.
+Que cientista é conhecido por trabalhar com números primos e verificação de primaisidade?;Landon Curt Noll.
+```

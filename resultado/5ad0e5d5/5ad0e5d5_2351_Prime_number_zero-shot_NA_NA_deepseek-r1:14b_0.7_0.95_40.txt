@@ -1,0 +1,36 @@
+<think>
+Okay, so I'm trying to figure out how to create 10 quiz questions based on the given context about prime numbers. Let me start by reading through the context carefully to understand the key points.
+
+The context explains what a prime number is: a natural number greater than 1 that isn't a product of two smaller natural numbers. It also mentions composite numbers, the fundamental theorem of arithmetic, methods for checking primality like trial division and Miller-Rabin test, Mersenne primes, the infinitude of primes proven by Euclid, and unsolved problems like Goldbach's conjecture and the twin prime conjecture. Additionally, it touches on applications in IT such as cryptography.
+
+Now, I need to generate 10 questions and answers. Each question should be relevant to the context, with a short correct answer (up to 10 words). The language is Portuguese, so I have to make sure the translations are accurate.
+
+Let me brainstorm possible questions:
+
+1. What defines a prime number? Answer: Número natural maior que 1 não sendo produto de dois menores.
+2. Composite numbers are...? Answer: Naturais maiores que 1 não primos.
+3. The fundamental theorem of arithmetic states that every number can be... Answer: Produto único de números primos, ordem independente.
+4. What is the simplest but slow method to check primality called? Answer: Divisão trial.
+5. Mention a fast primality test with some error chance. Answer: Teste Miller-Rabin.
+6. Name a type of prime known for special forms. Answer: Números de Mersenne.
+7. What was Euclid's contribution regarding primes? Answer: Demonstrou que há infinitos números primos.
+8. What is the probability that a large number is prime, according to the prime number theorem? Answer: Inversamente proporcional ao logaritmo do número.
+9. Name two unsolved questions about primes. Answer: Conjectura de Goldbach e conjectura dos primos gêmeos.
+10. Where are prime numbers applied in technology? Answer: Criptografia em segurança pública.
+
+I think these cover the main points from the context. Now, I'll format them into CSV with semicolons as separators, ensuring each line is a question and answer pair in Portuguese.
+</think>
+
+```
+pergunta;resposta
+O que define um número primo?;Número natural maior que 1 não sendo produto de dois menores números naturais.
+Qual é o nome dos números não primos maiores que 1?;Números compostos.
+De acordo com o teorema fundamental da aritmética, todo número natural maior que 1 pode ser...;Expressado como um produto único de números primos, considerando a ordem independente.
+Qual é o método mais simples, embora lento, para verificar a primalidade?;Divisão trial.
+Mencione um teste de primalidade rápido que possui uma pequena chance de erro.;Teste Miller-Rabin.
+Nomeie um tipo de primo conhecido por sua forma especial.;Números de Mersenne.
+O que demonstrou Euclides sobre os números primos?;Há infinitamente muitos números primos.
+De acordo com o teorema do número primo, qual é a probabilidade de um grande número ser primo?;Inversamente proporcional ao logaritmo do número.
+Nomeie duas questões não resolvidas sobre números primos.;Conjectura de Goldbach e conjectura dos primos gêmeos.
+Onde são aplicados os números primos na tecnologia?;Criptografia em segurança pública.
+```

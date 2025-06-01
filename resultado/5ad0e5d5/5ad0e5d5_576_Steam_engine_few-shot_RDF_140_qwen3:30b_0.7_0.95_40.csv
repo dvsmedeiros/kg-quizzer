@@ -1,0 +1,9 @@
+pergunta;resposta
+Looking at the last part of the data; there's a line that has multiple objects separated by semicolons. For example:
+Similarly; the line with "dcterms:subject" and "ns3:hypernym" also has multiple objects. I'll need to handle those as well.
+2. For lines with multiple objects (separated by commas); split them into individual rows.
+Now; I'll go through the data step by step.
+Another row with the same subject and predicate; different object.
+Now; the line with multiple objects:
+Similarly; the line:
+Wait; the line is:

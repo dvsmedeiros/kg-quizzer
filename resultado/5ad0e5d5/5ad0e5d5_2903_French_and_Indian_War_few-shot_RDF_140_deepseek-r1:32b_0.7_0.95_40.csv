@@ -1,0 +1,7 @@
+pergunta;resposta
+Okay; so I have this task where I need to generate a CSV file based on the given SPARQL query results and some instructions. Let me try to figure out what needs to be done step by step.
+2. **Start Date**: The RDF has a property `ns2:date` with "1754-05-28". I think this is the start date. There's also an end date implied since the war ended around 1763; but it's not explicitly stated here. Maybe I can infer that or leave it blank if unsure.
+One thing I'm unsure about is how to handle potential duplicates in the data. For instance; some commanders might appear both under `ns2:commander` and `ns1:commander`. I need to make sure they are only listed once each. Maybe using a set would help eliminate duplicates before converting them into lists.
+I also notice that the RDF includes images and templates which aren't relevant for this CSV; so I can ignore those parts.
+To summarize; my steps are:
+I think I've got a plan. Now; let me put this into action and create the CSV accordingly.

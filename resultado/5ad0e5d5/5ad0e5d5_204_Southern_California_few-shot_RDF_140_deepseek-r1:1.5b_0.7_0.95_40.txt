@@ -1,0 +1,30 @@
+<think>
+Primeiro, identifico as informações relevantes sobre Southern California no arquivo de DTD. Em particular, a classe yago\AdministrativeDistrict108491826 e o nome "Southern California" são essentiales para estruturar a nova regra.
+
+Em seguida, onto as classes yago\LocalArea108630985 com o nome "Southern California". Em seguida, onto os counties como <http://dbpedia.org/resource/Imperial_County,_California>, <http://dbpedia.org/resource/Los_Angeles_County,_California>, e <http://dbpedia.org/resource/Riverside_County,_California> para definir o subdivision.
+
+Depois, onto as classes yago\Region100001930 com o nome "Southern California" para definir a-regiao.
+
+Na larga dação, onto os classes de population, como areaTotal "56505" e country <http://dbpedia.org/resource/United_States>, para exibir informações relevantes sobre o population do município.
+
+Finalmente, onto as classes de w3.org/wiki, como https://en.wikipedia.org/wiki/Southern_California, para exibir links para mais detalhes.
+
+Os regras incluem que a nova regra seja definida de forma Template, incluir todos os elementos necessários, e que o CSV structuree corretamente as classes e informações de Southern California.
+</think>
+
+```csv
+class yago\Administrative District 108491826,
+    local area 108630985,
+    county Imperial County, California,
+    county Los Angeles County, California,
+    county Riverside County, California,
+    region 100001930,
+    authorityControl,
+    population areaTotal "56505",
+    country United States
+;
+class yago:LocalArea 108630985,
+    w3.org/wiki,
+    https://en.wikipedia.org/wiki/Southern_California
+;
+```

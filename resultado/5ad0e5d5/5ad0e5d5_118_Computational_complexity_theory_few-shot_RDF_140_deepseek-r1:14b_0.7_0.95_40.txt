@@ -1,0 +1,62 @@
+<think>
+Ok, eu preciso gerar um conjunto de 10 pares de perguntas e respostas no formato CSV sobre teoria da complexidade computacional. Primeiro, vou analisar as instruções dadas para entender exatamente o que é necessário.
+
+O usuário me forneceu um exemplo de saída, então vou olhar para isso para ter uma ideia clara do que esperar. Vejo que cada linha no CSV tem a estrutura "pergunta;resposta", e as respostas são curtas, geralmente frases ou termos técnicos.
+
+O contexto fornecido inclui um abstract em português sobre teoria da complexidade computacional, além de algumas triplas RDF. Preciso extrair informações relevantes desse material para formular minhas perguntas e respostas.
+
+Vou começar identificando as principais seções ou conceitos tratados no contexto:
+
+1. Classificação de problemas computacionais.
+2. Recursos necessários para resolver problemas (tempo, armazenamento).
+3. Medidas de complexidade (número de portas em um circuito).
+4. Relação com outros campos da ciência da computação (análise de algoritmos, teoria da computabilidade).
+5. Questões sobre os Millennium Prize Problems, especialmente o P vs NP.
+6. Métodos de avaliação de recursos (modelos matemáticos de computação).
+
+Agora, vou pensar em perguntas que abrangem esses tópicos. Tentarei variar as perguntas para abranger diferentes aspectos da teoria, desde definições gerais até aplicações e relações com outros campos.
+
+Além disso, preciso garantir que cada resposta esteja bem fundamentada no contexto fornecido ou seja inferível dele. Por exemplo, mencionar o P vs NP problema porque está explicitamente citado como um dos Millennium Prize Problems.
+
+Vou evitar repetições e assegurar que cada pergunta seja única em seu enfoque. Também preciso manter o idioma em português e o formato correto com ponto e vírgula como separador.
+
+Vamos começar a construir as perguntas:
+
+1. Pergunta sobre o ramo da ciência computacional que classifica problemas.
+2. Qual atributo principal define a classificação dos problemas.
+3. Termo para tarefas resolvidas por computadores.
+4. Medida que define a dificuldade de um problema.
+5. Método para avaliar recursos necessários.
+6. Principais recursos usados na teoria da complexidade.
+7. Unidade medida para complexidade de circuitos.
+8. Papel prático da teoria na computação cotidiana.
+9. Campos relacionados à teoria da complexidade computacional.
+10. Distinção entre análise de algoritmos e teoria da complexidade.
+
+Para cada uma dessas, vou formular a pergunta e encontrar ou inferir a resposta no contexto fornecido.
+
+Vou revisar o material para confirmar se as respostas estão corretamente baseadas na informação disponível. Por exemplo, sabemos que os principais recursos são tempo e armazenamento, e que o P vs NP é um problema importante associado à teoria da complexidade computacional.
+
+Também preciso me certificar de que cada pergunta tenha apenas uma resposta correta claramente identificável. Alguns tópicos podem ter mais informações, mas vou escolher as respostas mais diretas e concisas.
+
+Após formular todas as perguntas e respostas, vou organizar o CSV em ordem, possivelmente de mais gerais para mais específicas ou em ordem alfabética das perguntas para facilitar a leitura.
+
+Vou revisar cada linha do CSV para garantir que esteja no formato correto e que não haja erros de digitação ou gramática. Além disso, vou verificar se as respostas estão consistentes com o contexto fornecido.
+
+Finalmente, vou preparar o CSV conforme especificado, listando cada pergunta seguida da resposta na mesma linha, separadas por ponto e vírgula.
+</think>
+
+```csv
+Questão;Resposta
+Qual ramo da ciência computacional estuda a complexidade de resolver problemas?;Teoria da Complexidade Computacional
+O que define a classe de复杂度 P?;Problemas solucionáveis em tempo polinomial
+ Qual é o nome do problema Millennium Prize relacionado à teoria da complexidade?;P vs NP
+Qual atributo principal define a classificação dos problemas na teoria da complexidade computacional?;Complexidade
+Qual termo técnico descreve tarefas que podem ser resolvidas por um computador em tempo finito?;Problemas decidíveis
+ Qual medida avalia a dificuldade de resolver um problema em tempo computacional?;Tempo de execução
+Qual método avalia os recursos necessários para resolver um problema?;Análise渐近
+ Quais são os principais recursos usados na teoria da complexidade computacional?;Tempo e espaço
+ Qual unidade mede a complexidade de um circuito lógico?;Número de portas lógicas
+Qual é o objetivo principal da teoria da complexidade computacional?;Classificar problemas baseando em recursos necessários
+ Qual é a diferença entre análise de algoritmos e teoria da complexidade?;Análise se concentra em algoritmos específicos, enquanto a teoria estuda classes gerais de problemas.
+```

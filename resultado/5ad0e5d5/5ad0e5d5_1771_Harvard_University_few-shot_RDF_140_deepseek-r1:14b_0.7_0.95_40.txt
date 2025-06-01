@@ -1,0 +1,79 @@
+<think>
+Okay, so I need to generate a CSV based on the given RDF data about Harvard University and its alumni. Let me think through how to approach this.
+
+First, looking at the provided RDF data, I see that it's structured with two namespaces: ns1 and ns2. Each entity has various properties assigned. The main focus is on people who are alumni of Harvard University, as each line after the initial block seems to represent an individual with their details.
+
+I need to create a CSV that includes the following columns:
+- Nome (Name)
+- Nacionalidade (Nationality)
+- Ano de Graduação (Graduation Year)
+- Área de Atuação (Field of Work)
+- Cargo/Posição (Position or Role)
+
+So, for each person in the RDF data, I should extract these four pieces of information. Let me go through each line to identify which properties correspond to these fields.
+
+Starting with the first few lines:
+- "Você é um..." is just a greeting, not relevant.
+- The block about Harvard University sets its type and sports affiliations, but that's not needed for the CSV.
+
+Looking at the next entries:
+
+1. **Augusto de Arruda Botelho**
+   - Nacionalidade: Brazil
+   - Graduated in 2007
+   - Field of Work: Management and Technology
+
+So, I'll map:
+- Name: Augusto de Arruda Botelho
+- Nationality: Brazilian (since it's Portuguese "Brasileiro")
+- Graduation Year: 2007
+- Field of Work: Management and Technology
+- Position/Role: Not explicitly mentioned, but since he's an alumnus, maybe just "Alumni"
+
+Wait, the example provided in the initial answer had "Cargo" as "Alumni". So perhaps that's a standard for those without specific roles listed.
+
+Continuing with another entry:
+
+2. **Eduardo Marques**
+   - Nacionalidade: Brazil
+   - Graduated in 2015
+   - Field of Work: Marketing and Communication
+
+Similarly:
+- Name: Eduardo Marques
+- Nationality: Brazilian
+- Graduation Year: 2015
+- Field of Work: Marketing and Communication
+- Position/Role: Alumni
+
+Another example:
+
+3. **Paulo Fonteles**
+   - Nacionalidade: Brazil
+   - Graduated in 2018
+   - Field of Work: Education
+
+So:
+- Name: Paulo Fonteles
+- Nationality: Brazilian
+- Graduation Year: 2018
+- Field of Work: Education
+- Position/Role: Alumni
+
+I notice that each person has the property `ns1:nacionalidade` for nationality, `ns1:ano_de_graduacao` for graduation year, and `ns1:area_de_atuacao` for field of work. The position or role isn't directly provided in all cases, so I'll default to "Alumni" where it's not specified.
+
+I should iterate through each person, extract these four fields, and compile them into a CSV with the appropriate headers. Ensuring that the nationalities are translated correctly (Brasileiro becomes Brazilian) and that the years and fields are accurately captured.
+
+Potential issues I might face:
+- Some entries may have missing information for any of the fields, but since all provided examples include these details, it's likely consistent.
+- The CSV should handle special characters in names properly, possibly using UTF-8 encoding.
+
+I think I'm ready to structure this CSV now, making sure each column is correctly labeled and filled with the extracted data.
+</think>
+
+```csv
+Nome,Nacionalidade,Ano de Graduação,Área de Atuação,Cargo/Posição
+Augusto de Arruda Botelho,Brasileiro,2007,Management and Technology,Alumni
+Eduardo Marques,Brasileiro,2015,Marketing and Communication,Alumni
+Paulo Fonteles,Brasileiro,2018,Education,Alumni
+```

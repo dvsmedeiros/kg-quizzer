@@ -1,0 +1,68 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs in CSV format based on the provided context about British Satellite Broadcasting (BSB). The context includes the abstract and some RDF triples. 
+
+First, I need to extract key information from both the abstract and the triples. The abstract mentions that BSB was a TV company headquartered in London, started broadcasting on 25 March 1990, and merged with Sky Television plc on 2 November 1990 to form British Sky Broadcasting. 
+
+Looking at the triples, there's a lot of data. For example, BSB's founding date is 1986-12-11, location includes London, England, and the UK. They had several TV channels as owning companies, like Galaxy, Now, The Computer Channel, etc. Also, they merged with Sky to form BSkyB, and their successor is Sky UK. 
+
+Now, I need to create varied questions. Let's start with the founding date. The abstract says they started broadcasting in 1990, but the triples mention the founding date as 1986. That's a good point for a question. 
+
+Next, headquarters location. The abstract says London, which is in the UK. The triples also mention London as part of the location. So a question about the headquarters would be straightforward. 
+
+The merger date is in the abstract (2 November 1990) and the fate in the triples mentions merging with Sky. So that's another question. 
+
+Channels owned by BSB: the triples list several channels like Galaxy, Now, The Movie Channel, etc. A question about which channels they owned would be good. 
+
+Successor company: the triples mention Sky UK as the successor. 
+
+Production companies: the triples list Hardware (film) and Memphis Belle (film) as productions. 
+
+Owner of The Computer Channel: the triples state BSB is the owning company. 
+
+Wiki page uses templates: the triples have a list of templates, but the answer needs to be short. Maybe mention a few examples. 
+
+Founder's name: the abstract doesn't mention founders, but the triples don't either. So maybe that's not a valid question. 
+
+Checking for repetition. Need to ensure each question is unique and covers different aspects. Let's count: founding date, headquarters, merger date, channels, successor, production companies, owner of a specific channel, templates, founding year (from triples), and maybe the fate after merger. Wait, the fate is merging with Sky to form BSkyB, which is covered in the abstract. 
+
+Wait, the abstract says merged with Sky Television plc on 2 November 1990 to form British Sky Broadcasting. The triples mention the fate as "Merged with Sky Television plcto form BSkyB". So that's the same info. 
+
+Also, the triples mention the company's name as "British Satellite Broadcasting plc". So a question about the full name. 
+
+Another point: the triples list the location as London, England, UK, and Marco Polo House. So the headquarters is in London, but the exact address is Marco Polo House. But the answer should be short, so maybe just London. 
+
+Also, the abstract mentions the company was headquartered in London. So that's consistent. 
+
+Now, compiling the questions. Let's make sure each answer is derivable from the context. 
+
+1. Quando BSB começou a transmitir? Resposta: 25 de março de 1990 (abstract).
+2. Qual era a sede da BSB? Resposta: Londres (abstract).
+3. Quando BSB foi fundada? Resposta: 11 de dezembro de 1986 (triples).
+4. Com quem BSB se fundiu? Resposta: Sky Television plc (abstract).
+5. Qual é o sucessor da BSB? Resposta: Sky UK (triples).
+6. Quais canais de TV eram de propriedade da BSB? Resposta: Galaxy, Now, The Computer Channel, etc. (triples).
+7. Quais filmes foram produzidos pela BSB? Resposta: Hardware, Memphis Belle (triples).
+8. Qual foi o destino da BSB após a fusão? Resposta: Formar a BSkyB (triples).
+9. Qual é o nome completo da BSB? Resposta: British Satellite Broadcasting plc (triples).
+10. Quais templates são usados na página da Wikipedia da BSB? Resposta: Template:Authority_control, Template:BSkyB, etc. (triples).
+
+Wait, the answer for the templates should be short. The example in the instructions has a response up to 10 words. The user's example shows "British Sky Broadcasting" as a response. So for the templates, maybe list a few examples like "Template:Authority_control, Template:BSkyB" but check the word count. "Template:Authority_control, Template:BSkyB, Template:British_Satellite_Broadcasting" is 8 words. That's acceptable.
+
+Also, need to ensure that each question is unique and covers different aspects. The above list seems to cover founding date, headquarters, merger, successor, channels, films, fate, full name, and templates. That's 9 questions. Need one more. Let's check the triples again. The triples mention that BSB was a company in the UK, and the abstract says they provided satellite services. Maybe a question about the services they provided. Answer: Serviços de TV por satélite direto (direct broadcast satellite television services). That's from the abstract. 
+
+So adding that as question 10. 
+
+Now, compiling all 10 pairs, ensuring each answer is concise and correct.
+</think>
+
+pergunta;resposta
+Quando a BSB começou a transmitir?;25 de março de 1990  
+Qual era a sede da BSB?;Londres  
+Quando a BSB foi fundada?;11 de dezembro de 1986  
+Com quem a BSB se fundiu?;Sky Television plc  
+Qual é o sucessor da BSB?;Sky UK  
+Quais canais de TV eram de propriedade da BSB?;Galaxy, Now, The Computer Channel  
+Quais filmes foram produzidos pela BSB?;Hardware, Memphis Belle  
+Qual foi o destino da BSB após a fusão?;Formar a BSkyB  
+Qual é o nome completo da BSB?;British Satellite Broadcasting plc  
+Quais serviços a BSB oferecia?;Serviços de TV por satélite direto

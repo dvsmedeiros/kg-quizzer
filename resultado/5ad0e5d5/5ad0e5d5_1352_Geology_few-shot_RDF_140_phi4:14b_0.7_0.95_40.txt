@@ -1,0 +1,49 @@
+Para gerar um arquivo CSV a partir dos dados fornecidos, precisamos seguir algumas instruções e regras que podem incluir:
+
+1. **Identificar as Colunas**: Determinar quais serão as colunas do CSV.
+2. **Extrair os Dados**: Identificar como extrair as informações para cada linha de saída CSV a partir da entrada fornecida.
+3. **Formato e Valores**: Assegurar que os valores estejam formatados corretamente, sem erros.
+
+### Passos Detalhados
+
+1. **Identificar as Colunas do CSV**:
+   - A partir dos dados, podemos identificar colunas como: URL (do recurso), Relação (como `field`, `education`, etc.), e Valor da relação.
+   
+2. **Extrair os Dados**:
+   - Para cada linha da entrada fornecida, separar a URL do recurso do valor de sua respectiva relação.
+   - Normalmente, uma única linha pode conter múltiplas relações para um recurso, então precisamos dividir essas informações.
+
+3. **Formato e Valores**:
+   - Assegurar que cada linha no CSV contenha: URL do Recurso, Relação, e Valor da Relação.
+   - Usar aspas quando houver vírgulas ou outraspas dentro dos valores para prevenir problemas de parsing.
+
+Com base nessa estrutura, vamos extrair os dados e formatá-los em um arquivo CSV:
+
+```csv
+"URL","Relação","Valor"
+"http://dbpedia.org/resource/Geology","field","http://dbpedia.org/resource/Stratigraphy"
+"http://dbpedia.org/resource/Anna_Marie_Burke","education","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/Richard_S._Olivier","field","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/William_John_McGee","almaMater","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/Kenneth_G._Miller","education","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/Richard_Dixon_Oldham","academicDiscipline","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/Martin_Glaessner","academicDiscipline","http://dbpedia.org/resource/Geology"
+"https://www.wikidata.org/entity/Q16521","field","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/Raymond_Thorsteinsson","field","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/Peter_A._Rona","academicDiscipline","http://dbpedia.org/resource/Geology"
+"https://www.wikidata.org/entity/Q16521","eduProgram","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/Leonardo_Fea","field","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/Shen_Qihan","fields","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/Marian_Holness","academicDiscipline","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/Kirk_Bryan_(geologist)","field","http://dbpedia.org/resource/Geology"
+"https://www.wikidata.org/entity/Q16521","education","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/William_Otis_Crosby","academicDiscipline","http://dbpedia.org/resource/Geology"
+"https://www.wikidata.org/entity/Q16521","eduCourse","http://dbpedia.org/resource/Geology"
+"http://dbpedia.org/resource/Thomas_H._Jordan","fields","http://dbpedia.org/resource/Geology"
+```
+
+### Considerações Finais
+
+- A tabela acima contém apenas uma seleção das linhas disponíveis. Para gerar um CSV completo, todas as instâncias de relações precisam ser extraídas e formatadas de forma consistente.
+- Certifique-se de que todos os valores com vírgulas ou quebras de linha estejam protegidos com aspas para evitar problemas durante a leitura do CSV. 
+- Ajuste o número de colunas conforme necessário, adicionando mais informações relevantes se disponíveis (como descrições, tipos de relações, etc.).

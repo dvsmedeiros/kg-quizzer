@@ -1,0 +1,59 @@
+<think>
+Okay, so I need to create 10 question-answer pairs based on the given context about prime numbers. Let me start by reading through the context carefully to understand the key points.
+
+The context explains that a prime number is a natural number greater than 1 that can't be formed by multiplying two smaller natural numbers. It also mentions composite numbers as those that are products of smaller numbers. Examples include 5 being prime because only 1 and 5 multiply to give it, whereas 4 is composite because it's 2×2.
+
+It goes on to talk about the fundamental theorem of arithmetic, which states every number greater than 1 is either prime or can be uniquely factored into primes. It also mentions various methods for checking primality, like trial division, Miller-Rabin test, and AKS test. There's a note about Mersenne primes, which are primes with a specific form. The context also touches on unsolved problems in number theory related to primes, such as Goldbach's conjecture and the twin prime conjecture.
+
+Additionally, it explains that primes are used in cryptography, particularly in public-key systems where factoring large numbers is difficult. In abstract algebra, concepts like prime elements and ideals are discussed as generalizations of primes.
+
+Now, I need to create 10 question-answer pairs based on this information. Each pair should consist of a question (up to 3 sentences) and the correct answer (a short phrase). The answers must be precise and directly related to the context.
+
+I'll start by thinking about what someone might ask regarding primes: definitions, properties, types of tests for primality, specific examples like Mersenne primes, their distribution, unsolved problems, uses in cryptography, etc.
+
+Let me draft each question one by one:
+
+1. **Question**: What defines a prime number?  
+   **Answer**: A natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers.
+
+2. **Question**: Why are primes important in cryptography?  
+   **Answer**: Because they're used in public-key systems where factoring large numbers is difficult, making secure communication possible.
+
+3. **Question**: What distinguishes prime numbers from composite numbers?  
+   **Answer**: Composite numbers can be formed by multiplying two smaller natural numbers; primes cannot.
+
+4. **Question**: How does Euclid's proof show there are infinitely many primes?  
+   **Answer**: By assuming a finite list of primes and showing that (their product +1) would have a prime factor not in the list, thus proving infinity.
+
+5. **Question**: What is an example of a Mersenne prime?  
+   **Answer**: 2^82,589,933 − 1 as of December 2023.
+
+6. **Question**: Which famous conjecture remains unsolved and relates to primes?  
+   **Answer**: Goldbach's conjecture that every even integer greater than 2 can be expressed as the sum of two primes.
+
+7. **Question**: What is the basis for the AKS primality test?  
+   **Answer**: It always produces the correct answer in polynomial time, proving a number is prime or not without error.
+
+8. **Question**: How does trial division check for primality?  
+   **Answer**: Tests whether any integer between 2 and the square root of n divides n; if none do, it's prime.
+
+9. **Question**: What characterizes the distribution of primes among natural numbers?  
+   **Answer**: Their density decreases logarithmically as numbers get larger, described by the prime number theorem.
+
+10. **Question**: What is a unique property of twin primes?  
+    **Answer**: They are pairs of primes with exactly one even number between them.
+</think>
+
+```csv
+pergunta;resposta
+O que define um número primo?;Um número natural maior que 1 que não pode ser formado pelo produto de dois números naturais menores.
+Por que os primos são importantes na Criptografia?;Para construir sistemas de Chave Pública onde a fatoração de números grandes é difícil, permitindo comunicação segura.
+Como se distinguiem os números primos dos compostos?;Os compostos podem serem formados pelo produto de dois números naturais menores; os primos não podem.
+Quão demonstrou Euclides que existem infinitos primos?;Mostrando que assumindo um número finito de primos, é possível construir outro primo não listado, o que implica em infinitude.
+Qual exemplo de primalidade Mersenne?;2^82,589,933 − 1, atualmente a maior primalidade conhecida.
+ Qual conjectura famousa não resolvida se relaciona com os primos?;A Conjectura de Goldbach, que states que todo número par maior que 2 é a soma de dois primos.
+O que é baseado na testação AKS para primalidade?;uma prova que sempre fornece resposta certa no tempo polinomial, sem erros.
+Como o método da divisão por tentativa verifica primalidade?;Testando se qualquer número entre 2 e raiz quadrada do n divide n; se não forem divisores, então é primo.
+O que caracteriza a distribuição dos primos entre os números naturais?;Sua densidade diminui de forma logarítmica conforme os números aumentam, como dito pelo Teorema dos Números Primos.
+Que propriedade define os primos gêmeos?;Se são pares de primos com um número par entre eles.
+```

@@ -1,0 +1,22 @@
+<think>
+Primeiro, identifico as 10 pergunta/eight da base de conhecimento fornecida.
+
+Em seguida, para cada pergunta, decido a resposta correta que seja limitada a 10 palavras. Noto que some as informações pertinentes de o Yuan dynasty, como sua history, influências, etc., e a resposta é consistente com os dados fornecidos.
+
+Depois, organizeo estes para um CSV com as colunas "pergunta" e "resposta", separadas por semis-eixos e mantendo 10 linhas. Verifico que cada pergunta é unique e que a resposta correta seja em português.
+</think>
+
+```csv
+pergunta;resposta
+Qual é o nome chinês da dynastia Yuan?;Yin: Dà Yuán;
+Qual foi o avô de Kublai Khan?;Genghis Khan;
+Qual moriou ao Raise do Jeito do Yunnan?;1279,
+Quem liderou o clã mongol Borjigin?;Kublai Khan,
+Em que império não chinês a dynastia Yuan conseguiu?;Império Mongol;
+Que dinastia veio depois do Yuan?;inastia Ming.
+Qual foi o avô de Genghis Khan?;Genghis Khan,
+Qual dinastia visa como o vencedor da warsa?;Yuán
+Em que impère a dynastia Yuan no Noro-Gei?;Shangdu;
+Qual foi o vencedor da warsa do fundo ao Yunnan?;Yin: Dà Yuán;
+
+```

@@ -1,0 +1,60 @@
+<think>
+Alright, so I'm trying to figure out how to generate 10 quiz questions and answers based on the provided physics context about force. Let me start by reading through the context carefully.
+
+The context explains that a force can change an object's motion, causing acceleration. It mentions Newton's second law, which relates force, mass, and acceleration. There are also concepts like thrust, drag, torque, internal mechanical stress, pressure, and how forces affect different materials.
+
+I need to create 10 pairs of questions and answers in Portuguese, separated by semicolons. Each question should be relevant to the context, and each answer should be concise—up to 10 words.
+
+Let me break down the key points from the context:
+
+1. Force changes motion.
+2. Newton's second law: F = ma (force equals mass times acceleration).
+3. Thrust increases velocity; drag decreases it.
+4. Torque affects rotational speed.
+5. Internal mechanical stress occurs in extended bodies, balancing forces so no acceleration.
+6. Pressure is the distribution of force over an area.
+7. Unbalanced pressure causes acceleration.
+8. Forces can cause deformation in solids or flow in fluids.
+
+Now, I'll think about possible questions that cover these points.
+
+Question 1: What does a force do? Answer: Altera o estado de movimento de um objeto (alters the motion of an object).
+
+Question 2: How is force related to acceleration? Answer: F = m * a (Newton's second law formula).
+
+Question 3: What kind of quantity is force? Answer: vetor (vector quantity), since it has magnitude and direction.
+
+Question 4: What does thrust do? Answer: Increases velocity.
+
+Question 5: What decreases an object's velocity? Answer: Drag.
+
+Question 6: What effect does torque have? Answer: Changes rotational speed.
+
+Question 7: In extended bodies, what happens to forces internally? Answer: They balance each other, causing no acceleration.
+
+Question 8: How is pressure defined? Answer: Distribution of force over an area.
+
+Question 9: What can cause deformation in solids? Answer: Stress.
+
+Question 10: What effect do forces have on fluids? Answer: Cause flow.
+
+Wait, I should make sure the answers are correct. For example, question 7 says that internal forces balance each other, so no acceleration—yes, that's right because internal stresses cancel out.
+
+For question 9, stress causes deformation in solids and flow in fluids, so focusing on deformation is appropriate.
+
+I think these cover all the key points from the context without overlapping too much. Now, I'll structure them into CSV format.
+</think>
+
+```
+pergunta;resposta
+O que uma força pode fazer com o estado de movimento de um objeto?;Alterar
+De acordo com a segunda lei de Newton, qual é a relação entre força, massa e aceleração?;F = m * a
+Qual tipo de quantidade física é a força?;Força é um vetor (quantidade que possui magnitude e direção)
+O que o empuxo faz?;Aumenta a velocidade do objeto
+O que a arrasto faz?;Diminui a velocidade do objeto
+Qual força gera alterações na velocidade rotacional de um objeto?;Torque
+Em corpos estendidos, o que acontece com as forças internas?;Elas se equilibram, não causando aceleração no corpo
+Como é definida a pressão?;Pressão é a distribuição de força sobre uma área
+O que pode causar deformação em sólidos?;Stress
+Qual efeito as forças têm em fluidos?;Causem o fluxo dos fluidos
+```

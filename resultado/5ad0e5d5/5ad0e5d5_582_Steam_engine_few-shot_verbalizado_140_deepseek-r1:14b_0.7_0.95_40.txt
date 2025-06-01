@@ -1,0 +1,43 @@
+<think>
+Okay, I need to create a quiz with 10 questions and answers based on the provided context about steam engines. The output should be a CSV in Portuguese, using semicolons as separators, without any additional explanations.
+
+First, I'll review the abstract and facts given. The key points are:
+
+- Steam engine definition: heat engine using steam.
+- Components: piston, cylinder, connecting rod, crank for rotational force.
+- Types: reciprocating engines vs turbines; external combustion.
+- Thermodynamic cycle: Rankine cycle.
+- History: early devices like aeolipile, Savery's pump, Newcomen's engine (1712), Watt's improvements (1764).
+- Applications: factories, ships, railways. Replaced by electric motors and internal combustion engines in the 20th century.
+
+I should generate varied questions covering different aspects: definition, components, history, types, applications, etc. Each question must have a single correct answer from the context.
+
+Possible questions:
+
+1. What is a steam engine? (resposta: motor a vapor)
+2. What does it convert? (pressão do vapor para trabalho mecânico)
+3. Who was Newcomen? (inventor do motor atmosférico)
+4. When was Newcomen's engine developed? (1712)
+5. What did Watt improve? (condensação de vapores)
+6. What cycle is used for analysis? (ciclo Rankine)
+7. What are steam engines called in general? (motores a vapor)
+8. Which inventor is linked to the first commercial use? (Thomas Savery)
+9. What was the impact of Watt's improvement? (aumentou a eficiência energética)
+10. When were steam engines widely used? (século XIX)
+
+I need to ensure that each question is unique and covers different aspects without repetition.
+</think>
+
+```
+pergunta;resposta
+O que é um motor a vapor?;motor a vapor
+Onde o motor a vapor converte energia?;para trabalho mecânico
+Quem inventou o primeiro motor comercialmente bem-sucedido?;Thomas Newcomen
+Em que ano foi desenvolvido o motor de Thomas Newcomen?;1712
+Qual foi a principal melhoria feita por James Watt?;condensação do vapor
+Qual ciclo é usado para analisar os motores a vapor?;ciclo Rankine
+Como são chamados os motores que usam vapor?;motores a vapor
+Quem inventou o primeiro dispositivo蒸汽动力 comercialmente utilizado?;Thomas Savery
+Qual foi o impacto das melhorias de Watt?;aumentou a eficiência energética
+Em qual século os motores a vapor foram amplamente utilizados?;século XIX
+```

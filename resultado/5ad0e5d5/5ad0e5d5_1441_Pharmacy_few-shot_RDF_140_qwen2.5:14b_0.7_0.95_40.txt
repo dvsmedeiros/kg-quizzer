@@ -1,0 +1,52 @@
+### Análise dos Dados
+
+Os dados fornecidos são em formato RDF (Resource Description Framework), que descreve entidades, suas propriedades e valores associados. Para converter esses dados para um arquivo CSV de acordo com as instruções dadas, precisamos extrair os elementos-chave: `nome da entidade`, `propriedade` e o respectivo `valor`. A seguir está a estrutura básica do que vamos criar:
+
+1. Cada linha no CSV será uma tripla RDF.
+2. O nome das colunas são: `Subject (Entidade)`, `Predicate (Propriedade)` e `Object (Valor)`.
+3. As propriedades podem ser repetidas múltiplas vezes para a mesma entidade se houver diferentes valores.
+
+### Transformação dos Dados em CSV
+
+Vou agora extrair os dados relevantes de cada tripla RDF fornecida no formato solicitado:
+
+| Subject           | Predicate                          | Object                                  |
+|-------------------|------------------------------------|----------------------------------------|
+| Pharmacy          | name                               | Pharmacy                                |
+| Pharmacy          | officialNames                      | Pharmacist, Chemist, Doctor of Pharmacy, Druggist, Apothecary or simply Doctor  |
+| http://dbpedia.org/resource/Template:About            | wikiPageUsesTemplate                   | Template:About                         |
+| ... (outros usos de template)                          |                                         |                                        |
+| http://dbpedia.org/resource/Pharmacy                  | foaf:depiction                          | URL do arquivo da imagem               |
+
+### Regras e Detalhes Específicos
+
+- **Identificação das entidades:** A coluna `Subject` contém a entidade principal sobre a qual as informações são fornecidas. No caso dos templates, o objeto é o template usado.
+- **Propriedades:** As propriedades como `name`, `officialNames`, `wikiPageUsesTemplate`, etc., descrevem características da entidade.
+- **Valores:** São os valores específicos associados a cada par entidade-propriedade.
+
+### Geração do CSV
+
+Abaixo está o início do conteúdo de um arquivo CSV que segue as regras e instruções fornecidas:
+
+```csv
+Subject, Predicate, Object
+Pharmacy, name, Pharmacy
+Pharmacy, officialNames, Pharmacist, Chemist, Doctor of Pharmacy, Druggist, Apothecary or simply Doctor
+http://dbpedia.org/resource/Template:About, wikiPageUsesTemplate, Template:About
+http://dbpedia.org/resource/Template:Citation_needed_span, wikiPageUsesTemplate, Template:Citation_needed_span
+... (continuar com todas as entradas)
+Pharmacy, foaf:depiction, http://commons.wikimedia.org/wiki/Special:FilePath/332nd_EMSG_Pharmacy_Tech_DVIDS328212.jpg
+Pharmacy, foaf:depiction, http://commons.wikimedia.org/wiki/Special:FilePath/42-aspetti_di_vita_quotidiana,_medicine,_Taccuino_Sanitatis.jpg
+... (continuar com todas as imagens)
+```
+
+### Explicação do Processo de Geração
+
+- **Identificação:** Para cada tripla RDF, identificamos a entidade (`Subject`), a propriedade (`Predicate`) e o valor associado (`Object`).
+- **Formatação:** Os dados são formatados no padrão CSV, com cada linha representando uma tripla.
+
+### Observações Finais
+
+Para completar este arquivo CSV, seria necessário incluir todas as entradas fornecidas nos dados RDF de maneira similar. A lista completa é muito extensa e pode ser gerada automaticamente usando um script que lê os dados RDF e escreve no formato CSV especificado.
+
+Caso seja necessário continuar a geração desse arquivo ou haja mais instruções específicas, por favor forneça detalhes adicionais!

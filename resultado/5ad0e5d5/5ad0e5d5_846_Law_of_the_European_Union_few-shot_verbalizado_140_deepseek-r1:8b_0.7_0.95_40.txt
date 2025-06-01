@@ -1,0 +1,72 @@
+<think>
+Alright, I'm trying to help generate 10 question-answer pairs in CSV format based on the provided context and facts. Let's go through this step by step.
+
+First, let me understand the instructions properly. The goal is to create questions relevant to the given context about EU Law. Each question should have a correct, concise answer (up to 10 words), using Portuguese as the language. The CSV should have each line as "pergunta;resposta" separated by semicolons.
+
+The context provided is about the European Union law, its history, structure, and judicial system. The facts include mentions of specific people, journals, and related topics like the Common Market Law Review and how EU Law uses certain Wikipedia templates.
+
+I need to ensure that each question is varied and comprehensive, covering different aspects of EU Law. Also, I must avoid repeating similar questions and make sure the answers are directly inferable from the context or facts provided.
+
+Let me start by listing possible topics based on the facts:
+1. Who is a notable legal scholar in EU Law? (John Bell)
+2. What is the focus of the Common Market Law Review? (Law of the European Union)
+3. How did the EU's legal system develop from its predecessor? (1952 with ECSC)
+4. What journals are associated with EU Law studies? (Common Market Law Review, Law of the European Union)
+5. What was the main objective of the European Coal and Steel Community? (Promote peace, social justice, etc.)
+6. What is the constitutional structure agreed by EU member states? (Treaties form its structure)
+7. Who contributes to EU case law? (Court of Justice)
+8. How does EU Law interpret its own legal system? (Interpreted by Court of Justice)
+9. Are there specific Wikipedia templates used for EU Law pages? (Template:Redirect category shell, Template:R from move, etc.)
+10. What is a subdisciplina within EU Law? (Henry G. Schermers)
+
+Now, I'll phrase each question in Portuguese, ensuring it's clear and directly relates to the context or facts.
+
+1. Pergunta: Quem é um destacado pesquisador na área do Direito da União Europeia?
+   Resposta: John Bell
+
+2. Pergunta: Qual é o foco da revista Common Market Law Review?
+   Resposta: A disciplina do Direito da União Europeia
+
+3. Pergunta: Como o sistema judicial da UE desenvolveu-se a partir de seu predecessor?
+   Resposta: A partir de 1952 com a Comunidade Europeia do Carvão e Aço
+
+4. Pergunta: Qual revista está associada à investigação na área do Direito da União Europeia?
+   Resposta: Common Market Law Review; Law of the European Union
+
+5. Pergunta: Qual foi o objetivo principal da Comunidade Europeia do Carvão e Aço?
+   Resposta: Promover a paz, justiça social, mercado social de economia e proteção ambiental
+
+6. Pergunta: O que acordam os Tratados da União Europeia para a estrutura constitucional?
+   Resposta: Sua estrutura constitucional
+
+7. Pergunta: Quem é responsável por criar a jurisprudência da UE?
+   Resposta: Tribunal de Justiça da União Europeia
+
+8. Pergunta: Como o Direito da União Europeia é interpretado?
+   Resposta: Pelas decisões do Tribunal de Justiça
+
+9. Pergunta: Quais modelos de página Wikipédia são usados na área do Direito da UE?
+   Resposta: Template:Redirect category shell; Template:R from move
+
+10. Pergunta: O que é considerado uma subdisciplina dentro do Direito da União Europeia?
+    Resposta: Henry G. Schermers
+
+I need to ensure that each question is unique and covers different aspects, and the answers are accurate based on the provided facts. Also, I should check for any potential repetition or overlap in questions.
+
+Looking over them, they seem varied, each addressing a different aspect of EU Law: people, journals, historical context, structure, judiciary, interpretation, Wikipedia templates, and subdisciplines. This should meet the requirement of having 10 distinct and comprehensive questions.
+
+Finally, I'll format this into CSV lines as specified.
+</think>
+
+```csv
+"Quem é um destacado pesquisador na área do Direito da União Europeia?"; "John Bell"
+"Qual é o foco da revista Common Market Law Review?"; "A disciplina do Direito da União Europeia"
+"Como o sistema judicial da UE desenvolveu-se a partir de seu predecessor?"; "A partir de 1952 com a Comunidade Europeia do Carvão e Aço"
+"Qual revista está associada à investigação na área do Direito da União Europeia?"; "Common Market Law Review; Law of the European Union"
+"Qual foi o objetivo principal da Comunidade Europeia do Carvão e Aço?"; "Promover a paz, justiça social, mercado social de economia e proteção ambiental"
+"O que acordam os Tratados da União Europeia para a estrutura constitucional?"; "Sua estrutura constitucional"
+"Quem é responsável por criar a jurisprudência da UE?"; "Tribunal de Justiça da União Europeia"
+"Como o Direito da União Europeia é interpretado?"; "Pelas decisões do Tribunal de Justiça"
+"Quais modelos de página Wikipédia são usados na área do Direito da UE?"; "Template:Redirect category shell; Template:R from move"
+"O que é considerado uma subdisciplina dentro do Direito da União Europeia?"; "Henry G. Schermers"
+```

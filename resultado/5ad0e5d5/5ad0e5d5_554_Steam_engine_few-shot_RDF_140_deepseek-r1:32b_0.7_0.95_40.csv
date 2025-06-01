@@ -1,0 +1,2 @@
+pergunta;resposta
+Assuming that each row is an instance of a class (probably Steam_engine), with columns as predicates. But in this data, there's only one main subject: Steam_engine itself. The other entities are linked via properties like ns1:powerType or ns2:shipPropulsion, but those aren't instances of Steam_engine; rather, Steam_engine is their power source.

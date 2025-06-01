@@ -1,0 +1,70 @@
+<think>
+Okay, so I need to generate 10 quiz questions and answers based on the given context about prime numbers. Let me start by reading through the context carefully.
+
+The context explains what prime numbers are—natural numbers greater than 1 that aren't products of smaller natural numbers. It mentions composite numbers as their counterparts. There's a lot about primality, methods to check for primes like trial division, Miller-Rabin test, and AKS test. Also, it talks about the distribution of primes, their use in cryptography, and some historical conjectures.
+
+Looking at the example provided, I see that each question is related to different aspects of prime numbers, such as definitions, properties, tests, and applications. I should aim for similar variety.
+
+I'll need to create questions that touch on various points: what a prime number is, examples, composite vs prime, the fundamental theorem of arithmetic, methods to test primality (like Miller-Rabin and AKS), the largest known primes, historical aspects, etc.
+
+Let me list possible topics:
+
+1. Definition of prime numbers.
+2. Difference between prime and composite numbers.
+3. Fundamental theorem of arithmetic.
+4. Primality testing methods.
+5. The role of primes in number theory.
+6. Examples of prime numbers.
+7. The largest known prime.
+8. Applications like cryptography.
+9. Historical conjectures (though maybe too detailed for a short answer).
+10. Properties related to distribution.
+
+Now, I'll think of specific questions:
+
+- What defines a prime number?
+- How are composite numbers different from primes?
+- Name the theorem about unique factorization.
+- What's the simplest method to check if a number is prime?
+- What are two efficient primality tests?
+- When was the largest known prime found?
+- How many digits does the largest known prime have as of 2018?
+- What conjecture says every even number >2 is sum of two primes?
+- Who demonstrated there are infinitely many primes?
+- What's a use of prime numbers in technology?
+
+I need to ensure each question has one correct answer and that I don't repeat similar questions. Also, the answers should be concise.
+
+Let me draft these:
+
+1. What defines a prime number? Answer: Um número natural maior que 1 que não é produto de dois números menores.
+2. How are composite numbers different from primes? Answer: São produtos de dois ou mais números naturais menores que ele mesmo.
+3. Name the theorem about unique factorization. Answer: Teorema fundamental da aritmética.
+4. What's the simplest method to check if a number is prime? Answer: Divisão trial.
+5. What are two efficient primality tests? Answer: Miller-Rabin e AKS.
+6. When was the largest known prime found? Answer: Janeiro de 2016.
+7. How many digits does it have? Answer: 24,862,048 dígitos decimais.
+8. What conjecture about primes is still unsolved? Answer: Conjectura de Goldbach.
+9. Who demonstrated there are infinitely many primes? Answer: Euclides.
+10. Use of primes in technology: Answer: Criptografia.
+
+Wait, looking back at the example provided by the user, some answers are more detailed than others. For instance, one answer was "número composto." So perhaps I should make sure that the answers are short and fit within 10 words.
+
+I think these questions cover a good range without overlapping too much. Each addresses a different aspect of prime numbers as per the context.
+</think>
+
+Here is the CSV with 10 quiz questions and answers based on the context about prime numbers:
+
+```
+pergunta;resposta
+O que define um número primo?;um número natural maior que 1 que não é produto de dois números menores.
+Como os números compostos se diferenciam dos primos?;são produtos de dois ou mais números naturais menores que ele mesmo.
+Qual teorema trata da decomposição única em fatores primos?;teorema fundamental da aritmética.
+Qual é o método mais simples para testar a primalidade?;divisão trial.
+Quais são os principais testes de primalidade modernos?;Miller-Rabin e AKS.
+Em que ano foi descoberto o maior primo conhecido?;2018.
+Quantos dígitos tem o maior primo conhecido?;24,862,048 dígitos decimais.
+Qual conjectura sobre primos ainda não está resolvida?;conjectura de Goldbach.
+Quem demonstrou que há um número infinito de primos?;Euclides.
+Para qual área tecnológica os primos são fundamentais?;criptografia.
+```

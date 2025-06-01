@@ -1,0 +1,56 @@
+<think>
+Ok, então preciso criar um CSV com 10 pares pergunta/resposta baseadas no contexto de Harvard University. Primeiro, vou analisar o que foi fornecido.
+
+O contexto inclui informações sobre a fundação, origem do nome, campus, facultades, graus de estudo, endowment, libraries, e uma lista de personagens relevantes. Além disso, há fatos específicos sobre os alumni, como os nomes de pessoas que毕业该校及其相关的职位。
+
+Primeiro, identifico que a pergunta deve ser relevante ao contexto e que a resposta deve ser curta, contendo info disponível no contexto. Preciso evitar repeties, então vou procurar pares que cobram diferentes tópicos como fundação, campus, facultades, endowment, libraries, personagens notáveis, etc.
+
+Vou começar identificando pontos do contexto que podem ser convertidos em perguntas:
+
+1. Qual é a data de fundação de Harvard?
+2. Quais校区 does Harvard têm?
+3. O que inclui o Faculty of Arts and Sciences?
+4. Como é comparado a outras universidades?
+5. O que é o endowment de Harvard?
+6. Quais libraries são relevantes?
+7. Qual é o maior storage library do mundo?
+8. Quantos presidentes dos EUA são ex-alunos de Harvard?
+9. Qual é o mais comum entre os ganadores do Nobel e os Harvard alumni?
+10. Quais personagens relevantes afetaram Harvard recentemente?
+
+Para cada uma dessas perguntas, vou tentarEncontrar a resposta correspondente no contexto.
+
+Primeira pergunta: Qual é a data de fundação de Harvard? Resposta: 1636.
+
+Segunda: Quais校区 does Harvard têm? Resposta: Cambridge, Massachusetts, e Boston.
+
+Terceira: O que inclui o Faculty of Arts and Sciences? Resposta: Oferece estudos undergraduate e graduação em várias disciplinas.
+
+Quarta: Como é comparado a outras universidades? Resposta: É uma das mais prestigiousas e de maior valor monetário dos EUA.
+
+Quinta: O que é o endowment de Harvard? Resposta: Valorizado em $50,9 bilhões.
+
+ sexta: Quais libraries são relevantes? Resposta: Harvard Library System, com 79 bibliotecas.
+
+nona: Qual é o maior storage library do mundo? Resposta: Harvard Library System.
+
+Décima: Quantos presidentes dos EUA são ex-alunos de Harvard? Resposta: Oito.
+
+Agora, preciso formatar isso no formato CSV onde cada linha tem a pergunta e a resposta; separadas por ;.
+
+Também tenho que garantir que as respostas sejam curtas e ativas, e que as perguntas cobramem temaos variados do contexto.
+</think>
+
+```
+pergunta;resposta
+Qual é a data de fundação de Harvard University?;1636
+Quais校区 does Harvard University têm?;Cambridge, Massachusetts, e Boston
+O que inclui o Faculty of Arts and Sciences de Harvard?;Oferece estudos undergraduate e graduação em várias disciplinas
+Como é HarvarUniversity comparado às outras universidades do mundo?;É uma das mais prestigiousas e de maior valor monetário dos EUA
+O que é o endowment de Harvard University?;\$50,9 bilhões
+Quais libraries são relevantes na Harvard?;Harvard Library System, com 79 bibliotecas
+Qual é o maior storage library do mundo?;o Harvard Library System
+Quantos presidentes dos EUA são ex-alunos da Harvard University?;8
+Quantos ganhadores do Nobel foram entre os ex-alunos da Harvard University?;150
+Quais personagens relevantes recentemente afetaram Harvard University?;O CEO Apple Tim Cook, o CEO Google Sundar Pichai e o CEO Tesla Dana D work
+```

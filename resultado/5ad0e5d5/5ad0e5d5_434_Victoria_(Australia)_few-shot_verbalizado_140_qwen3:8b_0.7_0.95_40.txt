@@ -1,0 +1,60 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in CSV format based on the provided context and facts. Let me start by understanding the context.
+
+The context describes Victoria, a state in southeastern Australia. It mentions its population, economy, geography, history, and cultural aspects. The facts list various people, places, and events associated with Victoria, like the 1909 Inter-State Series, notable individuals born or died there, institutions, and events.
+
+I need to create questions that are varied and cover different aspects. Let me check the example given to ensure the format is correct. Each line should be "pergunta;resposta".
+
+First, I'll look for key points in the context. Victoria's population is over 6.5 million, it's the second-most populated state, and the most densely populated. The economy is diversified. The capital is Melbourne, which is the second-largest city in Australia. There are several cities like Geelong, Ballarat, Bendigo. Aboriginal groups are mentioned. The state's history includes the gold rush, separation from NSW in 1851, and the Federation in 1901.
+
+Now, looking at the facts, there are many names of people born or died in Victoria, locations of institutions, events, and some temperature records. For example, the 1909 Inter-State Series is in Victoria, and the record high temperature is 48.8°C in February.
+
+I need to make sure each question is unique and has a single correct answer from the context or facts. Let me brainstorm possible questions:
+
+1. What is Victoria's population status in Australia? (Second-most populated)
+2. What is Victoria's capital city? (Melbourne)
+3. Which city is known as the capital of Australian sports? (Melbourne)
+4. What is the record high temperature in Victoria? (48.8°C in February)
+5. Which state is Victoria bordered by to the north? (New South Wales)
+6. What is Victoria's economy primarily based on? (Highly diversified)
+7. Which Aboriginal group is associated with Victoria? (Boonwurrung, etc.)
+8. When was Victoria established as a separate colony? (1851)
+9. Which event is held in Victoria? (1909 Inter-State Series)
+10. Which institution is located in Victoria? (Hockey Australia)
+
+Wait, I need to check if these answers are present in the context or facts. For example, the record high temperature is mentioned in the facts. The 1909 Inter-State Series is in the facts. The institutions like Hockey Australia are in the facts. The Aboriginal groups are in the context. The economy is described as diversified. The capital is Melbourne. The border states are mentioned. The establishment date is 1851. 
+
+Let me verify each answer. For the record high temperature, the fact says "Victoria (Australia) possui recorde de temperatura alta em fevereiro (°C) 48.8". So the answer is 48.8°C in February. 
+
+For the 1909 Inter-State Series, the fact says "1909 Inter-State Series está localizado em Victoria (Australia)", so the answer is Victoria. 
+
+Hockey Australia's headquarters are in Victoria according to the fact: "Hockey Australia possui sede Victoria (Australia)".
+
+The Aboriginal groups are listed in the context. 
+
+The economy is described as "highly diversified" in the context.
+
+The capital is Melbourne, as stated.
+
+The border to the north is New South Wales.
+
+Established as a separate colony in 1851.
+
+Now, I need to form the questions and answers, ensuring they are concise and fit the example. Let me structure each line with the question and answer, separated by semicolons. Also, make sure the answers are within 10 words.
+
+Let me check for duplicates and ensure variety. The example includes questions about population, economy, cities, etc. I should cover similar but different aspects. For example, the record high temperature, the 1909 event, institutions, and Aboriginal groups. 
+
+I think that's enough. Now, format them into CSV lines, making sure there are exactly 10 lines.
+</think>
+
+pergunta;resposta  
+Qual é a capital de Victoria?;Melbourne  
+Qual é o recorde de temperatura alta em Victoria?;48,8°C em fevereiro  
+Qual é a economia principal de Victoria?;diversificada  
+Quais são os dois estados que limitam Victoria ao norte e oeste?;Nova Gales do Sul e Queensland  
+Quais grupos aborígenes estão associados a Victoria?;Boonwurrung, Koori, etc.  
+Quando Victoria se tornou uma colônia separada?;1851  
+Qual evento está localizado em Victoria?;1909 Inter-State Series  
+Qual instituição tem sede em Victoria?;Hockey Australia  
+Qual é o segundo maior município de Australia?;Melbourne  
+Quais são as cidades principais de Victoria?;Geelong, Ballarat, Bendigo

@@ -1,0 +1,28 @@
+<think>
+Okay, let's tackle this. The user provided a lot of data in a specific format and wants a CSV generated based on the instructions and rules. First, I need to understand what the data represents. It looks like a collection of entities with various properties, including URIs, labels, and other attributes. The main goal is to convert this into a CSV format.
+
+Looking at the example, the CSV has columns like 'uri', 'label', 'type', 'description', and others. Each row corresponds to an entity, and the data is structured with different properties. The user mentioned that the final CSV should be generated based on the instructions and rules, so I need to make sure all the necessary fields are included.
+
+First, I'll go through each entry in the provided data. The data includes entries like "Islamism" with various types, descriptions, and related templates. There are also entries for specific parties, movements, and individuals. Each of these needs to be mapped into the CSV columns.
+
+I need to extract the URI, the label, the type (class), the description, and any other relevant fields. The example includes a 'description' field that's a bit complex, with a mix of Persian text and English quotes. I should ensure that the description is properly formatted in the CSV, maybe using quotes if necessary.
+
+Another thing to note is that some entries have multiple types, like "Islamism" having several classes. The CSV should include all of them. Also, there are entries with 'ns2:text' which contains a quote, so that needs to be included in the description.
+
+I also need to check for any inconsistencies or missing data. For example, some entries might have only a URI and label, while others have more detailed information. The CSV should capture all these details.
+
+Now, I'll start structuring each row. For each entity, I'll list the URI, label, type (class), description, and any other relevant fields like templates or depictions. The 'description' field might have multiple entries, so I need to make sure they're all included.
+
+I should also check if there are any special characters that need escaping in the CSV, like quotes or commas. Using double quotes around fields that contain commas would be necessary.
+
+After compiling all the entries, I'll ensure the CSV is properly formatted with headers and correct delimiters. The final CSV should be a direct translation of the provided data into a structured format as per the instructions.
+</think>
+
+```csv
+uri,label,type,description
+http://dbpedia.org/resource/Islamism,Islamism,<http://dbpedia.org/class/yago/Abstraction100002137>,<http://dbpedia.org/class/yago/Disagreement107180787>,<http://dbpedia.org/class/yago/Dispute107181935>,<http://dbpedia.org/class/yago/Event100029378>,<http://dbpedia.org/class/yago/Orientation106208021>,<http://dbpedia.org/class/yago/WikicatPoliticalNeologisms>,<http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,ns1:PersonFunction;ns2:bot"medic";ns2:date"April 2022","June 2022";ns2:text"Persian: 
+اساس این مجلس محترم مقدس بر امور مذکور مبتنی است. بر هر مسلمی سعی و اهتمام در استحکام و تشیید این اساس قویم لازم، و اقدام در موجبات اختلال آن محاده و معانده با صاحب شریعت مطهره علی الصادع بها و آله الطاهرین افضل الصلاه و السلام، و خیانت به دولت قوی شوکت است.
+الاحقر نجل المرحوم الحاج میرزا خلیل قدس سره محمد حسین،
+حررّہ الاحقر الجانی محمد کاظم الخراسانی، من الاحقر Abdullah المازندرانی 
+“Because we are aware of the intended reasons for this institution, it is therefore incumbent on every Muslim to support its foundation, and those who try to defeat it, and their action against it, are considered contrary to shari‘a.”";ns2:wikiPageUsesTemplate<http://dbpedia.org/resource/Template:Cite_journal>,<http://dbpedia.org/resource/Template:Columns-list>,<http://dbpedia.org/resource/Template:Islamism>,<http://dbpedia.org/resource/Template:Main>,<http://dbpedia.org/resource/Template:Portal_bar>,<http://dbpedia.org/resource/Template:Rp>,<http://dbpedia.org/resource/Template:Salafi>,<http://dbpedia.org/resource/Template:Short_description>,<http://dbpedia.org/resource/Template:Social_and_political_philosophy>,<http://dbpedia.org/resource/Template:Third-party-inline>,<http://dbpedia.org/resource/Template:Wikiquote-inline>;ns3:hypernym<http://dbpedia.org/resource/Movement>;foaf:depiction<http://commons.wikimedia.org/wiki/Special:FilePath/Jokowi_berpidato_Aksi_2_Desember.jpg>,<http://commons.wikimedia.org/wiki/Special:FilePath/Sayyid_Qutb.jpg>,<http://commons.wikimedia.org/wiki/Special:FilePath/آخوند_ملا_کاظم_خراسانی.jpg>
+```

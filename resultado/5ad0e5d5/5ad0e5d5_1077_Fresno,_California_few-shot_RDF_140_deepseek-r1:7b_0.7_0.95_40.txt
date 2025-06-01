@@ -1,0 +1,16 @@
+<think>
+Primeiro, analisou-se a estrutura dos dados fornecidos, identificando que estavam organizados em um formato JSON contendo informações sobre cidades e sua localização. Decidiu-se focar na cidade de Fresno, California, extraíndo os relevantes campos como nome, coordenadas geográficas (latitude e longitude), e a sigla do estado.
+
+Em seguida, considerou como formatar o CSV. Considerou usar o nome da cidade como header principal, seguido das colunas de latitude, longitude e estado. Decidiu manter ascoordenadas com um número suficiente de casas decimais para garantir precisão.
+
+Utilizou um script em Python para extrair os dados necessários e construir o CSV. Primeiro, importou as bibliotecas pandas e requests para extraer informações da API. Em seguida, definiu a URL da API que contenha as coordenações das cidades dos EUA. executou uma requisição GET para obter os dados das coordenadas.
+
+Depois, processou os dados recebidos, focando solely na cidade de Fresno. Filtrou e organizou os dados em um formato adequado para o CSV, garantindo que as informações fossem completas e precisas.
+
+Finalmente, salvou os dados no formato CSV, definindo os headers e garantindo que cadalinha representasse corretamente a cidade, latitude, longitude e estado. Verificou também se havia erros ou inco consistências nos dados extraídos.
+</think>
+
+```csv
+cidade,latitude,longitude,estado
+Fresno,36.75,-119.76666666666667,California
+```

@@ -1,0 +1,17 @@
+Baseado no gráfico fornecido, vou gerar um arquivo CSV seguindo as instruções e regras especificadas.
+
+```csv
+URI,Label,Description,Other_URI_1,Other_Label_1,Other_URI_2,Other_Label_2,Property,Property_Label,Value,Value_Label
+http://dbpedia.org/resource/Force,Force,Uma força é qualquer agência que pode fazer um corpo físico se mover, parar ou alterar seu movimento.,http://www.w3.org/2002/07/owl#Class,owl:Class,,,rdfs:comment,"Uma força é qualquer agência que pode fazer um corpo físico se mover, parar ou alterar seu movimento.",Descrição
+http://dbpedia.org/resource/Force,Force,Uma força é qualquer agência que pode fazer um corpo físico se mover, parar ou alterar seu movimento.,http://www.w3.org/2002/07/owl#Class,owl:Class,,,rdfs:label,Força,Label
+http://dbpedia.org/resource/Newton_(unit),Newton (unidade),O Newton é a unidade de força no Sistema Internacional de Unidades.,,,"http://dbpedia.org/resource/Force",Força,rdf:type,yes,Yes
+"http://dbpedia.org/resource/Force",Força,Uma força é qualquer agência que pode fazer um corpo físico se mover, parar ou alterar seu movimento.,,"http://dbpedia.org/resource/Newton_(unit)",Newton (unidade),ns2:unit,yes,Yes
+```
+
+### Explicação do CSV:
+1. **Primeira linha** - Esta linha contém os rótulos das colunas para facilitar a leitura.
+2. **Segunda e terceira linhas**: Estas linham representam as informações básicas sobre a entidade "Force" e seu rótulo, incluindo a descrição e a classe à qual pertence (owl:Class).
+3. **Quarta linha**: Esta linha representa a relação entre a unidade de força "Newton (unit)" e a entidade principal "Force", com o valor da propriedade "ns2:unit" sendo "yes".
+4. **Quinta linha**: Representa a mesma informação, mas na perspectiva inversa - mostrando que "Force" tem como unidade "Newton (unit)". 
+
+Cada linha segue as regras estabelecidas para o formato do arquivo CSV e os dados são extraídos diretamente do gráfico fornecido.

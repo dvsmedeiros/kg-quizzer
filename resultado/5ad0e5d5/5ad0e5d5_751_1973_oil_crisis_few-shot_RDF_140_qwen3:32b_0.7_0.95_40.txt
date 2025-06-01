@@ -1,0 +1,56 @@
+<think>
+Vou analisar o conteúdo fornecido para gerar 10 pares de perguntas e respostas no formato CSV, seguindo as instruções.
+
+O conteúdo fornece informações sobre a crise do petróleo de 1973. Vou extrair os fatos principais para criar perguntas relevantes:
+
+1. A crise do petróleo de 1973 começou em outubro de 1973.
+2. Foi provocada por membros da OPEP árabe, liderada pela Arábia Saudita, que impuseram um embargo.
+3. O embargo foi direcionado a nações que apoiaram Israel durante a Guerra de Yom Kippur.
+4. Os países inicialmente alvos foram Canadá, Japão, Holanda, Reino Unido e Estados Unidos.
+5. O embargo também foi estendido a Portugal, Rodesia e África do Sul.
+6. No final do embargo em março de 1974, o preço do petróleo tinha subido quase 300%, de US$3 para quase US$12 por barril.
+7. A crise teve efeitos imediatos e de longo prazo na política global e na economia.
+8. Foi chamada de "primeiro choque do petróleo", sendo seguida pela crise de 1979, chamada de "segundo choque do petróleo".
+
+Agora, vou criar 10 perguntas e respostas breves com base nesses fatos:
+
+```
+pergunta;resposta
+Quando começou a crise do petróleo de 1973?;outubro de 1973
+Quem impôs o embargo do petróleo?;membros da OPEP árabe
+Qual foi o preço inicial do petróleo antes da crise?;US$3 por barril
+Quando terminou o embargo do petróleo?;março de 1974
+Qual foi o aumento percentual do preço do petróleo?;quase 300%
+Qual foi o preço do petróleo no final do embargo?;quase US$12 por barril
+Por que foi imposto o embargo do petróleo?;por países que apoiaram Israel
+Quais foram os primeiros países alvos do embargo?;Canadá, Japão, Holanda, Reino Unido e Estados Unidos
+Qual foi outro nome para esta crise?;"primeiro choque do petróleo"
+Qual crise ocorreu após esta?;crise de 1979
+```
+
+Vou verificar se estou seguindo todas as regras:
+- Cada pergunta é relevante ao contexto ✓
+- Cada resposta é curta (até 10 palavras) ✓
+- O idioma é português ✓
+- O separador é ponto e vírgula ✓
+- São exatamente 10 linhas ✓
+- As perguntas são variadas e abrangentes ✓
+- As respostas estão contidas ou inferíveis do contexto ✓
+- Não há perguntas repetidas ✓
+
+Agora vou formatar isso no formato CSV pedido.
+</think>
+
+```
+pergunta;resposta
+Quando começou a crise do petróleo de 1973?;outubro de 1973
+Quem impôs o embargo do petróleo?;membros da OPEP árabe
+Qual foi o preço inicial do petróleo antes da crise?;US$3 por barril
+Quando terminou o embargo do petróleo?;março de 1974
+Qual foi o aumento percentual do preço do petróleo?;quase 300%
+Quais foram os primeiros países alvos do embargo?;Canadá, Japão, Holanda, Reino Unido e Estados Unidos
+Por que foi imposto o embargo do petróleo?;por países que apoiaram Israel
+Qual foi o preço do petróleo no final do embargo?;quase US$12 por barril
+Qual foi outro nome para esta crise?;"primeiro choque do petróleo"
+Qual crise ocorreu após esta?;crise de 1979
+```

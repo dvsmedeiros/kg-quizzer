@@ -1,0 +1,29 @@
+<think>
+Okay, let's tackle this request. The user wants me to generate 10 question-answer pairs in CSV format based on the provided context and triples. First, I need to understand the context thoroughly. The IPCC is an intergovernmental body under the UN, established by WMO and UNEP in 1988. It has 195 member states, a secretariat in Geneva, and focuses on climate change assessments without conducting original research. They produce reports with peer reviews, have working groups, and special reports like the 1.5°C report. They won a Nobel Prize in 2007 and are involved in the Paris Agreement.
+
+Looking at the triples, there's info about the chairman, Hoesung Lee, and other members. The structure of the CSV needs to be "pergunta;resposta" with each line having a question and a short answer. The answers must be derived from the context or triples, not repeated, and varied.
+
+I'll start by listing key points from the context. For example, the establishment year, parent organizations, headquarters, number of member states, the role of the secretariat, the assessment cycle duration, the working groups, the Nobel Prize, the special reports, and the 6th assessment cycle details.
+
+Then, I'll form questions around these points. For instance, "Quando o IPCC foi estabelecido?" with the answer "1988." I need to ensure that each question is unique and covers different aspects. I should check the triples for any additional details, like the current chairman's name, which is Hoesung Lee. Also, the parent organizations are WMO and UNEP, so a question about that would be good.
+
+I have to avoid repetition. For example, if I ask about the establishment year, I shouldn't have another question about the same date. Also, make sure the answers are concise, under 10 words. Let's see, the answer for the Nobel Prize would be "2007, com Al Gore." That's within the limit.
+
+Another point is the 6th assessment cycle, which started in 2015 and ended in 2023. The special reports include the 1.5°C report from 2018. The headquarters in Geneva, Switzerland, and the number of member states (195) are also important.
+
+I need to ensure that the questions are varied: some about history, some about structure, some about reports, and others about key figures. Also, check that all answers are directly from the context or triples. For example, the answer to "Quem é o presidente do IPCC?" is "Hoesung Lee," which is in the triples.
+
+Finally, format everything correctly as CSV with semicolons and no markdown. Let me compile the 10 pairs now, making sure each is unique and covers different aspects of the IPCC.
+</think>
+
+pergunta;resposta
+Quando o IPCC foi estabelecido?;1988;
+Quais organizações da ONU criaram o IPCC?;Organização Meteorológica Mundial (OMM) e Programa das Nações Unidas para o Meio Ambiente (PNUMA);
+Onde está sediado o IPCC?;Geneva, Switzerland;
+Quantos países são membros do IPCC?;195;
+Qual é a duração de um ciclo de avaliação do IPCC?;6 a 7 anos;
+O IPCC realiza pesquisa original?;Não;
+Qual é o papel do secretariado do IPCC?;Coordenar atividades e processos do IPCC;
+Quais são os grupos de trabalho do IPCC?;Três grupos de trabalho;
+Em que ano o IPCC recebeu o Prêmio Nobel da Paz?;2007;
+Qual é o título do relatório especial sobre o aquecimento global de 1,5°C?;Relatório especial sobre os impactos do aquecimento global de 1,5°C;

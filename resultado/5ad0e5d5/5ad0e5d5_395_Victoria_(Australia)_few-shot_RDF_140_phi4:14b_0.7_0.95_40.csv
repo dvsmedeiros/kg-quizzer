@@ -1,0 +1,9 @@
+pergunta;resposta
+Para gerar um arquivo CSV a partir das informações fornecidas; precisamos identificar a estrutura relevante do dado: os links de entidades (sujos) e seus respectivos valores. Vamos formatar esses dados em uma tabela com duas colunas: "Sujeo" e "Valor".
+Sujeo;Valor
+<http://dbpedia.org/resource/Bonnie_Lane>;<http://dbpedia.org/resource/Victoria_(Australia)>
+<http://dbpedia.org/resource/Brayden_Terrovona>;<http://dbpedia.org/resource/Victoria_(Australia)>
+<http://dbpedia.org/resource/Carlton_Football_Club>;<http://dbpedia.org/resource/Victoria_(Australia)>
+<http://dbpedia.org/resource/Chandler_College>;<http://dbpedia.org/resource/Victoria_(Australia)>
+<http://dbpedia.org/resource/Yarriambiack_Creek>;<http://dbpedia.org/resource/Victoria_(Australia)>
+Para garantir que todas as entradas sejam cobertas; continue adicionando cada par na mesma linha do CSV até completar a lista fornecida no input inicial.

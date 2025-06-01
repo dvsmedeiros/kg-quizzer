@@ -1,0 +1,84 @@
+<think>
+Alright, let's tackle this problem step by step. The user wants me to generate a CSV file from the provided RDF data. The CSV should have two columns: "nome" and "propriedade", with each row representing a unique property associated with each entity. 
+
+First, I need to parse the RDF data. The data is in a format that includes triples with subjects, predicates, and objects. Each line seems to represent a triple. For example, the first line is:
+
+`<http://dbpedia.org/resource/Ansar_Allah_(political_party)> a <http://dbpedia.org/ontology/Organisation> .`
+
+Here, the subject is the political party "Ansar Allah", the predicate is "a" (which denotes a type in RDF), and the object is the class "Organisation". 
+
+The main task is to extract all the properties (predicates) for each entity (subject) and list them in the CSV. Each unique combination of subject and predicate should be a row, with the subject as "nome" and the predicate as "propriedade". 
+
+Looking at the data, there are multiple entities. For example, "Islamism" is an entity with multiple properties like "bot", "date", "text", "wikiPageUsesTemplate", "hypernym", and "depiction". Each of these properties should be a separate row in the CSV. 
+
+I need to ensure that the CSV only includes the direct properties of the entities, not the nested ones. For instance, if an entity has a property that points to another entity, that's a relationship, but the user might want only the immediate properties. 
+
+Also, the user mentioned that the CSV should have "nome" and "propriedade" as headers. The "nome" should be the entity's name (the subject), and "propriedade" should be the predicate (property name). 
+
+I need to check if all the lines in the provided data are to be included. The data includes various entities, each with their own set of properties. For example, "Ansar Allah" has "a" as a property, "location" as another, etc. 
+
+I should also verify if any of the properties are repeated for the same entity. For instance, "ns2:date" appears twice with different values. Each occurrence should be a separate row. 
+
+The "ns2:text" property has a long text, but in the CSV, I should just include the predicate name, not the value. Similarly, "ns2:wikiPageUsesTemplate" has multiple values, but again, the predicate name is "wikiPageUsesTemplate", and each template is a separate entry? Wait, no. The user might just want the predicate name once, regardless of how many values it has. But the example given in the instructions shows that if an entity has multiple values for the same property, each value is a separate row. For example, "ns2:date" has two values, so two rows with "date" as the property. 
+
+So, for each subject, each predicate-object pair is a separate row. Therefore, even if the same predicate is used multiple times with different objects, each is a separate row. 
+
+Now, let's process the data. I'll go through each line and extract the subject (nome) and predicate (propriedade). 
+
+Starting with the first line:
+`<http://dbpedia.org/resource/Ansar_Allah_(political_party)> a <http://dbpedia.org/ontology/Organisation> .`
+Here, "Ansar Allah (political party)" is the nome, and "a" is the propriedade.
+
+Next line:
+`<http://dbpedia.org/resource/Ansar_Allah_(political_party)> <http://dbpedia.org/ontology/affiliation> <http://dbpedia.org/resource/Houthi_movement> .`
+Nome is the same, propriedade is "affiliation".
+
+Continuing this for all lines. 
+
+For the entity "Islamism", there are multiple properties: "bot", "date", "text", "wikiPageUsesTemplate", "hypernym", "depiction". Each of these is a separate row. The "date" property has two values, so two rows for "date". 
+
+I need to make sure that the CSV correctly lists each predicate with the entity as the name. Also, the namespaces like "ns2:date" should be included as is, or just the local name? The user's example shows "ns2:date" as "propriedade", so the full predicate including the namespace should be used. 
+
+Now, compiling all these into the CSV format. The headers will be "nome" and "propriedade", and each row will have the entity name and the predicate. 
+
+Let me start writing out the CSV rows. For each line in the data, extract the subject (entity name) and predicate. For example:
+
+nome,propriedade
+"Ansar Allah (political party)",a
+"Ansar Allah (political party)",<http://dbpedia.org/ontology/affiliation>
+...
+
+For "Islamism", the lines are:
+
+<http://dbpedia.org/resource/Islamism> a <http://dbpedia.org/class/yago/Abstraction100002137> ...
+So, the nome is "Islamism", and propriedade is "a" for the first line. Then "ns2:bot", "ns2:date", etc. 
+
+I need to ensure that all the properties for all entities are captured. 
+
+Finally, I'll compile all these into the CSV format as specified, ensuring that each row is correctly formatted with quotes and commas.
+</think>
+
+```csv
+nome,propriedade
+"Ansar Allah (political party)","a"
+"Ansar Allah (political party)","\u003Chttp://dbpedia.org/ontology/affiliation\u003E"
+"Ansar Allah (political party)","\u003Chttp://dbpedia.org/ontology/leadership\u003E"
+"Ansar Allah (political party)","\u003Chttp://dbpedia.org/ontology/ideology\u003E"
+"Ansar Allah (political party)","\u003Chttp://dbpedia.org/ontology/leader\u003E"
+"Ansar Allah (political party)","\u003Chttp://dbpedia.org/ontology/formationPlace\u003E"
+"Ansar Allah (political party)","\u003Chttp://dbpedia.org/ontology/founded\u003E"
+"Ansar Allah (political party)","\u003Chttp://dbpedia.org/ontology/dissolution\u003E"
+"Ansar Allah (political party)","\u003Chttp://dbpedia.org/ontology/affiliation\u003E"
+"Ansar Allah (political party)","\u003Chttp://dbpedia.org/ontology/website\u003E"
+"Ansar Allah (political party)","\u003Chttp://dbpedia.org/ontology/religion\u003E"
+"Ahmad Shah Massoud","a"
+"Ahmad Shah Massoud","\u003Chttp://dbpedia.org/ontology/occupation\u003E"
+"Ahmad Shah Massoud","\u003Chttp://dbpedia.org/ontology/birthPlace\u003E"
+"Ahmad Shah Massoud","\u003Chttp://dbpedia.org/ontology/deathPlace\u003E"
+"Ahmad Shah Massoud","\u003Chttp://dbpedia.org/ontology/ethnicity\u003E"
+"Ahmad Shah Massoud","\u003Chttp://dbpedia.org/ontology/religion\u003E"
+"Ahmad Shah Massoud","\u003Chttp://dbpedia.org/ontology/field\u003E"
+"Ahmad Shah Massoud","\u003Chttp://dbpedia.org/ontology/genre\u003E"
+"Ahmad Shah Massoud","\u003Chttp://dbpedia.org/ontology/award\u003E"
+"Ahmad Shah Massoud","\u003Chttp://db
+```

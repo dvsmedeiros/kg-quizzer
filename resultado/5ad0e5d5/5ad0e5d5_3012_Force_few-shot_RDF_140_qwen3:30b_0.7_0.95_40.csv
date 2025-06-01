@@ -1,0 +1,12 @@
+pergunta;resposta
+Therefore; the CSV would have:
+Wait; the user provided a list of RDF triples. Let me recount:
+Looking at the input; there are multiple lines of the form:
+Then; other predicates like ns2:wikiPageUsesTemplate and foaf:depiction.
+In RDF; this would mean that the subject "Force" has multiple objects for the predicates "ns2:wikiPageUsesTemplate" and "foaf:depiction".
+Therefore; each of these objects would be separate rows in the CSV.
+Yes; that matches the earlier count.
+- The first two lines (the ones starting with "You can use...") are the user's instruction; not part of the data. Then the actual data starts with the triples.
+Therefore; the final CSV would be:
+For example; the URLs are:
+No commas; so no need for quotes. So the CSV should be as above.

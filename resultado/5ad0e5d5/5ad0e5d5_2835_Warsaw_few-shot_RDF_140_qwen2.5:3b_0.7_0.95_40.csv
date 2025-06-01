@@ -1,0 +1,8 @@
+pergunta;resposta
+Vamos criar um arquivo CSV (Comma-Separated Values) baseado nos dados fornecidos; respeitando as seguintes regras:
+    <http://commons.wikimedia.org/wiki/Special:FilePath/Warszawa;_Poniatowskiego_20160328_035.jpg>"""
+df.to_csv(csv_io; index=False)
+"http://commons.wikimedia.org/wiki/Special:FilePath/Warszawa;_Poniatowskiego_20160328_035.jpg"
+Como você pode ver; os dados foram armazenados no formato CSV. O campo `user` contém o endereço da string fornecida e as outras colunas correspondem aos campos de dados extraídos.
+- Removi as referências a imagem; pois elas não pareciam ser campos de dados e também foram ignorados.
+- As outras colunas foram preenchidas com valores `NULL`; que é o padrão no formato CSV.

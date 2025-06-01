@@ -1,0 +1,21 @@
+pergunta;resposta
+3. **Skip Duplicates**: If the same predicate appears multiple times for the same subject; only the first occurrence should be included.
+- For each subject; collect all the predicates and their objects.
+- Write each group into the CSV with the predicate and object; ensuring the namespaces are stripped.
+Another subject is "Jacksonville_Maritime_Museum"; with "ns2:location".
+"**Regra 3**: Se houver mais de um objeto para o mesmo predicado em um mesmo assunto; inclua apenas o primeiro."
+predicado;objeto
+wikiPageUsesTemplate;Template:City of Jacksonville
+wikiPageUsesTemplate;Template:Convert
+wikiPageUsesTemplate;Template:Florida county seats
+wikiPageUsesTemplate;Template:North Florida
+Wait; looking back at the instruction:
+"Regra 3: Se houver mais de um objeto para o mesmo predicado em um mesmo assunto; inclua apenas o primeiro."
+- **Rule 3**: If there are multiple objects for the same predicate in the same subject; include only the first.
+<http://dbpedia.org/resource/Jacksonville;_Florida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/resource/Jacksonville;_Florida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Settlement> .
+2. For each predicate in the group; remove the namespace (ns1 or ns2) to get the predicate name.
+Now; let's start processing the data.
+First; list all the subjects and their triples.
+Looking at the data provided; the subjects are:
+- Jacksonville;_Florida

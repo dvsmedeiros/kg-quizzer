@@ -1,0 +1,14 @@
+pergunta;resposta
+Okay; let's tackle this. The user provided a bunch of RDF triples in Turtle format and wants a CSV file based on specific instructions. The main goal is to map the data correctly.
+But how to get the person's name from their URI? The name is the label in the URI. For example; http://dbpedia.org/resource/Robert_Lucas_Jr. would have the name "Robert Lucas Jr.".
+- For each subject URI (person); extract the name by replacing underscores with spaces and removing the "http://dbpedia.org/resource/" part.
+Now; let's process the data.
+First; the university's own attributes:
+Then; for each person:
+Looking through the data; there are multiple entries. For example:
+For each line that starts with a person's URI followed by a predicate and the university URI; create a row.
+Now; the challenge is to parse all these lines and extract the necessary information.
+Another thing to note is that the university's URI is the same for all; so any triple where the object is that URI is a relation to the university.
+Now; the user's data has the university's own attributes. Let's check the last line:
+Now; compiling all these into the CSV.
+I think that's the plan. Now; proceed to generate the CSV.

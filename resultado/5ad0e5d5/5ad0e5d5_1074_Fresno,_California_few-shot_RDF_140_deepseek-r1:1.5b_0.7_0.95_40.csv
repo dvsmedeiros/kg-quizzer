@@ -1,0 +1,12 @@
+pergunta;resposta
+      "name";         // Nome do estabelecimento
+      "color";        // Cor da pão (assimilhante)
+      "latitude";     // Latitude geográfica
+      "longitude";    // Longitude geográfica
+      "coordinates"  // coordenadas geográficas em ["lat"; "lon]
+        "coordinates": ["-119.6437012765625"; "35.9343121640625"]
+        "coordinates": ["-119.5666666666667"; "35.93203125"]
+        "coordinates": ["-119.48822222222222"; "35.929753125"]
+        "coordinates": ["-119.41111111111111"; "35.897945208333337"]
+Para Gerar o CSV; onto o JSON paragerar o CSV:
+Assim; você terá um arquivo .csv com os dados formattingados conforme necessário.

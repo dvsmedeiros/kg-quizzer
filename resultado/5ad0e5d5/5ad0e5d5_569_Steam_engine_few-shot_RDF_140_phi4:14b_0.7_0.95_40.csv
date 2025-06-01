@@ -1,0 +1,4 @@
+pergunta;resposta
+Para transformar os dados fornecidos em um arquivo CSV; vamos aplicar as regras especificadas:
+A partir da lista de triplos RDF fornecida; identificaremos apenas aqueles que têm como sujeito o `http://dbpedia.org/resource/Steam_engine` e onde o predicado é um dos seguintes:
+Criaremos o arquivo CSV com as colunas Sujeito; Predicado e Objeto. O sujeito será fixo como `Steam engine` para todos os triplos relevantes.

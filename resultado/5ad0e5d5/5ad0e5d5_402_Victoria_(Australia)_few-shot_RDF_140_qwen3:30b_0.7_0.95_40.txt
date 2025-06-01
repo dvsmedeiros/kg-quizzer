@@ -1,0 +1,173 @@
+<think>
+Okay, let me try to figure out how to generate the CSV based on the given data. First, I need to understand the structure of the input. The user provided a bunch of RDF triples in Turtle format. Each line starts with a URI, followed by a predicate and an object. The goal is to convert this into a CSV format.
+
+So, the first step is to identify the columns for the CSV. The user mentioned "Instruções e Regras" which I assume are the instructions for the CSV format. Since the actual rules aren't provided here, I'll have to make some educated guesses based on standard practices. Typically, a CSV might have columns like "Subject", "Predicate", "Object" to represent the triplets. But maybe there's more structure needed.
+
+Looking at the data, the subjects are URIs like "<http://dbpedia.org/resource/Victoria_(Australia)>", and the predicates are things like "ns1:febRecordHighC", "ns1:marRecordHighC", etc. The objects can be numerical values, other URIs, or strings.
+
+The user's example includes a line where "Victoria_(Australia)" has multiple properties like "febRecordHighC" and "marRecordHighC" with their respective values. So, each of these would be separate rows in the CSV, with the subject as the same URI, different predicates, and their corresponding values.
+
+But wait, the user also included a line where "Victoria_(Australia)" has "wikiPageUsesTemplate" pointing to a template, and "foaf:depiction" pointing to an image URL. So those would be separate entries as well.
+
+So the CSV should have three columns: Subject, Predicate, Object. Each row represents a triple. However, sometimes the object might be a literal (like "48.8") or a URI (like <http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg>). In the CSV, those URIs would be enclosed in angle brackets.
+
+But the user might want to split the properties into separate columns if they are known. However, without specific rules, it's safer to stick with the triple format. Also, the user's example in the input has some properties that are numbers, others that are URIs, and others that are templates.
+
+Another thing to note is that some lines have multiple predicates. For example, the "Victoria_(Australia)" line has "febRecordHighC", "marRecordHighC", "wikiPageUsesTemplate", and "foaf:depiction". Each of these would be separate rows in the CSV.
+
+So, the CSV would look like:
+
+Subject,Predicate,Object
+<http://dbpedia.org/resource/Victoria_(Australia)>,ns1:febRecordHighC,"48.8"
+<http://dbpedia.org/resource/Victoria_(Australia)>,ns1:marRecordHighC,"44.4"
+<http://dbpedia.org/resource/Victoria_(Australia)>,ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Expand_section>
+<http://dbpedia.org/resource/Victoria_(Australia)>,foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg>
+
+But I need to check if the user wants to have the URIs in quotes or as-is. Also, the "Object" column might need to handle different types. For literals, they should be in quotes, and for URIs, they should be in angle brackets. However, in CSV, the quotes are typically used to enclose fields that contain commas. Since the objects here don't have commas, maybe it's okay to just enclose them in quotes if they are literals, or leave them as is if they are URIs.
+
+Wait, in the example given, the "wikiPageUsesTemplate" has a value that's a URI, so it's written as <http://...>, and the "foaf:depiction" is also a URI. The numerical values are in quotes. So in the CSV, the "Object" column should have the URIs in angle brackets and literals in quotes.
+
+But how to differentiate between them? Maybe the CSV should have the Object as is, with the angle brackets for URIs and quotes for literals. However, in CSV, if a field contains quotes, it needs to be enclosed in double quotes. So for example, if the object is a literal, it should be in quotes, and if it's a URI, it should be in angle brackets. But in the example, the user included "48.8" in quotes, which suggests that literals are quoted.
+
+So the CSV should have:
+
+Subject,Predicate,Object
+<http://dbpedia.org/resource/Victoria_(Australia)>,ns1:febRecordHighC,"48.8"
+<http://dbpedia.org/resource/Victoria_(Australia)>,ns1:marRecordHighC,"44.4"
+<http://dbpedia.org/resource/Victoria_(Australia)>,ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Expand_section>
+<http://dbpedia.org/resource/Victoria_(Australia)>,foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg>
+
+But wait, the user's input shows that "wikiPageUsesTemplate" has a value of "<http://dbpedia.org/resource/Template:Expand_section>", which is a URI, so in the CSV, that should be written as <http://...> without quotes. The "Object" column should have the exact value as in the input.
+
+However, in the input, the "wikiPageUsesTemplate" line is written as:
+
+    ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:Expand_section> .
+
+So in the CSV, the Object would be <http://dbpedia.org/resource/Template:Expand_section>, and similarly for the foaf:depiction.
+
+But in the user's input, the "wikiPageUsesTemplate" line is written with the URI in angle brackets, so the Object is the URI. Therefore, in the CSV, the Object field should have the URI without quotes unless it's a literal.
+
+But in the case of the numerical values, like "48.8", they are in quotes, which suggests that they are literals. So the CSV should have the Object as "48.8" (quoted) for literals and <http://...> (without quotes) for URIs.
+
+Therefore, the CSV would be structured with three columns: Subject, Predicate, Object. Each row is a triple, with the Object being either a quoted literal or an unquoted URI.
+
+Now, I need to go through each line of the input and extract the Subject, Predicate, and Object.
+
+For example, the first line is:
+
+<http://dbpedia.org/resource/Victoria_(Australia)> ns1:febRecordHighC "48.8" .
+
+So the Subject is <http://dbpedia.org/resource/Victoria_(Australia)>, the Predicate is ns1:febRecordHighC, and the Object is "48.8".
+
+Another line:
+
+<http://dbpedia.org/resource/Victoria_(Australia)> ns1:marRecordHighC "44.4" .
+
+So same subject, different predicate, object "44.4".
+
+Then:
+
+<http://dbpedia.org/resource/Victoria_(Australia)> ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:Expand_section> .
+
+Here, the Object is a URI, so it's <http://...> without quotes.
+
+Similarly, the foaf:depiction line has the Object as <http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg>.
+
+So, the CSV would have these as separate rows.
+
+Now, the user also provided other triples, like:
+
+<http://dbpedia.org/resource/Victoria_(Australia)> ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:Expand_section> .
+
+But also, other resources have their own triples. For example, the line:
+
+<http://dbpedia.org/resource/Victoria_(Australia)> ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:Expand_section> .
+
+But the user's input includes many other triples, like:
+
+<http://dbpedia.org/resource/Victoria_(Australia)> ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:Expand_section> .
+
+And then other entries like:
+
+<http://dbpedia.org/resource/Victoria_(Australia)> ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:Expand_section> .
+
+Wait, looking at the input, the user's data has multiple lines. For example, the first few lines are:
+
+<http://dbpedia.org/resource/Victoria_(Australia)> ns1:febRecordHighC "48.8" ;
+    ns1:marRecordHighC "44.4" ;
+    ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:Expand_section> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg> .
+
+But then the rest of the data is individual triples. For example:
+
+<http://dbpedia.org/resource/Victoria_(Australia)> ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:Expand_section> .
+<http://dbpedia.org/resource/Victoria_(Australia)> foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg> .
+
+Wait, actually, the input provided by the user is a mix of lines. The user's input is a Turtle file, which uses semicolons and periods to separate statements. So the first line after the subject is a series of properties connected with semicolons, and the last one ends with a period.
+
+But the rest of the input is individual triples, each ending with a period.
+
+So the user's input has:
+
+For the subject <http://dbpedia.org/resource/Victoria_(Australia)>:
+
+ns1:febRecordHighC "48.8" ;
+ns1:marRecordHighC "44.4" ;
+ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:Expand_section> ;
+foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg> .
+
+But then there are other lines like:
+
+<http://dbpedia.org/resource/Victoria_(Australia)> ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:Expand_section> .
+<http://dbpedia.org/resource/Victoria_(Australia)> foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg> .
+
+Wait, but in the input, the user might have repeated the same triples. For example, the first block has the same properties as the subsequent lines. So, in the CSV, we need to ensure that each unique triple is included once.
+
+But since the user's input is a Turtle file, the semicolon is used to continue the subject's properties. So the first block is a single subject with multiple properties. The subsequent lines are other triples, possibly with the same subject.
+
+Therefore, the CSV should include all the triples, even if they are repeated. But in reality, in RDF, each triple is unique, so duplicates might not be present. However, the user's input might have duplicates due to the way the Turtle is structured.
+
+But assuming that the input is correct, we need to process all the triples.
+
+So, the CSV would have each line as:
+
+Subject,Predicate,Object
+
+For each triple.
+
+Now, the user's example includes a line where the object is a literal with quotes, like "48.8", and other objects are URIs in angle brackets.
+
+So, in the CSV, the Object column would have:
+
+- For literals: "48.8"
+- For URIs: <http://...>
+
+But in CSV, if the Object is a URI, it's written as is, without quotes. However, if the object is a literal (like a string), it's enclosed in quotes.
+
+But in the input, the user's data has "48.8" as a literal, so in the CSV, it should be "48.8" (with quotes), and the URIs are written without quotes.
+
+Therefore, the CSV would look like:
+
+Subject,Predicate,Object
+<http://dbpedia.org/resource/Victoria_(Australia)>,ns1:febRecordHighC,"48.8"
+<http://dbpedia.org/resource/Victoria_(Australia)>,ns1:marRecordHighC,"44.4"
+<http://dbpedia.org/resource/Victoria_(Australia)>,ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Expand_section>
+<http://dbpedia.org/resource/Victoria_(Australia)>,foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg>
+
+But the user's input also includes other triples, such as:
+
+<http://dbpedia.org/resource/Victoria_(Australia)> ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:Expand_section> .
+<http://dbpedia.org/resource/Victoria_(Australia)> foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg> .
+
+Wait, but in the initial block, the same properties are already listed. So maybe the user's input has duplicates. But in reality, each triple should be unique. However, for the purpose of generating the CSV, I'll include all the triples as they are.
+
+Therefore, the final CSV would have all these lines, with each triple as a separate row.
+</think>
+
+Subject,Predicate,Object
+<http://dbpedia.org/resource/Victoria_(Australia)>,ns1:febRecordHighC,"48.8"
+<http://dbpedia.org/resource/Victoria_(Australia)>,ns1:marRecordHighC,"44.4"
+<http://dbpedia.org/resource/Victoria_(Australia)>,ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Expand_section>
+<http://dbpedia.org/resource/Victoria_(Australia)>,foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg>
+<http://dbpedia.org/resource/Victoria_(Australia)>_ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Expand_section>
+<http://dbpedia.org/resource/Victoria_(Australia)>_foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg>

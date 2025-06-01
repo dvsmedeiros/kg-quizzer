@@ -1,0 +1,38 @@
+<think>
+Okay, let me try to figure this out. The user wants me to generate a quiz with 10 question-answer pairs based on the given context about the IPCC. They provided an example in CSV format, so I need to follow that structure.
+
+First, I should read through the context carefully to identify key facts that can be turned into questions. The context mentions the history, structure, and recent reports of the IPCC. Each fact can probably form a question.
+
+I'll start by listing out important points: who created the IPCC, when it was established, its main organizations, membership details, functions, types of reports, notable awards, recent publications, and upcoming events.
+
+Now, I need to create questions that are clear and concise, each with a short answer. I should ensure variety in topics—like origins, structure, functions, notable achievements, etc.—to cover different aspects of the context.
+
+Let me try to formulate 10 pairs:
+
+1. When was the IPCC established? The answer would be 1988.
+2. Which organizations created the IPCC? WMO and UNEP.
+3. How many member states are there now? It's 195.
+4. What happens every six years? The cycle refers to reports.
+5. Who reviews the publications? Thousands of scientists.
+6. What led to its creation? Endorsement by UN in 1989.
+7. Who leads IPCC assessments? Bureau of experts via assessment cycles.
+8. What does the IPCC not do? Conduct original research.
+9. Which report was influential in 2015? The Paris Agreement.
+10. When will the sixth assessment conclude? March 2023.
+
+I think these cover the necessary points and are each answerable with a short phrase. Now, I'll format them into a CSV as per the instructions, making sure to separate each pair with a semicolon.
+</think>
+
+```csv
+pergunta;resposta
+O IPCC foi criado em qual ano?;1988
+Qual organizingação(s) criou o IPCC?;World Meteorological Organization (WMO) e United Nations Environment Programme (UNEP)
+Quantos Estados Unidos são membro do IPCC atualmente?;195
+A cada quantas anos o IPCC produz um relatório principal?;6 a 7 anos
+Que tipo de trabalho faz os cientistas envolvidos no IPCC?;Ler e revisar publicações científicas
+O IPOC é endorso por qual órgão global em 1989?;O órgão da United Nations
+Quais órgãos regem os assessments do IPCC através de cycles?;uma burauschovy de cientistas
+O IPCC não realiza Pesquisa original. correto ou errado?;Correto, não realize Pesquisa original
+Em qual ano a Acordação de Paris foi influenciada pelo Relatório IPCC V em 2015?;2015
+Quando o Relatório do IPSG6 ( assessments VI ) concluirá?; março de 2023
+```

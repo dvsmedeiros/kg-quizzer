@@ -1,0 +1,37 @@
+<think>
+Okay, I need to generate 10 question-answer pairs about the IPCC in Portuguese, following the given format and context. Let's start by reading through the provided information carefully.
+
+First, the user shared an abstract about the IPCC, which mentions it was established in 1988 by UNEP and WMO as part of the UN. It has a secretariat in Geneva and member states. The abstract also talks about assessment reports, Nobel Peace Prize, and key figures like Hoesung Lee.
+
+Looking at the RDF data, there are triples about people associated with IPCC, such as Bert Bolin, Rajendra Pachauri, etc., and details about the organization's structure and achievements.
+
+I should create varied questions covering different aspects: origins, structure, leadership, reports, international relations, and key events. Each question needs a unique correct answer from the context.
+
+1. **Pergunta sobre a origem do IPCC**: From the abstract, it was established in 1988 by UNEP and WMO as part of the UN.
+2. **Pergunta sobre sedes**: The secretariat is in Geneva, Switzerland.
+3. **Língua oficial**: The abstract mentions English as the working language.
+4. **Primeiro presidente**: Bert Bolin is mentioned as the first chair.
+5. **País do atual presidente**: Hoesung Lee is Korean.
+6. **Vice-presidente atual**: Ismail El Gizouli, according to the RDF data.
+7. **Relatório importante de 2018**: The Special Report on Global Warming of 1.5°C.
+8. **Tratado climático da ONU**: The UNFCCC is mentioned as part of climate negotiations.
+9. **Premiação do IPCC**: Nobel Peace Prize in 2007 with Al Gore.
+10. **Data de renúncia de Pachauri**: February 2015.
+
+I must ensure each question is unique and covers different areas without repetition. Now, I'll format them into CSV as specified.
+</think>
+
+```csv
+pergunta;resposta
+De que organização o IPCC faz parte?;as Nações Unidas
+Quais organizações estabeleceram o IPCC?;a Organização Meteorológica Mundial (OMM) e o Programa das Nações Unidas para o Meio Ambiente (PNUMA)
+Onde está sediado o IPCC?;em Genebra, Suíça
+Qual é a língua oficial do trabalho do IPCC?;o inglês
+Quem foi o primeiro presidente do IPCC?;Bert Bolin
+Qual nacionalidade tem Hoesung Lee?;coreano
+Quem é atualmente o vice-presidente do IPCC?;Ismail El Gizouli
+Qual foi um relatório importante lançado pelo IPCC em 2018?;O Relatório Especial sobre aquecimento global de 1,5 °C
+Que tratado climático é mencionado no contexto da ONU?;A Convenção-Quadro das Nações Unidas sobre Mudança do Clima (UNFCCC)
+Qual premiação importante o IPCC recebeu?;O Prêmio Nobel da Paz em 2007, junto com Al Gore
+Quando Rajendra Pachauri renunciou ao cargo de presidente do IPCC?;em fevereiro de 2015
+```

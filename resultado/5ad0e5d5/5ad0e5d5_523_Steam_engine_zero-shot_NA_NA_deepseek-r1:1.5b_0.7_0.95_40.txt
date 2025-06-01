@@ -1,0 +1,73 @@
+<think>
+Okay, let me try to figure out how to approach this task. The user wants a generator of evaluation questions based on semantical knowledge. They provided an example format for the output and some context about steam engines. 
+
+First, I need to understand what exactly is required. The goal is to create 10 pairs where each pair consists of a question and its corresponding correct answer. Each answer should be concise, up to ten words. The language must be Portuguese.
+
+Looking at the provided example, it's structured as "pergunta;resposta" with each on a separate line, ending in a CSV format. So I need to replicate this structure for 10 questions and answers.
+
+Now, considering the context about steam engines, I should focus on topics related to internal combustion engines, reciprocating engines, their history, types of turbines, and perhaps some operational aspects like power output or efficiency.
+
+I'll brainstorm a few key points:
+
+1. What is a steam engine? (Question)
+   - Resposta: O engajamento é uma Engineira do tipo piston, que utiliza o pressão de limna para executar o movimento reciprocado.
+
+2. Types of engines in internal combustion cycle:
+   - Resposta: As Engines principais são os Engines reciprocais, os quaternários e os hidrónimos.
+
+3. How does a steam engine differ from a gas turbine? (Question)
+   - Resposta: O engajamento reciprocativo é principalmente utilizado por Engines com fluidos internos, como o hidrónimo. Por outro lado, as turbinas são usadas para generate power no cosso rotário.
+
+4. What is the difference between internal combustion and external engines? (Question)
+   - Resposta: O engajamento reciprocativo é mainly used for internal combustion engines, while external engines use steam or compressed air.
+
+5. How does a steam engine handle atmospheric pressure? (Question)
+   - Resposta: O engajamento piston é suportado por uma pressão superior, que age em againstar oPressão atmómerica.
+
+6. What is the purpose of a turbine in power generation? (Question)
+   - Resposta: Turbinas são principais fontes de power para power generation e electricidade, usando flujos de rotatingos para geração de energy.
+
+7. How does a reciprocating engine function in industrial use? (Question)
+   - Resposta: Em induúces, o engajamento piston é principalmente utilizado por Engines reciprocais e pistonas, como os locomotivos e os portais de engajamento.
+
+8. What makes a steam engine efficient? (Question)
+   - Resposta: A eficiência principa é feita pelo tempo de geração do power e o potencial de energy.
+
+9. How does a steam engine generate mechanical work? (Question)
+   - Resposta: O engajamento piston é suportado por uma pressão superior, que age em againstar a pressão atmospherica.
+
+10. What is the difference between internal combustion and external engines in terms of fluid type? (Question)
+    - Resposta: Internal combustion engines use internal fluids, while external engines may use steam or compressed air.
+
+I need to make sure each response is under ten words, concise, and related directly to the provided context. Also, ensuring that the responses are accurate and fit within the scope of an evaluation question generator based on semantical knowledge.
+</think>
+
+pergunta;resposta
+O engajamento é uma Engineira do tipo piston, que utiliza o pressão de limna para executar o movimento reciprocado.
+
+pergunta;resposta
+As Engines principais são os engines reciprocais, os quaternários e os hidrónimos.
+
+pergunta;resposta
+O engajamento reciprocativo é principalmente utilizado por engines com fluidos internos, como o hidrónimo. Por outro lado, as turbinas são usadas para generate power no cosso rotário.
+
+pergunta;resposta
+Em induúces, o engajamento piston é principalmente utilizado por Engines reciprocais e pistonas, como os locomotivos e os portais de engajamento.
+
+pergunta;resposta
+O engajamento piston é suportado por uma pressão superior, que age em againstar a pressão atmospherica.
+
+pergunta;resposta
+Em induúces, o engajamento piston é principalmente utilizado por engines reciprocais e pistonas, como os locomotivos e os portais de engajamento.
+
+pergunta;resposta
+A eficiência principa é feita pelo tempo de geração do power e o potencial de energy.
+
+pergunta;resposta
+O engajamento reciprocativo é feito por Engines com fluidos internos, como o hidrónimo. Por outro lado, as turbinas são usadas para generate power no cosso rotário.
+
+pergunta;resposta
+Em induúces, o engajamento piston é principalmente utilizado por engines reciprocais e pistonas, como os locomotivos e os portais de engajamento.
+
+pergunta;resposta
+O engajamento piston é suportado por uma pressão superior, que age em againstar a pressão atmospherica.

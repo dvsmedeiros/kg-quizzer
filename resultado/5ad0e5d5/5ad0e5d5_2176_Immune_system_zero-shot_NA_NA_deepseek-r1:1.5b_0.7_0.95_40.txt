@@ -1,0 +1,59 @@
+<think>
+Okay, let me try to figure out how to approach this task. So, I'm supposed to act as a gerator for assessment questions based on semantical knowledge. The user provided an example of such a CSV output with 10 question-resposta pairs in Portuguese.
+
+First, I need to understand the context. The immune system is discussed, with various subsystems and mechanisms. The goal is to create 10 relevant questions that test understanding of this topic and have concise answers.
+
+I should think about key points in immunology that are both fundamental and advanced. That way, I can differentiate between different levels of knowledge. For example, simple questions about the basics like what immunity consists of, while more complex ones might involve acquired immunity or specific diseases.
+
+Let me list out potential topics:
+
+1. What is the immune system?
+2. How does the immune system function?
+3. Differentiate between innate and adaptive immunity.
+4. Describe adaptive immunity in detail.
+5. Examples of adaptive versus non-adaptive immune responses.
+6. The role of phagocytosis in immune defense.
+7. Defensins and how they work.
+8. What is a complement system?
+9. Autoimmune diseases: what causes them?
+10. Common immunodeficiencies.
+
+Now, I'll think about each question to ensure it's relevant and the answer is concise (up to 10 words).
+
+For example:
+
+Pergunta 1 could be "What does the immune system consist of?" with a response like "The immune system includes various biological processes that protect organisms from diseases."
+
+Pergunta 2 might be more general: "How does the immune system function?" with a simple answer.
+
+I need to make sure each question clearly assesses understanding and that the responses accurately reflect the information provided in the context. Also, I'll structure them in a CSV format as specified.
+</think>
+
+pergunta;resposta
+The immune system consists of various biological processes that protect organisms from diseases.
+How does the immune system function?
+The immune system includes various biological processes that protect organisms from diseases.
+Adaptive immunity provides tailored responses to each stimulus by learning to recognize molecules previously encountered.
+Adapted (or acquired) immunity leads to an immunological memory, enhancing future responses.
+
+pergunta;resposta
+Adapted immunity creates an immunological memory leading to an enhanced response to subsequent encounters with the same pathogen.
+Adapted immunity is crucial for preventing diseases caused by the human virus HIV.
+
+pergunta;resposta
+The immune system works through various pathways, including enzymes that protect against viruses and mechanisms like phagocytosis.
+
+pergunta;resposta
+Immune responses can be adaptive or non-adaptive. Adaptive responses are specific to previous encounters, while non-adaptive respond broadly.
+
+Pergunta 5: "What is the role of phagocytosis in immune defense?" with "Phagocytosis allows immune cells to engulf and destroy pathogens."
+
+Pergunta 6: "Defensins are molecules that bind to what?" with "They bind to antigens or pathogens to activate immune responses."
+
+Pergunta 7: "What's the function of the complement system?" with "The complement system protects against specific antigens by depleting functional cells."
+
+Pergunta 8: "Autoimmune diseases result from an" with "excessive activation of immune responses that attack normal tissues as if they were foreign objects."
+
+Pergunta 9: "Severe combined immunodeficiency (SCID) is due to" with "genetic disease affecting multiple components of the immune system, leading to dysfunction and life-threatening reactions."
+
+Pergunta 10: "What causes an immunodeficiency?" with "Reduced activity or failure in recognizing immune threats, resulting in recurring infections."

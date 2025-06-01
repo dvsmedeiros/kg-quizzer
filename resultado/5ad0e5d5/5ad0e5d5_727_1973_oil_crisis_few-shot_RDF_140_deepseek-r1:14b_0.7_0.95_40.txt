@@ -1,0 +1,74 @@
+<think>
+Okay, so I need to generate 10 question-response pairs in CSV format about the 1973 oil crisis based on the provided context and triples. Let me start by carefully reading through the instructions again to make sure I understand what's required.
+
+First, each line in the CSV should have a question followed by a semicolon and then the correct answer. The language has to be Portuguese, and each response should be concise, up to 10 words. Also, no repeating similar questions, and ensure that all answers are directly from or logically inferred from the given context.
+
+Looking at the example provided, it seems like the assistant used the abstract and facts to create varied questions covering different aspects of the crisis: when it started, who was involved, reasons behind actions, economic impacts, etc. I should aim for a similar variety in my questions.
+
+Now, let's look at the context:
+
+The 1973 oil crisis began in October 1973 when OAPEC members led by Saudi Arabia declared an oil embargo targeting nations supporting Israel during the Yom Kippur War. The targeted countries were Canada, Japan, the UK, Netherlands, and the US, later extending to Portugal, Rhodesia, and South Africa. By March 1974, oil prices had risen nearly 300%, reaching almost $12 per barrel globally, with higher prices in the US. This crisis had significant effects on global politics and economy and was followed by the 1979 crisis.
+
+From this, I can extract several key points:
+
+- Start date: October 1973
+- Who declared the embargo: OAPEC members led by Saudi Arabia
+- Target countries: Canada, Japan, UK, Netherlands, US, later Portugal, Rhodesia, South Africa
+- Reasons for embargo: Support for Israel in Yom Kippur War
+- Oil price increase: From $3 to nearly $12 per barrel (over 300%)
+- Duration of embargo: Until March 1974
+- Effects: Global economic and political impact
+- Follow-up crisis: 1979 oil crisis, termed the second oil shock
+
+Now, I'll try to create varied questions based on these points.
+
+1. When did the 1973 oil crisis begin? – October 1973.
+2. Who declared the oil embargo in 1973? – OAPEC members led by Saudi Arabia.
+3. Which countries were targeted by the embargo initially? – Canada, Japan, UK, Netherlands, US.
+4. Why was the embargo imposed? – To punish nations supporting Israel during Yom Kippur War.
+5. What caused oil prices to rise sharply? – The embargo leading to a 300% increase.
+6. When did the embargo end? – March 1974.
+7. How much did global oil prices increase by the end of the embargo? – Nearly US$12 per barrel.
+8. What was another name for the 1973 crisis? – First oil shock or first oil crisis.
+9. Which future event is referred to as the second oil shock? – The 1979 oil crisis.
+10. What impact did the embargo have on global politics and economy? – Significant effects, economic disruption.
+
+Wait, the last question might be too vague. Let me make it more specific, perhaps asking about how countries reacted or what measures were taken by Nixon's government, as in the example provided.
+
+Alternatively, I can ask about the price increase specifically for the US since the example mentions that US prices were higher.
+
+But let me check: the context says "US prices were significantly higher," but doesn't specify exactly how much. So perhaps a better question would be about when the US saw a significant increase in oil prices, or what effect it had on them.
+
+Alternatively, another angle could be about the countries that extended the embargo beyond the initial targets.
+
+Wait, let me see if I can make more varied questions covering different aspects like the impact on other regions, economic policies adopted, etc. But since the context is limited, I have to stick to what's provided.
+
+Let me also ensure that all the important dates are covered: October 1973 start, March 1974 end, and mention of 1979 as the second crisis.
+
+I should structure each question to target a specific fact without overlapping too much with others. For example:
+
+- One about causes (embargo declaration)
+- One about targets
+- One about timing
+- One about economic impact (price increase)
+- One about consequences
+- One about related events (second oil shock)
+
+Yes, that covers the main points.
+
+Now, I think I have enough to draft 10 unique questions and their corresponding answers in Portuguese. Let me proceed to write them out in CSV format, ensuring each line is correct and properly separated by semicolons.
+</think>
+
+```csv
+pergunta;resposta
+Quando começou a crise do petróleo de 1973?;outubro de 1973,
+Quem declarou o embargo do petróleo em 1973?;membros da Organização dos Países Exportadores de Petróleo Árabes (OAPEC), liderados pela Arábia Saudita
+Qual foi a primeira República Federativa Russa a impor sanções econômicas no exterior?;Rússia
+Quais países foram inicialmente afetados pelo embargo?;Canadá, Japão, Reino Unido, Holanda e Estados Unidos
+Por que o embargo foi imposto?;para punir os países que apoiaram Israel durante a Guerra do Yom Kippur
+Qual foi a consequência principal do embargo sobre os preços do petróleo?;aumento de quase 300%, com o preço global subindo para quase US$12 por barril
+Quando terminou o embargo?;março de 1974
+Qual outro nome é dado à crise petrolífera de 1973?;primeiro choque do petróleo ou primeira crise do petróleo
+Qual foi a consequência política principal do embargo?;deslocamento no equilíbrio político global
+O que aconteceu com os preços do petróleo nos Estados Unidos?;subiram significativamente, além dos US$12 por barril globais
+```

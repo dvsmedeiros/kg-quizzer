@@ -1,0 +1,43 @@
+<think>
+Okay, so I need to generate a quiz based on the given context about the IPCC. The user wants 10 question-answer pairs in Portuguese, formatted as CSV with semicolons separating each question and answer.
+
+First, I'll read through the context carefully to identify key points that can form questions. Let's list out the main facts:
+
+1. The IPCC is part of the United Nations.
+2. It was established by WMO and UNEP in 1988.
+3. It has a secretariat in Geneva hosted by WMO.
+4. There are 195 member states.
+5. An assessment cycle lasts about six to seven years.
+6. The IPCC doesn't do original research; it compiles existing literature.
+7. Thousands of scientists volunteer as reviewers.
+8. The Fifth Assessment Report influenced the Paris Agreement in 2015.
+9. The Sixth Assessment began in 2015 and will conclude in 2023.
+10. They released special reports on global warming, climate change and land, and ocean/cryosphere.
+
+Now, I'll form questions around these points. Each question should be clear and specific enough to have a short answer, preferably one word or a short phrase.
+
+For example:
+- When was the IPCC established? Answer: 1988.
+- Where is the secretariat located? Geneva, Switzerland.
+- How many member states are there? 195.
+- What's the duration of an assessment cycle? Six to seven years.
+- Does IPCC do original research? No.
+
+I need to make sure each question has a clear and concise answer. I'll also vary the structure of questions to include different types, like 'how many', 'where', 'when', etc., to keep it interesting.
+
+Once I have all 10 questions, I'll translate them into Portuguese, ensuring correct grammar and terminology. Then, format them as CSV with semicolons separating each question and answer.
+</think>
+
+```
+pergunta;resposta
+Quando foi criado o IPCC?;1988
+Quantos Estados-membros tem o IPCC?;195
+Qual é a sede do secretariado do IPCC?;Genebra, Suíça
+De quantos anos dura um ciclo de avaliação do IPCC?;Seis a sete anos
+O IPCC realiza pesquisa original?;Não
+Quem endossou os achados do IPCC em 2007?;Cientistas e governos membros
+Qual foi o impacto principal do Quinto Relatório de Avaliação?;Acordo de Paris de 2015
+Quando começou o sexto ciclo de avaliação?;2015
+Em que ano foi publicado o relatório especial sobre aquecimento global de 1,5°C?;2018
+Qual é a previsão para conclusão do Sexto Relatório de Avaliação?;Março de 2023
+```

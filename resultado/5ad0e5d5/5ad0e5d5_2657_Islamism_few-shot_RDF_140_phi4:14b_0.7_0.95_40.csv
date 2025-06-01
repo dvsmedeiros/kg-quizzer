@@ -1,0 +1,4 @@
+pergunta;resposta
+Para gerar um arquivo CSV a partir dos dados fornecidos; precisamos identificar as propriedades e os valores associados de cada entidade. Aqui está uma versão simplificada do formato esperado para o CSV com base nas informações fornecidas:
+- **Entity** representa a URL da entidade (por exemplo; `http://dbpedia.org/resource/Islamism`).
+- **Value** contém o valor atribuído para essa propriedade. Se o valor estiver ausente ou for uma string longa; ele pode ser colocado entre aspas.

@@ -1,0 +1,123 @@
+Com base nas instruções fornecidas, vou criar um arquivo CSV que contém os dados de estabelecimentos de ensino privados listados no trecho do código HTML fornecido anteriormente.
+
+### Análise dos Dados:
+1. **URL**: A URL é a primeira parte da linha e está na forma `http://dbpedia.org/resource/...`
+2. **Tipo Escola (Schooltype)**: Este é o tipo de estabelecimento escolar, que neste caso sempre é "Private_school".
+3. **Nome do Estabelecimento**: O nome do estabelecimento é extraído diretamente da URL após `http://dbpedia.org/resource/`.
+
+### Formato do CSV:
+- As linhas no CSV devem seguir o formato: `"url","schooltype","name"`
+
+Agora, vamos gerar as linhas para cada estabelecimento de ensino privado listado.
+
+```csv
+"url","schooltype","name"
+"http://dbpedia.org/resource/Bishop_Freissner_Institute","Private_school","Bishop Freissner Institute"
+"http://dbpedia.org/resource/Calvary_Christian_School_(Fort_Lauderdale)","Private_school","Calvary Christian School (Fort Lauderdale)"
+"http://dbpedia.org/resource/Catholic_High_School_for_Boys,_Karachi","Private_school","Catholic High School for Boys, Karachi"
+"http://dbpedia.org/resource/Central_Academy_of_Technology_and_the_Arts","Private_school","Central Academy of Technology and the Arts"
+"http://dbpedia.org/resource/Chaminade_High_School_(California)","Private_school","Chaminade High School (California)"
+"http://dbpedia.org/resource/College_Prep_School","Private_school","College Prep School"
+"http://dbpedia.org/resource/Columbus_Catholic_High_School_(Wisconsin)","Private_school","Columbus Catholic High School (Wisconsin)"
+"http://dbpedia.org/resource/Crescent_Ridge_Academy","Private_school","Crescent Ridge Academy"
+"http://dbpedia.org/resource/De_Fossette_Bilingual_School","Private_school","De Fossette Bilingual School"
+"http://dbpedia.org/resource/Delphi_Classical_Academy","Private_school","Delphi Classical Academy"
+"http://dbpedia.org/resource/Euclid_High_School_(Cleveland)","Private_school","Euclid High School (Cleveland)"
+"http://dbpedia.org/resource/Fairview_Christian_School","Private_school","Fairview Christian School"
+"http://dbpedia.org/resource/Greenwich_Academy","Private_school","Greenwich Academy"
+"http://dbpedia.org/resource/Hartwick_College_Law_Review","Private_school","Hartwick College Law Review"
+"http://dbpedia.org/resource/Howard_Hughes_Middle_School","Private_school","Howard Hughes Middle School"
+"http://dbpedia.org/resource/Irondale_Christian_School","Private_school","Irondale Christian School"
+"http://dbpedia.org/resource/Jacksonville_Catholic_High_School","Private_school","Jacksonville Catholic High School"
+"http://dbpedia.org/resource/Lee_Dean_Jones_Prep_School","Private_school","Lee Dean Jones Prep School"
+"http://dbpedia.org/resource/Longwood_Academy","Private_school","Longwood Academy"
+"http://dbpedia.org/resource/Marco_Island_Christian_School","Private_school","Marco Island Christian School"
+"http://dbpedia.org/resource/Mary_Burns_High_School","Private_school","Mary Burns High School"
+"http://dbpedia.org/resource/McDonogh_School","Private_school","McDonogh School"
+"http://dbpedia.org/resource/Medfield_Academy","Private_school","Medfield Academy"
+"http://dbpedia.org/resource/Minneapolis_Preparatory_High_School_for_Boys","Private_school","Minneapolis Preparatory High School for Boys"
+"http://dbpedia.org/resource/National_Catholic_University_of_Ecuador","Private_school","National Catholic University of Ecuador"
+"http://dbpedia.org/resource/New_Moravian_School","Private_school","New Moravian School"
+"http://dbpedia.org/resource/Ohio_Academy_of_Presbyterian_Ministers","Private_school","Ohio Academy of Presbyterian Ministers"
+"http://dbpedia.org/resource/Parkview_Christian_Academy_(Hickory,_North_Carolina)","Private_school","Parkview Christian Academy (Hickory, North Carolina)"
+"http://dbpedia.org/resource/Parowan_School","Private_school","Parowan School"
+"http://dbpedia.org/resource/Peninsula_Baptist_School","Private_school","Peninsula Baptist School"
+"http://dbpedia.org/resource/Richmond_Hill_Catholic_Schools","Private_school","Richmond Hill Catholic Schools"
+"http://dbpedia.org/resource/Robert_E._Lee_Middle_School","Private_school","Robert E. Lee Middle School"
+"http://dbpedia.org/resource/Saint_Andrew's_Christian_Academy","Private_school","Saint Andrew's Christian Academy"
+"http://dbpedia.org/resource/Saint_Francis_High_School_(Hawaii)","Private_school","Saint Francis High School (Hawaii)"
+"http://dbpedia.org/resource/Seaside_School","Private_school","Seaside School"
+"http://dbpedia.org/resource/St._Benedict's_Prep_School","Private_school","St. Benedict's Prep School"
+"http://dbpedia.org/resource/Swift_Hall_Academy","Private_school","Swift Hall Academy"
+"http://dbpedia.org/resource/Thomas_Mason_Preparatory_School","Private_school","Thomas Mason Preparatory School"
+"http://dbpedia.org/resource/Triumph_Academy_(Ohio)","Private_school","Triumph Academy (Ohio)"
+"http://dbpedia.org/resource/Vancouver_High_School_(Washington)","Private_school","Vancouver High School (Washington)"
+"http://dbpedia.org/resource/Walter_Sullivan_Middle_School","Private_school","Walter Sullivan Middle School"
+"http://dbpedia.org/resource/White_City_Public_School","Private_school","White City Public School"
+"http://dbpedia.org/resource/Boston_College_Carroll_Institute_for_Education","Private_school","Boston College Carroll Institute for Education"
+"http://dbpedia.org/resource/Catholic_Charity_High_School","Private_school","Catholic Charity High School"
+"http://dbpedia.org/resource/Chaminade_High_School_(Honolulu)","Private_school","Chaminade High School (Honolulu)"
+"http://dbpedia.org/resource/Dashrath_Mangaldas_Tarapore_Industrial_and_Trade_School","Private_school","Dashrath Mangaldas Tarapore Industrial and Trade School"
+"http://dbpedia.org/resource/De_La_Salle_Institute_(Chicago)","Private_school","De La Salle Institute (Chicago)"
+"http://dbpedia.org/resource/Greenwich_Academy","Private_school","Greenwich Academy"
+"http://dbpedia.org/resource/Holy_Heart_of_Mary_High_School","Private_school","Holy Heart of Mary High School"
+"http://dbpedia.org/resource/Illinois_Institute_of_Biology_and_Medicine","Private_school","Illinois Institute of Biology and Medicine"
+"http://dbpedia.org/resource/King_Charles_II_School","Private_school","King Charles II School"
+"http://dbpedia.org/resource/La_Salle_Academy_(Chicago)","Private_school","La Salle Academy (Chicago)"
+"http://dbpedia.org/resource/Manhattan_College_of_Biology_and_Medicine","Private_school","Manhattan College of Biology and Medicine"
+"http://dbpedia.org/resource/Montessori_International_School","Private_school","Montessori International School"
+"http://dbpedia.org/resource/Newton_Academy","Private_school","Newton Academy"
+"http://dbpedia.org/resource/Orange_County_Baptist_Academy","Private_school","Orange County Baptist Academy"
+"http://dbpedia.org/resource/Peninsula_Baptist_School","Private_school","Peninsula Baptist School"
+"http://dbpedia.org/resource/Rosary_High_School_(Los_Angeles)","Private_school","Rosary High School (Los Angeles)"
+"http://dbpedia.org/resource/Saint_Andrew's_Catholic_High_School","Private_school","Saint Andrew's Catholic High School"
+"http://dbpedia.org/resource/Saint_John_the_Theologian_Gymnasium_and_Lycée","Private_school","Saint John the Theologian Gymnasium and Lycée"
+"http://dbpedia.org/resource/Scarborough_Day_School","Private_school","Scarborough Day School"
+"http://dbpedia.org/resource/St._Andrew's_Schools","Private_school","St. Andrew's Schools"
+"http://dbpedia.org/resource/St._Georges_Academy_and_Seminary","Private_school","St. Georges Academy and Seminary"
+"http://dbpedia.org/resource/St._Joseph_High_School_(Denver,_Colorado)","Private_school","St. Joseph High School (Denver, Colorado)"
+"http://dbpedia.org/resource/St._Paul's_English_High_School","Private_school","St. Paul's English High School"
+"http://dbpedia.org/resource/Sweet_Briar_College","Private_school","Sweet Briar College"
+"http://dbpedia.org/resource/Trinity_University_(San_Antonio)","Private_school","Trinity University (San Antonio)"
+"http://dbpedia.org/resource/Wesford","Private_school","Wesford"
+"http://dbpedia.org/resource/Boston_College_Carroll_Institute_for_Education","Private_school","Boston College Carroll Institute for Education"
+"http://dbpedia.org/resource/Catholic_Charity_High_School","Private_school","Catholic Charity High School"
+"http://dbpedia.org/resource/Chaminade_High_School_(Honolulu)","Private_school","Chaminade High School (Honolulu)"
+"http://dbpedia.org/resource/Dashrath_Mangaldas_Tarapore_Industrial_and_Trade_School","Private_school","Dashrath Mangaldas Tarapore Industrial and Trade School"
+"http://dbpedia.org/resource/De_La_Salle_Institute_(Chicago)","Private_school","De La Salle Institute (Chicago)"
+"http://dbpedia.org/resource/Greenwich_Academy","Private_school","Greenwich Academy"
+"http://dbpedia.org/resource/Holy_Heart_of_Mary_High_School","Private_school","Holy Heart of Mary High School"
+"http://dbpedia.org/resource/Illinois_Institute_of_Biology_and_Medicine","Private_school","Illinois Institute of Biology and Medicine"
+"http://dbpedia.org/resource/King_Charles_II_School","Private_school","King Charles II School"
+"http://dbpedia.org/resource/La_Salle_Academy_(Chicago)","Private_school","La Salle Academy (Chicago)"
+"http://dbpedia.org/resource/Manhattan_College_of_Biology_and_Medicine","Private_school","Manhattan College of Biology and Medicine"
+"http://dbpedia.org/resource/Montessori_International_School","Private_school","Montessori International School"
+"http://dbpedia.org/resource/Newton_Academy","Private_school","Newton Academy"
+"http://dbpedia.org/resource/Orange_County_Baptist_Academy","Private_school","Orange County Baptist Academy"
+"http://dbpedia.org/resource/Peninsula_Baptist_School","Private_school","Peninsula Baptist School"
+"http://dbpedia.org/resource/Rosary_High_School_(Los_Angeles)","Private_school","Rosary High School (Los Angeles)"
+"http://dbpedia.org/resource/Saint_Andrew's_Catholic_High_School","Private_school","Saint Andrew's Catholic High School"
+"http://dbpedia.org/resource/Saint_John_the_Theologian_Gymnasium_and_Lycée","Private_school","Saint John the Theologian Gymnasium and Lycée"
+"http://dbpedia.org/resource/Scarborough_Day_School","Private_school","Scarborough Day School"
+"http://dbpedia.org/resource/St._Andrew's_Schools","Private_school","St. Andrew's Schools"
+"http://dbpedia.org/resource/St._Georges_Academy_and_Seminary","Private_school","St. Georges Academy and Seminary"
+"http://dbpedia.org/resource/St._Joseph_High_School_(Denver,_Colorado)","Private_school","St. Joseph High School (Denver, Colorado)"
+"http://dbpedia.org/resource/Trinity_University_(San_Antonio)","Private_school","Trinity University (San Antonio)"
+"http://dbpedia.org/resource/Wesford","Private_school","Wesford"
+```
+
+### Observações:
+- Algumas escolas são repetidas no texto fornecido, mas elas foram incluídas no CSV como registros separados.
+- As linhas contêm as URLs, o tipo de estabelecimento (private school) e o nome do estabelecimento.
+
+Caso seja necessário remover duplicatas ou ajustar algum aspecto específico do arquivo CSV, por favor me avise! 
+
+```csv
+"url","schooltype","name"
+"http://dbpedia.org/resource/Bishop_Freissner_Institute","Private_school","Bishop Freissner Institute"
+"http://dbpedia.org/resource/Calvary_Christian_School_(Fort_Lauderdale)","Private_school","Calvary Christian School (Fort Lauderdale)"
+"http://dbpedia.org/resource/Catholic_High_School_for_Boys,_Karachi","Private_school","Catholic High School for Boys, Karachi"
+...
+``` 
+
+Este é o CSV gerado com base nos dados fornecidos. Obrigado! Se precisar de mais alguma coisa, estou à disposição.

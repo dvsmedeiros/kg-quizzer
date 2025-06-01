@@ -1,0 +1,18 @@
+Para gerar um arquivo CSV baseado nas informações fornecidas, precisamos extrair as propriedades principais das entidades identificadas no texto JSON-LD. Vou separar essas propriedades em colunas do formato necessários para o CSV.
+
+Aqui está a estrutura de como as informações serão formatadas:
+
+```csv
+"@context", "http://schema.org", "@type", "Organization", "name", "Harvard University", "disambiguatingIdentifier", "http://dbpedia.org/resource/Harvard_University", "alternateName", "", "url", "http://dbpedia.org/resource/Harvard_University", "addressLocality", "Cambridge", "addressRegion", "MA", "addressCountry", "USA", "@type", "Private_university", "sportingAffiliations", [
+    {
+        "@type": "SchoolSportingAffiliation",
+        "affiliatedSchool": "NCAA_Division_I"
+    }
+]
+```
+
+Observação: O JSON-LD informa que a Harvard University é uma universidade privada, mas não fornece mais detalhes específicos sobre o seu tipo ou outras propriedades. Para fins de exemplo, considerei apenas algumas informações relevantes.
+
+O campo `sportingAffiliations` foi extraído como um exemplo de relação associativa entre a entidade e outro objeto relacionado (NCAA Division I), que é uma afiliação esportiva.
+
+Por favor, note que este formato pode não ser suficiente para todos os contextos ou outras propriedades potenciais na sua aplicação. Se houver mais informações específicas ou diferentes formatos de dados desejados, será necessário ajustar o CSV conforme necessário.

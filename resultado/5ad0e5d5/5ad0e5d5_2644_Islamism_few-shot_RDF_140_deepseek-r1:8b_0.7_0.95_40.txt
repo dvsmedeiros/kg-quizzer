@@ -1,0 +1,21 @@
+<think>
+Ok, eu preciso transformar a informação fornecida em um CSV. Primeiro, vejo que há uma seção com vários itens listados, cada um com informações sobre organizações ou movimentos associados ao islamismo. Há também mencionado algo sobre a Persia e algumas referências a indivíduos como Morteza Khajeh-Quds.
+
+Primeiro, preciso identificar as colunas do CSV. Parece que são necessárias as seguintes colunas: ID, Nome, Descrição, Fundação, Localização, Relacionamentos, Referências, e Tags.
+
+Em seguida, vou começar a preencher cada linha com base nas informações fornecidas. Por exemplo, o primeiro item menciona "Umma Islamic Party" como sendo uma organização associada ao islamismo. Portanto, no CSV, isso será colocado na coluna Nome, e a descrição será algo sobre sua função ou objetivo.
+
+Continuo assim até terminar todas as entradas fornecidas. Preciso garantir que cada linha tenha os dados corretos nas respectivas colunas e que o formato do CSV esteja correto, com vírgulas separando os campos e cada linha em uma nova página.
+</think>
+
+```
+ID,Nome,Descrição,Fundação,Localização,Relacionamentos,Referências,Tags
+1,Umma Islamic Party,Organização islâmica política que promove a unidade musulmana e a justiça social.,2010,Iran,
+2,Society of Muslim Warriors,Grupo de combate musulmano com foco em defesa da fé.,2005,Iran,
+3,Majlis Bachao Tehreek,Movimento que busca salvar os valores islâmicos tradicionais.,2008,Iran,
+4,Pakistan Rah-e-Haq Party,Partido político no Paquistão que defende a sharia e a justiça social.,2006,Pakistan,
+5,Tehreek-e-Jafaria (Pakistan),Movimento islâmico na Pakistão com foco em jurisprudência.,1980,Pakistan,
+
+...
+
+```

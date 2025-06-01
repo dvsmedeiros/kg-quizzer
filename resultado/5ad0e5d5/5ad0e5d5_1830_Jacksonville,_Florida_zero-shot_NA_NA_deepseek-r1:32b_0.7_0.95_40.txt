@@ -1,0 +1,29 @@
+<think>
+Okay, I'm trying to help the user by generating a quiz based on the given context about Jacksonville. Let me break down what they need.
+
+First, the user wants 10 question-answer pairs in Portuguese. The format should be CSV with each line having a question and answer separated by a semicolon. They also provided an example which is helpful to follow.
+
+Looking at the context, it's quite detailed about Jacksonville's location, population, history, economy, etc. I need to extract key points from this text to form questions that cover different aspects of the city.
+
+I'll start by identifying main topics: population stats, geographical features like rivers and beaches, historical facts such as founding year and notable figures, economic activities, military presence, and cultural aspects like nicknames for residents.
+
+For each topic, I'll formulate a question in Portuguese. Then, find the correct short answer from the context, ensuring it's concise (up to 10 words). It's important that the answers are accurate based on the provided information.
+
+I should also vary the types of questions—some factual, others about significance or order. For example, asking about population rank, military presence size, and economic sectors.
+
+After drafting all pairs, I'll make sure they're correctly formatted in CSV without any markdown, just plain text with semicolons as separators. Finally, double-checking for accuracy and clarity to ensure the quiz is both informative and easy to understand.
+</think>
+
+```
+pergunta;resposta
+Qual é a posição de Jacksonville em termos de população nos Estados Unidos?;12ª maior cidade
+Quanto habitantes tinha Jacksonville em 2020?;949.611 habitantes
+Em qual estado dos Estados Unidos está localizada Jacksonville?;Florida
+Qual rio corta Jacksonville?;Rio St. Johns
+Qual foi o nome original do local onde hoje está Jacksonville?;Wacca Pilatka
+Quando os Estados Unidos adquiriram a Flórida, no ano seguinte, Jacksonville foi estabelecida?;1822
+Qual presidente dos Estados Unidos deu nome à cidade de Jacksonville?;Andrew Jackson
+Qual é o principal porto marítimo de Jacksonville?;Port of Jacksonville
+Quantas pessoas vivem na área metropolitana de Jacksonville?;1.733.937 habitantes
+Quais são os apelidos para as pessoas de Jacksonville?;"Jacksonvillians" ou "Jaxsons"
+```

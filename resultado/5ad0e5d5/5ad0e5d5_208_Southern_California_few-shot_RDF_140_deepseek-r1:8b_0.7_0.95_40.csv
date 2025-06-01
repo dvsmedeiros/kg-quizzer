@@ -1,0 +1,11 @@
+pergunta;resposta
+Okay; I need to help the user convert the provided RDF data into a CSV format based on their instructions and rules. Let me start by understanding what they're asking for.
+I notice that each property in the RDF uses either `ns1` or `ns2` as the namespace prefix. For example; `ns1:areaTotal` and `ns2:name`. I'll need to map these to their respective headers in the CSV.
+Finally; I'll structure the CSV with headers followed by rows of data. Each row will represent a property and its corresponding value.
+I should also make sure that special characters like commas within the values are handled properly; perhaps by enclosing such fields in quotes.
+"ns1:areaTotal";"146347300000.0"
+"ns1:country";"United States"
+"ns2:areaTotalSqMi";"56505"
+"ns2:name";"Southern California"
+"ns2:seatType";"Largest city"
+Este CSV inclui todas as propriedades e valores extraídos da RDF original; organizados em ordem sequencial. Cada linha representa uma propriedade com seu respectivo valor.

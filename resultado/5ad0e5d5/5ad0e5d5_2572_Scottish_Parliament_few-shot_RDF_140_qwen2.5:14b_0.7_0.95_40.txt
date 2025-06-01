@@ -1,0 +1,32 @@
+Baseando-se na estrutura fornecida, vamos extrair os dados necessários para gerar um arquivo CSV com as colunas especificadas.
+
+### Estrutura do CSV
+
+| Legislativo | Data da Última Eleição | Partido Político | Comitês |
+|-------------|-------------------------|------------------|---------|
+| Scottish Parliament | 2021-05-06 | Scottish National Party | Europe and External Relations, Finance, Health and Sport, Justice, Local Government and Communities, Public Petitions, Rural Affairs and Environment |
+
+### Dados Extratos do RDF
+
+- **Legislativo:** `Scottish_Parliament`
+- **Data da Última Eleição:** `"2021-05-06"`
+- **Partido Político:** `Scottish National Party`
+- **Comitês:** `"Europe and External Relations", "Finance", "Health and Sport", "Justice", "Local Government and Communities", "Public Petitions", "Rural Affairs and Environment"`
+
+### Gerando o CSV
+
+Aqui está a representação do CSV baseado nos dados fornecidos:
+
+```csv
+Legislativo,Data da Última Eleição,Partido Político,Comitês
+Scottish Parliament,2021-05-06,Scottish National Party,"Europe and External Relations, Finance, Health and Sport, Justice, Local Government and Communities, Public Petitions, Rural Affairs and Environment"
+```
+
+### Explicação dos Campos
+
+- **Legislativo:** Nome do legislativo, que é `Scottish Parliament`.
+- **Data da Última Eleição:** A data mais recente de uma eleição para o legislativo, que é `"2021-05-06"`.
+- **Partido Político:** O partido político atualmente no poder, que é `Scottish National Party`.
+- **Comitês:** Uma lista de comitês ativos dentro do legislativo.
+
+Este arquivo CSV segue as instruções e regras fornecidas para criar uma tabela estruturada com os dados relevantes.

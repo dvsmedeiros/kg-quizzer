@@ -1,0 +1,32 @@
+pergunta;resposta
+Para gerar um arquivo CSV a partir das informações fornecidas; precisamos extrair dados relevantes dos trechos de texto e do RDF (Resource Description Framework) apresentado em formato Turtle. Vou focar nas partes que mencionam "Construction" e nos dados relacionados às empresas dentro dessa categoria.
+- A construção é uma indústria global com um valor de produção anual estimado em US $ 10 trilhões; representando mais de 6% do PIB mundial.
+O trecho RDF contém entradas relacionadas à indústria da construção; incluindo empresas classificadas sob o domínio "Construction". Aqui estão os dados relevantes:
+- O exemplo de uso do template e outros metadados não são diretamente úteis para este CSV; mas as informações sobre cada empresa na indústria da construção são necessárias.
+Nome da Empresa; URL
+2. **Altrad** - `<http://dbpedia.org/resource/Altrad>` (Nota: Esta empresa foi inferida como relevante através do contexto; embora não listada explicitamente no RDF fornecido)
+5. **Centenary Construction** - `<http://dbpedia.org/resource/Centenary_Construction>` (Nota: Esta empresa foi inferida como relevante através do contexto; embora não listada explicitamente no RDF fornecido)
+7. **Globus Corporation** - `<http://dbpedia.org/resource/Globus_Corporation>` (Nota: Esta empresa foi inferida como relevante através do contexto; embora não listada explicitamente no RDF fornecido)
+12. **Marubeni Corporation** - `<http://dbpedia.org/resource/Marubeni_Corporation>` (Nota: Esta empresa foi inferida como relevante através do contexto; embora não listada explicitamente no RDF fornecido)
+13. **Mitsui Fudosan Co.; Ltd.** - `<http://dbpedia.org/resource/Mitsui_Fudosan>`
+15. **Perini Building Company** - `<http://dbpedia.org/resource/Perini_Building_Company>` (Nota: Esta empresa foi inferida como relevante através do contexto; embora não listada explicitamente no RDF fornecido)
+Assim; o CSV gerado com base nas informações acima seria:
+Nome da Empresa;URL
+Acessor;<http://dbpedia.org/resource/The_Access_Group>
+Altrad;<http://dbpedia.org/resource/Altrad>
+Balfour Beatty;<http://dbpedia.org/resource/Balfour_Beatty>
+Bechtel;<http://dbpedia.org/resource/Bechtel>
+Centenary Construction;<http://dbpedia.org/resource/Centenary_Construction>
+China State Construction Engineering;<http://dbpedia.org/resource/China_State_Construction_Engineering>
+Globus Corporation;<http://dbpedia.org/resource/Globus_Corporation>
+Hochtief AG;<http://dbpedia.org/resource/Hochtief>
+JGC Corporation;<http://dbpedia.org/resource/JGC_Corporation>
+Kajima Corporation;<http://dbpedia.org/resource/Kajima_Corporation>
+Larsen & Toubro;<http://dbpedia.org/resource/Larsen_%26_Toubro>
+Marubeni Corporation;<http://dbpedia.org/resource/Marubeni_Corporation>
+Obayashi Corporation;<http://dbpedia.org/resource/Obayashi_Corporation>
+Perini Building Company;<http://dbpedia.org/resource/Perini_Building_Company>
+Shanghai Construction Group Corporation;<http://dbpedia.org/resource/Shanghai_Construction_Group>
+Skanska AB;<http://dbpedia.org/resource/Skanska>
+Takenaka Corporation;<http://dbpedia.org/resource/Takenaka_Corporation>
+Algumas empresas foram inferidas com base no contexto da indústria de construção e mencionadas em fontes externas; embora não explicitamente listadas nos dados RDF fornecidos.

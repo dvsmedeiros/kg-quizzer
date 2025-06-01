@@ -1,0 +1,42 @@
+<think>
+Okay, so I need to help the user generate a quiz based on the given context about Fresno. The user wants 10 question-answer pairs in CSV format. Each pair should have one relevant question and one short correct answer. The language should be Portuguese.
+
+First, I'll read through the context carefully to understand the key points about Fresno. It's a major city in California's Central Valley, known for its agriculture and surrounding parks like Yosemite, Kings Canyon, and Sequoia National Parks. It's near several other important locations such as Los Angeles, Sacramento, San Francisco, and has significant ethnic diversity.
+
+I should structure each question to cover different aspects of the context: general information about Fresno itself, its neighboring areas, nearby parks, proximity to other cities, and demographics or cultural aspects like being the third-largest majority-Hispanic city.
+
+For each question, I'll formulate a straightforward question that can be answered concisely. The answers should be direct facts from the text without needing interpretation.
+
+I also need to ensure that all 10 questions are diverse in terms of topics covered within the context so that the quiz is comprehensive and covers various aspects of Fresno's information.
+
+Let me start creating the pairs:
+
+1. The first question could ask about Fresno being named after something, which relates to the ash trees.
+2. Next, maybe where Fresno is located relative to a well-known city like Los Angeles.
+3. Then, how many parks are mentioned near Fresno.
+4. Which state is Fresno in.
+5. Fresno's population rank within California.
+6. The percentage of Hispanic population as per the context.
+7. The geographical center location of Fresno.
+8. Which national park is closest to Fresno, with specific mention of Yosemite.
+9. Nearby cities like Sacramento and San Francisco.
+10. The state parks listed near Fresno.
+
+I'll make sure each answer is a short Portuguese phrase without any unnecessary words. Also, I need to separate each pair with a semicolon and ensure there's no markdown or extra formatting beyond the CSV structure.
+
+Finally, I should double-check that all 10 pairs are correctly formatted and that they accurately reflect the information provided in the context.
+</think>
+
+```csv
+pergunta;resposta
+Fresno foi nomeado em homenagem a qual dos seguintes?;à floresta de ash
+Fresno está localizado quase no centro da Califórnia e é.adjunto à cidade de qual estado?;Los Angeles
+Quais park natais são mencionados próximos do Fresno?;Yosemite, Kings Canyon National Park e Sequoia National Park
+Fresno pertence qual estado dos Estados Unidos?;California
+Qual é a posição relativa de Fresno em relação ao estado de California em termos de população?;Quinto mais populer
+qual porcentagem da população de Fresno foi considerada majoritária Hispanic em 2020?;50,5%
+O geográfico centro de Fresno localiza aproximadamente qual cidade?;Arredondamento à cidade central
+Qual é o maior parque nacional approximate que se encontra próximo de Fresno?;Yosemite National Park
+Qual é a cidade próxima de Fresno, leste e sudoeste respectivamente?;Sacramento (leste) e San Francisco (sudoeste)
+Quais são os principais parques naturais localizados próximos de Fresno?;Yosemite Natural Park, Kings Canyon National Park e Sequoia National Park
+```

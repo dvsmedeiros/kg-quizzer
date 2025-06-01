@@ -1,0 +1,16 @@
+Para gerar um CSV a partir dos dados fornecidos, precisamos focar nas entidades que têm uma relação de "almaMater" ou "education" com a `University_of_Chicago`, já que esses predicados indicam educação recebida na universidade. Vou listar os nomes das pessoas em ordem alfabética por seus nomes.
+
+Aqui está o CSV resultante:
+
+```
+Nome,Alma Mater
+İlber Ortaylı,University of Chicago
+Oliver McGee,University of Chicago
+Philip A. Kuhn,University of Chicago
+Seymour Berkson,University of Chicago
+Toshiko Mayeda,University of Chicago
+Warder Clyde Allee,University of Chicago
+William P. Bidelman,University of Chicago
+```
+
+Nota: Incluí apenas entidades com um dos predicados especificados que indicam educação recebida na University of Chicago. A ordem é alfabética pelo nome da pessoa.

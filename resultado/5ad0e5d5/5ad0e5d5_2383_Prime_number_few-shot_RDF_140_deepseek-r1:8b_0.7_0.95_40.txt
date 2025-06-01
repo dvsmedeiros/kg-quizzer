@@ -1,0 +1,55 @@
+<think>
+Okay, so I need to create 10 question-answer pairs in CSV format based on the given context about prime numbers. Let me start by understanding the instructions and the provided information.
+
+First, the context covers a lot of topics related to prime numbers: definitions, theorems like the fundamental theorem of arithmetic, methods for checking primality such as trial division, Miller-Rabin test, AKS test, properties of primes, historical conjectures, and applications in cryptography. There are also facts from DBpedia about specific prime numbers and their factorizations.
+
+I should make sure that each question is relevant to this context and has one correct short answer. The questions need to be varied and cover different aspects of prime numbers. Also, I must avoid repeating similar questions.
+
+Let me go through the context again to identify key points that can be turned into questions:
+
+1. Definition of a prime number.
+2. Difference between prime and composite numbers.
+3. Fundamental theorem of arithmetic.
+4. Types of primality tests (trial division vs Miller-Rabin).
+5. Largest known prime as of 2018.
+6. Mersenne primes.
+7. Euclid's proof of infinite primes.
+8. Prime number theorem.
+9. Goldbach's conjecture.
+10. Twin prime conjecture.
+
+Now, I'll think about possible questions that can be asked based on these points.
+
+1. What is a prime number? - The answer would be something like "A natural number greater than 1 that isn't a product of smaller numbers."
+2. What distinguishes primes from composites? - Answer: "Primes have no divisors other than 1 and themselves."
+3. Which theorem states every number >1 is either prime or can be factored uniquely? - The fundamental theorem of arithmetic.
+4. Which method is slow for checking primality? - Trial division.
+5. What's the largest known prime with many digits? - As of Dec 2018, it's a Mersenne prime with 22.338.618 digits.
+6. Which special-form primes are mentioned? - Mersenne primes.
+7. Who proved there are infinitely many primes? - Euclid.
+8. What does the prime number theorem say about probability? - The probability decreases with more digits.
+9. What's Goldbach's conjecture about? - Every even >2 can be expressed as two primes.
+10. What is the twin prime conjecture? - Infinitely many pairs of primes with one even between them.
+
+I need to ensure each question is clear and directly relates to the context, with a concise correct answer. I'll make sure not to repeat similar questions and cover different aspects of prime numbers.
+
+Now, putting it all together in CSV format, each line will have a question followed by its answer.
+</think>
+
+Here is the CSV file containing 10 question-answer pairs based on the provided context about prime numbers:
+
+```
+pergunta;resposta
+What is a prime number?;A natural number greater than 1 that isn't a product of two smaller natural numbers.
+What distinguishes primes from composite numbers?;Primes have no divisors other than 1 and themselves.
+Which theorem states every number >1 is either prime or can be factored uniquely?;The fundamental theorem of arithmetic
+Which method is slow for checking primality?;Trial division
+What's the largest known prime with many digits as of Dec 2018?;A Mersenne prime with 22.338.618 decimal digits
+Which special-form primes are mentioned in the context?;Mersenne primes
+Who proved there are infinitely many primes?;Euclid
+What does the prime number theorem say about their probability?;The probability decreases as numbers have more digits.
+What is Goldbach's conjecture about?;Every even integer greater than 2 can be expressed as two primes.
+What is the twin prime conjecture?;There are infinitely many pairs of primes with one even number between them.
+```
+
+Each question is designed to test understanding of various aspects of prime numbers, from definitions to historical conjectures. The answers are concise and directly sourced from the provided context.

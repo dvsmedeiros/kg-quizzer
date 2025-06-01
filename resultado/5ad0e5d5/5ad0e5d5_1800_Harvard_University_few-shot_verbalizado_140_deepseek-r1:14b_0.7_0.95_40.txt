@@ -1,0 +1,50 @@
+<think>
+Okay, so I need to create 10 pairs of questions and answers in a CSV format based on the given context about Harvard University. The instructions specify that each line should have a question followed by a correct answer, using a semicolon as the separator, all in Portuguese.
+
+First, I'll read through the context provided to understand what information is available. The context includes details about Harvard's founding, its structure, notable people associated with it, achievements, and other facts.
+
+I notice that the context mentions several key points:
+- Founded in 1636 as Harvard College.
+- Named after John Harvard, the first benefactor.
+- It's a private Ivy League university.
+- The library system is the largest academic one, with 79 libraries and about 20.4 million items.
+- Charles W. Eliot transformed it into a modern research university.
+- James B. Conant led during the Great Depression and WWII.
+- Harvard has educated eight U.S. presidents and many Nobel laureates.
+
+The facts section lists a lot of individuals who are alumni or have associations with Harvard, which could be useful for questions about notable people.
+
+I should create varied questions that touch on different aspects: history, structure, achievements, notable individuals, etc. Each question needs to have one correct answer based on the context.
+
+Let me brainstorm possible questions:
+1. When was Harvard University founded?
+2. Who is it named after?
+3. What's the main library system's name?
+4. How many libraries are in the main system?
+5. Which president transformed it into a research university?
+6. Under whose leadership did it become coeducational?
+7. How many U.S. presidents are alumni?
+8. How many Nobel laureates are there among alumni?
+9. When was the library system established?
+10. What's Harvard's endowment size?
+
+Wait, looking at the example provided by the user, they have questions like "Qual indivíduo recebeu o nome da escola?" which translates to "Which individual was the school named after?" and the answer is John Harvard.
+
+I should follow that style, using Portuguese for both questions and answers. Each question should be clear and direct, with an unambiguous correct answer from the context.
+
+Now, I'll structure each line in the CSV accordingly, making sure not to repeat similar questions and covering a broad range of topics related to Harvard.
+</think>
+
+```
+pergunta;resposta
+Quando foi fundada a Universidade de Harvard?;1636
+Qual indivíduo recebeu o nome da escola?;John Harvard
+Qual é a denominação principal da biblioteca da universidade?;Harvard Library
+Quantas bibliotecas compõem o sistema principal?;79 bibliotecas individuais
+Quem transformou a universidade em um centro de pesquisa moderno?;Charles W. Eliot
+Quando o curso de graduação se tornou coeducacional?;1977
+Qual é a classificação da universidade?;Ivy League
+Quantos presidentes dos EUA são ex-alunos?;oito presidentes dos EUA
+Quantos ganhadores do Nobel estão entre os ex-alunos?;150 ganhadores do Nobel
+Qual foi a data de fundação da biblioteca principal?;Sem data específica fornecida no contexto.
+```

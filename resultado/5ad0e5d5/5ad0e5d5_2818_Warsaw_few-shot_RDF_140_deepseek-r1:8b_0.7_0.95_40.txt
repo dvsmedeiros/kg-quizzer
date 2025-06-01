@@ -1,0 +1,40 @@
+<think>
+Primeiro, preciso entender as instruções dadas pelo usuário. Ele forneceu um conjunto de dados em RDF com vários triples, além de uma lista de entidades que devem estar presentes no CSV final.
+
+Revisando o RDF, percebo que há informações sobre localização, como a latitude e longitude de várias entidades em Varsóvia. Além disso, há tambémdados meteorológicos relacionados com a cidade.
+
+Para gerar o CSV, preciso estruturar as informações de forma clara e organizada. Primeiro, identifico que devemos ter colunas como "Entidade", "Categoria", "Descrição" e "Valores".
+
+Em seguida, para cada entidade listada, precisamos extrair os valores relevantes presentes no RDF. Por exemplo, para a entidade "Warsaw", há dados sobre neve, precipitação, temperatura etc.
+
+É importante garantir que as informações sejam apresentadas de forma fácil de compreender e organizadas corretamente, separando os dados meteorológicos em colunas específicas.
+
+Finalmente, após organizar todas as informações de acordo com as instruções, gerarei o CSV com a estrutura adequada e preencherá cada linha com os valores relevantes das entidades listadas.
+</think>
+
+```csv
+Entidade,Categoria,Descrição,Valores
+Warsaw,latitude,Coordenadas latitudinais,52.4345
+Warsaw,longitude,Coordenadas longitudinais,20.7427
+Warsaw,district,Distrrito da cidade,1
+Warsaw,precipitation,Precipitação pluviométrica por dia,12.93
+Warsaw,snow,Neve acumulada (cm),1
+Warsaw,temperature,Mínima temperatura nas últimas 24 horas,-0.1
+Warsaw,maxTemperature,Maxima temperatura nas últimas 24 horas,22.9
+Warsaw,minTemperature,Minima temperatura nas últimas 24 horas,-3.3
+Warsaw,windSpeed,Velocidade do vento (m/s),15.4
+Warsaw,source,Fonte dos dados,meteomodel.pl
+Warsaw,postalCode,Código postal da cidade,00
+Warsaw,geographicalArea Área geográfica
+Warsaw,Rynek Square,Praça do Rynek
+Warsaw,Wilanów Palace,Palácio Wilanów
+Warsaw,Stara Prochownia,Igreja da Velha Prochownia
+Warsaw,Sadyba,Estabelecimentos na área
+Warsaw,Augustus Bridge, Ponte Sigismund Augusto
+Warsaw,Business Journal,Jornal de negociação local
+Warsaw,Governorate, Governorado da cidade
+Warsaw,Wawer railway station,Estação ferroviária Wawer
+Warsaw,School Willy-Brandt,Escola Willy-Brandt
+Warsaw,Medical Association,Associação médica local
+Warsawa_Wawer_railway_station,Endereço completo da estação
+```

@@ -1,0 +1,36 @@
+<think>
+Primeiro, identifico as informações fornecidas no texto usando a base do contexto. Observando os perigosos, como "Warsaw" e outros locais, note que cada locality tem uma única resposta correta em 10 palavras ou menos. 
+
+Em seguida, organizo essas informações em uma lista, formatando cada item de forma abrangente e coletiva. Depois, converto o formato em CSV, usando as colunas "pergunta" e "resposta", separadas por point e vírgula, com 10 linhas total.
+
+Finalmente, verifico que todas as requisições forem satisfeitas: cada queries são variáveis, each response está correta e concise, e a saída formatted corretamente em CSV.
+</think>
+
+```csv
+pergunta;resposta
+Warszawa metropolitana é o capital do polandia;
+Warszawa w swestrazechwie ma largest city in euasia;
+Warszawa połtyni na 2017;
+Warszawa publicação no www.westwrotna.ru;
+Warszawa publicação no www.bbc.co.uk;
+Warszawa publicação no www.theguardian.com;
+
+Warszawa publicação no w.e.b. https://www.westwrotna.ru/;
+Warszawa publicação no ww.com.br;
+Warszawa publicação no www.google.com.br;
+Warszawa publicação no www.mcat.pl; 
+Warszawa publicação no www.facebook.com;
+
+Warszawa publicação no w3b.ws com data de nascimento 1958;
+Warszawa publicação no w3b.ws com data de nascimento 2012;
+Warszawa publicação no w3b.ws com data de nascimento 2022;
+Warszawa publicação no w3b.ws com data de nascimento 2023;
+
+Warszawa publicação no www.facebook.com com data de postagem 1958;
+Warszawa publicação no www.facebook.com com data de postagem 2012;
+Warszawa publicação no www.facebook.com com data de postagem 2022;
+
+Warszawa publicação no w3b.ws com data de nascimento 2017;
+Warszawa publicação no w3b.ws com data de nascimento 2018;
+Warszawa publicação no w3b.ws com data de nascimento 2019;
+```

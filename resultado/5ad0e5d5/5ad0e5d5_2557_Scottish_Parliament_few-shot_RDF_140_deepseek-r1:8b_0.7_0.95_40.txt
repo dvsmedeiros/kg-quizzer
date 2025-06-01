@@ -1,0 +1,13 @@
+<think>
+Ok, eu preciso criar um CSV baseado nas informações fornecidas sobre o Parlamento Escocês. Primeiro, vou olhar para os dados e identificar quais colunas vou precisar incluir. Vejo que há informações sobre a localização, data da última eleição, líder, partido político, composição, etc.
+
+Decido incluir as seguintes colunas: ID, Nome do Parlamento, Data da Última Eleição, Localização, Liderança, Partido Político, Composição, Número de Assentos e Link externo. Em seguida, populo estas colunas com os dados específicos da Scott Parliament.
+
+Vou me certificar de que todas as informações estejam corretas e formatadas according to o CSV estándar. Além disso, vou incluir um cabeçalho de cada coluna para facilitar a compreensão. Por fim, verifico se não há erros nos dados e exporto o arquivo emTexto CSV.
+</think>
+
+```csv
+ID,Parliament Name,Last Election Date,Location,Leadership,Political Party,Composition,Number of Members,External Link
+1,"Scottish Parliament",2021-05-06,Scotland,Alison Johnstone,Scottish National Party,Minority Government,129,
+"https://www.parliament.scot"
+```

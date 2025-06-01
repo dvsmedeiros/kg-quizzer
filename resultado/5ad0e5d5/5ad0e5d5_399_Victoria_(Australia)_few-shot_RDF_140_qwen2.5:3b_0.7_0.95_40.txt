@@ -1,0 +1,28 @@
+Para gerar um CSV baseado no dado fornecido, primeiro precisamos entender a estrutura dos dados. Os dados são armazenados em RDF (Resource Description Framework), que é uma representação de dados orientada para recursos. Vamos extrair informações relevantes e formatá-las em formato CSV.
+
+### Estrutura do CSV
+Vou definir as colunas com base nas propriedades encontradas nos dados fornecidos:
+
+1. `ns1:febRecordHighC`
+2. `ns1:marRecordHighC`
+3. `foaf:depiction`
+4. `ns1:wikiPageUsesTemplate`
+
+### CSV Format
+Aqui está o formato do arquivo CSV com essas colunas:
+
+```csv
+ns1_febRecordHighC,ns1_marRecordHighC,foaf_depiction,ns1_wikiPageUsesTemplate
+"48.8","44.4",http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg,<http://dbpedia.org/resource/Template:Expand_section>
+```
+
+### Explicação:
+- `ns1_febRecordHighC` e `ns1_marRecordHighC`: Estes são os valores para as alturas de calor máximos em fevereiro e março, que aparecem diretamente nos dados fornecidos.
+- `foaf_depiction`: Este valor é uma URL de imagem, que se refere a uma imagem específica do arquivo Commons. O valor aqui aponta para uma imagem relacionada com o texto "Vic legislative council 1878".
+- `ns1_wikiPageUsesTemplate`: Esta propriedade indica qual template é usado em uma página Wikipedia. Aqui, é a `<http://dbpedia.org/resource/Template:Expand_section>` que está sendo usada.
+
+### Observação
+O CSV acima contém apenas essas quatro informações e não inclui as colunas para os itens específicos como `Thomas_Higinbotham`, `Shane_O'Bree` e outros, pois estes dados estão relacionados a pessoas e não à estrutura de dados fornecida.
+
+### Extensão do CSV
+Você pode continuar adicionando mais linhas com novos valores conforme necessário. Para diferentes recursos ou dados, você terá que extrair as informações relevantes das propriedades RDF para os campos correspondentes no CSV.

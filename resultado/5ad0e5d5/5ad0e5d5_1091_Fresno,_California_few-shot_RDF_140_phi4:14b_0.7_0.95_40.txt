@@ -1,0 +1,31 @@
+Para gerar um arquivo CSV a partir dos dados fornecidos, precisamos extrair informações relevantes com base nas propriedades do recurso "Fresno, California" no formato Turtle. Seguiremos estas etapas:
+
+1. **Identificar os atributos chave**: Vamos focar nas propriedades que podem ser listadas em um CSV. As mais relevantes são:
+   - Nome da cidade
+   - Tipo de subdivisão
+   - Área total (em quilômetros quadrados)
+   - População Rank
+   - Data de fundação
+   - Código postal
+
+2. **Extrair os valores**: Para cada atributo identificado, vamos extrair o valor correspondente do gráfico RDF.
+
+3. **Formatar em CSV**: Organizaremos as informações extraídas na estrutura padrão de um arquivo CSV.
+
+Abaixo está a representação dessas etapas no formato CSV:
+
+```csv
+Nome da Cidade,Subdivisão Tipo,Área Total (km²),População Rank,Fundação,Código Postal
+"Fresno, California","List of counties in California,List of sovereign states",300.43,"34","1885-10-21","93650, 93701–93712, 93714–93718, 93720–93730, 93737, 93740, 93741, 93744, 93745, 93747, 93750, 93755, 93760, 93761, 93764, 93765, 93771–79, 93786, 93790–94, 93844, 93888"
+```
+
+### Detalhes da Implementação:
+
+- **Nome da Cidade**: Extraído diretamente da propriedade `ns1:name`.
+- **Subdivisão Tipo**: Combinação das subdivisões listadas nas propriedades `ns1:subdivisionType`.
+- **Área Total (km²)**: Valor fornecido pela propriedade `ns1:areaTotalKm`.
+- **População Rank**: Obtido da propriedade `ns1:populationRank`.
+- **Data de Fundação**: Extraída da propriedade `ns2:foundingDate`.
+- **Código Postal**: Lista obtida da propriedade `ns2:postalCode`.
+
+Esta estrutura CSV encapsula as informações chave do recurso "Fresno, California" de forma clara e organizada.

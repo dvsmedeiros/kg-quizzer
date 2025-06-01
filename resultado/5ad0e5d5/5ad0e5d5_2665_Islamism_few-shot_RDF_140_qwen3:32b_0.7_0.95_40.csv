@@ -1,0 +1,31 @@
+pergunta;resposta
+The main task is to extract all the properties (predicates) for each entity (subject) and list them in the CSV. Each unique combination of subject and predicate should be a row; with the subject as "nome" and the predicate as "propriedade". 
+I should also verify if any of the properties are repeated for the same entity. For instance; "ns2:date" appears twice with different values. Each occurrence should be a separate row. 
+Now; let's process the data. I'll go through each line and extract the subject (nome) and predicate (propriedade). 
+Nome is the same; propriedade is "affiliation".
+Let me start writing out the CSV rows. For each line in the data; extract the subject (entity name) and predicate. For example:
+nome;propriedade
+"Ansar Allah (political party)";<http://dbpedia.org/ontology/affiliation>
+For "Islamism"; the lines are:
+nome;propriedade
+"Ansar Allah (political party)";"a"
+"Ansar Allah (political party)";"\u003Chttp://dbpedia.org/ontology/affiliation\u003E"
+"Ansar Allah (political party)";"\u003Chttp://dbpedia.org/ontology/leadership\u003E"
+"Ansar Allah (political party)";"\u003Chttp://dbpedia.org/ontology/ideology\u003E"
+"Ansar Allah (political party)";"\u003Chttp://dbpedia.org/ontology/leader\u003E"
+"Ansar Allah (political party)";"\u003Chttp://dbpedia.org/ontology/formationPlace\u003E"
+"Ansar Allah (political party)";"\u003Chttp://dbpedia.org/ontology/founded\u003E"
+"Ansar Allah (political party)";"\u003Chttp://dbpedia.org/ontology/dissolution\u003E"
+"Ansar Allah (political party)";"\u003Chttp://dbpedia.org/ontology/affiliation\u003E"
+"Ansar Allah (political party)";"\u003Chttp://dbpedia.org/ontology/website\u003E"
+"Ansar Allah (political party)";"\u003Chttp://dbpedia.org/ontology/religion\u003E"
+"Ahmad Shah Massoud";"a"
+"Ahmad Shah Massoud";"\u003Chttp://dbpedia.org/ontology/occupation\u003E"
+"Ahmad Shah Massoud";"\u003Chttp://dbpedia.org/ontology/birthPlace\u003E"
+"Ahmad Shah Massoud";"\u003Chttp://dbpedia.org/ontology/deathPlace\u003E"
+"Ahmad Shah Massoud";"\u003Chttp://dbpedia.org/ontology/ethnicity\u003E"
+"Ahmad Shah Massoud";"\u003Chttp://dbpedia.org/ontology/religion\u003E"
+"Ahmad Shah Massoud";"\u003Chttp://dbpedia.org/ontology/field\u003E"
+"Ahmad Shah Massoud";"\u003Chttp://dbpedia.org/ontology/genre\u003E"
+"Ahmad Shah Massoud";"\u003Chttp://dbpedia.org/ontology/award\u003E"
+"Ahmad Shah Massoud";"\u003Chttp://db

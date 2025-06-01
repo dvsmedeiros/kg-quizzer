@@ -1,0 +1,57 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs in CSV format, using the provided context and triples. The questions need to be varied and cover different aspects of the immune system.
+
+First, I'll look through the context. The immune system protects against diseases, has innate and adaptive subsystems, detects pathogens, and has mechanisms like phagocytosis and the complement system. Also, dysfunction leads to autoimmune diseases, immunodeficiency, and cancer.
+
+From the triples, there are mentions of various cells like B cells, T cells, NK cells, etc., and organs like bone marrow and tonsils. Also, some diseases like sepsis and food allergies are linked to the immune system.
+
+I need to ensure each question is unique and answers are derived from the context. Let's start with the main functions. "What does the immune system protect against?" Answer: doenças. That's straightforward.
+
+Next, the two main subsystems: innate and adaptive. Then, the adaptive system's feature of immunological memory. Also, examples of immune cells like B cells and T cells. 
+
+Looking at the context, phagocytosis and the complement system are mentioned as basic mechanisms. So a question on that. 
+
+Immunodeficiency and autoimmune diseases are covered in the context, so those can be questions. Also, the role of the complement system. 
+
+Wait, the user provided an example where the answer was "sistema neuroimune" for the brain's immune system. But in the given context, there's no mention of the neuroimmune system. Hmm, maybe that's from the triples? Let me check the triples again. The triples list cells and organs but not the neuroimmune system. The context mentions the brain's immune system as the neuroimmune system, but the example answer was "sistema neuroimune". Wait, the original context says: "Qual parte do sistema imunológico protege o cérebro?;sistema neuroimune" but in the user's context, there's no mention of that. Wait, the user's context says "In humans, immunodeficiency can be the result...". Wait, maybe the example was part of the user's initial example, but the actual context provided doesn't mention the neuroimmune system. So perhaps that's an error. But the user's instruction says to use the abstract, triples, and few-shots. The triples don't mention the neuroimmune system either. So maybe that's a mistake in the example, but I should focus on the given context.
+
+So, I need to generate 10 questions. Let me list possible topics: functions of the immune system, subsystems (innate vs adaptive), components like B and T cells, mechanisms (phagocytosis, complement system), diseases related to immune dysfunction (autoimmune, immunodeficiency), examples of immune cells and organs, the role of vaccination, etc.
+
+Let me start drafting the questions:
+
+1. O que o sistema imunológico protege os organismos contra? - doenças.
+
+2. Quais são os dois principais subsistemas do sistema imunológico? - sistema imunológico inato e adaptativo.
+
+3. O que é a imunidade adaptativa responsável por criar? - memória imunológica.
+
+4. Quais células do sistema imunológico são mencionadas no contexto? - células B e T.
+
+5. Quais são mecanismos básicos do sistema imunológico mencionados no contexto? - fagocitose e sistema complementar.
+
+6. O que caracteriza a imunodeficiência? - sistema imunológico menos ativo.
+
+7. Qual é um exemplo de doença autoimune mencionada no contexto? - artrite reumatoide.
+
+8. Como o sistema imunológico adaptativo reage a estímulos? - aprende a reconhecer moléculas previamente encontradas.
+
+9. Quais são as consequências de um sistema imunológico hiperativo? - doenças autoimunes.
+
+10. O que a vacinação se baseia? - imunidade adquirida.
+
+Now, check if these answers are in the context. The first answer is in the abstract. The second is also there. The third, "memória imunológica" is mentioned in the context. The fourth, B and T cells are in the triples. The fifth, phagocytosis and complement system are in the context. The sixth, immunodeficiency is defined. The seventh, rheumatoid arthritis is listed as an autoimmune disease. The eighth, adaptive immunity learns to recognize molecules. The ninth, autoimmunity from hyperactive immune system. The tenth, vaccination based on acquired immunity.
+
+That should cover 10 questions. Now, format them as CSV with semicolons. Make sure answers are concise, under 10 words. Check for repetition. All seem unique. Okay, this should work.
+</think>
+
+pergunta;resposta
+O sistema imunológico protege os organismos contra o que?;doenças.
+Quais são os dois principais subsistemas do sistema imunológico?;sistema imunológico inato e adaptativo.
+O que é a imunidade adaptativa responsável por criar?;memória imunológica.
+Quais células do sistema imunológico são mencionadas no contexto?;células B e T.
+Quais são mecanismos básicos do sistema imunológico mencionados no contexto?;fagocitose e sistema complementar.
+O que caracteriza a imunodeficiência?;sistema imunológico menos ativo.
+Qual é um exemplo de doença autoimune mencionada no contexto?;artrite reumatoide.
+Como o sistema imunológico adaptativo reage a estímulos?;aprende a reconhecer moléculas previamente encontradas.
+Quais são as consequências de um sistema imunológico hiperativo?;doenças autoimunes.
+O que a vacinação se baseia?;imunidade adquirida.

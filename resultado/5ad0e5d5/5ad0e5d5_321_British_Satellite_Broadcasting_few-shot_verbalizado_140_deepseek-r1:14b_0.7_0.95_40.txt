@@ -1,0 +1,47 @@
+<think>
+Okay, so I'm trying to create 10 quiz questions and answers based on the given context about British Satellite Broadcasting (BSB). The user provided a detailed abstract, some triples, and examples of few-shot questions. They want the output in CSV format with each line containing a question and answer separated by a semicolon.
+
+First, I need to make sure I understand all the information provided. The main points are:
+
+- BSB was a TV company based in London.
+- Started broadcasting on March 25, 1990.
+- Merged with Sky Television in November 1990 to form BSkyB.
+- It's categorized under various types like SocialGroup and Company.
+- They had several TV channels, such as Heil Honey I'm Home!, The Computer Channel, Now, The Power Station, Galaxy, and others.
+- They were established in 1986 and dissolved in 1990.
+
+Now, I need to create varied questions. Let's brainstorm possible questions:
+
+1. When did BSB start broadcasting? (Answer: March 25, 1990)
+2. What was the result of merging with Sky Television? (BSkyB)
+3. Name a TV channel they owned. (Heil Honey I'm Home!, The Computer Channel, etc.)
+4. Where were they based? (London)
+5. When were they established? (1986)
+6. What year did they merge? (1990)
+7. What was the main service? (Direct broadcast satellite television)
+8. Name a film produced by them. (Hardware, Memphis Belle)
+9. Where is their headquarters? (London)
+10. Under what category were they established? (Category:British companies established in 1986)
+
+I should check if these answers are correct based on the provided facts. For example, the merger date was November 2, 1990, forming BSkyB. The channels listed are correct as per the triples. The establishment year is 1986, and they were based in London.
+
+Wait, some of the questions might be too similar. I should ensure each question is unique. Also, make sure that the answers aren't repeated unless necessary.
+
+Another point: one of the facts mentions "The Computer Channel (BSB)" which might indicate it's a specific channel under BSB, so using "The Computer Channel" as an answer would be correct.
+
+I think I have enough information to create 10 distinct questions. Now, let me structure them into CSV format with each line being question;answer.
+</think>
+
+```
+pergunta;resposta
+Quando a British Satellite Broadcasting começou a transmitir?;25 de março de 1990
+Qual foi o resultado da fusão com a Sky Television?;Formou-se a BSkyB
+Nomeie um canal de TV que pertencia à BSB.;Heil Honey I'm Home!
+Onde estava sediada a BSB?;Londres
+Em qual ano a BSB foi fundada?;1986
+Em qual ano ocorreu a fusão com a Sky Television?;1990
+Qual era o principal serviço da BSB?;Televisão por satélite direta
+Nomeie um filme produzido pela BSB.;Hardware
+Onde estavam localizados os escritórios principais da BSB?;Londres
+Em qual categoria a BSB foi classificada?;Empresa britânica fundada em 1986
+```

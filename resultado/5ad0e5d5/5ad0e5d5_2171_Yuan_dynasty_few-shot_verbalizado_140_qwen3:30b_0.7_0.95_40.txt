@@ -1,0 +1,66 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs in CSV format based on the provided context about the Yuan Dynasty. First, I need to make sure I understand the requirements.
+
+The context is a detailed abstract about the Yuan Dynasty, including its establishment, key figures like Kublai Khan, the time period, and other related facts. The facts provided are a list of triples that include various attributes like dates, locations, people, and events related to the Yuan Dynasty.
+
+The user's instructions specify that each pair should be in Portuguese, with the question and a short answer (up to 10 words). The separator is a semicolon, and the output should be exactly 10 lines. Also, the questions need to be varied and based on the given context, avoiding repetition.
+
+First, I'll go through the abstract and the facts to identify key points. The Yuan Dynasty was established by Kublai Khan in 1271, lasted until 1368, was a Mongol-led dynasty, the first non-Han dynasty to rule all of China, and had various cultural and administrative aspects.
+
+Now, I'll need to formulate questions that can be answered with the given information. Let's start with the establishment. The first question could be about when it was established. The answer would be 1271. Then, who founded it—Kublai Khan. Next, the end year: 1368. The name in Chinese: Dà Yuán. The leader of the Borjigin clan—Kublai Khan again. The predecessor dynasty: Song. The successor: Ming. The founder's grandfather: Genghis Khan. The capital: Shangdu. The official name: Great Yuan.
+
+Wait, but I need to check if these answers are directly from the context. The abstract mentions "established by Kublai, the fifth khagan-emperor... in 1271" and "lasted from 1271 to 1368." The official name is "Great Yuan (Chinese: 大元; pinyin: Dà Yuán)." The Borjigin clan is mentioned as Kublai's clan. The predecessor is the Song dynasty, and the successor is the Ming. Genghis Khan is Kublai's grandfather. The capital is Shangdu. So these should be correct.
+
+Now, I need to ensure that the questions are varied and not repetitive. Let me list possible questions:
+
+1. When was the Yuan Dynasty established? (1271)
+2. Who founded the Yuan Dynasty? (Kublai Khan)
+3. When did the Yuan Dynasty end? (1368)
+4. What is the official Chinese name of the Yuan Dynasty? (Dà Yuán)
+5. Who led the Borjigin clan? (Kublai Khan)
+6. Which dynasty preceded the Yuan? (Song)
+7. Which dynasty followed the Yuan? (Ming)
+8. Who was Kublai Khan's grandfather? (Genghis Khan)
+9. What was the capital of the Yuan Dynasty? (Shangdu)
+10. What is the Mongolian name for the Yuan Dynasty? (Yeke Yuwan Ulus)
+
+But I need to check if the answers are within 10 words. For example, "Dà Yuán" is two words, but the answer can be up to 10. Also, the Mongolian name is "Yeke Yuwan Ulus," which is three words. That's acceptable.
+
+Now, let's verify each answer against the context. The abstract says "officially the Great Yuan (Chinese: 大元; pinyin: Dà Yuán; Middle Mongolian: ᠶᠡᠭᠡᠶᠤᠸᠠᠨᠤᠯᠤᠰ, Yeke Yuwan Ulus, literally 'Great Yuan State')." So the Mongolian name is correct. The capital is mentioned as Shangdu in the facts. The founder is Kublai Khan. The predecessor is Song, successor Ming. Genghis Khan is Kublai's grandfather.
+
+I need to make sure that each question is unique and not repeating similar ones. For example, asking about the founder and the leader of the clan are different. Also, the capital and the official names are different aspects.
+
+Now, structuring them in CSV format with semicolons. Each line should be "pergunta;resposta". Let me check the example given by the user. They have "Qual é o nome chinês da dinastia Yuan?;yin: Dà Yuán;" which includes a note, but the user's example might have variations. However, the user's instruction says to follow the rules, so the answer should be concise.
+
+So, the final answer would be 10 lines like:
+
+Qual é o ano de fundação da dinastia Yuan?;1271
+Quem fundou a dinastia Yuan?;Kublai Khan
+Em que ano a dinastia Yuan terminou?;1368
+Qual é o nome oficial chinês da dinastia Yuan?;Dà Yuán
+Quem liderava a tribo Borjigin?;Kublai Khan
+Qual dinastia precedeu a Yuan?;Song
+Qual dinastia sucedeu a Yuan?;Ming
+Quem era o avô de Kublai Khan?;Genghis Khan
+Qual era a capital da dinastia Yuan?;Shangdu
+Qual é o nome mongol da dinastia Yuan?;Yeke Yuwan Ulus
+
+Wait, but the user's example had some answers with "yin: " or other prefixes, but the user's instruction says to follow the rules, which might not require that. So the answers should be straightforward.
+
+I need to make sure that each answer is correct and within the word limit. For example, "Dà Yuán" is two words, which is under 10. "Yeke Yuwan Ulus" is three words. All okay.
+
+I think this covers the requirements. Let me double-check the facts provided. The facts mention "Yuan dynasty possui tópico principal Yuan dynasty" which might not be useful, but the key points are covered in the abstract.
+
+Yes, this should work.
+</think>
+
+Qual é o ano de fundação da dinastia Yuan?;1271  
+Quem fundou a dinastia Yuan?;Kublai Khan  
+Em que ano a dinastia Yuan terminou?;1368  
+Qual é o nome oficial chinês da dinastia Yuan?;Dà Yuán  
+Quem liderava a tribo Borjigin?;Kublai Khan  
+Qual dinastia precedeu a Yuan?;Song  
+Qual dinastia sucedeu a Yuan?;Ming  
+Quem era o avô de Kublai Khan?;Genghis Khan  
+Qual era a capital da dinastia Yuan?;Shangdu  
+Qual é o nome mongol da dinastia Yuan?;Yeke Yuwan Ulus

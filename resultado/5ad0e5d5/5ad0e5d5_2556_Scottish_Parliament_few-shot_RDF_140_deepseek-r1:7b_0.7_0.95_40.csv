@@ -1,0 +1,6 @@
+pergunta;resposta
+Também noto que há uma seção de "ns3:sameAs" com um ID VIAF; o que pode ser útil para identificar a entidade.
+Agora; preciso decidir quais informações relevantes devem permanecer no CSV. Parece que a data da ultima eleição ("2021-05-06") e o nome do líder são as mais pertinentes.
+Vou estruturar o CSV com headers "Data" e "Líder". Substituir "ns1:lastElectionDate" para "Data"; e "ns1:leader" para "Líder".
+Preciso garantir que o CSV esteja formatado corretamente; com aspas e separações por virgulas. Vou testar a geração usando os dados fornecidos:
+"2021-05-06";"George Adam"

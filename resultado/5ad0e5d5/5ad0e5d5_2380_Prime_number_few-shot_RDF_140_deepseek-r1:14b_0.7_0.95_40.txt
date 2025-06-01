@@ -1,0 +1,67 @@
+<think>
+Okay, so I need to generate 10 pairs of questions and answers in CSV format based on the given context about prime numbers. The output should be in Portuguese, with each line separated by a semicolon, and only the CSV without any additional text.
+
+First, I'll go through the provided abstract, triples, and examples to understand the key points about prime numbers. The abstract explains what primes are, their importance in number theory, methods for checking primality like trial division, Miller-Rabin, AKS tests, and mentions special forms like Mersenne primes. It also touches on unsolved problems and applications in cryptography.
+
+Looking at the triples, they indicate that various numbers (like 3, 7, etc.) are prime. This could be useful for questions about specific examples or properties.
+
+The example provided by the user gives a good template: each question is followed by a short answer, often a definition or key term from the context.
+
+I need to make sure the questions vary and cover different aspects of primes: definitions, properties, methods of checking primality, historical facts, and applications. Each question should have one correct answer that's either directly stated or inferable from the context.
+
+Let me list potential topics for the questions:
+
+1. Definition of prime numbers.
+2. Opposite concept (composite numbers).
+3. Fundamental theorem of arithmetic.
+4. Prime factorization uniqueness.
+5. Why 1 is excluded from primes.
+6. Property to determine if a number is prime (primality).
+7. Methods to test primality (trial division, Miller-Rabin, AKS).
+8. Special forms like Mersenne primes and their largest known example.
+9. The infinitude of primes.
+10. Applications of primes in technology (cryptography).
+
+Now, I'll formulate questions for each topic:
+
+1. What is a natural number greater than 1 that isn't a product of smaller numbers? Answer: Número primo.
+
+2. What are numbers greater than 1 that can be divided by more than two factors? Answer: Números compostos.
+
+3. Which theorem states the importance of primes in arithmetic? Answer: Teorema fundamental da aritmética.
+
+4. Why can't we include 1 in prime factorizations infinitely? Answer: Para manter a singularidade do teorema.
+
+5. What is the term for whether a number is prime or not? Answer: Primalidade.
+
+6. What simple method checks primality by testing divisions up to the square root? Answer: Divisão trial.
+
+7. What probabilistic test is commonly used for primality? Answer: Teste de primalidade de Miller-Rabin.
+
+8. What deterministic polynomial-time test exists for primes? Answer: Teste de primalidade de AKS.
+
+9. What special form holds the largest known prime? Answer: Número de Mersenne.
+
+10. As of 2018, how many digits did the largest known prime have? Answer: 24.862.048 dígitos decimais.
+
+I need to ensure each question is clear and has a unique correct answer from the context. I should also make sure not to repeat similar questions. 
+
+Wait, in the example provided by the user, one of the questions asks about 22 million digits, but according to the abstract, it's 24.862.048 as of December 2018. So I'll use that accurate figure.
+
+Let me structure each line properly with semicolon separators and ensure the answers are concise.
+</think>
+
+```
+pergunta;resposta
+Qual é um número natural maior que 1 que não pode ser escrito como produto de outros números menores?;número primo
+O que são os números maiores que 1 que podem ser divididos por mais do que dois fatores?;números compostos
+Qual teorema estabelece a importância fundamental dos números primos na aritmética?;teorema fundamental da aritmética
+Por que não incluímos o número 1 em fatorizações de números primos?;para manter a singularidade do teorema
+Qual é o termo para determinar se um número é primo ou não?;primalidade
+Qual método simples verifica a primalidade testando divisões até a raiz quadrada?;divisão trial
+Quais são os principais métodos usados para verificar a primalidade?;divisão trial, Miller-Rabin e AKS
+Qual teste probabilístico é amplamente utilizado para verificar a primalidade?;teste de primalidade de Miller-Rabin
+Existe um teste determinístico em tempo polinomial para a primalidade?;sim, o teste de primalidade de AKS
+Qual forma especial detém o maior primo conhecido atualmente?;número de Mersenne
+Quanto era a quantidade de dígitos do maior primo conhecido até dezembro de 2018?;24.862.048 dígitos decimais
+```

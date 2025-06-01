@@ -1,0 +1,97 @@
+<think>
+Okay, so I need to help the user create a CSV file based on the data they provided and their instructions. Let me start by understanding what's given.
+
+The user shared an extensive RDF description of the Scottish Parliament from DBpedia. This includes various properties about the parliament, such as its class, committees, election dates, leadership, location, political parties, and more. They've also included a detailed structure for the CSV, specifying the columns: "Propriedade", "Tipo", "Valor".
+
+First, I should parse through each line of the RDF data to extract relevant information. Each line typically follows a subject-predicate-object structure. My goal is to translate this into rows suitable for a CSV.
+
+Looking at the sample output they provided, it seems they want each predicate (property) as a separate row with its value(s). For instance, "a" corresponds to types or classes, so I'll list each type separately under the "Tipo" column. Similarly, properties like "ns2:committeeInLegislature" will have their respective values.
+
+I need to handle multiple values correctly. Some predicates might have more than one object, and these should be listed in separate rows within the same CSV file. For example, the committees are listed as a list of URLs, each representing a different committee.
+
+Also, I must pay attention to the namespaces used here, like ns1, ns2, etc., and ensure that they're correctly referenced in the "Propriedade" column without confusion.
+
+Another point is maintaining consistency in data formatting. Values should be accurate, especially for dates or structured information. For example, the last election date is given as "2021-05-06", which I'll keep as-is unless instructed otherwise.
+
+I also notice that some properties have empty values or might need to be handled carefully. For instance, the leader4Type has an empty string, which I should represent appropriately in the CSV, perhaps with a note or left blank.
+
+Additionally, considering the user's final instruction, they want the CSV generated according to specific instructions and rules. Since there were no prior steps provided beyond this initial data extraction, I'll focus on accurately converting the given RDF into the specified CSV format without additional processing unless directed otherwise.
+
+Finally, after compiling all the necessary rows, I should review the CSV for any inconsistencies or errors, ensuring that each property is correctly mapped to its type and value as per the user's requirements.
+</think>
+
+Aqui está o arquivo CSV gerado com base nas instruções e regras fornecidas:
+
+```csv
+Propriedade,Tipo,Valor
+a,http://dbpedia.org/class/yago/Parliament108319198,
+a,http://dbpedia.org/class/yago/SocialGroup107950920,
+a,http://dbpedia.org/class/yago/WikicatNationalLegislatures,
+a,http://dbpedia.org/class/yago/WikicatParliamentsByCountry,
+a,http://dbpedia.org/class/yago/WikicatUnicameralLegislatures,
+ns2:Legislature,
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson,
+owl:Thing,
+ns2:committeeInLegislature,<http://dbpedia.org/resource/Audit>,
+ns2:committeeInLegislature,<http://dbpedia.org/resource/Culture_of_Scotland>,
+ns2:committeeInLegislature,<http://dbpedia.org/resource/Local_government_in_Scotland>,
+ns2:committeeInLegislature,<http://dbpedia.org/resource/Sport_in_Scotland>,
+ns2:committeeInLegislature,<http://dbpedia.org/resource/Tourism_in_Scotland>,
+ns2:lastElectionDate,,
+ns2:leader,<http://dbpedia.org/resource/Alison_Johnstone>,
+ns2:location,<http://dbpedia.org/resource/Scotland>,
+ns2:politicalPartyInLegislature,<http://dbpedia.org/resource/Third_Sturgeon_government>,
+ns1:backgroundColor,#500791,
+ns1:committees,Europe and External Relations,
+ns1:committees,Finance,
+ns1:committees,Health and Sport,
+ns1:committees,Justice,
+ns1:committees,Local Government and Communities,
+ns1:committees,Public Petitions,
+ns1:committees,Rural Affairs and Environment,
+ns1:commons,yes,
+ns1:commonsSearch,Scottish Parliament,
+ns1:d,yes,
+ns1:lastElection,2021-05-06,
+ns1:leader,<http://dbpedia.org/resource/George_Adam>,
+ns1:leader1Type,<http://dbpedia.org/resource/Presiding_Officer_of_the_Scottish_Parliament>,
+ns1:leader1Type,"",
+ns1:leader2Type,<http://dbpedia.org/resource/First_Minister_of_Scotland>,
+ns1:leader4Type,<http://dbpedia.org/resource/Opposition_Parties_of_the_Scottish_Parliament>,
+ns1:legislature,6,
+ns1:meetingPlace,<http://dbpedia.org/resource/Scottish_Parliament_Building>,
+ns1:meetingPlace,"Edinburgh, Scotland",
+ns1:nextElection,--05-07,
+ns1:party,<http://dbpedia.org/resource/Scottish_National_Party>,
+ns1:politicalGroups,Government,
+ns1:politicalGroups,"Opposition
+Other",
+ns1:portal,Scotland,
+ns1:structure,"Scottish-parliament.svg",
+ns1:structure1Alt,"Scottish Parliament composition",
+ns1:structure1Res,250,
+ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:About>,
+ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Infobox_legislature>,
+ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Legend>,
+ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Official_URL>,
+ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Scotland_topics>,
+ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Scottish_Governments>,
+ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Ubl>,
+ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Use_British_English>,
+ns1:wikiPageUsesTemplate,<http://dbpedia.org/resource/Template:Use_dmy_dates>,
+dcterms:subject,<http://dbpedia.org/resource/Category:Parliaments_by_country>,
+dcterms:subject,<http://dbpedia.org/resource/Category:Scottish_Parliament>,
+dcterms:subject,<http://dbpedia.org/resource/Category:Scottish_devolution>,
+dcterms:subject,<http://dbpedia.org/resource/Category:Unicameral_legislatures>,
+ns3:sameAs,<http://viaf.org/viaf/152958644>,
+foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/Debating_chamber,_Scottish_Parliament_(31-05-2006).jpg>,
+foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/Her_Majesty_Queen_Elizabeth_II_at_the_opening_of_the_Scottish_Parliament.jpg>,
+foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/MSP_Group_Shot_Dec2004-lg.jpg>,
+foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/ScottishParliamentFront.jpg>,
+foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/Scottish_Parliament_Act.jpg>,
+foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/Scottish_Parliament_Debating_Chamber_2.jpg>,
+foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/Scottish_Parliament_emblem.svg>,
+foaf:depiction,<http://commons.wikimedia.org/wiki/Special:FilePath/The_Queen_at_the_Scottish_Parliament.jpg>
+```
+
+Este arquivo CSV contém todas as propriedades e valores extraídos do RDF fornecido, formatados de acordo com as instruções dadas. Cada linha representa uma relação sujeito-predicado-objeto no formato "Propriedade,Tipo,Valor".
