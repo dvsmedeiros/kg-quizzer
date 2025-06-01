@@ -70,17 +70,24 @@ def salvar_execucao_csv(id_execucao, execucao, pasta_saida="execucao"):
 
         if not arquivo_existe:
             writer.writerow([
-                "id_cenario", "nome_cenario", "query_abstract",
-                "query_triplas", "fewshot", "triplas", "prompt", "numero_tokens", "max_tokens"
+                "id_cenario",
+                "nome_cenario",
+                #"query_abstract",
+                #"query_triplas",
+                #"fewshot",
+                #"triplas",
+                "prompt",
+                "numero_tokens",
+                "max_tokens"
             ])
 
         writer.writerow([
             execucao.get("id_cenario", ""),
             csv_escape(execucao.get("nome_cenario", "")),
-            csv_escape(execucao.get("query_abstract", "")),
-            csv_escape(execucao.get("query_triplas", "")),
-            csv_escape(execucao.get("fewshot", "")),
-            csv_escape(execucao.get("triplas", "")),
+            #csv_escape(execucao.get("query_abstract", "")),
+            #csv_escape(execucao.get("query_triplas", "")),
+            #csv_escape(execucao.get("fewshot", "")),
+            #csv_escape(execucao.get("triplas", "")),
             csv_escape(execucao.get("prompt", "")),
             execucao.get("numero_tokens", ""),
             execucao.get("max_tokens", "")
@@ -151,20 +158,20 @@ def extrair_csv_pergunta_resposta(texto):
 
 def formatar_qa_em_string(qa_por_topico):
     partes = []
-
+    #for i, item in enumerate(qa_por_topico, 1):
+    #    contexto = item.get("context", "").strip()
+    #    partes.append(f"\n{contexto}\n")
+    partes.append("pergunta;resposta")
     for i, item in enumerate(qa_por_topico, 1):
-        contexto = item.get("context", "").strip()
-        partes.append(f"Contexto {i}:\n{contexto}")
-
         for qa in item.get("qas", []):
             pergunta = qa.get("Pergunta", "").strip()
-            respostas = qa.get("Resposta", "").strip()
+            resposta = qa.get("Resposta", "").strip()
 
-            partes.append(pergunta)
-            for resposta in respostas.split(","):
-                partes.append(resposta.strip())
-        
-        partes.append("")  # linha em branco entre contextos
+            # Garante interrogação ao final da pergunta
+            if not pergunta.endswith("?"):
+                pergunta += "?"
+
+            partes.append(f"{pergunta};{resposta}")            
 
     return "\n".join(partes)
 

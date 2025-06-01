@@ -147,10 +147,11 @@ def verbalizar_triplas(triplas_rdf, caminho_csv    , idioma):
     
     return frases
   
-def gerar_prompt(cenario, qtd_triplas, limit, idioma):
+def gerar_prompt(cenario, qtd_few_shot, limit, idioma):
     topico = cenario["topico"]
     tecnica = cenario["tecnica"]
     formato = cenario.get("formato", None)
+    qtd_triplas = cenario.get("qtd_triplas", 0)
 
     # Consulta ao abstract com cache parametrizado por limit e idioma
     abstract = consultar_abstract(topico, idioma=idioma, limit=limit)
@@ -166,9 +167,10 @@ def gerar_prompt(cenario, qtd_triplas, limit, idioma):
     
     if tecnica == "few-shot":
         # Extrai few-shot do tópico fixo (pode ser ajustado futuramente)
-        fewshot = formatar_qa_em_string(consultar_qas(topico, 'resources/Squad.json'))
+        qas = consultar_qas(topico, 'resources/Squad.json', qtd_few_shot=qtd_few_shot)
+        fewshot = formatar_qa_em_string(qas)
 
-        logger.info(f"Few-shot: {len(fewshot)}")
+        logger.info(f"Few-shot: {len(qas)}")
 
         # Consulta e processa triplas
         grafo_original = consultar_triplas_em_rdf(topico, limit=limit, idioma=idioma)
@@ -228,7 +230,7 @@ def gerar_cenarios(topicos, modelos):
     top_ks = [40]                                       #["40", "80"]
     top_ps = [0.95]                                     #["0.85", "0.95"]
     formatos = ["RDF", "verbalizado"]
-    qtd_triplas = [100]                   #["10", "25", "50", "75", "100"]
+    qtd_triplas = [140]                                 #["10", "25", "50", "75", "100"]
 
     cenarios = []
 
@@ -272,11 +274,12 @@ def gerar_cenarios(topicos, modelos):
 
     return cenarios
 
-def consultar_qas(topico, caminho_arquivo):
+def consultar_qas(topico, caminho_arquivo, qtd_few_shot=10):
     with open(caminho_arquivo, 'r', encoding='utf-8') as f:
         dados = json.load(f)
 
     resultado_topico = []
+    total_qas = 0
 
     for entrada in dados['data']:
         if entrada['title'].lower() == topico.lower():
@@ -285,29 +288,28 @@ def consultar_qas(topico, caminho_arquivo):
                 qas_formatadas = []
 
                 for qa in paragrafo['qas']:
-                    # Ignora perguntas impossíveis
                     if qa.get('is_impossible', False):
                         continue
-
-                    # Coleta respostas, se existirem
                     respostas = [resp['text'] for resp in qa.get('answers', [])]
-                    
-                    # Ignora perguntas sem nenhuma resposta
                     if not respostas:
                         continue
-
                     respostas_str = ", ".join(respostas)
-
                     qas_formatadas.append({
                         "Pergunta": qa['question'],
                         "Resposta": respostas_str
                     })
-                
+                    total_qas += 1
+                    if total_qas >= qtd_few_shot:
+                        break
+
                 if qas_formatadas:
                     resultado_topico.append({
                         "context": contexto,
                         "qas": qas_formatadas
                     })
+
+                if total_qas >= qtd_few_shot:
+                    break
             break
 
     if not resultado_topico:
@@ -334,9 +336,9 @@ def main():
         base_url = f"http://127.0.0.1:{tunnel.get_local_port()}"
         logger.info(f"Túnel SSH ativo em {base_url}")
 
-        topicos_teste = [("Normans", "Normans", "Normandos")]
+        topicos_teste = [("Harvard_University", "Harvard_University", "Universidade_Harvard")]
         
-        cenarios = gerar_cenarios(topicos_teste, config.MODELOS)
+        cenarios = gerar_cenarios(config.TOPICOS, config.MODELOS)
         
         for i, cenario in enumerate(cenarios):
             
@@ -348,7 +350,7 @@ def main():
             logger.info(f"Execução: {id_execucao} | Cenário {id_cenario}/{len(cenarios)}: {cenario['nome']}")
             logger.info("-" * 80)
 
-            prompt, fewshot, triplas = gerar_prompt(cenario, qtd_triplas=100000, limit=10000, idioma="en")
+            prompt, fewshot, triplas = gerar_prompt(cenario, qtd_few_shot=10, limit=10000, idioma="en")
             num_tokens = contar_tokens_prompt(prompt, cenario['modelo'])
             max_tokens = cenario["max_tokens"]
             
@@ -372,10 +374,10 @@ def main():
             execucao = {
                 "id_cenario": id_cenario,
                 "nome_cenario": cenario["nome"],
-                "query_abstract": query_abstract(cenario['topico'], idioma="en"),
-                "query_triplas": query_triplas_relacionadas(cenario['topico'], limit=10000, idioma="en"),
-                "fewshot": fewshot,
-                "triplas": triplas,
+                #"query_abstract": query_abstract(cenario['topico'], idioma="en"),
+                #"query_triplas": query_triplas_relacionadas(cenario['topico'], limit=10000, idioma="en"),
+                #"fewshot": fewshot,
+                #"triplas": triplas,
                 "prompt": prompt,
                 "numero_tokens": num_tokens,
                 "max_tokens": max_tokens
