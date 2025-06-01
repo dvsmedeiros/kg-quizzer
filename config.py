@@ -10,12 +10,19 @@ A tarefa consiste em gerar **10 pares pergunta;resposta** no formato CSV:
 - **Separador**: ponto e vírgula (`;`)
 - **Saída**: apenas um CSV no formato `pergunta;resposta`
 
-Formato esperado:
+### Exemplo de formato esperado:
 ```
 pergunta;resposta
-pergunta 1;resposta 1
-...
-pergunta 10;resposta 10
+<pergunta 1>;<resposta 1>
+<pergunta 2>;<resposta 2>
+<pergunta 3>;<resposta 3>
+<pergunta 4>;<resposta 4>
+<pergunta 5>;<resposta 5>
+<pergunta 6>;<resposta 6>
+<pergunta 7>;<resposta 7>
+<pergunta 8>;<resposta 8>
+<pergunta 9>;<resposta 9>
+<pergunta 10>;<resposta 10>
 ```
 
 ### Contexto
@@ -38,13 +45,12 @@ A tarefa consiste em gerar **10 pares pergunta;resposta ** no formato CSV, conte
 - **Idioma** português
 - **Separador**: ponto e vírgula (`;`)  
 - **Saída**: apenas um CSV no formato `pergunta;resposta`.
+
+### Exemplo de formato esperado:
 ```
-pergunta;resposta
-pergunta 1;resposta 1
-pergunta 2;resposta 2
-...
-pergunta 10;resposta 10
+{fewshot}
 ```
+
 ### Regras:
 - Garanta que as perguntas sejam variadas e abrangentes ao contexto
 - Use o conteúdo abaixo (abstract, triplas e exemplos few-shot) como base de conhecimento.
@@ -57,14 +63,11 @@ pergunta 10;resposta 10
 ```
 {abstract}
 ```
-### Triplas
+### Fatos
 ```
 {triplas}
 ```
-### few-shot
-```
-{fewshot}
-```
+
 ---
 ## Instrução Final
 Gere agora o CSV conforme Instruções e Regras.
@@ -138,54 +141,54 @@ TOPICOS = [
 # https://ollama.com/library/llama3
 
 MODELOS = {
-    "codegemma:2b": {"max_tokens": 8000, "tokenizer": "google/codegemma-2b"},
-    "codegemma:7b": {"max_tokens": 8000, "tokenizer": "google/codegemma-2b"},
-    "codellama:13b": {"max_tokens": 16000, "tokenizer": "codellama/CodeLlama-7b-hf"},
-    "codellama:7b": {"max_tokens": 16000, "tokenizer": "codellama/CodeLlama-7b-hf"},
+    #"codegemma:2b": {"max_tokens": 8000, "tokenizer": "google/codegemma-2b"},
+    #"codegemma:7b": {"max_tokens": 8000, "tokenizer": "google/codegemma-2b"},
+    #"codellama:13b": {"max_tokens": 16000, "tokenizer": "codellama/CodeLlama-7b-hf"},
+    #"codellama:7b": {"max_tokens": 16000, "tokenizer": "codellama/CodeLlama-7b-hf"},
     "deepseek-r1:1.5b": {"max_tokens": 128000, "tokenizer": "deepseek-ai/deepseek-llm-7b-base"},
     "deepseek-r1:14b": {"max_tokens": 128000, "tokenizer": "deepseek-ai/deepseek-llm-7b-base"},
     "deepseek-r1:32b": {"max_tokens": 128000, "tokenizer": "deepseek-ai/deepseek-llm-7b-base"},
     "deepseek-r1:7b": {"max_tokens": 128000, "tokenizer": "deepseek-ai/deepseek-llm-7b-base"},
     "deepseek-r1:8b": {"max_tokens": 128000, "tokenizer": "deepseek-ai/deepseek-llm-7b-base"},
-    "dolphin3:8b": {"max_tokens": 128000, "tokenizer": "openchat/openchat-3.5-0106"},
+    # AUSENTTE "dolphin3:8b": {"max_tokens": 128000, "tokenizer": "openchat/openchat-3.5-0106"},
     "gemma3:12b": {"max_tokens": 128000, "tokenizer": "google/gemma-7b"},
     "gemma3:27b": {"max_tokens": 128000, "tokenizer": "google/gemma-7b"},
     "gemma3:4b": {"max_tokens": 128000, "tokenizer": "google/gemma-7b"},
     "granite3.1-dense:8b": {"max_tokens": 128000, "tokenizer": "mistralai/Mistral-7B-v0.1"},
-    "llama3:8b": {"max_tokens": 8000, "tokenizer": "meta-llama/Meta-Llama-3-8B"},
-    "llama3.2-vision:11b": {"max_tokens": 128000, "tokenizer": "meta-llama/Meta-Llama-3-8B"},
-    "llama3.2:3b": {"max_tokens": 128000, "tokenizer": "meta-llama/Meta-Llama-3-8B"},
-    "mistral-nemo:12b": {"max_tokens": 1000, "tokenizer": "mistralai/Mistral-7B-v0.1"},
-    "mistral-small:24b": {"max_tokens": 32000, "tokenizer": "mistralai/Mistral-7B-v0.1"},
-    "mistral-small3.1:24b": {"max_tokens": 128000, "tokenizer": "mistralai/Mistral-7B-v0.1"},
-    "mistral:7b": {"max_tokens": 32000, "tokenizer": "mistralai/Mistral-7B-v0.1"},
-    "openchat:7b": {"max_tokens": 8000, "tokenizer": "openchat/openchat-3.5-0106"},
-    "orca-mini:13b": {"max_tokens": 4000, "tokenizer": "microsoft/Phi-2"},
-    "orca-mini:3b": {"max_tokens": 2000, "tokenizer": "microsoft/Phi-2"},
-    "orca-mini:7b": {"max_tokens": 4000, "tokenizer": "microsoft/Phi-2"},
+    # AUSENTE "llama3:8b": {"max_tokens": 8000, "tokenizer": "meta-llama/Meta-Llama-3-8B"},
+    # AUSENTE "llama3.2-vision:11b": {"max_tokens": 128000, "tokenizer": "meta-llama/Meta-Llama-3-8B"},
+    # AUSENTE "llama3.2:3b": {"max_tokens": 128000, "tokenizer": "meta-llama/Meta-Llama-3-8B"},
+    #"mistral-nemo:12b": {"max_tokens": 1000, "tokenizer": "mistralai/Mistral-7B-v0.1"},
+    # AUSENTE "mistral-small:24b": {"max_tokens": 32000, "tokenizer": "mistralai/Mistral-7B-v0.1"},
+    # AUSENTE "mistral-small3.1:24b": {"max_tokens": 128000, "tokenizer": "mistralai/Mistral-7B-v0.1"},
+    # AUSENTE "mistral:7b": {"max_tokens": 32000, "tokenizer": "mistralai/Mistral-7B-v0.1"},
+    # AUSENTE "openchat:7b": {"max_tokens": 8000, "tokenizer": "openchat/openchat-3.5-0106"},
+    #"orca-mini:13b": {"max_tokens": 4000, "tokenizer": "microsoft/Phi-2"},
+    #"orca-mini:3b": {"max_tokens": 2000, "tokenizer": "microsoft/Phi-2"},
+    #"orca-mini:7b": {"max_tokens": 4000, "tokenizer": "microsoft/Phi-2"},
     "phi4:14b": {"max_tokens": 16000, "tokenizer": "microsoft/Phi-2"},
-    "qwen:4b": {"max_tokens": 128000, "tokenizer": "Qwen/Qwen1.5-7B"},
-    "qwen2.5-coder:0.5b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B-Chat"},
-    "qwen2.5-coder:1.5b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B-Chat"},
-    "qwen2.5-coder:14b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B-Chat"},
-    "qwen2.5-coder:32b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B-Chat"},
-    "qwen2.5-coder:3b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B-Chat"},
-    "qwen2.5-coder:7b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B-Chat"},
+    # "qwen:4b": {"max_tokens": 128000, "tokenizer": "Qwen/Qwen1.5-7B"},
+    #"qwen2.5-coder:0.5b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B-Chat"},
+    #"qwen2.5-coder:1.5b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B-Chat"},
+    #"qwen2.5-coder:14b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B-Chat"},
+    #"qwen2.5-coder:32b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B-Chat"},
+    #"qwen2.5-coder:3b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B-Chat"},
+    #"qwen2.5-coder:7b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B-Chat"},
     "qwen2.5:14b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B"},
     "qwen2.5:32b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B"},
     "qwen2.5:3b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B"},
-    "qwen2.5:7b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B"},
+    # AUSENTE "qwen2.5:7b": {"max_tokens": 32000, "tokenizer": "Qwen/Qwen1.5-7B"},
     "qwen3:14b": {"max_tokens": 40000, "tokenizer": "Qwen/Qwen1.5-7B"},
     "qwen3:30b": {"max_tokens": 40000, "tokenizer": "Qwen/Qwen1.5-7B"},
     "qwen3:32b": {"max_tokens": 40000, "tokenizer": "Qwen/Qwen1.5-7B"},
     "qwen3:4b": {"max_tokens": 40000, "tokenizer": "Qwen/Qwen1.5-7B"},
     "qwen3:8b": {"max_tokens": 40000, "tokenizer": "Qwen/Qwen1.5-7B"},
-    "qwq:32b": {"max_tokens": 40000, "tokenizer": "Qwen/Qwen1.5-7B"},
-    "starcoder2:15b": {"max_tokens": 16000, "tokenizer": "bigcode/starcoder2-7b"},
-    "starcoder2:3b": {"max_tokens": 16000, "tokenizer": "bigcode/starcoder2-7b"},
-    "starcoder2:7b": {"max_tokens": 16000, "tokenizer": "bigcode/starcoder2-7b"},
-    "sabia-3.1": {"max_tokens": 128000, "tokenizer": "maritaca-ai/sabia-7b"},
-    "sabia-3": {"max_tokens": 128000, "tokenizer": "maritaca-ai/sabia-7b"},
-    "sabiazinho-3": {"max_tokens": 128000, "tokenizer": "maritaca-ai/sabia-7b"},
+    # "qwq:32b": {"max_tokens": 40000, "tokenizer": "Qwen/Qwen1.5-7B"},
+    #"starcoder2:15b": {"max_tokens": 16000, "tokenizer": "bigcode/starcoder2-7b"},
+    #"starcoder2:3b": {"max_tokens": 16000, "tokenizer": "bigcode/starcoder2-7b"},
+    #"starcoder2:7b": {"max_tokens": 16000, "tokenizer": "bigcode/starcoder2-7b"},
+    #"sabia-3.1": {"max_tokens": 128000, "tokenizer": "maritaca-ai/sabia-7b"},
+    #"sabia-3": {"max_tokens": 128000, "tokenizer": "maritaca-ai/sabia-7b"},
+    #"sabiazinho-3": {"max_tokens": 128000, "tokenizer": "maritaca-ai/sabia-7b"},
 }
 
