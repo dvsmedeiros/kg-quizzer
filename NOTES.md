@@ -239,13 +239,15 @@ Armazena os **metadados e logs da execução**.
 Arquivo: `<id_execucao>.log`
 Conteúdo: mensagens de log com o fluxo geral da execução, tokens utilizados, status dos modelos e falhas (se houver).
 
+Exemplo: [`5ad0e5d5_execucao.log`](/execucao/5ad0e5d5/5ad0e5d5_execucao.log)
+
 **CSV com os parâmetros utilizados nos prompts**
 Arquivo: `<id_execucao>_execucao.csv`
 Colunas:
 |`id_cenario`|`nome_cenario`|`query_abstract`|`query_triplas`|`fewshot`|`triplas`|`prompt`|`numero_tokens`|`max_tokens`|
 |------------|--------------|----------------|---------------|---------|---------|--------|---------------|------------|
 
-Exemplo: [`7c0f1e9a_execucao.csv`](execucao/7c0f1e9a/7c0f1e9a_execucao.csv)
+Exemplo: [`5ad0e5d5_execucao.csv`](/execucao/5ad0e5d5/5ad0e5d5_execucao.csv)
 
 ---
 
@@ -255,14 +257,14 @@ Armazena os **resultados gerados por cenário**, com base no modelo LLM e parâm
 
 Para cada cenário executado, são gerados:
 
-**Arquivo `.txt` com a resposta bruta do modelo**
+**Arquivo `.txt` com a resposta bruta do modelo**F
   - Conteúdo: resposta completa sem pós-processamento
-  - Exemplo: [`7c0f1e9a_1_Normans_zero-shot_NA_NA_codegemma:2b_0.7_0.95_40.txt`](resultado/7c0f1e9a/7c0f1e9a_1_Normans_zero-shot_NA_NA_codegemma:2b_0.7_0.95_40.txt)
+  - Exemplo: [`5ad0e5d5_1004_Ctenophora_few-shot_RDF_140_phi4%3A14b_0.7_0.95_40.txt`](https://github.com/dvsmedeiros/qa-prompt-kg/blob/main/resultado/5ad0e5d5/5ad0e5d5_1004_Ctenophora_few-shot_RDF_140_phi4%3A14b_0.7_0.95_40.txt)
 
 **Arquivo `.csv` com perguntas e respostas extraídas**
   - Formato: `pergunta;resposta`
   - Utilizado em análises e métricas de qualidade.
-  - Exemplo: [`7c0f1e9a_1_Normans_zero-shot_NA_NA_codegemma:2b_0.7_0.95_40.csv`](resultado/7c0f1e9a/7c0f1e9a_1_Normans_zero-shot_NA_NA_codegemma:2b_0.7_0.95_40.csv)
+  - Exemplo: [`5ad0e5d5_1004_Ctenophora_few-shot_RDF_140_phi4%3A14b_0.7_0.95_40.csv`](https://github.com/dvsmedeiros/qa-prompt-kg/blob/main/resultado/5ad0e5d5/5ad0e5d5_1004_Ctenophora_few-shot_RDF_140_phi4%3A14b_0.7_0.95_40.csv)
 
 ---
 
