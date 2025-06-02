@@ -6,7 +6,7 @@
 | Técnica                   | `zero-shot`, `few-shot`                            | 2              |
 | Formato (few-shot)        | `RDF`, `verbalizado`                               | 2              |
 | Qtd. de triplas (few-shot)| fixo                                               | 1              |
-| Modelos                   | 12 modelos selecionados, incluindo o `sabiá`       | 12             |
+| Modelos                   | 18 modelos selecionados                            | 18             |
 | `temperature`             | 0.7                                                | 1              |
 | `top-k`                   | 40                                                 | 1              |
 | `top-p`                   | 0.95                                               | 1              |
@@ -57,15 +57,15 @@
 
 #### Zero-shot
 $$
-\text{Zero-shot} = T_{\text{pt}} \times (\text{modelos}) = 35 \times 12 = \boxed{420}
+\text{Zero-shot} = T_{\text{pt}} \times (\text{modelos}) = 35 \times 18 = \boxed{630}
 $$
 #### Few-shot
 $$
-\text{Few-shot} = T_{\text{pt}} \times (\text{formatos} \times \text{modelos}) = 35 \times (2 \times 12) = \boxed{840}
+\text{Few-shot} = T_{\text{pt}} \times (\text{formatos} \times \text{modelos}) = 35 \times (2 \times 18) = \boxed{1260}
 $$
 #### Total de Cenários
 $$
-\text{Total} = 420 + 840 = \boxed{1,260}
+\text{Total} = 630 + 1260 = \boxed{1,890}
 $$
 #### Fórmula Paramétrica
 $$
@@ -75,94 +75,94 @@ $$
 ## Critérios para Seleção dos Modelos
 
 A escolha dos modelos LLMs utilizados no experimento considerou os seguintes fatores:
-- Diversidade arquitetural: foram selecionados modelos de diferentes famílias (Qwen, LLaMA, Phi, DeepSeek, etc.) para evitar viés arquitetural específico.
-- Porte variado: os modelos foram classificados em três categorias – pequeno (≤ 4B), médio (5B–14B), grande (até 32B) – garantindo uma análise comparativa entre diferentes capacidades de processamento.
-- Tamanho mínimo do contexto: apenas modelos com suporte a pelo menos 8.000 tokens de contexto foram considerados, visando garantir que os prompts e dados estruturados pudessem ser processados de forma completa.
-- Limite superior de 32B: esse valor foi adotado como teto devido a restrições práticas de execução local e custo computacional. Modelos acima disso foram excluídos.
-- Disponibilidade local (offline): todos os modelos utilizados estão disponíveis em ambientes controlados, sem depender de APIs externas, o que garante reprodutibilidade e controle de custos.
-- Representatividade nacional: o modelo brasileiro sabiá-3 foi incluído para representar soluções locais e avaliar seu desempenho em língua portuguesa.
-- Foco geralista: modelos explicitamente otimizados para tarefas de programação ou geração de código foram desconsiderados, priorizando aqueles com capacidades generalistas em linguagem natural.
+1. Diversidade arquitetural: foram selecionados modelos de diferentes famílias (Qwen, LLaMA, Phi, DeepSeek, etc.) para evitar viés arquitetural específico.
+2. Porte variado: os modelos foram classificados em três categorias – pequeno (≤ 4B), médio (5B–14B), grande (até 32B) – garantindo uma análise comparativa entre diferentes capacidades de processamento.
+3. Tamanho mínimo do contexto: apenas modelos com suporte a pelo menos 8.000 tokens de contexto foram considerados, visando garantir que os prompts e dados estruturados pudessem ser processados de forma completa.
+4. Limite superior de 32B: esse valor foi adotado como teto devido a restrições práticas de execução local e custo computacional. Modelos acima disso foram excluídos.
+5. Disponibilidade~~ local (offline): todos os modelos utilizados estão disponíveis em ambientes controlados, sem depender de APIs externas, o que garante reprodutibilidade e controle de custos.
+6. Representatividade nacional: o modelo brasileiro sabiá-3 foi incluído para representar soluções locais e avaliar seu desempenho em língua portuguesa.
+7. Foco geralista: modelos explicitamente otimizados para tarefas de programação ou geração de código foram desconsiderados, priorizando aqueles com capacidades generalistas em linguagem natural.
 
 ## Lista de Modelos Selecionados *(FALTA FILTRAR)*
 
-| ##  | **Nome**                      | **max_tokens** | **Tokenizer**                         |
-|----|-------------------------------|----------------|----------------------------------------|
-| 1  | codegemma:2b                  | 8000           | google/codegemma-2b                   |
-| 2  | codegemma:7b                  | 8000           | google/codegemma-2b                   |
-| 3  | codellama:13b                 | 16000          | codellama/CodeLlama-7b-hf             |
-| 4  | codellama:7b                  | 16000          | codellama/CodeLlama-7b-hf             |
-| 5  | deepseek-r1:1.5b             | 128000         | deepseek-ai/deepseek-llm-7b-base      |
-| 6  | deepseek-r1:14b              | 128000         | deepseek-ai/deepseek-llm-7b-base      |
-| 7  | deepseek-r1:32b              | 128000         | deepseek-ai/deepseek-llm-7b-base      |
-| 8  | deepseek-r1:7b               | 128000         | deepseek-ai/deepseek-llm-7b-base      |
-| 9  | deepseek-r1:8b               | 128000         | deepseek-ai/deepseek-llm-7b-base      |
-| 10 | dolphin3:8b                  | 128000         | openchat/openchat-3.5-0106            |
-| 11 | gemma3:12b                   | 128000         | google/gemma-7b                       |
-| 12 | gemma3:27b                   | 128000         | google/gemma-7b                       |
-| 13 | gemma3:4b                    | 128000         | google/gemma-7b                       |
-| 14 | granite3.1-dense:8b          | 128000         | mistralai/Mistral-7B-v0.1             |
-| 15 | llama3:8b                    | 8000           | meta-llama/Meta-Llama-3-8B            |
-| 16 | llama3.2-vision:11b          | 128000         | meta-llama/Meta-Llama-3-8B            |
-| 17 | llama3.2:3b                  | 128000         | meta-llama/Meta-Llama-3-8B            |
-| 18 | mistral-nemo:12b             | 1000           | mistralai/Mistral-7B-v0.1             |
-| 19 | mistral-small:24b            | 32000          | mistralai/Mistral-7B-v0.1             |
-| 20 | mistral-small3.1:24b         | 128000         | mistralai/Mistral-7B-v0.1             |
-| 21 | mistral:7b                   | 32000          | mistralai/Mistral-7B-v0.1             |
-| 22 | openchat:7b                  | 8000           | openchat/openchat-3.5-0106            |
-| 23 | orca-mini:13b                | 4000           | microsoft/Phi-2                      |
-| 24 | orca-mini:3b                 | 2000           | microsoft/Phi-2                      |
-| 25 | orca-mini:7b                 | 4000           | microsoft/Phi-2                      |
-| 26 | phi4:14b                     | 16000          | microsoft/Phi-2                      |
-| 27 | qwen:4b                      | 128000         | Qwen/Qwen1.5-7B                       |
-| 28 | qwen2.5-coder:0.5b           | 32000          | Qwen/Qwen1.5-7B-Chat                  |
-| 29 | qwen2.5-coder:1.5b           | 32000          | Qwen/Qwen1.5-7B-Chat                  |
-| 30 | qwen2.5-coder:14b            | 32000          | Qwen/Qwen1.5-7B-Chat                  |
-| 31 | qwen2.5-coder:32b            | 32000          | Qwen/Qwen1.5-7B-Chat                  |
-| 32 | qwen2.5-coder:3b             | 32000          | Qwen/Qwen1.5-7B-Chat                  |
-| 33 | qwen2.5-coder:7b             | 32000          | Qwen/Qwen1.5-7B-Chat                  |
-| 34 | qwen2.5:14b                  | 32000          | Qwen/Qwen1.5-7B                       |
-| 35 | qwen2.5:32b                  | 32000          | Qwen/Qwen1.5-7B                       |
-| 36 | qwen2.5:3b                   | 32000          | Qwen/Qwen1.5-7B                       |
-| 37 | qwen2.5:7b                   | 32000          | Qwen/Qwen1.5-7B                       |
-| 38 | qwen3:14b                    | 40000          | Qwen/Qwen1.5-7B                       |
-| 39 | qwen3:30b                    | 40000          | Qwen/Qwen1.5-7B                       |
-| 40 | qwen3:32b                    | 40000          | Qwen/Qwen1.5-7B                       |
-| 41 | qwen3:4b                     | 40000          | Qwen/Qwen1.5-7B                       |
-| 42 | qwen3:8b                     | 40000          | Qwen/Qwen1.5-7B                       |
-| 43 | qwq:32b                      | 40000          | Qwen/Qwen1.5-7B                       |
-| 44 | starcoder2:15b              | 16000          | bigcode/starcoder2-7b                |
-| 45 | starcoder2:3b               | 16000          | bigcode/starcoder2-7b                |
-| 46 | starcoder2:7b               | 16000          | bigcode/starcoder2-7b                |
-| 47 | sabia-3.1                   | 128000         | maritaca-ai/sabia-7b                  |
-| 48 | sabia-3                     | 128000         | maritaca-ai/sabia-7b                  |
-| 49 | sabiazinho-3                | 128000         | maritaca-ai/sabia-7b                  |
+| #  | **Nome**                       | **Tamanho do Contexto**   | **Tokenizer**                         |**Status**     |**Observação**|
+|----|--------------------------------|---------------------------|---------------------------------------|---------------|--------------| 
+| 1  | ~~codegemma:2b~~               | 8000                      | google/codegemma-2b                   |Excluído       |Critério 7    |
+| 2  | ~~codegemma:7b~~               | 8000                      | google/codegemma-2b                   |Excluído       |Critério 7    |
+| 3  | ~~codellama:13b~~              | 16000                     | codellama/CodeLlama-7b-hf             |Excluído       |Critério 7    |
+| 4  | ~~codellama:7b~~               | 16000                     | codellama/CodeLlama-7b-hf             |Excluído       |Critério 7    |
+| 5  | deepseek-r1:1.5b               | 128000                    | deepseek-ai/deepseek-llm-7b-base      |Elegível       |              |
+| 6  | deepseek-r1:14b                | 128000                    | deepseek-ai/deepseek-llm-7b-base      |Elegível       |              |
+| 7  | deepseek-r1:32b                | 128000                    | deepseek-ai/deepseek-llm-7b-base      |Elegível       |              |
+| 8  | deepseek-r1:7b                 | 128000                    | deepseek-ai/deepseek-llm-7b-base      |Elegível       |              |
+| 9  | deepseek-r1:8b                 | 128000                    | deepseek-ai/deepseek-llm-7b-base      |Elegível       |              |
+| 10 | ~~dolphin3:8b~~                | 128000                    | openchat/openchat-3.5-0106            |Indisponível   |              |
+| 11 | gemma3:12b                     | 128000                    | google/gemma-7b                       |Elegível       |              |
+| 12 | gemma3:27b                     | 128000                    | google/gemma-7b                       |Elegível       |              |
+| 13 | gemma3:4b                      | 128000                    | google/gemma-7b                       |Elegível       |              |
+| 14 | granite3.1-dense:8b            | 128000                    | mistralai/Mistral-7B-v0.1             |Elegível       |              |
+| 15 | ~~llama3:8b~~                  | 8000                      | meta-llama/Meta-Llama-3-8B            |Indisponível   |              |
+| 16 | ~~llama3.2~~-vision:11b        | 128000                    | meta-llama/Meta-Llama-3-8B            |Indisponível   |              |
+| 17 | ~~llama3.2~~:3b                | 128000                    | meta-llama/Meta-Llama-3-8B            |Indisponível   |              |
+| 18 | ~~mistral-nemo~~:12b           | 1000                      | mistralai/Mistral-7B-v0.1             |Excluído       |Critério 3    |
+| 19 | ~~mistral-small~~:24b          | 32000                     | mistralai/Mistral-7B-v0.1             |Indisponível   |              |
+| 20 | ~~mistral-small3~~.1:24b       | 128000                    | mistralai/Mistral-7B-v0.1             |Indisponível   |              |
+| 21 | ~~mistral:7b~~                 | 32000                     | mistralai/Mistral-7B-v0.1             |Indisponível   |              |
+| 22 | ~~openchat:7b~~                | 8000                      | openchat/openchat-3.5-0106            |Indisponível   |              |
+| 23 | ~~orca-mini~~:13b              | 4000                      | microsoft/Phi-2                       |Excluído       |Critério 3    |
+| 24 | ~~orca-mini~~:3b               | 2000                      | microsoft/Phi-2                       |Excluído       |Critério 3    |
+| 25 | ~~orca-mini~~:7b               | 4000                      | microsoft/Phi-2                       |Excluído       |Critério 3    |
+| 26 | phi4:14b                       | 16000                     | microsoft/Phi-2                       |Elegível       |              |
+| 27 | ~~qwen:4b~~                    | 128000                    | Qwen/Qwen1.5-7B                       |Indisponível   |              |
+| 28 | ~~qwen2.5~~-coder:0.5b         | 32000                     | Qwen/Qwen1.5-7B-Chat                  |Excluído       |Critério 7    |
+| 29 | ~~qwen2.5~~-coder:1.5b         | 32000                     | Qwen/Qwen1.5-7B-Chat                  |Excluído       |Critério 7    |
+| 30 | ~~qwen2.5~~-coder:14b          | 32000                     | Qwen/Qwen1.5-7B-Chat                  |Excluído       |Critério 7    |
+| 31 | ~~qwen2.5~~-coder:32b          | 32000                     | Qwen/Qwen1.5-7B-Chat                  |Excluído       |Critério 7    |
+| 32 | ~~qwen2.5~~-coder:3b           | 32000                     | Qwen/Qwen1.5-7B-Chat                  |Excluído       |Critério 7    |
+| 33 | ~~qwen2.5~~-coder:7b           | 32000                     | Qwen/Qwen1.5-7B-Chat                  |Excluído       |Critério 7    |
+| 34 | qwen2.5:14b                    | 32000                     | Qwen/Qwen1.5-7B                       |Elegível       |              |
+| 35 | qwen2.5:32b                    | 32000                     | Qwen/Qwen1.5-7B                       |Elegível       |              |
+| 36 | qwen2.5:3b                     | 32000                     | Qwen/Qwen1.5-7B                       |Elegível       |              |
+| 37 | ~~qwen2.5~~:7b                 | 32000                     | Qwen/Qwen1.5-7B                       |Indisponível   |              |
+| 38 | qwen3:14b                      | 40000                     | Qwen/Qwen1.5-7B                       |Elegível       |              |
+| 39 | qwen3:30b                      | 40000                     | Qwen/Qwen1.5-7B                       |Elegível       |              |
+| 40 | qwen3:32b                      | 40000                     | Qwen/Qwen1.5-7B                       |Elegível       |              |
+| 41 | qwen3:4b                       | 40000                     | Qwen/Qwen1.5-7B                       |Elegível       |              |
+| 42 | qwen3:8b                       | 40000                     | Qwen/Qwen1.5-7B                       |Elegível       |              |
+| 43 | ~~qwq:32b~~                    | 40000                     | Qwen/Qwen1.5-7B                       |Indisponível   |              |
+| 44 | ~~starcoder2:15b~~             | 16000                     | bigcode/starcoder2-7b                 |Excluído       |Critério 7    |
+| 45 | ~~starcoder2:3b~~              | 16000                     | bigcode/starcoder2-7b                 |Excluído       |Critério 7    |
+| 46 | ~~starcoder2:7b~~              | 16000                     | bigcode/starcoder2-7b                 |Excluído       |Critério 7    |
+| 47 | sabia-3.1                      | 128000                    | maritaca-ai/sabia-7b                  |Judge          |              |
+| 48 | sabia-3                        | 128000                    | maritaca-ai/sabia-7b                  |Judge          |              |
+| 49 | sabiazinho-3                   | 128000                    | maritaca-ai/sabia-7b                  |Judge          |              |
 
 ## Critérios para Definição dos Hiperparâmetros
 Apenas uma configuração foi escolhida para garantir consistência e limitar o espaço amostral. O valor 0.7 oferece um bom equilíbrio entre diversidade e estabilidade.
 
-- temperature = 0.7: valor moderado, que oferece um bom compromisso entre criatividade e coerência nas respostas.
-- top-k = 40: foco nos tokens de maior probabilidade, reduzindo ruído sem eliminar diversidade.
-- top-p = 0.95: sampling por núcleo com margem de diversidade maior, evitando repetições sem comprometer a qualidade.
+1. temperature = 0.7: valor moderado, que oferece um bom compromisso entre criatividade e coerência nas respostas.
+2. top-k = 40: foco nos tokens de maior probabilidade, reduzindo ruído sem eliminar diversidade.
+3. top-p = 0.95: sampling por núcleo com margem de diversidade maior, evitando repetições sem comprometer a qualidade.
 
 ## Critério para Quantidade de Triplas nos cenários (Few-shot)
 
 Para as execuções com técnica few-shot, a quantidade de triplas RDF incluídas no prompt foi definida com base na capacidade de contexto dos modelos utilizados no experimento:
 
-- O tamanho mínimo de contexto considerado é de 8.000 tokens e o máximo é de 128.000 tokens, conforme os limites suportados por cada modelo.
-- Uma reserva de tokens é alocada para instruções, contexto textual (instruções, abstract, formato de resposta), sendo o restante destinado à inclusão de triplas RDF.
-- O parâmetro limite_triplas define o número máximo de triplas a serem incluídas, respeitando o espaço disponível em cada execução.
-- Quando a quantidade total de triplas exceder o limite do contexto disponível, serão selecionadas até atingir o limite de contexto as triplas conforme a ordem original retornada pela consulta SPARQL.
-- O objetivo é maximizar o uso do contexto sem ultrapassá-lo, garantindo compatibilidade com todos os modelos avaliados.
+1. O tamanho mínimo de contexto considerado é de 8.000 tokens e o máximo é de 128.000 tokens, conforme os limites suportados por cada modelo.
+2. Uma reserva de tokens é alocada para instruções, contexto textual (instruções, abstract, formato de resposta), sendo o restante destinado à inclusão de triplas RDF.
+3. O parâmetro limite_triplas define o número máximo de triplas a serem incluídas, respeitando o espaço disponível em cada execução.
+4. Quando a quantidade total de triplas exceder o limite do contexto disponível, serão selecionadas até atingir o limite de contexto as triplas conforme a ordem original retornada pela consulta SPARQL.
+5. O objetivo é maximizar o uso do contexto sem ultrapassá-lo, garantindo compatibilidade com todos os modelos avaliados.
 
 ## Critério para Quantidade de Few-shots (exemplos SQuAD)
 
 Os exemplos few-shot com perguntas e respostas (fonte: SQuAD) inseridos no prompt seguem os seguintes critérios:
 
-- Selecionar apenas os exemplos cujo tópico (title) seja igual ao do cenário.
-- Filtrar exemplos com perguntas válidas e que possuam ao menos uma resposta.
-- A seleção é realizada diretamente a partir do segmento title['topico']['paragraphs'][0]["qas"][:10], ou seja, os primeiros 10 pares disponíveis são utilizados.
-- O valor 10 foi escolhido por ser compatível com o número de perguntas e respostas utilizadas posteriormente na avaliação automática do modelo (prompt-as-judge), garantindo consistência entre treino e avaliação.
-- A quantidade final de exemplos pode ser ajustada para não exceder o limite de contexto do menor modelo envolvido no experimento.
+1. Selecionar apenas os exemplos cujo tópico (title) seja igual ao do cenário.
+2. Filtrar exemplos com perguntas válidas e que possuam ao menos uma resposta.
+3. A seleção é realizada diretamente a partir do segmento title['topico']['paragraphs'][0]["qas"][:10], ou seja, os primeiros 10 pares disponíveis são utilizados.
+4. O valor 10 foi escolhido por ser compatível com o número de perguntas e respostas utilizadas posteriormente na avaliação automática do modelo (prompt-as-judge), garantindo consistência entre treino e avaliação.
+5. A quantidade final de exemplos pode ser ajustada para não exceder o limite de contexto do menor modelo envolvido no experimento.
 
 ## Consulta por Termos em Inglês (Tradução)
 
@@ -196,7 +196,7 @@ Esse processo garantiu que o modelo pudesse receber uma representação legível
 ## Predicados Semanticamente Irrelevantes
 
 Classificamos alguns predicados semanticamente irrelevantes ao contexto, por não contribuírem diretamente para o entendimento conceitual das entidades descritas. Esses predicados incluem metadados técnicos, descritores auxiliares, links de redirecionamento ou equivalência e coordenadas geográficas. Eles são filtrados diretamente nas consultas SPARQL de triplas RDF para garantir que apenas relações semanticamente informativas sejam incluídas no contexto.
-Em particular, o predicado dbo:abstract foi excluído das consultas de triplas porque seu conteúdo já é recuperado integralmente em uma consulta separada e incorporado ao contexto.
+Em particular, o predicado dbo~~:abstract foi excluído das consultas de triplas porque seu conteúdo já é recuperado integralmente em uma consulta separada e incorporado ao contexto.
 
 | #  | Predicado                      | Classificação     |
 |----|--------------------------------|-------------------|
