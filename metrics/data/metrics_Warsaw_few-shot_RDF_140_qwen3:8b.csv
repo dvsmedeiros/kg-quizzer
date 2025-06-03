@@ -1,0 +1,6 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+Wait, looking at the line:,0.0,1.0,1.0,0.000,2.0,3.01273,1.0,0.000
+Now, the main steps are:,0.0,1.0,1.0,0.000,2.0,3.01273,1.0,0.000
+- Lines that have multiple predicates and objects, separated by semicolons or commas. Need to split each predicate-object pair correctly.,3.5,4.10211,1.0,0.000,2.4375,5.20226,1.0,0.000
+- Properly handling the foaf:depiction line which has two URLs, so splitting them into two rows.,3.0,4.82961,1.0,0.000,2.42857,3.79304,1.0,0.000
+Now, I'll proceed to generate the CSV accordingly.,0.0,1.0,1.0,0.000,3.1,4.37319,1.0,0.000

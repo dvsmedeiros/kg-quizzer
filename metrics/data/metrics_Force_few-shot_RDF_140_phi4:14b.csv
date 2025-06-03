@@ -1,0 +1,5 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+1. **Identificar Entidades e Relacionamentos**: O texto contém entidades do tipo Force associadas a diferentes forças ou unidades específicas, além da relação com o Newton_(unit).,1.3587,6.69635,0.86364,0.125,2.27273,4.10211,1.0,0.333
+   - Para cada linha, identificar a entidade (`Entity`) e o hiperônimo associado (`Hypernym`).,0.75,2.50045,1.0,1.000,3.55556,4.61384,1.0,0.167
+  - `Quantity` indica se há uma associação direta com Force através de Newton (unit), marcada por uma quantidade (`1` aqui representa essa relação).,1.55556,5.36491,1.0,0.125,2.71429,4.61384,1.0,0.500
+  - Linhas de metadados e relacionamentos irrelevantes para o CSV foram excluídas, focando somente nos dados estruturais necessários.,2.08333,5.02467,1.0,0.000,2.42857,3.79304,1.0,0.200

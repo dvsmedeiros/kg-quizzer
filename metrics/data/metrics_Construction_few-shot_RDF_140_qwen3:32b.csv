@@ -1,0 +1,26 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+- If the object is a single literal or URI, create one row.,1.8,4.61384,1.0,0.444,1.25,2.50045,1.0,0.000
+<subject> <predicate> object1, object2 .,0.0,1.0,1.0,0.000,0.5,1.0,1.0,0.000
+Thus, the code can be structured as follows:,0.0,1.0,1.0,0.000,2.375,4.10211,1.0,0.000
+3. For each triple, extract the predicate and object.,0.75,3.01273,1.0,0.000,2.5,3.43523,1.0,0.000
+Now, putting this into code.,0.0,1.0,1.0,0.000,1.6,3.01273,1.0,0.000
+First, import necessary modules:,0.0,1.0,1.0,0.000,1.25,2.50045,1.0,0.000
+from rdflib import URIRef, Namespace,1.5,3.01273,1.0,0.000,0.0,1.0,1.0,0.000
+Now, read the Turtle data:,0.0,1.0,1.0,0.000,2.0,3.01273,1.0,0.250
+result = g.parse(data, format='turtle'),2.5,2.50045,1.0,0.333,1.83333,1.85566,1.0,0.000
+Then, query all triples where the subject is http://dbpedia.org/resource/Construction.,0.0,1.0,1.0,0.000,4.53846,4.61384,1.0,0.000
+    object_type = 'URI' if isinstance(o, URIRef) else 'Literal',1.66667,3.43523,1.0,0.000,1.16667,2.50045,1.0,0.000
+Now, testing with the given Turtle data:,0.0,1.0,1.0,0.000,3.0,3.79304,1.0,0.167
+Now, implement this in Python.,0.0,1.0,1.0,0.000,1.6,3.01273,1.0,0.000
+But the user wants the code in a code block, and the CSV output as a text block.,4.5,5.12344,0.8,0.400,2.11111,4.37319,1.0,0.500
+from rdflib import URIRef, Namespace,1.5,3.01273,1.0,0.000,0.0,1.0,1.0,0.000
+g.parse(data=data, format='turtle'),2.5,1.85566,1.0,0.000,1.83333,1.85566,1.0,0.000
+    if isinstance(o, URIRef):,1.5,2.50045,1.0,0.000,1.0,1.0,1.0,0.000
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames),1.85714,2.50045,1.0,0.000,1.5,1.0,1.0,0.000
+Now, testing this code with the given Turtle data.,0.0,1.0,1.0,0.000,3.33333,4.37319,1.0,0.125
+The wikiPageUsesTemplate has two URIs, so two rows.,2.0,3.43523,1.0,0.000,1.25,2.50045,1.0,0.000
+Thus, the code as written should produce the correct CSV.,0.0,1.0,1.0,0.000,2.7,4.75438,0.88889,0.000
+from rdflib import URIRef, Namespace,1.5,3.01273,1.0,0.000,0.0,1.0,1.0,0.000
+g.parse(data=data, format='turtle'),2.5,1.85566,1.0,0.000,1.83333,1.85566,1.0,0.000
+    object_type = 'URI' if isinstance(o, URIRef) else 'Literal',1.66667,3.43523,1.0,0.000,1.16667,2.50045,1.0,0.000
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames),1.85714,2.50045,1.0,0.000,1.5,1.0,1.0,0.000

@@ -1,0 +1,87 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+Looking at the data, for example:,1.5,3.01273,1.0,0.250,1.0,1.85566,1.0,0.000
+So yes, the object is the Pharmacy resource. So each of these triples will be a row in the CSV with the entity and the predicate.,0.5,1.85566,1.0,0.000,3.76316,6.94911,0.83333,0.167
+Now, I need to go through all the triples provided and extract the entities and their relations. Let's start by listing each entity and their corresponding predicate.,0.0,1.0,1.0,0.000,5.819,7.13227,0.85185,0.037
+2. For each such triple, take the subject (entity) and the predicate.,1.0,3.43523,1.0,0.000,4.5,4.25402,0.85714,0.000
+Now, I need to extract all such triples from the provided data.,0.0,1.0,1.0,0.000,5.5,5.02467,1.0,0.091
+This becomes Revco,ns2:product,1.0,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+ Pierre Joseph Pelletier,ns2:academicDiscipline,1.0,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+Oleksandr Tikhonov,ns2:academicDiscipline,0.5,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+Oleksandr Tikhonov,ns1:fields,0.5,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+Now, need to go through all the triples in the provided data and extract these.,0.0,1.0,1.0,0.000,6.2,5.63172,0.92857,0.071
+For example, <http://dbpedia.org/resource/New_England_Compounding_Center> becomes New England Compounding Center.,0.5,1.85566,1.0,0.000,2.0,3.43523,1.0,0.000
+1. For each subject in the triples, extract the part after http://dbpedia.org/resource/.,1.5,4.10211,1.0,0.000,3.2,3.79304,1.0,0.000
+3. The predicate is as is, using the full namespace or abbreviation as present in the data.,0.75,3.95066,0.83333,0.000,2.83333,5.1549,0.90909,0.091
+Now, let's process each triple in the provided data.,0.0,1.0,1.0,0.000,3.54545,4.61384,1.0,0.222
+Looking at the data, the first triple is:,1.5,3.01273,1.0,0.250,2.0,3.01273,1.0,0.000
+So entity is Revco, relation is ns2:product.,1.5,3.01273,1.0,0.000,2.0,3.01273,1.0,0.000
+Entity: Pierre Joseph Pelletier, relation: ns2:academicDiscipline.,1.2,3.01273,1.0,0.000,2.16667,2.50045,1.0,0.000
+Entity: Oleksandr Tikhonov, relation: ns2:academicDiscipline.,1.0,2.50045,1.0,0.000,2.16667,2.50045,1.0,0.000
+Now, proceeding to extract all such triples.,0.0,1.0,1.0,0.000,2.42857,3.79304,1.0,0.000
+Entity: Revue d'Histoire de la Pharmacie, relation: ns1:discipline.,1.55556,4.10211,1.0,0.286,2.16667,2.50045,1.0,0.000
+Entity: Rite Aid, relation: ns1:products.,1.0,2.50045,1.0,0.000,2.16667,2.50045,1.0,0.000
+Now, let's go through all the entries provided.,0.0,1.0,1.0,0.000,3.1,4.37319,1.0,0.125
+Yes, the line:,0.0,1.0,1.0,0.000,1.0,1.85566,1.0,0.000
+Therefore, I need to process all the triples and collect unique combinations of entity and relation.,0.0,1.0,1.0,0.000,5.9375,5.76639,0.93333,0.000
+1. Revco,ns2:product,0.25,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+2. Pierre Joseph Pelletier,ns2:academicDiscipline,0.75,3.01273,1.0,0.000,1.0,1.85566,1.0,0.000
+3. Oleksandr Tikhonov,ns2:academicDiscipline,0.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+4. Oleksandr Tikhonov,ns1:fields,0.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+5. Revue d'Histoire de la Pharmacie,ns1:discipline,0.75,4.10211,1.0,0.286,1.0,1.85566,1.0,0.000
+6. Rite Aid,ns1:products,0.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+7. Sankara Nethralaya,ns2:product,0.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+8. San Raffaele Hospital,ns2:product,0.75,3.01273,1.0,0.000,1.0,1.85566,1.0,0.000
+9. Johns Hopkins Hospital,ns2:product,0.75,3.01273,1.0,0.000,1.0,1.85566,1.0,0.000
+10. Johns Hopkins Medicine,ns2:product,0.75,3.01273,1.0,0.000,1.0,1.85566,1.0,0.000
+11. Johns Hopkins Surgery,ns2:product,0.75,3.01273,1.0,0.000,1.0,1.85566,1.0,0.000
+12. Hospital for Special Surgery,ns2:product,0.625,3.43523,1.0,0.000,1.0,1.85566,1.0,0.000
+13. Hospital of the University of Paris,ns2:product,1.5,4.25402,0.85714,0.000,1.0,1.85566,1.0,0.000
+14. Charité,ns2:product,0.25,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+15. Johns Hopkins Medicine,ns2:product (duplicate of 10),0.75,3.01273,1.0,0.000,1.5,3.43523,1.0,0.000
+16. Johns Hopkins Surgery,ns2:product (duplicate of 11),0.75,3.01273,1.0,0.000,1.75,3.43523,1.0,0.000
+17. Hospital for Special Surgery,ns2:product (duplicate of 12),0.625,3.43523,1.0,0.000,1.75,3.43523,1.0,0.000
+18. Hospital of the University of Paris,ns2:product (duplicate of 13),1.5,4.25402,0.85714,0.000,1.75,3.43523,1.0,0.000
+19. Charité,ns2:product (duplicate of 14),0.25,1.85566,1.0,0.000,1.75,3.43523,1.0,0.000
+20. San Raffaele Hospital,ns2:product (duplicate of 8),0.75,3.01273,1.0,0.000,1.75,3.43523,1.0,0.000
+21. Sankara Nethralaya,ns2:product (duplicate of 7),0.5,2.50045,1.0,0.000,2.25,3.43523,1.0,0.000
+22. Rite Aid,ns1:products (duplicate of 6),0.5,2.50045,1.0,0.000,2.25,3.43523,1.0,0.000
+23. Revco,ns2:product (duplicate of 1),0.25,1.85566,1.0,0.000,2.25,3.43523,1.0,0.000
+24. Revue d'Histoire de la Pharmacie,ns1:discipline (duplicate of 5),0.75,4.10211,1.0,0.286,1.75,3.43523,1.0,0.000
+25. Oleksandr Tikhonov,ns2:academicDiscipline (duplicate of 3),0.5,2.50045,1.0,0.000,2.25,3.43523,1.0,0.000
+26. Oleksandr Tikhonov,ns1:fields (duplicate of 4),0.5,2.50045,1.0,0.000,2.25,3.43523,1.0,0.000
+27. Pierre Joseph Pelletier,ns2:academicDiscipline (duplicate of 2),0.75,3.01273,1.0,0.000,2.25,3.43523,1.0,0.000
+- Revco,ns2:product,0.5,1.0,1.0,0.000,1.0,1.85566,1.0,0.000
+- Pierre Joseph Pelletier,ns2:academicDiscipline,1.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+- Oleksandr Tikhonov,ns2:academicDiscipline,1.0,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+- Oleksandr Tikhonov,ns1:fields,1.0,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+- Revue d'Histoire de la Pharmacie,ns1:discipline,1.25,3.79304,1.0,0.333,1.0,1.85566,1.0,0.000
+- Rite Aid,ns1:products,1.0,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+- Sankara Nethralaya,ns2:product,1.0,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+- San Raffaele Hospital,ns2:product,1.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+- Johns Hopkins Hospital,ns2:product,1.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+- Johns Hopkins Medicine,ns2:product,1.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+- Johns Hopkins Surgery,ns2:product,1.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+- Hospital for Special Surgery,ns2:product,1.0,3.01273,1.0,0.000,1.0,1.85566,1.0,0.000
+- Hospital of the University of Paris,ns2:product,3.0,3.95066,0.83333,0.000,1.0,1.85566,1.0,0.000
+- Charité,ns2:product,0.5,1.0,1.0,0.000,1.0,1.85566,1.0,0.000
+Now, compiling the final list of unique Entity-Relation pairs.,0.0,1.0,1.0,0.000,4.0,4.37319,1.0,0.250
+After deduplication, the unique entries are:,0.5,1.85566,1.0,0.000,2.0,3.01273,1.0,0.000
+1. Revco,ns2:product,0.25,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+2. Pierre Joseph Pelletier,ns2:academicDiscipline,0.75,3.01273,1.0,0.000,1.0,1.85566,1.0,0.000
+3. Oleksandr Tikhonov,ns2:academicDiscipline,0.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+4. Oleksandr Tikhonov,ns1:fields,0.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+5. Revue d'Histoire de la Pharmacie,ns1:discipline,0.75,4.10211,1.0,0.286,1.0,1.85566,1.0,0.000
+6. Rite Aid,ns1:products,0.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+7. Sankara Nethralaya,ns2:product,0.5,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+8. San Raffaele Hospital,ns2:product,0.75,3.01273,1.0,0.000,1.0,1.85566,1.0,0.000
+9. Johns Hopkins Hospital,ns2:product,0.75,3.01273,1.0,0.000,1.0,1.85566,1.0,0.000
+10. Johns Hopkins Medicine,ns2:product,0.75,3.01273,1.0,0.000,1.0,1.85566,1.0,0.000
+11. Johns Hopkins Surgery,ns2:product,0.75,3.01273,1.0,0.000,1.0,1.85566,1.0,0.000
+12. Hospital for Special Surgery,ns2:product,0.625,3.43523,1.0,0.000,1.0,1.85566,1.0,0.000
+13. Hospital of the University of Paris,ns2:product,1.5,4.25402,0.85714,0.000,1.0,1.85566,1.0,0.000
+14. Charité,ns2:product,0.25,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+Now, let's verify each of these entries against the data.,0.0,1.0,1.0,0.000,4.0,4.82961,1.0,0.200
+For example, Johns Hopkins Hospital comes from:,0.5,1.85566,1.0,0.000,2.5,3.43523,1.0,0.000
+Yes, Johns_Hopkins_Hospital becomes Johns Hopkins Hospital.,0.0,1.0,1.0,0.000,2.0,3.43523,1.0,0.000
+Similarly, Hospital for Special Surgery from:,0.0,1.0,1.0,0.000,1.66667,3.43523,1.0,0.000
+Now, compiling all these into the CSV format with the headers Entity and Relation.,0.0,1.0,1.0,0.000,5.71429,5.48607,0.92308,0.000

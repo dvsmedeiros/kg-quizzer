@@ -1,0 +1,11 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+Okay, I need to generate a CSV file based on the provided data from the DBpedia dump. Let me start by understanding the data structure and the user's requirements.,0.0,1.0,1.0,0.000,4.45686,7.24129,0.86207,0.074
+For example, the line:,0.5,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+4. Ensure that all entries are included, even if they have multiple objects for the same predicate.,1.5,4.10211,1.0,0.000,3.18182,4.82961,1.0,0.000
+I need to be careful with the splitting. For example, a line like:,2.25,4.82961,1.0,0.000,1.25,2.50045,1.0,0.000
+Similarly, the line:,0.0,1.0,1.0,0.000,1.0,1.85566,1.0,0.000
+Has three objects here, each needing to be a separate row.,1.5,3.01273,1.0,0.000,2.0,4.10211,1.0,0.571
+- For each object, create a row in the CSV.,1.5,2.50045,1.0,0.000,2.0,3.79304,1.0,0.000
+Now, I'll proceed to process each line of the provided data and generate the CSV accordingly.,0.0,1.0,1.0,0.000,6.83333,5.89142,0.9375,0.062
+http://dbpedia.org/resource/Geology,ns1:wikiPageUses,1.2,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+O texto parece representar uma série de entidades no formato de **metadados RDF (Resource Description Framework)**, onde:,3.09091,6.22924,0.88889,0.308,0.5,1.0,1.0,1.000

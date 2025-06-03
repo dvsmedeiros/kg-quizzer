@@ -1,0 +1,10 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+Okay, I need to generate a CSV file based on the user's instructions and the provided data. Let me start by understanding the data structure here.,0.0,1.0,1.0,0.000,3.04474,6.97361,0.88462,0.083
+I need to extract each triple from the given data. Each line starts with a subject, then has properties separated by semicolons. Each property is in the form nsX:property value or nsX:property <URI>.,3.16667,5.89142,0.9375,0.312,3.21429,6.35243,0.83333,0.000
+For example, in the line:,0.5,1.85566,1.0,0.000,1.5,2.50045,1.0,0.000
+1. Split the entire data into individual lines, each representing a subject with multiple predicates.,1.75,4.37319,1.0,0.250,2.0,4.10211,1.0,0.000
+2. For each line, split by semicolons to get each predicate-object pair.,0.75,3.01273,1.0,0.000,3.33333,4.37319,1.0,0.000
+Another thing to note is that some predicates have the same name but different namespaces (ns1, ns2). These should be treated as different predicates in the CSV.,8.0,5.78178,1.0,0.000,1.77273,5.02467,1.0,0.000
+Se você estava se referindo a Jackson em geral, posso falar sobre:,1.22222,4.75438,0.88889,0.600,1.25,2.50045,1.0,0.500
+- **Jackson como marca ou empresa**: Se for uma marca de produtos ou serviços, posso pesquisar informações sobre ela.,1.94737,6.03262,0.8,0.222,1.5,3.43523,1.0,0.333
+Por favor, esclareça a sua pergunta para que eu possa ajudar de maneira mais eficaz!,0.5,1.85566,1.0,1.000,1.78571,5.36491,1.0,0.571

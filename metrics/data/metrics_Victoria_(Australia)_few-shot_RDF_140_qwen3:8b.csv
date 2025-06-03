@@ -1,0 +1,10 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+The user wants a CSV with specific columns. According to the instructions, the columns should be:,1.80556,5.32781,0.91667,0.000,2.0,3.01273,1.0,0.000
+Let me start by listing all the triples. For Victoria_(Australia), the properties include:,2.69444,5.02467,1.0,0.000,1.5,2.50045,1.0,0.000
+For other resources like Brian_Cox, the properties might be:,2.0,3.43523,1.0,0.000,2.0,3.01273,1.0,0.000
+I need to make sure that the URI column is the full URL of the resource. For example, http://dbpedia.org/resource/Victoria_(Australia).,3.83824,6.22924,0.88889,0.000,2.44444,2.50045,1.0,0.000
+The Label would be the name of the resource, like Victoria (Australia).,4.0,4.92241,0.77778,0.000,2.0,2.50045,1.0,0.000
+In the absence of explicit types, perhaps the Type column can be left as empty or filled with Resource as a default.,2.5,3.79304,1.0,0.000,3.70588,5.89142,0.9375,0.250
+For example, for the first entry:,0.5,1.85566,1.0,0.000,1.6,3.01273,1.0,0.000
+- **Property**: Predicado (ex.: `ns1:febRecordHighC`, `foaf:depiction`).,2.69697,4.69839,0.75,0.000,2.0,1.85566,1.0,0.000
+O CSV inclui apenas os recursos explicitamente listados no dado fornecido, mantendo a estrutura e os valores conforme as regras.,1.72727,5.02467,1.0,0.375,1.8,4.61384,1.0,0.250
