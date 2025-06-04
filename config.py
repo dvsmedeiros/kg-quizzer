@@ -1,17 +1,14 @@
 PROMPT_ZERO_SHOT_PT = """ 
-Você é um gerador de questões de avaliação baseado em conhecimento semântico.
+Você é um gerador de questões objetivas com base em contexto e fatos fornecidos. Gere pares de perguntas e respostas relevantes e corretas, exclusivamente a partir do conteúdo fornecido. Gere apenas os dados requeridos, sem adicionar observações, justificativas ou qualquer conteúdo não estruturado.
 
-## Instruções
-
-A tarefa consiste em gerar **10 pares pergunta;resposta** no formato CSV:
+## Objetivo
+Gerar exatamente **10 pares** no formato CSV, com:
 - **1 pergunta** relevante ao contexto
-- **1 resposta correta** curta (até 10 palavras)
-- **Idioma** português
+- **1 resposta correta** 
 - **Separador**: ponto e vírgula (`;`)
-- **Saída**: apenas um CSV no formato `pergunta;resposta`
-
-### Exemplo de formato esperado:
-```
+- **Idioma**: português
+- **Formato da saída**:
+```csv
 pergunta;resposta
 <pergunta 1>;<resposta 1>
 <pergunta 2>;<resposta 2>
@@ -25,52 +22,106 @@ pergunta;resposta
 <pergunta 10>;<resposta 10>
 ```
 
-### Contexto
-```
-{abstract}
-```
+## Regras
+- As perguntas devem ser **variadas** e **abranger diferentes aspectos** do conteúdo.
+- As perguntas devem ser **claramente relacionadas ao conteúdo** apresentado abaixo.
+- Cada pergunta deve ter uma **única resposta correta**, que esteja **explícita ou inferível** a partir do conteúdo.
+- **Não repita perguntas semelhantes.**
+- Gere **somente o conteúdo CSV**, sem explicações ou comentários adicionais.
+
 ---
+
 ## Instrução Final
-Gere agora o CSV conforme Instruções e Regras.
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**
 """.strip()
 
-PROMPT_TEMPLATE_PT = """
-Você é um gerador de questões de avaliação baseado em conhecimento semântico.
+PROMPT_TRIPLAS_PT = """
+Você é um gerador de questões objetivas com base em contexto e fatos fornecidos. Gere pares de perguntas e respostas relevantes e corretas, exclusivamente a partir do conteúdo fornecido. Gere apenas os dados requeridos, sem adicionar observações, justificativas ou qualquer conteúdo não estruturado.
 
-## Instruções
-
-A tarefa consiste em gerar **10 pares pergunta;resposta ** no formato CSV, contendo:
-- **1 pergunta** relevante ao contexto   
-- **1 resposta correta** curta (até 10 palavras)  
-- **Idioma** português
-- **Separador**: ponto e vírgula (`;`)  
-- **Saída**: apenas um CSV no formato `pergunta;resposta`.
-
-### Exemplo de formato esperado:
+## Objetivo
+Gerar exatamente **10 pares** no formato CSV, com:
+- **1 pergunta** relevante ao contexto
+- **1 resposta correta** 
+- **Separador**: ponto e vírgula (`;`)
+- **Idioma**: português
+- **Formato da saída**:
+```csv
+pergunta;resposta
+<pergunta 1>;<resposta 1>
+<pergunta 2>;<resposta 2>
+<pergunta 3>;<resposta 3>
+<pergunta 4>;<resposta 4>
+<pergunta 5>;<resposta 5>
+<pergunta 6>;<resposta 6>
+<pergunta 7>;<resposta 7>
+<pergunta 8>;<resposta 8>
+<pergunta 9>;<resposta 9>
+<pergunta 10>;<resposta 10>
 ```
-{fewshot}
-```
 
-### Regras:
-- Garanta que as perguntas sejam variadas e abrangentes ao contexto
-- Use o conteúdo abaixo (abstract, triplas e exemplos few-shot) como base de conhecimento.
-- A pergunta deve estar relacionada ao conteúdo e ter uma única resposta correta.
-- A resposta deve estar contida ou inferível a partir do contexto (abstract, triplas ou few-shots).
-- Não repita perguntas semelhantes.
-- A saída final deve conter exatamente 10 linhas no seguinte formato:
+## Regras
+- As perguntas devem ser **variadas** e **abranger diferentes aspectos** do conteúdo.
+- As perguntas devem ser **claramente relacionadas ao conteúdo** apresentado abaixo.
+- Cada pergunta deve ter uma **única resposta correta**, que esteja **explícita ou inferível** a partir do conteúdo.
+- **Não repita perguntas semelhantes.**
+- Gere **somente o conteúdo CSV**, sem explicações ou comentários adicionais.
 
-### Contexto 
-```
+### Contexto
 {abstract}
-```
+
 ### Fatos
-```
 {triplas}
-```
 
 ---
+
 ## Instrução Final
-Gere agora o CSV conforme Instruções e Regras.
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**
+""".strip()
+
+PROMPT_FEW_SHOT_TRIPLAS_PT = """
+Você é um gerador de questões objetivas com base em contexto e fatos fornecidos. Gere pares de perguntas e respostas relevantes e corretas, exclusivamente a partir do conteúdo fornecido. Gere apenas os dados requeridos, sem adicionar observações, justificativas ou qualquer conteúdo não estruturado.
+
+## Objetivo
+Gerar exatamente **10 pares** no formato CSV, com:
+- **1 pergunta** relevante ao contexto
+- **1 resposta correta** 
+- **Separador**: ponto e vírgula (`;`)
+- **Idioma**: português
+- **Formato da saída**:
+```csv
+pergunta;resposta
+<pergunta 1>;<resposta 1>
+<pergunta 2>;<resposta 2>
+<pergunta 3>;<resposta 3>
+<pergunta 4>;<resposta 4>
+<pergunta 5>;<resposta 5>
+<pergunta 6>;<resposta 6>
+<pergunta 7>;<resposta 7>
+<pergunta 8>;<resposta 8>
+<pergunta 9>;<resposta 9>
+<pergunta 10>;<resposta 10>
+```
+
+## Regras
+- As perguntas devem ser **variadas** e **abranger diferentes aspectos** do conteúdo.
+- As perguntas devem ser **claramente relacionadas ao conteúdo** apresentado abaixo.
+- Cada pergunta deve ter uma **única resposta correta**, que esteja **explícita ou inferível** a partir do conteúdo.
+- **Não repita perguntas semelhantes.**
+- Gere **somente o conteúdo CSV**, sem explicações ou comentários adicionais.
+
+### Contexto
+{abstract}
+
+### Fatos
+{triplas}
+
+### Exemplos
+{fewshot}
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**
 """.strip()
 
 PREDICADOS_IRRELEVANTES = [
@@ -100,43 +151,183 @@ PREDICADOS_IRRELEVANTES = [
     "core:narrower"
 ]
 
-TOPICOS = [
-    ("Normans", "Normans", "Normandos"),
-    ("Computational_complexity_theory", "Computational_complexity_theory", "Teoria_da_complexidade_computacional"),
-    ("Southern_California", "Southern_California", "Sul_da_Califórnia"),
-    ("Sky_(United_Kingdom)", "British_Satellite_Broadcasting", "Sky_UK"),
-    ("Victoria_(Australia)", "Victoria_(Australia)", "Vitória_(Austrália)"),
-    ("Huguenot", "Huguenots", "Huguenotes"),
-    ("Steam_engine", "Steam_engine", "Motor_a_vapor"),
-    ("Oxygen", "Oxygen", ""),
-    ("1973_oil_crisis", "1973_oil_crisis", "Crise_petrolífera_de_1973"),
-    ("European_Union_law", "Law_of_the_European_Union", "Direito_da_União_Europeia"),
-    ("Amazon_rainforest", "Amazon_rainforest", ""),
-    ("Ctenophora", "Ctenophora", "Ctenophora"),
-    ("Fresno,_California", "Fresno,_California", "Fresno"),
-    ("Packet_switching", "Packet_switching", "Comutação_de_pacotes"),
-    ("Black_Death", "Black_Death", "Peste_Negra"),
-    ("Geology", "Geology", "Geologia"),
-    ("Pharmacy", "Pharmacy", "Farmácia"),
-    ("Civil_disobedience", "Civil_disobedience", "Desobediência_civil"),
-    ("Construction", "Construction", ""),
-    ("Private_school", "Private_school", "Escola"),
-    ("Harvard_University", "Harvard_University", "Universidade_Harvard"),
-    ("Jacksonville,_Florida", "Jacksonville,_Florida", "Jacksonville"),
-    ("Economic_inequality", "Economic_inequality", "Desigualdade_econômica"),
-    ("University_of_Chicago", "University_of_Chicago", "Universidade_de_Chicago"),
-    ("Yuan_dynasty", "Yuan_dynasty", "Dinastia_Yuan"),
-    ("Immune_system", "Immune_system", "Sistema_imunitário"),
-    ("Intergovernmental_Panel_on_Climate_Change", "Intergovernmental_Panel_on_Climate_Change", "Painel_Intergovernamental_sobre_Mudanças_Climáticas"),
-    ("Prime_number", "Prime_number", "Número_primo"),
-    ("Rhine", "Rhine", "Rio_Reno"),
-    ("Scottish_Parliament", "Scottish_Parliament", "Parlamento_da_Escócia"),
-    ("Islamism", "Islamism", "Islamismo_político"),
-    ("Imperialism", "Imperialism", "Imperialismo"),
-    ("Warsaw", "Warsaw", "Varsóvia"),
-    ("French_and_Indian_War", "French_and_Indian_War", "Guerra_Franco-Indígena"),
-    ("Force", "Force", "Força")
-]
+TOPICOS = {
+    "Normans": {
+        "squad": "Normans",
+        "en": "Normans",
+        "pt": "Normandos"
+    },
+    "Computational_complexity_theory": {
+        "squad": "Computational_complexity_theory",
+        "en": "Computational_complexity_theory",
+        "pt": "Teoria_da_complexidade_computacional"
+    },
+    "Southern_California": {
+        "squad": "Southern_California",
+        "en": "Southern_California",
+        "pt": "Sul_da_Califórnia"
+    },
+    "British_Satellite_Broadcasting": {
+        "squad": "Sky_(United_Kingdom)",
+        "en": "British_Satellite_Broadcasting",
+        "pt": "Sky_UK"
+    },
+    "Victoria_(Australia)": {
+        "squad": "Victoria_(Australia)",
+        "en": "Victoria_(Australia)",
+        "pt": "Vitória_(Austrália)"
+    },
+    "Huguenots": {
+        "squad": "Huguenot",
+        "en": "Huguenots",
+        "pt": "Huguenotes"
+    },
+    "Steam_engine": {
+        "squad": "Steam_engine",
+        "en": "Steam_engine",
+        "pt": "Motor_a_vapor"
+    },
+    "Oxygen": {
+        "squad": "Oxygen",
+        "en": "Oxygen",
+        "pt": "Oxygen" #topico em pt ausente
+    },
+    "1973_oil_crisis": {
+        "squad": "1973_oil_crisis",
+        "en": "1973_oil_crisis",
+        "pt": "Crise_petrolífera_de_1973"
+    },
+    "Law_of_the_European_Union": {
+        "squad": "European_Union_law",
+        "en": "Law_of_the_European_Union",
+        "pt": "Direito_da_União_Europeia"
+    },
+    "Amazon_rainforest": {
+        "squad": "Amazon_rainforest",
+        "en": "Amazon_rainforest",
+        "pt": "Amazon_rainforest" #topico em pt ausente
+    },
+    "Ctenophora": {
+        "squad": "Ctenophora",
+        "en": "Ctenophora",
+        "pt": "Ctenophora"
+    },
+    "Fresno,_California": {
+        "squad": "Fresno,_California",
+        "en": "Fresno,_California",
+        "pt": "Fresno"
+    },
+    "Packet_switching": {
+        "squad": "Packet_switching",
+        "en": "Packet_switching",
+        "pt": "Comutação_de_pacotes"
+    },
+    "Black_Death": {
+        "squad": "Black_Death",
+        "en": "Black_Death",
+        "pt": "Peste_Negra"
+    },
+    "Geology": {
+        "squad": "Geology",
+        "en": "Geology",
+        "pt": "Geologia"
+    },
+    "Pharmacy": {
+        "squad": "Pharmacy",
+        "en": "Pharmacy",
+        "pt": "Farmácia"
+    },
+    "Civil_disobedience": {
+        "squad": "Civil_disobedience",
+        "en": "Civil_disobedience",
+        "pt": "Desobediência_civil"
+    },
+    "Construction": {
+        "squad": "Construction",
+        "en": "Construction",
+        "pt": "Construction" #topico em pt ausente
+    },
+    "Private_school": {
+        "squad": "Private_school",
+        "en": "Private_school",
+        "pt": "Escola"
+    },
+    "Harvard_University": {
+        "squad": "Harvard_University",
+        "en": "Harvard_University",
+        "pt": "Universidade_Harvard"
+    },
+    "Jacksonville,_Florida": {
+        "squad": "Jacksonville,_Florida",
+        "en": "Jacksonville,_Florida",
+        "pt": "Jacksonville"
+    },
+    "Economic_inequality": {
+        "squad": "Economic_inequality",
+        "en": "Economic_inequality",
+        "pt": "Desigualdade_econômica"
+    },
+    "University_of_Chicago": {
+        "squad": "University_of_Chicago",
+        "en": "University_of_Chicago",
+        "pt": "Universidade_de_Chicago"
+    },
+    "Yuan_dynasty": {
+        "squad": "Yuan_dynasty",
+        "en": "Yuan_dynasty",
+        "pt": "Dinastia_Yuan"
+    },
+    "Immune_system": {
+        "squad": "Immune_system",
+        "en": "Immune_system",
+        "pt": "Sistema_imunitário"
+    },
+    "Intergovernmental_Panel_on_Climate_Change": {
+        "squad": "Intergovernmental_Panel_on_Climate_Change",
+        "en": "Intergovernmental_Panel_on_Climate_Change",
+        "pt": "Painel_Intergovernamental_sobre_Mudanças_Climáticas"
+    },
+    "Prime_number": {
+        "squad": "Prime_number",
+        "en": "Prime_number",
+        "pt": "Número_primo"
+    },
+    "Rhine": {
+        "squad": "Rhine",
+        "en": "Rhine",
+        "pt": "Rio_Reno"
+    },
+    "Scottish_Parliament": {
+        "squad": "Scottish_Parliament",
+        "en": "Scottish_Parliament",
+        "pt": "Parlamento_da_Escócia"
+    },
+    "Islamism": {
+        "squad": "Islamism",
+        "en": "Islamism",
+        "pt": "Islamismo_político"
+    },
+    "Imperialism": {
+        "squad": "Imperialism",
+        "en": "Imperialism",
+        "pt": "Imperialismo"
+    },
+    "Warsaw": {
+        "squad": "Warsaw",
+        "en": "Warsaw",
+        "pt": "Varsóvia"
+    },
+    "French_and_Indian_War": {
+        "squad": "French_and_Indian_War",
+        "en": "French_and_Indian_War",
+        "pt": "Guerra_Franco-Indígena"
+    },
+    "Force": {
+        "squad": "Force",
+        "en": "Force",
+        "pt": "Força"
+    }
+}
 
 # https://ollama.com/library/llama3
 

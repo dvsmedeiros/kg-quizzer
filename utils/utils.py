@@ -75,7 +75,7 @@ def salvar_execucao_csv(id_execucao, execucao, pasta_saida="execucao"):
                 #"query_abstract",
                 #"query_triplas",
                 #"fewshot",
-                #"triplas",
+                "triplas",
                 "prompt",
                 "numero_tokens",
                 "max_tokens"
@@ -87,7 +87,7 @@ def salvar_execucao_csv(id_execucao, execucao, pasta_saida="execucao"):
             #csv_escape(execucao.get("query_abstract", "")),
             #csv_escape(execucao.get("query_triplas", "")),
             #csv_escape(execucao.get("fewshot", "")),
-            #csv_escape(execucao.get("triplas", "")),
+            csv_escape(execucao.get("triplas", "")),
             csv_escape(execucao.get("prompt", "")),
             execucao.get("numero_tokens", ""),
             execucao.get("max_tokens", "")
@@ -329,44 +329,4 @@ def coletar_predicados_filtrados(topicos, limit, idioma):
     return sorted(predicados_unicos)
 """
 
-"""
-def testar_pipeline_topicos(lista_topicos, qtd_triplas, limit, idioma):
-    logger = get_active_logger()
-    for idx, (squad, en, pt) in enumerate(lista_topicos, 1):
-        topico = en.strip()
-        if not topico:
-            logger.error(f"[{idx}/{len(lista_topicos)}] topico '{squad}' não tem versão em português. Pulando.")
-            continue
 
-        logger.info(f"\n[{idx}/{len(lista_topicos)}] Testando topico: {topico}")
-
-        logger.info(query_abstract(topico, idioma=idioma))
-        
-        # Consultar o abstract
-        abstract = consultar_abstract(topico, idioma=idioma, limit=limit)
-        if abstract:
-            logger.info(f"Abstract: {abstract[:100]}...")
-        else:            
-            continue
-        
-        logger.info(query_triplas_relacionadas(topico, limit=limit))
-        grafo_original = consultar_triplas_em_rdf(topico, limit=limit, idioma=idioma)
-        
-        if len(grafo_original) == 0:        
-            continue
-
-        triplas_selecionadas = list(grafo_original)[:qtd_triplas]
-        logger.info(f"Triplas selecionadas (top {qtd_triplas}): {len(triplas_selecionadas)}")
-
-        grafo_filtrado = construir_grafo_filtrado(triplas_selecionadas)
-
-        triplas_verbalizadas = verbalizar_triplas(grafo_filtrado, 'resources/predicados_verbalizados_pt_en.csv', idioma='en')
-        
-        logger.info("\nTriplas verbalizadas:")
-        for i, frase in enumerate(triplas_verbalizadas):
-            logger.info(frase)
-
-        logger.info("\nTriplas RDF:")
-        for s, p, o in grafo_filtrado:
-            logger.info(f"({s}, {p}, {o})")
-"""

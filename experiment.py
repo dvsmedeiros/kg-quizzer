@@ -11,6 +11,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from infra.ssh_tunnel import SSHTunnel
 from SPARQLWrapper import SPARQLWrapper, TURTLE, JSON
 from rdflib import Graph
+from urllib.parse import quote
 from utils.utils import caminho_cache_abstract
 from utils.utils import caminho_cache_triplas
 from utils.utils import carregar_verbalizacoes
@@ -35,30 +36,32 @@ def query_abstract(topic, idioma):
         LIMIT 1
     """).strip()
 
-def consultar_abstract_wikipedia(topic, idioma='en'):
-    url = f"https://{idioma}.wikipedia.org/api/rest_v1/page/summary/{topic}"
+def consultar_abstract_wikipedia(topico, idioma='pt'):
+    
+    url = f"https://{idioma}.wikipedia.org/api/rest_v1/page/summary/{topico}"
+    print(url)
     try:
         resposta = requests.get(url)
         if resposta.status_code == 200:
             dados = resposta.json()
             return dados.get("extract", None)
     except Exception as e:
-        logger.error(f"Falha na API da Wikipedia para '{topic}': {e}")
+        logger.error(f"Falha na API da Wikipedia para '{topico}': {e}")
     return None
 
-def consultar_abstract(topic, idioma='en', limit=1):
-    caminho_cache = caminho_cache_abstract(topic, idioma, limit)
+def consultar_abstract(topico, idioma, limit=1):
+    caminho_cache = caminho_cache_abstract(topico[idioma], idioma, limit)
     
     if os.path.exists(caminho_cache):
         with open(caminho_cache, 'r', encoding='utf-8') as f:
             return json.load(f).get("abstract")
 
-    # Tenta via DBpedia
+    # Tenta via DBpedia sempre em inglês
     sparql = SPARQLWrapper("https://dbpedia.org/sparql")
-    query = query_abstract(topic, idioma)
+    query = query_abstract(topico['en'], idioma)
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
-
+    
     try:
         results = sparql.query().convert()
         bindings = results.get("results", {}).get("bindings", [])
@@ -68,17 +71,19 @@ def consultar_abstract(topic, idioma='en', limit=1):
                 json.dump({"abstract": abstract}, f, ensure_ascii=False, indent=2)
             return abstract
     except Exception as e:
-        logger.error(f"Falha ao consultar DBpedia para '{topic}': {e}")
+        logger.error(f"Falha ao consultar DBpedia para '{topico[idioma]}': {e}")
 
     # Fallback: tenta via Wikipedia REST
-    abstract = consultar_abstract_wikipedia(topic, idioma)
+    abstract = consultar_abstract_wikipedia(topico[idioma], idioma)
     if abstract:
         with open(caminho_cache, 'w', encoding='utf-8') as f:
             json.dump({"abstract": abstract}, f, ensure_ascii=False, indent=2)
     return abstract
 
 def query_triplas_relacionadas(topic, limit, idioma):
-    term_uri = f"<http://dbpedia.org/resource/{topic}>"
+    # Define o idioma padrão como 'en' para DBpedia pois é mais completo
+    idioma='en'
+    term_uri = f"<http://dbpedia.org/resource/{quote(topic[idioma])}>"
     predicados = "\n".join(config.PREDICADOS_IRRELEVANTES)
 
     return textwrap.dedent(f"""
@@ -97,6 +102,9 @@ def query_triplas_relacionadas(topic, limit, idioma):
         WHERE {{
           {{
             {term_uri} ?p ?o .
+            FILTER (
+              !isLiteral(?o) || lang(?o) = "{idioma}"
+            )
             FILTER NOT EXISTS {{
               VALUES ?p {{
                 {predicados}
@@ -111,12 +119,14 @@ def query_triplas_relacionadas(topic, limit, idioma):
                 {predicados}
               }}
             }}
-          }}
+          }}          
         }}
         LIMIT {limit}
     """).strip()
 
 def consultar_triplas_em_rdf(topic, limit, idioma):
+    # Define o idioma padrão como 'en' para DBpedia pois é mais completo
+    idioma = 'en'
     caminho_cache = caminho_cache_triplas(topic, limit)
     
     g = Graph()
@@ -138,7 +148,7 @@ def consultar_triplas_em_rdf(topic, limit, idioma):
         logger.error(f"Falha ao consultar triplas para '{topic}': {e}")
         return Graph()
 
-def verbalizar_triplas(triplas_rdf, caminho_csv    , idioma):
+def verbalizar_triplas(triplas_rdf, caminho_csv, idioma):
     verbalizacoes = carregar_verbalizacoes(caminho_csv, idioma)
     frases = []
 
@@ -147,8 +157,10 @@ def verbalizar_triplas(triplas_rdf, caminho_csv    , idioma):
     
     return frases
   
-def gerar_prompt(cenario, qtd_few_shot, limit, idioma):
-    topico = cenario["topico"]
+def gerar_prompt(cenario, qtd_few_shot, limit, idioma):  
+    
+    topico = config.TOPICOS[cenario["topico"]]
+    squad, en = topico["squad"], topico["en"]
     tecnica = cenario["tecnica"]
     formato = cenario.get("formato", None)
     qtd_triplas = cenario.get("qtd_triplas", 0)
@@ -165,15 +177,16 @@ def gerar_prompt(cenario, qtd_few_shot, limit, idioma):
     grafo_filtrado = Graph()
     grafo_original = Graph()
     
-    if tecnica == "few-shot":
+    if tecnica == "few-shot-triplas":
         # Extrai few-shot do tópico fixo (pode ser ajustado futuramente)
-        qas = consultar_qas(topico, 'resources/Squad.json', qtd_few_shot=qtd_few_shot)
+        qas = consultar_qas(squad, 'resources/Squad.json', qtd_few_shot=qtd_few_shot)
         fewshot = formatar_qa_em_string(qas)
 
         logger.info(f"Few-shot: {len(qas)}")
 
+    if tecnica == "zero-shot-triplas" or tecnica == "few-shot-triplas":
         # Consulta e processa triplas
-        grafo_original = consultar_triplas_em_rdf(topico, limit=limit, idioma=idioma)
+        grafo_original = consultar_triplas_em_rdf(en, limit=limit, idioma=idioma)
         triplas_selecionadas = list(grafo_original)[:qtd_triplas]
         grafo_filtrado = construir_grafo_filtrado(triplas_selecionadas)
 
@@ -183,7 +196,7 @@ def gerar_prompt(cenario, qtd_few_shot, limit, idioma):
             triplas = verbalizar_triplas(
                 grafo_filtrado,
                 'resources/predicados_verbalizados_pt_en.csv',
-                idioma="pt"
+                idioma=idioma
             )
             triplas = "\n".join(triplas)
         elif formato == "RDF":
@@ -203,9 +216,14 @@ def gerar_prompt(cenario, qtd_few_shot, limit, idioma):
 
 def gerar_prompt_texto(abstract, triplas=None, fewshot=None, tipo='zero-shot'):
     if tipo == 'zero-shot':
-        return config.PROMPT_ZERO_SHOT_PT.format(abstract=abstract)
-    elif tipo == 'few-shot':
-        return config.PROMPT_TEMPLATE_PT.format(
+        return config.PROMPT_ZERO_SHOT_PT
+    elif tipo == 'zero-shot-triplas':
+        return config.PROMPT_TRIPLAS_PT.format(
+            abstract=abstract,
+            triplas=triplas if triplas else '',            
+        )
+    elif tipo == 'few-shot-triplas':
+        return config.PROMPT_FEW_SHOT_TRIPLAS_PT.format(
             abstract=abstract,
             triplas=triplas if triplas else '',
             fewshot=fewshot if fewshot else ''
@@ -225,7 +243,7 @@ def chamar_modelo(llm, prompt):
         logger.error(f"Erro ao chamar o modelo: {llm.model} - {e}")
         return None
 
-def gerar_cenarios(topicos, modelos):
+def gerar_cenarios(topicos, modelos, idioma):
     temperatures = [0.7]                                #["0.3", "0.7"]
     top_ks = [40]                                       #["40", "80"]
     top_ps = [0.95]                                     #["0.85", "0.95"]
@@ -234,23 +252,21 @@ def gerar_cenarios(topicos, modelos):
 
     cenarios = []
 
-    for squad, en, pt in topicos:
-        
-        topico_base = en
+    for topico in topicos.values():
         
         for modelo, info in modelos.items():
             for temp in temperatures:
                 for top_p in top_ps:
                     for top_k in top_ks:
                         cenarios.append({
-                            "topico": topico_base,
+                            "topico": topico['en'],
                             "tecnica": "zero-shot",
                             "modelo": modelo,
                             "temperature": temp,
                             "top_p": top_p,
                             "top_k": top_k,
                             "max_tokens": info['max_tokens'],
-                            "nome": f"{topico_base}_zero-shot_NA_NA_{modelo}_{temp}_{top_p}_{top_k}"
+                            "nome": f"{topico[idioma]}_zero-shot_{modelo}_{temp}_{top_p}_{top_k}"
                         })
         
         for formato in formatos:
@@ -260,8 +276,8 @@ def gerar_cenarios(topicos, modelos):
                         for top_p in top_ps:
                             for top_k in top_ks:
                                 cenarios.append({
-                                    "topico": topico_base,
-                                    "tecnica": "few-shot",
+                                    "topico": topico['en'],
+                                    "tecnica": "zero-shot-triplas",
                                     "formato": formato,
                                     "qtd_triplas": qtd,
                                     "modelo": modelo,
@@ -269,7 +285,19 @@ def gerar_cenarios(topicos, modelos):
                                     "top_p": top_p,
                                     "top_k": top_k,
                                     "max_tokens": info['max_tokens'],
-                                    "nome": f"{topico_base}_few-shot_{formato}_{qtd}_{modelo}_{temp}_{top_p}_{top_k}"
+                                    "nome": f"{topico[idioma]}_zero-shot-triplas_{formato}_{qtd}_{modelo}_{temp}_{top_p}_{top_k}"
+                                })
+                                cenarios.append({
+                                    "topico": topico['en'],
+                                    "tecnica": "few-shot-triplas",
+                                    "formato": formato,
+                                    "qtd_triplas": qtd,
+                                    "modelo": modelo,
+                                    "temperature": temp,
+                                    "top_p": top_p,
+                                    "top_k": top_k,
+                                    "max_tokens": info['max_tokens'],
+                                    "nome": f"{topico[idioma]}_few-shot-triplas_{formato}_{qtd}_{modelo}_{temp}_{top_p}_{top_k}"
                                 })
 
     return cenarios
@@ -335,10 +363,16 @@ def main():
         
         base_url = f"http://127.0.0.1:{tunnel.get_local_port()}"
         logger.info(f"Túnel SSH ativo em {base_url}")
-
-        topicos_teste = [("Harvard_University", "Harvard_University", "Universidade_Harvard")]
         
-        cenarios = gerar_cenarios(config.TOPICOS, config.MODELOS)
+        topicos_teste = {
+                "Huguenots": {
+                "squad": "Huguenot",
+                "en": "Huguenots",
+                "pt": "Huguenotes"
+            },
+        }     
+        
+        cenarios = gerar_cenarios(config.TOPICOS, config.MODELOS, idioma="pt")
         
         for i, cenario in enumerate(cenarios):
             
@@ -350,7 +384,7 @@ def main():
             logger.info(f"Execução: {id_execucao} | Cenário {id_cenario}/{len(cenarios)}: {cenario['nome']}")
             logger.info("-" * 80)
 
-            prompt, fewshot, triplas = gerar_prompt(cenario, qtd_few_shot=10, limit=10000, idioma="en")
+            prompt, fewshot, triplas = gerar_prompt(cenario, qtd_few_shot=10, limit=10000, idioma="pt")
             num_tokens = contar_tokens_prompt(prompt, cenario['modelo'])
             max_tokens = cenario["max_tokens"]
             
@@ -365,11 +399,11 @@ def main():
             )
             resposta = chamar_modelo(llm, prompt)
 
-            logger.info(f"Tempo de execução: {time.perf_counter() - start:.2f} segundos")
-            
             if(resposta is None):
                 logger.error(f"Falha ao gerar resposta para o cenário {cenario['nome']}. Ignorando.")
                 continue
+            
+            logger.info(f"Tempo de execução: {time.perf_counter() - start:.2f} segundos")
             
             execucao = {
                 "id_cenario": id_cenario,
@@ -377,16 +411,63 @@ def main():
                 #"query_abstract": query_abstract(cenario['topico'], idioma="en"),
                 #"query_triplas": query_triplas_relacionadas(cenario['topico'], limit=10000, idioma="en"),
                 #"fewshot": fewshot,
-                #"triplas": triplas,
+                "triplas": len(triplas),
                 "prompt": prompt,
                 "numero_tokens": num_tokens,
                 "max_tokens": max_tokens
             }
             salvar_execucao_csv(id_execucao, execucao)
-            salvar_resposta_e_csv_extraido(id_execucao, id_cenario, cenario['nome'], resposta)
+            #salvar_resposta_e_csv_extraido(id_execucao, id_cenario, cenario['nome'], resposta)
 
         logger.info(f"Tempo total de execução: {time.perf_counter() - start_total:.2f} segundos")
 
+def testar_pipeline_topicos(lista_topicos, qtd_triplas, limit, idioma):
+    
+    for idx, topico in enumerate(lista_topicos.values(), 1):
+        
+        squad, en, pt = topico["squad"], topico["en"], topico["pt"]
+        
+        #logger.info(f"\n[{idx}/{len(lista_topicos)}] Testando topico: {topico}")
+
+        #logger.info(query_abstract(topico, idioma=idioma))
+        
+        # Consultar o abstract
+        abstract = consultar_abstract(topico, idioma=idioma, limit=limit)
+        if abstract:
+            logger.info(f"Abstract: {abstract[:100]}...")
+        else:            
+            continue
+        
+        logger.info(query_triplas_relacionadas(topico, limit=limit, idioma=idioma))
+        grafo_original = consultar_triplas_em_rdf(topico, limit=limit, idioma=idioma)
+        
+        if len(grafo_original) == 0:        
+            continue
+
+        triplas_selecionadas = list(grafo_original)[:qtd_triplas]
+        logger.info(f"Triplas selecionadas (top {qtd_triplas}): {len(triplas_selecionadas)}")
+
+        grafo_filtrado = construir_grafo_filtrado(triplas_selecionadas)
+
+        triplas_verbalizadas = verbalizar_triplas(grafo_filtrado, 'resources/predicados_verbalizados_pt_en.csv', idioma=idioma)
+        
+        logger.info("\nTriplas verbalizadas:")
+        for i, frase in enumerate(triplas_verbalizadas):
+            logger.info(frase)
+
+        logger.info("\nTriplas RDF:")
+        for s, p, o in grafo_filtrado:
+            logger.info(f"({s}, {p}, {o})")
+
 if __name__ == "__main__":
     main()
-    #testar_pipeline_topicos(TOPICOS, qtd_triplas=10, limit=10000, idioma="en")
+    """
+    topicos_teste = {
+            "Huguenots": {
+            "squad": "Huguenot",
+            "en": "Huguenots",
+            "pt": "Huguenotes"
+        },
+    }        
+    testar_pipeline_topicos(topicos_teste, qtd_triplas=140, limit=10000, idioma="pt")
+    """
