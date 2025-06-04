@@ -1,0 +1,6 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+Também noto que há uma seção de ns3:sameAs com um ID VIAF, o que pode ser útil para identificar a entidade.,2.0,5.36491,1.0,0.125,2.2,4.61384,1.0,0.800
+Agora, preciso decidir quais informações relevantes devem permanecer no CSV. Parece que a data da ultima eleição (2021-05-06) e o nome do líder são as mais pertinentes.,0.0,1.0,1.0,0.000,2.275,6.70759,1.0,0.529
+Vou estruturar o CSV com headers Data e Líder. Substituir ns1:lastElectionDate para Data, e ns1:leader para Líder.,1.56667,5.63172,0.92857,0.000,1.42857,3.43523,1.0,0.000
+Preciso garantir que o CSV esteja formatado corretamente, com aspas e separações por virgulas. Vou testar a geração usando os dados fornecidos:,1.0,4.37319,1.0,0.167,1.9127,5.51466,1.0,0.333
+2021-05-06,George Adam,0.0,1.0,1.0,0.000,0.5,1.85566,1.0,0.000

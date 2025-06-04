@@ -1,0 +1,15 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+   - Answer: Hassan al-Banna, Sayyid Qutb.,1.4,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+   - Answer: Implementação da sharia, unidade pan-islâmica.,1.5,3.01273,1.0,0.000,1.0,1.85566,1.0,0.500
+Another point: the facts mention various organizations with ideologia Islamism. So a question could be Which organization is associated with Islamism? and the answer could be Muslim Brotherhood or Hizb ut-Tahrir. But the user wants exactly 10 pairs, so I need to ensure they are unique and not repeating similar questions.,3.6369,7.79399,0.84211,0.108,6.5,5.36491,1.0,0.000
+Another fact: Islamism usa modelo de página wiki Template:Wikiquote-inline – but that's about a template, which might not be a good question for a quiz.,2.5,6.00792,0.94118,0.200,2.27273,4.96484,0.9,0.400
+But I need to ensure that all answers are within 10 words. Let me structure each pair now, making sure they are varied and based on the context.,3.01923,6.01374,1.0,0.000,4.27273,4.82961,1.0,0.000
+Questão,Resposta,0.0,1.0,1.0,0.000,0.0,1.0,1.0,0.000
+O que é o islamismo segundo o resumo?, Ideologia política para reconstituir estados com práticas islâmicas.,1.66667,4.69839,0.75,1.000,2.22222,4.37319,1.0,0.167
+Quais estratégias os movimentos islamistas usam?, Revolução ou ativismo grassroots.,1.85714,3.79304,1.0,0.000,1.4,3.01273,1.0,0.000
+Como alguns analistas descrevem o islamismo?, Política de identidade.,1.85714,3.79304,1.0,0.333,1.25,2.50045,1.0,0.500
+O que os islamistas rejeitam?, Influências não musulmanas.,1.66667,3.43523,1.0,0.000,1.25,2.50045,1.0,0.667
+Qual a diferença entre estratégias revolucionárias e reformistas?, Revolução vs. ativismo social.,1.77778,4.37319,1.0,0.250,1.4,3.01273,1.0,0.250
+Qual organização é associada ao islamismo?, Muslim Brotherhood.,1.71429,3.79304,1.0,0.500,1.0,1.85566,1.0,0.000
+O que o termo 'islamismo' refere-se?, Movimento político baseado em práticas islâmicas.,2.55556,3.95066,0.83333,0.667,1.71429,3.79304,1.0,0.200
+Qual é uma característica dos movimentos islamistas?, Rejeitar influências não musulmanas.,2.0,4.10211,1.0,0.250,1.4,3.01273,1.0,0.500

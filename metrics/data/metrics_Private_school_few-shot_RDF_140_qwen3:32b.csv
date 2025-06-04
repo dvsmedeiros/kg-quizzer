@@ -1,0 +1,45 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+1. For each line, extract the school name from the URL.,0.75,3.01273,1.0,0.000,3.5,4.25402,0.85714,0.000
+2. Clean the name by replacing underscores with spaces, handling special characters.,2.0,4.61384,1.0,0.000,1.25,2.50045,1.0,0.000
+Now, let's test a few examples. Take the first entry:,0.0,1.0,1.0,0.000,1.75,4.82961,1.0,0.111
+Now, compiling all this into a CSV. Each row will be:,0.0,1.0,1.0,0.000,2.0,4.82961,1.0,0.000
+School Name,Private School,0.5,1.85566,1.0,0.000,0.5,1.85566,1.0,0.000
+Calvin College,Yes,0.5,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+St. Joseph's Collegiate Institute,Yes,0.75,3.43523,1.0,0.200,0.0,1.0,1.0,0.000
+The Patrick School,Yes,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+3. Replace St. if present with St. (though the underscores are already replaced, so St._John's... becomes St. John's... which is correct).,1.525,5.48607,0.92308,0.000,2.61111,4.96484,0.9,0.100
+4. Check if the cleaned name contains a comma. If yes, enclose in double quotes.,1.25926,5.1549,0.90909,0.364,2.0,3.01273,1.0,0.000
+5. Write to CSV: School Name,Private School,1.16667,3.79304,1.0,0.000,0.5,1.85566,1.0,0.000
+- St._Rita_School_for_the_Deaf → St. Rita School for the Deaf,Yes (no comma),2.0,4.37319,1.0,0.000,2.0,2.50045,1.0,0.000
+Therefore, the final CSV will have entries with quotes around the school name if it contains a comma.,0.0,1.0,1.0,0.000,5.66667,6.00792,0.94118,0.353
+Now, proceeding to process all the given entries accordingly.,0.0,1.0,1.0,0.000,3.33333,4.37319,1.0,0.000
+School Name,Private School,0.5,1.85566,1.0,0.000,0.5,1.85566,1.0,0.000
+Calvin College,Yes,0.5,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+St. John's International School (Belgium),Yes,1.3125,3.79304,1.0,0.167,0.0,1.0,1.0,0.000
+St. Joseph's Collegiate Institute,Yes,0.75,3.43523,1.0,0.200,0.0,1.0,1.0,0.000
+St. Mary of the Assumption High School,Yes,1.5,4.10211,1.0,0.000,0.0,1.0,1.0,0.000
+St. Paul Academy and Summit School,Yes,1.25,3.79304,1.0,0.000,0.0,1.0,1.0,0.000
+St. Rita School for the Deaf,Yes,0.75,3.79304,1.0,0.000,0.0,1.0,1.0,0.000
+St. Thomas Aquinas High School (Florida),Yes,1.75,3.79304,1.0,0.000,0.0,1.0,1.0,0.000
+St. Vincent's Academy,Yes,0.625,3.01273,1.0,0.250,0.0,1.0,1.0,0.000
+St. Paul's English High School,Yes,0.91667,3.79304,1.0,0.167,0.0,1.0,1.0,0.000
+Sweet Briar College,Yes,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+Syracuse University College of Law,Yes,2.0,3.43523,1.0,0.000,0.0,1.0,1.0,0.000
+Séminaire Saint-Joseph de Trois-Rivières,Yes,0.75,3.01273,1.0,0.250,0.0,1.0,1.0,0.000
+Talmudical Academy of Central New Jersey,Yes,1.83333,3.79304,1.0,0.000,0.0,1.0,1.0,0.000
+Tarlac Montessori School,Yes,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+The Bateman School,Yes,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+The Cambridge School of Weston,Yes,2.0,3.43523,1.0,0.000,0.0,1.0,1.0,0.000
+The National Evangelical School in Nabatieh,Yes,2.5,3.79304,1.0,0.000,0.0,1.0,1.0,0.000
+The Patrick School,Yes,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+The Waldorf School,Yes,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+The Walker School,Yes,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+Trenton Catholic Academy,Yes,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+Trinity Catholic High School (Florida),Yes,3.0,3.43523,1.0,0.000,0.0,1.0,1.0,0.000
+United Synagogue Day School,Yes,1.5,3.01273,1.0,0.000,0.0,1.0,1.0,0.000
+University of Navarra School of Law,Yes,2.5,3.95066,0.83333,0.000,0.0,1.0,1.0,0.000
+Verde Valley School,Yes,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+Wesford,Yes,0.0,1.0,1.0,0.000,0.0,1.0,1.0,0.000
+West End Christian School,Yes,1.5,3.01273,1.0,0.000,0.0,1.0,1.0,0.000
+Willamette Valley Christian School,Yes,1.5,3.01273,1.0,0.000,0.0,1.0,1.0,0.000
+Zahrat Al-Sahraa International School,Yes,1.5,3.01273,1.0,0.000,0.0,1.0,1.0,0.000

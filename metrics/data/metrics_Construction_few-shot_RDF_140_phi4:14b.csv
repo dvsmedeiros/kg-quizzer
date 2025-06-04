@@ -1,0 +1,15 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+Para gerar um arquivo CSV a partir das informações fornecidas, precisamos extrair dados relevantes dos trechos de texto e do RDF (Resource Description Framework) apresentado em formato Turtle. Vou focar nas partes que mencionam Construction e nos dados relacionados às empresas dentro dessa categoria.,2.8,4.82961,1.0,0.400,3.06863,7.31969,0.94118,0.182
+- A construção é uma indústria global com um valor de produção anual estimado em US $ 10 trilhões, representando mais de 6% do PIB mundial.,1.84211,5.90165,1.0,0.500,2.44444,4.37319,1.0,0.250
+O trecho RDF contém entradas relacionadas à indústria da construção, incluindo empresas classificadas sob o domínio Construction. Aqui estão os dados relevantes:,2.1,4.82961,1.0,0.429,1.6875,5.20226,1.0,0.111
+- O exemplo de uso do template e outros metadados não são diretamente úteis para este CSV, mas as informações sobre cada empresa na indústria da construção são necessárias.,2.76471,5.78178,1.0,0.667,2.84615,5.20226,1.0,0.667
+Nome da Empresa, URL,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+2. **Altrad** - `<http://dbpedia.org/resource/Altrad>` (Nota: Esta empresa foi inferida como relevante através do contexto, embora não listada explicitamente no RDF fornecido),1.75,6.01226,0.875,0.083,1.5,4.10211,1.0,0.400
+5. **Centenary Construction** - `<http://dbpedia.org/resource/Centenary_Construction>` (Nota: Esta empresa foi inferida como relevante através do contexto, embora não listada explicitamente no RDF fornecido),1.925,6.12437,0.88235,0.077,1.5,4.10211,1.0,0.400
+7. **Globus Corporation** - `<http://dbpedia.org/resource/Globus_Corporation>` (Nota: Esta empresa foi inferida como relevante através do contexto, embora não listada explicitamente no RDF fornecido),1.925,5.65316,1.0,0.091,1.5,4.10211,1.0,0.400
+12. **Marubeni Corporation** - `<http://dbpedia.org/resource/Marubeni_Corporation>` (Nota: Esta empresa foi inferida como relevante através do contexto, embora não listada explicitamente no RDF fornecido),1.925,5.65316,1.0,0.091,1.5,4.10211,1.0,0.400
+13. **Mitsui Fudosan Co., Ltd.** - `<http://dbpedia.org/resource/Mitsui_Fudosan>`,1.25,3.43523,1.0,0.000,1.0,2.66415,0.66667,0.000
+15. **Perini Building Company** - `<http://dbpedia.org/resource/Perini_Building_Company>` (Nota: Esta empresa foi inferida como relevante através do contexto, embora não listada explicitamente no RDF fornecido),2.10714,5.78178,1.0,0.083,1.5,4.10211,1.0,0.400
+Assim, o CSV gerado com base nas informações acima seria:,0.0,1.0,1.0,0.000,2.2,4.61384,1.0,0.167
+Nome da Empresa,URL,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+Algumas empresas foram inferidas com base no contexto da indústria de construção e mencionadas em fontes externas, embora não explicitamente listadas nos dados RDF fornecidos.,1.47059,5.90165,1.0,0.300,2.33333,4.37319,1.0,0.333

@@ -1,0 +1,6 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+Now, considering how to structure this into a CSV. The columns should be:,0.0,1.0,1.0,0.000,2.38889,5.20226,1.0,0.333
+But in this specific RDF snippet, it's mostly using ns2:almaMater and sometimes ns1:almaMater or ns1:education.,2.5,3.79304,1.0,0.000,3.66667,5.62279,0.84615,0.077
+I think that's the approach. Now, let me make sure I capture all individuals correctly.,0.875,4.10211,1.0,0.143,2.8,4.61384,1.0,0.000
+- The first entry is about Você é um um... which seems like a test or instruction, so probably not an individual to include.,2.22222,5.89142,0.9375,0.231,2.875,4.10211,1.0,0.143
+**Nota:** O CSV completo incluirá todas as URIs dos indivíduos listados no RDF que tenham conexão com a Universidade de Chicago, seguidas pelas mesmas informações da universidade.,1.88462,6.74206,0.91667,0.188,1.85714,3.79304,1.0,0.333

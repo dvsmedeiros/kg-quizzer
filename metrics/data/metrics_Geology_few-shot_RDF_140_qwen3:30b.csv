@@ -1,0 +1,6 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+But looking at the data, the line for Geology has multiple predicates. For example:,2.0,3.43523,1.0,0.200,1.5625,4.75438,0.88889,0.000
+But the exact parsing needs to handle the commas and semicolons correctly. Also, the last object in each predicate might have a semicolon or a period.,3.0,5.48607,0.92308,0.000,3.92857,5.48607,0.92308,0.333
+1. For each line, remove the trailing period.,0.75,3.01273,1.0,0.000,2.0,3.01273,1.0,0.000
+3. For each subject, split into predicates and objects.,0.75,3.01273,1.0,0.000,2.0,3.43523,1.0,0.000
+http://dbpedia.org/resource/Anna_Karenina,http://db,1.2,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000

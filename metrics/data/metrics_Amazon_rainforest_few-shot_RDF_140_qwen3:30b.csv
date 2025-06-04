@@ -1,0 +1,21 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+Looking at the data, here are some key points:,1.5,3.01273,1.0,0.250,2.0,3.43523,1.0,0.000
+- The Amazon rainforest has a total width of 700 units (probably kilometers, but the data doesn't specify).,1.85714,5.20226,1.0,0.500,2.0,3.79304,1.0,0.333
+- It's a forest, which is its hypernym.,1.33333,3.01273,1.0,0.333,1.6,3.01273,1.0,0.000
+Now, I need to form questions that can be answered with this data. Let me list possible questions:,0.0,1.0,1.0,0.000,3.91667,6.00792,0.94118,0.062
+Wait, but some answers might be longer than 10 words. Let me check:,0.0,1.0,1.0,0.000,2.4,5.20226,1.0,0.000
+- Another question: What is the total area of the Amazon rainforest? – But the data doesn't mention area, only totalWidth. So maybe not.,2.44841,6.35243,0.83333,0.222,1.125,3.43523,1.0,0.000
+For the question about the main subject, maybe What is the main subject of the Amazon rainforest page? – Answer: Amazon biome (2 words).,3.0,4.25402,0.85714,0.000,3.675,6.01226,0.875,0.000
+Alternatively, What is the hypernym of the Amazon rainforest? – Answer: Forest (1 word).,0.0,1.0,1.0,0.000,3.0,5.32781,0.91667,0.000
+I think that's manageable. Now, compiling the 10 entries:,0.78571,3.79304,1.0,0.167,1.6,3.01273,1.0,0.000
+Pergunta,Resposta,0.0,1.0,1.0,0.000,0.0,1.0,1.0,0.000
+What is the total width of the Amazon rainforest?,700,2.5,4.75438,0.88889,0.222,0.0,1.0,1.0,0.000
+What is the hypernym of the Amazon rainforest?,Forest,3.33333,4.51932,0.875,0.000,0.0,1.0,1.0,0.000
+Which category includes the Amazon rainforest?,Rainforests,2.42857,3.79304,1.0,0.000,0.0,1.0,1.0,0.000
+What are the coordinates of the Amazon rainforest?,-3.0 -60.0,3.33333,4.51932,0.875,0.000,0.5,1.85566,1.0,0.000
+What is the main subject of the Amazon rainforest page?,Amazon biome,4.27273,4.96484,0.9,0.000,0.5,1.85566,1.0,0.000
+What is the name of the Amazon rainforest's Wikipedia template?,Template:Infobox_forest,3.38462,5.1549,0.90909,0.091,1.0,1.85566,1.0,0.000
+What are some ecoregions associated with the Amazon?,Neotropical ecoregions,3.33333,4.37319,1.0,0.000,0.5,1.85566,1.0,0.000
+What is the primary focus of the Amazon rainforest's subject categories?,Tropical and subtropical moist broadleaf forests,3.78571,5.32781,0.91667,0.083,2.5,3.79304,1.0,0.000
+What is the name of the Amazon rainforest in the Wikimedia Commons?,Amazon rainforest,5.23077,5.47097,0.83333,0.000,0.5,1.85566,1.0,0.000
+What is the main subject of the Amazon rainforest's categories?,Rainforests,3.84615,5.1549,0.90909,0.091,0.0,1.0,1.0,0.000

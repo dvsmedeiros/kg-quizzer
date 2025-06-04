@@ -1,0 +1,12 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+Therefore, the CSV would have:,0.0,1.0,1.0,0.000,2.0,3.01273,1.0,0.000
+Wait, the user provided a list of RDF triples. Let me recount:,0.0,1.0,1.0,0.000,1.80556,5.02467,1.0,0.000
+Looking at the input, there are multiple lines of the form:,1.5,3.01273,1.0,0.000,2.875,4.10211,1.0,0.000
+Then, other predicates like ns2:wikiPageUsesTemplate and foaf:depiction.,0.0,1.0,1.0,0.000,3.63636,4.37319,1.0,0.000
+In RDF, this would mean that the subject Force has multiple objects for the predicates ns2:wikiPageUsesTemplate and foaf:depiction.,0.5,1.85566,1.0,0.000,4.57143,6.11685,0.94444,0.000
+Therefore, each of these objects would be separate rows in the CSV.,0.0,1.0,1.0,0.000,3.25,5.02467,1.0,0.000
+Yes, that matches the earlier count.,0.0,1.0,1.0,0.000,2.0,3.43523,1.0,0.000
+- The first two lines (the ones starting with You can use...) are the user's instruction, not part of the data. Then the actual data starts with the triples.,5.85714,6.01226,0.875,0.062,2.22222,5.77882,0.76923,0.077
+Therefore, the final CSV would be:,0.0,1.0,1.0,0.000,1.66667,3.43523,1.0,0.400
+For example, the URLs are:,0.5,1.85566,1.0,0.000,1.5,2.50045,1.0,0.000
+No commas, so no need for quotes. So the CSV should be as above.,0.5,1.85566,1.0,0.000,2.1875,5.32781,0.91667,0.000

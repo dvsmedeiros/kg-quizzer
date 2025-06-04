@@ -1,0 +1,21 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+3. **Skip Duplicates**: If the same predicate appears multiple times for the same subject, only the first occurrence should be included.,2.11111,6.14642,0.8125,0.000,3.5,4.10211,1.0,0.000
+- For each subject, collect all the predicates and their objects.,1.5,2.50045,1.0,0.000,2.875,4.10211,1.0,0.000
+- Write each group into the CSV with the predicate and object, ensuring the namespaces are stripped.,5.5,5.1549,0.90909,0.000,2.5,3.43523,1.0,0.000
+Another subject is Jacksonville_Maritime_Museum, with ns2:location.,1.5,3.01273,1.0,0.000,2.0,2.50045,1.0,0.000
+**Regra 3**: Se houver mais de um objeto para o mesmo predicado em um mesmo assunto, inclua apenas o primeiro.,1.33333,6.35243,0.83333,0.250,1.6,3.01273,1.0,0.667
+predicado,objeto,0.0,1.0,1.0,0.000,0.0,1.0,1.0,1.000
+wikiPageUsesTemplate,Template:City of Jacksonville,0.0,1.0,1.0,0.000,1.2,3.01273,1.0,0.000
+wikiPageUsesTemplate,Template:Convert,0.0,1.0,1.0,0.000,1.0,1.85566,1.0,0.000
+wikiPageUsesTemplate,Template:Florida county seats,0.0,1.0,1.0,0.000,1.2,3.01273,1.0,0.000
+wikiPageUsesTemplate,Template:North Florida,0.0,1.0,1.0,0.000,1.0,2.50045,1.0,0.000
+Wait, looking back at the instruction:,0.0,1.0,1.0,0.000,2.0,3.43523,1.0,0.000
+Regra 3: Se houver mais de um objeto para o mesmo predicado em um mesmo assunto, inclua apenas o primeiro.,1.17647,6.01226,0.875,0.333,1.6,3.01273,1.0,0.667
+- **Rule 3**: If there are multiple objects for the same predicate in the same subject, include only the first.,3.85714,6.25277,0.82353,0.000,1.6,3.01273,1.0,0.000
+<http://dbpedia.org/resource/Jacksonville,_Florida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> .,1.5,1.85566,1.0,0.000,1.25,1.85566,1.0,0.000
+<http://dbpedia.org/resource/Jacksonville,_Florida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Settlement> .,1.5,1.85566,1.0,0.000,1.25,1.85566,1.0,0.000
+2. For each predicate in the group, remove the namespace (ns1 or ns2) to get the predicate name.,1.5,4.10211,1.0,0.000,6.5,5.1549,0.90909,0.000
+Now, let's start processing the data.,0.0,1.0,1.0,0.000,2.25,3.79304,1.0,0.333
+First, list all the subjects and their triples.,0.0,1.0,1.0,0.000,2.875,4.10211,1.0,0.000
+Looking at the data provided, the subjects are:,2.0,3.43523,1.0,0.200,1.5,2.50045,1.0,0.000
+- Jacksonville,_Florida,0.5,1.0,1.0,0.000,0.5,1.0,1.0,0.000

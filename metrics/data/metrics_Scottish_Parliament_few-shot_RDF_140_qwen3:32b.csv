@@ -1,0 +1,100 @@
+Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
+Okay, let's tackle this problem. The user provided a bunch of RDF data and wants me to generate a CSV file based on the given instructions and rules. Let me start by understanding the data and the requirements.,0.0,1.0,1.0,0.000,3.20743,8.06051,0.76316,0.176
+For example, the triple:,0.5,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+Property,Value,0.0,1.0,1.0,0.000,0.0,1.0,1.0,0.000
+ns2:committeeInLegislature,Audit,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+Property,Value,0.0,1.0,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:committees,Europe and External Relations,1.0,1.85566,1.0,0.000,1.5,3.01273,1.0,0.000
+Other should be processed to Government, Opposition Other.,2.5,3.79304,1.0,0.000,1.0,1.85566,1.0,0.000
+Now, let me go through all the triples and list them out.,0.0,1.0,1.0,0.000,3.58333,5.02467,1.0,0.000
+ns2:leader has the URI <http://dbpedia.org/resource/Alison_Johnstone>, so the value is Alison_Johnstone.,1.5,3.43523,1.0,0.000,2.5,3.43523,1.0,0.000
+ns2:location is <http://dbpedia.org/resource/Scotland>, so the value is Scotland.,1.0,2.50045,1.0,0.000,2.5,3.43523,1.0,0.000
+ns2:politicalPartyInLegislature is <http://dbpedia.org/resource/Third_Sturgeon_government>, value Third_Sturgeon_government.,1.0,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+ns1:commons is yes, so that's a direct entry.,1.2,3.01273,1.0,0.000,1.5,3.79304,1.0,0.200
+ns1:leader is <http://dbpedia.org/resource/George_Adam>, value George_Adam.,1.0,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+ns1:leader2Type is <http://dbpedia.org/resource/First_Minister_of_Scotland>, value First_Minister_of_Scotland.,1.0,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+ns1:leader4Type is <http://dbpedia.org/resource/Opposition_Parties_of_the_Scottish_Parliament>, value Opposition_Parties_of_the_Scottish_Parliament.,1.0,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+ns1:party is <http://dbpedia.org/resource/Scottish_National_Party>, value Scottish_National_Party.,1.0,2.50045,1.0,0.000,1.0,1.85566,1.0,0.000
+Other (with line breaks). The line breaks should be replaced with spaces, so the second value becomes Opposition Other.,2.96429,5.63648,0.75,0.000,3.5,4.10211,1.0,0.000
+ns1:wikiPageUsesTemplate has multiple URIs. Each of these should be split into individual rows, extracting the local name.,2.92857,5.51466,1.0,0.071,2.0,3.01273,1.0,0.250
+ns3:sameAs has a URI, so the value is 152958644.,1.0,3.43523,1.0,0.800,2.5,3.43523,1.0,0.000
+Property,Value,0.0,1.0,1.0,0.000,0.0,1.0,1.0,0.000
+ns2:committeeInLegislature,Audit,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns2:committeeInLegislature,Culture,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns2:committeeInLegislature,Finance_and_Devolution,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns2:committeeInLegislature,Health_and_Wellbeing,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns2:committeeInLegislature,Local_Government_and_Communities,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns2:committeeInLegislature,Public_Administration_and_National_Benefits,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns2:committeeInLegislature,Sustainable_Built_Environment,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns2:lastElectionDate,2021-05-06,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns2:leader,Alison_Johnstone,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns2:location,Scotland,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns2:politicalPartyInLegislature,Third_Sturgeon_government,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:backgroundColor,#500791,1.0,1.85566,1.0,0.000,0.5,1.85566,1.0,0.000
+ns1:committees,Europe_and_External_Relations,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:committees,Finance_and_Devolution,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:committees,Health_and_Wellbeing,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:committees,Local_Government_and_Communities,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:committees,Public_Administration_and_National_Benefits,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:committees,Sustainable_Built_Environment,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:committees,Transport_and_Mobility,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:commons,yes,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:commonsSearch,Scottish_Parliament,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:d,yes,1.0,1.85566,1.0,0.500,0.0,1.0,1.0,0.000
+ns1:lastElection,2021-05-06,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:leader,George_Adam,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:leader1Type,Presiding_Officer_of_the_Scottish_Parliament,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:leader2Type,First_Minister_of_Scotland,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:leader4Type,Opposition_Parties_of_the_Scottish_Parliament,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:meetingPlace,Scottish_Parliament_Building,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:nextElection,--05-07,1.0,1.85566,1.0,0.000,0.5,1.85566,1.0,0.000
+ns1:party,Scottish_National_Party,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:politicalGroups,Government,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:politicalGroups,Opposition_Other,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:portal,Scotland,1.0,1.85566,1.0,0.500,0.0,1.0,1.0,0.000
+ns1:structure,Scottish-parliament.svg,1.0,1.85566,1.0,0.000,1.0,1.0,1.0,0.000
+ns1:structure1Alt,Scottish_Parliament_composition,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:structure1Res,250,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament,1.0,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col1,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col2,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col3,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col4,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col5,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col6,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col7,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col8,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col9,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col10,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col11,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col12,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col13,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col14,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col15,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col16,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col17,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col18,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col19,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col20,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col21,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col22,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col23,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col24,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col25,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col26,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col27,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col28,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col29,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+ns1:wikiPageUsesTemplate,Template:Infobox_parliament/col30,1.0,1.85566,1.0,0.000,1.2,1.85566,1.0,0.000
+dcterms:subject,Category:Parliament_of_Scotland,1.0,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+dcterms:subject,Category:Scottish_Government,1.0,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+dcterms:subject,Category:Scottish_Parliament,1.0,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+dcterms:subject,Category:Parliamentary_buildings,1.0,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+ns3:sameAs,152958644,1.0,1.85566,1.0,0.000,0.0,1.0,1.0,0.000
+foaf:depiction,Audit_(organisation),1.0,1.85566,1.0,0.000,2.0,1.85566,1.0,0.000
+foaf:depiction,Culture_(organisation),1.0,1.85566,1.0,0.000,2.0,1.85566,1.0,0.000
+foaf:depiction,Finance_and_Devolution_(organisation),1.0,1.85566,1.0,0.000,2.0,1.85566,1.0,0.000
+foaf:depiction,Health_and_Wellbeing_(organisation),1.0,1.85566,1.0,0.000,2.0,1.85566,1.0,0.000
+foaf:depiction,Local_Government_and_Communities_(organisation),1.0,1.85566,1.0,0.000,2.0,1.85566,1.0,0.000
+foaf:depiction,Public_Administration_and_National_Benefits_(organisation),1.0,1.85566,1.0,0.000,2.0,1.85566,1.0,0.000
+foaf:depiction,Sustainable_Built_Environment_(organisation),1.0,1.85566,1.0,0.000,2.0,1.85566,1.0,0.000
