@@ -206,6 +206,7 @@ def gerar_prompt(cenario, qtd_few_shot, limit, idioma):
 
     # Usa a função definida para gerar o prompt com base no tipo
     prompt = gerar_prompt_texto(
+        topico=topico[idioma],
         abstract=abstract.strip(),
         triplas=triplas,
         fewshot=fewshot,
@@ -214,9 +215,11 @@ def gerar_prompt(cenario, qtd_few_shot, limit, idioma):
 
     return prompt, fewshot, grafo_filtrado
 
-def gerar_prompt_texto(abstract, triplas=None, fewshot=None, tipo='zero-shot'):
+def gerar_prompt_texto(topico, abstract, triplas=None, fewshot=None, tipo='zero-shot'):
     if tipo == 'zero-shot':
-        return config.PROMPT_ZERO_SHOT_PT
+        return config.PROMPT_ZERO_SHOT_PT.format(
+            topico=topico            
+        )
     elif tipo == 'zero-shot-triplas':
         return config.PROMPT_TRIPLAS_PT.format(
             abstract=abstract,
@@ -417,7 +420,7 @@ def main():
                 "max_tokens": max_tokens
             }
             salvar_execucao_csv(id_execucao, execucao)
-            #salvar_resposta_e_csv_extraido(id_execucao, id_cenario, cenario['nome'], resposta)
+            salvar_resposta_e_csv_extraido(id_execucao, id_cenario, cenario['nome'], resposta)
 
         logger.info(f"Tempo total de execução: {time.perf_counter() - start_total:.2f} segundos")
 

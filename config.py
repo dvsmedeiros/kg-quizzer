@@ -29,6 +29,9 @@ pergunta;resposta
 - **Não repita perguntas semelhantes.**
 - Gere **somente o conteúdo CSV**, sem explicações ou comentários adicionais.
 
+### Contexto
+{topico}
+
 ---
 
 ## Instrução Final
