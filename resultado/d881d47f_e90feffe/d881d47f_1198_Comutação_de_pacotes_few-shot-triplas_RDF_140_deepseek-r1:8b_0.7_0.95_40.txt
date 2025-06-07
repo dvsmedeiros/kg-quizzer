@@ -1,0 +1,47 @@
+<think>
+Okay, I need to create 10 question-response pairs in CSV format based on the given context about packet switching. Let me start by understanding the main points from the context.
+
+First, the context explains that packet switching is a data transmission method where packets are individually sent through the network. It contrasts with circuit switching, which establishes a dedicated connection. Packet switching is used for optimizing bandwidth use, minimizing latency, and improving robustness but can introduce jitter and varied delays.
+
+Looking at the facts, several people are mentioned: Donald Davies, Paul Baran, Sharla Boehm, and W. David Sincoskie. Each of them contributed to packet switching in different ways.
+
+Now, I should formulate questions that cover various aspects of packet switching. I'll need to ensure each question is unique and touches on a different aspect or contribution. Let me brainstorm possible questions:
+
+1. Who is known for the term "packet switching"? (Davies)
+2. What was Paul Baran's development in the late 50s? (Adaptive message block switching)
+3. What does packet switching contrast with? (Circuit switching)
+4. What's the primary goal of packet switching? (Efficient use of bandwidth, minimizing latency)
+5. Who developed circuit switching? Or is it a rival to packet switching?
+6. How is circuit switching characterized? (Dedicated connection per session)
+7. What does adaptive message block switching do? (Handle variable network conditions efficiently)
+8. Who introduced the concept of statistical multiplexing? (Baran or Davies?)
+9. What's the advantage of using a virtual circuit in packet switching? (Guaranteed delivery, ordered transmission)
+10. How is data transmitted in datagram mode without a connection? (Independent packets with source addressing)
+
+Wait, I need to ensure each question is directly related and has one correct answer. Let me check each against the context.
+
+1. Correct: Donald Davies.
+2. Correct: Adaptive message block switching.
+3. Correct: Circuit switching.
+4. Correct: Efficient use, minimize latency.
+5. Correct: It's the rival, circuit switching uses dedicated connections.
+6. Correct: Circuit switching has a fixed connection per session.
+7. Correct: Handles variable conditions via statistical multiplexing.
+8. Correct: Baran introduced it in his 1960 paper.
+9. Correct: Virtual circuits offer guaranteed delivery.
+10. Correct: Datagrams send packets with source addresses.
+
+I think these cover the key points without repeating questions and each has a clear, correct answer based on the context provided.
+</think>
+
+pergunta;resposta
+Quem é creditado pelo termo "comutação de pacotes"?;"Donald Davies é creditado por cunhar o nome moderno de comutação de pacotes"
+O que Paul Baran desenvolveu no final dos anos 50?;"Baran desenvolveu o conceito de comutação de blocos de mensagens adaptáveis"
+Com que objetivo a comutação de pacotes se destina?;"A comutação de pacotes visa otimizar o uso da largura de banda, minimizar a latência e aumentar a robustez"
+Qual é a principal diferença entre comutação de pacotes e comutação de circuitos?;"Comutação de circuitos estabelece uma conexão dedicada, enquanto comutação de pacotes envia os dados individualmente"
+Quem desenvolveu o sistema de comutação de blocos de mensagem adaptável?;"W. David Sincoskie foi um dos pioneiros na pesquisa do comutação de blocos de mensagem adaptáveis"
+O que a comutação de blocos de mensagem adaptável provê?;"Fornece um método eficiente e tolerante a falhas para a roteamento de mensagens em telecomunicações"
+Qual é a principal vantagem da comutação de pacotes em comparação à de circuitos?;"A comutação de pacotes utiliza melhor os recursos da rede e oferece mais flexibilidade"
+Quem introduziu a estatística multiplexação temporal na comutação de blocos de mensagem adaptável?;"Paul Baran foi um dos autores importantes desse conceito"
+Qual é a principal características da comutação de circuitos?;"A comutação de circuitos é caracterizada por estabelecer uma ligação virtual dedicada entre os nós"
+Como a comutação de pacotes garante a entrega segura dos pacotes?;"Os pacotes são encaminhados independentemente e sempre incluem o endereço de origem"

@@ -1,0 +1,53 @@
+<think>
+Okay, let me try to figure out how to approach this user's request. They want me to generate 10 pairs of objective questions and answers based on a given context about the European Union's laws. The output needs to be in CSV format with specific separators.
+
+First, I need to understand the context they provided. It talks about the EU as a system of rules governing member states, aiming for peace, values, and human well-being. There are some DBpedia facts listed, which probably relate to academic disciplines and templates used on Wikipedia.
+
+Now, looking at their instructions, they want 10 varied questions covering different aspects of the context. Each question should have one correct answer explicitly or inferibly from the content. Also, no repeated similar questions.
+
+I'll start by identifying key points in the context: EU laws as a system, promoting peace, member states' unity, policies transcending nations for cooperation and development, and the EU's role in international law as a new legal order.
+
+Next, I need to create questions that touch on these areas. For each question, I'll think of possible answers based on the information given. Let me list out potential topics:
+
+1. What is the primary goal of the EU?
+2. Who are the main beneficiaries of EU laws?
+3. Which academic discipline studies EU law?
+4. How does the EU promote unity among member states?
+5. What kind of policies does the EU support in member countries?
+6. What system or structure does the EU use for its laws?
+7. Where is the origin of EU legal system information?
+8. What role does the EU play internationally beyond member countries?
+9. How are academic fields related to EU law?
+10. Which person's work is associated with studying EU law?
+
+I think these topics cover a broad range and ensure each question is unique. Now, I'll frame each as a clear question in Portuguese, ensuring they relate directly to the context.
+
+For the answers, I need to pull from the provided facts:
+- The primary goal of the EU is peace.
+- EU laws benefit member states.
+- Law of the European Union is studied within law as an academic discipline.
+- Promotes unity through solidarity and cooperation policies.
+- The Common Market Law Review is one such policy.
+- The system is based on a centralized legal code.
+- originates from its own legal wiki page, referencing Wikipedia.
+- The EU acts as an international law body representing member states' interests beyond national borders.
+- Academic fields include law of the European Union and related disciplines.
+- Henry G. Schermers studied it.
+
+I need to translate these answers accurately into Portuguese to match each question without introducing errors. Also, ensuring that each pair is correctly formatted with a semicolon separator.
+
+Double-checking if all 10 questions are unique and cover different aspects of the EU's legal system as described. It looks good, so I'll compile them into CSV format.
+</think>
+
+```csv
+qual é o objetivo principal da União Europeia?;promover a paz e os valores de seu valor e o bem-estar de seus povos
+quais entidades beneficiam das leis da União Europeia?;as mesmo Estados-membros
+qual é uma disciplina acadêmica relacionada com aleiura europeia?; Lei da European Union
+como a União Europeia promove o unitário dos Estados-membros?;através de políticas de solidariidade e cooperação
+qual é um exemplo de política developing na União Europeia?;Lei Geral do Comércio Euromáximo
+qual sistema ou regra da União Europeia é baseado num código centralizado?; Sistema de leis organizadas em um único código
+quem é a origem da information legal da União Europeia?;A página principal daikipédia sobre "Lei da European Union"
+qual é a natureza da interferingência da União Europeia no ámbito internacional?;Representação de intereses de Estados-membros e coordenação de políticas internacionais
+qual é um campo acadêmico relacionado com a Lei da European Union?;Legislação, direito comparativo, etc.
+qual foi o pioneiro académico que estuda a Lei da European Union?;Henry G. Schermers
+```

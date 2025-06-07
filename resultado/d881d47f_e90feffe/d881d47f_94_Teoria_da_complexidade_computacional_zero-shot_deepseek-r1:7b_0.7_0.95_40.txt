@@ -1,0 +1,40 @@
+<think>
+Okay, I need to create a quiz based on the given context about computational complexity theory. The user wants me to generate exactly 10 question-answer pairs in CSV format, each with one question and one correct answer related to the provided content.
+
+First, I should review the context thoroughly to understand the key points. It mentions basic concepts like P vs NP problem, NP-complete problems, reduction of problems, polynomial time algorithms, examples such as Traveling Salesman Problem and Knapsack Problem, approximation algorithms, heuristic methods, and real-world applications in optimization and cryptography.
+
+Now, I need to formulate 10 different questions that cover these aspects. Each question should be clear, relevant, and have a single correct answer based on the context.
+
+Starting with the most fundamental concept: P vs NP problem is central to computational complexity theory. So a good first question could ask about its significance.
+
+Next, I can focus on NP-complete problems as they are a crucial subset of NP problems. A question asking for an example would be appropriate here.
+
+Reduction between problems is another key point. A question that asks which problem reduces to which one might be effective, like SAT reducing to CNF-SAT.
+
+Polynomial time algorithms are fundamental, so I can ask about their characteristics or examples.
+
+The Traveling Salesman Problem is a classic NP-hard problem, so asking for its classification makes sense.
+
+Knapsack Problem is another well-known NP-hard problem. A question asking which one it is would be good.
+
+Approximation algorithms are used when exact solutions aren't feasible, so asking about the purpose of these algorithms is relevant.
+
+Heuristic methods often come into play for NP problems since they can provide approximate solutions in reasonable time. So a question on their role makes sense.
+
+Lastly, real-world applications help connect theory to practice. Asking which area they're applied to would be a good final question.
+
+I should ensure that each question is unique and covers different aspects of the context without repeating similar topics. Also, I need to make sure the answers are accurate based on the provided content.
+</think>
+
+```csv
+P vs NP problema é fundamental para classificar problemas de complexidade computacional;P versus NP问题是计算机科学中最重要的未解决难题之一。
+Qual é um exemplo de problema NP-completo?;一个著名的NP完全问题是旅行商问题
+Quais problemas são NP completos?;CNF-SAT is a classic NP-complete problem.
+Reduções entre problemas são usadas para estabelecer a complexidade relativa deles;Reductions between problems are used to establish the relative complexity of different problems.
+Algorithms polinomiais são aqueles que podem ser executados em tempo reasonável para grandes entradas;Polynomial time algorithms can be executed in reasonable time for large inputs.
+Problemas NP-hard são os mais difíceis nas classes NP e NP-completa;NP-hard problems are the most difficult ones within the NP and NP-complete classes.
+Qual é a principal vantagem dos algoritmos de aproximação em problemas computacionais?;Approximation algorithms are useful when exact solutions are not feasible due to computational constraints.
+Métodos heurísticos são usados para encontrar soluções approximadas de problemas NP-difíceis;Heuristic methods are used to find approximate solutions to NP-hard problems.
+Qual é uma aplicação prática dos algoritmos polynomial em otimização?;Polynomial time algorithms are widely used in optimization tasks such as scheduling and resource allocation.
+Os algoritmos de complexidade exponencial são usados para criptografia de chave pública;Exponential-time algorithms are commonly used for public-key cryptography.
+```

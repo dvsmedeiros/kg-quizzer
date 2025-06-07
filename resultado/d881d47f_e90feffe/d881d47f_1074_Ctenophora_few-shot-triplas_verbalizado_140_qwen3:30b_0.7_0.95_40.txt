@@ -1,0 +1,80 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in CSV format based on the provided context and facts about Ctenophora. Let me start by thoroughly understanding the context and the facts given.
+
+First, the context says that Ctenophora are marine animals with a cosmopolitan distribution, mostly planktonic, some benthic, bioluminescent, and they have ciliary combs for swimming. They range from 1mm to 1.5m in size. They resemble jellyfish but are not closely related. They've been around since the Cambrian period.
+
+Now, looking at the facts, there are a lot of technical details: types like "Thing", "EukaryoticCell", "Animal", etc. Also, models used on Wikipedia pages, categories they belong to, images, and taxonomic information. For example, Ctenophora is a phylum, has subclasses like Tentaculata, Nuda, Scleroctenophora. They have a species type, and some specific species like Mnemiopsis leidyi as the type species. There's mention of their scientific description by Eschscholtz in 1829. Also, various Wikipedia templates they use, like Template:Taxonbar, Template:Commons category, etc.
+
+I need to make sure the questions are varied and cover different aspects. Let me brainstorm possible questions:
+
+1. What is the scientific name for Ctenophora? (But the context doesn't mention a specific scientific name, just the common name. Wait, the context says "Ctenophora (do grego...)" so maybe the scientific name is Ctenophora. But the facts mention "Ctenophora é táxon de Ctenophora" which might mean it's the taxon. So maybe the answer is "Ctenophora".
+
+2. What is the primary mode of locomotion for Ctenophora? (Answer: ciliary combs or cilia)
+
+3. What is the maximum size of Ctenophora? (1.5 m)
+
+4. What is the common name for Ctenophora? (Comb jellies, or carambolas-do-mar)
+
+5. What is the taxonomic classification of Ctenophora? (Phylum)
+
+6. Which scientist described Ctenophora? (Eschscholtz, 1829)
+
+7. What is the main difference between Ctenophora and jellyfish? (Evolutionary convergence, not close relation)
+
+8. What are the subclasses of Ctenophora? (Tentaculata, Nuda, Scleroctenophora)
+
+9. What is the primary habitat of Ctenophora? (Marine waters, estuaries)
+
+10. What is the significance of the ciliary combs in Ctenophora? (For swimming)
+
+Now, checking the facts to ensure answers are correct. For example, the facts state "Ctenophora possui subdivisão *Tentaculata *Nuda *Scleroctenophora" so that's the answer for question 8. The fact "Ctenophora foi descrito por Eschscholtz, 1829" answers question 6. The context mentions they are similar to jellyfish but not closely related, so question 5's answer would be about the taxonomic classification as a phylum, but the context says "filo de animais marinhos" so the answer is "Phylum".
+
+Wait, the user's examples include "O que é um ctenophora?;filo de animais que vivem em águas marinhas" so the answer is "Phylum". So question 5 would be "Qual a classificação taxonômica de Ctenophora?" with answer "Filo".
+
+Also, the facts mention "Ctenophora é do tipo Animal" and "Ctenophora é do tipo Animal100015388" but the context says "filo de animais marinhos", so the answer would be "Filo" for the classification.
+
+Another point: the context says they have "pentes formados por grupos de cílios" so the answer for the locomotion is "pentes formados por grupos de cílios" or "cílios".
+
+Also, the image names and categories might be used in questions, but the user's examples don't include that. The user's examples focus on the biological aspects. So maybe avoid image-related questions unless necessary.
+
+Need to ensure that each question is unique and covers different aspects. Let's check the examples given by the user. They have questions about what it is, how they swim, their size, characteristics, common names, etc.
+
+So compiling the 10 pairs:
+
+1. O que é Ctenophora?;filo de animais marinhos
+2. Como os ctenóforos se locomovem?;usam pentes formados por grupos de cílios
+3. Qual o tamanho máximo de Ctenophora?;1,5 m
+4. Qual é o nome comum de Ctenophora?;carambolas-do-mar ou águas-vivas-de-pente
+5. Qual a classificação taxonômica de Ctenophora?;Filo
+6. Quem descreveu Ctenophora?;Eschscholtz, 1829
+7. Qual a principal diferença entre Ctenophora e medusas?;convergência evolutiva, não relação filogenética próxima
+8. Quais são as subdivisões de Ctenophora?;Tentaculata, Nuda, Scleroctenophora
+9. Onde se encontram os ctenóforos?;águas oceânicas e estuarinas
+10. Qual a função dos pentes dos ctenóforos?;nadar
+
+Now, check if all answers are present in the context or facts. For example, the answer to question 7 is in the context: "assemelhanças com as medusas representam mais uma convergência evolutiva do que um relacionamento filogenético próximo com os Cnidaria."
+
+Yes, that's covered. The answer to question 8 is from the facts: "Ctenophora possui subdivisão *Tentaculata *Nuda *Scleroctenophora".
+
+Question 6 is from the fact "Ctenophora foi descrito por Eschscholtz, 1829".
+
+Question 5's answer is from the context: "Ctenophora (do grego...), é um filo de animais marinhos..."
+
+Question 9's answer is from the context: "distribuição natural cosmopolita presentes nas águas oceânicas e estuarinas."
+
+Question 10's answer is from the context: "presença de pentes formados por grupos de cílios que utilizam para nadar."
+
+I think these 10 pairs meet the requirements. Now, format them into CSV with semicolons.
+</think>
+
+pergunta;resposta
+O que é Ctenophora?;filo de animais marinhos
+Como os ctenóforos se locomovem?;usam pentes formados por grupos de cílios
+Qual o tamanho máximo de Ctenophora?;1,5 m
+Qual é o nome comum de Ctenophora?;carambolas-do-mar ou águas-vivas-de-pente
+Qual a classificação taxonômica de Ctenophora?;Filo
+Quem descreveu Ctenophora?;Eschscholtz, 1829
+Qual a principal diferença entre Ctenophora e medusas?;convergência evolutiva, não relação filogenética próxima
+Quais são as subdivisões de Ctenophora?;Tentaculata, Nuda, Scleroctenophora
+Onde se encontram os ctenóforos?;águas oceânicas e estuarinas
+Qual a função dos pentes dos ctenóforos?;nadar

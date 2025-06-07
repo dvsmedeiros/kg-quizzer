@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 CSV pairs of questions and answers based on the provided context about the IPCC. First, I need to make sure I understand all the rules and requirements. 
+
+The main points are: the questions must be varied, cover different aspects of the content, have a single correct answer, and not repeat similar questions. The output needs to be strictly CSV with semicolons, no extra text. 
+
+Looking at the context, the IPCC was established in 1988 by the UN, specifically by UNEP and WMO. It's a scientific body that synthesizes research on climate change, not conducting original research. It's headquartered in Geneva and won the Nobel Peace Prize in 2007. The facts section includes some RDF data with people associated with the IPCC, like Bert Bolin, Filippo Giorgi, etc., and details about its structure and publications.
+
+Now, I need to create 10 unique questions. Let me brainstorm possible angles:
+
+1. What is the full name of IPCC? (Answer: Intergovernmental Panel on Climate Change)
+2. When was the IPCC established? (1988)
+3. Which organizations established the IPCC? (UNEP and WMO)
+4. What is the headquarters location? (Geneva)
+5. What is the abbreviation for IPCC? (IPCC)
+6. Who is the current chair? (Hoesung Lee)
+7. What is the main purpose of the IPCC? (Synthesize and disseminate knowledge on climate change)
+8. When did the IPCC receive the Nobel Peace Prize? (2007)
+9. What are the main topics addressed by the IPCC? (Global warming, causes, effects, risks, mitigation)
+10. What is the name of the first report? (1990 report)
+
+Wait, the user provided examples that include some of these. Let me check the examples to avoid repetition. The examples have questions about the parent organizations, the Nobel Prize, the chair, etc. So I need to ensure that the new questions are different.
+
+Let me verify each fact from the context and facts section. The facts mention the first report in 1990, the last in 2014, the Nobel Prize in 2007, the headquarters in Geneva, the parent organizations as UNEP and WMO, the abbreviation IPCC, the chair Hoesung Lee, and the purpose of synthesizing knowledge. Also, the fact that the IPCC doesn't produce original research but summarizes existing studies.
+
+Now, structuring the questions to cover these points without repeating. For example, one question could be about the main objective, another about the structure (like the parent organizations), another about the Nobel Prize, another about the first report, another about the headquarters, the chair, the abbreviation, the purpose, the establishment year, and the nature of their work (summarizing vs original research).
+
+I need to ensure that each question is distinct and covers different aspects. Let me list them:
+
+1. What is the full name of the IPCC? (Intergovernmental Panel on Climate Change)
+2. When was the IPCC established? (1988)
+3. Which organizations created the IPCC? (UNEP and WMO)
+4. Where is the IPCC headquartered? (Geneva)
+5. What is the abbreviation for the IPCC? (IPCC)
+6. Who is the current chair of the IPCC? (Hoesung Lee)
+7. What is the main objective of the IPCC? (Synthesize and disseminate knowledge on climate change)
+8. When did the IPCC receive the Nobel Peace Prize? (2007)
+9. What is the first report published by the IPCC? (1990 report)
+10. What is the nature of the work conducted by the IPCC? (Summarizes existing research, not original studies)
+
+Now, checking for uniqueness and correctness. Each question should have a clear answer from the context. The answer to question 9 about the first report might need to be "1990 report" as per the context, but maybe the exact name isn't specified. However, the user's examples mention "1990 report" as the first report. Similarly, the main purpose is to synthesize and disseminate knowledge.
+
+I think this covers the necessary points without repetition. Now, format them into CSV pairs with semicolons.
+</think>
+
+pergunta;resposta  
+Qual é a sigla do IPCC?;IPCC  
+Quando foi criado o IPCC?;1988  
+Quais organizações da ONU criaram o IPCC?;Programa das Nações Unidas para o Meio Ambiente (PNUMA) e Organização Meteorológica Mundial (OMM)  
+Onde está sediado o IPCC?;Geneva  
+Qual é o objetivo principal do IPCC?;Sintetizar e disseminar conhecimento sobre mudanças climáticas  
+Quando o IPCC recebeu o Prêmio Nobel da Paz?;2007  
+Qual é o primeiro relatório publicado pelo IPCC?;Relatório de 1990  
+Quem é o presidente atual do IPCC?;Hoesung Lee  
+Qual é a função do líder do IPCC?;Coordenar ações e representar o órgão  
+O que o IPCC não faz?;Realizar pesquisas originais, apenas sintetiza estudos existentes

@@ -1,0 +1,34 @@
+<think>
+Okay, I need to generate 10 CSV pairs based on the given context and facts. Let me start by understanding the content provided. The context is about computational complexity theory, which classifies computational problems based on resource usage. The facts include various DBpedia entries mentioning scholars associated with this field and some properties of the theory.
+
+First, I should identify key aspects from the context and facts. The main points are: classification of problems by resource usage (time, space), complexity classes, relation to computer science, and notable researchers. The examples given in the user's message also provide some structure, like questions about the branch of computer science, resource measurement, etc.
+
+I need to ensure that each question is unique and covers different aspects. Let me brainstorm possible questions:
+
+1. What is the primary focus of computational complexity theory? (Answer: classifying problems by resource usage)
+2. Which field of computer science is computational complexity theory a part of? (Answer: theoretical computer science)
+3. What are the two main resources used to measure complexity? (Answer: time and space)
+4. What term describes a task solvable by a computer through mechanical steps? (Answer: computational problem)
+5. What is the main goal of classifying problems in computational complexity? (Answer: determine resource requirements)
+6. Which scholars are associated with computational complexity theory? (Need to list some names from the facts)
+7. What is a computational complexity class? (Answer: a set of problems with similar resource requirements)
+8. How does computational complexity theory relate to algorithm analysis? (Answer: it provides a framework for understanding resource needs)
+9. What is the significance of complexity classes in practical computing? (Answer: determine feasible solutions)
+10. Which property of computational problems is central to complexity theory? (Answer: resource requirements)
+
+Now, I need to check if these questions are covered in the facts. The facts mention several researchers like Christos Papadimitriou, David Shmoys, etc., so question 6 can list some of them. Also, the examples provided by the user have similar questions, so I need to ensure not to repeat them.
+
+Let me structure each question and answer, ensuring they are in Portuguese and formatted correctly as CSV. I'll make sure each answer is directly inferable from the context or facts provided.
+</think>
+
+pergunta;resposta
+Qual é o ramo da ciência da computação teórica que classifica problemas computacionais por dificuldade e relacionamento entre classes?;teoria da complexidade computacional
+Quais são os dois recursos principais usados para medir a complexidade de um problema?;tempo e armazenamento
+Qual é o termo para uma tarefa resolvível por um computador com etapas matemáticas mecânicas?;problemas computacionais
+Quem são alguns dos pesquisadores associados à teoria da complexidade computacional?;Christos Papadimitriou; David Shmoys; Georg Gottlob; Irit Dinur; Jean-Paul Delahaye; Jelani Nelson; Larry Stockmeyer; Miklós Ajtai; Nikolai Sergeevich Bakhvalov; Oscar H. Ibarra; Peter Bürgisser; Ran Raz; Ronald V. Book; Russell Impagliazzo; Ryan Williams; Salil Vadhan; Scott Aaronson; Sheila Greibach; Shmuel Safra; Stefan Szeider; Steven Rudich; Thomas Jerome Schaefer; Umesh Vazirani; Vijay Vazirani; Viliam Geffert; Virginia Vassilevska Williams; Xi Chen
+Qual é o objetivo principal da classificação de problemas na teoria da complexidade computacional?;determinar os limites práticos sobre o que computadores podem ou não fazer
+Qual é a definição de um problema computacional segundo o contexto fornecido?;uma tarefa resolvida por um computador através da aplicação mecânica de etapas matemáticas
+Qual é a relação entre a teoria da complexidade computacional e a análise de algoritmos?;a teoria fornece um framework para entender os requisitos de recursos de algoritmos
+Qual é o papel da teoria da complexidade computacional na computação cotidiana?;determinar os limites práticos da capacidade dos computadores
+Quais são exemplos de classes de complexidade mencionadas nos fatos?;classes de complexidade; subclasses como PSPACE; problemas de decisão
+Qual é a característica central que define a complexidade de um problema computacional?;a dificuldade inerente da solução, medida por recursos necessários

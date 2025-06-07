@@ -1,0 +1,39 @@
+<think>
+Okay, I need to create exactly 10 pairs of questions and answers based on the provided context and facts. Let me start by understanding each fact given.
+
+First, the company is British Satellite Broadcasting (BSB), formed in 1986. Their films include "Galaxy," which is a documentary about the history of the company. That makes sense as a question and answer pair.
+
+Next, there are several films listed with their respective companies: "Heil_Honey_I'm_Home!", "Memphis_Belle!", "Now!", "The_Computer_Channel_(BSB)", "The_Movie_Channel_(British_TV_channel)", and "The_Power_Station_(TV_channel)". Each of these films is associated with a specific company, so I can create questions about each film's origin.
+
+The website provides information on the primary topic of BSB, which includes company, production, studio, etc. So, another pair focusing on this information.
+
+I also notice that there are several TV channels linked to BSB: "The_Computer_Channel_(BSB)", "The_Movie_Channel_(British_TV_channel)", and "The_Power_Station_(TV_channel)". These can be questions about their respective content.
+
+Looking at the facts, some films have their own companies involved. For example, "Heil_Honey_I'm_Home!" is produced by H.) So a pair here would compare this film with its company.
+
+Additionally, there are two films that don't specify an owner or company: "Memphis_Belle!" and "The_Power_Station_(TV_channel)". This can be expanded into multiple pairs since they might have different owners or companies.
+
+Putting it all together, I'll structure 10 questions covering the company formation, film details, website info, TV channels, and films without owners. Each will have a clear answer based on the provided facts.
+</think>
+
+```csv
+pergunta;resposta
+British Satellite Broadcasting plc formed in 1986 <http://dbpedia.org/resource/British_Satellite_Broadcasting>
+Galaxy (British_TV_channel) produced "Heil_Honey_I'm_Home!" via H.)
+The_Computer_Channel_(BSB), The_Movie_Channel_(British_TV_channel), The_Power_Station_(TV_channel) all operate under BSB
+Source: <http://en.wikipedia.org/wiki/British_Satellite_Broadcasting>
+A British satellite broadcaster established in 1986
+<http://dbpedia.org/resource/Company>, <http://dbpedia.org/resource/Group>, <http://dbpedia.org/resource/WikicatMediaCompaniesOfTheUnitedKingdom>
+British Satellite Broadcasting formed in 1986 by H.)
+Memphis_Belle_Story and Company are involved in the film; however, details not specified
+Source: <http://en.wikipedia.org/wiki/British_Satellite_Broadcasting>
+British Satellite Broadcasting formed in 1990 via M.)<br>
+The_Computer_Channel_(BSB), The_MovieChannel_(British_TV_channel), The_Power_Station_(TV_channel) all operate under BSB
+Source: <http://en.wikipedia.org/wiki/British_Satellite_Broadcasting>
+British Satellite Broadcasting formed in 1986 by H.)<br>
+The_Computer_Channel_(BSB), The_MovieChannel_(British_TV_channel), The_Power_Station_(TV_channel) all operate under BSB
+Source: <http://en.wikipedia.org/wiki/British_Satellite_Broadcasting>
+British Satellite Broadcasting formed in 1986 by H.)<br>
+The_Computer_Channel_(BSB), The_MovieChannel_(British_TV_channel), The_Power_Station_(TV_channel) all operate under BSB
+Source: <http://en.wikipedia.org/wiki/British_Satellite_Broadcasting>
+```

@@ -1,0 +1,39 @@
+<think>
+Okay, I need to help the user by generating a quiz based on the provided context and facts about steam engines. The user has specified that they want exactly 10 question-answer pairs in CSV format, with each pair separated by a semicolon.
+
+First, I'll review the context given. It explains what a steam engine is, its principles, and some examples of where it's still used today, like in nuclear reactors. There are also several facts listing various ships and their propulsion systems, as well as images and categories related to steam engines.
+
+My task is to create varied questions that cover different aspects of the content. Each question must have a single correct answer derived from the provided information. I need to ensure that the questions aren't repetitive and each one addresses a unique point from the context or facts.
+
+I'll start by identifying key points:
+1. Definition and function of a steam engine.
+2. Examples of ships using steam engines.
+3. Inventors associated with steam engines, like Thomas Newcomen.
+4. Images and categories related to steam engines.
+5. The principle behind how steam engines work.
+
+Next, I'll formulate questions around these points. For example:
+- What is the fluid used in a steam engine?
+- Which ships are powered by steam engines?
+- Who is known for inventing the steam engine?
+
+I must ensure that each question has only one correct answer and that all answers are directly supported by the provided context or facts.
+
+I'll also need to vary the types of questions, such as some asking for names, others for explanations, and perhaps a few about specific applications or historical figures.
+
+Finally, I'll structure these into 10 pairs, making sure they fit neatly into the CSV format without any additional text or explanations.
+</think>
+
+```csv
+pergunta;resposta
+O que é o fluido de trabalho em uma máquina a vapor?;Vapor de água sob alta pressão e temperatura elevada
+Qual princípio baseia o funcionamento da turbina a vapor?;Expansão do vapor, gerando diminuição na temperatura e energia interna
+Quem é conhecido por sua contribuição para a invenção da máquina a vapor?;Thomas Newcomen
+Qual imagem representa a governadora centrífuga da máquina a vapor?;Boulton and Watt centrifugal governor-MJ.jpg
+Qual tipo de energia é usado pelo ferry King County?;Steam engine
+Qual exemplo de navio com propulsão a vapor está listado no contexto fornecido?;USS Montclair (ID-3497)
+Qual navio possui potência da embarcação Steam engine?;SS S.C. Baldwin
+Qual categoria principal abrange o tópico da máquina a vapor?;Category:Steam engines
+Qual imagem representa um indicador de vapor em uma máquina a vapor?;Steam indicator (Steam and the Steam Engine - Land and Marine, 1875).jpg
+Qual princípio é fundamental para a conversão de energia na máquina a vapor?;Expansão do vapor
+```

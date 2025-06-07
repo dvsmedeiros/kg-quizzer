@@ -1,0 +1,38 @@
+<think>
+Okay, the user wants me to generate 10 CSV question-answer pairs based on the context "Fresno". First, I need to figure out what Fresno is known for. It's a city in California, right? So I should focus on its geography, population, culture, maybe famous places or events.
+
+Wait, the user provided a context of "Fresno", but there's no additional information. Hmm, maybe they expect me to use general knowledge about Fresno. Let me recall: Fresno is the largest city in the Central Valley, known for its agriculture, like the "Queen of the Central Valley" nickname. It has a significant Hispanic population, maybe some cultural aspects. Also, it's a hub for transportation, with the Fresno Yosemite International Airport. There might be historical sites, like the Fresno Train Station, or the Fresno State University.
+
+I need to create varied questions. Let me brainstorm possible topics: geography (location, nickname), population statistics, cultural aspects, landmarks, transportation, economy, history, education, climate, and maybe some unique facts. Each question should target a different aspect to avoid repetition.
+
+Now, I need to ensure each answer is correct and directly from the context. Since the user didn't provide specific details, I'll rely on general knowledge but make sure the answers are accurate. For example, the nickname "Queen of the Central Valley" is commonly attributed to Fresno. Also, the population around 500,000, the airport name, and the university.
+
+I should check for any possible overlaps in the questions. Let's list them out:
+
+1. Nickname
+2. Population
+3. Transportation hub
+4. Cultural aspect (Hispanic population)
+5. Landmark (Train Station)
+6. Economy (agriculture)
+7. Education (Fresno State)
+8. Climate
+9. Historical significance
+10. Unique fact (maybe the airport)
+
+Wait, the user might expect the answers to be more specific. If there's no additional context, I need to make sure the answers are standard facts. Let me structure each pair accordingly, ensuring they are distinct and cover different areas. Now, I'll format them into CSV as specified, making sure there are exactly 10 pairs without any extra text.
+</think>
+
+```csv
+pergunta;resposta
+Qual é o apelido de Fresno?;Rainha do Vale Central
+Qual é a população estimada de Fresno?;Aproximadamente 525.000 habitantes
+Fresno é conhecido por ser um hub de transporte?;Sim, é um hub de transporte com aeroporto internacional
+Qual é a característica principal da população de Fresno?;Possui uma grande comunidade hispânica
+Qual é um dos principais pontos turísticos de Fresno?;Estação Ferroviária de Fresno
+Qual é a atividade econômica mais significativa de Fresno?;Agricultura
+Fresno abriga uma universidade de renome?;Sim, a Universidade do Estado de Fresno
+Qual é o clima predominante em Fresno?;Semiárido com invernos suaves e verões quentes
+Fresno tem uma história ligada a qual atividade?;Exploração do ouro no século XIX
+Qual é o aeroporto principal de Fresno?;Aeroporto Internacional Fresno Yosemite
+```

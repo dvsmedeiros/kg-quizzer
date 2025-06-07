@@ -1,0 +1,40 @@
+<think>
+Okay, let me try to figure this out. The user wants me to generate 10 question-answer pairs in CSV format based on the provided context and facts. The context is about steam engines, their function, and their historical use. The facts list a bunch of ships, people, and other entities associated with steam engines.
+
+First, I need to make sure the questions are varied and cover different aspects of the content. The context mentions that steam engines are used in reactors, ships, and their working principle. The facts have a lot of ship names with steam propulsion, Thomas Newcomen as an inventor, and some images related to steam engines.
+
+So, possible questions could be about the main function of a steam engine, its use in reactors, the inventor (Thomas Newcomen), specific ships that use steam engines, the working principle (expansion of steam), and maybe the type of energy conversion. Also, the context mentions the fluid used is high-pressure steam, and the examples in the user's prompt included things like the Rankine cycle and types of engines (combustion external).
+
+I need to check the facts for specific examples. For example, "Thomas Newcomen é conhecido por Steam engine" – so a question about who invented it. Then, ships like USS Montclair, SS Maui, etc., have steam propulsion. The context says steam engines are still used in reactors, so a question on that. The working principle involves expansion of steam leading to energy conversion. Also, the image files mentioned might not be needed unless the user asks, but the user's examples don't include images, so maybe not.
+
+Make sure each answer is directly from the context or facts. Avoid repeating similar questions. Let me list possible pairs:
+
+1. What is the primary working fluid in a steam engine? – vapor de água sob alta pressão e alta temperatura.
+2. Which inventor is associated with the steam engine? – Thomas Newcomen.
+3. What is a modern application of steam engines? – reatores nucleares.
+4. What principle does the steam engine's operation rely on? – expansão do vapor.
+5. Which ship is known for using steam propulsion? – USS Montclair (ID-3497).
+6. What type of engine is a steam engine classified as? – combustão externa.
+7. What is the main energy conversion process in a steam engine? – energia interna to energia mecânica.
+8. What is another name for a steam engine? – máquina a vapor.
+9. Which historical ship used a steam engine? – SS Maui (1916).
+10. What is the primary function of the steam engine in reactors? – geração de eletricidade.
+
+Now, check if these are all from the context and facts. The context mentions "máquina a vapor" as another name. The facts have Thomas Newcomen and the ships. The context says reactors use steam engines for electricity. Yes, that should work. Also, the answer about combustão externa is from the example in the user's prompt, which is related to the context. 
+
+I need to make sure the answers are accurate. For example, the user's example had a question about the Rankine cycle, but the context doesn't mention that. However, the user's instruction says to use the context and facts provided, so maybe stick to what's given. The context says steam engines are combustion external engines. So the question about type of engine is valid.
+
+Okay, I think these 10 questions cover different aspects without repetition. Now format them into CSV with the correct syntax.
+</think>
+
+pergunta;resposta  
+Qual é o fluido principal utilizado em um motor a vapor?;vapor de água sob alta pressão e alta temperatura,  
+Quem é o inventor associado ao motor a vapor?;Thomas Newcomen,  
+Qual é uma aplicação moderna dos motores a vapor?;reatores nucleares,  
+Qual princípio o funcionamento do motor a vapor depende?;expansão do vapor,  
+Qual navio é conhecido por utilizar propulsão a vapor?;USS Montclair (ID-3497),  
+Que tipo de motor é classificado como um motor a vapor?;combustão externa,  
+Qual é o processo principal de conversão de energia em um motor a vapor?;energia interna para energia mecânica,  
+Qual é outro nome para um motor a vapor?;máquina a vapor,  
+Qual navio histórico utilizou um motor a vapor?;SS Maui (1916),  
+Qual é a função principal do motor a vapor em reatores?;geração de eletricidade.

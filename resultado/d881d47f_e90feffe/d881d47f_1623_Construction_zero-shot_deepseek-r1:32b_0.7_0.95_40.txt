@@ -1,0 +1,40 @@
+<think>
+Alright, so I need to generate a quiz based on the given context about Construction. Let me start by understanding what the user has provided.
+
+The user wants me to create exactly 10 question-answer pairs in CSV format, each separated by a semicolon. The questions should be varied and cover different aspects of the construction context provided. Each answer must be correct and derivable from the content. Also, I shouldn't repeat similar questions or add any extra explanations.
+
+Looking at the example response, it seems that each question is straightforward, focusing on specific points like tools used in construction, safety measures, types of materials, etc. The answers are concise and directly related to the context.
+
+I should make sure my questions cover a range of topics within construction—like tools, techniques, materials, safety, environmental impact, types of structures, etc. That way, each question touches on different aspects, ensuring variety.
+
+Let me think about possible questions:
+
+1. What is a common tool used in construction? (Answer: Martelo)
+2. Why are safety measures important on construction sites? (Answer: Prevenir acidentes)
+3. What material is often used for building foundations? (Answer: Concreto armado)
+4. What process involves mixing sand, gravel, and water to make concrete? (Answer: Mistura de concreto)
+5. How do cranes assist in construction projects? (Answer: Transporte de materiais pesados)
+6. What is a common method for attaching wooden planks together? (Answer: Parafusos e pregos)
+7. What safety equipment is crucial when working at heights? (Answer: Cinto de segurança)
+8. What's the purpose of using insulation in buildings? (Answer: Manter o calor)
+9. How does proper drainage affect construction sites? (Answer: Prevenir inundações)
+10. What type of machine is used for digging large holes or trenches? (Answer: Escavadeira)
+
+Wait, that's 10 questions. Each seems to cover a different aspect, from tools and materials to safety and techniques. I should double-check each answer against the context to ensure accuracy.
+
+I think this approach meets all the user's requirements. Now, I can structure these into the CSV format as specified.
+</think>
+
+```csv
+pergunta;resposta
+Qual é uma ferramenta comum usada na construção?;Martelo
+Por que são importantes as medidas de segurança em locais de construção?;Prevenir acidentes
+Qual material é frequentemente utilizado para construir fundações?;Concreto armado
+Quais são os elementos principais misturados para fazer concreto?;Cimento, areia e brita
+Como as obras podem afetar o meio ambiente?;Poluição do solo e da água
+Qual é a principal função das andaimes em uma construção?;Fornecer suporte e acesso aos operários
+Quais são os tipos de lajes mais comuns em uma construção?;Laje de concreto armado
+Qual equipamento é essencial para içar materiais em altura?;Crate
+Como se chama a técnica usada para unir madeiras na construção?;Parafusos e pregos
+Quais são os riscos associados ao trabalho com materiais tóxicos na construção?;Doenças respiratórias
+```

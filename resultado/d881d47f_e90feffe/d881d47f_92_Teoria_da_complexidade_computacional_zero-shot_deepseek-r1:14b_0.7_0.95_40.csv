@@ -1,0 +1,11 @@
+pergunta;resposta  
+O que é a notação Big O usada na teoria da complexidade computacional?;Ela descreve o comportamento assintótico máximo de tempo ou espaço necessário para executar um algoritmo.  
+Qual classe de复杂idade inclui problemas que podem ser resolvidos em tempo polinomial por uma máquina de Turing determinística?;P  
+Quais são os problemas que podem ser verificados em tempo polinomial?;NP  
+O que distingue a classe P da classe NP?;Os problemas na classe P podem ser resolvidos em tempo polinomial, enquanto os problemas em NP podem ser verificados em tempo polinomial.  
+Qual é um exemplo de problema pertencente à classe NP?;Problema da Satisfação de Cláusulas (SAT)  
+O que define a complexidade de tempo de um algoritmo?;A quantidade de passos computacionais necessários para resolver o problema em função do tamanho da entrada.  
+Qual é uma exemplo de classe de复杂idade associada à memória?;L (log空间)  
+Por que o teorema de Cook-Levin é importante na teoria da complexidade?;Ele prova que o problemas de SAT é completo para a classe NP, estabelecendo um基准 para outros problemas completos.  
+Qual algoritmo tem uma复杂idade espaço de O(log n)?;Algoritmos de divisão e conquista com recursão limitada, como o mergesort otimizado.  
+O que aconteceria se P fosse igual a NP?;Todas as questões难解 rapidamente verificáveis também poderiam ser resolvidas rapidamente.

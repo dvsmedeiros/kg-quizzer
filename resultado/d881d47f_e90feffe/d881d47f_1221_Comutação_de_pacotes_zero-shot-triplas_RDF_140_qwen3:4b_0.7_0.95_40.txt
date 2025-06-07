@@ -1,0 +1,38 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs in CSV format based on the provided context about packet switching in computer networks. Let me start by carefully reading the context to understand the key points.
+
+First, the context explains that packet switching is a method where data is sent in packets, each of which is routed individually. It contrasts with circuit switching, which establishes a dedicated path. The advantages of packet switching include better bandwidth utilization, lower latency, and increased robustness. There are two types: connection-oriented (circuit virtual) and connectionless (datagram). Examples given are ATM, Frame Relay, X.25 for connection-oriented, and IP for connectionless.
+
+Next, the facts section mentions some people associated with packet switching, like Donald Davies, Paul Baran, Sharla Boehm, and W. David Sincoskie. Also, the Wikipedia page for packet switching is referenced. The class information includes various categories and properties related to packet switching.
+
+Now, I need to create 10 distinct questions that cover different aspects. Let me brainstorm possible questions:
+
+1. What is the main difference between packet switching and circuit switching?
+2. What are the advantages of packet switching?
+3. What are the two main types of packet switching?
+4. What is an example of a connection-oriented packet switching protocol?
+5. What is an example of a connectionless packet switching protocol?
+6. Who are some notable people associated with packet switching?
+7. What is the role of multiplexing in packet switching?
+8. What is the primary purpose of a circuit virtual in packet switching?
+9. What is the main advantage of using packet switching over circuit switching?
+10. What is the significance of the IP protocol in packet switching?
+
+I need to ensure each question is unique and covers different aspects. Let me check if these questions are based on the provided context. The advantages include bandwidth optimization, lower latency, and robustness. The two types are circuit virtual and datagram. Examples given are ATM, Frame Relay, X.25 for circuit virtual and IP for datagram. The notable people are listed in the facts. Multiplexing is mentioned as a technique used in packet switching. The purpose of a circuit virtual is to guarantee delivery and ordered delivery. The main advantage is better bandwidth usage.
+
+I need to make sure the answers are correct and directly from the context. Let me verify each answer against the provided text. For example, the advantages are correctly stated. The examples of protocols are correct. The notable people are mentioned in the facts. Multiplexing is part of the techniques used. The purpose of circuit virtual is to ensure delivery. The main advantage is better bandwidth usage.
+
+Now, format each question and answer into the CSV format with semicolons. Ensure no markdown, just plain text. Check for 10 pairs, each with a unique question and answer. Avoid repetition. Make sure the answers are concise and directly derived from the context.
+</think>
+
+pergunta;resposta
+Qual a principal diferença entre a comutação de pacotes e a comutação de circuitos?;A comutação de pacotes envia pacotes individualmente, enquanto a comutação de circuitos estabelece uma ligação virtual dedicada entre os nós.
+Quais são os principais benefícios da comutação de pacotes?;Melhor uso da largura de banda, menor latência e maior robustez na comunicação.
+Quais são os dois tipos principais de comutação de pacotes?;Com ligação (circuito virtual) e sem ligação (datagrama).
+O que é um exemplo de protocolo de comutação de pacotes com ligação?;ATM (comutação de células), Frame Relay e X.25.
+O que é um exemplo de protocolo de comutação de pacotes sem ligação?;Endereço IP.
+Quem são algumas pessoas associadas à invenção da comutação de pacotes?;Donald Davies, Paul Baran, Sharla Boehm e W. David Sincoskie.
+Qual é o papel da multiplexagem em redes de comutação de pacotes?;A multiplexagem temporal estatística permite utilizar melhor os recursos da rede.
+Qual é a função principal de um circuito virtual em comutação de pacotes?;Assegurar a entrega ordenada dos pacotes e garantir a qualidade de serviço.
+Qual é a principal vantagem da comutação de pacotes em relação à comutação de circuitos?;Melhor utilização da largura de banda da rede.
+O que é a latência em redes de comutação de pacotes?;O tempo que um pacote demora para atravessar a rede, que é minimizado pela comutação de pacotes.

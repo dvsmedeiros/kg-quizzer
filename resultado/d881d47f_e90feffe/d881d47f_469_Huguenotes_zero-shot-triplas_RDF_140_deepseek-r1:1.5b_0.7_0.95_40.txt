@@ -1,0 +1,85 @@
+<think>
+Primeiro, identifico que o usuário está pedindo uma nova geração de questões objetiva baseada no contexto history das protestantes franceses. Os dados fornecidos incluemfatos como o passar dos protestantes, suas rações, o nomenclatura dabonsa e as histories significativas.
+
+Em seguida, identifico os fatos e destaquei que cada pergunta deve ser variável e abrangir diferentes aspectos. Para isso, optei por partitionar o conteúdo em diferentes tamanhos e roupas.
+
+Para cada pergunta, encontrei uma resposta correta e explicita, usando termos da dicionária e fontes organizadas de maneira clara. Noto que somei termos reais como "Huguenots" e "Scotch-Irish_Amerans", para garantir a acurácia das respostas.
+
+Finalmente, structuro os 10 pares na tabela CSV indicando a ordem dos dados feita de forma organizada e coletiva.
+</think>
+
+```csv
+pergunta;resposta
+Caminhando nas pastas dabonsa <http://dbpedia.org/resource/Huguenots> ;
+<http://dbpedia.org/resource/Protestantes> .
+<http://en.wikipedia.org/wiki/Protestants> foaf:primaryTopic <http://dbpedia.org/resource/Protestants> .
+
+<http://dbpedia.org/resource/Protestantes> ns1:type "article" ; ns1:url <https://web.archive.org/web/20101231030631/http:/www.hugenoot.org.za/hist-hug.htm>, <https://web.archive.org/web/20171027063644/http:/www.huguenot.netnation.com/general/> .
+<http://en.wikipedia.org/wiki/Protestantes> foaf:child <http://dbpedia.org/resource/Huguenots> .
+
+<http://en.wikipedia.org/wiki/Protestants> foaf:related <http://dbpedia.org/resource/Huguenots> ; <http://dbpedia.org/resource/Huguenot,_Orange_County,_New_York> .
+<http://en.wikipedia.org/wiki/Protestants> foaf:schema "Catholic_Church_in_France" > ns1:separations <http://dbpedia.org/resource/Huguenots> .
+
+<http://en.wikipedia.org/wiki/Protestants> foaf:primaryTopic <http://dbpedia.org/resource/Protestantes> .
+<http://en.wikipedia.org/wiki/Protestants> foaf:related <http://dbpedia.org/resource/Huguenots> ; <http://dbpedia.org/resource/Huguenot,_Staten_Island> .
+
+<http://en.wikipedia.org/wiki/Protestants> ns3:namedAfter <http://dbpedia.org/resource/Huguenots> ; ns1:namedFor <http://dbpedia.org/resource/Huguenots> .
+<http://en.wikipedia.org/wiki/Protestants> ns1:related <http://dbpedia.org/resource/Huguenots> .
+
+<http://en.wikipedia.org/wiki/Protestants> ns3:related <http://dbpedia.org/resource/Huguenots> ; <http://en.wikipedia.org/wiki/Scotch-Irish_Amerans> .
+</http://dbpedia.org/resource/Scotch-Irish_Amerans> foaf:primaryTopic <http://dbpedia.org/resource/Protestants> .
+
+<http://en.wikipedia.org/wiki/Protestants> ns1:type "article" ; ns1:url <https://web3.orgulla/100627/20171027063644/http:/www.huguenot.netnation.com/general/> .
+<http://en.wikipedia.org/wiki/Protestants> foaf:child <http://dbpedia.org/resource/Huguenots> .
+
+<http://en.wikipedia.org/wiki/Protestants> ns1:type "article" ; ns1:url <https://web3.orgulla/100627/20171027063644/http:/www.huguenot.netnation.com/general/> .
+<http://en.wikipedia.org/wiki/Protestants> foaf:related <http://dbpedia.org/resource/Huguenots> .
+
+<http://en.wikipedia.org/wiki/Protestants> ns1:type "article" ; ns1:url <https://web3.orgulla/100627/20171027063644/http:/www.huguenot.netnation.com/general/> .
+</http://dbpedia.org/resource/Huguenots> ns1:separations <http://dbpedia.org/resource/Huguenots> .
+
+<http://en.wikipedia.org/wiki/Protestants> ns1:type "article" ; ns1:url <https://web3.orgulla/100627/20171027063644/http:/www.huguenot.netnation.com/general/> .
+</http://dbpedia.org/resource/Huguenots> ns1:related <http://dbpedia.org/resource/Huguenots> .
+
+<http://en.wikipedia.org/wiki/Protestants> ns3:namedAfter <http://dbpedia.org/resource/Huguenots> ; ns1:namedFor <http://dbpedia.org/resource/Huguenots> .
+<http://en.wikipedia.org/wiki/Protestants> ns1:related <http://dbpedia.org/resource/Huguenots> .
+
+<http://en.wikipedia.org/wiki/Protestants> ns3:related <http://dbpedia.org/resource/Huguenots> ; <http://dbpedia.org/resource/Huguenot,_Orange_County,_New_York> .
+<http://en.wikipedia.org/wiki/Protestants> ns1:type "article" ; ns1:url <https://web3.orgulla/100627/20171027063644/http:/www.huguenot.netnation.com/general/> .
+
+</dbpedia.org/resource/Huguenots>
+```
+
+```csv
+pergunta;resposta
+Os caminhantes dabonsa <http://dbpedia.org/resource/Camisard> ;
+<http://dbpedia.org/resource/Protestantes> .
+<http://en.wikipedia.org/wiki/Protestants> foaf:primaryTopic <http://dbpedia.org/resource/Protestantes> .
+
+<http://dbpedia.org/resource/Camisard> ns2:hypothesis <http://dbpedia.org/resource/Protestantes> ;
+<http://dbpedia.org/resource/Catholic_Church_in_France> ns1:correlation <http://dbpedia.org/resource/Huguenots> .
+<http://en.wikipedia.org/wiki/Protestants> foaf:schema "Catholic_Church_in_France" > ns3:namedAfter <http://dbpedia.org/resource/Protestantes> ; ns1:namedFor <http://dbpedia.org/resource/Protestantes> .
+
+<http://en.wikipedia.org/wiki/Protestants> ns2:hypernym <http://dbpedia.org/resource/Huguenots> .
+<http://en.wikipedia.org/wiki/Protestants> foaf:child <http://dbpedia.org/resource/Camisard> .
+
+<http://en.wikipedia.org/wiki/Protestants> foaf:primaryTopic <http://dbpedia.org/resource/Protestantes> .
+<http://dbpedia.org/resource/Protestantes> ns1:type "article" ; ns1:url <https://web3.orgulla/100627/20171027063644/http:/www.huguenot.netnation.com/general/> .
+
+<http://en.wikipedia.org/wiki/Protestants> foaf:child <http://dbpedia.org/resource/Huguenots> .
+<http://en.wikipedia.org/wiki/Protestants> ns1:type "article" ; ns1:url <https://web3.orgulla/100627/20171027063644/http:/www.huguenot.netnation.com/general/> .
+
+<http://dbpedia.org/resource/Huguenots> ns1:separations <http://dbpedia.org/resource/Huguenots> .
+<http://en.wikipedia.org/wiki/Protestants> foaf:child <http://dbpedia.org/resource/Camisard> .
+
+<http://dbpedia.org/resource/Huguenots> ns3:namedAfter <http://dbpedia.org/resource/Huguenots> ; ns1:namedFor <http://dbpedia.org/resource/Huguenots> .
+<http://en.wikipedia.org/wiki/Protestants> foaf:primaryTopic <http://dbpedia.org/resource/Protestantes> .
+
+<http://en.wikipedia.org/wiki/Protestants> ns1:type "article" ; ns1:url <https://web3.orgulla/100627/20171027063644/http:/www.huguenot.netnation.com/general/> .
+</dbpedia.org/resource/Huguenots> ns1:separations <http://dbpedia.org/resource/Huguenots> .
+
+<http://dbpedia.org/resource/Huguenots> ns1:hypernym <http://dbpedia.org/resource/Protestants> .
+<http://en.wikipedia.org/wiki/Protestants> ns3:related <http://dbpedia.org/resource/Huguenots> ; <http://dbpedia.org/resource/Huguenot,_Orange_County,_New_York> .
+
+<http://en.wikipedia.org/wiki/Protestants> ns2:hypothesis <http://dbpedia.org/resource/Huguenots> .
+<http://dbpedia.org/resource/Huguenots> ns1:correlation <http://dbpedia.org/resource/Camisard> .

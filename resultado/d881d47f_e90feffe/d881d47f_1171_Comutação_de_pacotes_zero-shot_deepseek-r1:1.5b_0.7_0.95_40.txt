@@ -1,0 +1,45 @@
+<think>
+Okay, let me try to figure out how to approach this task. So, the user wants me to act like a quiz generator that produces objective questions based on given contexts and facts. They provided a specific context about "Comutação de Pacotes" which translates to "Turning switches" in Portuguese. The goal is to create 10 pairs of questions and answers in CSV format.
+
+First, I need to understand the structure they want. Each entry should have a question related to the given context, followed by a single correct answer. The CSV format requires two columns separated by semicolons, with each row representing one pair.
+
+I should start by analyzing the provided text about turning switches. It mentions operations like "turning off," "moving connections," and "resurrection of power." These are key points that can form questions. Each question needs to cover a different aspect to ensure variety.
+
+Next, I need to make sure each question is clear and directly relates to the context. For example:
+
+1. **Question:** "What happens when you turn off all the connections?"  
+   **Answer:** All switches will either be off or will not function correctly unless there's an open path.
+
+2. **Question:** "How do you ensure that at least one switch remains on after turning off others?"  
+   **Answer:** You can connect another switch in parallel to maintain activation.
+
+3. **Question:** "What action should you take if a switch is turned off but cannot be restarted due to a short circuit?"  
+   **Answer:** You should restart the entire system or find an alternative power source.
+
+I need to ensure that each answer is explicit and can be derived from the given facts without requiring additional information. This will help in keeping the answers correct according to the user's requirements.
+
+Also, I must avoid repeating questions. Each of the 10 pairs must be unique, covering different aspects or operations related to turning switches. It might require a bit of creativity since each answer is directly tied to a specific scenario described in the context.
+
+Let me list out possible questions:
+
+- Turning off individual connections
+- Ensuring at least one switch remains on
+- Handling short circuits during operation
+- Preventing unintended activation
+- Restoring power from disconnected switches
+- Identifying parallel connections for redundancy
+
+Each of these can be turned into a question with a corresponding answer. This way, I cover various scenarios and ensure that each answer is tied directly to the context provided.
+
+I think this approach meets all the user's requirements: 10 unique questions based on the given text, clearly related contexts, correct answers, and proper CSV formatting without extra comments or explanations.
+</think>
+
+```csv
+pergunta;resposta
+turning off individual connections;All switches will either be turned off or will not function correctly unless there's an open path.
+ensuring at least one switch remains on;Connect another switch in parallel to maintain activation.
+handling short circuits during operation;Ensure the circuit is properly closed by adding a resistor in series.
+preventing unintended activation;Check for loose connections that could accidentally activate switches.
+restoring power from disconnected switches;Find or connect an additional power source if all are off.
+identifying parallel connections for redundancy;Connect multiple switches to provide backup functionality.
+```

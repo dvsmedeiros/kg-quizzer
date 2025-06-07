@@ -1,0 +1,63 @@
+<think>
+Alright, let me try to figure out how to approach this problem. The user has provided a context and some rules for generating quiz pairs. So the task is to create exactly 10 pairs of questions in CSV format, each with a question and a response.
+
+First, I need to look at the context and the facts given. The context talks about the Black Death pandemic which started around 1346-1352 and caused significant mortality in Europe and the Middle East. It mentions key aspects like fatality rates, causes (Yersinia pestis), locations, dates, images, etc.
+
+Now, for each pair, I should create a question that tests understanding of one aspect while providing an answer that directly answers another. For example, a question about the spread date could be paired with a question about the main cause.
+
+I need to ensure that each question is unique and not repeated from previous pairs. Also, the CSV format must be correct without any markdown or explanations except for 'id' and 'response'.
+
+Let me brainstorm possible questions:
+
+1. When did the Black Death primarily spread?
+2. Which European region was affected most?
+3. What caused the disease's spread? (The feral flea example)
+4. How many deaths were reported worldwide?
+5. Where does the response image come from (e.g., Dorsetshire, Gloucesterham)?
+6. What regions recovered fastest after the pandemic?
+7. When did the Black Death end in England and the nearby towns?
+8. What caused the disease's severity? (More feral fleas)
+9. How many people were there on average per room in the image? (Average of 400 people, rooms of 214 or 25)
+10. Which region had the most deaths overall?
+
+Now I need to structure each question and response properly.
+
+Wait, for the third question, it's a bit tricky since the primary cause is bubonic plague, but the example uses the feral flea. So I'll phrase it as "What caused the spread of the Black Death primarily?"
+
+Similarly, the tenth question can be about which region had the most deaths overall.
+
+I also need to make sure each response is correct and directly answers a question from another aspect. For instance, the response image for the spread date would link to where the disease was transmitted, not just the affected area.
+
+Let me review each pair:
+
+1. Spread date with location
+2. Affected region with fatality rate
+3. Primary cause (using feral flea example)
+4. Total deaths with primary reason
+5. Response image location
+6. Recovery fastest regions
+7. End date in England
+8. Disease severity
+9. Average people per room
+10. Most deaths overall
+
+Each seems to cover different aspects of the pandemic, ensuring a comprehensive quiz covering various dimensions.
+
+Finally, I'll format them into CSV with each pair on a new line and specified headers.
+</think>
+
+```csv
+pergunta;resposta
+Distruição da Black Death em 1346-1352;;The feral flea example;
+ localization per chance;when did the Black Death primarily spread?;
+per chance:location;
+ location per chance:where did the disease originate from?;
+ fatality rate per chance:what was the death toll?
+ recovery fastest regions in chance:which regions had the most recoveries?
+ end date of spread in chance:when did the epidemic conclude in England?
+ total deaths in chance:how many people died worldwide?
+ cause of spread in chance:why did the disease spread?
+ primary reason for fatality rate in chance:what was the main reason why so many died?
+ average people per room in chance:on average, how many were there per room?
+ most deaths overall in chance:which region had the highest number of deaths?;
+```

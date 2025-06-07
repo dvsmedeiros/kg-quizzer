@@ -1,0 +1,44 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 CSV pairs of questions and answers based on the provided context about computational complexity theory. First, I need to make sure I understand the context given. The context is "Teoria_da_complexidade_computacional," which translates to "Computational Complexity Theory." 
+
+Since the user hasn't provided specific content details, I have to rely on general knowledge of computational complexity theory. The challenge here is to create varied questions that cover different aspects of the theory without repeating similar questions. Each question must have a single correct answer that's either explicitly stated or can be inferred.
+
+I should start by recalling key concepts in computational complexity. These include complexity classes like P, NP, NP-complete, NP-hard, P vs NP problem, polynomial time, exponential time, reductions, decision problems, time complexity, space complexity, and concepts like NP-hardness and NP-completeness. Also, important theorems like Cook-Levin theorem, P vs NP problem, and classes like PSPACE, EXP, etc.
+
+Now, I need to create 10 distinct questions. Let me brainstorm possible questions:
+
+1. What is the primary distinction between P and NP classes?
+2. What is the significance of the P vs NP problem?
+3. What is an NP-complete problem?
+4. What is a polynomial-time reduction?
+5. What is the Cook-Levin theorem?
+6. What is the difference between NP-hard and NP-complete?
+7. What is the time complexity class for problems solvable in polynomial time?
+8. What is the space complexity class for problems solvable in polynomial space?
+9. What is an example of an NP-complete problem?
+10. What is the main focus of computational complexity theory?
+
+Wait, but the user might have a specific context in mind. Since the original context was just the theory name, I have to assume general knowledge. However, the user might expect questions based on a particular text or lecture that's not provided here. But since the context is only the theory name, I have to proceed with general knowledge.
+
+I need to ensure each question is distinct and covers different aspects. Let me check if the answers are accurate. For example, the answer to question 1 is that P is problems solvable in polynomial time, NP is problems verifiable in polynomial time. Question 2's answer is that it's a fundamental problem in computer science, asking if P equals NP. Question 3's answer is that an NP-complete problem is one that is both NP and NP-hard. 
+
+I need to make sure that each answer is correct and that the questions are varied. Also, avoid repeating the same question structure. For example, some questions might ask about definitions, others about theorems, examples, differences between classes, etc.
+
+Let me list the 10 questions and their answers, ensuring they are in CSV format as specified. I'll format them correctly with semicolons and ensure the language is Portuguese. Also, check for any possible repetition in the questions to meet the user's rule of not having similar questions. 
+
+Once all questions are crafted, I'll compile them into the CSV format as required, making sure there are exactly 10 pairs and no extra content.
+</think>
+
+```csv
+pergunta;resposta
+Qual é a principal diferença entre os problemas da classe P e da classe NP?;Os problemas da classe P podem ser resolvidos em tempo polinomial por uma máquina determinística, enquanto os da classe NP podem ser verificados em tempo polinomial por uma máquina determinística, mas não necessariamente resolvidos nesse tempo.
+Qual é a questão central da teoria da complexidade computacional?;A questão de determinar se os problemas da classe P são equivalentes aos da classe NP (ou seja, se P = NP).
+O que caracteriza um problema NP-completo?;Um problema NP-completo é aquele que pertence à classe NP e é pelo menos tão difícil quanto qualquer outro problema em NP, ou seja, é NP-difícil e pertence a NP.
+O que é uma redução em tempo polinomial?;É um método para transformar uma instância de um problema em uma instância de outro problema em tempo polinomial, mostrando que os dois problemas têm a mesma dificuldade de resolução.
+Qual teorema estabelece que o problema SAT é NP-completo?;O teorema de Cook-Levin, que demonstra que o problema de satisfação de conjuntos (SAT) é NP-completo.
+Qual é a diferença entre um problema NP-difícil e um problema NP-completo?;Um problema NP-difícil é pelo menos tão difícil quanto os problemas NP, mas não necessariamente pertence à classe NP, enquanto um NP-completo é NP-difícil e pertence a NP.
+Qual é a complexidade de tempo para problemas resolvidos por algoritmos de tempo polinomial?;A complexidade de tempo é classificada como P (polynomial time).
+Qual é a classe de complexidade associada a problemas resolvidos com espaço polinomial?;A classe de complexidade PSPACE.
+Qual é um exemplo clássico de problema NP-completo?;O problema da satisfatibilidade booleana (SAT).
+Qual é o foco principal da teoria da complexidade computacional?;Analisar a dificuldade computacional de problemas e classificá-los com base em sua exigência de tempo e espaço para serem resolvidos.
+```

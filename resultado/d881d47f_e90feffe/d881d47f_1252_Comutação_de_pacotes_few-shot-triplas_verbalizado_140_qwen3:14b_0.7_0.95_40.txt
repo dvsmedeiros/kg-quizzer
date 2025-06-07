@@ -1,0 +1,51 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in CSV format based on the given context and facts. Let me start by understanding the context thoroughly.
+
+The context explains packet switching in computer networks, contrasting it with circuit switching. It mentions key points like optimizing bandwidth, reducing latency, robustness, and the two types of packet switching: connection-oriented (like ATM, Frame Relay) and connectionless (datagram, IP). The facts include people like Paul Baran and Donald Davies, technical terms, and various classifications of packet switching.
+
+Now, I need to create varied questions covering different aspects. Let's brainstorm possible questions:
+
+1. What is the main difference between packet switching and circuit switching?
+2. What are the two types of packet switching?
+3. Who is credited with coining the term "packet switching"?
+4. What is a key advantage of packet switching over circuit switching?
+5. What is an example of a connection-oriented packet-switching protocol?
+6. What is a disadvantage of packet switching?
+7. What does packet switching use to optimize bandwidth?
+8. How does packet switching handle data transmission compared to circuit switching?
+9. What is the role of jitter in packet switching?
+10. What are some examples of connectionless packet-switching protocols?
+
+Now, I need to ensure each answer is directly from the context or facts. Let's check each:
+
+1. The main difference is that packet switching doesn't establish a dedicated circuit, unlike circuit switching.
+2. Connection-oriented (like ATM) and connectionless (datagram, IP).
+3. Donald Davies is credited with the term.
+4. Optimizing bandwidth use and reducing latency.
+5. ATM, Frame Relay, X.25.
+6. Introduces jitter and variable delays.
+7. Statistical multiplexing.
+8. Transmits data in packets without dedicated circuits.
+9. Jitter refers to variability in packet arrival times.
+10. IP is an example of connectionless.
+
+Now, I need to phrase these into questions and answers, making sure they are accurate and not repetitive. Also, check that each answer is directly from the context or facts provided. For example, Paul Baran is mentioned, but the context doesn't detail his specific contributions beyond the general concept. The facts mention him as known for packet switching, but the context doesn't specify. So questions about specific people's contributions might need to be based on the facts, not the context. However, the user's example questions include Paul Baran and Donald Davies, so I should follow that pattern.
+
+Wait, the user's example had questions like "O que Paul Baran desenvolveu?" which translates to "What did Paul Baran develop?" but the context doesn't mention specific developments beyond the general concept. However, the facts mention Paul Baran is known for packet switching. Maybe the user expects questions based on the facts even if the context doesn't detail them. But the instruction says to use the content provided. Hmm. Wait, the user said "exclusivamente a partir do conteúdo fornecido," which means exclusively from the provided content. So if the facts are part of the content, then they should be used.
+
+But the context and facts are separate. The context is the main content, and the facts are additional information. So I need to use both. For example, the context mentions Paul Baran as known for packet switching, and the facts also mention him. So questions about who is known for packet switching would be valid.
+
+So, I'll create questions that use both the context and the facts. Now, compiling all into 10 pairs, ensuring no repetition and covering different aspects.
+</think>
+
+pergunta;resposta
+Qual é a principal diferença entre comutação de pacotes e comutação de circuitos?;A comutação de pacotes não estabelece uma ligação dedicada, enquanto a comutação de circuitos reserva uma ligação virtual para a transmissão
+Quais são os dois tipos principais de comutação de pacotes?;Comutação com ligação (circuito virtual) e comutação sem ligação (datagrama)
+Quem é creditado por cunhar o nome moderno de "comutação de pacotes"?;Donald Davies
+Qual é uma vantagem significativa da comutação de pacotes em relação à comutação de circuitos?;Optimiza o uso da largura de banda da rede e minimiza a latência
+Quais são exemplos de protocolos de comutação com ligação?;ATM, Frame Relay e X.25
+Qual é uma desvantagem da comutação de pacotes?;Introduz jitter (variação no tempo de chegada dos pacotes) e atrasos diversos
+Que técnica é utilizada pela comutação de pacotes para melhorar o uso dos recursos da rede?;Multiplexagem temporal estatística
+Como a comutação de pacotes encaminha os pacotes na modalidade de datagrama?;Independentemente, sem estabelecer um caminho fixo pré-definido
+Qual é a principal característica da comutação de pacotes sem ligação?;Oferece flexibilidade e robustez, pois a rede pode reajustar-se a falhas
+Quais protocolos são exemplos de comutação de pacotes sem ligação?;IP (endereço IP)

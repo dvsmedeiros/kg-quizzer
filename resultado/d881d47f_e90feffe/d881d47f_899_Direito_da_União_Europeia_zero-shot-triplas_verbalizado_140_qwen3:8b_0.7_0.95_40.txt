@@ -1,0 +1,42 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in CSV format based on the provided context and facts. Let me start by understanding the context and the facts given.
+
+The context talks about the European Union's legal system, its goals, and institutions. The facts mention topics like Law of the European Union, John Bell, Common Market Law Review, and some Wikipedia templates. 
+
+First, I should make sure each question is unique and covers different aspects. Let me list possible questions. For example, what is the main objective of the EU? Who are key figures in the field? What are some disciplines or journals related to EU law? Also, the facts mention some Wikipedia templates, so maybe a question about that.
+
+Wait, the facts have repeated entries. For instance, "Common Market Law Review" is mentioned twice. I need to avoid repetition in questions. Maybe focus on the main points. 
+
+Let me start drafting questions:
+
+1. What is the main objective of the EU according to the context?
+2. Who is a legal scholar associated with EU law?
+3. What is the name of a journal that operates in the discipline of EU law?
+4. Which institution is responsible for the EU's legal order?
+5. What does the EU's legal system represent according to its Court of Justice?
+6. What is the main topic of the Law of the European Union?
+7. Which Wikipedia template is used for EU law?
+8. What is the role of the Common Market Law Review?
+9. Who is Henry G. Schermers associated with?
+10. What is the significance of the EU's legal framework?
+
+Now, check if these are all distinct and based on the facts. The answer to question 7 might be Template:Redirect category shell, but I need to confirm. Also, the answer to question 3 is Common Market Law Review. 
+
+Wait, the facts mention that Common Market Law Review is in the discipline, so the answer to question 3 would be that. 
+
+I need to ensure each answer is directly from the context or facts provided. Also, avoid repeating the same question structure. Let me verify each pair and make sure they are correct and non-redundant. Once that's done, format them into CSV.
+</think>
+
+```csv
+pergunta;resposta
+Qual é o objetivo principal da União Europeia conforme mencionado no contexto?;promover a paz, seus valores e o bem-estar de seus povos
+Quem é um legal scholar associado à área do Direito da União Europeia?;John Bell
+Qual é o nome de uma revista que atua na disciplina do Direito da União Europeia?;Common Market Law Review
+Qual instituição é responsável pela ordem jurídica da União Europeia?;Tribunal de Justiça
+O que o sistema de direito da União Europeia representa segundo seu Tribunal de Justiça?;uma nova ordem jurídica de direito internacional
+Qual é o tema principal do Direito da União Europeia?;Law of the European Union
+Qual modelo de página wiki é utilizado para o Direito da União Europeia?;Template:Redirect category shell
+Qual é a função da Common Market Law Review?;atuar na disciplina do Direito da União Europeia
+Quem é associado à subdisciplina do Direito da União Europeia?;Henry G. Schermers
+Qual é a característica principal do sistema jurídico da União Europeia?;transcender os Estados-nação para fins de cooperação e desenvolvimento humano
+```

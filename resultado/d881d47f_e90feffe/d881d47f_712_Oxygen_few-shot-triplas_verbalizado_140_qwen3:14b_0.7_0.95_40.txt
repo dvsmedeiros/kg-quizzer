@@ -1,0 +1,53 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 CSV pairs with questions and answers based on the provided context and facts. First, I need to read through the context carefully. The context is about oxygen, its properties, history of discovery, applications, and related information.
+
+Looking at the facts, there are a lot of technical details like the atomic number, abundance, discovery by Scheele and Priestley, Lavoisier's contribution, and various applications. The user's examples show that the questions can range from simple facts (like atomic number) to more specific ones (like the percentage in the atmosphere).
+
+I need to ensure that each question is unique and covers different aspects. Let's list possible topics: atomic number, group in the periodic table, abundance in the universe, atmospheric percentage, discovery, Lavoisier's role, chemical compounds formed, allotropes (like ozone), historical context, and applications.
+
+Now, I should check if all these topics are covered in the context. Yes, the atomic number is 8, group is chalcogens, abundance as third in the universe, 20.8% in the atmosphere, discovered by Scheele and Priestley, Lavoisier named it, forms oxides, ozone as an allotrope, used in steel production, etc.
+
+I need to avoid repeating similar questions. For example, the examples already have the atomic number and percentage in the atmosphere. So I should pick different points. Maybe include the role of photosynthesis in oxygen production, the fact that it's a strong oxidizing agent, its use in medical oxygen therapy, the historical theory of phlogiston, and the fact that it's a diatomic molecule.
+
+Also, looking at the facts, there's mention of the ozone layer, which is an allotrope. The user's examples didn't cover that. So that's a good point. Another is the application in rocket propellants.
+
+I need to make sure answers are directly from the context. For example, "Oxigênio é um forte agente oxidante" is in the context, so a question on that. Also, the fact that it's the third most abundant element in the universe.
+
+Wait, the user's example had "terceiro" as an answer for abundance, so I should check if that's correct. The context says it's the third most abundant in the universe, after hydrogen and helium. Yes.
+
+Now, let's structure each question and answer pair. Each answer must be concise and directly from the text. Avoid any personal knowledge, strictly use the provided info.
+
+For example, a question on the atomic number: "Qual é o número atômico do oxigênio?" Answer: 8.
+
+Another on the group: "A qual grupo da tabela periódica pertence o oxigênio?" Answer: calcogênio.
+
+Abundance in the universe: "Qual é a posição do oxigênio em termos de abundância no universo?" Answer: terceiro, após hidrogênio e hélio.
+
+Atmospheric percentage: "Qual a porcentagem de oxigênio na atmosfera terrestre?" Answer: 20,8%.
+
+Discovery by Priestley: "Quem descobriu o oxigênio e teve sua descoberta publicada primeiro?" Answer: Joseph Priestley.
+
+Role of photosynthesis: "Como o oxigênio é reabastecido na atmosfera?" Answer: pela ação fotossintética dos organismos.
+
+Ozone as an allotrope: "Qual é o alótropo do oxigênio que absorve radiação ultravioleta?" Answer: ozônio (O3).
+
+Medical application: "Em quais terapias o oxigênio é utilizado?" Answer: terapias de oxigênio.
+
+Historical theory: "Qual teoria foi desacreditada pelas experiências de Lavoisier com o oxigênio?" Answer: teoria do flogisto.
+
+Application in rockets: "Qual é uma aplicação do oxigênio como propelente?" Answer: foguetes.
+
+That makes 10 questions. Now, check if all answers are directly from the context and if there's no repetition. Looks good. Now format them into CSV as specified.
+</think>
+
+pergunta;resposta
+Qual é o número atômico do oxigênio?;8.
+A qual grupo da tabela periódica pertence o oxigênio?;calcogênio.
+Qual é a posição do oxigênio em termos de abundância no universo?;terceiro, após hidrogênio e hélio.
+Qual a porcentagem de oxigênio na atmosfera terrestre?;20,8%.
+Quem descobriu o oxigênio e teve sua descoberta publicada primeiro?;Joseph Priestley.
+Como o oxigênio é reabastecido na atmosfera?;pela ação fotossintética dos organismos.
+Qual é o alótropo do oxigênio que absorve radiação ultravioleta?;ozônio (O3).
+Em quais terapias o oxigênio é utilizado?;terapias de oxigênio.
+Qual teoria foi desacreditada pelas experiências de Lavoisier com o oxigênio?;teoria do flogisto.
+Qual é uma aplicação do oxigênio como propelente?;foguetes.

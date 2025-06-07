@@ -1,0 +1,25 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs in CSV format based on the provided context and facts. The context is about the Rhine River, its length, where it flows, and some related information. The facts include various details like tributaries, bridges, nuclear plants using it for cooling, and other geographical data.
+
+First, I need to make sure each question is unique and covers different aspects. The example given includes questions about where the Rhine empties, its length, cities it passes through, etc. So I should look for other unique points from the facts.
+
+Looking at the facts: there's mention of Schwarzbach (Bergisches Land) having a mouth on the Rhine, Elbling originating from the Rhine, nuclear power plants using the Rhine for cooling (like Biblis and Philippsburg), bridges crossing the Rhine (Kennedy Bridge, Deutz Suspension Bridge, Ludendorff Bridge), the Rhine delta, tributaries like Moselle, Emscher, Wupper, and others. Also, the Rhine is part of several categories and has various images associated with it.
+
+Possible questions could be about the origin of Elbling, the nuclear power plants that use the Rhine, bridges that cross it, tributaries, the delta, and the length. I need to ensure each answer is directly from the context or inferable. Also, avoid repeating similar questions. For example, the example already has the length, so I should use other data points.
+
+Check for unique facts: Elbling's origin, Schwarzbach's mouth, nuclear plants, bridges, tributaries, the Rhine's delta, the Rhine's classification as a federal waterway, its role in the Rhine-Meuse-Scheldt delta, etc.
+
+Now, structure each question and answer pair, making sure they are in Portuguese and follow the CSV format. Verify that each answer is accurate based on the provided facts. Avoid any markdown and ensure only the CSV is outputted.
+</think>
+
+pergunta;resposta
+Qual é o comprimento total do rio Reno?;1 233 km,
+Em qual mar o rio Reno deságua?;mar do Norte,
+Quais são dois exemplos de rios que deságua no rio Reno?;Emscher e Wupper,
+Que tipo de estrutura atravessa o rio Reno em Bonn?;Kennedy Bridge,
+Quais são duas usinas nucleares que utilizam o rio Reno como fonte de resfriamento?;Biblis Nuclear Power Plant e Philippsburg Nuclear Power Plant,
+Qual é o nome do delta no qual o rio Reno deságua?;delta do Reno–Mosa–Escalda,
+Qual é a origem do rio Elbling?;Reno,
+Quais são dois exemplos de rios que possuem foz no rio Reno?;Moselle e Saar,
+Que tipo de classificação o rio Reno recebe como corpo de água?;RiverBodyOfWater,
+Qual é o nome do modelo de página wiki usado para representar o rio Reno?;Template:IPA-hu

@@ -1,0 +1,34 @@
+<think>
+Alright, I need to generate exactly 10 pairs of questions and answers based on the provided context and facts about Warsaw. The output should be in CSV format with each line containing a question and its correct answer separated by a semicolon. 
+
+First, I'll review the context given about Warsaw. It mentions that Warsaw is the capital and largest city in Poland, located on the Vistula River. Its population was around 1.7 million in 2012. The city has various industries, educational institutions, cultural landmarks like the National Opera, and historical significance, including its role during World War II.
+
+Looking at the facts provided, there are many individuals who were either born or died in Warsaw, along with specific places and events associated with the city. For example, people like Zygmunt Chmielewski and Witold Lutosławski died in Warsaw, while others like Stanisław Mazur also did. There's information about football tournaments held there, such as the 2014–15 Polish football season, and structures like Sigismund's Column.
+
+I'll need to create varied questions that cover different aspects of the content. Each question should have a single correct answer based on the provided facts. I must avoid repeating similar questions.
+
+Let me start brainstorming possible questions:
+
+1. What is Warsaw's population as of 2012? (From context)
+2. Which river flows through Warsaw? (Context mentions Vistula River)
+3. Name one famous person born in Warsaw. (Facts list several individuals)
+4. What was the result after the Warsaw Uprising of 1944? (Context discusses destruction)
+5. Where is Sigismund's Column located? (Fact explicitly states it's in Warsaw)
+
+I need to make sure each question is unique and covers different areas like demographics, geography, history, culture, and notable individuals.
+
+Continuing this process, I'll extract information from both the context and facts sections to formulate each pair. Ensuring that each answer is directly supported by the provided data without adding external knowledge.
+</think>
+
+```csv
+Qual é a população de Varsóvia em 2012?;1 716 855 habitantes
+Em qual rio está localizada Varsóvia?;Vístula
+Quem morreu em Warsaw segundo os registros?;Stanisław Mazur
+O que caracteriza a economia de Varsóvia?;Variedade de indústrias como bens de consumo, aço e engenharia elétrica
+Qual foi o resultado da Revolta Geral de Varsóvia em 1944?;Maior devastação
+Onde está localizado o Monumento a Sigismundo?;No centro histórico de Varsóvia
+Qual evento esportivo foi sediado em Warsaw em 2014–15?;Campeonato Polonês de Futebol
+Quem morreu em Warsaw no século XX?;Witold Lutosławski
+O que é conhecido como "Cidade da Fênix"?;Varsóvia
+Qual foi a classificação de Varsóvia em 2012 pela Economist Intelligence Unit?;32ª cidade mais habitável do mundo
+```

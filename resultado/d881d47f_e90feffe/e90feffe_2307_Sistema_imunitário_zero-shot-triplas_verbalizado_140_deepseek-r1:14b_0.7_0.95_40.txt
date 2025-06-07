@@ -1,0 +1,40 @@
+<think>
+Okay, so I need to generate 10 question-answer pairs in CSV format based on the provided context and facts about the immune system. The questions should be varied and cover different aspects of the content. Each question must have one correct answer that's clearly supported by the information given.
+
+First, I'll go through the context to understand the key points. The immune system is a biological system protecting against diseases, introduced by Mechnikov. It includes various mechanisms like phagocytosis, defensins, complement system, and lymphocytes. There are different types of immunity, acquired and innate. Disorders include autoimmune diseases and immunodeficiencies.
+
+Looking at the facts provided, many are about specific cells (like basophil, neutrophil) being part of the immune system. Others mention models used on Wikipedia pages or related medical conditions. So I can create questions targeting these aspects.
+
+I should make sure each question is unique and covers different areas: types of cells, functions, mechanisms, disorders, historical figures, etc.
+
+Let me list potential questions:
+
+1. Which scientist introduced the term immune system? (Mechnikov)
+2. What's a basic mechanism in the immune system? (Phagocytosis)
+3. Name an example of an autoimmune disease mentioned. (Artrite reumática)
+4. Cells like basophil and neutrophil are part of which system?
+5. What allows the body to remember specific pathogens? (Imunidade adquirida)
+6. Who is known for work in immune system? (César Milstein, Lajos Kemény)
+7. Which cells are involved in adaptive immunity? (T cell, B cell)
+8. Condition where immune response is overactive leads to what? (Autoimune diseases)
+9. What's a severe condition due to low immune activity? (Imunodeficiência)
+10. Organ where immune cells are produced/become active? (Medula óssea)
+
+Wait, I should check each against the facts provided. For example, the facts list White blood cell, Basophil, etc., as part of the system. So question 4 can ask about these cells.
+
+I need to ensure that each answer is directly supported by the context or facts given.
+
+Now, structuring them into CSV format with semicolons.
+</think>
+
+pergunta;resposta
+Qual cientista introduziu o termo "sistema imunitário"?;Ilya Ilyich Mechnikov
+Qual é um mecanismo básico do sistema imunitário?;Fagocitose
+Qual doença autoimune é mencionada no texto?;Artrite reumatóide
+Que tipo de células estão associadas ao sistema imunitário, como basófilos e neutrófilos?;Células brancas da sangue (leucócitos)
+O que permite ao organismo lembrar-se de agentes patogênicos específicos?;Imunidade adquirida
+Qual cientista é conhecido por seu trabalho no sistema imunitário?;César Milstein e Lajos Kemény
+Quais células estão envolvidas na imunidade adaptativa?;Células T (T cells) e Células B (B cells)
+O que ocorre quando o sistema imunitário está hiperativo?;Doenças autoimunes
+Qual condição resulta de uma atividade imunitária muito baixa?;Imunodeficiência
+Qual órgão é responsável pela produção e maturação de células do sistema imunitário?;Medula óssea

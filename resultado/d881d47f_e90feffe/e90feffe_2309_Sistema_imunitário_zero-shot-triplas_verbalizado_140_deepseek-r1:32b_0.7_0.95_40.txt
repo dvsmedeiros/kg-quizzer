@@ -1,0 +1,46 @@
+<think>
+Okay, so I need to generate a quiz based on the provided context and facts about the immune system. The user wants exactly 10 question-answer pairs in CSV format, with each pair separated by a semicolon. The questions should be varied and cover different aspects of the content.
+
+First, I'll go through the context to identify key points. It talks about the immune system's function, its discovery by Mechnikov, components like white blood cells, types of immunity (innate and adaptive), and related disorders like autoimmune diseases and immunodeficiency.
+
+Looking at the facts section, there are several terms listed as part of the immune system, such as White blood cell, Basophil, Macrophage, etc. These can be used to create questions about which components belong to the immune system.
+
+I should also include questions about specific scientists or researchers related to immunology, like César Milstein and Ilya Mechnikov, as they are mentioned in both sections.
+
+Additionally, the context mentions that the immune system uses certain Wikipedia templates. That's a bit technical, but it can be turned into a question about what type of page the immune system information is on.
+
+I also notice mentions of diseases caused by or related to the immune system, such as sepsis and food allergies. These could form questions about causes or effects.
+
+To ensure variety, I'll mix general knowledge questions with more specific ones, like identifying components, understanding processes (like adaptive immunity), and recognizing key figures in immunology.
+
+I need to make sure each question has only one correct answer and that the answers are directly supported by the provided information. Also, no two questions should be too similar; for example, if I ask about a type of cell once, the next should cover a different aspect or component.
+
+Let me start drafting some questions:
+
+1. Who coined the term "immune system" in 1882? (From context)
+2. What is the main purpose of the immune system? (Context)
+3. Which cells are part of the immune system? (From facts: multiple options)
+4. How does adaptive immunity help protect the body? (Context mentions memory)
+5. What can cause immunodeficiency in humans? (Context lists causes)
+6. Identify a type of white blood cell involved in the immune response. (Facts list several, like Neutrophil)
+7. Who is known for work related to the immune system besides Mechnikov? (César Milstein from facts)
+8. What are defensins? (Context mentions them as antimicrobial peptides)
+9. What causes autoimmune diseases? (Context says hyperactive immune system attacking self)
+10. Which Wikipedia template is used by the immune system page? (From facts, Template:Use dmy dates)
+
+I think these cover a good range of topics without repeating too much. Each question targets different aspects of the immune system as per the provided context and facts.
+</think>
+
+```csv
+pergunta;resposta
+Quem cunhou o termo "sistema imunitário" em 1882?;Ilya Ilyich Mechnikov
+Qual é a principal função do sistema imunitário?;Proteger o organismo contra doenças
+Quais células fazem parte do sistema imunitário?;B cell, T cell, Macrophage
+Como a imunidade adquirida ajuda na proteção do corpo?;Criando memória imunológica para respostas mais eficazes
+O que pode causar imunodeficiência no ser humano?;Doença genética, VIH/SIDA, uso de imunossupressores
+Qual tipo de célula sanguínea está envolvida na resposta imune?;Neutrophil
+Quem é conhecido por trabalhos relacionados ao sistema imunitário além de Mechnikov?;César Milstein
+O que são defensinas?;Peptídeos antimicrobianos
+Qual doença ocorre quando o sistema imunológico ataca tecidos saudáveis?;Doenças autoimunes
+Qual modelo de página wiki é usado pelo artigo sobre o sistema imunitário?;Template:Use dmy dates
+```

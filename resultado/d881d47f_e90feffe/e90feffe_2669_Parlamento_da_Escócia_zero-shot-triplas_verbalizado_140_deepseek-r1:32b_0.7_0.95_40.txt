@@ -1,0 +1,29 @@
+<think>
+Alright, so the user has provided a detailed query where they want to generate 10 quiz question and answer pairs in CSV format based on a given context about the Scottish Parliament. The instructions are pretty specific, so I need to make sure I follow them carefully.
+
+First, I'll read through the context thoroughly to understand the key points. The Scottish Parliament is unicameral, located in Edinburgh, has 129 MSPs elected every four years, and was established in 1999. There are also facts about its structure, members, leaders, and electoral system.
+
+Next, I need to generate a variety of questions covering different aspects without repeating similar ones. Each question should have one clear correct answer derived from the context or facts provided.
+
+I'll start by identifying main topics: location, number of MSPs, election details, establishment year, leader roles, political parties involved, electoral regions, committees, and future elections.
+
+For each topic, I'll formulate a question ensuring clarity and relevance. For example, asking about the location leads to Edinburgh as the answer. Questions about the number of members or how they're elected can be directly answered using the facts provided.
+
+I need to ensure that the questions are varied, so mixing between factual details, roles, structures, and specific instances like political parties with seats will help cover different areas comprehensively.
+
+Finally, I'll format each pair correctly in CSV without any additional explanations, just the question followed by the semicolon and answer. Making sure there are exactly 10 pairs as required.
+</think>
+
+```csv
+pergunta;resposta
+Qual é o órgão legislativo nacional da Escócia?;Parlamento Escocês
+Quantos membros (MSPs) compõem o Parlamento Escocês?;129
+Em qual cidade está localizado o Parlamento Escocês?;Edimburgo
+Quando foi realizada a última eleição geral para o Parlamento Escocês?;5 de Maio de 2021
+Qual é o nome informal do Parlamento Escocês?;Holyrood
+Quantos MSPs são eleitos pelo sistema da pluralidade?;73
+Qual partido político possui título do assento 5 no Parlamento Escocês?;Socialist Party (England and Wales)
+Quem é a atual presidente do Parlamento Escocês?;Alison Johnstone
+Em qual ano foi estabelecido o atual Parlamento Escocês?;1999
+Qual é a cor de fundo associada ao Parlamento Escocês?;#500791
+```

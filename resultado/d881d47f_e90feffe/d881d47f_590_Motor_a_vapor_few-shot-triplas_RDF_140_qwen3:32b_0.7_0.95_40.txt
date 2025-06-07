@@ -1,0 +1,44 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided data. The data includes a list of ships and other entities linked to the Steam_engine page, along with some existing examples. The existing examples are about thermodynamics cycles, types of engines, inventors, and inventions.
+
+First, I need to look through the given triples to find relevant information. The main entity here is "Steam_engine," which is linked to various ships like USS Wyalusing, USS Zoraya, etc., and other entities like Wallamet, Washington (steamboat), and inventors such as Thomas Newcomen. There's also information about the Rankine cycle and other technical aspects.
+
+The user's examples include questions about the Rankine cycle, types of engines, inventors, and specific inventions. So, I should follow that pattern. Let's see. The triples mention that the Steam_engine uses templates like Template:Convert and is part of categories like 18th-century inventions. There are also depictions from Commons, but those might not be relevant for questions.
+
+Looking at the list of ships, maybe I can ask about specific ships powered by steam engines. For example, "Which steam-powered ship is mentioned in the data as being from 1851?" The answer would be Washington (steamboat 1851). Another example: "Which inventor is associated with the atmospheric engine mentioned in the data?" The answer would be Thomas Newcomen.
+
+Also, the data includes "foaf:primaryTopic" for the Steam_engine page, which could lead to a question about the primary topic of the page. The answer would be Steam_engine itself. There's also a "dcterms:subject" with categories, so maybe a question about the categories it's part of.
+
+I need to ensure each question is based on the given triples and not outside knowledge. Let me list possible questions:
+
+1. Which ship powered by a steam engine is mentioned in the data as being from 1851? Answer: Washington (steamboat 1851)
+2. Which inventor is credited with creating the atmospheric engine according to the data? Answer: Thomas Newcomen
+3. What type of energy conversion is the steam engine categorized under in the data? Answer: Energy conversion
+4. In what century was the steam engine recognized as an invention according to the data? Answer: 18th
+5. What is the primary topic of the page linked to the Steam_engine in the data? Answer: Steam_engine
+6. Which category related to steam engines is listed in the data? Answer: Steam engines (or another specific one like 18th-century inventions)
+7. What is the name of the cycle that models the operation of steam engines as per the data? Answer: Rankine
+8. What is the main function of the steam engine in thermodynamics as described in the data? Answer: Heat source without combustion (since one example mentions solar as a heat source without combustion)
+9. Which ship's propulsion is linked to the steam engine in the data? Answer: USS Wyalusing (or others like USS Zoraya)
+10. What is the name of the template used for the Steam_engine page in the data? Answer: Template:Columns-list (or another listed template)
+
+Wait, the existing examples already have questions about the Rankine cycle, so maybe avoid repeating. Let me adjust to ensure uniqueness. Also, check that answers are in the triples. For example, the depictions are images, but they might not be relevant for questions. The categories are 18th-century inventions, energy conversion, and steam engines. So a question about the categories would be valid.
+
+Also, the data includes "foaf:depiction" with specific images, but maybe the user doesn't want questions about those. The examples given don't mention that, so probably avoid. Focus on the ships, inventors, cycles, and categories.
+
+Another angle: the data mentions that the Steam_engine is part of the category "18th-century inventions," so a question could be about when it was invented. But the example already asks about the year 1712 for the atmospheric engine.
+
+I think I have enough. Now, format them as pergunta;resposta in Portuguese.
+</think>
+
+pergunta;resposta  
+Qual categoria relacionada a motores a vapor é mencionada nos dados?;motores a vapor  
+Que tipo de conversão energética está associada ao motor a vapor segundo os dados?;conversão de energia térmica em mecânica  
+Qual categoria histórica inclui o motor a vapor nos dados?;invenções do século XVIII  
+Que navio a vapor é citado nos dados como pertencente ao ano de 1851?;Washington (steamboat 1851)  
+Que artista ou inventor está associado ao motor atmosférico nos dados?;Thomas Newcomen  
+Qual ciclo termodinâmico é mencionado como modelo de operação dos motores a vapor?;Rankine  
+Que tipo de propulsão caracteriza os navios listados nos dados?;propulsão a vapor  
+Qual categoria taxonômica inclui o motor a vapor nos dados?;motores a vapor  
+Que objeto foi inventado por Thomas Savery de acordo com os dados?;bomba de vapor  
+Qual é o principal tópico associado à página "Steam_engine" nos dados?;motor a vapor

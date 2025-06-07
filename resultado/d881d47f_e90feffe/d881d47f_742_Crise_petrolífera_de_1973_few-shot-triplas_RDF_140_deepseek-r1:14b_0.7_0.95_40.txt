@@ -1,0 +1,54 @@
+<think>
+Okay, I need to generate exactly 10 pairs of questions and answers in CSV format based on the provided context about the 1973 oil crisis. The user has given specific instructions, so I'll follow them carefully.
+
+First, I should review the context thoroughly. It mentions that the crisis started in October 1973 when Arab OPEC members imposed an embargo targeting countries supporting Israel during the Yom Kippur War. The affected countries were Canada, Japan, Netherlands, UK, and US, later expanding to Portugal, Rhodesia, and South Africa. Prices rose from $3 to $12 per barrel globally, with higher prices in the US. This led to significant economic and political effects and was called the first oil shock.
+
+The facts provided include some DBpedia data but don't add new info beyond what's in the context. So I'll focus on that.
+
+I need to create varied questions covering different aspects: causes, timing, participants, economic impact, outcomes, etc. Each question must have a unique and correct answer from the context.
+
+Looking at the examples provided by the user, they cover months, prices, terms, causes, and solutions. I should avoid repeating similar questions and ensure each new one addresses a different angle.
+
+Let's outline possible questions:
+
+1. What was the main cause of the 1973 oil crisis?
+2. When did the embargo begin?
+3. Which countries were initially targeted?
+4. How much did oil prices increase globally?
+5. What was another name for this crisis?
+6. Why were European countries and Japan affected differently from the US?
+7. How did Nixon respond to the crisis?
+8. What economic policy was abandoned in 1971 related to this?
+9. Which countries lifted the embargo by February 1974?
+10. What long-term effect resulted from the oil price hike?
+
+Wait, but the context doesn't mention the US abandoning Bretton Woods beyond perhaps implying it happened earlier (August 1971). So I need to check if that's accurate. Yes, in August 1971, Nixon ended the gold standard as part of Bretton Woods.
+
+Now, formulating each question and answer concisely:
+
+1. What event triggered the 1973 oil crisis? The Yom Kippur War.
+2. When did the embargo start? October 1973.
+3. Which countries were initially targeted? Canada, Japan, Netherlands, UK, US.
+4. How much did prices increase globally? From $3 to ~$12 per barrel.
+5. What was another name for this crisis? First oil shock.
+6. Why were European countries and Japan affected differently? Because they weren't as directly involved in supporting Israel as the US was.
+7. What policy was abandoned in 1971 related to this? The gold standard under Bretton Woods.
+8. How did the US respond? Nixon authorized strategic oil reserve releases and imposed import controls.
+9. Which countries lifted the embargo by Feb 1974? Only some European countries.
+10. Long-term effect: Shifted energy dependence and policies towards OPEC.
+
+I need to make sure each question is clear, the answers are precise, and they cover different aspects without repetition. Let me structure them into CSV format with semicolons as separators.
+</think>
+
+```csv
+Quando começou o embargo petrolífero em 1973?;outubro de 1973;
+Qual foi a guerra que desencadeou a crise do petróleo de 1973?;Guerra do Yom Kippur;
+Quais países tiveram o suprimento de petróleo interrompido inicialmente?;Canadá, Japão, Holanda, Reino Unido e Estados Unidos;
+Qual foi a consequência principal do embargo petrolífero?;Aumento dos preços do petróleo global;
+Qual foi outro nome dado à crise do petróleo de 1973?;Primeiro choque do petróleo;
+Por que Portugal, Rodésia e África do Sul foram incluídas no embargo?;Eles eram considerados apoiantes de Israel;
+Quais medidas o governo dos EUA采取ou para lidar com a crise?;Liberou estoques estratégicos e impôs controles de importação;
+Qual foi o preço do petróleo mundial em março de 1974?;cerca de US$ 12 por barril;
+Quando terminou o embargo petrolífero?;março de 1974;
+Qual consequência econômica duradoura teve o choque do petróleo?;Aumento da dependência energética e fortalecimento dos países produtores de petróleo.;
+```

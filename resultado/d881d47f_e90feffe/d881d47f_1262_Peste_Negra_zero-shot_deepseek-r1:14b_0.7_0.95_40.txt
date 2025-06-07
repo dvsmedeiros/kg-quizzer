@@ -1,0 +1,43 @@
+<think>
+Okay, so I just received a request to generate quiz questions based on the "Peste_Negra" context. The user provided some specific instructions and examples. Let me break down what I need to do.
+
+First, I should understand what "Peste_Negra" refers to. It's likely about the Black Death, which was a major pandemic in the 14th century. That makes sense given the example CSV they included.
+
+The user wants exactly 10 pairs of questions and answers in CSV format. Each line should be in Portuguese, separated by semicolons. The questions need to cover different aspects of the topic without repeating similar ones. They also provided an example response, which I can use as a guide.
+
+I'll start by listing key points about the Black Death: when it occurred, its cause (the bacterium Yersinia pestis), transmission methods (fleas and rats), symptoms like buboes, fatality rate, social impact, economic effects, and preventive measures like quarantine. Also, noting that it's one of history's deadliest epidemics.
+
+Now, I'll think of varied questions. The example had 10, so maybe I can expand on those but ensure they're different. For instance, instead of just the year, perhaps ask about the century or specific effects. Maybe include a question about the origin or how it spread beyond fleas and rats.
+
+I need to make sure each question has only one correct answer based on the context. So, I'll avoid vague questions that could have multiple interpretations.
+
+Let me draft some possible questions:
+
+1. What was the name of the pandemic caused by Yersinia pestis in the 14th century?
+2. Which bacterium causes the Black Death?
+3. How did the Black Death spread among humans?
+4. What were the symptoms of the bubonic plague?
+5. Approximately how many people died in Europe from the Black Death?
+6. What was an immediate consequence of the population drop due to the Black Death?
+7. What term is used for the isolation of infected individuals during the Black Death?
+8. How did the decline in population affect the economy after the Black Death?
+9. Which part of the body was affected by buboes in the Black Death?
+10. When did the first major outbreak of the Black Death occur in Europe?
+
+I should check if these align with the content provided and ensure they're clear and correct. Each question leads directly to one answer from the context.
+
+Now, I'll format them into the CSV structure as per the example, making sure each line is "pergunta;resposta" without any additional text.
+</think>
+
+```csv
+A peste negra foi responsável por quantas mortes estimadas na Europa?;70 a 100 milhões de pessoas
+Qual doença infecciosa associada à peste bubônica é transmitida principalmente por pulgas?;Peste bubônica
+Quais eram os principais vetores responsáveis pela disseminação da peste negra na Europa?;Pulgas e ratos
+Qual foi um dos principais sintomas da peste bubônica?;Bubões dolorosos nos gânglios linfáticos
+Qual medida de contenção da doença surgiu durante a peste negra?;Quarentena
+Qual foi a consequência social imediata da redução drástica da população europeia causada pela peste negra?;Aumento da demanda por trabalho qualificado
+Qual século viu o surgimento da pandemia conhecida como Peste Negra?;Século XIV
+Quais foram as consequências econômicas da Peste Negra na Europa?;Crises econômicas e aumento dos salários
+Qual foi um efeito social a longo prazo da peste negra na sociedade europeia?;Desafio ao sistema feudal
+Onde surgiu originalmente a pandemia da peste bubônica que se espalhou pela Europa?;Ásia
+```

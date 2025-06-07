@@ -1,0 +1,46 @@
+<think>
+Okay, I need to generate exactly 10 pairs of questions and answers in CSV format based on the provided context about the immune system. The questions should be varied, covering different aspects of the content, and each should have a single correct answer derived from the given information.
+
+First, I'll review the context to identify key points:
+
+- The immune system protects against diseases.
+- It was named by Ilya Mechnikov in 1882.
+- It distinguishes pathogens from healthy tissue.
+- Organisms like unicellular have basic immune systems.
+- Mammals developed more complex mechanisms, including adaptive immunity and memory cells, which are the basis of vaccination.
+- Disorders include autoimmune diseases, inflammation, cancer, immunodeficiency (caused by genetics, HIV/AIDS, or immunosuppressants), and hyperactivity leading to conditions like rheumatoid arthritis.
+
+Looking at the facts provided, there are mentions of various immune system components and related medical causes. For example, food allergies, sepsis, and specific cells like B cells, T cells, dendritic cells, etc., all relate to the immune system.
+
+I should create questions that touch on different areas: function, history, types of immunity, disorders, key terms, and components.
+
+Let me brainstorm possible questions:
+
+1. Function: What does the immune system protect against?
+2. History: Who coined the term 'immune system'?
+3. Basic function: How does it distinguish pathogens from healthy tissue?
+4. Types of organisms with basic systems: Which simple organisms have a basic immune system?
+5. Complex mechanisms in mammals: What complex defense mechanism do mammals have?
+6. Basis for vaccination: What process allows the body to remember specific pathogens?
+7. Consequences of immunodeficiency: What happens when the immune system is underactive?
+8. Hyperactivity condition: What is called when the immune system attacks own tissues?
+9. Example of an autoimmune disease: Which disease is caused by immune system hyperactivity?
+10. Key component in adaptive immunity: What cells are crucial for specific immune responses?
+
+I need to ensure each question has a clear, correct answer from the context.
+
+Now, I'll structure them into CSV format.
+</think>
+
+```csv
+O sistema imunológico protege os organismos contra o que?;doenças
+Quem cunhou o termo "sistema imunológico"?;Ilya Ilyich Mechnikov
+Como o sistema imunológico distingue patógenos do tecido saudável?;detectando agentes externos e neutralizá-los
+Quais organismos possuem um sistema imunitário rudimentar?;organismos unicelulares
+Que mecanismo de defesa complexo foi desenvolvido por vertebrados mandibulares?;a capacidade de reconhecer agentes patogénicos específicos
+Qual é o processo que permite ao organismo responder mais eficazmente a novos ataques por um agente específico?;imunidade adquirida
+O que acontece quando o sistema imunológico é menos ativo do que o normal?;imunodeficiência
+Qual é o termo para um sistema imunológico hiperactivo que ataca tecidos normais?;autoimunidade
+Que doença exemplifica a consequência de um sistema imunológico hiperactivo?;artrite reumatóide
+Quais células são cruciais para as respostas imunes específicas?;células T e B
+```

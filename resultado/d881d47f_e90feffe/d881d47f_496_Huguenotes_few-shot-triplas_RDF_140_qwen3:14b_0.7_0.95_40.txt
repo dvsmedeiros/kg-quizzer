@@ -1,0 +1,25 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs in CSV format based on the provided context and facts. The context is about the Huguenots, their persecution, the Edict of Nantes, and their religious affiliations. The facts include some RDF triples, but they might be a bit complex for a non-technical user.
+
+First, I need to ensure that the questions are varied and cover different aspects. The context mentions their migration, religious affiliation (Calvinist and Lutheran), the Edict of Nantes, Louis XIV, and regions like Alsace, Moselle, and Montbéliard. The facts mention Camisards as a hypernym, Scotch-Irish Americans related to Huguenots, and places named after them.
+
+I should start by extracting key points from the context. For example, the number of Huguenots who left France, the Edict of Nantes, their religious denominations, and the regions where they were located. Then, look into the facts for more details, like the Camisards being a subgroup, the Scotch-Irish connection, and places named after them.
+
+Need to avoid repetition. Each question should be unique. Maybe ask about the number who left, the Edict's revocation date, their religious affiliation, the regions with Lutheran Huguenots, the main religious group, the reason for leaving, the Edict's purpose, the main religion of the French population, the term's origin, and places named after them.
+
+Check if the answers are in the context or can be inferred. For example, the Edict was revoked in 1685 by Louis XIV. The main religion was Catholic. The Camisards are a subgroup. Places like Huguenot, Orange County, and Staten Island are named after them. Scotch-Irish have a connection. The term "Huguenot" was derogatory, from Besançon Hugues.
+
+Make sure each answer is accurate and directly from the provided info. Avoid adding external knowledge. Now, structure them into 10 pairs, ensuring the CSV format with semicolons and correct Portuguese. Double-check for any repetition or similar questions. That should cover all the required points.
+</think>
+
+pergunta;resposta
+Quantos huguenotes deixaram a França após a revogação do Édito de Nantes?;cerca de 300 000
+Qual foi a data da revogação do Édito de Nantes?;18 de outubro de 1685
+Qual era a principal denominação religiosa dos huguenotes franceses?;calvinista
+Quais regiões da França tinham huguenotes majoritariamente luteranos?;Alsácia, Moselle e Montbéliard
+Qual foi o principal motivo da emigração dos huguenotes?;perseguições religiosas sob Luís XIV
+Qual tratado concedeu aos huguenotes autonomia religiosa e política?;Édito de Nantes
+Qual era a religião majoritária na França durante o período dos huguenotes?;católica
+Quem foi o monarca francês responsável pela revogação do Édito de Nantes?;Luís XIV
+Qual é um exemplo de grupo que se originou a partir dos huguenotes?;Camisards
+Quais comunidades na França foram nomeadas em homenagem aos huguenotes?;Huguenot, Orange County, Nova York e Huguenot, Staten Island

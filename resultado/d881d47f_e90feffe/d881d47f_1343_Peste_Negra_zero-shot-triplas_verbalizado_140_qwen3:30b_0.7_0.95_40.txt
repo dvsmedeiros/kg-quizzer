@@ -1,0 +1,58 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers in CSV format, based on the provided context and facts about the Black Death. First, I need to make sure I understand the requirements.
+
+The context gives a lot of information about the Black Death: it's the most devastating pandemic, killed 75-200 million, caused by Yersinia pestis, spread via the Silk Road, effects on Europe, etc. The facts are more about metadata, like categories, images, models, and some specific numbers.
+
+I need to generate questions that are varied and cover different aspects. The rules say no repeating similar questions, and answers must be from the content. So I should look through the context and facts to find unique points.
+
+First, I'll list possible topics from the context:
+- Origin (Asia Central or East)
+- Transmission (rat fleas, Silk Road)
+- Mortality rate (30-60% in Europe, 75-200 million total)
+- Effects on society (religious, economic)
+- Time period (1347-1351, lasted until early 20th century)
+- Causative agent (Yersinia pestis, different forms: bubonic, septicemic, pneumonic)
+- Recovery time (200 years for Europe)
+- Specific examples (Florence, England's spread)
+- Historical records (Geoffrey the Baker's chronicle)
+- Images and sources mentioned (like the Oriental rat flea image)
+
+Now, I need to turn these into questions. Let me think of 10 distinct ones.
+
+1. Where did the Black Death originate? Answer: Asia Central or Asia Oriental.
+2. What bacterium caused the Black Death? Answer: Yersinia pestis.
+3. How was the plague transmitted? Answer: Through rat fleas on ships.
+4. What was the mortality rate in Europe? Answer: 30% to 60%.
+5. What were the three forms of the plague? Answer: Septicémica, pneumónica, and bubónica.
+6. How long did it take for Europe's population to recover? Answer: 200 years.
+7. What was the impact on European society? Answer: Religious, social, and economic convulsions.
+8. When did the Black Death peak in Europe? Answer: 1347-1351.
+9. What historical source mentions the spread in England? Answer: Geoffrey the Baker's Chronicon Angliae.
+10. What image represents the transmission vector? Answer: Oriental rat flea infected with Yersinia pestis.
+
+Wait, need to check if these are all from the context. The context says the origin is Asia Central or East, transmission via rat fleas on ships, mortality rate 30-60%, three forms, recovery 200 years, effects on society, peak 1347-1351, Geoffrey the Baker's chronicle, and the flea image. Yes, all these are covered.
+
+Now, ensure each question is unique and not repetitive. The answers should be exact as per the context. For example, the answer to the origin is "Asia Central ou na Ásia Oriental" as per the context. Also, check for correct terminology in Portuguese. The user specified the answers should be in Portuguese, so I need to make sure the answers are correctly translated.
+
+Another thing: the user mentioned that the facts include things like "Black Death possui número de mortes 75000000" which is 75 million, but the context says 75-200 million. So maybe a question about the death toll could be "Quantas pessoas a Peste Negra matou na Eurásia?" Answer: 75 a 200 milhões.
+
+But I already have a question about mortality rate in Europe. Maybe another question about total deaths. Let me adjust.
+
+Wait, the user's example in the instruction might have different questions. Let me check again.
+
+Original context says "morte de 75 a 200 milhões de pessoas na Eurásia" and "30% a 60% da população da Europa". So the first question could be about origin, second about the bacterium, third about transmission, fourth about Europe's mortality, fifth about the three forms, sixth about recovery time, seventh about societal impact, eighth about the peak period, ninth about the source, and tenth about the image.
+
+I think that's 10. Now, format them as CSV with semicolons. Ensure no markdown, just plain text. Also, check for any repetition. Each question is different. Looks good.
+</think>
+
+pergunta;resposta
+Qual foi a origem provável da Peste Negra?;Ásia Central ou na Ásia Oriental
+Qual é a bactéria causadora da Peste Negra?;Yersinia pestis
+Como a Peste Negra se espalhou pela Europa?;Por pulgas que viviam em ratos em navios mercantes
+Qual foi a taxa de mortalidade na Europa durante a Peste Negra?;30% a 60% da população
+Quais são as três formas da peste causadas pela Yersinia pestis?;Bubónica, pneumónica e septicémica
+Quanto tempo levou para a população europeia se recuperar após a Peste Negra?;Cerca de 200 anos
+Quais foram os efeitos sociais e religiosos da Peste Negra?;Convulsões religiosas, sociais e económicas
+Em quais anos a Peste Negra atingiu o pico na Europa?;1347 a 1351
+Qual fonte histórica menciona o avanço da peste na Inglaterra?;Crônica de Geoffrey the Baker
+Qual imagem representa o vetor de transmissão da Peste Negra?;Flea infected with yersinia pestis.jpg

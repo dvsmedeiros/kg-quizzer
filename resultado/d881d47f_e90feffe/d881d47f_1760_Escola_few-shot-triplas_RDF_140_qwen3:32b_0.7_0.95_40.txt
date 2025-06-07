@@ -1,0 +1,39 @@
+<think>
+Okay, let me try to figure out how to generate these 10 question-answer pairs based on the given examples and instructions. First, I need to understand the structure of the examples provided. Each question is in Portuguese, followed by a semicolon and the answer, also in Portuguese. The examples given involve various aspects of private schools, such as terminology, funding, rights, and educational terms. 
+
+The user wants me to create similar pairs using the provided list of schools from DBpedia. The key points to consider are:
+
+1. **Terminology**: Questions about synonyms for private schools, terms for different years, etc.
+2. **Funding and Rights**: How private schools are funded compared to public ones, rights they have.
+3. **Examples and Specifics**: Cost examples, specific schools, and their characteristics.
+
+I need to look through the list of schools and see if there are any common themes or unique attributes that can be turned into questions. For instance, some schools are mentioned with specific details like funding type (e.g., Sacred Heart Catholic School has fundingtype as private school), which can be a question. Others might have unique names or locations that can be used.
+
+Let me start by listing possible questions based on the examples and the data provided.
+
+1. **Terminology**: What is another term for private schools in addition to independent schools? (Based on the first example.)
+2. **Funding**: Private schools are primarily funded by... instead of taxation? (From the third example.)
+3. **Rights**: What right do private schools have that public schools do not? (From the fourth example.)
+4. **Cost Example**: What is the annual cost for some notable preparatory schools in New England? (From the fifth example.)
+5. **Term for Year 12**: What is another term for the 12th year of education? (From the ninth example.)
+6. **Term for Year 13**: What is another term for the 13th year? (From the tenth example.)
+7. **Fee-Free Private Schools**: What term is used for private schools that do not charge fees? (From the sixth example.)
+8. **Countries Not Using 'Private Schools'**: Which country generally doesn't refer to universities as private schools, along with Canada and the UK? (From the seventh example.)
+9. **Region Using 'Private Schools' for Universities**: Which region uses the term 'private schools' for universities? (From the eighth example.)
+10. **Talent Scholarships**: In addition to sports and arts, what type of scholarships are there? (From the second example.)
+
+Now, checking the provided school data to see if there are specific examples that can be incorporated. For example, "Shattuck-Saint Mary's" is mentioned as a private school. Could there be a question about a notable private school in the U.S.? Also, "Xavier High School (New York City)" might be used as an example of a preparatory school in the region mentioned in the fifth example.
+
+I need to ensure that the answers are derived from the examples given and that the questions follow the same structure. Also, the answers should be concise and fit within the semicolon format. Let me verify each question against the examples and the data to make sure they are accurate and relevant.
+</think>
+
+1. Juntamente com "independentes", qual é outro termo para escolas particulares?;não estatais,  
+2. Em vez de tributação, pelo que as escolas particulares são amplamente financiadas?;pelo pagamento de propinas  
+3. Qual direito têm as escolas particulares que as escolas públicas não têm?;o de selecionar seus alunos  
+4. Qual é o custo anual de escolas preparatórias notáveis, como Shattuck-Saint Mary's?;$ 45.000  
+5. Que termo é usado para escolas particulares que não cobram propinas?;"sem taxa"  
+6. Juntamente com o Canadá e o Reino Unido, que país geralmente não usa "escolas particulares" para universidades?;Austrália  
+7. Qual região aplica "escolas particulares" a universidades?;América do Norte  
+8. Qual outro termo é usado para o ano 12?;sexto menor  
+9. Qual outro termo é usado para o ano 13?;sexto superior  
+10. Em vez de esporte e arte, que tipo de bolsa existe?;acadêmicas

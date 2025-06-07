@@ -1,0 +1,65 @@
+<think>
+Okay, let's tackle this query. The user wants 10 question-answer pairs in CSV format based on the given context and facts about the Huguenots. First, I need to make sure I understand the context thoroughly.
+
+The context mentions that Huguenots were French Protestants during the religious wars in the 16th century. They left France after persecutions under Louis XIV and the revocation of the Edict of Nantes in 1685. They were mostly Calvinists and part of the Reformed Church, while those in Alsace, Moselle, and Montbéliard were Lutheran. The facts include some DBpedia links and metadata, but the main info is in the context.
+
+Now, the user provided examples, so I should follow that structure. Each question should be unique, cover different aspects, and have a single correct answer. Let's brainstorm possible questions.
+
+First, the main points: who were they, when they left, reasons, religious affiliations, the Edict of Nantes, the revocation, impact, and maybe some related terms.
+
+1. What were the Huguenots? (Answer: French Protestants during the religious wars)
+2. When did the Edict of Nantes get revoked? (Answer: 1685)
+3. Why did they leave France? (Persecutions under Louis XIV and revocation)
+4. What religion were they mostly? (Calvinists and Reformed Church)
+5. Which regions had Lutheran Huguenots? (Alsace, Moselle, Montbéliard)
+6. What was the Edict of Nantes' effect? (Autonomy for Huguenots)
+7. What term was used for their persecution? (Revocation of Edict of Nantes)
+8. When did the religious wars occur? (16th century)
+9. What was the consequence of the revocation? (300k left France)
+10. What was the main reason for their migration? (Persecutions and revocation)
+
+Wait, need to check for repetition. The examples had questions about where they were in France, the proportion, when the wars happened, the Edict of Nantes, the term's origin, etc. So I need to ensure my questions are different.
+
+Also, the user mentioned that the answer should be explicit or inferable from the context. Let me verify each answer against the context.
+
+For example, the revocation was in 1685, which is in the context. The number 300k left after the revocation. The regions with Lutheran Huguenots are specified. The Edict of Nantes ended the wars, but the revocation led to their exodus.
+
+I need to make sure each question is distinct. Let me list 10:
+
+1. O que eram os huguenotes? (Resposta: Protestantes franceses durante as guerras religiosas na França)
+2. Quando o Édito de Nantes foi revogado? (Resposta: 18 de outubro de 1685)
+3. Por que muitos huguenotes deixaram a França? (Resposta: Perseguições contra as comunidades protestantes e a revogação do Édito de Nantes)
+4. Qual era a principal religião dos huguenotes? (Resposta: Calvinismo e Igreja Reformada)
+5. Quais regiões da França tinham comunidades huguenotes luteranas? (Resposta: Alsácia, Moselle e Montbéliard)
+6. O que o Édito de Nantes concedeu aos huguenotes? (Resposta: Autonomia religiosa, política e militar)
+7. Qual foi o impacto da revogação do Édito de Nantes? (Resposta: Cerca de 300.000 huguenotes deixaram a França)
+8. Quando ocorreram as Guerras Religiosas na França? (Resposta: Segunda metade do século XVI)
+9. O que significava o termo "huguenote"? (Resposta: Escárnio, originalmente)
+10. Qual cidade suíça era centro do movimento calvinista? (Resposta: Genebra)
+
+Wait, the context didn't mention Geneva as the center, but the example had that. However, the user's context says "os protestantes das regiões da Alsácia, Moselle e Montbéliard eram majoritariamente alemães luteranos". The example question about Geneva might be from the examples, but the user's context doesn't mention Geneva. So maybe that's not in the provided context. Need to check.
+
+The user's context doesn't mention Geneva, so that question might be incorrect. Therefore, I need to avoid that. Let me adjust.
+
+Instead, maybe ask about the main reason for migration, or the percentage, but the context says "cerca de 300 000 deles deixaram a França". So a question about the number.
+
+So revising:
+
+10. Quantos huguenotes deixaram a França após a revogação do Édito de Nantes? (Resposta: Cerca de 300.000)
+
+That's better. Let me check all answers against the context.
+
+Yes, that's all covered. Now, ensure no repetition and each question is unique. The 10 questions should cover different aspects: definition, date of revocation, reasons for leaving, religion, regions with Lutherans, effects of Edict, impact of revocation, time of wars, term origin, and number of emigrants.
+</think>
+
+pergunta;resposta
+O que eram os huguenotes?;protestantes franceses durante as guerras religiosas na França
+Quando o Édito de Nantes foi revogado?;18 de outubro de 1685
+Por que muitos huguenotes deixaram a França?;perseguições contra as comunidades protestantes e a revogação do Édito de Nantes
+Qual era a principal religião dos huguenotes?;calvinismo e Igreja Reformada
+Quais regiões da França tinham comunidades huguenotes luteranas?;Alsácia, Moselle e Montbéliard
+O que o Édito de Nantes concedeu aos huguenotes?;autonomia religiosa, política e militar
+Qual foi o impacto da revogação do Édito de Nantes?;cerca de 300.000 huguenotes deixaram a França
+Quando ocorreram as Guerras Religiosas na França?;segunda metade do século XVI
+O que significava o termo "huguenote"?;escárnio, originalmente
+Quantos huguenotes deixaram a França após a revogação do Édito de Nantes?;cerca de 300.000

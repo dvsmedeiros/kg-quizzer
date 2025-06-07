@@ -1,0 +1,47 @@
+<think>
+Okay, let me try to figure out how to approach this problem. The user wants me to act as a generator of objective questions based on given context and facts. They provided a detailed scenario with context about British Satellite Broadcasting (BSB) and some facts. My task is to create 10 pairs of questions and answers in CSV format.
+
+First, I need to understand the context thoroughly. From what's given, BSB is a TV company that provides satellite TV services in London. It was started in 1986 by Marco Polo House, which owns and operates the company. They have a variety of TV channels like The Movie Channel, Power Station, and others. There are facts provided to support this information.
+
+Now, looking at the rules: each question must be related to the context, unique, and clear. Each answer should be explicit or inferred from the context. I can't create questions that aren't directly tied to the content. Also, the CSV format requires specific syntax with periods and colons separating the two fields per row.
+
+I'll start by brainstorming different aspects of BSB's operations, products, events, and perhaps some cultural references since there are mentions of Memphis Belle (a movie) being produced by British Satellite Broadcasting.
+
+1. ** satellite TV services**: BSB provides direct satellite broadcasts in London.
+2. ** channel lineup**: They have a range from The Movie Channel to Power Station.
+3. ** organizational structure**: Organized into different groups, like Category and Group labels.
+4. ** notable events**: There were some mergers and acquisitions that changed their operations.
+5. ** cultural event**: Memphis Belle was produced by BSB, which is a film directed by Mark Salter.
+
+Next, I need to map these points to questions and answers. Each question should be clear and relevant to the context provided. For example:
+
+- "O que ofrece British Satellite Broadcasting em forma de transmissão direta via satélite em London?" This directly asks about satellite broadcasts.
+- "Quais são as channel listas da empresa BSB?" Inquires about the TV channels they have.
+- "Qual é a organização do company BSB?" Questions about their groupings or labels.
+
+I should ensure that each answer is specific and can be derived from the given facts. For instance, knowing that Category:Sky and Group are part of the facts allows me to know it's a Sky Broadcasting entity. Similarly, other questions like " qual é o tipo da empresa BSB?" require referring back to the facts.
+
+I'll also need to structure each pair correctly in CSV format with the question followed by the answer separated by a semicolon, and all ten pairs should be present without any additional explanations or comments.
+
+Finally, I need to double-check that I’m not repeating questions that might have been asked before, even if they are from different aspects of the context. Each question must be unique in its aspects to meet the user's requirement of generating 10 distinct pairs.
+
+After drafting each question and answer pair, I'll compile them into a CSV format as instructed, ensuring that all entries are correctly formatted with periods and colons.
+</think>
+
+```csv
+pergunta;resposta
+O que ofrece British Satellite Broadcasting em forma de transmissão direta via satélite em London?
+The Movie Channel (British TV channel)
+Galaxy (British TV channel)
+British Satellite Broadcasting é do tipo...
+Company108053576
+British Satellite Broadcasting é do tipo...
+Group100031264
+British Satellite Broadcasting teve como destino Merged withSky Television plcto form BSkyB
+Heil Honey I'm Home! é uma empresa do tipo British Satellite Broadcasting
+The Computer Channel (BSB) é de propriedade da empresa British Satellite Broadcasting
+The Power Station (TV channel) é de propriedade da empresa British Satellite Broadcasting
+British Satellite Broadcasting possui assunto Category:1980s in the United Kingdom
+British Satellite Broadcasting é equivalente a 129759966
+British Satellite Broadcasting possui assunto Category:Defunct mass media companies of the United Kingdom
+```

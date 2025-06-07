@@ -1,0 +1,86 @@
+<think>
+Okay, I need to help the user by generating a quiz based on the provided context and facts about Normans. The user has already given me an example of how they want the output structured, so I should follow that format.
+
+First, let's understand what is being asked. They want 10 pairs of questions and answers in CSV format, each question related to the Norman context. Each question must have a unique correct answer based on the provided facts.
+
+Looking at the context, it mentions various aspects like history, culture, language, religion, and notable figures. The facts provided are quite extensive, so I can extract relevant information from them to create the questions.
+
+I need to ensure that each question is clear, relates directly to the content, and has a single correct answer as per the given data. Also, the answers should be precise and not ambiguous.
+
+I'll start by listing out key points from the context:
+
+1. Norman origins: Viking heritage from Skåne, Sweden.
+2. Normans as an ethnic group with associated categories like "Nordmen" or "Normans".
+3. Historical events such as the Battle of Civitate, St Bride's Church in Llansantffraed, and the Norman conquests (e.g., 1256).
+4. Religious context: Norse paganism.
+5. Language: Old Norse, Latin.
+6. Notable figures like Richard of Salerno.
+7. Use of specific wiki templates or categories.
+
+Now, I'll create questions around these points:
+
+- Origin question about Viking heritage in Skåne.
+- Category classification (EthnicGroup107942152).
+- Name of a church with Norman architecture.
+- Conquest year leading to Norman rule.
+- Location of the Siege of Mahdia battle.
+- Language used by Normans.
+- Template used for Wikipedia pages about Normans.
+- Key religious change from Norse paganism in Europe.
+- Use of Latin language by Normans.
+- Relationship between Normans and other groups like Norse.
+
+I need to ensure each question is distinct and covers different aspects. Also, I must avoid any repetition or ambiguity in the answers.
+
+Let me draft each question one by one:
+
+1. Origin from Skåne: "Em virum hodiernam Normanam perturbationem originitur?;Vikingr."
+
+2. Category classification: "Qua category nominatur Norman?;Nordmen."
+
+3. Church with Norman style: "Qual library in Llansantffraed temo arquitetura Norman?;St Bride's."
+
+4. Conquest year: "Dum annum Normanas dominavam Dominiam Gallico-Romam et Germanam?;1256."
+
+5. Siege of Mahdia battle: "Qua bataeque Normanas occidit civitatem Mahdii?;Siege of Mahdia (1159–1160)."
+
+6. Language used by Normans: "Idioma quod usant Normanni;Latin."
+
+7. Norman template on Wikipedia: "Qua {{ }} template normanni adhibetur?;Template:Infobox ethnic group."
+
+8. Religious change in Europe: "Norbiius etiam creduitis?;Christianitate."
+
+9. Use of Latin by Normans: "Normanni quae lingua{{ }} adhibuerunt;Idomum."
+
+10. Relationship with Norse people: "Qua relationem habent Norman et Norse?;Idem."
+
+I need to make sure the answers are correctly formatted and that each question is clear without ambiguity.
+
+Let me review each answer for correctness:
+
+- Question 1 refers to Viking heritage in Skåne.
+- Question 2 classifies as Nordmen, which aligns with the context.
+- Question 3 specifies St Bride's Church of Llansantffraed.
+- Question 4 correctly states the year 1256.
+- Question 5 accurately mentions the Siege of Mahdia in that year.
+- Question 6 is about language use by Normans, which is Latin.
+- Question 7 refers to Template:Infobox ethnic group.
+- Question 8 changes from Norse paganism to Christianity.
+- Question 9 correctly uses Latin as their language.
+- Question 10 relates Norman to Norse.
+
+Everything seems accurate and follows the instructions. I'll format them into CSV pairs, ensuring each question is followed by its answer without extra spaces or punctuation beyond what's specified in the example provided.
+</think>
+
+```csv
+Em virum hodiernam Normanam perturbationem originitur;Vikingr.pergunta;
+Qua category nominatur Norman?;Nordmen.pergunta;
+Qual library in Llansantffraed temo arquitetura Norman?;St Bride's(pergunta);
+Dum annum Normanas dominavam Dominiam Gallico-Romam et Germanam?;1256(pergunta);
+Qua bataeque Normanas occidit civitatem Mahdii?;Siege of Mahdia (1159–1160).pergunta;
+Idioma quod usant Normanni;Latin.pergunta;
+Qua {{ }} template normanni adhibetur;Template:Infobox ethnic group.pergunta;
+Norbiius etiam creduitis;Christianitate.pergunta;
+Normanni quae lingua{{ }} adhibuerunt;Idomum.pergunta;
+Qua relationem habent Norman et Norse?;Idem.pergunta
+```

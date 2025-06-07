@@ -1,0 +1,54 @@
+<think>
+Okay, so I need to generate 10 question and answer pairs in CSV format based on the given context and facts about private schools. Let me start by understanding the requirements.
+
+First, the output should be exactly 10 pairs without any additional explanations or comments. Each line must have a question followed by a correct answer, separated by a semicolon. The language is Portuguese, so all questions and answers need to be in Portuguese.
+
+Looking at the context provided, it explains that schools can be private (non-state) and gives examples of various institutions around the world, specifying they are private schools. The facts section lists many schools with "Private school" as their type.
+
+I should create varied questions covering different aspects of the content. For example, some could ask about specific schools, others about types or characteristics of private education. I need to ensure each question has a unique and correct answer directly from the facts provided.
+
+Let me brainstorm possible questions:
+
+1. Maybe a question asking for the type of Assumption High School.
+2. A question about another school's type, like Ave Maria College.
+3. What kind of schools are Ufuk University and others?
+4. Perhaps identifying a non-private school might be tricky since all listed are private, but maybe there's an exception in the facts; I need to check if any are public or something else. From the provided facts, they're all private, so perhaps a question about that.
+5. A question about educational levels taught by these schools—like if they offer higher education, such as universities among them.
+6. Maybe asking for a specific school's location or name.
+7. Another one about a particular institution type, like colleges in the list.
+8. How many private schools are mentioned? Let me count; there are 90 entries listed under Fatos, so maybe that's a question.
+9. A comparison, like if Brookewood School is of a certain type.
+10. Maybe about the institutions' purpose or another characteristic.
+
+Wait, all the facts mention "Private school," so many questions can be similar but varied by selecting different schools. I should make sure not to repeat questions too much.
+
+Let me outline 10 distinct ones:
+
+1. What type of school is Assumption High School (Iowa)?
+2. What about Ave Maria College in Melbourne?
+3. Is Ufuk University a private or public institution?
+4. Which type of school is St. Thomas' School in New Delhi?
+5. How many private schools are listed? 90, based on the Fatos section.
+6. What kind of school is The British School Yangon?
+7. What's the nature of Episcopal School of Dallas?
+8. Is Open Door Christian School (Elyria, Ohio) a private school?
+9. Which type does John F. Kennedy Catholic Preparatory School fall under?
+10. How about Dana Hall School?
+
+I need to ensure each question is unique and covers different examples from the facts. Now, I'll structure them in Portuguese, making sure the questions are clear and the answers directly pulled from the facts.
+
+Now, let me compile these into CSV format as per instructions.
+</think>
+
+```csv
+Qual tipo de escola é Assumption High School (Iowa)?;escola particular
+A Ave Maria College (Melbourne, Victoria) é um(a) que tipo de escola?;escola particular
+O Ufuk University é uma escola pública ou privada?;privada
+Que tipo de estabelecimento é o St. Thomas' School (New Delhi)?;escola particular
+Quantas escolas particulares são listadas nos fatos?;90
+Qual é o tipo de instituição The British School Yangon?;escola particular
+O Episcopal School of Dallas é um(a) que tipo de escola?;escola particular
+A Open Door Christian School (Elyria, Ohio) é uma escola pública ou privada?;privada
+Que categoria pertence a John F. Kennedy Catholic Preparatory School?;escola particular
+O tipo de instituição Dana Hall School é?;escola particular
+```

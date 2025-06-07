@@ -1,0 +1,42 @@
+<think>
+Okay, let's see. The user wants me to generate 10 question-answer pairs in CSV format based on the provided context and facts. The context gives information about Fresno, California, including its population, founding date, incorporation date, and its position as the fifth most populous city in California. The facts list various people, events, places, and other details associated with Fresno.
+
+First, I need to make sure each question is unique and covers different aspects. The examples given include population, founding year, incorporation year, and some events or people related to Fresno. I should avoid repeating the same questions but ensure they are all based on the provided data.
+
+Looking at the context: The main points are that Fresno is the fifth most populous in California, founded in 1872, incorporated in 1885, population over 542,000, and 34th largest city in the US. These can be the basis for the first few questions.
+
+Then, the facts list various people born or died in Fresno, teams associated with Fresno, locations like Selland Arena, the Big Fresno Fair, and other specific details. I can use these to create questions about notable people, events, places, and other statistics like population density, area, etc.
+
+I need to ensure that each answer is directly from the context or facts. For example, "Quem nasceu em Fresno, California, e é um ex-jogador de basquete?" could be answered with "Chris McNealy" since that's listed in the facts. Similarly, for the population density, the context mentions 4722.6 per square mile, so that's a valid question.
+
+I should also check that each question has only one correct answer and that the answers are explicitly mentioned. Avoid making up information not present. Also, make sure the CSV format is correct with semicolons and no markdown.
+
+Let me start listing possible questions:
+
+1. Qual é a posição de Fresno na lista das cidades mais populosas da Califórnia? (5ª)
+2. Em que ano Fresno foi fundada? (1872)
+3. Em que ano Fresno se tornou uma cidade incorporada? (1885)
+4. Qual é a população de Fresno segundo o censo de 2020? (Mais de 542 mil)
+5. Qual é a densidade populacional de Fresno em mi²? (4722.6)
+6. Qual é a área total de Fresno em km²? (300.43)
+7. Quem nasceu em Fresno, California, e é um ex-jogador de basquete? (Chris McNealy)
+8. Qual é o nome da arena localizada em Fresno, California? (Selland Arena)
+9. Qual é o gentílico dos habitantes de Fresno, California? (Fresnan)
+10. Qual é o ano em que a 2015–16 Washington Huskies women's basketball team tem localização em Fresno? (2015–16)
+
+I need to check if all these answers are present in the context or facts. For example, the arena is mentioned as Selland Arena. The gentílico is "Fresnan". The basketball team's season is listed as 2015–16. The area in km² is 300.43, and the population density is 4722.6 per mi². The other answers are directly from the context.
+
+I think that covers 10 unique questions with correct answers. Now, I'll format them into CSV as specified.
+</think>
+
+pergunta;resposta
+Qual é a posição de Fresno na lista das cidades mais populosas da Califórnia?;quinta
+Em que ano Fresno foi fundada?;1872
+Em que ano Fresno se tornou uma cidade incorporada?;1885
+Qual é a população de Fresno segundo o censo de 2020?;mais de 542 mil
+Qual é a densidade populacional de Fresno em mi²?;4722.6
+Qual é a área total de Fresno em km²?;300.43
+Quem nasceu em Fresno, California, e é um ex-jogador de basquete?;Chris McNealy
+Qual é o nome da arena localizada em Fresno, California?;Selland Arena
+Qual é o gentílico dos habitantes de Fresno, California?;Fresnan
+Qual é o ano em que a 2015–16 Washington Huskies women's basketball team tem localização em Fresno?;2015–16

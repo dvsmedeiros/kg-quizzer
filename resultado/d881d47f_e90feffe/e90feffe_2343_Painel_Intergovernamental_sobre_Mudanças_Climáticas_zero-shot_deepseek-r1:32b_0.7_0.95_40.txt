@@ -1,0 +1,27 @@
+<think>
+Okay, so I've got this query where the user wants me to generate a quiz based on the context of the Intergovernmental Panel on Climate Change (IPCC). They provided specific instructions about how they want the output formatted—CSV with 10 pairs, each having a question and answer separated by semicolons. Also, it's in Portuguese, which is important because I need to make sure my translations are accurate.
+
+First, I'll start by understanding the context thoroughly. The IPCC was established in 1988 by WMO and UNEP. It assesses climate change science every few years, publishes reports like AR6, focuses on mitigation and adaptation, has three working groups, uses scenarios for projections, evaluates risks to ecosystems, and involves hundreds of scientists.
+
+Next, I need to create varied questions covering different aspects without repeating similar ones. Each question must have a single correct answer derived directly from the context. I'll make sure each pair is unique in terms of focus—some on facts, others on purposes or components.
+
+I also have to remember not to add any extra explanations or comments. Just the CSV content as specified. Since it's Portuguese, I need to ensure that my translations are correct and the terminology used is accurate within the context of climate change reports.
+
+Now, thinking about potential pitfalls: maybe some questions could be too similar if I'm not careful, so I'll double-check each one for uniqueness. Also, ensuring that all answers are directly supported by the provided information without making assumptions beyond what's given.
+
+Finally, after drafting the 10 pairs, I'll review them to make sure they meet all the criteria: correct language, proper formatting, no repetitions, and each question has a clear, correct answer based on the context.
+</think>
+
+```csv
+pergunta;resposta
+Qual é o órgão responsável por avaliar as alterações climáticas e apresentar relatórios periódicos?;Painel Intergovernamental sobre Mudanças Climáticas (IPCC)
+Em que ano foi criado o IPCC?;1988
+Quais são as duas organizações que criaram o IPCC?;Organização Meteorológica Mundial (OMM) e Programa das Nações Unidas para o Meio Ambiente (PNUMA)
+Qual é o objetivo principal do IPCC?;Avaliar a ciência relacionada às mudanças climáticas
+Quais são os três grupos de trabalho que compõem o IPCC?;Grupo de Trabalho 1, Grupo de Trabalho 2 e Grupo de Trabalho 3
+O que é o Relatório de Avaliação nº6 (AR6)?;O relatório mais recente do IPCC sobre mudanças climáticas
+Qual é a frequência dos relatórios periódicos do IPCC?;Aproximadamente a cada seis anos
+Quais são as duas vertentes principais abordadas pelo IPCC?;Mitigação e adaptação às mudanças climáticas
+O que são os cenários de emissões usados no IPCC?;Cenários que projetam diferentes trajetórias de emissões de gases estufa
+Qual é a finalidade dos relatórios do IPCC?;Informar políticas públicas e auxiliar na tomada de decisões climáticas
+```

@@ -1,0 +1,33 @@
+<think>
+Alright, I need to generate 10 multiple-choice questions based on the context provided about the Yuan Dynasty. The user has specified that each question should have a unique correct answer derived from the content, and they want them in CSV format with semicolons separating the question and answer.
+
+First, I'll review the context given. It mentions that the Yuan Dynasty was established by Kublai Khan, it's often referred to as the Mongol Empire in China, lasted from 1271 to 1368, and its rulers implemented policies that affected various social groups like merchants, scholars, and peasants. Key figures include Kublai Khan, Genghis Khan, and notable emperors such as Shizu and Chengzong. The empire's territory included regions like Manchuria, Mongolia, Xinjiang, Tibet, and Siberia.
+
+I should create varied questions covering different aspects: establishment, key rulers, duration, social policies, and territorial extent. I'll ensure each question has one correct answer that's directly supported by the context.
+
+1. **Establishment**: Who founded the Yuan Dynasty? Correct answer: Kublai Khan.
+2. **Alternative Name**: What was another name for the Yuan Dynasty? Answer: Mongol Empire in China.
+3. **Duration**: When did the Yuan Dynasty end? Answer: 1368.
+4. **Founder's Predecessor**: Who preceded Kublai Khan as a significant leader? Genghis Khan.
+5. **Emperor Names**: Which emperor was Shizu? Kublai Khan.
+6. **Successor of Shizu**: Who succeeded Shizu? Chengzong.
+7. **Social Group Benefit**: Which group thrived under Yuan rule? Merchants.
+8. **Scholar Treatment**: How were scholars treated? With suspicion.
+9. **Territories**: What region was part of the Yuan Empire? Siberia.
+10. **Yuan Emperors' Background**: What was their background? Mongol.
+
+I need to make sure each question is clear, relates directly to the context, and avoids repetition. Now, I'll format these into CSV pairs as specified.
+</think>
+
+```csv
+Quem fundou a Dinastia Yuan?;Kublai Khan
+Qual foi outro nome dado à Dinastia Yuan?;Império Mongol na China
+Em que ano terminou a Dinastia Yuan?;1368
+Quem foi o predecessor de Kublai Khan como líder mongol?;Genghis Khan
+Qual era o nome de Kublai Khan como imperador da Dinastia Yuan?;Shizu
+Quem sucedeu Shizu no trono?;Chengzong
+ Qual grupo social prosperou durante a Dinastia Yuan?;Os comerciantes
+ Como eram tratados os intelectuais (xue士) durante o Yuan?;Com desconfiança
+Qual região estava incluída no território do Império Yuan?;Siberia
+Qual era a origem étnica dos imperadores da Dinastia Yuan?;Mongol
+```

@@ -1,0 +1,28 @@
+<think>
+Ok, vou começar tentando entender o que o usuário está pedindo aqui. Ele quer que eu gere 10 pares de perguntas e respostas baseadas em um contexto fornecido, que é a universidade Harvard. Primeiro, preciso analisar o conteúdo disponível para extrair informações relevantes que possam ser transformadas em perguntas objetivas.
+
+O usuário também estabeleceu regras específicas: as perguntas devem variar e abranger diferentes aspectos do conteúdo, cada uma deve ter uma única resposta correta explícita ou inferível, e não se pode repetir perguntas semelhantes. Além disso, a saída deve ser no formato CSV, com pontos e virgulas separando as perguntas e respostas.
+
+Primeiro, penso em quais áreas da universidade Harvard podem ser usadas para criar perguntas. Pode ser a história fundadora, cursos famosos, campus principais, prêmios conquistados, entre outros aspectos. Preciso garantir que cada pergunta reflita um aspecto diferente para variar o conteúdo.
+
+Em seguida, identifico as respostas corretas associadas a cada pergunta. Por exemplo, se a pergunta for sobre a data de fundação da universidade, a resposta será 1636. Se for sobre o local do campus principal, a resposta é Cambridge, Massachusetts.
+
+Vou começar listando os possíveis tópicos: datas importantes, localização de campi, cursos notáveis, prêmios recebidos, fundadores renomados, filantropos significativos, etc. Cada pergunta deve ser claramente relacionada ao contexto, para evitar erros.
+
+Depois, elaboro cada uma das 10 perguntas, garantindo que não haja repetições de estruturas ou conteúdos. Por fim, organizo everything no formato CSV requerido, sem adicionar qualquer explicação ou comentário extra.
+</think>
+
+```csv
+pergunta;resposta
+Quando foi fundada a Universidade Harvard?;1636
+Qual é o principal campus da Universidade Harvard localizado?;Cambridge, Massachusetts
+Qual foi o ano em que o curso de Medicina começou a ser oferecido na Universidad Harvard?;1803
+Qual prêmio importante recebeu a Universidade Harvard em 2018?;Prêmio Nobel de Química
+Qual é o nome do fundador da Universidade Harvard?;John Harvard
+Qual foi o ano que a Universidade Harvard recebeu sua carta de autorização para funcionar?;1650
+Qual é o nome do filantropo mais importante associado à Universidade Harvard?;Bill Gates
+Em qual estado está localizado o campus principal da Universidade Harvard?;Massachusetts
+Qual foi o nome do primeiro reitor da Universidade Harvard após sua fundação?;Henry Dunne
+Qual é a especialização científica da Universidade Harvard mais premiada recentemente?;Fisiologia e Medicina Celular
+ Qual foi o ano em que a Escola de Negociação da Harvard Business School foi criada?;1908
+```

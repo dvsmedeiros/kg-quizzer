@@ -1,0 +1,38 @@
+<think>
+Okay, I need to help the user by generating a quiz with 10 question pairs based on the context provided. The context is just "Vitória_(Austrália)". Hmm, so it's about the city of Victoría in Australia.
+
+First, I should think about what information is relevant here. The population comes to mind because it’s a common statistic people would want to know. Next, knowing the capital of Australia is another fundamental fact. Location details are also important—where exactly in Brazil is Victoría located? That could be useful for someone studying geography.
+
+The official language will be straightforward. Maybe something like Portuguese and English since it's a major city with international relevance. The currency is another key point, as Victoría has a specific local currency which might be used in tourist transactions.
+
+Natural features are always interesting, so the mountain range where it's located could be a good question. Including some cultural aspects, like the main ethnic group or religion, adds depth to the quiz.
+
+I should ensure each question is different and covers various aspects to make the quiz comprehensive yet varied. I need to avoid repetition, so each question should target a unique piece of information.
+
+Now, putting it all together in pairs:
+1. Population: It's around 290,000.
+2. Capital: The capital of Australia is Canberra.
+3. Location: Victoría is located in the Brazilian Amazon.
+4. Official languages: Portuguese and English are widely spoken there.
+5. Currency: Brazilian real (BRL) is used for local transactions.
+6. Mountain range: It's in the Pindaricucesso Plateau, near the Diamantina Mine region.
+7. Ethnic group: The predominant group is Brazilian.
+8. Religion: Most residents follow Christianity.
+9. Time zone: Victoría is in Brasília's timezone (UTC-1).
+10. Cuisine: They often eat things like ceviche and samba.
+
+I should format these as CSV pairs, each on a new line with semicolons separating the question and answer.
+</think>
+
+```csv
+Quantidade dehabitantes de Vitória (Austrália);290.000 habitantes
+Qual é o capital da Austrália;O capital da Austrália é Canberra
+Determine onde está localizada Vitória no Brasil;Vitória está localizada no Amazonas, Brazilian Amazon
+qual é a língua oficial de Vitória;(Português e Inglês)
+ qual é a moedinha utilizada em Vitória;(BRL - Brazilian real)
+ Qual é a montanha onde está localizada Vitória;(Pindaricucesso Plateau, próxima da mina diamantina)
+ qual é a principal raça dos habitantes de Vitória;(Brasileira)
+ qual é a religião mais diffuse nas cidades de Vitória;(Cristianidade)
+ qual é a hora UTC nas cidades de Vitória;(Horário UTC-1)
+ Qual é a culinária tíca nas cidades de Vitória;(Ceviche, Samba e outrros sabores africanos)
+```

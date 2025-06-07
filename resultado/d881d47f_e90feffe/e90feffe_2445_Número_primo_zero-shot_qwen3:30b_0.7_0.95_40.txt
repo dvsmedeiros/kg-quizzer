@@ -1,0 +1,65 @@
+<think>
+Okay, the user wants me to generate 10 pairs of questions and answers in CSV format based on the context of "Número_primo" (prime number). Let me start by recalling what prime numbers are. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. 
+
+First, I need to make sure each question is unique and covers different aspects. Let me think of various angles: definition, examples, properties, historical context, special cases, etc. 
+
+For the first question, maybe start with the definition. "O que é um número primo?" The answer would be the standard definition. 
+
+Next, examples. "Qual é o menor número primo?" The answer is 2. Then, "Qual é o único número primo par?" Again 2. Wait, but that's similar. Maybe rephrase to "Qual é o único número primo que é par?" to avoid repetition.
+
+Another aspect could be numbers that are not primes. Like, "Qual dos seguintes números não é primo: 9, 11, 13?" The answer is 9. 
+
+What about the number 1? "Por que o número 1 não é considerado primo?" Because it has only one positive divisor.
+
+Then, maybe a question about the distribution of primes. "Quantos números primos existem?" The answer is infinitely many, as per Euclid's theorem.
+
+Another question could be about the largest known prime. But since the context is just "Número_primo" without specific data, maybe avoid that unless it's a general fact. But the user might not have provided that info, so better stick to basics.
+
+What about the Sieve of Eratosthenes? "Qual método é utilizado para encontrar números primos?" The sieve method.
+
+Then, maybe a question about prime factors. "O que é um fator primo?" A prime number that divides another number.
+
+Lastly, check if there's a question about twin primes. "O que são números primos gêmeos?" Pairs of primes with a difference of 2.
+
+Wait, need to ensure each question is distinct. Let me list them:
+
+1. Definition
+2. Smallest prime
+3. Only even prime
+4. Non-prime example
+5. Why 1 isn't prime
+6. Infinity of primes
+7. Sieve method
+8. Prime factor
+9. Twin primes
+10. Another example, maybe the first few primes.
+
+Wait, the user said 10 pairs. Let me check if I have 10. Let me count:
+
+1. O que é um número primo?
+2. Qual é o menor número primo?
+3. Qual é o único número primo que é par?
+4. Qual dos seguintes números não é primo: 9, 11, 13?
+5. Por que o número 1 não é considerado primo?
+6. Quantos números primos existem?
+7. Qual método é utilizado para encontrar números primos?
+8. O que é um fator primo?
+9. O que são números primos gêmeos?
+10. Quais são os primeiros cinco números primos?
+
+Yes, that's 10. Now, check if each answer is correct and based on the context. The context is just "Número_primo", so I need to make sure the answers are standard knowledge. For example, the first five primes are 2, 3, 5, 7, 11. 
+
+Make sure no repetition. The questions are varied. Now, format them into CSV with semicolons. No markdown, just plain CSV. Let me write them out.
+</think>
+
+pergunta;resposta
+O que é um número primo?;Um número natural maior que 1 que possui apenas dois divisores positivos distintos: 1 e ele mesmo
+Qual é o menor número primo?;2
+Qual é o único número primo que é par?;2
+Qual dos seguintes números não é primo: 9, 11, 13?;9
+Por que o número 1 não é considerado primo?;Porque ele possui apenas um divisor positivo
+Quantos números primos existem?;Infinitos
+Qual método é utilizado para encontrar números primos?;O crivo de Eratóstenes
+O que é um fator primo?;Um número primo que divide outro número sem deixar resto
+O que são números primos gêmeos?;Pares de números primos cuja diferença é 2
+Quais são os primeiros cinco números primos?;2; 3; 5; 7; 11

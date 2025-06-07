@@ -1,0 +1,76 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 pairs of questions and answers in CSV format based on the provided context and facts. The key points are that the questions must be varied, relevant, and the answers must be explicitly or inferentially from the content. No repetition of similar questions, and only the CSV output is needed.
+
+First, I need to parse the context and facts. The context talks about Normans being a Germanic people in northern France, descendants of Vikings, their historical roles, and cultural aspects. The facts list various attributes like languages they spoke, religious beliefs, architectural styles, historical events, and related terms.
+
+I should start by identifying different aspects from the context and facts. Let's see:
+
+1. **Origin and Ethnicity**: Normans as a Germanic group, descendants of Vikings.
+2. **Languages**: Old Norse, Old Norman, Latin.
+3. **Religions**: Norse Paganism, Christianity.
+4. **Historical Events**: Conquests, battles, establishment of states.
+5. **Architectural Styles**: Norman architecture.
+6. **Cultural and Historical Influence**: Role in medieval Europe, Crusades.
+7. **Related Terms**: Hiperonyms, related peoples (Jersey people, Norse people).
+8. **Facts about specific locations or structures**: Castles, churches, etc.
+9. **Models used in wikis**: Templates like Infobox ethnic group, etc.
+10. **Notable people or families**: Richard of Salerno, Hauteville family.
+
+Now, I need to form 10 unique questions. Let's brainstorm:
+
+1. **Origin**: "De onde os normandos descendiam?" (Answer: Vikings from Scandinavia)
+2. **Language**: "Qual idioma os normandos falavam?" (Old Norse, Old Norman, Latin)
+3. **Religion**: "Qual religião os normandos seguiam inicialmente?" (Norse Paganism)
+4. **Architectural Style**: "Qual estilo arquitetônico é associado aos normandos?" (Norman architecture)
+5. **Historical Event**: "Qual foi uma das principais conquistas dos normandos?" (Conquista da Inglaterra)
+6. **Related Peoples**: "Qual povo é considerado hiperônimo dos normandos?" (Norse people)
+7. **Religious Shift**: "Com o tempo, qual religião os normandos adotaram?" (Christianity)
+8. **Cultural Influence**: "O que destaca a influência dos normandos na Europa medieval?" (Crusades, establishment of states)
+9. **Specific Structures**: "Qual igreja segue o estilo arquitetônico normando?" (St Mary's Church, Mortehoe)
+10. **Historical Figure**: "Quem foi Richard of Salerno em relação aos normandos?" (Nacionalidade Normans)
+
+Wait, the user said to use the facts provided. Let me check the facts again to ensure the answers are accurate.
+
+Looking at the facts:
+
+- "Normans fala o idioma Old Norse" and "Normans fala o idioma Latin" and "Normans fala os idiomas Old Norman". So the answer should be Old Norse, Old Norman, Latin.
+
+- "Normans segue a religião Norse paganism" and "Normans segue a religião Christianity". So initial religion is Norse Paganism, later Christianity.
+
+- "St Mary's Church, Mortehoe segue o estilo arquitetônico Normans" and "St Bride's Church, Llansantffraed segue o estilo arquitetônico Normans".
+
+- "Battle of Olivento teve como combatentes Normans" and "Battle of Civitate teve como combatentes Normans", etc.
+
+- "Cambro-Norman possui hiperônimo Normans".
+
+- "Richard of Salerno possui nacionalidade Normans".
+
+So adjusting the questions to match the facts:
+
+1. **Origin**: "De onde os normandos descendiam em grande parte?" (Vikings da Escandinávia)
+2. **Languages**: "Quais idiomas os normandos falavam?" (Old Norse, Old Norman, Latin)
+3. **Religion**: "Qual religião os normandos seguiam inicialmente?" (Norse paganism)
+4. **Architectural Style**: "Qual estilo arquitetônico é associado aos normandos?" (Norman)
+5. **Historical Event**: "Qual foi uma das conquistas importantes dos normandos?" (Conquista da Inglaterra)
+6. **Related Peoples**: "Qual povo é considerado hiperônimo dos normandos?" (Norse people)
+7. **Religious Shift**: "Com o tempo, qual religião os normandos adotaram?" (Christianity)
+8. **Cultural Influence**: "O que destaca a influência dos normandos na Europa medieval?" (Crusades, estabelecimento de estados na Sicília)
+9. **Specific Structure**: "Qual igreja segue o estilo arquitetônico normando?" (St Mary's Church, Mortehoe)
+10. **Historical Figure**: "Qual a nacionalidade de Richard of Salerno?" (Normans)
+
+Now, check for repetition and ensure each question is unique and covers different aspects. Also, make sure the answers are directly from the facts. For example, the answer to the religious shift is Christianity, which is mentioned in the facts. The architectural style is explicitly stated in the facts. The historical event is the Norman Conquest of England, which is in the context. The related people's hiperônimo is Norse people, as per the facts. The specific structure question uses the exact name from the facts.
+
+Finally, format them into CSV with semicolons, ensuring no markdown and only the 10 pairs.
+</think>
+
+pergunta;resposta
+De onde os normandos descendiam em grande parte?;Vikings da Escandinávia
+Quais idiomas os normandos falavam?;Old Norse, Old Norman, Latin
+Qual religião os normandos seguiam inicialmente?;Norse paganism
+Qual estilo arquitetônico é associado aos normandos?;Norman
+Qual foi uma das conquistas importantes dos normandos?;Conquista da Inglaterra
+Qual povo é considerado hiperônimo dos normandos?;Norse people
+Com o tempo, qual religião os normandos adotaram?;Christianity
+O que destaca a influência dos normandos na Europa medieval?;Crusades, estabelecimento de estados na Sicília
+Qual igreja segue o estilo arquitetônico normando?;St Mary's Church, Mortehoe
+Qual a nacionalidade de Richard of Salerno?;Normans

@@ -1,0 +1,57 @@
+<think>
+Okay, I need to generate 10 CSV pairs of questions and answers based on the provided context about the Huguenots. Let me start by understanding the context and facts given.
+
+The context mentions that Huguenots were French Protestants during the religious wars in the late 16th century. Around 300,000 left France after the persecution under Louis XIV and the revocation of the Edict of Nantes in 1685. They were mostly Calvinist, part of the Reformed Church, while those in Alsace, Moselle, and Montbéliard were Lutheran. The facts include some RDF data linking Huguenots to other entities, like the Catholic Church in France, and mentions of places named after them, such as Huguenot in Orange County, New York, and Staten Island. There are also references to templates and subjects related to anti-Catholicism, French Wars of Religion, diaspora, etc.
+
+Now, I need to create 10 varied questions covering different aspects. Let me list possible questions:
+
+1. When did the revocation of the Edict of Nantes occur? Answer: 1685.
+2. Which French king persecuted Huguenots? Answer: Louis XIV.
+3. What was the main religion of most Huguenots? Answer: Calvinism.
+4. Which regions had Lutheran Huguenots? Answer: Alsace, Moselle, Montbéliard.
+5. What was the Edict of Nantes? Answer: Granted religious, political, and military autonomy to Huguenots.
+6. What was the original meaning of the term "Huguenot"? Answer: Derogatory term, mockery.
+7. Which Swiss politician is the term related to? Answer: Hugues of Geneva (Besançon Hugues? Wait, the context says "Besançon Hugues" – need to check the original text. The example mentions "Besançon Hugues" as the political figure. So the answer is Besançon Hugues.
+8. Which city was the center of the Calvinist movement? Answer: Geneva.
+9. What was the name of the conspiracy against the House of Guise? Answer: The Amboise Conspiracy.
+10. When did the Amboise Conspiracy occur? Answer: 1560.
+
+Wait, the example given in the user's message includes a question about the Amboise Conspiracy occurring in 1560. Let me check the context again. The facts mention the Amboise Conspiracy as part of the French Wars of Religion. So that's a valid question. Also, the example includes the Edict of Nantes ending the wars, but the context says the Edict of Nantes was revoked in 1685. The example's answer says the Edict of Nantes ended the wars, but according to the context, it was revoked later. Need to be careful here.
+
+Wait, the context says the Edict of Nantes was revoked in 1685, which led to the persecution. The example's question about the Edict of Nantes ending the wars might be conflicting. The original context states that the wars ended with the Edict of Nantes, but the revocation happened later. So maybe the answer to the question about the treaty that ended the wars is the Edict of Nantes, but the context says the wars were ended by the Edict of Nantes, and the revocation came later. So the example's answer is correct, but the context may have different details. Need to ensure the answers are based on the provided context.
+
+Let me verify each point again:
+
+- The context says the revocation of the Edict of Nantes in 1685 led to the persecution. The wars were in the second half of the 16th century, ending in 1598 with the Edict of Nantes. So the Edict of Nantes ended the wars, and its revocation in 1685 caused the persecution. So the question about the treaty that ended the wars would be the Edict of Nantes.
+
+So, the questions can be:
+
+1. When was the Edict of Nantes revoked? Answer: 1685.
+2. Which king persecuted Huguenots? Answer: Louis XIV.
+3. What was the main religion of Huguenots? Answer: Calvinism.
+4. Which regions had Lutheran Huguenots? Answer: Alsace, Moselle, Montbéliard.
+5. What did the Edict of Nantes do? Answer: Granted religious, political, and military autonomy to Huguenots.
+6. What was the original meaning of the term "Huguenot"? Answer: Escarnio (mockery).
+7. Which Swiss politician is the term related to? Answer: Besançon Hugues.
+8. Which city was the center of Calvinism? Answer: Geneva.
+9. What was the name of the conspiracy against the House of Guise? Answer: Amboise Conspiracy.
+10. When did the Amboise Conspiracy occur? Answer: 1560.
+
+These questions cover different aspects: dates, key figures, religion, regions, events, and the term's origin. Now, I need to format them into CSV, ensuring correct answers based on the context. The example given by the user includes some of these, so I should avoid repeating similar questions. The user's examples include the Edict of Nantes ending the wars, which is correct, but in the context, the wars ended in 1598 with the Edict of Nantes. So the answer to that question would be the Edict of Nantes. However, the context here says the wars were during the second half of the 16th century, so the answer about the treaty ending the wars would be the Edict of Nantes. So that's covered in question 5.
+
+I need to make sure all answers are explicitly from the context. For example, the answer to the question about the regions with Lutheran Huguenots is in the context. The answer about the term's origin is mentioned as "escárnio" in the context. The Swiss politician is "Besançon Hugues" as per the context. The city is Geneva. The conspiracy is the Amboise Conspiracy, occurring in 1560. The revocation date is 1685. The king is Louis XIV. The main religion is Calvinism. The Edict of Nantes granted autonomy. 
+
+Now, structuring these into 10 CSV pairs, ensuring no repetition and correct answers. The user's examples have some similar questions, but the user said not to repeat similar ones. So I need to ensure variety. Let me list all 10 and format them correctly.
+</think>
+
+pergunta;resposta
+Quando foi revogado o Édito de Nantes?;18 de outubro de 1685
+Qual foi o rei francês que perseguiu os huguenotes?;Luís XIV
+Qual era a religião majoritária dos huguenotes?;calvinismo
+Quais regiões tinham huguenotes majoritariamente luteranos?;Alsácia; Moselle; Montbéliard
+Qual foi a função do Édito de Nantes?;concedeu aos huguenotes autonomia religiosa, política e militar
+Qual era o significado original do termo "huguenote"?;escárnio
+Qual político suíço está relacionado ao termo "huguenote"?;Besançon Hugues
+Qual cidade era o centro do movimento calvinista?;Genebra
+Qual foi o nome da conspiração contra a Casa da Guise francesa?;Amboise
+Quando ocorreu a conspiração de Amboise?;1560

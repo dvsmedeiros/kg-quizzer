@@ -1,0 +1,31 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs in CSV format based on the provided context about packet switching. First, I need to understand the context thoroughly.
+
+The context explains packet switching versus circuit switching, mentions types like virtual circuit and datagram, and includes some facts about people and resources related to packet switching. The facts are in RDF format, but I need to focus on the textual content provided.
+
+I need to make sure each question is unique and covers different aspects. Let me list possible topics: definitions, differences between switching types, advantages, disadvantages, examples, key concepts like jitter, multiplexing, and historical figures.
+
+First question: What is packet switching? The answer is in the first paragraph. Then, compare with circuit switching. Next, advantages like bandwidth optimization, latency, robustness. Then, differences between virtual circuit and datagram. Examples of each. What is jitter? Multiplexing technique used. Who are the key people mentioned? What is the main advantage of virtual circuit? What is the main disadvantage of packet switching?
+
+Wait, I need to check the context again. The context mentions that packet switching uses statistical time-division multiplexing. Also, the examples for virtual circuit are ATM, Frame Relay, X.25, and datagram is IP. The people mentioned are Donald Davies, Paul Baran, Sharla Boehm, W. David Sincoskie. 
+
+I need to ensure each question is distinct. Let me count: 1. Definition. 2. Difference from circuit. 3. Advantages. 4. Disadvantages. 5. Virtual circuit vs datagram. 6. Examples of virtual circuit. 7. Examples of datagram. 8. What is jitter? 9. Multiplexing technique. 10. Key people. That's 10. 
+
+Now, phrasing each question clearly in Portuguese. Make sure answers are directly from the context. Avoid repetition. Check for any possible overlaps. For example, the advantages and disadvantages are separate. The examples are different. The key people are mentioned in the facts. 
+
+Double-check that answers are correct. For instance, the answer to the multiplexing technique is statistical time-division. The main advantage of virtual circuit is guaranteed delivery and ordered. Jitter is the variation in delay. 
+
+Okay, that should cover 10 unique questions. Now format them as CSV with semicolons.
+</think>
+
+pergunta;resposta
+O que é comutação de pacotes?;É um paradigma de comunicação de dados em que pacotes são encaminhados individualmente entre nós da rede através de ligações partilhadas.
+Qual é a principal diferença entre comutação de pacotes e comutação de circuitos?;A comutação de pacotes não estabelece uma ligação dedicada, enquanto a comutação de circuitos cria uma ligação virtual para uso exclusivo durante a transmissão.
+Quais são as vantagens da comutação de pacotes?;Otimiza a largura de banda, minimiza a latência e aumenta a robustez da comunicação.
+Quais são as desvantagens da comutação de pacotes?;Apresenta maior variação na qualidade de serviço, introduz jitter e atrasos variados.
+O que caracteriza a comutação por circuito virtual?;Estabelece um caminho virtual fixo para todos os pacotes, garantindo entrega ordenada.
+Quais são exemplos de comutação por circuito virtual?;ATM, Frame Relay e X.25.
+Quais são exemplos de comutação por datagrama?;Endereço IP.
+O que é jitter na comutação de pacotes?;Variação na qualidade de serviço devido a atrasos variáveis nos pacotes.
+Qual técnica de multiplexagem é utilizada na comutação de pacotes?;Multiplexagem temporal estatística.
+Quem são as pessoas associadas à comutação de pacotes, segundo o contexto?;Donald Davies, Paul Baran, Sharla Boehm e W. David Sincoskie.

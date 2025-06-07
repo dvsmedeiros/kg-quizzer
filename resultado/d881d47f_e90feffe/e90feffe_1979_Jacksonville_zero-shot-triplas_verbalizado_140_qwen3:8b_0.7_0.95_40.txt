@@ -1,0 +1,55 @@
+<think>
+Okay, I need to generate 10 CSV pairs based on the provided context and facts about Jacksonville, Florida. Let me start by going through the context and the list of facts to identify key points.
+
+First, the context mentions Jacksonville is the most populous city in Florida, located in Duval County, third in the East Coast, 12th in the US with a population near 950k. Founded in 1791, incorporated in 1832, situated on the St. Johns River, part of the First Coast, 40 km south of Georgia, 528 km north of Miami. Communities like Jacksonville Beaches. Originally inhabited by Timucua, French colony Fort Caroline in 1564, British settlement at Wacca Pilatka, established in 1822 after US gained Florida from Spain, named after Andrew Jackson. Super Bowl XXXIX in 2005 at EverBank Field.
+
+Now looking at the facts, there are a lot of names of people born or died there, sports teams, roads, buildings, images, etc. I need to create questions that are varied and cover different aspects without repetition.
+
+Possible questions could be about population, founding date, incorporation, geographical location, historical events, notable people, sports teams, landmarks, etc. Let me pick 10 different aspects.
+
+1. Population rank in the US: The context says 12th, so question about that.
+2. Founded year: 1791.
+3. Incorporation date: February 9, 1832.
+4. Location relative to Georgia and Miami: 40 km south of Georgia, 528 km north of Miami.
+5. River: St. Johns River.
+6. Historical event: Fort Caroline in 1564.
+7. Sports team: Jacksonville Jaguars (mentioned in facts).
+8. Temperature records: High in January is 85°F.
+9. Notable person: Sean Winter born there.
+10. Image: One of the images mentioned, like the Duval County map.
+
+Wait, need to ensure each question is unique and based on the facts. Let me check the facts again for more details. For example, the 2005 Super Bowl, the name origin, the area's size, etc. But the user wants 10 pairs, so I need to select 10 distinct facts.
+
+Let me list possible questions:
+
+1. What is Jacksonville's population rank in the United States? (12th)
+2. When was Jacksonville founded? (1791)
+3. What river flows through Jacksonville? (St. Johns River)
+4. Which historical site was established in 1564? (Fort Caroline)
+5. Which sports team is based in Jacksonville? (Jacksonville Jaguars)
+6. What is Jacksonville's highest temperature in January? (85°F)
+7. Who was born in Jacksonville? (Sean Winter)
+8. What is the name of the stadium where Super Bowl XXXIX was held? (EverBank Field)
+9. What is the area of Jacksonville in square meters? (1935498000.0)
+10. Which landmark is located in Jacksonville? (Duval County Courthouse)
+
+Wait, the area is given in square meters? The context says "área terrestre 1935498000.0" which is 1,935,498,000 square meters. That's a huge number, but maybe it's a typo. Alternatively, maybe it's in square feet or another unit, but the user provided the data as is. So I'll use that.
+
+Also, the facts mention multiple people born or died there, so using Sean Winter as an example is okay. The Duval County Courthouse is mentioned in the facts.
+
+Let me structure these into 10 pairs, ensuring they are distinct and based on the content.
+</think>
+
+```csv
+pergunta;resposta
+Qual é a posição de Jacksonville na lista de cidades mais populosas dos Estados Unidos?;12ª
+Em que ano Jacksonville foi fundada?;1791
+Qual rio flui pelas margens de Jacksonville?;Rio St. Johns
+Qual foi o primeiro assentamento europeu na região de Jacksonville?;Fort Caroline
+Qual é o nome do time de futebol americano baseado em Jacksonville?;Jacksonville Jaguars
+Qual é o recorde de temperatura alta em janeiro em Jacksonville?;85 °F
+Quem nasceu em Jacksonville, Florida?;Sean Winter
+Qual estádio recebeu o Super Bowl XXXIX em 2005?;EverBank Field
+Qual é a área terrestre de Jacksonville em metros quadrados?;1935498000,0
+Qual é um dos prédios importantes localizados em Jacksonville?;Duval County Courthouse
+```

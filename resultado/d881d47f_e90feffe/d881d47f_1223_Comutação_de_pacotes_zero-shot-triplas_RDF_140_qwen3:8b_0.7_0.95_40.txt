@@ -1,0 +1,39 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 CSV pairs of questions and answers based on the provided context about packet switching. First, I need to make sure I understand the context thoroughly. 
+
+The context explains that packet switching is a method where data is divided into packets, each sent individually through a shared network. It contrasts with circuit switching, which establishes a dedicated connection. Key points include optimization of bandwidth, reduced latency, increased robustness, and the two types: connection-oriented (virtual circuit) and connectionless (datagram). Examples like ATM, Frame Relay, X.25 for connection-oriented, and IP for connectionless are given. Also, there are mentions of historical figures like Donald Davies, Paul Baran, and others associated with packet switching.
+
+Now, the user wants 10 questions in Portuguese, each with a unique correct answer, varying in aspects of the content. The output must be in CSV format with semicolons. I need to avoid any extra text, just the CSV. 
+
+Let me start by listing possible questions. First, what is packet switching? Then, how does it differ from circuit switching. Next, the two types of packet switching. Examples for each type. The advantages of packet switching. The role of IP in datagram. The concept of virtual circuits. The term for connectionless. The impact on network efficiency. The historical figures associated. 
+
+Wait, I need to ensure each question is distinct and covers different aspects. Let me check the context again. The context mentions optimization of bandwidth, latency reduction, robustness, jitter, and statistical multiplexing. Also, the examples for each type. The fact that datagram requires source addresses. The use of virtual circuits for ordered delivery. 
+
+So possible questions: 
+1. Definição de comutação de pacotes.
+2. Diferença entre comutação de pacotes e circuitos.
+3. Tipos de comutação de pacotes.
+4. Exemplos de comutação com ligação.
+5. Exemplos de comutação sem ligação.
+6. Vantagens da comutação de pacotes.
+7. Papel do endereço IP em datagramas.
+8. Característica da comutação com ligação.
+9. Impacto da comutação de pacotes na eficiência da rede.
+10. Figuras históricas associadas à comutação de pacotes.
+
+Now, I need to make sure each answer is accurate and directly from the context. For example, the advantages include bandwidth optimization, reduced latency, and robustness. The examples for connection-oriented are ATM, Frame Relay, X.25. For connectionless, IP. The term for connectionless is datagram. The virtual circuits ensure ordered delivery. The historical figures are Donald Davies, Paul Baran, etc. 
+
+I need to phrase each question clearly in Portuguese and ensure the answers are concise. Let me check for repetition and variety. Each question should cover a different aspect. Once the questions and answers are ready, format them into CSV with semicolons. Make sure there are exactly 10 pairs and no extra text. Alright, that should cover it.
+</think>
+
+pergunta;resposta
+O que é a comutação de pacotes?;A comutação de pacotes é um paradigma de comunicação em que pacotes são individualmente encaminhados entre nós da rede através de ligações partilhadas.  
+Como a comutação de pacotes difere da comutação de circuitos?;A comutação de pacotes não estabelece uma ligação dedicada, enquanto a comutação de circuitos reserva recursos para comunicação direta entre nós.  
+Quais são os dois tipos principais de comutação de pacotes?;Com ligação (circuito virtual) e sem ligação (datagrama).  
+Quais protocolos são exemplos de comutação com ligação?;ATM (comutação de células), Frame Relay e X.25.  
+Quais protocolos são exemplos de comutação sem ligação?;IP (Internet Protocol).  
+Quais são as vantagens da comutação de pacotes?;Optimiza uso da largura de banda, minimiza latência e aumenta a robustez da comunicação.  
+Qual é a função do endereço de origem em comutação sem ligação?;Permite que a rede reajuste rotas caso haja quebra de um link de transmissão.  
+Qual característica da comutação com ligação garante a entrega ordenada dos pacotes?;O estabelecimento de um caminho virtual fixo.  
+Qual é o impacto da comutação de pacotes na eficiência da rede?;Melhora o uso dos recursos da rede por meio de multiplexagem temporal estatística.  
+Quais figuras históricas estão associadas à comutação de pacotes?;Donald Davies, Paul Baran, Sharla Boehm e W. David Sincoskie.

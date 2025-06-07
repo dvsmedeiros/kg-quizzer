@@ -1,0 +1,36 @@
+<think>
+Okay, I need to generate 10 CSV entries with questions and answers based on the provided context and facts. Let me start by understanding the content.
+
+The context talks about the immune system, its components, functions, and related terms. The facts list various elements like white blood cells, basophils, lymphocytes, T cells, B cells, etc., all part of the immune system. There are also mentions of diseases like autoimmunity, immunodeficiency, and conditions like sepsis and food allergies linked to the immune system.
+
+First, I should ensure that each question is unique and covers different aspects. Let's brainstorm possible questions:
+
+1. Who is considered the father of immunology? (Answer: Ilya Ilyich Mechnikov)
+2. What is the term for the immune system's ability to remember pathogens? (Answer: Adaptive immunity or immunological memory)
+3. Which cells are part of the immune system? (Examples: T cells, B cells, neutrophils, etc.)
+4. What is the function of the immune system? (Protect against pathogens, etc.)
+5. What are the two main types of immunity? (Innate and adaptive)
+6. What causes autoimmune diseases? (Immune system attacking self-tissues)
+7. What is immunodeficiency? (Reduced immune function leading to infections)
+8. Which disease is associated with the immune system? (Sepsis, food allergy, etc.)
+9. What are some components of the immune system? (White blood cells, lymphocytes, etc.)
+10. What is the role of the lymphatic system in the immune system? (Transport of lymph and white blood cells)
+
+Now, I need to check the facts provided. The facts mention specific cells like T cells, B cells, neutrophils, macrophages, etc., and conditions like sepsis, food allergies, and autoimmune diseases. Also, terms like adaptive immunity, immunological memory, and the role of the lymphatic system are covered.
+
+I need to make sure each question is unique and the answers are directly from the context or facts. Let me structure the CSV entries with these points, ensuring no repetition and correct answers. Also, the format must be strictly CSV with semicolons and no extra text.
+</think>
+
+```csv
+pergunta;resposta
+Quem é considerado o pai da imunologia?;Ilya Ilyich Mechnikov
+Qual é a função principal do sistema imunitário?;Proteger o organismo contra doenças e agentes patogénicos
+Quais são os dois principais tipos de imunidade?;Innata e adquirida
+O que caracteriza a imunidade adquirida?;A capacidade de criar memória imunológica contra agentes patogénicos específicos
+Quais células são componentes do sistema imunitário?;Linfócitos, neutrófilos, macrófagos, células T e B
+Quais doenças estão associadas ao sistema imunitário?;Sepsis, alergias alimentares, doenças autoimunes
+O que é a imunodeficiência?;A redução da atividade do sistema imunitário, levando a infecções recorrentes
+Quais células do sistema imunitário participam da fagocitose?;Macrófagos, neutrófilos e células de Langerhans
+O que é a resposta imune adaptativa?;O processo de reconhecimento e neutralização de agentes patogénicos específicos com memória imunológica
+Quais são exemplos de doenças autoimunes?;Artrite reumatóide, diabetes tipo 1
+```

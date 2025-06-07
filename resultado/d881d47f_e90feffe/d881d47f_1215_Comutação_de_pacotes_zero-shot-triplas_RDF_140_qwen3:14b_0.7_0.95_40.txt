@@ -1,0 +1,58 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in CSV format based on the provided context and facts. Let me start by carefully reading the context and facts to understand the key points.
+
+The context explains packet switching in computer networks, contrasting it with circuit switching. It mentions advantages like bandwidth optimization, latency reduction, and robustness. It also differentiates between connection-oriented (virtual circuits) and connectionless (datagram) packet switching, giving examples like ATM, Frame Relay, X.25, and IP-based systems.
+
+The facts include information about key people associated with packet switching: Donald Davies, Paul Baran, Sharla Boehm, and W. David Sincoskie. There are also URLs and dates related to the topic, but those might not be necessary for the questions unless specifically mentioned.
+
+Now, I need to create varied questions that cover different aspects. Let me brainstorm possible topics:
+
+1. Definition of packet switching vs. circuit switching.
+2. Advantages of packet switching.
+3. Types of packet switching (connection-oriented vs. connectionless).
+4. Examples of each type (like ATM, IP).
+5. Key people associated with packet switching.
+6. Techniques used in packet switching (statistical multiplexing).
+7. Differences in reliability between connection-oriented and connectionless.
+8. What is jitter in packet switching?
+9. What is a virtual circuit?
+10. What is a datagram?
+
+I should ensure each question is unique and based on explicit or inferable information. Let me check the facts again for the names and examples. The facts mention Donald Davies, Paul Baran, Sharla Boehm, and W. David Sincoskie as related to packet switching. The examples are ATM, Frame Relay, X.25 for connection-oriented, and IP for connectionless.
+
+Now, structuring each question and answer:
+
+1. What is the main difference between packet switching and circuit switching? Answer: Packet switching sends individual packets over shared links, while circuit switching establishes a dedicated virtual circuit for the duration of the transmission.
+
+2. What is a benefit of using packet switching over circuit switching? Answer: It optimizes bandwidth usage and reduces latency.
+
+3. Which type of packet switching guarantees ordered delivery of packets? Answer: Connection-oriented (virtual circuit) packet switching.
+
+4. What is an example of a connectionless packet-switching protocol? Answer: IP (Internet Protocol).
+
+5. Who is associated with the development of packet switching? Answer: Donald Davies and Paul Baran.
+
+6. What technique does packet switching use to efficiently utilize network resources? Answer: Statistical multiplexing.
+
+7. What is a disadvantage of connectionless packet switching compared to connection-oriented? Answer: It may introduce jitter and variable delays.
+
+8. What is a virtual circuit in packet switching? Answer: A pre-established path through the network that all packets follow, ensuring ordered delivery.
+
+9. What is jitter in the context of packet switching? Answer: Variations in the arrival time of packets, leading to inconsistent performance.
+
+10. What is the purpose of a datagram in connectionless packet switching? Answer: To carry data from the source to the destination independently, with each packet containing the destination address.
+
+I need to make sure these answers are directly from the context or facts. Also, avoid repetition. Let me check each answer against the provided text. Yes, they all align. Now, format them into CSV with semicolons.
+</think>
+
+pergunta;resposta
+Qual o principal contraste entre comutação de pacotes e comutação de circuitos?;A comutação de pacotes envia pacotes individualmente por ligações partilhadas, enquanto a comutação de circuitos estabelece uma ligação virtual dedicada para a transmissão.
+Qual benefício a comutação de pacotes oferece em relação à comutação de circuitos?;A comutação de pacotes otimiza o uso da largura de banda da rede e reduz a latência.
+Qual tipo de comutação de pacotes garante a entrega ordenada dos pacotes?;A comutação de pacotes com ligação (circuito virtual).
+Qual protocolo é um exemplo de comutação de pacotes sem ligação?;O Protocolo IP (Internet Protocol).
+Quem está associado ao desenvolvimento da comutação de pacotes?;Donald Davies e Paul Baran.
+Qual técnica a comutação de pacotes utiliza para melhorar o uso dos recursos da rede?;Multiplexagem temporal estatística.
+Qual desvantagem a comutação de pacotes sem ligação apresenta em comparação com a comutação com ligação?;Pode introduzir jitter (variação no tempo de chegada dos pacotes).
+O que é um circuito virtual na comutação de pacotes?;Um caminho pré-estabelecido na rede por onde todos os pacotes seguem, garantindo a entrega em ordem.
+O que é jitter no contexto de comutação de pacotes?;Variação no tempo de chegada dos pacotes, causando inconsistências no serviço.
+O que é um datagrama na comutação de pacotes sem ligação?;Um pacote que é encaminhado independentemente, contendo sempre o endereço de origem e destino.

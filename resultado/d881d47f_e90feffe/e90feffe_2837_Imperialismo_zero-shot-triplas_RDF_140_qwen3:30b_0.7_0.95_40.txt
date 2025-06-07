@@ -1,0 +1,64 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs in CSV format based on the provided context and facts. The context is about the definition of an empire, and the facts are a bunch of RDF data linking various entities to "Imperialism."
+
+First, I need to make sure I understand the context. The context explains that an empire is a large territory with diverse people under a central authority, often formed through conquest. It also mentions the term "Imperium Romanum" and the structure of an empire with a center and peripheries.
+
+Now, the facts are in a structured format, but they seem to be about various entities (like political parties, books, people) that are linked to "Imperialism" through different properties like ideology, motive, etc. However, the actual content here is more about the relationships rather than explicit information about empires. So, I need to derive questions and answers from the context provided, not the facts, since the facts are more about the RDF data.
+
+Wait, the user says to generate questions based on the context and facts provided. But the facts are in a machine-readable format (RDF) with lots of technical terms. However, the context is in Portuguese, explaining what an empire is. So the questions should be based on the context, not the RDF facts. The user might have included the facts as additional information, but the main content is the context.
+
+So, I need to create 10 questions and answers based on the context. Let me go through the context again.
+
+The context says:
+- Empire comes from "imperium" (power, authority).
+- It's a large, non-contiguous territory with diverse nations and people, governed by an emperor or oligarchy.
+- It's a political unit created by conquest, with a dominant center and subordinate peripheries.
+- The term is also a category of analysis, not all states called empires used that name.
+- "Imperium Romanum" is the Latin term, with "imperium" meaning territory. The Roman Empire is the part Rome ruled.
+
+So possible questions could be about the definition, characteristics, examples, components (center/periphery), origin of the term, etc.
+
+Let me brainstorm 10 questions:
+
+1. What is the origin of the term "Império"?
+2. What are the key characteristics of an empire?
+3. How is an empire structured in terms of control?
+4. What is the role of the center in an empire?
+5. What is the meaning of "Imperium Romanum"?
+6. What is the main difference between an empire and a kingdom?
+7. How are empires typically formed?
+8. What is the significance of the term "imperium" in Latin?
+9. What are the components of an empire's structure?
+10. What is the definition of an empire according to the context?
+
+Now, check if these are varied and cover different aspects. Each question should have a unique answer based on the context.
+
+For example:
+- Q1: Origin of "Império" is from Latin "imperium" (power, authority).
+- Q2: Key characteristics include large, non-contiguous territory, diverse people, governed by emperor/oligarchy.
+- Q3: Structured with a dominant center controlling peripheries.
+- Q4: Center (metrópole) exerts political control over peripheries.
+- Q5: "Imperium Romanum" refers to the Roman Empire's territory.
+- Q6: Empire is larger, with multiple territories, while a kingdom is a single territory.
+- Q7: Typically formed by conquest.
+- Q8: "Imperium" means territory in Latin.
+- Q9: Components are center (metrópole) and peripheries.
+- Q10: Definition as a political unit with diverse peoples under central authority.
+
+Need to ensure that each answer is directly from the context. For example, the context says "imperium" is used in the sense of "território," so answer to Q8 would be that. Also, the structure with center and peripheries is mentioned.
+
+Check for repetition. The questions should be distinct. Also, avoid technical terms from the facts, as the user might not want that. The facts are about RDF data, but the context is the main source.
+
+Now, format them as "pergunta;resposta" in CSV. Make sure no markdown, just plain text with semicolons.
+</think>
+
+Empire originates from the Latin term "imperium," meaning power or authority.;O termo "Império" deriva do latim "imperium," que significa poder ou autoridade.  
+What are the key characteristics of an empire according to the context?;Uma característica principal é ser um território amplo e não contíguo, composto por povos diversos, governado por um imperador ou oligarquia.  
+How is the structure of an empire described in the text?;A estrutura de um império é dividida entre um centro dominante (metrópole) e periferias subordinadas, criado por conquistas.  
+What role does the center play in an empire?;O centro (metrópole) exerce controle político sobre as periferias, mantendo a unidade do império.  
+What does "Imperium Romanum" refer to?;Refere-se ao território governado pelo Império Romano, com "imperium" significando "território" em latim.  
+How are empires typically formed, as described in the context?;Os impérios são formados por meio de conquistas, criando uma unidade política com centros e periferias.  
+What is the significance of the term "imperium" in Latin?;No latim, "imperium" significa "território" e é a origem do termo "Império."  
+What are the components of an empire's structure?;Os componentes incluem um centro dominante (metrópole) e periferias subordinadas, unidas por controle político.  
+According to the context, what distinguishes an empire from other political entities?;Um império é distinto por sua estrutura de centro-periferia e formação por conquistas, não apenas por tamanho territorial.  
+What is the definition of an empire provided in the text?;Um império é uma unidade política com territórios diversos, governados por um centro central, frequentemente formado por conquistas.

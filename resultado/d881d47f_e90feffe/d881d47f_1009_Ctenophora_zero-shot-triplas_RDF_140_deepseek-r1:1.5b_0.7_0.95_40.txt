@@ -1,0 +1,72 @@
+<think>
+Okay, let me try to figure out how to approach this task. The user wants me to create a CSV with 10 question-answering pairs based on the provided context and facts about Callianra (ctenophora). 
+
+First, I need to understand what information is available in the context. From the dbpedia article, I see that Callianra comes under Ctenophora, which has various subclasses like Coelenterata, Coeloplana, Vallicula, etc. So, these are different types of marine animals.
+
+I should consider each subclass as a separate category to create questions about. Since each question needs a unique answer, I can frame the questions around characteristics or behaviors specific to each subclass.
+
+Let me brainstorm some key aspects for each:
+
+1. Coelenterata: Characteristics like being eukaryotic, forming plasmids with ciliates.
+2. Coeloplana: Known for their pentagonal structures on their bodies.
+3. Vallicula: They are marine animals and have specific behaviors.
+4. Insectivorous: Some species eat insects.
+5. Tenthordiantea: Forming a single cone.
+6. Spermaophore: A common type of ciliopore.
+7. Dactylithoptera: Vertical feeding with plasmids.
+8. Acropitidae: Flatworms and specific behaviors.
+9. Pseudopodocae: Small marine creatures and their life cycles.
+10. Ctenophora hexagona: Hexagonal coelenteras.
+
+Now, I'll structure each question around these aspects. Each should have a clear answer that's relevant to the subclass.
+
+I need to ensure that each question in the CSV is a separate line with the correct separator (;). The format must be precise as per the instructions.
+
+Let me draft each one:
+
+1. Coelenterata: What defines their structure?
+   - Answer: Ctenophora species form coelentis, which resemble a single large ring of ciliates.
+
+2. Coeloplana: Known for what physical feature?
+   - Answer: Their bodies are pentagonal due to the arrangement of plasmids on the surface.
+
+3. Vallicula: What is their behavior like?
+   - Answer: These animals form a single cone, which aids in gathering food.
+
+4. Insectivorous: Which subclass includes insect-eating species?
+   - Answer: Acropitidae are known to feed on insects.
+
+5. Tenthordiantea: How do they move?
+   - Answer: They swim by forming a single cone.
+
+6. Spermaophore: What is their common example?
+   - Answer: Ctenophora hexagona is the most common spermaophore, consisting of ciliates on an eggshell.
+
+7. Dactylithoptera: What do they eat?
+   - Answer: They feed on insects and small invertebrates.
+
+8. Acropitidae: What are their characteristics?
+   - Answer: These flatworms form single-coned bodies to aid in eating and movement.
+
+9. Pseudopodocae: What is their main method of feeding?
+   - Answer: They eat small invertebrates through a process called pseudopodal feeding.
+
+10. Ctenophora hexagona: Known for which feature?
+    - Answer: Its coelentis is hexagonal, giving it an extra layer to shield from predators.
+
+I think this covers all the subclasses with clear and specific questions and answers. Each answer relates directly to a subclass's characteristics, providing a comprehensive structure.
+</think>
+
+```csv
+pergunta;resposta
+Coelenterata: Ctenophora species form coelentis, which resemble a single large ring of ciliates.
+Coeloplana: Their bodies are pentagonal due to the arrangement of plasmids on the surface.
+Vallicula: These animals form a single cone, which aids in gathering food.
+Insectivorous: Acropitidae are known to feed on insects.
+Tenthordiantea: They swim by forming a single cone.
+Spermaophore: Ctenophora hexagona is the most common spermaophore, consisting of ciliates on an eggshell.
+Dactylithoptera: They feed on insects and small invertebrates.
+Acropitidae: These flatworms form single-coned bodies to aid in eating and movement.
+Pseudopodocae: They eat small invertebrates through a process called pseudopodal feeding.
+Ctenophora hexagona: Its coelentis is hexagonal, giving it an extra layer to shield from predators.
+```

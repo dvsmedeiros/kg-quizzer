@@ -1,0 +1,11 @@
+pergunta;resposta
+O que a teoria da complexidade computacional busca entender?;As limitações inerentes à capacidade de resolver problemas computacionais.
+Qual o papel das classes de complexidade na teoria da complexidade?;Organizar problemas de acordo com a quantidade de recursos (tempo, espaço) necessários para sua resolução.
+O que define uma classe de complexidade?;Um conjunto de problemas que podem ser resolvidos por algoritmos com um limite específico de recursos computacionais.
+Qual a diferença entre problemas decidíveis e indecidíveis?;Problemas decidíveis possuem um algoritmo que sempre produz uma resposta correta em tempo finito, enquanto os indecidíveis não.
+O que representa a classe P na teoria da complexidade?;Problemas que podem ser resolvidos em tempo polinomial.
+Qual a importância da classe NP na teoria da complexidade?;Contém problemas cuja solução pode ser verificada em tempo polinomial.
+O que significa dizer que um problema está na classe NP-completo?;É o problema mais difícil em NP, e se um algoritmo polinomial for encontrado para ele, todos os problemas em NP também podem ser resolvidos em tempo polinomial.
+Qual a relação entre as classes P e NP?;Se P = NP, então todo problema cuja solução pode ser verificada em tempo polinomial também pode ser resolvido em tempo polinomial.
+O que é um algoritmo guloso (greedy algorithm)?;Um algoritmo que faz a escolha localmente ótima em cada etapa, com a esperança de encontrar uma solução globalmente ótima.
+Qual o objetivo da análise de pior caso em algoritmos?;Determinar o limite superior do tempo de execução de um algoritmo, garantindo um desempenho aceitável em todas as situações.

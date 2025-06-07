@@ -1,0 +1,35 @@
+<think>
+Okay, so I need to create a CSV with 10 question-answer pairs based on the given context about the Amazon rainforest. Let me start by reading through the context carefully.
+
+The context mentions that the Amazon covers 7 million square kilometers, with 5.5 million covered by tropical forest. It spans nine countries, mostly in Brazil (60%), followed by Peru (13%). The Amazônia Legal was defined in 1966 and covers parts of three regions: North, Northeast, and Midwest. It's one of six major Brazilian biomes. There are specific protected areas, like the Jaú National Park, recognized by UNESCO in 2000.
+
+Now, looking at the facts provided, there are various images and categories related to the rainforest, but I think the key information is already in the context.
+
+I need to generate varied questions covering different aspects. Let me list possible topics:
+1. Area covered
+2. Countries it spans
+3. Largest portion of the forest
+4. Definition of Amazônia Legal
+5. Year of UNESCO recognition
+6. Percentage coverage in Brazil and Peru
+7. Major biome status
+8. Regions included in Amazônia Legal
+9. Number of countries involved
+10. Protected areas recognized by UNESCO
+
+I should make sure each question is clear and has a single correct answer from the context.
+</think>
+
+```csv
+pergunta;resposta
+Qual é a área total da Bacia Amazônica?;7 milhões de quilômetros quadrados
+Quais são os nove países que compreendem a região amazônica?;Brasil, Peru, Colômbia, Venezuela, Equador, Bolívia, Guiana, Suriname e França (Guiana Francesa)
+Qual porcentagem da Floresta Amazônica está localizada no Brasil?;60%
+Em que ano foi criada a "Amazônia Legal"?;1966
+Quais são as três regiões brasileiras abrangidas pela "Amazônia Legal"?;Norte, Nordeste e Centro-Oeste
+Qual é o tamanho da área protegida pelo Parque Nacional do Jaú reconhecido pela UNESCO?;Seis milhões de hectares
+Qual porcentagem da Floresta Amazônica está localizada no Peru?;13%
+Quantos países fazem parte da região amazônica?;Nove
+Qual foi o ano em que a área central da bacia hidrográfica, incluindo o Parque Nacional do Jaú, foi considerada Patrimônio da Humanidade pela UNESCO?;2000
+Qual é o nome do parque nacional reconhecido pela UNESCO na Amazônia?;Parque Nacional do Jaú
+```

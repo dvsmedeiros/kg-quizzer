@@ -1,0 +1,23 @@
+Teoria_da_complexidade_computacional
+
+A teoria da complexidade computacional estuda os limites do que pode ser computado em uma máquina de modelo universal. Um problema é considerado intratável se não existir um algoritmo de tempo polinomial para resolvê-lo. A complexidade de um problema é medida pelo crescimento da quantidade de recursos (tempo ou espaço) necessários para resolvê-lo à medida que o tamanho da entrada aumenta. A notação Big O descreve o comportamento assintótico de um algoritmo.
+
+Um problema é considerado NP-completo se ele é tanto NP-reducible quanto um problema da classe NP.  NP significa "Não Decidível em Tempo Polinomial".  Um problema é NP-difícil se não existe um algoritmo de tempo polinomial para resolvê-lo, mas não necessariamente se ele é NP-completo.
+
+A prova de Cook-Levin demonstra a intratabilidade do problema do satisfator de escolares (SAT).
+
+O problema da parada (halting problem) é um problema fundamental na teoria da complexidade computacional.
+
+A complexidade logártimica é uma complexidade que cresce mais lentamente que a complexidade exponencial.
+
+A complexidade exponencial é uma complexidade que cresce exponencialmente com o tamanho da entrada.
+
+Qual é o principal foco da teoria da complexidade computacional? ;Estuda os limites do que pode ser computado em uma máquina de modelo universal
+Qual é o significado de "intratável" na teoria da complexidade computacional? ;Um problema para o qual não existe um algoritmo de tempo polinomial para resolvê-lo
+O que significa NP na teoria da complexidade computacional? ;Não Decidível em Tempo Polinomial
+O que é um problema NP-difícil? ;Um problema para o qual não existe um algoritmo de tempo polinomial para resolvê-lo, mas não necessariamente é NP-completo
+Qual problema foi usado na prova de Cook-Levin para demonstrar a intratabilidade? ;Problema do satisfator de escolares (SAT)
+Qual tipo de crescimento de complexidade é característico de um problema NP-completo? ;Exponencial
+Qual é a principal diferença entre complexidade polinomial e complexidade exponencial? ;Complexidade polinomial cresce mais lentamente que a complexidade exponencial
+O que é o problema da parada (halting problem)? ;Um problema fundamental na teoria da complexidade computacional
+Qual tipo de complexidade está associada a algoritmos que podem ser executados em tempo polinomial? ;Polinomial

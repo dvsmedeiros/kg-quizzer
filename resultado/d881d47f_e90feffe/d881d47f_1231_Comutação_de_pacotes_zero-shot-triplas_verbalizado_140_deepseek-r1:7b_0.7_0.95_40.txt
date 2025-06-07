@@ -1,0 +1,54 @@
+<think>
+Okay, let me try to figure out how to generate the 10 question and answer pairs based on the given context about packet switching. First, I need to understand what's provided.
+
+The context explains packet switching, its two models (with and without a fixed circuit), examples like ATM, Frame Relay, X.25, and others such as end-to-end connectivity with datagrams. It also mentions notable people like Sharla Boehm and Paul Baran who contributed to it, along with various categories and classifications.
+
+So, I need to create 10 questions that cover different aspects of packet switching. Each question should be clear, relate to the context, have a single correct answer derived from the info, and not repeat similar questions.
+
+Let me start brainstorming:
+
+1. **What is packet switching?**
+   - The first paragraph introduces it as individually passing packets through a network via shared links.
+   
+2. **How does packet switching differ from circuit-switched networks?**
+   - The context explains that in circuit-switched, a dedicated path is established, while in packet switching, each packet takes its own path.
+
+3. **Name an example of a protocol using packet switching with fixed circuits.**
+   - The list includes ATM (cellular), Frame Relay, and X.25.
+
+4. **What is the advantage of datagram-based packet switching?**
+   - Flexibility and robustness because packets are independent; the network can reroute as needed.
+
+5. **Which model uses a fixed virtual path for all packets?**
+   - The circuit-switched model fixes the path without parameters, like in ATM.
+
+6. **Who is known for developing packet switching at Bell Labs?**
+   - Paul Baran and Donald Davies are mentioned as contributors.
+
+7. **What does packet switching use to manage data transmission?**
+   - It uses techniques such as multiplexing over time to schedule packet transmission.
+
+8. **Provide an example of a protocol that doesn't require a fixed circuit in packet switching.**
+   - End-to-end networks like the Internet use datagrams without fixed circuits.
+
+9. **What is the primary purpose of packet switching?**
+   - Efficient resource utilization, improving bandwidth usage and reducing latency by allowing packets to take optimal paths.
+
+10. **Name an image associated with packet switching that illustrates its historical development.**
+    - There's a mention of images like X.25 Advocates.jpg from 1983 and CCITT SGVII X25 Advocates.jpg from 1974, showing historical context.
+
+I think these cover various aspects—definitions, models, examples, advantages, notable figures, techniques, and history—all based on the provided context.
+</think>
+
+```csv
+qual é a definição de en switcho de pacotes?;Individualmente passar cada pacote através da rede de computadores através de ligações de dados compartilhadas por outros nós.
+como o en switcho de circuitos differe do en switcho de pacotes?;No en switcho de circuitos, é estabelecido um caminho virtual fixo para todos os pacotes, enquanto no en switcho de pacotes, cada pacote pode seguir independente.
+qual é um exemplo de protocolo que utiliza o en switcho de pacotes com circuitos fixos?;ATM (comunicação celular), Frame Relay e X.25 são exemplos de protocols que utilizam o en switcho de pacotes com circuitos fixos.
+qual é a vantagem do en switcho de pacotes sem ligação em comparação ao en switcho de circuitos fixos?;O en switcho de pacotes sem ligação offerece maior flexibilidade e robustez, permitindo que a rede reajuste itself em caso de link falha.
+qual é o exemplo de um modelo de en switcho que utiliza um caminho virtual fixo para todos os pacotes?;O modelo de en switcho de circuitos fixos estabelece um caminho virtual fixo para todos os pacotes.
+quem é conhecido por developing o en switcho de pacotes na Bell Labs?;Sharla Boehm e Donald Davies são renomados por seu trabalho no en switcho de pacotes na Bell Labs.
+qual é a técnica principal utilizada no en switcho de pacotes para gerenciar a transmissão de dados?;O en switcho de pacotes utiliza técnicas como multiplexação temporal estatística para distribuir o tráfico de forma otimizada.
+qual é um exemplo de protocolo que não Requer um circuitos fixos em en switcho de pacotes?;O en switcho de datagramas, como os da Internet, são exemplos de protocolos que não Requerem circuitos fixos.
+qual é a principal motivated do en switcho de pacotes?;A principal motivated era a otimização da utilização da largura de banda, a minimização da latência e a melhoria da robustez na comunicação.
+qual é um exemplo de imagem associado ao histórico do en switcho de pacotes?;Imagem representativa destaca NSFN-traffic-visualization-1991.jpg que ilustra o desenvolvimento histórico do en switcho de pacotes.
+```

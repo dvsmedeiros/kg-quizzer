@@ -1,0 +1,46 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the context of computational complexity theory. The user has specified that each pair should be in Portuguese, formatted as CSV with semicolons separating the questions and answers. 
+
+First, I'll recall the key concepts in computational complexity: classes like P, NP, NP-hard, NP-complete; famous problems such as SAT, TSP, 3-SAT; time hierarchy theorem; Cook-Levin theorem; and space complexity classes like L and PSPACE.
+
+I should make sure each question covers different aspects. Let's start with definitions:
+
+1. What is the definition of class P? It includes decision problems solvable in polynomial time.
+2. What defines NP? Problems where a solution can be verified in polynomial time.
+3. What makes a problem NP-hard? If it's at least as hard as any problem in NP, even without being in NP.
+
+Next, examples of specific problems:
+
+4. Which is an NP-complete problem? SAT and 3-SAT are classic examples.
+5. Where does the TSP belong? It's also NP-hard.
+
+Theorems are important too:
+
+6. What did Cook and Levin prove? The Cook-Levin theorem that SAT is NP-complete.
+7. What does the time hierarchy theorem state? There are problems solvable in O(n^k) but not in lower exponents.
+
+Space complexity shouldn't be overlooked:
+
+8. What does L represent? Logarithmic space.
+9. Which class includes PSPACE? It's contained within EXP.
+
+Lastly, a general knowledge question about NP-hard problems and their relation to NP:
+
+10. Are all NP-hard problems also NP-complete? No, only those that are in NP and NP-hard are NP-complete.
+
+I need to ensure each question is clear, has one correct answer, and covers varied topics without repetition.
+</think>
+
+```csv
+pergunta;resposta
+Qual é a definição da classe P na teoria da complexidade computacional?;A classe P consiste nos problemas de decisão que podem ser resolvidos em tempo polinomial por uma máquina de Turing determinística.
+O que caracteriza um problema pertencente à classe NP?;Um problema pertence à classe NP se sua solução pode ser verificada em tempo polinomial.
+Qual é a condição para um problema ser considerado NP-hard?;Um problema é NP-hard se todo problema em NP pode ser reduzido a ele em tempo polinomial.
+Quais são exemplos de problemas NP-completos?;SAT e 3-SAT são exemplos clássicos de problemas NP-completos.
+O que significa dizer que um problema é NP-difícil (NP-hard)?;Significa que o problema é pelo menos tão difícil quanto os mais difíceis problemas em NP, mas pode não pertencer a NP.
+Qual teorema estabeleceu que o SAT é NP-completo?;O teorema de Cook-Levin estabeleceu que o SAT booleano é NP-completo.
+O que afirma o teorema da hierarquia do tempo?;Ele afirma que para quaisquer k > m ≥ 1, existe um problema que pode ser resolvido em O(n^k) mas não em O(n^m).
+Qual é a definição de espaço computacional?;O espaço computacional refere-se à quantidade de memória utilizada por um algoritmo durante seu funcionamento.
+Quais são as classes principais de complexidade espacial?;As classes principais incluem L (log-space), PSPACE (polynomial space) e EXPSPACE.
+Qual é a relação entre PSPACE e EXP?;Toda linguagem em PSPACE também está em EXP, mas não se sabe se a reciprocidade é verdadeira.
+```

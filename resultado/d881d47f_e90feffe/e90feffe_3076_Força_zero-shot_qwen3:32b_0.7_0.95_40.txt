@@ -1,0 +1,38 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs in CSV format based on the provided context. The context is just the word "Força" in Portuguese, which translates to "Force" in English. Hmm, that's pretty broad. I need to come up with questions that are relevant to the concept of force in physics.
+
+First, I should recall the basic definitions and properties of force. Force is a vector quantity that can cause an object with mass to change its velocity. It's measured in newtons. Newton's laws of motion are fundamental here. Also, types of forces like gravitational, frictional, etc., and maybe some examples of how forces affect motion.
+
+Let me brainstorm some questions. For example, what is the SI unit of force? Answer: newton. Then, what are the types of forces? Maybe gravitational, electromagnetic, etc. Newton's first law is about inertia, the second about F=ma, and the third about action and reaction. How force relates to acceleration. Also, real-life examples like friction or normal force.
+
+Wait, the user specified that each question must have a single correct answer, either explicit or inferable. So I need to ensure that each answer is directly related to the context given, which is "Força". Since the context is in Portuguese, the questions and answers should also be in Portuguese.
+
+Let me start listing possible questions:
+
+1. Qual é a unidade de medida da força no Sistema Internacional? Resposta: newton.
+2. Quantas leis de Newton existem? Resposta: três.
+3. Qual é a primeira lei de Newton? Resposta: lei da inércia.
+4. Qual é a fórmula da segunda lei de Newton? Resposta: F = m × a.
+5. Qual é a terceira lei de Newton? Resposta: ação e reação.
+6. Qual é o tipo de grandeza física que a força representa? Resposta: vetorial.
+7. Qual é o efeito de uma força aplicada a um objeto? Resposta: alteração do movimento (aceleração).
+8. O que é uma força normal? Resposta: força perpendicular exercida por uma superfície.
+9. Qual é o tipo de força que age entre objetos com carga elétrica? Resposta: força eletromagnética.
+10. O que é o peso de um objeto? Resposta: força gravitacional exercida por um corpo celeste.
+
+I need to check if these are all valid and cover different aspects. Units, laws, types of forces, vector quantity, effects, examples. Yes, they seem varied. Also, each answer is directly related to the context of force. The user probably expects physics-related questions since "Força" in this context likely refers to physics. They might be preparing a quiz for a physics class, so covering fundamental concepts is appropriate. I'll format them as specified, using semicolons and ensuring 10 pairs.
+</think>
+
+```csv
+pergunta;resposta
+Qual é a unidade de medida da força no Sistema Internacional?;newton
+Quantas leis de Newton existem?;três
+Qual é a primeira lei de Newton?;lei da inércia
+Qual é a fórmula da segunda lei de Newton?;F = m × a
+Qual é a terceira lei de Newton?;ação e reação
+Qual é o tipo de grandeza física que a força representa?;vetorial
+Qual é o efeito de uma força aplicada a um objeto?;alteração do movimento (aceleração)
+O que é uma força normal?;força perpendicular exercida por uma superfície
+Qual é o tipo de força que age entre objetos com carga elétrica?;força eletromagnética
+O que é o peso de um objeto?;força gravitacional exercida por um corpo celeste
+```

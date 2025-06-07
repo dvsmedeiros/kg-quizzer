@@ -1,0 +1,58 @@
+<think>
+Okay, so I need to help generate a quiz based on the information about Huguenots provided. Let me first understand what's given here.
+
+The context talks about Huguenots being French Protestants during the religious wars in France, mainly in the late 16th century. They were mostly Calvinists and part of the Reformed Church. After Louis XIV revoked the Edict of Nantes in 1685, many of them left France—about 300,000 people. The regions of Alsace, Moselle, and Montbéliard had more Lutherans from Germany.
+
+Looking at the facts provided, there's a lot about DBpedia entries, relationships between different topics, templates used on Wikipedia pages, categories they belong to, and some images linked. But for generating questions, I should focus on the key points from the context.
+
+So, potential areas to cover:
+1. Who were the Huguenots?
+2. When did they leave France in large numbers?
+3. Why did they leave? (Revocation of the Edict of Nantes)
+4. What was their religious affiliation? (Calvinists, Reformed Church)
+5. Which regions had a different Protestant background? (Alsace, Moselle, Montbéliard with Lutherans)
+6. The approximate number who left.
+7. The reign under which they were persecuted (Louis XIV).
+8. Maybe the impact or related terms like Camisards.
+
+I should make sure each question is unique and covers different aspects without repeating similar questions. Let me try to outline possible questions:
+
+1. What was the main reason Huguenots left France?
+2. When was the Edict of Nantes revoked?
+3. Which French king was responsible for their persecution?
+4. How many Huguenots left France after 1685?
+5. Which regions had German Lutheran majorities among Protestants?
+6. What were the Huguenots primarily followers of? (Calvinism)
+7. What other term is used to describe French Protestants in this context?
+8. Which regions are mentioned as having different Protestant backgrounds?
+9. How did the Catholic Church relate to the Huguenots? (Separations)
+10. What was a consequence of the revocation for the Huguenots?
+
+I need to ensure each question has one clear answer based on the context, and that the answers are correct. Also, I should vary the types of questions—some could be dates, others could be names or regions.
+
+Let me check if all these points are covered in the context:
+
+- Persecution under Louis XIV: yes.
+- Revocation date: October 18, 1685.
+- Number leaving: ~300,000.
+- Regions with Lutherans: Alsace, Moselle, Montbéliard.
+- Their religious group: Calvinists, Igreja Reformada.
+- Related terms like Camisards (from the hypernym relation in DBpedia).
+- Separations from the Catholic Church.
+
+I think these points cover enough for 10 varied questions. Now, I'll structure each as a question and answer pair, ensuring clarity and correctness.
+</think>
+
+```csv
+pergunta;resposta
+Quais foram os principais motivos que levaram os Huguenotes a deixar a França?;Perseguições religiosas e revogação do Édito de Nantes
+Em qual data foi revogado o Édito de Nantes?;18 de outubro de 1685
+Qual monarca francês é responsável pela perseguição aos Huguenotes?;Luís XIV
+Quantos Huguenotes deixaram a França após a revogação do Édito de Nantes?;Cerca de 300 000
+Quais regiões francesas tinham maioria protestante alemã?;Alsácia, Moselle e Montbéliard
+Qual era a principal doutrina religiosa dos Huguenotes?;Calvinismo
+Quais são os outros termos usados para se referir aos Huguenotes na França?;Camisards
+Quais regiões francesas são mencionadas como tendo diferentes backgrounds protestantes?;Alsácia, Moselle e Montbéliard
+Qual foi a consequência da revogação do Édito de Nantes para os Huguenotes?;Expulsão da França
+Como se relacionava a Igreja Católica com os Huguenotes na França?;Havia separações entre as duas igrejas
+```

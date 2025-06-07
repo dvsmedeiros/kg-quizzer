@@ -1,0 +1,31 @@
+<think>
+Primeiro, identifico que o usuário está pedindo uma lista de 10 pergunta-resposta para uma seção de exercícios sobre teoria da complexidade computacional. O contexto fornecido inclui informações sobre diferentes fieldes da Ciência da Computação, como algoritmos, teorias de complexidade, e Landing para machine learning.
+
+Nas instruções, o usuário explicita que os pergunta-resposta devem ser variáveis e abstrater, com umaunião de dígitos separados por vírgula. Isso quer dizer que cada pergunta deve ser única e correta, e a resposta deve ser clara e explícita.
+
+Para geração, preciso escolher diverse темas da teoria da complexidade computacional, como Tempo e armazenamento, Unidade de complexidade, Limitações práticas, Análise de algoritmos e Classificação de problemas. Isso garantirá que cada pergunta tenha uma única resposta correspondente.
+
+Em seguida, para each question, posso criar uma tarefa resolvida, como "Que medida de um problema computacional define amplamente a dificuldade inerente da solução", e a resposta ser "Se sua solução exigir recursos significativos". Isso torna cada pergunta clara e relata o contexto do usuário.
+
+Finalmente, aseguram que as 10 pergaques respostas estejam formatadas corretamente em CSV, com dígitos separados por vírgula e nomenclatura português. Apenas usar os termos técnicos da teoria da complexidade computacional para garantir a precisão das respostas.
+</think>
+
+```csv
+pergunta;resposta
+Que mede o tempo que um algoritmo take para resolver um problema; tempo de rodada
+Que determines se um problema é possível ser resolvido por um computador; possibilidade
+Que define os recursos necessários para resolver um problema; complexidade
+Que determina quantos bits precisamos reconstruir uma suave; custo
+Que mede a grandezha do circuito que calcula uma função; porte
+ Que defines os limites de performance dos computadores; limites
+ que mede o tempo unitario em que um algoritmo resoluza um problema de base; tempo
+ que determina a complexidade da sequência de operações necessárias para resolver
+um problema;complexidade
+que mede o volume de recursos necessários para resolver um problema; resolução
+que combina aspects da teoria da complexidade computacional e da computabilidade; complexities
+que classifica os problemas em classes de complexidade; clara
+ que analisam os requisitos de recursos de um algoritmo isolado, fonte e target; algorítmos
+ que combina a resolução de problemas em funções e o cálculo de parâmetros; teoria
+ que determina quantas opções existem para resolver um problema; opções
+que analisam as características descrebidas no problema; características
+```

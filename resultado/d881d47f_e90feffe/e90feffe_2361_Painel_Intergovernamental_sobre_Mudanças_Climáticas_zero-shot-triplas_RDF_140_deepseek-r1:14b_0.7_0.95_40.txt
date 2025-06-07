@@ -1,0 +1,76 @@
+<think>
+Okay, so I've got this task to generate quiz questions based on some given content about the IPCC. Let me first understand what's required here.
+
+The user wants exactly 10 pairs of questions and answers in CSV format. Each line should have a question followed by the correct answer, separated by a semicolon. The language is Portuguese, so I need to make sure all my questions and answers are in Portuguese correctly.
+
+Looking at the context provided, it's about the IPCC—its history, structure, functions, notable people, reports, and achievements. There's also some RDF data linking scientists to the IPCC, which might be useful for questions about members or authors.
+
+I need to make sure each question is unique and covers different aspects of the content. That means I shouldn't repeat similar questions. For example, one could ask about the purpose, another about when it was created, others about its structure, reports, Nobel Prize, etc.
+
+Let me list out possible topics:
+1. Year of creation
+2. Founder organizations
+3. Purpose/mission
+4. Notable members or authors
+5. Number of main reports produced
+6. Headquarters location
+7. Prize received
+8. Functions (what it does)
+9. Key focus areas (like greenhouse gases, impacts)
+10. Current chairperson
+
+Wait, the facts section mentions several scientists linked to the IPCC. For example, Bert Bolin, Filippo Giorgi, Julia Slingo, etc. So I can create a question asking who are some members or authors of reports.
+
+Also, the context says it was created in 1988 by PNUMA and OMM. The headquarters is Geneva, Switzerland. It has produced five main reports up to 2014. Its main focus is on climate change causes, effects, risks, and solutions. It won the Nobel Peace Prize in 2007.
+
+I should structure each question to target one specific fact. For example:
+- When was the IPCC created? Answer: 1988.
+- Which organizations founded it? PNUMA and OMM.
+- What is its main purpose? Synthesize knowledge on climate change, etc.
+
+Now, I'll make sure not to repeat similar questions. Maybe vary between factual dates, names, purposes, locations, etc.
+
+Also, need to ensure each answer is correct based on the provided content. For example, the headquarters is Geneva, Switzerland.
+
+I think 10 questions can cover:
+1. Year of creation
+2. Founder organizations
+3. Headquarters location
+4. Nobel Prize year
+5. Number of main reports
+6. Function (synthesizing knowledge)
+7. Name of a notable scientist linked to IPCC
+8. Purpose related to climate change issues
+9. Key focus areas (like greenhouse gases and impacts)
+10. The panel's primary goal
+
+Wait, some of these might overlap, so I need to make them distinct.
+
+Let me think again:
+
+1. Em qual ano o IPCC foi criado? 1988.
+2. Quais foram as organizações fundadoras do IPCC? PNUMA e OMM.
+3. Qual é a sede principal do IPCC? Genebra, Suíça.
+4. Em que ano o IPCC recebeu o Prêmio Nobel da Paz? 2007.
+5. Quantos relatórios principales foram produzidos pelo IPCC até 2014? Cinco.
+6. Quais são as principais funções do IPCC? Sintetizar e divulgar o conhecimento sobre mudanças climáticas, identificar causas, efeitos e riscos, sugerir soluções.
+7. Nome de um cientista notável ligado ao IPCC: Bert Bolin, Filippo Giorgi, etc.
+8. Qual é a abreviação do IPCC? IPCC.
+9. O que o IPCC não faz? Produz pesquisa original; apenas resume estudos existentes.
+10. Quais são os principais problemas abordados pelo IPCC? Aquecimento global, causas, efeitos, riscos.
+
+I think these cover a good range without repetition and each is distinct.
+</think>
+
+```csv
+Em qual ano o IPCC foi criado?;1988
+Quais foram as organizações fundadoras do IPCC?;Programa das Nações Unidas para o Meio Ambiente (PNUMA) e Organização Meteorológica Mundial (OMM)
+Qual é a sede principal do IPCC?;Genebra, Suíça
+Em que ano o IPCC recebeu o Prêmio Nobel da Paz?;2007
+Quantos relatórios principales foram produzidos pelo IPCC até 2014?;Cinco
+Quais são as principais funções do IPCC?;Sintetizar e divulgar o conhecimento sobre mudanças climáticas, identificar causas, efeitos e riscos, sugerir soluções
+Nome de um cientista notável ligado ao IPCC:;Bert Bolin
+Qual é a abreviação do IPCC?;IPCC
+O que o IPCC não faz?;Produz pesquisa original
+Quais são os principais problemas abordados pelo IPCC?;Aquecimento global, causas, efeitos, riscos
+```

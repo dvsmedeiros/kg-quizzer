@@ -1,0 +1,44 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about packet switching in computer networks. Let me start by understanding what information is available.
+
+First, from the context, I know that packet switching is a method where data packets are individually routed through a network, unlike circuit switching which sets up a dedicated connection. It's more efficient for bandwidth usage but can introduce variability in service quality due to techniques like statistical time-division multiplexing.
+
+Looking at the facts, there are several points:
+- The term "packet switching" is linked to Wikipedia templates and categories.
+- People involved include Paul Baran, W. David Sincoskie, Donald Davies, and Sharla Boehm.
+- Images related to packet switching are mentioned.
+- It's associated with various network protocols and systems.
+
+I should create varied questions covering different aspects: definitions, advantages, examples, key figures, related technologies, etc. Each question must have a single correct answer from the provided content.
+
+Let me brainstorm some potential questions:
+
+1. What is the main advantage of packet switching over circuit switching? (Optimizes bandwidth and reduces latency)
+2. Who are the notable contributors to the development of packet switching? (Paul Baran, Donald Davies, W. David Sincoskie)
+3. How many types of packet switching are mentioned in the context? (Two: connection-oriented and connectionless)
+4. What is a key feature of connectionless packet switching? (Independent routing of packets with source address included)
+5. Which Wikipedia template is used for packet switching articles? (Template:Main, Template:Citation, etc.)
+6. What image represents packet switching? ("Packet Switching.gif", "NSFNET-traffic-visualization-1991.jpg")
+7. In which category does packet switching fall under in Wikipedia? (Category:Packets (information technology), Category:Computer networking)
+8. What is the primary purpose of statistical time-division multiplexing in packet switching? (Optimizing resource use by sharing bandwidth dynamically)
+9. What are examples of connection-oriented packet switching protocols? (ATM, Frame Relay, X.25)
+10. Which URL is associated with packet switching information? ("baran-list.html")
+
+Now, I'll structure each question and ensure the answer is directly taken from the provided context or facts without adding extra information.
+
+I need to make sure that each pair is in Portuguese, formatted as CSV with a semicolon separator. Also, avoid repeating similar questions and cover different aspects of the content.
+</think>
+
+```csv
+pergunta;resposta
+Qual é a principal vantagem da comutação de pacotes em relação à comutação de circuitos?;A otimização do uso da largura de banda e a redução da latência.
+Quem são os principais contribuidores no desenvolvimento da comutação de pacotes?;Paul Baran, Donald Davies e W. David Sincoskie.
+Quantos tipos de comutação de pacotes são mencionados no contexto?;Dois: comutação com ligação e sem ligação.
+Qual é uma característica chave da comutação de pacotes sem ligação?;Os pacotes são encaminhados independentemente, incluindo o endereço de origem.
+Qual template do Wikipedia é usado para artigos sobre comutação de pacotes?;Template:Main e Template:Citation.
+Quais imagens representam a comutação de pacotes?;"Packet Switching.gif" e "NSFNET-traffic-visualization-1991.jpg".
+Em qual categoria da Wikipédia a comutação de pacotes está classificada?;Category:Packets (information technology) e Category:Computer networking.
+Qual é o propósito principal da multiplexação estatística em divisão de tempo na comutação de pacotes?;Otimizar o uso dos recursos compartilhando a largura de banda dinamicamente.
+Quais são exemplos de protocolos de comutação de pacotes com ligação?;ATM, Frame Relay e X.25.
+Qual URL está associado à informação sobre comutação de pacotes?;"baran-list.html".
+```

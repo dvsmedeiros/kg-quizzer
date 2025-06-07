@@ -1,0 +1,44 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs based on the provided list of private schools. Let me start by understanding the data. Each entry has a URI and a property like "type" or "fundingtype" with the value "Private_school". 
+
+First, I need to create questions that ask about the type of these schools. For example, "What is the type of the school located at [URI]?" The answer would be "Private_school". I should make sure to use different phrasings to avoid repetition. Maybe sometimes ask about funding type instead of type, since some entries have "fundingtype" as the property.
+
+Wait, looking at the data, some entries have "fundingtype" set to "Private_school" and others have "type". So I should include both types of questions. For example, "What is the funding type of the school at [URI]?" and "What is the type of the school at [URI]?" 
+
+I need to ensure that each question is unique. Let me check the list again. There are entries like "St. Mary's High School (Storm Lake, Iowa)" with "type" and "Sacred Heart Catholic School (Morrilton, Arkansas)" with "fundingtype". So I should create questions for both properties.
+
+Also, the user mentioned to use the URI as part of the question. Each school's URI is unique, so including that in the question will make it specific. For example, using the exact URI from the list.
+
+I should make sure that the answers are always "Private_school" regardless of the property. Now, I need to generate 10 pairs. Let me pick 10 different schools from the list. Maybe start with the first few entries and spread out the types.
+
+Wait, the user provided a list of 100 entries, but they want 10 question-answer pairs. So I can select any 10 entries. Let me check the first 10 entries to ensure variety. For example:
+
+1. Case Western Reserve University School of Law – type
+2. Oklahoma City University School of Law – type
+3. University School of the Lowcountry – type
+4. Virtual High School (Ontario) – type
+5. St. Mary's High School (Storm Lake, Iowa) – fundingtype
+6. St. Mary's Springs Academy – type
+7. Trinity High School (Dickinson, North Dakota) – type
+8. S_P_Jain School of Global Management – type
+9. St. John's College, Belize – type
+10. St. Thomas' School (New Delhi) – type
+
+Wait, but some entries might have different properties. Let me verify. For instance, "Sacred Heart Catholic School (Morrilton, Arkansas)" has "fundingtype", so that's another one. Maybe include that as well. But the user wants 10 pairs. Let me make sure each pair is unique and covers different schools.
+
+I need to structure each question with the URI and the property name, and the answer as "Private_school". Let me format them correctly. Also, ensure that the URI is correctly represented. For example, using the exact URI from the list. 
+
+Once I have the 10 pairs, I should present them in the required format, using the specified delimiters. Let me double-check that each question is unique and the answers are consistent. That's it.
+</think>
+
+**pergunta;resposta**  
+1. Qual o tipo da escola localizada em http://dbpedia.org/resource/Case_Western_Reserved_University_School_of_Law?;resposta: Private_school  
+2. Qual o tipo da escola localizada em http://dbpedia.org/resource/Oklahoma_City_University_School_of_Law?;resposta: Private_school  
+3. Qual o tipo da escola localizada em http://dbpedia.org/resource/University_School_of_the_Lowcountry?;resposta: Private_school  
+4. Qual o tipo da escola localizada em http://dbpedia.org/resource/Virtual_High_School_(Ontario)?;resposta: Private_school  
+5. Qual o tipo da escola localizada em http://dbpedia.org/resource/Sacred_Heart_Catholic_School_(Morrilton,_Arkansas)?;resposta: Private_school  
+6. Qual o tipo da escola localizada em http://dbpedia.org/resource/St._Mary's_Springs_Academy?;resposta: Private_school  
+7. Qual o tipo da escola localizada em http://dbpedia.org/resource/Trinity_High_School_(Dickinson,_North_Dakota)?;resposta: Private_school  
+8. Qual o tipo da escola localizada em http://dbpedia.org/resource/S_P_Jain_School_of_Global_Management?;resposta: Private_school  
+9. Qual o tipo da escola localizada em http://dbpedia.org/resource/St._John's_College,_Belize__St._John's_College_High_School__1?;resposta: Private_school  
+10. Qual o tipo da escola localizada em http://dbpedia.org/resource/St._Thomas'_School_(New_Delhi)?;resposta: Private_school

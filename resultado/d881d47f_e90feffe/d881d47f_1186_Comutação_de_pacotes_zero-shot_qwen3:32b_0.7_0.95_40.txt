@@ -1,0 +1,41 @@
+<think>
+Okay, let's start. The user wants me to generate 10 objective questions in CSV format based on the context "Comutação_de_pacotes". First, I need to understand what "Comutação de Pacotes" means. From my knowledge, "Comutação de Pacotes" translates to "Packet Switching" in English, which is a method used in computer networks to send data in small packets.
+
+Now, I need to create 10 question-answer pairs. Each question should be unique and cover different aspects of packet switching. Let me think about the key concepts: definition, how it works, types (like datagram and virtual circuit), advantages over circuit switching, examples of networks using it (like the internet), routing methods, fragmentation, efficiency, and comparison with other switching methods.
+
+First question: What is the main function of packet switching? Answer: Dividir dados em pacotes menores para transmissão eficiente.
+
+Second: What are the two main types of packet switching? Answer: Datagrama e circuito virtual.
+
+Third: How does packet switching differ from circuit switching? Answer: Não requer conexão prévia, transmite pacotes independentes.
+
+Fourth: What is the role of routers in packet switching? Answer: Encaminhar pacotes com base em endereços de destino.
+
+Fifth: What is fragmentation in packet switching? Answer: Dividir pacotes grandes em unidades menores para transmissão.
+
+Sixth: What is the main advantage of packet switching over circuit switching? Answer: Maior eficiência no uso da largura de banda.
+
+Seventh: Which protocol uses packet switching? Answer: TCP/IP.
+
+Eighth: What is a virtual circuit in packet switching? Answer: Caminho pré-estabelecido entre origem e destino.
+
+Ninth: What is a datagram in packet switching? Answer: Pacote com endereço completo que não requer conexão.
+
+Tenth: What is the main disadvantage of packet switching? Answer: Possível atraso devido a roteamento e congestionamento.
+
+I need to make sure each question is distinct and covers different aspects. Let me check for repetition. The first question is about the main function, second about types, third comparison, fourth routers, fifth fragmentation, sixth advantage, seventh protocol example, eighth virtual circuit, ninth datagram, tenth disadvantage. Seems varied. Answers are all correct based on packet switching concepts. Now format them into CSV with semicolons. Make sure the portuguese is correct. Avoid any extra text. Just the CSV.
+</think>
+
+```csv
+pergunta;resposta
+Qual é a principal função da comutação de pacotes em redes de computadores?;Dividir dados em pacotes menores para transmissão eficiente
+Quais são os dois principais tipos de comutação de pacotes?;Datagrama e circuito virtual
+Como a comutação de pacotes difere da comutação de circuitos?;Não requer conexão prévia, transmite pacotes independentes
+Qual é o papel dos roteadores na comutação de pacotes?;Encaminhar pacotes com base em endereços de destino
+O que é fragmentação na comutação de pacotes?;Dividir pacotes grandes em unidades menores para transmissão
+Qual é a principal vantagem da comutação de pacotes sobre a comutação de circuitos?;Maior eficiência no uso da largura de banda
+Qual protocolo utiliza a comutação de pacotes?;TCP/IP
+O que é um circuito virtual na comutação de pacotes?;Caminho pré-estabelecido entre origem e destino
+O que é um datagrama na comutação de pacotes?;Pacote com endereço completo que não requer conexão
+Qual é o principal desafio da comutação de pacotes?;Possível atraso devido a roteamento e congestionamento
+```

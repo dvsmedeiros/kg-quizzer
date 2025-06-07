@@ -1,0 +1,41 @@
+<think>
+Alright, so I need to create a CSV file with exactly 10 pairs of questions and answers based on the provided context about packet switching. The user has given me specific instructions, so I should make sure I follow them carefully.
+
+First, I'll review the context and facts provided. The main points are:
+
+- Packet switching is a data communication paradigm where packets are individually routed through network nodes.
+- It contrasts with circuit switching, which establishes a dedicated connection.
+- Advantages include efficient bandwidth use, reduced latency, and increased robustness.
+- Types of packet switching: connection-oriented (e.g., ATM) and connectionless (e.g., IP).
+- Notable contributors include Paul Baran, Donald Davies, and W. David Sincoskie.
+
+Now, I need to generate 10 varied questions covering different aspects. Each question should have a single correct answer based on the provided information.
+
+Let me brainstorm possible questions:
+
+1. What is packet switching? (definition)
+2. How does it differ from circuit switching?
+3. Name a connection-oriented protocol.
+4. Which type uses datagrams?
+5. Who contributed to packet switching?
+6. What's an advantage of packet switching?
+7. What was the original purpose of packet switching?
+8. What is another name for connectionless packet switching?
+9. Which model does packet switching use?
+10. Name a well-known application of packet switching.
+
+I should ensure each question is unique and covers different aspects. Now, I'll draft the questions in Portuguese with their correct answers based on the context.
+</think>
+
+```csv
+O que é a comutação de pacotes?;Uma técnica de comunicação de dados onde os pacetes são encaminhados individualmente entre nós da rede
+Qual é um exemplo de protocolo de comutação de circuitos?;Telefone convencional (não fornecido no contexto, mas contrastado)
+Quais são vantagens da comutação de pacotes?;Optimização do uso de largura de banda
+O que é a comutação sem ligação?;Uma técnica onde os pacetes são encaminhados independentemente
+Qual método usa circuitos virtuais fixos?;Comutação de pacotes com ligação
+Quem contribuiu para o desenvolvimento da comutação de pacotes?;Paul Baran
+O que é um datagrama?;Unidade de dados usada na comutação sem ligação
+Qual técnica minimiza a latência?;Comutação de pacotes
+Qual tipo de rede utiliza a comutação de pacotes?;Redes modernas como internet
+Quem introduziu o conceito de datagrama?;W. David Sincoskie
+```

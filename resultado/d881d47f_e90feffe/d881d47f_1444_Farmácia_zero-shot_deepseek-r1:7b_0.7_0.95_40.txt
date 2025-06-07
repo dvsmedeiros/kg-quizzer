@@ -1,0 +1,35 @@
+<think>
+Okay, I need to help the user generate a quiz with 10 question pairs based on the provided context about pharmacy. Let me break down what they're asking for.
+
+First, the user wants each pair to have one question and one correct answer in CSV format, using semicolons as separators. They also specified that I should only output the data without any extra text or explanations.
+
+The context is about pharmacy, so I'll need to think of various topics within that field. Topics might include medications, medical conditions, dosages, patient care, etc.
+
+I should make sure each question is unique and covers different aspects to provide a comprehensive quiz. Let me brainstorm some questions across these topics:
+
+1. Regarding warfarin's side effect: I know it causes thrombophiles, so that's a good first question.
+2. Insulin types: People often confuse regular andglargine. So asking which is longer-acting makes sense.
+3. Depaketanib is used for something like seizures or partial johnson syndrome.
+4. Topical corticosteroids help with acne by reducing inflammation.
+5. Insulin therapy involves blood sugar monitoring to adjust doses.
+6. Allergy symptoms include sneezing, itching, and runny nose.
+7. Hypertension can be treated with thiazide diuretics or ACE inhibitors.
+8. Over-the-counter pain relievers should have alcohol content checked by pharma.
+9. The first antibiotic used against TB was streptomycin.
+10. Ointments are applied to areas like the scalp, eyes, or genitalia.
+
+Each question targets a different area within pharmacy, ensuring variety and coverage. Now I'll format these into CSV pairs with semicolons as separators.
+</think>
+
+```csv
+qual é o efeito secundário de warfarin em pacientes?;causa trombosis no órgão Sunny
+qual é a diferença entre insulin regular e insulin glargine?;insulin glargine tem duração mais longa
+qual medicamento é Used para o Tris doctoral parcial?;Depaketan
+qual efeito de um droga topikonal sobre a cutânia?;reduzim symtrilhas
+quais medicações precisam ser monitoradas no contexto de insulina?;medicação de insulina exige monitoramento de glúteos para ajustar dose
+qual é um sintoma frequente de allergia?;sneezing
+qual é a principal causa de pressão arterial e como é tratada?;pressão arterial é tratada com diuréticos da família thiazide ou inibidores ACE
+qual medicamento OTC pode ser considerado para reduzir dor musculares?;comum de ter alcool
+quais fármacos foram utilizados historically para tr Potter?;estrangeiro estreptogramas
+qual é a aplicação principal de uma pote de álcool em farmácia?;para o capilização ou para a cicatrização
+```

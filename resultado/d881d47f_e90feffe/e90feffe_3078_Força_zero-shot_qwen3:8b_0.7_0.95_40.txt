@@ -1,0 +1,47 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs in CSV format based on the given context about "Força" (which means "Force" in Portuguese). Let me start by understanding the requirements.
+
+First, I need to make sure the questions are varied and cover different aspects of the context. Since the context is about Force, I should think about different topics related to physics, like types of forces, examples, units, effects, etc. But wait, the user mentioned the context is "Força" but didn't provide specific details. Hmm, maybe there's a missing context? Wait, looking back, the user provided the context as "Força" and then the instruction to generate questions. But without additional information, it's challenging to create specific questions. However, the user might have intended to include more context but forgot. But according to the problem statement, the context is just "Força". 
+
+Wait, maybe the user expects general knowledge about Force in physics. Since the context is "Força", which is a broad topic, I need to create questions that are relevant to the general concept of force. Let me brainstorm possible questions:
+
+1. What is the definition of force in physics?
+2. What are the units used to measure force?
+3. What are the two main types of forces?
+4. What is the formula for calculating force?
+5. What is the effect of force on an object?
+6. What is Newton's first law of motion related to?
+7. What is the difference between contact and non-contact forces?
+8. What is the gravitational force?
+9. What is the role of friction in motion?
+10. What is the SI unit of force?
+
+Now, I need to ensure each question has a correct answer based on general physics knowledge. Let me check each:
+
+1. Force is any interaction that, when unopposed, changes the motion of an object.
+2. The unit is Newton (N).
+3. Contact forces (like friction) and non-contact (like gravity).
+4. Force = mass × acceleration (F=ma).
+5. Force can cause acceleration, deformation, or change in motion.
+6. Newton's first law deals with inertia, which is resistance to changes in motion.
+7. Contact forces require physical contact, non-contact act at a distance.
+8. Gravitational force is the attraction between masses.
+9. Friction opposes motion and can cause heat.
+10. The SI unit is Newton (N).
+
+These questions are varied and cover different aspects. Now, I need to format them into CSV with semicolons. Let me make sure there are exactly 10 pairs and no extra text. Also, the user emphasized not to include any explanations or additional content. Alright, I think that's all. Let me put them in the required format.
+</think>
+
+```csv
+pergunta;resposta
+O que é força em física?;Força é uma interação que, quando não oposta, altera o movimento de um objeto
+Qual é a unidade padrão de medida de força no Sistema Internacional?;Newton (N)
+Quais são os dois principais tipos de forças?;Forças de contato e forças de ação à distância
+Qual é a fórmula para calcular a força?;Força igual à massa multiplicada pela aceleração (F = m × a)
+Qual é o efeito da força sobre um objeto?;A força pode alterar a velocidade, a direção ou a forma do objeto
+Com que lei de Newton está relacionada a inércia?;Primeira lei de Newton
+Qual é a diferença entre forças de contato e forças de ação à distância?;As forças de contato exigem contato físico, enquanto as de ação à distância atuam sem contato direto
+O que é a força gravitacional?;A força de atração entre massas, como a força que mantém os corpos na superfície terrestre
+Qual é o papel da força de atrito no movimento?;A força de atrito opõe-se ao movimento de um objeto
+Qual é a unidade de força no Sistema Internacional?;Newton (N)
+```

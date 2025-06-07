@@ -1,0 +1,11 @@
+pergunta;resposta
+O que é comutação de pacotes?;Um método de transmissão de dados onde os dados são divididos em pacotes que contêm informações de origem, destino e controle, permitindo que sejam roteados independentemente por meio da rede.
+Qual é a principal característica dos pacotes na comutação de pacotes?;Cada pacote contém um cabeçalho com informações de origem, destino e controle, permitindo que sejam roteados independentemente por meio da rede.
+Como os pacotes são reorganizados no destino final?;Os pacotes são reorganizados na ordem correta com base nas informações de sequência contidas no cabeçalho.
+Qual a vantagem da comutação de pacotes em relação à comutação por circuito?;Permite uma utilização mais eficiente dos recursos da rede, já que não exige a reserva de circuitos dedicados.
+O que define a rota dos pacotes em uma rede de comutação de pacotes?;A rota é definida dinamicamente pelos roteadores com base nas informações do cabeçalho e no estado atual da rede.
+Como a comutação de pacotes lida com pacotes perdidos ou danificados?;Os pacotes são verificados por erros, e os que apresentam problemas são retransmitidos com base em mecanismos de controle de fluxo.
+Quais protocolos comuns utilizam a comutação de pacotes?;Protocolos como TCP/IP, Ethernet e outros protocolos de rede modernos.
+Por que a comutação de pacotes pode gerar atrasos em redes congestionadas?;Porque os pacotes podem ser enfileirados em roteadores quando há alta demanda pela rede.
+Como os pacotes são entregues ao destinatário final?;Eles são entregues independentemente e reorganizados de acordo com a sequência definida no cabeçalho.
+Qual a principal diferença entre comutação de pacotes e comutação por circuito?;Na comutação de pacotes, os dados são fragmentados em pacotes independentes, enquanto na comutação por circuito é estabelecida uma conexão dedicada para a transmissão.

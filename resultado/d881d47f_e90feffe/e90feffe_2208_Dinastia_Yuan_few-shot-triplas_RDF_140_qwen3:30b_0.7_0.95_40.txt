@@ -1,0 +1,60 @@
+<think>
+Okay, let's see. The user wants me to generate 10 question-answer pairs in CSV format based on the provided context and facts about the Yuan Dynasty. The questions need to be varied, cover different aspects, and the answers must be directly from the content. No repetition, and only the CSV output.
+
+First, I'll look at the context given. The Yuan Dynasty was founded by Kublai Khan, grandson of Genghis Khan, in 1271. The facts include various resources with links to the Yuan Dynasty, like battles, people, places, and events. The examples provided have questions about the Chinese name, official name, founder, etc.
+
+I need to extract different pieces of information. Let's check the facts again. There's mention of the capital being Khanbaliq, the currency as Banknote, the dissolution year 1368, founding year 1271, the Mongolian name, the Chinese characters for the dynasty's name, and some events like the Mongol conquest of China.
+
+Possible questions could be about the founder, the year founded, the capital, the dissolution year, the official name, the Mongolian name, the Chinese name, the dynasty after Yuan, the predecessor dynasty, and maybe something about the events or territories.
+
+Wait, the examples already have some of these. Let me make sure not to repeat. For instance, the examples have "Quem começou a dinastia Yuan?" (Who started the Yuan Dynasty?), "Quando Khan declarou formalmente a dinastia Yuan?" (When Khan officially declared the Yuan Dynasty?), "Qual é o nome chinês da dinastia Yuan?" (What's the Chinese name?), "Qual é o nome oficial da dinastia Yuan?" (What's the official name?), "Quem foi o avô de Kublai Khan?" (Who was Kublai Khan's grandfather?), "Quem liderou o clã mongol Borjigin?" (Who led the Mongol Borjigin clan?), "Que dinastia veio antes do Yuan?" (What dynasty came before Yuan?), "Que dinastia veio depois do Yuan?" (What dynasty came after Yuan?), and "Em que império não chinês a dinastia Yuan conseguiu?" (In which non-Chinese empire did the Yuan Dynasty succeed?).
+
+So I need to create 10 unique ones. Let's check the facts again. The "ns1:title" has "History of Mongolia", "ns1:p" has "Dà Yuán", "Shūmì Yuàn", "dà zāi Qián Yuán", and "t" has "大元大蒙古國". The "ns1:capital" is "Shangdu" and "Khanbaliq". The "ns1:yearStart" is 1271, "dateEnd" is --09-14, "dateEvent" includes 1276-02-04, 1279-03-19, 1351. The "ns1:event" includes Battle of Xiangyang, Mongol conquest of the Song dynasty, Red Turban Rebellion. The "ns1:s" includes Ming dynasty, Northern Yuan, Phagmodrupa dynasty. The "ns3:hypernym" is "Empire".
+
+So possible questions:
+
+1. What is the Mongolian name of the Yuan Dynasty? (Answer: 大元大蒙古國)
+2. What was the capital of the Yuan Dynasty? (Shangdu and Khanbaliq)
+3. What is the Chinese name for the Yuan Dynasty? (Dà Yuán)
+4. When did the Yuan Dynasty dissolve? (1368)
+5. What event marked the end of the Yuan Dynasty? (Fall of Khanbaliq)
+6. What was the currency used during the Yuan Dynasty? (Banknote)
+7. Which dynasty came after the Yuan? (Ming)
+8. What was the name of the calendar used during the Yuan? (Time Granting Calendar)
+9. What was the main language spoken in the Yuan Dynasty? (Chinese language)
+10. What significant event occurred in 1279? (The fall of the Song dynasty)
+
+Wait, need to check if these answers are in the facts. For example, "ns1:commonLanguages" is Chinese language. "ns1:l" is "Time Granting Calendar". The "dateEvent" includes 1279-03-19, which might be the fall of the Song. The "event" includes Mongol conquest of the Song dynasty. The dissolution year is 1368. The capital is mentioned as Shangdu and Khanbaliq. The Mongolian name is in "t": 大元大蒙古國. The currency is Banknote. The dynasty after is Ming. The event "Fall of Khanbaliq" is in "eventEnd". The calendar is "Time Granting Calendar".
+
+So the 10 pairs could be:
+
+1. Qual é o nome mongol da dinastia Yuan?;大元大蒙古國
+2. Qual era a capital da dinastia Yuan?;Shangdu e Khanbaliq
+3. Qual é o nome chinês da dinastia Yuan?;Dà Yuán
+4. Em que ano a dinastia Yuan foi dissolvida?;1368
+5. Qual evento marcou o fim da dinastia Yuan?;Queda de Khanbaliq
+6. Qual era a moeda utilizada durante a dinastia Yuan?;Banknote
+7. Qual dinastia veio depois da Yuan?;Ming
+8. Qual era o nome do calendário utilizado na dinastia Yuan?;Calendário de Tempo Concedido
+9. Qual era o idioma comum durante a dinastia Yuan?;Língua chinesa
+10. Qual evento significativo ocorreu em 1279?;Queda da dinastia Song
+
+But need to make sure the answers are exactly as in the facts. For example, "ns1:l" is "Time Granting Calendar" which might be "Calendário de Tempo Concedido" in Portuguese. "ns1:commonLanguages" is "Chinese language" which would be "Língua chinesa". "event" includes "Mongol conquest of the Song dynasty" which could be "Conquista mongol da dinastia Song", but the question is about 1279, which is "1279-03-19" in dateEvent, so maybe "Queda da dinastia Song" is correct.
+
+Also, check if "Quem foi o avô de Kublai Khan?" is already in the examples, so avoid that. The user's examples have "Quem foi o avô de Kublai Khan?" answered with "Genghis Khan", so I should not repeat that.
+
+Make sure all answers are from the facts provided. The "ns1:title" has "History of Mongolia", but that's a title, not an answer. The "ns1:p" has "Dà Yuán", which is the Chinese name. The "t" has the Mongolian name. The "ns1:capital" has Shangdu and Khanbaliq. The "ns1:yearStart" is 1271, "dateEnd" is --09-14 (maybe September 14?), but the dissolution year is 1368. The "eventEnd" is "Fall of Khanbaliq". The "ns1:event" includes "Mongol conquest of the Song dynasty" and "Red Turban Rebellion". The "ns1:commonLanguages" is Chinese. The "ns1:l" is "Time Granting Calendar". The "ns1:s" includes Ming.
+
+So the 10 pairs should be based on these elements. Now, structure them into questions and answers, ensuring they are unique and based on the data.
+</think>
+
+Qual é o nome mongol da dinastia Yuan?;大元大蒙古國  
+Qual era a capital da dinastia Yuan?;Shangdu e Khanbaliq  
+Qual é o nome chinês da dinastia Yuan?;Dà Yuán  
+Em que ano a dinastia Yuan foi dissolvida?;1368  
+Qual evento marcou o fim da dinastia Yuan?;Queda de Khanbaliq  
+Qual era a moeda utilizada durante a dinastia Yuan?;Banknote  
+Qual dinastia veio depois da Yuan?;Ming  
+Qual era o nome do calendário utilizado na dinastia Yuan?;Calendário de Tempo Concedido  
+Qual era o idioma comum durante a dinastia Yuan?;Língua chinesa  
+Qual evento significativo ocorreu em 1279?;Queda da dinastia Song

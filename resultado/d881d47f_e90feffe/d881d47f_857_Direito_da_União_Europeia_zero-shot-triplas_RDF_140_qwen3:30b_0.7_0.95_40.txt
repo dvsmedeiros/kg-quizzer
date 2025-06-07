@@ -1,0 +1,40 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs in CSV format based on the provided context and facts. Let me start by understanding the requirements.
+
+First, the context talks about EU laws, their purpose, institutions, and some references to legal scholars and resources. The facts are in RDF format, mentioning things like the Common Market Law Review, Henry G. Schermers, John Bell, and some templates related to the Law of the European Union.
+
+I need to make sure each question is unique and covers different aspects of the content. Let me brainstorm possible questions. The context mentions the EU's goals, institutions, the role of the Court of Justice, and the development of EU law. The facts include academic disciplines, scholars, and resources.
+
+For example, a question about the main objective of the EU. The context says it's to "promover a paz, seus valores e o bem-estar de seus povos." So the answer would be that. Another question could be about the institutions, like the Court of Justice's role. The context states that the Court refers to the EU as "uma nova ordem jurídica de direito internacional."
+
+I need to check the facts for specific names. Henry G. Schermers and John Bell are mentioned in relation to the Law of the European Union. So a question about scholars who wrote about EU law could include their names. Also, the Common Market Law Review is a resource, so a question about that.
+
+I should avoid repeating similar questions. Let me list possible questions:
+
+1. What is the main objective of the EU according to the context?
+2. What does the Court of Justice of the EU describe the EU as?
+3. Which academic discipline is the Common Market Law Review associated with?
+4. Who is a scholar associated with the Law of the European Union?
+5. What is the name of the journal related to EU law?
+6. What are the institutions of the EU?
+7. What is the role of the EU's political institutions?
+8. What is the significance of the Court of Justice's statement?
+9. Which resource discusses the Law of the European Union?
+10. What is the purpose of the EU's legal framework?
+
+Now, I need to ensure each answer is directly from the context or facts. For example, the Court of Justice's statement is "uma nova ordem jurídica de direito internacional." The answer to question 2 would be that. The Common Market Law Review's academic discipline is Law of the European Union. The scholars mentioned are Henry G. Schermers and John Bell.
+
+I need to make sure the CSV format is correct, with semicolons and no extra text. Also, check for 10 pairs. Let me verify each question and answer against the context and facts to ensure accuracy. Avoid any markdown and just output the CSV.
+</think>
+
+pergunta;resposta
+Qual é o objetivo principal da União Europeia segundo o contexto?;promover a paz, seus valores e o bem-estar de seus povos
+O que o Tribunal de Justiça da UE define como "uma nova ordem jurídica"?;direito internacional
+Qual disciplina acadêmica está associada à revista "Common Market Law Review"?;Law of the European Union
+Quem é um acadêmico vinculado à Lei da União Europeia?;Henry G. Schermers
+Qual é o nome de uma publicação que aborda a Lei da União Europeia?;Common Market Law Review
+Quais são as instituições políticas da UE?;instituições políticas, sociais e econômicas
+Qual é o propósito das políticas da UE?;cooperar e desenvolver o humano
+O que o contexto afirma sobre a transcendência das instituições da UE?;transcendem os Estados-nação
+Qual é o significado da frase "nova ordem jurídica" mencionada pelo Tribunal de Justiça?;representa o direito internacional
+Qual recurso online é referenciado no contexto para a Lei da União Europeia?;Wikipedia

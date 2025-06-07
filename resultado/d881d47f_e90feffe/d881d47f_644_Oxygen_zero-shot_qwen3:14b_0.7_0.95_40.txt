@@ -1,0 +1,38 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs in CSV format based on the context provided, which is "Oxygen". Let me start by understanding the requirements.
+
+First, the questions and answers must be in Portuguese. The separator is a semicolon. I need to make sure each question is unique and covers different aspects of oxygen. Also, the answers must be directly from the context or inferable from it.
+
+But wait, the context given is just the word "Oxygen". That's very broad. How can I create specific questions without more information? Maybe the user expects general knowledge about oxygen. Let me think about common facts about oxygen.
+
+Oxygen is a chemical element, its symbol is O, atomic number 8. It's essential for life, part of the air we breathe, involved in combustion, found in water as H2O, etc. Also, it's a diatomic molecule (O2), supports respiration, and is used in medical settings like oxygen therapy.
+
+I need to ensure that each question is distinct and not repetitive. Let's list possible points:
+
+1. Chemical symbol of oxygen.
+2. Atomic number.
+3. Role in respiration.
+4. Diatomic molecule.
+5. Presence in water.
+6. Percentage in Earth's atmosphere.
+7. Use in medical treatments.
+8. Combustion process.
+9. Color of oxygen gas.
+10. Importance in biological processes.
+
+Now, phrasing each as a question in Portuguese. Let me check each fact to make sure it's accurate. For example, oxygen's symbol is O, atomic number 8. Yes. In the atmosphere, it's about 21% oxygen. In water, it's part of H2O. Medical use is correct. Combustion requires oxygen. Gas is colorless. Essential for cellular respiration.
+
+I need to avoid any markdown and just output the CSV. Let me structure each pair with the questions and answers accordingly. Make sure there are exactly 10 pairs and each is separated by a semicolon.
+</think>
+
+pergunta;resposta
+Qual é o símbolo químico do oxigênio?;O
+Qual é o número atômico do oxigênio?;8
+Em que forma o oxigênio existe na atmosfera terrestre?;como moléculas diatômicas (O₂)
+Qual é a porcentagem aproximada de oxigênio na atmosfera terrestre?;21%
+O oxigênio é essencial para qual processo biológico?;respiração celular
+Qual é a fórmula química da água, que contém oxigênio?;H₂O
+O oxigênio é utilizado em quais aplicações médicas?;em terapias de oxigenação
+O oxigênio é necessário para qual tipo de reação química?;combustão
+Qual é a cor do oxigênio gasoso em condições normais?;incolor
+O oxigênio forma ligações químicas com quais elementos?;com hidrogênio, carbono e outros elementos

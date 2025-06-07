@@ -1,0 +1,36 @@
+<think>
+Okay, I need to generate 10 CSV pairs based on the provided context and facts. Let me start by understanding the context. The main topic is construction in engineering and architecture, mentioning terms like construction, reforma, obra, and various companies and entities related to the construction industry.
+
+Looking at the facts, there are a lot of company names and terms associated with construction. For example, COMSA EMTE, Impresa Pizzarotti, Langdon & Seah, etc., all are part of the construction industry. There's also mention of hyperonyms like Process, and some data points like "Construction possui dado 839.1" and "Construction possui correspondência próxima 13173-4".
+
+I need to create 10 questions and answers. The questions should vary and cover different aspects. Let me list possible questions:
+
+1. Which company is part of the construction industry? (Answer: COMSA EMTE)
+2. What is the term for making changes to a property? (Answer: Reforma)
+3. Which company has Construction as its product? (Answer: COMSA EMTE)
+4. What is the hyperonym of Construction? (Answer: Process)
+5. Which company is associated with the construction industry? (Answer: Langdon & Seah)
+6. What is the term for a construction project? (Answer: Obra)
+7. Which entity uses the Construction model? (Answer: Construction)
+8. What is the term for a construction company? (Answer: Empresa de Construção)
+9. Which company is part of the construction industry? (Answer: SNC-Lavalin)
+10. What is the data associated with Construction? (Answer: 839.1)
+
+Wait, some of these might be repetitive. Need to ensure each question is unique. Let me check the facts again to find more specific details. For example, "Construction possui dado 839.1" and "Construction possui correspondência próxima 13173-4" can be used for data-related questions. Also, companies like Bechtel and Saudi Binladin Group are mentioned. Maybe include those. Also, the term "reforma" is mentioned in the context, so a question about that could be good. Let me adjust the list to ensure variety and correctness.
+
+Finalizing the 10 questions, making sure each is unique and answers are directly from the facts. Now, structure them in CSV format as specified.
+</think>
+
+```csv
+pergunta;resposta
+Qual é o termo utilizado no Brasil para referir-se a modificações em imóveis?;reforma
+Quais empresas pertencem à indústria de construção?;Langdon & Seah
+Qual é o hiperônimo de "Construction"?;Process
+Qual é o dado associado ao termo "Construction"?;839.1
+Quais empresas atuam na indústria de construção?;SNC-Lavalin
+Qual é o termo que engloba obras de infraestrutura como pontes e túneis?;obra
+Qual empresa tem "Construction" como produto?;COMSA EMTE
+Qual é a correspondência próxima associada a "Construction"?;13173-4
+Quais empresas pertencem à indústria de construção?;Saudi Binladin Group
+Qual é o modelo de página wiki utilizado por "Construction"?;Template:Wiktionary
+```

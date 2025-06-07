@@ -1,0 +1,52 @@
+<think>
+Okay, so the user wants me to create 10 pairs of questions and answers in CSV format based on the provided context and facts. Let me go through the steps carefully.
+
+First, I need to understand the requirements. The CSV should have two columns: "pergunta" (question) and "resposta" (answer), separated by semicolons. Each question must be unique, relevant to the given content, and the answer should match exactly what's provided in the context. Also, the answers should be clear and directly related to the questions.
+
+Looking at the context, it's a detailed description of Varsóvia, including its location, geography, population facts, historical events, weather details, and economic factors. I'll need to extract relevant information from this text for each question.
+
+I'll start by identifying key points in each section:
+
+- **Geography**: River, mountains, surrounding areas.
+- **History**: Events like the transfer of the capital, wars, invasions, political changes.
+- **Culture**: Industry specifics, festivals, events happening there.
+- **Weather**: Precipitation, temperature variations.
+- **Economy**: Variety of industries, key sectors for the region.
+
+Now, I'll create 10 questions covering different aspects, ensuring each has a unique answer. For example:
+
+1. What is the main river in Varsóvia?
+2. Where is Varsóvia situated geographically?
+3. When was Varsóvia transferred to Warsaw?
+4. Which mountains surround Varsóvia?
+5. What key industries are present in Varsóvia?
+6. When didWarszawa get its name from?
+7. What weather patterns can be observed in Varsóvia?
+8. Who is responsible for classifying Varsóvia as the 32nd city?
+9. Mention a specific event that happened when Varsóvia became a city.
+10. What economic sectors are prominent in Varsóvia?
+
+Next, I'll ensure each answer matches exactly what's provided in the context. For instance, the first question asks about the main river, and the response is "Vístula" as per the facts.
+
+I should avoid repetition and make sure all answers are concise and directly tied to the content. Each entry must be in the correct format with semicolons separating the columns and each pair on a new line.
+
+Finally, I'll compile all these into a CSV, ensuring there are exactly 10 entries as per the user's request.
+</think>
+
+```csv
+pergunta,resposta
+Qual é o nome da maine principal de Varsóvia?;Vístula,
+Em qual localização está a capital da Polônia?;Warszaw,
+Quanto aproxima o número total de habidos do districte de Warsaw do setiveio de fronteira exterior ao pastra?;cerca de 260 km,
+Qual é o nome da loja que fará os dias diários da Varsóvia em Warszawa?;Warszaw,
+O qual classificou Varsóvia como a 32ª cidade mais habitável do mundo?;Stanisław Mazur,
+Em qual momento Varsóvia foi classificada como a 32ª cidade mais habitável do mundo?;2012,
+Quantos pontos de verão se distribuem no districte de Warsaw?;esquisa,
+O que caracteriza o EITHER side da Opeha?;plaga,
+Qual é o nome da agência da União Europeia para a segurança das fronteiras externas?;Frontex,
+Qual industry tem mais explicação em Varsóvia?;equipe,
+Com qual indú strira maior recorde de temperatura alta no districte de Warsaw?;cerca de 29 mm,
+O que defines o nome da capital da Polônia?;Warszaw,
+A qual distância se distribue o número total de habitantes do districte de Warsaw em relação ao districte deWarszaw?;esquisa,
+Qual é a soma das population dos dois districtes相邻antes a Varsóvia?;busca,
+```

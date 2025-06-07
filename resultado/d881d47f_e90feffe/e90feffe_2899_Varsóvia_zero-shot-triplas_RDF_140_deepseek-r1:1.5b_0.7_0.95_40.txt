@@ -1,0 +1,39 @@
+<think>
+Okay, I need to help the user answer their question about 10 paired questions and responses based on the provided instructions and rules. Let me start by understanding the structure they're using.
+
+The user has given each question in the format "pergunta;resposta", with some examples like "Warsaw is the capital of Poland" corresponding to the response "the capital of its neighboring countries (Czech Republic, Hungary)". 
+
+So my task is to create 10 such questions and responses. I should think about what kind of information would fit here. Perhaps each question could be a location in Poland or related to it, and the response would be a description or fact about that place.
+
+I need to make sure each pair follows the format correctly. I'll start by brainstorming different locations in Poland or related regions. Let's see:
+
+1. Wroclaw (a major city) - the capital.
+2. Warsaw (another city, the second capital).
+3. Gniezow – a nearby town.
+4. Biały Broe – a place near Warsaw.
+5. Gliwice – another significant town.
+6. Dąbrowsków – a village.
+7. Rzym – a beautiful rural area known as "The Land of the Skiers".
+8. Kozłowa – the capital of Gdansko, which is part of Poland.
+9. Wolska – the capital of Pomerania.
+10. Katowice – a unique place with over 250 villages.
+
+Now, I'll write each question as "Pópa, qual foi o local principal da Polonia?" followed by a corresponding response describing it. I should ensure that each response is clear and accurately reflects the location mentioned in the question.
+</think>
+
+Opcionalmente, você pode gravá estas respostas com o formulário:
+
+```php
+pergunta;resposta
+Wroclaw is the capital of Poland.
+Warszawa is the capital of Poland and its neighboring countries (Czech Republic, Hungary).
+Gniezow is a nearby town in Poland.
+Biał Broe is a significant city in Poland.
+Gliwice is another important town in Poland.
+Dąbrowsków is a charming rural area known as "The Land of the Skiers".
+Kozłowa is the capital of Gdansko (Poland).
+Wolska is the capital of Pomerania.
+Katowice has over 250 villages.
+
+Per question = Pergunta, respondendo com a resposta correspondente.
+```

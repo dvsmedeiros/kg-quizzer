@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle this. The user wants 10 pairs of questions and answers in CSV format based on the provided context and facts. The key points are that the questions must be varied, cover different aspects, and the answers must be directly from the content. No repetition, and only the CSV output.
+
+First, I need to go through the context and facts to find unique points. The context mentions the Rhine's length (1,233 km), it flows from south to north, and empties into the North Sea. The facts list various things like rivers that flow into the Rhine, power plants using it, bridges, images, categories, etc.
+
+I should start by creating questions about the length, direction, mouth, countries it flows through, notable features like bridges, power plants, and maybe some specific facts from the data. Let me check the facts again for unique info.
+
+For example, there's a mention of the Rhine's source at Tomasee, Surselva, Switzerland. Also, the Rhine is part of the Rhine-Meuse-Scheldt delta. There are several bridges like Kennedy Bridge, Deutz Suspension Bridge, etc. Power plants like Biblis and Philippsburg use the Rhine for cooling. Also, it's a border river between several countries.
+
+I need to ensure each question is distinct. Let's list possible questions:
+
+1. How long is the Rhine? (Answer: 1,233 km)
+2. Where does the Rhine empty? (Answer: North Sea)
+3. What is the Rhine's direction? (Answer: South to north)
+4. Which countries does the Rhine flow through? (Answer: Germany, Switzerland, France, Netherlands, etc.)
+5. What is the Rhine's source? (Answer: Tomasee, Surselva, Switzerland)
+6. What is the Rhine's delta called? (Answer: Rhine-Meuse-Scheldt)
+7. Which bridges cross the Rhine? (Answer: Kennedy Bridge, Deutz Suspension Bridge, etc.)
+8. What power plants use the Rhine for cooling? (Answer: Biblis, Philippsburg)
+9. What is the Rhine's role in the Netherlands? (Answer: Longest river)
+10. What categories is the Rhine part of? (Answer: Border rivers, international rivers, etc.)
+
+Now, check if these answers are in the context or facts. The context says it's 1,233 km, flows from south to north, empties into North Sea, and the delta is Rhine-Meuse-Scheldt. The facts mention the source as Tomasee, and the Netherlands' longest river. Bridges and power plants are listed. Categories like Border rivers, international rivers, etc., are in the facts.
+
+Make sure each question is unique and answers are directly from the data. Avoid repeating similar questions. For example, don't ask about length twice. Also, ensure the answers are precise. For example, the source is Tomasee, not just Switzerland.
+
+Now, format them into CSV. Each line is "pergunta;resposta". No markdown, just plain text. Check for 10 pairs. Let me count:
+
+1. How long is the Rhine?;1 233 km
+2. Where does the Rhine empty?;mar do Norte
+3. What is the Rhine's direction?;de sul a norte
+4. Which countries does the Rhine flow through?;Alemanha, Suíça, França, Países Baixos, etc.
+5. What is the Rhine's source?;Tomasee, Surselva, Grússia, Suíça
+6. What is the Rhine's delta called?;delta do Reno–Mosa–Escalda
+7. Which bridges cross the Rhine?;Ponte Kennedy (Bonn), Ponte Deutz, etc.
+8. What power plants use the Rhine for cooling?;Biblis Nuclear Power Plant, Philippsburg Nuclear Power Plant
+9. What is the Rhine's role in the Netherlands?;rio mais longo
+10. What categories is the Rhine part of?;Rios de fronteira, Rios internacionais, etc.
+
+Check if answers are in the facts. Yes, the source is mentioned in the facts. The delta is in the context. Bridges and power plants are listed. The Netherlands' longest river is in the facts. Categories are also listed.
+
+Avoid any markdown, just the CSV. Make sure no extra text. Each line is separated by newlines. Double-check for 10 pairs. Looks good.
+</think>
+
+pergunta;resposta
+Qual é o comprimento do Reno?;1 233 km
+Onde o Reno deságua?;mar do Norte
+Qual é a direção do curso do Reno?;de sul a norte
+Quais países o Reno atravessa?;Alemanha, Suíça, França, Países Baixos, Bélgica
+De onde o Reno tem sua origem?;Tomasee, Surselva, Grússia, Suíça
+Qual é o nome do delta do Reno?;delta do Reno–Mosa–Escalda
+Quais pontes cruzam o Reno?;Ponte Kennedy (Bonn), Ponte Deutz, Ponte Maxau
+Quais usinas utilizam o Reno para resfriamento?;Biblis Nuclear Power Plant, Philippsburg Nuclear Power Plant
+Qual é a importância do Reno nos Países Baixos?;rio mais longo
+Quais categorias o Reno está associado?;Rios de fronteira, Rios internacionais, Rios da Alemanha

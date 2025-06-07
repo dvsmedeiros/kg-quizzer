@@ -1,0 +1,11 @@
+pergunta;resposta
+Qual é a definição da classe de complexidade P?;A classe de problemas de decisão solúveis em tempo polinomial por uma máquina de Turing determinística
+Qual é a definição da classe de complexidade NP?;A classe de problemas de decisão para os quais uma solução proposta pode ser verificada em tempo polinomial por uma máquina de Turing determinística
+O que significa dizer que um problema é NP-completo?;Significa que o problema pertence à classe NP e todo problema em NP pode ser reduzido a ele em tempo polinomial
+Qual é a relação entre as classes P e NP?;P é um subconjunto de NP, e a pergunta se P é igual a NP é um problema aberto fundamental da teoria da complexidade
+O que é uma redução polinomial?;É um método para transformar um problema em outro em tempo polinomial, mantendo a resposta (sim/não)
+Qual é o teorema de Cook-Levin?;O teorema que estabelece que o problema da satisfatibilidade booleana (SAT) é NP-completo
+O que significa dizer que um problema é NP-difícil?;Significa que todo problema em NP pode ser reduzido a ele em tempo polinomial, mas ele nem sempre precisa pertencer à classe NP
+O que é a hierarquia polinomial?;É uma generalização das classes P, NP e co-NP, organizando problemas de decisão por níveis de complexidade baseados em oráculos
+O que é a classe de complexidade PSPACE?;A classe de problemas de decisão que podem ser resolvidos utilizando uma quantidade polinomial de espaço de memória
+O que é a classe de complexidade NL?;A classe de problemas de decisão solúveis em espaço logarítmico por uma máquina de Turing não determinística

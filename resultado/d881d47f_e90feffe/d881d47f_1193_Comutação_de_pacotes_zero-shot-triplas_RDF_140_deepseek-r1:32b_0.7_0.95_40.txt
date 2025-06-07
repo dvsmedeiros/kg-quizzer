@@ -1,0 +1,47 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts about packet switching in computer networks. Let me start by understanding the content thoroughly.
+
+The context explains that packet switching is a method where data packets are individually routed through a network, which optimizes bandwidth usage, reduces latency, and increases communication robustness compared to circuit switching. It also mentions two types: connection-oriented (like ATM) and connectionless (like IP datagrams). 
+
+Looking at the facts, there are several key points:
+- Packet switching was developed by Donald Davies, Paul Baran, Sharla Boehm, and W. David Sincoskie.
+- It's part of categories like computer networking, history of the internet, and network protocols.
+
+Now, I'll brainstorm different aspects to cover in the questions to ensure variety. Possible areas include:
+1. Definition and comparison with circuit switching.
+2. Benefits of packet switching (bandwidth optimization, latency reduction).
+3. Types of packet switching (connection-oriented vs. connectionless).
+4. Examples of each type.
+5. Key figures associated with its development.
+
+I should avoid repeating similar questions and ensure each has a clear, single correct answer from the content. Let me draft some questions:
+
+1. What is packet switching? - Definition.
+2. How does it differ from circuit switching? - Contrast.
+3. What are the main benefits? - Optimization points.
+4. What types exist? - Connection-oriented and connectionless.
+5. Examples of each type: ATM, Frame Relay (connection-oriented); IP (connectionless).
+6. Who contributed to its development? - Names mentioned.
+
+I need exactly 10, so I'll think of more angles:
+7. Why is packet switching considered robust? - Because it can reroute via broken links.
+8. What does connection-oriented mean in this context? - Fixed virtual path, ordered delivery.
+9. How about connectionless? - Independent routing with source address included.
+10. In what category does packet switching fall under? - Computer networking, history of the internet.
+
+I should ensure each question is distinct and covers different aspects without overlap. Also, each answer must be directly supported by the provided information. Now, I'll structure these into the required CSV format, making sure to separate questions and answers with semicolons and keep them in Portuguese as specified.
+</think>
+
+```csv
+pergunta;resposta
+O que é a comutação de pacotes?;A comutação de pacotes é um paradigma de comunicação de dados em redes onde os pacotes são encaminhados individualmente entre nós.
+Qual é a principal diferença entre comutação de pacotes e comutação de circuitos?;A comutação de circuitos estabelece uma ligação dedicada, enquanto a de pacotes utiliza ligações compartilhadas.
+Quais são os benefícios principais da comutação de pacotes?;Optimização do uso de largura de banda e minimização da latência.
+Quais são os dois tipos de comutação de pacotes?;Conexão (circuito virtual) e sem conexão (datagrama).
+Qual é um exemplo de comutação de pacotes por conexão?;ATM, Frame Relay e X.25.
+Qual é um exemplo de comutação de pacotes sem conexão?;Endereço IP.
+Quais são os benefícios da comutação de pacotes sem conexão?;Flexibilidade e robustez superior, pois a rede pode reajustar-se em caso de falhas.
+Quem contribuiu para o desenvolvimento da comutação de pacotes?;Donald Davies, Paul Baran, Sharla Boehm e W. David Sincoskie.
+Por que a comutação de pacotes é considerada robusta?;Pode reajustar rotas em caso de falhas de links.
+Em qual categoria a comutação de pacotes se enquadra?;Categoria de redes de computadores, história da internet e protocolos de rede.
+```

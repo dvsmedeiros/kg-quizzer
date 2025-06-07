@@ -1,0 +1,11 @@
+pergunta;resposta
+Qual é a definição de comutação de pacotes?;Troca de unidades de dados independentes entre dispositivos em uma rede, onde cada pacote contém informações sobre a origem e o destino dos dados.
+Quais são os principais elementos envolvidos na comutação de pacotes?;Endereço IP (de/para), protocolo de transporte (TCP/UDP), endereço MAC (em camadas físicas).
+Como funciona a roteamento em rede de comutação de pacotes?;A rota é determinada pelo endereço IP, e cada nó na rede utiliza tabelas de roteamento para decidir por qual interface enviar o pacote.
+Quais são as vantagens da comutação de pacotes?;Escalabilidade, flexibilidade, capacidade de lidar com diferentes tipos de tráfego (dado, voz e vídeo).
+O que é a fragmentação de pacotes?;Processo de dividir um grande pacote em pacotes menores para enviar por uma rede com tamanho de pacote máximo restrito.
+Qual é o papel da camada de link na comutação de pacotes?;Responsável pelo envio e receção de pacotes entre dispositivos adjacentes, utilizando endereços MAC e protocolos de acesso à mídia.
+Como a comutação de pacotes garante a entrega confiável de dados?;Utiliza sequenciamento, controle de fluxo e reconhecimento de erros (checksum) para garantir que todos os pacotes sejam recebidos corretamente.
+Quais são as principais diferenças entre comutação de circuitos e comutação de pacotes?;A comutação de circuitos estabelece um caminho dedicado entre dois pontos, enquanto a comutação de pacotes divide os dados em pacotes independentes.
+Quais são as principais aplicações da comutação de pacotes?;Internet, redes corporativas e serviços de telecomunicação (voz sobre IP e TV em streaming).
+Qual é o protocolo de controle usado na camada de rede para gerenciar a transmissão de dados?;IP (Protocolo de Internet) com subprotocolos como TCP (Transmission Control Protocol) e UDP (User Datagram Protocol).

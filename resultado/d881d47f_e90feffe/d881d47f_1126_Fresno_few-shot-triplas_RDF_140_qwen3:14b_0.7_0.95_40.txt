@@ -1,0 +1,120 @@
+<think>
+Okay, I need to generate 10 question-answer pairs about Fresno, California based on the provided data. Let me start by reviewing the information given. 
+
+First, the data includes a lot of triples about various entities related to Fresno, like sports teams, events, people, places, and the city itself. The city's details include its area, population, demonym, etc. Also, there are examples of previous questions and answers, such as "Qual cidade é a quinta maior cidade da Califórnia?;Fresno" and "O que o nome Fresno significa em espanhol?;freixo".
+
+I should make sure that the new questions are not duplicates of the examples given. The user wants 10 pairs, so I need to come up with 10 different questions. Let me look through the data again to find other points that can be turned into questions.
+
+From the triples, I see that Fresno has a population density, area details, and it's part of certain classes in YAGO and Schema.org. There's also mention of Selland Arena, United States District Court, UFC Fight Night, etc. Also, some people associated with Fresno have birth or death places there.
+
+Possible questions could be about the population density, the area in square kilometers, the demonym, the location of Selland Arena, the significance of the name in Spanish, the year it became incorporated, the number of buses operated by Fresno Traction Company, the significance of the flag's emblem, the distance from Los Angeles, and maybe the meaning of "Fresno" in another language if possible. Wait, the example already has the Spanish meaning, so I need another angle.
+
+Wait, the user's examples include "O que o nome Fresno significa em espanhol?;freixo" and "Como você pronuncia Fresno?;(/ ˈfrɛznoʊ / FREZ-noh)". So maybe other aspects: the population density, the total area, the location of specific landmarks, the year incorporated, the number of buses, the court, the UFC event, the district court location, the demonym, the map caption. Also, the area in square miles versus kilometers.
+
+Let me check the data again. The city's areaTotalKm is 300.43, areaLand is 297,304,700.0 (but that's in square meters?), and areaTotal is 300,430,000.0, which might be square meters as well. Wait, the data says "ns1:areaTotalKm "300.43"" so that's 300.43 square kilometers. The areaTotal is "300430000.0", which would be 300,430,000 square meters, which is 300.43 square kilometers (since 1 km² = 1,000,000 m²). So the total area is 300.43 square kilometers.
+
+The population density in km² is 1823.43 and in square miles is 4722.6. The demonym is "Fresnan". The population metro is 1,008,654. The map caption is "Location within Fresno County". The city is incorporated in 1885. The Selland Arena is located there. The United States District Court for the Eastern District of California is also located there. The UFC Fight Night event took place there. The Ferrovia do Pacífico Central established a station in 1872. The name in Spanish is "freixo" (which is the example). Pronunciation is given. The Ferrovia's station was established in 1872. The residents moved to Fresno Station for convenience of the railroad and flood concerns. The Traction Company operated 47 buses in 1931. The growth of the station was driven by the store.
+
+So possible questions:
+
+1. Qual é a densidade populacional de Fresno em km²? (1823.43)
+2. Qual é a área total de Fresno em quilômetros quadrados? (300.43)
+3. Qual é o apelido dos residentes de Fresno? (Fresnan)
+4. Em que ano Fresno se tornou uma cidade incorporada? (1885)
+5. Qual é a localização do Selland Arena? (Fresno, California)
+6. Qual é o significado do nome "Fresno" em português? (freixo) – but the example uses Spanish, so maybe not. Wait, the user's example is in Portuguese, so "freixo" is the Spanish meaning, but the question is in Portuguese. So maybe the answer is "freixo", which is the same in Portuguese. Wait, the example is in Portuguese, asking "O que o nome Fresno significa em espanhol?" with answer "freixo", which is the same in Portuguese. So maybe the user wants the same answer, but the question is in Portuguese. So that's already covered.
+
+Other possible questions:
+
+7. Qual é a densidade populacional de Fresno em milhas quadradas? (4722.6)
+8. Onde está localizado o Tribunal Distrital dos Estados Unidos para o Distrito Oriental da Califórnia? (Fresno, California)
+9. Qual evento de luta foi realizado em Fresno? (UFC Fight Night: Swanson vs. Ortega)
+10. Quantos bondes a Fresno Traction Company operava em 1931? (47 bondes) – but the example already has that as "Quantos bondes a Fresno Traction Company operava em 1931?;47 bondes"
+
+Wait, the user's examples include "Quantos bondes a Fresno Traction Company operava em 1931?;47 bondes" as an example. So I can't repeat that. So need to find other questions.
+
+Other data points: the Ferrovia do Pacífico Central established a station in 1872, which is already in the example. The residents moved to Fresno Station for convenience and flood concerns. The growth was driven by the store. The map caption is "Location within Fresno County".
+
+So maybe:
+
+11. Qual é a descrição da localização de Fresno na bandeira? (Location within Fresno County)
+12. Qual é a população metropolitana de Fresno? (1,008,654)
+13. Em que ano a Ferrovia do Pacífico Central estabeleceu uma estação em Fresno? (1872)
+14. Quais foram as razões pelas quais os moradores se mudaram para a cidade de Fresno Station? (conveniência da ferrovia e preocupações com inundações)
+15. Qual entidade desencadeou o crescimento da estação de Fresno? (loja)
+
+But some of these are already in the examples. The user's examples include "Em que ano Fresno se tornou uma cidade incorporada?;1885" and "O que é destaque na bandeira da cidade de Fresno?;folha de freixo" and "Quais foram as razões pelas quais os moradores se mudaram para a cidade de Fresno Station?;a conveniência da ferrovia e preocupados com as inundações," and "Qual entidade desencadeou o crescimento da estação de Fresno?;loja".
+
+So I need to avoid repeating those. So the remaining data points would be:
+
+- Population density in square miles (4722.6)
+- Area in square kilometers (300.43)
+- Name in Spanish (freixo) – but the example already covers that in Portuguese
+- Map caption (Location within Fresno County)
+- Population metro (1,008,654)
+- United States District Court location (Fresno, California)
+- UFC Fight Night event (UFC Fight Night: Swanson vs. Ortega)
+- Selland Arena location (Fresno, California)
+- The Ferrovia do Pacífico Central station in 1872 (example already has this)
+- The store as the entity that drove growth (example already has this)
+
+So possible new questions:
+
+1. Qual é a densidade populacional de Fresno em milhas quadradas? (4722.6)
+2. Qual é a área total de Fresno em quilômetros quadrados? (300.43)
+3. Qual é a descrição da localização mostrada na bandeira de Fresno? (Location within Fresno County)
+4. Qual é a população metropolitana de Fresno? (1,008,654)
+5. Onde está localizado o Tribunal Distrital dos Estados Unidos para o Distrito Oriental da Califórnia? (Fresno, California)
+6. Qual evento de luta foi realizado em Fresno? (UFC Fight Night: Swanson vs. Ortega)
+7. Qual é o apelido dos residentes de Fresno? (Fresnan)
+8. Qual é a densidade populacional de Fresno em quilômetros quadrados? (1823.43)
+9. Em que ano a Ferrovia do Pacífico Central estabeleceu uma estação em Fresno? (1872) – but example has this
+10. Qual é a localização do Selland Arena? (Fresno, California)
+
+Wait, some of these may overlap with examples, but I need to check. The user's examples include "O que é destaque na bandeira da cidade de Fresno?;folha de freixo" which is about the emblem, but the map caption is "Location within Fresno County". So question 3 is about the map caption, which is different from the emblem.
+
+So compiling the 10 questions:
+
+1. Qual é a densidade populacional de Fresno em km²? (1823.43)
+2. Qual é a área total de Fresno em quilômetros quadrados? (300.43)
+3. Qual é a descrição da localização mostrada na bandeira de Fresno? (Location within Fresno County)
+4. Qual é a população metropolitana de Fresno? (1,008,654)
+5. Onde está localizado o Tribunal Distrital dos Estados Unidos para o Distrito Oriental da Califórnia? (Fresno, California)
+6. Qual evento de luta foi realizado em Fresno? (UFC Fight Night: Swanson vs. Ortega)
+7. Qual é o apelido dos residentes de Fresno? (Fresnan)
+8. Qual é a densidade populacional de Fresno em milhas quadradas? (4722.6)
+9. Onde está localizado o Selland Arena? (Fresno, California)
+10. Em que ano a Ferrovia do Pacífico Central estabeleceu uma estação em Fresno? (1872) – but the example already has this as "Em que ano Fresno se tornou uma cidade incorporada?;1885" and "O que o nome Fresno significa em espanhol?;freixo" and "Quais foram as razões pelas quais os moradores se mudaram para a cidade de Fresno Station?;a conveniência da ferrovia e preocupados com as inundações," but the station establishment year is different from incorporation year. Wait, the Ferrovia's station was established in 1872, which is a different event from incorporation in 1885. So that's a valid question.
+
+So that should cover 10 unique questions without repeating the examples.
+</think>
+
+1. **Qual é a densidade populacional de Fresno em km²?**  
+   **Resposta:** 1823,43 pessoas por km².
+
+2. **Qual é a área total de Fresno em quilômetros quadrados?**  
+   **Resposta:** 300,43 km².
+
+3. **Qual é a descrição da localização mostrada na bandeira de Fresno?**  
+   **Resposta:** "Location within Fresno County" (Localização dentro do Condado de Fresno).
+
+4. **Qual é a população metropolitana de Fresno?**  
+   **Resposta:** 1.008.654 habitantes.
+
+5. **Onde está localizado o Tribunal Distrital dos Estados Unidos para o Distrito Oriental da Califórnia?**  
+   **Resposta:** Em Fresno, Califórnia.
+
+6. **Qual evento de luta foi realizado em Fresno?**  
+   **Resposta:** UFC Fight Night: Swanson vs. Ortega.
+
+7. **Qual é o apelido dos residentes de Fresno?**  
+   **Resposta:** Fresnan.
+
+8. **Qual é a densidade populacional de Fresno em milhas quadradas?**  
+   **Resposta:** 4722,6 pessoas por milha quadrada.
+
+9. **Onde está localizado o Selland Arena?**  
+   **Resposta:** Em Fresno, Califórnia.
+
+10. **Em que ano a Ferrovia do Pacífico Central estabeleceu uma estação em Fresno?**  
+    **Resposta:** Em 1872.

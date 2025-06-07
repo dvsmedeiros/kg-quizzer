@@ -1,0 +1,31 @@
+<think>
+Ok, ich muss jetzt nach dem gegebenen Context und Fakten eine CSV-Datei mit zehn Fragen und Antworten erstellen. Zunächst sehe ich, dass die Schoolen und Universitäten in verschiedenen Ländern listing sind, und einige davon sind Private Schools.
+
+Ich muss variedierte Fragen generieren, die auf verschiedene Aspekte der schools und universities touchen. So wie Art der Schule, Standort, Typ usw.
+
+Ich muss sicherstellen, dass jede Frage eine eindeutige Antwort hat und keine ähnlichen Fragen gibt. Zudem soll ich nur auf das Content basiert arbeiten, also keine eigene Wissen notwendig.
+
+Anfangs frage ich beispielsweise nach der Art der Schule, dann auch nach Standorten wie New Delhi oder Ohio. Dann binomial questions over types of schools und universities.
+
+Ich überlege, wie ich Fragen formuliere, die single-answer Antworten aufweisen. So z.B., ob es sich um eine Private School handelt.
+
+Auch Questions über spezifische Schools wie Assumption High School oder MacBook Academy.
+
+Ich überprüfe, dass alle Antworten vorhanden sind im gegebenen Faktenblatt und dass keine Antworten fehlen.
+
+Schließlich stelle ich sicher, dass die CSV-Format correct ist und nur die geforderte Daten enthält.
+</think>
+
+```csv
+Nome da Escola;Tipo de Escola
+Assumption High School (Iowa);Private
+Ufuk University;Private
+Joongdong High School;Private
+St. Thomas' School (New Delhi);Private
+Open Door Christian School (Elyria, Ohio);Private
+Ave Maria College (Melbourne, Victoria);Private
+Mount Pisgah Christian School;Private
+MIT School of Architecture and Planning;Private
+University of St. La Salle–Integrated School;Private
+Brookewood School;Private
+```

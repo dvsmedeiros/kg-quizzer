@@ -1,0 +1,84 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in Portuguese based on the given context and facts about the Yuan Dynasty. Let me start by reviewing the context and the facts provided.
+
+The context mentions that the Yuan Dynasty was founded by Kublai Khan, grandson of Genghis Khan, in 1271. The facts include various RDF triples with properties like 'combatant', 'deathPlace', 'dynasty', etc., linked to the Yuan Dynasty. 
+
+First, I need to ensure that each question is unique and covers different aspects. Let me look for different elements in the facts. For example, the founding year, the founder, the capital, the currency, the dissolution year, notable battles, emperors, and other specific details.
+
+1. The founding year is 1271, so a question about when the Yuan Dynasty was established. The answer would be 1271.
+2. The founder is Kublai Khan, so a question about who founded it. Answer: Kublai Khan.
+3. The capital is mentioned as Khanbaliq and Shangdu. Maybe ask for the capital, and the answer could be Khanbaliq.
+4. The currency is Banknote, so a question about the currency used.
+5. The dissolution year is 1368, so a question about when it ended.
+6. A notable battle where the Yuan Dynasty was a combatant, like the Battle of Lake Poyang. Question: Which battle? Answer: Battle of Lake Poyang.
+7. Another battle, maybe the Battle of Bạch Đằng. But need to check if it's listed. Yes, there's a Battle of Bạch Đằng (1288) as a combatant.
+8. The dynasty's alternative name: "Dai-ön Yeke Mongγol Ulus" or "Great Yuan State". Maybe a question about the full name.
+9. A specific emperor, like Gegeen Khan, who was part of the dynasty. Question: Who was an emperor? Answer: Gegeen Khan.
+10. The capital cities: Khanbaliq and Shangdu. Maybe ask for the capital cities.
+
+Wait, need to check the facts again. The 'capital' property has "Shangdu" and "Khanbaliq" as values. So the answer could be both, but maybe the main capital was Khanbaliq. Also, the 'eventStart' mentions Kublai's proclamation, so maybe a question about the event that marked the start.
+
+But I need to ensure each question is distinct. Let me list possible questions:
+
+1. When was the Yuan Dynasty established?
+2. Who founded the Yuan Dynasty?
+3. What was the capital of the Yuan Dynasty?
+4. What was the currency used during the Yuan Dynasty?
+5. In which year did the Yuan Dynasty end?
+6. Which battle is associated with the Yuan Dynasty's military conflicts?
+7. What was the alternative name for the Yuan Dynasty?
+8. Who was an emperor of the Yuan Dynasty?
+9. What were the main capital cities of the Yuan Dynasty?
+10. What was the name of the calendar system used during the Yuan Dynasty?
+
+Checking the facts for answers:
+
+- The 'yearStart' is 1271, so answer to Q1 is 1271.
+- Founder is Kublai Khan.
+- Capital: "Shangdu" and "Khanbaliq" (from ns1:capital). So answer could be Khanbaliq.
+- Currency: "Banknote" (ns1:currency? Wait, in the facts, there's 'ns1:commonLanguages' as Chinese, but 'currency' might be in another property. Wait, looking at the facts, there's 'ns1:commonLanguages' but not sure about currency. Wait, in the ns1 properties, I don't see 'currency' directly. Wait, maybe I need to check again. The user provided facts with various properties. Let me check the 'ns1' properties again.
+
+Looking at the facts, under 'ns1' properties, there's 'ns1:commonLanguages' as Chinese, but no explicit 'currency'. However, there's a mention of 'Yuan dynasty banknote' in the 'foaf:depiction' URLs. So maybe the currency was banknotes. So the answer for Q4 could be 'Banknote'.
+
+For dissolution year, 'dateEnd' is "--09-14", but the 'yearStart' is 1271 and 'yearEnd' might be 1368. Wait, in the 'dcterms:subject' there's a category for 1368 disestablishments. So the answer for Q5 is 1368.
+
+For battles, 'event' includes 'Mongol_conquest_of_the_Song_dynasty' and 'Red_Turban_Rebellion', but also specific battles like 'Battle_of_Xiangyang', 'Battle_of_Lake_Poyang' (from the 'event' list). So Q6 could be 'Battle of Lake Poyang'.
+
+Alternative name: 'Dà Yuán' (from ns1:p) or 'Great Yuan State' (from ns1:piccap). So Q7 could be 'Dà Yuán' or 'Great Yuan State'.
+
+Emperor: 'Gegeen Khan' is listed in the 'deputy' or 'leader'? Wait, the 'ns1:deputy' is Ahmad Fanakati, but emperors might be in the 'event' or other properties. Wait, the 'event' includes 'Mongol_conquest_of_the_Song_dynasty' and 'Red_Turban_Rebellion', but not specific emperors. However, in the 'ns1:yearLeader' is 1259, which might refer to Kublai Khan's reign. But maybe another emperor is mentioned in the 'ns1:title' or other properties. Alternatively, the 'event' includes 'Kublai's proclamation', so maybe Kublai Khan is the answer. But the user might want another emperor. Wait, in the 'ns1:title' there's 'History of Mongolia', but not sure. Alternatively, 'Gegeen Khan' is mentioned in the facts? Let me check the facts again.
+
+Looking at the 'ns1:deputy' is Ahmad Fanakati, but maybe the emperors are not directly listed. Alternatively, the 'yearLeader' is 1259, which could be Kublai Khan's start. So maybe the answer for Q8 is Kublai Khan, but that's the founder. Alternatively, maybe another emperor. If there's no specific name, perhaps use 'Kublai Khan' again, but need to check if that's allowed. The user might want different answers, so maybe another emperor. However, the facts don't list other emperors. So perhaps the answer is 'Kublai Khan' again, but that's the founder. Alternatively, maybe 'Gegeen Khan' is an emperor. Wait, the 'ns1:deputy' is Ahmad Fanakati, but that's a deputy, not an emperor. Maybe the answer for Q8 is 'Kublai Khan' again, but that's the founder. Alternatively, the 'event' includes 'Mongol_conquest_of_the_Song_dynasty' which Kublai Khan led. So maybe that's acceptable.
+
+For Q9, the capitals: 'Shangdu' and 'Khanbaliq' (from ns1:capital). So answer: Shangdu and Khanbaliq.
+
+For Q10, the calendar: 'l "Time Granting Calendar"' (ns1:l). So answer: Time Granting Calendar.
+
+Now, compiling the 10 pairs:
+
+1. Quando a dinastia Yuan foi estabelecida? 1271
+2. Quem fundou a dinastia Yuan? Kublai Khan
+3. Qual era a capital da dinastia Yuan? Khanbaliq
+4. Qual era a moeda usada durante a dinastia Yuan? Nota bancária (Banknote)
+5. Em qual ano a dinastia Yuan terminou? 1368
+6. Qual batalha está associada às conflitos militares da dinastia Yuan? Batalha de Lake Poyang
+7. Qual era o nome alternativo da dinastia Yuan? Dà Yuán
+8. Quem foi um imperador da dinastia Yuan? Kublai Khan
+9. Quais eram as principais cidades capital da dinastia Yuan? Shangdu e Khanbaliq
+10. Qual era o nome do sistema de calendário usado durante a dinastia Yuan? Calendário de Concessão de Tempo (Time Granting Calendar)
+
+I need to make sure the answers are accurate based on the facts. For example, the capital is mentioned as both Shangdu and Khanbaliq, so Q9 should include both. The 'eventStart' is "Kublai's proclamation of the dynastic name 'Great Yuan'", so Q7's answer could be "Great Yuan State" or "Dà Yuán". The 'ns1:p' has "Dà Yuán" as a value, so that's correct. The calendar is 'l "Time Granting Calendar"'.
+
+I think these should be correct. Now, translate the questions and answers into Portuguese, ensuring proper grammar and terminology.
+</think>
+
+1. Quando a dinastia Yuan foi estabelecida?;1271  
+2. Quem fundou a dinastia Yuan?;Kublai Khan  
+3. Qual era a capital da dinastia Yuan?;Khanbaliq  
+4. Qual era a moeda usada durante a dinastia Yuan?;Nota bancária  
+5. Em qual ano a dinastia Yuan terminou?;1368  
+6. Qual batalha está associada às conflitos militares da dinastia Yuan?;Batalha de Lake Poyang  
+7. Qual era o nome alternativo da dinastia Yuan?;Dà Yuán  
+8. Quem foi um imperador da dinastia Yuan?;Kublai Khan  
+9. Quais eram as principais cidades capital da dinastia Yuan?;Shangdu e Khanbaliq  
+10. Qual era o nome do sistema de calendário usado durante a dinastia Yuan?;Calendário de Concessão de Tempo

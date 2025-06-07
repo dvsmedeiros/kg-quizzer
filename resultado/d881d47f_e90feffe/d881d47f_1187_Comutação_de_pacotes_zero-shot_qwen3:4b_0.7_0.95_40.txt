@@ -1,0 +1,21 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs in CSV format based on the context provided, which is "Comutação_de_pacotes". Let me start by understanding what "Comutação_de_pacotes" refers to. From my knowledge, this is Portuguese for "Packet Switching", a key concept in computer networking.
+
+First, I need to make sure I cover different aspects of packet switching. Let me brainstorm possible topics: how packets are handled, differences between circuit-switched and packet-switched networks, the role of routers, data transmission, error handling, congestion control, the OSI model layers, advantages, and maybe some examples like the Internet.
+
+I should avoid repeating similar questions. Let me list out 10 distinct points. For example, one question could be about the main characteristic of packet switching. Another might ask about the difference between packet switching and circuit switching. Then, how routers function in packet switching, the purpose of headers, how data is divided into packets, the role of the Internet Protocol (IP), how packets are reassembled, the main advantage of packet switching, examples of packet-switched networks, and how congestion is managed.
+
+I need to ensure each question is clear and directly related to the context. The answers should be accurate and based on the knowledge of packet switching. Also, the CSV format must be strictly followed with each pair on a new line, separated by a semicolon. No markdown, just plain text. Let me check if I have 10 unique questions and their correct answers. Once that's done, I'll format them into the CSV structure as specified.
+</think>
+
+pergunta;resposta
+A comutação de pacotes é um método de transmissão de dados onde os dados são divididos em pacotes e enviados individualmente.;A comutação de pacotes envolve a divisão de dados em pacotes autônomos, cada um dos quais contém informações de endereçamento e controle, sendo transmitidos independentemente pelo rede.  
+A principal diferença entre a comutação de pacotes e a comutação de circuitos está em:;A comutação de pacotes permite a transmissão de dados em pacotes independentes, enquanto a comutação de circuitos estabelece uma conexão dedicada para a comunicação.  
+O que é um "router" em um sistema de comutação de pacotes?;Um router é um dispositivo que direciona pacotes entre redes diferentes, baseando-se no endereço de destino contido no cabeçalho do pacote.  
+Qual é a função do cabeçalho em um pacote de comutação de pacotes?;O cabeçalho contém informações como endereço de origem, endereço de destino, tamanho do pacote e controle de erros, permitindo a roteamento e a reassembly dos dados.  
+Como os dados são divididos em pacotes durante a comutação de pacotes?;Os dados são divididos em pacotes de tamanhos fixos ou variáveis, com cada pacote contendo informações de endereçamento e controle para sua transmissão.  
+Qual é o principal objetivo da comutação de pacotes em redes?;O objetivo principal é permitir a transmissão eficiente de dados entre dispositivos, aproveitando a capacidade da rede de rotear pacotes individualmente.  
+Como os pacotes são reconstituídos no destino?;Os pacotes são reconstituídos na ordem recebida, com base no número de sequência e no endereço de destino, para restaurar os dados originais.  
+Qual é a vantagem principal da comutação de pacotes em relação à comutação de circuitos?;A comutação de pacotes permite o uso eficiente da banda da rede, permitindo múltiplas conexões simultâneas e evitando desperdício de recursos.  
+O que acontece se um pacote for perdido durante a transmissão?;O protocolo de transporte detecta a perda do pacote e solicita sua retransmissão, garantindo a integridade e a entrega dos dados.  
+Quais camadas do modelo OSI são diretamente envolvidas na comutação de pacotes?;As camadas de rede (camada 3) e de transporte (camada 4) são diretamente envolvidas, com a camada de rede responsáveis pelo roteamento dos pacotes.

@@ -1,0 +1,36 @@
+<think>
+Okay, I need to help the user by generating a quiz based on the context provided. The context is "Escola," which translates to "School" in English. Since the output needs to be in Portuguese, all questions and answers should be in that language.
+
+First, I'll consider different aspects of a school to create varied questions. Let me brainstorm some topics: subjects taught, staff roles, facilities, rules, activities, hierarchy, communication tools, student groups, services, and events.
+
+For each topic, I'll formulate a question and find the correct answer from the context. For example:
+
+1. **Subjects**: What subjects are typically taught in a school? Portuguese, Mathematics, History, etc.
+2. **Staff Roles**: Who helps students with homework? Tutors.
+3. **Facilities**: Where do students eat? Cafeteria.
+4. **Rules**: When should students arrive at school? Before 7:30 AM.
+5. **Activities**: What extracurricular activities are common? Soccer, dance.
+6. **Hierarchy**: Who is the leader of a school? Principal.
+7. **Communication Tools**: How do parents communicate with teachers? Parent-teacher meetings and emails.
+8. **Student Groups**: What groups promote cultural activities? Cultural groups.
+9. **Services**: What service helps students who are late? Shuttle service.
+10. **Events**: What event is held at the end of the year? Graduation.
+
+I need to make sure each question has a single correct answer and that they cover different aspects without repetition. Also, I should avoid adding any explanations or extra content beyond the CSV format as per instructions.
+
+Now, I'll structure these into 10 pairs in CSV format with semicolon separators.
+</think>
+
+```csv
+pergunta;resposta
+Qual é o prédio principal de uma escola?;Bloco administrativo
+Quem coordena a equipe pedagógica da escola?;Coordenador pedagógico
+Onde são guardados os livros didáticos?;Biblioteca
+Qual é o objetivo principal de um Conselho Escolar?;Garantir a participação democrática na gestão da escola
+Quais profissionais compõem a equipe multidisciplinar?;Psicólogo, pedagogo e fonoaudiólogo
+O que é uma Unidade de Ensino?;Uma unidade organizacional que agrupa turmas
+Como se chama o órgão que regula o ensino no Brasil?;Ministério da Educação
+Qual diploma é concedido após concluir o ensino médio?;Certificado de conclusão do ensino médio
+O que é a Base Nacional Comum Curricular (BNCC)?;Documento que define os referenciais curriculares para todas as escolas
+Quais são as etapas da educação básica no Brasil?;Ensino fundamental, ensino médio e educação infantil
+```

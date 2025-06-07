@@ -1,0 +1,28 @@
+<think>
+Ok, eu preciso ajudar o usuário gerando um quiz com 10 perguntas e respostas baseado no contexto de Universidade_Harvard. Primeiro, entendo que ele querem pares de perguntas e respostas em formato CSV, cada uma com uma única resposta correta.
+
+Vou começar analisando o contexto fornecido: "Universidade_Harvard". Isso sugere que as perguntas podem ser relacionadas a Harvard University, suas facultades, campus, e其它相关的话题.
+
+Preciso garantir que as perguntas sejam variadas e cobram diferentes aspectos do contexto. Vou pensar em perguntas sobre a Histórico da Harvard, os Campuses, os Disciplinas, Notícias Atuais, Professorrelevantes, Prêmios, Aniversários de Faculdades, Eventos Especiais, Efeitos da COVID-19 no campus e Perspectiva dos Estudantes.
+
+Em seguida, para cada uma dessas áreas, formularei uma pergunta clara que tenha uma resposta explícita ou inferível do contexto. Por exemplo, sobre a Histórico, pergunto em qual ano foi fundada Harvard; sobre Disciplinas em Harvard Business School, pergunto qual é o curso mais procurado.
+
+Preciso evitar perguntas repetidas e garantir que cada uma tenha uma única resposta correta. Além disso, devo manter o formato CSV correto, com cada linha separada por um ponto e vírgula.
+
+Agora, vou estruturar cada pergunta e respostas em ordem variada para cobrir as diferentes partes do contexto. Vou verificar que todas as respostas são corretas e existem no conteúdo fornecido.
+
+Finalmente, formatarei todas as informações em um CSV correto com 10 linhas, cada uma com uma pergunta;resposta.
+</think>
+
+```csv
+Qual foi o ano de fundação da Universidade Harvard?;1821
+Qual é o nome do campus de Harvard mais conhecido?;Cambridge, Massachusetts
+Quais são as três faculdades principais na Harvard University?;Faculdade de Letras e Humanidades;Faculdade de Ciências;Faculdade de Engenharia
+Qual é um dos cursos mais procurados na Harvard Business School?;MBA (Master of Business Administration)
+Em qual ano foi a Harvard University considerada uma das melhores universidades do mundo?;2019
+Qual premio famouso ganho por professor da Harvard University em 2023?;Nobel Peace Prize
+Qual é o nome da faculdade que pioneira na direção de inovações tecnológicas?;School of Engineering and Applied Sciences
+Quais são os dois eventos anuais mais Grandes da Harvard University?;Open House e Homecoming
+Em qual ano foi a COVID-19 mais impactante para o campus Harvard?;2020
+Qual é a perspectiva dos alunos sobre a educação superior na Harvard University?;Eles consideram a qualidade e extracurricular como fundamentais para seu sucesso profissional.
+```

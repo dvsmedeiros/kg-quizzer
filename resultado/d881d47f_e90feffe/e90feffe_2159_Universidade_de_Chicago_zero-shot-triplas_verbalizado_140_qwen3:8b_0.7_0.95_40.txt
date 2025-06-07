@@ -1,0 +1,40 @@
+<think>
+Okay, I need to generate 10 CSV pairs based on the provided context and facts about the University of Chicago. Let me start by understanding the user's requirements. They want questions and answers that are strictly derived from the given content, with each question covering different aspects. No repetitions, and only the CSV output.
+
+First, I'll go through the context and facts to identify key points. The context mentions the University of Chicago's status as a private research university, its divisions, notable schools like Pritzker, Booth, and others. It also talks about its history, like the Chicago Pile-1, Fermi Lab, and Argonne Lab. There's info about Nobel laureates, MacArthur Fellows, and various notable alumni and faculty.
+
+Looking at the facts, there are many names of people associated with the university, such as Zilfa Estcourt, Saul K. Padover, Rose Friedman, etc. Also, there are mentions of affiliations like the Higher Learning Commission, image files, and wiki templates.
+
+Now, I need to create varied questions. Let's brainstorm:
+
+1. What is the University of Chicago known for? (Answer: Research university, notable schools, etc.)
+2. Which school is part of the University of Chicago? (Example: Booth School of Business)
+3. What was the Chicago Pile-1? (First self-sustaining nuclear reaction)
+4. Which Nobel laureates are affiliated? (98 as of 2018)
+5. What labs are associated with the university? (Fermi National Accelerator Lab, Argonne National Laboratory)
+6. Who is an alumnus of the University of Chicago? (List someone like Barack Obama, but wait, the context says the Obama Center is there, but the facts mention alumni like James Comey, etc.)
+7. What accreditation does the university have? (Higher Learning Commission)
+8. What is the university's role in the Manhattan Project? (Chicago Pile-1)
+9. Which notable alumni are associated with the university? (List a few names from the facts)
+10. What is the university's image file? (UniversityofChicagoPanoramic.jpg)
+
+Wait, I need to ensure each question is distinct and based on different aspects. Let me check the facts again for more unique points. There's also mention of the University of Chicago Press, the Obama Center, and various awards like MacArthur Grants. Also, some people have multiple affiliations (alma mater, locais de trabalho, etc.). 
+
+For example, a question about the number of Nobel laureates affiliated (98 as of 2018). Another about the number of MacArthur Fellows (34 members of the faculty and 17 alumni). Also, the university's ranking positions. 
+
+I should make sure each question is unique. Let me structure the CSV pairs now, ensuring they are all correct and based on the provided data.
+</think>
+
+```csv
+pergunta;resposta
+Qual é o nome completo da universidade mencionada no texto?;University of Chicago
+Quais são algumas das escolas profissionais da Universidade de Chicago?;Escola de Medicina Pritzker; Escola de Negócios Booth; Faculdade de Direito; Escola de Administração de Serviço Social; Escola Harris de Estudos de Políticas Públicas; Divinity School; Graham School of Continuing Liberal and Professional Studies
+Quem foi responsável pelo desenvolvimento da primeira reação nuclear autossustentável?;Departamento de física de Chicago e o Met Lab
+Quais laboratórios são administrados pela Universidade de Chicago?;Fermi National Accelerator Laboratory; Argonne National Laboratory
+Quantos ganhadores do Prêmio Nobel estavam afiliados à Universidade de Chicago em 2018?;98
+Qual é a credencial de acreditação da Universidade de Chicago?;Higher Learning Commission
+Quais são as instituições de trabalho de Yoichiro Nambu?;University of Chicago
+Quem é um ex-aluno da Universidade de Chicago mencionado no texto?;James Comey
+Qual é a imagem representativa da Universidade de Chicago?;UniversityofChicagoPanoramic.jpg
+Quais são as afiliações acadêmicas da Universidade de Chicago?;Association of American Universities
+```

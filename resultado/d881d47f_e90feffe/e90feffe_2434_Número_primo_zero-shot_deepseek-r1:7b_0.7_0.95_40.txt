@@ -1,0 +1,49 @@
+<think>
+Okay, I need to create a quiz with 10 question-answer pairs based on the context "Número_primo". Let me start by understanding what this context means. It refers to prime numbers, which are numbers greater than 1 that have no divisors other than 1 and themselves.
+
+First, I should generate different types of questions related to prime numbers. Maybe include identification of prime numbers, properties of primes, famous mathematicians associated with primes, examples of twin primes, how many primes there are, the smallest prime, evenness of primes, and some tricky or counterfactual questions.
+
+I need to make sure each question is clear and relates directly to the context without being too broad. Also, I should vary the question formats—some can be yes/no, others multiple choice with options, but since it's a CSV, they'll just have one correct answer.
+
+Let me start listing potential questions:
+
+1. What are numbers greater than 1 that have no divisors other than 1 and themselves called?
+   - This is straightforward; the answer should be prime numbers.
+
+2. Is 9 considered a prime number? I know it's divisible by 3, so this would test understanding.
+   - The correct answer is No.
+
+3. Which ancient Greek mathematician is known for his work on prime numbers and proving there are infinitely many?
+   - Euclid is the one famous for that proof.
+
+4. What do twin primes consist of? I remember they're pairs like (3,5) or (11,13).
+   - They are two primes separated by two units.
+
+5. Are there a finite number of prime numbers? Since we know there are infinite primes thanks to Euclid, the answer is No.
+
+6. What is the smallest prime number? It's 2, the only even prime.
+
+7. Are all even numbers greater than 2 not considered prime?
+   - Yes, because they're divisible by 2.
+
+8. How many prime numbers are there in total? The correct answer is infinitely many.
+
+9. Is 1 considered a prime number? No, it's not because primes have exactly two distinct positive divisors.
+   
+10. Can negative numbers be classified as prime numbers? Generally, no; primes are defined as positive integers greater than 1.
+
+I think these questions cover various aspects of prime numbers and should provide a good mix for testing knowledge on the topic.
+</think>
+
+```csv
+Número que temos mais dois divisores diferentes除了1和它本身被称为什么_;Number that has only two different divisors, besides 1 and itself, is called a prime number
+Is 9 considered a prime number?;No
+Which ancient Greek mathematician is known for his work on prime numbers and proving there are infinitely many prime numbers?;Euclid
+What do twin primes consist of?;Twin primes consist of two prime numbers separated by two units.
+Are there a finite or infinite number of prime numbers?;There are infinitely many prime numbers.
+What is the smallest prime number?;2
+Are all even numbers greater than 2 considered non-prime?;Yes
+How many prime numbers exist in total?;Infinitely many
+Is 1 considered a prime number?;No, because primes must have exactly two distinct positive divisors and 1 only has one.
+Can negative numbers be classified as prime numbers?;Generally, no. Primes are defined as positive integers greater than 1.
+```

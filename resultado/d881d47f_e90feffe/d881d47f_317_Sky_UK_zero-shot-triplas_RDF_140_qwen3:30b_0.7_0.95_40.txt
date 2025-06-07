@@ -1,0 +1,43 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers in CSV format based on the provided context and facts. First, I need to understand the context thoroughly.
+
+The context is about British Satellite Broadcasting (BSB), which was a UK-based TV company that started in 1990 and was merged into BSkyB. The facts include various RDF triples, like ownership of channels, founding dates, locations, and successors. 
+
+I need to generate questions that cover different aspects. Let's list possible points: founding year, merger date, location, successor company, founding date, channels owned, etc. But I have to ensure each question is unique and not repetitive.
+
+First question: When was BSB founded? The context says "foundingYear '1986'". So answer is 1986.
+
+Second: When was BSB merged? The "fate" field says "Merged with Sky Television plc to form BSkyB" in November 1990. So answer is November 1990.
+
+Third: Where was BSB located? The "location" includes London and England. So answer is Londres, Reino Unido.
+
+Fourth: What is the successor company? The "successor" is Sky UK. So answer is Sky UK.
+
+Fifth: What channels did BSB own? The facts mention Galaxy, Now, The Computer Channel, etc. Need to list some. But the user might expect specific names. For example, Galaxy, Now, The Movie Channel, The Power Station.
+
+Sixth: When did BSB start broadcasting? The context says "começou a transmitir em 25 de março de 1990". So answer is 25 de março de 1990.
+
+Seventh: What type of company was BSB? The classes include Company, Organisation, etc. The answer could be empresa de televisão via satélite.
+
+Eighth: What is the legal name? The foaf:name is "British Satellite Broadcasting plc". So answer is British Satellite Broadcasting plc.
+
+Ninth: What films were produced by BSB? The fact mentions "Hardware" and "Memphis Belle". So answer is Hardware e Memphis Belle.
+
+Tenth: What is the predecessor of BSkyB? The merger with Sky Television plc. So answer is Sky Television plc.
+
+Wait, need to check if all answers are directly from the context. For example, the merger date is November 1990, which is in the context. The channels are listed in the facts. The films are mentioned. The location is London and England. The founding year is 1986. The successor is Sky UK. The start date is March 25, 1990. The legal name is as given. The types of companies are in the classes. 
+
+I need to make sure each question is unique and covers different aspects. Let me check for repetition. Founding year, merger date, location, successor, channels, start date, company type, legal name, films, predecessor. That's 10. Okay, that should work. Now, format them into CSV with semicolons. Make sure no markdown, just the CSV.
+</think>
+
+pergunta;resposta
+Quando a British Satellite Broadcasting (BSB) foi fundada?;1986
+Em que mês e ano a BSB foi incorporada pela British Sky Broadcasting?;novembro de 1990
+Qual cidade era a sede da BSB?;Londres
+Qual empresa é o sucessor direto da BSB?;Sky UK
+Qual data marca o início das transmissões da BSB?;25 de março de 1990
+Que tipo de empresa a BSB era?;empresa de televisão com sede no Reino Unido
+Qual é o nome completo da BSB segundo o registro?;British Satellite Broadcasting plc
+Quais canais de televisão eram proprietários da BSB?;Galaxy, Now, The Movie Channel, The Power Station
+Quais filmes foram produzidos pela BSB?;Hardware e Memphis Belle
+Qual empresa se uniu à BSB para formar a BSkyB?;Sky Television plc

@@ -1,0 +1,40 @@
+<think>
+Vou gerar 10 pares de perguntas e respostas em formato CSV, com base no contexto e fatos fornecidos sobre comutação de pacotes em redes de computadores.
+
+Vamos analisar o conteúdo fornecido:
+
+1. Comutação de pacotes vs comutação de circuitos
+2. Vantagens da comutação de pacotes (otimização de largura de banda, minimização de latência, robustez)
+3. Desvantagens da comutação de pacotes (complexidade, variação na qualidade de serviço, jitter, atrasos)
+4. Técnicas de comutação de pacotes:
+   - Com ligação (circuito virtual): garantia de entrega, ordenada
+   - Sem ligação (datagrama): flexibilidade e robustez superiores
+
+Agora, vou criar 10 pares de perguntas e respostas distintas:
+
+```csv
+pergunta;resposta
+Qual é a principal diferença entre comutação de pacotes e comutação de circuitos?;Enquanto a comutação de circuitos estabelece uma ligação virtual dedicada durante a transmissão, a comutação de pacotes encaminha pacotes individualmente entre os nós da rede
+Qual é o objetivo principal da comutação de pacotes?;Optimizar o uso da largura de banda da rede, minimizar a latência e aumentar a robustez da comunicação
+Qual é uma desvantagem da comutação de pacotes em relação à comutação de circuitos?;A comutação de pacotes apresenta maior variação na qualidade de serviço, introduzindo jitter e atrasos
+Qual técnica de comutação de pacotes garante a entrega ordenada dos pacotes?;Comutação com ligação (circuito virtual)
+Qual técnica de comutação de pacotes oferece maior flexibilidade e robustez?;Comutação sem ligação (datagrama)
+Qual é uma vantagem da comutação de pacotes sobre a comutação de circuitos?;A comutação de pacotes utiliza melhor os recursos da rede por meio de técnicas de multiplexagem temporal estatística
+Qual paradigma de comunicação de dados estabelece uma ligação virtual entre os nós para uso dedicado durante a transmissão?;Comutação de circuitos
+Que tipo de comutação de pacotes requer que o endereço de origem seja enviado sempre com os pacotes?;Comutação sem ligação (datagrama)
+Qual é o nome da unidade de transferência de informação na comutação de pacotes?;Pacote
+Qual paradigma de comunicação de dados é mais complexo, apresentando maior variação na qualidade de serviço?;Comutação de pacotes
+```
+</think>
+
+pergunta;resposta
+Qual é a principal diferença entre comutação de pacotes e comutação de circuitos?;Enquanto a comutação de circuitos estabelece uma ligação virtual dedicada durante a transmissão, a comutação de pacotes encaminha pacotes individualmente entre os nós da rede
+Qual é o objetivo principal da comutação de pacotes?;Optimizar o uso da largura de banda da rede, minimizar a latência e aumentar a robustez da comunicação
+Qual é uma desvantagem da comutação de pacotes em relação à comutação de circuitos?;A comutação de pacotes apresenta maior variação na qualidade de serviço, introduzindo jitter e atrasos
+Qual técnica de comutação de pacotes garante a entrega ordenada dos pacotes?;Comutação com ligação (circuito virtual)
+Qual técnica de comutação de pacotes oferece maior flexibilidade e robustez?;Comutação sem ligação (datagrama)
+Qual é uma vantagem da comutação de pacotes sobre a comutação de circuitos?;A comutação de pacotes utiliza melhor os recursos da rede por meio de técnicas de multiplexagem temporal estatística
+Qual paradigma de comunicação de dados estabelece uma ligação virtual entre os nós para uso dedicado durante a transmissão?;Comutação de circuitos
+Que tipo de comutação de pacotes requer que o endereço de origem seja enviado sempre com os pacotes?;Comutação sem ligação (datagrama)
+Qual é o nome da unidade de transferência de informação na comutação de pacotes?;Pacote
+Qual paradigma de comunicação de dados é mais complexo, apresentando maior variação na qualidade de serviço?;Comutação de pacotes

@@ -1,0 +1,52 @@
+<think>
+Okay, so I need to create 10 multiple-choice questions and answers based on the context provided about the Amazon Rainforest. The user has given me some examples in Portuguese, so I should follow that format. Let me think through how to approach this.
+
+First, I'll look at the context given. It's about the Amazon Rainforest being the largest tropical rainforest, its location in South America, covering countries like Brazil, Peru, Colombia, etc., the types of vegetation such as broad-leaved trees, lianas, and epiphytes. It also mentions climate with heavy rainfall, biodiversity including jaguars, macaws, pink river dolphins, anacondas, and the presence of indigenous communities.
+
+I need to make sure each question is unique and covers different aspects: location, size, countries, vegetation, climate, animal species, indigenous people, threats like deforestation, illegal activities, and conservation efforts.
+
+Wait, in the example provided by the user, there are 10 questions. I should check if they're all covered or if I need to adjust. Let me see:
+
+Looking at the existing examples, the questions cover:
+- Largest tropical rainforest
+- Location in South America
+- Countries it covers (specifically Brazil)
+- Percentage of land in Brazil
+- Vegetation types
+- Number of plant species
+- Climate with rainfall
+- Examples of animals
+- Indigenous communities
+- Threats like deforestation and illegal activities
+
+I think that's a good spread. Now, to make sure each question is clear and has one correct answer.
+
+For example:
+1. What is the Amazon Rainforest? Answer: Largest tropical rainforest.
+2. Where is it located? South America.
+3. Which country does most of it lie in? Brazil.
+4. How much area does Brazil have? 80%.
+5. What kind of trees are there? Broad-leaved.
+6. Number of plant species? Over 40,000.
+7. Climate characteristic? Heavy rainfall.
+8. Example animals: jaguars, macaws, etc.
+9. Indigenous groups live there. Yes.
+10. Threats include deforestation and illegal activities.
+
+I should structure each as a question with the correct answer directly from the context. Each line in CSV will be "pergunta;resposta".
+
+Now, I need to make sure that all questions are unique and don't repeat similar topics. Also, ensure that each has one correct answer without ambiguity.
+</think>
+
+```csv
+Qual é o maior floresta tropical do mundo?;A Amazônia
+Em qual continente está localizada a Floresta Amazônica?; América do Sul
+Qual país abriga a maior parte da Floresta Amazônica?;Brasil
+Que porcentagem da área total do Brasil é ocupada pela Floresta Amazônica?;80%
+Quais são as principais espécies de árvores na Floresta Amazônica?;Árvores de folhas largas
+Quantas espécies de plantas existem na Floresta Amazônica?;Mais de 40.000
+Qual é a característica climática da Floresta Amazônica?;Chuvas torrenciais
+Quais são os principais animais encontrados na Floresta Amazônica?;Jaguars, araras, boto-cor-de rosa, anacondas
+Existem comunidades indígenas na Floresta Amazônica?;Sim
+Qual é uma das principais ameaças à Floresta Amazônica?;Desmatamento e atividades ilegais
+```

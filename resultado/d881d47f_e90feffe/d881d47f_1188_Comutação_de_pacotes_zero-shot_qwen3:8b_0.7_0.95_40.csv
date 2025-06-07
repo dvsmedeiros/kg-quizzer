@@ -1,0 +1,11 @@
+pergunta;resposta  
+Qual é a principal característica da comutação de pacotes?;Fragmentar os dados em pacotes e enviar cada um por caminhos independentes  
+Como a comutação de pacotes difere da comutação de circuitos?;A comutação de pacotes utiliza conexões não dedicadas, enquanto a comutação de circuitos reserva recursos para uma comunicação exclusiva  
+Quais informações são armazenadas na cabecalho de um pacote?;Endereço de origem, endereço de destino e sequência de dados  
+O que é um roteador em um ambiente de comutação de pacotes?;Dispositivo que direciona pacotes com base em tabelas de roteamento  
+Qual é a função da reagrupação de pacotes no destino?;Reconstruir a mensagem original a partir dos pacotes recebidos  
+Como a comutação de pacotes trata erros em pacotes perdidos?;Reenvia os pacotes ausentes ou descarta-os, dependendo do protocolo utilizado  
+Quais são as vantagens da comutação de pacotes em redes?;Eficiente uso de largura de banda e capacidade de escalar com tráfego variável  
+O que representa a tabela de roteamento em um roteador?;Rotas pré-definidas para direcionar pacotes para o destino correto  
+Como os switches diferem dos roteadores na comutação de pacotes?;Switches operam em camada de enlace e direcionam pacotes com base em endereços MAC, enquanto roteadores operam em camada de rede  
+Qual é a principal desvantagem da comutação de pacotes?;Possibilidade de latência e perda de pacotes em redes congestionadas

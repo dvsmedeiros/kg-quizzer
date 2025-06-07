@@ -1,0 +1,62 @@
+<think>
+Okay, I need to help the user by generating 10 true/false questions based on the provided CSV data about the University of Chicago. Each question should have a correct answer and be formatted in Portuguese.
+
+First, I'll look at each fact given:
+
+1. Ano de fundação: 1890.
+   - Possible Q: A Universidade de Chicago foi fundada em qual ano?
+   - Correct Answer: 1890
+
+2. País onde está localizada: Estados Unidos.
+   - Q: Em qual país está localizada a Universidade de Chicago?
+   - Resposta: Estados Unidos
+
+3. Cidade: Chicago.
+   - Q: Qual é a cidade onde se localiza a Universidade de Chicago?
+   - Resposta: Chicago
+
+4. Tipo de instituição: Privada.
+   - Q: A Universidade de Chicago é pública ou privada?
+   - Resposta: Privada
+
+5. Ranking mundial: 12º lugar em 2023.
+   - Q: Qual foi o ranking mundial da Universidade de Chicago em 2023?
+   - Resposta: 12º lugar
+
+6. Fundador: John D. Rockefeller.
+   - Q: Quem fundou a Universidade de Chicago?
+   - Resposta: John D. Rockefeller
+
+7. Slogan: "Where knowledge is shaped by action".
+   - Q: Qual é o slogan oficial da Universidade de Chicago?
+   - Resposta: Where knowledge is shaped by action
+
+8. Foi tema de um documentário: Our Flag Means Death.
+   - Q: A Universidade de Chicago foi tema de qual documentário?
+   - Resposta: Our Flag Means Death
+
+9. Ano de fusão com a Hyde Park College: 1892.
+   - Q: Em que ano a Universidade de Chicago se fundiu com o Hyde Park College?
+   - Resposta: 1892
+
+10. Presidente: Robert J. Zimmer.
+    - Q: Quem é o presidente atual da Universidade de Chicago?
+    - Resposta: Robert J. Zimmer
+
+I need to ensure each question is unique and covers different aspects of the university, avoiding repetition. Each should have a clear and correct answer based on the facts provided.
+
+Now, I'll structure these into CSV format, making sure each line is "pergunta;resposta" without any additional text.
+</think>
+
+```csv
+A Universidade de Chicago foi fundada em qual ano?;1890
+Em qual país está localizada a Universidade de Chicago?;Estados Unidos
+Qual é a cidade onde se localiza a Universidade de Chicago?;Chicago
+A Universidade de Chicago é pública ou privada?;Privada
+Qual foi o ranking mundial da Universidade de Chicago em 2023?;12º lugar
+Quem fundou a Universidade de Chicago?;John D. Rockefeller
+Qual é o slogan oficial da Universidade de Chicago?;"Where knowledge is shaped by action"
+A Universidade de Chicago foi tema de qual documentário?;Our Flag Means Death
+Em que ano a Universidade de Chicago se fundiu com o Hyde Park College?;1892
+Quem é o presidente atual da Universidade de Chicago?;Robert J. Zimmer
+```

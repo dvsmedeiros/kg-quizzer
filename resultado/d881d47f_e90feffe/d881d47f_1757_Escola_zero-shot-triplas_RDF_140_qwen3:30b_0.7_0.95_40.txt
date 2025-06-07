@@ -1,0 +1,84 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided data. Let me start by understanding the data structure. Each line has a resource URI followed by a predicate and an object, which is "http://dbpedia.org/resource/Private_school". The task is to create questions and answers where the question is about the type of the school and the answer is "Private school".
+
+First, I'll look at the list of schools. Each entry has a name like "St. Andrew's Episcopal School (Maryland)" and a predicate like "schooltype" or "fundingtype". The object is always "Private school". So, the questions should ask about the type of each school, and the answer is "Private school".
+
+I need to make sure each question is phrased differently. For example, "What type of school is [Name]?" or "What is the school type of [Name]?" or "Is [Name] a private school?" but since the answer is always "Private school", maybe the questions should be structured to ask for the type.
+
+But wait, the user example shows the answer as "Private school" and the question as "What type of school is [Name]?" So I can follow that structure.
+
+Now, I need to pick 10 different entries from the list. Let me scan through the list and select 10 unique school names.
+
+1. St. Andrew's Episcopal School (Maryland)
+2. St. Joseph College–Olongapo
+3. St. Mary's High School (Storm Lake, Iowa)
+4. St. Thomas' School (New Delhi)
+5. The British School Yangon
+6. Trinity High School (Dickinson, North Dakota)
+7. University School of the Lowcountry
+8. Xavier College Preparatory (Arizona)
+9. Xavier High School (New York City)
+10. St. Mary of the Sea College, Corunna
+
+Wait, some entries have the same name but different locations. For example, "St. Mary's High School (Storm Lake, Iowa)" and "St. Mary's Springs Academy" but the latter is different. Need to ensure each school is unique.
+
+Let me check the list again:
+
+- St. Andrew's Episcopal School (Maryland)
+- St. Joseph College–Olongapo
+- St. Mary's High School (Storm Lake, Iowa)
+- St. Thomas' School (New Delhi)
+- The British School Yangon
+- Trinity High School (Dickinson, North Dakota)
+- University School of the Lowcountry
+- Xavier College Preparatory (Arizona)
+- Xavier High School (New York City)
+- St. Mary of the Sea College, Corunna
+
+That's 10. Now, form the questions:
+
+1. What type of school is St. Andrew's Episcopal School (Maryland)?
+2. What is the school type of St. Joseph College–Olongapo?
+3. What type of school is St. Mary's High School (Storm Lake, Iowa)?
+4. What type of school is St. Thomas' School (New Delhi)?
+5. What type of school is The British School Yangon?
+6. What type of school is Trinity High School (Dickinson, North Dakota)?
+7. What type of school is University School of the Lowcountry?
+8. What type of school is Xavier College Preparatory (Arizona)?
+9. What type of school is Xavier High School (New York City)?
+10. What type of school is St. Mary of the Sea College, Corunna?
+
+Each answer will be "Private school". I need to check if the predicates in the data are consistent. For example, some entries have "schooltype" and others "fundingtype", but the object is always "Private school". So regardless of the predicate, the answer is the same. Therefore, the questions should be phrased as asking for the school type, and the answer is "Private school".
+
+I think this covers the requirements. Now, format them as per the user's example.
+</think>
+
+1. **Pergunta:** O que é a St. Andrew's Episcopal School (Maryland)?  
+   **Resposta:** Escola privada.  
+
+2. **Pergunta:** Qual é o tipo de escola da St. Joseph College–Olongapo?  
+   **Resposta:** Escola privada.  
+
+3. **Pergunta:** Qual tipo de escola é a St. Mary's High School (Storm Lake, Iowa)?  
+   **Resposta:** Escola privada.  
+
+4. **Pergunta:** Qual é o tipo da St. Thomas' School (New Delhi)?  
+   **Resposta:** Escola privada.  
+
+5. **Pergunta:** O que é a The British School Yangon?  
+   **Resposta:** Escola privada.  
+
+6. **Pergunta:** Qual é o tipo de escola da Trinity High School (Dickinson, North Dakota)?  
+   **Resposta:** Escola privada.  
+
+7. **Pergunta:** Qual tipo de escola é a University School of the Lowcountry?  
+   **Resposta:** Escola privada.  
+
+8. **Pergunta:** O que é a Xavier College Preparatory (Arizona)?  
+   **Resposta:** Escola privada.  
+
+9. **Pergunta:** Qual é o tipo da Xavier High School (New York City)?  
+   **Resposta:** Escola privada.  
+
+10. **Pergunta:** Qual tipo de escola é a St. Mary of the Sea College, Corunna?  
+    **Resposta:** Escola privada.

@@ -1,0 +1,33 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers in CSV format based on the provided context and facts. First, I need to parse the context and facts thoroughly.
+
+The context gives an overview of Warsaw, including its history, population, industries, and cultural aspects. The facts list various people, places, events, and statistics related to Warsaw. Each fact is a separate entry, some indicating birth or death places, locations of buildings, events, and even some statistics like precipitation and temperature.
+
+I need to ensure the questions are varied and cover different aspects. Let's start with the historical facts. For example, the relocation of the capital to Warsaw in 1569 by Sigismund III. Then, the nickname "Phoenix City" due to its reconstruction after WWII. Also, the UNESCO World Heritage status in 1980 for the Historic Centre.
+
+Next, the facts about people born or died in Warsaw. For instance, Stanisław Mazur, Władysław Zieliński, Zygmunt Chmielewski, etc. Each of these could be a question asking about their birth or death place. But I need to avoid repeating similar questions. Maybe pick a few key names and ensure each question is unique.
+
+Then, locations of specific buildings or places: Sigismund's Column, Kazanowski Palace, Stadion Dziesięciolecia, etc. Events like the Warsaw Uprising in 1944, the Levant of the Warsaw Ghetto in 1943. Also, the statistics: precipitation, temperature records, humidity, etc.
+
+I need to make sure each question is distinct and not overlapping. For example, instead of asking about multiple people born in Warsaw, maybe focus on different aspects like birthplaces, death places, locations of famous landmarks, historical events, and statistical data.
+
+Also, check for any specific numbers or titles mentioned in the context, like the population in 2012, the ranking as the 32nd most livable city, etc. Including these would add variety.
+
+Now, compiling the questions. Let's start with the historical relocation of the capital, the nickname "Phoenix City," UNESCO status, population in 2012, the Levant of the Warsaw Ghetto, the location of Sigismund's Column, the birthplace of someone like Stanisław Mazur, the location of Kazanowski Palace, the 1944 uprising, and the precipitation data.
+
+Each of these should have a clear answer from the context or facts. Need to ensure that all answers are directly inferable and not requiring external knowledge. Also, avoid repeating the same type of question, like not having too many about birthplaces unless they are from different individuals with unique facts.
+
+Finally, structure the CSV properly with semicolons and no markdown. Double-check for any typos or formatting issues.
+</think>
+
+pergunta;resposta
+Qual é a capital e a maior cidade da Polônia?;Varsóvia
+Em que ano o rei Sigismundo III transferiu a capital da Polônia para Varsóvia?;1569
+Qual é o nome do monumento localizado em Varsóvia, mencionado no contexto?;Coluna de Sigismundo
+Quantos habitantes Varsóvia tinha estimados em 2012?;1 716 855
+Qual é o título dado a Varsóvia devido à sua reconstrução após a Segunda Guerra Mundial?;Cidade Fênix
+Qual é a principal atração turística do Centro Histórico de Varsóvia?;Coluna de Sigismundo, Barbacã e Castelo Real
+Quando o Centro Histórico de Varsóvia foi declarado Patrimônio da Humanidade pela Unesco?;1980
+Qual foi a razão da Levante do Gueto de Varsóvia em 1943?;Deportações da população judaica para campos de concentração
+Em que ano ocorreu a revolta geral em Varsóvia que levou à destruição do gueto?;1944
+Qual é o recorde de temperatura alta em junho em Varsóvia?;36,2 °C

@@ -1,0 +1,44 @@
+<think>
+Okay, so I need to generate 10 question-answer pairs based on the given context and facts about steam engines. Let me go through this step by step.
+
+First, I'll read the context provided. It explains that a steam engine is a type of thermal machine that uses vapor pressure. It works based on thermodynamics principles, converting heat into mechanical work. The fluid used is high-pressure steam, which expands and cools, transferring energy to move parts like pistons or turbines.
+
+Looking at the facts, there are various ships, ferries, mills, etc., all powered by steam engines. There's also mention of inventors like Thomas Newcomen and companies that produce steam engines.
+
+Now, I need to create varied questions covering different aspects: what a steam engine is, its components, historical figures, applications, and related terms.
+
+I should avoid repeating similar questions. For example, if I ask about the main fluid, I shouldn't ask another question about the same topic.
+
+Let me start drafting some questions:
+
+1. What is the primary fluid used in a steam engine?
+2. Who is known for inventing the steam engine?
+3. What principle does the steam engine use to generate power?
+4. In which part of the steam engine does vapor expansion occur?
+5. Which company is associated with producing steam engines?
+6. Name a ship powered by a steam engine.
+7. What type of energy conversion is involved in steam engines?
+8. How does the steam engine transfer thermal energy into mechanical work?
+9. What is the main use of steam engines today?
+10. What happens to the temperature and energy during vapor expansion?
+
+I need to ensure each question has one correct answer from the provided context or facts.
+
+Let me check if these cover different aspects: definition, inventor, principle, components, manufacturer, applications, energy conversion, function, modern usage, and process details. Yes, that seems varied.
+
+Now, I'll structure them in CSV format with Portuguese language as required.
+</think>
+
+```csv
+pergunta;resposta
+Qual é o principal fluido utilizado em uma máquina a vapor?;vapor de água
+Quem é conhecido por inventar a máquina a vapor?;Thomas Newcomen
+Qual princípio utiliza a máquina a vapor para gerar energia?;expansão do vapor
+Em qual componente da máquina a vapor ocorre a expansão do vapor?;turbina ou êmbolo
+Qual empresa está associada à produção de motores a vapor?;AG Weser
+Qual navio é propulsado por uma máquina a vapor?;USS Montclair (ID-3497)
+Que tipo de conversão de energia está envolvido nas máquinas a vapor?;conversão de calor em trabalho mecânico
+Como a máquina a vapor transfere energia térmica para mecânica?;através da força do vapor expandido
+Qual é o principal uso das máquinas a vapor hoje?;geração de eletricidade em reatores nucleares
+O que acontece com a temperatura e energia durante a expansão do vapor?;diminuição de temperatura e liberação de energia
+```

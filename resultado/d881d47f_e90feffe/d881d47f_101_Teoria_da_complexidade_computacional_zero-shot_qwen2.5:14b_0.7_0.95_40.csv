@@ -1,0 +1,11 @@
+pergunta;resposta
+O que é a classe P em teoria da complexidade computacional?;conjunto de problemas que podem ser resolvidos por um algoritmo determinista em tempo polinomial
+Qual é o significado da classe NP na teoria da complexidade computacional?;conjunto de problemas para os quais uma solução proposta pode ser verificada por um algoritmo determinista em tempo polinomial
+O que significa que um problema está em NP-completo?;problema pertence a NP e todo problema em NP é polinomialmente reduzível a ele
+Qual é a relação entre P e NP segundo a conjectura geralmente aceita na teoria da complexidade computacional?;P ⊊ NP (classe P é estritamente contida dentro de NP)
+Defina o que é um algoritmo de tempo polinomial.;algoritmo cujo número máximo de passos necessários para resolver qualquer instância do problema é limitado por um polinômio na magnitude do comprimento da entrada
+O que é a conjectura P = NP?;hipótese que propõe que problemas no conjunto NP também são resolvidos em tempo polinomial por uma máquina de Turing determinística
+Qual é o significado de problema NPC (NP-completo)?;problema que pertence à classe NPC se for NP e para todo problema em NP existe um algoritmo reduzível a ele em tempo polinomial
+O que caracteriza a classe co-NP?;conjunto de problemas complementares aos problemas no conjunto NP, ou seja, problemas onde uma resposta negativa pode ser verificada rapidamente
+Qual é o significado da relação P vs NP para criptografia?;se P = NP, muitos problemas de criptografia atuais poderiam se tornar vulneráveis e fáceis de resolver
+O que representa a conjectura de que P ≠ NP?;hipótese que propõe que existem problemas em NP que não são resolvidos por algoritmos polinomiais, sugerindo um limite para a eficiência computacional

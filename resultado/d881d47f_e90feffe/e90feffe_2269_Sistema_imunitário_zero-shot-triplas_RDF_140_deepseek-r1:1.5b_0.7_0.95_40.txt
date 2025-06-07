@@ -1,0 +1,42 @@
+<think>
+Okay, let's see what the user is asking for here. They want me to generate 10 pairs of questions and answers based on some context about an immune system. Hmm, I need to make sure each question is clear and has a unique answer as per the guidelines.
+
+First, I should review the provided facts and fatos. There's information about various cells in the immune system like B cells, dendritic cells, lymphocytes, etc. The goal is to create questions that probe different aspects of this system.
+
+I need to ensure each question relates to a different aspect of the immune system. Let me think about what each cell does and how they contribute to the immune response. For example, B cells recognize antigens; dendritic cells process signals; lymphocytes attack specific pathogens; monocytes help in the development of antibodies.
+
+Wait, I should make sure that the questions are in Portuguese since the context provided includes both English and Portuguese facts. So I'll have to phrase them correctly. Also, each pair should be separated by a semicolon and have two lines, matching the CSV format specified.
+
+I also need to avoid any markdown or extra formatting beyond what's required. Let me list out potential questions:
+
+1. Explaining which cells recognize antigens.
+2. Describing how B cells process signals from the immune system.
+3. Detailing the role of dendritic cells in signaling.
+4. Asks about lymphocytes' function in attacking pathogens.
+5. Puzzles over monocyte's role in immune response.
+6. Involves macrophages' role in inflammation.
+7. Questions about the structure and function of T cells.
+8. Explains how B cells are involved in immunity.
+9. Focuses on granulocytes' role in dealing with infections.
+10. Describes macrophage's primary function.
+
+Let me draft each question ensuring clarity and that each has a distinct answer. I'll make sure to translate any technical terms into simpler Portuguese while keeping the context accurate.
+
+Finally, I'll compile these into 10 lines with their corresponding answers, making sure they follow the CSV format and adhere to all the given rules.
+</think>
+
+```csv
+pergunta;resposta
+B cells recognize antigens <http://dbpedia.org/resource/B_cell>
+B cells process signals from the immune system <http://dbpedia.org/resource/B_cell>
+Dendritic cells signal for T cells <http://dbpedia.org/resource/Dendritic_cell>
+Lymphocytes attack specific pathogens <http://dbpedia.org/resource/Lymphocyte>
+Monocytes help in the development of antibodies <http://dbpedia.org/resource/Monocyte>
+Monocytes aid in immune response by destroying pathogens <http://dbpedia.org/resource/Monocyte>
+Monocytes play a role in inflammation <http://dbpedia.org/resource/Monocyte>
+T cells are responsible for recognizing antigens <http://dbpedia.org/resource/T_cell>
+B cells are involved in the recognition of antigens <http://dbpedia.org/resource/B_cell>
+Granulocytes deal with infections by fighting off pathogens <http://dbpedia.org/resource/Granulocyte>
+White blood cells help defend against infection <http://dbpedia.org/resource/White_blood_cell>
+Macrophages initiate inflammation and immune response <http://dbpedia.org/resource/Macrophage>
+```

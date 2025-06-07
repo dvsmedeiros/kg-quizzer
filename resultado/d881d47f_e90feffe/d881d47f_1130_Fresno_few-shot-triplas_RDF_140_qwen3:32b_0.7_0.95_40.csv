@@ -1,0 +1,3 @@
+pergunta;resposta
+- Distance to LA (350 km, but the data doesn't have that; the example uses that, but the data here doesn't mention it. So maybe avoid that unless it's in the triples.)
+Wait, the user's example includes "Quanto é a distância entre Fresno e Los Angeles?;350 km" but the triples don't have that info. So maybe the example is using external knowledge. Since the user's instruction is to generate based on the provided data, I should avoid such questions unless the data includes the distance. The data here doesn't, so I shouldn't include it.

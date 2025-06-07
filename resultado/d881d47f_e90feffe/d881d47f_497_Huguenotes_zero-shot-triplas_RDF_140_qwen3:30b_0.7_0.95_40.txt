@@ -1,0 +1,42 @@
+<think>
+Okay, I need to generate 10 question-answer pairs in Portuguese based on the given context and facts. Let me start by understanding the context.
+
+The context says that Huguenotes were French Protestants during the religious wars in France, mainly in the second half of the 16th century. About 300,000 left France after persecutions under Louis XIV and the revocation of the Edict of Nantes in 1685. They were mostly Calvinists and members of the Reformed Church, while those in Alsace, Moselle, and Montbéliard were mostly Lutheran Germans.
+
+Now, the facts are in RDF format, but I need to extract relevant info from there. The facts mention hypernyms, separations, named after, related, etc. For example, "Camisard" is a hypernym of Huguenots, and there are links to Catholic Church in France, some places named after Huguenots, and related groups like Scotch-Irish Americans. Also, there are templates and categories related to Huguenots, like French Wars of Religion, French diaspora, etc.
+
+I need to make sure each question is varied and covers different aspects. Let me brainstorm possible questions:
+
+1. What were the Huguenotes?
+2. When did the Edict of Nantes get revoked?
+3. Who were the main religious group among Huguenotes?
+4. Which regions had Lutheran Huguenotes?
+5. How many Huguenotes left France?
+6. What caused the migration of Huguenotes?
+7. What was the main religion of Huguenotes in Alsace?
+8. What event led to the persecution of Huguenotes?
+9. What is the significance of the Edict of Nantes?
+10. Which groups are related to Huguenotes?
+
+Now, check if these are all covered in the context. The context mentions the Edict of Nantes revoked in 1685, they were Calvinists, Alsace regions had Lutheran Germans, 300k left, persecution under Louis XIV, French Wars of Religion, and related groups like Scotch-Irish.
+
+Need to make sure answers are correct and from the context. For example, the Edict of Nantes was revoked in 1685, the main religion was Calvinism, Alsace had Lutherans, etc.
+
+Now, structure each as CSV pairs. Avoid repetition. Check for variety: some about causes, some about demographics, some about historical events, some about related groups.
+
+Double-check that each answer is explicitly or inferentially in the context. For example, the answer to "What was the main religion of Huguenotes in Alsace?" is Lutheran, as per the context.
+
+Make sure there are exactly 10 pairs, no more, no less. Avoid markdown, just CSV.
+</think>
+
+pergunta;resposta
+Quem eram os Huguenotes?;Protestantes franceses durante as guerras religiosas na França (segunda metade do século XVI)
+Em que ano o Édito de Nantes foi revogado?;1685
+Qual era a principal religião dos Huguenotes?;Calvinismo
+Quais regiões da França tinham Huguenotes majoritariamente luteranos?;Alsácia, Moselle e Montbéliard
+Quantos Huguenotes deixaram a França após as perseguições?;Cerca de 300.000
+O que levou à migração dos Huguenotes da França?;Perseguições contra as comunidades protestantes e a revogação do Édito de Nantes
+Qual era a religião predominante dos Huguenotes em Alsácia?;Luteranismo
+Qual evento histórico marcou o fim da tolerância religiosa para os Huguenotes?;A revogação do Édito de Nantes
+Quais grupos estão relacionados aos Huguenotes?;Escoceses-irlandeses americanos
+O que é o Édito de Nantes?;Um documento que concedeu liberdade religiosa aos protestantes na França

@@ -1,0 +1,49 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs in CSV format based on the context of "Comutação_de_pacotes" (packet switching). Let me start by recalling what packet switching is. It's a method of data transmission where data is broken into packets, each with a header containing routing information. The packets are then routed independently through the network.
+
+First, I need to make sure that each question is unique and covers different aspects of packet switching. Let me brainstorm possible questions. Maybe start with the definition. Then, how it differs from circuit switching. Next, the role of headers, routing tables, reassembly, congestion control, packet loss, protocols, advantages, and maybe something about the history or key components.
+
+Wait, the user said to use only the provided content. But the context given is just "Comutação_de_pacotes" and the instruction to generate the questions. Since there's no specific content provided beyond that, I need to rely on general knowledge about packet switching. But the user might expect that the answers are based on a specific text they have, which isn't here. Hmm, but according to the rules, the answers must be explicit or inferable from the content. Since the context is just the term, maybe the user expects standard knowledge. I'll proceed with that, but note that if there's a specific text, the answers should be based on that. However, since the context is minimal, I'll use standard facts.
+
+Now, structuring each question and answer. Let me list 10 aspects:
+
+1. Definition of packet switching.
+2. Difference between packet switching and circuit switching.
+3. Purpose of the header in a packet.
+4. Role of routing tables.
+5. How packets are reassembled at the destination.
+6. Congestion control in packet switching.
+7. What happens if a packet is lost.
+8. Common protocols using packet switching.
+9. Advantages of packet switching over circuit switching.
+10. Key components of a packet-switched network.
+
+Now, crafting each question and answer. Ensure they are in Portuguese, and answers are concise. Let me check for repetition. Each question should be unique. Avoid similar questions. For example, not asking about both headers and routing tables, but different aspects.
+
+Check for correct terminology. For example, "comutação de pacotes" is the term. The answers should be accurate. Let me verify each answer:
+
+1. Definição: "Método de transmissão de dados onde os dados são divididos em pacotes, cada um com cabeçalho contendo informações de roteamento."
+2. Diferença: "Circuit switching estabelece um caminho dedicado, enquanto packet switching roteia pacotes individualmente."
+3. Cabeçalho: "Contém informações de roteamento, endereço de origem e destino."
+4. Tabelas de roteamento: "Determinam o caminho mais eficiente para cada pacote."
+5. Reconstituição: "O destino reorganiza os pacotes com base na ordem de sequência."
+6. Controle de congestionamento: "Limita a taxa de transmissão ou prioriza pacotes."
+7. Perda de pacote: "O receptor solicita a retransmissão ou os dados são descartados."
+8. Protocolos: "TCP/IP, Ethernet, IP."
+9. Vantagens: "Eficiência na utilização da largura de banda, escalabilidade."
+10. Componentes: "Roteadores, comutadores, cabos, protocolos de comunicação."
+
+Now, check for CSV format, each line with semicolon, no markdown. Ensure 10 pairs. Avoid any extra text. Make sure the answers are correct and based on standard knowledge. Alright, that should meet the user's requirements.
+</think>
+
+pergunta;resposta
+O que é comutação de pacotes?;Método de transmissão de dados onde os dados são divididos em pacotes, cada um com cabeçalho contendo informações de roteamento.
+Como a comutação de pacotes difere da comutação de circuitos?;A comutação de circuitos estabelece um caminho dedicado, enquanto a comutação de pacotes roteia pacotes individualmente por diferentes rotas.
+Qual a função do cabeçalho em um pacote?;Contém informações de roteamento, endereço de origem e destino, e controle de erro.
+O que são tabelas de roteamento em uma rede de comutação de pacotes?;Tabelas que armazenam informações sobre os caminhos mais eficientes para encaminhar pacotes.
+Como os pacotes são reconstituídos no destino?;O destino reorganiza os pacotes com base na ordem de sequência indicada no cabeçalho.
+Como a rede lida com a congestionamento em comutação de pacotes?;Limita a taxa de transmissão ou prioriza pacotes com base em regras de roteamento.
+O que acontece se um pacote for perdido durante a transmissão?;O receptor solicita a retransmissão ou os dados são descartados.
+Quais protocolos são comuns em redes de comutação de pacotes?;TCP/IP, Ethernet, IP e MPLS.
+Quais são as vantagens da comutação de pacotes em comparação com a comutação de circuitos?;Eficiência na utilização da largura de banda, escalabilidade e tolerância a falhas.
+Quais são os componentes principais de uma rede de comutação de pacotes?;Roteadores, comutadores, cabos de conexão e protocolos de comunicação.

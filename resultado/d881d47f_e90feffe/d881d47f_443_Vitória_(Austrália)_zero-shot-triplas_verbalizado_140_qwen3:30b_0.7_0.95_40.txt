@@ -1,0 +1,54 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers in CSV format based on the provided context and facts. The key points are that the questions must be varied, cover different aspects, and the answers must be directly from the content. No repetition of similar questions.
+
+First, I need to go through the context and facts to find distinct pieces of information. The context gives general info about Victoria, like its location, population, history, government, economy, culture, etc. The facts list various people, places, events, and organizations related to Victoria.
+
+I should start by creating questions about the capital and major cities. The context mentions Melbourne as the capital and largest city. Then, maybe ask about the population rank. The context says it's the second most populous state. 
+
+Next, historical aspects: the establishment of the colony in 1851 and autogovernment in 1855. The Gold Rush in the 1850s and 1860s is another point. 
+
+For the government structure, the number of seats in the Australian Parliament and the state's legislative chambers. Also, the current Premier and Governor. 
+
+Economic aspects: the second-highest GDP and the reason for lower per capita GDP. 
+
+Cultural aspects: Melbourne being the cultural capital, the Melbourne Cricket Ground, and the Australian Open. 
+
+Geographical features: the bordering states and the largest city in the state. 
+
+Now, checking the facts to see if there are specific details that can be turned into questions. For example, the number of municipalities, the name of the state's library, or specific events like the 1956 Olympics. 
+
+Wait, the user said to generate questions based on the context and facts provided. So I need to ensure each question is directly answerable from the given data. For example, the context states that Victoria has 79 districts, so a question about that. Also, the fact that the State Library is in Victoria can be a question. 
+
+I need to make sure not to repeat similar questions. For instance, asking about the capital and then the largest city is okay since they are different. But avoid asking about multiple aspects of the same topic. 
+
+Check each question against the context and facts to confirm the answer is there. For example, the question about the capital is answered by "Melbourne" in the context. The question about the number of seats in the House of Representatives is 38, as per the context. 
+
+Also, ensure that the answers are concise and directly from the text. Avoid paraphrasing unless necessary. For example, the answer to the Gold Rush question is "1850s and 1860s" as per the context. 
+
+Make sure there are exactly 10 pairs, each with a unique aspect. Let me list out possible questions:
+
+1. Capital of Victoria
+2. Second most populous state
+3. Establishment year of the colony
+4. Autogovernment year
+5. Gold Rush decades
+6. Number of seats in the Australian House
+7. Current Premier
+8. Number of municipalities
+9. State's GDP rank
+10. Cultural capital of Australia
+
+Check if these are all covered in the context. Yes. Now, format them as CSV with semicolons. Ensure no markdown, just plain text. Avoid any extra explanations. Double-check for repetition and accuracy.
+</think>
+
+pergunta;resposta
+Qual é a capital do estado de Vitória?;Melbourne
+Qual é o segundo estado mais populoso da Austrália?;Nova Gales do Sul
+Em que ano a colônia de Vitória alcançou o autogoverno?;1855
+Qual período foi marcado pela Corrida do Ouro em Vitória?;décadas de 1850 e 1860
+Quantos assentos o estado de Vitória possui na Câmara dos Representantes da Austrália?;38
+Quem é o atual primeiro-ministro do estado de Vitória?;Daniel Andrews
+Quantos distritos o estado de Vitória possui?;79
+Qual é a classificação do PIB do estado de Vitória na Austrália?;segundo maior
+Qual cidade é considerada o centro cultural de Vitória?;Melbourne
+Qual é a densidade populacional do estado de Vitória?;28

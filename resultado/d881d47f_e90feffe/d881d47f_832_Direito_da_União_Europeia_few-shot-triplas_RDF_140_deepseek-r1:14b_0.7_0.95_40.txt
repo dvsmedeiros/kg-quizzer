@@ -1,0 +1,67 @@
+<think>
+Alright, so I need to create 10 multiple-choice questions and answers based on the given context about EU law. The user provided a sample CSV output with some examples, but they want me to generate exactly 10 unique pairs without repeating similar questions.
+
+First, let's understand the content. The context mentions that EU laws are rules operating in member states since the post-WWII era, aiming for peace and well-being. It talks about political, social, economic institutions beyond nation-states for cooperation and human development. The EU represents a new legal order under international law, as per its Court of Justice.
+
+The facts section includes some RDF data linking resources to Law of the European Union, mentioning scholars like Henry G. Schermers and John Bell, and templates used on Wikipedia pages.
+
+Looking at the examples provided, they focus on definitions, sources (primary, secondary), institutions, effects, etc. So I need to cover these areas but ensure each question is unique and not repeating the ones in the sample.
+
+Let me brainstorm possible questions:
+
+1. What is EU law? (covered in samples)
+2. Who are key figures in EU law?
+3. What are primary sources?
+4. What are secondary sources?
+5. Which institutions make EU legislation?
+6. How does EU law affect member states?
+7. What's the structure of EU legal sources?
+8. What is the effect of EU directives?
+9. Why was the EU created? (peace, etc.)
+10. What is the EU's legal system?
+
+Wait, some are similar to examples. Let me vary them:
+
+Possible questions:
+- What does the Law of the European Union primarily aim for? (Peace, values, well-being)
+- Who are known scholars in this field?
+- How many types of legal sources exist?
+- Which institutions create primary law?
+- What's the role of the Court of Justice?
+- What is the function of secondary legislation?
+- What distinguishes EU law from international law?
+- How does EU law integrate into national systems?
+- What is a characteristic feature of EU law? (New legal order)
+- What are the main objectives of the EU?
+
+But I need to make sure each question has a single correct answer and aligns with the provided context.
+
+Let me try drafting them:
+
+1. Quem é um exemplo de acadêmico conhecido na área do direito da União Europeia? ; Henry G. Schermers
+2. Qual é o objetivo principal do direito da União Europeia? ; Promover a paz, os valores e o bem-estar dos povos
+3. Quais são as fontes principais de direito primário? ; Tratados que instituem a União Europeia
+4. Qual órgão judicial é responsável por interpretar o direito da UE? ; Tribunal de Justiça da União Europeia
+5. O que caracteriza o direito da União Europeia? ; Uma nova ordem jurídica no direito internacional
+6. Quais são os dois órgãos legislativos principais? ; Parlamento Europeu e Conselho da UE
+7. Qual é a função dos regulamentos na UE? ; Eles se aplicam diretamente em todos os Estados membros
+8. Como o direito primário afeta os países membros? ; Tem efeito direto ou indireto
+9. Quais são as fontes complementares do direito da UE? ; Decisões do Tribunal de Justiça e práticas administrativas
+10. Qual foi um dos objetivos iniciais da UE após a Segunda Guerra Mundial? ; Estabelecer cooperação para evitar conflitos
+
+I think this covers different aspects without repeating the sample questions too much. Now, I'll structure them into CSV format with semicolons.
+</think>
+
+```csv
+pergunta;resposta
+Quem é um exemplo de acadêmico conhecido na área do direito da União Europeia? ; Henry G. Schermers
+Qual é o objetivo principal do direito da União Europeia? ; Promover a paz, os valores e o bem-estar dos povos
+Quais são as fontes principais de direito primário? ; Tratados que instituem a União Europeia
+Qual órgão judicial é responsável por interpretar o direito da UE? ; Tribunal de Justiça da União Europeia
+O que caracteriza o direito da União Europeia? ; Uma nova ordem jurídica no direito internacional
+Quais são os dois órgãos legislativos principais? ; Parlamento Europeu e Conselho da UE
+Qual é a função dos regulamentos na UE? ; Eles se aplicam diretamente em todos os Estados membros
+Como o direito primário afeta os países membros? ; Tem efeito direto ou indireto
+Quais são as fontes complementares do direito da UE? ; Decisões do Tribunal de Justiça e práticas administrativas
+Qual foi um dos objetivos iniciais da UE após a Segunda Guerra Mundial? ; Estabelecer cooperação para evitar conflitos
+```
