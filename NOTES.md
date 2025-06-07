@@ -1,15 +1,15 @@
 ## Parâmetros do Experimento
 
-| **Fator**                  | **Valores possíveis**                              | **Quantidade** |
-|---------------------------|----------------------------------------------------|----------------|
-| Termos                    | 33 termos com versão `pt`                          | 35             |
-| Técnica                   | `zero-shot`, `few-shot`                            | 2              |
-| Formato (few-shot)        | `RDF`, `verbalizado`                               | 2              |
-| Qtd. de triplas (few-shot)| fixo                                               | 1              |
-| Modelos                   | 18 modelos selecionados                            | 18             |
-| `temperature`             | 0.7                                                | 1              |
-| `top-k`                   | 40                                                 | 1              |
-| `top-p`                   | 0.95                                               | 1              |
+| **Fator**                  | **Valores possíveis**                              | **Variações**  |
+|---------------------------|-----------------------------------------------------|----------------|
+| Termos                    | 35 termos com versão `pt`                           | 35             |
+| Técnica                   | `zero-shot`, `zero-shot-triplas`, `few-shot-triplas`| 3              |
+| Formato (few-shot)        | `RDF`, `verbalizado`                                | 2              |
+| Qtd. de triplas (few-shot)| 140 (média para contexto 8k tokens)                 | 1              |
+| Modelos                   | 18 modelos selecionados                             | 18             |
+| `temperature`             | 0.7                                                 | 1              |
+| `top-k`                   | 40                                                  | 1              |
+| `top-p`                   | 0.95                                                | 1              |
 
 ## Lista de Tópicos 
 
@@ -59,17 +59,25 @@
 $$
 \text{Zero-shot} = T_{\text{pt}} \times (\text{modelos}) = 35 \times 18 = \boxed{630}
 $$
-#### Few-shot
+
+#### Zero-shot-triplas
 $$
-\text{Few-shot} = T_{\text{pt}} \times (\text{formatos} \times \text{modelos}) = 35 \times (2 \times 18) = \boxed{1260}
+\text{Zero-shot-triplas} = T_{\text{pt}} \times (\text{formatos} \times \text{modelos}) = 35 \times (2 \times 18) = \boxed{1,260}
 $$
+
+#### Few-shot-triplas
+$$
+\text{Few-shot-triplas} = T_{\text{pt}} \times (\text{formatos} \times \text{modelos}) = 35 \times (2 \times 18) = \boxed{1,260}
+$$
+
 #### Total de Cenários
 $$
-\text{Total} = 630 + 1260 = \boxed{1,890}
+\text{Total} = 630 + 1,260 + 1,260 = \boxed{3,150}
 $$
+
 #### Fórmula Paramétrica
 $$
-\text{Total} = T_{\text{pt}} \times (\text{modelos}) + T_{\text{pt}} \times (\text{formatos} \times \text{modelos})
+\text{Total} = T_{\text{pt}} \times (\text{modelos}) + 2 \times T_{\text{pt}} \times (\text{formatos} \times \text{modelos})
 $$
 
 ## Critérios para Seleção dos Modelos
@@ -144,9 +152,9 @@ Apenas uma configuração foi escolhida para garantir consistência e limitar o 
 2. top-k = 40: foco nos tokens de maior probabilidade, reduzindo ruído sem eliminar diversidade.
 3. top-p = 0.95: sampling por núcleo com margem de diversidade maior, evitando repetições sem comprometer a qualidade.
 
-## Critério para Quantidade de Triplas nos cenários (Few-shot)
+## Critério para Quantidade de Triplas nos cenários (Few-shot-triplas)
 
-Para as execuções com técnica few-shot, a quantidade de triplas RDF incluídas no prompt foi definida com base na capacidade de contexto dos modelos utilizados no experimento:
+Para as execuções com técnica few-shot-triplas, a quantidade de triplas RDF incluídas no prompt foi definida com base na capacidade de contexto dos modelos utilizados no experimento:
 
 1. O tamanho mínimo de contexto considerado é de 8.000 tokens e o máximo é de 128.000 tokens, conforme os limites suportados por cada modelo.
 2. Uma reserva de tokens é alocada para instruções, contexto textual (instruções, abstract, formato de resposta), sendo o restante destinado à inclusão de triplas RDF.
