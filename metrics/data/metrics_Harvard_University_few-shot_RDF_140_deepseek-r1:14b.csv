@@ -1,7 +1,0 @@
-Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
-Okay, so I need to generate a CSV based on the given RDF data about Harvard University and its alumni. Let me think through how to approach this.,0.0,1.0,1.0,0.000,3.94722,6.85711,0.96296,0.040
-- Você é um... is just a greeting, not relevant.,1.22222,4.10211,1.0,0.000,1.0,1.85566,1.0,0.000
-- The block about Harvard University sets its type and sports affiliations, but that's not needed for the CSV.,5.5,5.02467,1.0,0.000,2.1,4.37319,1.0,0.125
-Wait, the example provided in the initial answer had Cargo as Alumni. So perhaps that's a standard for those without specific roles listed.,0.0,1.0,1.0,0.000,3.43452,6.57194,0.95652,0.045
-- The CSV should handle special characters in names properly, possibly using UTF-8 encoding.,4.5,4.61384,1.0,0.000,1.6,3.01273,1.0,0.000
-I think I'm ready to structure this CSV now, making sure each column is correctly labeled and filled with the extracted data.,2.54545,4.96484,0.9,0.100,5.71429,5.36491,1.0,0.077

@@ -1,0 +1,32 @@
+Question,Answer,Q_yngve,Q_brunet,Q_ttr,Q_simple_word_ratio,A_yngve,A_brunet,A_ttr,A_simple_word_ratio
+Okay, I need to generate 10 question-answer pairs based on the provided data about the University of Chicago. Let me start by understanding the data structure.,0.0,1.0,1.0,0.000,3.97222,6.90937,0.88,0.042
+Wait, the instruction says the question should be about the relationship between the person and the University. So each question should be structured as Quem é [X] da Universidade de Chicago? or Qual é [X] da Universidade de Chicago? depending on the predicate.,0.0,1.0,1.0,0.000,3.72594,8.76781,0.65909,0.024
+Looking at the examples from the user's previous response, they used Quem é o aluno da Universidade de Chicago? with the answer David Friedman. So I need to follow that structure.,2.90909,4.96484,0.9,0.100,2.60606,6.39884,1.0,0.105
+2. David Friedman,almaMater,0.5,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+Now, I need to create questions for each of these. Let me start with the first one:,0.0,1.0,1.0,0.000,2.65,5.78178,1.0,0.000
+Wait, maybe the structure is: Quem é [X] da Universidade de Chicago? where X is the predicate. For example:,0.0,1.0,1.0,0.000,2.02222,6.44608,0.84211,0.059
+- For employer: Quem é o empregador da Universidade de Chicago? but that's not correct. The University is the employer, so the person is the employee. So the question should be Quem trabalha na Universidade de Chicago? or Quem é empregada pela Universidade de Chicago? (Margaret Hayes Grazier). So the question would be Quem é empregada pela Universidade de Chicago? and the answer is Margaret Hayes Grazier.,2.11355,6.42016,0.9,0.111,2.59615,9.76682,0.51064,0.023
+Wait, maybe the user wants the question to be in the form of Quem é [X] da Universidade de Chicago? where X is the predicate term. For example:,0.0,1.0,1.0,0.000,2.29437,7.18797,0.85714,0.037
+But some of these might not be standard. Alternatively, the user might prefer to use the predicate as the question part. For example:,1.66667,4.61384,1.0,0.000,2.23077,5.76263,0.85714,0.000
+For employer: Quem é empregada pela Universidade de Chicago? (since the University is the employer, and Margaret Hayes Grazier is the employee).,2.72727,5.89204,0.86667,0.071,4.0,4.10211,1.0,0.000
+But I need to follow the user's examples. Looking back, the user's example for David Friedman,1.75,5.02467,1.0,0.091,1.5,4.10211,1.0,0.143
+For Samuel Wendell Williston,workInstitution,1.5,3.01273,1.0,0.000,0.0,1.0,1.0,0.000
+For Ronald Coase,institution,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+For Yoichiro Nambu,workInstitution,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+For Steven Wilf,award,1.0,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+Now, I need to make sure that each question is unique and covers different predicates. Let me list the 10:,0.0,1.0,1.0,0.000,2.81667,6.11885,1.0,0.000
+2. Rose Friedman,almaMater,0.5,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+Wait, maybe I should pick different people for each predicate. Let me check the data again.,0.0,1.0,1.0,0.000,2.67143,5.65316,1.0,0.071
+2. Rose Friedman,almaMater,0.5,2.50045,1.0,0.000,0.0,1.0,1.0,0.000
+2. Quem é o aluno da Universidade de Chicago? → Rose Friedman (but same question, so need to change),1.83333,5.51466,1.0,0.182,2.0,3.01273,1.0,0.000
+Wait, this is conflicting. Maybe I can use different questions for the same predicate but different people. For example:,0.0,1.0,1.0,0.000,1.94048,6.22924,0.88889,0.000
+2. Quem é o aluno da Universidade de Chicago? → Rose Friedman (same question, not good),1.66667,5.36491,1.0,0.200,1.0,1.85566,1.0,0.000
+Alternative approach: For each predicate, use different questions. For example:,1.5,3.43523,1.0,0.000,1.125,3.43523,1.0,0.000
+- For employer: Quem é o empregador da Universidade de Chicago? (but the University is the employer, so the person is the employee),2.88462,6.01226,0.875,0.071,3.0,3.95066,0.83333,0.000
+Wait, this is confusing. Let me try to structure the 10 questions:,0.0,1.0,1.0,0.000,1.84722,5.02467,1.0,0.000
+2. Quem é o aluno da Universidade de Chicago? → Rose Friedman (same question, not good),1.66667,5.36491,1.0,0.200,1.0,1.85566,1.0,0.000
+5. Quem trabalha na Universidade de Chicago? → Yoichiro N, Nambu,1.07143,4.61384,1.0,0.143,0.0,1.0,1.0,0.000
+But this has repeated questions for almaMater and workInstitution. To avoid repetition, I can adjust:,1.9,5.20226,1.0,0.000,1.5,2.50045,1.0,0.000
+Aqui estão 10 perguntas e respostas com base nos dados fornecidos, organizadas de forma a evitar repetição e manter a clareza:,1.63636,5.02467,1.0,0.143,2.36364,4.96484,0.9,0.833
+- **Perguntas únicas** foram criadas para evitar repetição, mesmo para o mesmo predicado (como alma mater).,2.66667,4.75438,0.88889,0.250,2.27273,4.51932,0.875,1.000
+- **Respostas específicas** foram atribuídas a cada pergunta, garantindo que cada pessoa seja mencionada apenas uma vez por pergunta.,1.75,4.75438,0.88889,0.143,1.91667,5.02467,1.0,0.571

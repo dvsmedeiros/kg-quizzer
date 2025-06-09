@@ -1,9 +1,0 @@
-Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
-Now, I'll process each line:,0.0,1.0,1.0,0.000,1.85714,3.43523,1.0,0.000
-But wait, the user's data has multiple lines under Facts. I need to make sure I capture all of them.,0.5,1.85566,1.0,0.000,2.95455,6.21898,0.94737,0.105
-Then, each subsequent row is the parsed triple.,0.0,1.0,1.0,0.000,2.875,4.10211,1.0,0.000
-But I need to make sure that the URIs are properly quoted if necessary, and the objects with quotes are kept as is.,3.35714,5.51466,1.0,0.000,3.2,4.61384,1.0,0.000
-- Some objects have quotes, like Pharmacist... which should be in quotes in the CSV.,2.0,3.01273,1.0,0.000,3.25,4.96484,0.9,0.000
-For example, the line:,0.5,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
-In CSV, this would be:,0.5,1.85566,1.0,0.000,1.25,2.50045,1.0,0.000
-I need to make sure that all the lines are correctly parsed and that the CSV is properly formatted with commas separating the columns, and quotes around the fields if needed.,7.04167,6.84193,0.875,0.000,3.5,4.10211,1.0,0.000

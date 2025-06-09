@@ -1,9 +1,0 @@
-Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
-Okay, I need to generate a CSV file based on the provided data. Let me start by understanding the structure of the data given. ,0.0,1.0,1.0,0.000,3.36859,6.77102,0.86957,0.048
-- Fresno, California a http://dbpedia.org/class/yago/Area108497294,0.5,1.0,1.0,0.000,1.71429,3.01273,1.0,0.000
-- Fresno, California a http://schema.org/City,0.5,1.0,1.0,0.000,1.71429,3.01273,1.0,0.000
-Next, I'll parse each line. The lines are in the format:,0.0,1.0,1.0,0.000,2.42857,5.1549,0.90909,0.000
-<http://dbpedia.org/resource/Fresno,_California> a <http://dbpedia.org/class/yago/Area108497294> .,1.5,1.85566,1.0,0.000,1.6,2.50045,1.0,1.333
-- Subject: <http://dbpedia.org/resource/Fresno,_California>,1.88889,2.50045,1.0,0.000,1.0,1.0,1.0,0.000
-- Subject: <http://dbpedia.org/resource/Fresno,_California>,1.88889,2.50045,1.0,0.000,1.0,1.0,1.0,0.000
-I should also note that some objects are literals (like 300.438620798976) and others are URIs. The CSV should handle both, possibly with quotes around literals.,5.25,6.42016,0.9,0.000,2.0,3.43523,1.0,0.000

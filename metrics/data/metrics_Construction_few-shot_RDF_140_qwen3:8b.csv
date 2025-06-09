@@ -1,6 +1,0 @@
-Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
-Let me start by parsing the provided RDF data. Each line seems to be a triple in the format of subject predicate object. For example, one line is:,2.46667,6.7216,0.96,0.208,1.25,2.50045,1.0,0.000
-3. For predicates ns1:barWidth and ns1:data, split the values into separate rows.,1.36111,4.51932,0.875,0.143,3.0,3.79304,1.0,0.000
-Here, the URI is <http://dbpedia.org/resource/Construction>.,0.0,1.0,1.0,0.000,1.5,2.50045,1.0,0.000
-Another thing to watch out for is that some lines might have multiple predicates for the same URI. For instance, a line might have:,2.35526,6.42016,0.9,0.000,1.6,3.01273,1.0,0.000
-I need to make sure that all such entries are processed correctly, handling the special cases for ns1:barWidth and ns1:data.,5.5,5.20226,1.0,0.000,3.30769,4.96484,0.9,0.111

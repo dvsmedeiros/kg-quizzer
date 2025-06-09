@@ -1,9 +1,0 @@
-Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
-Okay, I need to help the user generate a CSV based on the provided JSON structure. Let me start by understanding what's given.,0.0,1.0,1.0,0.000,3.04375,6.57194,0.95652,0.048
-Another thing to consider is handling multiple educational backgrounds, like a high school diploma followed by an associate's degree. I'll need to combine these in the CSV correctly.,4.0,4.61384,1.0,0.000,3.42308,6.31084,1.0,0.050
-3. For each object, extract all relevant fields:,0.75,3.01273,1.0,0.000,2.0,3.01273,1.0,0.000
-5. Combine the extracted data into a CSV format, ensuring correct formatting.,1.0625,4.61384,1.0,0.125,1.25,2.50045,1.0,0.000
-with open('data.json', 'r') as f:,2.25,2.50045,1.0,0.000,2.0,2.50045,1.0,1.000
-    writer SetWidth(max(len('Name'), len('Position')))  # Ajustar o separador conforme necessário,3.72727,3.43523,1.0,0.000,2.14286,4.10211,1.0,0.200
-        first_name = f{person['first_name']}, {person['last_name']},3.09091,3.59796,0.8,0.200,2.0,2.50045,1.0,0.000
-Se você quiser que use o separador de linhas em um formato mais limpo, pode usar:,1.5,5.51466,1.0,0.429,1.0,1.85566,1.0,0.500

@@ -1,0 +1,17 @@
+Question,Answer,Q_yngve,Q_brunet,Q_ttr,Q_simple_word_ratio,A_yngve,A_brunet,A_ttr,A_simple_word_ratio
+But wait, the user example shows the answer as Private school and the question as What type of school is [Name]? So I can follow that structure.,0.5,1.85566,1.0,0.000,3.43182,7.07402,0.84615,0.000
+Now, I need to pick 10 different entries from the list. Let me scan through the list and select 10 unique school names.,0.0,1.0,1.0,0.000,2.73427,6.69635,0.86364,0.000
+3. St. Mary's High School (Storm Lake, Iowa),1.04167,4.37319,1.0,0.125,0.5,1.0,1.0,0.000
+6. Trinity High School (Dickinson, North Dakota),1.25,3.43523,1.0,0.000,1.0,1.85566,1.0,0.000
+10. St. Mary of the Sea College, Corunna,1.0,4.10211,1.0,0.000,0.0,1.0,1.0,0.000
+- St. Mary's High School (Storm Lake, Iowa),1.5625,4.10211,1.0,0.143,0.5,1.0,1.0,0.000
+- Trinity High School (Dickinson, North Dakota),2.5,3.01273,1.0,0.000,1.0,1.85566,1.0,0.000
+- St. Mary of the Sea College, Corunna,1.5,3.79304,1.0,0.000,0.0,1.0,1.0,0.000
+That's 10. Now, form the questions:,0.6,3.01273,1.0,0.250,1.5,2.50045,1.0,0.000
+3. What type of school is St. Mary's High School (Storm Lake, Iowa)?,1.68452,5.48607,0.92308,0.077,1.0,1.0,1.0,0.000
+6. What type of school is Trinity High School (Dickinson, North Dakota)?,2.5,4.96484,0.9,0.000,1.25,1.85566,1.0,0.000
+10. What type of school is St. Mary of the Sea College, Corunna?,1.64286,5.32781,0.91667,0.000,0.5,1.0,1.0,0.000
+I think this covers the requirements. Now, format them as per the user's example.,1.5,4.10211,1.0,0.000,1.7,4.37319,1.0,0.143
+3. **Pergunta:** Qual tipo de escola é a St. Mary's High School (Storm Lake, Iowa)?  ,1.89881,6.00792,0.94118,0.214,1.0,1.0,1.0,0.000
+6. **Pergunta:** Qual é o tipo de escola da Trinity High School (Dickinson, North Dakota)?  ,1.5,5.76639,0.93333,0.182,1.25,1.85566,1.0,0.000
+10. **Pergunta:** Qual tipo de escola é a St. Mary of the Sea College, Corunna?  ,1.85714,5.89142,0.9375,0.154,0.5,1.0,1.0,0.000

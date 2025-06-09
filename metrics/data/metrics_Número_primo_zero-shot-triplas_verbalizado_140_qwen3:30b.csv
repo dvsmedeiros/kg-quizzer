@@ -1,0 +1,22 @@
+Question,Answer,Q_yngve,Q_brunet,Q_ttr,Q_simple_word_ratio,A_yngve,A_brunet,A_ttr,A_simple_word_ratio
+First, I should identify different aspects of the context to ensure the questions are varied. The context mentions:,0.0,1.0,1.0,0.000,3.18333,6.25277,0.82353,0.000
+10. Historical facts (Euclid, 300 BC),1.0,3.01273,1.0,0.000,0.66667,1.85566,1.0,0.000
+3. What are twin primes, and can you give an example?,1.0,3.43523,1.0,0.000,3.0,3.79304,1.0,0.000
+4. Who proved that there are infinitely many primes, and when?,2.0,4.61384,1.0,0.000,1.0,1.85566,1.0,0.000
+8. What is a primorial, and what are the open problems related to it?,0.625,3.43523,1.0,0.800,4.5,4.61384,1.0,0.000
+Now, check if these questions are covered in the context. For example:,0.0,1.0,1.0,0.000,2.4,5.02467,1.0,0.000
+- Twin primes are defined as pairs differing by 2, with examples given. So question 3 is valid.,1.8,4.61384,1.0,0.000,1.625,4.37319,1.0,0.000
+- The only even prime is 2, which is stated.,3.0,3.79304,1.0,0.000,1.25,2.50045,1.0,0.000
+3. What are twin primes, and can you give an example?,1.0,3.43523,1.0,0.000,3.0,3.79304,1.0,0.000
+4. Who proved that there are infinitely many primes, and when?,2.0,4.61384,1.0,0.000,1.0,1.85566,1.0,0.000
+7. What is a primorial, and what are the open problems related to it?,0.625,3.43523,1.0,0.800,4.5,4.61384,1.0,0.000
+Now, checking if these are covered:,0.0,1.0,1.0,0.000,2.0,3.43523,1.0,0.000
+Now, structuring the questions and answers based on the context.,0.0,1.0,1.0,0.000,2.6,4.75438,0.88889,0.000
+   Resposta: Um número primo é aquele cujo conjunto dos divisores não inversíveis não é vazio, e todos os seus elementos são produtos de números inteiros inversíveis.,1.8125,5.89204,0.86667,0.636,2.08333,5.02467,1.0,0.167
+Another: Quem provou que existem infinitos números primos e em que época? Resposta: Euclides, por volta de 300 a.C.,1.53571,5.63172,0.92857,0.111,1.5,3.43523,1.0,0.000
+Another: Qual é a diferença entre um número primo inteiro e um número primo natural? Resposta: Um número primo natural tem exatamente dois divisores (1 e ele mesmo), enquanto um número primo inteiro tem quatro divisores.,1.90993,7.63426,0.71429,0.556,2.0,4.37319,1.0,0.800
+Another: Qual é o maior primo conhecido da forma p# – 1 mencionado no contexto? Resposta: 15877# – 1, com 6845 dígitos.,2.5,6.32762,0.89474,0.400,1.25,2.50045,1.0,0.000
+Another question: Qual é a importância do número 2 no contexto dos números primos? Resposta: O número 2 é o único número primo par, e todos os outros números primos são ímpares.,2.60511,7.06456,0.79167,0.353,2.11111,4.37319,1.0,0.250
+   **Resposta:** Um número primo é aquele cujo conjunto dos divisores não inversíveis não é vazio, e todos os seus elementos são produtos de números inteiros inversíveis.  ,2.6,6.25277,0.82353,0.538,2.08333,5.02467,1.0,0.167
+   **Resposta:** Um número primo natural tem exatamente dois divisores (1 e ele mesmo), enquanto um número primo inteiro tem quatro divisores.  ,2.0,5.76639,0.93333,0.727,2.0,4.37319,1.0,0.800
+   **Resposta:** O maior primo conhecido da forma p# – 1 é 15877# – 1, com 6845 dígitos.  ,2.71429,6.14642,0.8125,0.429,1.25,2.50045,1.0,0.000

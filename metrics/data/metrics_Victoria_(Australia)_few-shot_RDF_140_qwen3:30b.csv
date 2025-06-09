@@ -1,8 +1,0 @@
-Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
-For example, the first line is:,0.5,1.85566,1.0,0.000,2.0,3.01273,1.0,0.000
-Similarly, the foaf:depiction line has the Object as <http://commons.wikimedia.org/wiki/Special:FilePath/Vic_legislative_council_1878.jpg>.,0.0,1.0,1.0,0.000,2.6,4.51932,0.875,0.000
-But the user's input includes many other triples, like:,2.2,4.61384,1.0,0.111,0.5,1.0,1.0,0.000
-But the rest of the input is individual triples, each ending with a period.,4.0,4.75438,0.88889,0.111,1.66667,3.43523,1.0,0.000
-But assuming that the input is correct, we need to process all the triples.,3.0,4.10211,1.0,0.000,2.875,4.10211,1.0,0.000
-Therefore, the CSV would look like:,0.0,1.0,1.0,0.000,2.5,3.43523,1.0,0.000
-But the user's input also includes other triples, such as:,2.2,4.61384,1.0,0.111,1.0,1.85566,1.0,0.000

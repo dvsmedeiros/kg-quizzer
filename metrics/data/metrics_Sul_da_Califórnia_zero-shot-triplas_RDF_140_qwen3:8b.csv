@@ -1,0 +1,11 @@
+Question,Answer,Q_yngve,Q_brunet,Q_ttr,Q_simple_word_ratio,A_yngve,A_brunet,A_ttr,A_simple_word_ratio
+The user mentioned generating 10 pairs, so I need to make sure each question is distinct and covers different aspects of the data. Let me start by identifying the main attributes:,1.33333,3.79304,1.0,0.000,5.69444,6.7216,0.96,0.042
+1. **Area Total** – The ns4:areaTotal is given in square kilometers, and ns2:areaTotalSqMi in square miles. That's a good point for a question.,2.4375,5.89204,0.86667,0.000,2.2375,5.63172,0.92857,0.091
+2. **Population** – There's a ns2:populationAsOf 2020 entry, so a question about population could be formed.,1.65,5.62279,0.84615,0.083,2.77778,4.37319,1.0,0.000
+6. **Seat Type** – The ns2:seatType Largest city refers to the largest city in the region, which is Los Angeles.,2.86905,6.94603,0.7,0.000,1.4,3.01273,1.0,0.000
+I also need to make sure that the questions are phrased in a way that's natural and not too technical. For example, instead of asking What is the total area in square miles? it might be better to phrase it as What is the total area of Southern California in square miles? to make it more conversational.,3.22826,6.57194,0.95652,0.261,2.72222,8.32549,0.65714,0.057
+Another possible question is about the coordinates. The ns3:point is 34.0 -117.0, which is latitude and longitude. So a question like What are the coordinates of Southern California? with the answer being 34.0 -117.0.,2.29464,5.62279,0.84615,0.000,3.02778,6.49101,0.95455,0.182
+For the mapsize, the ns2:mapsize is 275.,1.0,2.50045,1.0,0.000,2.0,3.43523,1.0,0.000
+For the languages, the Tongva_language and Tataviam_language are mentioned under ns2:states and ns1:spokenIn.,1.0,2.50045,1.0,0.000,5.2,5.32781,0.91667,0.000
+Looking back, the data includes:,0.5,1.85566,1.0,0.000,1.5,2.50045,1.0,0.333
+But I don't see ns2:imageMap mentioned. So maybe that's a mistake. Alternatively, the user might have included other entries. Let me check again. The data includes:,1.54167,5.65316,1.0,0.143,2.2,5.63172,0.92857,0.077

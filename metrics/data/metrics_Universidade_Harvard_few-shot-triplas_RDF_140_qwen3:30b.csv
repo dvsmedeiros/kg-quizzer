@@ -1,0 +1,12 @@
+Question,Answer,Q_yngve,Q_brunet,Q_ttr,Q_simple_word_ratio,A_yngve,A_brunet,A_ttr,A_simple_word_ratio
+But in the examples, the answer is John Harvard for the question Qual indivíduo recebeu o nome da escola? which translates to Which individual received the name of the school? So that's about the founder. ,1.5,3.01273,1.0,0.000,3.22917,7.478,0.84375,0.167
+Looking at the data, there's a mention of John Harvard in the triples. So I can use that. ,1.5,3.01273,1.0,0.250,2.70833,5.65316,1.0,0.071
+For example, the data includes Harvard University with a property usnwrW 1. Maybe a question could be What is the US News ranking of Harvard University? with the answer 1. ,0.5,1.85566,1.0,0.000,3.39798,7.51084,0.75,0.179
+9. What is the number of volumes in Harvard's library? Answer: 18 milhões de volumes (again from examples, not data).,1.83889,6.21898,0.94737,0.059,1.25,1.85566,1.0,0.500
+But the data includes ns2:usnwrW 1, so that's the US News ranking. So question 1 is valid. ,2.75,4.10211,1.0,0.143,2.36111,5.32781,0.91667,0.091
+Looking at the data, the user's data includes entries like:,1.5,3.01273,1.0,0.250,2.22222,4.10211,1.0,0.286
+Wait, the user's data includes:,0.0,1.0,1.0,0.000,1.57143,3.43523,1.0,0.400
+So perhaps the user is expecting me to use the examples as a template and generate similar questions, even if the data doesn't have all the details. But the user's instruction says to generate based on the data and the examples. ,4.05556,6.11685,0.94444,0.235,3.86275,7.12433,0.8,0.120
+Looking at the data, the user's triples include:,1.5,3.01273,1.0,0.250,1.57143,3.43523,1.0,0.200
+Actually, the user's data starts with:,0.0,1.0,1.0,0.000,1.875,3.79304,1.0,0.333
+Wait, the user's data has:,0.0,1.0,1.0,0.000,1.57143,3.43523,1.0,0.400

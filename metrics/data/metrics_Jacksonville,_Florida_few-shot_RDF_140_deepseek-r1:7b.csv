@@ -1,5 +1,0 @@
-Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
-Now, thinking about how to structure the CSV:,0.0,1.0,1.0,0.000,2.875,4.10211,1.0,0.000
-3. **Handling Mix Data Types**: Since some fields contain both numbers and strings, I'll need to include quotes around such fields in the CSV to preserve the integrity of the data when dealing with text that already contains commas or other special characters.,2.39706,5.76639,0.93333,0.000,7.60606,7.25439,0.90323,0.032
-I also need to pay attention to any fields that are nested or have arrays within them. For instance, the field ns2:link contains both text and a hyperlink URL. This could be problematic for a CSV format since it's not straightforward to represent URLs in a simple CSV without losing information about spaces and special characters.,4.5,6.21898,0.94737,0.000,3.43462,7.67265,0.89744,0.132
-Lastly, ensuring that the CSV file is properly formatted with correct commas separating each value and handling any encoding issues (like UTF-8) that might arise from special characters in place names or descriptions.,0.0,1.0,1.0,0.000,8.37143,7.14649,0.96875,0.000

@@ -1,8 +1,0 @@
-Question,Answer,Q_brunet,Q_ttr,Q_yngve,Q_simple_word_ratio,A_brunet,A_ttr,A_yngve,A_simple_word_ratio
-Vamos criar um arquivo CSV (Comma-Separated Values) baseado nos dados fornecidos, respeitando as seguintes regras:,3.69231,5.02467,1.0,0.222,1.4,3.01273,1.0,0.000
-    <http://commons.wikimedia.org/wiki/Special:FilePath/Warszawa,_Poniatowskiego_20160328_035.jpg>,2.0,2.50045,1.0,0.000,1.4,1.0,1.0,0.000
-df.to_csv(csv_io, index=False),1.2,1.85566,1.0,0.000,1.5,1.0,1.0,0.000
-http://commons.wikimedia.org/wiki/Special:FilePath/Warszawa,_Poniatowskiego_20160328_035.jpg,1.85714,2.50045,1.0,0.000,1.5,1.0,1.0,0.000
-Como você pode ver, os dados foram armazenados no formato CSV. O campo `user` contém o endereço da string fornecida e as outras colunas correspondem aos campos de dados extraídos.,0.75,3.01273,1.0,0.333,2.51705,6.87947,0.92308,0.188
-- Removi as referências a imagem, pois elas não pareciam ser campos de dados e também foram ignorados.,1.16667,3.43523,1.0,0.333,2.07692,5.20226,1.0,0.625
-- As outras colunas foram preenchidas com valores `NULL`, que é o padrão no formato CSV.,1.45455,4.37319,1.0,0.000,2.0,4.10211,1.0,0.500

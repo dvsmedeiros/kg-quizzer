@@ -1,0 +1,16 @@
+Question,Answer,Q_yngve,Q_brunet,Q_ttr,Q_simple_word_ratio,A_yngve,A_brunet,A_ttr,A_simple_word_ratio
+Okay, I need to generate 10 question-answer pairs based on the provided data about Warsaw. Let me start by understanding the data given.,0.0,1.0,1.0,0.000,3.37778,6.58989,0.90909,0.048
+Now, I need to check the data again to find possible questions. Let's go through each part:,0.0,1.0,1.0,0.000,3.875,6.00792,0.94118,0.118
+   - ns1:url <https://web.archive.org/web/20120405081905/http:/www.warsawguide.com/> – A URL, but not sure how to use that.,1.71429,3.17866,0.75,0.000,2.875,4.10211,1.0,0.000
+   - ns1:wikiPageUsesTemplate – Templates used, but maybe not useful for questions.,1.71429,3.01273,1.0,0.000,2.42857,3.79304,1.0,0.000
+   - ns1:wordnet_type <http://www.w3.org/2006/03/wn/wn20/instances/synset-monument-noun-2> – Indicates it's a monument, but not sure.,2.27273,4.10211,1.0,0.167,1.25,2.50045,1.0,0.000
+   - foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Barbakan_w_Warszawie_-_03.jpg> – Image link, not useful here.,1.71429,3.01273,1.0,0.000,1.25,2.50045,1.0,0.000
+Now, possible questions:,0.0,1.0,1.0,0.000,1.0,1.85566,1.0,0.000
+Another point is the dcterms:subject which is a category, but not sure how to phrase that as a question.,2.90909,4.96484,0.9,0.000,3.72727,4.82961,1.0,0.400
+    Answer: https://web.archive.org/web/20120405081905/http:/www.warsawguide.com/ (But the example questions don't ask for URLs, so maybe not the best choice.),4.40909,5.36491,1.0,0.077,3.5,3.79304,1.0,0.000
+Question 9: The URL is provided, so that's a valid question.,1.71429,3.79304,1.0,0.000,1.5,3.79304,1.0,0.200
+Now, I need to make sure the answers are accurate based on the data.,0.0,1.0,1.0,0.000,6.5,5.48607,0.92308,0.077
+   Resposta: 36,2°C.,1.0,1.85566,1.0,0.000,0.5,1.0,1.0,0.000
+   Resposta: 2,7°C.,1.0,1.85566,1.0,0.000,0.5,1.0,1.0,0.000
+   Resposta: 79,5%.,1.0,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000
+   Resposta: 162,9 dias.,1.0,1.85566,1.0,0.000,1.0,1.85566,1.0,0.000

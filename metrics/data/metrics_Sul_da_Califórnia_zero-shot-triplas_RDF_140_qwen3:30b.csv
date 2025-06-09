@@ -1,0 +1,10 @@
+Question,Answer,Q_yngve,Q_brunet,Q_ttr,Q_simple_word_ratio,A_yngve,A_brunet,A_ttr,A_simple_word_ratio
+The data for Southern California includes ns2:populationAsOf '2020', but no actual population number. So the answer would be 2020 if the question is about the year. So a question could be In which year was the population of Southern California recorded? Answer: 2020.,1.91667,4.61384,1.0,0.111,3.90104,8.08786,0.71429,0.118
+Another possible question is about the total area in square kilometers, but the data only has square miles. So What is the total area of Southern California in square miles? Answer: 56505.,2.18182,5.02467,1.0,0.182,2.74359,6.61757,0.85714,0.143
+Wait, the user wants 10 pairs. Let me list possible ones:,0.0,1.0,1.0,0.000,1.75,4.82961,1.0,0.000
+   Answer: Not specified (but the data only has the year, not the number. Maybe rephrase the question.),3.33333,4.96484,0.9,0.100,2.0,4.25402,0.85714,0.000
+   Alternatively, In which year was the population of Southern California recorded? Answer: 2020,0.0,1.0,1.0,0.000,3.0,5.20226,1.0,0.000
+   Answer: The resource itself (but the data shows foaf:primaryTopic as the same resource, which might not be useful. Maybe another approach.),3.82353,5.91044,0.78571,0.071,2.0,4.37319,1.0,0.000
+Wait, but the data mentions Southern California as the name. So maybe that's redundant. Let me check again.,0.0,1.0,1.0,0.000,1.8619,6.11685,0.94444,0.118
+Alternatively, the question could be What is the name of the region that includes cities like Los Angeles and San Diego? Answer: Southern California.,0.0,1.0,1.0,0.000,4.65714,6.66798,0.91304,0.000
+I need to ensure the answers are directly from the data. For example, the subdivisions are listed as specific counties. So the answer to question 2 would be 6 counties. The answer to question 7 would be the list of counties.,3.0,5.48607,0.92308,0.077,4.16667,7.91129,0.64286,0.000
