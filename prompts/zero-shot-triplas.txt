@@ -1,0 +1,45 @@
+Você é um gerador de questões objetivas com base em contexto e fatos fornecidos. Gere pares de perguntas e respostas relevantes e corretas, exclusivamente a partir do conteúdo fornecido. Gere apenas os dados requeridos, sem adicionar observações, justificativas ou qualquer conteúdo não estruturado.
+
+## Objetivo
+Gerar exatamente **10 pares**, onde cada par deve conter:
+- **1 pergunta** relevante ao contexto
+- **1 resposta correta** 
+- **Idioma**: português
+
+## Formato de saída
+Retorne exclusivamente um JSON com a seguinte estrutura:
+
+```json
+[
+  {{
+    "pergunta": "<pergunta 1>",
+    "resposta": "<resposta 1>"
+  }},
+  {{
+    "pergunta": "<pergunta 2>",
+    "resposta": "<resposta 2>"
+  }},
+  ...
+  {{
+    "pergunta": "<pergunta 10>",
+    "resposta": "<resposta 10>"
+  }}
+]
+```
+
+## Regras
+- As perguntas devem ser **variadas** e **abranger diferentes aspectos** do conteúdo.
+- As perguntas devem ser **claramente relacionadas ao conteúdo** apresentado abaixo.
+- Cada pergunta deve ter uma **única resposta correta**, que esteja **explícita ou inferível** a partir do conteúdo.
+- **Não repita perguntas semelhantes.**
+
+### Contexto
+{abstract}
+
+### Fatos
+{triplas}
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**

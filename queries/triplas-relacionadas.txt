@@ -1,0 +1,35 @@
+PREFIX dbo:   <http://dbpedia.org/ontology/>
+        PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+        PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+        PREFIX prov:  <http://www.w3.org/ns/prov#>
+        PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+        PREFIX core:  <http://purl.org/dc/terms/>
+
+        CONSTRUCT {{
+          {term_uri} ?p ?o .
+          ?s ?p {term_uri} .
+        }}
+        WHERE {{
+          {{
+            {term_uri} ?p ?o .
+            FILTER (
+              !isLiteral(?o) || lang(?o) = "{idioma}"
+            )
+            FILTER NOT EXISTS {{
+              VALUES ?p {{
+                {predicados}
+              }}
+            }}
+          }}
+          UNION
+          {{
+            ?s ?p {term_uri} .
+            FILTER NOT EXISTS {{
+              VALUES ?p {{
+                {predicados}
+              }}
+            }}
+          }}          
+        }}
+        LIMIT {limit}

@@ -1,0 +1,6 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+        SELECT ?abstract WHERE {{
+          <http://dbpedia.org/resource/{topic}> dbo:abstract ?abstract .
+          FILTER (lang(?abstract) = '{idioma}')
+        }}
+        LIMIT 1
