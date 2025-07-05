@@ -1,0 +1,101 @@
+<think>
+Okay, I need to help the user generate 10 pairs of questions and answers based on the given context about the 1973 oil crisis. The user provided a detailed description along with some facts, so I should focus on extracting key points from there.
+
+First, I'll review the context again. It starts in October 1973 when OPAEP members declared an oil embargo against nations supporting Israel during the Yom Kippur War. The affected countries were Canada, Japan, Netherlands, UK, and US, later expanding to Portugal, Rhodesia, and South Africa. Prices rose from $3 to $12 per barrel by March 1974, with even higher prices in the US. This led to a significant oil shock and was called the first oil shock, followed by the 1979 crisis.
+
+Looking at the facts section, there are many metadata points like categories, types, images, etc., but I should focus on extracting factual information that can form clear questions and answers.
+
+I remember from the example given that the user expects varied questions covering different aspects. So, I'll aim to create questions about causes, effects, key events, and terminology related to the crisis.
+
+Let me brainstorm possible questions:
+
+1. What was the primary reason for the 1973 oil embargo?
+2. Which countries were initially targeted by the embargo?
+3. How much did the oil price increase from its starting point in 1973?
+4. What nickname was given to this crisis, and which subsequent one is known as the second oil shock?
+5. When did the embargo end, and what was the final price per barrel then?
+6. Which countries tried to avoid being targeted by seeking a political solution?
+7. How did Nixon's administration respond to the crisis besides price controls?
+8. What were some economic impacts in the US?
+9. What role did oil prices play in inflation during this period?
+10. What actions did other nations take to cope with the oil shortage?
+
+Wait, I should make sure each question is unique and covers different aspects without overlapping too much.
+
+Let me structure them more clearly:
+
+1. Who declared the oil embargo in 1973? → OPAEP members.
+2. When did it begin? → October 1973.
+3. What was the target of the embargo? → Nations supporting Israel.
+4. Which countries were initially affected? → Canada, Japan, Netherlands, UK, US.
+5. How much did oil prices rise by March 1974? → From $3 to $12.
+6. What was another term for this crisis? → First oil shock.
+7. When was the embargo lifted? → March 1974.
+8. Which countries were added later? → Portugal, Rhodesia, South Africa.
+9. What was a consequence of the price hike in the US? → Higher prices than elsewhere.
+10. What long-term impact did it have on global politics/economy?
+
+Wait, maybe I can vary them more. Let me think again.
+
+Perhaps:
+
+1. When and who started the oil embargo?
+2. Which countries were initially targeted?
+3. What was the price increase by March 1974?
+4. What nickname is given to this crisis?
+5. How many countries were affected eventually?
+6. Why were some European countries and Japan cautious about aligning with the US?
+7. What did Nixon's administration do besides imposing controls?
+8. What economic challenges arose due to the oil shock?
+9. Which factors contributed to inflation during this period?
+10. What was a significant consequence of the oil crisis?
+
+Hmm, I need to ensure each question is clear and has an unambiguous answer based on the context provided.
+
+I think I have enough ideas now. Let me structure these into 10 pairs.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando começou a crise do petróleo de 1973?",
+    "resposta": "outubro de 1973"
+  },
+  {
+    "pergunta": "Quais países foram inicialmente alvos do embargo petrolífero em 1973?",
+    "resposta": "Canadá, Japão, Holanda, Reino Unido e Estados Unidos"
+  },
+  {
+    "pergunta": "Qual foi aumento no preço do petróleo até março de 1974?",
+    "resposta": "de US$ 3 para quase US$ 12 por barril"
+  },
+  {
+    "pergunta": "Qual foi outro termo usado para descrever a crise petrolífera de 1973?",
+    "resposta": "primeiro choque do petróleo"
+  },
+  {
+    "pergunta": "Quantos países foram afetados pelo embargo, incluindo os adicionais?",
+    "resposta": "setembro países, incluindo Portugal, Rodésia e África do Sul"
+  },
+  {
+    "pergunta": "Por que alguns países europeus e o Japão evitaram o embargo?",
+    "resposta": "para não serem alvos do boicote"
+  },
+  {
+    "pergunta": "O que fez a administração Nixon além de controlar os preços?",
+    "resposta": "negociou com Israel para retirar tropas da Península do Sinai e Colinas de Golan"
+  },
+  {
+    "pergunta": "Qual foi um desafio econômico nos EUA após a crise?",
+    "resposta": "aumento significativo no preço do petróleo"
+  },
+  {
+    "pergunta": "Como o embargo afetou a inflação global?",
+    "resposta": "provocou aumento generalizado de preços e desestabilização econômica"
+  },
+  {
+    "pergunta": "Qual foi uma consequência significativa da crise petrolífera?",
+    "resposta": "fortalecimento dos movimentos a favor do ambientalismo e eficiência energética"
+  }
+]
+```

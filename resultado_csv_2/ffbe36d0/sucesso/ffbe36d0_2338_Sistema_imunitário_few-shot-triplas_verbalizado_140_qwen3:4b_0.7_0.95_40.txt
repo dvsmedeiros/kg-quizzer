@@ -1,0 +1,108 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by understanding the content thoroughly. The context explains the immune system's role in protecting organisms, its components, and related concepts like autoimmune diseases and immunodeficiency. The facts list various elements that are part of the immune system, such as basophil, T cell, B cell, macrophage, etc., as well as some images, templates, and other related terms.
+
+First, I should ensure that each question is unique and covers different aspects. The examples given include questions about the purpose of the immune system, agents it detects, types of immunity, and specific components. I need to avoid repeating similar questions. Let me check the facts again to see what elements I can use.
+
+From the facts, there are several cells and components: basophil, T cell, B cell, macrophage, neutrophil, dendritic cell, lymphocyte, monocyte, eosinophil, mast cell, natural killer cell, granulocyte, monoblast, Langerhans cell, Histiocyte, etc. Also, there are terms like adaptive immunity, innate immunity, autoimmune diseases, immunodeficiency, sepsis, food allergy, rheumatology, and others.
+
+I need to create questions that ask about these elements, their roles, or related concepts. For example, asking which cells are part of the immune system. Also, the context mentions the origin of the term "immune system" by Ilya Mechnikov, so that's a good point. The fact that the immune system has images and templates might be relevant, but the examples don't include those, so maybe not. However, the user provided examples that include some of these, but the user wants to generate new ones.
+
+Wait, the user's instruction says to generate questions based on the context and facts provided. The context includes the origin of the term, the function of the immune system, and the different types of immunity. The facts list various cells and components that are part of the immune system.
+
+So, possible questions could be:
+
+1. Which scientist is credited with coining the term "immune system"? (Answer: Ilya Ilyich Mechnikov)
+
+2. What is the primary function of the immune system? (Answer: Protect the organism against diseases)
+
+3. What are the two main types of immunity? (Answer: Innate and adaptive immunity)
+
+4. What is the term for a system where the immune system attacks the body's own tissues? (Answer: Autoimmunity)
+
+5. What is the condition called when the immune system is less active than normal? (Answer: Immunodeficiency)
+
+6. Which cells are part of the immune system? (Answer: T cell, B cell, macrophage, etc.)
+
+7. What is the role of the adaptive immune system? (Answer: Create memory to respond to pathogens more effectively)
+
+8. What is an example of a disease caused by an overactive immune system? (Answer: Rheumatoid arthritis)
+
+9. What is the term for a cell that engulfs pathogens? (Answer: Phagocyte, like macrophage or neutrophil)
+
+10. Which part of the immune system is involved in recognizing antigens? (Answer: Lymphocytes, like B cells and T cells)
+
+Wait, but I need to check if these are all covered in the facts. Let me go through each fact again to ensure the answers are accurate. For example, the immune system has components like T cells, B cells, macrophages, neutrophils, dendritic cells, etc. The adaptive immunity is mentioned, as well as the innate. Autoimmunity is discussed, and immunodeficiency as well.
+
+Also, the fact that "Food allergy has a medical cause related to the immune system" could be a question. Similarly, "Sepsis is caused by the immune system" is mentioned. However, the examples provided by the user include questions about the cause of sepsis, but the user wants to avoid repeating similar questions. So maybe that's acceptable.
+
+Another point: the immune system has different cells like mast cells, eosinophils, basophils, etc. So a question about which cells are part of the immune system.
+
+I need to make sure each question is unique and covers different aspects. Let me list possible questions:
+
+1. Who is credited with coining the term "immune system"? (Ilya Ilyich Mechnikov)
+
+2. What is the primary function of the immune system? (Protect against diseases)
+
+3. What are the two main types of immunity? (Innate and adaptive)
+
+4. What is the term for when the immune system attacks the body's own tissues? (Autoimmunity)
+
+5. What is the condition when the immune system is underactive? (Immunodeficiency)
+
+6. Which cells are part of the immune system? (T cell, B cell, macrophage, neutrophil, etc.)
+
+7. What is the role of the adaptive immune system? (Memory for effective response)
+
+8. What is an example of an autoimmune disease? (Rheumatoid arthritis)
+
+9. What is the term for a cell that engulfs pathogens? (Phagocyte)
+
+10. What is the main component of the immune system that recognizes antigens? (Lymphocytes)
+
+I need to check if these are all covered in the context and facts. The context mentions the origin of the term, the function, the two types of immunity, autoimmune and immunodeficiency. The cells listed in the facts include T cell, B cell, macrophage, neutrophil, etc. The adaptive immunity is part of the immune system's function. Also, the example of rheumatoid arthritis is given as an autoimmune disease.
+
+I think these 10 questions are valid. Let me structure them into JSON format as per the instructions.
+</think>
+
+[
+  {
+    "pergunta": "Quem é considerado o pai da imunologia?",
+    "resposta": "Ilya Ilyich Mechnikov"
+  },
+  {
+    "pergunta": "Qual é a função principal do sistema imunológico?",
+    "resposta": "Proteger o organismo contra doenças"
+  },
+  {
+    "pergunta": "Quais são os dois tipos principais de imunidade?",
+    "resposta": "Imunidade inata e imunidade adaptativa"
+  },
+  {
+    "pergunta": "O que ocorre quando o sistema imunológico ataca tecidos do próprio corpo?",
+    "resposta": "Autoimunidade"
+  },
+  {
+    "pergunta": "Qual é o termo para uma imunidade insuficiente que causa infecções recorrentes?",
+    "resposta": "Imunodeficiência"
+  },
+  {
+    "pergunta": "Quais células são parte do sistema imunológico?",
+    "resposta": "T cell, B cell, macrófago, neutrófilo, mastófilo"
+  },
+  {
+    "pergunta": "O que é a imunidade adaptativa?",
+    "resposta": "Capacidade de criar memória imunológica para responder eficientemente a patógenos"
+  },
+  {
+    "pergunta": "Qual é um exemplo de doença autoimune?",
+    "resposta": "Artrite reumatóide"
+  },
+  {
+    "pergunta": "O que é um fagócito?",
+    "resposta": "Célula que engole patógenos, como o macrófago ou neutrófilo"
+  },
+  {
+    "pergunta": "Quais células são responsáveis por reconhecer antígenos no sistema imunológico?",
+    "resposta": "Linfócitos, como os B cells e T cells"
+  }
+]

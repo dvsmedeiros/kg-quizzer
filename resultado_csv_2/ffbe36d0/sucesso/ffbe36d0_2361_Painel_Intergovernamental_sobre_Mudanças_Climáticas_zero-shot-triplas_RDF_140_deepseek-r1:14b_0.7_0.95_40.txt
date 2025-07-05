@@ -1,0 +1,56 @@
+<think>
+Ok, preciso gerar 10 pares de perguntas e respostas baseados no contexto fornecido sobre o IPCC. Primeiro, vou analisar o material para identificar quais informações são relevantes.
+
+O texto explica que o IPCC foi criado em 1988 pelas Nações Unidas, foca no aquecimento global, não produz pesquisa original, mas reúne estudos de cientistas. Também menciona que recebeu o Nobel da Paz em 2007 e já publicou vários relatórios.
+
+Os fatos em RDF indicam que o IPCC tem sede em Genebra, foi criado pelas Nações Unidas, e envolve cientistas independentes. Algumas pessoas associadas incluem Bert Bolin, Rajendra Pachauri e outros.
+
+Agora, preciso criar perguntas variadas cobrindo diferentes aspectos: data de criação, órgão responsável, sede, objetivo, reconhecimentos, cientistas envolvidos, número de relatórios, etc. Cada pergunta deve ter uma única resposta clara e baseada no contexto.
+
+Vou evitar repetições e garantir que as perguntas cubram diferentes tópicos. Por exemplo: ano de criação, órgão criador, sede, objetivo principal, Nobel, cientistas associados, número de relatórios, etc.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em qual ano foi criado o IPCC?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "Quais organismos foram responsáveis pela criação do IPCC?",
+    "resposta": "Programa das Nações Unidas para o Meio Ambiente (PNUMA) e a Organização Meteorológica Mundial (OMM)"
+  },
+  {
+    "pergunta": "Onde está localizada a sede do IPCC?",
+    "resposta": "Genebra, Suíça"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal do IPCC?",
+    "resposta": "Sintetizar e divulgar o conhecimento mais avançado sobre as mudanças climáticas, especificamente o aquecimento global"
+  },
+  {
+    "pergunta": "O IPCC recebeu qual reconhecimento importante em 2007?",
+    "resposta": "Prêmio Nobel da Paz"
+  },
+  {
+    "pergunta": "Qual foi o primeiro relatório do IPCC?",
+    "resposta": "Relatório de 1990"
+  },
+  {
+    "pergunta": "Qual foi o último relatório produzido pelo IPCC até 2014?",
+    "resposta": "Relatório de 2014"
+  },
+  {
+    "pergunta": "Quem é um dos cientistas associados ao IPCC citado nos fatos?",
+    "resposta": "Rajendra K. Pachauri"
+  },
+  {
+    "pergunta": "Qual livro foi escrito pelo IPCC e mencionado no contexto?",
+    "resposta": "Renewable Energy Sources and Climate Change Mitigation"
+  },
+  {
+    "pergunta": "Quantas pessoas estiveram envolvidas na produção dos relatórios do IPCC?",
+    "resposta": "Milhares de cientistas reputados"
+  }
+]
+```

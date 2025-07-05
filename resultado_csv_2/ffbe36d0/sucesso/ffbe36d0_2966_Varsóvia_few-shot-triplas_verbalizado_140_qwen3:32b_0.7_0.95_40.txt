@@ -1,0 +1,71 @@
+<think>
+Alright, let's start by understanding the user's requirements. They want 10 question-answer pairs based on the provided context and facts about Warsaw. The output must be in JSON format, with each pair containing a relevant question and a correct answer, all in Portuguese.
+
+First, I'll go through the context and the facts to identify key points. The context gives general information about Warsaw, like its location, history, population, and notable institutions. The facts list various people, events, and locations associated with Warsaw. 
+
+I need to create questions that cover different aspects. For example, from the context, I can ask about the population in 2012, the river it's situated on, the distance to the Baltic Sea, and the UNESCO World Heritage status. From the facts, I can mention notable people born or died there, institutions based in Warsaw, and specific events.
+
+I should ensure each question is unique and not repetitive. Let me start by listing possible questions:
+
+1. Which river does Warsaw lie on? (Vístula)
+2. What was the estimated population of Warsaw in 2012? (1,716,855)
+3. How far is Warsaw from the Baltic Sea? (260 km)
+4. What historical event in 1943 is mentioned regarding Warsaw? (Warsaw Ghetto Uprising)
+5. Which university is located in Warsaw? (University of Warsaw)
+6. What organization is headquartered in Warsaw? (Frontex)
+7. What title did Warsaw earn due to its post-WWII reconstruction? (Phoenix City)
+8. When was Warsaw's Old Town declared a UNESCO site? (1980)
+9. What is the name of the pact associated with Warsaw? (Pact of Warsaw)
+10. Which football competition is based in Warsaw? (League Cup in Polish Football)
+
+Now, checking for uniqueness and coverage. The questions touch on geography, history, institutions, and notable events. Each answer is explicitly stated in the context or facts. I need to ensure the answers are correct and match the provided data. For example, the answer to the football competition question is from the facts section.
+
+Also, the user mentioned to avoid any additional content, so the JSON should be clean with exactly 10 pairs. Let me verify each question and answer against the provided data to ensure accuracy. For instance, the Pact of Warsaw is mentioned in the context. The answer for the university is correct as the University of Warsaw is listed in the context.
+
+I think that's all. Let me structure the JSON accordingly.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em que rio está localizada a cidade de Varsóvia?",
+    "resposta": "Vístula"
+  },
+  {
+    "pergunta": "Qual é a população estimada de Varsóvia em 2012?",
+    "resposta": "1 716 855 habitantes"
+  },
+  {
+    "pergunta": "A que distância fica Varsóvia da costa do mar Báltico?",
+    "resposta": "cerca de 260 km"
+  },
+  {
+    "pergunta": "Qual evento histórico ocorreu em Varsóvia em 1943, relacionado à resistência judaica?",
+    "resposta": "Levante do Gueto de Varsóvia"
+  },
+  {
+    "pergunta": "Qual instituição de ensino superior está sediada em Varsóvia e é mencionada no texto?",
+    "resposta": "Universidade de Varsóvia"
+  },
+  {
+    "pergunta": "Qual organização europeia da segurança de fronteiras tem sede em Varsóvia?",
+    "resposta": "Frontex"
+  },
+  {
+    "pergunta": "Qual título Varsóvia recebeu por conta de sua reconstrução após a Segunda Guerra Mundial?",
+    "resposta": "Phoenix City"
+  },
+  {
+    "pergunta": "Em que ano o Bairro Velho de Varsóvia foi declarado Patrimônio Mundial da UNESCO?",
+    "resposta": "1980"
+  },
+  {
+    "pergunta": "Qual pacto internacional é associado ao nome de Varsóvia segundo o texto?",
+    "resposta": "Pacto de Varsóvia"
+  },
+  {
+    "pergunta": "Qual competição de futebol está sediada em Varsóvia conforme os fatos fornecidos?",
+    "resposta": "League Cup in Polish Football"
+  }
+]
+```

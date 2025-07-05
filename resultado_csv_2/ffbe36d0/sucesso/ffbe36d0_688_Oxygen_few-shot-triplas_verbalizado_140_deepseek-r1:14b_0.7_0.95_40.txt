@@ -1,0 +1,112 @@
+<think>
+Okay, so I need to generate exactly 10 pairs of questions and answers based on the given context about oxygen. The user provided a detailed description of oxygen's properties, discovery, and applications, along with some facts from Wikipedia pages.
+
+First, I should carefully read through the context to identify key points that can form the basis of questions. Let me list out important details:
+
+1. Atomic number 8.
+2. Symbol O.
+3. Mass number 16 u.
+4. Part of chalcogens group.
+5. Second most electronegative element, after fluorine.
+6. Abundance: third in universe, most in Earth's crust as part of oxides.
+7. Forms O2 gas, making up ~20.8% of atmosphere.
+8. Vital for life; used in respiration and many organic molecules.
+9. Declining atmospheric levels due to fossil fuel emissions.
+10. Discovered by Scheele and Priestley, named by Lavoisier.
+11. Applications: steel production, rocket propellants, medical use, etc.
+
+Now, I need to create varied questions covering different aspects without repeating similar ones. Let me think of various categories: properties, abundance, atmosphere, discovery, applications, reactions, etc.
+
+Possible questions:
+
+- What is oxygen's atomic number?
+- Which group does it belong to?
+- What percentage does it make in the Earth's crust?
+- Who discovered it?
+- What's its role in the atmosphere?
+- How does it support life?
+- What are its uses?
+
+Wait, looking at the example provided, I see questions like "O número atômico da tabela periódica de oxigênio?" which translates to "What is oxygen's atomic number?". So I can structure similar ones.
+
+I should ensure each question has a single correct answer from the context. Let me draft them:
+
+1. Pergunta: Qual é o número atômico do oxigênio?
+   Resposta: 8.
+
+2. Pergunta: De qual grupo químico o oxigênio faz parte?
+   Resposta: Calcogénios.
+
+3. Pergunta: Qual a massa atómica de um átomo de oxigênio simples?
+   Resposta: 16 u.
+
+4. Pergunta: Quem descobriu o oxigênio?
+   Resposta: Carl Wilhelm Scheele e Joseph Priestley.
+
+5. Pergunta: O que os organismos usam para respirar?
+   Resposta: Oxigénio.
+
+6. Pergunta: Qual gás compõe a maior parte da atmosfera terrestre?
+   Resposta: Dioxigênio (O2).
+
+7. Pergunta: Qual a função do ozono na Terra?
+   Resposta: Protetor contra radiação UV.
+
+8. Pergunta: O que aconteceu com os níveis de oxigénio atmosférico?
+   Resposta: Estão diminuindo.
+
+9. Pergunta: Quem desacreditou a teoria do flogisto?
+   Resposta: Antoine Lavoisier.
+
+10. Pergunta: Qual é o principal uso do oxigênio industrialmente?
+    Resposta: Produção de aço, propelente para foguetes, entre outros.
+
+Wait, checking the facts provided, there's mention of Oxygen being used in calefações, motores, production of steel, plastics, etc. So the last question can be more specific.
+
+I should ensure each question is unique and covers different aspects without overlapping too much with others.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o número atômico do oxigênio?",
+    "resposta": "8."
+  },
+  {
+    "pergunta": "De qual grupo químico o oxigênio faz parte?",
+    "resposta": "Calcogénios."
+  },
+  {
+    "pergunta": "Qual a massa atómica de um átomo de oxigênio simples?",
+    "resposta": "16 u."
+  },
+  {
+    "pergunta": "Quem descobriu o oxigênio?",
+    "resposta": "Carl Wilhelm Scheele e Joseph Priestley."
+  },
+  {
+    "pergunta": "O que os organismos usam para respirar?",
+    "resposta": "Oxigénio."
+  },
+  {
+    "pergunta": "Qual gás compõe a maior parte da atmosfera terrestre?",
+    "resposta": "Dioxigênio (O2)."
+  },
+  {
+    "pergunta": "Qual a função do ozono na Terra?",
+    "resposta": "Protetor contra radiação UV."
+  },
+  {
+    "pergunta": "O que aconteceu com os níveis de oxigénio atmosférico?",
+    "resposta": "Estão diminuindo."
+  },
+  {
+    "pergunta": "Quem desacreditou a teoria do flogisto?",
+    "resposta": "Antoine Lavoisier."
+  },
+  {
+    "pergunta": "Qual é o principal uso industrial do oxigênio?",
+    "resposta": "Produção de aço, propelente para foguetes e outros usos."
+  }
+]
+```

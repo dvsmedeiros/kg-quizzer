@@ -1,0 +1,56 @@
+<think>
+Ok, eu preciso geração de 10 perguntas e respostas relacionadas à complexidade computacional. Primeiro, entendo que a complexidade computacional é uma parte da teoria da computação que se ocupa com classificar problemas baseada no recursos employedos, como tempo e espaço. 
+
+Vou começar identificando alguns dos nomes de pesquisadores relevantes nessa área, como Christos Papadimitriou, David Shmoys, Georg Gottlob, Irit Dinur, Jean-Paul Delahaye e outros. Essa info está disponível no contexto fornecido.
+
+Agora, vou tentar formular perguntas que cobram variedade dos temas: definições básicas, exemplos de classes de complexidade, hierarquias, teoremas fundamentais e aplicações práticas. Devo garantir que as respostas sejam claras e explícitas.
+
+Vou evitar perguntas repetitivas e garantir que cada uma abrange um aspecto distincto do tema. Também vou verificar que as respostas estão corretas, possivelmente verificando info confiante ou recorrendo a minhas conhecimentos sobre computação teórica.
+
+Finalmente, vou estruturar o JSON conforme os requisitos: 10 pares, cada com uma pergunta e uma resposta, sem ada observações ou Justificações.
+</think>
+
+```json
+[
+    {
+        "pergunta": "Qual é um exemplo de uma classe de complexidade que representa problemas cuja soluções podem ser verificadas em tempo polilogiamico?",
+        "resposta": "CLasse P"
+    },
+    {
+        "pergunta": "Em que ramo da computação a complexidade computacional tem seu raízes?",
+        "resposta": "Ciência da Computação Teórica"
+    },
+    {
+        "pergunta": "Qual é um dos teoremas mais importantes na complexidade computacional?",
+        "resposta": "Teorema da Hierarquia de Cook-Levin"
+    },
+    {
+        "pergunta": "Para que serve a Reduction em algoritmos?",
+        "resposta": "Prove a complexidade de problemas NP-completos"
+    },
+    {
+        "pergunta": "Qual é o nome da classe que representa os problemas que podem ser resolvidos com algorítimos determinísticos em tempo polinomial?",
+        "resposta": "P"
+    },
+    {
+        "pergunta": "O que significa dizer que um problema é NP-completo?",
+        "resposta": "É NP e Reduction de todos os problemas NP-completos a ele"
+    },
+    {
+        "pergunta": "Qual é o propósito da conjectura P vs NP?",
+        "resposta": "Determinar se todo problema cuja solução pode ser verificada em tempo polinomial pode também ser resolvido em tempo polinomial."
+    },
+    {
+        "pergunta": "O que é um algorítimo de aproximação?",
+        "resposta": "Algorítimos que encontram soluções approximadas para problemas NP-hard"
+    },
+    {
+        "pergunta": "Qual é o significado da notação Θ na complexidade algorítmica?",
+        "resposta": "O giro do Complexidade Assintótica, representando both superioridade e inferioridade."
+    },
+    {
+        "pergunta": "Para que serve a diagramação de classes de complexidade?",
+        "resposta": "Organizar e mostrar as relações entre diferentes classes de complexidade"
+    }
+]
+```

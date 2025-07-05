@@ -1,0 +1,94 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. The context is about the immune system. I need to make sure each question is relevant and the answer is either explicit or inferable from the text.
+
+First, I'll read through the context again. It mentions the immune system's functions, Mechnikov coining the term in 1882, different mechanisms like phagocytosis, defensins, complement system, and adaptive immunity. There's also info on disorders like immunodeficiency and autoimmunity, plus the role in vaccination.
+
+The facts provided are in RDF format, linking various elements to the immune system. For example, B cells, dendritic cells, etc. But the user said to use the context and facts provided. However, the main context is the paragraph above, and the facts are in the RDF. Since the user mentioned "exclusivamente a partir do conteúdo fornecido," I think the main context is the paragraph, and the facts might be additional data, but perhaps the user wants the answers based on the paragraph. The facts might be more technical, but maybe the questions can be derived from both.
+
+But the user example uses the context paragraph. For instance, the first question could be about who coined the term. The answer is Mechnikov in 1882. So I should focus on the paragraph first. Let me list possible topics:
+
+1. Who coined the term "immune system"? Answer: Mechnikov in 1882.
+2. What is the role of the immune system? Answer: Protect the body from diseases.
+3. What are some basic mechanisms? Answer: Phagocytosis, defensins, complement system.
+4. What is adaptive immunity? Answer: The system creates memory for faster response.
+5. What is vaccination based on? Answer: Adaptive immunity.
+6. What causes immunodeficiency? Answer: Genetic diseases, HIV/SIDA, immunosuppressants.
+7. What is autoimmunity? Answer: The immune system attacks the body.
+8. What are examples of autoimmune diseases? Answer: Rheumatoid arthritis, type 1 diabetes.
+9. What are some immune system cells mentioned? Answer: B cells, T cells, etc. (from the facts)
+10. What is the study of the immune system called? Answer: Immunology.
+
+Wait, the facts include B cells, dendritic cells, etc. So maybe some questions can refer to those. But the user's example in the context doesn't mention all those cells, so maybe the main context is the paragraph. However, the facts are part of the provided data, so maybe I should include some of those. For example, the fact that B cells are part of the immune system.
+
+But the user's instruction says to use the context and facts provided. So perhaps the facts are additional data points. For example, the fact that "B_cell" is part of the immune system. So maybe a question like "Which cells are part of the immune system?" and the answer could list some from the facts, but the context mentions B cells and T cells in the paragraph as well. So combining both.
+
+But the user wants the answers to be explicit or inferable from the context. So if the context mentions B cells and T cells, then those are fair game. Let me check the context again. The context says: "Os vertebrados... desenvolveram mecanismos de defesa... como as células B e T (implied in the paragraph)." Wait, in the paragraph, it mentions B cells and T cells? Let me check again.
+
+Looking at the context: "O processo de imunidade adquirida... como a artrite reumatóide ou a diabetes de tipo 1." Wait, the paragraph mentions that adaptive immunity is the basis of vaccination. But the actual mention of B and T cells is in the facts. So the user's context doesn't explicitly mention B or T cells. Hmm. So maybe I shouldn't include them unless the context does. The user's context mentions "mechanisms of defense... as fagocitose, os peptídeos antimicrobianos designados defensinas, e o sistema complemento." So the basic mechanisms are phagocytosis, defensins, complement.
+
+The facts list various cells like B cells, T cells, dendritic cells, etc. So if the user includes the facts, maybe those cells can be part of the questions. But the user's instruction says to use both context and facts. However, the example in the user's question includes a pergunta about the term coined by Mechnikov, which is in the context. So I need to balance between context and the facts. But the user might expect that the answer is based on the context first.
+
+Let me proceed step by step. I need 10 questions. Let's list possible questions:
+
+1. Quem cunhou o termo "sistema imunitário"? Resposta: Ilya Ilyich Mechnikov em 1882.
+2. Qual é a função do sistema imunitário? Resposta: Proteger o organismo contra doenças.
+3. Quais são os mecanismos básicos do sistema imunitário mencionados no texto? Resposta: Fagocitose, defensinas e sistema complemento.
+4. O que é imunidade adquirida? Resposta: Capacidade de criar memória imunológica para responder melhor a novos ataques.
+5. Qual é a base da vacinação? Resposta: Imunidade adquirida.
+6. Quais são as causas da imunodeficiência? Resposta: Doenças genéticas, VIH/SIDA, uso de imunossupressores.
+7. O que é autoimunidade? Resposta: Sistema imunitário ataca tecido normal.
+8. Quais doenças são exemplos de autoimunidade? Resposta: Artrite reumatóide e diabetes de tipo 1.
+9. Qual é a área científica que estuda o sistema imunitário? Resposta: Imunologia.
+10. Quais células mencionadas nos fatos fazem parte do sistema imunitário? Resposta: Células B, células dendríticas, etc. (mas no contexto, talvez mencione células B e T?)
+
+Wait, in the context, it says "Os vertebrados... desenvolveram mecanismos de defesa... como as células B e T (implícitas no mecanismo de imunidade adquirida)?". Wait, the context mentions adaptive immunity as the basis of vaccination. The paragraph says "O processo de imunidade adquirida é a base da vacinação." But in the paragraph, it's not explicitly mentioning B and T cells. However, the facts list B cells, T cells, etc. So if the user allows using the facts, then those cells can be part of the answers. However, the user's instruction says "exclusivamente a partir do conteúdo fornecido," which includes both the context and the facts. But the user might prefer that the answers are based on the context first. Let me check the example given in the user's message. The example question is about Mechnikov, which is in the context. So perhaps the user expects that the answers are derived from the context, and the facts are supplementary. So maybe the cells mentioned in the facts should be included if the context mentions them. However, the context doesn't mention B cells, but the facts do. So perhaps the user wants to include those as well. For example, a question like "Quais células mencionadas nos fatos fazem parte do sistema imunitário?" with the answer listing some from the facts. But the user's context doesn't mention them, so it's a bit of a dilemma.
+
+Alternatively, maybe the user expects that the facts are to be considered as part of the data. So for example, the fact that "B_cell" is part of the immune system. So a question could be "Quais células estão relacionadas ao sistema imunitário, conforme os fatos?" and the answer could list some. But the user's instruction says to use the context and facts. So perhaps combining both.
+
+But given the user's example, it's better to stick to the context. So for the 10th question, perhaps something about the study of the immune system, which is immunology. Let me proceed to create 10 questions based on the context and the facts, ensuring that answers are in the context or can be inferred from it.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem cunhou o termo 'sistema imunitário' e em que ano?",
+    "resposta": "Ilya Ilyich Mechnikov em 1882."
+  },
+  {
+    "pergunta": "Qual é a principal função do sistema imunitário segundo o texto?",
+    "resposta": "Proteger o organismo contra doenças."
+  },
+  {
+    "pergunta": "Quais são os mecanismos básicos do sistema imunitário mencionados no texto?",
+    "resposta": "Fagocitose, defensinas e sistema complemento."
+  },
+  {
+    "pergunta": "O que caracteriza a imunidade adquirida?",
+    "resposta": "A capacidade de criar memória imunológica para responder mais eficientemente a novos ataques."
+  },
+  {
+    "pergunta": "Qual é a base científica da vacinação, conforme o texto?",
+    "resposta": "A imunidade adquirida."
+  },
+  {
+    "pergunta": "Quais são as causas da imunodeficiência mencionadas no texto?",
+    "resposta": "Doenças genéticas, infecção pelo HIV/SIDA e uso de imunossupressores."
+  },
+  {
+    "pergunta": "Como se define a autoimunidade segundo o texto?",
+    "resposta": "O sistema imunitário ataca tecidos normais do próprio organismo."
+  },
+  {
+    "pergunta": "Quais doenças são citadas como exemplos de autoimunidade no texto?",
+    "resposta": "Artrite reumatóide e diabetes mellitus tipo 1."
+  },
+  {
+    "pergunta": "Qual é a área científica que estuda o sistema imunitário?",
+    "resposta": "A imunologia."
+  },
+  {
+    "pergunta": "Quais células mencionadas nos fatos fazem parte do sistema imunitário?",
+    "resposta": "Células B, células T, células dendríticas e macrófagos."
+  }
+]
+```

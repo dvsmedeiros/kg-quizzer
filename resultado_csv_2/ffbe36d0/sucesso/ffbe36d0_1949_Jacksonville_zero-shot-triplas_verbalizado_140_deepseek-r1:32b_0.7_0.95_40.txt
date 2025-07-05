@@ -1,0 +1,69 @@
+<think>
+Okay, so I need to generate 10 question-answer pairs based on the provided context and facts about Jacksonville, Florida. Let me start by understanding what's given.
+
+First, the context mentions that Jacksonville is the most populous city in Florida, located in Duval County, and it's the 12th largest city in the US with a population of nearly 950,000 as per the 2020 census. It was founded in 1791 and incorporated in 1832. The city is situated along the St. Johns River, about 40 km south of Georgia and 528 km north of Miami. Historically, it was inhabited by the Timucua people, had a French colony called Fort Caroline in 1564, and later became significant under British rule as Cow Ford. It's named after Andrew Jackson.
+
+Looking at the facts provided, there are several mentions of people born or dying in Jacksonville, sports teams playing there, historical events like the Super Bowl in 2005, and various other places and organizations located there.
+
+I need to create varied questions covering different aspects: population stats, geographical info, history, culture, notable residents, sports, etc. Each question should have a single correct answer from the given data.
+
+Let me brainstorm possible questions:
+
+1. Population size based on 2020 census.
+2. Ranking in US city populations.
+3. Year of incorporation.
+4. Nicknames of the city.
+5. Original inhabitants before European settlement.
+6. First European colony established there.
+7. River it's situated along.
+8. Distance from Miami.
+9. Historical name under British rule.
+10. Which sports teams have played in Jacksonville.
+
+I should ensure each question is clear and only has one correct answer, avoiding any ambiguity.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a população de Jacksonville, Florida, conforme o censo de 2020?",
+    "resposta": "Quase 950 mil habitantes"
+  },
+  {
+    "pergunta": "Em qual posição está Jacksonville entre as cidades mais populosas dos Estados Unidos?",
+    "resposta": "12ª mais populosa do país"
+  },
+  {
+    "pergunta": "Em que ano Jacksonville foi incorporada?",
+    "resposta": "9 de fevereiro de 1832"
+  },
+  {
+    "pergunta": "Quais são os apelidos de Jacksonville, Florida?",
+    "resposta": "\"Jax\", \"The River City\", The Bold New City of the South"
+  },
+  {
+    "pergunta": "Qual foi o povo original que habitou a área onde hoje está Jacksonville?",
+    "resposta": "Povo Timucua"
+  },
+  {
+    "pergunta": "Qual foi a primeira colônia européia estabelecida em Jacksonville?",
+    "resposta": "Fort Caroline"
+  },
+  {
+    "pergunta": "Em qual rio Jacksonville está localizada?",
+    "resposta": "Rio St. Johns"
+  },
+  {
+    "pergunta": "Qual é a distância de Jacksonville para Miami?",
+    "resposta": "528 quilômetros ao norte"
+  },
+  {
+    "pergunta": "Como era conhecido o ponto estreito do rio St. Johns durante o domínio britânico?",
+    "resposta": "Cow Ford"
+  },
+  {
+    "pergunta": "Qual equipe de futebol americano jogou em Jacksonville no Super Bowl XXXIX?",
+    "resposta": "Houston Texans na temporada de 2010 e Indianapolis Colts em 2022, entre outros."
+  }
+]
+```

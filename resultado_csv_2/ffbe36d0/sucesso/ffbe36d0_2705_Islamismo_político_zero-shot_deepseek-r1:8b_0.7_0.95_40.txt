@@ -1,0 +1,73 @@
+<think>
+Okay, so I need to generate 10 pairs of questions and correct answers based on the provided context about Islamic political ideology. Let me start by understanding what the user is asking for.
+
+First, the user wants exactly 10 pairs. Each pair should have one relevant question and one correct answer. All in Portuguese. Also, the questions must be varied and cover different aspects of the content, and each should have only one correct answer that's explicitly or inferably derived from the context.
+
+Looking at the context provided, it's about Islamic political ideology. I need to think about key concepts and figures related to this area. Maybe include questions about influential people, principles, movements, and significant events.
+
+I'll list out possible aspects: leaders like Sayyid Qutb or Hassan al-Banna, major works such as "Hijr" by Qutb, political movements like the Brotherhood, key concepts like Sharia, and significant conflicts involving Islamic groups.
+
+Now, I should formulate questions that touch on these areas. For each question, the answer must be accurate based on the context. Let me ensure not to repeat similar questions and cover different aspects each time.
+
+I need to make sure the JSON structure is correct with 10 objects, each having "pergunta" and "resposta" keys. Also, I should avoid any additional information or justifications, only provide the required data.
+
+Let me go through some points:
+
+1. Qutb's role in the Brotherhood.
+2. The purpose of "Hijr."
+3. The leader of the Brotherhood in Egypt.
+4. The goal of Jihad as per the Brotherhood.
+5. The main source of authority in Sharia.
+6. The significance of Al-Azhar in Islamic education.
+7. A fatwa against secularism by al-Banna.
+8. The location of the first Rashidun caliphate.
+9. Qutb's view on the Qur'an as a guide for governance.
+10. The founder of the Brotherhood.
+
+I think these cover various aspects and ensure each question is distinct and relevant. Now, I'll structure them into JSON format as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi o papel de Sayyid Qutb na organização Musbrotherhood?",
+    "resposta": "Sayyid Qutb foi um membro destacado da Irmandade Muçulmana, onde seu pensamento teológico e político teve um grande impacto na ideologia islâmica política."
+  },
+  {
+    "pergunta": "Qual foi o objetivo principal do livro 'Hijr' escrito por Sayyid Qutb?",
+    "resposta": "O livro 'Hijr' buscou estabelecer a supremacia de Deus no governo e na sociedade, inspirando a adoção de uma forma de governo baseada nas leis islâmicas."
+  },
+  {
+    "pergunta": "Quem foi o líder principal da Irmandade Muçulmana no Egito?",
+    "resposta": "Hassan al-Banna foi um dos fundadores e líderes mais proeminentes da Irmandade Muçulmana no Egito."
+  },
+  {
+    "pergunta": "O que a Irmandade Muçulmana entende por Jihad?",
+    "resposta": "Para a Irmandade Muçulmana, o Jihad é uma luta não apenas militar, mas também espiritual e cultural para promover a sharia e a justiça social."
+  },
+  {
+    "pergunta": "De onde provêm as decisões sobre o que é permitido na Sharia?",
+    "resposta": "As decisões em matéria de Sharia são baseadas no Corão, na Sunna e na opinião dos ulemás qualificados."
+  },
+  {
+    "pergunta": "Qual foi a importância da escola Al-Azhar no contexto islâmico?",
+    "resposta": "A escola Al-Azhar é considerada um centro de aprendizagem islâmica, tendo formado muitos intellecuals e líderes na história do islamismo."
+  },
+  {
+    "pergunta": "Hassan al-Banna em que foi emitido um fatwa contra o secularismo?",
+    "resposta": "Hassan al-Banna emitiu uma fatwa condenando o secularismo, alegando que ele contraria os princípios islâmicos de governo e religião."
+  },
+  {
+    "pergunta": "Qual foi a localização do primeiro califado Rashidun?",
+    "resposta": "O primeiro califado Rashidun teve seu centro em Medina, na Arábia Saudita."
+  },
+  {
+    "pergunta": "Como Sayyid Qutb viu o Alcorão como orientação para o governo?",
+    "resposta": "Sayyid Qutb acreditava que o Alcorão deveria ser a base para a governança, inspirando um sistema político e social conforme descrito em sua obra."
+  },
+  {
+    "pergunta": "Quem foi o fundador da Irmandade Muçulmana?",
+    "resposta": "A Irmandade Muçulmana foi fundada por Hassan al-Banna no início do século XX."
+  }
+]
+```

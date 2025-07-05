@@ -1,0 +1,94 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. First, I need to read through the context carefully to identify key points. The main information here is about Ctenophora, their characteristics, habitat, size, and relation to other organisms.
+
+Looking at the context: They are marine animals, have cilia in comb rows for movement, are bioluminescent, and are found in various aquatic environments. They're different from cnidarians despite similarities. The fossil record dates back to the Cambrian period.
+
+Now, the facts section has some RDF data, but I need to focus on the context since the user specified that questions should be based on the content provided. The examples given by the user include questions about size, movement, common names, and characteristics. I need to ensure that my questions don't repeat those exactly but are still relevant.
+
+Possible areas to cover: 
+1. Common names (carambolas-do-mar, águas-vivas-de-pente)
+2. Movement mechanism (pentes de cílios)
+3. Habitat (oceânicas e estuarinas)
+4. Size range (1mm a 1,5m)
+5. Bioluminescence
+6. Relation to cnidarians (convergência evolutiva)
+7. Fossil record (Cambriano)
+8. Classification (filo)
+9. Presence in different environments (planctónicos, bentónicos)
+10. Distinctive feature (pentes)
+
+Wait, the example already has "tamanho" and "pentes" multiple times. Need to avoid repetition. Maybe focus on other aspects like their classification, bioluminescence, fossil record, and the fact that they're not colonial. Also, the term "comb jellies" in the facts might be useful.
+
+Let me check the examples again. The user's examples include "tamanho", "pentes", "nome comum", "digestão e respiração", "significado em grego", "habitat". So, I should avoid those. Maybe ask about their classification, the presence in the Cambrian, their bioluminescence, and the fact that they're not colonial. Also, the difference from cnidarians.
+
+Now, forming the questions:
+
+1. What is the scientific name for comb jellies? (Answer: Ctenophora)
+2. In which geological period are Ctenophora first recorded as fossils? (Cambriano)
+3. Are Ctenophora colonial organisms? (No, they are the largest non-colonial animals using cilia)
+4. What is the primary reason for the similarity between Ctenophora and Cnidaria? (Convergência evolutiva)
+5. What is the role of bioluminescence in Ctenophora? (Not specified, but in context it's mentioned as a characteristic, so maybe answer is part of their features)
+Wait, the context says they are bioluminescent but doesn't specify the role. Maybe that's too inferential. Alternatively, ask about their classification (filo), which is in the context.
+
+Another angle: What are the two common names for Ctenophora? (carambolas-do-mar and águas-vivas-de-pente)
+
+Also, the fact that they have a gelatinous mesogleia, similar to medusas but not related. Maybe a question about their mesogleia.
+
+So, compiling the 10 questions without repeating the examples:
+
+1. Quais são os nomes comuns dos Ctenophora? (carambolas-do-mar e águas-vivas-de-pente)
+2. Em qual período geológico os Ctenophora são registrados como fósseis? (Cambriano)
+3. Os Ctenophora são organismos coloniais? (Não, são os maiores animais não coloniais que se locomovem com cílios)
+4. Qual é a principal razão da semelhança entre Ctenophora e Cnidaria? (Convergência evolutiva)
+5. O que caracteriza a mesogleia dos Ctenophora? (Gelatinosa, como nas medusas)
+6. Qual é a classificação taxonômica dos Ctenophora? (Filo)
+7. A bioluminescência é uma característica dos Ctenophora? (Sim)
+8. Onde os Ctenophora podem ser encontrados? (Águas oceânicas e estuarinas)
+9. Qual é a função dos pentes nos Ctenophora? (Locomoção)
+10. Os Ctenophora têm relação filogenética próxima com os Cnidaria? (Não, as semelhanças são convergência evolutiva)
+
+Need to check if these are all in the context. Yes, the common names are mentioned, Cambrian fossil record, non-colonial, convergência evolutiva, mesogleia, classification as phylum, bioluminescence, habitats, cilia for movement, and no close relation to cnidaria. That makes 10 unique questions. Now, phrasing them in Portuguese and ensuring answers are accurate.
+</think>
+
+[
+  {
+    "pergunta": "Quais são os nomes comuns dos Ctenophora?",
+    "resposta": "carambolas-do-mar ou águas-vivas-de-pente"
+  },
+  {
+    "pergunta": "Em qual período geológico os Ctenophora são registrados como fósseis?",
+    "resposta": "Cambriano"
+  },
+  {
+    "pergunta": "Os Ctenophora são organismos coloniais?",
+    "resposta": "Não, são os maiores animais não coloniais conhecidos que se locomovem utilizando cílios"
+  },
+  {
+    "pergunta": "Qual é a principal razão da semelhança entre Ctenophora e Cnidaria?",
+    "resposta": "Convergência evolutiva"
+  },
+  {
+    "pergunta": "O que caracteriza a mesogleia dos Ctenophora?",
+    "resposta": "Gelatinosa, como nas medusas"
+  },
+  {
+    "pergunta": "Qual é a classificação taxonômica dos Ctenophora?",
+    "resposta": "Filo"
+  },
+  {
+    "pergunta": "A bioluminescência é uma característica dos Ctenophora?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Onde os Ctenophora podem ser encontrados?",
+    "resposta": "Águas oceânicas e estuarinas"
+  },
+  {
+    "pergunta": "Qual é a função dos pentes nos Ctenophora?",
+    "resposta": "Locomoção"
+  },
+  {
+    "pergunta": "Os Ctenophora têm relação filogenética próxima com os Cnidaria?",
+    "resposta": "Não, as semelhanças são convergência evolutiva"
+  }
+]

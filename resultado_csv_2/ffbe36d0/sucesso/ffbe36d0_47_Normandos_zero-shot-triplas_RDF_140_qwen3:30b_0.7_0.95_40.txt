@@ -1,0 +1,110 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts. Let me start by understanding the context and the facts provided.
+
+The context talks about the Normans, a Germanic people in northern France, with origins from Vikings. They played significant roles in medieval Europe, including the Norman Conquest of England, establishing states in Sicily, and participation in the Crusades. Their history is rich with legends.
+
+The facts are in RDF format, with various properties like nationality, combatant, occupants, ethnicity, etc. For example, some battles list Normans as combatants, places like castles have Normans as occupants, and there are mentions of their languages and religions.
+
+I need to create questions that are varied and cover different aspects. Let me brainstorm possible questions:
+
+1. **Origin of the Normans**: The context mentions they are a Germanic people from northern France, descended from Vikings. So a question about their origin.
+
+2. **Role in the Norman Conquest of England**: The context mentions this as a key event. A question about the conquest.
+
+3. **Languages spoken by the Normans**: The facts list Latin, Old Norman, and Old Norse. So a question on their languages.
+
+4. **Religions practiced by the Normans**: The facts mention Christianity and Norse paganism. So a question on their religions.
+
+5. **Notable battles involving the Normans**: The facts list several battles like Battle of Cerami, Battle of Civitate, etc. A question on specific battles.
+
+6. **Castles or structures associated with the Normans**: The facts mention castles like Taunton Castle, Waytemore Castle. A question on these.
+
+7. **Famous individuals or families**: The facts mention Hauteville family, Richard of Salerno. A question on notable families.
+
+8. **Cultural contributions or architectural styles**: The facts mention architectural styles like Norman architecture. A question on that.
+
+9. **Modern descendants or related groups**: The facts mention modern groups like Jèrriais and Guernésiais. A question on modern descendants.
+
+10. **Historical events or movements**: The Crusades and their involvement. A question on their participation in the Crusades.
+
+Now, I need to ensure each question is unique and based on the context/facts. Let me check the facts again to confirm details.
+
+For example, the languages are Latin, Old Norman, Old Norse. Religions: Christianity, Norse paganism. Battles: several listed. Castles: Taunton Castle, Waytemore Castle, etc. Families: Hauteville, Lyons, Philbin. Architectural styles: Norman style. Modern groups: Jèrriais, Guernésiais. Events: Crusades, Conquest of England.
+
+Now, formulating the questions and answers:
+
+1. Pergunta: De onde originaram os normandos segundo o contexto?
+   Resposta: Eram um povo germânico estabelecido no norte da França, com descendência de viquingues da Escandinávia.
+
+2. Pergunta: Qual foi o papel dos normandos na conquista da Inglaterra?
+   Resposta: Eles desempenharam um papel importante na Conquista Normanda da Inglaterra.
+
+3. Pergunta: Quais línguas os normandos falavam?
+   Resposta: Falavam Latin, Old Norman e Old Norse.
+
+4. Pergunta: Quais religiões estavam associadas aos normandos?
+   Resposta: Praticavam Christianity e Norse paganismo.
+
+5. Pergunta: Em quais batalhas os normandos participaram?
+   Resposta: Participaram em batalhas como a de Cerami, Civitate, Misilmeri, Montepeloso, Northam, Olivento e Mahdia.
+
+6. Pergunta: Quais castelos ou estruturas estavam associados aos normandos?
+   Resposta: Castelos como Taunton Castle, Waytemore Castle, Callan Motte, Dún Dealgan Motte, Gortlownan Motte, Greenmount Motte e Kells Castle.
+
+7. Pergunta: Quais famílias notáveis estavam relacionadas aos normandos?
+   Resposta: Famílias como Hauteville, Lyons e Philbin.
+
+8. Pergunta: Qual estilo arquitetônico os normandos contribuíram?
+   Resposta: Contribuíram com o estilo arquitetônico normando.
+
+9. Pergunta: Quais são os grupos modernos relacionados aos normandos?
+   Resposta: Grupos como Jèrriais e Guernésiais.
+
+10. Pergunta: Em quais movimentos históricos os normandos estiveram envolvidos?
+    Resposta: Estiveram envolvidos nas Cruzadas e na colonização da Sicília.
+
+I need to check if these are all based on the context and facts. The context mentions the Norman Conquest, the battles listed in the facts, the castles, families, languages, religions, and the Crusades. The modern groups are mentioned in the facts. The architectural style is also mentioned. Looks good. Now, ensure no repetition and that each question is distinct. Yes, each covers a different aspect. Now, format as JSON.
+</think>
+
+[
+  {
+    "pergunta": "De onde originaram os normandos segundo o contexto?",
+    "resposta": "Eram um povo germânico estabelecido no norte da França, com descendência de viquingues da Escandinávia."
+  },
+  {
+    "pergunta": "Qual foi o papel dos normandos na conquista da Inglaterra?",
+    "resposta": "Eles desempenharam um papel importante na Conquista Normanda da Inglaterra."
+  },
+  {
+    "pergunta": "Quais línguas os normandos falavam?",
+    "resposta": "Falavam Latin, Old Norman e Old Norse."
+  },
+  {
+    "pergunta": "Quais religiões estavam associadas aos normandos?",
+    "resposta": "Praticavam Christianity e Norse paganismo."
+  },
+  {
+    "pergunta": "Em quais batalhas os normandos participaram?",
+    "resposta": "Participaram em batalhas como a de Cerami, Civitate, Misilmeri, Montepeloso, Northam, Olivento e Mahdia."
+  },
+  {
+    "pergunta": "Quais castelos ou estruturas estavam associados aos normandos?",
+    "resposta": "Castelos como Taunton Castle, Waytemore Castle, Callan Motte, Dún Dealgan Motte, Gortlownan Motte, Greenmount Motte e Kells Castle."
+  },
+  {
+    "pergunta": "Quais famílias notáveis estavam relacionadas aos normandos?",
+    "resposta": "Famílias como Hauteville, Lyons e Philbin."
+  },
+  {
+    "pergunta": "Qual estilo arquitetônico os normandos contribuíram?",
+    "resposta": "Contribuíram com o estilo arquitetônico normando."
+  },
+  {
+    "pergunta": "Quais são os grupos modernos relacionados aos normandos?",
+    "resposta": "Grupos como Jèrriais e Guernésiais."
+  },
+  {
+    "pergunta": "Em quais movimentos históricos os normandos estiveram envolvidos?",
+    "resposta": "Estiveram envolvidos nas Cruzadas e na colonização da Sicília."
+  }
+]

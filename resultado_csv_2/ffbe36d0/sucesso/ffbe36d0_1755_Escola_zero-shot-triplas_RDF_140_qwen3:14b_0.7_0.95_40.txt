@@ -1,0 +1,59 @@
+<think>
+Okay, the user provided a list of schools, each with a URI and a property indicating they're a private school. They want 10 question-answer pairs based on this data. Let me think about how to approach this.
+
+First, I need to extract information from the given data. Each entry is a school, and the main point is that they are private. So the answers will all be "Yes" or similar. But to make the questions varied, I can use different phrasings like "Is [School] a private school?" or "Does [School] operate as a private institution?"
+
+I should avoid repeating the same question structure. Maybe include some that ask about the type of institution, like "What type of school is [School]?" and answer with "Private school."
+
+Also, ensure that the school names are correctly taken from the URIs. For example, the first one is "Você" which might be a typo, but looking at the data, it's actually "Você" but the URI is correct. Wait, the first entry is "Você" with a URI, but that might not be a real school. Maybe it's a mistake in the data. However, the user provided it, so I have to use it as is.
+
+Another thing is to check if there are any other properties mentioned. All entries have "private school" as the value, so the answers are straightforward. Just make sure the questions are phrased differently each time.
+
+Also, ensure that the answer is in Portuguese since the user's instruction is in Portuguese. So the answers should be "Sim" or "Sim, [School] é uma escola privada."
+
+Wait, the user's instruction says "resposta" in Portuguese, so the answers should be in Portuguese. The questions can be in Portuguese or English? The user's instruction is in Portuguese, but the example questions might be in Portuguese. Let me check the initial examples.
+
+Looking at the user's instruction, they provided a sample in Portuguese, so the questions and answers should be in Portuguese. So, the questions will be in Portuguese, and the answers will be "Sim" or similar.
+
+So, the 10 pairs would be:
+
+1. Pergunta: A Escola "Você" é uma escola privada?
+   Resposta: Sim.
+
+2. Pergunta: A Escola "Padua Franciscan High School" é uma instituição privada?
+   Resposta: Sim.
+
+And so on, varying the phrasing each time. Need to ensure that each question is unique and uses different verbs or structures. Also, check that the school names are correctly extracted from the URIs. Some URIs have spaces, like "St. Agnes Boys High School," which should be written correctly in the question.
+
+Also, make sure not to use any markdown in the final answer, just plain text with the pairs. Alright, I think that's the plan.
+</think>
+
+1. Pergunta: A Escola "Você" é uma instituição privada?  
+   Resposta: Sim.  
+
+2. Pergunta: A "Padua Franciscan High School" pertence ao setor privado?  
+   Resposta: Sim.  
+
+3. Pergunta: Qual o tipo de escola da "St. Agnes Boys High School"?  
+   Resposta: É uma escola privada.  
+
+4. Pergunta: A "San Sebastian College – Recoletos de Cavite" é mantida por entidade particular?  
+   Resposta: Sim.  
+
+5. Pergunta: A "Servite High School" é uma instituição de ensino privada?  
+   Resposta: Sim.  
+
+6. Pergunta: A "St. Mary's Academy (New Orleans)" opera como escola privada?  
+   Resposta: Sim.  
+
+7. Pergunta: A "Southwestern College (New Mexico)" é uma instituição de ensino particular?  
+   Resposta: Sim.  
+
+8. Pergunta: A "St. John Paul II STEM Academy" é uma escola de propriedade privada?  
+   Resposta: Sim.  
+
+9. Pergunta: A "The British School, Kathmandu" é uma instituição educacional privada?  
+   Resposta: Sim.  
+
+10. Pergunta: A "Xavier High School (New York City)" é uma escola de gestão privada?  
+    Resposta: Sim.

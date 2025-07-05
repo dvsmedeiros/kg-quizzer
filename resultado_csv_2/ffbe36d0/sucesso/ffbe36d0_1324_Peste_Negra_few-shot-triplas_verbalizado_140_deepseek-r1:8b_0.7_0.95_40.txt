@@ -1,0 +1,72 @@
+<think>
+Ok, eu preciso ajudar o usuário a gerar um conjunto de 10 perguntas e respostas baseadas no contexto fornecido sobre a Morte Negra. Primeiro, vou analisar o conteúdo para identificar os principais temas e fatos relevantes.
+
+O contexto fala que a Morte Negra foi uma pandemia que afetou a Europa entre 1347 e 1351, causada pela bactéria Yersinia pestis. Ela teve origem na Ásia Central ou Oriental e se espalhou por navios mercantes, pulgas e ratos. A doença resultou em uma redução significativa da população europeia, atingindo entre 30% a 60%. Além disso, houve impactos sociais, econômicos e religiosos.
+
+Agora, identifico os fatos fornecidos pelo usuário: fontes como o Chronicon Angliae de Geoffrey the Baker, informações sobre a largura dos mapas, citações específicas, e dados sobre a mortalidade e recuperação da população.
+
+Considerando as regras do usuário, cada pergunta deve ser variada e abranger diferentes aspectos do conteúdo. As perguntas devem relacionar-se diretamente ao contexto e ter uma única resposta correta que seja claramente inferível ou explicada no conteúdo.
+
+Vou começar listando os possíveis temas para as perguntas:
+1. Origem da Morte Negra.
+2. Causas da disseminação.
+3. Impacto demográfico.
+4. Período de recuperação da população.
+5. Fontes históricas que mencionam a praga.
+6. Agentes transmissores (pulgas, ratos).
+7. Efeitos sociais e econômicos.
+8. Características da epidemia (como enzoótica).
+9. Localização dos surtos iniciais.
+10. Duração da epidemia.
+
+Agora, para cada tema, formulo uma pergunta relevante e a resposta correta baseada nos fatos fornecidos ou inferíveis.
+
+Vou verificar que todas as perguntas sejam diferentes e cobram diferentes aspectos do conteúdo, sem repetitivear. Também me asegurar de que as respostas estejam presentes no contexto ou nos fatos fornecidos, ou sejaem corretas.
+
+Finalmente, organizo o resultado em JSON conforme a estrutura solicitada.
+</think>
+
+```json
+[
+  {
+    "pergunta": "De onde se originou a Morte Negra?",
+    "resposta": "da Ásia Central ou na Ásia Oriental."
+  },
+  {
+    "pergunta": "Como a Morte Negra chegou à Europa?",
+    "resposta": "via navios mercantes e pulgas que transportavam a doença."
+  },
+  {
+    "pergunta": "Qual foi o impacto demográfico da Morte Negra na Europa?",
+    "resposta": "aterrar entre 30% e 60% da população europeia."
+  },
+  {
+    "pergunta": "Quando a população mundial recuperou-se após a Morte Negra?",
+    "resposta": "após aproximadamente 200 anos, no século XVII."
+  },
+  {
+    "pergunta": "Qual foi fonte histórica principal para a Morte Negra?",
+    "resposta": "o Chronicon Angliae de Geoffrey the Baker."
+  },
+  {
+    "pergunta": "Qual agente transmissor foi responsável pela disseminação da Morte Negra?",
+    "resposta": "pulgas e ratos, especialmente a oriental-rato."
+  },
+  {
+    "pergunta": "Que tipo de praga era a mais comum durante a Morte Negra?",
+    "resposta": "bubônica."
+  },
+  {
+    "pergunta": "Em que região a Morte Negra teve seu início na Europa?",
+    "resposta": "na Inglaterra, no Condado de Dorsetshire."
+  },
+  {
+    "pergunta": "Qual foi o principal efeito social da Morte Negra?",
+    "resposta": "a redução significativa da população e a desolação das comunidades."
+  },
+  {
+    "pergunta": "Onde estava localizado o epicentro inicial da epidemia na Europa?",
+    "resposta": "na Crimeia, em 1343."
+  }
+]
+```

@@ -1,0 +1,52 @@
+<think>
+Primeiro, identifico que a tabela de Dados contém informações sobre diferentes máquina vapor e o tipo de engajamento. Precisarei selects 10 pergunta comuns e 10 respostas diferentes.
+
+Para each question, verifico quais fatores são relevantes para cada type de máquina. Por exemplo, uma máquina com hidro estático (Hyak) deve ter umaresponsea relacionada a estrutura ou engajamento hydro estático.
+
+Em seguida, organizarei os questions e respostas em dois arrays como exemplo fornecido. Depois, converto isso em JSON formato specify o formulário requerido.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é um máquina vapor?",
+    "resposta": "Uma máquina vapor é uma typeetica térmica que explora a pressão do vapor para explora a lnqueda."
+  },
+  {
+    "pergunta": "Qual tipo de engajamento é utilizada por machineas hydro estáticos?",
+    "resposta": "Usa o engajamento hidro estático para gerar trabalho diminuído da pressão do vapor e a lnqueda."
+  },
+  {
+    "pergunta": "Com que tipo de engajamento funcionam as maquinhas na table de above?",
+    "resposta": "Os maquinhares na table de above (AT-57) usam o engajamento hidro estático para explora a pressão do vapor."
+  },
+  {
+    "pergunta": "O que é o type de encaixa para uma máquina vapor?",
+    "resposta": "O type de encaixa para uma máquina vapor é o "watt steam pumping engine.jpg"."
+  },
+  {
+    "pergunta": "Qual tipo de engajamento é responsivo para maquinhas com pressão alta?",
+    "resposta": "Uma máquina com pressão alta e type de engajamento hidro estático pode ser usada."
+  },
+  {
+    "pergunta": "O que é o tipo de encaixa para uma máquina vapor com type de vela circular?",
+    "resposta": "Os types de encaixos para maquinhas circular são "Boat toque" e "Cascade engine"."
+  },
+  {
+    "pergunta": "Quão é functions do engajamento hidro estático para maquinhas térmicas?",
+    "resposta": "O engajamento hidro estático explora a pressão do vapor para gerar的动力 em forma de engadamento circular, diminuição na temperatura e encaixa linear."
+  },
+  {
+    "pergunta": "Qual tipo de encaixa é responsivo para uma máquina térmica com type de vela circular?",
+    "resposta": "Os types de encaixos responsivos são "Boat toque" e "Cascade engine"."
+  },
+  {
+    "pergunta": "Qual tipo de engajamento é responsivo para maquinhas com pressão alta e type de vela linear?",
+    "resposta": "O engajamento hidro estático explora a pressão do vapor para gerar的动力 em forma de encaixa circular, diminuição na temperatura e encaixa linear."
+  },
+  {
+    "pergunta": " qual tipo de engajamento é responsivo para maquinhas com pressão alta e type de vela circular?",
+    "resposta": "O engajamento hidro estático explora a pressão do vapor para gerar的动力 em forma de encaixa circular, diminuição na temperatura e encaixa linear."
+  }
+]
+```

@@ -1,0 +1,64 @@
+<think>
+Okay, so I need to create exactly 10 pairs of questions and answers based on the given context about civil disobedience. The user provided a lot of information, both in text and in RDF format, listing various events and movements that used civil disobedience.
+
+First, I should understand what's included in the context. It starts with a definition: civil disobedience is a peaceful form of political protest against unjust orders or oppressive governments. It mentions Thoreau as the originator and Gandhi and MLK as notable figures who applied it successfully.
+
+Then there's an RDF section that lists various events, each linked to "Civil Disobedience." These include strikes, protests, movements in countries like Russia, Montenegro, Albania, Serbia, St. Louis, Iran, Poland, etc. Each of these is a specific instance where civil disobedience was used as a method.
+
+The user also gave an example of 10 questions and answers, which I can use as a template. Looking at the examples, they vary between asking for definitions, examples of movements, key figures, and outcomes.
+
+So, to create my own set, I should make sure each question is unique and covers different aspects: who, what, when, where, why, how. I need to avoid repeating similar questions from the example or overlapping topics too much.
+
+I'll go through the RDF data to extract specific events and pair them with appropriate questions. For example, knowing that Gandhi used civil disobedience in India's independence movement can lead to a question about who applied it successfully. Similarly, extracting specific protest names like "Aboriginal Tent Embassy" can be turned into a question asking which movement used civil disobedience.
+
+I should ensure each answer is directly supported by the provided data. For instance, if an event in 2015 Montenegro crisis used civil disobedience, I can create a question about that specific event and its method.
+
+I also need to vary the structure of questions: some could be general (asking for definitions), others specific (about particular events or figures). This way, the set remains diverse and covers multiple aspects of the topic.
+
+Lastly, I must make sure not to include any external knowledge beyond what's given. All answers should stem directly from the context provided.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi o filósofo que originalmente concebeu a ideia da desobediência civil?",
+    "resposta": "Henry David Thoreau"
+  },
+  {
+    "pergunta": "Quem aplicou com sucesso a desobediência civil na luta pela independência da Índia e do Paquistão?",
+    "resposta": "Mahatma Gandhi"
+  },
+  {
+    "pergunta": "Qual movimento, nos Estados Unidos, usou a desobediência civil para combater a segregação racial?",
+    "resposta": "Movimento dos Direitos Civis"
+  },
+  {
+    "pergunta": "Qual foi um método utilizado durante a greve mineira russa de 1998?",
+    "resposta": "desobediência civil"
+  },
+  {
+    "pergunta": "Em qual ano ocorreram greves gerais e protestos no Irã que envolveram desobediência civil?",
+    "resposta": "2019"
+  },
+  {
+    "pergunta": "Qual foi um movimento de mulheres que utilizou a desobediência civil em prol da igualdade?",
+    "resposta": "Mulheres no Movimento dos Vests Amarelos"
+  },
+  {
+    "pergunta": "Quais países bálticos se rebelaram contra a União Soviética usando a desobediência civil?",
+    "resposta": "Letônia, Lituânia e Estônia"
+  },
+  {
+    "pergunta": "Qual foi o nome dado à revolta que ocorreu na Geórgia em 2003?",
+    "resposta": "Revolução das Rosas"
+  },
+  {
+    "pergunta": "Em qual país ocorreu a Revolução Laranja em 2004?",
+    "resposta": "Ucrânia"
+  },
+  {
+    "pergunta": "Qual foi um exemplo de desobediência civil na Polônia?",
+    "resposta": "Movimento Solidarność"
+  }
+]
+```

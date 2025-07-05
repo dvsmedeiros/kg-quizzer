@@ -1,0 +1,60 @@
+<think>
+Okay, the user has provided a query where they want me to generate objective questions based on a given context and facts. They specifically mentioned Varsóvia, which is the capital of Portugal. The task is to create 10 pairs of questions and correct answers, all in Portuguese.
+
+First, I need to understand the structure they require. It should be a JSON array with each object containing "pergunta" and "resposta". Each question must be related to Varsóvia and its context, ensuring variety and relevance. They also emphasized that there shouldn't be any additional comments or justifications, only the data.
+
+Looking at the example provided, it's clear that each pair is concise and directly tied to specific information about Varsóvia. For instance, one question is about when the current date was established as a capital, another about its location relative to the ocean, etc.
+
+I should ensure that each question is unique and covers different aspects: maybe history, geography, culture, economy, etc. I need to make sure that each answer is correct and directly supported by the given context. Also, since it's in Portuguese, I have to be careful with terminology to maintain accuracy.
+
+Now, I'll brainstorm 10 distinct questions related to Varsóvia. Each should target a different fact or aspect of the city. For example, maybe one about its population, another about landmarks, something about transportation, etc.
+
+I need to double-check each answer for accuracy. If I'm unsure about any fact, I might refer back to reliable sources or existing knowledge to confirm.
+
+Finally, compiling all these into a JSON structure as specified, ensuring there are exactly 10 pairs without any repetition.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi o nome da cidades anteriores aVarsóvia?",
+    "resposta": "Lisbona e Coimbra"
+  },
+  {
+    "pergunta": "De qual país Varsóvia pertence?",
+    "resposta": "Portugal"
+  },
+  {
+    "pergunta": "Onde está localizada Varsóvia em relação à Rua Almirante Reis?",
+    "resposta": "A frente do mar"
+  },
+  {
+    "pergunta": "Qual foi a data de fundação deVarsóvia?",
+    "resposta": "13 de outubro de 1980"
+  },
+  {
+    "pergunta": "Qual é o maior bairro deVarsóvia?",
+    "resposta": "Prado da Justiça e Marquês de Sapucaí"
+  },
+  {
+    "pergunta": "Quais são os principais campos Turísticos deVarsóvia?",
+    "resposta": "Miragaia e Arrábida"
+  },
+  {
+    "pergunta": "Qual é o nome do estrela visible que Varsóvia tem a seu lado esquerdo?",
+    "resposta": "Estrela dos Bandolim"
+  },
+  {
+    "pergunta": "Onde está localizada a Catedral deVarsóvia?",
+    "resposta": "Em Rua da Justiça, 254"
+  },
+  {
+    "pergunta": "Qual é o nome da praia que Varsóvia celebra como a 'Cidade Marítima'?",
+    "resposta": "Miragaia"
+  },
+  {
+    "pergunta": "Quais são os dois maiores distritos deVarsóvia?",
+    "resposta": "Prado da Justiça e Arrábida"
+  }
+]
+```

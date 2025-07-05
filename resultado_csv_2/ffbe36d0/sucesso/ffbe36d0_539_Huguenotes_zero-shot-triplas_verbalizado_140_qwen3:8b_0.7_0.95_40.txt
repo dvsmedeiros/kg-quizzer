@@ -1,0 +1,76 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about the Huguenots. Let me start by understanding the context. The Huguenots were French Protestants during the religious wars in the 16th century. They faced persecution under Louis XIV, leading to their exodus after the revocation of the Edict of Nantes in 1685. They were mostly Calvinist, part of the Reformed Church, while some in Alsace, Moselle, and Montbéliard were Lutheran. 
+
+Now, looking at the facts, there are a lot of image references, Wikipedia templates, categories, and related topics. I need to create varied questions that cover different aspects. The user wants 10 pairs, each with a unique question and answer, based on the content.
+
+First, I'll identify key points from the context: 
+- Who were the Huguenots?
+- When did they leave France?
+- What was the reason for their exodus?
+- Their religious affiliations (Calvinist vs. Lutheran).
+- The revocation of the Edict of Nantes.
+- The number of Huguenots who left.
+- Their diaspora in places like New York and Staten Island.
+- Related groups like Scotch-Irish Americans.
+- Historical events like the Massacre of Saint Bartholomew's Day.
+
+Next, I need to ensure each question is unique and covers different aspects. Let me list possible questions:
+
+1. What were the Huguenots?
+2. When did the Huguenots leave France?
+3. What caused the Huguenots to leave France?
+4. What were the primary religious affiliations of the Huguenots?
+5. Which event led to the revocation of the Edict of Nantes?
+6. How many Huguenots left France after the revocation?
+7. Where did the Huguenots settle in the New World?
+8. Which group is related to the Huguenots?
+9. What historical event is associated with the Massacre of Saint Bartholomew's Day?
+10. What is the significance of the Edict of Nantes?
+
+Now, I need to check if the answers are explicitly stated or can be inferred. For example, the answer to question 1 is that they were French Protestants. The answer to question 2 is 1685. Question 3 refers to the persecution under Louis XIV. The primary religions are Calvinist and Lutheran. The revocation was due to the Edict of Nantes being revoked in 1685. The number is 300,000. The diaspora includes places like Orange County, New York. Scotch-Irish Americans are related. The Massacre of Saint Bartholomew's Day is mentioned as an image. The Edict of Nantes was revoked in 1685, leading to their exodus.
+
+I need to make sure each answer is accurate and directly from the context. Also, avoid repeating similar questions. For instance, questions about the Edict of Nantes and the Massacre should be distinct. Let me structure the JSON accordingly, ensuring each question is unique and answers are correct.
+</think>
+
+[
+  {
+    "pergunta": "Quem eram os Huguenotes?",
+    "resposta": "Eram protestantes franceses durante as guerras religiosas na França (segunda metade do século XVI)."
+  },
+  {
+    "pergunta": "Quando os Huguenotes deixaram a França?",
+    "resposta": "Após a revogação do Édito de Nantes, em 18 de outubro de 1685."
+  },
+  {
+    "pergunta": "Qual foi a causa principal da perseguição aos Huguenotes?",
+    "resposta": "As perseguições contra as comunidades protestantes sob o reinado de Luís XIV."
+  },
+  {
+    "pergunta": "Quais eram as principais religiões dos Huguenotes?",
+    "resposta": "Eram majoritariamente calvinistas e membros da Igreja Reformada, enquanto os da Alsácia, Moselle e Montbéliard eram majoritariamente alemães luteranos."
+  },
+  {
+    "pergunta": "Quantos Huguenotes deixaram a França após a revogação do Édito de Nantes?",
+    "resposta": "Cerca de 300 000."
+  },
+  {
+    "pergunta": "Em quais lugares da Nova Zelândia os Huguenotes se estabeleceram?",
+    "resposta": "Em Huguenot, Orange County, New York, e Huguenot, Staten Island."
+  },
+  {
+    "pergunta": "Qual grupo é historicamente relacionado aos Huguenotes?",
+    "resposta": "Os Scotch-Irish Americans."
+  },
+  {
+    "pergunta": "Qual evento histórico está associado à imagem da 'Massacre de San Bartolomé'?",
+    "resposta": "A perseguição aos Huguenotes durante a Guerra dos Guerrilheiros (Camisard)."
+  },
+  {
+    "pergunta": "Qual foi o evento que levou à revogação do Édito de Nantes?",
+    "resposta": "A intensificação das perseguições religiosas sob o reinado de Luís XIV."
+  },
+  {
+    "pergunta": "Quais regiões da França tinham Huguenotes majoritariamente luteranos?",
+    "resposta": "As regiões da Alsácia, Moselle e Montbéliard."
+  }
+]

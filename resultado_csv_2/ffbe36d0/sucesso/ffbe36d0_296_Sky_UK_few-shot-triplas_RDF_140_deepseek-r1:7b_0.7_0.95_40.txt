@@ -1,0 +1,60 @@
+<think>
+Ok, devo ajudar o usuário gerando 10 perguntas e respostas sobre BSB (British Satellite Broadcasting). Primeiro, lembro que BSB foi incorporationada em 1990 para formar BSkyB, que começou a transmitir em março de 1990. Preciso entender o contexto fornecido.
+
+Vou olhar as entidades e relations na DBpedia para tirar informações relevantes. Vejo que BSB atua como dono de several canais como Galaxy, The Computer Channel, The Movie Channel, etc. Eles também estavam relacionados a projectos como Hardware (film) e Heil Honey I'm Home!.
+
+Também vejo que após a fusão com Sky Television em 2014, BSB se tornou BSkyB, que investe na adquisição de direitos de transmissão. Isso é importante para as perguntas sobre investimentos ou acquisition.
+
+Preciso criar perguntas variadas, abrangendo tema como fundação, anos de fundação,8 successos, e investimentos. Devo evitar perguntas repetitives e garantir que as respostas sejam únicas e claras.
+
+Vou começar listando tópicos: fundação de BSB, anos-chave (1990, 2014), direitos de transmissão, nomes de canais, projectos associados. Depois, will formular as perguntas e as respostas baseadas neles.
+
+Preciso verificar se todas as respostas estão presentes na DBpedia e estão corretas. Por exemplo, BSB adquiriu Sky Italia em 2014, e a Setanta Sports ganhou os direitos de Primeira Leage de 2006. Também, BSB teve 2 pacotes premiados.
+
+TerDRV devo garantir que as perguntas sejam variadas e cobramem diferentes aspectos do contexto fornecido.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em qual ano foi incorporationada a British Satellite Broadcasting?",
+    "resposta": "1990"
+  },
+  {
+    "pergunta": "Qual foi o nome da empresa que BSB adquiriu em 2014 para formar BSkyB?",
+    "resposta": "Sky Italia"
+  },
+  {
+    "pergunta": "Em qual ano aBS Sky UK Limited foi criada?",
+    "resposta": "2014"
+  },
+  {
+    "pergunta": "Qual é o nome do canal de computador da BSB?",
+    "resposta": "The Computer Channel (BSB)"
+  },
+  {
+    "pergunta": "Em qual ano a Sky Sports ganhou os direitos de transmissão do Primeira Leage?",
+    "resposta": "2006"
+  },
+  {
+    "pergunta": "Quantos dos seis pacotes totais disponíveis para as emissoras foram premiados com a Setanta?",
+    "resposta": "dois"
+  },
+  {
+    "pergunta": "Qual foi o nome do projecto que incluía o hardware de transmissão via satellite em BSB?",
+    "resposta": "Hardware (film)"
+  },
+  {
+    "pergunta": "Em qual ano aBS Sky receptor fez investimento para adquirir mais direitos de transmissão?",
+    "resposta": "2014"
+  },
+  {
+    "pergunta": "Quais were os nomes dos quatro pacotes que BSB adquiriu após a fusão com Sky Television em 2014?",
+    "resposta": "O Sky UK Limited adquiriu quatro pacotes adicionais."
+  },
+  {
+    "pergunta": "Qual foi o nome do company que BSB foi excluído de?
+    ", "resposta": "ONdigital"
+  }
+]
+```

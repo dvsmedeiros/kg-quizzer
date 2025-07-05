@@ -1,0 +1,64 @@
+<think>
+Okay, let's tackle this query. The user wants 10 question-answer pairs in Portuguese based on the given context and facts about Harvard University. First, I need to make sure I understand the requirements.
+
+The context provided is a detailed description of Harvard University, including its history, structure, notable people, and achievements. The facts list includes various individuals associated with Harvard, some with incorrect spellings, and other details like images and departments.
+
+The main challenge is to generate questions that are varied, cover different aspects of the content, and have clear, correct answers directly from the context or facts. I need to avoid repeating similar questions and ensure each answer is explicitly or inferentially present in the provided data.
+
+Let me start by brainstorming possible questions. The first thing that comes to mind is the founding year. The context says it was founded in 1636, so that's a straightforward question. Next, the name of the first benefactor, John Harvard, is mentioned. Then, the location in Cambridge, Massachusetts.
+
+Another point is the number of Nobel laureates affiliated with Harvard, which is 150. The number of schools or units is 11. The first female president, Drew Gilpin Faust, is mentioned. The name of the main campus is Harvard Yard. The largest budget mentioned is $30 billion. The number of U.S. presidents who graduated is 8. Lastly, the name of the university's police department is Harvard University Police Department.
+
+I need to check each of these against the context to ensure accuracy. For example, the context states "11 unidades acadêmicas diferentes — dez faculdades e do Instituto Radcliffe de Estudos Avançados," so the answer is 11. The budget in 2012 is $30 billion. The police department is mentioned as "Harvard University Police Department."
+
+I should also make sure that the questions are phrased in Portuguese correctly. For instance, "Quem foi o primeiro benfeitor da Universidade de Harvard?" translates to "Who was the first benefactor of Harvard University?" which is correct.
+
+I need to avoid any questions that aren't directly supported by the context or facts. For example, the name of the statue is mentioned as "John Harvard statue at Harvard University.jpg," but the question about the statue's name isn't in the context, so I shouldn't include that. Instead, focus on the facts provided.
+
+Double-checking each pair to ensure they are unique and cover different aspects: history, structure, people, achievements, locations, etc. Also, verify that each answer is explicitly stated in the context or facts provided.
+
+Once all 10 are generated, I'll format them into the required JSON structure without any extra text, as per the user's instructions.
+</think>
+
+[
+  {
+    "pergunta": "Em que ano a Universidade de Harvard foi fundada?",
+    "resposta": "1636"
+  },
+  {
+    "pergunta": "Qual foi o primeiro benfeitor da Universidade de Harvard?",
+    "resposta": "John Harvard"
+  },
+  {
+    "pergunta": "Em qual cidade a Universidade de Harvard está localizada?",
+    "resposta": "Cambridge"
+  },
+  {
+    "pergunta": "Quantos presidentes dos Estados Unidos formaram-se na Universidade de Harvard?",
+    "resposta": "Oito"
+  },
+  {
+    "pergunta": "Qual é o nome do campus principal da Universidade de Harvard?",
+    "resposta": "Harvard Yard"
+  },
+  {
+    "pergunta": "Quantas unidades acadêmicas a Universidade de Harvard possui?",
+    "resposta": "Onze"
+  },
+  {
+    "pergunta": "Quem foi a primeira mulher a liderar a Universidade de Harvard?",
+    "resposta": "Drew Gilpin Faust"
+  },
+  {
+    "pergunta": "Qual é o orçamento da Universidade de Harvard em 2012?",
+    "resposta": "30 bilhões de dólares"
+  },
+  {
+    "pergunta": "Quantos ganhadores do Prêmio Nobel estão associados à Universidade de Harvard?",
+    "resposta": "150"
+  },
+  {
+    "pergunta": "Qual é o nome do departamento de polícia da Universidade de Harvard?",
+    "resposta": "Harvard University Police Department"
+  }
+]

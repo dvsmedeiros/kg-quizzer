@@ -1,0 +1,92 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided data. First, I need to understand the data structure. There's a list of entities related to "Islamism" with various properties like classes, attributes, and examples. The examples given are in Portuguese, so I need to make sure the questions and answers are also in Portuguese.
+
+Looking at the examples, the questions are about different aspects of Islamism, such as definitions, goals, methods, and specific groups. The answers are concise, often single words or short phrases. I need to follow that pattern.
+
+First, I'll go through the entities and their properties. For instance, the class hierarchy includes things like "Abstraction," "Act," "Attitude," etc. The "ns2:sign" mentions figures like Mirza Husayn Tehrani, which could be used in questions about key figures. The "wikiPageUsesTemplate" has templates related to Islam topics, which might hint at common themes.
+
+I should look for unique aspects of Islamism from the data. The examples mention integration into all spheres of life, goals like reordering society, methods like revolution or invasion, and groups like Hamas and Hezbollah. Also, there's mention of moderates working within democratic limits and radical groups rejecting democracy.
+
+Now, I need to create 10 questions. Let's brainstorm possible topics:
+
+1. Definition of Islamism.
+2. Integration into life aspects.
+3. Goals for society and government.
+4. Methods to take power.
+5. Process of islamization.
+6. Key figures or scholars.
+7. Groups' objectives (e.g., Hamas, Hezbollah).
+8. Rejected systems (democracy).
+9. Basis for attacks (religious).
+10. Different movements' oscillation.
+
+Wait, the example about two Islamic movements oscillating between them is unanswered. Maybe that's a gap. But the user wants 10 pairs, so maybe I can create that as a question even if the answer isn't in the data. Alternatively, find another angle.
+
+Check the data again. The "ns2:sign" has names, which could be used in a question about key figures. Also, the "foaf:depiction" has images related to Hamas, which might tie into their origin.
+
+Another point: the examples mention "reordenação" as the goal. So a question about that. Also, the answer "democrático" from the example about moderates working within democratic limits.
+
+I need to ensure that the answers are directly from the data. For example, "reordenação" is in the example, so that's a valid answer. "democrático" is another. The answer "Palestina" for Hamas's origin is in the example. "abolir o estado de Israel" is also from the example. "religiosos" as the basis for attacks.
+
+So, I can use these answers. Now, formulate the questions.
+
+1. What is the objective of Islamism regarding society and government? (Answer: reordenação)
+2. What do moderate Islamic groups work within the limits of? (Answer: democrático)
+3. Where does Hamas originate? (Answer: Palestina)
+4. What is the goal of groups like Hezbollah and Hamas? (Answer: abolir o estado de Israel)
+5. What do radical Islamic organizations completely reject? (Answer: democracia)
+6. On what basis do radical Islamic organizations conduct their attacks? (Answer: religiosos)
+7. What is the definition of Islamism? (Answer: islamismo)
+8. In which areas of life does Islamism seek to integrate? (Answer: todas as esferas da vida)
+9. What methods do Islamic movements use to take power? (Answer: revolução ou invasão)
+10. Who are some key figures associated with Islamism? (Answer: Mirza Husayn Tehrani, Muhammad Kazim Khurasani, Abdallah Mazandaran)
+
+Wait, the user's examples have "resposta" as the answer. So I need to make sure the answers are in Portuguese and match the examples. Also, check for any other possible answers from the data. The "ns2:sign" has those names, so that's a valid answer for the 10th question. Alternatively, maybe a question about the process of islamization, but the example mentions "processo" as "democrático" in the answer. Wait, no, the example answer "democrático" is for the question about moderates working within limits.
+
+Another question: What is the process that moderate and reformist Islamic groups work within democratic limits? Answer: islamização (since the example says "islamização" as a strategy). Wait, the example says "Uma estratégia da islamização é tomar o poder por quais métodos?" with answer "revolução ou invasão". So the process is "islamização", but the question would be "Qual é o processo que os islamitas moderados e reformistas trabalham dentro dos limites de?" Answer: democrático. Wait, the example answer is "democrático" for that question. So that's covered.
+
+I think the 10 questions are covered. Now, ensure that each pair is unique and based on the data. Avoid repeating the same answer. Check for any possible overlaps or errors. For example, the answer "democrático" is used once, "Palestina" once, etc. Looks good.
+</think>
+
+[
+  {
+    "pergunta": "O que é o islamismo em termos de definição?",
+    "resposta": "islamismo"
+  },
+  {
+    "pergunta": "Em quais esferas da vida o islamismo busca se integrar?",
+    "resposta": "todas as esferas da vida"
+  },
+  {
+    "pergunta": "Qual é o objetivo do islamismo para a sociedade e o governo?",
+    "resposta": "reordenação"
+  },
+  {
+    "pergunta": "Quais métodos os movimentos islâmicos usam para tomar o poder?",
+    "resposta": "revolução ou invasão"
+  },
+  {
+    "pergunta": "O que os islamitas moderados e reformistas buscam dentro do limite democrático?",
+    "resposta": "islamização"
+  },
+  {
+    "pergunta": "De onde o Hamas se origina?",
+    "resposta": "Palestina"
+  },
+  {
+    "pergunta": "Qual é o objetivo dos grupos como o Hamas e o Hezbollah?",
+    "resposta": "abolir o estado de Israel"
+  },
+  {
+    "pergunta": "O que as organizações radicais islâmicas rejeitam?",
+    "resposta": "democracia"
+  },
+  {
+    "pergunta": "Sobre qual base as ações de grupos radicais islâmicos são fundamentadas?",
+    "resposta": "religiosos"
+  },
+  {
+    "pergunta": "Quais figuras são associadas ao islamismo?",
+    "resposta": "Mirza Husayn Tehrani, Muhammad Kazim Khurasani, Abdallah Mazandaran"
+  }
+]

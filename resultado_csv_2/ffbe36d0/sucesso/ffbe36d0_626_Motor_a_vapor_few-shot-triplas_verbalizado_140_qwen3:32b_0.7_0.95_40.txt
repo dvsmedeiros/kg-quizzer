@@ -1,0 +1,52 @@
+<think>
+Okay, let's tackle this. I need to generate 10 question-answer pairs based on the provided context and facts. First, I'll read through the context and facts carefully.
+
+The context explains the steam engine, its function using high-pressure steam, and its applications like in nuclear reactors. The facts list various ships and other machines powered by steam engines, along with some inventors like Thomas Newcomen.
+
+I need to make sure each question is unique and covers different aspects. Let's start with the main components from the context. The first question could be about the fluid used in steam engines, which is high-pressure steam. Then, the inventor Thomas Newcomen. The function principle, maybe the expansion of steam. Applications, like in nuclear reactors. Also, the type of energy conversion. From the facts, there are many ships using steam engines, so a question about examples. The thermodynamic laws involved. The difference between internal and external combustion. The main principle of operation. And maybe the current usage in reactors. Let me check the examples given to avoid repetition. The example questions already cover Rankine cycle, combustion external, Thomas Newcomen, etc. So I need to avoid those and use other aspects from the context and facts. For example, the current use in nuclear reactors, the principle of expansion, the inventor of the first successful commercial engine (Newcomen), the type of energy conversion (thermal to mechanical), the working fluid, examples of ships using steam engines, the thermodynamic laws, the difference between internal and external combustion, the main principle of expansion, and the current usage in reactors. That should cover 10 unique questions. Let me structure them properly.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o fluido de trabalho utilizado nas máquinas a vapor?",
+    "resposta": "vapor de água sob alta pressão e temperatura"
+  },
+  {
+    "pergunta": "Qual princípio físico é base para o funcionamento da turbina a vapor?",
+    "resposta": "expansão do vapor"
+  },
+  {
+    "pergunta": "Qual inventor é creditado com a criação do primeiro motor a vapor comercialmente bem-sucedido?",
+    "resposta": "Thomas Newcomen"
+  },
+  {
+    "pergunta": "Em que tipo de geração de energia as máquinas a vapor ainda são amplamente utilizadas atualmente?",
+    "resposta": "reatores nucleares"
+  },
+  {
+    "pergunta": "Qual categoria de energia a máquina a vapor converte em energia mecânica?",
+    "resposta": "energia térmica"
+  },
+  {
+    "pergunta": "Qual é o exemplo de embarcação listado que utiliza motor a vapor como propulsão?",
+    "resposta": "USS Ashuelot"
+  },
+  {
+    "pergunta": "Qual lei da termodinâmica é fundamental para o funcionamento de máquinas térmicas como o motor a vapor?",
+    "resposta": "leis da termodinâmica"
+  },
+  {
+    "pergunta": "Que tipo de combustão é característico dos motores a vapor?",
+    "resposta": "combustão externa"
+  },
+  {
+    "pergunta": "Qual é a principal diferença entre o motor a vapor e o motor de combustão interna?",
+    "resposta": "o motor a vapor utiliza combustão externa"
+  },
+  {
+    "pergunta": "Qual é o nome da imagem técnica associada ao diagrama do ciclo do motor a vapor?",
+    "resposta": "diagrama indicador"
+  }
+]
+```

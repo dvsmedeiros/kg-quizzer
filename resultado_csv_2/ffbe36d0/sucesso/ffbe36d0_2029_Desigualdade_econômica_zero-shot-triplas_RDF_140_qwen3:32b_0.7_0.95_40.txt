@@ -1,0 +1,71 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs in Portuguese based on the provided context and facts. First, I need to parse the context and the facts carefully.
+
+The context talks about economic inequality, its measurements like Gini coefficient and HDI adjusted for inequality, types (income, wealth, consumption), effects of globalization, and related concepts like equity and equality of opportunities. The facts include various books, authors, and movements linked to economic inequality.
+
+I need to generate varied questions covering different aspects. Let's start with basic definitions. For example, what does economic inequality refer to? The answer would mention income and wealth distribution. Then, maybe ask about the most common measure, which is the Gini coefficient.
+
+Another angle is the difference between income and wealth distribution. Also, the impact of globalization: reducing between countries but increasing within them. The adjusted HDI index should be another question. 
+
+Books and authors mentioned in the facts can be used. For instance, which book by Thomas Piketty is mentioned? "Capital in the Twenty-First Century". Movements like Occupy Wall Street are linked to economic inequality in the facts, so questions about causes of such movements.
+
+Check for uniqueness and ensure each question has one correct answer. Avoid repetition. Let me list possible questions:
+
+1. Definition of economic inequality.
+2. Main measures (Gini).
+3. Two main aspects (income, wealth).
+4. Globalization's effect on between and within countries.
+5. Adjusted HDI index.
+6. Book by Thomas Piketty.
+7. Author Branko Milanović's field.
+8. Movement caused by economic inequality (e.g., anarchist insurrection).
+9. Concept of equity vs equality.
+10. Another book like "Capital and Ideology".
+
+Make sure answers are directly from the context. Check for correct Portuguese terms. Verify that each answer is unambiguous and present in the given data. Avoid using any external knowledge beyond the provided context and facts.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a medida mais utilizada para medir a desigualdade econômica?",
+    "resposta": "Coeficiente de Gini"
+  },
+  {
+    "pergunta": "Que dois fatores principais são abrangidos pela desigualdade econômica?",
+    "resposta": "Distribuição de renda e distribuição de riqueza"
+  },
+  {
+    "pergunta": "Como a globalização afeta a desigualdade entre nações e dentro dos países?",
+    "resposta": "Reduz a desigualdade entre nações, mas aumenta a desigualdade dentro dos países"
+  },
+  {
+    "pergunta": "Qual índice composto leva em consideração a desigualdade para ajustar o desenvolvimento humano?",
+    "resposta": "Índice de Desenvolvimento Humano Ajustado pela Desigualdade"
+  },
+  {
+    "pergunta": "Qual livro de Thomas Piketty está relacionado à desigualdade econômica?",
+    "resposta": "Capital no Século XXI"
+  },
+  {
+    "pergunta": "Qual movimento está associado à causa da desigualdade econômica, conforme os fatos fornecidos?",
+    "resposta": "Ocupação de Berlim"
+  },
+  {
+    "pergunta": "Qual é o campo de estudo principal do economista Branko Milanović?",
+    "resposta": "Desigualdade econômica"
+  },
+  {
+    "pergunta": "Como a desigualdade afeta o crescimento econômico, segundo as pesquisas mencionadas?",
+    "resposta": "Dificulta a duração do crescimento, mas não sua taxa"
+  },
+  {
+    "pergunta": "Qual conceito está relacionado à distribuição justa dos benefícios sociais e econômicos?",
+    "resposta": "Equidade"
+  },
+  {
+    "pergunta": "Qual obra aborda a desigualdade econômica como tema central, segundo os fatos fornecidos?",
+    "resposta": "Capital e Ideologia"
+  }
+]
+```

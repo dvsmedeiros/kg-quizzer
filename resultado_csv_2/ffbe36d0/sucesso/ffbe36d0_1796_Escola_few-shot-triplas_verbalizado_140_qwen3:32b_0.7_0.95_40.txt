@@ -1,0 +1,96 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 pairs of questions and answers based on the provided context and facts. The context is about the definition and structure of schools, and the facts list numerous private schools. 
+
+First, I need to ensure that the questions are varied and cover different aspects. The examples given in the prompt mention things like alternative names for private schools, funding sources, and specific terms. But since the user provided a list of private schools, maybe I can focus more on that.
+
+Looking at the context, the historical definition of schools and the current structure are mentioned. So possible questions could be about the original meaning of "escola" or the difference between private and public schools. However, the facts provided are all about private schools, so maybe most questions should relate to that.
+
+The user's examples include terms like "independentes" for private schools. The context mentions "escolas particulares," so maybe a question on synonyms. Also, the context says that in many systems, education is mandatory, so a question about that could be relevant.
+
+The facts list many private schools with their names. So questions could be about identifying if a specific school is private, based on the list. For example, "KGiSL Institute of Technology é uma escola particular?" with the answer "Sim."
+
+But the user wants the questions to be varied and not repetitive. So not all questions can be about checking if a school is private. Maybe some can be about the structure of the education system, like levels (ensino fundamental, médio), or the definition of a school.
+
+Another angle is the function of schools, like the original meaning of "escola" being discussion or leisure. So a question like "Qual era o significado original da palavra 'escola'?" with the answer "discussão ou conferência."
+
+Also, the context mentions that today schools are institutions for teaching under teachers' direction. So a question could ask about the current definition.
+
+I need to make sure each question has a clear, correct answer from the context or facts. Let me list possible questions:
+
+1. Original meaning of "escola" – discussão ou conferência.
+2. What is the current definition of a school? Institution for teaching under teachers.
+3. What are the two common levels in school systems? Ensino fundamental and médio.
+4. What is another term for private schools? Independentes (from example).
+5. Which country's systems are usually mandatory? Most countries.
+6. What is the name of the higher education institution? Faculdade or universidade.
+7. Is KGiSL Institute of Technology a private school? Sim.
+8. Is Lahore School of Economics a private school? Sim.
+9. What is another name for private schools in the US? Independent schools.
+10. What is the level after ensino fundamental? Ensino médio.
+
+Wait, the user's examples included some terms like "independentes" as another name for private schools. The context says "escolas particulares" and "independentes" in the example. So maybe the question should be "Juntamente com as escolas não-governamentais e não estatais, qual é o outro nome para escolas particulares?" with the answer "independentes," as in the example.
+
+But the user provided a list of private schools, so checking if specific schools are private is a valid approach. However, since there are many entries, maybe pick 3-4 from the list and use them as examples. But the user wants 10 questions, so perhaps a mix.
+
+Also, the context mentions that some schools are called "faculdade" or "universidade" for higher education. So a question could be about what higher education institutions are called.
+
+Let me structure the 10 pairs:
+
+1. Qual era o significado original da palavra "escola"? → "discussão ou conferência"
+2. Qual é a definição atual de uma escola? → "instituição concebida para o ensino de alunos sob a direção de professores"
+3. Quais são os dois níveis comuns nas escolas? → "ensino fundamental" e "ensino médio"
+4. Em que países geralmente os sistemas educacionais são obrigatórios? → "A maioria dos países"
+5. Qual é outro termo para "escola particular"? → "independente"
+6. KGiSL Institute of Technology é uma escola particular? → "Sim"
+7. Lahore School of Economics é uma escola particular? → "Sim"
+8. O que é uma instituição que oferece ensino superior? → "faculdade ou universidade"
+9. Saint Pius X Catholic High School (Kansas City, Missouri) é uma escola particular? → "Sim"
+10. Quais são os níveis após o ensino fundamental? → "ensino médio"
+
+This way, the questions cover the historical meaning, current definition, common levels, mandatory systems, terminology, specific schools, higher education institutions, and progression through levels. Each answer is directly from the context or the list of private schools provided.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual era o significado original da palavra 'escola'?",
+    "resposta": "discussão ou conferência"
+  },
+  {
+    "pergunta": "Qual é a definição atual de uma escola?",
+    "resposta": "instituição concebida para o ensino de alunos sob a direção de professores"
+  },
+  {
+    "pergunta": "Quais são os dois níveis comuns nas escolas?",
+    "resposta": "ensino fundamental e ensino médio"
+  },
+  {
+    "pergunta": "Em que países geralmente os sistemas educacionais são obrigatórios?",
+    "resposta": "A maioria dos países"
+  },
+  {
+    "pergunta": "Qual é outro termo para 'escola particular'?",
+    "resposta": "independente"
+  },
+  {
+    "pergunta": "KGiSL Institute of Technology é uma escola particular?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Lahore School of Economics é uma escola particular?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O que é uma instituição que oferece ensino superior?",
+    "resposta": "faculdade ou universidade"
+  },
+  {
+    "pergunta": "Saint Pius X Catholic High School (Kansas City, Missouri) é uma escola particular?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Quais são os níveis após o ensino fundamental?",
+    "resposta": "ensino médio"
+  }
+]
+```

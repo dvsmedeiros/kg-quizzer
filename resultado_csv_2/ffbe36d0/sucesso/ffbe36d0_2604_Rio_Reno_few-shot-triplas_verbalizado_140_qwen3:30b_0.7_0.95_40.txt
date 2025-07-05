@@ -1,0 +1,97 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs about the Rhine River based on the given context and facts. First, I need to make sure I understand the requirements. The questions must be varied, cover different aspects, and the answers must be directly from the provided data. No repetition, and each answer must be correct based on the content.
+
+Looking at the context, the Rhine is 1233 km long, flows from south to north, and empties into the North Sea via the Rhine-Meuse-Scheldt delta. The facts list a lot of technical terms, categories, and specific locations. I need to extract unique questions from these.
+
+First question: Maybe about the length. The context says 1233 km. So "Qual é o comprimento do Reno?" with answer "1 233 km".
+
+Next, the direction. The context mentions "de sul a norte", so "Para qual direção o Reno flui?" answered with "de sul a norte".
+
+Where it empties: The context says "no mar do Norte no delta do Reno–Mosa–Escalda", so "Onde o Reno deságua?" with "mar do Norte no delta do Reno–Mosa–Escalda".
+
+Origin confluence: The facts mention "Switzerland" and "Graubünden". So "Qual é a confluência de origem do Reno?" answered with "Switzerland" or "Graubünden". Wait, the context says "confluência de origem Switzerland" and "Graubünden" in the facts. Maybe "Switzerland" is the answer here.
+
+Type of river: The facts list "BodyOfWater" and "Waterway109476331". But the context says "curso de água", so maybe "Tipo de curso d'água do Reno?" with "BodyOfWater".
+
+Countries it flows through: The context mentions "Europa", but the facts have "Netherlands", "Switzerland", "Germany", etc. But the context says it crosses Europe. Maybe "Quais países o Reno atravessa?" but the answer might be "Europa" as per context. However, the facts have specific countries. Wait, the context says "atravessa a Europa de sul a norte", but the answer might need to be more specific. However, the context doesn't list specific countries, only the general direction. So maybe the answer is "Europa".
+
+Another fact: "Rhine é do tipo WikicatRiversOfEurope". So "Qual é a categoria do Reno no Wikicat?" with "Rivers of Europe".
+
+Another fact: "Rhine possui imagem representativa Maas Delta1.jpg". So "Qual é a imagem representativa do Reno?" answered with "Maas Delta1.jpg".
+
+Another fact: "Rhine possui geometria WGS84 POINT(8.6722221374512 46.632499694824)". So "Qual é a geometria do Reno?" with "WGS84 POINT(8.6722221374512 46.632499694824)".
+
+Wait, but some of these might be too technical. Need to ensure the questions are relevant and the answers are directly from the content. Let me check each fact again to find 10 unique questions.
+
+Another fact: "Rhine tem nome de subdivisão Alsace, France" – so "Quais são as subdivisões do Reno?" but maybe "Qual é a subdivisão do Reno em França?" answered with "Alsace".
+
+Another fact: "Rhine possui assunto Category:Rivers of the Netherlands" – "Qual é a categoria do Reno na Wikipedia?" answered with "Rivers of the Netherlands".
+
+I need to make sure each question is different. Let's list possible ones:
+
+1. Comprimento do Reno
+2. Direção do fluxo
+3. Local de deságua
+4. Confluência de origem
+5. Tipo de curso d'água
+6. Países atravessados
+7. Categoria no Wikicat
+8. Imagem representativa
+9. Geometria
+10. Subdivisão em França
+
+But need to check if these are all covered in the context and facts. For example, the context mentions "Europa" for countries, but the facts have specific categories. Maybe the answer for countries is "Europa" as per context, but the facts have more specifics. However, the user said to use the content provided. Since the context says "atravessa a Europa", the answer would be "Europa".
+
+Another question: "Qual é o nome francês do Reno?" – the context says "Rhin", so that's a valid question.
+
+Another fact: "Rhine é equivalente a 259663544" – but that's a number, not sure if it's relevant. Maybe not.
+
+Another: "1907 European Rowing Championships possui local do evento Rhine" – "Em que ano ocorreu o Campeonato Europeu de Remo no Reno?" answered with "1907".
+
+But the user's examples had "Quanto tempo dura o Reno?" for length. So similar questions are okay as long as they are varied.
+
+I need to ensure 10 unique pairs. Let me compile them now.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o comprimento do Reno?",
+    "resposta": "1 233 km"
+  },
+  {
+    "pergunta": "Para qual direção o Reno flui?",
+    "resposta": "de sul a norte"
+  },
+  {
+    "pergunta": "Onde o Reno deságua?",
+    "resposta": "mar do Norte no delta do Reno–Mosa–Escalda"
+  },
+  {
+    "pergunta": "Qual é a confluência de origem do Reno?",
+    "resposta": "Switzerland"
+  },
+  {
+    "pergunta": "Qual é o tipo de curso d'água do Reno?",
+    "resposta": "BodyOfWater"
+  },
+  {
+    "pergunta": "Quais países o Reno atravessa?",
+    "resposta": "Europa"
+  },
+  {
+    "pergunta": "Qual é a categoria do Reno no Wikicat?",
+    "resposta": "Rivers of the Netherlands"
+  },
+  {
+    "pergunta": "Qual é a imagem representativa do Reno?",
+    "resposta": "Maas Delta1.jpg"
+  },
+  {
+    "pergunta": "Qual é a geometria do Reno?",
+    "resposta": "WGS84 POINT(8.6722221374512 46.632499694824)"
+  },
+  {
+    "pergunta": "Qual é a subdivisão do Reno em França?",
+    "resposta": "Alsace"
+  }
+]

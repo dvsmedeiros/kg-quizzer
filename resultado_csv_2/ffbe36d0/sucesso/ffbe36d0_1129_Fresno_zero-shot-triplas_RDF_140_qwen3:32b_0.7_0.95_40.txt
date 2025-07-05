@@ -1,0 +1,41 @@
+<think>
+Okay, let's see. The user wants me to generate 10 question-answer pairs based on the provided RDF data about Fresno, California. First, I need to understand the data structure. The main subject is "Fresno, California," which has various properties like areaTotal, areaCode, governmentType, etc. There are also many triples where other resources (like people, events, organizations) are linked to Fresno as their location or birthplace.
+
+The user's instructions mention using the provided RDF data and following specific rules. The rules include ensuring each pair is in the format "pergunta;resposta" and that the questions are in Portuguese. Each answer should be based on the given data without extra information. Also, no markdown, just plain text separated by semicolons.
+
+First, I'll list out the main entities and their relationships. For example, the areaTotal is "300.438620798976". The areaCode is "559". The governmentType is "Strong Mayor". There are several people with birthPlace as Fresno, like Kevin Federline, Quincy Pondexter, etc. There are also events like Royal_Rumble_(1996) held in Fresno. Organizations like Sun-Maid located there. Broadcast stations like KMGV, KJWL, etc., with broadcast areas or cities as Fresno.
+
+Now, I need to form questions in Portuguese. Let's start with the area and area code. That's straightforward. Then, government type. The settlement type is "List of municipalities in California". Then, some people-related questions. For example, "Onde nasceu Quincy Pondexter?" with answer "Fresno, California." Then events, like "Em qual cidade ocorreu o Royal Rumble de 1996?" answer "Fresno, California." Also, organizations, like "Qual é a cidade sede da empresa Sun-Maid?" answer "Fresno, California." For the radio stations, maybe "Qual é a área de transmissão da estação KMGV?" answer "Fresno, California."
+
+I need to make sure each question is unique and covers different aspects. Let's check the data again to avoid repetition. There are 10 pairs needed. Let's count:
+
+1. Área total de Fresno?
+2. Código de área?
+3. Tipo de governo?
+4. Tipo de assentamento?
+5. Onde Quincy Pondexter nasceu?
+6. Onde ocorreu o Royal Rumble 1996?
+7. Cidade sede da Sun-Maid?
+8. Qual o código de área de Fresno?
+9. Cidade sede da KMGV?
+10. Quem nasceu em Fresno, Quincy Pondexter?
+
+Wait, maybe some of these are duplicates. Let me adjust. The code area is mentioned twice, but maybe the first and second questions can cover that. Also, the settlement type is a specific class, so that's another question. The government type is another. Then people, events, organizations, and radio stations. That should cover 10 without repeating the same type of question too much.
+
+I think that's a good spread. Now, formulating the questions in Portuguese. For example, "Qual é a área total de Fresno, California?" and the answer is the areaTotal value. Then, "Qual é o código de área de Fresno, California?" with "559". The government type is "Strong Mayor", so the question would be "Qual é o tipo de governo de Fresno, California?" Answer: "Strong Mayor". The settlement type is "List of municipalities in California", so question: "Qual é o tipo de assentamento de Fresno, California?" Answer: "List of municipalities in California".
+
+For people, use their names and birthplace. For events, where they occurred. Organizations, their location. Radio stations, their broadcast area or city. Also, check for exact property names. For example, "broadcastArea" or "city". Need to ensure the answer is exactly as in the data. For example, KMGV has "area" and "city" properties with "Fresno, California". So the answer would be "Fresno, California" for both.
+
+I need to make sure each answer is directly from the data and not inferred. Also, check for any typos in the answers. Once all 10 are formed, present them in the required format.
+</think>
+
+1. Qual é a área total de Fresno, California?;300.438620798976  
+2. Qual é o código de área de Fresno, California?;559  
+3. Qual é o tipo de governo de Fresno, California?;Strong Mayor  
+4. Qual é o tipo de assentamento de Fresno, California?;List of municipalities in California  
+5. Onde nasceu Quincy Pondexter?;Fresno, California  
+6. Em qual cidade ocorreu o Royal Rumble de 1996?;Fresno, California  
+7. Qual é a cidade sede da empresa Sun-Maid?;Fresno, California  
+8. Qual é a área de transmissão da estação KMGV?;Fresno, California  
+9. Onde está localizado o Physicians Building?;Fresno, California  
+10. Qual é a cidade onde a estação de rádio KJWL transmite?;Fresno, California

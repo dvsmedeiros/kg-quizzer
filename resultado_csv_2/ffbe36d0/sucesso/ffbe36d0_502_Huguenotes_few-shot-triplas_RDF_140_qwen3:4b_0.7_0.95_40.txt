@@ -1,0 +1,80 @@
+<think>
+Okay, I need to generate 10 objective question-answer pairs based on the provided context and facts about the Huguenots. Let me start by carefully reading the context and the facts given.
+
+The context says that Huguenotes were French Protestants during the religious wars in France (second half of the 16th century). About 300,000 left France after the persecution of Protestant communities under Louis XIV and the revocation of the Edict of Nantes in October 1685. They were mostly Calvinists in the Reformed Church, while those in Alsace, Moselle, and Montbéliard were mostly German Lutherans.
+
+The facts include some DBpedia and Wikipedia links, but the main content is the context provided. The example questions and answers are about the Huguenots' history, the Edict of Nantes, their migration, religious affiliations, and related historical events.
+
+I need to make sure that each question is unique and covers different aspects. Let me brainstorm possible questions:
+
+1. What was the main religious affiliation of the Huguenots in France?
+2. Which regions in France had a majority of German Lutherans among the Huguenots?
+3. When was the Edict of Nantes revoked, leading to the exodus of Huguenots?
+4. What was the name of the historical event that caused the persecution of Huguenots under Louis XIV?
+5. What was the primary reason for the migration of about 300,000 Huguenots from France?
+6. What was the name of the conspiracy to overthrow the French House of Guise?
+7. What was the original meaning of the term "Huguenot"?
+8. Which city in Switzerland was the center of the Calvinist movement?
+9. What was the name of the treaty that granted religious autonomy to the Huguenots?
+10. What was the consequence of the revocation of the Edict of Nantes?
+
+Now I need to check if these questions are based on the provided context and facts. The context mentions that Huguenots were mostly Calvinists, while others were German Lutherans in certain regions. The Edict of Nantes was revoked in 1685, leading to their exodus. The conspiracy is the Amboise plot. The term "Huguenot" originally meant mockery. Geneva was the center of Calvinist movement. The Edict of Nantes was the treaty granting autonomy.
+
+I should make sure that each answer is directly from the context. The example given in the problem includes questions about the Edict of Nantes, the regions, the term's origin, and the conspiracy. So, I need to avoid repeating those but cover different aspects. Let me confirm each point:
+
+1. The Huguenots were mainly Calvinists. Correct.
+2. Alsace, Moselle, Montbéliard. Correct.
+3. Edict of Nantes revoked in 1685. Correct.
+4. Persecution under Louis XIV. Correct.
+5. Revocation of Edict of Nantes. Correct.
+6. Amboise conspiracy. Correct.
+7. Term "Huguenot" was originally a term of ridicule. Correct.
+8. Geneva as the center. Correct.
+9. Edict of Nantes. Correct.
+10. Consequence is the exodus of 300k. Correct.
+
+I need to phrase the questions in Portuguese, ensuring they are clear and based on the facts. Also, check that each answer is accurate and directly from the given context. I think that's all. Now, structure them into JSON as per the instructions.
+</think>
+
+[
+  {
+    "pergunta": "Qual foi a principal confissão religiosa dos huguenotes na França?",
+    "resposta": "calvinismo"
+  },
+  {
+    "pergunta": "Quais regiões da França tiveram a maioria dos huguenotes que eram luteranos alemães?",
+    "resposta": "Alsácia, Moselle e Montbéliard"
+  },
+  {
+    "pergunta": "Em que data o Édito de Nantes foi revogado, levando à fuga de cerca de 300 000 huguenotes?",
+    "resposta": "18 de outubro de 1685"
+  },
+  {
+    "pergunta": "Qual foi o principal motivo para a perseguição aos huguenotes sob Luís XIV?",
+    "resposta": "a revogação do Édito de Nantes"
+  },
+  {
+    "pergunta": "Qual foi o nome da conspiração para usurpar o poder da Casa da Guise francesa?",
+    "resposta": "Amboise"
+  },
+  {
+    "pergunta": "Qual foi o significado original do termo 'huguenote'?",
+    "resposta": "escárnio"
+  },
+  {
+    "pergunta": "Qual cidade suíça era o centro do movimento calvinista?",
+    "resposta": "Genebra"
+  },
+  {
+    "pergunta": "Que tratado concedeu aos huguenotes autonomia religiosa, política e militar?",
+    "resposta": "o Édito de Nantes"
+  },
+  {
+    "pergunta": "Qual foi a consequência da revogação do Édito de Nantes?",
+    "resposta": "a fuga de cerca de 300 000 huguenotes da França"
+  },
+  {
+    "pergunta": "Quais foram os principais grupos religiosos entre os huguenotes que deixaram a França?",
+    "resposta": "calvinistas da Igreja Reformada"
+  }
+]

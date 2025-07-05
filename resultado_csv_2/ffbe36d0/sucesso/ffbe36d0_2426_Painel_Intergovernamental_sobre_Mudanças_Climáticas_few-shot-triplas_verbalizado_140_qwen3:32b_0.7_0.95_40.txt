@@ -1,0 +1,71 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about the IPCC. Let me start by carefully reading the context to understand the main points. The context explains that the IPCC is an intergovernmental organization created in 1988 by the UN under UNEP and WMO. Its purpose is to synthesize and share knowledge on climate change, causes, effects, and mitigation strategies. It doesn't do original research but compiles existing scientific findings. They've produced five major reports, with the last one in 2014. The IPCC was awarded the Nobel Peace Prize in 2007.
+
+Now, looking at the facts provided, there's a lot of structured data about the IPCC's categories, types, associated models, people, and more. The examples given in the prompt show that questions can be about affiliations, key figures, functions, and significant events related to the IPCC.
+
+First, I need to ensure that each question is unique and covers different aspects. The examples in the prompt touch on the organizations involved, the Nobel Prize, leadership, and the number of reports. So, I should avoid repetition and cover areas like creation year, purpose, structure, notable reports, awards, leadership, and related organizations.
+
+Let me brainstorm possible questions:
+
+1. When was the IPCC established? The answer would be 1988.
+2. Which organizations co-established the IPCC? UNEP and WMO.
+3. What is the primary objective of the IPCC? Synthesizing and disseminating knowledge on climate change.
+4. How many major reports has the IPCC published? Five, with the last in 2014.
+5. Which prize did the IPCC win in 2007? Nobel Peace Prize.
+6. What type of research does the IPCC conduct? It doesn't produce original research but compiles existing findings.
+7. What are the effects of climate change discussed by the IPCC? Aquecimento global, its causes, effects, and risks.
+8. What is the role of the IPCC in global climate policy? It's the main basis for policies.
+9. What is the name of the first report published by the IPCC? 1990.
+10. Who is the current Chair of the IPCC? Hoesung Lee.
+
+I need to check if these answers are explicitly stated or can be inferred from the context. For example, the creation year is 1988, the two organizations are UNEP and WMO, the primary objective is clear, the number of reports is five, the Nobel Prize in 2007, etc. The current chair is Hoesung Lee, as mentioned in the facts.
+
+I should also ensure that each question is distinct and covers different aspects. Let me verify each point against the context and facts to confirm accuracy. For example, the first question about the establishment year is directly stated. The number of reports is mentioned as five, with the last in 2014. The Nobel Prize is explicitly mentioned. The role in policies is stated as the main base. The current chair is Hoesung Lee.
+
+Now, I need to structure these into the required JSON format with 10 pairs. Let me list them out and ensure they meet the criteria.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em que ano o IPCC foi criado?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "Quais organizações da ONU criaram o IPCC?",
+    "resposta": "Programa das Nações Unidas para o Meio Ambiente (PNUMA) e Organização Meteorológica Mundial (OMM)"
+  },
+  {
+    "pergunta": "Qual o objetivo principal do IPCC?",
+    "resposta": "Sintetizar e divulgar o conhecimento sobre mudanças climáticas, causas, efeitos e riscos, e sugerir meios de combater os problemas"
+  },
+  {
+    "pergunta": "Quantos relatórios principais o IPCC já publicou?",
+    "resposta": "Cinco"
+  },
+  {
+    "pergunta": "Em que ano o IPCC ganhou o Prêmio Nobel da Paz?",
+    "resposta": "2007"
+  },
+  {
+    "pergunta": "O IPCC produz pesquisas científicas originais?",
+    "resposta": "Não, reúne e resume conhecimentos de cientistas independentes e governos"
+  },
+  {
+    "pergunta": "Quem é o atual presidente do IPCC?",
+    "resposta": "Hoesung Lee"
+  },
+  {
+    "pergunta": "Onde está localizada a sede do IPCC?",
+    "resposta": "Genebra, Suíça"
+  },
+  {
+    "pergunta": "Quais são os tópicos abordados nos relatórios do IPCC?",
+    "resposta": "Aquecimento global, suas causas, efeitos, riscos para humanidade e meio ambiente"
+  },
+  {
+    "pergunta": "O IPCC é considerado a maior autoridade mundial sobre aquecimento global?",
+    "resposta": "Sim"
+  }
+]
+```

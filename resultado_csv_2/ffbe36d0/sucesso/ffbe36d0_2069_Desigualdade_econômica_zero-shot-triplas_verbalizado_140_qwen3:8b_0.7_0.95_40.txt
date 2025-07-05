@@ -1,0 +1,89 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts about economic inequality. First, I need to parse the context and facts carefully. The context mentions various aspects like distribution of wealth and income, the Gini coefficient, the Human Development Index adjusted for inequality, and the impact of globalization. The facts list a bunch of entries related to economic inequality, including people like Branko Milanović, Robert Wade, and organizations like Occupy movements.
+
+I need to make sure the questions are varied and cover different aspects. Let me start by identifying key points from the context. The Gini coefficient is a major measure, so a question about that is a good start. Then there's the Human Development Index adjusted for inequality, which is another important measure. The impact of globalization on global vs. national inequality is another point. Also, the context mentions that economic inequality is linked to social and political movements like Occupy Wall Street.
+
+Looking at the facts, there are mentions of specific books and authors, like "Capital in the Twenty-First Century" by Thomas Piketty, and "The Hidden Wealth of Nations" by Branko Milanović. Also, there are references to images and data visualizations like the GINI index and income distribution charts. The Occupy movements in various cities are cited as causes of economic inequality.
+
+I need to avoid repeating similar questions. For example, if I ask about the Gini coefficient, I shouldn't have another question about the same measure. Instead, I can focus on different aspects like the Human Development Index, the role of globalization, specific authors, and the impact on growth. Also, the facts mention that economic inequality is part of categories like Social inequality and Economic globalization, which can be used for questions.
+
+Another point is the effect of economic inequality on growth duration versus growth rate. The context says that higher inequality hinders growth duration but not the rate. That's a good fact to include. Also, the connection between economic inequality and social movements like Occupy Wall Street is another angle.
+
+I should make sure each question is distinct and covers a unique aspect. Let me list possible questions:
+
+1. What is the primary measure used to assess economic inequality?
+   - Answer: Coefficient de Gini.
+
+2. Which index considers economic inequality in its calculation?
+   - Answer: Índice de Desenvolvimento Humano Ajustado pela Desigualdade.
+
+3. How does economic inequality affect economic growth?
+   - Answer: Dificulta a duração do crescimento, mas não sua taxa.
+
+4. What is the impact of globalization on economic inequality?
+   - Answer: Reduz a desigualdade global, mas aumenta a desigualdade dentro dos países.
+
+5. Which author is associated with the study of economic inequality?
+   - Answer: Branko Milanović.
+
+6. What is the main focus of the Occupy Wall Street movement?
+   - Answer: Desigualdade econômica.
+
+7. What does the Gini coefficient measure?
+   - Answer: Distribuição de riqueza e renda.
+
+8. Which book discusses economic inequality in the context of global wealth?
+   - Answer: The Hidden Wealth of Nations.
+
+9. What is the primary cause of the Occupy movements?
+   - Answer: Desigualdade econômica.
+
+10. Which organization focuses on the study of economic inequality?
+    - Answer: Nathan Cummings Foundation.
+
+Wait, I need to check if these answers are correct based on the context and facts provided. For example, the facts mention that Nathan Cummings Foundation has a focus on economic inequality. Also, the Occupy movements have causes related to economic inequality. Branko Milanović is mentioned as working in the area of economic inequality. The book "The Hidden Wealth of Nations" is cited as discussing economic inequality. The Gini coefficient is the primary measure. The Human Development Index adjusted for inequality is another measure. The impact on growth is as stated. Globalization's effect is as mentioned. The Occupy movement's main cause is economic inequality. The Nathan Cummings Foundation is mentioned as focusing on it. That covers the 10 questions. Let me make sure each question is distinct and the answers are directly from the context or facts provided. Also, check for any repetition. Once that's done, structure them into the required JSON format.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a principal medida utilizada para avaliar a desigualdade econômica?",
+    "resposta": "Coeficiente de Gini"
+  },
+  {
+    "pergunta": "Qual índice considera a desigualdade econômica em sua composição?",
+    "resposta": "Índice de Desenvolvimento Humano Ajustado pela Desigualdade"
+  },
+  {
+    "pergunta": "Como a desigualdade econômica afeta o crescimento econômico?",
+    "resposta": "Dificulta a duração do crescimento, mas não sua taxa"
+  },
+  {
+    "pergunta": "Qual é o impacto da globalização na desigualdade econômica?",
+    "resposta": "Reduz a desigualdade global, mas aumenta a desigualdade dentro dos países"
+  },
+  {
+    "pergunta": "Qual autor é associado ao estudo da desigualdade econômica?",
+    "resposta": "Branko Milanović"
+  },
+  {
+    "pergunta": "Qual é a causa principal dos movimentos Occupy Wall Street?",
+    "resposta": "Desigualdade econômica"
+  },
+  {
+    "pergunta": "O que o coeficiente de Gini mede?",
+    "resposta": "Distribuição de riqueza e renda"
+  },
+  {
+    "pergunta": "Qual livro discute a desigualdade econômica em relação à riqueza global?",
+    "resposta": "The Hidden Wealth of Nations"
+  },
+  {
+    "
+    "pergunta": "Qual é a causa principal dos movimentos Occupy?",
+    "resposta": "Desigualdade econômica"
+  },
+  {
+    "pergunta": "Qual organização se dedica ao estudo da desigualdade econômica?",
+    "resposta": "Nathan Cummings Foundation"
+  }
+]

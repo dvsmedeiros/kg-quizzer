@@ -1,0 +1,67 @@
+<think>
+Okay, I need to create 10 pairs of questions and answers based on the provided context and facts. The context includes various moments where human rights have been contested in different countries, including Russia, France, Romania, Montenegro, Poland, Ireland, the UK, Turkey, Italy, Spain, and Germany.
+
+First, I'll go through each fact one by one to understand the key points. For example, the 1998 Russian.miners' strike is a direct reference to the human rights movement known as "human rights everywhere." The Monstrous Civil Disobedence (MCD) in Russia was a broader movement that included Montenegro and Romania.
+
+I need to ensure each question I ask relates directly to one of these strikes or movements, allowing for clear and concise answers. I should make sure the questions are varied in context but stem from the facts provided. Additionally, I must avoid any markdown and keep the response as a JSON array with specific structures.
+
+Let me outline each point:
+
+1. **2015-2016 Russian minima strikes**: This is the primary question for this context.
+2. **2019 Montenegrin anti-corruption strikes**: Important, but I need to create a related question as well.
+3. **2017 Albania's opposition protests**: A clear point about human rights in Albania.
+4. **2017 Serbian protests**: Also focuses on Greece and Serbia.
+5. **2017 St. Louis protests**: Focuses on US institutions.
+6. **2018-Iranian general strikes**: Important for global human rights issues.
+
+I need to create questions that are neutral and focused, each linked directly to the facts to ensure accurate answers. I'll avoid repeating topics so each pair is unique. 
+
+Also, ensuring that the answers cover all aspects of these events without being too specific or leading. The responses should reflect what people normally talk about when they see such strikes, like "human rights everywhere."
+
+Let me structure this step by step, mapping each fact to a question and answer pair.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi o primarilyente dos minões do Russia do ano 90?",
+    "resposta": "estake ou strikes"
+  },
+  {
+    "pergunta": "O que é o primaryente dos montenegrins da ano 2015?",
+    "resposta": "estake anti-corruption"
+  },
+  {
+    "pergunta": "Qual foi o primaryente da protesta de alternata no Albania?",
+    "resposta": "protesta de alternata"
+  },
+  {
+    "pergunta": "O que é o primaryente da protesta serena dos estrelas na Greece?",
+    "resposta": "protesta serena dos estrelas"
+  },
+  {
+    "pergunta": "Qual foi o primaryente do protesto de St. Louis em USA do ano 2016?",
+    "resposta": "proteão de St. Louis"
+  },
+  {
+    "pergunta": "O que é o primaryente das estranhas da gama repostas da Argentina?",
+    "resposta": "estake repostas da Argentina"
+  },
+  {
+    "pergunta": "Quais são os primeiros exemplos dos human rights everywhere no Италия?",
+    "resposta": "exemplos da human rights everywhere na Itália"
+  },
+  {
+    "pergunta": "O que é o primaryente das protestas da associação gregicana na Αξη?",
+    "resposta": "protesta gregicana"
+  },
+  {
+    "pergunta": "Qual foi o primaryente do movimento de direitos civicos dos Estados Unidos do ano 2017?",
+    "resposta": "movimento de direitos civicos dos Estados Unidos"
+  },
+  {
+    "pergunta": "O que é o primaryente das protestas da associação alternata no Belo Grão do-Reira?",
+    "resposta": "protesta alternata"
+  }
+]
+```

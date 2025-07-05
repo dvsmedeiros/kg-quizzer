@@ -1,0 +1,59 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided data. Let me look through the information given. The main data is about the Scottish Parliament, its structure, history, and related entities. There are also some example questions and answers that I can use as a model.
+
+First, I should parse the RDF data to understand the key points. The Scottish Parliament (http://dbpedia.org/resource/Scottish_Parliament) has various properties like ns2:leader (Alison Johnstone), ns2:electionDateLeader ("2021-05-13"), ns1:meetingPlace (Scottish Parliament Building), ns1:votingSystem (Additional member system), etc. There are also categories and classes indicating it's an assembly, parliament, etc.
+
+Looking at the examples, the questions are factual and based on specific attributes. For instance, the first example asks about when the current parliament was convened and the answer references the 1997 referendum. Another example mentions the Scotland Act 1998, which outlines the powers.
+
+I need to create similar questions. Let me start with the leader. The current leader is Alison Johnstone, so a question could be "Who is the current Presiding Officer of the Scottish Parliament?" The answer would be Alison Johnstone.
+
+Next, the voting system is the Additional member system. A question could be "What voting system is used in the Scottish Parliament?" The answer is the Additional member system.
+
+The meeting place is the Scottish Parliament Building. So, "Where does the Scottish Parliament hold its meetings?" Answer: Scottish Parliament Building.
+
+The election date is 2021-05-13. So, "When was the last election for the Scottish Parliament held?" Answer: May 6, 2021 (since ns1:lastElection is 2021-05-06).
+
+The next election is on 05-07 (assuming year is missing, maybe 2026 as per standard terms). So, "When is the next election for the Scottish Parliament scheduled?" Answer: May 7.
+
+The legislative period name is "6th Scottish Parliament." So, "What is the current legislative period called in the Scottish Parliament?" Answer: 6th Scottish Parliament.
+
+The number of members might be inferred from the structure, but it's not directly given. However, if there's a template or a known number, but the data here doesn't specify. Maybe skip unless I can find a hint.
+
+The committees listed include Economy, Energy and Tourism, etc. So, "What are some of the committees in the Scottish Parliament?" Answer: Economy, Energy and Tourism; Education, Lifelong Learning and Culture; Equal Opportunities; Europe and External Relations; Finance; Local Government and Communities; Rural Affairs and Environment; Scottish Parliamentary Pensions Scheme; and Climate Change.
+
+The location is Edinburgh and Scotland. So, "Where is the Scottish Parliament located?" Answer: Edinburgh, Scotland.
+
+The classes include that it's a unicameral legislature. So, "What type of legislative body is the Scottish Parliament?" Answer: Unicameral parliament.
+
+I need to check if all these points are covered and ensure the answers are accurate based on the provided data. Also, avoid repeating the examples given. Let me verify each answer against the data to ensure correctness.
+</think>
+
+1. **Pergunta**: Quem é a atual Presidente do Parlamento da Escócia?  
+   **Resposta**: Alison Johnstone.  
+
+2. **Pergunta**: Qual sistema eleitoral é utilizado no Parlamento da Escócia?  
+   **Resposta**: Sistema de membro adicional (Additional Member System).  
+
+3. **Pergunta**: Onde o Parlamento da Escócia realiza suas reuniões?  
+   **Resposta**: No Edifício do Parlamento da Escócia (Scottish Parliament Building).  
+
+4. **Pergunta**: Quando foi realizada a última eleição para o Parlamento da Escócia?  
+   **Resposta**: Em 6 de maio de 2021.  
+
+5. **Pergunta**: Quando está prevista a próxima eleição para o Parlamento da Escócia?  
+   **Resposta**: Em 7 de maio (ano não especificado, mas geralmente a cada 5 anos, sugerindo 2026).  
+
+6. **Pergunta**: Qual é o nome do atual período legislativo do Parlamento da Escócia?  
+   **Resposta**: 6º Parlamento da Escócia.  
+
+7. **Pergunta**: Quais são alguns dos principais comitês do Parlamento da Escócia?  
+   **Resposta**: Economia, Energia e Turismo; Educação, Aprendizagem ao Longo da Vida e Cultura; Igualdade de Oportunidades; Relações Europeias e Externas; Finanças; Governo Local e Comunidades; Assuntos Rurais e Meio Ambiente; Pensões do Parlamento da Escócia e Mudança Climática.  
+
+8. **Pergunta**: Onde está localizado o Parlamento da Escócia?  
+   **Resposta**: Em Edimburgo, Escócia.  
+
+9. **Pergunta**: Que tipo de órgão legislativo é o Parlamento da Escócia?  
+   **Resposta**: Uma assembleia unicameral.  
+
+10. **Pergunta**: Quais são os temas principais dos comitês mencionados no Parlamento da Escócia?  
+    **Resposta**: Economia, educação, igualdade, relações externas, finanças, governança local, meio ambiente e mudanças climáticas.

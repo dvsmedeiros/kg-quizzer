@@ -1,0 +1,54 @@
+<think>
+Okay, let's start by understanding the user's request. They want 10 question-answer pairs in Portuguese, based on the context of the University of Chicago. Each pair needs to be relevant, have a correct answer derived from the provided context, and follow the specified JSON format without any extra content.
+
+First, I need to recall key facts about the University of Chicago. Let me list some important points: it's a private university in Illinois, founded in 1890, part of the Big Ten Conference, known for the Chicago Plan in economics, the Oriental Institute, the Marine Biological Laboratory, notable alumni like Barack Obama and Milton Friedman, and its campus location in Hyde Park. Also, its ranking and notable programs.
+
+Now, I'll create varied questions covering different aspects. Let's see: founding year, location, notable alumni, academic programs, research institutions, sports conferences, historical contributions, campus features, rankings, and unique initiatives. Each question should be specific and have a clear answer from the context.
+
+I need to ensure that each question is unique and covers different areas. For example, one about the founding year, another about location, another about alumni, etc. Also, check that answers are directly from the context provided. Avoid any repetition in questions. Let me make sure each answer is accurate and only includes information from the given context. Once that's done, structure the JSON correctly with the required fields and without any additional text. Let me double-check the number of pairs to ensure there are exactly 10.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em que ano a Universidade de Chicago foi fundada?",
+    "resposta": "1890"
+  },
+  {
+    "pergunta": "Qual é o nome do programa acadêmico da Universidade de Chicago que influenciou políticas econômicas de muitos países?",
+    "resposta": "Chicago Plan"
+  },
+  {
+    "pergunta": "Quem é o político que estudou na Universidade de Chicago e posteriormente se tornou presidente dos Estados Unidos?",
+    "resposta": "Barack Obama"
+  },
+  {
+    "pergunta": "Qual é o nome do instituto da Universidade de Chicago dedicado à pesquisa em ciências do Oriente Médio e da Ásia?",
+    "resposta": "Oriental Institute"
+  },
+  {
+    "pergunta": "Em que cidade e estado está localizada a sede da Universidade de Chicago?",
+    "resposta": "Chicago, Illinois"
+  },
+  {
+    "pergunta": "Qual é o nome da conferência atlética em que a Universidade de Chicago competia antes de se tornar uma instituição NCAA Division III?",
+    "resposta": "Big Ten Conference"
+  },
+  {
+    "pergunta": "Qual economista laureado com o Prêmio Nobel, conhecido por sua teoria monetarista, foi professor da Universidade de Chicago?",
+    "resposta": "Milton Friedman"
+  },
+  {
+    "pergunta": "Qual é o nome do laboratório de biologia marinha associado à Universidade de Chicago?",
+    "resposta": "Marine Biological Laboratory"
+  },
+  {
+    "pergunta": "Qual é o nome do campus principal da Universidade de Chicago?",
+    "resposta": "Hyde Park"
+  },
+  {
+    "pergunta": "Em que ano a Universidade de Chicago foi listada como a primeira no ranking de instituições de ensino superior do mundo pela U.S. News & World Report?",
+    "resposta": "1995"
+  }
+]
+```

@@ -1,0 +1,69 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by carefully reading the context and facts to understand the key points.
+
+The context talks about economic inequality, covering aspects like income and wealth distribution, the Gini coefficient, the Inequality-Adjusted Human Development Index, and the impact of globalization. It also mentions that economic inequality can be measured in different ways and that it affects growth duration but not its rate. The facts list various topics related to economic inequality, including books, movements, people involved, and images.
+
+Now, I need to ensure that each question is unique and covers different aspects. Let me brainstorm possible questions:
+
+1. What is the primary measure used to assess economic inequality? (Answer: Coefficient of Gini)
+2. Which index considers both development and inequality? (Answer: Inequality-Adjusted Human Development Index)
+3. How does globalization affect inequality? (Answer: Reduces global inequality but increases within countries)
+4. What are the two main aspects of economic inequality discussed? (Income and wealth distribution)
+5. What concept is related to equal opportunities? (Equity)
+6. Which book is associated with economic inequality? (Capital in the Twenty-First Century)
+7. Who is a scholar working on economic inequality? (Branko Milanović)
+8. What is the impact of higher inequality on economic growth? (It hinders the duration of growth)
+9. What movement is linked to economic inequality? (Occupy Wall Street)
+10. What image is associated with economic inequality? (Tents of the homeless in Skid Row, Los Angeles)
+
+I should check if these questions are all covered in the context and facts. The first three are from the context. The fourth and fifth are also in the context. The sixth is mentioned in the facts. The seventh is in the facts. The eighth is in the context. The ninth is in the facts. The tenth is from the context's image description.
+
+Wait, I need to make sure each answer is explicitly or inferably from the given content. For example, the answer about Capital in the Twenty-First Century is correct as it's listed in the facts. Branko Milanović is mentioned in the facts. The image of Skid Row is in the context. The movement "Occupy Wall Street" is part of the facts (Occupy Buffalo, etc., but the main one is likely "Occupy Wall Street"). The answer for the impact on growth is from the context. 
+
+I need to avoid repeating similar questions. Let me rephrase some to ensure variety. For example, instead of asking about the Gini coefficient again, I can ask about the primary measure. Also, ensuring that each answer is unique and directly from the provided material. I should also check that the facts are used correctly, like the books and people mentioned. 
+
+Now, I'll structure each question and answer pair, making sure they follow the required JSON format without any additional text. Each question must be in Portuguese, and answers must be accurate based on the context and facts provided.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a principal medida utilizada para avaliar a desigualdade econômica?",
+    "resposta": "Coeficiente de Gini"
+  },
+  {
+    "pergunta": "Qual índice leva em conta tanto o desenvolvimento quanto a desigualdade?",
+    "resposta": "Índice de Desenvolvimento Humano Ajustado pela Desigualdade"
+  },
+  {
+    "pergunta": "Como a globalização afeta a desigualdade econômica?",
+    "resposta": "Reduz a desigualdade global entre nações, mas aumenta a desigualdade dentro dos países"
+  },
+  {
+    "pergunta": "Quais são os dois principais aspectos da desigualdade econômica mencionados no contexto?",
+    "resposta": "Distribuição de renda e distribuição de riqueza"
+  },
+  {
+    "pergunta": "Qual conceito está relacionado a igualdade de oportunidades?",
+    "resposta": "Equidade"
+  },
+  {
+    "pergunta": "Qual livro está associado ao estudo da desigualdade econômica?",
+    "resposta": "Capital in the Twenty-First Century"
+  },
+  {
+    "pergunta": "Quem é um dos especialistas que atua na área de desigualdade econômica?",
+    "resposta": "Branko Milanović"
+  },
+  {
+    "pergunta": "Qual é o impacto da maior desigualdade na duração do crescimento econômico?",
+    "resposta": "Dificulta a duração do crescimento"
+  },
+  {
+    "pergunta": "Qual movimento está vinculado à desigualdade econômica?",
+    "resposta": "Occupy Wall Street"
+  },
+  {
+    "pergunta": "Qual imagem representa a desigualdade econômica mencionada no contexto?",
+    "resposta": "Tents of the homeless on the sidewalk in Skid Row, Los Angeles"
+  }
+]

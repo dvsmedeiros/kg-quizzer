@@ -1,0 +1,77 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs in Portuguese based on the provided context and facts. First, I need to make sure I understand the context and the facts given.
+
+The context is about the European Union's laws, its institutions, objectives, and the European Court of Justice's role. The facts mention specific areas like the Common Market Law Review, John Bell, Henry G. Schermers, and some wiki templates used. 
+
+I need to create varied questions that cover different aspects. Let me list possible topics: objectives of the EU, institutions, legal framework, scholars involved, journals, wiki templates, the role of the Court of Justice, historical background (post-WWII), areas of law covered, and the legal order mentioned by the Court.
+
+For each topic, I'll form a question. For example, about the main objective, the main journal, scholars, the legal order type, etc. I need to ensure each answer is directly from the given info. Also, check for repetition and make sure each question is unique and answers are correct.
+
+Let me start drafting:
+
+1. Objective of the EU: "promover a paz, seus valores e o bem-estar de seus povos".
+2. Main journal: Common Market Law Review.
+3. Scholar John Bell's area.
+4. Subdiscipline under EU Law: Henry G. Schermers.
+5. Legal order according to the Court: "nova ordem jurídica de direito internacional".
+6. Historical foundation: Comunidade Europeia do Carvão e do Aço after WWII.
+7. Institutions: political, social, and economic.
+8. Number of times Common Market Law Review is mentioned (twice).
+9. Wiki templates used: Template:R from word rearrangement, etc.
+10. Another scholar involved: John Bell in Law of the European Union.
+
+Wait, need to check if each answer is in the context. The user mentioned the facts include that Henry G. Schermers is a subdiscipline. So that's a fact. The wiki templates are listed as R from word rearrangement, Redirect category shell, R from move. 
+
+I need to structure each question to match exactly the facts. For example, "Q: Qual é a subdisciplina de Law of the European Union mencionada no conteúdo?" A: "Henry G. Schermers".
+
+Also, the user said not to repeat similar questions. So, each question should be on a different point. Let me make sure all 10 are distinct and cover different aspects. Let me count: objective, main journal, scholar, subdiscipline, legal order, historical foundation, institutions, journal repetition, wiki templates, another scholar. That's 10. 
+
+Check if the answers are correct. For instance, the main journal is mentioned twice, but the answer is just the name. The wiki templates are three, but the question asks for the models used, so the answer should list all three. 
+
+I think that's covered. Now, format them into the required JSON structure without any additional text. Make sure the JSON syntax is correct with commas and quotes. Also, use Portuguese for questions and answers.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o principal objetivo da União Europeia conforme mencionado no texto?",
+    "resposta": "Promover a paz, seus valores e o bem-estar de seus povos."
+  },
+  {
+    "pergunta": "Qual é o nome da principal revista acadêmica associada ao direito da União Europeia?",
+    "resposta": "Common Market Law Review."
+  },
+  {
+    "pergunta": "Quem é um estudioso legal associado ao direito da União Europeia mencionado no conteúdo?",
+    "resposta": "John Bell."
+  },
+  {
+    "pergunta": "Qual é a subdisciplina de Law of the European Union mencionada no conteúdo?",
+    "resposta": "Henry G. Schermers."
+  },
+  {
+    "pergunta": "Como o Tribunal de Justiça da União Europeia descreve o sistema jurídico da UE?",
+    "resposta": "Como uma nova ordem jurídica de direito internacional."
+  },
+  {
+    "pergunta": "Qual foi a primeira instituição da União Europeia mencionada no texto?",
+    "resposta": "Comunidade Europeia do Carvão e do Aço."
+  },
+  {
+    "pergunta": "Quais são as principais instituições políticas da União Europeia destacadas no texto?",
+    "resposta": "Instituições políticas, políticas sociais e econômicas."
+  },
+  {
+    "pergunta": "Quantas vezes a Common Market Law Review é mencionada no conteúdo como atuando na disciplina Law of the European Union?",
+    "resposta": "Duas vezes."
+  },
+  {
+    "pergunta": "Quais são os modelos de página wiki utilizados pela Law of the European Union?",
+    "resposta": "Template:R from word rearrangement, Template:Redirect category shell e Template:R from move."
+  },
+  {
+    "pergunta": "Qual é o nome da instituição responsável por estabelecer a ordem jurídica da União Europeia mencionada no texto?",
+    "resposta": "Tribunal de Justiça da União Europeia."
+  }
+]
+```

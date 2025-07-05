@@ -1,0 +1,54 @@
+<think>
+Primeiro, preciso entender o contexto fornecido para geração das perguntas e respostas. O contexto inclui uma definição de "número primo" com exemplos e propriedades relevantes. Além disso, existe uma sequência de números primos menores do que 1000. A principal observação é que os números pares de números primos menores que 1000 são denominados de primos gêmeios.
+
+Vou estruturar o JSON com 10 pares de pergunta e resposta, cada uma relacionando uma nova fatoativa do contexto. Cada pergunta deve ser variável e responsiva, envolvendo diferentes aspectos da definição de números primos.
+
+Para eachir a diversidade das perguntas, vou abordar tamanhos diferentes de números primos, quantidades diferentes e opções de respostas. Em cada caso, para a resposta, será relazada ou infusa uma propriedade outra do contexto.
+
+Depois de formar todas as perjas e respostas, empenhei a structurar o JSON com os dados requeridos. Recorro ao contexto para obter exemplos e fatores principais da definição, afinando cada resposta para ser exatamente relazada.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O número 2 é um exemplo de qual tipo de número?",
+    "resposta": "um número primo par"
+  },
+  {
+    "pergunta": "Qual dos seguintes números não é primo: 1, 3, 5, 7, 9",
+    "resposta": "1"
+  },
+  {
+    "pergunta": "Considere o exemplo de um número bigo que possa ser descomp composto. Qual número pode ser thiso?",
+    "resposta": "uma soma dos números primos"
+  },
+  {
+    "pergunta": "Quantas fatores primos tem o número 30?",
+    "resposta": "duas"
+  },
+  {
+    "pergunta": "Qual dos seguintes números não é primo: 17, 19, 23, 29",
+    "resposta": "23"
+  },
+  {
+    "pergunta": "Considere o exemplo de um número bigo que possa ser descomp composto. Qual número pode ser thiso?",
+    "resposta": "uma multiplicação dos números primos"
+  },
+  {
+    "pergunta": "Quantos números primos existem entre os números 10 e 20?",
+    "resposta": "four"
+  },
+  {
+    "pergunta": "Qual dos seguintes números não é primo: 3, 5, 7, 9, 11",
+    "resposta": "9"
+  },
+  {
+    "pergunta": "Considere o exemplo de um número bigo que possa ser descomp composto. Qual número pode ser thiso?",
+    "resposta": "uma sequência numérica"
+  },
+  {
+    "pergunta": "Qual dos seguintes números não é primo: 2, 3, 5, 7, 11",
+    "resposta": "2"
+  }
+]
+```

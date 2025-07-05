@@ -1,0 +1,56 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs about Warsaw, based on the provided data. First, I need to look through the data to find relevant information.
+
+Looking at the triples, there's a lot of info about Warsaw's climate, like the average temperatures and UTC offset. Also, there are mentions of institutions, such as the University of Warsaw and the Pilecki Institute. The examples given include some common questions, so I should avoid repeating those but find new ones.
+
+The data mentions that Warsaw is the capital of the Warsaw Voivodeship and that it's a city county. There's also info about its population, like the metropolitan area having 2.666 million. The UTC offset is +2, and there are some historical events like the Warsaw Ghetto and the Warsaw Uprising, but the data here doesn't mention the uprising explicitly. Wait, the user's examples mention the 32nd most livable city in 2012. But in the given data, there's no info about that. Hmm, maybe the user wants to use the data provided, not external knowledge.
+
+Looking at the examples, some answers are incomplete or have typos, like "esquisa" which might be a mistake. The user's examples might have errors, but I need to focus on the data given. The triples include things like the University of Warsaw, the Polish Armed Forces headquarters, and various locations like the Palace of the Four Winds and the Sugar Palace. There are also mentions of events like the Warsaw airlift.
+
+So possible questions could be about the capital status, the UTC offset, the university, the headquarters of institutions, locations in Warsaw, and climate data. Let's structure each question and answer based on the triples. Make sure not to repeat the examples given. Also, check for any other relevant data points. For instance, the city's subdivision name is "City county," and it's part of the Warsaw Voivodeship. There's also the mention of the Warszawa Rembertów railway station and the Śląsko-Dąbrowski Bridge. 
+
+Need to ensure each answer is concise and directly from the data provided. Avoid any assumptions beyond the triples. Also, check if any of the triples have multiple values, like the depiction images, but those might not be useful for the questions. Alright, let's compile the 10 pairs now.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o fuso horário de Varsóvia?",
+    "resposta": "+2"
+  },
+  {
+    "pergunta": "Qual é o nome da universidade localizada em Varsóvia?",
+    "resposta": "Universidade de Varsóvia"
+  },
+  {
+    "pergunta": "Em qual voivodeship Varsóvia é a capital?",
+    "resposta": "Warsaw Voivodeship"
+  },
+  {
+    "pergunta": "Qual é a temperatura média de maio em Varsóvia?",
+    "resposta": "14,8 °C"
+  },
+  {
+    "pergunta": "Qual é o nome do instituto com sede em Varsóvia que investiga o Holocausto?",
+    "resposta": "Pilecki Institute"
+  },
+  {
+    "pergunta": "Qual é a subdivisão administrativa de Varsóvia?",
+    "resposta": "City county"
+  },
+  {
+    "pergunta": "Qual é o nome da ponte localizada em Varsóvia mencionada nos dados?",
+    "resposta": "Śląsko-Dąbrowski Bridge"
+  },
+  {
+    "pergunta": "Qual é o nome da estação de trem localizada em Varsóvia?",
+    "resposta": "Warszawa Rembertów railway station"
+  },
+  {
+    "pergunta": "Qual é o nome do palácio localizado em Varsóvia mencionado nos dados?",
+    "resposta": "Sugar Palace"
+  },
+  {
+    "pergunta": "Qual é a temperatura média do mês de abril em Varsóvia?",
+    "resposta": "4 °C"
+  }
+]

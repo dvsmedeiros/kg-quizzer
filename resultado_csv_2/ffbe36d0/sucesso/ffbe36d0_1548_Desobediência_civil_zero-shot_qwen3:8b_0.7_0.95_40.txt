@@ -1,0 +1,58 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs based on the context provided about civil disobedience. Let me start by understanding the context.
+
+The context is about civil disobedience, which is the act of peacefully breaking laws to protest against perceived injustices. Key points include non-violence, moral justification, historical examples like Gandhi and MLK, and the purpose of challenging unjust laws.
+
+I need to create varied questions covering different aspects. Let me brainstorm possible topics: definition, key characteristics, historical figures, examples, purpose, differences from other protests, legal consequences, moral justification, impact on society, and modern examples.
+
+Now, I'll form questions for each aspect. For example, "What is civil disobedience?" The answer would be the definition. Then, "What are the main characteristics?" which includes non-violence and public protest. 
+
+Next, mention historical figures like Gandhi and MLK. Maybe a question about their role. Also, examples like the Salt March and Montgomery Bus Boycott. 
+
+The purpose of civil disobedience is to challenge unjust laws, so a question on that. Differentiate from other protests by emphasizing non-violence. Legal consequences could be arrests. Moral justification is based on higher moral principles. Impact on society includes inspiring change. Modern examples might include recent movements.
+
+I need to ensure each question is unique and covers different angles. Let me check for repetition and make sure answers are directly from the context. Avoid any extra information. Finally, structure them into a JSON array as specified.
+</think>
+
+[
+  {
+    "pergunta": "O que é a desobediência civil?",
+    "resposta": "É a prática de desafiar leis ou ordens governamentais de forma pacífica, geralmente para protestar contra injustiças sociais ou políticas."
+  },
+  {
+    "pergunta": "Quais são as principais características da desobediência civil?",
+    "resposta": "É não violenta, baseada em princípios éticos, envolve protesto público e busca conscientizar a sociedade sobre injustiças."
+  },
+  {
+    "pergunta": "Quem são exemplos históricos de figuras que usaram a desobediência civil?",
+    "resposta": "Mahatma Gandhi e Martin Luther King Jr. são exemplos icônicos que utilizaram essa prática para lutar por direitos humanos."
+  },
+  {
+    " ("pergunta": "Qual foi um exemplo famoso de desobediência civil liderado por Gandhi?",
+    "resposta": "A Marcha do Sal, em 1930, onde desafiou a proibição do sal imposto pelo governo britânico."
+  },
+  {
+    "pergunta": "Qual foi o objetivo principal da desobediência civil praticada por Martin Luther King Jr.?",
+    "resposta": "Combater a segregação racial e promover a igualdade nas direções dos Estados Unidos."
+  },
+  {
+    "pergunta": "Como a desobediência civil difere de outros tipos de protesto?",
+    "resposta": "Distingue-se por sua natureza não violenta e a ênfase em seguir princípios éticos, mesmo que isso implique em desobediência às leis."
+  },
+  {
+    "pergunta": "Quais consequências podem ser enfrentadas por quem pratica a desobediência civil?",
+    "resposta": "Pode resultar em prisão, multas ou outras punições legais, mas é defendida como uma forma legítima de protesto."
+  },
+  {
+    "pergunta": "Por que a desobediência civil é considerada uma ação moral?",
+    "resposta": "Porque se baseia em princípios éticos superiores às leis específicas, visando corrigir injustiças sociais."
+  },
+  {
+    "pergunta": "Qual impacto a desobediência civil pode ter na sociedade?",
+    "resposta": "Pode inspirar mudanças legais, promover discussões públicas e fortalecer movimentos sociais por justiça."
+  },
+  {
+    "pergunta": "Quais movimentos modernos são associados à desobediência civil?",
+    "resposta": "Movimentos como o de direitos LGBTQIA+, protestos contra a poluição e campanhas por reformas educacionais."
+  }
+]

@@ -1,0 +1,11 @@
+pergunta;resposta
+Qual é o principal objetivo da Comutação de Pacotes?;Oferecer uma maneira de compartilhar dados entre servidores sem a necessidade de conexão direta.
+Em qual tipo de cenário seria mais vantajoso usar a Comutação de Pacotes?;Quando há a necessidade de transferir grandes quantidades de dados entre servidores que não estão diretamente conectados.
+Como os pacotes são transmitidos em uma Comutação de Pacotes?;Os pacotes são encapsulados e transmitem-se individualmente, sem esperar pelo envio completo dos demais.
+Quais são os dois componentes principais da Comutação de Pacotes?;O encapçulador (encapsular) e o desencapulador (desenvolver).
+Por que a Comutação de Pacotes é considerada uma técnica avançada para transferência de dados?;Pois ela permite a segmentação de dados em pacotes individuais, aumentando sua eficiência e velocidade.
+Em qual tipo de rede seria mais difícil implementar Comutação de Pacotes?;Redes semelhantes a uma rede local (LAN) ou onde os servidores estão relativamente próximos, pois não há necessidade de conexão direta.
+Quais são as principais diferenças entre Comutação de Pacotes e Trânsito Conexão?;A Comutação de Pacotes envolve a separação dos dados em pacotes individuais, enquanto o Trânsito Conexão envolve conexões estabelecidas para transferir os dados.
+Em que situação uma Comutação de Pacotes não seria eficaz?;Quando o tempo é crucial e a velocidade da transferência de dados é mais importante do que a economia de recursos, pois a Comutação de Pacotes pode levar um pouco mais de tempo para encapsular e desencapsular os pacotes.
+Como a Comutação de Pacotes pode ser usada em uma rede WAN?;A Comutação de Pacotes é frequentemente usada na camada do transporte (TCP) para garantir que dados sejam enviados e recebidos corretamente, mesmo que as conexões não permaneçam constantes.
+Qual é o papel da Comutação de Pacotes em uma rede semipropria?;Ela permite a transferência eficiente de dados entre servidores que estão conectados por meio de uma rede de terceiros, semelhante à Internet.

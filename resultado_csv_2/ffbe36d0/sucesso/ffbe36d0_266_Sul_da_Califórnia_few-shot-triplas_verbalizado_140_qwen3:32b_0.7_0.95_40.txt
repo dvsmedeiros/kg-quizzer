@@ -1,0 +1,86 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts about Southern California. First, I need to go through all the given information carefully.
+
+Starting with the context: Southern California is the informal name for the third part of California. It has no clear boundaries, defined by physical characteristics. It's bordered by the Pacific Ocean to the west, Mexico to the south, and Arizona to the east. The population was about 23.8 million in 2019.
+
+Now, the facts list a bunch of entities related to Southern California. There are companies, people, places, events, etc. I need to create questions that are directly related to these facts. Each question must have a clear and correct answer from the provided data.
+
+First, I'll note down possible areas to ask about. For example, companies like Fosselman's Ice Cream, Robinsons-May, Ralphs. People like Jill Barnett, Gregg Fienberg, Diane Michelle. Events like the 1987 Whittier Narrows earthquake. Geographic features like the I-8 (CA).svg image. Also, mention of specific counties like San Bernardino, Orange County, etc.
+
+I need to make sure each question is unique and covers different aspects. Let's start brainstorming:
+
+1. Which company is associated with providing ice cream in Southern California? Answer: Fosselman's Ice Cream Company.
+2. What is the population of Southern California according to 2019 data? Answer: 23.8 million.
+3. Which earthquake in 1987 affected Southern California? Answer: Whittier Narrows earthquake.
+4. Who is an individual born in Southern California named Jill Barnett? Answer: Jill Barnett.
+5. Which supermarket chain serves Southern California? Answer: Pavilions.
+6. What is the total area of Southern California in square miles? Answer: 56,505.
+7. Which bank has a service area in Southern California? Answer: OneWest Bank.
+8. Which music festival is located in Southern California? Answer: Epicenter.
+9. Which railway is located in Southern California? Answer: California Central Railway.
+10. Which person is associated with Southern California as a city of origin, named Neal Rubin? Answer: Neal Rubin.
+
+Wait, need to check if all these answers are present in the facts. Let's verify each:
+
+1. Fosselman's Ice Cream Company atende à região. Correct.
+2. População em 2019 de 23,8 milhões. Correct.
+3. 1987 Whittier Narrows earthquake. Correct.
+4. Jill Barnett nasceu em SoCal. Correct.
+5. Pavilions (supermarket) atende à região. Correct.
+6. Área total 56505 mi². Correct.
+7. OneWest Bank atende à região. Correct.
+8. Epicenter (music festival) está localizado em SoCal. Correct.
+9. California Central Railway está localizado em SoCal. Correct.
+10. Neal Rubin nasceu em SoCal. Correct.
+
+Looks good. Now, phrasing the questions properly in Portuguese. Make sure they are clear and concise. Also, avoid repeating similar structures. For example, instead of "Which company...", use different verbs like "atende", "possui", etc.
+
+Also, check for any possible duplicates. Each question should be about a different fact. The examples in the user's prompt had some about companies, people, events, etc. The generated ones here cover a variety: companies, population, earthquakes, banks, festivals, railways, people, area. That's good.
+
+Now, structure the JSON as specified. Ensure the order is correct and there are exactly 10 pairs. No markdown, just the JSON array.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a população estimada do sul da Califórnia em 2019?",
+    "resposta": "23,8 milhões"
+  },
+  {
+    "pergunta": "Qual empresa de sorvetes atende à região do sul da Califórnia?",
+    "resposta": "Fosselman's Ice Cream Company"
+  },
+  {
+    "pergunta": "Qual terremoto em 1987 afetou o sul da Califórnia?",
+    "resposta": "Whittier Narrows earthquake"
+  },
+  {
+    "pergunta": "Qual é a área total do sul da Califórnia em milhas quadradas?",
+    "resposta": "56.505"
+  },
+  {
+    "pergunta": "Qual é o nome do festival de música localizado no sul da Califórnia?",
+    "resposta": "Epicenter"
+  },
+  {
+    "pergunta": "Qual banco tem sua área atendida no sul da Califórnia?",
+    "resposta": "OneWest Bank"
+  },
+  {
+    "pergunta": "Qual é o nome da pessoa nascida no sul da Califórnia mencionada como Jill Barnett?",
+    "resposta": "Jill Barnett"
+  },
+  {
+    "pergunta": "Qual é a denominação do modelo de página wiki usado pelo sul da Califórnia para representar imagens amplas?",
+    "resposta": "Template:Wide image"
+  },
+  {
+    "pergunta": "Qual é o nome da linha ferroviária localizada no sul da Califórnia?",
+    "resposta": "California Central Railway"
+  },
+  {
+    "pergunta": "Qual é o nome do atacadista que atende à região do sul da Califórnia?",
+    "resposta": "Pavilions"
+  }
+]
+```

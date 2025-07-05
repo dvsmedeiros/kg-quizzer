@@ -1,0 +1,136 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided data. Let me look through the information given. The data includes triples where Warsaw is connected to various entities through different properties. For example, Warsaw is the capital of the Warsaw Voivodeship, has a UTC offset of +2, and is associated with weather data.
+
+First, I should identify the key points. The user's examples include questions about the largest city in Poland, the river Warsaw is on, distance to the Baltic Sea, population, etc. But the provided data might not have all that info. For instance, the data mentions Warsaw as the capital of a voivodeship but not as the capital of Poland. Wait, in the data, there's an entry: <http://dbpedia.org/resource/Warsaw_Voivodeship_(1919–1939)> ns2:capital <http://dbpedia.org/resource/Warsaw>. So Warsaw was the capital of that voivodeship. However, in modern times, Warsaw is the capital of Poland. But the data doesn't explicitly state that. Hmm, but maybe the user expects that as common knowledge. Alternatively, the data might not include it, so I need to be careful.
+
+Looking at the examples given, the first question is about the largest city in Poland, and the answer is Warsaw. So I can use that. But I need to check if the data supports it. The data doesn't explicitly state Warsaw's population compared to other Polish cities, but it's common knowledge that Warsaw is the largest. So that's a valid question.
+
+Another example is the river Vistula. The data doesn't mention the Vistula, but again, it's common knowledge that Warsaw is on the Vistula River. So maybe the user expects that. However, the provided triples don't include that, so I need to decide whether to use external knowledge or only the data provided. The user's examples seem to use common knowledge beyond the data, so perhaps it's acceptable.
+
+But the main task is to generate questions based on the given data. Let me check the triples again. The data includes entries like Warsaw's UTC offset, average temperatures for April, and so on. There are also triples where Warsaw is the location for various entities, such as St. John's Archcathedral, the University of Warsaw, etc. The data also mentions Warsaw as the headquarters for organizations like TVN 7, Pilecki Institute, and others. Additionally, there's information about Warsaw's administrative status, like being the capital of the Warsaw Voivodeship in the past.
+
+So possible questions could be:
+
+1. Which city is the capital of the Warsaw Voivodeship?
+2. What is the UTC offset for Warsaw?
+3. What is the average mean temperature in Warsaw in May?
+4. Which radio station is headquartered in Warsaw?
+5. What is the name of the cathedral located in Warsaw?
+6. Which university is based in Warsaw?
+7. What is the administrative status of Warsaw?
+8. What is the highest recorded temperature in Warsaw in April?
+9. Which organizations have their headquarters in Warsaw?
+10. What is the location of the Warsaw Ghetto?
+
+Now, checking if these can be derived from the data. For example, the capital of the voivodeship is mentioned in the triple for Warsaw Voivodeship (1919-1939) with capital Warsaw. So question 1 is valid. UTC offset is given as +2. The May mean temperature is 14.8°C. Radio Eska's city is Warsaw. St. John's Archcathedral's location is Warsaw. University of Warsaw's city is Warsaw. The administrative status is a city county. The April record high is 30.4°C. Organizations like Pilecki Institute, TVN 7, etc., have headquarters in Warsaw. The Warsaw Ghetto's location is Warsaw.
+
+I need to phrase these into natural questions and answers. Also, the examples provided by the user have some answers with commas or specific data points. For instance, the river is "Vístula," but the data doesn't mention it, so maybe that's from common knowledge. However, the user's examples include such answers, so perhaps it's acceptable to use common knowledge even if not in the data. However, the user's instruction says to generate based on the provided data, so maybe I should stick to the data. But the examples given by the user do include some common knowledge beyond the data. For example, the first example's answer is Warsaw, which is the largest city in Poland, but the data doesn't state that. However, the user provided that as an example, so maybe it's acceptable.
+
+Given that, I can proceed to use the data for the answers and perhaps include a few common knowledge points if they are in the user's examples. However, to be safe, I'll focus on the data provided. Let's see.
+
+Another point: the data has Warsaw as the location for various entities. For example, "Warsaw Ghetto" has location Warsaw. The user's example has a question about the location of the Warsaw Ghetto, and the answer is Warsaw. So that's valid.
+
+Also, the data includes "Warsaw_airlift" with place Warsaw. So a question could be about where the Warsaw airlift took place.
+
+Another entry is "University of Warsaw" with city Warsaw. So a question about which university is based there.
+
+So compiling 10 questions based on the data:
+
+1. Qual é a capital do voivodato de Varsóvia (1919-1939)?
+   Resposta: Varsóvia
+
+2. Qual é o fuso horário de Varsóvia?
+   Resposta: +2
+
+3. Qual é a temperatura média em Varsóvia em maio?
+   Resposta: 14,8°C
+
+4. Qual é o nome da catedral localizada em Varsóvia?
+   Resposta: Catedral de São João
+
+5. Qual é o status administrativo de Varsóvia?
+   Resposta: Condado da cidade
+
+6. Qual é a temperatura máxima registrada em Varsóvia em abril?
+   Resposta: 30,4°C
+
+7. Quais organizações têm sua sede em Varsóvia?
+   Resposta: Pilecki Institute, TVN 7, Polish Armed Forces, St. John's Archcathedral, etc.
+
+8. Em que rio está localizada a Catedral de São João em Varsóvia? (Aqui, mesmo que o dado não mencione o rio, o exemplo do usuário inclui Vístula, então talvez seja aceitável)
+   Resposta: Vístula
+
+9. Qual é o nome do acampamento aéreo realizado em Varsóvia durante a Segunda Guerra Mundial?
+   Resposta: Varsóvia Airlift
+
+10. Qual é o nome da universidade baseada em Varsóvia?
+    Resposta: Universidade de Varsóvia
+
+However, the user's examples include some answers that might not be directly from the data. For example, the river Vistula is not mentioned in the data provided. The data about Warsaw Ghetto's location is there, but the user's example includes a question about the river. I need to check if the data includes that. The data does not mention the Vistula river, so including that would be using external knowledge. However, the user's examples do include it, so maybe it's acceptable. Alternatively, perhaps the user expects the answers to be based on the data provided. To adhere strictly to the data, I should avoid questions not covered by the triples. However, the user's examples do have such answers, so perhaps it's acceptable. Alternatively, maybe the user wants the answers to be generated based on the data, and the examples are just for format. So, if the data doesn't have the river, I shouldn't include it. Therefore, I need to ensure that all answers are derived from the given triples.
+
+Looking back, the data does not mention the Vistula river. So the answer to "On which river is Warsaw located?" would be common knowledge but not in the data. However, the user's example includes that, so perhaps they expect it. But the instruction says to generate based on the provided data. Therefore, I should avoid including that question unless the data supports it. So maybe the user's examples are just illustrative and the actual answers must come from the provided data.
+
+Therefore, adjusting the questions to be based solely on the data:
+
+1. Qual é a capital do voivodato de Varsóvia (1919-1939)?
+   Resposta: Varsóvia
+
+2. Qual é o fuso horário de Varsóvia?
+   Resposta: +2
+
+3. Qual é a temperatura média em Varsóvia em maio?
+   Resposta: 14,8°C
+
+4. Qual é o nome da catedral localizada em Varsóvia?
+   Resposta: Catedral de São João
+
+5. Qual é o status administrativo de Varsóvia?
+   Resposta: Condado da cidade
+
+6. Qual é a temperatura máxima registrada em Varsóvia em abril?
+   Resposta: 30,4°C
+
+7. Quais organizações têm sua sede em Varsóvia?
+   Resposta: Pilecki Institute, TVN 7, Polish Armed Forces, St. John's Archcathedral, etc.
+
+8. Em que local ocorreu o Varsóvia Airlift durante a Segunda Guerra Mundial?
+   Resposta: Varsóvia
+
+9. Qual é o nome da universidade baseada em Varsóvia?
+   Resposta: Universidade de Varsóvia
+
+10. Qual é o nome do voivodato que teve Varsóvia como capital entre 1919 e 1939?
+    Resposta: Voivodato de Varsóvia
+
+This way, all answers are derived from the provided data. The user's examples might have more common knowledge answers, but the task here is to generate based on the data. So the final answer should include these 10 questions with answers from the data.
+</think>
+
+1. **Qual é a capital do voivodato de Varsóvia (1919–1939)?**  
+   Resposta: Varsóvia  
+
+2. **Qual é o fuso horário de Varsóvia?**  
+   Resposta: +2  
+
+3. **Qual é a temperatura média em Varsóvia em maio?**  
+   Resposta: 14,8°C  
+
+4. **Qual é o nome da catedral localizada em Varsóvia?**  
+   Resposta: Catedral de São João  
+
+5. **Qual é o status administrativo de Varsóvia?**  
+   Resposta: Condado da cidade  
+
+6. **Qual é a temperatura máxima registrada em Varsóvia em abril?**  
+   Resposta: 30,4°C  
+
+7. **Quais organizações têm sua sede em Varsóvia?**  
+   Resposta: Pilecki Institute, TVN 7, Polish Armed Forces, Catedral de São João, entre outras.  
+
+8. **Em que local ocorreu o Varsóvia Airlift durante a Segunda Guerra Mundial?**  
+   Resposta: Varsóvia  
+
+9. **Qual é o nome da universidade baseada em Varsóvia?**  
+   Resposta: Universidade de Varsóvia  
+
+10. **Qual é o nome do voivodato que teve Varsóvia como capital entre 1919 e 1939?**  
+    Resposta: Voivodato de Varsóvia

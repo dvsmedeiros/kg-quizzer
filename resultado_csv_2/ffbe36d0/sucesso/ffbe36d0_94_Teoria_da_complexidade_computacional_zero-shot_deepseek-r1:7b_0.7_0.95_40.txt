@@ -1,0 +1,67 @@
+<think>
+Okay, I need to create 10 objective questions based on the given context about computational complexity theory. The user has provided a specific structure for the response, so I should stick to that.
+
+First, I'll review the context to identify key points: P vs NP problem, NP-complete problems, NP-hard, oracle machines, polynomial time algorithms, reductions, famous examples like Traveling Salesman and Boolean satisfiability, hierarchy of classes, circuit complexity, and cryptography.
+
+Now, I need to formulate questions that cover these areas. Each question should be clear and relate directly to the content without being repetitive. The answers must be direct and based on the provided context.
+
+Let me start by listing topics for each question:
+
+1. Difference between P and NP.
+2. Example of an NP-complete problem.
+3. Definition of NP-hard.
+4. Role of oracle machines in complexity theory.
+5. Polynomial time algorithms example.
+6. Concept of reduction in computational problems.
+7. Example of a problem not known to be in NP.
+8. Importance of hierarchy in complexity classes.
+9. Circuit complexity basics.
+10. Cryptography's relation to computational complexity.
+
+I'll now draft each question, ensuring they are varied and cover the mentioned topics. Then I'll match them with their respective answers from the context provided.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é a diferença entre os classes P e NP na teoria da complexidade computacional?",
+    "resposta": "Os problemas pertencem ao class P se resolutiones efficientes, ou seja, em tempo polinomial, são encontradas. Os problemas de NP incluem aqueles cujas soluções verificadas são feitas rapidamente, mas aщу何处 finding solutions pode ser difícil."
+  },
+  {
+    "pergunta": "Qual é um exemplo de um problema NP-completo?",
+    "resposta": "O problema do circuitsatisfiability (Circuit SAT) é NP-completo, representando um tipo de instância do problema Boolean satisfiability problem."
+  },
+  {
+    "pergunta": "O que significa dizer que um problema é NP-difícil?",
+    "resposta": "Um problema é NP-difícil se todos os problemas NP-complete são reduzíveis a ele em tempo polinomial, indicando uma dificuldade significativa."
+  },
+  {
+    "pergunta": "O que é o papel das oracle machines na teoria de complexidade?",
+    "resposta": "As oracle machines são um modelo teórico de computação que introduzem oraclees idealizados para resolver problemas específicos, permitindo a análise de complexidades relativas."
+  },
+  {
+    "pergunta": "Qual é um exemplo de algoritmo polinomial e por quê?",
+    "resposta": "O algoritmo de bubblesort temComplexidade O(n²) no pior caso, mas outros como merge sort têmComplexidade O(n log n), classified as polynomial time algorithms."
+  },
+  {
+    "pergunta": "Como os reductions são importantes na classificação de problemas NP-completos?",
+    "resposta": "Os reductions permitem classificar problemas NP-completos e mostrar a equivalência em complexidade entre diferentes problemas NP, indicando que um algoritmo para um problema pode ser adaptado para outros."
+  },
+  {
+    "pergunta": "Qual é um exemplo de um problema que não está sabido pertencer à classe NP?",
+    "resposta": "O problema da fatoração dos inteiros grandes, que é central em segurança de cryptografia, não está confirmado estar na classe NP."
+  },
+  {
+    "pergunta": "Por que a hierarquia de complexidade é relevante?",
+    "resposta": "Ela organiza as classes de complexidade hierárquicamente, mostrando ordem natural e relationships entre diferentes classes de problemas."
+  },
+  {
+    "pergunta": "O que é acomplexidade da circuito no contexto da teoria da complexidade computacional?",
+    "resposta": "A complexidade de circuitos refere-se à taille e profundidade dos circuitos booleanos necessários para resolver um problema, influenciando a velocidade de computação."
+  },
+  {
+    "pergunta": "Como a teoria da complexidade impacta o cryptographic security?",
+    "resposta": "Elas definiu limites sobre a complexidade necessária para as cifrações seguras, evitando que algoritmos com complexidades menores sejam usados, mantendo segurança em sistemas criptográficos."
+  }
+]
+```

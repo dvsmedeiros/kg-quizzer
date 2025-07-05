@@ -1,0 +1,82 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts. First, I need to make sure I understand the context thoroughly. The context is about packet switching in computer networks, contrasting it with circuit switching. It mentions key concepts like connection-oriented vs. connectionless packet switching, examples of technologies (ATM, IP), and some key figures like Donald Davies and Paul Baran.
+
+The facts provided are in RDF format, listing notable people associated with packet switching, URLs, and other metadata. The examples given show how to form questions from these facts and the context. For instance, questions about who developed packet switching, what it contrasts with, etc.
+
+Now, I need to create 10 unique pairs. Let me start by listing possible questions from the context. The main points are:
+
+1. What is packet switching used for? (Optimize bandwidth, minimize latency, increase robustness)
+2. How does connectionless packet switching differ? (Independent routing, flexibility)
+3. What are examples of connection-oriented and connectionless? (ATM for connection, IP for connectionless)
+4. Key figures in packet switching: Donald Davies, Paul Baran, Sharla Boehm, W. David Sincoskie.
+5. Advantages and disadvantages: better resource use vs. jitter and delay.
+6. Contrast with circuit switching (dedicated connection vs. shared paths).
+7. The hypernym of packet switching (Method).
+8. Categories it belongs to (Computer networking, History of the Internet, etc.).
+9. Templates used in its Wikipedia page (like Authority control, Citation).
+10. The primary topic of the Wikipedia page (Packet switching itself).
+
+Now, I need to form questions that hit these points. Each question must have a clear, correct answer from the context or facts. Let me check the examples provided to ensure the style is similar. The examples are straightforward, asking for who did what, what is a key feature, etc.
+
+Avoiding repetition, I can form questions like:
+
+- What is the main purpose of packet switching according to the text? Answer: To optimize bandwidth, minimize latency, and increase communication robustness.
+- Which method uses a dedicated connection during transmission? Answer: Circuit switching.
+- What is a key advantage of connectionless packet switching? Answer: Flexibility and robustness against link failures.
+- What is the primary difference between packet switching and circuit switching? Answer: Packet switching uses shared paths, while circuit switching uses a dedicated connection.
+- Which technology is an example of connection-oriented packet switching? Answer: ATM.
+- What does Donald Davies contribute to packet switching? Answer: Coined the modern name and inspired European packet-switching networks.
+- What is a disadvantage of packet switching compared to circuit switching? Answer: Higher jitter and delays.
+- What is the hypernym (general term) for packet switching? Answer: Method.
+- What are the categories associated with packet switching on DBpedia? Answer: Computer networking, History of the Internet, etc.
+- Which template is used in the packet switching Wikipedia page? Answer: Template:Authority control.
+
+I need to ensure each question is distinct and covers different aspects. Also, the answers must be directly from the context or the provided facts. Let me verify each answer against the given information. For example, the hypernym is explicitly stated as "Method" in the facts. The categories are listed in the dcterms:subject. The templates are in ns2:wikiPageUsesTemplate. The people and their contributions are in the facts. The examples of technologies (ATM, IP) are in the context.
+
+I think this covers all the required aspects without repetition. Now, I'll structure the JSON accordingly, making sure each pair is correctly formatted.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual o objetivo principal da comutação de pacotes conforme descrito no texto?",
+    "resposta": "Optimizar o uso da largura de banda da rede, minimizar a latência e aumentar a robustez da comunicação."
+  },
+  {
+    "pergunta": "Qual paradigma de comunicação contrasta com a comutação de pacotes?",
+    "resposta": "Comutação de circuitos."
+  },
+  {
+    "pergunta": "Qual é uma vantagem da comutação de pacotes sem ligação (datagrama)?",
+    "resposta": "Flexibilidade e robustez superiores, permitindo que a rede se reajuste caso um link falhe."
+  },
+  {
+    "pergunta": "Qual tecnologia é um exemplo de comutação de pacotes com ligação (circuito virtual)?",
+    "resposta": "ATM (Comutação de células)."
+  },
+  {
+    "pergunta": "Quem é creditado por cunhar o termo 'comutação de pacotes' e inspirar redes na Europa?",
+    "resposta": "Donald Davies."
+  },
+  {
+    "pergunta": "Qual característica distingue a comutação de circuitos da comutação de pacotes?",
+    "resposta": "A comutação de circuitos estabelece uma ligação virtual dedicada durante a transmissão, mesmo quando não há dados a enviar."
+  },
+  {
+    "pergunta": "O que a comutação de pacotes utiliza para melhorar o uso da rede, segundo o texto?",
+    "resposta": "Técnicas de multiplexagem temporal estatística."
+  },
+  {
+    "pergunta": "Qual é um desafio associado à comutação de pacotes em comparação com a comutação de circuitos?",
+    "resposta": "Maior variação na qualidade de serviço, incluindo jitter e atrasos variáveis."
+  },
+  {
+    "pergunta": "Qual hiperônimo (termo geral) é associado à comutação de pacotes nos fatos fornecidos?",
+    "resposta": "Método."
+  },
+  {
+    "pergunta": "Quais categorias são associadas à comutação de pacotes em DBpedia, segundo os fatos?",
+    "resposta": "Computer networking, History of the Internet, Network protocols, e Packets (information technology)."
+  }
+]
+```

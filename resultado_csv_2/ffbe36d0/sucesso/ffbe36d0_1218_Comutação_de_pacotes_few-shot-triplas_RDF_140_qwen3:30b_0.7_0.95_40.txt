@@ -1,0 +1,88 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by carefully reading the context and facts to ensure I understand the key points.
+
+The context explains packet switching in computer networks, contrasting it with circuit switching. It mentions that packet switching optimizes bandwidth, reduces latency, and increases robustness. There are two types: virtual circuit (connection-oriented) and datagram (connectionless). Examples given are ATM, Frame Relay, X.25 for virtual circuits, and IP for datagrams. The facts include RDF data about people like Donald Davies, Paul Baran, and others associated with packet switching, along with some technical details and templates.
+
+Now, I need to create questions that cover different aspects of the content. Let me brainstorm possible questions:
+
+1. Who are the key figures associated with packet switching? (From the facts)
+2. What are the two types of packet switching? (From the context)
+3. What is the main advantage of packet switching over circuit switching? (Context)
+4. What is the difference between virtual circuit and datagram? (Context)
+5. What is the role of multiplexing in packet switching? (Context)
+6. What are the disadvantages of packet switching? (Context)
+7. Which protocols use virtual circuits? (Context examples)
+8. Which protocol uses datagrams? (Context example)
+9. What is the purpose of the 'knownFor' property in the facts? (Facts)
+10. What is the significance of the 'wikiPageUsesTemplate' in the facts? (Facts)
+
+Wait, I need to ensure that each question is unique and covers different aspects. Let me check the examples provided to avoid repetition. The examples include questions about who developed what, the contrast with circuit switching, the types of switching, and specific examples.
+
+I should make sure not to repeat similar questions. For instance, if one question is about the types of switching, another could be about the advantages or disadvantages. Also, using the facts, I can ask about specific people or technical terms.
+
+Let me structure each question and answer based on the context and facts. For example, from the facts, Donald Davies is credited with the term "packet switching," and Paul Baran is associated with it. The context mentions that virtual circuits have a fixed path, while datagrams are independent.
+
+I need to ensure that each answer is directly from the context or facts. For example, the fact that "ns1:knownFor" links to packet switching for several people. Also, the context says that packet switching uses statistical time-division multiplexing.
+
+Avoiding vague questions. Each question should have a clear answer. Let me list 10 distinct ones:
+
+1. Who is credited with coining the term "packet switching"?
+2. What are the two main types of packet switching?
+3. What is the main advantage of packet switching over circuit switching?
+4. What is a key characteristic of virtual circuit switching?
+5. What is a key characteristic of datagram switching?
+6. Which protocols use virtual circuits?
+7. Which protocol is an example of datagram switching?
+8. What is the purpose of statistical time-division multiplexing in packet switching?
+9. What is the role of the 'knownFor' property in the RDF data?
+10. What is the primary difference between circuit switching and packet switching?
+
+Now, checking if these are all covered in the context and facts. The answers should be derived from the given information. For example, the first question's answer is Donald Davies. The second question's answers are virtual circuit and datagram. The third answer is optimizing bandwidth, reducing latency, increasing robustness. The fourth answer is a fixed virtual path. The fifth answer is independent routing. The sixth answer includes ATM, Frame Relay, X.25. The seventh answer is IP. The eighth answer is statistical time-division multiplexing. The ninth answer is that 'knownFor' indicates the subject's notable works. The tenth answer is that circuit switching uses dedicated connections while packet switching uses shared links.
+
+I need to make sure the answers are precise and directly from the context or facts. For example, the fact mentions that "ns1:knownFor" links to packet switching for several individuals. Also, the context states that packet switching uses statistical time-division multiplexing.
+
+Now, I'll format these into JSON as specified, ensuring no markdown and only the JSON structure.
+</think>
+
+[
+  {
+    "pergunta": "Quem é creditado com a cunhagem do termo 'comutação de pacotes'?",
+    "resposta": "Donald Davies é creditado com a cunhagem do termo 'comutação de pacotes'."
+  },
+  {
+    "pergunta": "Quais são os dois principais tipos de comutação de pacotes?",
+    "resposta": "Os dois principais tipos de comutação de pacotes são com ligação (circuito virtual) e sem ligação (datagrama)."
+  },
+  {
+    "pergunta": "Qual é a principal vantagem da comutação de pacotes em comparação com a comutação de circuitos?",
+    "resposta": "A principal vantagem da comutação de pacotes é o uso eficiente da largura de banda da rede, minimizando a latência e aumentando a robustez da comunicação."
+  },
+  {
+    "pergunta": "O que caracteriza a comutação de pacotes com ligação (circuito virtual)?",
+    "resposta": "A comutação de pacotes com ligação (circuito virtual) é caracterizada por um caminho virtual fixo, garantindo a entrega ordenada dos pacotes."
+  },
+  {
+    "pergunta": "O que caracteriza a comutação de pacotes sem ligação (datagrama)?",
+    "resposta": "A comutação de pacotes sem ligação (datagrama) é caracterizada por pacotes encaminhados independentemente, oferecendo flexibilidade e robustez superior."
+  },
+  {
+    "pergunta": "Quais são exemplos de protocolos que utilizam comutação de circuito virtual?",
+    "resposta": "Exemplos de protocolos que utilizam comutação de circuito virtual incluem ATM, Frame Relay e X.25."
+  },
+  {
+    "pergunta": "Qual protocolo é um exemplo de comutação de datagrama?",
+    "resposta": "O protocolo IP é um exemplo de comutação de datagrama."
+  },
+  {
+    "pergunta": "Qual técnica é utilizada na comutação de pacotes para otimizar recursos de rede?",
+    "resposta": "A técnica de multiplexagem temporal estatística é utilizada na comutação de pacotes para otimizar recursos de rede."
+  },
+  {
+    "pergunta": "Qual é o papel da propriedade 'knownFor' nos dados RDF fornecidos?",
+    "resposta": "A propriedade 'knownFor' nos dados RDF indica as áreas de conhecimento ou contribuições notáveis de uma entidade."
+  },
+  {
+    "pergunta": "Qual é a principal diferença entre comutação de circuitos e comutação de pacotes?",
+    "resposta": "A principal diferença é que a comutação de circuitos estabelece uma ligação dedicada, enquanto a comutação de pacotes utiliza ligações compartilhadas, otimizando o uso da rede."
+  }
+]

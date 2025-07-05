@@ -1,0 +1,87 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. The context is about the Normans, their origins, and their historical impact. The facts include various battles, people, places, and other data.
+
+First, I need to ensure each question is unique and covers different aspects. Let me list possible topics: origins, key events (like the Conquest of England), battles mentioned, cultural aspects, related people or families, architectural influences, languages, and religious practices.
+
+Looking at the facts, there are several battles listed (Battle of Cerami, Civitate, etc.), castles and motte occupants, architectural styles, nationalities of certain figures, and languages. Also, the Normans are related to Norse people, so that's a point.
+
+I need to frame questions that can be answered directly from the facts. For example, "Quais batalhas envolveram os normandos?" with the answer listing the battles. But the user wants each pair to have a single correct answer, so maybe each question should focus on one specific fact.
+
+Wait, the example answers had some specific answers like "França" for the location of Normandia. The user's context mentions the Normans were in northern France. So a question about the country where Normandy is located is valid.
+
+The facts mention several battles where Normans were combatants. So a question asking which battles involved the Normans could list them, but the answer should be all of them as per the facts. However, the example answer for a similar question listed multiple battles. Wait, in the example given, one question was about the country, another the time period, etc. So each question should be about a specific fact.
+
+For example, the example question "Quais países os nórdicos se originaram?" has the answer "Dinamarca, Islândia e Noruega". But in the context, it's mentioned that the Normans were a Germanic people established in northern France, with aristocracy descending from Vikings from Scandinavia. So the origin countries for the Viking ancestors would be Scandinavia, which includes Denmark, Norway, and Sweden, but maybe the user's example included Iceland. Wait, the user's example answer includes Iceland, which is part of Scandinavia but not Norway. So perhaps the answer should be Denmark, Norway, and Iceland. But the context says "Escandinávia", which is Scandinavia, which typically includes Denmark, Norway, and Sweden. But the example answer from the user's examples says "Dinamarca, Islândia e Noruega". So maybe the user considers Iceland as part of Scandinavia here. So I'll follow that.
+
+Another point is the languages. The facts mention Old Norman, Old Norse, and Latin. So a question about their languages would have those as answers.
+
+The religious aspect: the context says they were initially Norse pagans and later Christian. So the answer would include both, but the user's example had "católica" as the answer. Wait, the example answer was "católica" for "Que religião eram os normandos?" but the context mentions they were originally Norse pagans and later converted to Christianity. So the answer should mention both, but maybe the user's example simplified it to "católica" (Catholic). However, the facts mention they had both Christianity and Norse paganism. So the answer should be both, but maybe in the user's example, they just took Christianity. Hmm, need to check.
+
+The example answer given by the user for "Que religião eram os normandos?" is "católica". But the context says "sua rica história originou várias lendas a seu respeito" but in the facts, under ns2:religion it's Christianity and Norse_paganism. So the correct answer should be both. But the user's example simplified it. Maybe the user expects the answer to be Christianity, given the later conversion. Need to be careful here.
+
+Also, architectural styles: the Normans had a specific architectural style, mentioned in the facts for churches like St Bride's and St Mary's. So a question about their architectural style would have "Norman" as the answer.
+
+The user's example had "Quem governou o ducado da Normandia?" with the answer "Ricardo I". Wait, the context mentions William the Conqueror, but in the example, the answer is "Ricardo I". Wait, perhaps the user is referring to Richard I the Lionheart, but he was Duke of Normandy before becoming King. However, the example's answer might be incorrect, but I need to follow the provided example. However, in the facts, there's no mention of Richard I. The facts include Riccardo I? Let me check the facts again. The facts under ns1:related mention "Modern: Jèrriais • Guernésiais • French" but the example's answer is "Ricardo I". Maybe the user's example is based on a different dataset. Hmm, perhaps the user's example is incorrect, but I need to focus on the current facts provided.
+
+The facts mention several people, like Dudo of Saint-Quentin, but not specific dukes. However, the example mentions "Ricardo I", which might not be in the facts. So I need to rely on the context and the facts provided.
+
+Another point is the origin of the word "Norman". The context says it comes from "Viking", as per the example. The user's example had "Viking" as the answer to "Qual é o significado original da palavra Norman?".
+
+Now, let's start generating the 10 pairs.
+
+1. Where is Normandy located? Answer: France. (From the context)
+2. What were the languages of the Normans? Answer: Old Norman, Old Norse, Latin. (From the facts under ns1:languages)
+3. Which religions were practiced by the Normans? Answer: Christianity and Norse paganism. (From the facts under ns2:religion)
+4. What architectural style is associated with the Normans? Answer: Norman. (From the facts, St Brides and St Mary's have Norman style)
+5. Which battles involved the Normans? Answer: Battle of Cerami, Battle of Civitate, etc. (List from the facts)
+6. What is the origin of the word "Norman"? Answer: From "Viking". (From the context)
+7. What countries did the Viking ancestors of the Normans come from? Answer: Denmark, Norway, and Iceland. (From the example, but the context says Scandinavia, which includes these)
+8. Who were some key figures associated with the Normans? Answer: William the Conqueror, Dudo of Saint-Quentin. (From the facts and context)
+9. What is the name of the castle depicted in the Bayeux Tapestry? Answer: Dinan Castle. (From the depiction in the Bayeux Tapestry scene)
+10. What is the modern relationship between the Normans and the French? Answer: The Normans are part of the French cultural heritage. (From the facts under ns1:related mentioning French as modern)
+
+Wait, need to check each answer against the facts and context to ensure they are correct and directly answerable.
+</think>
+
+[
+  {
+    "pergunta": "Em que país está localizada a Normandia?",
+    "resposta": "França."
+  },
+  {
+    "pergunta": "Quais são as línguas associadas aos normandos?",
+    "resposta": "Normando antigo, Nórdico antigo e Latim."
+  },
+  {
+    "pergunta": "Quais religiões eram praticadas pelos normandos?",
+    "resposta": "Cristianismo e Paganismo nórdico."
+  },
+  {
+    "pergunta": "Qual estilo arquitetônico está associado aos normandos?",
+    "resposta": "Normando."
+  },
+  {
+    "pergunta": "Quais batalhas envolveram os normandos conforme os fatos?",
+    "resposta": "Batalha de Cerami, Batalha de Civitate, Batalha de Hastings, entre outras."
+  },
+  {
+    "pergunta": "Qual a origem etimológica da palavra 'normando'?",
+    "resposta": "Do termo 'viking'."
+  },
+  {
+    "pergunta": "De quais países europeus os vikings que se tornaram normandos se originaram?",
+    "resposta": "Dinamarca, Noruega e Islândia."
+  },
+  {
+    "pergunta": "Quem é o historiador associado aos normandos mencionado nos fatos?",
+    "resposta": "Dudo de Saint-Quentin."
+  },
+  {
+    "pergunta": "Qual castelo é mostrado na Tábuas de Bayeux relacionado aos normandos?",
+    "resposta": "Castelo de Dinan."
+  },
+  {
+    "pergunta": "Quais são os povos modernos relacionados aos normandos segundo os registros?",
+    "resposta": "Jèrriais, Guernésiais e Franceses."
+  }
+]

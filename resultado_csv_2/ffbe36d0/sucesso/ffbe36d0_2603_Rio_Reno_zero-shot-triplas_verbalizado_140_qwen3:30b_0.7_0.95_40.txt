@@ -1,0 +1,74 @@
+<think>
+Okay, let's tackle this. The user wants 10 pairs of questions and answers based on the given context and facts about the Rhine River. First, I need to make sure I understand the requirements. The questions should be varied, cover different aspects, and each has a single correct answer from the provided data. No repetition of similar questions.
+
+Looking at the context, the Rhine is 1233 km long, flows from south to north, empties into the North Sea via the Rhine-Meuse-Scheldt delta. The facts list a bunch of technical stuff: types, images, bridges, confluences, categories, etc.
+
+I need to generate questions that pull from these facts. Let me start by listing possible aspects: length, direction, delta, bridges, confluences, categories, images, geographical features, etc.
+
+First question: Maybe about the length. The context says 1233 km. So the question could be "Qual é o comprimento do rio Reno?" Answer: 1233 km.
+
+Next, direction. The context mentions it flows from south to north. So "Em que direção o rio Reno flui?" Answer: Sul a norte.
+
+Third, the delta where it empties. The context says "desaguando no mar do Norte no delta do Reno–Mosa–Escalda." So "Onde o rio Reno deságua?" Answer: No mar do Norte no delta do Reno–Mosa–Escalda.
+
+Fourth, the origin confluence. The facts mention "Rhine possui como confluência de origem Switzerland" and "Graubünden". So "Qual é a confluência de origem do rio Reno?" Answer: Suíça (Graubünden).
+
+Fifth, types. The context says it's a BodyOfWater, and there are multiple types in the facts. Maybe "Qual é o tipo do rio Reno?" Answer: Corpo d'água (BodyOfWater).
+
+Sixth, bridges. There are several bridges mentioned. "Quantas pontes cruzam o rio Reno, segundo os fatos?" But the facts list multiple bridges, but the answer would need to be exact. However, the facts don't specify a number. Maybe instead, "Qual é um exemplo de ponte que cruza o rio Reno?" Answer: Emmerich Rhine Bridge.
+
+Seventh, categories. The facts have categories like "Category:Rivers of the Netherlands". So "Qual é uma categoria associada ao rio Reno?" Answer: Category:Rivers of the Netherlands.
+
+Eighth, images. The context mentions images like "Flusssystemkarte Rhein 04.jpg". So "Qual é uma imagem representativa do rio Reno?" Answer: Flusssystemkarte Rhein 04.jpg.
+
+Ninth, the highest point. The facts mention "elevação na foz 0.0" but maybe another aspect. Wait, there's "Weiach possui ponto mais baixo Rhine". So "Qual é o ponto mais baixo do rio Reno?" Answer: Weiach.
+
+Tenth, the country where it flows. The context says it flows through Europe, but the facts mention countries like Switzerland, Germany, Netherlands, etc. But the question could be "Em quais países o rio Reno flui?" But the answer would need to be from the facts. However, the facts don't list all countries. Alternatively, "Qual é um país que faz fronteira com o rio Reno?" Answer: Alemanha (Germany) or others. But the facts mention "Category:Germany–Switzerland border" and "France–Germany border". So maybe "Qual é uma fronteira associada ao rio Reno?" Answer: Fronteira Alemanha-Suíça.
+
+Wait, need to check if the answers are explicitly in the facts. For example, the question about the origin confluence: the facts say "Rhine possui como confluência de origem Switzerland" and "Graubünden". So the answer could be "Suíça (Graubünden)".
+
+Also, check for unique questions. Avoid repeating the same aspect. Make sure each question is different. Let me count the 10 pairs and ensure they are varied.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o comprimento do rio Reno?",
+    "resposta": "1 233 km"
+  },
+  {
+    "pergunta": "Em que direção o rio Reno flui?",
+    "resposta": "De sul a norte"
+  },
+  {
+    "pergunta": "Onde o rio Reno deságua?",
+    "resposta": "No mar do Norte no delta do Reno–Mosa–Escalda"
+  },
+  {
+    "pergunta": "Qual é a confluência de origem do rio Reno?",
+    "resposta": "Suíça (Graubünden)"
+  },
+  {
+    "pergunta": "Qual é o tipo do rio Reno?",
+    "resposta": "Corpo d'água (BodyOfWater)"
+  },
+  {
+    "pergunta": "Qual é um exemplo de ponte que cruza o rio Reno?",
+    "resposta": "Emmerich Rhine Bridge"
+  },
+  {
+    "pergunta": "Qual é uma categoria associada ao rio Reno?",
+    "resposta": "Category:Rivers of the Netherlands"
+  },
+  {
+    "pergunta": "Qual é uma imagem representativa do rio Reno?",
+    "resposta": "Flusssystemkarte Rhein 04.jpg"
+  },
+  {
+    "pergunta": "Qual é o ponto mais baixo do rio Reno?",
+    "resposta": "Weiach"
+  },
+  {
+    "pergunta": "Qual é uma fronteira associada ao rio Reno?",
+    "resposta": "Fronteira Alemanha-Suíça"
+  }
+]

@@ -1,0 +1,97 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the context provided, which is "Parlamento_da_Escócia" (Scottish Parliament). The user wants exactly 10 pairs, each with a question in Portuguese and a correct answer. The answers must be derived directly from the context or inferred from it, and the questions should cover different aspects without repetition.
+
+First, I should recall what I know about the Scottish Parliament. The Scottish Parliament is the devolved legislature of Scotland, established in 1999. It has 129 members, known as MSPs, elected from constituencies and regions. The parliament meets in the Scottish Parliament Building in Edinburgh. The main functions include making laws, scrutinizing government actions, and representing the people of Scotland.
+
+Now, I need to create questions that cover various aspects: structure, functions, history, location, members, etc. Let me brainstorm possible questions.
+
+1. When was the Scottish Parliament established? Answer: 1999.
+2. How many members does it have? Answer: 129.
+3. What are the members called? Answer: MSPs.
+4. Where is the parliament located? Answer: Edinburgh.
+5. What is the main role of the Scottish Parliament? Answer: Making laws.
+6. How are the members elected? Answer: From constituencies and regions.
+7. What is the name of the building where it meets? Answer: Scottish Parliament Building.
+8. What is the term of office for MSPs? Answer: 4 years.
+9. What is the role of the First Minister? Answer: Head of the Scottish Government.
+10. How does the Scottish Parliament differ from the UK Parliament? Answer: It handles devolved matters.
+
+Wait, but I need to make sure that the answers are explicitly or inferentially from the context. Since the context provided is just "Parlamento_da_Escócia", maybe the user expects the answers to be based on general knowledge. However, the user said to use the content provided. But the content here is just the name. Hmm, maybe the user expects that the context is the general knowledge about the Scottish Parliament. But the instruction says "based on context and facts provided." However, in this case, the context is just the name. So perhaps the user made a mistake, but I need to proceed with the assumption that the context is the general knowledge about the Scottish Parliament.
+
+Alternatively, maybe the user intended to provide more context but forgot. But given the information, I'll proceed with standard facts about the Scottish Parliament.
+
+Now, check for repetition. The questions should be varied. Let me check:
+
+1. Establishment date
+2. Number of members
+3. Members' title
+4. Location
+5. Main role
+6. Election method
+7. Building name
+8. Term length
+9. First Minister's role
+10. Difference from UK Parliament
+
+These cover different aspects. Now, translate them into Portuguese, ensuring correct terminology.
+
+Check for correct answers:
+
+1. "Quando foi criado o Parlamento da Escócia?" - "Em 1999."
+2. "Quantos membros o Parlamento da Escócia possui?" - "129 membros."
+3. "Como são chamados os membros do Parlamento da Escócia?" - "Membros do Parlamento da Escócia (MSPs)."
+4. "Onde o Parlamento da Escócia está localizado?" - "Em Edimburgo."
+5. "Qual é o principal papel do Parlamento da Escócia?" - "Criar leis."
+6. "Como os membros são eleitos no Parlamento da Escócia?" - "A partir de círculos eleitorais e regiões."
+7. "Qual é o nome do prédio onde o Parlamento da Escócia se reúne?" - "O Prédio do Parlamento da Escócia."
+8. "Qual é o mandato dos membros do Parlamento da Escócia?" - "Quatro anos."
+9. "Qual é o papel do primeiro-ministro da Escócia?" - "Chefe do governo da Escócia."
+10. "Como o Parlamento da Escócia difere do Parlamento do Reino Unido?" - "Ele lida com assuntos devolvidos."
+
+I need to ensure that each answer is correct and matches the question. Also, check for any possible errors. For example, the term "MSPs" is "Membros do Parlamento da Escócia" in Portuguese. The building is "Scottish Parliament Building" which in Portuguese is "Prédio do Parlamento da Escócia." The First Minister is "Primeiro-Ministro da Escócia" or "Chefe do Governo da Escócia." The term of office is four years. The difference is that the Scottish Parliament handles devolved matters, while the UK Parliament handles reserved matters.
+
+I think this covers the requirements. Now, structure them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Quando foi criado o Parlamento da Escócia?",
+    "resposta": "Em 1999."
+  },
+  {
+    "pergunta": "Quantos membros o Parlamento da Escócia possui?",
+    "resposta": "129 membros."
+  },
+  {
+    "pergunta": "Como são chamados os membros do Parlamento da Escócia?",
+    "resposta": "Membros do Parlamento da Escócia (MSPs)."
+  },
+  {
+    "pergunta": "Onde o Parlamento da Escócia está localizado?",
+    "resposta": "Em Edimburgo."
+  },
+  {
+    "pergunta": "Qual é o principal papel do Parlamento da Escócia?",
+    "resposta": "Criar leis."
+  },
+  {
+    "pergunta": "Como os membros são eleitos no Parlamento da Escócia?",
+    "resposta": "A partir de círculos eleitorais e regiões."
+  },
+  {
+    "pergunta": "Qual é o nome do prédio onde o Parlamento da Escócia se reúne?",
+    "resposta": "O Prédio do Parlamento da Escócia."
+  },
+  {
+    "pergunta": "Qual é o mandato dos membros do Parlamento da Escócia?",
+    "resposta": "Quatro anos."
+  },
+  {
+    "pergunta": "Qual é o papel do primeiro-ministro da Escócia?",
+    "resposta": "Chefe do governo da Escócia."
+  },
+  {
+    "pergunta": "Como o Parlamento da Escócia difere do Parlamento do Reino Unido?",
+    "resposta": "Ele lida com assuntos devolvidos."
+  }
+]

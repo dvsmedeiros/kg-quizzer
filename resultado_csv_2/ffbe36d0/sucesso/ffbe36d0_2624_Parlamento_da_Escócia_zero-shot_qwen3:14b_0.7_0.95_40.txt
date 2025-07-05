@@ -1,0 +1,80 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the context provided, which is "Parlamento_da_Escócia". The user wants them in Portuguese, in a JSON format with each pair having a question and a correct answer. Let me start by recalling what the Scottish Parliament is.
+
+First, I should think about the key facts about the Scottish Parliament. It's a devolved legislature, established in 1999, located in Edinburgh. It has 129 members, and its powers include areas like education, health, and justice. The presiding officer is the head, and there's a First Minister who is the head of government. The Scottish Parliament is part of the UK's constitutional framework, with devolution transferring powers from the UK government.
+
+Now, I need to create varied questions covering different aspects. Let's list possible points: establishment year, location, number of members, head of the parliament, functions, history, relation to UK, elections, key areas of responsibility, and the role of the First Minister.
+
+I need to ensure each question is unique and not repetitive. Let me check for each point:
+
+1. Year of establishment: 1999.
+2. Location: Edinburgh.
+3. Number of members: 129.
+4. Head of the Parliament: Presiding Officer.
+5. Key areas of responsibility: Education, health, justice.
+6. First Minister's role: Head of government.
+7. Devolution: Transfer of powers from UK government.
+8. First election year: 1999.
+9. Constitutional position: Part of UK's constitutional framework.
+10. Role of the First Minister: Head of government, responsible for policy and administration.
+
+Wait, I need to make sure the answers are correct and based on the context. Let me verify each point again. The Scottish Parliament was established in 1999, located in Edinburgh, 129 members, Presiding Officer as head, functions include education, health, justice, First Minister as head of government, devolution from UK government, first elections in 1999, part of UK's constitution, and the First Minister's role.
+
+Now, phrasing the questions in Portuguese, making sure they are varied and cover different aspects. Let me draft each pair:
+
+1. Quandos foi estabelecido o Parlamento da Escócia? Resposta: 1999.
+2. Onde está localizado o Parlamento da Escócia? Resposta: Edimburgo.
+3. Quantos membros compõem o Parlamento da Escócia? Resposta: 129.
+4. Quem é o chefe do Parlamento da Escócia? Resposta: O Presiding Officer.
+5. Quais são as principais áreas de responsabilidade do Parlamento da Escócia? Resposta: Educação, saúde e justiça.
+6. Qual é o papel do Primeiro-Ministro da Escócia? Resposta: Chefe do governo escocês e responsável por políticas e administração.
+7. O que é a devolução no contexto do Parlamento da Escócia? Resposta: Transferência de poderes do governo do Reino Unido para o Parlamento da Escócia.
+8. Em que ano ocorreu a primeira eleição para o Parlamento da Escócia? Resposta: 1999.
+9. Qual é a posição constitucional do Parlamento da Escócia dentro do Reino Unido? Resposta: Parte do quadro constitucional do Reino Unido.
+10. Quais são as funções do Primeiro-Ministro da Escócia? Resposta: Chefe do governo e responsável por políticas e administração.
+
+I need to check for any repetition or inaccuracies. All questions are different and cover distinct aspects. Answers are based on the context provided. The JSON structure should have each pair as a separate object. Now, formatting that into the required JSON structure without any additional text.
+</think>
+
+[
+  {
+    "pergunta": "Quando foi estabelecido o Parlamento da Escócia?",
+    "resposta": "1999"
+  },
+  {
+    "pergunta": "Onde está localizado o Parlamento da Escócia?",
+    "resposta": "Edimburgo"
+  },
+  {
+    "pergunta": "Quantos membros compõem o Parlamento da Escócia?",
+    "resposta": "129"
+  },
+  {
+    "pergunta": "Quem é o chefe do Parlamento da Escócia?",
+    "resposta": "O Presiding Officer"
+  },
+  {
+    "pergunta": "Quais são as principais áreas de responsabilidade do Parlamento da Escócia?",
+    "resposta": "Educação, saúde e justiça"
+  },
+  {
+    "pergunta": "Qual é o papel do Primeiro-Ministro da Escócia?",
+    "resposta": "Chefe do governo escocês e responsável por políticas e administração"
+  },
+  {
+    "pergunta": "O que é a devolução no contexto do Parlamento da Escócia?",
+    "resposta": "Transferência de poderes do governo do Reino Unido para o Parlamento da Escócia"
+  },
+  {
+    "pergunta": "Em que ano ocorreu a primeira eleição para o Parlamento da Escócia?",
+    "resposta": "1999"
+  },
+  {
+    "pergunta": "Qual é a posição constitucional do Parlamento da Escócia dentro do Reino Unido?",
+    "resposta": "Parte do quadro constitucional do Reino Unido"
+  },
+  {
+    "pergunta": "Quais são as funções do Primeiro-Ministro da Escócia?",
+    "resposta": "Chefe do governo e responsável por políticas e administração"
+  }
+]

@@ -1,0 +1,61 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers about Oxygen based on the given context. The user specified that the questions should be varied, cover different aspects, and each answer must be explicitly or inferentially present in the context. Since the context is just the word "Oxygen," I need to think of different aspects of oxygen that are factual and can be answered based on general knowledge.
+
+First, I'll list possible topics related to oxygen: chemical symbol, atomic number, properties, uses, discovery, role in biology, etc. Each question should target a different aspect. Let me make sure not to repeat similar questions.
+
+1. What is the chemical symbol for oxygen? Answer: O.
+2. What is the atomic number of oxygen? Answer: 8.
+3. What is the primary component of the Earth's atmosphere? Answer: Nitrogen, but wait, oxygen is about 21%, so maybe rephrase. Maybe "What percentage of the Earth's atmosphere is oxygen?" Answer: 21%.
+4. What is the role of oxygen in respiration? Answer: It is used to produce energy through cellular respiration.
+5. Who discovered oxygen? Answer: Joseph Priestley.
+6. What is the molecular formula for oxygen gas? Answer: O2.
+7. What is the boiling point of oxygen? Answer: -183°C.
+8. How does oxygen support combustion? Answer: It acts as an oxidizer.
+9. What is the electron configuration of oxygen? Answer: 1s² 2s² 2p⁴.
+10. What is the main function of oxygen in the human body? Answer: It is essential for cellular respiration.
+
+Wait, the context is just "Oxygen," so I need to ensure all answers are based on general knowledge about oxygen. Let me check each question to make sure they are answerable without additional context. Also, avoid any markdown and just output the JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o símbolo químico do oxigênio?",
+    "resposta": "O"
+  },
+  {
+    "pergunta": "Qual é o número atômico do oxigênio?",
+    "resposta": "8"
+  },
+  {
+    "pergunta": "Qual é a porcentagem de oxigênio na atmosfera terrestre?",
+    "resposta": "21%"
+  },
+  {
+    "pergunta": "O que é necessário para a respiração celular?",
+    "resposta": "Oxigênio"
+  },
+  {
+    "pergunta": "Quem descobriu o oxigênio?",
+    "resposta": "Joseph Priestley"
+  },
+  {
+    "pergunta": "Qual é a fórmula molecular do gás oxigênio?",
+    "resposta": "O2"
+  },
+  {
+    "pergunta": "Qual é o ponto de ebulição do oxigênio em graus Celsius?",
+    "resposta": "-183"
+  },
+  {
+    "pergunta": "Como o oxigênio contribui para a combustão?",
+    "resposta": "Atua como agente oxidante"
+  },
+  {
+    "pergunta": "Qual é a configuração eletrônica do oxigênio?",
+    "resposta": "1s² 2s² 2p⁴"
+  },
+  {
+    "pergunta": "Qual é a principal função do oxigênio no corpo humano?",
+    "resposta": "Produzir energia através da respiração celular"
+  }
+]

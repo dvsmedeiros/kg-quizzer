@@ -1,0 +1,91 @@
+<think>
+Okay, I need to help the user by generating a JSON with 10 question-answer pairs based on the provided context and facts about the immune system. Let's start by understanding what they're asking for.
+
+The user has given me a detailed context about the immune system, including its functions, components, diseases related to it, and some associated scientists. They also provided specific facts in bullet points, which I should use as references for creating accurate questions and answers.
+
+My goal is to create varied questions that cover different aspects of the content without repeating similar ones. Each question must have a clear, single correct answer derived from the context or facts.
+
+First, I'll scan through the context to identify key points:
+
+1. The immune system protects against diseases.
+2. It detects pathogens and distinguishes them from healthy tissue.
+3. Mechnikov coined the term in 1882.
+4. Pathogens evolve quickly, so the immune system must adapt.
+5. Even unicellular organisms have basic immune systems.
+6. Vertebrates developed adaptive immunity with memory.
+7. Disorders include autoimmune diseases and immunodeficiency.
+8. Immunodeficiency can be genetic or due to HIV/AIDS.
+9. Autoimmune diseases like rheumatoid arthritis occur when the immune system attacks healthy tissue.
+
+Looking at the facts, I see various cells and components of the immune system mentioned, such as T cells, B cells, macrophages, etc. Also, there are models used in Wikipedia pages and images associated with the immune system. However, for questions, focusing on the core concepts from the context might be better to ensure clarity and relevance.
+
+I need to create 10 unique questions covering different areas:
+
+- Functions of the immune system
+- Components/cells involved
+- Types of immunity
+- Diseases related to immune issues
+- Key historical figures in immunology
+
+Now, I'll draft some potential questions:
+
+1. What is the main function of the immune system?
+2. Who introduced the term "immune system" and when?
+3. How does adaptive immunity work?
+4. Name a disease caused by an overactive immune system.
+5. What happens if the immune system is underactive?
+6. Which cells are part of adaptive immunity?
+7. What basic immune mechanisms exist in unicellular organisms?
+8. What is the process called where the immune system remembers pathogens?
+9. Name a scientist known for work in immunology.
+10. How does vaccination relate to the immune system?
+
+I need to make sure each answer is correct and directly from the context or facts provided. Also, avoid similar questions about the same topic.
+
+Let me check if I covered different aspects: functions, history, mechanisms, diseases, scientists, etc. Looks good. Now, I'll structure them into JSON format as per the user's instructions.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a principal função do sistema imunológico?",
+    "resposta": "proteger o organismo contra doenças."
+  },
+  {
+    "pergunta": "Quem introduziu o termo 'sistema imune' e em que ano?",
+    "resposta": "Ilya Ilyich Mechnikov em 1882."
+  },
+  {
+    "pergunta": "Como funciona a imunidade adquirida?",
+    "resposta": "cria memória imunológica após uma resposta inicial a um agente específico."
+  },
+  {
+    "pergunta": "Qual é uma doença causada por um sistema imune hiperativo?",
+    "resposta": "artrite reumatóide."
+  },
+  {
+    "pergunta": "O que acontece se o sistema imunológico estiver abaixo do normal?",
+    "resposta": "imunodeficiência."
+  },
+  {
+    "pergunta": "Quais células fazem parte da imunidade adaptativa?",
+    "resposta": "T cells e B cells."
+  },
+  {
+    "pergunta": "Que mecanismos básicos de defesa existem em organismos unicelulares?",
+    "resposta": "enzimas que os protegem de infecções por bacteriófagos."
+  },
+  {
+    "pergunta": "Qual é o processo pelo qual o sistema imunológico se adapta para reconhecer agentes patogênicos específicos?",
+    "resposta": "memória imunológica."
+  },
+  {
+    "pergunta": "Nomeie um cientista conhecido por seu trabalho em imunologia.",
+    "resposta": "César Milstein."
+  },
+  {
+    "pergunta": "Como a vacinação está relacionada ao sistema imunológico?",
+    "resposta": "baseia-se no processo de imunidade adquirida."
+  }
+]
+```

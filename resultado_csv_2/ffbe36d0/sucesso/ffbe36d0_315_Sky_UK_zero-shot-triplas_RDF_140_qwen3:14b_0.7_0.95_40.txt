@@ -1,0 +1,65 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. First, I need to carefully read through the context and the RDF data to extract relevant information.
+
+Starting with the context: British Satellite Broadcasting (BSB) was incorporated in November 1990 to form BSkyB. They started transmitting on March 25, 1990. The facts include various triples about BSB's ownership of channels, movies, and other entities, as well as details about its founding, location, and merger.
+
+I need to ensure that each question is unique and covers different aspects. Let's list possible points:
+
+1. When was BSB incorporated to form BSkyB? (Answer: November 1990)
+2. When did BSB start transmitting? (March 25, 1990)
+3. What is the successor of BSB? (Sky UK)
+4. What was the founding year? (1986)
+5. Where was BSB located? (London, England, UK)
+6. What happened to BSB? (Merged with Sky TV to form BSkyB)
+7. Which channels did BSB own? (Galaxy, Now, The Computer Channel, etc.)
+8. What movies were produced by BSB? (Hardware, Memphis Belle)
+9. What is the full name of BSB? (British Satellite Broadcasting plc)
+10. What categories is BSB associated with? (Direct broadcast satellite services, etc.)
+
+I need to make sure each question is distinct and not repeating the same information. Also, check that all answers are directly from the context or inferable. For example, the successor is Sky UK, and the merger happened in 1990. The channels listed in the facts are Galaxy, Now, The Computer Channel, The Movie Channel, The Power Station, etc. The movies are Hardware and Memphis Belle. The full name is British Satellite Broadcasting plc. Categories include those mentioned in the dcterms:subject.
+
+Now, phrasing the questions in Portuguese, ensuring they are clear and varied. Avoid redundancy. Let me check each point again to confirm accuracy. Also, make sure the JSON structure is correct with proper commas and brackets. No markdown, just the JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Quando a British Satellite Broadcasting foi incorporada para formar a BSkyB?",
+    "resposta": "Em novembro de 1990"
+  },
+  {
+    "pergunta": "Em que data a British Satellite Broadcasting começou a transmitir?",
+    "resposta": "Em 25 de março de 1990"
+  },
+  {
+    "pergunta": "Qual é a sucessora da British Satellite Broadcasting?",
+    "resposta": "Sky UK"
+  },
+  {
+    "pergunta": "Qual foi o ano de fundação da British Satellite Broadcasting?",
+    "resposta": "1986"
+  },
+  {
+    "pergunta": "Quais são os locais associados à British Satellite Broadcasting?",
+    "resposta": "Inglaterra, Londres e Reino Unido"
+  },
+  {
+    "pergunta": "O que aconteceu com a British Satellite Broadcasting?",
+    "resposta": "Foi incorporada pela Sky Television plc para formar a BSkyB"
+  },
+  {
+    "pergunta": "Quais canais de TV eram propriedade da British Satellite Broadcasting?",
+    "resposta": "Galaxy, Now, The Computer Channel, The Movie Channel, The Power Station"
+  },
+  {
+    "pergunta": "Quais filmes foram produzidos pela British Satellite Broadcasting?",
+    "resposta": "Hardware e Memphis Belle"
+  },
+  {
+    "pergunta": "Qual é o nome completo da British Satellite Broadcasting?",
+    "resposta": "British Satellite Broadcasting plc"
+  },
+  {
+    "pergunta": "Quais categorias a British Satellite Broadcasting está associada?",
+    "resposta": "Serviços de satélite direto, história da televisão no Reino Unido e empresas britânicas estabelecidas em 1986"
+  }
+]

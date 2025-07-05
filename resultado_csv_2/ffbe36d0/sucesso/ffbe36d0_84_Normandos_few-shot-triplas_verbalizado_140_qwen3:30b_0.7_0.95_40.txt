@@ -1,0 +1,74 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers based on the given context and facts about the Normans. First, I need to thoroughly understand the context provided. The Normans were a Germanic people in northern France, descended from Vikings. They played significant roles in medieval Europe, like the Norman Conquest of England, establishing states in Sicily, and participating in the Crusades. Their history is rich with legends.
+
+Now, looking at the facts, there's a lot of data points. The Normans are associated with various places, languages (Old Norse, Latin, Old Norman), religious practices (Norse paganism, Christianity), historical events (battles, sieges), and cultural elements (architecture, images, wikis). Also, there are mentions of specific castles, people, and their etnicity.
+
+The challenge is to generate 10 unique, varied questions with correct answers directly from the content. I need to avoid repetition and ensure each question is distinct. Let's start by listing possible angles: origins, languages, religions, key events, architectural styles, historical figures, geographical locations, cultural impacts, etc.
+
+First question: Maybe about their origin. The context says they were a Germanic people in northern France, descended from Vikings. So a question like "De onde os normandos se originaram?" with answer "Da Escandinávia, principalmente de vikings."
+
+Next, their role in history. The context mentions the Norman Conquest of England. So "Qual foi a conquista notável dos normandos?" Answer: "A Conquista Normanda da Inglaterra."
+
+Languages: The facts state they spoke Old Norse, Latin, and Old Norman. So "Quais idiomas os normandos falavam?" Answer: "Old Norse, Latim e Normando Antigo."
+
+Religions: They followed Norse paganism and Christianity. "Quais religiões os normandos seguiam?" Answer: "Norse paganism e Cristianismo."
+
+Historical events: The Siege of Mahdia (1159-1160) and Battle of Civitate. "Qual batalha envolveu os normandos na Itália?" Answer: "Batalha de Civitate."
+
+Architectural styles: St. Bride's Church and others. "Qual estilo arquitetônico os normandos influenciaram?" Answer: "Estilo Normano."
+
+Geographical presence: Places like Normandy, Sicily. "Em quais regiões os normandos estabeleceram estados?" Answer: "Sicília e sul da península Itálica."
+
+Cultural elements: The Bayeux Tapestry. "Qual é um exemplo de arte normanda?" Answer: "A Tapeçaria de Bayeux."
+
+Historical figures: Richard of Salerno. "Qual figura histórica tinha origem normanda?" Answer: "Richard of Salerno."
+
+Lastly, their influence on places: "Quem construiu a Torre de Londres?" Answer: "Os normandos."
+
+Wait, need to check the facts again. The facts mention "Tower of London, Traitors Gate.jpg" as an image, but does it say they built it? The fact says "Waytemore Castle foi construído por Normans" and "Taunton Castle é um(a) Normans". So maybe adjust the last question to "Quem construiu a Torre de Londres?" but the fact might not mention that. Alternatively, use "Waytemore Castle" as the example. So adjust the last question to "Qual castelo foi construído pelos normandos?" with answer "Waytemore Castle."
+
+Check for repetition and ensure each question is unique. That should cover 10 pairs without repeating topics.
+</think>
+
+[
+  {
+    "pergunta": "De onde os normandos se originaram?",
+    "resposta": "Da Escandinávia, principalmente de vikings."
+  },
+  {
+    "pergunta": "Qual foi a conquista notável dos normandos?",
+    "resposta": "A Conquista Normanda da Inglaterra."
+  },
+  {
+    "pergunta": "Quais idiomas os normandos falavam?",
+    "resposta": "Old Norse, Latim e Normando Antigo."
+  },
+  {
+    "pergunta": "Quais religiões os normandos seguiam?",
+    "resposta": "Norse paganism e Cristianismo."
+  },
+  {
+    "pergunta": "Qual batalha envolveu os normandos na Itália?",
+    "resposta": "Batalha de Civitate."
+  },
+  {
+    "pergunta": "Qual estilo arquitetônico os normandos influenciaram?",
+    "resposta": "Estilo Normano."
+  },
+  {
+    "pergunta": "Em quais regiões os normandos estabeleceram estados?",
+    "resposta": "Sicília e sul da península Itálica."
+  },
+  {
+    "pergunta": "Qual é um exemplo de arte normanda?",
+    "resposta": "A Tapeçaria de Bayeux."
+  },
+  {
+    "pergunta": "Qual figura histórica tinha origem normanda?",
+    "resposta": "Richard of Salerno."
+  },
+  {
+    "pergunta": "Qual castelo foi construído pelos normandos?",
+    "resposta": "Waytemore Castle."
+  }
+]

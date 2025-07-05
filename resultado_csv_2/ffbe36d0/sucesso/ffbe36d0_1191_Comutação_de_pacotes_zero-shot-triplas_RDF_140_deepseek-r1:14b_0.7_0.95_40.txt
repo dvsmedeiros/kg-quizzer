@@ -1,0 +1,74 @@
+<think>
+Okay, so I need to generate 10 pairs of questions and answers based on the given context about packet switching in computer networks. The user has provided a detailed explanation and some RDF data about related people and their contributions.
+
+First, I'll read through the context again carefully to understand all the key points. Packet switching is compared with circuit switching, highlighting its benefits like optimizing bandwidth usage and minimizing latency. It also mentions two types: connection-oriented (like ATM) and connectionless (like IP). The facts section lists several people known for their work in packet switching.
+
+I need to create varied questions that touch on different aspects: definitions, advantages, types of packet switching, and the contributors involved. Each question should have a clear, correct answer from the provided content.
+
+Starting with basic concepts:
+1. What is packet switching? Define it using the given information.
+2. How does packet switching optimize bandwidth?
+
+Then move to comparisons:
+3. Compare packet switching with circuit switching in terms of resource use.
+4. What's the difference between connection-oriented and connectionless packet switching?
+
+Including types:
+5. Name a protocol that uses connection-oriented packet switching.
+
+Historical contributors:
+6. Who contributed to packet switching?
+7. Another contributor...
+8. And another...
+
+Advantages and challenges:
+9. Why is packet switching considered more robust?
+10. What are the drawbacks of packet switching?
+
+I need to ensure each question is unique and covers different aspects without repetition. Also, make sure all answers are directly supported by the context.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é a comutação de pacotes em redes de computadores?",
+    "resposta": "A comutação de pacotes é um paradigma de comunicação de dados onde pacetes são encaminhados individualmente entre os nós da rede."
+  },
+  {
+    "pergunta": "Qual é uma vantagem da comutação de pacotes em relação à comutação de circuitos?",
+    "resposta": "A comutação de pacotes otimiza o uso da largura de banda e minimiza a latência."
+  },
+  {
+    "pergunta": "Quais são os dois tipos principais de comutação de pacotes?",
+    "resposta": "Com ligação (circuito virtual) e sem ligação (datagrama)."
+  },
+  {
+    "pergunta": "Qual exemplo é dado para a comutação de pacotes com ligação?",
+    "resposta": "Exemplo: ATM, Frame Relay e X.25."
+  },
+  {
+    "pergunta": "Qual exemplo é dado para a comutação de pacotes sem ligação?",
+    "resposta": "Exemplo: endereço IP."
+  },
+  {
+    "pergunta": "Quem contribuiu significativamente para o desenvolvimento da comutação de pacotes?",
+    "resposta": "Donald Davies, Paul Baran e W. David Sincoskie."
+  },
+  {
+    "pergunta": "Qual é um benefício da comutação de pacotes sem ligação?",
+    "resposta": "Oferece maior flexibilidade e robustez, permitindo que a rede se reajuste após quebras de links."
+  },
+  {
+    "pergunta": "O que torna a comutação de pacotes mais complexa?",
+    "resposta": "A variação na qualidade de serviço, introduzindo jitter e atrasos."
+  },
+  {
+    "pergunta": "Qual técnica é utilizada para otimizar os recursos da rede em comutação de pacotes?",
+    "resposta": "Técnicas de multiplexagem temporal estatística."
+  },
+  {
+    "pergunta": "Quem foi um dos pioneiros na teoria da comutação de pacotes?",
+    "resposta": "W. David Sincoskie."
+  }
+]
+```

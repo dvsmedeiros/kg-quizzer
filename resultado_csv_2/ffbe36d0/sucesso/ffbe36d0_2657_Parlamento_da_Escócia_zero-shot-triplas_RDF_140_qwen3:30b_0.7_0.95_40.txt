@@ -1,0 +1,72 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided data. Let me start by understanding the data structure. The main entity is the "Scottish Parliament" with various properties and relationships. 
+
+First, I'll look for key attributes like name, location, leader, election dates, committees, and other relevant details. The data has a lot of properties such as "ns1:leader", "ns2:location", "ns1:election", etc. I need to extract these and form questions around them.
+
+For example, the name is "Scottish Parliament", so a question could be "What is the name of the legislative body in Scotland?" with the answer being "Scottish Parliament". 
+
+Next, the location is Edinburgh and Scotland. So a question might be "Where is the Scottish Parliament located?" Answer: Edinburgh, Scotland.
+
+The leader is Alison Johnstone and George Adam. So a question like "Who is the current leader of the Scottish Parliament?" with the answer as both names.
+
+Election dates are 2021-05-13 and 2021-05-20. A question could be "When were the last elections held for the Scottish Parliament?" Answer: 2021-05-13 and 2021-05-20.
+
+Committees are listed as "Economy, Energy and Tourism", "Education, Lifelong Learning and Culture", etc. So a question might ask for the names of the committees, and the answer would list them.
+
+The voting system is the Additional Member System. So a question like "What voting system is used in the Scottish Parliament elections?" Answer: Additional Member System.
+
+The structure is "Scottish-parliament.svg", so a question could be "What is the structure of the Scottish Parliament?" Answer: Scottish-parliament.svg.
+
+The political groups are mentioned as "In co-operation with", so a question about the political groups would have that as the answer.
+
+The legislative period is the 6th Scottish Parliament, so a question about that would be answered with "6th Scottish Parliament".
+
+Another point is the Presiding Officer, which is a role, so a question like "Who is the Presiding Officer of the Scottish Parliament?" Answer: Alison Johnstone or George Adam? Wait, the data shows "ns1:leader1Type" as "Presiding Officer of the Scottish Parliament" and the leader is Alison Johnstone. So maybe the answer is Alison Johnstone.
+
+I need to make sure each question is distinct and covers different aspects. Let me check the data again for more details. The "wikiPageUsesTemplate" has several templates, but maybe that's too specific. The "dcterms:subject" has categories like Government of Scotland and Unicameral legislatures. So a question could be "What categories does the Scottish Parliament fall under?" Answer: Government of Scotland and Unicameral legislatures.
+
+I need to create 10 pairs. Let me list them out:
+
+1. Name of the Scottish Parliament.
+2. Location.
+3. Current leaders.
+4. Election dates.
+5. Committees.
+6. Voting system.
+7. Structure (SVG file).
+8. Political groups.
+9. Legislative period.
+10. Presiding Officer.
+
+That's 10. Let me verify each with the data to ensure accuracy.
+</think>
+
+1. **Pergunta:** Qual é o nome do órgão legislativo da Escócia?  
+   **Resposta:** Scottish Parliament.
+
+2. **Pergunta:** Onde está localizado o Parlamento Escocês?  
+   **Resposta:** Em Edimburgo, Escócia.
+
+3. **Pergunta:** Quem são os líderes atuais do Parlamento Escocês?  
+   **Resposta:** Alison Johnstone e George Adam.
+
+4. **Pergunta:** Quando ocorreram as últimas eleições para o Parlamento Escocês?  
+   **Resposta:** Em 13 de maio de 2021 e 20 de maio de 2021.
+
+5. **Pergunta:** Quais são os comitês do Parlamento Escocês?  
+   **Resposta:** Economy, Energy and Tourism; Education, Lifelong Learning and Culture; Equal Opportunities; Europe and External Relations; Finance; Local Government and Communities; Rural Affairs and Environment; Scottish Parliamentary Pensions Scheme; and Climate Change.
+
+6. **Pergunta:** Qual sistema de votação é utilizado nas eleições do Parlamento Escocês?  
+   **Resposta:** Sistema de Membros Adicionais (Additional Member System).
+
+7. **Pergunta:** Qual é a estrutura do Parlamento Escocês?  
+   **Resposta:** Scottish-parliament.svg.
+
+8. **Pergunta:** Quais são os grupos políticos presentes no Parlamento Escocês?  
+   **Resposta:** Em cooperação com.
+
+9. **Pergunta:** Qual foi o período legislativo mais recente do Parlamento Escocês?  
+   **Resposta:** 6º Parlamento Escocês.
+
+10. **Pergunta:** Quem é o Presidente do Parlamento Escocês?  
+    **Resposta:** Alison Johnstone.

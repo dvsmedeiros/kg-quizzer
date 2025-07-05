@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "pergunta": "Qual a principal diferença entre a comutação de pacotes e a comutação de circuitos?",
+    "resposta": "A comutação de pacotes utiliza uma taxa por unidade de informação transmitida, enquanto a comutação de circuitos utiliza uma taxa por unidade de tempo de conexão."
+  },
+  {
+    "pergunta": "Quais são algumas das vantagens da comutação de pacotes em relação à comutação de circuitos?",
+    "resposta": "A comutação de pacotes otimiza o uso da largura de banda da rede, minimiza a latência e aumenta a robustez da comunicação."
+  },
+  {
+    "pergunta": "O que significa 'datagrama' no contexto da comutação de pacotes?",
+    "resposta": "Datagrama refere-se à comutação de pacotes sem ligação, onde os pacotes são encaminhados independentemente, oferecendo flexibilidade e robustez."
+  },
+  {
+    "pergunta": "Em qual tipo de comutação de pacotes é necessário enviar o endereço de origem?",
+    "resposta": "Na comutação de pacotes sem ligação (datagrama), é necessário enviar-se sempre o endereço de origem."
+  },
+  {
+    "pergunta": "Quais são as desvantagens da comutação de pacotes?",
+    "resposta": "A comutação de pacotes apresenta maior variação na qualidade de serviço, introduzindo jitter e atrasos."
+  },
+  {
+    "pergunta": "O que significa 'circuito virtual' na comutação de pacotes?",
+    "resposta": "Circuito virtual refere-se à comutação de pacotes com ligação, onde é estabelecido um caminho virtual fixo para a transmissão dos pacotes."
+  },
+  {
+    "pergunta": "Qual a principal vantagem de utilizar a comutação de pacotes com ligação?",
+    "resposta": "Oferece a garantia de entrega dos pacotes, e de uma forma ordenada."
+  },
+  {
+    "pergunta": "Quais são alguns exemplos de tecnologias que utilizam a comutação de pacotes com ligação?",
+    "resposta": "ATM (comutação de células), Frame Relay e X.25 são exemplos de tecnologias que utilizam a comutação de pacotes com ligação."
+  },
+  {
+    "pergunta": "Quem é creditado por cunhar o nome moderno de 'comutação de pacotes'?",
+    "resposta": "Donald Davies é creditado por cunhar o nome moderno de comutação de pacotes."
+  },
+  {
+    "pergunta": "Quais são alguns dos indivíduos creditados com o desenvolvimento do conceito de comutação de pacotes?",
+    "resposta": "Donald Davies, Paul Baran, W. David Sincoskie e Sharla Boehm são creditados com o desenvolvimento do conceito de comutação de pacotes."
+  }
+]
+```

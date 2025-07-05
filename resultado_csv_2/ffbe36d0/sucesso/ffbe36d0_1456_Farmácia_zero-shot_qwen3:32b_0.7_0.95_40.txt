@@ -1,0 +1,90 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs about pharmacy. The context is "Farmácia" in Portuguese, so I need to make sure all questions and answers are in Portuguese. 
+
+First, I should brainstorm different aspects of pharmacy to cover. Maybe start with basic terms, like what a pharmacy is. Then move to roles, such as the pharmacist's responsibilities. Also, common items found in a pharmacy, like medications and first aid kits. 
+
+I need to ensure each question has a clear, correct answer based on the context. Let's see. What are some key elements? Pharmacists, medications, OTC vs prescription drugs, first aid supplies, vaccination services, etc. 
+
+Wait, the user mentioned the content is "Farmácia" but didn't provide specific text. Hmm, maybe I should assume general knowledge about pharmacies. But the instructions say to base questions on the provided context and facts. Since the context is just "Farmácia," perhaps I need to create questions around common pharmacy-related topics.
+
+Let me list possible questions:
+
+1. What is the main function of a pharmacy?
+2. Who is responsible for dispensing medications in a pharmacy?
+3. What are OTC medications called in Portuguese?
+4. What is the role of a pharmacist in a pharmacy?
+5. What are common items sold in a pharmacy besides medications?
+6. What is a common abbreviation for over-the-counter medications?
+7. What is the term for a medication that requires a prescription?
+8. What is the purpose of a first aid kit in a pharmacy?
+9. What is the name of the person who prepares medications?
+10. What are some services a pharmacy might offer besides selling medications?
+
+Now, translating these into Portuguese and ensuring answers are correct. Let's check each:
+
+1. Qual a principal função de uma farmácia? Resposta: Fornecer medicamentos e produtos de saúde.
+2. Quem é responsável por dispensar medicamentos em uma farmácia? Resposta: O farmacêutico.
+3. Como são chamados os medicamentos de venda livre em português? Resposta: Medicamentos OTC (Over-the-Counter).
+4. Qual o papel do farmacêutico em uma farmácia? Resposta: Assegurar a correta dispensação e orientação sobre medicamentos.
+5. Quais itens comuns são vendidos em uma farmácia além de medicamentos? Resposta: Produtos de higiene, primeiros socorros e alimentos.
+6. Qual é a sigla comum para medicamentos de venda livre? Resposta: OTC.
+7. Qual o termo para medicamentos que requerem prescrição? Resposta: Medicamentos receitados.
+8. Qual o propósito de um kit de primeiros socorros em uma farmácia? Resposta: Fornecer atendimento inicial em casos de acidentes.
+9. Qual o nome da pessoa que prepara os medicamentos? Resposta: Técnico de farmácia.
+10. Quais serviços uma farmácia pode oferecer além da venda de medicamentos? Resposta: Vacinação, testes médicos e orientações farmacêuticas.
+
+Wait, I need to make sure all answers are correct and in Portuguese. Let me verify each. For example, "OTC" is commonly used in Portuguese as well, but maybe in Brazil they use "medicamentos sem receita". Hmm, the user might expect the answer to be "Medicamentos OTC (Over-the-Counter)" even though in Portuguese contexts it's often translated. Maybe the user expects the answer in Portuguese. Wait, the question is in Portuguese, so the answer should be in Portuguese, but "OTC" is an English acronym. Maybe it's acceptable since it's commonly used. Alternatively, maybe the answer should be "Medicamentos de venda livre" for the third question. Let me adjust that.
+
+Third question: "Como são chamados os medicamentos de venda livre em português?" Resposta: "Medicamentos de venda livre" or "Medicamentos OTC". Since the question is in Portuguese, perhaps the answer should be in Portuguese without the English acronym. So the answer should be "Medicamentos de venda livre".
+
+Similarly, the sixth question: "Qual é a sigla comum para medicamentos de venda livre?" The answer would be "OTC", but in Portuguese contexts, maybe it's not commonly used. However, the user's example might include it. Let's proceed as per initial.
+
+Also, the tenth question's answer might include services like "vacinação, testes médicos e orientações farmacêuticas". That's correct.
+
+Now, check for repetition. Each question is different and covers various aspects. The answers are all directly related to the context of pharmacy. The JSON structure should be correct, with 10 pairs. I need to ensure that each pergunta and resposta are in quotes, and the JSON is properly formatted. No markdown, just plain JSON. The user specified to return only the JSON, so I'll structure it accordingly.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual a principal função de uma farmácia?",
+    "resposta": "Fornecer medicamentos e produtos de saúde."
+  },
+  {
+    "pergunta": "Quem é responsável por dispensar medicamentos em uma farmácia?",
+    "resposta": "O farmacêutico."
+  },
+  {
+    "pergunta": "Como são chamados os medicamentos de venda livre em português?",
+    "resposta": "Medicamentos de venda livre."
+  },
+  {
+    "pergunta": "Qual o papel do farmacêutico em uma farmácia?",
+    "resposta": "Assegurar a correta dispensação e orientação sobre medicamentos."
+  },
+  {
+    "pergunta": "Quais itens comuns são vendidos em uma farmácia além de medicamentos?",
+    "resposta": "Produtos de higiene, primeiros socorros e alimentos."
+  },
+  {
+    "pergunta": "Qual é a sigla comum para medicamentos de venda livre?",
+    "resposta": "OTC."
+  },
+  {
+    "pergunta": "Qual o termo para medicamentos que requerem prescrição?",
+    "resposta": "Medicamentos receitados."
+  },
+  {
+    "pergunta": "Qual o propósito de um kit de primeiros socorros em uma farmácia?",
+    "resposta": "Fornecer atendimento inicial em casos de acidentes."
+  },
+  {
+    "pergunta": "Qual o nome da pessoa que prepara os medicamentos?",
+    "resposta": "Técnico de farmácia."
+  },
+  {
+    "pergunta": "Quais serviços uma farmácia pode oferecer além da venda de medicamentos?",
+    "resposta": "Vacinação, testes médicos e orientações farmacêuticas."
+  }
+]
+```

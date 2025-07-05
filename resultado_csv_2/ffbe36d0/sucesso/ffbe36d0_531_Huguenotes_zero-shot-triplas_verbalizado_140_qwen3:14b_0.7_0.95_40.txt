@@ -1,0 +1,67 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers based on the provided context and facts. Let me start by carefully reading the context and the facts to understand what information is available.
+
+The context mentions that Huguenots were French Protestants during the religious wars in the second half of the 16th century. Around 300,000 left France after persecution under Louis XIV and the revocation of the Edict of Nantes in 1685. They were mainly Calvinists and part of the Reformed Church, while in Alsace, Moselle, and Montbéliard, they were mostly German Lutherans.
+
+Looking at the facts, there are many images, Wikipedia templates, categories, and other related topics. Some specific points are the Edict of Nantes revocation date, the number of Huguenots who left, their religious affiliations, and places named after them like Huguenot, Orange County, New York, and Staten Island.
+
+Now, I need to create 10 different questions, each with a unique answer from the context. The questions must vary and cover different aspects. Let me list possible questions:
+
+1. When was the Edict of Nantes revoked?
+2. How many Huguenots left France after the revocation?
+3. What was the main religious affiliation of the Huguenots?
+4. Which regions in France had Huguenots who were mostly German Lutherans?
+5. What event led to the exodus of Huguenots from France?
+6. What is the name of the monument in New York dedicated to Huguenots?
+7. What is the primary religion associated with the Huguenots?
+8. Which French king's persecution contributed to Huguenots leaving?
+9. What was the name of the Edict that protected Huguenots before its revocation?
+10. What is the connection between Huguenots and the Scotch-Irish Americans?
+
+Now, checking if the answers are present in the context or facts. For example, the Edict was revoked on October 18, 1685. The number is 300,000. Mainly Calvinist, regions Alsace, Moselle, Montbéliard. The event is the revocation of the Edict and persecution under Louis XIV. The monument in NYC is Huguenot, Orange County, New York. The religion is Calvinism. The king is Louis XIV. The Edict of Nantes. The connection is mentioned in the facts.
+
+Need to ensure that each question is different and not repeating. Also, make sure answers are correct and derived from the text. Avoid any markdown and just provide the JSON structure as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual foi a data da revogação do Édito de Nantes?",
+    "resposta": "18 de outubro de 1685"
+  },
+  {
+    "pergunta": "Quantos huguenotes deixaram a França após a revogação do Édito de Nantes?",
+    "resposta": "Cerca de 300 000"
+  },
+  {
+    "pergunta": "Qual era a denominação religiosa predominante entre os huguenotes?",
+    "resposta": "Calvinistas"
+  },
+  {
+    "pergunta": "Quais regiões francesas tinham huguenotes majoritariamente alemães luteranos?",
+    "resposta": "Alsácia, Moselle e Montbéliard"
+  },
+  {
+    "pergunta": "Qual foi o principal fator que levou aos emigrantes huguenotes deixarem a França?",
+    "resposta": "Perseguições contra as comunidades protestantes sob Luís XIV"
+  },
+  {
+    "pergunta": "Qual local em Nova York foi nomeado em homenagem aos huguenotes?",
+    "resposta": "Huguenot, Orange County, New York"
+  },
+  {
+    "pergunta": "Qual é o nome da igreja a que os huguenotes estavam majoritariamente associados?",
+    "resposta": "Igreja Reformada"
+  },
+  {
+    "pergunta": "Qual monarca francês está associado às perseguências contra os huguenotes?",
+    "resposta": "Luís XIV"
+  },
+  {
+    "pergunta": "Qual é o nome do edital que protegia os huguenotes antes de sua revogação?",
+    "resposta": "Édito de Nantes"
+  },
+  {
+    "pergunta": "Qual grupo étnico-religioso está relacionado aos huguenotes segundo os fatos apresentados?",
+    "resposta": "Scotch-Irish Americans"
+  }
+]

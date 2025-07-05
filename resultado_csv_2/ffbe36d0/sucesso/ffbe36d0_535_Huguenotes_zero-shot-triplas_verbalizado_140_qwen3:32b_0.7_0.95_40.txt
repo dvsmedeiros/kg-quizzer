@@ -1,0 +1,92 @@
+<think>
+Okay, let's see. The user wants me to generate 10 question-answer pairs in JSON format based on the provided context about Huguenots. The context includes information about their history, religious affiliations, the revocation of the Edict of Nantes, and some related facts from the Wikipedia page like images, categories, and templates.
+
+First, I need to make sure each question is relevant to the context and the facts provided. The answers must be directly derived from the given information. Let me go through the context and facts again.
+
+The Huguenots were French Protestants during the 16th-century religious wars. After the revocation of the Edict of Nantes in 1685 under Louis XIV, around 300,000 fled France. They were mostly Calvinists, while some in Alsace-Moselle were Lutheran. The facts mention images like Huguenot obelisk.jpg, FrenchProtestantChurch.jpg, and others. There are also categories like Huguenot history in France, French diaspora, and related terms like Scotch-Irish Americans. Templates used in the Wikipedia page are noted, as well as the URL and other metadata.
+
+I need to create varied questions. Possible topics could be their origin, the number who left, the cause of their exodus (revocation of the Edict), religious affiliations, related terms like Camisards, historical figures (Henry IV), and the impact on other regions like Orange County, New York. Also, some questions can be about the images or categories associated with the Huguenots.
+
+Let me start drafting questions:
+
+1. Quantos Huguenotes deixaram a França após a revogação do Édito de Nantes?
+   Resposta: Cerca de 300.000.
+
+2. Qual foi o principal motivo da emigração dos Huguenotes no final do século XVI?
+   Resposta: A revogação do Édito de Nantes em 1685 sob Luís XIV.
+
+3. Qual religião dominava entre os Huguenotes?
+   Resposta: O calvinismo.
+
+4. Quais regiões da França tinham Huguenotes luteranos?
+   Resposta: Alsácia, Moselle e Montbéliard.
+
+5. Qual evento histório está associado à data de 18 de outubro de 1685?
+   Resposta: A revogação do Édito de Nantes.
+
+6. Qual é a imagem representativa dos Huguenotes mencionada?
+   Resposta: Huguenot obelisk.jpg.
+
+7. Qual categoria está relacionada à história dos Huguenotes na França?
+   Resposta: Category:Huguenot history in France.
+
+8. Qual grupo histórico está ligado aos Huguenotes como um hiperônimo?
+   Resposta: Camisard.
+
+9. Qual local nos Estados Unidos foi nomeado em homenagem aos Huguenotes?
+   Resposta: Orange County, New York.
+
+10. Qual modelo de página da Wikipedia é usado para os Huguenotes?
+   Resposta: Template:French diaspora.
+
+Wait, checking the facts again. The answer to question 10 should be one of the templates listed. The facts mention "Huguenots usa modelo de página wiki Template:French diaspora". So yes, that's correct.
+
+I need to make sure all answers are directly from the provided context and facts. Let me verify each question and answer again for accuracy and that they don't repeat.
+
+Looks good. The questions cover different aspects: numbers, reasons for migration, religious affiliations, regions, historical events, images, categories, related groups, locations named after them, and templates. All answers are in the given data. No repetitions. Alright, this should meet the user's requirements.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quantos Huguenotes deixaram a França após a revogação do Édito de Nantes?",
+    "resposta": "Cerca de 300.000."
+  },
+  {
+    "pergunta": "Qual foi o principal motivo da emigração dos Huguenotes no final do século XVI?",
+    "resposta": "A revogação do Édito de Nantes em 18 de outubro de 1685 sob Luís XIV."
+  },
+  {
+    "pergunta": "Qual religião dominava entre os Huguenotes?",
+    "resposta": "O calvinismo."
+  },
+  {
+    "pergunta": "Quais regiões da França tinham Huguenotes luteranos?",
+    "resposta": "Alsácia, Moselle e Montbéliard."
+  },
+  {
+    "pergunta": "Qual evento histórico está associado à data de 18 de outubro de 1685?",
+    "resposta": "A revogação do Édito de Nantes."
+  },
+  {
+    "pergunta": "Qual é a imagem representativa dos Huguenotes mencionada no contexto?",
+    "resposta": "Huguenot obelisk.jpg."
+  },
+  {
+    "pergunta": "Qual categoria está relacionada à história dos Huguenotes na França?",
+    "resposta": "Category:Huguenot history in France."
+  },
+  {
+    "pergunta": "Qual grupo histórico está ligado aos Huguenotes como um hiperônimo?",
+    "resposta": "Camisard."
+  },
+  {
+    "pergunta": "Qual local nos Estados Unidos foi nomeado em homenagem aos Huguenotes?",
+    "resposta": "Orange County, New York."
+  },
+  {
+    "pergunta": "Qual modelo de página da Wikipedia é usado para os Huguenotes?",
+    "resposta": "Template:French diaspora."
+  }
+]
+```

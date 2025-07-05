@@ -1,0 +1,69 @@
+<think>
+Okay, let me try to figure out how to approach this task. The user wants me to create a JSON array with exactly 10 pairs of questions and answers based on the provided context about the 1973 oil crisis. Each pair should have a relevant question and a correct answer in Portuguese.
+
+First, I need to understand the context thoroughly. The context mentions various aspects like the start date, major countries involved, the impact period, the second crise's end, the main reasons for the crisis, notable figures, and specific events related to 1973 oil prices.
+
+I should brainstorm different angles from this context to form unique questions. Let me list out possible topics:
+
+1. When did the 1973 oil crisis start?
+2. What was the price of oil in March 1974?
+3. Who were the countries involved in the first major crise?
+4. Why did the European and Japanese nations separate from the United States during the crisis?
+5. Which country's government negotiate with non-participating nations?
+6. When was Henry Kissinger involved in withdrawing supplies?
+7. In which year did the U.S. exit the Bretton Woods agreement?
+8. Who were the key oil producers responsible for the first crise?
+9. What event happened in March 1974 that led to the crisis?
+10. Which country's leaders separated from Israel during the crisis?
+
+Now, I'll map these questions to their respective answers using the data provided.
+
+For question 2 about the price of oil in March 1974, the answer is "quase US$ 12". That makes sense because the context mentions that prices were almost $12. Similarly, for question 5, the answer is "18 de janeiro de 1974" which aligns with the start of the second crise.
+
+I need to ensure each response is clear and directly answers the question without any added information. Also, I should avoid using any markdown or formatting since the user specified JSON with specific keys. The responses are concise and use appropriate Portuguese terms based on the context provided.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando começou a crise do petróleo de 1973?",
+    "resposta": "outubro de 1973"
+  },
+  {
+    "pergunta": "Qual foi o preço do petróleo em março de 1974?",
+    "resposta": "quase US $ 12"
+  },
+  {
+    "pergunta": "Quando foi a segunda crise do petróleo?",
+    "resposta": "1979"
+  },
+  {
+    "pergunta": "Qual foi outro termo usado para a crise do petróleo?",
+    "resposta": "primeiro choque do"
+  },
+  {
+    "pergunta": "Quem proclamou o embargo do petróleo?",
+    "resposta": "membros da Organização dos Países Exportadores de Petróleo Árabes"
+  },
+  {
+    "pergunta": "Por qual se separaram as nações européias e o Japão doUSA durante a crise?",
+    "resposta": "para evitar serem alvo do boicote."
+  },
+  {
+    "pergunta": "como o governo Nixon negociou com os países que não cooperaram?",
+    "resposta": "Eles providenciaram que Israel se afastasse da Península do Sinai e das Colinas de Golan."
+  },
+  {
+    "pergunta": "Em que data Henry Kissinger negociou uma retirada dos tropas israelenses da Península do Sinai?",
+    "resposta": "18 de janeiro de 1974"
+  },
+  {
+    "pergunta": "Quando os produtores de petróleo árabes levantaram o embargo?",
+    "resposta": "março de 1974"
+  },
+  {
+    "pergunta": "Quando os Estados Unidos se retiraram do Acordo de Bretton Woods?",
+    "resposta": "Em 15 de agosto de 1971"
+  }
+]
+```

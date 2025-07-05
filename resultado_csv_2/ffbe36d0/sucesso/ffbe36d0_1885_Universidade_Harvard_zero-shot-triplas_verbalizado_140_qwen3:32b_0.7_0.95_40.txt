@@ -1,0 +1,88 @@
+<think>
+Okay, let's tackle this. The user wants 10 pairs of questions and answers based on the provided context and facts about Harvard University. First, I need to read through the context and the facts carefully. 
+
+The context gives a lot of information about Harvard's history, location, notable alumni, departments, etc. The facts list many individuals associated with Harvard through education, affiliation, or work. 
+
+I need to generate diverse questions covering different aspects. Let's see. Possible areas: founding year, location, notable alumni, presidents, departments, famous buildings, Nobel laureates, the library, sports, budget. 
+
+Looking at the facts, there are many alumni mentioned. But the user said to avoid repeating similar questions. So maybe one question about the number of Nobel laureates, another about the library, another about the location, etc. 
+
+Wait, the user also mentioned that answers should be explicit or inferable from the text. For example, the context says eight U.S. presidents graduated from Harvard. That's a specific fact. Similarly, the library is the largest academic library in the U.S.
+
+I should make sure each question is unique. Let me list possible questions:
+
+1. When was Harvard University founded?
+2. In which state is Harvard University located?
+3. Which war caused the transformation led by Charles William Eliot?
+4. Who was the first woman president of Harvard?
+5. How many Nobel laureates are affiliated with Harvard?
+6. What is the name of Harvard's main campus area?
+7. Which university press has the largest budget?
+8. How many U.S. presidents are Harvard alumni?
+9. What is the name of Harvard's athletic teams?
+10. In which year was Harvard's budget mentioned?
+
+Now, check the context for answers:
+
+1. Founded in 1636.
+2. Massachusetts.
+3. American Civil War (post-war, so the war itself).
+4. Drew Gilpin Faust.
+5. Approximately 150.
+6. Harvard Yard.
+7. Harvard's budget is the largest at $30 billion as of 2012.
+8. Eight.
+9. The Harvard Crimson.
+10. 2012.
+
+But need to ensure the questions are phrased correctly and answers are accurate. Also, avoid using "which" where possible. For example, "Which war..." could be phrased as "What war led to..." but the context says "After the American Civil War..." so the answer is the American Civil War.
+
+Also, check for uniqueness. Each question should cover a different aspect. Let me verify each answer against the text. For instance, the main campus is Harvard Yard in Cambridge. The athletic teams are the Harvard Crimson. The budget was $30 billion in 2012. The first woman president was in 2007.
+
+I think that's 10 unique questions. Let me structure them in JSON as specified, making sure each has a clear question and answer.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em que ano a Universidade Harvard foi fundada?",
+    "resposta": "1636"
+  },
+  {
+    "pergunta": "Qual é o estado em que a Universidade Harvard está localizada?",
+    "resposta": "Massachusetts"
+  },
+  {
+    "pergunta": "Qual guerra contribuiu para a transformação da Universidade Harvard em uma instituição de pesquisa moderna?",
+    "resposta": "Guerra Civil Americana"
+  },
+  {
+    "pergunta": "Quem foi a primeira mulher a ser eleita reitora da Universidade Harvard?",
+    "resposta": "Drew Gilpin Faust"
+  },
+  {
+    "pergunta": "Quantos vencedores do Prêmio Nobel estão associados à Universidade Harvard como alunos, professores ou funcionários?",
+    "resposta": "150 aproximadamente"
+  },
+  {
+    "pergunta": "Qual é o nome da área central do campus principal da Universidade Harvard?",
+    "resposta": "Harvard Yard"
+  },
+  {
+    "pergunta": "Qual é o orçamento da Universidade Harvard, conforme mencionado no texto?",
+    "resposta": "30 bilhões de dólares"
+  },
+  {
+    "pergunta": "Quantos presidentes dos Estados Unidos são formados na Universidade Harvard?",
+    "resposta": "Oito"
+  },
+  {
+    "pergunta": "Qual é o nome dos times esportivos intercolegiais da Universidade Harvard?",
+    "resposta": "Harvard Crimson"
+  },
+  {
+    "pergunta": "Em que ano o orçamento da Universidade Harvard foi mencionado no texto?",
+    "resposta": "2012"
+  }
+]
+```

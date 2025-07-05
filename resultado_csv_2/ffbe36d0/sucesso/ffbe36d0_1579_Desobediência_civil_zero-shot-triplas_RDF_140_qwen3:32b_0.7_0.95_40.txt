@@ -1,0 +1,84 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let's start by understanding the context and the facts given.
+
+The context explains that civil disobedience is a form of peaceful protest against unjust laws or oppressive governments, originating from Henry David Thoreau, used by Gandhi and Martin Luther King. The facts list various historical events and movements that employed civil disobedience, like the 1998 Russian miners' strike, 2015 Montenegrin crisis, etc. There's also some RDF data mentioning people like Thoreau, Gandhi, and others, as well as organizations and events that used civil disobedience.
+
+First, I should make sure each question is unique and covers different aspects. Let's brainstorm possible angles:
+
+1. Originators of the concept (Thoreau, Gandhi, MLK)
+2. Historical events that used civil disobedience
+3. Purpose or characteristics of civil disobedience
+4. Notable figures associated with it
+5. Specific examples from the facts provided
+6. Philosophical underpinnings or theories
+7. Modern applications or recent events
+8. Legal or ethical considerations
+9. Comparison with other forms of protest
+10. Outcomes or impacts of civil disobedience
+
+Now, I need to ensure that each question has a clear, correct answer from the given data. For example, asking about the originator would be Thoreau. For events, using the listed ones like the Russian miners' strike. Also, the facts mention people like Thoreau and movements, so those can be sources for answers.
+
+I have to avoid repeating questions. Let's check each possible question:
+
+- Who is considered the originator? Thoreau.
+- Which historical figures used it? Gandhi and MLK.
+- What is the main purpose? Opposing unjust laws/authorities.
+- What methods are used? Peaceful protest, non-violent resistance.
+- Examples from the facts: 1998 Russian miners' strike, 2015 Montenegrin crisis, etc.
+- What's the philosophical basis? Thoreau's essay, maybe moral obligation.
+- Who are notable figures? Thoreau, Gandhi, MLK.
+- Recent events using it: 2022 Kazakh unrest, 2021 Minneapolis protests.
+- How does it differ from other protests? It's non-violent and lawful.
+- What's the outcome? Changing laws or government actions.
+
+I need to structure each question and answer precisely. For example, for the first question: "Quem é considerado o formulador original do conceito de desobediência civil?" and the answer would be Henry David Thoreau.
+
+I should also check the facts for specific examples. The 1998 Russian miners' strike used civil disobedience as a method. Similarly, the 2015 Montenegrin crisis. Each of these can be individual questions.
+
+Let me start drafting the 10 pairs, making sure each is unique and based on the provided data.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem é considerado o formulador original do conceito de desobediência civil?",
+    "resposta": "Henry David Thoreau"
+  },
+  {
+    "pergunta": "Qual evento histórico utiliza a desobediência civil como método de protesto desde 1998?",
+    "resposta": "Greve dos mineiros russos de 1998"
+  },
+  {
+    "pergunta": "Qual movimento social no século XX utilizou a desobediência civil para combater a segregação racial nos Estados Unidos?",
+    "resposta": "Movimento dos direitos civis"
+  },
+  {
+    "pergunta": "Qual país enfrentou protestos de desobediência civil em 2015 devido a crise política?",
+    "resposta": "Montenegro"
+  },
+  {
+    "pergunta": "Qual atividade de desobediência civil está associada a Mahatma Gandhi no contexto da independência da Índia?",
+    "resposta": "Movimento de independência da Índia"
+  },
+  {
+    "pergunta": "Qual evento de 2021 no Canadá envolveu protestos de desobediência civil relacionados ao aquecimento global?",
+    "resposta": "Protestos 'Insulate Britain'"
+  },
+  {
+    "pergunta": "Qual movimento de 2020 envolveu protestos de desobediência civil contra restrições de saúde pública?",
+    "resposta": "Protestos contra as medidas de contenção da pandemia em Montenegro"
+  },
+  {
+    "pergunta": "Qual organização feminista está diretamente associada à prática de desobediência civil por direitos reprodutivos?",
+    "resposta": "Sisters Uncut"
+  },
+  {
+    "pergunta": "Qual evento de 2017 na Albânia utilizou a desobediência civil como forma de protesto político?",
+    "resposta": "Manifestações da oposição albanesa"
+  },
+  {
+    "pergunta": "Qual manifestação global de 2020 utilizou a desobediência civil para denunciar violações de direitos humanos contra mulheres?",
+    "resposta": "Movimento 'Women Disobey'"
+  }
+]
+```

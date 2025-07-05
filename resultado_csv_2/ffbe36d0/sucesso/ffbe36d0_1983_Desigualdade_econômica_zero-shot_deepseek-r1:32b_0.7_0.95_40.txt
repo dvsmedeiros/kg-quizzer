@@ -1,0 +1,65 @@
+<think>
+Okay, so I need to generate 10 question-answer pairs based on the context provided about economic inequality. The user has specified that each pair should have a clear and correct answer derived from the content.
+
+First, I'll read through the context carefully to understand the key points. It mentions factors like income distribution, access to education, healthcare, social mobility, government policies, impact of globalization, automation, historical roots, measurement using Gini index, effects on growth and stability, and possible solutions such as progressive taxation, social programs, education investment, wealth redistribution, and economic reforms.
+
+I should create varied questions that cover different aspects. Let me start by identifying each main topic and think of a question for it.
+
+1. **Factors contributing to economic inequality:** I'll ask about the primary causes.
+2. **Income distribution impact:** How does unequal income affect society?
+3. **Access to essential services:** Which services are impacted?
+4. **Social mobility challenges:** What issue arises regarding movement between classes?
+5. **Government role in reducing inequality:** What can governments do?
+6. **Globalization's effect:** How does it influence economic inequality?
+7. **Automation impact on jobs:** What happens with low-skilled workers?
+8. **Historical roots cause long-term issues:** Why is this a problem?
+9. **Measuring inequality using Gini index:** Which tool is used?
+10. **Solutions to reduce inequality:** What measures are effective?
+
+Now, I'll make sure each question has a single correct answer and that they cover different aspects without repetition. Each answer should be concise and directly tied to the context.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quais são os fatores que contribuem para a desigualdade econômica?",
+    "resposta": "Fatores como distribuição de renda, acesso a educação e saúde, mobilidade social, políticas governamentais e influência da globalização."
+  },
+  {
+    "pergunta": "Como a desigualdade de renda afeta a sociedade?",
+    "resposta": "Afeta o bem-estar, mobilidade social e estabilidade econômica."
+  },
+  {
+    "pergunta": "Quais serviços essenciais são mais impactados pela desigualdade?",
+    "resposta": "Educação e saúde."
+  },
+  {
+    "pergunta": "Qual é o problema relacionado à mobilidade social na desigualdade?",
+    "resposta": "Baixa mobilidade entre classes econômicas."
+  },
+  {
+    "pergunta": "O que os governos podem fazer para reduzir a desigualdade?",
+    "resposta": "Implementar políticas redistributivas, programas sociais e investimentos em educação."
+  },
+  {
+    "pergunta": "Como a globalização afeta a desigualdade econômica?",
+    "resposta": "Aumenta a concentração de renda, beneficiando mais os setores高技能."
+  },
+  {
+    "pergunta": "Qual é o impacto da automação no mercado de trabalho?",
+    "resposta": "Substituição de trabalhadores de baixa qualificação."
+  },
+  {
+    "pergunta": "Por que as desigualdades históricas são um problema?",
+    "resposta": "Cria ciclos de pobreza e exclusão social."
+  },
+  {
+    "pergunta": "Qual índice mede a desigualdade econômica?",
+    "resposta": "Índice de Gini."
+  },
+  {
+    "pergunta": "Quais medidas ajudam a reduzir a desigualdade?",
+    "resposta": "Imposto progressivo, programas sociais, investimentos em educação e redistribuição de riquezas."
+  }
+]
+```

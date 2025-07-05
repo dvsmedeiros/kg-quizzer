@@ -1,0 +1,83 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs in Portuguese based on the provided context and facts about Warsaw. Let me start by understanding the context and the list of facts given.
+
+First, the context describes Warsaw as the capital of Poland, its location, population, industries, institutions, historical events, and cultural landmarks. Then there are a list of facts about people, places, and institutions associated with Warsaw.
+
+I need to make sure the questions cover different aspects. Let's see, the user mentioned that the questions should be varied and cover different aspects. So I should look for different categories: historical events, people born or died there, locations, institutions, weather, etc.
+
+Looking at the facts, there are several names of people born or died in Warsaw. For example, Cymburgis of Masovia, Leopold Tyrmand, Pilecki Institute, Józef Popowski, etc. So maybe a question about a person born in Warsaw. Also, there are mentions of places like the Warsaw Ghetto, the Palace of the Four Winds, the Warta Tower, etc.
+
+There are also some facts about institutions: Ministry of Finance, Frontex, University of Warsaw. Then there are weather-related facts: temperatures in April, May, December. Also, some events like the Warsaw Airlift, the 5th World Festival of Youth and Students.
+
+I need to ensure that each question is unique and not repeating the same topic. Let me list possible questions:
+
+1. Who was born in Warsaw? (Cymburgis of Masovia)
+2. Which institution has its headquarters in Warsaw? (Ministry of Finance)
+3. What is the historical name of the Warsaw Ghetto? (Warsaw Ghetto)
+4. Which bridge is located in Warsaw? (Śląsko-Dąbrowski Bridge)
+5. What is the temperature record for the lowest temperature in April in Warsaw? (-1.6°C)
+6. Which university is located in Warsaw? (University of Warsaw)
+7. What is the name of the street in Warsaw? (Marszałkowska Street)
+8. Which event is associated with Warsaw? (Warsaw Airlift)
+9. What is the name of the monument in Warsaw? (Aviator Monument)
+10. What is the name of the festival held in Warsaw? (5th World Festival of Youth and Students)
+
+Wait, let me check if these are all correct and based on the facts. The facts mention "Warsaw Ghetto" as a location, so that's a valid question. The Śląsko-Dąbrowski Bridge is listed as a place in Warsaw. The temperature record is mentioned as -1.6°C in April. The University of Warsaw is definitely in Warsaw. Marszałkowska Street is a street in Warsaw. The Warsaw Airlift is an event. The Aviator Monument is a monument. The 5th World Festival is mentioned as a festival in Warsaw.
+
+I need to make sure each of these is from the provided facts. Let me check again:
+
+- Cymburgis of Masovia nasceu em Warsaw: Yes.
+- Ministry of Finance (Poland) tem sede principal em Warsaw: Yes.
+- Warsaw Ghetto está localizado em Warsaw: Yes.
+- Śląsko-Dąbrowski Bridge possui localidade Warsaw: Yes.
+- Warszawa Rembertów railway station possui endereço Warsaw: Maybe, but the question is about the temperature record. The fact says "Warsaw possui temperatura mínima em abril (°C) 4" but also "Warsaw possui média recorde de baixa em abril (°C) -1.6". Wait, the user's facts say "Warsaw possui temperatura mínima em abril (°C) 4" and "Warsaw possui média recorde de baixa em abril (°C) -1.6". So the record is -1.6°C. So the question about the temperature record is correct.
+
+Another point: the user mentioned that the questions should be in Portuguese. So I need to phrase them in Portuguese.
+
+Also, need to ensure that each question is unique and not overlapping. Let me check if there are 10 distinct aspects. The above list seems to cover different aspects: people, institutions, historical events, places, weather, etc.
+
+I think that's 10. Let me structure them as per the required JSON format, making sure each is a separate pair with correct answers.
+</think>
+
+[
+  {
+    "pergunta": "Qual cidade é a capital e maior cidade da Polónia?",
+    "resposta": "Varsóvia"
+  },
+  {
+    "pergunta": "Qual é o nome do rio que limita Varsóvia?",
+    "resposta": "Vístula"
+  },
+  {
+    "pergunta": "Quem nasceu em Varsóvia?",
+    "resposta": "Cymburgis of Masovia"
+  },
+  {
+    "pergunta": "Qual é o nome do monumento localizado em Varsóvia?",
+    "resposta": "Aviator Monument (Warsaw)"
+  },
+  {
+    "pergunta": "Qual é a temperatura mínima registrada em abril em Varsóvia?",
+    "resposta": "4 °C"
+  },
+  {
+    "pergunta": "Qual é o nome da universidade localizada em Varsóvia?",
+    "resposta": "Universidade de Varsóvia"
+  },
+  {
+    "pergunta": "Qual é o nome da ponte localizada em Varsóvia?",
+    "resposta": "Śląsko-Dąbrowski Bridge"
+  },
+  {
+    "pergunta": "Qual é o nome do evento histórico associado a Varsóvia?",
+    "resposta": "Warsaw Airlift"
+  },
+  {
+    "pergunta": "Qual é o nome do evento internacional realizado em Varsóvia?",
+    "resposta": "5th World Festival of Youth and Students"
+  },
+  {
+    "pergunta": "Qual é o nome do local de sepultamento de Józef Weyssenhoff?",
+    "resposta": "Warsaw"
+  }
+]

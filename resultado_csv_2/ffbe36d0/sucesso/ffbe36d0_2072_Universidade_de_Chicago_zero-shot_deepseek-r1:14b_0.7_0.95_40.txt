@@ -1,0 +1,151 @@
+<think>
+Okay, so I need to create 10 multiple-choice questions based on the context provided about the University of Chicago. The user has given me a JSON structure to follow, and they want exactly 10 pairs of questions and answers in Portuguese. Let me break this down.
+
+First, I should understand what information is available about the University of Chicago. From the context, I can see that it's a private research university located in Chicago, Illinois, founded in 1890 by John D. Rockefeller. It's part of the Big Ten Conference and offers undergraduate programs through its colleges: Humanities, Social Sciences, and Physical Sciences.
+
+I need to make sure each question is unique and covers different aspects of this information. Let me list out possible areas:
+
+1. Year founded
+2. Founder
+3. Location (state)
+4. University type (private vs public)
+5. Affiliation with the Big Ten Conference
+6. Structure of undergraduate programs (colleges)
+7. Name of specific colleges
+
+Now, I'll think about each point and create a question around it.
+
+For example, for the year founded: "Em qual ano foi fundada a Universidade de Chicago?" The answer would be 1890.
+
+Next, founder: "Quem fundou a Universidade de Chicago?" Answer: John D. Rockefeller.
+
+Location: Where is it located? State of Illinois.
+
+Type: Is it private or public? Private.
+
+Affiliation: Which conference does it belong to? Big Ten.
+
+Undergraduate structure: How are they organized? Through colleges.
+
+Specific colleges: Name one, like the College of Humanities.
+
+Wait, but I need 10 questions. Let me see if I can find more details or maybe variations on these points.
+
+Perhaps also include something about its research focus or notable programs, but since the context doesn't specify that, I'll stick to what's given.
+
+I should make sure each question is clear and has only one correct answer from the text.
+
+Let me list them out:
+
+1. Year founded
+2. Founder
+3. Location (city and state)
+4. Private or public
+5. Conference affiliation
+6. Undergraduate structure
+7. Name of a college
+8. Maybe something about its establishment reason or vision, but since that's not in the context, I might need to stick to what's given.
+
+Wait, the context mentions it was founded by Rockefeller and established in 1890 in Chicago, Illinois as a private institution. It's part of Big Ten and offers undergrad programs through colleges.
+
+I think I can make 7 questions from this, but I need 10. Maybe break down location into city and state separately?
+
+So:
+
+Question 3: Em qual estado está localizada a Universidade de Chicago? Answer: Illinois.
+
+And another about the city: Em qual cidade está localizada a universidade? Answer: Chicago.
+
+That gives me two more questions, making it nine. I need one more.
+
+Looking back, perhaps something about the structure of undergrad programs: It offers programs through colleges. So maybe a question like "Como são organizados os programas de graduação?" with answer "Por meio de colégios temáticos."
+
+Wait, but in the context, it's stated as: "seus cursos de graduação são oferecidos por meio de três unidades denominadas faculdades..." so I can use that.
+
+Alternatively, maybe something about the number of colleges or their names. Since three are mentioned (Humanidades, Ciências Sociais e Ciências Físicas), perhaps a question asking how many colleges make up the undergrad programs? Answer: Três.
+
+That would add another question. Now I have 10.
+
+Wait, let me count:
+
+1. Ano de fundação
+2. Fundador
+3. Estado da localização
+4. Cidade de localização
+5. Pública ou privada
+6. Conferência do esporte
+7. Organização dos programas de graduação
+8. Nome de uma faculdade
+9. Número de faculdades
+10.algo mais, mas talvez sobre a natureza das faculdades.
+
+Wait, maybe the last one could be: "Qual é o objetivo principal da universidade?" But since the context doesn't specify that, it's not possible. So perhaps stick to the 9 I have and think of another angle.
+
+Alternatively, perhaps the fact that it's part of Big Ten is about sports? Or its research focus?
+
+But without more info, maybe better to just make sure each question is unique and covers all given points.
+
+Let me structure them:
+
+1. Ano de fundação: 1890
+2. Fundador: John D. Rockefeller
+3. Localização - estado: Illinois
+4. Localização - cidade: Chicago
+5. Tipo: Privada
+6. Conferência esportiva: Big Ten
+7. Organização graduação: por meio de faculdades
+8. Nome de uma faculdade: Ciências Físicas, Humanidades, etc.
+9. Número de faculdades: Três
+10._tipo de programas: Graduação
+
+Wait, question 10 could be: "Quais tipos de cursos são oferecidos pela Universidade de Chicago?" Answer: Graduação.
+
+Alternatively, maybe about the structure again but phrased differently.
+
+I think that's a solid set of 10. I need to make sure each is clear and only has one correct answer based on the context provided.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em qual ano foi fundada a Universidade de Chicago?",
+    "resposta": "1890"
+  },
+  {
+    "pergunta": "Quem fundou a Universidade de Chicago?",
+    "resposta": "John D. Rockefeller"
+  },
+  {
+    "pergunta": "Em qual estado está localizada a Universidade de Chicago?",
+    "resposta": "Illinois"
+  },
+  {
+    "pergunta": "Em qual cidade está localizada a Universidade de Chicago?",
+    "resposta": "Chicago"
+  },
+  {
+    "pergunta": "A Universidade de Chicago é pública ou privada?",
+    "resposta": "Privada"
+  },
+  {
+    "pergunta": "Qual conferência esportiva a Universidade de Chicago pertence?",
+    "resposta": "Big Ten"
+  },
+  {
+    "pergunta": "Como são organizados os programas de graduação na Universidade de Chicago?",
+    "resposta": "Por meio de faculdades temáticas"
+  },
+  {
+    "pergunta": "Qual é um exemplo de uma faculdade da Universidade de Chicago?",
+    "resposta": "Faculdade de Humanidades"
+  },
+  {
+    "pergunta": "Quantas faculdades compõem os programas de graduação?",
+    "resposta": "Três"
+  },
+  {
+    "pergunta": "Quais tipos de cursos são oferecidos pela Universidade de Chicago?",
+    "resposta": "Graduação"
+  }
+]
+```

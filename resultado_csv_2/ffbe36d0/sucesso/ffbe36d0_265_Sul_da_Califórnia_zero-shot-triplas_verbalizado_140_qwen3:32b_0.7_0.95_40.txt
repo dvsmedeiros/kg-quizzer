@@ -1,0 +1,72 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts about Southern California. First, I need to make sure I understand the requirements. Each pair should have a question and a correct answer, all in Portuguese. The JSON format is strict, no extra text.
+
+Looking at the context, the main points are Southern California's location, population (23.8 million in 2019), boundaries (Pacific Ocean, Mexico, Arizona), and some related entities like companies, events, and people. The facts list various companies, people, events, images, and other locations tied to SoCal.
+
+I need to create diverse questions covering different aspects. Maybe start with geography, population, famous people, companies, events, and images. Let me check the examples in the facts. There's a 1987 earthquake, Fosselman's Ice Cream, Jill Barnett, Robinsons-May, USC Trojans rugby, etc.
+
+First question: What is the approximate population of Southern California as of 2019? Answer is 23.8 million.
+
+Second: Which natural boundary is located to the west of Southern California? Answer: Pacific Ocean.
+
+Third: Which ice cream company serves the Southern California region? Answer: Fosselman's Ice Cream Company.
+
+Fourth: Which famous person was born in Southern California? Let's pick one, maybe Jill Barnett.
+
+Fifth: What major earthquake affected Southern California in 1987? Answer: Whittier Narrows earthquake.
+
+Sixth: Which sports team is associated with Southern California? USC Trojans men's rugby.
+
+Seventh: Which supermarket chain serves Southern California? Ralphs or Pavilions. Maybe Ralphs is more well-known.
+
+Eighth: What is the name of the region's transportation system mentioned? Metrolink (California).
+
+Ninth: Which image represents Southern California's freeway system? The one mentioned as SocalfreewaysystemWIKI.jpg.
+
+Tenth: Which university's rugby team is based in Southern California? USC Trojans again. Wait, but I already used that. Maybe another one? Let me check the facts again. There's also Southern California Intercollegiate Athletic Conference, but that's a conference. Maybe another person? Or another company? Let's see. Maybe the 2008 Chino Hills earthquake? Or another person like Neal Rubin? Alternatively, maybe a different image. Or the 2021 Orange County oil spill. But the user wants 10 pairs. Let me make sure each question is unique and covers different aspects. I think I have 10. Let me list them again to check for duplicates and ensure they're all from the given data.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a população aproximada da região da Califórnia do Sul em 2019?",
+    "resposta": "23,8 milhões de pessoas"
+  },
+  {
+    "pergunta": "Qual é a fronteira natural localizada ao oeste da Califórnia do Sul?",
+    "resposta": "Oceano Pacífico"
+  },
+  {
+    "pergunta": "Qual é o nome da empresa de sorvetes que atende à região da Califórnia do Sul?",
+    "resposta": "Fosselman's Ice Cream Company"
+  },
+  {
+    "pergunta": "Qual é o nome da pessoa nascida na Califórnia do Sul mencionada no contexto?",
+    "resposta": "Jill Barnett"
+  },
+  {
+    "pergunta": "Qual foi o nome do terremoto que afetou a Califórnia do Sul em 1987?",
+    "resposta": "Whittier Narrows earthquake"
+  },
+  {
+    "pergunta": "Qual é o nome do time de rugby associado à Califórnia do Sul?",
+    "resposta": "USC Trojans men's rugby"
+  },
+  {
+    "pergunta": "Qual é o nome da rede de supermercados que atende à região da Califórnia do Sul?",
+    "resposta": "Ralphs"
+  },
+  {
+    "pergunta": "Qual é o nome do sistema de transporte mencionado na Califórnia do Sul?",
+    "resposta": "Metrolink (California)"
+  },
+  {
+    "pergunta": "Qual é o nome da imagem que representa o sistema de rodovias da Califórnia do Sul?",
+    "resposta": "SocalfreewaysystemWIKI.jpg"
+  },
+  {
+    "pergunta": "Qual é o nome do evento de derramamento de óleo ocorrido na Califórnia do Sul em 2021?",
+    "resposta": "2021 Orange County oil spill"
+  }
+]
+```

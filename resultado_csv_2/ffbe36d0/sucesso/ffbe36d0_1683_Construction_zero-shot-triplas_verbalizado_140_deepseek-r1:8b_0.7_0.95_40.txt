@@ -1,0 +1,67 @@
+<think>
+Ok, eu preciso ajudar o usuário a gerar 10 pares de perguntas e respostas baseadas no contexto fornecido. Primeiro, vou analisar o conteúdo para identificar os principais pontos.
+
+O contexto fala sobre construção, engenharia, termos relacionados, empresas que atuam nessas áreas, e outros fatos relevantes. Vejo que muitas empresas são mencionadas, além de termos específicos como "reforma" no Brasil e hiperônimos como "Construction".
+
+Primeiro, vou listar as informações关键点：
+
+- Construção e engenharia.
+- Termos: reforma, construção, obra.
+- Empresas: Acon, Liberty Property Trust, Aoki Corporation, Architect, etc.
+
+Agora, preciso criar perguntas que cobram diferentes aspectos. Por exemplo:
+
+1. O que é a construção?
+2. Qual termo é usado no Brasil para reforma?
+3. Quais empresas pertencem à indústria da construção?
+4. O que é um hiperônimo de "Construction"?
+
+Continuei com isso, criando outras perguntas sobre definições, termos específicos, empresas e hiperônimos. Certo de não repetir perguntas semelhantes e garantindo que cada uma tenha uma resposta única correta.
+
+Finalmente, organizei o JSON com os 10 pares, verificando que todas as perguntas sejam relevantes e cobram diferentes temas do contexto.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é considerado a construção?",
+    "resposta": "A construção é a execução de projetos,incluindo etapas da fundação ao acabamento, respeitando técnicas e normas técnicas."
+  },
+  {
+    "pergunta": "Qual termo no Brasil se utiliza para denominar reforma ou melhorias em imóveis?",
+    "resposta": "No Brasil, o termo 'reforma' é utilizado quando se trata de ampliação, inovação, restauração ou outra modificação em um imóvel."
+  },
+  {
+    "pergunta": "Qual empresa mencionada pertence à indústria da construção?",
+    "resposta": "A Acon pertence à indústria Construction."
+  },
+  {
+    "pergunta": "O que é um hiperônimo de 'Construction'?",
+    "resposta": "'Construction' tem como hiperônimo 'engenharia e arquitetura'."
+  },
+  {
+    "pergunta": "Qual termo é associado à construção em um contexto global?",
+    "resposta": "A palavra 'construction' (construção) é utilizada internacionalmente para descrever a execução de projetos de infraestrutura ou edificações."
+  },
+  {
+    "pergunta": "Quais empresas mencionadas são especializadas em serviços de construção?",
+    "resposta": "Several companies, including Acon, Liberty Property Trust, e Aoki Corporation, atuam na indústria da construção."
+  },
+  {
+    "pergunta": "Qual termo é utilizado no contexto para descrever a execução de um projeto de obra?",
+    "resposta": "A construção é a execução de projetos, desde a fundação até o acabamento, utilizando técnicas construtivas e normas técnicas."
+  },
+  {
+    "pergunta": "Qual empresa mencionada tem como produto principal a construção?",
+    "resposta": "CITIC Group Corporation Ltd. tem como produto Construction."
+  },
+  {
+    "pergunta": "O que é o significado de 'Construction' em um contexto geral?",
+    "resposta": "'Construction' refere-se à execução de projetos de construção, incluindo edificações, infraestrutura e obras."
+  },
+  {
+    "pergunta": "Qual termo no Brasil é utilizado para denominar a atividade de melhorar ou ampliar imóveis?",
+    "resposta": "No Brasil, o termo 'reforma' é utilizado para descrever melhorias ou alterações em imóveis."
+  }
+]
+```

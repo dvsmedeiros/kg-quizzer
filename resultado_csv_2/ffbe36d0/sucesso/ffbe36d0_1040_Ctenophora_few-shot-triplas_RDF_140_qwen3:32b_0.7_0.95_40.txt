@@ -1,0 +1,93 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about Ctenophora. Let me start by reading through the context carefully.
+
+The context mentions that Ctenophora are marine animals, mostly planktonic, bioluminescent, with ciliary combs for movement. They are similar to jellyfish but evolved separately. The size ranges from 1mm to 1.5m. The fossil record dates back to the Cambrian. The facts include some taxonomic classifications and related species like Callianira hexagona, Coeloplana, Vallicula.
+
+Looking at the example questions, they cover definitions, unique features, size, movement, classification, etc. I need to make sure my questions are varied and cover different aspects. Let me list possible topics:
+
+1. Definition and common names.
+2. Distinctive features (ciliary combs).
+3. Habitat (marine, planktonic).
+4. Bioluminescence.
+5. Size range.
+6. Taxonomic classification (phylum, classes like Tentaculata, Nuda).
+7. Fossil record (Cambrian).
+8. Similarity to jellyfish (convergent evolution).
+9. Movement mechanism (cilia combs).
+10. Examples of species under Ctenophora.
+
+I need to ensure each question is unique and not repeating the examples. Let me check the examples again to avoid duplicates. The examples include the name origin, what they use to swim, size, etc. So I should ask about bioluminescence, taxonomic classes, fossil record, etc.
+
+Now, formulating the questions:
+
+1. Quais são os nomes comuns dos ctenóforos?
+2. O que caracteriza a bioluminescência dos ctenóforos?
+3. Em qual período do registro fóssil os ctenóforos aparecem?
+4. Quais são as classes principais dos ctenóforos?
+5. Como os ctenóforos se locomovem?
+6. Qual é a diferença evolutiva entre ctenóforos e cnidários?
+7. Qual é o maior ctenóforo adulto em termos de tamanho?
+8. O que distingue os ctenóforos dos cnidários morfologicamente?
+9. Quais são os exemplos de espécies pertencentes ao filo Ctenophora?
+10. Como os ctenóforos obtêm seu nome em grego?
+
+Now, check the answers against the context:
+
+1. Carambolas-do-mar ou águas-vivas-de-pente.
+2. São bioluminescentes.
+3. Cambriano.
+4. Tentaculata, Nuda, Scleroctenophora.
+5. Pentes formados por cílios.
+6. Convergência evolutiva, não parentesco próximo.
+7. Até 1,5 metros.
+8. Presença de pentes e transparência, mas convergência evolutiva.
+9. Callianira hexagona, Coeloplana, Vallicula.
+10. Kteis (pente) e pherō (carregar).
+
+Need to make sure answers are directly from the text or inferable. All these should be covered. Let me structure the JSON now.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quais são os nomes comuns dos ctenóforos?",
+    "resposta": "carambolas-do-mar ou águas-vivas-de-pente"
+  },
+  {
+    "pergunta": "O que caracteriza a bioluminescência dos ctenóforos?",
+    "resposta": "são bioluminescentes"
+  },
+  {
+    "pergunta": "Em qual período do registro fóssil os ctenóforos aparecem?",
+    "resposta": "Cambriano"
+  },
+  {
+    "pergunta": "Quais são as classes principais dos ctenóforos?",
+    "resposta": "Tentaculata, Nuda, Scleroctenophora"
+  },
+  {
+    "pergunta": "Como os ctenóforos se locomovem?",
+    "resposta": "pentas formados por cílios"
+  },
+  {
+    "pergunta": "Qual é a diferença evolutiva entre ctenóforos e cnidários?",
+    "resposta": "as semelhanças com medusas representam convergência evolutiva"
+  },
+  {
+    "pergunta": "Qual é o maior ctenóforo adulto em termos de tamanho?",
+    "resposta": "1,5 metros"
+  },
+  {
+    "pergunta": "O que distingue os ctenóforos dos cnidários morfologicamente?",
+    "resposta": "presença de pentes e transparência das membranas"
+  },
+  {
+    "pergunta": "Quais são os exemplos de espécies pertencentes ao filo Ctenophora?",
+    "resposta": "Callianira hexagona, Coeloplana, Vallicula"
+  },
+  {
+    "pergunta": "Como os ctenóforos obtêm seu nome em grego?",
+    "resposta": "kteis ('pente') e pherō ('portador')"
+  }
+]
+```

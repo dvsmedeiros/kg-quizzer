@@ -1,0 +1,73 @@
+<think>
+Ok, então o usuário me pediu para gerar 10 pares de perguntas e respostas baseadas no contexto e fatos fornecidos sobre teoria da complexidade computacional. Primeiro, preciso entender bem o que está sendo pedido.
+
+Vou começar analisando o contexto: a teoria da complexidade computacional se concentra na classificação de problemas computacionais com base em seu uso de recursos. Isso inclui aspectos como tempo e espaço, além de explorar as relações entre diferentes classes de复杂idade.
+
+Agora, os fatos fornecidos são uma lista de informações variadas sobre teoria da complexidade computacional, incluindo nomes de pessoas que atuam na área (como Russell Impagliazzo, Umesh Vazirani, Scott Aaronson etc.), tipos de problemas e classificações, modelos usados em wikis, imagens representativas, entre outros.
+
+Meu objetivo é criar perguntas variadas que abrangem diferentes aspectos desse conteúdo. Preciso garantir que cada pergunta tenha uma única resposta correta baseada nos fatos fornecidos. Não posso repetir perguntas semelhantes e devo evitar adicionar qualquer comentário ou justificativa, apenas as informações estruturadas.
+
+Vou começar identificando os tópicos principais nos fatos: pessoas atuantes na área, tipos de problemas, modelos de/wiki usados, imagens representativas, classificações, entre outros. A partir desses tópicos, posso formular perguntas sobre cada um.
+
+1. Pergunta sobre o que a teoria da complexidade computacional se concentra: isso está no contexto, então uma pergunta direta.
+2. Quem é conhecido por trabalhar na teoria da complexidade? Vejo nomes como Russell Impagliazzo e outros; posso escolher um deles.
+3. Qual modelo de/wiki é usado? Vejo Template:Citation, Template:Garey-Johnson etc.
+4. Quais são os tipos de/problems? Vejo Abstraction, Thing, Procedure etc.
+5. Quem atua na disciplina? Vários nomes estão listados.
+6. Quais imagens representam a teoria? Sorting quicksort anim.gif e outras.
+7. Qual é o título principal? Computational complexity classes.
+8. Quais são os tipos de/problems? Vejo Cognition, Structure etc.
+9. Quem atua na área? Outro nome da lista.
+10. Qual modelo de/wiki é usado? Outro template.
+
+Preciso garantir que as perguntas abrangam diferentes aspectos e que não haja repetições. Vou evitar usar o mesmo tipo de pergunta, como só nomes ou só modelos.
+
+Vou estruturar cada entrada no JSON com "pergunta" e "resposta", mantendo o português e evitando quaisquer explicações além das respostas claras.
+
+Agora, vou listá-las uma a uma, verificando que cada resposta está correta baseada nos fatos fornecidos.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a principal concentração da teoria da complexidade computacional?",
+    "resposta": "Classificação de problemas computacionais com base em seu uso de recursos."
+  },
+  {
+    "pergunta": "Quem é um dos pesquisadores conhecidos por sua contribuição à teoria da complexidade computacional?",
+    "resposta": "Russell Impagliazzo"
+  },
+  {
+    "pergunta": "Qual modelo de página wiki é usado para a teoria da complexidade computacional?",
+    "resposta": "Template:Citation"
+  },
+  {
+    "pergunta": "Qual imagem representativa está associada à teoria da complexidade computacional?",
+    "resposta": "Sorting quicksort anim.gif"
+  },
+  {
+    "pergunta": "Quais são as categorias principais de problemas na teoria da complexidade computacional?",
+    "resposta": "Complexity classes"
+  },
+  {
+    "pergunta": "Qual é o título principal da teoria da complexidade computacional no contexto fornecido?",
+    "resposta": "Computational complexity theory"
+  },
+  {
+    "pergunta": "Quem atua na disciplina de Computational complexity theory?",
+    "resposta": "Umesh Vazirani"
+  },
+  {
+    "pergunta": "Qual tipo de recurso é explorado na teoria da complexidade computacional?",
+    "resposta": "Uso de recursos como tempo e espaço"
+  },
+  {
+    "pergunta": "Qual outro nome ou título é usado para se referir à teoria da complexidade computacional?",
+    "resposta": "Computational complexity classes"
+  },
+  {
+    "pergunta": "Quem atua na área de Computational complexity theory?",
+    "resposta": "Christos Papadimitriou"
+  }
+]
+```

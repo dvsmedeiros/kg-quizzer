@@ -1,0 +1,69 @@
+<think>
+Okay, so I need to figure out how to create 10 question-answer pairs based on the given context about the Amazon rainforest. First, I'll read through the provided text carefully to understand the main points.
+
+The context talks about the Amazon being a large tropical rainforest covering most of the Amazon Basin in South America. It spans across nine countries, with Brazil having the majority (60%), followed by Peru and smaller parts in other nations. The region is part of several biomes and was recognized as a UNESCO World Heritage site in 2000. There are mentions of deforestation issues, fires, and its biodiversity.
+
+Looking at the facts provided, there are various images, categories, and specific locations mentioned. Also, some people like Guillermo Cervantes and Maria Koepcke died in the Amazon. The context also notes that the Amazon was a candidate for one of the seven natural wonders of the world.
+
+I need to generate questions that cover different aspects: geographical coverage, countries involved, percentage in Brazil, UNESCO recognition, deforestation, biodiversity, specific people linked to it, and its status as a natural wonder. I should ensure each question is unique and clearly tied to the content.
+
+Let me start drafting some questions:
+
+1. Which countries does the Amazon rainforest span across?
+2. What percentage of the Amazon rainforest is in Brazil?
+3. When was part of the Amazon designated as a UNESCO World Heritage site?
+4. Name one issue affecting the Amazon rainforest.
+5. How much area does the Amazon occupy in Brazil?
+6. What made the Amazon a candidate for the 7 Natural Wonders of the World?
+7. Which animal is mentioned as living in the Amazon?
+8. Who are two people who died in the Amazon?
+9. Besides Brazil, which country has a significant portion of the Amazon?
+10. What type of biome does the Amazon belong to?
+
+I think these cover various aspects without repeating similar questions. Each should have a clear, correct answer based on the context.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em quais países está localizada a Floresta Amazônica?",
+    "resposta": "Brasil, Peru, Colômbia, Venezuela, Equador, Bolívia, Guiana, Suriname e França (Guiana Francesa)."
+  },
+  {
+    "pergunta": "Qual é o percentual de cobertura da Floresta Amazônica no Brasil?",
+    "resposta": "60%"
+  },
+  {
+    "pergunta": "Em que ano uma área do Amazonas foi declarada Patrimônio da Humanidade pela UNESCO?",
+    "resposta": "2000"
+  },
+  {
+    "pergunta": "Qual é um dos principais problemas ambientais enfrentados pela Floresta Amazônica?",
+    "resposta": "Desmatamento"
+  },
+  {
+    "pergunta": "Qual é a porcentagem de território brasileiro ocupada pelo bioma Amazônico?",
+    "resposta": "49,29%"
+  },
+  {
+    "pergunta": "Por que a Floresta Amazônica foi pré-selecionada como uma das Sete Maravilhas Naturais do Mundo?",
+    "resposta": "Pelo seu tamanho e biodiversidade."
+  },
+  {
+    "pergunta": "Qual animal é mencionado como habitante da Floresta Amazônica?",
+    "resposta": "Tucano"
+  },
+  {
+    "pergunta": "Quais duas pessoas são citadas como tendo morrido na Floresta Amazônica?",
+    "resposta": "Guillermo Cervantes e Maria Koepcke."
+  },
+  {
+    "pergunta": "Qual outro país, além do Brasil, possui uma grande extensão da Floresta Amazônica?",
+    "resposta": "Peru"
+  },
+  {
+    "pergunta": "A Floresta Amazônica é considerada qual tipo de biome no Brasil?",
+    "resposta": "Floresta Tropical Úmida."
+  }
+]
+```

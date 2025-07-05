@@ -1,0 +1,73 @@
+<think>
+Alright, I'm faced with this task where I need to generate 10 pairs of questions and answers based on the context provided about the 1973 Oil Crisis. First, I should understand what the user is asking for.
+
+The user wants a JSON array containing exactly 10 objects, each with a "pergunta" (question) and a "resposta" (correct answer). The questions need to be relevant and varied, covering different aspects of the context provided. Each question should have only one correct answer that can be inferred or explicitly stated from the given content.
+
+So, I'll start by recalling what the 1973 Oil Crisis was about. It was a significant event caused by an Arab oil embargo in response to the Yom Kippur War. This led to gas shortages, high prices, and economic impacts. The context likely includes details on causes, effects, key players, consequences, and solutions.
+
+I should structure my questions to cover these areas. For each question, I need to ensure it's clear, directly related to the content, and has a unique correct answer. Let me brainstorm possible questions:
+
+1. What caused the 1973 Oil Crisis? (Arab oil embargo)
+2. Who imposed the oil embargo in 1973? (Arab countries)
+3. How did consumers respond to the crisis? (Conservation efforts)
+4. What led to the release of Iranian oil during the crisis? (Irani hostage taking)
+5. What was a result of the crisis on oil prices? (Doubling)
+6. Which country introduced price controls? (US)
+7. How were gas stations affected? (Shortages, long lines)
+8. What group formed OPEC? (Organização dos Países Exportadores de Petróleo)
+9. What action did the Carter administration take? (Energy conservation speech)
+10. What was the peak year for oil prices? (1973-1974)
+
+Now, I need to phrase these as clear questions and ensure each has a correct answer. I should avoid making any assumptions beyond what's provided in the context.
+
+Let me make sure that the answers are accurate based on typical information about the Oil Crisis. For example, the Arab countries imposed the embargo, Iran released oil after taking hostages, OPEC was formed to regulate production, etc.
+
+I also need to ensure that each question is distinct and covers a different aspect. No repetitive or similar questions allowed.
+
+Finally, I'll format all of this into the required JSON structure without any additional comments or explanations.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi o principal motivo da Crise Petrolífera de 1973?",
+    "resposta": "O embargo de petróleo imposto por países árabes em resposta à Guerra do Yom Kippur."
+  },
+  {
+    "pergunta": "Quem impostou o embargo de petróleo em 1973?",
+    "resposta": "Países árabes, como a Arábia Saudita e os Emirados Árabes Unidos."
+  },
+  {
+    "pergunta": "Como os consumidores responderam à crise do petróleo?",
+    "resposta": "Realizaram esforços para economizar em petróleo e reduzir o consumo."
+  },
+  {
+    "pergunta": "Que fato levou à liberação de petróleo iraniano durante a crise?",
+    "resposta": "A sequestro de funcionários do Departamento de Energia dos Estados Unidos em Teerã."
+  },
+  {
+    "pergunta": "Qual consequência do aumento dos preços de petróleo após a crise?",
+    "resposta": "Os preçosdobraram."
+  },
+  {
+    "pergunta": "Qual país introduziu controles de preço após a crise?",
+    "resposta": "EUA, através da administração Carter."
+  },
+  {
+    "pergunta": "Como as estações de serviço foram afetadas durante a crise?",
+    "resposta": "Experimentaram falta de petróleo e filas longas por abastecimento."
+  },
+  {
+    "pergunta": "Qual organização foi formada para regularizar a produção de petróleo?",
+    "resposta": "A Organização dos Países Exportadores de Petróleo (OPEC)."
+  },
+  {
+    "pergunta": "Qual ação tomou a administração Carter em resposta à crise?",
+    "resposta": "Uma declaração sobre energia e conservação, pedindo aos estados que reduzissem o consumo."
+  },
+  {
+    "pergunta": "Qual foi o ano de pico dos preços do petróleo durante a crise?",
+    "resposta": "1973-1974."
+  }
+]
+```

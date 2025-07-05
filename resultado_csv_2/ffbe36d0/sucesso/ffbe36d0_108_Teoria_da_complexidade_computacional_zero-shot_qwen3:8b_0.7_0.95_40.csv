@@ -1,0 +1,11 @@
+pergunta;resposta
+Qual é a principal diferença entre problemas P e NP?;Problemas P são resolvidos em tempo polinomial por uma máquina determinística, enquanto problemas NP são resolvidos em tempo polinomial por uma máquina não determinística ou verificáveis em tempo polinomial por uma máquina determinística.
+O que caracteriza um problema NP-completo?;Um problema NP-completo é NP e pelo menos tão difícil quanto qualquer outro problema em NP, ou seja, qualquer problema NP pode ser reduzido a ele em tempo polinomial.
+Qual classe de complexidade inclui problemas que podem ser verificados em tempo polinomial?;A classe NP (Nondeterministic Polynomial time).
+Qual é o problema mais famoso associado à conjectura P vs NP?;A questão de saber se P é igual a NP, ou seja, se todos os problemas NP podem ser resolvidos em tempo polinomial por algoritmos determinísticos.
+O que é um problema NP-difícil?;Um problema NP-difícil é pelo menos tão difícil quanto os problemas NP-completos, mas não necessariamente pertence à classe NP.
+Qual é a definição da classe P?;A classe P (Polynomial time) é o conjunto de problemas que podem ser resolvidos por uma máquina determinística em tempo polinomial.
+Qual é a relação entre a classe NP e a classe P?;P é um subconjunto de NP, pois todos os problemas em P podem ser verificados em tempo polinomial, mas não se sabe se P é igual a NP.
+Qual é a definição de um algoritmo em tempo polinomial?;Um algoritmo em tempo polinomial é aquele cuja complexidade de tempo é limitada por um polinômio em relação ao tamanho da entrada.
+Qual é o significado da conjectura P vs NP?;A conjectura P vs NP questiona se todos os problemas cujas soluções podem ser verificadas em tempo polinomial (NP) também podem ser resolvidos em tempo polinomial (P).
+Qual é o exemplo mais conhecido de um problema NP-completo?;O problema da satisfatibilidade booleana (SAT) é o exemplo mais conhecido de problema NP-completo.

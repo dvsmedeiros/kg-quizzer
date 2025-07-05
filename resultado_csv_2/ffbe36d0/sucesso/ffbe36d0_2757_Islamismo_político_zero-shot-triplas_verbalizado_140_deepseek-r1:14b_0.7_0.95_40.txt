@@ -1,0 +1,75 @@
+<think>
+Ok, vou analisar a solicitação do usuário. Ele quer que eu gere 10 pares de perguntas e respostas baseadas no contexto fornecido sobre islamismo político. Preciso segui-las rigorosamente.
+
+Primeiro, leio o objetivo: criar exatamente 10 pares, cada um com uma pergunta relevante e uma resposta correta, em português. O formato deve ser JSON exclusivamente, sem qualquer conteúdo extra.
+
+O contexto explica que islamismo político é uma ideologia que busca impor a xaria, rejeitar influências ocidentais e criar Estados islâmicos. Os fatos listam vários movimentos e partidos associados ao islamismo.
+
+Vou identificar keypoints no contexto: definição do islamismo político, características principais (xaria, unidade pan-islâmica), exemplos de movimentos, tipos de islamismo mencionados, etc.
+
+Agora, preciso variar as perguntas cobrindo diferentes aspectos. Pode incluir definições, características, exemplos específicos e tipos do islamismo.
+
+Vou evitar repetições e garantir que cada pergunta tenha uma única resposta correta baseada nos fatos fornecidos.
+
+Começo a elaborar as perguntas:
+
+1. Definição: O que é o islamismo político?
+2. Características principais.
+3. Exemplo de movimento.
+4. Tipos de islamismo mencionados.
+5. Motivação de um grupo específico.
+6. País associado a um movimento.
+7. Organização que defende islamismo no Egito.
+8. Representação visual do islamismo.
+9. Relacionamento com outros movimentos.
+10. Característica central dos defensores.
+
+Verifico se cada pergunta tem uma resposta única e clara, baseada nos dados fornecidos. Mantenho o português correto e estruturo as respostas de forma sucinta.
+
+Finalizo os 10 pares, organizando-os em um JSON conforme especificado.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é o islamismo político?",
+    "resposta": "Uma ideologia político-religiosa que busca implementar a xaria e rejeitar influências não-muçulmanas."
+  },
+  {
+    "pergunta": "Quais são as características principais do islamismo político?",
+    "resposta": "A implementação da xaria, a unidade política pan-islâmica, a criação de Estados islâmicos e a rejeição de influências não-muçulmanas."
+  },
+  {
+    "pergunta": "Qual exemplo de movimento associado ao islamismo político?",
+    "resposta": "Al-Qaeda."
+  },
+  {
+    "pergunta": "De qual tipo é o islamismo no contexto wikidata?",
+    "resposta": "Dispute107181935, WikicatPoliticalNeologisms e Thing."
+  },
+  {
+    "pergunta": "Qual grupo tem motivação ligada ao islamismo político?",
+    "resposta": "2022 Bankass massacres."
+  },
+  {
+    "pergunta": "Qual partido no Egito defende o islamismo político?",
+    "resposta": "Islamic Party (Egypt)."
+  },
+  {
+    "pergunta": "Qual imagem representa o islamismo político?",
+    "resposta": "Reagan sitting with people from the Afghanistan-Pakistan region in February 1983.jpg."
+  },
+  {
+    "pergunta": "Qual movimento é associado ao islamismo político no Sudão?",
+    "resposta": "Hizb ut-Tahrir (Sudan)."
+  },
+  {
+    "pergunta": "Qual organização no Paquistão defende o islamismo político?",
+    "resposta": "Jamaat-e-Islami Pakistan."
+  },
+  {
+    "pergunta": "Qual é a característica central dos defensores do islamismo político?",
+    "resposta": "A busca por implementar a xaria e estabelecer Estados islâmicos."
+  }
+]
+```

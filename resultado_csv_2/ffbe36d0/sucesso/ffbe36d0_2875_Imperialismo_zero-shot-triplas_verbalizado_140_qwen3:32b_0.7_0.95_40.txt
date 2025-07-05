@@ -1,0 +1,58 @@
+<think>
+Okay, let's tackle this query. The user wants 10 question-answer pairs based on the provided context and facts. The context is about the definition of "Império" and some related facts, mostly in English. The user specified that the questions must be in Portuguese and the answers as well, with each pair in a JSON structure. 
+
+First, I need to parse the context and the facts. The main context explains what an empire is, using the example of the Roman Empire. Then there are a lot of facts about "Imperialism" with various categories like models used on Wikipedia, associated categories, historical events, and people related to it.
+
+The challenge is to create varied questions that cover different aspects. For example, the context talks about the Latin origin of "Império," so a question about the meaning of the term could be useful. Then, the facts mention various models (templates) used in Wikipedia pages for Imperialism, so questions about those models make sense. Also, there are categories and historical events linked to Imperialism that can be turned into questions.
+
+I need to make sure each question has a clear, correct answer from the given data. For instance, a question about the category of history related to Imperialism would be answered with "History of colonialism" as mentioned in the facts. Also, some facts mention specific books or people associated with Imperialism, so those can be used for other questions.
+
+I should avoid repeating similar questions. So if I ask about the hiperônimo (hypernym) of Imperialism, which is "Advocacy," I shouldn't do that again. Also, checking the facts for unique points to cover different areas like models, categories, events, people, etc.
+
+Now, I need to structure each question and answer pair, ensuring they are in Portuguese and correctly reference the provided information. Let's go step by step, making sure each pair is distinct and covers a different aspect from the context and facts.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a origem etimológica do termo 'Império'?",
+    "resposta": "Do latim 'imperium', significando poder ou autoridade."
+  },
+  {
+    "pergunta": "Qual característica define um império segundo o texto?",
+    "resposta": "Um território extenso governado por um soberano ou oligarquia, com divisão entre centro dominante e periferias subordinadas."
+  },
+  {
+    "pergunta": "Qual modelo de página wiki é utilizado pela categoria 'Imperialism'?",
+    "resposta": "Template:Cite encyclopedia."
+  },
+  {
+    "pergunta": "Qual é a motivação do 'Herero and Namaqua genocide' segundo os fatos?",
+    "resposta": "Imperialism."
+  },
+  {
+    "pergunta": "Qual é o hiperônimo de 'Imperialism' mencionado nos fatos?",
+    "resposta": "Advocacy."
+  },
+  {
+    "pergunta": "Qual imagem representativa associa o Império Romano à categoria 'Imperialism'?",
+    "resposta": "Roman Empire Map.png."
+  },
+  {
+    "pergunta": "Qual ideologia está associada ao 'Conservative Party of Canada (1867–1942)'?",
+    "resposta": "Imperialism."
+  },
+  {
+    "pergunta": "Qual livro tem como assunto não ficcional 'Imperialism' segundo os fatos?",
+    "resposta": "Culture and Imperialism."
+  },
+  {
+    "pergunta": "Qual modelo de página wiki é usado para categorizar 'Imperialism' como sistema político?",
+    "resposta": "Template:Political ideologies."
+  },
+  {
+    "pergunta": "Qual evento histórico está diretamente ligado à motivação de 'Imperialism' segundo os fatos?",
+    "resposta": "Circassian genocide."
+  }
+]
+```

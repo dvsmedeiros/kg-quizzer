@@ -1,0 +1,82 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts about Warsaw. First, I need to make sure I understand the requirements. Each pair should be in Portuguese, with a question and a correct answer, and the JSON format is specified. I need to avoid any extra explanations or formatting beyond the JSON.
+
+Looking at the context, there's a lot of information: historical facts, population, events during WWII, notable institutions, UNESCO status, economic aspects, etc. The facts list includes people born or died in Warsaw, organizations headquartered there, locations of landmarks, and more.
+
+I need to create varied questions that cover different aspects. Let me start by listing possible topics:
+
+1. Capital and population
+2. Historical events (WWII, Warsaw Uprising)
+3. Notable institutions (University of Warsaw, Frontex)
+4. Cultural landmarks (Old Town, UNESCO)
+5. Economic status (business-friendly ranking)
+6. Namesakes (Warsaw Pact)
+7. Notable people (Cymburgis of Masovia, Leopold Tyrmand)
+8. Modern achievements (livability rankings)
+9. Climate (temperature in April, May)
+10. Transportation (Warta Tower, riverside)
+
+Now, formulating questions. Each should be specific and have a clear answer from the text. For example:
+
+- What is the capital of Poland?
+- Where is the Ministry of Finance of Poland located?
+- What event in 1943 led to the destruction of the Warsaw Ghetto?
+- Which university is located in Warsaw?
+- What title was given to Warsaw after WWII due to its reconstruction?
+- What is the population of Warsaw according to the 2012 estimate?
+- What river flows through Warsaw?
+- What is the name of the largest national theater in the world located in Warsaw?
+- Which international organization has its headquarters in Warsaw?
+- What temperature record was set in April in Warsaw?
+
+Answers would be derived directly from the text. For example, the capital is Warsaw, the Ministry of Finance is in Warsaw, the 1943 event was the Warsaw Ghetto Uprising, the University of Warsaw is there, the title is "Phoenix City," the population is 1,716,855, the Vistula river, the National Theatre, Frontex, 30.4°C as the high in April.
+
+I need to ensure that each question is unique and covers different aspects. Also, check that the answers are explicitly stated or clearly inferable. Avoid repeating similar questions. Let me go through each point again to confirm.
+
+Yes, that should cover 10 distinct areas. Now, structure them into the required JSON format without any markdown. Make sure the JSON is valid, with proper commas and brackets. Each question and answer should be in quotes, and the entire array in square brackets.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a capital e maior cidade da Polônia?",
+    "resposta": "Varsóvia"
+  },
+  {
+    "pergunta": "Qual rio corta a cidade de Varsóvia?",
+    "resposta": "Vístula"
+  },
+  {
+    "pergunta": "Qual evento em 1943 levou à destruição do Gueto de Varsóvia?",
+    "resposta": "Levante do Gueto de Varsóvia"
+  },
+  {
+    "pergunta": "Qual instituição internacional tem sede em Varsóvia?",
+    "resposta": "Frontex"
+  },
+  {
+    "pergunta": "Qual título foi dado a Varsóvia após a reconstrução pós-Segunda Guerra Mundial?",
+    "resposta": "Phoenix City"
+  },
+  {
+    "pergunta": "Quantos habitantes Varsóvia tinha em 2012 segundo o texto?",
+    "resposta": "1 716 855"
+  },
+  {
+    "pergunta": "Qual é o nome da universidade mais antiga de Varsóvia?",
+    "resposta": "Universidade de Varsóvia"
+  },
+  {
+    "pergunta": "Qual é o nome do monumento localizado em Varsóvia homenageando aviadores?",
+    "resposta": "Aviator Monument"
+  },
+  {
+    "pergunta": "Qual é a temperatura mais alta registrada em abril em Varsóvia?",
+    "resposta": "30,4°C"
+  },
+  {
+    "pergunta": "Que tratado internacional é associado ao nome de Varsóvia segundo o texto?",
+    "resposta": "Pacto de Varsóvia"
+  }
+]
+```

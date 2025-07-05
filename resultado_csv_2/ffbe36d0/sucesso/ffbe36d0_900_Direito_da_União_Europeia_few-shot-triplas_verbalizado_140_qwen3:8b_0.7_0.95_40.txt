@@ -1,0 +1,69 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by understanding the content given.
+
+The context talks about the European Union's legal system, its goal of promoting peace and well-being, and mentions institutions that transcend national states. The facts list several entities related to the Law of the European Union, like Common Market Law Review, John Bell, Henry G. Schermers, and some Wikipedia templates.
+
+Looking at the examples, the questions are about definitions, sources of law, key institutions, and scholars involved. The answers are concise, often using terms like "corpo de tratados e legislação," "direito primário," etc.
+
+First, I should identify key aspects from the context and facts. The main topics are the EU's legal system, its objectives, institutions, sources of law, and related scholars. The facts mention specific individuals and organizations, so questions could be about who works in the field, what are the main sources, etc.
+
+I need to make sure the questions are varied and cover different aspects. Let me list possible questions:
+
+1. What is the main subject of the Law of the European Union?
+2. Which organization is associated with the Law of the European Union?
+3. Who is a legal scholar working in the field?
+4. What is the primary objective of the EU according to the context?
+5. What does the EU's legal system represent according to its Court of Justice?
+6. What are the main sources of EU law?
+7. Which institutions operate beyond national states in the EU?
+8. What are the three main sources of EU law?
+9. Who is a sub-discipline of the Law of the European Union?
+10. What models does the Law of the European Union use on Wikipedia?
+
+Now, checking the answers against the context and facts. For example, the first question's answer would be "Law of the European Union" as per the facts. The second question's answer is "Common Market Law Review." The third is "John Bell." The fourth is "promover a paz, seus valores e o bem-estar de seus povos." The fifth is "uma nova ordem jurídica de direito internacional." The sixth and seventh might need to be adjusted based on the context's mention of primary, secondary, and complementary sources. The eighth could be the three sources. The ninth is Henry G. Schermers. The tenth refers to the Wikipedia templates mentioned.
+
+I need to ensure each answer is directly from the content without adding extra info. Also, avoid repeating questions. Let me structure each pair in JSON format as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o tópico principal da Law of the European Union?",
+    "resposta": "Law of the European Union"
+  },
+  {
+    "pergunta": "Qual revista atua na disciplina Law of the European Union?",
+    "resposta": "Common Market Law Review"
+  },
+  {
+    "pergunta": "Quem é um legal scholar que atua na disciplina Law of the European Union?",
+    "resposta": "John Bell"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal da União Europeia segundo o contexto?",
+    "resposta": "promover a paz, seus valores e o bem-estar de seus povos"
+  },
+  {
+    "pergunta": "O que representa a União Europeia segundo seu Tribunal de Justiça?",
+    "resposta": "uma nova ordem jurídica de direito internacional"
+  },
+  {
+    "pergunta": "Quais são as principais fontes do direito da União Europeia?",
+    "resposta": "direito primário, direito secundário e direito complementar"
+  },
+  {
+    "pergunta": "Quem é subdisciplina da Law of the European Union?",
+    "resposta": "Henry G. Schermers"
+  },
+  {
+    "pergunta": "Quais modelos de página wiki são usados pela Law of the European Union?",
+    "resposta": "Template:R from word rearrangement, Template:Redirect category shell"
+  },
+  {
+    "pergunta": "Quais são as fontes do direito primário da União Europeia?",
+    "resposta": "Tratados que instituem a União Europeia"
+  },
+  {
+    "pergunta": "Quais instituições transcendem os Estados-nação na União Europeia?",
+    "resposta": "instituições políticas, políticas sociais e econômicas"
+  }
+]

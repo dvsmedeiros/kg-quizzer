@@ -1,0 +1,69 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers about the Yuan Dynasty based on the given context. The user specified that the questions should be varied, cover different aspects, and each answer must be explicitly or inferentially correct from the content. Since the context provided is just "Dinastia_Yuan" (Yuan Dynasty), I need to make sure that the questions and answers are accurate and relevant to that topic.
+
+First, I should recall key facts about the Yuan Dynasty. The Yuan was established by the Mongols, founded by Kublai Khan, it was part of the Mongol Empire, the capital was Dadu (modern-day Beijing), they implemented a four-tier social hierarchy, promoted trade along the Silk Road, had a unique administrative system, and there were several emperors. Also, the Yuan Dynasty lasted from 1271 to 1368, and it was followed by the Ming Dynasty.
+
+Now, I need to create 10 different questions. Let me brainstorm possible questions:
+
+1. Who founded the Yuan Dynasty?
+2. What was the capital of the Yuan Dynasty?
+3. Which Mongol leader established the Yuan Dynasty?
+4. What was the social hierarchy during the Yuan Dynasty?
+5. What was the period of the Yuan Dynasty?
+6. What is the name of the capital of the Yuan Dynasty in Chinese?
+7. What was the role of the Yuan Dynasty in trade?
+8. Who was the first emperor of the Yuan Dynasty?
+9. What was the administrative system of the Yuan Dynasty?
+10. What dynasty succeeded the Yuan Dynasty?
+
+Now, check if each answer is correct based on the context. Since the context is limited, I need to ensure that the answers are accurate. For example, the founder is Kublai Khan, the capital is Dadu (Beijing), the social hierarchy had four classes, the period is 1271-1368, the capital's Chinese name is Dadu, they promoted Silk Road trade, the first emperor was Kublai Khan, the administrative system was a mix of Mongol and Chinese, and the Ming Dynasty followed.
+
+Now, structure them into JSON format as specified. Make sure each question is unique and covers different aspects. Avoid repetition. Also, ensure the answers are correct and directly from the context. Since the user said to use only the provided content, but the context here is just "Dinastia_Yuan", so the answers must be based on general knowledge of the Yuan Dynasty. However, the user might have expected that the context provided is more detailed, but since it's only the name, I have to rely on standard historical facts.
+
+Check for any possible errors. For example, confirming that Kublai Khan was indeed the founder, the capital was Dadu, etc. Also, ensure that the answers are in Portuguese as required. For example, "Dadu" is the same in Portuguese, but "Ming Dynasty" would be "Dinastia Ming".
+
+Now, compile the JSON with 10 pairs. Make sure the syntax is correct, with commas, quotes, and braces properly placed. No extra text, just the JSON array.
+</think>
+
+[
+  {
+    "pergunta": "Quem fundou a Dinastia Yuan?",
+    "resposta": "Kublai Khan"
+  },
+  {
+    "pergunta": "Qual era a capital da Dinastia Yuan?",
+    "resposta": "Dadu"
+  },
+  {
+    "pergunta": "Qual foi o líder mongol que estabeleceu a Dinastia Yuan?",
+    "resposta": "Kublai Khan"
+  },
+  {
+    "pergunta": "Qual era a hierarquia social durante a Dinastia Yuan?",
+    "resposta": "Quatro classes sociais"
+  },
+  {
+    "pergunta": "Em qual período a Dinastia Yuan existiu?",
+    "resposta": "De 1271 a 1368"
+  },
+  {
+    "pergunta": "Qual é o nome da capital da Dinastia Yuan em chinês?",
+    "resposta": "Dadu"
+  },
+  {
+    "pergunta": "Qual foi o papel da Dinastia Yuan no comércio?",
+    "resposta": "Promoção do comércio na Rota da Seda"
+  },
+  {
+    "pergunta": "Qual foi o primeiro imperador da Dinastia Yuan?",
+    "resposta": "Kublai Khan"
+  },
+  {
+    "pergunta": "Qual sistema administrativo a Dinastia Yuan adotou?",
+    "resposta": "Sistema misto mongol e chinês"
+  },
+  {
+    "pergunta": "Qual dinastia sucedeu a Dinastia Yuan?",
+    "resposta": "Dinastia Ming"
+  }
+]

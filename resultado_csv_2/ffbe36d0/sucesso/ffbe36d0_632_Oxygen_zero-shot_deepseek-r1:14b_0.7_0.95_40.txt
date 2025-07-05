@@ -1,0 +1,56 @@
+<think>
+Okay, so I need to generate 10 question-answer pairs based on the context provided about Oxygen. The user gave me a specific JSON structure to follow and some clear instructions.
+
+First, I'll start by understanding what the content is about. It's talking about oxygen as a chemical element, its properties, discovery, sources, and applications. There are bullet points with details like symbol O, atomic number 8, atomic weight 16, state at room temperature (gas), uses in respiration and combustion, discovery by Joseph Priestley and Antoine Lavoisier, production through photosynthesis and industry, importance for life on Earth, presence in the air as 21%, role in supporting fire, and its colorless, odorless, tasteless nature.
+
+I need to create varied questions that cover different aspects. Let me think of possible question types: definition, history, uses, properties, sources, etc.
+
+For example, one question could ask for oxygen's symbol, another about the discoverers, another about where it's found in nature, and so on. I should ensure each question has a unique answer directly from the context.
+
+I have to make sure not to repeat similar questions and that each is clear and relevant. Also, each question must have one correct answer as per the provided info. No need for explanations or extra content—just the JSON pairs.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o símbolo químico do oxigênio?",
+    "resposta": "O"
+  },
+  {
+    "pergunta": "Quem descobriu o oxigênio?",
+    "resposta": "Joseph Priestley e Antoine Lavoisier"
+  },
+  {
+    "pergunta": "Qual é a função principal do oxigênio para os seres vivos?",
+    "resposta": "Fornecer oxigênio para a respiração"
+  },
+  {
+    "pergunta": "O que é um recurso natural de oxigênio na Terra?",
+    "resposta": "A photosynthesis das plantas"
+  },
+  {
+    "pergunta": "Qual porcentagem do ar atmosférico é composta por oxigênio?",
+    "resposta": "21%"
+  },
+  {
+    "pergunta": "O oxigênio é essencial para qual tipo de processo químico?",
+    "resposta": "Combustão"
+  },
+  {
+    "pergunta": "Qual é o número atômico do oxigênio?",
+    "resposta": "8"
+  },
+  {
+    "pergunta": "O oxigênio pode ser encontrado em estado gasoso na natureza?",
+    "resposta": "Sim, como O2 e O3 (ozone)"
+  },
+  {
+    "pergunta": "Qual propriedade química do oxigênio o faz reagir com outros elementos?",
+    "resposta": "Altura de electronegatividade"
+  },
+  {
+    "pergunta": "O oxigênio é essencial para a sobrevivência humana. Qual outro uso importante ele tem?",
+    "resposta": "Suporte à combustão"
+  }
+]
+```

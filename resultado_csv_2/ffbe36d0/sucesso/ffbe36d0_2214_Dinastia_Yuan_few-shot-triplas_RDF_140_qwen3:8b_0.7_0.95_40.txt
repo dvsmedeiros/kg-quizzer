@@ -1,0 +1,79 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context about the Yuan Dynasty. First, I need to understand the context thoroughly. The key points are that the Yuan Dynasty was founded by Kublai Khan, grandson of Genghis Khan, established in 1271, and it's a Mongol dynasty. The facts provided include various RDF triples from DBpedia, which mention battles, events, locations, and other entities related to the Yuan Dynasty.
+
+Now, the user wants 10 pairs. Each question must be varied and cover different aspects. I need to avoid repetition. Let me list possible angles: founding, key figures, events, cultural aspects, relations with other dynasties, geographical locations, administrative structure, notable battles, religious practices, and end date.
+
+Looking at the examples given, they include questions about names, founders, dates, related dynasties, and key figures. I should ensure that my questions are distinct from those examples but still relevant. For instance, the examples mention the name in Chinese, founding date, predecessors, and successors. I can cover other aspects like major battles, religious practices, administrative centers, and the end of the dynasty.
+
+I need to check the provided facts. The RDF data mentions the capital as Dadu (Beijing), the religion includes various practices, the dynasty's end in 1368, and events like the conquest of the Song Dynasty. Also, there's information about the leader Toghon Temür and the establishment of the Yuan provinces.
+
+So possible questions could be: What was the capital of the Yuan Dynasty? Which religions were practiced? When did the Yuan Dynasty end? Who was the leader during its decline? What was the name of the Mongol Empire? What was the significance of the Battle of Yamen? Which dynasty preceded the Yuan? What was the administrative structure? What were the key events during its rule? How did the Yuan interact with Tibet?
+
+I need to ensure that each answer is directly from the context. For example, the capital is Dadu, the end date is 1368, religions include Buddhism, Taoism, etc. The Battle of Yamen is mentioned as an event. The predecessor is the Song Dynasty, and the successor is the Ming. The leader Toghon Temür is noted. The administrative structure includes the provinces mentioned in the footer.
+
+I should avoid using the same phrasing as the examples. For instance, instead of asking "Who started the Yuan Dynasty?" which is covered in the examples, I could ask "Who was the founder of the Yuan Dynasty?" or "Who established the Yuan Dynasty?" to vary the question.
+
+Also, check for any other details. The dynasty's name in Chinese is "大元" (Dà Yuán), and the Mongolian name is "Great Yuan State." The leader's title is Khagan-Emperor. The dynasty's end is linked to the Ming Dynasty's rise.
+
+Now, structuring the 10 questions:
+
+1. Capital of Yuan Dynasty
+2. Religions practiced
+3. End date
+4. Leader during decline
+5. Mongol Empire name
+6. Battle of Yamen significance
+7. Predecessor dynasty
+8. Administrative structure
+9. Successor dynasty
+10. Key events during rule
+
+Each answer should be concise, using the exact terms from the context. For example, the capital is "Dadu," the end date is 1368, and the key events include the conquest of the Song and the Battle of Yamen. The religions are listed as Buddhism, Mongolian Tengrism, etc.
+
+Double-checking the facts to ensure accuracy. The footer mentions the two lakes built in Dadu, which supports the capital as Dadu. The event list includes the Battle of Yamen and the Mongol conquest of the Song. The dynasty's end is 1368, leading to the Ming. The leader Toghon Temür is noted, so the question about the leader during decline would point to him.
+
+Now, compiling the questions and answers, making sure they are distinct from the examples and cover different aspects. Avoid repeating the same information. Each answer should be a direct extract from the provided data.
+</think>
+
+[
+  {
+    "pergunta": "Qual era a capital da dinastia Yuan?",
+    "resposta": "Dadu"
+  },
+  {
+    "pergunta": "Quais religiões eram praticadas durante o reinado da dinastia Yuan?",
+    "resposta": "Budismo, Mongolismo Tengris, Culto ao Céu Chinês, Shamanismo, Taoísmo, Confucionismo, Religião Popular Chinesa, Cristianismo Nestoriano Chinês, Catolicismo Romano, Judaísmo, Maniqueísmo Chinês, Islã"
+  },
+  {
+    "pergunta": "Quando a dinastia Yuan chegou ao fim?",
+    "resposta": "1368"
+  },
+  {
+    "pergunta": "Quem foi o líder da dinastia Yuan durante seu declínio?",
+    "resposta": "Toghon Temür"
+  },
+  {
+    "pergunta": "Qual era o nome do império mongol durante o reinado da dinastia Yuan?",
+    "resposta": "Império Mongol"
+  },
+  {
+    "pergunta": "Qual foi o significado da Batalha de Yamen para a dinastia Yuan?",
+    "resposta": "Foi um evento crucial na conquista da dinastia Song."
+  },
+  {
+    "pergunta": "Qual dinastia foi precedida pela dinastia Yuan?",
+    "resposta": "Dinastia Song"
+  },
+  {
+    "pergunta": "Qual era a estrutura administrativa da dinastia Yuan?",
+    "resposta": "Provincias do Império Mongol"
+  },
+  {
+    "pergunta": "Qual dinastia sucedeu a dinastia Yuan?",
+    "resposta": "Dinastia Ming"
+  },
+  {
+    "pergunta": "Quais eventos foram marcantes durante o reinado da dinastia Yuan?",
+    "resposta": "Conquista da dinastia Song, Batalha de Yamen, Rebeliões dos Turbanes Vermelhos"
+  }
+]

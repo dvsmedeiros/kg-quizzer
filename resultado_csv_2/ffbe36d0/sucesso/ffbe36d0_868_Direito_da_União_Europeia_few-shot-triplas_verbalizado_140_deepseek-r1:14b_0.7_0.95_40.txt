@@ -1,0 +1,113 @@
+<think>
+Okay, so I'm trying to generate 10 question-answer pairs based on the provided context and facts about the Law of the European Union. The user has given a specific structure they want the output in, which is a JSON array with objects containing "pergunta" and "resposta". They also emphasized that each pair should be unique and cover different aspects of the content without adding any extra information or explanations.
+
+First, I'll look at the context provided. It explains that the EU's legal system operates across its member states and aims to promote peace, values, and well-being. The EU has political, social, and economic institutions beyond nation-states for cooperation and human development. The European Union is considered a new legal order under international law by its Court of Justice.
+
+Looking at the facts section, I see that Law of the European Union is a main topic with several sub-topics and scholars associated with it. There are mentions of Common Market Law Review, John Bell, Henry G. Schermers, and some wiki templates used for pages related to this law.
+
+The examples provided give a good idea of what kind of questions and answers are expected. They include questions about the definition of EU Law, sources of primary and secondary laws, main legislative organs, effects on member states' laws, and key scholars or authors in the field.
+
+I need to ensure that each question is unique and covers different aspects without overlapping too much with others. So I'll think about various angles: definitions, sources, institutions, effects, key figures, and maybe some specifics about legal frameworks or templates used.
+
+Let me start brainstorming possible questions:
+
+1. What is the primary goal of the EU's legal system? (From context)
+2. Which scholars are associated with the Law of the European Union? (From facts: John Bell, Henry G. Schermers)
+3. What does the Common Market Law Review focus on? (Discipline mentioned)
+4. How many main sources does EU Law have? (Three: primary, secondary, complementary)
+5. Name an example of a wiki template used for EU Law pages. (Template:R from word rearrangement, etc.)
+6. What is the effect of EU law on member states' legislation? (Direct or indirect)
+7. Which institutions are part of the EU's legislative body? (Parliament and Council)
+8. How many main topics does the Law of the European Union have? (One main topic mentioned)
+9. What areas does John Bell specialize in? (Law of the European Union)
+10. Who is a sub-discipline under EU Law? (Henry G. Schermers)
+
+Now, I'll structure these into proper Portuguese questions and make sure the answers are accurate based on the given info.
+
+I have to be careful not to repeat similar questions. For example, two of the examples asked about the definition of EU Law, so in my set, I should avoid that unless I can phrase it differently. But looking back, maybe I can find another angle related to the definition if needed.
+
+Wait, in the context, it's mentioned that the EU represents a "nova ordem jurídica de direito internacional". Maybe a question about that could be useful.
+
+Another point is the mention of wiki templates used for Law of the European Union pages. That seems specific and perhaps not covered in the examples, so including that would add variety.
+
+I also need to ensure that each answer is correct and directly tied to the provided facts or context, without inferring beyond what's given unless it's logical.
+
+Let me draft each pair:
+
+1. What is the main goal of the EU legal system? -> Promote peace, values, well-being.
+2. Who are scholars in this field? -> John Bell, Henry G. Schermers.
+3. What does Common Market Law Review focus on? -> Discipline: Law of the European Union.
+4. How many sources exist? -> Three (primary, secondary, complementary).
+5. Name a wiki template used -> Template:R from word rearrangement.
+6. Effect on member states' laws? -> Direct or indirect.
+7. Legislative institutions -> Parliament and Council.
+8. Main topic under Law of EU -> Law of the European Union itself.
+9. Areas John Bell specializes in -> Law of the European Union.
+10. Sub-discipline of EU Law -> Henry G. Schermers.
+
+Wait, for question 8, it's a bit redundant since the main topic is explicitly mentioned as "Law of the European Union". So maybe I can adjust that to ask about sub-topics or something else.
+
+Alternatively, perhaps focusing on what the EU represents legally: "O que a União Europeia representa no direito internacional?" Answer: "Uma nova ordem jurídica de direito internacional."
+
+That could be question 8 instead. That way, I'm covering another aspect without repeating.
+
+So revising:
+
+1. Qual é o objetivo principal do sistema legal da UE? -> Promoção da paz, valores e bem-estar.
+2. Quais são os principais estudiosos na área? -> John Bell e Henry G. Schermers.
+3. O que foca a Common Market Law Review? -> Disciplina de Direito da União Europeia.
+4. Quantas fontes existem no direito da UE? -> Três (primário, secundário e complementar).
+5. Qual modelo wiki é usado? -> Template:R from word rearrangement.
+6. Efeito do direito da UE nas leis dos países membros? -> Direto ou indireto.
+7. Quais órgãos legislativos principais? -> Parlamento Europeu e Conselho.
+8. O que a UE representa no direito internacional? -> Uma nova ordem jurídica.
+9. Em quais áreas John Bell atua? -> Direito da União Europeia.
+10. Quem é uma subdisciplina do direito da UE? -> Henry G. Schermers.
+
+That looks better, covering more varied aspects without repetition.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o objetivo principal do sistema legal da União Europeia?",
+    "resposta": "Promover a paz, os valores e o bem-estar dos povos."
+  },
+  {
+    "pergunta": "Quais são os principais estudiosos na área de Direito da União Europeia?",
+    "resposta": "John Bell e Henry G. Schermers."
+  },
+  {
+    "pergunta": "O que foca a Common Market Law Review?",
+    "resposta": "A disciplina de Direito da União Europeia."
+  },
+  {
+    "pergunta": "Quantas fontes existem no direito da União Europeia?",
+    "resposta": "Três: direito primário, secundário e complementar."
+  },
+  {
+    "pergunta": "Qual modelo wiki é usado nas páginas sobre Direito da União Europeia?",
+    "resposta": "Template:R from word rearrangement."
+  },
+  {
+    "pergunta": "Qual o efeito do direito da União Europeia sobre as leis dos países membros?",
+    "resposta": "Efeitos direto ou indireto."
+  },
+  {
+    "pergunta": "Quais órgãos legislativos principais da União Europeia?",
+    "resposta": "Parlamento Europeu e Conselho da União Europeia."
+  },
+  {
+    "pergunta": "O que a União Europeia representa no direito internacional?",
+    "resposta": "Uma nova ordem jurídica de direito internacional."
+  },
+  {
+    "pergunta": "Em quais áreas John Bell atua?",
+    "resposta": "Direito da União Europeia."
+  },
+  {
+    "pergunta": "Quem é uma subdisciplina do Direito da União Europeia?",
+    "resposta": "Henry G. Schermers."
+  }
+]
+```

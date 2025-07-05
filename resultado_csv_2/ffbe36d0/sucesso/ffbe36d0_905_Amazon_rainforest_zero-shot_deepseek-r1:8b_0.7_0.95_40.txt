@@ -1,0 +1,80 @@
+<think>
+Okay, the user wants me to generate 10 pairs of questions and correct answers based on a given context about the Amazon Rainforest. Let me first understand what they provided.
+
+They mentioned the context is "Amazon_rainforest," so I need to focus on relevant facts and aspects from that. The response should be in JSON format with each pair containing a question and its answer, all in Portuguese.
+
+First, I'll list out key points about the Amazon Rainforest: location, area, biodiversity, indigenous tribes, conservation issues like deforestation, unique species like the jaguar, river systems like the Amazon itself, biomes (like the Amazonian forest vs. other areas), climate factors such as rainfall and temperature, and projects like WWF's efforts.
+
+Now, I'll start brainstorming questions based on these points. Each question should be clear and directly related to the context, ensuring there's only one correct answer per pair.
+
+1. **Location**: What is the main location of the Amazon Rainforest?
+2. **Size**: What is the approximate size in square kilometers?
+3. **Biodiversity**: How many species are found there?
+4. **Indigenous Tribes**: Which major group lives there?
+5. **Deforestation Issue**: What is a significant threat to it?
+6. **Jaguar**: Is the jaguar native here?
+7. **Amazon River**: Is it part of this rainforest?
+8. **Biomes**: How does it differ from other biomes?
+9. **Rainfall**: What's the average annual rainfall?
+10. **WWF Project**: Does WWF have a project in this region?
+
+I need to ensure each question is distinct and covers different aspects. Now, I'll formulate the answers based on correct facts.
+
+1. The main location is South America.
+2. The size is roughly 5.3 million km².
+3. It's home to about 10% of the world's biodiversity.
+4. Approximately 400 indigenous tribes live there.
+5. Deforestation is a major threat due to logging and agriculture.
+6. Yes, jaguars are native to this region.
+7. The Amazon River flows through it, forming a network.
+8. It differs by being more humid and dense compared to other biomes.
+9. Annual rainfall is about 2,000 mm.
+10. WWF has the Amazon Rainforest Project for conservation.
+
+I think these cover various aspects without repetition and each answer is accurate based on the context provided. Now, I'll structure this into JSON as required.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a principal localização da Floresta Amazônica?",
+    "resposta": "A Floresta Amazônica está localizada na América do Sul."
+  },
+  {
+    "pergunta": "Qual é o tamanho aproximado da Floresta Amazônica em hectares?",
+    "resposta": "A Floresta Amazônica cobre aproximadamente 5,3 milhões de hectares."
+  },
+  {
+    "pergunta": "Quantas espécies diferentes estão presentes na Floresta Amazônica?",
+    "resposta": "A Floresta Amazônica é casa de aproximadamente 10% das espécies do mundo."
+  },
+  {
+    "pergunta": "Quais são as principais tribos indígenas que habitam a Floresta Amazônica?",
+    "resposta": "Além de outras tantas, a maior tribulação indígena é os Yanomami."
+  },
+  {
+    "pergunta": "Qual é o principal desafio para a conservação da Floresta Amazônica?",
+    "resposta": "A definição de áreas para agricultura e a talhação são os principais desafios."
+  },
+  {
+    "pergunta": "O jaguar é nativo da Floresta Amazônica?",
+    "resposta": "Sim, o jaguáro é uma espécie selvagem nativa da Floresta Amazônica."
+  },
+  {
+    "pergunta": "A Floresta Amazônica banha qual rio importante?",
+    "resposta": "O rio Amazonas corre attraversando a Floresta Amazônica e forma um complexo hidrológico."
+  },
+  {
+    "pergunta": "Como a Floresta Amazônica se diferencia das outras biomas do mundo?",
+    "resposta": "A Floresta Amazônica é conhecida por sua densidade e pela precipitação alta de chuvas."
+  },
+  {
+    "pergunta": "Qual é a precipitação anual média na Floresta Amazônica?",
+    "resposta": "A precipitação anual média na Floresta Amazônica é de aproximadamente 2.000 mm."
+  },
+  {
+    "pergunta": "Qual projeto ambiental a WWF tem na Floresta Amazônica?",
+    "resposta": "A WWF tem o Projeto Amazonas, focado na conservação e no monitoramento da floresta."
+  }
+]
+```

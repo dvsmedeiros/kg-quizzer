@@ -1,0 +1,54 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the context of "Teoria_da_complexidade_computacional". Let me start by understanding what this theory entails.
+
+First, computational complexity deals with classifying computational problems according to their inherent difficulty and relating these classes to each other. The main goal is to determine the minimum resources (like time and space) needed to solve a problem.
+
+I should come up with questions that cover various aspects of this theory. Let's think about key concepts: P vs NP, NP-hardness, polynomial time, decision problems, reductions, undecidable problems, complexity measures, hierarchy theorems, approximation algorithms, and the role of computational resources.
+
+For each concept, I'll frame a question and provide a concise answer directly from the context. I need to ensure that each question is unique and covers different areas without overlap. Let me structure them step by step.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o objetivo principal da Teoria da Complexidade Computacional?",
+    "resposta": "Classificar problemas computacionais de acordo com sua dificuldade intrínseca e relacionar essas classes."
+  },
+  {
+    "pergunta": "O que define a classe P em teoria da complexidade?",
+    "resposta": "Problemas que podem ser resolvidos em tempo polinomial."
+  },
+  {
+    "pergunta": "Qual é o significado de NP na Teoria da Complexidade Computacional?",
+    "resposta": "Classe de problemas cujas soluções podem ser verificadas em tempo polinomial."
+  },
+  {
+    "pergunta": "O que caracteriza um problema NP-difícil?",
+    "resposta": "Um problema que é ao menos tão difícil quanto os mais difíceis do conjunto NP."
+  },
+  {
+    "pergunta": "Qual é a diferença entre tempo e espaço em termos de complexidade computacional?",
+    "resposta": "Tempo refere-se ao número de operações necessárias para resolver um problema, enquanto espaço refere-se à quantidade de memória usada."
+  },
+  {
+    "pergunta": "O que são problemas de decisão?",
+    "resposta": "Problemas cuja resposta é simplesmente 'sim' ou 'não'."
+  },
+  {
+    "pergunta": "Como se prova que um problema pertence à classe NP-difícil?",
+    "resposta": "Demonstrando que outro problema NP-difícil pode ser reduzido para ele em tempo polinomial."
+  },
+  {
+    "pergunta": "O que são problemas indécidiveis?",
+    "resposta": "Problemas para os quais não existe um algoritmo capaz de fornecer uma resposta correta para todas as entradas."
+  },
+  {
+    "pergunta": "Qual é a relação entre P e NP?",
+    "resposta": "P está contido em NP, mas ainda não se sabe se P = NP."
+  },
+  {
+    "pergunta": "O que são problemas aproximáveis?",
+    "resposta": "Problemas para os quais podemos encontrar soluções próximas a ótimas em tempo polinomial."
+  }
+]
+```

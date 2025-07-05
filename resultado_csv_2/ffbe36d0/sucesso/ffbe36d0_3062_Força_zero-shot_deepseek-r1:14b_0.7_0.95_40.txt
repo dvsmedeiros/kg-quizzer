@@ -1,0 +1,60 @@
+<think>
+Okay, so I'm trying to help the user by generating 10 question-answer pairs based on the given context about "Força." The user provided specific instructions, so I need to make sure I follow them carefully.
+
+First, I notice that the context is quite broad—just one word, "Força." In Portuguese, this can mean both "force" in physics and "strength" in a more general sense. So, I should consider both interpretations to create varied questions.
+
+I'll start by brainstorming different aspects of "força." There's the scientific definition, units of measurement like Newtons, types of forces such as gravitational and frictional, applications in daily life, historical context from physicists, and the difference between force and energy.
+
+I need to make sure each question is unique and covers a different angle. For example, one question could be about what "força" means, another about its units, then maybe types of forces, famous scientists related to it, examples in nature, comparison with other terms like "energia," etc.
+
+I should avoid repeating similar questions. So, I'll list out potential topics: definition, units, types (gravitational, normal, frictional), applications, physicists, relation to motion, examples in nature, difference from energy, importance in physics, and necessity for movement.
+
+Now, translating these into Portuguese, making sure the language is clear and the questions are relevant. Each question should have a single correct answer that's directly supported by the context or can be inferred from it.
+
+I also need to ensure that the JSON structure is correctly formatted without any extra content—just the array of objects with "pergunta" and "resposta." I'll double-check for typos and grammatical errors in Portuguese to maintain clarity.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é a força?",
+    "resposta": "A força é uma quantidade física que pode alterar o estado de movimento ou deformar um corpo."
+  },
+  {
+    "pergunta": "Qual é a unidade básica de medida da força no Sistema Internacional?",
+    "resposta": "Newton (N)"
+  },
+  {
+    "pergunta": "Quais são os principais tipos de força?",
+    "resposta": "Força gravítica, normal, fricção, tensão e magnetismo."
+  },
+  {
+    "pergunta": "Qual físico descreveu a lei da gravitação universal?",
+    "resposta": "Isaac Newton"
+  },
+  {
+    "pergunta": "Como a força está relacionada ao movimento?",
+    "resposta": "A força é necessária para iniciar, parar ou alterar o estado de movimento de um objeto."
+  },
+  {
+    "pergunta": "Qual exemplo ilustra a aplicação da força na vida cotidiana?",
+    "resposta": "Puxar uma porta ou empurrar um carrinho"
+  },
+  {
+    "pergunta": "O que diferencia a força da energia?",
+    "resposta": "A força é relacionada à ação de pôr em movimento, enquanto a energia é relacionada à capacidade de trabalho."
+  },
+  {
+    "pergunta": "Qual tipo de força atua entre o chão e um livro em repouso?",
+    "resposta": "Força normal"
+  },
+  {
+    "pergunta": "Como a força está ligada ao conceito de aceleração?",
+    "resposta": "Aceleração = Força / Massa (F = ma)"
+  },
+  {
+    "pergunta": "Por que é necessária a aplicação de força para mover um objeto?",
+    "resposta": "Para alterar o estado de movimento do objeto, seja de repouso para movimento ou vice-versa."
+  }
+]
+```

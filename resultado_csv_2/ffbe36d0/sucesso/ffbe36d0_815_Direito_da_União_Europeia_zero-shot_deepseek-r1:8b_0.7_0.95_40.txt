@@ -1,0 +1,60 @@
+<think>
+Okay, I need to help the user generate 10 objective question pairs based on the provided EU rights context. First, I'll review the content they've given.
+
+The context mentions several aspects of EU law: fundamental rights, non-discrimination, free movement, citizens' rights, environmental protection, data privacy, consumer rights, rule of law, equality between genders, and freedom of expression. 
+
+I should create questions that touch on each of these areas without repetition. Each question must be clear and directly related to the context, with one correct answer.
+
+Starting with fundamental rights, I can ask about their legal basis. Next, non-discrimination laws are important, so a question about Article 19 would fit. Then, freedom of movement is covered by Article 21, which I can include.
+
+Citizens' rights are broader, so asking what they encompass makes sense. Environmental protection is under Article 191, and data privacy under 8. For consumer rights, Article 11(3) is relevant.
+
+Rule of law is tied to Article 49, gender equality to Article 25, and freedom of expression to Article 52. I should ensure each question is distinct and covers different aspects.
+
+Now, I'll structure these thoughts into the required JSON format with 10 pairs.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a base legal dos direitos fundamentais na União Europeia?",
+    "resposta": "Os direitos fundamentais na UE são garantidos pelo Artigo 6 da Tratativa de Roma, que incorpora os direitos fundamentais na Carta dos Direitos Fundamentais da UE."
+  },
+  {
+    "pergunta": "Qual é a finalidade do Artigo 19 da Convenção Europeia dos Direitos do Homem?",
+    "resposta": "O Artigo 19 estabelece o princípio da não discriminação, garantindo que ninguém seja tratado de forma desiguál ou privado de seus direitos por motivo de origem racial ou étnica, religião, sexo, idade ou estado civil."
+  },
+  {
+    "pergunta": "Qual é a norma legal que garante o direito à livre circulação das pessoas na UE?",
+    "resposta": "O direito à livre circulação é garantido pelo Artigo 21 da Convenção Europeia dos Direitos do Homem."
+  },
+  {
+    "pergunta": "Qual é um exemplo de direito fundamental protegido pela Carta dos Direitos Fundamentais?",
+    "resposta": "A liberdade de expressão é um exemplo de direito fundamental protegido pela Carta dos Direitos Fundamentais da UE."
+  },
+  {
+    "pergunta": "Qual é o objetivo do Artigo 191 da Convenção Europeia dos Direitos do Homem?",
+    "resposta": "O Artigo 191 estabelece a obrigação de proteger e melhorar o meio ambiente, assegurando que as gerações atuais e futuras possam viver em um ambiente saudável."
+  },
+  {
+    "pergunta": "Qual é a referência legal para o direito à privacidade na UE?",
+    "resposta": "O direito à privacidade é protegido pelo Artigo 8 da Carta dos Direitos Fundamentais da UE."
+  },
+  {
+    "pergunta": "Qual é a norma que garante os direitos dos consumidores na UE?",
+    "resposta": "Os direitos dos consumidores são garantidos pelo Artigo 11(3) do Regulamento (CE) 178/2002, que estabelece as disposições gerais sobre os direitos dos consumidores."
+  },
+  {
+    "pergunta": "Qual é a base legal da regra da lei na União Europeia?",
+    "resposta": "A regra da lei na UE está prevista pelo Artigo 49 da Convenção Europeia dos Direitos do Homem, que afirma que toda pessoa tem dever de obedecer às leis."
+  },
+  {
+    "pergunta": "Qual é a referência legal para a igualdade entre homos e heteros na UE?",
+    "resposta": "A igualdade entre homos e heteros está garantida pelo Artigo 25 da Convenção Europeia dos Direitos do Homem."
+  },
+  {
+    "pergunta": "Qual é o direito fundamental que inclui a liberdade de pensamento, consciência e religião?",
+    "resposta": "A liberdade de pensamento, consciência e religião é um dos direitos fundamentais protegidos pela Carta dos Direitos Fundamentais da UE."
+  }
+]
+```

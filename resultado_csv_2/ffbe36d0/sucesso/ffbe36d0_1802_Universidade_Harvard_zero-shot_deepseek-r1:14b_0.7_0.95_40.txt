@@ -1,0 +1,67 @@
+<think>
+Okay, I need to create a set of 10 multiple-choice questions based on the context provided about Harvard University. The user has given me specific instructions, so I should carefully follow them.
+
+First, I'll read through the context information to understand what key points are mentioned. It includes when Harvard was founded, its location, notable alumni, famous research, sports teams, student population, and rankings. That's a good variety of topics to cover in the questions.
+
+I need to make sure each question is unique and covers different aspects. Let me list out possible questions:
+
+1. Year of founding: 1636.
+2. Location: Massachusetts.
+3. Nickname: The Ivy League.
+4. Known for: Medical research (Harvard Medical School).
+5. Sports teams nickname: Crimson.
+6. Student body size: Around 30,000.
+7. Alma mater includes famous people like JFK and MLK.
+8. Founding of the first hospital: Massachusetts General Hospital in 1811.
+9. Ranking: Consistently top-ranked university.
+10. Notable alumni in technology: Bill Gates.
+
+I'll structure each as a question with four options, ensuring only one correct answer. I must avoid repeating similar questions and ensure each is clear and directly related to the content.
+
+Now, I'll format each into JSON objects, making sure the keys are "pergunta" and "resposta", and the language is Portuguese.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em que ano foi fundada a Universidade de Harvard?",
+    "resposta": "1636"
+  },
+  {
+    "pergunta": "Qual é o estado onde se localiza a Universidade de Harvard?",
+    "resposta": "Massachusetts"
+  },
+  {
+    "pergunta": "Qual é o apelido da Universidade de Harvard?",
+    "resposta": "The Ivy League"
+  },
+  {
+    "pergunta": "O que a Universidade de Harvard é mundialmente conhecida por ser?",
+    "resposta": "Sua pesquisa médica pioneira"
+  },
+  {
+    "pergunta": "Qual é o apelido dos times esportivos da Universidade de Harvard?",
+    "resposta": "Crimson"
+  },
+  {
+    "pergunta": "Quão grande é a população estudantil da Universidade de Harvard?",
+    "resposta": " Cerca de 30.000 alunos"
+  },
+  {
+    "pergunta": "Qual personalidade famosa foi aluna da Universidade de Harvard?",
+    "resposta": "Martin Luther King Jr."
+  },
+  {
+    "pergunta": "Quando foi fundado o primeiro hospital associado à Universidade de Harvard?",
+    "resposta": "1811"
+  },
+  {
+    "pergunta": "Qual posição a Universidade de Harvard mantém em rankings internacionais?",
+    "resposta": " Entre as melhores do mundo"
+  },
+  {
+    "pergunta": " Qual é um exemplo de aluno ilustre da Universidade de Harvard na área tecnológica?",
+    "resposta": "Bill Gates"
+  }
+]
+```

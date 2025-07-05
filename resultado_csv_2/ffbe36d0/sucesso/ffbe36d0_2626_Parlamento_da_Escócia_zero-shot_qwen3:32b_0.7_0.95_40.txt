@@ -1,0 +1,83 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the context "Parlamento da Escócia". Let me start by recalling what I know about the Scottish Parliament. 
+
+First, the Scottish Parliament is the legislative body for Scotland. I should check if it's a devolved parliament, which it is, as the UK is a union of nations with devolved powers. So, a question could be about the type of government Scotland has.
+
+Next, when was the current parliament established? I think it was in 1999 after the devolution. So a question could be the year of its establishment.
+
+How many members are there? The answer is 129. That's a specific number, so a question asking the number of members would work.
+
+What are the main powers of the parliament? They handle areas like education, health, and local government, but not foreign policy or defense. So a question could ask about the powers they have.
+
+The electoral system used is the Additional Member System, which combines first-past-the-post with regional lists. That's a good fact for a question.
+
+What is the official name in Gaelic? It's Pàrlamaid na h-Alba. Including the Gaelic name might be a good question.
+
+What building houses the parliament? The Scottish Parliament Building in Edinburgh. That's a specific answer.
+
+What is the function of the parliament? To pass laws, scrutinize the government, and represent the people. So a question about their primary role.
+
+What is the head of government called? The First Minister of Scotland. That's a key title.
+
+What is the role of the Queen (or King) in the parliament? They have a ceremonial role, with the monarch appointing the First Minister. So a question on the monarch's role.
+
+I need to make sure all questions are varied and not repeating. Let me check each point:
+
+1. Type of government (devolved).
+2. Year established (1999).
+3. Number of members (129).
+4. Powers (education, health, local gov).
+5. Electoral system (AMS).
+6. Gaelic name (Pàrlamaid na h-Alba).
+7. Location (Edinburgh building).
+8. Functions (pass laws, scrutinize).
+9. Head of government (First Minister).
+10. Monarch's role (ceremonial, appoint FM).
+
+That's 10 varied questions covering different aspects. Each answer is fact-based from the context. I'll structure them into JSON as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o tipo de governança do Parlamento da Escócia?",
+    "resposta": "Governo devolvido (devolution)"
+  },
+  {
+    "pergunta": "Em que ano foi estabelecido o atual Parlamento da Escócia?",
+    "resposta": "1999"
+  },
+  {
+    "pergunta": "Quantos membros compõem o Parlamento da Escócia?",
+    "resposta": "129"
+  },
+  {
+    "pergunta": "Quais são as principais áreas de jurisdição do Parlamento da Escócia?",
+    "resposta": "Educação, saúde, governo local e transporte"
+  },
+  {
+    "pergunta": "Qual é o sistema eleitoral utilizado para eleger os membros do Parlamento da Escócia?",
+    "resposta": "Sistema de Membro Adicional (Additional Member System)"
+  },
+  {
+    "pergunta": "Como se chama o Parlamento da Escócia em gaelês escocês?",
+    "resposta": "Pàrlamaid na h-Alba"
+  },
+  {
+    "pergunta": "Qual é a sede física do Parlamento da Escócia?",
+    "resposta": "Edifício do Parlamento da Escócia em Edimburgo"
+  },
+  {
+    "pergunta": "Quais são as principais funções do Parlamento da Escócia?",
+    "resposta": "Legislar, supervisionar o governo e representar os cidadãos escoceses"
+  },
+  {
+    "pergunta": "Qual é o título do chefe de governo no Parlamento da Escócia?",
+    "resposta": "Primeiro-Ministro da Escócia"
+  },
+  {
+    "pergunta": "Qual é o papel da rainha (ou rei) no Parlamento da Escócia?",
+    "resposta": "Papel cerimonial, com o monarca nomeando o Primeiro-Ministro"
+  }
+]
+```

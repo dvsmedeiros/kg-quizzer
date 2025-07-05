@@ -1,0 +1,69 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by reading through the given information carefully.
+
+First, the context mentions that British Satellite Broadcasting (BSB) was a TV company based in London, providing satellite TV services to the UK. It was incorporated in November 1990 to form BSkyB and started transmitting on March 25, 1990. 
+
+Looking at the facts, there's a lot of RDF data. The key points here are about BSB's ownership, mergers, founding dates, locations, and associated channels. For example, BSB merged with Sky Television to form BSkyB, was founded in 1986, and had several TV channels like Galaxy, Now, The Computer Channel, etc. 
+
+I need to make sure each question is unique and covers different aspects. Let me list possible questions:
+
+1. What was the original name of BSkyB before the merger?
+2. When was BSB founded?
+3. Which TV channel was owned by BSB?
+4. What was the merger result of BSB and Sky Television?
+5. Where was BSB based?
+6. What was the founding year of BSB?
+7. Which company was formed after the merger?
+8. When did BSB start transmitting?
+9. What is the successor of BSB?
+10. What was the name of the company that merged with BSB?
+
+Now, I need to check if these questions are all distinct and based on the facts. For example, the answer to question 1 is British Satellite Broadcasting, but the context says it was incorporated in 1990 to form BSkyB, so maybe the original name is BSB. Wait, the context says BSB was incorporated in 1990 to form BSkyB, so the original name might be BSB. But the facts mention that BSB merged with Sky Television to form BSkyB. So the original name before the merger was BSB, and the merged company is BSkyB. 
+
+Also, the founding date is 1986-12-11, so the founding year is 1986. The location includes London and England. The successor is Sky UK. 
+
+I need to ensure that each answer is directly from the facts. Let me structure each question and answer accordingly, making sure they are correct and not repeated.
+</think>
+
+[
+  {
+    "pergunta": "Qual era o nome original da empresa que posteriormente se tornou BSkyB?",
+    "resposta": "British Satellite Broadcasting"
+  },
+  {
+    "pergunta": "Em que ano BSB foi fundada?",
+    "resposta": "1986"
+  },
+  {
+    "pergunta": "Quais canais de televisão eram associados a BSB?",
+    "resposta": "Galaxy, Now, The Computer Channel, The Movie Channel, The Power Station"
+  },
+  {
+    "pergunta": "Com qual empresa BSB se fundiu para formar BSkyB?",
+    "resposta": "Sky Television"
+  },
+  {
+    "pergunta": "Qual foi a data de início das transmissões de BSB?",
+    "resposta": "25 de março de 1990"
+  },
+  {
+    "pergunta": "Qual é o sucessor de BSB após a fusão?",
+    "resposta": "Sky UK"
+  },
+  {
+    "pergunta": "Qual é o nome da empresa que foi incorporada em novembro de 1990?",
+    "resposta": "British Sky Broadcasting (BSkyB)"
+  },
+  {
+    "pergunta": "Quais são as localizações associadas a BSB?",
+    "resposta": "Londres, Inglaterra, Reino Unido"
+  },
+  {
+    "pergunta": "Qual é o nome completo da empresa cujo acrônimo é BSB?",
+    "resposta": "British Satellite Broadcasting plc"
+  },
+  {
+    "pergunta": "Qual foi a data de fusão entre BSB e Sky Television?",
+    "resposta": "1990"
+  }
+]

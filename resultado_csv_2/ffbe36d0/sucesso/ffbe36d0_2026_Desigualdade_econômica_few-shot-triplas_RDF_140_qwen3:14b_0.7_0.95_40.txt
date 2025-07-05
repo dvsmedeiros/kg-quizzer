@@ -1,0 +1,86 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts. First, I need to make sure I understand the context thoroughly. The main topic is economic inequality, covering aspects like income distribution, wealth distribution, measures such as the Gini coefficient, and the impact of globalization.
+
+Looking at the facts, there are a lot of DBpedia entries linking various movements, books, and scholars to economic inequality. However, the user emphasized that the questions should be based on the context provided, not the facts. The examples they gave were about statistics from Oxfam and Credit Suisse, which aren't in the current context. So I need to avoid using that data.
+
+The context mentions the Gini coefficient as the most used measure, the Inequality-Adjusted Human Development Index, and the effect of globalization on inequality. It also talks about different types of inequality (between countries vs. within countries) and concepts like equity, equality of outcomes, and opportunities.
+
+I should create varied questions that cover these points. Let's brainstorm:
+
+1. What is the primary measure used to assess economic inequality?
+   - Answer: Coeficiente de Gini
+
+2. Which index considers both development and inequality?
+   - Answer: Índice de Desenvolvimento Humano Ajustado pela Desigualdade
+
+3. How does globalization affect inequality between and within countries?
+   - Answer: Reduz a desigualdade global, mas aumenta a dentro dos países
+
+4. What are the two main aspects of economic inequality discussed?
+   - Answer: Distribuição de renda e riqueza
+
+5. What concepts are important in discussions about equality?
+   - Answer: Equidade, igualdade de resultados e oportunidades
+
+6. What does the Gini coefficient measure?
+   - Answer: Nível de desigualdade em uma população
+
+7. How does higher inequality affect economic growth duration?
+   - Answer: Dificulta a duração do crescimento, mas não a taxa
+
+8. What is a key difference between income and wealth distribution?
+   - Answer: Renda é dinheiro recebido, riqueza é bens possuídos
+
+9. What are the two main types of economic inequality mentioned?
+   - Answer: Entre países e entre grupos dentro do mesmo país
+
+10. What impact does globalization have on inequality within countries?
+    - Answer: Aumenta a desigualdade dentro dos países
+
+Now I need to check if these are accurate based on the context. The Gini coefficient is indeed mentioned as the primary measure. The Inequality-Adjusted Human Development Index is also noted. Globalization's effect is correctly stated. Concepts like equity and equality are covered. The distinction between income and wealth is there. 
+
+I should make sure each question is distinct and covers different parts of the context. Also, avoid repeating the same answer. The examples given by the user had specific statistics, but since those aren't in the current context, I can't use them. Instead, focus on the key points from the context provided. Alright, this should cover the requirements.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a principal medida usada para avaliar a desigualdade econômica?",
+    "resposta": "Coeficiente de Gini"
+  },
+  {
+    "pergunta": "Qual índice considera tanto o desenvolvimento humano quanto a desigualdade?",
+    "resposta": "Índice de Desenvolvimento Humano Ajustado pela Desigualdade"
+  },
+  {
+    "pergunta": "Como a globalização afeta a desigualdade entre países e dentro deles?",
+    "resposta": "Reduz a desigualdade global, mas aumenta a desigualdade dentro dos países"
+  },
+  {
+    "pergunta": "Quais são os dois principais aspectos da desigualdade econômica discutidos no contexto?",
+    "resposta": "Distribuição de renda e distribuição de riqueza"
+  },
+  {
+    "pergunta": "Quais conceitos são importantes em discussões sobre igualdade?",
+    "resposta": "Equidade, igualdade de resultados e igualdade de oportunidades"
+  },
+  {
+    "pergunta": "O que o coeficiente de Gini mede?",
+    "resposta": "O nível de desigualdade em uma população"
+  },
+  {
+    "pergunta": "Como a maior desigualdade afeta a duração do crescimento econômico?",
+    "resposta": "Dificulta a duração do crescimento, mas não afeta a taxa de crescimento"
+  },
+  {
+    "pergunta": "Qual é uma diferença-chave entre a distribuição de renda e a de riqueza?",
+    "resposta": "Renda refere-se ao dinheiro recebido, enquanto riqueza refere-se aos bens possuídos"
+  },
+  {
+    "pergunta": "Quais são os dois principais tipos de desigualdade econômica mencionados no contexto?",
+    "resposta": "Desigualdade entre países e desigualdade dentro de grupos dentro do mesmo país"
+  },
+  {
+    "pergunta": "Qual é o impacto da globalização na desigualdade dentro dos países?",
+    "resposta": "Aumenta a desigualdade dentro dos países"
+  }
+]

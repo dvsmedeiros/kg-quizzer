@@ -1,0 +1,82 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the context of "Farmácia" (Pharmacy). Let me start by recalling the user's instructions. The questions must be varied, cover different aspects, and each answer must be directly from the content or inferable. No repetition of similar questions.
+
+First, I should brainstorm different aspects of a pharmacy. Think about roles, regulations, medications, safety, services, etc. Let me list possible topics:
+
+1. Roles of a pharmacist
+2. Legal requirements for pharmacies
+3. Common medications
+4. Prescription requirements
+5. Pharmacy services
+6. Medication storage
+7. Over-the-counter drugs
+8. Patient counseling
+9. Inventory management
+10. Health regulations
+
+Now, for each topic, create a question and answer. Ensure answers are based on the context. Since the context is just "Farmácia", I need to make sure the answers are general but accurate. For example:
+
+- What is the primary role of a pharmacist? Answer: To dispense medications and provide advice.
+- What is required to purchase controlled substances? Answer: A valid prescription.
+- What are OTC medications? Answer: Those that can be bought without a prescription.
+
+Wait, but the user said to generate from the provided context. However, the context here is just the word "Farmácia". So maybe the context is the general topic of pharmacies. So I need to make sure the answers are standard knowledge about pharmacies. But the user might have intended that the context is more specific, but since only "Farmácia" is given, I have to go with that.
+
+I need to ensure each question is unique and covers different aspects. Let me check for repetition. For example, not having multiple questions about prescriptions. Let me list 10:
+
+1. What is the main responsibility of a pharmacist?
+2. What is required to obtain a controlled medication?
+3. What are medications available without a prescription called?
+4. What is the role of a pharmacy in public health?
+5. How should medications be stored?
+6. What is the purpose of patient counseling in a pharmacy?
+7. What legal documents are necessary for a pharmacy to operate?
+8. What services do pharmacies typically offer besides selling drugs?
+9. What is the importance of checking medication expiration dates?
+10. How do pharmacies ensure the safety of the medications they distribute?
+
+Now, write the answers based on general knowledge about pharmacies. Make sure each answer is correct and directly related. Avoid any markdown, just the JSON structure. Check for 10 pairs, no duplicates. That should meet the requirements.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a principal responsabilidade de um farmacêutico?",
+    "resposta": "Disponibilizar medicamentos e orientar o uso correto dos mesmos."
+  },
+  {
+    "pergunta": "O que é necessário para adquirir medicamentos controlados?",
+    "resposta": "Receita médica emitida por um profissional de saúde."
+  },
+  {
+    "pergunta": "Quais são os medicamentos que podem ser comprados sem receita?",
+    "resposta": "Medicamentos de venda livre (OTC)."
+  },
+  {
+    "pergunta": "Qual é o papel das farmácias na saúde pública?",
+    "resposta": "Promover a prevenção, o tratamento e a educação em saúde."
+  },
+  {
+    "pergunta": "Como os medicamentos devem ser armazenados?",
+    "resposta": "Em locais adequados, seguindo as condições de temperatura e proteção da luz."
+  },
+  {
+    "pergunta": "Qual é o objetivo da orientação ao paciente em uma farmácia?",
+    "resposta": "Garantir o uso seguro e eficaz dos medicamentos."
+  },
+  {
+    "pergunta": "Quais documentos são essenciais para a operação de uma farmácia?",
+    "resposta": "Registro no Conselho Regional de Farmácia e licenças sanitárias."
+  },
+  {
+    "pergunta": "Quais serviços as farmácias oferecem além da venda de medicamentos?",
+    "resposta": "Apoio em monitoramento de saúde, vacinação e orientação terapêutica."
+  },
+  {
+    "pergunta": "Por que é importante verificar a data de validade dos medicamentos?",
+    "resposta": "Para assegurar a eficácia e a segurança do produto."
+  },
+  {
+    "pergunta": "Como as farmácias garantem a qualidade dos medicamentos?",
+    "resposta": "Por meio de controle de armazenamento, rotulagem e fornecedores qualificados."
+  }
+]

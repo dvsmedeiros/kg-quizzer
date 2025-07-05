@@ -1,0 +1,92 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts about Victoria, Australia. Let me start by understanding the requirements. The user wants exactly 10 pairs, each with a question and a correct answer in Portuguese. The questions must be varied, covering different aspects of the content, and the answers must be explicitly or inferably from the provided data. No repetition of similar questions.
+
+First, I'll go through the context to identify key points. Victoria is an Australian state, the second most populous, with Melbourne as its capital. It has a history starting from 1803, the Gold Rush, political structure, economy, cultural aspects like museums and sports venues, and some geographical features. The facts list includes various locations, people, institutions, and other data points.
+
+I need to make sure each question is unique and covers different areas. Let's brainstorm possible questions:
+
+1. **Capital of Victoria**: The context mentions Melbourne as the capital and largest city. So a question about the capital would be straightforward.
+
+2. **Population ranking**: The context states it's the second most populous state. So a question about its population ranking.
+
+3. **Historical event**: The Gold Rush in the 1850s and 1860s increased population. A question about that event.
+
+4. **Political structure**: The context mentions the Parliament of Victoria with two houses. A question about the legislative bodies.
+
+5. **Economic aspect**: The GDP per capita is mentioned. A question about its GDP ranking.
+
+6. **Cultural landmark**: The Melbourne Cricket Ground is a significant venue. A question about the largest stadium.
+
+7. **Historical establishment**: The colony was established in 1851. A question about when it became a colony.
+
+8. **Geographical feature**: The state's area is 227,444 km². A question about the land area.
+
+9. **Notable person**: Daniel Andrews is the Premier. A question about the current leader.
+
+10. **Cultural recognition**: Melbourne is called the sports capital. A question about that title.
+
+Now, I need to check the facts provided to ensure answers are accurate. For example, the context says Victoria's GDP per capita is AU$68,996. The facts mention "Victoria (Australia) http://dbpedia.org/property/gdpNominalPerCapita AU$68,996", so that's correct.
+
+Another example: The Melbourne Cricket Ground is mentioned in the context as the largest stadium in Australia and the Southern Hemisphere. The facts also mention it hosting the 1956 Olympics and 2006 Commonwealth Games.
+
+For the capital, the context clearly states Melbourne. The facts include "Melbourne" as the capital.
+
+The political structure: The context mentions the Parliament of Victoria has the Legislative Assembly and Legislative Council. So the answer would be those two bodies.
+
+The area is given as 227,444 km² in the facts. The question about land area would use that.
+
+The Premier is Daniel Andrews, as per the context. The facts mention "the Labor Party, led by Daniel Andrews as premier."
+
+The Gold Rush in the 1850s and 1860s is in the context. So that's the answer for the historical event.
+
+For the sports capital, the context says Melbourne is described as the "capital esportiva do mundo."
+
+I need to ensure that each answer is directly from the context or facts. For example, the question about the largest stadium in Australia and the Southern Hemisphere is answered by the Melbourne Cricket Ground.
+
+I should avoid questions that are too similar. For instance, not asking about both the capital and the largest city, but since Melbourne is both, it's acceptable as one question.
+
+Now, compiling the 10 pairs. Let me check each one for uniqueness and correctness.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a capital e maior cidade do estado de Vitória?",
+    "resposta": "Melbourne"
+  },
+  {
+    "pergunta": "Em que ano o estado de Vitória foi estabelecido como colônia?",
+    "resposta": "1851"
+  },
+  {
+    "pergunta": "Qual foi o evento histórico que aumentou significativamente a população de Vitória no século XIX?",
+    "resposta": "A Corrida do Ouro (Gold Rush)"
+  },
+  {
+    "pergunta": "Quais são os dois ramos do Parlamento do estado de Vitória?",
+    "resposta": "Assembleia Legislativa e Conselho Legislativo"
+  },
+  {
+    "pergunta": "Qual é a área terrestre do estado de Vitória em km²?",
+    "resposta": "227444"
+  },
+  {
+    "pergunta": "Qual é o título dado a Melbourne em relação ao esporte?",
+    "resposta": "Capital esportiva do mundo"
+  },
+  {
+    "pergunta": "Quem é o líder do partido trabalhista no estado de Vitória?",
+    "resposta": "Daniel Andrews"
+  },
+  {
+    "pergunta": "Qual é o estádio mais grande de Vitória e do Hemisfério Sul?",
+    "resposta": "Melbourne Cricket Ground"
+  },
+  {
+    "pergunta": "Qual é o segundo estado mais populoso da Austrália?",
+    "resposta": "Vitória"
+  },
+  {
+    "pergunta": "Qual é o valor do PIB nominal per capita do estado de Vitória?",
+    "resposta": "AU$68,996"
+  }
+]

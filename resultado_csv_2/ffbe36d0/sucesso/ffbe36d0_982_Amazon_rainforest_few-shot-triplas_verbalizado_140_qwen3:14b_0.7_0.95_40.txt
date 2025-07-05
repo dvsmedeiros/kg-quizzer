@@ -1,0 +1,98 @@
+<think>
+Okay, let's start by reading through the user's query carefully. They want me to generate 10 question-answer pairs based on the provided context and facts. The output needs to be in JSON format with specific structure, and the questions must be varied and cover different aspects of the content.
+
+First, I need to parse the context and the facts provided. The context talks about the Amazon rainforest, its geographical coverage, the countries involved, the biodiversity, and some historical and administrative details like the "Amazônia Legal" and UNESCO recognition. The facts list various images, models, people associated with the Amazon, and other metadata.
+
+Now, I need to create questions that are relevant to both the context and the facts. Let me start by identifying key points from the context. For example, the Amazon covers 7 million km², 5.5 million km² are forested, it's in nine countries, Brazil has 60%, Peru 13%, etc. Also, the Amazônia Legal, UNESCO recognition, and the percentage of Brazil's territory it covers (49.29%).
+
+From the facts, there are mentions of specific images, people who died in the Amazon (Guillermo Cervantes, Maria Koepcke), models used in Wikipedia pages, and categories like "WikicatForestsOfBrazil". Also, the Amazon is part of the Amazon basin, has certain languages, and is mentioned in various other contexts like "New7Wonders of Nature" and deforestation images.
+
+I need to ensure that each question is unique and covers different aspects. Let's brainstorm possible questions:
+
+1. Countries involved: Which countries include parts of the Amazon?
+2. Area covered: What is the total area of the Amazon basin?
+3. Percentage in Brazil: What percentage of Brazil's territory is covered by the Amazon?
+4. UNESCO recognition: What year was the Amazon recognized by UNESCO?
+5. People associated: Who are some notable people who died in the Amazon?
+6. Administrative region: What is the term used for the Amazon's administrative region in Brazil?
+7. Biodiversity: How many species of trees are in the Amazon?
+8. Images: What is the name of an image depicting deforestation in the Amazon?
+9. Categories: Which Wikipedia category does the Amazon belong to?
+10. Languages: What languages are spoken in the Amazon region?
+
+Wait, but the context doesn't mention UNESCO recognition year, so that's not in the context. Maybe the UNESCO recognition is a fact, but the context mentions "UNESCO recognition" but not the year. The user's example includes a question about the percentage of tropical forests, so similar approach.
+
+Looking back, the context says "A Amazônia representa mais da metade das florestas tropicais remanescentes do planeta." So a question about that. Also, the Amazônia Legal is mentioned as an administrative division.
+
+I need to check the facts again. The facts mention "New7Wonders of Nature" template, which might relate to the example's question about the Amazon being considered for the New7Wonders. Also, the facts list "20220910 Amazon deforestation and degradation, by country - Amazon Watch.svg" as an image, so a question about that image.
+
+But the user's example questions are all based on the context, not the facts. However, the user's instructions say to use both the context and the facts. So I need to include questions that can be answered from both.
+
+Wait, the user's instructions say: "based on the provided context and facts". So both are sources. The example questions are based on the context, but the facts might have more information.
+
+For instance, the fact that Guillermo Cervantes and Maria Koepcke died in the Amazon can be a question. Also, the mention of "Habanero" originating from the Amazon.
+
+So possible questions:
+
+- Which two people are known to have died in the Amazon rainforest?
+- What is the origin of the Habanero chili pepper?
+- What is the name of the administrative region in Brazil related to the Amazon?
+- What is the total area of the Amazon basin in square kilometers?
+- How many countries have territories within the Amazon basin?
+- What percentage of Brazil's territory is covered by the Amazon rainforest?
+- What is the name of a specific image that shows deforestation in the Amazon?
+- Which Wikipedia category does the Amazon rainforest belong to?
+- What is the native name of the Amazon rainforest in Portuguese?
+- What is the name of the UNESCO-recognized site in the Amazon?
+
+Wait, the context says "A Amazônia representa mais da metade das florestas tropicais remanescentes do planeta." So a question on that.
+
+Also, the context mentions "A Amazônia compõe a quantidade de florestas tropicais da Terra? mais da metade" which is similar to the example's question.
+
+But I need to avoid repeating the example's questions. The user provided an example with 10 questions, but the actual task is to generate new ones based on the context and facts given.
+
+So, considering all that, I'll proceed to create 10 unique questions, ensuring they cover different aspects from both the context and the facts.
+</think>
+
+[
+  {
+    "pergunta": "Quantas pessoas são conhecidas por terem falecido na Floresta Amazônica, segundo as informações fornecidas?",
+    "resposta": "Duas pessoas: Guillermo Cervantes e Maria Koepcke."
+  },
+  {
+    "pergunta": "Qual é a origem do pimenta Habanero, conforme mencionado nos fatos?",
+    "resposta": "A origem do Habanero está na Floresta Amazônica."
+  },
+  {
+    "pergunta": "Qual é o nome da região administrativa criada no Brasil para gerenciar a Floresta Amazônica?",
+    "resposta": "A região administrativa é chamada de \"Amazônia Legal\"."
+  },
+  {
+    "pergunta": "Qual é a área total da bacia amazônica em quilômetros quadrados?",
+    "resposta": "A bacia amazônica abrange 7 milhões de quilômetros quadrados."
+  },
+  {
+    "pergunta": "Quantos países possuem territórios dentro da bacia amazônica?",
+    "resposta": "Nove países possuem territórios dentro da bacia amazônica."
+  },
+  {
+    "pergunta": "Qual a porcentagem da área do Brasil que é coberta pela Floresta Amazônica?",
+    "resposta": "A Floresta Amazônica cobre 49,29% do território brasileiro."
+  },
+  {
+    "pergunta": "Qual é o nome de uma imagem que ilustra a degradação florestal na Amazônia, segundo os fatos?",
+    "resposta": "A imagem \"20220910 Amazon deforestation and degradation, by country - Amazon Watch.svg\"."
+  },
+  {
+    "pergunta": "Qual é a categoria da Wikipedia que classifica a Floresta Amazônica?",
+    "resposta": "A Floresta Amazônica pertence à categoria \"WikicatForestsOfBrazil\"."
+  },
+  {
+    "pergunta": "Qual é o nome nativo da Floresta Amazônica em português?",
+    "resposta": "O nome nativo é \"Floresta amazônica\"."
+  },
+  {
+    "pergunta": "Qual é a porcentagem da Floresta Amazônica em relação às florestas tropicais remanescentes do planeta?",
+    "resposta": "A Floresta Amazônica representa mais da metade das florestas tropicais remanescentes do planeta."
+  }
+]

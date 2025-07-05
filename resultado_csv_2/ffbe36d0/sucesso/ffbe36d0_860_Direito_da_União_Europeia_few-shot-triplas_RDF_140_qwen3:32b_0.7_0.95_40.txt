@@ -1,0 +1,72 @@
+<think>
+Okay, let's see. The user wants me to generate 10 question-answer pairs based on the provided context and facts about the European Union law. The output must be in JSON format, each with a unique question and correct answer. I need to make sure the questions are varied and cover different aspects of the content. Also, no repetition and answers must be directly from the context or inferable.
+
+First, I'll read through the context again. It mentions the EU laws operating in member states, established after WWII with the European Coal and Steel Community, goals of promoting peace, values, and well-being. The EU has political, social, and economic institutions that transcend nation-states for cooperation and human development. The Court of Justice considers the EU a new legal order of international law.
+
+Looking at the facts provided, there's some RDF data linking resources like Common Market Law Review, Henry G. Schermers, John Bell, and references to Wikipedia and DBpedia. These might be sources or scholars related to EU law, but the user didn't mention these in the context. Since the instructions say to use the context and facts provided, maybe I can include some of these names as part of the answers if relevant. However, the context doesn't elaborate on these individuals, so I need to be cautious. The examples given in the user's prompt include mentioning the academic discipline and fields, so maybe those are valid points.
+
+Now, the examples provided by the user are about the nature of EU law, primary and secondary sources, institutions like the European Parliament and Council, effects on member states' laws, and sources of law. I need to avoid repeating these exact questions but can ask similar but distinct ones.
+
+Possible angles for questions:
+1. What is the main objective of the European Union as stated in the context?
+2. What legal status does the European Union have according to its Court of Justice?
+3. What institutions does the European Union have beyond the nation-state level?
+4. What is the historical origin of the European Union laws?
+5. What are the three sources of EU law mentioned in the context?
+6. What are the primary legislative bodies of the EU?
+7. What effect do EU laws have on member states' laws?
+8. Who are some scholars associated with EU law, based on the facts?
+9. What academic discipline is associated with EU law according to the facts?
+10. What is the role of the European Union's institutions as mentioned?
+
+I need to ensure answers are taken from the given context or facts. For example, the main objective is promoting peace, values, and well-being. The Court of Justice defines EU as a new legal order. Institutions include political, social, economic. Historical origin is post-WWII Coal and Steel Community. Three sources are primary, secondary, and complementary laws. Legislative bodies are Parliament and Council. Effects are direct or indirect. Scholars like Henry G. Schermers and John Bell are mentioned in the facts. Academic discipline is Law of the European Union.
+
+Now, structuring each question and answer accordingly. Let me check for repetition and ensure each is unique. Also, the answer should be concise and correct. For example, the first question could be about the main objective, the answer would be "promover a paz, seus valores e o bem-estar de seus povos." For the scholars, the answer would list Henry G. Schermers and John Bell. The academic discipline is Law of the European Union. The Court of Justice describes it as a new legal order. The institutions are political, social, and economic. The three sources are primary, secondary, and complementary. Legislative bodies are Parliament and Council. Effect on laws is direct or indirect. Historical origin is the European Coal and Steel Community post-WWII. The role of institutions is for cooperation and human development.
+
+I need to make sure each question is phrased correctly in Portuguese, and the answers are directly from the context. Let me compile these into the JSON structure as required.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o objetivo principal da União Europeia conforme mencionado no contexto?",
+    "resposta": "promover a paz, seus valores e o bem-estar de seus povos"
+  },
+  {
+    "pergunta": "Como o Tribunal de Justiça da União Europeia define a ordem jurídica da UE?",
+    "resposta": "como uma nova ordem jurídica de direito internacional"
+  },
+  {
+    "pergunta": "Quais são as três categorias de instituições políticas da União Europeia mencionadas no texto?",
+    "resposta": "políticas, sociais e econômicas"
+  },
+  {
+    "pergunta": "Qual evento histórico marcou o início das leis da União Europeia?",
+    "resposta": "a fundação da Comunidade Europeia do Carvão e do Aço após a Segunda Guerra Mundial"
+  },
+  {
+    "pergunta": "Quais são as três fontes do direito da União Europeia mencionadas no contexto?",
+    "resposta": "direito primário, direito secundário e direito complementar"
+  },
+  {
+    "pergunta": "Quais órgãos compõem o legislador da União Europeia, segundo o texto?",
+    "resposta": "Parlamento Europeu e Conselho da União Europeia"
+  },
+  {
+    "pergunta": "Como as leis da União Europeia afetam as leis dos estados membros?",
+    "resposta": "com efeito direto ou indireto"
+  },
+  {
+    "pergunta": "Quais são os dois estudiosos associados ao direito da União Europeia mencionados nos fatos?",
+    "resposta": "Henry G. Schermers e John Bell"
+  },
+  {
+    "pergunta": "Qual é a disciplina acadêmica associada ao direito da União Europeia, conforme os fatos?",
+    "resposta": "Direito da União Europeia"
+  },
+  {
+    "pergunta": "Qual é o papel das instituições da União Europeia, segundo o texto?",
+    "resposta": "transcender os Estados-nação para fins de cooperação e desenvolvimento humano"
+  }
+]
+```

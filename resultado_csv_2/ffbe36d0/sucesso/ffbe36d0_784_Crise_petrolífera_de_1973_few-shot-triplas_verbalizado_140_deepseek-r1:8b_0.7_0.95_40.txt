@@ -1,0 +1,70 @@
+<think>
+Ok, vou começar entendendo o que precisar fazer aqui. O usuário quer que eu gere 10 pares de perguntas e respostas baseadas no contexto fornecido sobre a crise petrolífera de 1973. Primeiro, preciso analisar o conteúdo para identificar os fatos-chave e os temas abordados.
+
+O contexto principal é a crise do petróleo de 1973, que começou com um embargo proclamado pela OPAEP em outubro de 1973. Isso afetou várias nações, incluindo Estados Unidos, Canadá, Japão, Holanda, Reino Unido e posteriormente outros países. O preço do petróleo subiu drasticamente, causando uma crise econômica global.
+
+Agora, preciso identificar vários aspectos que possam virar perguntas. Coisas como a data de início da crise, o país que proclamou o embargo, os efeitos econômicos, as consequências políticas, etc.
+
+Vou listar potenciais perguntas:
+1. Quando começou a crise?
+2. Qual foi o principal causador do embargo?
+3. Quais países foram afetados inicialmente?
+4. Como o preço do petróleo mudou?
+5. Qual termo descreveu a situação econômica?
+6. Qual negociação política ocorreu durante a crise?
+7. Quem negociou a retirada de tropas israelenses?
+8. Qual consequência econômica se seguiu?
+9. Quando o embargo foi levantado?
+10. Qual evento financeiro afetou o sistema monetário?
+
+Preciso assegurar que cada pergunta esteja claramente relacionada e tenha uma resposta única e correta extraída do contexto. Vou verificar se todas as perguntas são variadas e abordam diferentes aspectos da crise.
+
+Também devo garantir que as respostas sejam precisas, sem adicionar observações ou justificativas adicionais. Cada resposta deve estar presentemente disponível no conteúdo fornecido.
+
+Finalmente, vou estruturar tudo em um JSON com 10 pares, cada com uma pergunta e sua respectiva resposta.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando começou a crise petrolífera de 1973?",
+    "resposta": "outubro de 1973"
+  },
+  {
+    "pergunta": "Qual foi o principal país que proclamou o embargo petrolífero?",
+    "resposta": "Organização dos Países Árabes Exportadores de Petróleo (OPAEP)"
+  },
+  {
+    "pergunta": "Quais nações foram inicialmente alvo do embargo?",
+    "resposta": "Canadá, Japão, Holanda, Reino Unido e Estados Unidos"
+  },
+  {
+    "pergunta": "Qual foi o principal impacto econômico da crise?",
+    "resposta": "O preço do petróleo aumentou de US$ 3 para aproximadamente US$ 12 por barril entre outubro de 1973 e março de 1974"
+  },
+  {
+    "pergunta": "Qual termo foi usado para descrever a situação econômica após o embargo?",
+    "resposta": "Choque do petróleo"
+  },
+  {
+    "pergunta": "Qual consequência política resultou da crise?",
+    "resposta": "Negociações para que Israel se afastasse de tropas e territórios em troca de suprimentos de petróleo"
+  },
+  {
+    "pergunta": "Quem negociou a retirada de tropas israelenses do Sinai?",
+    "resposta": "Henry Kissinger, em 18 de janeiro de 1974"
+  },
+  {
+    "pergunta": "Qual data marcou o fim do embargo?",
+    "resposta": "março de 1974"
+  },
+  {
+    "pergunta": "Quando os Estados Unidos abandonaram o Acordo de Bretton Woods?",
+    "resposta": "15 de agosto de 1971"
+  },
+  {
+    "pergunta": "Qual consequência econômica afetou a inflação e a escassez?",
+    "resposta": "A crise resultou em uma nova era de inflationária e escassez de petróleo"
+  }
+]
+```

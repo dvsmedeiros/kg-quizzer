@@ -1,0 +1,78 @@
+<think>
+Ok, eu preciso ajudar o usuário a gerar 10 pares de perguntas e respostas baseadas no contexto fornecido sobre os ctenóforos. Primeiro, vou ler o conteúdo para entender o que está disponível.
+
+O contexto é um texto em português que fala sobre os ctenóforos, também conhecidos como carambolas-do-mar ou águas-vivas-de-pente. Ele menciona que esses animais são marinhos, cosmopolitas, planctónicos ou bentónicos, e que possuem cílios para nadar. Além disso, há mencionadas suas semelhanças com as medusas, embora isso seja uma convergência evolutiva, não um parentesco filogenético próximo.
+
+Agora, olhando para os fatos fornecidos, vejo que há links para vários recursos externos, como a DBpedia e Commons. Esses fatos incluem informações sobre a autoridade de eschscholtz, 1829; a divisão em classes como Tentaculata, Nuda e Scleroctenophora; e uma imagem de Haeckel.
+
+Meu objetivo é criar perguntas variadas que abarçam diferentes aspectos do conteúdo. Cada pergunta deve ter uma única resposta correta, que possa ser extraída ou inferida do material fornecido.
+
+Primeiro, penso em perguntas sobre a origem científica dos ctenóforos. A autoridade de Eschscholtz é mencionada, então posso fazer algo como "Quem descreveu os ctenóforos?".
+
+Em seguida, pode-se questionar sobre as características principais, como sua localização na água ou a presença de cílios para nadar. Uma perguntaobre isso seria "Os ctenóforos são encontrados em quais tipos de ambientes?"
+
+Também noto que o contexto menciona a distribuição cosmopolita dos ctenóforos, então uma pergunta sobre suas distribuições geográficas pode funcionar bem, como "Em que partes do mundo os ctenóforos podem ser encontrados?"
+
+A semelhança com as medusas é outro ponto interessante. Posso criar uma pergunta sobre isso, como "Por que os ctenóforos são semelhantes às medusas?"
+
+Os estados de vida dos ctenóforos são mencionados: planctónicos ou bentónicos. Portanto, uma pergunta sobre isso seria útil: "Quais são os tipos principais de habitat dos ctenóforos?"
+
+A presença de bioluminescência é outro aspecto que pode ser explorado, com uma pergunta como: "Os ctenóforos conseguem emitir luz própria?"
+
+O registro fóssil desde o Cambriano também é mencionado, então uma pergunta sobre a antiguidade dos ctenóforos faria sentido: "Quando surgiram os ctenóforos na terra?"
+
+As imagens em Commons são outra fonte de perguntas. Posso fazer algo como: "Qual imagem retrata um ctenófono adulto?"
+
+Os nomes comuns, como carambola-do-mar ou água-viva-de-pente, podem ser usados para uma pergunta sobre os nomes populares: "O que é outro nome para os ctenóforos?"
+
+Finalmente, a divisão em classes pode permitir uma pergunta sobre as classes principais dos ctenóforos, como "Em que classes são divididos os ctenóforos?"
+
+Vou listar essas ideias e ver se todas estão cobertas sem repetição. Asseguro-me de que cada pergunta esteja diretamente relacionada ao conteúdo e tenha uma resposta única correta baseada nele.
+
+Verifico também se as perguntas são variadas, abrangendo diferentes aspectos como biologia, taxonomia, distribuição geográfica, histórico evolutivo e características físicas. Isso deve fornecer um amplo conjunto de informações relevantes para o usuário.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem descreveu os ctenóforos?",
+    "resposta": "Os ctenóforos foram descritos cientificamente pelo biologista alemão Eschscholtz em 1829."
+  },
+  {
+    "pergunta": "Os ctenóforos são encontrados em quais tipos de ambientes?",
+    "resposta": "Os ctenóforos podem ser encontrados tanto em águas oceânicas como em estuárias e mares costeiros."
+  },
+  {
+    "pergunta": "Em que partes do mundo os ctenóforos podem ser encontrados?",
+    "resposta": "Os ctenóforos são distribuídos cosmopolitamente, sendo encontrados em todos os oceanos do mundo."
+  },
+  {
+    "pergunta": "Por que os ctenóforos são semelhantes às medusas?",
+    "resposta": "Devido a uma convergência evolutiva, os ctenóforos e as medusas possuem características morfológicas semelhantes, como forma globosa e transparência."
+  },
+  {
+    "pergunta": "Quais são os tipos principais de habitat dos ctenóforos?",
+    "resposta": "Os ctenóforos podem ser planctónicos ou bentónicos, vivendo em águas costeiras ou oceanicas respectivamente."
+  },
+  {
+    "pergunta": "Os ctenóforos conseguem emitir luz própria?",
+    "resposta": "Sim, os ctenóforos são bioluminescentes, podendo emitir luz azulada para se defender ou caçar presas."
+  },
+  {
+    "pergunta": "Quando surgiram os ctenóforos na terra?",
+    "resposta": "Os ctenóforos surgiram no Cambriano, entre 505 a 500 milhões de anos atrás."
+  },
+  {
+    "pergunta": "Qual imagem retrata um ctenófono adulto?",
+    "resposta": "A imagem \"Ctenophorae\" de Ernst Haeckel retrata um ctenófono adulto."
+  },
+  {
+    "pergunta": "O que é outro nome para os ctenóforos?",
+    "resposta": "Os ctenóforos são também conhecidos como carambolas-do-mar ou águas-vivas-de-pente."
+  },
+  {
+    "pergunta": "Em que classes são divididos os ctenóforos?",
+    "resposta": "Os ctenóforos são divididos nas classes Tentaculata, Nuda e Scleroctenophora."
+  }
+]
+```

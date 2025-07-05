@@ -1,0 +1,62 @@
+<think>
+Ok, vou começar analisando o que o usuário está pedindo. Ele forneceu um contexto sobre a "civil disobedience", definição de forma desobediente civil e mencionou exemplos como Gandhi e Thoreau. Além disso, incluiu um fato que mostra a aplicação da "civil disobedience" em diferentes situações históricas e atualas.
+
+O objetivo é geração de 10 perguntas e respostas relacionadas ao contexto fornecido. As perguntas devem ser variadas e claramente relacionadas ao conteúdo. Cada pergunta deve ter uma única resposta correta, que seja explícita ou inferível a partir do conteúdo.
+
+Vou verificar os fatos fornecidos para extrair informações relevantes. Vejo que vários eventos históricos e situações políticas são mencionados onde a "civil disobedience" foi aplicada com sucesso, além de links a DBpedia que contêm mais detalhes sobre os métodos e os relevantes eventos.
+
+Preciso garantir que as perguntas cobram diverse aspectos como definição, histórico, Aplicação em diferentes situações, efeito da "civil disobedience" etc. Além disso, as respostas devem ser claras e concisas, extraídas diretamente dos fatos ou deduzidas logicamente a partir deles.
+
+Vou evitar repasar perguntas semelhantes e garantir que cada uma tenha uma resposta única e relevante. Também vou manter o formato exatamente como indicado, com um JSON contendo 10 pares de "pergunta" e "resposta".
+
+Agora, para cada uma das 10 perguntas, vou pensar em como extrair a informações necessárias das fontes fornecidas. Por exemplo, para a definição formal, posso referringir para Henry David Thoreau ou Gandhi's método. Em seguida, para aplicações históricas e atualas, usarei os fatores que mencionam eventos específicos onde a "civil disobedience" foi utilizada.
+
+Também vou garantir que as respostas sejam Dirigidas e que contenham palavras-chave relevantes das definições ou eventos, para facilitar a compreensão.
+
+Finalmente, verificarei que todas as respostas estejam presentes nas fontes fornecidas e não tenho que inventar contos novos. Isso ajuda a manter o conteúdo confiante e verificado.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quais são os objetivos da metodologia da 'civil disobedience'?",
+    "resposta": "A 'civil disobedience' é uma forma de protesto político que visa desobedecer a ordem que se considera injusta ou contrária ao governo. Ela é baseada na filosofia de Henry David Thoreau, que afirma que a resistência não deve ser necessariamente violenta e pode ser ativa ou passiva."
+  },
+  {
+    "pergunta": "De acordo com os fatos fornecidos, qual foi um dos primeiros usos da 'civil disobedience'?",
+    "resposta": "Uma das primeiras aplicações da 'civil disobedience' foi por Mahatma Gandhi na resistência à independência indiana."
+  },
+  {
+    "pergunta": "Qual é um exemplo de uma ordem que foi desobedida usando a 'civil disobedience'?",
+    "resposta": "A Brazilian government during the 2015-2016 protests was one of the examples where civil disobedience was used."
+  },
+  {
+    "pergunta": "Qual é um dos objetivos da 'civil disobedience'?" ,
+    "resposta": "Um dos objetivos é desencorajar os governmentos de atender às demandas de sua populações."
+  },
+  {
+    "pergunta": "De acordo com os fatos, qual foi um dos eventos mais recentes onde a 'civil disobedience' foi aplicada?" ,
+    "resposta": "O movement led by George Floyd in Chicago during the Black Lives Matter protests was an example of civil disobedience."
+  },
+  {
+    "pergunta": "Qual é uma definição da 'civil disobedience'?",
+    "resposta": "A 'civil disobedience' é uma forma de protesto político feito pacificamente que se opõe a alguma ordem que possui um comportamento de injustiça ou contra um governo vistos como opressor."
+  },
+  {
+    "pergunta": "Em qual lugar foi usada a 'civil disobedience' recentemente?" ,
+    "resposta": "O Kneeshake protest in Minneapolis during the Black Lives Matter protests was an example of civil disobedience."
+  },
+  {
+    "pergunta": "Qual é um dos eventos historicamente mais relevantes da 'civil disobedience'?",
+    "resposta": "The Indian independence movement, led by Gandhi and supported by Henry David Thoreau's ideas, was a significant historical event using civil disobedience."
+  },
+  {
+    "pergunta": "Quais são os elementos básicos da 'civil disobedience'?" ,
+    "resposta": "Os elementos básicos incluem desobedência civil pacífica, organização, resistência não necessariamente violenta e pressão social."
+  },
+  {
+    "pergunta": "Qual é um dos objetivos da 'civil disobedience'?",
+    "resposta": "Um dos objetivos é exijir ação à autoridade por desconsiderar suas ordens ou requireiementos."
+  }
+]
+```

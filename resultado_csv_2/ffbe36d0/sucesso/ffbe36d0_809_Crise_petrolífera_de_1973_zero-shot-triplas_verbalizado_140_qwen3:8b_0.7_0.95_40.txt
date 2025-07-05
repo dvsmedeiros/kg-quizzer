@@ -1,0 +1,56 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context about the 1973 oil crisis. The key points are to make sure the questions are varied, cover different aspects, and each has a unique correct answer.
+
+First, I need to parse the context. The main facts are the embargo by OPAEP in October 1973, targeting nations supporting Israel during the Yom Kippur War. The embargo expanded to other countries, leading to a significant price increase from $3 to $12 per barrel. The crisis is known as the first oil shock, affecting global politics and economy.
+
+Looking at the facts provided, there are a lot of technical terms and categories, but the user wants questions based on the context, not the metadata. So I should focus on the main events and their impacts.
+
+Let me brainstorm possible questions. The first could be about the cause of the embargo. Then, the countries targeted initially. Next, the price increase. The term used for the crisis. The expansion of the embargo. The duration of the embargo. The impact on the US economy. The term "first oil shock." The effect on global politics. And the result of the embargo.
+
+Wait, that's 10. Let me check if each question is distinct and covers different aspects. The first question is about the cause, the second about initial targets, third price change, fourth the term used, fifth expansion, sixth duration, seventh impact on US, eighth the nickname, ninth political effects, and tenth the outcome. That should cover various angles without repetition.
+
+Now, I need to ensure each answer is directly from the context. For example, the embargo was due to the Yom Kippur War, the initial countries listed, the price increase, etc. Also, check for any possible overlaps or similar questions. Make sure the answers are explicit or can be inferred from the text. Avoid any technical terms from the metadata unless they're part of the context. Since the user provided a lot of metadata, but the main context is the embargo and its effects, focus on that. Alright, I think that's covered. Now structure them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Quando começou a crise petrolífera de 1973?",
+    "resposta": "Em outubro de 1973."
+  },
+  {
+    "pergunta": "Quais países foram inicialmente alvos do embargo petrolífero da OPAEP?",
+    "resposta": "O Canadá, o Japão, a Holanda, o Reino Unido e os Estados Unidos."
+  },
+  {
+    "pergunta": "Qual foi o aumento do preço do petróleo durante a crise de 1973?",
+    "resposta": "Subiu de US$ 3 por barril para cerca de US$ 12 no mundo inteiro."
+  },
+  {
+    "pergunta": "Qual foi o nome dado ao embargo petrolífero de 1973?",
+    "resposta": "Embargo petrolífero da OPAEP."
+  },
+  {
+    "pergunta": "A crise petrolífera de 1973 foi também chamada de quê?",
+    "resposta": "Primeiro choque do petróleo."
+  },
+  {
+    "pergunta": "Quando terminou o embargo petrolífero da OPAEP?",
+    "resposta": "Em março de 1974."
+  },
+  {
+    "pergunta": "Qual foi o impacto da crise no setor econômico dos Estados Unidos?",
+    "resposta": "Os preços do petróleo nos EUA foram ainda mais altos que no mundo inteiro."
+  },
+  {
+    "pergunta": "Qual foi o efeito da crise no âmbito político global?",
+    "resposta": "Causou uma crise, ou 'choque', de petróleo com efeitos de curto ou longo prazo na política e economia global."
+  },
+  {
+    "pergunta": "Quais foram as consequências da crise do petróleo de 1973?",
+    "resposta": "A crise afetou a política e economia global, tornando-se conhecida como 'primeiro choque do petróleo'."
+  },
+  {
+    "pergunta": "Qual foi o resultado final do embargo petrolífero da OPAEP?",
+    "resposta": "O embargo foi temporariamente suspensão, mas os preços do petróleo permaneceram elevados."
+  }
+]

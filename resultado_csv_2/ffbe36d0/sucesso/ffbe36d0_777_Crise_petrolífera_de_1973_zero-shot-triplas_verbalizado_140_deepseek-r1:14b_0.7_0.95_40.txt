@@ -1,0 +1,75 @@
+<think>
+Ok, vou tentar entender o que está sendo pedido aqui. Primeiro, vejo que o usuário quer que eu gere 10 pares de perguntas e respostas baseadas em um contexto fornecido sobre a crise petrolífera de 1973. As instruções são claras: cada pergunta deve ter uma única resposta correta, e tudo deve ser em português.
+
+Vou começar analisando o conteúdo fornecido. O contexto explica que a crise começou em outubro de 1973 com um embargo petrolífero imposto pelos países árabes contra nações que apoiavam Israel durante a Guerra do Yom Kippur. As consequências incluíram um aumento nos preços do petróleo, impactos econômicos globais e o início de uma série de crises denominadas "choques do petróleo".
+
+Agora, vejo os fatos listados, que incluem desde classificações até imagens representativas. Mesmo que muitos desses fatos sejam técnicos ou relacionados a estruturas wiki, parece que a maior parte é relevante para gerar perguntas sobre datas, países envolvidos, consequências e contexto histórico.
+
+Preciso me certificar de que as perguntas abrangem diferentes aspectos:datas, causas, consequências, países envolvidos, impacto econômico etc. Além disso, devo evitar repetições ou semelhanças entre as perguntas.
+
+Vou estruturar minhas perguntas para cobrir:
+
+1. Data do início e fim do embargo.
+2. Países que impuseram o embargo.
+3. Quem foi alvo do embargo.
+4. Preço do petróleo antes e durante a crise.
+5. Impacto no preço nos EUA.
+6. Consequências econômicas globais.
+7. Nome da crise e sua posição na história (primeiro choque).
+8. Ano em que ocorreu a crise.
+9. Atuação de um país específico, como o Canadá.
+10. Principais consequências ou impactos.
+
+Para cada uma dessas áreas, vou formular uma pergunta específica e identificar a resposta correta baseada no contexto fornecido. Vou evitar usar termos complicados demais e garantir que as respostas estejam claras e sejam única e exclusivamente derivadas do conteúdo fornecido.
+
+Vou começar formulando a primeira pergunta: "Quando começou a crise petrolífera de 1973?" A resposta é fácil, está no contexto: outubro de 1973. Em seguida, pergunto quais países impuseram o embargo, e a resposta são os membros da OPAEP.
+
+Continuo assim, abordando cada aspecto mencionado acima, garantindo que cada pergunta seja única e cubra um tópico diferente. Verifico se as respostas estão corretas e se estou seguindo as regras de não adicionar informações extras ou justificativas.
+
+Depois de estruturar todas as perguntas e respostas, vou formatá-las em JSON conforme solicitado, sem usar nenhuma outra formatação ou texto adicional.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando começou a crise petrolífera de 1973?",
+    "resposta": "Outubro de 1973"
+  },
+  {
+    "pergunta": "Qual foi a organização que proclamou o embargo petrolífero?",
+    "resposta": "Organização dos Países Árabes Exportadores de Petróleo (OPAEP)"
+  },
+  {
+    "pergunta": "Quais países foram alvo do embargo inicialmente?",
+    "resposta": "Canadá, Japão, Holanda, Reino Unido e Estados Unidos"
+  },
+  {
+    "pergunta": "Qual foi o preço do petróleo antes da crise?",
+    "resposta": "US$ 3 por barril"
+  },
+  {
+    "pergunta": "Quanto subiu o preço do petróleo no mundo inteiro até março de 1974?",
+    "resposta": "Para US$ 12 por barril"
+  },
+  {
+    "pergunta": "Qual foi um dos efeitos da crise petrolífera?",
+    "resposta": "Crisis ou 'choque' de petróleo global"
+  },
+  {
+    "pergunta": "Como é conhecida a crise petrolífera de 1973 na história?",
+    "resposta": "Primeiro choque do petróleo"
+  },
+  {
+    "pergunta": "Qual foi o ano da crise petrolífera que teve início em outubro de 1973?",
+    "resposta": "1973"
+  },
+  {
+    "pergunta": "Quais foram os países além dos Estados Unidos que receberam o embargo além do Canadá, Japão, Holanda e Reino Unido?",
+    "resposta": "Portugal, Rodésia e África do Sul"
+  },
+  {
+    "pergunta": "Qual foi a consequência direta no preço do petróleo para os Estados Unidos?",
+    "resposta": "Os preços foram ainda mais altos que o mundo inteiro"
+  }
+]
+```

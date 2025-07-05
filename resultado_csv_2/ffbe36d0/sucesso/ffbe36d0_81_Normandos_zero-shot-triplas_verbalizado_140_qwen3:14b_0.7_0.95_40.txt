@@ -1,0 +1,77 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by carefully reading through the user's instructions and the given content.
+
+First, the user wants exactly 10 pairs, each with a question and a correct answer in Portuguese. The questions must be varied and cover different aspects of the content. They must be clearly related to the provided context and facts, and each answer must be explicitly or inferably present in the content. Also, no similar questions should be repeated.
+
+Looking at the context, it talks about the Normans being a Germanic people in northern France, their Viking origins, and their historical roles in Europe and the Middle East. The facts include a lot of specific details like battles, places occupied by Normans, languages spoken, models used in Wikipedia pages, religious affiliations, and more.
+
+I need to extract different aspects from these facts. Let me list out possible topics:
+
+1. Origin of the term "Normans" (Northmen/Norsemen)
+2. Viking connection (as the aristocracy descended from Vikings)
+3. Key historical events (Conquest of England, Sicily, Crusades)
+4. Languages spoken (Old Norse, Latin, Old Norman)
+5. Religious affiliations (Norse paganism, Christianity)
+6. Architectural styles (Norman architecture examples)
+7. Notable battles involving Normans (Battle of Civitate, Battle of Montepeloso, Siege of Mahdia)
+8. Places occupied by Normans (Dún Dealgan Motte, Callan Motte, Kells Castle)
+9. Ethnic groups related to Normans (Hauteville family, Lyons family)
+10. Models used in Wikipedia pages (Template:House of Normandy, Template:Infobox ethnic group)
+
+Now, I need to form questions from these topics. Each question must be unique and cover different aspects. Let me make sure each answer is directly supported by the context or facts provided.
+
+For example, the first question could be about the origin of the term "Normans," which is mentioned in the context as derived from "Northmen" or "Norsemen." The answer would be "homens do Norte."
+
+Another question could be about the Viking connection, so the answer is that their aristocracy descended from Vikings. 
+
+For languages, the facts mention Old Norse, Latin, and Old Norman. A question could ask which languages they spoke, with the answer listing those.
+
+Religious affiliations are covered by both Norse paganism and Christianity, so a question on that would have both as answers.
+
+Battles and places occupied by Normans are specific and can be used for questions. Notable figures like Richard of Salerno and families like Hauteville can be included too.
+
+I need to ensure that each question is distinct and doesn't repeat the same topic. Let me check each point again to avoid duplication. Once I have 10 distinct questions, I can structure them into the JSON format as specified.
+</think>
+
+[
+  {
+    "pergunta": "De onde originou-se o termo 'Normans'?",
+    "resposta": "Do termo 'Northmen' ou 'Norsemen', que significa 'homens do Norte'."
+  },
+  {
+    "pergunta": "Quem descendia, em grande parte, da aristocracia normanda?",
+    "resposta": "Viquingues da Escandinávia."
+  },
+  {
+    "pergunta": "Quais idiomas eram falados pelos Normans?",
+    "resposta": "Old Norse, Latin e Old Norman."
+  },
+  {
+    "pergunta": "Quais são exemplos de batalhas em que os Normans participaram?",
+    "resposta": "Battle of Civitate, Battle of Montepeloso e Siege of Mahdia (1159–1160)."
+  },
+  {
+    "pergunta": "Quais religiões eram seguidas pelos Normans?",
+    "resposta": "Norse paganism e Christianity."
+  },
+  {
+    "pergunta": "Quais castelos foram ocupados pelos Normans, segundo os fatos?",
+    "resposta": "Dún Dealgan Motte, Callan Motte, Kells Castle e Greenmount Motte."
+  },
+  {
+    "pergunta": "Quem é um exemplo de pessoa com nacionalidade normanda mencionada nos fatos?",
+    "resposta": "Richard of Salerno."
+  },
+  {
+    "pergunta": "Quais são exemplos de modelos usados nas páginas wiki sobre os Normans?",
+    "resposta": "Template:House of Normandy e Template:Infobox ethnic group."
+  },
+  {
+    "pergunta": "Qual é a origem da etnia da família Hauteville?",
+    "resposta": "Normans."
+  },
+  {
+    "pergunta": "Quais são exemplos de locais com estilo arquitetônico normando mencionados nos fatos?",
+    "resposta": "St Bride's Church, Llansantffraed e St Mary's Church, Mortehoe."
+  }
+]

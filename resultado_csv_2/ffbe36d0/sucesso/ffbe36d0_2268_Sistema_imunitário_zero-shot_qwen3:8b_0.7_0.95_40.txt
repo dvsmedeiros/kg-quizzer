@@ -1,0 +1,65 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs based on the provided context about the immune system. Let me start by understanding the context. Wait, the context here is just "Sistema_imunitário" which is Portuguese for "Immune System". That's a bit vague. Maybe there's more content that wasn't included here? But according to the user's message, that's the only context provided.
+
+Hmm, since the context is minimal, I need to make sure that the questions are general but still relevant to the immune system. The user specified that the answers must be correct and inferred from the content. But with only "Sistema_imunitário" as the context, I might be missing some details. However, perhaps the user expects me to use standard knowledge about the immune system. Let me proceed under that assumption.
+
+First, I'll list different aspects of the immune system to cover various areas. For example, components like white blood cells, types of immunity, functions, diseases, etc. Each question should target a specific aspect. Let me brainstorm 10 unique questions.
+
+1. What are the primary cells involved in the immune response? Answer: White blood cells (leukocytes).
+2. What is the role of antibodies in the immune system? Answer: Neutralize pathogens.
+3. What is the difference between innate and adaptive immunity? Answer: Innate is immediate, adaptive is specific and memory-based.
+4. Which cells are responsible for presenting antigens to T-cells? Answer: Antigen-presenting cells (APCs).
+5. What is the function of the spleen in the immune system? Answer: Filters blood and removes pathogens.
+6. What is the primary function of the lymphatic system? Answer: Transport lymph and fight infections.
+7. Which cells are part of the adaptive immune system? Answer: B-cells and T-cells.
+8. What is the role of the thymus in the immune system? Answer: Maturation of T-csells.
+9. What is an example of a vaccine's mechanism? Answer: Stimulates immune memory.
+10. What is the role of cytokines in the immune response? Answer: Mediate communication between cells.
+
+Now, I need to ensure that each question is unique and covers different aspects. Let me check for repetition. The first question is about primary cells, the second about antibodies, third about immunity types, fourth about antigen-presenting cells, fifth about spleen function, sixth about lymphatic system, seventh about adaptive cells, eighth about thymus, ninth about vaccines, tenth about cytokines. That seems varied enough. 
+
+I should also make sure the answers are correct based on standard knowledge. Each answer should be concise and directly related to the question. Since the context was limited, I'm relying on general immunology facts. The user might have intended for the context to include more details, but given the current input, this should suffice. Let me structure them into the required JSON format without any extra text.
+</think>
+
+[
+  {
+    "pergunta": "Quais são as principais células envolvidas na resposta imunológica?",
+    "resposta": "Células brancas do sangue (leucócitos)."
+  },
+  {
+    "pergunta": "Qual a função dos anticorpos no sistema imunológico?",
+    "resposta": "Neutralizar patógenos e marcá-los para serem destruídos."
+  },
+  {
+    "pergunta": "Qual a diferença entre imunidade inata e adaptativa?",
+    "resposta": "A imunidade inata é imediata e não específica, enquanto a adaptativa é específica e possui memória imunológica."
+  },
+  {
+    "pergunta": "Quais células apresentam antígenos às células T?",
+    "resposta": "Células apresentadoras de antígeno (APCs)."
+  },
+  {
+    "pergunta": "Qual a função do baço no sistema imunológico?",
+    "resposta": "Filtrar o sangue e remover patógenos e células danificadas."
+  },
+  {
+    "pergunta": "Qual a principal função do sistema linfático?",
+    "resposta": "Transportar linfa e auxiliar na defesa contra infecções."
+  },
+  {
+    "pergunta": "Quais células são parte do sistema imunológico adaptativo?",
+    "resposta": "Células B e células T."
+  },
+  {
+    "pergunta": "Qual é a função do timo no sistema imunológico?",
+    "resposta": "Maturo as células T para reconhecer antígenos."
+  },
+  {
+    "pergunta": "Qual é o mecanismo de ação de uma vacina?",
+    "resposta": "Estimular a produção de células imunológicas e formar memória imunológica."
+  },
+  {
+    "pergunta": "Qual o papel dos citocinas no sistema imunológico?",
+    "resposta": "Mediar a comunicação entre células do sistema imunológico."
+  }
+]

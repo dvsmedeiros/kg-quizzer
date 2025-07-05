@@ -1,0 +1,65 @@
+<think>
+Alright, so the user has given me a task to generate 10 multiple-choice question pairs based on a provided context about economic inequality in Portuguese. The output needs to be strictly in JSON format without any additional explanations or structures.
+
+First, I need to understand the content thoroughly. It's about desigualdade econômica, which includes factors like income concentration, social policies, examples of countries with high inequality, causes such as lack of education and job opportunities, effects on access to services, historical context, role of informal economy, impact of crises, reduction strategies, and measurement through indices.
+
+I should generate varied questions that touch different aspects. Let's brainstorm possible questions:
+
+1. What is the main cause mentioned? الفقرة 3 talks about concentration of income.
+2. A country example with high inequality: الفقرة 4 mentions countries like South Africa and Brazil.
+3. Effects of economic inequality include reduced access to what? الفقرة 5 discusses services like healthcare and education.
+4. Inequality has existed for centuries due to historical factors, so a yes/no question about that in paragraph 6.
+5. Which factor contributes significantly: الفقرة 7 mentions informal economy.
+6. How does economic crisis affect inequality? الفقرة 8 says it worsens it.
+7. What is needed to reduce inequality? paginação 9 mentions policies like taxation and social programs.
+8. An index used to measure inequality: الفقرة 10 refers to Gini Index.
+9. What leads to greater inequality? الفقرة 2 discusses lack of education and job opportunities.
+10. Which aspect of society is affected by inequality? الفقرة 5 talks about health, education, etc.
+
+I need to ensure each question has a unique correct answer as per the content. Also, avoid repeating similar questions. Now, structure each pair with "pergunta" and "resposta".
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é um dos principais fatores que contribuem para a desigualdade econômica?",
+    "resposta": "Concentração de renda"
+  },
+  {
+    "pergunta": "Quais países são citados como exemplos de alto índice de desigualdade econômica?",
+    "resposta": "África do Sul e Brasil"
+  },
+  {
+    "pergunta": "Qual é um dos principais efeitos da desigualdade econômica na sociedade?",
+    "resposta": "Redução do acesso a serviços básicos como saúde e educação"
+  },
+  {
+    "pergunta": "A desigualdade econômica sempre existiu por fatores históricos, concorda?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Qual é um dos principais problemas que contribuem para a persistência da desigualdade econômica?",
+    "resposta": "A informalidade da economia"
+  },
+  {
+    "pergunta": "Como crises econômicas afetam a desigualdade?",
+    "resposta": "Piorando a desigualdade"
+  },
+  {
+    "pergunta": "Qual é uma estratégia importante para reduzir a desigualdade econômica?",
+    "resposta": "Políticas fiscais progressivas e programas sociais"
+  },
+  {
+    "pergunta": "Qual índice é utilizado para medir a desigualdade de renda em um país?",
+    "resposta": "Índice de Gini"
+  },
+  {
+    "pergunta": "Falta de educação e oportunidades de emprego contribuem para a desigualdade econômica, corre?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Qual aspecto da sociedade é diretamente afetado pela desigualdade econômica?",
+    "resposta": "Acesso a saúde e educação de qualidade"
+  }
+]
+```

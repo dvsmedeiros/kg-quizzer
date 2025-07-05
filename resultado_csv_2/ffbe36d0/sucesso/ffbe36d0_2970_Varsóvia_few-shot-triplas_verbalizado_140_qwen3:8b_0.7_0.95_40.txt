@@ -1,0 +1,86 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts about Warsaw. First, I need to make sure I understand the requirements. The questions must be varied, cover different aspects, and have unique correct answers derived from the content. No repetition of similar questions.
+
+Looking at the context, Warsaw is the capital of Poland, located on the Vistula River, with a population of around 1.7 million. It's known for its historical sites like the Old Town, which is a UNESCO site. The city was heavily bombed during WWII but was rebuilt, earning the nickname "Phoenix City." There's also information about its economic significance, educational institutions, and various organizations based there, like Frontex and the Ministry of Finance.
+
+The facts section lists many people born or died in Warsaw, as well as locations and events. For example, the University of Warsaw, the Warsaw Ghetto, and the Pilecki Institute are mentioned. There are also temperature data and some cultural references like the band Riverside originating from Warsaw.
+
+I need to create questions that cover different areas: geography, history, culture, economy, notable people, and specific facts. Let me start by listing possible questions. 
+
+First question: What is the population of Warsaw? The context says 1,716,855 in 2012. But the user might want the current population? Wait, the context specifies 2012, so the answer should reflect that. However, the user's example includes "maior área metropolitana" with 2.666 million, which might be a different figure. Wait, the context says "população, em 2012, era estimada em 1 716 855 habitantes." So the population is 1.7 million. But the example in the user's message includes "maior área metropolitana" with 2.666 million. Wait, maybe the user's example is incorrect, but I need to follow the context. Wait, the original context says "A sua população, em 2012, era estimada em 1 716 855 habitantes." So the answer should be that number. However, the example in the user's message includes "Quantos moradores tem a maior área metropolitana?" with answer "2.666 milhões", which might be a mistake. But since I have to follow the context, I need to make sure I use the correct data.
+
+Wait, the user's example includes a question about the population of the largest metropolitan area, but the context only mentions the population of Warsaw itself. Maybe the user's example is incorrect, but I should stick to the given context. So perhaps I should focus on the data provided in the context, not the examples.
+
+Another point: the user's examples have some empty answers, but the instructions say each answer must be correct and explicit. So I need to avoid that. Let me check the context again for key points.
+
+Warsaw is the capital, located on the Vistula, 260 km from the Baltic Sea, 300 km from the Carpathians. Population in 2012: 1.7 million. It's the capital of Masovia Voivodeship. Has industries like consumer goods, steel, electrical engineering, cars. Educational institutions: University of Warsaw, Warsaw University of Technology, etc. UNESCO site: Old Town. Nickname: Phoenix City due to reconstruction after WWII. Frontex is headquartered there. Also, some notable people born or died in Warsaw, like Cymburgis of Masovia, Leopold Tyrmand, etc.
+
+Possible questions:
+
+1. What is the capital of Poland? Answer: Warsaw.
+
+2. Which river flows through Warsaw? Answer: Vístula.
+
+3. How far is Warsaw from the Baltic Sea? Answer: cerca de 260 km.
+
+4. What is the nickname of Warsaw due to its reconstruction after WWII? Answer: Phoenix City.
+
+5. Which organization is headquartered in Warsaw? Answer: Frontex.
+
+6. What is the population of Warsaw in 2012? Answer: 1.716.855.
+
+7. Which UNESCO site is located in Warsaw? Answer: Old Town.
+
+8. Which university is located in Warsaw? Answer: University of Warsaw.
+
+9. What is the name of the bridge located in Warsaw? Answer: Śląsko-Dąbrowski Bridge. Wait, the facts mention "Śląsko-Dąbrowski Bridge possui localidade Warsaw," so that's a valid question.
+
+10. Which historical site is located in Warsaw? Answer: Warsaw Ghetto.
+
+Wait, need to check if all answers are present in the context. For example, the Warsaw Ghetto is mentioned. The University of Warsaw is listed. The Old Town is a UNESCO site. Frontex is mentioned. The population is given. The nickname Phoenix City is in the context. The bridge's location is in the facts. The distance from the Baltic Sea is given. The river is Vístula. The capital is Warsaw. 
+
+So these 10 questions cover different aspects. Now, I need to make sure the answers are correct based on the context. Also, the examples the user provided had some issues, like the population of the metropolitan area, which isn't in the context. So I should avoid that. The user's examples might have been incorrect, so I need to stick strictly to the given data.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a maior cidade da Polônia?",
+    "resposta": "Varsóvia"
+  },
+  {
+    "pergunta": "Em que rio Varsóvia fica?",
+    "resposta": "Vístula"
+  },
+  {
+    "pergunta": "A que distância fica Varsóvia do mar Báltico?",
+    "resposta": "cerca de 260 km"
+  },
+  {
+    "pergunta": "Qual é o apelido de Varsóvia devido à sua reconstrução após a Segunda Guerra Mundial?",
+    "resposta": "Cidade Fênix"
+  },
+  {
+    "pergunta": "Qual é a organização da União Europeia com sede em Varsóvia?",
+    "resposta": "Frontex"
+  },
+  {
+    "pergunta": "Qual é a população de Varsóvia em 2012?",
+    "resposta": "1.716.855"
+  },
+  {
+    "pergunta": "Qual é o sítio da UNESCO localizado em Varsóvia?",
+    "resposta": "Velha Cidade"
+  },
+  {
+    "pergunta": "Qual universidade está localizada em Varsóvia?",
+    "resposta": "Universidade de Varsóvia"
+  },
+  {
+    "pergunta": "Qual ponte está localizada em Varsóvia?",
+    "resposta": "Ponte Śląsko-Dąbrowski"
+  },
+  {
+    "pergunta": "Qual é o nome do gueto histórico localizado em Varsóvia?",
+    "resposta": "Gueto de Varsóvia"
+  }
+]

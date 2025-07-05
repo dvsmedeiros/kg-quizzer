@@ -1,0 +1,98 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided data about Harvard University. First, I need to understand the data structure. The data includes various individuals linked to Harvard through different properties like almaMater, education, workInstitution, etc. 
+
+I should start by identifying the key facts. Each entry has a subject (a person) and a predicate (like ns1:almaMater) pointing to Harvard's URI. The task is to create questions that ask about the relationship between a person and Harvard, using the properties mentioned. 
+
+For example, if someone has the property ns1:almaMater, the question could be "Which university did [Person] attend?" and the answer would be "Harvard University." But I need to make sure to use the correct property names and the actual person's name.
+
+Wait, the user mentioned to follow the instructions and rules from the previous examples. Let me check the sample response. They used questions like "Which university did [Person] attend?" and "Which institution is [Person] affiliated with?" So I should structure the questions similarly.
+
+I need to ensure that each question is unique and covers different properties. For instance, some entries have ns1:workInstitution, others have ns2:almaMater. I should mix these to cover different relationships. Also, make sure not to repeat the same question structure.
+
+Let me list out the names and their properties. For example, "Robert_Morris_(cryptographer)" has ns2:almaMater. So the question could be "Which university did Robert Morris (cryptographer) attend?" Answer: Harvard University.
+
+But wait, some entries have multiple properties. Like "Robert_Morris_(cryptographer)" has both ns2:almaMater and ns1:almaMater. Wait, looking back, the data shows that Robert_Morris has ns2:almaMater and ns1:almaMater. But maybe that's a typo or duplication. However, the user's data might have such cases, so I need to check.
+
+In the data provided, Robert_Morris has both ns2:almaMater and ns1:almaMater. But since the user's example uses ns1:almaMater, maybe I should use that. But the user's data might have different prefixes. Wait, the user's data shows that some entries have ns1:almaMater, others ns2:almaMater, and even ns3:sameAs. So I need to use the correct predicate for each.
+
+But the user's instruction says to generate questions based on the properties. So for each entry, the predicate (like ns1:almaMater) indicates the relationship. So the question should reflect that relationship. For example, if the predicate is ns1:almaMater, the question is about attending the university. If it's ns2:workInstitution, the question is about affiliation.
+
+I need to make sure that each question is unique and covers different aspects. Let's list out the names and their properties. For example:
+
+- "Robert_Morris_(cryptographer)" has ns2:almaMater and ns1:almaMater. So I can create two questions? But the user wants 10 pairs, so maybe pick one per person.
+
+Wait, but some people might have multiple properties. For instance, "William_Klemperer" has ns1:workInstitution. So the question would be "Which institution is William Klemperer affiliated with?" Answer: Harvard University.
+
+I need to make sure that each pair is unique and uses different properties. Let me go through the list and pick 10 different people with different properties.
+
+Let me start listing possible pairs:
+
+1. "Which university did [Name] attend?" for those with almaMater.
+2. "Which institution is [Name] affiliated with?" for workInstitution.
+3. "Which university did [Name] graduate from?" for education.
+4. "Which institution is [Name] associated with?" for workInstitution or similar.
+
+Wait, the user's sample uses "almaMater" and "workInstitution" as properties. So I need to use the exact property names in the questions. But the user's instructions say to avoid using property names in the question. Instead, use natural language.
+
+So, for example, if the property is ns1:almaMater, the question is "Which university did [Name] attend?" The answer is "Harvard University."
+
+Similarly, if the property is ns2:workInstitution, the question is "Which institution is [Name] affiliated with?" or "Which institution is [Name] associated with?"
+
+I need to ensure that each question is based on a different property. Let's pick 10 different entries.
+
+Let me go through the list:
+
+1. Robert_Morris_(cryptographer) has ns2:almaMater and ns1:almaMater. Let's pick ns2:almaMater. Question: "Which university did Robert Morris (cryptographer) attend?" Answer: Harvard University.
+
+2. William_Klemperer has ns1:workInstitution. Question: "Which institution is William Klemperer affiliated with?" Answer: Harvard University.
+
+3. Ralph_Wormeley_Curtis has ns1:education. So question: "Which university did Ralph Wormeley Curtis attend?" Answer: Harvard University.
+
+4. William_McClelland_(bishop) has ns2:almaMater. Question: "Which university did William McClelland (bishop) attend?" Answer: Harvard University.
+
+5. William_Morgan_(architect) has ns1:almaMater. Question: "Which university did William Morgan (architect) attend?" Answer: Harvard University.
+
+6. William_Rodgers_(economist) has ns1:almaMater. Question: "Which university did William Rodgers (economist) attend?" Answer: Harvard University.
+
+7. Theodore_Stebbins has ns1:education. Question: "Which university did Theodore Stebbins attend?" Answer: Harvard University.
+
+8. Tariq_Bajwa has ns2:almaMater. Question: "Which university did Tariq Bajwa attend?" Answer: Harvard University.
+
+9. Tsakhiagiin_Elbegdorj has ns1:almaMater. Question: "Which university did Tsakhiagiin Elbegdorj attend?" Answer: Harvard University.
+
+10. Zhe-Xi_Luo has ns2:almaMater. Question: "Which university did Zhe-Xi Luo attend?" Answer: Harvard University.
+
+Wait, that's 10 pairs. But I need to make sure the names are correctly spelled and the properties are correctly matched. Also, check if any of the entries have different properties. For example, "William_Klemperer" has ns1:workInstitution, so the question is about affiliation. The answer is Harvard University.
+
+I think this covers 10 different people with different properties. Let me double-check the list to ensure no duplicates and that each question is based on a unique property or person.
+</think>
+
+1. **Pergunta:** Qual universidade [Robert Morris (criptógrafo)] estudou?  
+   **Resposta:** Universidade Harvard.
+
+2. **Pergunta:** Qual instituição [William Klemperer] está associado?  
+   **Resposta:** Universidade Harvard.
+
+3. **Pergunta:** Qual universidade [Ralph Wormeley Curtis] frequentou?  
+   **Resposta:** Universidade Harvard.
+
+4. **Pergunta:** Qual universidade [William McClelland (bispo)] estudou?  
+   **Resposta:** Universidade Harvard.
+
+5. **Pergunta:** Qual universidade [William Morgan (arquiteto)] frequentou?  
+   **Resposta:** Universidade Harvard.
+
+6. **Pergunta:** Qual universidade [William Rodgers (economista)] estudou?  
+   **Resposta:** Universidade Harvard.
+
+7. **Pergunta:** Qual universidade [Theodore Stebbins] frequentou?  
+   **Resposta:** Universidade Harvard.
+
+8. **Pergunta:** Qual universidade [Tariq Bajwa] estudou?  
+   **Resposta:** Universidade Harvard.
+
+9. **Pergunta:** Qual universidade [Tsakhiagiin Elbegdorj] frequentou?  
+   **Resposta:** Universidade Harvard.
+
+10. **Pergunta:** Qual universidade [Zhe-Xi Luo] estudou?  
+    **Resposta:** Universidade Harvard.

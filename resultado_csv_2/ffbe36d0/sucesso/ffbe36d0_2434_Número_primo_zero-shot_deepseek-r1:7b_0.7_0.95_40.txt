@@ -1,0 +1,56 @@
+<think>
+Vou começar analisando o contexto fornecido, que é sobre números primos. Preciso gerar 10 perguntas variadas que sejam relacionadas a este tema.
+
+Primeiro, vou pensar em definições básicas de números primos para criar uma pergunta inicial. Em seguida, posso explores sobre a distribuição dos primos, como a sequência dos números primos menores que um determinado valor.
+
+Depois, posso incluir perguntas sobre identificar se um número é primo ou não, além de comparar com outros números. Vou também considerar perguntas envolvendo operações matemáticas com números primos, como a soma ou fatorial.
+
+Adicionei perguntas sobre o primalidade de números adjacentes dos primos e suas características genéricas. Abri minas sobre a densidade de números primos em determinados intervalos, e finalmente, uma pergunta sobre aplicações reais dos números primos, como em computação.
+
+Tive que garantir que cada pergunta seja única e cobrange diferentes aspectos do conteúdo, além de ter respostas claras e corretas. Evitei repeter tópicos semelhantes para manter a variidade necessária.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é um número primo?",
+    "resposta": "Um número primo é um número natural maior que 1 que admite apenas dois divisores inteiros positivos: 1 e ele mesmo."
+  },
+  {
+    "pergunta": "Qual é o menor número primo?",
+    "resposta": "2"
+  },
+  {
+    "pergunta": "Liste os números primos menores que 10.",
+    "resposta": "2, 3, 5, 7"
+  },
+  {
+    "pergunta": "É primo o número 9?",
+    "resposta": "Não, pois 9 pode ser dividido por 3."
+  },
+  {
+    "pergunta": "Qual é o próximo número after 13 que é primo?",
+    "resposta": "17"
+  },
+  {
+    "pergunta": "É primo o número 1?",
+    "resposta": "Não, pois 1 não é considerado um número primo."
+  },
+  {
+    "pergunta": "Qual é a soma dos dois primeiros números primos?",
+    "resposta": "5 (2 + 3)"
+  },
+  {
+    "pergunta": "É primo o fatorial de 4?",
+    "resposta": "Sim, pois 4! = 24 e 24 é primo."
+  },
+  {
+    "pergunta": "Qual é a natureza dos números primos adjacentes a um número composto?",
+    "resposta": "Eles podem ser primos ou compostos, conforme o caso."
+  },
+  {
+    "pergunta": "Quantidade de números primos em um intervalo de 10 números consecutivos será sempre a mesma?",
+    "resposta": "Não, a densidade dos números primos varia de acordo com o tamanho do número."
+  }
+]
+```

@@ -1,0 +1,84 @@
+<think>
+Ok, eu preciso gerar 10 pares de perguntas e respostas baseadas no contexto fornecido sobre comutação de pacotes. Primeiro, vou analisar o que está disponível.
+
+O contexto explica basicamente o que é a comutação de pacotes, contrastando com a comutação de circuitos. Ele menciona os dois tipos: ligação (circuito virtual) e sem ligação (datagrama). Há nomes de pessoas associadas, como W. David Sincoskie, Donald Davies e Paul Baran, que são conhecidos por packet switching.
+
+Além disso, há informações sobre URLs, imagens representativas, categorias, assuntos e modelos de página wiki usados no artigo. Isso é útil para geração de perguntas.
+
+Agora, preciso criar perguntas variadas abrangendo diferentes aspectos do conteúdo. As perguntas devem ser claras e ter respostas únicas baseadas no contexto.
+
+Vou começar identificando tópicos-chave:
+1. O que é a comutação de pacotes?
+2. Tipos de comutação de pacotes.
+3. Quem contribuiu para o desenvolvimento?
+4. Aplicações ou exemplos.
+5. Comparação com comutação de circuitos.
+
+A partir desses tópicos, posso formular perguntas direcionadas a cada um.
+
+Para as respostas, preciso extrair informações específicas do contexto sem adicionar conteúdo extra. Por exemplo, mencionar os cientistas associados ou exemplos como ATM e Frame Relay.
+
+Preciso evitar repetições nas perguntas e garantir que cada pergunta tenha uma única resposta correta.
+
+Vou estruturar as perguntas de forma variada: algumas podem ser "what", outras "who" ou "how". Algumas podem pedir definição, outros exemplos ou vantagens.
+
+Agora, vou listar 10 possíveis pares:
+
+1. Pergunta sobre a definição da comutação de pacotes.
+2. Tipos de comutação de pacotes.
+3. Quem contribuiu?
+4. Vantagem sobre largura de banda.
+5. Qualidade de serviço.
+6. Exemplo de comutação sem ligação.
+7. Comparação com circuit switching.
+8. Quem introduziu a ideia.
+9. Tipos de rede que usam packet switching.
+10. Desvantagem da comutação de pacotes.
+
+Cada uma dessas perguntas terá uma resposta específica baseada no contexto fornecido.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é a comutação de pacotes em redes de computadores?",
+    "resposta": "Uma técnica de comunicação de dados onde pacotes são individualmente encaminhados entre nós da rede."
+  },
+  {
+    "pergunta": "Quais são os dois tipos principais de comutação de pacotes?",
+    "resposta": "Com ligação (circuito virtual) e sem ligação (datagrama)."
+  },
+  {
+    "pergunta": "Quem é conhecido por seu trabalho na comutação de pacotes?",
+    "resposta": "W. David Sincoskie, Donald Davies e Paul Baran."
+  },
+  {
+    "pergunta": "Qual é uma vantagem da comutação de pacotes em relação à comutação de circuitos?",
+    "resposta": "Melhor uso da largura de banda e menor latência."
+  },
+  {
+    "pergunta": "Qual é um exemplo de rede que utiliza a comutação sem ligação?",
+    "resposta": "Exemplo: Internet usando endereço IP."
+  },
+  {
+    "pergunta": "O que contrasta a comutação de pacotes com a de circuitos?",
+    "resposta": "A comutação de pacotes encaminha pacetes independentemente, enquanto a de circuitos estabelece uma ligação dedicada."
+  },
+  {
+    "pergunta": "Quem introduziu a ideia da comutação de pacotes moderna?",
+    "resposta": "Paul Baran e Donald Davies."
+  },
+  {
+    "pergunta": "Qual modelo de página wiki é usado para Packet Switching?",
+    "resposta": "Template:Citation, Template:Use American English, entre outros."
+  },
+  {
+    "pergunta": "Quais são os tópicos principais associados a Packet Switching?",
+    "resposta": "Computer networking, Network protocols, History of the Internet."
+  },
+  {
+    "pergunta": "Qual é uma desvantagem da comutação de pacotes?",
+    "resposta": "Possibilidade de jitter e atrasos variáveis."
+  }
+]
+```

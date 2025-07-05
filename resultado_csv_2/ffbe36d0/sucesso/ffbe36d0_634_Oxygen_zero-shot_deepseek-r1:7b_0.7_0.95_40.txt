@@ -1,0 +1,70 @@
+<think>
+Ok, let me try to figure out how to approach this query. The user wants me to generate objective questions and answers based on the context provided about Oxygen. They specified that each pair should have one question and one correct answer in Portuguese, and there should be exactly 10 pairs.
+
+First, I need to understand the content thoroughly. The context is brief, mentioning Oxygen's properties like being a diatomic gas, its role as a solvent, percentage in air, physical state at room temperature, solubility, chemical formula, natural abundance, industrial use, and health effects.
+
+I should vary the questions across these aspects. Maybe start with basic facts, move to properties, applications, and effects. I'll need to ensure each question is clear and relates directly to the context without being too obvious or repetitive.
+
+Let me list out possible topics:
+1. Basic composition (percentage in air)
+2. Physical state
+3. Industrial usage
+4. Solubility
+5. Presence in nature
+6. Health effects
+7. Chemical properties
+8. Uses in food industry
+9. Formula and isotopes
+10. Comparison with other elements
+
+Now, I'll draft questions for each of these topics. For each question, the answer should be explicit or inferable from the context without needing additional knowledge.
+
+Wait, I need to make sure each pair is unique and covers different aspects. Let me check if I have 10 distinct areas covered here: composition, state, solubility, industrial use, formula, presence in nature, health effects, chemical properties, food industry uses, and isotopes. That seems comprehensive.
+
+I'll now create the questions and answers accordingly, ensuring they are in Portuguese and each follows the structure of "pergunta" and "resposta".
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual porcentagem de oxigênio está presentes no ar?",
+    "resposta": "21%"
+  },
+  {
+    "pergunta": "O oxigênio é considerado qual tipo de gás?",
+    "resposta": "gás diatómico"
+  },
+  {
+    "pergunta": "Em que setor indutivo é usada a produção industrial de oxigênio?",
+    "resposta": "indústria da computação e eletrônica"
+  },
+  {
+    "pergunta": "O oxigênio dissolvido na água é chamado de qual termo?",
+    "resposta": "oxigensação"
+  },
+  {
+    "pergunta": "Qual é a principal foundação do oxigênio natural?",
+    "resposta": "formosão"
+  },
+  {
+    "pergunta": "O oxigênio tem um papel fundamental em qual processamento químico?",
+    "resposta": "combustão de carbono"
+  },
+  {
+    "pergunta": "Qual é a fórmula química do oxigênio?",
+    "resposta": "O₂"
+  },
+  {
+    "pergunta": " qual porcentagem dos oxigenos no corpo humano são provenientes de ar natural?",
+    "resposta": "aproximadamente 60%"
+  },
+  {
+    "pergunta": " Qual é a principal aplicação do oxigênio na indústria de alimentos?",
+    "resposta": "destilação e armazenagem de alimentos perecíveis"
+  },
+  {
+    "pergunta": " Em qual porcentagem da natureza o oxigênio está mais abundante que a mercúrio?",
+    "resposta": "26,8 times greater"
+  }
+]
+```

@@ -1,0 +1,64 @@
+<think>
+Okay, so I'm trying to figure out how to approach this query where the user wants me to generate 10 pairs of true/false questions based on a given context about the Guerra Franco-Indígena in Brazil. First, I need to understand exactly what they're asking for.
+
+The user has provided specific instructions: they want exactly 10 JSON objects, each with a question and its correct answer. The language should be Portuguese, and the questions must vary, covering different aspects of the content without repeating similar ones. They also emphasized not adding any extra information or explanations, just the facts as per the context.
+
+Looking at the context given, it's about the Franco-Indian War in Brazil, mentioning the main causes like land disputes, mineral wealth, and conflicts between indigenous groups and settlers. It also talks about the involvement of various European powers and the long duration of the war, which started in the 17th century and continued for centuries until the 20th.
+
+I need to make sure each question is unique and touches on different points. Maybe I can cover causes, key players, duration, specific events, outcomes, and notable leaders or groups involved. Since it's a true/false format, I have to ensure that each statement is either verifiably correct or incorrect based on the context provided.
+
+I should also check if there are any nuances in the context that might lead to ambiguity, but since the user wants clear answers, I'll focus on facts that are explicitly stated. For example, the context mentions that the war started in the 17th century and continued into the 20th, so a question about its duration would be straightforward.
+
+I need to make sure not to repeat similar questions. So if one is about causes, another shouldn't be about land disputes again but maybe about European involvement instead. I'll also vary the aspects covered, perhaps including economic factors like mineral wealth and religious missions as part of the causes.
+
+Another point is to ensure that each question is phrased clearly and directly relates to the context. For example, asking if the war started in a specific century or if it involved certain European powers. This way, each question tests different knowledge points without overlapping too much.
+
+I also need to be careful with dates and durations. The context says it started in the 17th century and continued for several centuries until the 20th. So a question about whether it lasted more than four centuries would be correct since from the 1600s to the 2000s is over 400 years.
+
+Lastly, I should review all the questions to ensure they cover various angles and that there are no duplicates in terms of content or structure. Each question should stand alone but together they provide a comprehensive overview of the topic based on the provided context.
+</think>
+
+```json
+[
+  {
+    "pergunta": "A Guerra Franco-Indígena foi travada exclusivamente na Amazônia?",
+    "resposta": "False"
+  },
+  {
+    "pergunta": "Qual foi uma das causas principais da Guerra Franco-Indígena?",
+    "resposta": "Disputas por terras e riquezas minerais"
+  },
+  {
+    "pergunta": "A Guerra Franco-Indígena durou apenas um século?",
+    "resposta": "False"
+  },
+  {
+    "pergunta": "Quais povos estiveram envolvidos na Guerra Franco-Indígena?",
+    "resposta": "Françeses e índios"
+  },
+  {
+    "pergunta": "A Guerra Franco-Indígena teve como objetivo principal a conquista de terras pelos colonizadores?",
+    "resposta": "True"
+  },
+  {
+    "pergunta": "Quais eram algumas das motivações para os confrontos na Guerra Franco-Indígena?",
+    "resposta": "Conflitos por terras, riquezas minerais e disputas entre tribos indígenas"
+  },
+  {
+    "pergunta": "A Guerra Franco-Indígena começou no século XVII?",
+    "resposta": "True"
+  },
+  {
+    "pergunta": "Qual foi uma consequência da Guerra Franco-Indígena para os povos indígenas?",
+    "resposta": "Perda de terras e redução da população"
+  },
+  {
+    "pergunta": "A Guerra Franco-Indígena terminou no século XX?",
+    "resposta": "True"
+  },
+  {
+    "pergunta": "Quais eram algumas das potências européias envolvidas na Guerra Franco-Indígena?",
+    "resposta": "Portugal, Espanha e Holanda"
+  }
+]
+```

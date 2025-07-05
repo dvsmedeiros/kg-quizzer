@@ -1,0 +1,75 @@
+<think>
+Okay, I need to generate 10 pairs of objective questions and answers about Warsaw (Varsóvia) based on the provided context. The user wants the questions and answers in Portuguese, each pair in a JSON structure. Let's start by recalling key facts about Warsaw.
+
+First, Warsaw is the capital of Poland. That's a basic fact. Maybe a question like "Qual é a capital da Polônia?" with the answer "Varsóvia." That's straightforward.
+
+Next, the population. I remember Warsaw has a large population. The exact number might be around 1.7 million. So a question about the population could work.
+
+The city's location is in central-eastern Europe. Another question could ask about its geographical location.
+
+The Varsóvia Uprising during WWII is significant. A question about when the uprising occurred would be relevant, maybe in 1944.
+
+Historical names: Warsaw was known as Warszawa in Polish, but maybe in other languages or historical contexts. Wait, the user mentioned "contexto" but the provided context is just "Varsóvia" with a line. Maybe I need to infer more. Wait, the user provided a context section with "Varsóvia" but no additional details. Hmm, that's confusing. Wait, looking back, the user's context is just "Varsóvia" with a line. But the example response includes questions that assume more information, like population, uprising, etc. So perhaps the user expects me to use general knowledge about Warsaw even though the context is minimal. Since the user provided a context section but it's empty except for the city name, maybe the actual context is that I should use my existing knowledge about Warsaw. 
+
+Assuming that, I can proceed. So other points: Varsóvia is a major cultural and economic hub. The Varsóvia Uprising Museum. The city's division into Old Town and New Town. The River Vistula. Notable landmarks like the Royal Castle or the Saxon Garden. The city's role in Polish history, like the fall of communism in 1989. The 2012 Summer Olympics (though it wasn't in Warsaw). Wait, actually, the 2012 Olympics were in London, but maybe Warsaw hosted some events. Or perhaps the 2022 FIFA World Cup? No, that's in Qatar. Maybe the European Football Championships? Warsaw hosted matches in 2012 as part of the UEFA Euro. Yes, that's right. 
+
+Let me list possible questions:
+
+1. Capital of Poland? Answer: Varsóvia.
+2. Population? Around 1.7 million.
+3. When was the Varsóvia Uprising? 1944.
+4. River it's located on? Vístula.
+5. Which uprising is associated with it? The 1944 uprising against Nazis.
+6. Historical name in Polish? Warszawa.
+7. Cultural and economic hub? Yes.
+8. Notable landmark: Royal Castle.
+9. Division into Old and New Town? Yes.
+10. Year of the European Championship matches? 2012.
+
+Wait, but some of these might be overlapping. Need to ensure 10 distinct questions. Let's check each for uniqueness. Also, avoid repeating the same topic. Let's structure the JSON accordingly, making sure each pergunta is distinct and the answer is correct.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a capital da Polônia?",
+    "resposta": "Varsóvia"
+  },
+  {
+    "pergunta": "Quantos habitantes aproximadamente possui Varsóvia?",
+    "resposta": "1,7 milhão"
+  },
+  {
+    "pergunta": "Em que ano ocorreu a Revolução de Varsóvia durante a Segunda Guerra Mundial?",
+    "resposta": "1944"
+  },
+  {
+    "pergunta": "Qual rio corta o centro da cidade de Varsóvia?",
+    "resposta": "Vístula"
+  },
+  {
+    "pergunta": "Qual é o nome do castelo histórico localizado no centro de Varsóvia?",
+    "resposta": "Castelo Real"
+  },
+  {
+    "pergunta": "Em que década o distrito comercial Europejski em Varsóvia foi concluído?",
+    "resposta": "2000"
+  },
+  {
+    "pergunta": "Qual é o nome do jardim botânico famoso em Varsóvia?",
+    "resposta": "Jardim Saxon"
+  },
+  {
+    "pergunta": "Qual evento esportivo internacional teve etapas em Varsóvia em 2012?",
+    "resposta": "Campeonato Europeu de Futebol"
+  },
+  {
+    "pergunta": "Quantos distritos administrativos Varsóvia possui atualmente?",
+    "resposta": "18"
+  },
+  {
+    "pergunta": "Qual é o nome da universidade mais antiga de Varsóvia?",
+    "resposta": "Universidade de Varsóvia"
+  }
+]
+```

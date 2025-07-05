@@ -1,0 +1,50 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs in Portuguese based on the provided context and facts. First, I need to make sure I understand the context thoroughly. The 1973 oil crisis started in October 1973 with an embargo by OPEC members targeting countries supporting Israel during the Yom Kippur War. The embargo affected several nations, and the oil price skyrocketed from $3 to $12 per barrel by March 1974. This event is known as the first oil shock, followed by the second in 1979.
+
+Now, looking at the facts, there's a lot of RDF data, but the key points are already covered in the context. I need to ensure that each question is unique and covers different aspects. Let me start by listing possible aspects: the cause (embargo by OPEC), the target countries, the price increase, the duration of the embargo, the term "first oil shock," the year it started, the countries affected after the initial ones, the economic impact, and the subsequent second oil shock.
+
+I should avoid repeating the same information. For example, asking about the start date, the main reason, the price change, the involved organizations, the affected countries, the name of the event, the expansion of the embargo, the consequences, and the second shock. Each question must have a clear answer from the context. Let me check each point against the provided text to ensure accuracy. Also, the answers must be concise and directly taken from the context without adding extra information. I need to make sure that the JSON structure is correct with proper syntax and that there are exactly 10 pairs. Let me draft each question and answer, ensuring they are varied and cover different parts of the context.
+</think>
+
+[
+  {
+    "pergunta": "Qual foi a causa principal da crise petrolífera de 1973?",
+    "resposta": "O embargo petrolífero proclamado pelos membros da OPAEP contra nações que apoiavam Israel durante a Guerra do Yom Kippur."
+  },
+  {
+    "pergunta": "Quais países foram inicialmente alvo do embargo petrolífero em 1973?",
+    "resposta": "Canadá, Japão, Holanda, Reino Unido e Estados Unidos."
+  },
+  {
+    "pergunta": "Qual foi o aumento no preço do petróleo entre outubro de 1973 e março de 1974?",
+    "resposta": "De US$ 3 por barril para cerca de US$ 12 no mundo inteiro."
+  },
+  {
+    "pergunta": "Como ficou conhecida a crise petrolífera de 1973?",
+    "resposta": "Primeiro choque do petróleo."
+  },
+  {
+    "pergunta": "Em que mês e ano a crise petrolífera de 1973 teve início?",
+    "resposta": "Outubro de 1973."
+  },
+  {
+    "pergunta": "Quais países tiveram o embargo expandido após os primeiros alvos?",
+    "resposta": "Portugal, Rodésia e África do Sul."
+  },
+  {
+    "pergunta": "Qual foi o impacto econômico global da crise petrolífera de 1973?",
+    "resposta": "Causou uma crise, ou 'choque', de petróleo com efeitos de curto e longo prazo na política e economia global."
+  },
+  {
+    "pergunta": "Qual foi a organização responsável pelo embargo petrolífero de 1973?",
+    "resposta": "Organização dos Países Árabes Exportadores de Petróleo (OPAEP)."
+  },
+  {
+    "pergunta": "Qual foi o ano da segunda crise petrolífera, posterior à de 1973?",
+    "resposta": "1979."
+  },
+  {
+    "pergunta": "Quais foram os efeitos do aumento no preço do petróleo nos Estados Unidos?",
+    "resposta": "Os preços nos EUA foram ainda mais altos do que o aumento global de US$ 3 para US$ 12."
+  }
+]

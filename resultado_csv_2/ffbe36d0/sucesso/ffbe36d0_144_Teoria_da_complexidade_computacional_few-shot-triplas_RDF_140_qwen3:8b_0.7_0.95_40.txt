@@ -1,0 +1,81 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts about computational complexity theory. First, I need to understand the context thoroughly. The main points are that computational complexity theory classifies problems based on resource usage, like time and space, and it's a branch of theoretical computer science and mathematics. The facts provided are in RDF format, mentioning various scholars and their associations with computational complexity theory.
+
+So, the goal is to create 10 distinct questions that cover different aspects of the context. The examples given in the prompt show that the questions should vary and cover areas like classification criteria, key terms, resources measured, notable figures, and practical implications. 
+
+Looking at the facts, I notice that many individuals are linked to computational complexity theory through their academic disciplines or fields. For instance, Christos Papadimitriou is associated with it, and there are mentions of complexity classes, algorithms, and data structures. The examples also include questions about the purpose of complexity theory, resources measured, and related fields like algorithm analysis and computability theory.
+
+I need to ensure that each question is unique and covers different facets. For example, one question could be about the primary focus of computational complexity theory, another about the resources measured, and others about specific scholars or classifications. Also, the examples mention the role of complexity theory in determining practical limits, so that's a good angle.
+
+I should check that the answers are directly inferable from the context. For instance, the answer to a question about the main focus would be classifying problems by difficulty and resource usage. Another might be about the two main resources, which are time and space. Also, the fact that the theory is part of theoretical computer science and mathematics is a key point.
+
+I need to avoid repeating similar questions. For example, if one question is about the main focus, another could be about the key attributes used for classification. Also, mentioning notable figures like David Shmoys or Larry Stockmeyer could be part of the questions, but I need to ensure that the answers are correct based on the provided facts.
+
+Wait, the facts mention that the Wikipedia page for computational complexity theory is the primary topic. So a question could be about the primary subject of that Wikipedia page. Also, the classification of problems by difficulty and resource usage is central, so that's a key point.
+
+Another aspect is the relation to algorithms and computability theory. The examples include questions about related fields, so I should include that. Also, the practical implications in determining what computers can do are important.
+
+I need to make sure that each answer is directly from the context. For example, the answer to a question about the two main resources is "tempo e armazenamento." Also, the fact that it's a branch of theoretical computer science and mathematics is covered.
+
+Let me list possible questions and their answers:
+
+1. What is the primary focus of computational complexity theory? (Answer: classifying problems by difficulty and resource usage)
+2. What are the two main resources used to measure complexity? (Answer: tempo e armazenamento)
+3. What is a computational problem? (Answer: a task solvable by a computer through mechanical steps)
+4. Which scholars are associated with computational complexity theory? (Answer: list of names from the facts)
+5. What does the theory help determine in practical computing? (Answer: limits on what computers can do)
+6. What is the main classification criterion for problems in this theory? (Answer: resource usage)
+7. What is the role of computational complexity theory in computer science? (Answer: classifying problems by difficulty and resources)
+8. Which fields are closely related to computational complexity theory? (Answer: algorithm analysis and computability theory)
+9. What is the primary subject of the Wikipedia page on computational complexity theory? (Answer: computational complexity classes)
+10. What is the significance of classifying problems by resource usage? (Answer: understanding practical limitations)
+
+Wait, some of these might overlap. Need to ensure each question is distinct. Also, check the facts again for names. For example, the facts mention several scholars like Christos Papadimitriou, David Shmoys, etc. So a question could be about notable scholars, and the answer would be listing them. However, the user might prefer more general questions. Also, the examples provided in the prompt have questions about the purpose, resources, and related fields, so I can follow that structure.
+
+I need to ensure that the answers are concise and directly from the context. For example, the answer to a question about the main focus would be as in the examples. Also, the mention of complexity classes in the facts could be a question about the primary subject of the Wikipedia page.
+
+I think I have enough to generate 10 varied questions. Now, I'll structure them properly, making sure they are clear and the answers are accurate based on the provided information.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a principal finalidade da teoria da complexidade computacional?",
+    "resposta": "Classificar problemas computacionais por dificuldade e classe de relacionamento."
+  },
+  {
+    "pergunta": "Quais são os dois recursos fundamentais usados para medir a complexidade de um problema?",
+    "resposta": "Tempo e armazenamento."
+  },
+  {
+    "pergunta": "O que é um problema computacional, segundo o contexto?",
+    "resposta": "Uma tarefa que pode ser resolvida por um computador através de etapas mecânicas."
+  },
+  {
+    "pergunta": "Qual é o termo que descreve a dificuldade inerente de resolver um problema computacional?",
+    "resposta": "Complexidade do problema."
+  },
+  {
+    "pergunta": "Quais campos da ciência da computação teórica estão diretamente relacionados à teoria da complexidade computacional?",
+    "resposta": "Análise de algoritmos e teoria da computabilidade."
+  },
+  {
+    "pergunta": "Qual é a principal característica que define a classificação de problemas na teoria da complexidade computacional?",
+    "resposta": "O uso de recursos computacionais, como tempo e espaço."
+  },
+  {
+    "pergunta": "Qual é o papel prático da teoria da complexidade computacional na computação?",
+    "resposta": "Determinar os limites práticos sobre o que os computadores podem ou não fazer."
+  },
+  {
+    "pergunta": "Qual é o tema central da página da Wikipedia sobre complexidade computacional?",
+    "resposta": "Classes de complexidade."
+  },
+  {
+    "pergunta": "Quais são exemplos de figuras associadas à teoria da complexidade computacional?",
+    "resposta": "Christos Papadimitriou, David Shmoys, Larry Stockmeyer."
+  },
+  {
+    "pergunta": "Como a teoria da complexidade computacional se relaciona com a matemática?",
+    "resposta": "Através da classificação de problemas por dificuldade e recursos, usando modelos matemáticos de computação."
+  }
+]

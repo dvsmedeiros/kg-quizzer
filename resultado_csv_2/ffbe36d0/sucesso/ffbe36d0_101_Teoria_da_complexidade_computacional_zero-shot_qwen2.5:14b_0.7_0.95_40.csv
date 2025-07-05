@@ -1,0 +1,11 @@
+pergunta;resposta
+Qual é o nome do problema que serve como referência para classificar problemas de tempo polinomial?;Problema das Máquinas de Turing
+O que significa NP na teoria da complexidade computacional?;Nondeterministic Polynomial time
+Qual é a relação entre problemas NP-completos e o conjunto P?;Se um problema NP-completo for resolvido em tempo polinomial, então todos os problemas de NP também podem ser resolvidos em tempo polinomial.
+Qual é a definição de uma classe de complexidade?;Uma coleção de problemas que podem ser resolvidos por algoritmos com certa duração e uso de recursos computacionais.
+O que é um problema NP-difícil?;Um problema em NP que qualquer outro problema em NP pode ser reduzido a ele em tempo polinomial, mas não necessariamente é um problema em NP.
+Qual é o significado da expressão P = NP?;Significa que todos os problemas de decisão que têm soluções verificáveis em tempo polinomial também podem ser resolvidos em tempo polinomial.
+O que é redução entre problemas na teoria da complexidade computacional?;A transformação de um problema para outro de forma que a solução do segundo problema pode resolver o primeiro.
+Qual é o conceito-chave por trás dos algoritmos exatos e aproximativos na resolução de problemas complexos?;Algoritmos exatos tentam encontrar soluções perfeitas, enquanto os aproximativos buscam soluções próximas à ótima em um tempo mais curto.
+Qual é a diferença entre uma máquina de Turing determinística e não-determinística?;Uma máquina de Turing determinística executa cada passo de maneira única, enquanto uma não-determinística pode escolher entre múltiplas possibilidades em cada passo.
+O que é um problema NP-Completo?;Um problema que está tanto em NP quanto em NPC (NP-Complete), ou seja, é NP e todos os problemas de NP podem ser reduzidos a ele em tempo polinomial.

@@ -1,0 +1,109 @@
+<think>
+Okay, let's see. The user wants me to generate 10 question-answer pairs based on the provided context and facts. The context is about computational complexity theory, and the facts are a bunch of RDF triples mentioning various people and their disciplines in this field.
+
+First, I need to make sure I understand the requirements. The questions must be in Portuguese, each with a correct answer derived from the given data. No extra info, just the JSON structure.
+
+Looking at the facts, there are several people listed with their academic disciplines or fields related to computational complexity theory. So possible questions could be about who is associated with this field. Also, the context defines what computational complexity theory is, so maybe a question on its purpose.
+
+I need to create 10 pairs, so I'll start by listing the key points from the context and facts:
+
+1. Definition of computational complexity theory.
+2. It's part of computer science and mathematics.
+3. Classifies computational problems based on resource usage.
+4. Several notable figures in the field (Christos Papadimitriou, David Shmoys, etc.).
+5. The theory's classification of problems into categories.
+6. Resources considered (like time, space).
+7. Applications in algorithms, data structures.
+8. Some people have academic disciplines or known for this theory.
+9. The theory's relation to algorithms and problem-solving methods.
+
+Now, formulating questions. Each question should target a specific fact or concept. Let's start with the definition. Then, list some of the people mentioned. Check if their academic discipline or field is in computational complexity. Also, mention the classification aspect. Maybe some about the purpose of the theory. Avoid repetition, so each question should cover different aspects.
+
+For example:
+
+- What is the main focus of computational complexity theory? (Answer from the context)
+- Which academic field is Christos Papadimitriou associated with? (From the facts)
+- How does computational complexity theory classify problems? (Context)
+- Who is known for their work in computational complexity theory besides the ones listed? Wait, the facts have specific people, so the answer should be from the list. So maybe "Which person is associated with computational complexity theory as their academic discipline?" and the answer is one of the listed names.
+
+But need to make sure each answer is unique and correct. Also, avoid repeating the same structure. Maybe some questions about the classification, others about specific individuals, the purpose, relation to other fields, etc.
+
+Let me start drafting the questions:
+
+1. Qual é o objetivo principal da teoria da complexidade computacional?
+Resposta: Classificar problemas computacionais de acordo com seu uso de recursos e explorar as relações entre essas classificações.
+
+2. Quem é um acadêmico associado à teoria da complexidade computacional como sua disciplina acadêmica?
+Resposta: Christos Papadimitriou.
+
+3. Em quais áreas da ciência da computação e matemática a teoria da complexidade computacional está inserida?
+Resposta: Ciência da computação teórica e matemática.
+
+4. Qual é o critério usado pela teoria da complexidade computacional para classificar problemas computacionais?
+Resposta: Uso de recursos.
+
+5. Quem é um pesquisador conhecido por seu trabalho em teoria da complexidade computacional, segundo os dados fornecidos?
+Resposta: David Shmoys.
+
+6. O que a teoria da complexidade computacional explora além da classificação de problemas?
+Resposta: As relações entre as classificações.
+
+7. Qual é a definição de um problema computacional segundo o contexto fornecido?
+Resposta: Uma tarefa resolvida por um computador aplicando etapas matemáticas, como um algoritmo.
+
+8. Quem é um acadêmico cuja área acadêmica é a teoria da complexidade computacional, segundo as informações fornecidas?
+Resposta: Irit Dinur.
+
+9. Qual disciplina acadêmica está associada a Stefan Szeider, segundo os dados?
+Resposta: Teoria da complexidade computacional.
+
+10. Quem é um pesquisador conhecido por seus estudos em teoria da complexidade computacional, conforme os fatos?
+Resposta: Larry Stockmeyer.
+
+Now, I need to check if all answers are from the provided facts and context, and that each question is unique and not repeating the same information. Also, ensure that the answers are explicit in the data. For example, Christos Papadimitriou's academic discipline is listed, so that's correct. David Shmoys is mentioned with academic discipline and field, so he's valid. Each question targets a different aspect, like definition, classification, individuals, etc. Looks good. Now, structure them into the required JSON format in Portuguese.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o objetivo principal da teoria da complexidade computacional?",
+    "resposta": "Classificar problemas computacionais de acordo com seu uso de recursos e explorar as relações entre essas classificações."
+  },
+  {
+    "pergunta": "Quem é um acadêmico associado à teoria da complexidade computacional como sua disciplina acadêmica?",
+    "resposta": "Christos Papadimitriou."
+  },
+  {
+    "pergunta": "Em quais áreas da ciência da computação e matemática a teoria da complexidade computacional está inserida?",
+    "resposta": "Ciência da computação teórica e matemática."
+  },
+  {
+    "pergunta": "Qual é o critério usado pela teoria da complexidade computacional para classificar problemas computacionais?",
+    "resposta": "Uso de recursos."
+  },
+  {
+    "pergunta": "Quem é um pesquisador conhecido por seu trabalho em teoria da complexidade computacional, segundo os dados fornecidos?",
+    "resposta": "David Shmoys."
+  },
+  {
+    "pergunta": "O que a teoria da complexidade computacional explora além da classificação de problemas?",
+    "resposta": "As relações entre as classificações."
+  },
+  {
+    "pergunta": "Qual é a definição de um problema computacional segundo o contexto fornecido?",
+    "resposta": "Uma tarefa resolvida por um computador aplicando etapas matemáticas, como um algoritmo."
+  },
+  {
+    "pergunta": "Quem é um acadêmico cuja área acadêmica é a teoria da complexidade computacional, segundo as informações fornecidas?",
+    "resposta": "Irit Dinur."
+  },
+  {
+    "pergunta": "Qual disciplina acadêmica está associada a Stefan Szeider, segundo os dados?",
+    "resposta": "Teoria da complexidade computacional."
+  },
+  {
+    "pergunta": "Quem é um pesquisador conhecido por seus estudos em teoria da complexidade computacional, conforme os fatos?",
+    "resposta": "Larry Stockmeyer."
+  }
+]
+```

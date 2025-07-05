@@ -1,0 +1,83 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context about Harvard University. The questions should be varied and cover different aspects of the content. Let me go through the information step by step.
+
+First, I'll read the objective: create exactly 10 pairs, each with a relevant question and correct answer in Portuguese. Only JSON format is required without any extra text.
+
+The context gives detailed info about Harvard's history, location, notable people, achievements, and other facts. The facts section lists many individuals associated with Harvard, which can be used for questions about alumni.
+
+I'll start by identifying key points:
+
+1. Oldest university in the US.
+2. Located in Cambridge, Massachusetts.
+3. Part of the Ivy League.
+4. Founded in 1636.
+5. Named after John Harvard.
+6. Eight US presidents graduated there.
+7. Numerous Nobel laureates and billionaires among alumni.
+8. Has a large endowment (~$30 billion).
+9. Known landmarks like the John Harvard statue.
+10. Home to the largest academic library.
+
+Now, I'll think of varied questions covering these aspects:
+
+- When was it founded?
+- How many Nobel winners are there?
+- Where is its main campus?
+- Which Ivy League school is it part of?
+- Name a famous alumni (president or notable figure).
+- Endowment amount.
+- What's the name of its police department?
+
+I should ensure each question has one correct answer from the context. Let me check for any repeated questions and avoid them.
+
+Wait, I also need to create 10 unique ones. Maybe include more about locations, famous people, and achievements.
+
+Looking back at the facts list, there are many alumni names, which could be used in questions like "Who is an alumnus?" but it's better to use notable individuals for clarity.
+
+I'll structure each question and answer pair now.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando a Universidade de Harvard foi fundada?",
+    "resposta": "1636"
+  },
+  {
+    "pergunta": "Qual é o nome da estátua icônica na universidade?",
+    "resposta": "John Harvard statue"
+  },
+  {
+    "pergunta": "Quantos presidentes dos Estados Unidos são formados pela Universidade de Harvard?",
+    "resposta": "Oito"
+  },
+  {
+    "pergunta": "Qual é o nome do jatinho esportivo da universidade?",
+    "resposta": "Harvard Crimson"
+  },
+  {
+    "pergunta": "Quanto era o orçamento da universidade em setembro de 2012?",
+    "resposta": "30 bilhões de dólares"
+  },
+  {
+    "pergunta": "Qual estado dos Estados Unidos abriga a Universidade de Harvard?",
+    "resposta": "Massachusetts"
+  },
+  {
+    "pergunta": "Qual é o nome do campus principal da universidade?",
+    "resposta": "Harvard Yard"
+  },
+  {
+    "pergunta": "Quantos campi possui a universidade?",
+    "resposta": "Vários, espalhados pela área metropolitana de Boston"
+  },
+  {
+    "pergunta": "Qual é o cargo mais alto ocupado por uma mulher na universidade?",
+    "resposta": "Reitora (Drew Gilpin Faust)"
+  },
+  {
+    "pergunta": "Quantos ganhadores do Prêmio Nobel estão associados à universidade?",
+    "resposta": "Cerca de 150"
+  }
+]
+```

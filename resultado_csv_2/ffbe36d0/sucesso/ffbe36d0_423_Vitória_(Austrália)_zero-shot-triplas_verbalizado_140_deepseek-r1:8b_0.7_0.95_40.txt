@@ -1,0 +1,60 @@
+<think>
+Ok, eu preciso ajudar o usuário a gerar 10 pares de perguntas e respostas baseadas no contexto e nos fatos fornecidos. Primeiro, vou analisar o conteúdo para identificar os principais temas e informações relevantes.
+
+O estado de Vitória está relacionado com vários aspectos: geografia, história, economia, cultura, político etc. Vejo que há mencionadas localizações em Vitória, como a African Safari World e Wallagaraugh River; eventos históricos como a Corrida do Ouro; personagens importantes como o primeiro-ministro Daniel Andrews; e fatos socio-econômicos como a economia diversificada e a rankings de PIB.
+
+Também noto que há uma seção de código postal, imagem representativa e outros estabelecimentos como museus, escolas, empresas. Além disso, há informações sobre eventos esportivos, políticos e personalidades ligadas à Vitória.
+
+Para criar as perguntas, preciso assegurar que cada uma seja variada e cobra um aspecto diferente do conteúdo. As respostas devem ser corretas e derivadas directamente dos fatos fornecidos. Vou começar identificando cada ponto chave e formular uma pergunta que aborde cada um.
+
+Primeiro, perguntas sobre localizações como African Safari World e Wallagaraugh River. Em seguida, eventos históricos como a Corrida do Ouro de Vitória. Depois, personagens como o primeiro-ministro Daniel Andrews. Também vou incluir fatos econômicos e culturais, como museus e estádios.
+
+Para os aspectos geográficos, perguntar sobre fronteiras e regiões como a Baía de Port Phillip. Incluir também a data de fundação do estado e sua relação com a Colônia de Nova Gales do Sul. Além disso, perguntas sobre o Produto Interno Bruto (PIB) e códigos postais.
+
+Vou evitar repetition de perguntas semelhantes e assegurar que cada uma esteja claramente relacionada ao conteúdo. Por fim, vou estruturar tudo em JSON conforme solicitado.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o estado com o menor tamanho do continente da Austrália?",
+    "resposta": "Vitória"
+  },
+  {
+    "pergunta": "Em qual bairro de Melbourne está localizado o Melbourne Cricket Ground?",
+    "resposta": "Jardim do Cricket de Melbourne, considerado o 'lar espiritual' do críquete australiano."
+  },
+  {
+    "pergunta": "Qual foi a capital federal da Austrália até a construção de Camberra?",
+    "resposta": "Melbourne"
+  },
+  {
+    "pergunta": "Quem foi o primeiro-ministro de Vitória desde 2014?",
+    "resposta": "Daniel Andrews, do Partido Trabalhista."
+  },
+  {
+    "pergunta": "Qual é o tipo de código postal usado em Vitória?",
+    "resposta": "Postcodes in Australia."
+  },
+  {
+    "pergunta": "Em qual localização está situada a African Safari World?",
+    "resposta": "Victoria (Australia)"
+  },
+  {
+    "pergunta": "Qual é o estado mais densamente populado da Austrália após Nova Gales do Sul?",
+    "resposta": "Vitória."
+  },
+  {
+    "pergunta": "Em que ano Vitória alcançou o autogoverno?",
+    "resposta": "1855."
+  },
+  {
+    "pergunta": "Qual é a economia mais diversificada de Vitória?",
+    "resposta": "Serviços, saúde, educação, atacado, varejo, hospitalidade e manufatura."
+  },
+  {
+    "pergunta": "Quem foi o primeiro a estabelecer um assentamento europeu na área que hoje é Vitória?",
+    "resposta": "John Batman em 1803 na Baía de Sullivan."
+  }
+]
+```

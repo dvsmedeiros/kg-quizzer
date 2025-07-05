@@ -1,0 +1,86 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs in Portuguese based on the theory of computational complexity. The context is given as "Teoria_da_complexidade_computacional". 
+
+First, I need to recall key concepts in computational complexity. P, NP, NP-complete, NP-hard problems, reductions, time and space complexity, decision problems, polynomial time, etc. 
+
+The user specified that each question must have a single correct answer, either explicit or inferable from the content. They also need to be varied and cover different aspects. So I should spread out the topics. 
+
+Possible topics could include definitions, examples, relationships between classes, famous problems, types of reductions, time hierarchy theorem, etc.
+
+Let me start by brainstorming some questions. For example, "Qual é a classe de complexidade que contém problemas resolvíveis em tempo polinomial por uma máquina determinística?" The answer would be P. 
+
+Another question might be about NP, like "Qual é a classe de complexidade que contém problemas verificáveis em tempo polinomial por uma máquina determinística?" Answer: NP.
+
+Then NP-complete problems. Maybe a question asking which problem is NP-complete, like the Traveling Salesman Problem. 
+
+Reductions: "Qual é o termo para a técnica usada para transformar um problema em outro, preservando sua resposta?" Answer: Redução polinomial.
+
+Time and space complexity classes: "Qual é a classe de complexidade que contém problemas resolvíveis em espaço polinomial por uma máquina determinística?" Answer: PSPACE.
+
+The Cook-Levin theorem: "Qual teorema afirma que o problema da satisfatibilidade booleana (SAT) é NP-completo?" Answer: Teorema de Cook-Levin.
+
+P vs NP problem: "Qual é o problema aberto mais famoso na teoria da complexidade computacional?" Answer: P = NP?
+
+Examples of NP-hard problems: "Qual problema é considerado NP-difícil e não está necessariamente em NP?" Answer: Problema do caixeiro viajante (TSP) ou outro.
+
+Decision problems: "Qual tipo de problema é definido por uma pergunta que admite apenas 'sim' ou 'não' como resposta?" Answer: Problema de decisão.
+
+Time hierarchy theorem: "Qual teorema estabelece que classes de complexidade de tempo crescem com a alocação de tempo?" Answer: Teorema da hierarquia temporal.
+
+I need to ensure each question is distinct and covers different aspects. Let me check for repetition. For example, if I have two questions on P and NP, they are different enough. Also, making sure the answers are correct and directly from the theory.
+
+Now, structuring them into JSON. Each pair should have "pergunta" and "resposta". Need to format correctly in Portuguese. Also, check if all answers are accurate. For example, NP-complete problems include SAT, TSP, etc. The reduction is polynomial. 
+
+Wait, the user said "exclusivamente a partir do conteúdo fornecido", but the context is just the name. So maybe I need to make sure that all answers are based on standard theory of computational complexity. Since the user provided the context as the theory itself, I can proceed with standard facts from that theory.
+
+Double-checking the answers. For example, the answer to the question about NP-hard but not in NP is usually problems that are optimization versions, like TSP (if it's the optimization version). But sometimes TSP is in NP if it's the decision version. Need to be careful. The user might expect a standard NP-hard example. Maybe "Problema do caixeiro viajante (TSP)" is acceptable.
+
+Also, the Cook-Levin theorem is correctly attributed. The time hierarchy theorem is another key concept.
+
+Alright, compiling the list. Now, structure into JSON with 10 pairs. Make sure each pergunta is unique and covers different aspects. Avoid any markdown, just the JSON. Check for grammar and correct terms in Portuguese.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a classe de complexidade que contém problemas resolvíveis em tempo polinomial por uma máquina determinística?",
+    "resposta": "P"
+  },
+  {
+    "pergunta": "Qual é a classe de complexidade que contém problemas verificáveis em tempo polinomial por uma máquina determinística?",
+    "resposta": "NP"
+  },
+  {
+    "pergunta": "Qual problema é considerado NP-completo e serve como exemplo clássico na teoria da complexidade?",
+    "resposta": "Problema do caixeiro viajante (TSP)"
+  },
+  {
+    "pergunta": "Qual é o termo para a técnica que transforma um problema em outro, preservando sua resposta, para provar pertencimento a uma classe de complexidade?",
+    "resposta": "Redução polinomial"
+  },
+  {
+    "pergunta": "Qual classe de complexidade contém problemas resolvíveis em espaço polinomial por uma máquina determinística?",
+    "resposta": "PSPACE"
+  },
+  {
+    "pergunta": "Qual teorema afirma que o problema da satisfatibilidade booleana (SAT) é NP-completo?",
+    "resposta": "Teorema de Cook-Levin"
+  },
+  {
+    "pergunta": "Qual é o problema aberto mais famoso na teoria da complexidade computacional?",
+    "resposta": "P = NP?"
+  },
+  {
+    "pergunta": "Qual tipo de problema é definido por uma pergunta que admite apenas 'sim' ou 'não' como resposta?",
+    "resposta": "Problema de decisão"
+  },
+  {
+    "pergunta": "Qual teorema estabelece que classes de complexidade de tempo crescem com a alocação de tempo maior?",
+    "resposta": "Teorema da hierarquia temporal"
+  },
+  {
+    "pergunta": "Qual classe de problemas é definida como 'pelo menos tão difícil quanto todos os problemas em NP'?",
+    "resposta": "NP-difícil"
+  }
+]
+```

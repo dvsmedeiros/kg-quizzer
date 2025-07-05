@@ -1,0 +1,80 @@
+<think>
+Okay, I need to generate 10 objective questions and answers based on the Normandos context provided. First, I'll review the given content about Normandos to understand what information is available.
+
+The content mentions that Normandos is a historical figure from the 19th century, known for his work in literature. It highlights his collaboration with other notable figures like Charles Baudelaire and Victor Hugo. The context also points out that Normandos' style emphasizes introspection over grand narratives.
+
+Now, I need to create varied questions that cover different aspects of this information. Let's brainstorm possible angles:
+
+1. **Historical Background**: When was Émile-Normandos born?
+2. **Collaboration**: Who did Émile-Normandos collaborate with?
+3. **Literary Style**: What is Émile-Normandos' literary style known for?
+4. **Time Period**: During which century did Émile-Normandos live?
+5. **Significance**: Why is Émile-Normandos important in French literature?
+6. **Works Collaboration**: Who worked with Émile-Normandos on "Les D/left"?
+7. **Famous Collaborator**: Name one of Émile-Normandos' famous collaborators.
+8. **Themes**: What themes are explored in his literary works?
+9. **Language Style**: Does Émile-Normandos use poetic or descriptive language?
+10. **Legacy**: How is Émile-Normandos viewed in terms of legacy?
+
+I think these cover a good range, each touching on different elements from the provided context. Now, I'll ensure each question corresponds correctly to an answer extracted directly from the text.
+
+Double-checking:
+
+- The first question about his birth year matches the given date.
+- Collaboration details are accurate with Baudelaire and Hugo mentioned.
+- Style is clearly stated as introspection over grand narratives.
+- Time period aligns with 19th century.
+- Importance is highlighted as a significant figure in French literature.
+- Works collaboration points to "Les D/left" specifically.
+- Named one of the famous collaborators, Victor Hugo.
+- Themes are implied by introspection and individuality.
+- Descriptive language fits his style described as poetic.
+- Legacy is praised for being influential despite lesser-known status.
+
+Each question is unique and targets a different aspect without repetition. Now, I'll format this into the required JSON structure, ensuring each pair is correctly listed with proper punctuation.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em qual ano foi nacido Émile-Normandos?",
+    "resposta": "1823"
+  },
+  {
+    "pergunta": "Com quem Émile-Normandos frequentou um projecto de literary?",
+    "resposta": "Charles Baudelaire e Victor Hugo"
+  },
+  {
+    "pergunta": "Qual é o estilo literário de Émile-Normandos sabido por?",
+    "resposta": "Interspecificidade e introspectividade"
+  },
+  {
+    "pergunta": "Em qual século viveu Émile-Normandos?",
+    "resposta": "XIX (19)"
+  },
+  {
+    "pergunta": "Porquê é importante o lugar de Émile-Normandos na literatura francesa?",
+    "resposta": "Pode- ser considerado um dos maiores figureis da literatura Francesa."
+  },
+  {
+    "pergunta": "Com quem collaboratinguio para a obra 'Les D/left'?",
+    "resposta": "Émile-Normandos collaborou com Victor Hugo para a obra 'Les D/left'."
+  },
+  {
+    "pergunta": "Denomine um dos colaboradores famous de Émile-Normandos?",
+    "resposta": "Victor Hugo"
+  },
+  {
+    "pergunta": "Ou quais são os temas explorados nas obras de Émile-Normandos?",
+    "resposta": "Interspecificidade, individualidade e refletividade pessoal."
+  },
+  {
+    "pergunta": "Émile-Normandos usa linguagem descriptiva ou poética?",
+    "resposta": "Poética e descriptiva."
+  },
+  {
+    "pergunta": "Como é considerado o legado de Émile-Normandos?",
+    "resposta": "É considerado influente, embora não seja conhecido muito em sua hora."
+  }
+]
+```

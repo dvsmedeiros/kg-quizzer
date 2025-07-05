@@ -1,0 +1,66 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts about the Law of the European Union. First, I need to parse the context and the facts to identify key points.
+
+The context mentions the EU laws as a system operating in member states, their objectives like promoting peace and well-being, institutions, and the legal order. The facts include some scholars (Henry Schermers, John Bell) and the Common Market Law Review, which is part of EU law. The DBpedia prefixes and resources might not be directly relevant, so I'll focus on the main context and the mentioned scholars and publications.
+
+Possible topics for questions could be the main objectives of EU laws, the legal status of the EU, key institutions, the role of the Court of Justice, notable scholars, and related publications. I need to ensure each question is unique and covers different aspects. Let me check the facts again: the Common Market Law Review's academic discipline is EU law, Henry Schermers and John Bell are associated with it. The EU is described as a new legal order.
+
+So, possible questions might be:
+1. What is the main objective of the European Union's laws?
+2. What legal status does the EU have according to its Court of Justice?
+3. Which publication is associated with EU law as an academic discipline?
+4. Which scholars are linked to EU law in the facts?
+5. What are the key institutions of the EU mentioned?
+6. What was the original name of the EU after WWII?
+7. What does the EU aim to promote in its member states?
+8. How many member states does the EU operate in?
+9. What are the three main areas of EU institutions?
+10. What is the role of the Court of Justice in EU law?
+
+Wait, but the facts mention Henry Schermers and John Bell as scholars. So their names could be part of the answers. Also, the Common Market Law Review's discipline is EU law. Need to make sure each question is distinct. Let me structure them properly, ensuring they are varied and based on the given info. Also, check for any possible overlaps. Let's list them out step by step.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o objetivo principal das leis da União Europeia mencionado no texto?",
+    "resposta": "Promover a paz, seus valores e o bem-estar de seus povos"
+  },
+  {
+    "pergunta": "Como a União Europeia é descrita pelo seu Tribunal de Justiça em termos jurídicos?",
+    "resposta": "Como uma nova ordem jurídica de direito internacional"
+  },
+  {
+    "pergunta": "Quais são as instituições políticas da União Europeia mencionadas no contexto?",
+    "resposta": "Instituições políticas, políticas sociais e econômicas"
+  },
+  {
+    "pergunta": "Qual é o nome do periódico acadêmico associado ao direito da União Europeia nos fatos fornecidos?",
+    "resposta": "Common Market Law Review"
+  },
+  {
+    "pergunta": "Quais são os dois autores mencionados nos fatos relacionados ao direito da União Europeia?",
+    "resposta": "Henry G. Schermers e John Bell"
+  },
+  {
+    "pergunta": "Qual é o nome original da União Europeia mencionado no contexto, após a Segunda Guerra Mundial?",
+    "resposta": "Comunidade Europeia do Carvão e do Aço"
+  },
+  {
+    "pergunta": "Qual é a área de disciplina acadêmica associada ao Common Market Law Review, conforme os fatos?",
+    "resposta": "Lei da União Europeia"
+  },
+  {
+    "pergunta": "Quantos estados membros a União Europeia opera conforme o contexto?",
+    "resposta": "Estados membros da União Europeia"
+  },
+  {
+    "pergunta": "Qual é o propósito das instituições da União Europeia, conforme o texto?",
+    "resposta": "Cooperação e desenvolvimento humano"
+  },
+  {
+    "pergunta": "Qual é o termo utilizado no texto para descrever o sistema de regras da União Europeia?",
+    "resposta": "Sistema de regras"
+  }
+]
+```

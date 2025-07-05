@@ -1,0 +1,58 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. First, I need to make sure I understand the context thoroughly. The main topic is the Black Death, its causes, spread, impact, and some related facts.
+
+Starting with the context, the Black Death was a devastating pandemic in the 14th century, caused by Yersinia pestis, spread via rats and fleas, originating in Asia, reaching Europe through trade routes like the Silk Road. The death toll is estimated between 75-200 million in Eurasia, 30-60% in Europe. The effects were socio-economic and religious. The facts provided include various data points like dates, categories, models, images, etc.
+
+The examples given in the prompt give an idea of the structure. For instance, questions on origin, spread, death toll, recovery period, duration, and specific terms. The user wants varied questions covering different aspects. I need to avoid repetition and ensure each question is unique and has a clear, correct answer from the context.
+
+Looking at the facts, there's a lot of information about the bacterium, the spread via fleas and rats, the impact percentage, the time it took for population recovery, the role of Genoese ships, the second pandemic classification, and mentions of specific historians and models used in the Wikipedia page.
+
+Now, formulating the questions. Let's start with the cause (bacterium), then the origin region, how it spread, the death estimates, the main form of the plague (bubonic), the impact on Europe's population, the recovery time, the type of pandemic (second), the primary vector (fleas), and the years it peaked. Each answer should be directly from the context or inferable. Need to check that each answer is unambiguous and present in the given data.
+
+Also, ensure the JSON structure is correct, with 10 pairs. Avoid any markdown, just the JSON. Make sure the Portuguese is correct and the answers are concise. Let me go through each point step by step to cover different aspects without repeating.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a bactéria responsável pela Peste Negra?",
+    "resposta": "Yersinia pestis"
+  },
+  {
+    "pergunta": "Qual região é considerada a provável origem da Peste Negra?",
+    "resposta": "Ásia Central ou Ásia Oriental"
+  },
+  {
+    "pergunta": "Como a Peste Negra se espalhou para a Europa?",
+    "resposta": "Através de navios mercantes genoveses transportando ratos infectados"
+  },
+  {
+    "pergunta": "Qual é a forma mais comum da peste causada por Yersinia pestis?",
+    "resposta": "Bubônica"
+  },
+  {
+    "pergunta": "Qual foi o período de pico da Peste Negra na Europa?",
+    "resposta": "1347 a 1351"
+  },
+  {
+    "pergunta": "Qual a estimativa de mortes causadas pela Peste Negra na Europa?",
+    "resposta": "30% a 60% da população"
+  },
+  {
+    "pergunta": "Quantos anos a população europeia levou para recuperar o nível anterior à Peste Negra?",
+    "resposta": "200 anos"
+  },
+  {
+    "pergunta": "Qual é a classificação da Peste Negra no contexto das pandemias?",
+    "resposta": "Segunda pandemia da doença"
+  },
+  {
+    "pergunta": "Qual vetor é responsável pela transmissão principal da peste bubônica?",
+    "resposta": "Pulgas que vivem em ratos"
+  },
+  {
+    "pergunta": "Até quando a Peste Negra retornou como surtos?",
+    "resposta": "Início do século XX"
+  }
+]
+```

@@ -1,0 +1,58 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers in Portuguese based on the given context and facts. The main points are to ensure each question is unique, covers different aspects, and the answers are directly from the content.
+
+First, I'll go through the context provided. The immune system's definition, Mechnikov as the father of immunology, mechanisms like phagocytosis, adaptive immunity, vaccination, autoimmune diseases, immunodeficiency, and the facts about specific cells and terms.
+
+I need to make sure each question is varied. Let's start with the origin of the term "immune system" – that's covered by Mechnikov. Then, the components like phagocytosis, antimicrobial peptides, and the complement system. Next, adaptive immunity and vaccination. Autoimmune diseases example, like rheumatoid arthritis. Immunodeficiency causes, such as HIV. The role of bone marrow in the immune system. The function of B cells and T cells. Lastly, the system's presence in unicellular organisms.
+
+Wait, the facts include various cells like B cells, T cells, macrophages, etc. But the user said to use the context provided. The facts might have some info, but the main context is the paragraph. So maybe focus on the context for the questions.
+
+Check for repetition. Each question should be different. For example, one about the father of immunology, another about mechanisms, another about adaptive immunity, then specific diseases, immunodeficiency causes, bone marrow, cell types, unicellular organisms, vaccination, and autoimmune examples.
+
+Make sure answers are directly from the text. For instance, Mechnikov in 1882. Phagocytosis, defensins, complement system. Adaptive immunity leading to memory. Autoimmune examples like rheumatoid arthritis. Immunodeficiency from HIV. Bone marrow as a system part. B and T cells. Unicellular organisms with enzymes against bacteriophages. Vaccination as the basis of adaptive immunity.
+
+Check for 10 pairs. Let me count: 1. Mechnikov, 2. Phagocytosis, 3. Defensins, 4. Complement, 5. Adaptive immunity, 6. Autoimmune example, 7. Immunodeficiency cause, 8. Bone marrow, 9. B and T cells, 10. Unicellular systems. That's 10. Each is distinct and covers different aspects. Now, structure them into JSON without any extra text.
+</think>
+
+[
+  {
+    "pergunta": "Quem cunhou o termo 'sistema imunitário' e em qual ano?",
+    "resposta": "Ilya Ilyich Mechnikov em 1882."
+  },
+  {
+    "pergunta": "Qual mecanismo de defesa é mencionado como parte dos sistemas imunitários básicos em eucariotas?",
+    "resposta": "Fagocitose, peptídeos antimicrobianos (defensinas) e o sistema complemento."
+  },
+  {
+    "pergunta": "O que caracteriza a imunidade adquirida?",
+    "resposta": "A capacidade de criar memória imunológica para responder eficazmente a agentes patogénicos específicos em novos ataques."
+  },
+  {
+    "pergunta": "Qual é um exemplo de doença autoimune mencionada no contexto?",
+    "resposta": "Artrite reumatóide ou diabetes de tipo 1."
+  },
+  {
+    "pergunta": "O que causa a imunodeficiência no ser humano?",
+    "resposta": "Pode ser consequência de doenças genéticas, condições adquiridas como o VIH/SIDA ou uso de imunossupressores."
+  },
+  {
+    "pergunta": "Qual estrutura do corpo humano é citada como parte do sistema imunitário?",
+    "resposta": "Bastante estruturas, como o baço, medula óssea, células T, células B, macrófagos, neutrófilos, entre outras."
+  },
+  {
+    "pergunta": "Como os organismos unicelulares possuem um sistema imunitário rudimentar?",
+    "resposta": "Por meio de enzimas que os protegem de infecções por bacteriófagos."
+  },
+  {
+    "pergunta": "Qual é a base da vacinação?",
+    "resposta": "O processo de imunidade adquirida, que cria memória imunológica."
+  },
+  {
+    "pergunta": "Quais são as funções das defensinas no sistema imunitário?",
+    "resposta": "São peptídeos antimicrobianos que atuam na defesa contra patógenos."
+  },
+  {
+    "pergunta": "O que é o sistema complemento?",
+    "resposta": "Um mecanismo imunitário básico presente em eucariotas, que ajuda na neutralização de agentes patogénicos."
+  }
+]

@@ -1,0 +1,67 @@
+<think>
+Okay, so I need to create 10 pairs of questions and answers based on the Theory of Computational Complexity provided in the context. Let me start by understanding the content.
+
+The context explains that computational complexity is about the resources required by algorithms, measured in time and space. It distinguishes between time complexity (steps) and space complexity (memory). Different problems have different complexities, like P for polynomial time and NP for non-deterministic polynomial.
+
+I should generate varied questions covering these aspects without repeating similar ones. Let me list possible topics: definitions of computational complexity, types of resources (time vs space), classes like P and NP, the P vs NP problem, examples of each class, implications, reductions, solving problems in different classes, space complexity, and practical applications.
+
+Now, I'll form questions and ensure each has a clear correct answer from the context. For example:
+
+1. What is computational complexity? Answer: Resources needed by algorithms.
+2. Differentiate time and space complexity. Answer: Time is steps, space is memory.
+3. What's an algorithm's behavior with high time complexity? It might not finish in reasonable time.
+4. Define P class problems. Polynomial time solvable.
+5. NP class characteristics. Solvable in polynomial time for verification.
+6. Difference between P and NP. Verifying vs finding solutions.
+7. Example of a P problem: Sorting algorithms like merge sort.
+8. Example of an NP problem: The Traveling Salesman Problem.
+9. Significance of the P vs NP question. Impacts on solving hard problems efficiently.
+10. Practical applications in areas like cryptography and optimization.
+
+I need to ensure each answer is accurate and directly tied to the content without adding extra info. Also, avoid similar questions. Let me structure them properly into JSON format as required.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é a teoria da complexidade computacional?",
+    "resposta": "Estuda os recursos computacionais necessários para resolver problemas."
+  },
+  {
+    "pergunta": "Qual é o objetivo principal da teoria da complexidade computacional?",
+    "resposta": "Medir e analisar os recursos como tempo e espaço utilizados por algoritmos."
+  },
+  {
+    "pergunta": "O que é a complexidade de tempo em um algoritmo?",
+    "resposta": "Número de passos ou operações necessárias para executar o algoritmo."
+  },
+  {
+    "pergunta": "Como é medida a complexidade de espaço de um algoritmo?",
+    "resposta": "Em função da quantidade de memória ou armazenamento necessário."
+  },
+  {
+    "pergunta": "Qual classe de复杂idade define problemas que podem ser resolvidos em tempo polinomial?",
+    "resposta": "Classe P (Polynomial time)."
+  },
+  {
+    "pergunta": "O que caracteriza os problemas na classe NP (Nondeterministic Polynomial)?",
+    "resposta": "Problemas para os quais as soluções podem ser verificadas em tempo polinomial."
+  },
+  {
+    "pergunta": "Qual é a diferença entre P e NP?",
+    "resposta": "P problemas são resolvidos rapidamente, enquanto NP problemas são verificados rapidamente."
+  },
+  {
+    "pergunta": "Dê um exemplo de problema na classe P.",
+    "resposta": "Algoritmos de triagem como o Merge Sort."
+  },
+  {
+    "pergunta": "Qual é um exemplo clássico de problema na classe NP?",
+    "resposta": "Problema do Vendedor de Viagens (Traveling Salesman Problem)."
+  },
+  {
+    "pergunta": "Por que a diferença entre P e NP é importante?",
+    "resposta": "Se P ≠ NP, problemas complexos não podem ser resolvidos rapidamente."
+  }
+]
+```

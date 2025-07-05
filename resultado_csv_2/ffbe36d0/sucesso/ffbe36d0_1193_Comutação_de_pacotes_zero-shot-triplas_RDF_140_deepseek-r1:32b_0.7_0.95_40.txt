@@ -1,0 +1,67 @@
+<think>
+Ok, eu preciso gerar 10 pares de perguntas e respostas baseados no contexto fornecido sobre comutação de pacotes em redes de computadores. Primeiro, vou analisar o conteúdo para identificar pontos-chave que podem virar perguntas.
+
+O contexto explica a diferença entre comutação de circuitos e comutação de pacotes, destacando benefícios como otimização da largura de banda e menor latência. Também menciona dois tipos de comutação por pacotes: com ligação (circuito virtual) e sem ligação (datagrama). Além disso, cita exemplos como ATM, Frame Relay, X.25 para circuito virtual, e endereço IP para datagrama.
+
+Os fatos fornecidos incluem pessoas relacionadas à comutação de pacotes, como Donald Davies, Paul Baran, Sharla Boehm e W. David Sincoskie. Também há informações sobre categorias e templates usados na Wikipedia.
+
+Agora vou pensar em perguntas que cobrem diferentes aspectos:
+
+1. O que é a comutação de pacotes?
+2. Qual é a diferença entre comutação de circuitos e pacotes?
+3. Quais são os benefícios da comutação de pacotes?
+4. Tipos de comutação por pacotes.
+5. Exemplos de cada tipo.
+6. Desvantagens da comutação de pacotes.
+7. Quem contribuiu para o desenvolvimento?
+8. Vantagens do datagrama.
+9. Vantagens do circuito virtual.
+10. Categoria na qual a comutação é classificada.
+
+Vou garantir que cada pergunta tenha uma única resposta correta e que cubram diferentes partes do contexto, sem repetições.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é a comutação de pacotes?",
+    "resposta": "Uma paradigma de comunicação de dados em redes onde pacotes são encaminhados individualmente entre nós."
+  },
+  {
+    "pergunta": "Qual é a diferença principal entre comutação de circuitos e comutação de pacotes?",
+    "resposta": "A comutação de circuitos estabelece uma ligação dedicada, enquanto a de pacotes encaminha cada pacote independentemente."
+  },
+  {
+    "pergunta": "Quais são os benefícios principais da comutação de pacotes?",
+    "resposta": "Otimização do uso de largura de banda, menor latência e maior robustez."
+  },
+  {
+    "pergunta": "Quantos tipos de comutação por pacotes existem?",
+    "resposta": "Dois: com ligação (circuito virtual) e sem ligação (datagrama)."
+  },
+  {
+    "pergunta": "Quais são exemplos de comutação por circuito virtual?",
+    "resposta": "ATM, Frame Relay e X.25."
+  },
+  {
+    "pergunta": "Qual é a vantagem da comutação sem ligação (datagrama)?",
+    "resposta": "Flexibilidade e capacidade de reajuste ante falhas em links."
+  },
+  {
+    "pergunta": "Quem contribuiu para o desenvolvimento da comutação de pacotes?",
+    "resposta": "Donald Davies, Paul Baran, Sharla Boehm e W. David Sincoskie."
+  },
+  {
+    "pergunta": "Qual é uma desvantagem da comutação de pacotes?",
+    "resposta": "Introdução de jitter e variação na qualidade do serviço."
+  },
+  {
+    "pergunta": "O que garante a comutação por circuito virtual?",
+    "resposta": "Garantia de entrega ordenada dos pacotes."
+  },
+  {
+    "pergunta": "Em qual categoria a comutação de pacotes é classificada?",
+    "resposta": "Categoria de redes de computadores e protocolos de rede."
+  }
+]
+```

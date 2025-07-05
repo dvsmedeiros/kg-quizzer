@@ -1,0 +1,85 @@
+<think>
+Okay, I need to help the user generate 10 objective questions and answers based on the given context about oxygen. The output should be in JSON format with each question and answer pair.
+
+First, I'll review the context provided. It's a detailed description of oxygen, covering its chemical properties, abundance, roles in biology and society, historical discovery, and uses. There are also several facts provided in DBPedia triples.
+
+I notice that some examples were given to show how to format questions and answers. The questions should be varied but relevant to the context. They need to cover different aspects like physical properties, chemical behavior, biological roles, and applications.
+
+Looking at the examples, they include questions about atomic number, abundance in the solar system, atmospheric composition, molecular structure, uses of oxygen, its group in the periodic table, common compounds, percentage in water, historical discovery, and emergency uses.
+
+I should follow this pattern to create 10 new pairs. Each question should be clear and specific, with a direct answer from the context or derivable from it.
+
+Let me start by identifying key points in the context that can form questions:
+
+- Oxidation state of oxygen
+- Role in blood transport
+- Common solvent uses
+- Reaction with other elements
+- Presence in water molecules
+- Uses beyond medical fields
+- Stability under certain conditions
+- Applications in industry and space exploration
+- Percentage in Earth's atmosphere
+
+Now, I'll draft the questions based on these points:
+
+1. Oxidation state of oxygen: "What is the usual oxidation state of oxygen in compounds?"
+2. Presence in water molecules: "How much does oxygen make up water molecules?"
+3. Group in periodic table: "Which group does oxygen belong to in the periodic table?"
+4. Reaction with other elements: "What element forms an oxide when combined with oxygen?"
+5. Percentage in atmosphere: "Approximately what percent of Earth's atmosphere is oxygen?"
+6. Common solvent uses: "In which substance does oxygen act as a solvent?"
+7. Reaction under high pressure: "Under high pressure, how do metals react with oxygen to form oxides?"
+8. Uses beyond medical field: "What industry benefits from oxygen being used for preservation?"
+9. Stability in space: "How stable is liquid oxygen when exposed to sunlight and heat?"
+10. Presence on other planets: "Does oxygen exist on Mars?"
+
+I need to ensure each question has a correct answer based on the context provided. For example, for question 2, the answer should be about 89% since it's part of H₂O.
+
+I'll check if these questions cover all necessary aspects and avoid repetition or overlap with existing examples.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a State oxidation usual de oxygen em compunds?",
+    "resposta": "0."
+  },
+  {
+    "pergunta": "O Oxygênio compõe quanto da água?",
+    "resposta": "89%."
+  },
+  {
+    "pergunta": "Ogêano pertence qual grupo na Tabela Periódica?",
+    "resposta": "Chalcogens."
+  },
+  {
+    "pergunta": "Com que elemento forma um óxido quando se combina com oxygênio?",
+    "resposta": "Claro, com o Claro."
+  },
+  {
+    "pergunta": "Oxigênio compõe quantas por cento da atmosfera da Terra?",
+    "resposta": "21%."
+  },
+  {
+    "pergunta": "Em qual tipo de solventes é usada a Oxigeno com freqüência?",
+    "resposta": "Em H₂O."
+  },
+  {
+    "pergunta": "Under pressure, how do metals react with oxygen to form oxides?",
+    "resposta": "formam oxides."
+  },
+  {
+    "pergunta": "Oxigênio é usado para a preservação de que tipo de produtos?",
+    "resposta": "Com modic平占据了."
+  },
+  {
+    "pergunta": "How stable is liquid oxygen when exposed to sunlight and heat?",
+    "resposta": "It quickly sublimates."
+  },
+  {
+    "pergunta": "Oxigeno existe na Marte?",
+    "resposta": "Sim, exists em Marte."
+  }
+]
+```

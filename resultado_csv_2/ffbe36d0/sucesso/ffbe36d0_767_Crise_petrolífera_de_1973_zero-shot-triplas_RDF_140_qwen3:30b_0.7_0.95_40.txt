@@ -1,0 +1,90 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts about the 1973 oil crisis. Let me start by thoroughly understanding the provided information.
+
+The context mentions that the 1973 oil crisis began in October 1973 when OPEC (specifically the Arab members) imposed an oil embargo. The targets were countries supporting Israel during the Yom Kippur War, including Canada, Japan, the Netherlands, UK, and the US, later expanding to Portugal, Rhodesia, and South Africa. The oil price increased from $3 to $12 per barrel, causing a global economic crisis known as the first oil shock, followed by the 1979 crisis as the second.
+
+The facts include a lot of RDF data about the DBpedia entry for the 1973 oil crisis, categorizing it under various classes like EconomicDisasters, Embargoes, EnergyCrises, etc. There are also templates and images related to the topic.
+
+Now, I need to create 10 distinct questions and answers. Let me brainstorm possible questions:
+
+1. **What triggered the 1973 oil crisis?**  
+   Answer: The OPEC embargo against countries supporting Israel during the Yom Kippur War.
+
+2. **Which countries were initially targeted by the oil embargo?**  
+   Answer: Canada, Japan, the Netherlands, the UK, and the US.
+
+3. **Which organization imposed the embargo?**  
+   Answer: The Organization of Arab Petroleum Exporting Countries (OAEP).
+
+4. **What was the impact on oil prices?**  
+   Answer: Prices rose from $3 to $12 per barrel globally.
+
+5. **What was the name given to the 1973 crisis?**  
+   Answer: The first oil shock.
+
+6. **Which countries were added to the embargo later?**  
+   Answer: Portugal, Rhodesia, and South Africa.
+
+7. **How did the embargo affect the US?**  
+   Answer: Prices were even higher than globally.
+
+8. **What were some consequences of the crisis?**  
+   Answer: It caused a global economic and political crisis with short and long-term effects.
+
+9. **What is the significance of the 1973 crisis in history?**  
+   Answer: It marked the first oil shock, leading to subsequent crises like the 1979 event.
+
+10. **What is the classification of the 1973 oil crisis in DBpedia?**  
+    Answer: It is categorized under EconomicDisasters, Embargoes, EnergyCrises, etc.
+
+Wait, I need to ensure that each question is unique and covers different aspects. Let me check for repetition. The first question is about the trigger, the second about targets, third the organization, fourth price impact, fifth the name, sixth additional countries, seventh effect on the US, eighth consequences, ninth historical significance, tenth DBpedia classification. That seems varied.
+
+But I need to make sure the answers are strictly based on the provided context and facts. For example, the DBpedia classification is mentioned in the facts, so the tenth question is valid. Also, the answer to question 3 should be "Organização dos Países Árabes Exportadores de Petróleo (OPAEP)" as per the context. Let me verify all answers against the context.
+
+Yes, the context states "Organização dos Países Árabes Exportadores de Petróleo (OPAEP)" and the embargo was directed against specific countries. The price increase is mentioned, and the names "primeiro choque do petróleo" and "segundo choque do petróleo" are in the context. The expansion to other countries is also noted.
+
+I think these 10 questions cover different aspects: causes, targets, organizations, price changes, names, expansion, regional effects, consequences, historical context, and DBpedia categorization. Each has a unique answer based on the provided info. No repetition, and all are within the given data. Now, I can structure them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual foi o motivo inicial do embargo petrolífero de 1973?",
+    "resposta": "O embargo foi direcionado às nações que eram vistas como apoiadoras de Israel durante a Guerra do Yom Kippur."
+  },
+  {
+    "pergunta": "Quais países foram inicialmente alvo do embargo petrolífero?",
+    "resposta": "O Canadá, o Japão, a Holanda, o Reino Unido e os Estados Unidos."
+  },
+  {
+    "pergunta": "Qual organização proclamou o embargo petrolífero?",
+    "resposta": "A Organização dos Países Árabes Exportadores de Petróleo (OPAEP)."
+  },
+  {
+    "pergunta": "Como o preço do petróleo foi afetado durante o embargo?",
+    "resposta": "O preço do petróleo subiu de US$ 3 por barril para cerca de US$ 12 no mundo inteiro."
+  },
+  {
+    "pergunta": "Qual foi o nome dado à crise petrolífera de 1973?",
+    "resposta": "O primeiro choque do petróleo."
+  },
+  {
+    "pergunta": "Quais países foram adicionados ao embargo posteriormente?",
+    "resposta": "Portugal, a Rodésia e a África do Sul."
+  },
+  {
+    "pergunta": "Como o embargo afetou os preços do petróleo nos Estados Unidos?",
+    "resposta": "Os preços nos EUA foram ainda mais altos do que no mundo inteiro."
+  },
+  {
+    "pergunta": "Quais foram algumas das consequências da crise petrolífera?",
+    "resposta": "Causou uma crise, ou 'choque' de petróleo, com efeitos na política e economia global."
+  },
+  {
+    "pergunta": "Qual foi o significado histórico da crise de 1973?",
+    "resposta": "Foi chamada o 'primeiro choque do petróleo', seguido pela crise de 1979, conhecida como o 'segundo choque do petróleo'."
+  },
+  {
+    "pergunta": "Como a crise petrolífera de 1973 é classificada em DBpedia?",
+    "resposta": "Ela é classificada como uma 'EconomicDisaster', 'Embargo', 'EnergyCrises' e outras categorias relacionadas."
+  }
+]

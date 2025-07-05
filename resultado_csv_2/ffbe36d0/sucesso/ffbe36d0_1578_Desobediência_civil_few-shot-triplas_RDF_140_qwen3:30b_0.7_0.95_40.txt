@@ -1,0 +1,84 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers about civil disobedience based on the provided context and facts. First, I need to make sure I understand the context and facts thoroughly.
+
+The context mentions that civil disobedience is a peaceful political protest against unjust laws or oppressive governments. It was formulated by Henry David Thoreau and used by Gandhi and Martin Luther King. The facts are a bunch of RDF data linking various events and people to civil disobedience. 
+
+So, I need to generate questions that are varied and cover different aspects. Let me start by looking at the key points from the context: origin (Thoreau), key figures (Gandhi, MLK), purpose (protest against injustice), and the idea that people can disobey the government if it doesn't meet their needs.
+
+Now, the examples given in the problem have questions about definitions, examples, historical events, and key figures. I should avoid repeating similar questions. Let me brainstorm possible questions:
+
+1. Who formulated the concept of civil disobedience? (Thoreau)
+2. Which leader used it in India's independence? (Gandhi)
+3. What is an example of a movement using civil disobedience? (Civil Rights Movement)
+4. What is the main goal of civil disobedience? (Protest against unjust laws)
+5. Which event involved protests against the apartheid? (South Africa)
+6. Who was a key figure in the US civil rights movement? (MLK)
+7. What is a characteristic of civil disobedience? (Peaceful)
+8. Which country's independence was aided by Gandhi's methods? (India)
+9. What is the right mentioned in the context when a government doesn't meet demands? (Right to disobey)
+10. What is the basis for civil disobedience according to the text? (Injustice or oppressive government)
+
+Wait, I need to check the facts provided. The facts list many events linked to civil disobedience, like the 1998 Russian miners' strike, 2015 Montenegrin crisis, etc. But the context doesn't mention these specific events. So I shouldn't use them as examples unless the context does. The context only mentions Gandhi, MLK, and Thoreau. So the examples should be based on that.
+
+Also, the user said to generate only from the content provided. So I can't use external knowledge. For instance, the example about apartheid in South Africa is not mentioned in the context, so I shouldn't include that. The context says Gandhi in India and MLK in the US. So I need to stick to those.
+
+Let me adjust the questions:
+
+1. Quem formulou o conceito de desobediência civil? (Resposta: Henry David Thoreau)
+2. Qual movimento utilizou a desobediência civil para a independência da Índia? (Resposta: Movimento de Gandhi)
+3. Quem foi um líder da luta pelos direitos civis nos EUA usando desobediência civil? (Resposta: Martin Luther King)
+4. O que é a desobediência civil segundo o contexto? (Resposta: Protesto político pacífico contra leis injustas ou governos opressivos)
+5. Qual é o direito mencionado quando o governo não atende às demandas? (Resposta: Direito de desobedecer)
+6. Quais são os objetivos principais da desobediência civil? (Resposta: Protestar contra leis injustas e governos opressivos)
+7. Qual é uma característica da desobediência civil? (Resposta: Ser não violenta)
+8. Em que país a desobediência civil foi usada para a independência? (Resposta: Índia)
+9. Quem foi um dos primeiros exemplos de desobediência civil? (Resposta: Henry David Thoreau)
+10. O que o contexto diz sobre a relação entre desobediência civil e justiça? (Resposta: Protests against unjust laws)
+
+Wait, the context says "protestar contra leis que consideram injustas" and "governos opressivos". So I need to make sure the answers are accurate based on that. Also, check for any other key points. The context mentions "direito de desobedecer" when the government doesn't meet demands. So that's a key point.
+
+I need to ensure that each question is unique and covers different aspects. Let me check for duplicates or similar questions. Also, avoid using the same answer structure. Now, compiling the 10 pairs.
+</think>
+
+[
+  {
+    "pergunta": "Quem é considerado o formulador do conceito de desobediência civil?",
+    "resposta": "Henry David Thoreau"
+  },
+  {
+    "pergunta": "Qual movimento histórico utilizou a desobediência civil para a independência da Índia?",
+    "resposta": "Movimento de resistência liderado por Gandhi"
+  },
+  {
+    "pergunta": "Quem foi um líder importante nos EUA que empregou a desobediência civil no movimento pelos direitos civis?",
+    "resposta": "Martin Luther King"
+  },
+  {
+    "pergunta": "De acordo com o contexto, o que caracteriza a desobediência civil?",
+    "resposta": "Protesto político pacífico contra leis injustas ou governos opressivos"
+  },
+  {
+    "pergunta": "Qual direito é mencionado quando um governo não atende às demandas da sociedade?",
+    "resposta": "Direito de desobedecer"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal da desobediência civil, segundo o texto?",
+    "resposta": "Protestar contra leis ou governos que consideram injustos"
+  },
+  {
+    "pergunta": "Como o contexto descreve a natureza da desobediência civil?",
+    "resposta": "Não violenta"
+  },
+  {
+    "pergunta": "Em que país a desobediência civil foi fundamental para a independência?",
+    "resposta": "Índia"
+  },
+  {
+    "pergunta": "Qual é a origem do conceito de desobediência civil, conforme o texto?",
+    "resposta": "Foi formulado por Henry David Thoreau"
+  },
+  {
+    "pergunta": "O que o contexto afirma sobre a relação entre desobediência civil e justiça?",
+    "resposta": "Protesta contra leis que são consideradas injustas"
+  }
+]

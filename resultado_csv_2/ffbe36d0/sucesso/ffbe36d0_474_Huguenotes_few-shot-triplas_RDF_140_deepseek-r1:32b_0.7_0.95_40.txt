@@ -1,0 +1,73 @@
+<think>
+Okay, so I need to generate 10 question-answer pairs based on the given context and facts about Huguenots. Let me start by understanding the content thoroughly.
+
+First, from the context, I know that Huguenots were French Protestants during the religious wars in France around the late 16th century. They were mainly Calvinists and part of the Reformed Church, except for those in certain regions who were Lutherans. They faced persecution under Louis XIV and left France after the revocation of the Edict of Nantes in 1685.
+
+Looking at the facts provided, there are some RDF triples that might offer additional information. For example, Camisards are a subset of Huguenots, and there are places named after them in New York. Also, Scotch-Irish Americans are related to Huguenots.
+
+Now, I need to create varied questions covering different aspects: who they were, their religious affiliation, the reasons for their departure, historical events like the revocation of the Edict, regions affected, and maybe some related groups or places.
+
+I should avoid repeating similar questions. Each question must have a clear, single correct answer from the provided content.
+
+Let me brainstorm potential questions:
+
+1. What were Huguenots? - They were French Protestants.
+2. Which religious group did they primarily belong to? - Reformed Church (Calvinist).
+3. When was the Edict of Nantes revoked? - 1685.
+4. How many Huguenots left France after persecution? - Around 300,000.
+5. Who was responsible for their persecution? - Louis XIV.
+6. What regions had mostly Lutheran Huguenots? - Alsace, Moselle, Montbéliard.
+7. Are there places named after Huguenots in the U.S.? - Yes, examples given.
+8. What happened to them after the Edict's revocation? - Persecution, expulsion.
+9. How did they influence other groups? - Related to Scotch-Irish Americans.
+10. Which specific date was the Edict revoked? - October 18, 1685.
+
+Wait, I think point 3 and 10 are both about revocation dates but with different specifics. That's okay as long as they're distinct enough.
+
+I should ensure each answer is precise and directly from the context or facts without adding extra info.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que eram os huguenotes?",
+    "resposta": "protestantes franceses"
+  },
+  {
+    "pergunta": "Qual era a principal denominação religiosa dos huguenotes?",
+    "resposta": "Calvinistas e membros da Igreja Reformada"
+  },
+  {
+    "pergunta": "Quando foi revogado o Édito de Nantes?",
+    "resposta": "em 1685"
+  },
+  {
+    "pergunta": "Quantos huguenotes abandonaram a França após as perseguições?",
+    "resposta": "cerca de 300 000"
+  },
+  {
+    "pergunta": "Quem ordenou a revogação do Édito de Nantes?",
+    "resposta": "Luís XIV"
+  },
+  {
+    "pergunta": "Em quais regiões os protestantes eram majoritariamente luteranos?",
+    "resposta": "Alsácia, Moselle e Montbéliard"
+  },
+  {
+    "pergunta": "Existem lugares nos Estados Unidos nomeados em homenagem aos huguenotes?",
+    "resposta": "sim, como Huguenot em Orange County, New York, e Huguenot em Staten Island"
+  },
+  {
+    "pergunta": "O que aconteceu com os huguenotes após a revogação do Édito de Nantes?",
+    "resposta": "foram perseguidos e expulsos da França"
+  },
+  {
+    "pergunta": "Os huguenotes estão relacionados a qual grupo americano?",
+    "resposta": "Scotch-Irish Americans"
+  },
+  {
+    "pergunta": "Em qual data exata foi revogado o Édito de Nantes?",
+    "resposta": "18 de outubro de 1685"
+  }
+]
+```

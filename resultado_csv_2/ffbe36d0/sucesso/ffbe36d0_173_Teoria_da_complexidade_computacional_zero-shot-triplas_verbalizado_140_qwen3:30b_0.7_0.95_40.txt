@@ -1,0 +1,94 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts. Let me start by understanding the requirements. The user wants exactly 10 pairs, each with a question and a correct answer in Portuguese. The questions must be varied, cover different aspects of the content, and the answers must be explicitly or inferably from the provided data. No repetition of similar questions.
+
+First, I'll look at the context. The context says that computational complexity theory is about classifying computational problems based on resource usage and exploring relationships between these classifications. It mentions that it's a field in theoretical computer science and mathematics. The facts list various people associated with it, types, models, images, etc.
+
+Now, I need to create questions that can be answered using the facts. Let me go through the facts one by one and think of possible questions.
+
+1. The context mentions that Computational complexity theory is a type of Algorithm105847438. So a question could be "Qual é o tipo da teoria da complexidade computacional?" with the answer "Algorithm105847438".
+
+2. Similarly, there are other types like Arrangement105726596, PsychologicalFeature100023100, etc. So another question could be about another type, like "Qual é outro tipo da teoria da complexidade computacional?" Answer: Arrangement105726596.
+
+3. The context also mentions that it's a branch of computer science. So a question like "Qual é o hiperônimo da teoria da complexidade computacional?" Answer: Branch.
+
+4. The facts list several people associated with the theory. For example, Russell Impagliazzo is known for it. So a question: "Quem é conhecido por contribuir para a teoria da complexidade computacional?" Answer: Russell Impagliazzo.
+
+5. Another person is Umesh Vazirani. So another question: "Quem atua nas áreas da teoria da complexidade computacional?" Answer: Umesh Vazirani.
+
+6. The theory uses certain wiki templates. For example, Template:Citation. So a question: "Qual modelo de página wiki é usado pela teoria da complexidade computacional?" Answer: Template:Citation.
+
+7. There's an image called "TSP Deutschland 3.png". So a question: "Qual é a imagem representativa da teoria da complexidade computacional?" Answer: TSP Deutschland 3.png.
+
+8. The theory has a subject category: Category:Computational complexity theory. So a question: "Qual é o assunto da teoria da complexidade computacional?" Answer: Category:Computational complexity theory.
+
+9. The theory has a identifier p/c130160. So a question: "Qual é o identificador da teoria da complexidade computacional?" Answer: p/c130160.
+
+10. The theory is part of the field of computer science. So a question: "Em qual área da ciência da computação a teoria da complexidade computacional está inserida?" Answer: Computer science.
+
+Wait, I need to check if these answers are all in the facts. Let me verify each one.
+
+1. Type Algorithm105847438: Yes, in facts.
+
+2. Another type Arrangement105726596: Yes.
+
+3. Hiperônimo Branch: Yes, in facts.
+
+4. Russell Impagliazzo: Yes.
+
+5. Umesh Vazirani: Yes, he's mentioned as acting in the discipline.
+
+6. Template:Citation: Yes, in facts.
+
+7. TSP Deutschland 3.png: Yes, image representativa.
+
+8. Category:Computational complexity theory: Yes, assunto.
+
+9. Identifier p/c130160: Yes.
+
+10. Computer science: Yes, "Computer science possui legenda Computational complexity theory".
+
+I think these are all valid. Now, I need to make sure the questions are varied and not similar. Each question covers different aspects: types, people, models, images, categories, identifiers, and areas. That should meet the requirement of variety. Also, no repetition of similar questions. So this should work.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o tipo da teoria da complexidade computacional?",
+    "resposta": "Algorithm105847438"
+  },
+  {
+    "pergunta": "Qual é outro tipo da teoria da complexidade computacional?",
+    "resposta": "Arrangement105726596"
+  },
+  {
+    "pergunta": "Qual é o hiperônimo da teoria da complexidade computacional?",
+    "resposta": "Branch"
+  },
+  {
+    "pergunta": "Quem é conhecido por contribuir para a teoria da complexidade computacional?",
+    "resposta": "Russell Impagliazzo"
+  },
+  {
+    "pergunta": "Quem atua nas áreas da teoria da complexidade computacional?",
+    "resposta": "Umesh Vazirani"
+  },
+  {
+    "pergunta": "Qual modelo de página wiki é usado pela teoria da complexidade computacional?",
+    "resposta": "Template:Citation"
+  },
+  {
+    "pergunta": "Qual é a imagem representativa da teoria da complexidade computacional?",
+    "resposta": "TSP Deutschland 3.png"
+  },
+  {
+    "pergunta": "Qual é o assunto da teoria da complexidade computacional?",
+    "resposta": "Category:Computational complexity theory"
+  },
+  {
+    "pergunta": "Qual é o identificador da teoria da complexidade computacional?",
+    "resposta": "p/c130160"
+  },
+  {
+    "pergunta": "Em qual área da ciência da computação a teoria da complexidade computacional está inserida?",
+    "resposta": "Computer science"
+  }
+]

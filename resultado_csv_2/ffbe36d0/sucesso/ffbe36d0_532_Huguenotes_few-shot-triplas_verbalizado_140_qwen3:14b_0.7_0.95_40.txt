@@ -1,0 +1,73 @@
+<think>
+Okay, let's tackle this query. The user wants 10 question-answer pairs about Huguenots based on the provided context and facts. The context mentions that Huguenots were French Protestants during the religious wars in the late 16th century, their exodus after the revocation of the Edict of Nantes in 1685, and their religious affiliation mainly being Calvinist. The facts include various images, Wikipedia templates, related topics like Scotch-Irish Americans, and locations such as Orange County and Staten Island named after them.
+
+First, I need to ensure that each question is unique and covers different aspects. Let me start with the main historical event: the revocation of the Edict of Nantes. That's a key point. Then, their religious affiliation as Calvinists. The exodus of 300,000 people is another important fact. 
+
+Looking at the facts, there's mention of places named after Huguenots, like Huguenot, Orange County, New York, and Staten Island. That can be a question. Also, their relation to the French Wars of Religion and the Alsace, Moselle, and Montbéliard regions where Lutherans were predominant.
+
+I should check for any other details. The facts mention the Camisard as a subgroup and the Edict of Nantes' revocation date. Also, their diaspora and the use of specific Wikipedia templates, but those might be too technical. Stick to the main historical points.
+
+Need to make sure not to repeat similar questions. For example, if one question is about the Edict of Nantes, another can be about the number of Huguenots leaving France. Also, mention their religious practices and the regions they were from. Maybe include their impact on other places like the US. 
+
+Avoid using the same structure. Some questions can ask for dates, others for locations, religious affiliations, and consequences. Let me list possible questions:
+
+1. What was the main reason for Huguenots leaving France?
+2. What religious group were most Huguenots part of?
+3. What event led to the exodus of Huguenots?
+4. Which regions in France had Huguenots predominantly as Lutherans?
+5. How many Huguenots left France after the Edict of Nantes was revoked?
+6. What treaty granted Huguenots religious freedom before its revocation?
+7. What is the significance of the Edict of Nantes?
+8. What are some places in the US named after Huguenots?
+9. What was the result of the revocation of the Edict of Nantes?
+10. What other religious group was present in the Alsace region?
+
+Now, check if all answers are in the provided context. The revocation date is 1685, Edict of Nantes was revoked, they were Calvinists, the regions mentioned are Alsace, Moselle, Montbéliard, the exodus number is 300,000, the Edict granted autonomy, places named in the US are Orange County, Staten Island. The result of revocation was persecution and exodus. The Camisard is a subgroup, but maybe that's too specific. 
+
+Wait, the user said to use only the context and facts provided. The facts include "Camisard possui hiperônimo Huguenots" which means Camisards are a subgroup of Huguenots. But the context doesn't mention Camisards, so maybe avoid that. Stick to the main points from the context.
+
+So, finalize the 10 pairs ensuring they cover different aspects without repetition. Each answer must be directly from the context or inferable. Avoid any markdown, just JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual foi a principal razão para a emigração dos huguenotes da França?",
+    "resposta": "a revogação do Édito de Nantes, em 18 de outubro de 1685,"
+  },
+  {
+    "pergunta": "Qual era a denominação religiosa predominante entre os huguenotes?",
+    "resposta": "calvinista"
+  },
+  {
+    "pergunta": "Quantos huguenotes deixaram a França após a revogação do Édito de Nantes?",
+    "resposta": "cerca de 300 000"
+  },
+  {
+    "pergunta": "Quais regiões da França tinham uma maioria de huguenotes alemães luteranos?",
+    "resposta": "Alsácia, Moselle e Montbéliard"
+  },
+  {
+    "pergunta": "Qual documento concedeu aos huguenotes autonomia religiosa, política e militar?",
+    "resposta": "o Édito de Nantes"
+  },
+  {
+    "pergunta": "Qual foi a data da revogação do Édito de Nantes?",
+    "resposta": "18 de outubro de 1685"
+  },
+  {
+    "pergunta": "O que aconteceu com os huguenotes após a revogação do Édito de Nantes?",
+    "resposta": "foram perseguidos e muitos emigraram da França"
+  },
+  {
+    "pergunta": "Quais são exemplos de localidades nos Estados Unidos nomeadas em homenagem aos huguenotes?",
+    "resposta": "Huguenot, Orange County, New York e Huguenot, Staten Island"
+  },
+  {
+    "pergunta": "Qual é o significado histórico do Édito de Nantes?",
+    "resposta": "garantiu aos huguenotes direitos religiosos e políticos durante o período das guerras religiosas"
+  },
+  {
+    "pergunta": "Como os huguenotes eram conhecidos em regiões como a Alsácia e a Moselle?",
+    "resposta": "como alemães luteranos"
+  }
+]

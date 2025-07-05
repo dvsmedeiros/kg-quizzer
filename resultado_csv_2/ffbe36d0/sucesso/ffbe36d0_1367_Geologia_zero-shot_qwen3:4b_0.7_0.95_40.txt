@@ -1,0 +1,104 @@
+<think>
+Okay, the user wants me to generate 10 objective question-answer pairs based on the context provided, which is "Geologia" (Geology). Let me start by recalling the main topics in geology that are typically covered in educational materials. 
+
+First, I need to ensure that each question is unique and covers different aspects of geology. Let me brainstorm possible topics: rock types, geological time scales, mineral properties, tectonic plates, fossil records, weathering processes, sedimentary layers, volcanic activity, earthquakes, and maybe something about the Earth's layers.
+
+Wait, the user mentioned that the answer must be explicitly or inferentially derived from the provided content. But since the context is just "Geologia", I need to make sure the questions are general enough but still specific. Let me think of 10 different areas.
+
+1. Rock types: Igneous, sedimentary, metamorphic. Maybe a question on their formation.
+2. Geological time scales: Eon, era, period, epoch. Maybe a question on the order.
+3. Minerals: Properties like hardness, color, crystal structure.
+4. Tectonic plates: Movement and effects like earthquakes.
+5. Fossils: Their significance in geology.
+6. Weathering: Types (physical, chemical, biological) and examples.
+7. Sedimentary rocks: Formation from sediments.
+8. Volcanic activity: Types of eruptions and their effects.
+9. Earth's layers: Crust, mantle, core.
+10. Earthquakes: Causes and effects.
+
+Now, I need to phrase each question in Portuguese, making sure they are clear and directly related to the content. Let me check each one to ensure they are distinct and cover different aspects. Also, the answers should be accurate and based on general geology knowledge, but since the context is just "Geologia", I can assume that the user is referring to standard geology facts.
+
+Wait, the user said "exclusivamente a partir do conteúdo fornecido". But the provided content is just "Geologia", so maybe the questions are about general geology topics. I need to make sure that each question is specific enough but not too narrow. For example, "Quais são os três tipos principais de rochas?" is a good question. 
+
+Let me start drafting them:
+
+1. Quais são os três tipos principais de rochas?
+2. Qual é a ordem correta dos períodos geológicos?
+3. Qual propriedade é usada para classificar minerais?
+4. Como se chamam as placas que movem-se na superfície da Terra?
+5. Qual é o significado dos fósseis na geologia?
+6. Quais são os três tipos de erosão?
+7. Como se formam as rochas sedimentares?
+8. Quais são os dois tipos principais de vulcões?
+9. Quais são as camadas da Terra?
+10. Qual é a principal causa de terremotos?
+
+Now, check if these are all different and cover various aspects. Yes, each question is about a different topic. Now, write the answers accordingly. For example, the answer to the first question is "Igneous, sedimentary e metamorphic." The second question is about the geological time scale, so the answer would be "Eon, era, período e época." 
+
+Wait, the user might have a specific order in mind, but I think the geological time scale is divided into eons, eras, periods, and epochs, so the answer should be in that order. 
+
+For the third question, the property is hardness, but the answer could be "dureza" or "propriedade de dureza." But in Portuguese, "dureza" is the correct term. 
+
+The fourth question is about tectonic plates, so the answer is "placas tectônicas."
+
+Fifth question: "Fósseis são evidências de vida antiga que ajudam a dataar a Terra e entender a evolução das espécies."
+
+Sixth question: "Erosão física, química e biológica."
+
+Seventh: "Formam-se a partir de sedimentos acumulados e compactados ao longo do tempo."
+
+Eighth: "Subterrâneo e de fissura."
+
+Ninth: "Coração, manto e crosta."
+
+Tenth: "Movimento das placas tectônicas."
+
+Wait, the tenth question's answer is "Movimento das placas tectônicas." But the question is "Qual é a principal causa de terremotos?" So the answer should be "Movimento das placas tectônicas."
+
+Yes, that's correct. Now, check if all answers are correct and match the questions. Also, ensure that each answer is explicit or inferable from the content. Since the content is just "Geologia", the answers are standard geology facts. 
+
+I think that's all. Now, structure them into a JSON array with exactly 10 pairs.
+</think>
+
+[
+  {
+    "pergunta": "Quais são os três tipos principais de rochas?",
+    "resposta": "Igneous, sedimentary e metamorphic"
+  },
+  {
+    "pergunta": "Qual é a ordem correta dos períodos geológicos?",
+    "resposta": "Eon, era, período e época"
+  },
+  {
+    "pergunta": "Qual propriedade é usada para classificar minerais?",
+    "resposta": "Dureza"
+  },
+  {
+    "pergunta": "Como se chamam as placas que movem-se na superfície da Terra?",
+    "resposta": "Placas tectônicas"
+  },
+  {
+    "pergunta": "Qual é o significado dos fósseis na geologia?",
+    "resposta": "Evidências de vida antiga que ajudam a dataar a Terra e entender a evolução das espécies"
+  },
+  {
+    "pergunta": "Quais são os três tipos de erosão?",
+    "resposta": "Erosão física, química e biológica"
+  },
+  {
+    "pergunta": "Como se formam as rochas sedimentares?",
+    "resposta": "Formam-se a partir de sedimentos acumulados e compactados ao longo do tempo"
+  },
+  {
+    "pergunta": "Quais são os dois tipos principais de vulcões?",
+    "resposta": "Subterrâneo e de fissura"
+  },
+  {
+    "pergunta": "Quais são as camadas da Terra?",
+    "resposta": "Coração, manto e crosta"
+  },
+  {
+    "pergunta": "Qual é a principal causa de terremotos?",
+    "resposta": "Movimento das placas tectônicas"
+  }
+]

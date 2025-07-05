@@ -1,0 +1,71 @@
+<think>
+Okay, the user wants me to generate 10 objective questions and answers based on the provided context about packet switching in computer networks. Let me start by carefully reading the context to understand the key points.
+
+The context explains that packet switching is a method where data is sent in packets, each of which is routed individually. It contrasts with circuit switching, which establishes a dedicated path. Packet switching is more efficient in using bandwidth, reduces latency, and increases robustness, but has issues with jitter and variable latency. There are two types: connectionless (datagram) and connection-oriented (virtual circuit). Examples given are ATM, Frame Relay, X.25 for the connection-oriented, and IP for connectionless.
+
+Now, I need to create 10 distinct questions that cover different aspects. Let me list possible areas: definitions, comparison with circuit switching, types of packet switching, examples, advantages, disadvantages, terms like jitter, multiplexing techniques, and maybe the people associated with it (Donald Davies, Paul Baran, etc.).
+
+Wait, the facts mention that Donald Davies, Paul Baran, Sharla Boehm, and W. David Sincoskie are known for packet switching. So maybe a question about who is associated with it. Also, the examples given in the context are ATM, Frame Relay, X.25 for connection-oriented, and IP for connectionless.
+
+Let me think of 10 different questions. Let's start with the definition. Then compare with circuit switching. Then the two types of packet switching. Examples of each type. Advantages of packet switching. Disadvantages. Jitter and latency. Multiplexing technique used. Who are the key people. And maybe the primary topic of the Wikipedia page.
+
+Now, I need to make sure each question is unique and covers different aspects. Also, the answers must be directly from the context. Let me check each point again to ensure they are covered.
+
+1. Definition of packet switching.
+2. Comparison with circuit switching.
+3. Connection-oriented (virtual circuit) example.
+4. Connectionless (datagram) example.
+5. Advantage of packet switching.
+6. Disadvantage of packet switching.
+7. Jitter in packet switching.
+8. Multiplexing technique used.
+9. Key people associated.
+10. Primary topic of the Wikipedia page.
+
+Yes, that's 10. Now, phrasing each question in Portuguese, making sure they are clear and based on the context. Also, check that the answers are correctly derived from the text. For example, the answer for the primary topic is "Packet switching" as per the Wikipedia entry. The examples for connection-oriented are ATM, Frame Relay, X.25, and for connectionless, IP. The advantages include better bandwidth utilization, reduced latency, increased robustness. Disadvantages include jitter, variable latency, complexity. Jitter is the variation in latency. Multiplexing technique is statistical time-division multiplexing. The people are Donald Davies, Paul Baran, etc. The primary topic is Packet switching.
+
+I need to make sure each answer is accurate and directly from the context. Also, check that the questions are not repeated. Let me structure them as per the JSON format, ensuring each pair is correctly formatted.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o principal paradigma de comunicação de dados em redes de computadores?",
+    "resposta": "Comutação de pacotes"
+  },
+  {
+    "pergunta": "Como a comutação de pacotes difere da comutação de circuitos?",
+    "resposta": "A comutação de pacotes envia pacotes individualmente, enquanto a comutação de circuitos estabelece uma ligação virtual dedicada entre os nós."
+  },
+  {
+    "pergunta": "Qual é uma característica principal da comutação de pacotes?",
+    "resposta": "Optimiza o uso da largura de banda da rede e reduz a latência"
+  },
+  {
+    "pergunta": "Quais são os dois tipos de comutação por pacotes mencionados no contexto?",
+    "resposta": "Com ligação (circuito virtual) e sem ligação (datagrama)"
+  },
+  {
+    "pergunta": "O que caracteriza a comutação por pacotes com ligação?",
+    "resposta": "Oferece garantia de entrega e ordem dos pacotes"
+  },
+  {
+    "pergunta": "Qual protocolo é um exemplo de comutação por pacotes sem ligação?",
+    "resposta": "Endereço IP"
+  },
+  {
+    "pergunta": "Qual é um problema associado à comutação de pacotes?",
+    "resposta": "Introduz jitter e atrasos variáveis devido à variação na qualidade de serviço"
+  },
+  {
+    "pergunta": "Qual técnica de multiplexagem é utilizada na comutação de pacotes?",
+    "resposta": "Multiplexagem temporal estatística"
+  },
+  {
+    "pergunta": "Quem é associado à invenção da comutação de pacotes?",
+    "resposta": "Donald Davies e Paul Baran"
+  },
+  {
+    "pergunta": "Qual é o tema principal da página da Wikipedia mencionada no contexto?",
+    "resposta": "Packet switching"
+  }
+]

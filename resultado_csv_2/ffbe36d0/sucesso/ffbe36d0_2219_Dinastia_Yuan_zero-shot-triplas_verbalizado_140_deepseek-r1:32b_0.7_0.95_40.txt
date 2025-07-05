@@ -1,0 +1,77 @@
+<think>
+Okay, I need to help the user generate 10 pairs of questions and answers based on the provided context about the Yuan dynasty. Let me start by understanding the task.
+
+First, the user wants a JSON output with exactly 10 entries. Each entry has a "pergunta" (question) and "resposta" (answer) in Portuguese. The questions should be varied, covering different aspects of the content without repeating similar ones. Also, each answer must be directly derived from the given facts.
+
+Looking at the context and facts provided, I can identify several key points: founder, establishment year, capital, currency, dissolution date, leaders, related events, cultural aspects like porcelain, important battles, and religious practices.
+
+I'll brainstorm potential questions around these areas. For example, who founded the Yuan dynasty? When was it established? What were its capitals? What currency did they use? Who was a notable leader besides Kublai Khan? What significant event led to its end?
+
+I also notice mentions of porcelain production in Jingdezhen, so that could be another question. The battles like Bạch Đằng and Yamen are important historical events associated with the Yuan dynasty.
+
+Religious aspects are mentioned too; the Yuan dynasty followed a variety of religions, which can form another question about their religious practices.
+
+I need to ensure each question is unique and covers different aspects without overlap. Let me list possible questions:
+
+1. Founder
+2. Establishment year
+3. Capital(s)
+4. Currency
+5. Key leader besides Kublai Khan
+6. End event (Battle of Yamen)
+7. Dissolution year
+8. Porcelain production location
+9. Important battle in Vietnam
+10. Religious practices
+
+Now, I'll translate these into Portuguese questions and find the corresponding answers from the facts.
+
+I should double-check each answer to ensure accuracy. For example, confirming that Shangdu was a capital along with Khanbaliq (Dadu). Also, verifying dates like 1271 for establishment and 1368 for dissolution.
+
+Finally, I'll structure the JSON accordingly, making sure each entry follows the specified format without any additional text or explanations.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem fundou a Dinastia Yuan?",
+    "resposta": "Kublai Khan"
+  },
+  {
+    "pergunta": "Em qual ano foi formalmente estabelecida a Dinastia Yuan?",
+    "resposta": "1271"
+  },
+  {
+    "pergunta": "Qual era a capital da Dinastia Yuan?",
+    "resposta": "Shangdu e Khanbaliq (Dadu)"
+  },
+  {
+    "pergunta": "Qual moeda era usada durante a Dinastia Yuan?",
+    "resposta": "Cash (moeda chinesa)"
+  },
+  {
+    "pergunta": "Quem foi um dos líderes importantes da Dinastia Yuan além de Kublai Khan?",
+    "resposta": "Toghon Temür"
+  },
+  {
+    "pergunta": "Qual evento marcou o fim da Dinastia Yuan?",
+    "resposta": "Batalha de Yamen"
+  },
+  {
+    "pergunta": "Em qual ano terminou a Dinastia Yuan?",
+    "resposta": "1368"
+  },
+  {
+    "pergunta": "Qual cidade foi um centro importante para a produção de porcelana durante a Dinastia Yuan?",
+    "resposta": "Jingdezhen"
+  },
+  {
+    "pergunta": "Qual batalha ocorreu entre a Dinastia Yuan e o Vietnã em 1288?",
+    "resposta": "Batalha de Bạch Đằng"
+  },
+  {
+    "pergunta": "Quais religiões eram praticadas durante a Dinastia Yuan?",
+    "resposta": "Budismo, Tengrismo Mongol, culto ao Céu Chinês, Xamanismo, Taoísmo, Confucionismo, Religião Popular Chinesa, Cristianismo Nestoriano, Cristianismo Romano, Judaísmo e Maniqueísmo Chinês"
+  }
+]
+```
