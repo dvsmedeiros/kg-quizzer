@@ -88,7 +88,7 @@ def reformat_filename(original_filename):
     return '_'.join(new_parts) + extension
 
 # Define the folder path INSIDE THE CONTAINER
-folder_path = '/opt/resultados/5ad0e5d5'
+folder_path = '/opt/resultados/d881d47f_e90feffe'
 
 # Get a list of all files in the folder
 files = os.listdir(folder_path)
@@ -99,7 +99,7 @@ files.sort(reverse=True)
 files = [f for f in files if f.endswith('.csv')]
 new_files_names = [reformat_filename(f) for f in files]
 
-folder_path_output = '/opt/metrics/data' # This is the directory for output INSIDE the container
+folder_path_output = '/opt/metrics' # This is the directory for output INSIDE the container
 
 # Loop through all files
 
@@ -116,7 +116,7 @@ for idx, file in enumerate(tqdm.tqdm(files)):
         # Write new data to a new csv file
 
         metrics_csv = [
-            ['Question', 'Answer', 'Q_brunet', 'Q_ttr', 'Q_yngve', 'Q_simple_word_ratio', 'A_brunet', 'A_ttr', 'A_yngve', 'A_simple_word_ratio']
+            ['Question', 'Answer', 'Q_yngve', 'Q_brunet', 'Q_ttr', 'Q_simple_word_ratio', 'A_yngve', 'A_brunet', 'A_ttr', 'A_simple_word_ratio']
         ]
 
         for idx, row in enumerate(reader):
@@ -128,12 +128,21 @@ for idx, file in enumerate(tqdm.tqdm(files)):
 
             try:
                 input = row[0].split(';')
-                question = input[0].replace('"', '')
-                answer = input[1].replace('"', '')
+                model = input[5].replace('"', '')
+                question = input[6].replace('"', '')
+                answer = input[7].replace('"', '')
+                # complexidade;completude;corretude;fluidez;qualidade_portugues;media_avaliacao;justificativa
+                complexity = input[8].replace('"', '')
+                completeness = input[9].replace('"', '')
+                correctness = input[10].replace('"', '')
+                fluency = input[11].replace('"', '')
+                portuguese_quality = input[12].replace('"', '')
+                evaluation = input[13].replace('"', '')
 
                 question_metrics = get_metrics(question).split(',')
                 answer_metrics = get_metrics(answer).split(',')
 
+                data.append(model)
                 data.append(question)
                 data.append(answer)
 
