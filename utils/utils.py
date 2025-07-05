@@ -4,6 +4,8 @@ import re
 import csv
 import pandas as pd
 import config
+import json
+from langchain_core.messages import HumanMessage, SystemMessage
 from transformers import AutoTokenizer
 from rdflib import Literal, BNode
 from rdflib import Graph, URIRef
@@ -71,31 +73,42 @@ def salvar_execucao_csv(id_execucao, execucao, pasta_saida="execucao"):
         if not arquivo_existe:
             writer.writerow([
                 "id_cenario",
-                "nome_cenario",
-                #"query_abstract",
-                #"query_triplas",
-                #"fewshot",
+                "nome_cenario",                
                 "triplas",
                 "prompt",
-                "numero_tokens",
-                "max_tokens"
+                "tokens_contexto",
+                "tokens_resposta",
+                "max_tokens",
+                "tempo_execucao"
             ])
 
         writer.writerow([
             execucao.get("id_cenario", ""),
-            csv_escape(execucao.get("nome_cenario", "")),
-            #csv_escape(execucao.get("query_abstract", "")),
-            #csv_escape(execucao.get("query_triplas", "")),
-            #csv_escape(execucao.get("fewshot", "")),
+            csv_escape(execucao.get("nome_cenario", "")),            
             csv_escape(execucao.get("triplas", "")),
             csv_escape(execucao.get("prompt", "")),
-            execucao.get("numero_tokens", ""),
-            execucao.get("max_tokens", "")
+            execucao.get("tokens_contexto", ""),
+            execucao.get("tokens_resposta", ""),
+            execucao.get("max_tokens", ""),
+            execucao.get("tempo_execucao", "")
         ])
 
     logger.info(f"Execução adicionada em: {caminho_arquivo}")
 
-def salvar_resposta_e_csv_extraido(id_execucao, id_cenario, cenario, resposta, pasta_saida="resultado"):
+def salvar_resposta(id_execucao, id_cenario, cenario, resposta, pasta_saida="resultado"):
+    logger = get_active_logger()
+    
+    pasta_saida += f"/{id_execucao}"
+    os.makedirs(pasta_saida, exist_ok=True)
+
+    nome_base = f"{id_execucao}_{id_cenario}_{cenario}"
+    caminho_txt = os.path.join(pasta_saida, f"{nome_base}.txt")
+    
+    with open(caminho_txt, "w", encoding="utf-8") as f:
+        f.write(resposta)
+    logger.info(f"Resposta salva em: {caminho_txt}")
+
+def _salvar_resposta_e_csv_extraido(id_execucao, id_cenario, cenario, resposta, pasta_saida="resultado"):
     logger = get_active_logger()
     pasta_saida += f"/{id_execucao}"
 
@@ -156,24 +169,24 @@ def extrair_csv_pergunta_resposta(texto):
 
     return "\n".join(linhas)
 
-def formatar_qa_em_string(qa_por_topico):
-    partes = []
-    #for i, item in enumerate(qa_por_topico, 1):
-    #    contexto = item.get("context", "").strip()
-    #    partes.append(f"\n{contexto}\n")
-    partes.append("pergunta;resposta")
-    for i, item in enumerate(qa_por_topico, 1):
+def formatar_qa_em_lista(qa_por_topico):
+    resultado = []
+
+    for item in qa_por_topico:
         for qa in item.get("qas", []):
             pergunta = qa.get("Pergunta", "").strip()
             resposta = qa.get("Resposta", "").strip()
 
             # Garante interrogação ao final da pergunta
-            if not pergunta.endswith("?"):
+            if pergunta and not pergunta.endswith("?"):
                 pergunta += "?"
 
-            partes.append(f"{pergunta};{resposta}")            
+            resultado.append({
+                "pergunta": pergunta,
+                "resposta": resposta
+            })
 
-    return "\n".join(partes)
+    return json.dumps(resultado, ensure_ascii=False, indent=2)
 
 # Mapeamento com aproximações seguras ou placeholders
 MAPA_MODELOS_TOKENIZERS = {    
@@ -235,6 +248,9 @@ MAPA_MODELOS_TOKENIZERS = {
 def contar_tokens_prompt(prompt: str, modelo_nome: str):
     logger = get_active_logger()
     modelo_lower = modelo_nome.lower()
+
+    config.MODELOS["llama3:latest"] = {"max_tokens": 8000, "tokenizer": "meta-llama/Meta-Llama-3-8B"}
+    config.MODELOS["mistral:latest"] = {"max_tokens": 8000, "tokenizer": "meta-llama/Meta-Llama-3-8B"}
 
     if modelo_lower not in config.MODELOS:
         logger.error(f"Modelo '{modelo_nome}' não encontrado em MODELOS.")
@@ -329,4 +345,14 @@ def coletar_predicados_filtrados(topicos, limit, idioma):
     return sorted(predicados_unicos)
 """
 
-
+def chamar_modelo(llm, prompt):
+    logger = get_active_logger()
+    messages = [        
+        HumanMessage(content=prompt),
+    ]
+    try:
+        resposta = llm.invoke(messages)
+        return resposta.content
+    except Exception as e:
+        logger.error(f"Erro ao chamar o modelo: {llm.model} - {e}")
+        return None

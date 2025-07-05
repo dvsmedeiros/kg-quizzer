@@ -127,6 +127,231 @@ pergunta;resposta
 **Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**
 """.strip()
 
+PROMPT_ZERO_SHOT_PT_JSON = """ 
+Você é um gerador de questões objetivas com base em contexto e fatos fornecidos. Gere pares de perguntas e respostas relevantes e corretas, exclusivamente a partir do conteúdo fornecido. Gere apenas os dados requeridos, sem adicionar observações, justificativas ou qualquer conteúdo não estruturado.
+
+## Objetivo
+Gerar exatamente **10 pares**, onde cada par deve conter:
+- **1 pergunta** relevante ao contexto
+- **1 resposta correta** 
+- **Idioma**: português
+
+## Formato de saída
+Retorne exclusivamente um JSON com a seguinte estrutura:
+
+```json
+[
+  {{
+    "pergunta": "<pergunta 1>",
+    "resposta": "<resposta 1>"
+  }},
+  {{
+    "pergunta": "<pergunta 2>",
+    "resposta": "<resposta 2>"
+  }},
+  ...
+  {{
+    "pergunta": "<pergunta 10>",
+    "resposta": "<resposta 10>"
+  }}
+]
+```
+
+## Regras
+- As perguntas devem ser **variadas** e **abranger diferentes aspectos** do conteúdo.
+- As perguntas devem ser **claramente relacionadas ao conteúdo** apresentado abaixo.
+- Cada pergunta deve ter uma **única resposta correta**, que esteja **explícita ou inferível** a partir do conteúdo.
+- **Não repita perguntas semelhantes.**
+
+### Contexto
+{topico}
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**
+""".strip()
+
+PROMPT_TRIPLAS_PT_JSON = """
+Você é um gerador de questões objetivas com base em contexto e fatos fornecidos. Gere pares de perguntas e respostas relevantes e corretas, exclusivamente a partir do conteúdo fornecido. Gere apenas os dados requeridos, sem adicionar observações, justificativas ou qualquer conteúdo não estruturado.
+
+## Objetivo
+Gerar exatamente **10 pares**, onde cada par deve conter:
+- **1 pergunta** relevante ao contexto
+- **1 resposta correta** 
+- **Idioma**: português
+
+## Formato de saída
+Retorne exclusivamente um JSON com a seguinte estrutura:
+
+```json
+[
+  {{
+    "pergunta": "<pergunta 1>",
+    "resposta": "<resposta 1>"
+  }},
+  {{
+    "pergunta": "<pergunta 2>",
+    "resposta": "<resposta 2>"
+  }},
+  ...
+  {{
+    "pergunta": "<pergunta 10>",
+    "resposta": "<resposta 10>"
+  }}
+]
+```
+
+## Regras
+- As perguntas devem ser **variadas** e **abranger diferentes aspectos** do conteúdo.
+- As perguntas devem ser **claramente relacionadas ao conteúdo** apresentado abaixo.
+- Cada pergunta deve ter uma **única resposta correta**, que esteja **explícita ou inferível** a partir do conteúdo.
+- **Não repita perguntas semelhantes.**
+
+### Contexto
+{abstract}
+
+### Fatos
+{triplas}
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**
+""".strip()
+
+PROMPT_FEW_SHOT_TRIPLAS_PT_JSON = """
+Você é um gerador de questões objetivas com base em contexto e fatos fornecidos. Gere pares de perguntas e respostas relevantes e corretas, exclusivamente a partir do conteúdo fornecido. Gere apenas os dados requeridos, sem adicionar observações, justificativas ou qualquer conteúdo não estruturado.
+
+## Objetivo
+Gerar exatamente **10 pares**, onde cada par deve conter:
+- **1 pergunta** relevante ao contexto
+- **1 resposta correta** 
+- **Idioma**: português
+
+## Formato de saída
+Retorne exclusivamente um JSON com a seguinte estrutura:
+
+```json
+[
+  {{
+    "pergunta": "<pergunta 1>",
+    "resposta": "<resposta 1>"
+  }},
+  {{
+    "pergunta": "<pergunta 2>",
+    "resposta": "<resposta 2>"
+  }},
+  ...
+  {{
+    "pergunta": "<pergunta 10>",
+    "resposta": "<resposta 10>"
+  }}
+]
+```
+
+## Regras
+- As perguntas devem ser **variadas** e **abranger diferentes aspectos** do conteúdo.
+- As perguntas devem ser **claramente relacionadas ao conteúdo** apresentado abaixo.
+- Cada pergunta deve ter uma **única resposta correta**, que esteja **explícita ou inferível** a partir do conteúdo.
+- **Não repita perguntas semelhantes.**
+
+### Contexto
+{abstract}
+
+### Fatos
+{triplas}
+
+### Exemplos
+{fewshot}
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**
+""".strip()
+
+PROMPT_EXTRACAO_JSON = """
+Você é um assistente especializado em extrair pares de perguntas e respostas de textos gerados por LLM. Seu objetivo é analisar o seguinte texto e extrair pares de perguntas e respostas no formato JSON sem alterar o conteúdo original.
+
+##perguntas e respostas geradas pelo LLM:
+{resposta}
+
+## Formato de saída
+Retorne exclusivamente um JSON com a seguinte estrutura:
+
+```json
+[
+{{
+    "pergunta": "<pergunta 1>",
+    "resposta": "<resposta 1>"
+}},
+{{
+    "pergunta": "<pergunta 2>",
+    "resposta": "<resposta 2>"
+}},
+...
+{{
+    "pergunta": "<pergunta 10>",
+    "resposta": "<resposta 10>"
+}}
+]
+```
+
+Exemplo 1:
+
+Entrada:
+<think>Este conteúdo deve ser ignorado</think>
+1. O que é a fotossíntese?
+Resposta: É o processo pelo qual as plantas produzem seu próprio alimento usando luz solar.
+
+2. Qual a função das mitocôndrias?
+Resposta: Elas são responsáveis pela produção de energia na célula.
+
+<think>Mais conteúdo irrelevante</think>
+
+Saída esperada:
+[
+  {{
+    "pergunta": "O que é a fotossíntese?",
+    "resposta": "É o processo pelo qual as plantas produzem seu próprio alimento usando luz solar."
+  }},
+  {{
+    "pergunta": "Qual a função das mitocôndrias?",
+    "resposta": "Elas são responsáveis pela produção de energia na célula."
+  }}
+]
+
+---
+
+Exemplo 2:
+
+Entrada:
+**Pergunta:** Qual a capital da França?
+**Resposta:** Paris.
+
+<think>Não incluir esse conteúdo</think>
+
+**Pergunta:** Quem escreveu Dom Quixote?
+**Resposta:** Miguel de Cervantes.
+
+Saída esperada:
+[
+  {{
+    "pergunta": "Qual a capital da França?",
+    "resposta": "Paris."
+  }},
+  {{
+    "pergunta": "Quem escreveu Dom Quixote?",
+    "resposta": "Miguel de Cervantes."
+  }}
+]
+
+## Instrução Final
+**Converta até 10 pares de perguntas e respostas válidas do texto informado, **faça correções e garanta uma estrutura válida do JSON, mas não altere o conteúdo**, não extraia os exemplos e caso não encontre nenhum par válido, retorne um JSON vazio.**
+""".strip()
+
+
 PREDICADOS_IRRELEVANTES = [
    "dbo:abstract",
     "dbo:wikiPageID",

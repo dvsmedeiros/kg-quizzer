@@ -19,9 +19,10 @@ from utils.utils import verbalizar_tripla
 from utils.utils import construir_grafo_filtrado
 from utils.utils import contar_tokens_prompt
 from utils.utils import salvar_execucao_csv
-from utils.utils import salvar_resposta_e_csv_extraido
+from utils.utils import salvar_resposta
 from utils.utils import get_logger
-from utils.utils import formatar_qa_em_string
+from utils.utils import formatar_qa_em_lista
+from utils.utils import chamar_modelo
 
 id_execucao = uuid.uuid4().hex[:8] 
 logger = get_logger(id_execucao)
@@ -180,7 +181,7 @@ def gerar_prompt(cenario, qtd_few_shot, limit, idioma):
     if tecnica == "few-shot-triplas":
         # Extrai few-shot do tópico fixo (pode ser ajustado futuramente)
         qas = consultar_qas(squad, 'resources/Squad.json', qtd_few_shot=qtd_few_shot)
-        fewshot = formatar_qa_em_string(qas)
+        fewshot = formatar_qa_em_lista(qas)
 
         logger.info(f"Few-shot: {len(qas)}")
 
@@ -217,34 +218,22 @@ def gerar_prompt(cenario, qtd_few_shot, limit, idioma):
 
 def gerar_prompt_texto(topico, abstract, triplas=None, fewshot=None, tipo='zero-shot'):
     if tipo == 'zero-shot':
-        return config.PROMPT_ZERO_SHOT_PT.format(
+        return config.PROMPT_ZERO_SHOT_PT_JSON.format(
             topico=topico            
         )
     elif tipo == 'zero-shot-triplas':
-        return config.PROMPT_TRIPLAS_PT.format(
+        return config.PROMPT_TRIPLAS_PT_JSON.format(
             abstract=abstract,
             triplas=triplas if triplas else '',            
         )
     elif tipo == 'few-shot-triplas':
-        return config.PROMPT_FEW_SHOT_TRIPLAS_PT.format(
+        return config.PROMPT_FEW_SHOT_TRIPLAS_PT_JSON.format(
             abstract=abstract,
             triplas=triplas if triplas else '',
             fewshot=fewshot if fewshot else ''
         )
     else:
         raise ValueError("Tipo de cenário inválido: use 'zero-shot' ou 'few-shot'")
-
-def chamar_modelo(llm, prompt):
-    messages = [
-        SystemMessage(content="You are a helpful assistant that generates quizzes."),
-        HumanMessage(content=prompt),
-    ]
-    try:
-        resposta = llm.invoke(messages)
-        return resposta.content
-    except Exception as e:
-        logger.error(f"Erro ao chamar o modelo: {llm.model} - {e}")
-        return None
 
 def gerar_cenarios(topicos, modelos, idioma):
     temperatures = [0.7]                                #["0.3", "0.7"]
@@ -388,10 +377,10 @@ def main():
             logger.info("-" * 80)
 
             prompt, fewshot, triplas = gerar_prompt(cenario, qtd_few_shot=10, limit=10000, idioma="pt")
-            num_tokens = contar_tokens_prompt(prompt, cenario['modelo'])
+            tokens_contexto = contar_tokens_prompt(prompt, cenario['modelo'])
             max_tokens = cenario["max_tokens"]
             
-            logger.info(f"modelo: {cenario['modelo']}, num_tokens: {num_tokens}, max_tokens: {max_tokens}")
+            logger.info(f"modelo: {cenario['modelo']}, tokens_contexto: {tokens_contexto}, max_tokens: {max_tokens}")
             
             llm = ChatOllama(
                 model=cenario["modelo"],
@@ -406,21 +395,22 @@ def main():
                 logger.error(f"Falha ao gerar resposta para o cenário {cenario['nome']}. Ignorando.")
                 continue
             
-            logger.info(f"Tempo de execução: {time.perf_counter() - start:.2f} segundos")
+            tokens_resposta = contar_tokens_prompt(resposta, cenario['modelo'])
             
+            logger.info(f"Tempo de execução: {time.perf_counter() - start:.2f} segundos")
+            logger.info(f"modelo: {cenario['modelo']}, tokens_contexto: {tokens_contexto}, tokens_resposta: {tokens_resposta}")
             execucao = {
                 "id_cenario": id_cenario,
-                "nome_cenario": cenario["nome"],
-                #"query_abstract": query_abstract(cenario['topico'], idioma="en"),
-                #"query_triplas": query_triplas_relacionadas(cenario['topico'], limit=10000, idioma="en"),
-                #"fewshot": fewshot,
+                "nome_cenario": cenario["nome"],                
                 "triplas": len(triplas),
                 "prompt": prompt,
-                "numero_tokens": num_tokens,
-                "max_tokens": max_tokens
+                "tokens_contexto": tokens_contexto,
+                "tokens_resposta": tokens_resposta,
+                "max_tokens": max_tokens,
+                "tempo_execucao": time.perf_counter() - start
             }
             salvar_execucao_csv(id_execucao, execucao)
-            salvar_resposta_e_csv_extraido(id_execucao, id_cenario, cenario['nome'], resposta)
+            salvar_resposta(id_execucao, id_cenario, cenario['nome'], resposta)
 
         logger.info(f"Tempo total de execução: {time.perf_counter() - start_total:.2f} segundos")
 
