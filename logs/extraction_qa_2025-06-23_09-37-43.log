@@ -1,0 +1,774 @@
+2025-06-23 09:37:44,711 - __main__ - INFO - Túnel SSH ativo em http://127.0.0.1:50288
+2025-06-23 09:37:44,722 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_1100_Fresno_few-shot-triplas_RDF_140_deepseek-r1:1.5b_0.7_0.95_40': EOL while scanning string literal (<unknown>, line 20)
+2025-06-23 09:37:54,453 - __main__ - INFO - Fallback resposta
+2025-06-23 09:37:54,460 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "Qual cidade é a quinta maior cidade da Califórnia?",
+    "resposta": "Fresno"
+  },
+  {
+    "pergunta": "Quanto é a distância entre Fresno e Los Angeles?",
+    "resposta": "350 km"
+  },
+  {
+    "pergunta": "O que o nome Fresno significa em espanhol?",
+    "resposta": "freixo"
+  },
+  {
+    "pergunta": "O que é destaque na bandeira da cidade de Fresno?",
+    "resposta": "folha de freixo"
+  },
+  {
+    "pergunta": "Como você pronuncia Fresno?",
+    "resposta": "/ˈfresnoʊ/ FREZ-noh),"
+  },
+  {
+    "pergunta": "A Ferrovia do Pacífico Central estabeleceu uma estação para sua nova linha em que ano?",
+    "resposta": "1872,"
+  },
+  {
+    "pergunta": "Quais foram as razões pelas quais os moradores se mudaram para a cidade de Fresno Station?",
+    "resposta": "a conveniência da ferrovia e concernsos com as inundações,"
+  },
+  {
+    "pergunta": "Em que ano Fresno se tornou uma cidade incorporada?",
+    "resposta": "1885."
+  },
+  {
+    "pergunta": "Quantos bondes a Fresno Traction Company operava em 1931?",
+    "resposta": "47 bondes"
+  },
+  {
+    "pergunta": "Que entidade desencadeou o crescimento da estação de Fresno?",
+    "resposta": "loja"
+  }
+]
+```
+2025-06-23 09:37:54,460 - __main__ - INFO - [ffbe36d0_1100_Fresno_few-shot-triplas_RDF_140_deepseek-r1:1.5b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:37:54,490 - __main__ - INFO - [ffbe36d0_1100_Fresno_few-shot-triplas_RDF_140_deepseek-r1:1.5b_0.7_0.95_40] Status: SUCESSO (10 válidos
+2025-06-23 09:37:54,508 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_1226_Comutação_de_pacotes_few-shot-triplas_verbalizado_140_deepseek-r1:1.5b_0.7_0.95_40': invalid syntax (<unknown>, line 24)
+2025-06-23 09:38:07,990 - __main__ - INFO - Fallback resposta
+2025-06-23 09:38:07,991 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "O que type de rede networking se baseia no conceito de packet switching?",
+    "resposta": "packet switching utiliza modelos de página wiki Template:Citation e methodology de Page Wiki Template:Use American English."
+  },
+  {
+    "pergunta": "Quanto foi introduzido o conceito de packet switching em tempo",
+    "resposta": " packet switching foi introduzido em 1991."
+  },
+  {
+    "pergunta": "O que tem a classificação Switching Adaptive Message?",
+    "resposta": "Switching Adaptive Message é denominado por adaptar a percorência das mensagens para seotolerar erros."
+  },
+  {
+    "pergunta": "Com quais métodos e tecnologias utiliza-se packet switching para manter a velocidade da rede?",
+    "resposta": "Utiliza técnicas de multiplexagem temporal estatística e reajustamento de conexões em caso de falhas."
+  },
+  {
+    "pergunta": "O que é creditado com o nome moderno do sistema que utiliza packet switching?",
+    "resposta": "Davies é creditedo por cunhar o nome moderno do conceito de packet switching e inspirar várias redes de computadores de pacotes em Europa."
+  },
+  {
+    "pergunta": "O que é caracterizado por Switching Adaptive Message?",
+    "resposta": "Está caracterizado por uma tax"a por unidade de tempo de conexão."
+  },
+  {
+    "pergunta": "Qual methodology utiliza-se em packet switching para manter a velocidade da rede",
+    "resposta": "Utiliza técnicas de multiplicação temporal estatística e reajustamento de conexões em caso de falhas."
+  },
+  {
+    "pergunta": "O que é o objetivo principal do sistema de packet switching?",
+    "resposta": "forncer um método eficiente e tolerante a falhas para distribuir mensagens de telecomunicações."
+  },
+  {
+    "pergunta": "Who is credited with developing Switching Adaptive Message Block?",
+    "resposta": "O Donald Davies é creditado por cunhar o nome moderno do conceito de packet switching e inspirar several computer networks from his work."
+  },
+  {
+    "pergunta": "As quais metodologias são utilizadas em packet switching para manter a velocidade da rede",
+    "resposta": "Utiliza técnicas de multiplicação temporal estatística e reajustamento de conexões em caso de falhas."
+  }
+]
+```
+2025-06-23 09:38:07,992 - __main__ - INFO - [ffbe36d0_1226_Comutação_de_pacotes_few-shot-triplas_verbalizado_140_deepseek-r1:1.5b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:38:07,995 - __main__ - ERROR - Erro ao decodificar o fallback JSON no cenário 'ffbe36d0_1226_Comutação_de_pacotes_few-shot-triplas_verbalizado_140_deepseek-r1:1.5b_0.7_0.95_40': Expecting ',' delimiter: line 24 column 49 (char 1230)
+2025-06-23 09:38:08,003 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_1466_Farmácia_few-shot-triplas_RDF_140_deepseek-r1:7b_0.7_0.95_40': invalid syntax (<unknown>, line 4)
+2025-06-23 09:38:20,605 - __main__ - INFO - Fallback resposta
+2025-06-23 09:38:20,607 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "De que palavra é retirada a palavra farmácia?",
+    "resposta": "de origem gregata, da palavra latina farmakon, significando \"medicação\" ou \"fármaco\"."
+  },
+  {
+    "pergunta": "Quais produtos foram vendidos em uma farmácia?",
+    "resposta": "ingredientes para medicamentos, cosméticos, tabaco e produto biológico."
+  },
+  {
+    "pergunta": "Qual é o trabalho principal dos farmacêuticos?",
+    "resposta": "Os farmacêuticos são profissionais de saúde que elaboram, distribuem e administram fármacos para矫治 patologias devidas a danos na saúde ou deficiências."
+  },
+  {
+    "pergunta": "Como os fármacos são preparados na farmácia?",
+    "resposta": "Os fármacos podem ser preparados em laboratórios ou, em algumas instalações, diretamente pela farmácia, após aScriptura e validação de concentração."
+  },
+  {
+    "pergunta": "Qual é a relação entre a farmácia e as drogas?",
+    "resposta": "A farmácia fornece um lugar de trabalho para os farmacêuticos que elaboram, testam e distribuem as drogas."
+  },
+  {
+    "pergunta": "Quais competências são necessárias para um novo farmacêutico?",
+    "resposta": "Competências como engenharia farmaceutica, química básica, medicina geral e conhecimento sobre fármacos."
+  },
+  {
+    "pergunta": "Como os fármacos podem ajudar na saúde?",
+    "resposta": "Os fármacos ajudam a corrigir ou ameliorar situações de saúde pânico, danos, deficiências ou excessos de nutrientes."
+  },
+  {
+    "pergunta": "Qual é o role dafarmácia emcommunity health?",
+    "resposta": "A farmácia ativa como um ponto de Entry para a saúde de comunidades, offering services through its pharmacists and stores."
+  },
+  {
+    "pergunta": "Como os fármacos são distribuídos na cidade?",
+    "resposta": "Os fármacos podem ser distribuídos por caminhões, vianos ou atropalhos, dependendo da demanda e do local."
+  }
+]
+```
+2025-06-23 09:38:20,607 - __main__ - INFO - [ffbe36d0_1466_Farmácia_few-shot-triplas_RDF_140_deepseek-r1:7b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:38:20,633 - __main__ - INFO - [ffbe36d0_1466_Farmácia_few-shot-triplas_RDF_140_deepseek-r1:7b_0.7_0.95_40] Status: SUCESSO (9 válidos
+2025-06-23 09:38:20,645 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_1624_Construction_zero-shot_deepseek-r1:7b_0.7_0.95_40': invalid syntax (<unknown>, line 12)
+2025-06-23 09:38:32,254 - __main__ - INFO - Fallback resposta
+2025-06-23 09:38:32,254 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "O que são os materiais comuns usados nos fondos de edifícios?",
+    "resposta": "Mquentes e concreto."
+  },
+  {
+    "pergunta": "Qual é um exemplo de umaesselaria que é amplamente utilizado no construction industry?",
+    "resposta": "Caminhões de madeira ou ferro."
+  },
+  {
+    "pergunta": "O que são as abas de madeira utilizadas em portas e janelas chamadas?",
+    "resposta": "As abas de madeira são conhecidas como \"chaves\" ou \"bolsotas\"."
+  },
+  {
+    "pergunta": "Qual é um exemplo de uma torre elevada que foi construída recentemente no mundo?",
+    "resposta": "The Burj Khalifa em Dubái."
+  },
+  {
+    "pergunta": "O que são os permis necessários para a construção de edifícios commercially na maioria das cidades?",
+    "resposta": "Permisos de construçao e inspeção de segurança."
+  },
+  {
+    "pergunta": "Qual é um exemplo de equipamento de construction fundamental para os construction workers?",
+    "resposta": "Mergulho, braços de Construction e guia de engolim enteiro." 
+  },
+  {
+    "pergunta": "O que é a função principal do arquiteuto nas project de construction?",
+    "resposta": "O arquiteuto planeja e designa as estruturas e spacializações."
+  },
+  {
+    "pergunta": "Qual é um estimado médio para construir uma casa média no mundo moderno?",
+    "resposta": "MILhões de dólares."
+  },
+  {
+    "pergunta": "O que são os principais desafios na construction de projets grandes e complexos?",
+    "resposta": "Tempo, recursos e segurança durante a execução."
+  },
+  {
+    "pergunta": "Qual é um exemplo de uma construção sustentável moderna que reduz o impacto ambiental?",
+    "resposta": "Edifícios com vidro limpo e usagem eficiente de agua."
+  }
+]
+```
+2025-06-23 09:38:32,255 - __main__ - INFO - [ffbe36d0_1624_Construction_zero-shot_deepseek-r1:7b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:38:32,263 - __main__ - INFO - [ffbe36d0_1624_Construction_zero-shot_deepseek-r1:7b_0.7_0.95_40] Status: SUCESSO (10 válidos
+2025-06-23 09:38:46,382 - __main__ - INFO - Fallback resposta
+2025-06-23 09:38:46,384 - __main__ - INFO - ```json
+[
+{
+    "pergunta": "Quais empresas estão listadas como pertencentes à indústria da construção?",
+    "resposta": "Skanska, Samsung Engineering, Multiplex, Skanska, Ssangyong Engineering and Construction, Sumitomo Corporation, Vector Foiltec, URS Corporation, Técnicas Reunidas, Skanska, entre outras."
+},
+{
+    "pergunta": "Qual é o valor máximo de GVA (Valor Agregado Bruto) da construção em 2018, de acordo com os dados fornecidos?",
+    "resposta": "1500."
+},
+{
+    "pergunta": "Quais são os hiperônimos relacionados à construção mencionados nos dados?",
+    "resposta": "Shipbuilding (Construção Navio), Theme Park World, Tropico 4, Quotient Ring, Pullback Bundle, Zariski Tangent Space, Lantern Tower, entre outros."
+},
+{
+    "pergunta": "Quais países estão associados aos dados de construção mencionados no modelo de página do DBpedia?",
+    "resposta": "Brasil (BRA), Japão (JAP), Rússia (RUS), Suécia (SWE)."
+},
+{
+    "pergunta": "Qual é o título da página de dados relacionada à construção no DBpedia?",
+    "resposta": "List of countries with the largest construction Gross Value Added in 2018"."
+},
+{
+    "pergunta": "Quais são os produtos associados à construção mencionados nos dados?",
+    "resposta": "United Farmers of Alberta tem produtos relacionados à construção."
+},
+{
+    "pergunta": "Quais empresas têm \"construção\" como uma de suas divisões?",
+    "resposta": "Larsen & Toubro."
+},
+{
+    "pergunta": "Quais são os modelos (templates) utilizados na página de construção do DBpedia?",
+    "resposta": "Template:BRA, Template:JAP, Template:RUS, Template:SWE, Template:Short_description, Template:Pp-pc1, Template:Other_uses."
+},
+{
+    "pergunta": "Quais empresas têm \"construção\" como serviço principal?",
+    "resposta": "Sumitomo Mitsui Construction, Sumitomo Corporation, Super Pisos of America."
+},
+{
+    "pergunta": "Quais são os exemplos de empresas que mencionam explicitamente a construção como indústria no DBpedia?",
+    "resposta": "Skanska, Samsung Engineering, Ssangyong Engineering and Construction, Vector Foiltec, URS Corporation, entre outras."
+}
+]
+```
+2025-06-23 09:38:46,384 - __main__ - INFO - [ffbe36d0_1669_Construction_zero-shot-triplas_RDF_140_qwen3:32b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex com 2090 pares)
+2025-06-23 09:38:46,392 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_1669_Construction_zero-shot-triplas_RDF_140_qwen3:32b_0.7_0.95_40': EOL while scanning string literal (<unknown>, line 20)
+2025-06-23 09:39:01,005 - __main__ - INFO - Fallback resposta
+2025-06-23 09:39:01,007 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "Quais empresas estão listadas como pertencentes à indústria da construção?",
+    "resposta": "Skanska, Samsung Engineering, Multiplex, Skanska, Ssangyong Engineering and Construction, Sumitomo Corporation, Vector Foiltec, URS Corporation, Técnicas Reunidas, Skanska, entre outras."
+  },
+  {
+    "pergunta": "Qual é o valor máximo de GVA (Valor Agregado Bruto) da construção em 2018, de acordo com os dados fornecidos?",
+    "resposta": "1500."
+  },
+  {
+    "pergunta": "Quais são os hiperônimos relacionados à construção mencionados nos dados?",
+    "resposta": "Shipbuilding (Construção Navio), Theme Park World, Tropico 4, Quotient Ring, Pullback Bundle, Zariski Tangent Space, Lantern Tower, entre outros."
+  },
+  {
+    "pergunta": "Quais países estão associados aos dados de construção mencionados no modelo de página do DBpedia?",
+    "resposta": "Brasil (BRA), Japão (JAP), Rússia (RUS), Suécia (SWE)."
+  },
+  {
+    "pergunta": "Qual é o título da página de dados relacionada à construção no DBpedia?",
+    "resposta": "List of countries with the largest construction Gross Value Added in 2018"."
+  },
+  {
+    "pergunta": "Quais são os produtos associados à construção mencionados nos dados?",
+    "resposta": "United Farmers of Alberta tem produtos relacionados à construção."
+  },
+  {
+    "pergunta": "Quais empresas têm \"construção\" como uma de suas divisões?",
+    "resposta": "Larsen & Toubro."
+  },
+  {
+    "pergunta": "Quais são os modelos (templates) utilizados na página de construção do DBpedia?",
+    "resposta": "Template:BRA, Template:JAP, Template:RUS, Template:SWE, Template:Short_description, Template:Pp-pc1, Template:Other_uses."
+  },
+  {
+    "pergunta": "Quais empresas têm \"construção\" como serviço principal?",
+    "resposta": "Sumitomo Mitsui Construction, Sumitomo Corporation, Super Pisos of America."
+  },
+  {
+    "pergunta": "Quais são os exemplos de empresas que mencionam explicitamente a construção como indústria no DBpedia?",
+    "resposta": "Skanska, Samsung Engineering, Ssangyong Engineering and Construction, Vector Foiltec, URS Corporation, entre outras."
+  }
+]
+```
+2025-06-23 09:39:01,007 - __main__ - INFO - [ffbe36d0_1669_Construction_zero-shot-triplas_RDF_140_qwen3:32b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:39:01,011 - __main__ - ERROR - Erro ao decodificar o fallback JSON no cenário 'ffbe36d0_1669_Construction_zero-shot-triplas_RDF_140_qwen3:32b_0.7_0.95_40': Expecting ',' delimiter: line 20 column 92 (char 1123)
+2025-06-23 09:39:01,018 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_1789_Escola_zero-shot-triplas_verbalizado_140_qwen2.5:3b_0.7_0.95_40': invalid syntax (<unknown>, line 35)
+2025-06-23 09:39:11,095 - __main__ - INFO - Fallback resposta
+2025-06-23 09:39:11,097 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "Qual tipo de escola é a Albert Einstein College of Medicine?",
+    "resposta": "Private school"
+  },
+  {
+    "pergunta": "O que significa quando uma instituição de ensino superior é chamada de faculdade ou universidade?",
+    "resposta": "Esse termo refere-se à instituição onde o ensino superior é ministrado, seja em faculdades ou universidades."
+  },
+  {
+    "pergunta": "Qual a designação na maioria dos países para um sistema educacional obrigatório para alunos de certas idades?",
+    "resposta": "Sistema formado"
+  },
+  {
+    "pergunta": "A escola que é uma instituição onde o ensino superior é ministrado se chama:",
+    "resposta": "faculdade ou universidade"
+  },
+  {
+    "pergunta": "Qual é um exemplo de um sistema educacional obrigatório em um país?",
+    "resposta": "Nenhuma das alternativas"
+  },
+  {
+    "pergunta": "O que significa quando uma escola é classificada como Private school?",
+    "resposta": "É uma instituição educacional financiada por recursos próprios, geralmente semelhante a um sistema privado."
+  },
+  {
+    "pergunta": "Qual é o nome comum para os níveis educacionais nos sistemas escolares?",
+    "resposta": "O ensino fundamental e O ensino médio"
+  },
+  {
+    "pergunta": "Em qual estado está localizado a Saint Francis High School (Wheaton, Illinois)?",
+    "resposta": "Illinois"
+  },
+  {
+    "pergunta": "Qual é o significado do termo \"discussão ou conferência\" que faz parte dos significados da escola?",
+    "resposta": "Significa discussão ou conferência."
+  }
+]
+```
+2025-06-23 09:39:11,098 - __main__ - INFO - [ffbe36d0_1789_Escola_zero-shot-triplas_verbalizado_140_qwen2.5:3b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:39:11,108 - __main__ - INFO - [ffbe36d0_1789_Escola_zero-shot-triplas_verbalizado_140_qwen2.5:3b_0.7_0.95_40] Status: SUCESSO (9 válidos
+2025-06-23 09:39:11,114 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_1794_Escola_few-shot-triplas_verbalizado_140_qwen3:30b_0.7_0.95_40': invalid syntax (<unknown>, line 4)
+2025-06-23 09:39:21,847 - __main__ - INFO - Fallback resposta
+2025-06-23 09:39:21,847 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "Qual era o significado histórico da palavra 'escola'?",
+    "resposta": "discussão ou conferência",
+    "mas também": "folga ou ócio"
+  },
+  {
+    "pergunta": "O que é uma escola no contexto atual?",
+    "resposta": "instituição concebida para o ensino de alunos sob a direção de professores"
+  },
+  {
+    "pergunta": "Como são chamadas as instituições que oferecem ensino superior?",
+    "resposta": "faculdade ou universidade"
+  },
+  {
+    "pergunta": "Quais são os dois níveis educacionais mencionados no contexto?",
+    "resposta": "ensino fundamental para crianças e o ensino médio para os adolescentes"
+  },
+  {
+    "pergunta": "Como os estudantes progredem em sistemas educacionais formais?",
+    "resposta": "por uma série de níveis escolares e sucessivos"
+  },
+  {
+    "pergunta": "Qual era o significado da 'folga ou ócio' na definição histórica da escola?",
+    "resposta": "um tempo ocioso onde era possível ter uma conversa interessante e educativa"
+  },
+  {
+    "pergunta": "Qual é o propósito principal das escolas hoje?",
+    "resposta": "ensino de alunos sob a direção de professores"
+  },
+  {
+    "pergunta": "Que tipo de sistemas educacionais a maioria dos países possui?",
+    "resposta": "sistemas formais de educação, que geralmente são obrigatórios"
+  },
+  {
+    "pergunta": "Que tipo de escolas são listadas nos fatos fornecidos?",
+    "resposta": "Private school"
+  },
+  {
+    "pergunta": "Qual é o termo para o nível educacional destinado a crianças?",
+    "resposta": "ensino fundamental"
+  }
+]
+```
+2025-06-23 09:39:21,847 - __main__ - INFO - [ffbe36d0_1794_Escola_few-shot-triplas_verbalizado_140_qwen3:30b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:39:21,851 - __main__ - INFO - [ffbe36d0_1794_Escola_few-shot-triplas_verbalizado_140_qwen3:30b_0.7_0.95_40] Status: SUCESSO (10 válidos
+2025-06-23 09:39:21,856 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_1969_Jacksonville_zero-shot-triplas_verbalizado_140_qwen2.5:3b_0.7_0.95_40': invalid syntax (<unknown>, line 17)
+2025-06-23 09:39:32,034 - __main__ - INFO - Fallback resposta
+2025-06-23 09:39:32,035 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "Qual é a cidade mais populosa do estado da Flórida?",
+    "resposta": "Jacksonville"
+  },
+  {
+    "pergunta": "Quando Jacksonville foi fundada?",
+    "resposta": "em 1791"
+  },
+  {
+    "pergunta": "Onde está localizado o EverBank Field, a sede da NFL em Jacksonville?",
+    "resposta": "Jacksonville, Florida"
+  },
+  {
+    "pergunta": "Qual é o apelido de Jacksonville, Florida?",
+    "resposta": "The River City", "The Bold New City of the South"
+  },
+  {
+    "pergunta": "Em que estado está localizado Jacksonville?",
+    "resposta": "Flórida"
+  },
+  {
+    "pergunta": "Qual é o número aproximado de habitantes em Jacksonville, Florida?",
+    "resposta": "950 mil"
+  },
+  {
+    "pergunta": "Onde fica a sede do University of Florida College of Pharmacy em Jacksonville, Florida?",
+    "resposta": "Jacksonville, Florida"
+  },
+  {
+    "pergunta": "Qual é o tipo de cidade de Jacksonville, Florida?",
+    "resposta": "Thing"
+  },
+  {
+    "pergunta": "Quem nasceu na cidade de Jacksonville, Flórida e também morreu nela?",
+    "resposta": "Dick Lundy (baseball), James McNair Baker, Bill Van Buren, Bob Adams (1930s pitcher)"
+  },
+  {
+    "pergunta": "Qual é o tipo do município de Jacksonville, Florida em termos populacionais?",
+    "resposta": "Location100027167"
+  }
+]
+```
+2025-06-23 09:39:32,035 - __main__ - INFO - [ffbe36d0_1969_Jacksonville_zero-shot-triplas_verbalizado_140_qwen2.5:3b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:39:32,041 - __main__ - ERROR - Erro ao decodificar o fallback JSON no cenário 'ffbe36d0_1969_Jacksonville_zero-shot-triplas_verbalizado_140_qwen2.5:3b_0.7_0.95_40': Expecting ':' delimiter: line 17 column 3 (char 473)
+2025-06-23 09:39:32,065 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_1978_Jacksonville_few-shot-triplas_verbalizado_140_qwen3:4b_0.7_0.95_40': invalid syntax (<unknown>, line 16)
+2025-06-23 09:39:41,395 - __main__ - INFO - Fallback resposta
+2025-06-23 09:39:41,396 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "Qual é a população de Jacksonville segundo o censo de 2020?",
+    "resposta": "950.000"
+  },
+  {
+    "pergunta": "Em qual condado reside Jacksonville?",
+    "resposta": "Duval"
+  },
+  {
+    "pergunta": "Qual é o nome do rio próximo a Jacksonville?",
+    "resposta": "St. Johns"
+  },
+  {
+    "pergunta": "Quais são os apelidos de Jacksonville?",
+    "resposta": "Jax", "The River City", "The Bold New City of the South"
+  },
+  {
+    "pergunta": "Qual é o nome da colônia francesa fundada em 1564?",
+    "resposta": "Fort Caroline"
+  },
+  {
+    "pergunta": "Qual é o nome da imagem associada a Jacksonville?",
+    "resposta": "LennyCurryJAX.jpg"
+  },
+  {
+    "pergunta": "Qual é o nome do ponte localizado em Jacksonville?",
+    "resposta": "Fuller Warren Bridge"
+  },
+  {
+    "pergunta": "Quem morreu em Jacksonville?",
+    "resposta": "J. William Stanton"
+  },
+  {
+    "pergunta": "Qual é o nome do histórico casa em Jacksonville?",
+    "resposta": "Napoleon Bonaparte Broward House"
+  },
+  {
+    "pergunta": "Onde foi realizado o campeonato da 2010 Houston Texans?",
+    "resposta": "Jacksonville, Florida"
+  }
+]
+```
+2025-06-23 09:39:41,396 - __main__ - INFO - [ffbe36d0_1978_Jacksonville_few-shot-triplas_verbalizado_140_qwen3:4b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:39:41,399 - __main__ - ERROR - Erro ao decodificar o fallback JSON no cenário 'ffbe36d0_1978_Jacksonville_few-shot-triplas_verbalizado_140_qwen3:4b_0.7_0.95_40': Expecting ':' delimiter: line 16 column 40 (char 407)
+2025-06-23 09:39:41,406 - __main__ - ERROR - [ffbe36d0_2449_Número_primo_zero-shot-triplas_RDF_140_deepseek-r1:1.5b_0.7_0.95_40] Erro inesperado: 'set' object has no attribute 'keys'
+2025-06-23 09:39:41,408 - __main__ - ERROR - [ffbe36d0_2476_Número_primo_few-shot-triplas_RDF_140_qwen3:14b_0.7_0.95_40] Erro inesperado: 'set' object has no attribute 'keys'
+2025-06-23 09:39:41,410 - __main__ - ERROR - [ffbe36d0_2479_Número_primo_zero-shot-triplas_RDF_140_qwen3:32b_0.7_0.95_40] Erro inesperado: 'set' object has no attribute 'keys'
+2025-06-23 09:39:41,418 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_2575_Rio_Reno_zero-shot-triplas_verbalizado_140_deepseek-r1:1.5b_0.7_0.95_40': invalid syntax (<unknown>, line 15)
+2025-06-23 09:39:52,802 - __main__ - INFO - Fallback resposta
+2025-06-23 09:39:52,817 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "O tipo de rio do Reno é um type body of water.",
+    "resposta": "O rio Reno é um tipo body of water."
+  },
+  {
+    "pergunta": "Quais fizes se possuem no rio Reno?",
+    "resposta": "Os fizes incluem fluvas e o muro da chão."
+  },
+  {
+    "pergunta": "Em quais mapas é o rio Reno representado? (1234)",
+    "resposta": "Em mapas, o rio Reno é representado em 1234 mapas diferentes."
+  },
+  {
+    "pergunta": "Quais o tipo de ria e into.br",
+    "resposta": "O type de ria do rhine e into br são body of water."
+  },
+  {
+    "pergunta": "Qual tipo de地理ia da cidade da Wüste é ria rhine",
+    "resposta": "Qua tipo de地理ia da cidade da wüste é ria rhine"
+  },
+  {
+    "pergunta": "O rio Reno possui quais as imagens representativas?",
+    "resposta": "O rio Reno possui imagens representativas em maas delta1, maas pullum vogelvlucht impressie stevie xinas 2016.jpg e maas castellum nigrumpullum vogelvlucht impressie stevie xinas 2016.jpg"
+  },
+  {
+    "pergunta": "O tipo de geographic location do rio Reno é o",
+    "resposta": "O tipo geographic location do rio Reno é o Rhine."
+  },
+  {
+    "pergunta": "Qual tipo de地理ia da cidade da Wüste é ria rhine",
+    "resposta": "Qua tipo de地理ia da cidade da wüste é ria rhine"
+  },
+  {
+    "pergunta": "O rio Reno possui quais o tópico principal?",
+    "resposta": "O rio Reno possui tópico principal Rhine."
+  }
+]
+```
+2025-06-23 09:39:52,819 - __main__ - INFO - [ffbe36d0_2575_Rio_Reno_zero-shot-triplas_verbalizado_140_deepseek-r1:1.5b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:39:52,836 - __main__ - INFO - [ffbe36d0_2575_Rio_Reno_zero-shot-triplas_verbalizado_140_deepseek-r1:1.5b_0.7_0.95_40] Status: SUCESSO (9 válidos
+2025-06-23 09:39:52,844 - __main__ - ERROR - [ffbe36d0_2591_Rio_Reno_zero-shot-triplas_verbalizado_140_granite3.1-dense:8b_0.7_0.95_40] Erro inesperado: 'list' object has no attribute 'strip'
+2025-06-23 09:39:52,851 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_2946_Varsóvia_few-shot-triplas_verbalizado_140_gemma3:12b_0.7_0.95_40': invalid syntax (<unknown>, line 20)
+2025-06-23 09:40:03,100 - __main__ - INFO - Fallback resposta
+2025-06-23 09:40:03,100 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "Em que século a história de Varsóvia remonta?",
+    "resposta": "final do século XIII"
+  },
+  {
+    "pergunta": "Qual rei transferiu a capital polonesa de Cracóvia para Varsóvia em 1569?",
+    "resposta": "Sigismundo III"
+  },
+  {
+    "pergunta": "Como Varsóvia foi descrita antes da Segunda Guerra Mundial?",
+    "resposta": "A \"Paris do Norte\""
+  },
+  {
+    "pergunta": "Qual evento levou à destruição do gueto de Varsóvia em 1943?",
+    "resposta": "Levante do Gueto de Varsóvia"
+  },
+  {
+    "pergunta": "Qual o título dado a Varsóvia devido à sua reconstrução após a Segunda Guerra Mundial?",
+    "resposta": ""Phoenix City""
+  },
+  {
+    "pergunta": "Qual é a principal atração turística do Centro Histórico de Varsóvia, declarado Patrimônio da Humanidade pela UNESCO?",
+    "resposta": "Coluna de Sigismundo"
+  },
+  {
+    "pergunta": "Qual a nacionalidade de Michał Kalecki?",
+    "resposta": "polaco"
+  },
+  {
+    "pergunta": "Onde está localizada a sede principal do Pilecki Institute?",
+    "resposta": "Varsóvia"
+  },
+  {
+    "pergunta": "Qual a temperatura média em maio na cidade de Varsóvia?",
+    "resposta": "14.8°C"
+  },
+  {
+    "pergunta": "Qual a nacionalidade de Stanislawa Angel-Engelówna?",
+    "resposta": "polaca"
+  }
+]
+```
+2025-06-23 09:40:03,100 - __main__ - INFO - [ffbe36d0_2946_Varsóvia_few-shot-triplas_verbalizado_140_gemma3:12b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:40:03,103 - __main__ - ERROR - Erro ao decodificar o fallback JSON no cenário 'ffbe36d0_2946_Varsóvia_few-shot-triplas_verbalizado_140_gemma3:12b_0.7_0.95_40': Expecting ',' delimiter: line 20 column 19 (char 641)
+2025-06-23 09:40:04,098 - __main__ - INFO - Fallback resposta
+2025-06-23 09:40:04,099 - __main__ - INFO - Por favor, forneça o texto gerado pelo LLM para que eu possa extrair os pares de perguntas e respostas no formato JSON solicitado.
+
+2025-06-23 09:40:04,099 - __main__ - ERROR - JSON não encontrado no cenário 'ffbe36d0_3079_Força_zero-shot-triplas_RDF_140_deepseek-r1:1.5b_0.7_0.95_40'.
+2025-06-23 09:40:04,101 - __main__ - ERROR - [ffbe36d0_3085_Força_zero-shot-triplas_RDF_140_deepseek-r1:7b_0.7_0.95_40] Erro inesperado: 'set' object has no attribute 'keys'
+2025-06-23 09:40:04,112 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_595_Motor_a_vapor_zero-shot-triplas_verbalizado_140_deepseek-r1:1.5b_0.7_0.95_40': invalid syntax (<unknown>, line 16)
+2025-06-23 09:40:19,303 - __main__ - INFO - Fallback resposta
+2025-06-23 09:40:19,314 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "O que é um máquina vapor?",
+    "resposta": "Uma máquina vapor é uma typeetica térmica que explora a pressão do vapor para explora a lnqueda."
+  },
+  {
+    "pergunta": "Qual tipo de engajamento é utilizada por machineas hydro estáticos?",
+    "resposta": "Usa o engajamento hidro estático para gerar trabalho diminuído da pressão do vapor e a lnqueda."
+  },
+  {
+    "pergunta": "Com que tipo de engajamento funcionam as maquinhas na table de above?",
+    "resposta": "Os maquinhares na table de above (AT-57) usam o engajamento hidro estático para explora a pressão do vapor."
+  },
+  {
+    "pergunta": "O que é o type de encaixa para uma máquina vapor?",
+    "resposta": "O type de encaixa para uma máquina vapor é o "watt steam pumping engine.jpg"."
+  },
+  {
+    "pergunta": "Qual tipo de engajamento é responsivo para maquinhas com pressão alta?",
+    "resposta": "Uma máquina com pressão alta e type de engajamento hidro estático pode ser usada."
+  },
+  {
+    "pergunta": "O que é o tipo de encaixa para uma máquina vapor com type de vela circular?",
+    "resposta": "Os types de encaixos para maquinhas circular são "Boat toque" e "Cascade engine"."
+  },
+  {
+    "pergunta": "Quão é functions do engajamento hidro estático para maquinhas térmicas?",
+    "resposta": "O engajamento hidro estático explora a pressão do vapor para gerar的动力 em forma de engadamento circular, diminuição na temperatura e encaixa linear."
+  },
+  {
+    "pergunta": "Qual tipo de encaixa é responsivo para uma máquina térmica com type de vela circular?",
+    "resposta": "Os types de encaixos responsivos são "Boat toque" e "Cascade engine"."
+  },
+  {
+    "pergunta": "Qual tipo de engajamento é responsivo para maquinhas com pressão alta e type de vela linear?",
+    "resposta": "O engajamento hidro estático explora a pressão do vapor para gerar的动力 em forma de encaixa circular, diminuição na temperatura e encaixa linear."
+  },
+  {
+    "pergunta": " qual tipo de engajamento é responsivo para maquinhas com pressão alta e type de vela circular?",
+    "resposta": "O engajamento hidro estático explora a pressão do vapor para gerar的动力 em forma de encaixa circular, diminuição na temperatura e encaixa linear."
+  }
+]
+```
+2025-06-23 09:40:19,314 - __main__ - INFO - [ffbe36d0_595_Motor_a_vapor_zero-shot-triplas_verbalizado_140_deepseek-r1:1.5b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:40:19,334 - __main__ - ERROR - Erro ao decodificar o fallback JSON no cenário 'ffbe36d0_595_Motor_a_vapor_zero-shot-triplas_verbalizado_140_deepseek-r1:1.5b_0.7_0.95_40': Expecting ',' delimiter: line 16 column 64 (char 741)
+2025-06-23 09:40:19,341 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_714_Oxygen_few-shot-triplas_verbalizado_140_qwen3:30b_0.7_0.95_40': invalid syntax (<unknown>, line 35)
+2025-06-23 09:40:29,493 - __main__ - INFO - Fallback resposta
+2025-06-23 09:40:29,493 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "Qual é o número atômico do oxigênio?",
+    "resposta": "8."
+  },
+  {
+    "pergunta": "Em qual grupo da tabela periódica o oxigênio é classificado?",
+    "resposta": "calcogénios."
+  },
+  {
+    "pergunta": "Qual é a forma diatómica do oxigênio em condições normais?",
+    "resposta": "O2."
+  },
+  {
+    "pergunta": "Que porcentagem do ar atmosférico é composta pelo oxigênio?",
+    "resposta": "20,8%."
+  },
+  {
+    "pergunta": "Quem descobriu o oxigênio em 1773?",
+    "resposta": "Carl Wilhelm Scheele."
+  },
+  {
+    "pergunta": "Qual é a principal função do oxigênio na respiração celular?",
+    "resposta": "Componente da água, constituinte das formas de vida."
+  },
+  {
+    "pergunta": "Por que o oxigênio precisa ser constantemente renovado na atmosfera?",
+    "resposta": "Porque é reativo e necessário para a fotossíntese."
+  },
+  {
+    "pergunta": "Qual é a propriedade principal do oxigênio como agente químico?",
+    "resposta": "Formar compostos com facilidade."
+  },
+  {
+    "pergunta": "De onde vem o nome "oxigênio"?",
+    "resposta": "Do grego, significando "formador de ácidos"."
+  },
+  {
+    "pergunta": "Qual é uma aplicação comum do oxigênio em indústrias?",
+    "resposta": "Produção de aço e soldadura."
+  }
+]
+```
+2025-06-23 09:40:29,494 - __main__ - INFO - [ffbe36d0_714_Oxygen_few-shot-triplas_verbalizado_140_qwen3:30b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:40:29,513 - __main__ - ERROR - Erro ao decodificar o fallback JSON no cenário 'ffbe36d0_714_Oxygen_few-shot-triplas_verbalizado_140_qwen3:30b_0.7_0.95_40': Expecting ',' delimiter: line 35 column 38 (char 1043)
+2025-06-23 09:40:29,557 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_745_Crise_petrolífera_de_1973_zero-shot-triplas_RDF_140_deepseek-r1:7b_0.7_0.95_40': invalid syntax (<unknown>, line 20)
+2025-06-23 09:40:47,590 - __main__ - INFO - Fallback resposta
+2025-06-23 09:40:47,591 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "Quando foi iniciada a crise petrolífera de 1973?",
+    "resposta": "A crise petrolífera de 1973 foi iniciada em outubro de 1973 com a declaração de um embargo petrolífero por parte da OPAEP."
+  },
+  {
+    "pergunta": "Qual foi o efeito principal do oil shock na economia dos EUA?",
+    "resposta": "O efeito principal foi altos preços de petróleo que afetaram economicamente a economia dos EUA, com os preços subindo de US$3 a US$12 por barril."
+  },
+  {
+    "pergunta": "Qual foi o país que fechou a crise petrolífera de 1973 e com quais Estados Unidos estiveram envolvidos?",
+    "resposta": "A crise petrolífera de 1973 foi fechada em março de 1974, com os Estados Unidos sendo um dos países envolvidos."
+  },
+  {
+    "pergunta": "Qual foi a razão principal para a declaração do embargo petrolífero na Guerra de Yom Kippur?",
+    "resposta": "A razão principal foi que os Estados Unidos e Canadá apoiavam Israel, e os membros da OPAEP consideravam a cooperação com Israel inválida."
+  },
+  {
+    "pergunta": "Qual foi o impacto global do oil shock de 1973?",
+    "resposta": "O impacto global incluiu altos preços de petróleo, efeitos sociais e econômicos na globalização, e uma crise \"choque do petróleo\" conhecida como o \"primeiro choque do petróleo\"."
+  },
+  {
+    "pergunta": "Qual foi a importância da crise petrolífera de 1973 para os Estados Unidos?",
+    "resposta": "Para os Estados Unidos, a crise petrolífera de 1973 representou um desafio político e econômico fundamental, influenciando políticas de energia e economia."
+  },
+  {
+    "pergunta": "Qual foi o role da OPAEP na crise petrolífera de 1973?",
+    "resposta": "A OPAEP declarou um embargo petrolífero como reação contra a cooperação com Israel, visando proteger os negócios dos países envolvidos."
+  },
+  {
+    "pergunta": "Qual foi o efeito da crise petrolífera de 1973 na economia do mundo inteiro?",
+    "resposta": "O efeito foi altos preços de petróleo que causou instabilidade econômica, envolvimento em conflitos energéticos e um impacto negativo na globalização."
+  },
+  {
+    "pergunta": "Qual foi o país com maior impacto financeiro da crise petrolífera de 1973?",
+    "resposta": "O impacto financeiro foi mais significativo nos EUA, Japão e Canadá, enquanto os países como o Reino Unido e a Alemanha tiveram maiores desafios no longo prazo."
+  },
+  {
+    "pergunta": "Qual foi o efeito da crise petrolífera de 1973 na produção de petróleo global?",
+    "resposta": "O efeito foi uma redução na produção de petróleo no mundo inteiro, causando altos preços e descontinuação de produção por several países."
+  }
+]
+```
+2025-06-23 09:40:47,592 - __main__ - INFO - [ffbe36d0_745_Crise_petrolífera_de_1973_zero-shot-triplas_RDF_140_deepseek-r1:7b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:40:47,604 - __main__ - INFO - [ffbe36d0_745_Crise_petrolífera_de_1973_zero-shot-triplas_RDF_140_deepseek-r1:7b_0.7_0.95_40] Status: SUCESSO (10 válidos
+2025-06-23 09:40:47,623 - __main__ - ERROR - Falha ao decodificar JSON no cenário 'ffbe36d0_954_Amazon_rainforest_few-shot-triplas_RDF_140_qwen3:8b_0.7_0.95_40': invalid syntax (<unknown>, line 27)
+2025-06-23 09:41:04,770 - __main__ - INFO - Fallback resposta
+2025-06-23 09:41:04,770 - __main__ - INFO - ```json
+[
+  {
+    "pergunta": "Qual é o papel principal da floresta amazônica no clima global?",
+    "resposta": "A floresta amazônica atua como uma das maiores reservas de carbono do planeta, absorvendo grandes quantidades de dióxido de carbono e influenciando os padrões climáticos globais."
+  },
+  {
+    "pergunta": "Quantas comunidades indígenas são estimadas para viver na região da Amazônia?",
+    "resposta": "Estima-se que mais de 400 comunidades indígenas vivam na região da Amazônia, com mais de 80 línguas faladas."
+  },
+  {
+    "pergunta": "Qual é a contribuição da Amazônia para a produção de oxigênio da Terra?",
+    "resposta": "A Amazônia é responsável por cerca de 10% da produção global de oxigênio, apesar de ocupar apenas 5% da superfície terrestre."
+  },
+  {
+    "pergunta": "Quais países, além do Brasil, fazem parte da bacia da Amazônia?",
+    "resposta": "A bacia da Amazônia abrange nove países: Brasil, Peru, Colômbia, Venezuela, Equador, Bolívia, Guiana, Suriname e Guiana Francesa."
+  },
+  {
+    "pergunta": "Qual é a importância da Amazônia em termos de armazenamento de carbono?",
+    "resposta": "A Amazônia armazena cerca de 90 bilhões de toneladas de carbono em suas árvores e solos, sendo crucial para a mitigação das mudanças climáticas."
+  },
+  {
+    "pergunta": "Como a Amazônia sustenta a biodiversidade global?",
+    "resposta": "A Amazônia abriga 10% da biodiversidade terrestre do planeta, incluindo milhões de espécies de plantas, animais e microorganismos."
+  },
+  {
+    "pergunta": "Quais são os principais desafios para a preservação da Amazônia?",
+    "resposta": "A Amazônia enfrenta ameaças como desmatamento, mudanças climáticas, expansão agrícola e mineração, que colocam em risco sua integridade ecológica."
+  },
+  {
+    "pergunta": "Qual é a porcentagem da Amazônia localizada no Brasil?",
+    "resposta": "O Brasil abriga cerca de 60% da floresta amazônica, sendo o maior país em termos de área da bacia."
+  },
+  {
+    "pergunta": "Qual é o papel da Amazônia na regulação do ciclo da água global?",
+    "resposta": "A Amazônia atua como uma \"fábrica de nuvens\", gerando 20% das precipitações no continente sul-americano e influenciando os ciclos hidrológicos globais."
+  },
+  {
+    "pergunta": "Quais são algumas das espécies vegetais exclusivas da Amazônia?",
+    "resposta": "A Amazônia abriga espécies como a bauhinia, a copaíba, o árvore de seringa e a ipê-amarelo, muitas das quais são únicas ao ecossistema."
+  }
+]
+```
+2025-06-23 09:41:04,771 - __main__ - INFO - [ffbe36d0_954_Amazon_rainforest_few-shot-triplas_RDF_140_qwen3:8b_0.7_0.95_40] Status: SUCESSO (extraído via fallback regex)
+2025-06-23 09:41:04,790 - __main__ - INFO - [ffbe36d0_954_Amazon_rainforest_few-shot-triplas_RDF_140_qwen3:8b_0.7_0.95_40] Status: SUCESSO (10 válidos
+2025-06-23 09:41:04,791 - __main__ - INFO - 
+===== RESUMO FINAL (DIRETÓRIO) =====
+2025-06-23 09:41:04,791 - __main__ - INFO - SUCESSO: 8 arquivos (38.10%)
+2025-06-23 09:41:04,791 - __main__ - INFO - WARNING: 0 arquivos (0.00%)
+2025-06-23 09:41:04,791 - __main__ - INFO - ERRO: 13 arquivos (61.90%)
+2025-06-23 09:41:04,791 - __main__ - INFO - DESCARTADO: 0 arquivos (0.00%)
+2025-06-23 09:41:04,791 - __main__ - INFO - TOTAL: 21 arquivos
+
+2025-06-23 09:41:04,794 - __main__ - INFO - Resumo detalhado salvo em: resultado_csv_4/ffbe36d0/resumo_status.csv
