@@ -1,6 +1,0 @@
-pergunta;resposta
-But looking at the data; the line for "Geology" has multiple predicates. For example:
-But the exact parsing needs to handle the commas and semicolons correctly. Also; the last object in each predicate might have a semicolon or a period.
-1. For each line; remove the trailing period.
-3. For each subject; split into predicates and objects.
-"http://dbpedia.org/resource/Anna_Karenina";"http://db

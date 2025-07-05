@@ -1,8 +1,0 @@
-pergunta;resposta
-2. For each URI; list the values of each property.
-Each of these properties may have multiple values; so I need to join them with a delimiter like semicolon or comma.
-Now; looking at the data:
-- The first entry is `<http://dbpedia.org/resource/Islamism>`; which has multiple properties. The other entries are like `<http://dbpedia.org/resource/...>` with properties pointing to "Islamism".
-Alternatively; the user might want a CSV that lists all the properties of the "Islamism" entry. The example response shows the "Islamism" URI with its properties.
-For the "Islamism" URI; the values would be:
-- Date: April 2022; June 2022

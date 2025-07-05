@@ -1,9 +1,0 @@
-pergunta;resposta
-Now; thinking about the structure of the CSV output:
-1. The first row will be the headers; which are the predicates.
-I also need to ensure that all data is correctly converted without missing any triples. That means I'll have to go through each line carefully and make sure none are overlooked; especially if there are many lines in the RDF data.
-7. Output the CSV with the correct structure; matching the example provided.
-To convert the RDF data into a CSV format; we need to extract the triples and organize them accordingly. The CSV will have headers representing predicates and rows for their corresponding objects. Here's how it can be structured:
-| Commander             | Jean Erdman; Baron Dieskau |
-| Commander             | Jeffery Amherst; 1st Baron Amherst |
-This CSV structure effectively captures the properties and their values; providing a clear and organized view of the data.

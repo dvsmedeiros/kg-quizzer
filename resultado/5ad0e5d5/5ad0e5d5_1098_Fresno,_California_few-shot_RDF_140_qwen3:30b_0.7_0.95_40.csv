@@ -1,9 +1,0 @@
-pergunta;resposta
-Okay; I need to generate a CSV file based on the provided data. Let me start by understanding the structure of the data given. 
-- "Fresno; California" a "http://dbpedia.org/class/yago/Area108497294"
-- "Fresno; California" a "http://schema.org/City"
-Next; I'll parse each line. The lines are in the format:
-<http://dbpedia.org/resource/Fresno;_California> a <http://dbpedia.org/class/yago/Area108497294> .
-- Subject: <http://dbpedia.org/resource/Fresno;_California>
-- Subject: <http://dbpedia.org/resource/Fresno;_California>
-I should also note that some objects are literals (like "300.438620798976") and others are URIs. The CSV should handle both; possibly with quotes around literals.

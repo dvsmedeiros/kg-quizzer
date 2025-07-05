@@ -1,7 +1,0 @@
-pergunta;resposta
-Terry_L._Fields" ns1:birthPlace <http://dbpedia.org/resource/United_States> ; ns2:birthPlace <http://dbpedia.org/resource/United_States> .
-   a. Extract the subject (everything before the first ";").
-Wait, no. The subject is the first part of the line. For example, "Jacksonville,_Florida" a <...> ; ... 
-So, the subject is "Jacksonville,_Florida", and the rest is "a <...> ; ...".
-([a-zA-Z0-9_]+):([^;]+)
-Terry_L._Fields" ns1:birthPlace <http://dbpedia.org/resource/United_States> ; ns2:birthPlace <http://dbpedia.org/resource/United_States> .

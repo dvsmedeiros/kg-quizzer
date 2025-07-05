@@ -1,9 +1,0 @@
-pergunta;resposta
-Primeiro; vou identificar as colunas que precisam estar no CSV. Parece que temos:
-7. **Data de Fundação**: Data em formatos variáveis; precisando ser transformadas.
-13. **Coordenadas Geográficas**: Repetidas; talvez seja um erro de digitação.
-A data de fundação está em formato de data; mas sem a formatação explicita. Vou precisar transformá-la para o formato "YYYY-MM-DD" ou manter como string se não for possível.
-No que diz respeito ao governo tipo e à liderança política; preciso verificar se os valores correspondem adequadamente e se são consistentes em todo o CSV.
-Finalmente; vou estruturar o CSV com as seguintes colunas:
-Depois; popularei cada linha com os respectivos dados de cada entrada.
-Vou começar com a primeira entrada e seguir em ordem. Caso haja erros ou informações insuficientes; preciso decidir como tratá-las (pode ser ignorar ou preencher com "N/A").

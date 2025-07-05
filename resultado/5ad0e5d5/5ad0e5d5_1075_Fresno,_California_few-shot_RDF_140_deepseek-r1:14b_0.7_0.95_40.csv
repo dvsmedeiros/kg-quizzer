@@ -1,5 +1,0 @@
-pergunta;resposta
-Another thing to consider is how to represent geographical coordinates. The RDF includes a point with latitude and longitude; which I can split into two separate columns for latitude and longitude in the CSV. This will make it easier to use this information for mapping or other applications.
-In summary; my approach involves:
-1. **Identificação do Assunto:** O assunto é consistentemente `http://dbpedia.org/resource/Fresno;_California` em todas as linhas.
-2. **Separação de Colunas:** As colunas são separadas por vírgula (`; `).

@@ -1,2 +1,0 @@
-pergunta;resposta
-I need to parse each line, extract the subject, predicate, and object, and then write them into the CSV. The challenge is ensuring that all the data is correctly formatted and that there are no missing fields. Also, some lines might have multiple predicates and objects, so I need to check for that. For example, the line starting with "<http://dbpedia.org/resource/Pharmacy> a ns2:Work ;" has multiple predicates and objects separated by semicolons. Each of those should be split into separate rows.

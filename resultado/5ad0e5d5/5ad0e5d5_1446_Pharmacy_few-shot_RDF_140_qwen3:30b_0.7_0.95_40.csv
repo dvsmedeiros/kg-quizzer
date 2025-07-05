@@ -1,9 +1,0 @@
-pergunta;resposta
-Now; I'll process each line:
-But wait; the user's data has multiple lines under "Facts". I need to make sure I capture all of them.
-Then; each subsequent row is the parsed triple.
-But I need to make sure that the URIs are properly quoted if necessary; and the objects with quotes are kept as is.
-- Some objects have quotes; like "Pharmacist..." which should be in quotes in the CSV.
-For example; the line:
-In CSV; this would be:
-I need to make sure that all the lines are correctly parsed and that the CSV is properly formatted with commas separating the columns; and quotes around the fields if needed.
