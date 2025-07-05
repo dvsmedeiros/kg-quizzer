@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Volume aproximado de tokens processados nos experimentos, considerando geração e avaliação dos pares de pergunta e resposta. Os valores foram obtidos por contadores associados aos LLMs utilizados~\cite{tabela:modelos_utilizados}. No total, foram processados mais de 123 milhões de tokens, com média ponderada de 1.764 tokens por interação.}
+\label{tab:custo_computacional}
+\small
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+\textbf{Etapa} & \textbf{Instâncias} & \textbf{Tokens Contexto} & \textbf{Tokens Resposta} & \textbf{Total Tokens} & \textbf{Média por Instância} \\
+\midrule
+Geração     & 3.150    & 9.524.181   & 3.276.792   & 12.800.973   & 4.064 \\
+Avaliação   & 31.737   & 105.179.727 & 5.075.341   & 110.255.068  & 3.474 \\
+\midrule
+\textbf{Total Geral} & \textbf{69.774} & \textbf{114.703.908} & \textbf{8.352.133} & \textbf{123.056.041} & \textbf{1.764} \\
+\bottomrule
+\end{tabular}
+\end{table}
