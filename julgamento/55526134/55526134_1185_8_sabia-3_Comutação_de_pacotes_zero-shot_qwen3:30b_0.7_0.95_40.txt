@@ -1,0 +1,10 @@
+{
+  "pergunta": "O que acontece se um pacote for perdido durante a transmissão?",
+  "resposta": "O protocolo TCP detecta a perda e solicita a retransmissão do pacote, enquanto o UDP não garante a entrega.",
+  "complexidade": 3,
+  "completude": 4,
+  "corretude": 5,
+  "fluidez": 4,
+  "qualidade_portugues": 4,
+  "justificativa": "A pergunta exige compreensão dos protocolos de transmissão. A resposta é quase totalmente completa, pois explica o comportamento dos protocolos TCP e UDP, mas poderia detalhar mais sobre as consequências específicas da perda no contexto de cada protocolo. A corretude é total e a fluidez é boa, embora a resposta possa ser um pouco mais natural. A qualidade do português é adequada, com apenas alguns ajustes possíveis para maior clareza."
+}
