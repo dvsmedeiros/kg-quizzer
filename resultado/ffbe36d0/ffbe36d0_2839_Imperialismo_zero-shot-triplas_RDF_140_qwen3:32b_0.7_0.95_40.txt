@@ -1,0 +1,69 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by understanding the context. The context explains what an empire is, mentioning it's a large territory with diverse nations governed by a sovereign, often through conquest. The center (metropolis) controls the peripheries. The term "Imperium Romanum" is highlighted as the Latin term for the Roman Empire's territory.
+
+Looking at the facts, there's a lot of RDF data linking various entities to "Imperialism" through different properties like ideology, motive, subject, etc. For example, some political parties, books, genocides, and historical figures are connected to imperialism. The page uses various Wikipedia templates and is categorized under subjects like Authoritarianism, History of Colonialism, etc. There are also images related to different empires.
+
+Now, I need to create 10 questions. Each question must be in Portuguese, related to the content, have a single correct answer, be varied, and not repeat. Let me list possible topics:
+
+1. Definition of an empire from the context.
+2. Characteristics of an empire (center vs. periphery).
+3. Origin of the term "imperium."
+4. The Roman Empire example.
+5. Imperialism as a category of analysis.
+6. The role of the metropolis in an empire.
+7. Mention of imperialism in political parties (like Canadian Party).
+8. Books or authors associated with imperialism (e.g., Culture and Imperialism).
+9. Historical events motivated by imperialism (e.g., Circassian genocide).
+10. Categories associated with imperialism (like Authoritarianism).
+
+I need to ensure each question is distinct and uses the provided data. Let's check the facts again. The Canadian Party and others have imperialism as ideology. The Circassian genocide's motive is imperialism. The Culture and Imperialism book's subject is imperialism. The page uses templates like "Empires" and is part of categories like "History of Colonialism."
+
+Now, formulating the questions and answers accordingly. For example, a question about the Latin origin of "imperium" would have the answer from the context. Another could ask about the center of an empire. Also, using the facts to ask about specific entities linked to imperialism.
+
+I need to make sure each answer is derived directly or inferred from the given data. Avoid creating questions that require external knowledge. Check for repetition. Let me count to ensure 10 pairs, each unique and covering different aspects.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a origem latina do termo 'imperium'?",
+    "resposta": "Do latim 'imperium', significando 'poder' ou 'autoridade'."
+  },
+  {
+    "pergunta": "Como é definido o centro de um império?",
+    "resposta": "O centro do império, às vezes chamado de metrópole, exerce controle político sobre as periferias subordinadas."
+  },
+  {
+    "pergunta": "Qual é a principal característica estrutural de um império, conforme o texto?",
+    "resposta": "Um império é uma 'unidade política' composta por vários territórios e povos, normalmente criada por conquista."
+  },
+  {
+    "pergunta": "Qual expressão latina é mencionada como a mais conhecida relacionada ao conceito de império?",
+    "resposta": "Imperium Romanum."
+  },
+  {
+    "pergunta": "Qual é o papel do soberano em um império, segundo o contexto?",
+    "resposta": "O soberano (imperador) governa um conjunto de nações e povos etnicamente e/ou culturalmente diversos."
+  },
+  {
+    "pergunta": "Qual ideologia está associada ao Partido Conservador do Canadá (1867–1942) de acordo com os fatos?",
+    "resposta": "Imperialismo."
+  },
+  {
+    "pergunta": "Qual evento histórico está vinculado ao imperialismo como motivo, conforme os fatos?",
+    "resposta": "Genocídio dos Hereros e Namacos."
+  },
+  {
+    "pergunta": "Qual livro é citado como tendo o imperialismo como tema principal nos fatos?",
+    "resposta": "Culture and Imperialism."
+  },
+  {
+    "pergunta": "Qual categoria está relacionada ao imperialismo segundo os dados da página?",
+    "resposta": "História da colonização."
+  },
+  {
+    "pergunta": "Quais são os dois termos usados para descrever os territórios dominados por um império?",
+    "resposta": "Territórios e povos."
+  }
+]
+```

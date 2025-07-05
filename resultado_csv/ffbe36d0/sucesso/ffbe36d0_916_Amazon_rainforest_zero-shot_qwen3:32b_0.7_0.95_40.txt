@@ -1,0 +1,63 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the Amazon rainforest context. Let me start by recalling key facts about the Amazon. First, it's the largest rainforest in the world. Then, it's located mainly in Brazil but also in other South American countries. The Amazon River is a significant feature there. Biodiversity is huge—home to many species of plants, animals, and insects. The rainforest also plays a crucial role in the Earth's climate by absorbing CO2.
+
+Wait, the user mentioned to base questions on the provided context. The context given is "Amazon_rainforest" but no specific text. I have to rely on general knowledge about the Amazon. Let me brainstorm possible questions.
+
+1. What is the largest rainforest in the world? Answer: Amazon Rainforest.
+2. Which country is home to the largest portion of the Amazon Rainforest? Brazil.
+3. The Amazon River flows through which countries? Brazil, Peru, Colombia, etc.
+4. What percentage of Earth's species are found in the Amazon? Around 10%.
+5. The Amazon is often called the "lungs of the Earth"—why? Because it absorbs CO2.
+6. What is the primary threat to the Amazon Rainforest? Deforestation.
+7. Which animal is a flagship species of the Amazon? Jaguar or Amazon river dolphin.
+8. How many square kilometers does the Amazon Rainforest cover? Approximately 5.5 million.
+9. What is the main cause of deforestation in the Amazon? Agricultural expansion, logging.
+10. What is the role of the Amazon in the global climate? Carbon sequestration.
+
+I need to make sure each question is unique and covers different aspects. Let me check if these are all distinct and not repeating. Also, ensure answers are correct. For example, the Amazon River's length is about 6,400 km, but that's a fact. Maybe include that as a question. Alternatively, the number of species. Wait, the user wants exactly 10 pairs. Let me finalize the list.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o maior bioma florestal do mundo?",
+    "resposta": "Floresta Amazônica"
+  },
+  {
+    "pergunta": "Quais são os principais países que possuem a Floresta Amazônica?",
+    "resposta": "Brasil, Peru, Colômbia, Venezuela, Equador, Bolívia, Guiana, Suriname e Guiana Francesa"
+  },
+  {
+    "pergunta": "Quantos quilômetros quadrados a Floresta Amazônica cobre aproximadamente?",
+    "resposta": "5,5 milhões de quilômetros quadrados"
+  },
+  {
+    "pergunta": "Qual é o principal rio que corta a Floresta Amazônica?",
+    "resposta": "Rio Amazonas"
+  },
+  {
+    "pergunta": "Quantos por cento da biodiversidade do planeta a Amazônia abriga?",
+    "resposta": "Aproximadamente 10%"
+  },
+  {
+    "pergunta": "Qual é o principal fator de desmatamento na Amazônia?",
+    "resposta": "Expansão agrícola e pecuária"
+  },
+  {
+    "pergunta": "Por que a Floresta Amazônica é conhecida como 'pulmão da Terra'?",
+    "resposta": "Por absorver grande quantidade de dióxido de carbono (CO2) da atmosfera"
+  },
+  {
+    "pergunta": "Qual é o animal símbolo mais conhecido da Amazônia?",
+    "resposta": "Jaguar"
+  },
+  {
+    "pergunta": "Quantas espécies de plantas são estimadas existirem na Amazônia?",
+    "resposta": "Mais de 40.000 espécies"
+  },
+  {
+    "pergunta": "Qual é o papel da Amazônia no ciclo hidrológico global?",
+    "resposta": "Produção de um quarto do oxigênio do planeta e regulação do clima"
+  }
+]
+```

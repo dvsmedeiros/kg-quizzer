@@ -1,0 +1,84 @@
+<think>
+Alright, I need to generate exactly 10 pairs of questions and answers based on the provided context about packet switching in computer networks. The instructions specify that each question should be relevant, have a unique correct answer from the content, and cover different aspects.
+
+First, I'll review the context given. It explains that packet switching contrasts with circuit switching, optimizes bandwidth, minimizes latency, and increases robustness. It also mentions two types: connection-oriented (like ATM) and connectionless (like IP). Additionally, it lists several individuals known for packet switching, such as Donald Davies, Paul Baran, Sharla Boehm, and W. David Sincoskie.
+
+Looking at the examples provided, I see that questions are about what was developed, who is credited with certain terms, and characteristics of packet switching. My goal is to create varied questions without repeating similar ones.
+
+I'll start by identifying key points: definitions, advantages, types of packet switching, historical figures, and their contributions.
+
+1. **What**: Who is associated with coining the modern term for packet switching?
+   - Donald Davies
+
+2. **What**: What did Paul Baran develop in the late 1950s?
+   - Packet Switching Concept
+
+3. **Which**: Which method allows re-routing if a link fails?
+   - Connectionless (datagram) packet switching
+
+4. **Why**: Why is packet switching more efficient?
+   - Maximizes bandwidth usage and minimizes latency
+
+5. **Name**: Name a connection-oriented protocol.
+   - ATM, Frame Relay, X.25
+
+6. **What did**: What did Sharla Boehm contribute?
+   - Pioneered research in packet switching
+
+7. **How**: How does circuit switching differ from packet switching in terms of resource allocation?
+   - Circuit switching pre-allocates bandwidth; packet switching uses statistical multiplexing.
+
+8. **Which**: Which type ensures ordered delivery and reliability?
+   - Connection-oriented (virtual circuit)
+
+9. **What is**: What is the term for individual data units in packet switching?
+   - Packets
+
+10. **Who developed**: Who contributed to early network research?
+    - W. David Sincoskie
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem é creditado por cunhar o nome moderno de comutação de pacotes?",
+    "resposta": "Donald Davies"
+  },
+  {
+    "pergunta": "O que Paul Baran desenvolveu no final dos anos 50?",
+    "resposta": "O conceito de Switching Adaptive Message Block"
+  },
+  {
+    "pergunta": "Qual é um exemplo de método que permite a reconfiguração das rotas em caso de falha de link?",
+    "resposta": "A comutação sem ligação (datagrama)"
+  },
+  {
+    "pergunta": "Por que a comutação de pacotes é considerada mais eficiente?",
+    "resposta": "Porque otimiza o uso da largura de banda e minimiza a latência"
+  },
+  {
+    "pergunta": "Qual é um exemplo de protocolo de comutação de circuitos virtuais?",
+    "resposta": "ATM (comutação de células), Frame Relay ou X.25"
+  },
+  {
+    "pergunta": "O que Sharla Boehm contribuiu para a comutação de pacotes?",
+    "resposta": "Pioneirismo na pesquisa e desenvolvimento de rede de computadores"
+  },
+  {
+    "pergunta": "Como a comutação de circuitos difere da comutação de pacotes em termos de alocação de recursos?",
+    "resposta": "A comutação de circuitos reserva recursos antecipadamente, enquanto a de pacotes utiliza multiplexagem estatística"
+  },
+  {
+    "pergunta": "Qual tipo de comutação garante entrega ordenada e confiável dos pacotes?",
+    "resposta": "Com ligação (circuito virtual)"
+  },
+  {
+    "pergunta": "O que é designado pelo termo 'pacote' em redes de computadores?",
+    "resposta": "A unidade básica de transferência de informação"
+  },
+  {
+    "pergunta": "Quem contribuiu para os primeiros experimentos em rede de pacotes?",
+    "resposta": "W. David Sincoskie"
+  }
+]
+```

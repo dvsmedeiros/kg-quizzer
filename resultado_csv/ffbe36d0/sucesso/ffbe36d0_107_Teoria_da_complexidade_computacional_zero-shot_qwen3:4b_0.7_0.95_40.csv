@@ -1,0 +1,11 @@
+pergunta;resposta
+Qual é a principal diferença entre os classes P e NP na teoria da complexidade computacional?;Os problemas em P podem ser resolvidos em tempo polinomial por algoritmos determinísticos, enquanto os problemas em NP podem ser verificados em tempo polinomial, mas não necessariamente resolvidos de forma eficiente.
+Quais problemas são considerados NP-completos?;Problemas que são NP e, além disso, todos os problemas em NP podem ser reduzidos a eles em tempo polinomial.
+O que significa que um problema é NP-difícil?;Significa que o problema é pelo menos tão difícil quanto os problemas NP-completos, e pode ser reduzido a eles em tempo polinomial.
+Qual é a definição de tempo polinomial em algoritmos?;Um algoritmo possui tempo polinomial se sua complexidade de tempo é uma função polinomial em relação ao tamanho da entrada.
+O que é a teoria da complexidade computacional?;Estudar a dificuldade de resolver problemas computacionais, categorizando-os em classes de complexidade com base em recursos (tempo, espaço) necessários para sua solução.
+Quais são exemplos de problemas de decisão na teoria da complexidade?;Problemas como o Problema do Caminho Mais Curto, o Problema do Subconjunto Soma e o Problema de Isomorfismo de Grafos.
+O que é a classe PSPACE?;A classe de problemas que podem ser resolvidos por máquinas de Turing com espaço polinomial na memória.
+Qual é a relação entre as classes P e PSPACE?;P está contido em PSPACE, mas não se sabe se PSPACE é maior que P, e a relação entre as duas classes é um problema aberto na teoria da complexidade.
+O que é a hipótese P ≠ NP?;A afirmação de que os problemas NP-difíceis não podem ser resolvidos em tempo polinomial por algoritmos determinísticos, embora possam ser verificados de forma eficiente.
+Quais são os dois principais recursos de complexidade estudados na teoria da complexidade computacional?;Tempo e espaço, que medem a eficiência de algoritmos em termos de operações e memória utilizada, respectivamente.

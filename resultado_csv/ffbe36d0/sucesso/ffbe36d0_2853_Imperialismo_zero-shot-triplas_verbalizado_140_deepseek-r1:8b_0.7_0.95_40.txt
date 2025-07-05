@@ -1,0 +1,60 @@
+<think>
+Ok, eu preciso ajudar o usuário a gerar 10 pares de perguntas e respostas baseadas no contexto e fatos fornecidos. Primeiro, vou analisar o conteúdo disponível para identificar os temas principais.
+
+O contexto é sobre o Império, definido como um território extenso governado por um soberano ou oligarquia, com divisões entre o centro e as periferias. Os fatos incluem mencionamentos de termos como Imperialism, Wolfgang Mommsen atuando na disciplina de Imperialism, e vários exemplos históricos e imagens representativas.
+
+Meus objetivos são criar perguntas variadas que abarçam diferentes aspectos do conteúdo. Cada pergunta deve ter uma única resposta correta, que possa ser extraída ou inferida dos fatos fornecidos.
+
+Primeiro, identifico os tópicos principais: definição de Império, características, exemplos históricos, impacto social, ideologias associadas, e outros termos relacionados como Colonialismo e Genocídio Herero.
+
+Começo a formular perguntas em português, garantindo que cada uma aborde um aspecto diferente para variedade. Em seguida, verifico se as respostas estão corretas e diretamente extraíveis do conteúdo.
+
+Vou me certificar de não repetir perguntas semelhantes e que cada uma esteja claramente relacionada ao contexto apresentado.
+
+Finalmente, organizo tudo em um JSON com o formato especificado, garantindo que haja exatamente 10 pares.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a principal característica de um império?",
+    "resposta": "Uma unidade política composta por vários territórios e povos, normalmente criada por conquista, e dividida entre um centro dominante e periferias subordinadas."
+  },
+  {
+    "pergunta": "Quem foi Wolfgang Mommsen e como ele está relacionado ao Império?",
+    "resposta": "Wolfgang Mommsen atua na disciplina de Imperialism, sendo um académico que analisa aspectos históricos do poder e autoridade em impérios."
+  },
+  {
+    "pergunta": "Qual exemplo histórico pode ilustrar a expansão imperial?",
+    "resposta": "A expansão da Impéria Mongol é um exemplo de como um império pode se expandir por territórios vastos e diversificados."
+  },
+  {
+    "pergunta": "Que ideologia está associada à defesa do Império Romano?",
+    "resposta": "O Império Romano foi associado a uma estrutura de poder que incluiu o governo de territórios conquistados e a subordinação de povos diversos."
+  },
+  {
+    "pergunta": "Qual é o principal objetivo da análise do Império?",
+    "resposta": "A análise do Império visa compreender como um centro exerce controle político sobre periferias, independentemente de autoidentificação dos estados como impérios."
+  },
+  {
+    "pergunta": "Qual exemplo histórico pode ser associado ao Colonialismo?",
+    "resposta": "A colonização da África nos séculos XIX e XX é um exemplo clássico de colonialismo, que pode ser visto como parte do período imperialista."
+  },
+  {
+    "pergunta": "Qual motivação está relacionada com o Genocídio Herero?",
+    "resposta": "O genocídio Herero foi motivado por questões imperialistas e a opressão colonial na África no século XIX."
+  },
+  {
+    "pergunta": "Que império da Antiguidade é associado à expansão territorial extensa?",
+    "resposta": "O Império Romano é um dos exemplos mais mencionados de um império com territórios amplamente expandidos."
+  },
+  {
+    "pergunta": "Qual exemplo histórico pode ilustrar a fragmentação imperial?",
+    "resposta": "A fratura do Império Romano após o século V d.C. é um exemplo de como os impérios podem se desintegrar após períodos de expansão."
+  },
+  {
+    "pergunta": "Qual imagem histórica pode representar a expansão imperial?",
+    "resposta": "A imagem da Expansão do Império Mongol, representada por um mapa SVG, ilustra a vasta extensão territorial dos impérios."
+  }
+]
+```

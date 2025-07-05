@@ -1,0 +1,54 @@
+<think>
+Okay, let's see. The user wants me to generate 10 question-answer pairs based on the provided context and facts about Fresno, California. The context gives some basic info about Fresno being the 5th largest city in California, its population, founding date, etc. The facts list various events, people, and organizations related to Fresno.
+
+First, I need to make sure each question is unique and covers different aspects. The context mentions population, founding, government type, and coordinates. The facts include notable people born or died there, sports teams, radio stations, locations of events, and other local entities.
+
+For the first question, maybe ask about the population according to the 2020 census. The answer is 542,000. Next, the city's government type is Strong Mayor. Then, the county seat is Fresno County. Founding date is 1872, and incorporation date is October 12, 1885. Coordinates are 36.75 and -119.76666666666667. The area is 300.438620798976 square kilometers. The area code is 559. For people, maybe list some who were born there, like Nathan Yau or Jenna Prandini. Also, some sports teams like the 2018 Phoenix Rising FC season are located there. Radio stations like KRDU have coverage in Fresno. 
+
+I need to check that each question is clear and the answer is directly from the data. Avoid repeating similar questions. Let's structure each pair to cover different elements: population, government, county, founding, incorporation, coordinates, area, area code, notable people, sports teams, radio stations, events, etc. That should give 10 varied questions without repetition.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quantos habitantes tinha Fresno, California, segundo o censo de 2020?",
+    "resposta": "542.000"
+  },
+  {
+    "pergunta": "Qual o tipo de governo de Fresno, California?",
+    "resposta": "Strong Mayor"
+  },
+  {
+    "pergunta": "Em que condado Fresno, California, é a sede?",
+    "resposta": "Fresno County"
+  },
+  {
+    "pergunta": "Qual a data de fundação da cidade de Fresno?",
+    "resposta": "1872"
+  },
+  {
+    "pergunta": "Em que data Fresno foi incorporada como cidade?",
+    "resposta": "12 de outubro de 1885"
+  },
+  {
+    "pergunta": "Quais são as coordenadas geográficas de Fresno, California?",
+    "resposta": "36.75 -119.76666666666667"
+  },
+  {
+    "pergunta": "Qual o código de área de Fresno, California?",
+    "resposta": "559"
+  },
+  {
+    "pergunta": "Qual a área total de Fresno, California?",
+    "resposta": "300.438620798976"
+  },
+  {
+    "pergunta": "Quem nasceu em Fresno, California, entre os artistas citados?",
+    "resposta": "Nathan Yau"
+  },
+  {
+    "pergunta": "Qual o nome do estádio localizado em Fresno, California, mencionado nos fatos?",
+    "resposta": "Physicians Building"
+  }
+]
+```

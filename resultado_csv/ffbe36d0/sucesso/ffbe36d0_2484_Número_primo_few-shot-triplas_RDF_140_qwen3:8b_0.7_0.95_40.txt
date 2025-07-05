@@ -1,0 +1,69 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs related to prime numbers, following the examples provided. First, I need to understand the structure and content of the existing examples to ensure consistency.
+
+Looking at the examples, each question is about a specific aspect of prime numbers, and the answers are concise, often referencing key concepts or terms. The examples cover topics like divisors, composite numbers, the fundamental theorem of arithmetic, prime factorization, primality, and algorithms like Miller-Rabin and AKS.
+
+I need to come up with 10 new questions that fit this pattern. Let me brainstorm possible topics:
+
+1. **Definition of Prime Numbers**: Maybe ask about the definition or the uniqueness of primes.
+2. **Prime Factorization Uniqueness**: The fundamental theorem states that every number has a unique prime factorization.
+3. **Primes in Cryptography**: How primes are used in encryption.
+4. **Distribution of Primes**: Mention of the Prime Number Theorem or gaps between primes.
+5. **Special Types of Primes**: Like Mersenne primes, twin primes, etc.
+6. **Historical Context**: Who proved the infinitude of primes, like Euclid.
+7. **Applications Beyond Math**: Primes in computer science or other fields.
+8. **Primality Tests**: Other tests besides Miller-Rabin and AKS.
+9. **Prime Density**: How primes become less frequent as numbers grow.
+10. **Prime Number Theorem**: The asymptotic distribution of primes.
+
+Now, I need to phrase these as questions, ensuring they are clear and concise. The answers should be direct, using the same format as the examples. Let me check each example's structure to ensure alignment.
+
+For instance, the first example asks about the only divisor besides 1, which is the number itself. The answer is straightforward. Similarly, the question about composite numbers is phrased to elicit the term "número composto."
+
+I should avoid repeating topics already covered in the examples. The existing examples cover divisors, composites, fundamental theorem, factorization, primality, and tests. So, focusing on distribution, special primes, cryptography, historical proofs, and applications would be good.
+
+Now, let me draft each pair, ensuring the questions are in Portuguese and the answers are in Portuguese as well, matching the examples. I'll also check for any possible repetition and ensure the answers are accurate and concise.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a característica principal dos números primos em termos de divisores?",
+    "resposta": "Eles só têm dois divisores positivos: 1 e o próprio número."
+  },
+  {
+    "pergunta": "Qual é a definição de números que têm mais de dois divisores?",
+    "resposta": "São chamados de números compostos."
+  },
+  {
+    "pergunta": "Qual teorema afirma que qualquer número inteiro maior que 1 pode ser representado de forma única como um produto de números primos?",
+    "resposta": "O teorema fundamental da aritmética."
+  },
+  {
+    "pergunta": "Por que é importante excluir o número 1 da definição de números primos?",
+    "resposta": "Para preservar a unicidade da fatoração em números primos."
+  },
+  {
+    "pergunta": "Quais são os números primos que são 2 unidades maiores que outro número primo consecutivo?",
+    "resposta": "São chamados de números primos gêmeos."
+  },
+  {
+    "pergunta": "Qual é o nome do teorema que descreve a distribuição assintótica dos números primos?",
+    "resposta": "O teorema dos números primos."
+  },
+  {
+    "pergunta": "Qual é o nome de um tipo especial de número primo que é da forma 2ⁿ - 1?",
+    "resposta": "É um número primo de Mersenne."
+  },
+  {
+    "pergunta": "Qual é a função que estima a quantidade de números primos menores que um número dado N?",
+    "resposta": "A função π(N) (pi de N)."
+  },
+  {
+    "pergunta": "Qual é a aplicação mais conhecida dos números primos em ciência da computação?",
+    "resposta": "A criptografia, especialmente em sistemas como RSA."
+  },
+  {
+    "pergunta": "Qual é o nome do algoritmo que é considerado o mais eficiente para testar a primalidade de grandes números?",
+    "resposta": "O teste de primalidade de Miller-Rabin."
+  }
+]

@@ -1,0 +1,80 @@
+<think>
+Alright, I need to generate 10 pairs of questions and correct answers based on the provided context about the immune system. Let me start by understanding the content thoroughly.
+
+The context covers various aspects of the immune system, including its components like B cells, T cells, natural killer cells, etc., as well as key figures in immunology such as Ilya Mechnikov. It also discusses functions like detection and neutralization of pathogens, mechanisms like phagocytosis, and its evolution in different organisms.
+
+First, I should identify the main points to ensure that each question is unique and covers different aspects. I'll list out potential areas: types of cells, functions, historical figures, mechanisms, responses, diseases related, and adaptability.
+
+Now, let me brainstorm questions:
+
+1. What was the term coined by Ilya Ilyich Mechnikov?
+2. Which type of cell is responsible for phagocytosis?
+3. How does the immune system distinguish between pathogens and self-tissues?
+4. Name a basic mechanism involved in the primary immune response.
+5. Who is known for discovering B cells in the immune system?
+6. What is the purpose of memory cells in immunological memory?
+7. Which cell type is involved in antigen presentation to helper T cells?
+8. What are eosinophils primarily responsible for?
+9. In which organ are bone marrow stem cells found?
+10. Which disease is linked to an overactive immune response attacking self-tissues?
+
+Now, I need to ensure each answer is accurate and directly from the context.
+
+1. Mechnikov coined "immune system" - correct.
+2. Macrophages or neutrophils handle phagocytosis - correct.
+3. The immune system uses surface markers for recognition - correct.
+4. Phagocytosis is a primary mechanism by cells like macrophages - correct.
+5. César Milstein discovered B cells - correct.
+6. Memory cells create immunological memory - correct.
+7. Dendritic cells present antigens to T cells - correct.
+8. Eosinophils combat parasites and allergies - correct.
+9. Bone marrow is where stem cells are found - correct.
+10. Autoimmune diseases like rheumatoid arthritis result from hyperactivity - correct.
+
+I think these questions cover a broad range of topics without repetition. Each question is clear, directly related to the context, and has one correct answer. I should format them as JSON with "pergunta" and "resposta" keys.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi o termo cunhado por Ilya Ilyich Mechnikov para descrever o sistema imunitário?",
+    "resposta": "O termo 'sistema imunitário' foi cunhado por Ilya Ilyich Mechnikov."
+  },
+  {
+    "pergunta": "Qual tipo de célula é responsável pela fagocitose?",
+    "resposta": "As células macrofágias e neutrófilos são responsáveis pela fagocitose."
+  },
+  {
+    "pergunta": "Como o sistema imunitário distingue entre patógenos e tecidos saudáveis?",
+    "resposta": "O sistema imunitário utiliza marcadores na superfície dos patógenos para reconhecê-los e distinguí-los do tecido saudável."
+  },
+  {
+    "pergunta": "Qual é um mecanismo básico da resposta imune primária?",
+    "resposta": "A fagocitose é um mecanismo básico da resposta imune primária, realizada por células como os macrofágias."
+  },
+  {
+    "pergunta": "Who discovered B cells in the immune system?",
+    "resposta": "Os células B foram descritos pelo cientista César Milstein."
+  },
+  {
+    "pergunta": "What is the role of memory cells in immunological memory?",
+    "resposta": "As células de memória permitem que o organismo responda mais eficazmente a novos agentes patogênicos após uma resposta inicial."
+  },
+  {
+    "pergunta": "Which cell type presents antigens to helper T cells?",
+    "resposta": "As células dendríticas são responsáveis por apresentar antígenos aos linfócitos auxiliares."
+  },
+  {
+    "pergunta": "What is the primary function of eosinophils?",
+    "resposta": "Eosinófilos combatem parasitas e respostas alérgicas, além de neutralizar toxinas."
+  },
+  {
+    "pergunta": "Where are bone marrow stem cells found in the human body?",
+    "resposta": "Os elementos do osso marinho são encontrados no osso themselves."
+  },
+  {
+    "pergunta": "Which disease is associated with an overactive immune response attacking self-tissues?",
+    "resposta": "A artrite reumatóide e diabetes tipo 1 são doenças associadas a uma resposta imune hiperativa que ataca o tecido saudável."
+  }
+]
+```

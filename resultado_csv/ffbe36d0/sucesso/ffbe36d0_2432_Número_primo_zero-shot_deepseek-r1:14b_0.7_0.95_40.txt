@@ -1,0 +1,81 @@
+<think>
+Okay, so I need to figure out how to create 10 multiple-choice questions based on the given context about prime numbers. The user has provided some Portuguese sentences and examples, but they want me to generate exactly 10 pairs of questions and correct answers in JSON format without any extra content.
+
+First, let's understand what a prime number is from the context provided. A número primo (prime number) is an integer greater than 1 that has no positive divisors other than 1 and itself. Examples include 2, 3, 5, 7, etc. The context also mentions some properties of prime numbers.
+
+I need to make sure each question is unique and covers different aspects like definition, examples, properties, exceptions (like even primes), and how to identify them. I should avoid repeating similar questions and ensure each has only one correct answer.
+
+Let me list out possible topics:
+1. Definition: What defines a prime number?
+2. Examples: Which numbers are primes?
+3. Non-examples: Which numbers are not primes?
+4. Properties: Characteristics of primes.
+5. Exceptions: The only even prime is 2.
+6. Identification: How to determine if a number is prime.
+
+Now, I'll structure each question and its answer based on these topics. Making sure the questions vary in type (some could be "qual," others "como," etc.) and cover different primes.
+
+I have to ensure that each response is correct according to the given context. For example, knowing that 2 is the only even prime number is crucial for one of the questions.
+
+Also, I need to make sure not to repeat similar questions. So, if I ask about examples in one question, another can be about non-examples or properties.
+
+Let me start drafting each pair:
+
+1. What defines a prime number? Answer: Number greater than 1 with no divisors other than 1 and itself.
+2. Which is an example of a prime number? Answer: 7.
+3. Which is not a prime number? Answer: 4, since it's divisible by 2.
+4. What property do all primes have? Answer: They can't be expressed as the product of two smaller natural numbers greater than 1.
+5. How many even prime numbers are there? Answer: Only one, which is 2.
+6. Which number is a prime? Answer: 11.
+7. Why isn't 1 considered a prime? Answer: It only has one divisor.
+8. What do all primes except 2 have? Answer: They are odd.
+9. How can you check if a number is prime? Answer: Test divisibility up to its square root.
+10. Which number is a prime? Answer: 17.
+
+I think these cover the necessary aspects without repetition and each has a clear correct answer based on the context provided.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a definição de um número primo?",
+    "resposta": "Um número inteiro maior que 1 que só pode ser dividido por 1 e ele mesmo."
+  },
+  {
+    "pergunta": "Quais exemplos de números primos são mencionados?",
+    "resposta": "2, 3, 5, 7"
+  },
+  {
+    "pergunta": "Qual número não é primo?",
+    "resposta": "4"
+  },
+  {
+    "pergunta": "Qual característica define um número primo?",
+    "resposta": "Ele não pode ser escrito como produto de dois números naturais menores que ele."
+  },
+  {
+    "pergunta": "Quantos números primos são pares?",
+    "resposta": "Apenas um, o número 2"
+  },
+  {
+    "pergunta": "Qual é um exemplo de número primo entre 10 e 20?",
+    "resposta": "11"
+  },
+  {
+    "pergunta": "Por que o número 1 não é considerado primo?",
+    "resposta": "Ele só tem um divisor."
+  },
+  {
+    "pergunta": "Qual é a propriedade dos números primos, exceto o 2?",
+    "resposta": "Eles são ímpares"
+  },
+  {
+    "pergunta": "Como se verifica se um número é primo?",
+    "resposta": "Testando divisibilidade até sua raiz quadrada."
+  },
+  {
+    "pergunta": "Qual número entre os seguintes é primo: 15, 17, 20?",
+    "resposta": "17"
+  }
+]
+```

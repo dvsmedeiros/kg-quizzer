@@ -1,0 +1,85 @@
+<think>
+Okay, let me try to figure out how to approach this query. The user wants me to act like a generator of objective questions based on the given context and facts. They provided a detailed context about packet switching, including its history, types of switches, advantages, disadvantages, and some notable contributors.
+
+First, I need to understand what exactly is being asked. They want 10 pairs of questions and answers, each pair containing one question related to the content and its correct answer extracted from it. The output should be in JSON format without any additional text or explanations beyond the data structure.
+
+Looking at the context, there are several key points:
+- Packet switching is a paradigm where packets are individually routed through a network.
+- It contrasts with circuit switching, which creates dedicated circuits for data transmission.
+- Packet switching optimizes bandwidth use but introduces jitter and latency issues.
+- There are two types of packet switching: those with fixed paths (like ATM) and datagram switches that allow flexible routing without pre-established paths.
+
+Now, the user provided some specific facts about notable figures like Donald Davies, Paul Baran, Sharla Boehm, W. David Sincoskie, and their known works related to packet switching. There's also information about where the page on Packet Switching appears in academic resources, which might not be directly relevant but could be useful for context.
+
+To generate 10 questions, I need to cover a variety of aspects: definitions, types, advantages/disadvantages, applications, notable contributors, and technical details like FIFO queuing. Each question should have a clear answer that can be derived from the provided content without ambiguity.
+
+I'll start by brainstorming potential questions based on the context:
+
+1. What is packet switching? (Answer about managing packets individually.)
+2. Who are some key figures associated with packet switching? (List includes Donald Davies, Paul Baran, etc.)
+3. What is an example of a circuit-switched network? (Mentions traditional telephone and video conferencing)
+4. What type of switch allows flexible routing without pre-established paths? (Datagram switch)
+5. Which protocol sends data packets across networks to their destination? (TCP/IP, which manages end-to-end connections)
+6. How is packet switching optimized for bandwidth use? (Using techniques like FIFO queuing and multiplexing)
+7. What is an advantage of datagram switches over circuit-switched ones? (Flexibility and robustness due to independent routing)
+8. What is the primary function of a switch in computer networks? (Forwarding packets without reassembling them)
+9. Which device is responsible for managing the flow control of data transmission? (Network Interface Unit or NIC)
+10. Who contributed significantly to the development of packet switching techniques? (Donald Davies, Paul Baran, and W. David Sincoskie)
+
+I need to make sure each question is unique and covers different areas within the context provided. Also, I should ensure that each answer directly relates to the content without any guesswork.
+
+Now, considering the structure required, each JSON object must have a "pergunta" (question) in Portuguese and a "resposta" (answer) in English. Since the user specified Portuguese for the questions but the facts are mostly in English with some links to Wikipedia pages, I'll write the answers in English as needed.
+
+Wait, no—the user provided the context in English, so perhaps it's okay to have the answers in English since the questions will be in Portuguese based on the generated content. But looking back at their initial instruction, they want the final answer in Portuguese for "pergunta" and English for "resposta." So I should ensure that each question is phrased in Portuguese and the answer in English.
+
+However, given that some of the facts are about contributors who might not be well-known or specific to Portuguese-speaking countries, using their names directly as answers makes sense. For example, Paul Baran's known work is "Packet Switching."
+
+I should also check for any possible overlaps or repetitions between questions to ensure each one is unique and covers a distinct aspect of packet switching.
+
+After thinking through these points, I can proceed to formulate the 10 pairs.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é o principal motivos por que a computação usou o modelagem de pacotes?",
+    "resposta": "A computação optou pelo modelamento de pacotes para otimizar uso de largura de banda, reduzir latência e tornar a comunicação mais robusta."
+  },
+  {
+    "pergunta": "Qual é um exemplo de aplicação que utiliza o modelamento de pacotes?",
+    "resposta": "O modelamento de pacotes é usado em internet, transmissão de vídeos e comunicação multimídia."
+  },
+  {
+    "pergunta": "Para qual tipo de transmissão é mais adequado usar datagramas?",
+    "resposta": "Datagramas são adequados para transmissõeswhere link de conexão pode ser desligado ou quebra, como na internet de dispositivos móveis."
+  },
+  {
+    "pergunta": "O modelamento de pacotes introduziu qual benefício em redes de computadores?",
+    "resposta": "Introduceu flexibilidade e robustez em comunicação, permitindo reajuste da rede face a quebra de ligação."
+  },
+  {
+    "pergunta": "Qual é um dos objetivos principais da otimização do modelo de transmissão por pacotes?",
+    "resposta": "A otimização visa minimizar o tempo de end-to-end para os dados, garantindo uma melhor experiência de user experience."
+  },
+  {
+    "pergunta": "Em qual tipo de sistema é mais difícil predizer a ordem dos pacotes?",
+    "resposta": "Na transmissão sem ligação, a ordem dos pacotes pode ser incerta, causando problemas na reconhecimento do fluxo de dados."
+  },
+  {
+    "pergunta": "O que é a principal vantagem da sincronização por Packet Switching em redes computacionais?",
+    "resposta": "A sincronização permitirá ordem e Time-to-Live (TTL) para evitar perda de pacotes."
+  },
+  {
+    "pergunta": "Qual é um dos objetivos principais do modelamento de pacotes na internet?",
+    "resposta": "O objetivo principal é a distribuição eficiente de dados, independente da necessidade de sincronização entre os nós de comunicação."
+  },
+  {
+    "pergunta": "O que é frequentemente chamado de FIFO na contextuação do modelamento de pacotes?",
+    "resposta": "FIFO é um método que garante a ordem de delivery dos pacotes sem prioridade para qualquer tipo de dados."
+  },
+  {
+    "pergunta": "Para qual tipo de transmissão é mais adequado usar um circuito virtual na computação?",
+    "resposta": "Um circuito virtual é adequado para transmissõeswhere garantia de entrega é necessária, como em ATM (cellular) e Frame Relay."
+  }
+]
+```

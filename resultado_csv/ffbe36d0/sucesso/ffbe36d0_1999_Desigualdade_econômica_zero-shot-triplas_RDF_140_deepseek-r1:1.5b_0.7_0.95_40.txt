@@ -1,0 +1,54 @@
+<think>
+Primeiro, identifico que o usuário está pedindo generates de questiones respostas com base em um contexto efativo sobre desigualdade economica entre países. Precisamos usar os dados fornecidos no arquivo .dbp e .json para criar 10 pares de pergunta e resposta.
+
+Primeiro, identifico as fatores principais: desigualdade economica, distribuição de rendimento, riqueza e o coeficiente de Gini. Vou dividir as questoes em tamanhos de grupos: people, countries e institutions.
+
+Em um dos pares, vou relacionar a distribução de rendimento entre people e countries para responder que a desigualdade é mais relativa nos países. Em outro pares, envolver both countries and institutions, extraindo respostas sobre as opções fornecidas.
+
+Depois, organizo os questiones em ordem cronológica para garantir que o usuário tenha uma perda de tempo e a resposta seja clara.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a definição do coeficiente de Gini na teoria da desigualdade economica?",
+    "resposta": "O coeficiente de Gini é um índice estatístico que mide a distribuição de riqueza e rendimento em um population em comparação com o caso ideal de igualdade de rendimento, onde todos os indivíduos possam obter o mesmo percentual de rebanho. O coeficiente range de 0 a 1, com 0 indicando total equalidade e 1 indicando maximais desigualdade."
+  },
+  {
+    "pergunta": "Quantas taxas de aumento em rendimento expectadas pelo population em torno do centro do mundo de 2020?",
+    "resposta": "As taxas de aumento em rendimento expectadas pelo population em torno do centro do mundo de 2020 são: 1.5% nos EUA, 1.3% nos EUA-Brasil e 1.7% nos Países Largos."
+  },
+  {
+    "pergunta": "Quais os principais causalidades associadas à desigualdade economica entre países?",
+    "resposta": "Os principais causalidades associados à desigualdade economica entre países são: a exibição dos lands, o espirito social, o enivalence e a redução de salários."
+  },
+  {
+    "pergunta": "Qual é o teto do myth "The Hidden Wealth of Nations" e qual é o pico?",
+    "resposta": "O teto do myth 'The Hidden Wealth of Nations' está nalando os landes como o Skid Row dos Los Angeles, mientras que o pico se encontra em Holmby Hills, dos Estados Unidos."
+  },
+  {
+    "pergunta": "Quais as principias da mecanista Robert Wadwick?",
+    "resposta": "Os principios da mecanista Robert Wadwick são: 1. a exibição dos landes como os landes como o Skid Row dos Los Angeles, em que o pico se encontra, e 2. a redução do salário de vendedores, indígenas."
+  },
+  {
+    "pergunta": "Qual é a opção mais relevante para o problema da desigualdade social entre países?",
+    "resposta": "A opção mais relevante é a exibição dos landes como o Skid Row dos Los Angeles, em que o pico se encontra."
+  },
+  {
+    "pergunta": "Em quais dos lands tem a maior desigualdade social e qual foi o seu percentual de desigualdade?",
+    "resposta": "Os landes como o Países Largos e Holmby Hills, dos Estados Unidos, temem a maior desigualdade social, com um percentual de desigualdade de 214.30%."
+  },
+  {
+    "pergunta": "Qual é a opção mais relevante para o problema da desigualdade social entre landes?",
+    "resposta": "A opção mais relevante é a exibição dos landes como Holmby Hills, dos Estados Unidos."
+  },
+  {
+    "pergunta": "Em quais dos landes tem a maior distribuição de rendimento e qual foi o percentual de desigualdade?",
+    "resposta": "Os landes como Holmby Hills, dos Estados Unidos e Holmby Hills, dosPaíses Largos, temem a maior distribuição de rendimento, com um percentual de desigualdade de 247.80%."
+  },
+  {
+    "pergunta": "Qual é o teto do myth 'The Hidden Wealth of Nations' e qual é o pico?",
+    "resposta": "O teto do myth 'The Hidden Wealth of Nations' se encontra em Holmby Hills, dos Estados Unidos, em 2020, onde a opção mais relevante para o problema da desigualdade social entre landes é a exibição dos landes como Holmby Hills."
+  }
+]
+```

@@ -1,0 +1,142 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers about the Yuan Dynasty, based on the provided context and facts. First, I need to make sure I understand the requirements.
+
+The context mentions that the Yuan Dynasty was founded by Kublai Khan, grandson of Genghis Khan, in 1271. The facts are in a structured format with various properties linked to the Yuan Dynasty. I need to generate questions that are varied and cover different aspects, like founding, key figures, events, locations, etc.
+
+I should start by extracting key points from the context. The main facts are: founded by Kublai Khan in 1271, part of the Mongol Empire, successor to the Song Dynasty, predecessor to the Ming Dynasty, capital cities like Khanbaliq and Shangdu, currency, religious aspects, notable battles, and some specific people and places associated.
+
+Now, I need to create 10 distinct questions. Let's brainstorm:
+
+1. Who founded the Yuan Dynasty? (Kublai Khan)
+2. When was it founded? (1271)
+3. What was the capital? (Dadu, which is Khanbaliq)
+4. Who was Kublai Khan's grandfather? (Genghis Khan)
+5. What dynasty came before Yuan? (Song)
+6. What dynasty came after Yuan? (Ming)
+7. What was the official name in Chinese? (Dà Yuán)
+8. What was the Mongolian name? (Great Yuan)
+9. Key battles or events? (Mongol conquest of the Song, Battle of Yamen)
+10. Religious aspects? (Buddhism, Tengrism, etc.)
+
+Wait, the examples have some answers like "Dà Yuán" and "o Grande Yuan". Need to check the facts for exact terms. The context says "c '大元', '大都'" which are the Chinese names. Also, the "ns1:l" has "Great Yuan" and "Yuan dynasty" in Chinese characters.
+
+Another point: the Yuan Dynasty was part of the Mongol Empire. So a question about that. Also, the user's examples have questions about the founder, the year, the predecessor, the successor, the capital, the official name, etc.
+
+Need to ensure that each question is unique and not repeating the same info. Let's check the facts again for more details. The "ns1:event" includes Battle of Yamen and Mongol conquest of the Song. Also, the "ns1:leader" is Toghon Temür. There's a mention of the two artificial lakes Houhai and Qianhai built in Dadu.
+
+So possible questions:
+
+- What were the two artificial lakes built in Dadu? (Houhai and Qianhai)
+- Who was the leader of the Yuan Dynasty? (Toghon Temür)
+- What was the currency used? (Not explicitly mentioned, but maybe not. The facts don't specify, so maybe avoid that.)
+- What is the Mongolian name for the Yuan Dynasty? (Great Yuan)
+- What are the Chinese characters for the Yuan Dynasty? ("大元")
+- What is the capital city's name in Chinese? (大都, which is Dadu)
+- What is the Mongolian script name? (Not sure, but the "ns1:piccap" mentions "Great Yuan State" in Mongolian script.)
+
+Also, the "ns1:dateEvent" has "1279-03-19" which is the fall of the Song, so maybe a question about the end date. But the user's examples have "Quando Khan estabeleceu o Grande Yuan?" with answer "1271," so maybe similar.
+
+Need to make sure answers are from the provided facts. For example, the capital is mentioned as "Dadu" and "Khanbaliq" (from "ns1:p" and "ns1:footer"). Also, the "ns1:title" is "History of Tibet," but that might not be relevant.
+
+Another point: The Yuan Dynasty was part of the Mongol Empire, so a question about that. Also, the "ns1:era" is Postclassical Era.
+
+Let me list 10 possible questions:
+
+1. Who founded the Yuan Dynasty? (Kublai Khan)
+2. When was the Yuan Dynasty established? (1271)
+3. What was the capital city of the Yuan Dynasty? (Dadu / Khanbaliq)
+4. Who was Kublai Khan's grandfather? (Genghis Khan)
+5. Which dynasty preceded the Yuan? (Song)
+6. Which dynasty succeeded the Yuan? (Ming)
+7. What is the Chinese name for the Yuan Dynasty? (大元)
+8. What is the Mongolian name for the Yuan Dynasty? (Great Yuan)
+9. What event marked the end of the Yuan Dynasty? (Mongol conquest of the Song, Battle of Yamen)
+10. Who was the last leader of the Yuan Dynasty? (Toghon Temür)
+
+Now, check the facts for accuracy. The "ns1:leader" is Toghon Temür. The "ns1:event" includes "Mongol conquest of the Song dynasty" and "Battle of Yamen". The "ns1:dateEvent" has "1279-03-19" which is the date of the Battle of Yamen, so that's when the Song fell.
+
+So, the answer to question 9 could be "Battle of Yamen" or "Mongol conquest of the Song dynasty".
+
+Also, the "ns1:eventStart" is "Kublai's proclamation of the dynastic name 'Great Yuan'".
+
+Now, structure the answers properly, using the exact terms from the facts. For example, the Chinese name is "大元" (Dà Yuán) and the official name is "Great Yuan". The capital is "Dadu" (大都) and "Khanbaliq".
+
+So, the final 10 pairs would be:
+
+1. Q: Quem fundou a dinastia Yuan?
+   A: Kublai Khan.
+
+2. Q: Em que ano a dinastia Yuan foi estabelecida?
+   A: 1271.
+
+3. Q: Qual era a cidade capital da dinastia Yuan?
+   A: Dadu (ou Khanbaliq).
+
+4. Q: Quem era o avô de Kublai Khan?
+   A: Genghis Khan.
+
+5. Q: Qual dinastia antecedeu a Yuan?
+   A: Dinastia Song.
+
+6. Q: Qual dinastia sucedeu a Yuan?
+   A: Dinastia Ming.
+
+7. Q: Qual é o nome chinês da dinastia Yuan?
+   A: 大元 (Dà Yuán).
+
+8. Q: Qual é o nome mongol da dinastia Yuan?
+   A: Great Yuan.
+
+9. Q: Qual evento marcou o fim da dinastia Yuan?
+   A: Batalha de Yamen.
+
+10. Q: Quem foi o último líder da dinastia Yuan?
+    A: Toghon Temür.
+
+Need to check if all answers are present in the facts. For example, "Toghon Temür" is in "ns1:leader". The "ns1:event" includes "Battle of Yamen". The Chinese name is "大元" and the Mongolian is "Great Yuan" as per the "piccap" entry.
+
+Yes, this should cover the requirements. Make sure each question is unique and answers are accurate based on the given data.
+</think>
+
+[
+  {
+    "pergunta": "Quem foi o fundador da dinastia Yuan?",
+    "resposta": "Kublai Khan"
+  },
+  {
+    "pergunta": "Em que ano a dinastia Yuan foi oficialmente estabelecida?",
+    "resposta": "1271"
+  },
+  {
+    "pergunta": "Qual era o nome chinês da dinastia Yuan?",
+    "resposta": "大元"
+  },
+  {
+    "pergunta": "Qual foi o nome oficial da dinastia Yuan em mongol?",
+    "resposta": "Great Yuan"
+  },
+  {
+    "pergunta": "Quem foi o avô de Kublai Khan?",
+    "resposta": "Genghis Khan"
+  },
+  {
+    "pergunta": "Qual dinastia antecedeu a dinastia Yuan?",
+    "resposta": "Dinastia Song"
+  },
+  {
+    "pergunta": "Qual dinastia sucedeu a dinastia Yuan?",
+    "resposta": "Dinastia Ming"
+  },
+  {
+    "pergunta": "Qual foi a capital da dinastia Yuan?",
+    "resposta": "Dadu (ou Khanbaliq)"
+  },
+  {
+    "pergunta": "Qual evento marcante ocorreu durante o período da dinastia Yuan?",
+    "resposta": "Batalha de Yamen"
+  },
+  {
+    "pergunta": "Quem foi o último líder da dinastia Yuan?",
+    "resposta": "Toghon Temür"
+  }
+]

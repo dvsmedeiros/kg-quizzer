@@ -1,0 +1,84 @@
+<think>
+Okay, so the user has asked me to generate a set of ten pairs of questions and answers based on a provided context and facts. Let me break this down step by step.
+
+First, I need to understand the context given. The context is about Ctenophora, which are the group of marine animals known as callianaires or ctenophores. They have features like pentes made by celieters (coelenterates) and various subdivisions in their classification. The facts provided include names, hypernyms, subclasses, taxonomic information, and images from Wikimedia.
+
+Now, the objective is to create exactly ten pairs where each pair consists of a relevant question and a correct answer. The answers should be clear or inferred from the context without additional information. I must use only Portuguese for both the questions and responses, and not include any explanations or aside notes beyond the structure of the JSON output.
+
+Looking at the facts, there are several key points to consider:
+1. Ctenophora includes Coelenterata and others.
+2. They are multi-species, including plants such as Callianaria hexagona (a plant within this family).
+3. There are images with specific names and descriptions, which might be relevant for the questions.
+
+I should think of different angles to create questions that cover various aspects of Ctenophora. These could include classification (e.g., hypernyms), examples of plants within this family, biological features, and classifications like taxonomic groups or subdivisions.
+
+Let me outline possible questions:
+- Which class does Ctenophora belong to?
+- How many main classes are there in the Ctenophora family?
+- What is a common feature of these creatures that differentiates them from other marine animals?
+
+Now, for each question, I need to formulate it in Portuguese and then provide an accurate answer based on the facts provided. For instance:
+1. "Quáclassa belonge à Ctenophora?" – The answer would be "Clade" because Ctenophora is a family.
+2. "Com que classified they are grouped?" – This refers to the hypernym, so "Classe".
+3. "Qual é um fato comum deles?" – Looking at the facts, it's about their segmented bodies.
+
+I need to ensure each response is specific and uses the correct Portuguese terms. I also have to make sure not to repeat questions with similar content, even if they are in different languages or structures. For example, avoiding asking about plants from the fact list again unless necessary.
+
+Let me go through each angle one by one:
+1. Classification: The question should ask about their grouping. "Com que classified they are grouped?" – Answer is "Classe".
+2. Examples of species: "Quátipos principios e seletivos de Ctenophora?" – Answer would include different orders or families, but since the facts mention Coelenterata and others, I can ask about specific families like Coelenterata.
+3. Common features: From the fact image description, one feature is "Pentes formadas por celieters", so a question could be "Qual é um fato comum deles?" with answer "Pentes formadas por celieters".
+
+I should also consider other aspects like taxonomic groups or subdivisions. For example:
+4. Taxonomic group: "Quágrupos ordinárias de Ctenophora?" – Answer would include groups like Coelenterata, Myochordata, etc.
+5. Subdivisions within classification: The fact image shows divisions like Tentaculata and Nuda. A question could be about the subdivisions themselves.
+6. Animal types: "Quais são os tipos mainlyares de Ctenophora?" – Answer would include various marine animals.
+7. Physical characteristics: "Qual é um fato distante deles?" – From the fact, this refers to their living state.
+
+I need to make sure each of these is a distinct question and answer pair without overlap. After drafting all ten questions, I'll structure them in JSON format as per the user's instructions.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Com que classified they are grouped?",
+    "resposta": "Classe"
+  },
+  {
+    "pergunta": "Quátipos principios e seletivos de Ctenophora?",
+    "resposta": "Coelenterata, Myochordata, Quassia..."
+  },
+  {
+    "pergunta": "Qual é um fato comum deles?",
+    "resposta": "Pentes formadas por celieters"
+  },
+  {
+    "pergunta": "Quágrupos ordinárias de Ctenophora?",
+    "resposta": "Coelenterata, Myochordata, Tentaculata..."
+  },
+  {
+    "pergunta": "Qual é o subdivision do taxão Ctenophora?",
+    "resposta": "Tentaculata"
+  },
+  {
+    "pergunta": "Qual é o subdivision do taxão Coelenterata?",
+    "resposta": "Nuda"
+  },
+  {
+    "pergunta": "Quais são os tipos mainlyares de Ctenophora?",
+    "resposta": "Coelenterata, Myochordata, Quassia..."
+  },
+  {
+    "pergunta": "Qual é o taxão principal da Coelenterata?",
+    "resposta": "Tentaculata"
+  },
+  {
+    "pergunta": "Qual é o subdivision do taxão Callianaria",
+    "resposta": "Nuda"
+  },
+  {
+    "pergunta": "Qual é o classification principal da Ctenophora?",
+    "resposta": "Classe"
+  }
+]
+```

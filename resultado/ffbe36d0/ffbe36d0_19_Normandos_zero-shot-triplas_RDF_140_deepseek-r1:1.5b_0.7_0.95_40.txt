@@ -1,0 +1,70 @@
+<think>
+Okay, let me try to figure out how to approach this task. The user has given specific instructions on generating 10 pairs of questions and answers based on a context about the Normans. Each question must be relevant, have one correct answer, and be in Portuguese.
+
+First, I need to understand the provided context and facts. The context includes several Normans-related topics like their origins, key battles, historical figures, etc. So, my task is to extract questions from these facts that can form coherent pairs with the answers.
+
+I should think about different aspects of the Norman history to make sure each question is unique and covers a varied topic. That way, I don't just repeat similar questions and cover all necessary areas. 
+
+Let me brainstorm possible questions:
+1. What was the first Norman city built? (Cumbria)
+2. Name the battle that led to theNormans' victory in the Bayeux Tapestry scene.
+3. Who was the ruler of Normandy?
+4. Mention a famous Norman knight who rode the Battle of Cumbria.
+5. What was one of the Normale's major roads built?
+6. Name a notable Norman figure from the 12th century.
+7. WhichNormic tribe conquered Montepeloso?
+8. Who built the Greenmount in Normandia?
+9. When did the Normans conquer Oxford? (1215)
+10. Mention a Norman knight who was killed during theNorms' battle against Orlé.
+
+Now, I'll structure each question with a clear answer based on the facts provided. For example, for "What was the first Norman city built?" I know Cumbria was built by Normandy in 1273/4, so that becomes the answer.
+
+I need to ensure that all answers are correct and in Portuguese. Each response should be concise and directly address the question without unnecessary details. After structuring each pair, I'll compile them into a JSON format as specified.
+
+Let me check each point again to make sure there's no repetition or missing information. It looks like each query is unique and covers different historical aspects of the Normans. Now, I'll present these in the required format.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quão foi o primeiro cidade builte por Normandia?", 
+    "resposta": "Cumbria"
+  },
+  {
+    "pergunta": "Que cosa aconteceu pelo Normandeiro em Cumbria?", 
+    "resposta": "Está na tapestry do Bayeux"
+  },
+  {
+    "pergunta": "Quem foi reigonado pelo Normale no Norte?", 
+    "resposta": "Montdian e Serra"
+  },
+  {
+    "pergunta": "Que knuckles do Norman era que rocorde o chão?", 
+    "resposta": "María de Marqueira"
+  },
+  {
+    "pergunta": "Que route foi constrido pelo Normale?", 
+    "resposta": "Portugal e Serra"
+  },
+  {
+    "pergunta": "Quem dos Normandos foi noturno no século XII?", 
+    "resposta": "Adrano de Cunha"
+  },
+  {
+    "pergunta": "O que linkou o Normale ao Norte?", 
+    "resposta": "Montepeloso"
+  },
+  {
+    "pergunta": "Que cidade foi reconstrida pelo Greenmount no Normandia?", 
+    "resposta": "St. Mary's Church, Mortehoe"
+  },
+  {
+    "pergunta": "Quem dos Normandos foi reigonado por Orlé?", 
+    "resposta": "Dominique de Saumur"
+  },
+  {
+    "pergunta": "When was the Normans conquered in Oxford?", 
+    "resposta": "1215"
+  }
+]
+```

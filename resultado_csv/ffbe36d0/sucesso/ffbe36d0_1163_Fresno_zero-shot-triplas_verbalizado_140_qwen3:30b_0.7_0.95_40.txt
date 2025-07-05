@@ -1,0 +1,91 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers based on the given context and facts about Fresno. First, I need to make sure I understand the requirements. The questions must be varied, cover different aspects, and the answers must be directly from the provided data.
+
+Looking at the context, Fresno is the 5th most populous city in California, founded in 1872, with a population of over 542k as of 2020. The facts list a bunch of people born or died there, some organizations, events, and other details like area code, coordinates, etc.
+
+I need to generate questions that are not repetitive. Let's start with the basics. The first question could be about the population. The context says it's the 34th most populous city in the US. So, "Qual é a classificação de Fresno em termos de população nos Estados Unidos?" The answer would be "34ª cidade mais populosa do país."
+
+Next, the founding date. The context mentions it was founded in 1872 and incorporated in 1885. So, "Em que ano Fresno foi fundada e incorporada?" Answer: "Foi fundada em 1872 e incorporada em 12 de outubro de 1885."
+
+Then, the area code. The fact states it's 559. Question: "Qual é o código de área de Fresno, California?" Answer: "559."
+
+Coordinates: The fact says 36.75 -119.76666666666667. Question: "Quais são as coordenadas geográficas de Fresno, California?" Answer: "36.75 -119.76666666666667."
+
+Type of government: The fact mentions "Strong Mayor." Question: "Qual é o tipo de governo de Fresno, California?" Answer: "Strong Mayor."
+
+Area: The fact says 300.438620798976. Question: "Qual é a área total de Fresno, California?" Answer: "300.438620798976."
+
+Municipal type: The fact lists "List of municipalities in California." Question: "Qual é o tipo de assentamento de Fresno, California?" Answer: "List of municipalities in California."
+
+Category: The fact mentions "Category:San Joaquin Valley." Question: "Em qual categoria está classificada Fresno, California?" Answer: "Category:San Joaquin Valley."
+
+Population in 2020: The context says over 542k. Question: "Quantos habitantes tinha Fresno, California segundo o censo de 2020?" Answer: "Mais de 542 mil habitantes."
+
+Lastly, a person born there. For example, Adam Prentice. Question: "Quem nasceu em Fresno, California?" Answer: "Adam Prentice."
+
+Wait, but the user said to use the facts provided. Let me check if the names in the facts are correct. The facts list several people, so I can pick any. But the answer should be the name. However, the user wants the answer to be correct based on the facts. So, for example, "Adam Prentice nasceu em Fresno, California" is a fact, so the answer would be "Adam Prentice."
+
+But the question should be phrased as "Quem nasceu em Fresno, California?" and the answer is the name. But the user might want the answer to be the name, but the example in the instructions might have different. Wait, the user's example in the JSON has "resposta" as the exact answer. So, for example, if the fact is "Adam Prentice nasceu em Fresno, California," then the question could be "Quem nasceu em Fresno, California?" and the answer is "Adam Prentice."
+
+But the user might want to avoid repetition. So I need to pick different aspects: population, founding, area code, coordinates, government type, area, municipal type, category, 2020 population, and a person's name.
+
+I need to make sure each question is unique and covers different facts. Let me check the facts again to ensure I'm not missing anything. Also, avoid questions that are too similar. For example, don't ask about multiple people born there; pick one.
+
+So the 10 pairs would be:
+
+1. Population ranking
+2. Founding and incorporation date
+3. Area code
+4. Coordinates
+5. Government type
+6. Total area
+7. Municipal type
+8. Category
+9. 2020 population
+10. A person born there (like Adam Prentice)
+
+That should cover different aspects without repetition. Now, format them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a classificação de Fresno em termos de população nos Estados Unidos?",
+    "resposta": "34ª cidade mais populosa do país"
+  },
+  {
+    "pergunta": "Em que ano Fresno foi fundada e incorporada?",
+    "resposta": "Foi fundada em 1872 e incorporada em 12 de outubro de 1885"
+  },
+  {
+    "pergunta": "Qual é o código de área de Fresno, California?",
+    "resposta": "559"
+  },
+  {
+    "pergunta": "Quais são as coordenadas geográficas de Fresno, California?",
+    "resposta": "36.75 -119.76666666666667"
+  },
+  {
+    "pergunta": "Qual é o tipo de governo de Fresno, California?",
+    "resposta": "Strong Mayor"
+  },
+  {
+    "pergunta": "Qual é a área total de Fresno, California?",
+    "resposta": "300.438620798976"
+  },
+  {
+    "pergunta": "Qual é o tipo de assentamento de Fresno, California?",
+    "resposta": "List of municipalities in California"
+  },
+  {
+    "pergunta": "Em qual categoria está classificada Fresno, California?",
+    "resposta": "Category:San Joaquin Valley"
+  },
+  {
+    "pergunta": "Quantos habitantes tinha Fresno, California segundo o censo de 2020?",
+    "resposta": "Mais de 542 mil habitantes"
+  },
+  {
+    "pergunta": "Quem nasceu em Fresno, California?",
+    "resposta": "Adam Prentice"
+  }
+]

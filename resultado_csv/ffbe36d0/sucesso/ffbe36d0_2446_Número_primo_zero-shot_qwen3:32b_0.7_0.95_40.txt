@@ -1,0 +1,66 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the context of "Número_primo". Let me start by recalling what prime numbers are. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. 
+
+First question: What is the smallest prime number? The answer should be 2 because 1 isn't considered prime. Next, maybe a question about whether even numbers are prime. Well, except for 2, all even numbers are not prime. So a question like "Which even number is a prime number?" would have the answer 2.
+
+Then, maybe a definition question. "What defines a number as prime?" The answer would be having exactly two distinct positive divisors. 
+
+Another question could be about the number 1. Is 1 a prime number? The answer is no. 
+
+How about a composite number example? The smallest composite number is 4, so "What is the smallest composite number?" Answer: 4.
+
+A question about factors: "How many divisors must a prime number have?" The answer is two. 
+
+Testing another example: Is 9 a prime? No, because it's divisible by 3. So "Is 9 a prime number?" Answer: No.
+
+What about checking if a number is prime? A question like "What is the first step in determining if a number is prime?" The answer would be to check if it's divisible by 2. 
+
+Another one could be about the largest prime under 10. The answer is 7. 
+
+Wait, need to make sure all answers are in the context provided. Also, avoid repetition. Let me list out possible questions and answers, ensuring they cover different aspects like definitions, examples, properties, and exceptions. Check each to ensure the answer is directly from the context. Alright, compiling them into JSON format without any extra text.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o menor número primo?",
+    "resposta": "2"
+  },
+  {
+    "pergunta": "Qual é o único número par que é primo?",
+    "resposta": "2"
+  },
+  {
+    "pergunta": "Quantos divisores positivos distintos um número primo possui?",
+    "resposta": "Dois"
+  },
+  {
+    "pergunta": "O número 1 é considerado um número primo?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "Qual é o menor número composto (não primo)?",
+    "resposta": "4"
+  },
+  {
+    "pergunta": "O número 9 é um número primo?",
+    "resposta": "Não"
+  },
+  {
+    "pergunta": "Qual é o primeiro passo para verificar se um número é primo?",
+    "resposta": "Verificar se é divisível por 2"
+  },
+  {
+    "pergunta": "Qual é o maior número primo menor que 10?",
+    "resposta": "7"
+  },
+  {
+    "pergunta": "O número 13 é um número primo?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Qual é o número primo entre 20 e 30?",
+    "resposta": "23, 29"
+  }
+]
+```

@@ -1,0 +1,74 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts. First, I need to go through the information given.
+
+The context is about British Satellite Broadcasting (BSB), which was incorporated in November 1990 to form BSkyB. It started transmitting in March 1990. The facts include various details like the founding year (1986), locations (London, England, United Kingdom, Marco Polo House), mergers (with Sky Television to form BSkyB), subsidiaries (The Movie Channel, The Power Station, Galaxy, Now), models used (wiki templates), categories (1990 mergers, 1980s in the UK), and other related info like films produced (Memphis Belle, Hardware).
+
+Now, I need to create varied questions covering different aspects. Let's start with the founding year. The context says "foi fundado em 1986-12-11" and also "foi fundado no ano de 1986." So a question about the founding year is straightforward.
+
+Next, the merger. The context mentions that BSB was incorporated in November 1990 to form BSkyB. So a question about the company formed by merging with Sky Television would be good.
+
+Transmission start date is March 25, 1990. That's another point.
+
+Location: The facts mention London, England, United Kingdom, Marco Polo House. So a question about where it was based, and maybe the specific building.
+
+Subsidiaries: The Movie Channel, The Power Station, Galaxy, Now. So asking which channels are owned by BSB.
+
+Films produced: Memphis Belle and Hardware. So a question about films produced by BSB.
+
+Categories: 1980s in the UK, 1990s in British television, etc. Maybe a question about the categories associated with BSB.
+
+Wiki templates: They use several models like Template:Cite web, Template:Authority control, etc. So a question about the wiki models used.
+
+Ownership: The Computer Channel (BSB) is owned by BSB. So a question about which channel is owned by BSB.
+
+Successor company: BSB was succeeded by Sky UK. So a question about the company that succeeded BSB.
+
+I need to ensure that each question is unique and covers different aspects. Let me check for duplicates. For example, the merger question and the successor company are different. The channels and films are separate. Locations can be asked in different ways (city, country, specific building).
+
+Also, the user provided examples that included BSkyB as the answer, so I should avoid repeating those if possible, but some might be necessary. However, the examples might not be directly from the given context, so maybe it's okay.
+
+Now, let's structure each question and answer based on the facts. Make sure answers are directly from the text, either explicit or inferable. Avoid any markdown, just the JSON as specified. Also, ensure there are exactly 10 pairs.
+</think>
+
+[
+  {
+    "pergunta": "Em que ano a British Satellite Broadcasting foi fundada?",
+    "resposta": "1986"
+  },
+  {
+    "pergunta": "Qual empresa foi formada pela incorporação da British Satellite Broadcasting em novembro de 1990?",
+    "resposta": "British Sky Broadcasting (BSkyB)"
+  },
+  {
+    "pergunta": "Quando a British Satellite Broadcasting começou a transmitir serviços de televisão?",
+    "resposta": "25 de março de 1990"
+  },
+  {
+    "pergunta": "Qual é o nome da empresa que sucedeu a British Satellite Broadcasting?",
+    "resposta": "Sky UK"
+  },
+  {
+    "pergunta": "Quais são dois canais de televisão que possuem a British Satellite Broadcasting como proprietária?",
+    "resposta": "The Power Station e Galaxy (British TV channel)"
+  },
+  {
+    "pergunta": "Qual é o endereço físico da British Satellite Broadcasting?",
+    "resposta": "Marco Polo House"
+  },
+  {
+    "pergunta": "Quais são dois filmes produzidos pela British Satellite Broadcasting?",
+    "resposta": "Memphis Belle e Hardware"
+  },
+  {
+    "pergunta": "Quais são dois modelos de página wiki utilizados pela British Satellite Broadcasting?",
+    "resposta": "Template:Cite web e Template:Authority control"
+  },
+  {
+    "pergunta": "Qual é a categoria principal associada à British Satellite Broadcasting no contexto de eventos históricos?",
+    "resposta": "1990 mergers and acquisitions"
+  },
+  {
+    "pergunta": "Em que país a British Satellite Broadcasting está localizada?",
+    "resposta": "Reino Unido"
+  }
+]

@@ -1,0 +1,63 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts about civil disobedience. First, I need to understand the context thoroughly. The main points are that civil disobedience is a nonviolent form of protest against unjust laws or oppressive governments, originated by Henry David Thoreau, used by Gandhi and Martin Luther King, and the right of citizens to disobey a government that doesn't meet their needs.
+
+Now, looking at the facts section, there are a lot of RDF triples mentioning various events and their relation to civil disobedience. I need to extract key events, people, and concepts from these. For example, events like the 1998 Russian miners' strike, 2015-2016 Montenegrin crisis, and others used civil disobedience. Also, Henry David Thoreau is linked to the concept, and Gandhi and King are mentioned as key figures.
+
+The challenge is to create 10 unique questions that cover different aspects: originators, key figures, historical examples, definitions, and maybe the concept's application in different contexts. I need to ensure that each question is distinct and not repetitive. Let me brainstorm possible questions:
+
+1. Who formulated the concept of civil disobedience?
+2. Which historical figure applied civil disobedience in India's independence?
+3. What is civil disobedience defined as?
+4. Which movement used civil disobedience for racial equality?
+5. What is the right of citizens when a government fails them?
+6. Which event is associated with the 1998 Russian miners' strike?
+7. What is the purpose of the Code Rood?
+8. Which movement used civil disobedience against the compulsory hijab?
+9. What does the term 'civil disobedience' mean in the context of protest?
+10. Which event is linked to the 2017 Serbian protests?
+
+Wait, need to check if these are all covered in the context and facts. The answer for question 1 is Thoreau. For 2, Gandhi. The definition is the first paragraph. The movement for racial equality is Martin Luther King's. The right is the last sentence. The 1998 event is the miners' strike. Code Rood's purpose is mentioned in the facts. The compulsory hijab is the Iranian protests. The 2017 Serbian protests are listed. Also, need to make sure answers are directly from the context. Let me verify each point again to ensure accuracy and that answers are inferable or explicit.
+</think>
+
+[
+  {
+    "pergunta": "Quem formulou o conceito de desobediência civil?",
+    "resposta": "Henry David Thoreau"
+  },
+  {
+    "pergunta": "Qual figura histórica aplicou a desobediência civil na independência da Índia?",
+    "resposta": "Mahatma Gandhi"
+  },
+  {
+    "pergunta": "O que é desobediência civil segundo o contexto?",
+    "resposta": "Uma forma de protesto político pacífico contra ordens injustas ou governos vistos como opressores"
+  },
+  {
+    "pergunta": "Qual movimento utilizou a desobediência civil para combater a segregação racial?",
+    "resposta": "Movimento pelos direitos civis liderado por Martin Luther King"
+  },
+  {
+    "pergunta": "Qual é o direito da população quando o governo não satisfaz suas exigências?",
+    "resposta": "O direito de desobedecê-lo"
+  },
+  {
+    "pergunta": "Qual evento está associado à desobediência civil em 1998 na Rússia?",
+    "resposta": "Greve dos mineros de 1998"
+  },
+  {
+    "pergunta": "Qual é o propósito da 'Code Rood' segundo os fatos?",
+    "resposta": "Desobediência civil"
+  },
+  {
+    "pergunta": "Qual movimento utilizou a desobediência civil contra a obrigação do hijab?",
+    "resposta": "Protestos iranianos contra o hijab obrigatório"
+  },
+  {
+    "pergunta": "Qual evento está relacionado às protestações sérvias de 2017?",
+    "resposta": "Protestos sérvios de 2017"
+  },
+  {
+    "pergunta": "Qual é o significado da desobediência civil no contexto de protestos?",
+    "resposta": "Ação pacífica contra leis ou governos considerados injustos"
+  }
+]

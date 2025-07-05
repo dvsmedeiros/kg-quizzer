@@ -1,0 +1,73 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context about packet switching. Let me start by understanding the context thoroughly. The main points are:
+
+1. **Packet Switching vs Circuit Switching**: Packet switching is a method where data is divided into packets sent individually, while circuit switching establishes a dedicated connection. The context mentions that packet switching optimizes bandwidth, reduces latency, and increases robustness, but has variable quality of service, jitter, and delays.
+
+2. **Types of Packet Switching**: There are two main types—connection-oriented (circuit virtual) and connectionless (datagram). Connection-oriented uses a fixed virtual path, ensuring ordered delivery. Examples include ATM, Frame Relay, X.25. Connectionless sends packets independently, offering flexibility and robustness, with IP as an example.
+
+3. **Key Figures**: Donald Davies, Paul Baran, Sharla Boehm, and W. David Sincoskie are associated with packet switching.
+
+4. **Technical Aspects**: Multiplexing techniques, statistical time multiplexing, and the use of addresses (source and destination) in datagram mode.
+
+Now, I need to create 10 varied questions covering different aspects. Let me brainstorm possible questions:
+
+1. What is packet switching? (Definition)
+2. How does packet switching differ from circuit switching? (Comparison)
+3. What are the advantages of packet switching? (List advantages)
+4. What are the two types of packet switching? (Types)
+5. What is a circuit virtual in packet switching? (Explanation)
+6. What is a datagram in packet switching? (Explanation)
+7. Who are some key figures associated with packet switching? (Names)
+8. What is the role of multiplexing in packet switching? (Technical aspect)
+9. What is the main difference between connection-oriented and connectionless packet switching? (Types)
+10. What is an example of a connection-oriented packet switching technology? (Example)
+
+Wait, I need to ensure each question is unique and covers different aspects. Let me check if these are all distinct. The first two are about definition and comparison. The third is advantages. Fourth is types. Fifth and sixth explain each type. Seventh is key figures. Eighth is multiplexing. Ninth is the main difference between the two types. Tenth is an example. That's 10. Now, I need to phrase them in Portuguese, ensuring each answer is correct and based on the context.
+
+Let me verify the answers against the context. For example, the advantages are mentioned as optimizing bandwidth, minimizing latency, increasing robustness. The types are connection-oriented and connectionless. Examples of connection-oriented are ATM, Frame Relay, X.25. Multiplexing is mentioned as statistical time multiplexing. Key figures are the names listed. Datagram requires the source address. 
+
+I think that's all. Now, structure them into JSON as specified, ensuring no extra content and exactly 10 pairs.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a principal vantagem da comutação de pacotes em comparação com a comutação de circuitos?",
+    "resposta": "Optimizar o uso da largura de banda da rede."
+  },
+  {
+    "pergunta": "Qual é a diferença fundamental entre comutação de pacotes e comutação de circuitos?",
+    "resposta": "A comutação de pacotes envia pacotes individualmente, enquanto a comutação de circuitos estabelece uma ligação dedicada."
+  },
+  {
+    "pergunta": "Quais são as duas categorias principais de comutação por pacotes?",
+    "resposta": "Com ligação (circuito virtual) e sem ligação (datagrama)."
+  },
+  {
+    "pergunta": "O que caracteriza a comutação de pacotes com ligação?",
+    "resposta": "O estabelecimento de um caminho virtual fixo para garantir a entrega ordenada dos pacotes."
+  },
+  {
+    "pergunta": "Qual é a principal característica da comutação de pacotes sem ligação?",
+    "resposta": "Os pacotes são encaminhados independentemente, oferecendo flexibilidade e robustez maior."
+  },
+  {
+    "pergunta": "Quem são alguns dos principais nomes associados à comutação de pacotes?",
+    "resposta": "Donald Davies, Paul Baran, Sharla Boehm e W. David Sincoskie."
+  },
+  {
+    "pergunta": "Quais tecnologias são exemplos de comutação de pacotes com ligação?",
+    "resposta": "ATM (comutação de células), Frame Relay e X.25."
+  },
+  {
+    "pergunta": "Qual técnica é utilizada para melhorar o uso dos recursos da rede em comutação de pacotes?",
+    "resposta": "Técnicas de multiplexagem temporal estatística."
+  },
+  {
+    "pergunta": "Por que a comutação de pacotes pode apresentar variação na qualidade de serviço?",
+    "resposta": "Devido à introdução de jitter e atrasos diversos durante a transmissão."
+  },
+  {
+    "pergunta": "Qual é o exemplo clássico de comutação de pacotes sem ligação?",
+    "resposta": "O endereço IP, que exige a inclusão do endereço de origem em cada pacote."
+  }
+]

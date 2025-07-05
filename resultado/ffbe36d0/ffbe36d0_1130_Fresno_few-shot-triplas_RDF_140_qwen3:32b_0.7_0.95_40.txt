@@ -1,0 +1,86 @@
+<think>
+Okay, let's see. The user provided a bunch of data about Fresno, California in the form of triples and some examples of question-answer pairs. They want me to generate 10 more pairs following the same pattern. 
+
+First, I need to parse the given data to find relevant information. The main data about Fresno is in the last block. It mentions the area code is 559, government type is Strong Mayor, located in California, and other details. The examples given include questions about size, distance, Spanish meaning, flag, pronunciation, establishment year, reasons for moving, incorporation year, trolley cars, and growth trigger.
+
+I need to come up with new questions based on the data not already used in the examples. Let's look at the data:
+
+- Area total: 300.4386 square km
+- Government type: Strong Mayor
+- Settlement type: Listed in municipalities in California
+- Templates used: California cities and mayors, Fresno County, Official website
+- DCTerms subject: San Joaquin Valley
+- Coordinates: 36.75, -119.7667
+- Exact match to a wordnet concept
+- Depiction: A specific image URL
+
+So possible questions could be about the government structure, area size, location (San Joaquin Valley), coordinates, county, or official website. Also, the population (since it's a city in the mayors list of 100k+), but that's not directly stated. The examples already have "quinta maior cidade" which is about population rank. Maybe the settlement type is "List of municipalities in California" which is a bit vague, but could be phrased as "What type of municipalities list is Fresno included in?" with answer "List of municipalities in California".
+
+Another angle: the area code 559. So a question like "What is the area code of Fresno?" with answer "559". The government type is Strong Mayor, so a question about that. The templates used might relate to categories it's part of. Coordinates could be asked as "What are the geographical coordinates of Fresno, California?" with the answer from the data.
+
+The exact match to a wordnet concept might not be something to ask, but the subject category "San Joaquin Valley" could be a question like "In which valley is the city of Fresno located?" with answer "San Joaquin Valley".
+
+Also, the depiction is an image, but the examples don't use that. Maybe not necessary. 
+
+Let me check the examples again to avoid repetition. The existing examples are about size rank, distance from LA, Spanish name, flag, pronunciation, railroad station year, reasons for moving, incorporation year, trolleys, and growth trigger. So the new ones should cover different aspects.
+
+Possible new questions:
+
+1. What is the total area of the city of Fresno? Answer: 300.4386 square kilometers.
+2. What type of government does Fresno, California have? Answer: Strong Mayor.
+3. In which county is the city of Fresno located? Answer: Fresno County.
+4. What is the area code used in Fresno, California? Answer: 559.
+5. What category of cities does Fresno belong to according to its settlement type? Answer: List of municipalities in California.
+6. What is the geographical classification of Fresno, California? Answer: Area, Group, Site, County Seat (from the Yago classes, but maybe simplify to "County Seat").
+7. What is the primary subject category that Fresno, California is associated with? Answer: San Joaquin Valley.
+8. What are the coordinates of the city of Fresno? Answer: 36.75°N, 119.7667°W.
+9. Which city's official website is linked through Fresno's Wikipedia page? Answer: Fresno (since the template mentions official website, but maybe not the best. Alternatively, the city itself).
+10. What is the primary language in which the name 'Fresno' is derived? Answer: Spanish (since it means "ash tree" in Spanish, but the example already has the Spanish translation. Maybe not. Alternatively, the name's origin.)
+
+Wait, the existing example about the Spanish meaning is already covered. So maybe focus on other aspects. Let's check the Yago classes again: Area, Group, Site, County Seats. So maybe a question about the classification as a county seat. Also, the settlement type is "List of municipalities in California" which could be phrased as "What list of cities is Fresno included in?" with answer "List of municipalities in California".
+
+Putting it all together, here's a list of possible 10 questions and answers:
+</think>
+
+[
+  {
+    "pergunta": "Qual é a área total da cidade de Fresno?",
+    "resposta": "300,4386 km²"
+  },
+  {
+    "pergunta": "Que tipo de governo Fresno, Califórnia, possui?",
+    "resposta": "Prefeito Forte (Strong Mayor)"
+  },
+  {
+    "pergunta": "Em qual condado está localizada a cidade de Fresno?",
+    "resposta": "Condado de Fresno"
+  },
+  {
+    "pergunta": "Qual é o código de área usado em Fresno, Califórnia?",
+    "resposta": "559"
+  },
+  {
+    "pergunta": "Que tipo de classificação geográfica Fresno, Califórnia, possui?",
+    "resposta": "Área, Grupo, Sede do Condado"
+  },
+  {
+    "pergunta": "Em qual vale a cidade de Fresno está localizada?",
+    "resposta": "Vale de San Joaquin"
+  },
+  {
+    "pergunta": "Quais são as coordenadas geográficas da cidade de Fresno?",
+    "resposta": "36,75°N, 119,7667°W"
+  },
+  {
+    "pergunta": "Que lista de cidades Fresno está incluída de acordo com seu tipo de assentamento?",
+    "resposta": "Lista de Municípios da Califórnia"
+  },
+  {
+    "pergunta": "Qual entidade está associada à cidade de Fresno no contexto de sua classificação como sede de condado?",
+    "resposta": "Sede do Condado de Fresno"
+  },
+  {
+    "pergunta": "Que categorias são destacadas na página da Wikipedia de Fresno, Califórnia?",
+    "resposta": "Áreas, Grupos, Sítios e Sedes de Condado"
+  }
+]

@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "pergunta": "Qual é o principal objetivo da Comutação de Pacotes?",
+    "resposta": "Oferecer uma maneira de compartilhar dados entre servidores sem a necessidade de conexão direta."
+  },
+  {
+    "pergunta": "Em qual tipo de cenário seria mais vantajoso usar a Comutação de Pacotes?",
+    "resposta": "Quando há a necessidade de transferir grandes quantidades de dados entre servidores que não estão diretamente conectados."
+  },
+  {
+    "pergunta": "Como os pacotes são transmitidos em uma Comutação de Pacotes?",
+    "resposta": "Os pacotes são encapsulados e transmitem-se individualmente, sem esperar pelo envio completo dos demais."
+  },
+  {
+    "pergunta": "Quais são os dois componentes principais da Comutação de Pacotes?",
+    "resposta": "O encapçulador (encapsular) e o desencapulador (desenvolver)."
+  },
+  {
+    "pergunta": "Por que a Comutação de Pacotes é considerada uma técnica avançada para transferência de dados?",
+    "resposta": "Pois ela permite a segmentação de dados em pacotes individuais, aumentando sua eficiência e velocidade."
+  },
+  {
+    "pergunta": "Em qual tipo de rede seria mais difícil implementar Comutação de Pacotes?",
+    "resposta": "Redes semelhantes a uma rede local (LAN) ou onde os servidores estão relativamente próximos, pois não há necessidade de conexão direta."
+  },
+  {
+    "pergunta": "Quais são as principais diferenças entre Comutação de Pacotes e Trânsito Conexão?",
+    "resposta": "A Comutação de Pacotes envolve a separação dos dados em pacotes individuais, enquanto o Trânsito Conexão envolve conexões estabelecidas para transferir os dados."
+  },
+  {
+    "pergunta": "Em que situação uma Comutação de Pacotes não seria eficaz?",
+    "resposta": "Quando o tempo é crucial e a velocidade da transferência de dados é mais importante do que a economia de recursos, pois a Comutação de Pacotes pode levar um pouco mais de tempo para encapsular e desencapsular os pacotes."
+  },
+  {
+    "pergunta": "Como a Comutação de Pacotes pode ser usada em uma rede WAN?",
+    "resposta": "A Comutação de Pacotes é frequentemente usada na camada do transporte (TCP) para garantir que dados sejam enviados e recebidos corretamente, mesmo que as conexões não permaneçam constantes."
+  },
+  {
+    "pergunta": "Qual é o papel da Comutação de Pacotes em uma rede semipropria?",
+    "resposta": "Ela permite a transferência eficiente de dados entre servidores que estão conectados por meio de uma rede de terceiros, semelhante à Internet."
+  }
+]
+```

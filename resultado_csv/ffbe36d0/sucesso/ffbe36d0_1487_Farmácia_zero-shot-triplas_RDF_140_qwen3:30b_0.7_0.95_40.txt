@@ -1,0 +1,65 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided data. Let me start by understanding the data. The user provided a lot of RDF data about "Pharmacy" in DBpedia, including relationships, names, subjects, and other metadata.
+
+First, I'll look for key information in the data. The main resource is <http://dbpedia.org/resource/Pharmacy>, which is a PersonFunction and Work. The name is "Pharmacy," and it's categorized under Greek words and phrases and medicinal chemistry. There are also details about education levels like Doctor of Pharmacy, Master of Pharmacy, etc. The data includes links to Wikipedia and images.
+
+Now, the user wants 10 question-answer pairs. The questions should be in Portuguese, and the answers should be concise. Let me think of possible questions.
+
+1. What is the origin of the word "Pharmacy"? The data mentions it's a Greek word, so the answer would be from Greek, meaning "preparation" or "store."
+
+2. What are the typical educational qualifications for pharmacists? The data lists Doctor of Pharmacy, Master, Bachelor, and Diploma.
+
+3. What are the main subjects studied in pharmacy? The data mentions medicinal chemistry and Greek words, but maybe from the categories, it's medicinal chemistry, pharmacology, etc.
+
+4. What are the roles of a pharmacist? The data mentions they are professionals in pharmaceutical sciences, managing medications, etc.
+
+5. What are the common symbols associated with pharmacy? The images include Rx symbol, which is a common symbol.
+
+6. What are the different types of pharmacy education? The data lists different degrees like Doctor, Master, etc.
+
+7. What is the significance of the term "Pharmacy" in medicine? It's about the preparation and dispensing of medications.
+
+8. What are the categories related to pharmacy in DBpedia? The subjects include Greek words and medicinal chemistry.
+
+9. What are the common functions of a pharmacy? Dispensing medications, providing advice, etc.
+
+10. What are the international terms for pharmacy? The data might have terms in other languages, but since it's in English, maybe the answer is "Pharmacy" in English, but the user might want other languages. Wait, the data includes a Wikipedia link, so maybe the answer is that it's known as "Pharmacy" in English and "Farmácia" in Portuguese.
+
+Wait, I need to make sure the answers are accurate based on the data. Let me check again. The data has "dcterms:subject" with "Category:Greek words and phrases" and "Category:Medicinal chemistry." The education levels are "Doctor of Pharmacy, Master of Pharmacy, Bachelor of Pharmacy, Diploma in Pharmacy." The "ns2:name" is "Pharmacy." The "foaf:depiction" includes images like Rx symbol. The "ns2:wikiPageUsesTemplate" includes templates related to pharmacy.
+
+So, for the questions, I can structure them around the origin, education, subjects, symbols, roles, categories, functions, etc. Need to make sure the answers are based on the data provided and not external knowledge. For example, the origin is from Greek, the education levels are as listed, the subjects are the categories, the symbols are the Rx symbol, etc.
+
+I need to avoid making up information not in the data. So, for example, the answer to the origin should be "originário do grego, significando 'preparação' ou 'armazenamento'." The education levels are the ones listed. The categories are the two mentioned. The symbols are the Rx symbol. The roles are managing medications, providing advice, etc. The functions are related to dispensing medications, etc.
+
+Now, I'll draft the 10 pairs, ensuring they are in Portuguese and based on the data.
+</think>
+
+1. **Pergunta:** Qual é a origem da palavra "Farmácia"?  
+   **Resposta:** A palavra "Farmácia" tem origem no grego, significando "preparação" ou "armazenamento".  
+
+2. **Pergunta:** Quais são os principais campos de estudo na farmácia?  
+   **Resposta:** Os principais campos incluem química medicinal, farmacologia e ciências farmacêuticas.  
+
+3. **Pergunta:** Quais são os graus acadêmicos comuns para um farmacêutico?  
+   **Resposta:** Graus comuns incluem Doutorado em Farmácia, Mestrado em Farmácia, Bacharelado em Farmácia e Diploma em Farmácia.  
+
+4. **Pergunta:** Qual é o símbolo mais conhecido associado à farmácia?  
+   **Resposta:** O símbolo mais conhecido é o "Rx", usado para prescrições médicas.  
+
+5. **Pergunta:** Quais são as funções principais de uma farmácia?  
+   **Resposta:** As funções incluem a dispensação de medicamentos, orientação farmacêutica e gestão de estoques.  
+
+6. **Pergunta:** Quais categorias estão associadas à "Farmácia" no DBpedia?  
+   **Resposta:** As categorias incluem "Palavras e frases gregas" e "Química medicinal".  
+
+7. **Pergunta:** Como a farmácia é chamada em outras línguas?  
+   **Resposta:** Em português, é "Farmácia"; em inglês, "Pharmacy"; e em outras línguas, varia conforme o idioma.  
+
+8. **Pergunta:** Quais são as principais responsabilidades de um farmacêutico?  
+   **Resposta:** As responsabilidades incluem preparar medicamentos, verificar interações e fornecer orientação aos pacientes.  
+
+9. **Pergunta:** Como a "Farmácia" é representada em imagens no DBpedia?  
+   **Resposta:** Imagens incluem símbolos como o "Rx" e representações de balanças, frascos e medicamentos.  
+
+10. **Pergunta:** Qual é a importância da farmácia na medicina?  
+    **Resposta:** A farmácia é fundamental para a preparação, armazenamento e distribuição de medicamentos, garantindo sua eficácia e segurança.

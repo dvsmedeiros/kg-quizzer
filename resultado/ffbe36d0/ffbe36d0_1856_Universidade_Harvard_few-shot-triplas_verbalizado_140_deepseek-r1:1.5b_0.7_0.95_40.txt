@@ -1,0 +1,72 @@
+<think>
+Okay, I need to create a JSON array with exactly 10 pairs of questions and answers based on the given context and rules. Let me start by understanding the information provided.
+
+First, the context is about Harvard University. There are several individuals mentioned like Harry H. Wells, Bruce Kovner, Orlando Schärer, and so on. Each has a name that serves as a subject or a person associated with the university.
+
+I need to extract questions and responses from this context. The rules say each question should be related to the content, and the response must be clear and relevant. I should avoid any markdown formatting and just present it in plain text within the JSON array.
+
+Looking at the examples provided, each entry has a "pergunta" field with a specific question and a "resposta" field with the answer. So, my task is to list 10 such pairs from the context.
+
+I'll start by identifying questions that are directly related to Harvard University's aspects mentioned in the context. For example, "Qual indivíduo recebeu o nome da escola?" refers to John Harvard. That seems straightforward.
+
+Next, I can ask about specific events or facts, like when the university became coeducational. The context mentions it happened in 1977 during the Grande Depressão and the Second Guerra. So that's another question.
+
+I also need to include questions about notable people associated with Harvard. For instance, who was the first president? It was Alinghi Tulo, so I can ask that.
+
+The university's image is mentioned too. There are several images linked, like Harvard University, Harvard Crimson, and many others. So a question about its image would be appropriate here.
+
+Another point is the major systems of Harvard's institution. From the context, it mentions Harvard Crimson and other institutions in the Ivy League. I can ask what major systems they have.
+
+The university's image is also mentioned with multiple links, so another question about its image makes sense.
+
+I should continue this way, ensuring each question is unique and corresponds to a different aspect of Harvard University as described in the context.
+
+I'll gather 10 questions covering individuals, events, structures, images, and systems related to Harvard. Then I'll map each question to its corresponding answer from the provided list.
+
+Once all 10 are compiled, I'll structure them into a JSON array with "pergunta" and "resposta" fields for each item.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual indivíduo recebeu o nome da escola?",
+    "resposta": "John Harvard"
+  },
+  {
+    "pergunta": "Quando o curso de graduação se tornou coeducacional?",
+    "resposta": "1977"
+  },
+  {
+    "pergunta": "Qual eh o nome do líder durante a Grande Depressão e a Segunda Guerra Mundial?",
+    "resposta": "James Bryant Conant"
+  },
+  {
+    "pergunta": " qual organização Harvard encontrou em 1900?",
+    "resposta": "associação de Universidades Americanas"
+  },
+  {
+    "pergunta": " qual presidente da universidade a transformou em uma moderna universidade de pesquisa?",
+    "resposta": "Charles W. Eliot"
+  },
+  {
+    "pergunta": " qual sistema acadêmico major Harvard possui?",
+    "resposta": "Harvard Crimson"
+  },
+  {
+    "pergunta": " quantas bibliotecas individuais compõe a biblioteca principal da escola?",
+    "resposta": "79 bibliotecas individuais"
+  },
+  {
+    "pergunta": " qual(total) volumes está contido na biblioteca principal do哈佛?",
+    "resposta": "18 milhões de volumes."
+  },
+  {
+    "pergunta": " quantos presidentes dos EUA são ex-alunos da escola?",
+    "resposta": "oito presidentes dos EUA"
+  },
+  {
+    "pergunta": " qual total de ganhadores do Nobel está entre os ex-alunos da escola?",
+    "resposta": "150 ganhadores do Nobel"
+  }
+]
+```

@@ -1,0 +1,59 @@
+<think>
+Okay, I need to create exactly 10 objective questions based on the context provided about "Motor_a_vapor." The user has given specific rules for structuring the responses and the content of each question.
+
+First, I should identify various aspects of motor vehicles to make each question unique. Maybe focus on different types like cars, trucks, airplanes, etc. For each type, I'll come up with a relevant question that requires a clear answer.
+
+Let me brainstorm some topics: fuel efficiency for cars, engine performance in trucks, the impact of modern technology on planes, safety features in buses, innovation in aviation, advanced technology beyond engines, electric vehicles' charging methods, sustainability concerns for airplanes, how to reduce energy consumption, and improving air pollution in vehicles. These cover a broad range of motor vehicle topics.
+
+Now, I'll draft each question with a clear answer based on the context provided. Making sure that each response is straightforward and directly related to the given information.
+
+I need to ensure that there are no repeated questions. Each topic should be distinct enough to warrant a separate response. Also, I must avoid any unnecessary details or explanations beyond what's in the context. The answers should come directly from the context without adding extra information.
+
+Let me check each question for clarity and uniqueness. For example, "How much fuel does a typical car consume per kilometer?" versus others—each is different in both type and variables involved.
+
+Finally, I'll structure them into a JSON format as specified, ensuring that each object has "pergunta" and "resposta" keys with the appropriate values.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quantas literais você gosta de um automóvel com \%20 ou \%30 de potência?",
+    "resposta": "Depema strongly depends on fuel efficiency for cars."
+  },
+  {
+    "pergunta": "Em qual tipo de veículo o supeiar regularly check a fuel efficiency?",
+    "resposta": "Most probably, it is a car or truck."
+  },
+  {
+    "pergunta": "Quem é mais responsivo para a modificação da \%30 de fuel consumption de um automóvel?",
+    "resposta": "Those with expertise in vehicle maintenance and technology."
+  },
+  {
+    "pergunta": "Em qual tipo de veículo o supeiar regularly check for air pollution?",
+    "resposta": "Most likely, it is a bus or small car."
+  },
+  {
+    "pergunta": "Quem é mais responsivo para implementar tecnologias innovadoras em aviões?",
+    "resposta": "Those with strong expertise in aviation technology."
+  },
+  {
+    "pergunta": "Em qual tipo de veículo o supeiar regularly check for advanced engine performance?",
+    "resposta": "Most probably, it is an airplane."
+  },
+  {
+    "pergunta": "Quem é mais responsivo para reduzir a \%30 de energy consumption e geração do sol de um automóvel?",
+    "resposta": "Those with knowledge in energy-efficient vehicle design."
+  },
+  {
+    "pergunta": "Em qual tipo de veículo o supeiar regularly check for zero emissions technology?",
+    "resposta": "Most likely, it is an electric vehicle."
+  },
+  {
+    "pergunta": "Quem é mais responsivo para implementar melhorias para reduzir os air pollution em um supeiar regulary?",
+    "resposta": "Those with expertise in vehicle tailoring."
+  },
+  {
+    "pergunta": "Em qual tipo de veículo o supeiar regularly check for sustainable practices across all aspects?",
+    "resposta": "Most probably, it is an airplane."
+  }
+]

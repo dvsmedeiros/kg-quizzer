@@ -1,0 +1,62 @@
+<think>
+Primeiro, identifico as fatores que precisam ser incluídos em cada pergunta. De forma initial, vou criar pergauns com tópicos diferentes, como algoritmos, complexidade computacional, teoria da complexidade, classificações de problemas e resoluções específicas.
+
+Em seguida, para cada pergunta, encontrei fatores-repos nos arquivos fornecidos. Assim, posso criar pergauns que sejam relacionadas à teoria da complexidade computacional e至vez de resolução pratical.
+
+Depois, verifico que cada pergunta é variável e abrange diferentes aspectos da área. Apenas uses os dados fornecidos para formular as respostas corretas, sem adicionar mais informações ou explanationes.
+
+Finalmente, organizo os pergauns em uma estrutura JSON com as perguntas e respostas específicas correspondentes.
+</think>
+
+```json
+[
+  {
+    "pergunta": " qual é o algoritmo mais eficiente para resolver um problema de complexidade O(n log n) na classificação de frutas?",
+    "resposta": "O mergesort é o algoritmo mais eficiente para resolver um problema de complexidade O(n log n) na classificação de frutas."
+  },
+  {
+    "pergunta": " qual é a complexidade computacional do algoritmo que partitiona um array em elementos menores e iguais?",
+    "resposta": "a complexidade computacional é O(n^2),pois o algoritmo partitiona uma lista em elementos menores e iguais em n passos."
+  },
+  {
+    "pergunta": " qual é acomplexidade computacional da raíz do árbole binário de pesquisa?",
+    "resposta": "la complexidade computacional da raíz do árbole binário de pesquisa é O(n log n),pois cada passo divide o array em dois subarray, resultando em um número de operações proporcional ao log de n."
+  },
+  {
+    "pergunta": " qual é acomplexidade computacional da raíz do árbole de binary search?",
+    "resposta": "la complexidade computationally da raíz do árboulo binary search é O(log(n)),pois cada passo divide o array em dois subarray, resultando em uma operação fixa."
+  },
+  {
+    "pergunta": " qual é acomplexidade computacional da raíz binária de mergesort?",
+    "resposta": "la complexidade computacional da raíz binária de mergesort é O(n log n),pois o mergesort divide o array em dois subarray, cada um processando em O(n) operações, resultando em um número de operações proporcional ao n log n."
+  },
+  {
+    "pergunta": " qual é acomplexidade computacional do algoritmo da raíz do árboimo que partitiona em elementos menores e iguais?",
+    "resposta": "la complexidade computacional do algoritmo raízo do árboimo que partitiona em elementos menores e iguais é O(n^2),pois cada passo divide o array em dois subarrays, resultando em um número de operações proporcional ao n^2."
+  },
+  {
+    "pergunta": " qual é acomplexidade computacional da raíz do árboimo binário de mergesort?",
+    "resposta": "la complexidade computacional da raízo binary of mergesort é O(n log n),pois o mergesort divide o array em dois subarrays, cada um processando em O(n) operações, resultando em um número de operações proporcional ao n log n."
+  },
+  {
+    "pergunta": " qual é acomplexidade computacional do algoritmo da raízo binary of quicksort?",
+    "resposta": "la complexidade computationally do algoritmo raízo binary of quicksort é O(n^2),pois cada passo divide o array em dois subarrays, resultando em um número de operações proporcional ao n^2."
+  },
+  {
+    "pergunta": " qual é acomplexidade computacional da raíz do árboimo binary search?",
+    "resposta": "la complexidade computacional da raízo binary search é O(log(n)),pois cada passo divide o array em dois subarrays, resultando em uma operação fixa."
+  },
+  {
+    "pergunta": " qual é acomplexidade computacional do algoritmo da raízo binary of quicksort?",
+    "resposta": "la complexidade computacional do algoritmo raízo binary of quicksort é O(n log n),pois o mergesort divide o array em dois subarrays, cada um processando em O(n) operações, resultando em um número de operações proporcional ao n log n."
+  },
+  {
+    "pergunta": " qual é acomplexidade computacional do algoritmo da raízo binary of mergesort?",
+    "resposta": "la complexidade computacional do algoritmo raízo binary of mergesort é O(n log n),pois o mergesort divide o array em dois subarrays, cada um processando em O(n) operações, resultando em um número de operações proporcional ao n log n."
+  },
+  {
+    "pergunta": " qual é acomplexidade computacional do algoritmo da raízo binary search?",
+    "resposta": "la complexidade computationally do algoritmo raízo binary search é O(log(n)),pois cada passo divide o array em dois subarrays, resultando em uma operação fixa."
+  }
+]
+```

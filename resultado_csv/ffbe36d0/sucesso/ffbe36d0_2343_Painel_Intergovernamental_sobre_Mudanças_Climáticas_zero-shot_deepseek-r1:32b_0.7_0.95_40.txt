@@ -1,0 +1,77 @@
+<think>
+Ok, vou tentar resolver este problema passo a passo. Primeiro, preciso entender o que está sendo pedido.
+
+O usuário forneceu um contexto sobre o Painel Intergovernamental sobre Mudanças Climáticas (IPCC) e pede para gerar 10 pares de perguntas e respostas baseados nesse conteúdo. As instruções são claras: as perguntas devem ser variadas, cobrindo diferentes aspectos do contexto, ter uma única resposta correta, todas em português.
+
+Primeiro, vou revisar o contexto fornecido para identificar os pontos principais:
+
+1. IPCC é uma organização intergovernamental criada em 1988.
+2. Objetivo principal: avaliar a ciência relacionada às mudanças climáticas.
+3. Trabalha com relatórios periódicos e avaliações de impactos e vulnerabilidades.
+4. Publicou o primeiro relatório em 1990, destacando que as atividades humanas são um fator importante no aquecimento global.
+5. No Relatório de Avaliação do Sexto Período (AR6), afirmação mais forte sobre a culpa humana nas mudanças climáticas.
+6. Funções: fornecer base científica para negociações internacionais, como Protocolo de Kyoto e Acordo de Paris.
+
+Agora, precisamos criar perguntas que cobrem cada um desses pontos sem repeti-los. Vou tentar variar os tipos de perguntas (ativas,ativas etc.) para garantir diversidade.
+
+Pensando em uma pergunta sobre a origem do IPCC: "De onde vem o IPCC?" Resposta: Organização intergovernamental criada em 1988.
+
+Outra questão pode ser sobre o objetivo principal: "Qual é o propósito principal do IPCC?" Resposta: Avaliar ciência das mudanças climáticas.
+
+Pode-se perguntar sobre os relatórios: "Em que anos foram publicados os primeiros relatórios?" Resposta: 1990 e AR6 recentemente.
+
+Uma pergunta sobre a contribuição humana: "O que o AR6 afirma sobre as mudanças climáticas?" Resposta: Humanos são culpados de forma inequívoca.
+
+Outra questão pode ser sobre as funções do IPCC além dos relatórios, como avaliações de impacto e vulnerabilidade.
+
+Também podemos perguntar quais acordos internacionais usaram o trabalho do IPCC: Protocolo de Kyoto e Acordo de Paris.
+
+Preciso garantir que cada pergunta tenha uma única resposta correta e que elas sejam variadas em tipos, como datas, funções, conclusões específicas etc.
+
+Vou organizar esses pontos em perguntas claras e respostas precisas. Atenção para não repetir conteúdo ou estruturas similares.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a sigla do Painel Intergovernamental sobre Mudanças Climáticas?",
+    "resposta": "IPCC"
+  },
+  {
+    "pergunta": "Em que ano foi criado o IPCC?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal do IPCC?",
+    "resposta": "Avaliar a ciência relacionada às mudanças climáticas."
+  },
+  {
+    "pergunta": "Quando foi publicado o primeiro relatório do IPCC?",
+    "resposta": "1990"
+  },
+  {
+    "pergunta": "O que o primeiro relatório do IPCC destacou em relação ao aquecimento global?",
+    "resposta": "Que as atividades humanas são um fator importante."
+  },
+  {
+    "pergunta": "Qual foi a afirmação mais forte feita pelo Relatório de Avaliação do Sexto Período (AR6) sobre as mudanças climáticas?",
+    "resposta": "As mudanças climáticas são inequivocamente causadas por atividades humanas."
+  },
+  {
+    "pergunta": "Além de relatórios periódicos, o que mais faz o IPCC?",
+    "resposta": "Realiza avaliações sobre impactos e vulnerabilidades."
+  },
+  {
+    "pergunta": "Para quais negociações internacionais o IPCC fornece base científica?",
+    "resposta": "Protocolo de Kyoto e Acordo de Paris."
+  },
+  {
+    "pergunta": "Como se chama a mais recente avaliação do IPCC sobre as mudanças climáticas?",
+    "resposta": "Relatório de Avaliação do Sexto Período (AR6)"
+  },
+  {
+    "pergunta": "O que o IPCC avalia em suas avaliações periódicas?",
+    "resposta": "Ciência das mudanças climáticas."
+  }
+]
+```

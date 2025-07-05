@@ -1,0 +1,56 @@
+<think>
+Alright, so the user is asking me to generate 10 question-answer pairs based on the provided context about the Yuan dynasty. They want these in a specific JSON format without any extra text.
+
+First, I need to extract key information from the facts given. The Yuan dynasty was established by Kublai Khan, started in 1271, and ended in 1368. It's also known as the Great Yuan and had its capital at Dadu, which is present-day Beijing.
+
+I should create varied questions covering different aspects: origins, key figures, timeline, capitals, religion, and neighboring regions. Each question must have a clear, correct answer from the facts.
+
+For example, one question could be about Kublai Khan's ancestor, Genghis Khan. Another might ask for the dynasty's end year, which is 1368. I should also include questions about significant events like the Marco Polo visit in 1274 and religious practices influenced by Buddhism and Islam.
+
+I need to make sure each question is unique and covers different aspects without repeating similar ones. The answers must directly relate to the provided facts, ensuring accuracy.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o nome chinês da dinastia Yuan?",
+    "resposta": "元朝 (Yuán cháo)"
+  },
+  {
+    "pergunta": "Quando foi fundada a dinastia Yuan?",
+    "resposta": "1271"
+  },
+  {
+    "pergunta": "Qual foi o imperador que fundou a dinastia Yuan?",
+    "resposta": "Kublai Khan"
+  },
+  {
+    "pergunta": " Qual era o título formal da dinastia Yuan?",
+    "resposta": "Grande Yuan (Yuan)"
+  },
+  {
+    "pergunta": "Qual foi a capital da dinastia Yuan?",
+    "resposta": "Dadu (atual Beijing)"
+  },
+  {
+    "pergunta": "Qual é a data de dissolução da dinastia Yuan?",
+    "resposta": "1368-09-14"
+  },
+  {
+    "pergunta": "Quem foi o avô de Kublai Khan, fundador da dinastia Yuan?",
+    "resposta": "Genghis Khan"
+  },
+  {
+    "pergunta": "Qual foi a moeda utilizada durante a dinastia Yuan?",
+    "resposta": "Cash (moeda chinesa)"
+  },
+  {
+    "pergunta": "Qual foi um dos eventos importantes que ocorreu durante a dinastia Yuan?",
+    "resposta": "A invasão mongola da dinastia Song"
+  },
+  {
+    "pergunta": "Qual foi o território administrativo principal da dinastia Yuan?",
+    "resposta": "Distrito 108552138"
+  }
+]
+```

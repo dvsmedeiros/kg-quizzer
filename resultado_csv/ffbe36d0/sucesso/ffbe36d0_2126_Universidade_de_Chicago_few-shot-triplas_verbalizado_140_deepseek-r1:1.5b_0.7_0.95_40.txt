@@ -1,0 +1,56 @@
+<think>
+Primeiro, identifico as informações fornecidas sobre a Universidade de Chicago.
+
+Em seguida, identifica as perguntas que sejam variáveis e diferentes, como qual type de universidade é a UCC, quando foi fundada, quantas escolas profissionais possessam, quantos estudantes e os diminishingos dos estudiosos.
+
+Para each question, verifico se a resposta correta e se encontre os dados requeridos.
+
+Em seguida, organizo as perguntas em torno das areas da knows-left do usuário, como universidade de pesquisa, divulgação, dissenho, etc.
+
+Após formar a lista de 10 perguntas, converto cada uma para JSON formato no JavaScript.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quantos dividos de pesquisa acadêmica possessa a Universidade de Chicago?", 
+    "resposta": "quatro"
+  },
+  {
+    "pergunta": "Quando a Universidade de Chicago foi fundada?", 
+    "resposta": "1890"
+  },
+  {
+    "pergunta": "Quantas estautações profissionais possessa a Universidade de Chicago?", 
+    "resposta": "sete"
+  },
+  {
+    "pergunta": "Com quantos estudantes sealistou a Universidade de Chicago?", 
+    "resposta": "5.000"
+  },
+  {
+    "pergunta": "Quais dos estudiosos da Universidade de Chicago tiveram um papel importante em quaisdações acadêmicas?", 
+    "resposta": "várias disciplinas acadêmicas"
+  },
+  {
+    "pergunta": "Em que ano o Centro Presidencial de Barack Obama será abrimido?", 
+    "resposta": "2020"
+  },
+  {
+    "pergunta": "Quem assistiu a desenvolver a primeira reação nuclear auto-sustentável do dna?", 
+    "resposta": "departamento de física de Chicago"
+  },
+  {
+    "pergunta": "Qual o nome da maior imprensa universitária dos EUA?", 
+    "resposta": "University of Chicago Press"
+  },
+  {
+    "pergunta": "Em que ano o-centero presidural para-barbara obama será aberto?", 
+    "resposta": "2021"
+  },
+  {
+    "pergunta": "Onde está localizada a primeira reação nuclear auto-sustentável do dna?", 
+    "resposta": "sob o campo de Stagg Field"
+  }
+]
+```

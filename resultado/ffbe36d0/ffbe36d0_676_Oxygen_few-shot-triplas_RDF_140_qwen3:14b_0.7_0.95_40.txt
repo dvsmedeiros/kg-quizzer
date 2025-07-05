@@ -1,0 +1,58 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let's start by reading through the context carefully to identify key points that can be turned into questions. The context covers the atomic structure of oxygen, its abundance in the universe, its role in the atmosphere, its chemical properties, historical discovery, and applications.
+
+First, I'll note the atomic number (8), its group (chalcogens), its abundance (third most abundant in the universe, most in Earth's crust), the diatomic molecule O2 (20.8% of atmosphere), its role in photosynthesis and the ozone layer, the discovery by Scheele and Priestley, and applications like in medical use and rocket fuel.
+
+Looking at the examples provided, they ask about atomic number, abundance, composition of the atmosphere, the number of atoms in O2, crust composition, group in the periodic table, types of compounds formed, and the third most abundant element. I need to ensure my questions don't repeat these exact ones but still cover similar aspects.
+
+Now, considering the facts from the RDF data, there's mention of oxygen being a chemical compound, part of chalcogens, and its use in emergency medicine. Also, the historical context with Antoine Lavoisier is there, as well as its role in rusting (oxidation) and its use in rocket propulsion.
+
+Possible questions could be: Who discovered oxygen? (Answer: Scheele and Priestley), What is the role of oxygen in the ozone layer? (Answer: Protection from UV radiation), How is oxygen used in medical settings? (Answer: For patients with breathing difficulties), What is the significance of oxygen in the process of rusting? (Answer: It's involved in oxidation reactions), What is the chemical formula of oxygen gas? (Answer: O2), How does oxygen contribute to the Earth's atmosphere? (Answer: It's essential for respiration and combustion), What are some industrial applications of oxygen? (Answer: Steel production, welding, etc.), What is the importance of oxygen in the human body? (Answer: It's necessary for cellular respiration), How does the abundance of oxygen compare to other elements in the Earth's crust? (Answer: It's the most abundant), and What are the hazards associated with oxygen? (Answer: It's a strong oxidizer, can cause fires).
+
+I need to check if these questions are covered in the context. The context mentions Scheele and Priestley, the ozone layer's role, medical use (oxygen concentrators), rusting (oxidation), O2 as the formula, its role in the atmosphere, applications in medical and industrial settings, and its abundance in the crust. The hazards might not be explicitly mentioned, but the context does say it's an oxidizing agent, which could be a hazard.
+
+I should ensure that the answers are accurate and directly from the context. Let's structure the questions to cover these points without overlapping with the examples given. Also, need to avoid any markdown and keep the answers concise.
+</think>
+
+[
+  {
+    "pergunta": "Quem são os cientistas creditados com a descoberta do oxigênio?",
+    "resposta": "Carl Wilhelm Scheele e Joseph Priestley."
+  },
+  {
+    "pergunta": "Qual é a função do ozônio na camada atmosférica?",
+    "resposta": "Proteger a Terra da radiação ultravioleta."
+  },
+  {
+    "pergunta": "Como o oxigênio é utilizado em aplicações médicas?",
+    "resposta": "Para pacientes com dificuldade respiratória, por meio de concentradores de oxigênio."
+  },
+  {
+    "pergunta": "Qual é o papel do oxigênio no processo de ferrugem?",
+    "resposta": "Participa de reações de oxidação que causam a corrosão do ferro."
+  },
+  {
+    "pergunta": "Qual é a fórmula química do gás oxigênio?",
+    "resposta": "O₂."
+  },
+  {
+    "pergunta": "Como o oxigênio contribui para a atmosfera terrestre?",
+    "resposta": "É essencial para a respiração e a combustão."
+  },
+  {
+    "pergunta": "Quais são exemplos de aplicações industriais do oxigênio?",
+    "resposta": "Produção de aço, soldagem e propelente de foguetes."
+  },
+  {
+    "pergunta": "Por que o oxigênio é considerado importante no corpo humano?",
+    "resposta": "É necessário para a respiração celular e a produção de energia."
+  },
+  {
+    "pergunta": "Como a abundância do oxigênio na crosta terrestre se compara a outros elementos?",
+    "resposta": "É o mais abundante, compõe quase metade da crosta."
+  },
+  {
+    "pergunta": "Qual é uma das características perigosas do oxigênio?",
+    "resposta": "É um forte agente oxidante e pode causar incêndios."
+  }
+]

@@ -1,0 +1,75 @@
+<think>
+Okay, so the user has asked me to generate 10 pairs of questions and answers based on the provided context about the Scottish Parliament. They want each pair to have a question and a correct answer in Portuguese, without any extra text or explanations.
+
+First, I need to carefully read through the context and facts given. The context is quite detailed, covering topics like the structure, history, elections, and various committees of the Scottish Parliament. There are also mentions of different constituencies and political parties involved.
+
+I should identify key points that can form the basis of questions. For example, knowing where the Scottish Parliament is located, when the last election took place, or how many members it has could be turned into questions. I need to make sure each question targets a different aspect to keep them varied.
+
+Since the user specified 10 pairs and wants only the JSON output without any additional text, I'll focus on extracting exactly that number of unique and relevant questions and their corresponding answers from the provided information. 
+
+I also need to ensure the language used is correct—questions and answers should be in Portuguese as per the instructions. No markdown or other formatting; just plain JSON with the required structure.
+
+Let me start by listing out potential questions:
+
+1. Where is the Scottish Parliament located?
+2. How many members are there in the Scottish Parliament?
+3. What is the name of the building where the Scottish Parliament meets?
+4. When was the last election for the Scottish Parliament held?
+5. Under what system are the MSPs elected?
+6. Which party holds a significant presence in the current parliament?
+7. What committees does the Scottish Parliament have?
+8. Who is the Presiding Officer of the Scottish Parliament?
+9. How long is the term for the Scottish Parliament members?
+10. When did the current structure of the Scottish Parliament begin?
+
+Wait, looking back at the context, I realize that some facts might not directly answer these questions. For example, the term length isn't explicitly mentioned as four years in the context, so maybe a better question would be about the number of members or where it's located.
+
+I should also check for any repeated information to avoid similar questions. Each fact provided can potentially lead to one unique question and answer pair.
+
+After going through all the facts, I'll structure each JSON object with "pergunta" and "resposta" fields, ensuring that each response is directly supported by the given context without adding any external knowledge.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O Parlamento Escocês é localizado em qual cidade?",
+    "resposta": "Edimburgo"
+  },
+  {
+    "pergunta": "Qual é o nome do edifício onde se reúne o Parlamento Escocês?",
+    "resposta": "Scottish Parliament Building"
+  },
+  {
+    "pergunta": "Quando foi realizada a última eleição geral para o Parlamento Escocês?",
+    "resposta": "5 de Maio de 2016"
+  },
+  {
+    "pergunta": "Qual é o sistema de votação utilizado no Parlamento Escocês?",
+    "resposta": "Sistema de representação proporcional mista"
+  },
+  {
+    "pergunta": "Quantos membros compostam o Parlamento Escocês?",
+    "resposta": "129 MSPs (Members of the Scottish Parliament)"
+  },
+  {
+    "pergunta": "Qual é a próxima data de eleição para o Parlamento Escocês?",
+    "resposta": "05-07"
+  },
+  {
+    "pergunta": "Qual é a competência exclusiva do Parlamento da Grã-Bretanha mencionada no contexto?",
+    "resposta": "Regular a lei que regula a Câmara dos Comuns"
+  },
+  {
+    "pergunta": "Quando começou a primeira sessão do novo Parlamento Escocês?",
+    "resposta": "12 de maio de 1999"
+  },
+  {
+    "pergunta": "Qual é o equivalente numérico do Parlamento Escocês?",
+    "resposta": "152958644"
+  },
+  {
+    "pergunta": "Qual partido político ocupa um assento na legislatura do Parlamento Escocês?",
+    "resposta": "Scottish Liberal Democrats"
+  }
+]
+```

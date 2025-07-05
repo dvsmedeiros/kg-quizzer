@@ -1,0 +1,97 @@
+<think>
+Okay, let's tackle this query. The user wants 10 question-answer pairs in Portuguese based on the provided context and facts. First, I need to make sure I understand the context thoroughly. The context is about the immune system, its components, functions, and related terms. The facts list various elements like cells, models, images, and other related terms.
+
+I need to generate questions that are varied and cover different aspects of the content. Each question must have a single correct answer derived from the context or facts. Also, no repetition of similar questions. Let me start by scanning the context for key points.
+
+The context mentions Ilya Ilyich Mechnikov as the father of immunology, the components of the immune system like phagocytosis, antimicrobial peptides, complement system, and adaptive immunity. It also talks about autoimmune diseases, immunodeficiency, and the role of vaccines. The facts list many cells and models related to the immune system.
+
+So possible questions could be about the founder of immunology, components of the immune system, types of immunity, causes of immunodeficiency, autoimmune diseases, elements of the immune system listed in the facts, etc. Let me check the facts again to see if there are specific terms that can be turned into questions.
+
+For example, the facts mention "Basophil faz parte do sistema Immune system" which translates to "Basophil is part of the Immune system." So a question could be "Quais células fazem parte do sistema imunitário?" and the answer would include Basophil, T cell, B cell, etc. But the user wants specific answers, not just a list. So maybe a question like "Qual célula é parte do sistema imunitário?" with answer "Basófilo" (Basophil). But need to ensure that each answer is explicitly mentioned in the facts.
+
+Wait, the user said the answer must be explicit or inferable from the content. So if the fact says "Basophil faz parte do sistema Immune system," then the answer can be "Basófilo" for a question asking which cells are part of the immune system. But the user wants each pair to have a unique question and answer, not just listing all cells.
+
+Alternatively, a question like "Quem cunhou o termo 'sistema imunitário'?" with answer "Ilya Ilyich Mechnikov." That's directly from the context.
+
+Another point: the context mentions that the immune system detects pathogens and distinguishes them from the body's own tissue. So a question could be "Qual é a função do sistema imunitário?" with answer "Proteger o organismo contra doenças, detectando agentes patogênicos e distinguindo-os do tecido saudável."
+
+Then, the facts list various cells like T cell, B cell, Neutrophil, etc. So a question could be "Quais são exemplos de células do sistema imunitário?" with answer "Células T, células B, neutrófilos, macrófagos, etc."
+
+But need to check if these are all in the facts. The facts have "T cell faz parte do sistema Immune system", "B cell faz parte do sistema Immune system", "Neutrophil faz parte do sistema Immune system", so yes. So that's a valid question.
+
+Another aspect is the types of immunity: innate and adaptive. The context says that vertebrates have more complex mechanisms, including adaptive immunity through memory. So a question could be "O que é a imunidade adquirida?" with answer "Um mecanismo onde o organismo cria memória imunológica para responder eficazmente a novos ataques pelo mesmo agente."
+
+Also, the context mentions that immunodeficiency can be genetic, like HIV/AIDS, or due to immunosuppressants. So a question: "Quais são causas da imunodeficiência?" with answer "Doenças genéticas, VIH/SIDA, uso de imunossupressores."
+
+Autoimmune diseases like rheumatoid arthritis and type 1 diabetes are mentioned. So a question: "O que é a autoimunidade?" with answer "Condicionamento em que o sistema imunitário ataca tecido normal como se fosse um agente externo, como na artrite reumatóide ou diabetes tipo 1."
+
+Another point: the immune system's components like the complement system, antimicrobial peptides (defensins), phagocytosis. So a question: "Quais são mecanismos imunitários básicos?" with answer "Fagocitose, defensinas, sistema complemento."
+
+Also, the context mentions that even unicellular organisms have a rudimentary immune system with enzymes protecting against bacteriophages. So a question: "O que é um exemplo de sistema imunitário rudimentar em organismos unicelulares?" with answer "Enzimas que protegem de infecções por bacteriófagos."
+
+The facts also mention specific images, like "SEM blood cells.jpg", "Rheumatoid Arthritis.jpg", etc. So a question could be "Qual imagem representa a resposta imunológica primária?" with answer "Primary immune response 1.png".
+
+But need to check if the image names are in the facts. Yes, "Immune system possui imagem representativa Primary immune response 1.png".
+
+Also, the context talks about the role of vaccines in adaptive immunity. So a question: "O que é a base da vacinação?" with answer "O processo de imunidade adquirida."
+
+I need to ensure that all answers are directly from the context or facts. Let me check each question and answer against the provided content.
+
+Now, compiling 10 such pairs. Let's make sure they are varied and cover different aspects: history, components, mechanisms, diseases, models, images, etc.
+
+1. Quem cunhou o termo "sistema imunitário"? Ilya Ilyich Mechnikov.
+2. Qual é a função do sistema imunitário? Proteger contra doenças, detectar patógenos e distinguir do tecido saudável.
+3. Quais são exemplos de células do sistema imunitário? T cell, B cell, Neutrophil, Macrófago.
+4. O que é a imunidade adquirida? Criação de memória imunológica para respostas eficazes.
+5. Quais são causas da imunodeficiência? Doenças genéticas, VIH/SIDA, imunossupressores.
+6. O que é a autoimunidade? Sistema imunitário hiperativo atacando tecido normal.
+7. Quais são mecanismos imunitários básicos? Fagocitose, defensinas, sistema complemento.
+8. O que é um exemplo de sistema imunitário rudimentar? Enzimas em organismos unicelulares contra bacteriófagos.
+9. Qual imagem representa a resposta imunológica primária? Primary immune response 1.png.
+10. O que é a base da vacinação? O processo de imunidade adquirida.
+
+I think these cover different aspects. Now, check for repetition. Each question is unique. Answers are specific and from the content. Now, format them into JSON as per the instructions.
+</think>
+
+[
+  {
+    "pergunta": "Quem cunhou o termo 'sistema imunitário'?",
+    "resposta": "Ilya Ilyich Mechnikov"
+  },
+  {
+    "pergunta": "Qual é a função do sistema imunitário?",
+    "resposta": "Proteger o organismo contra doenças, detectando agentes patogênicos e distingindo-os do tecido saudável"
+  },
+  {
+    "pergunta": "Quais são exemplos de células do sistema imunitário?",
+    "resposta": "T cell, B cell, Neutrophil, Macrófago"
+  },
+  {
+    "pergunta": "O que é a imunidade adquirida?",
+    "resposta": "Um mecanismo onde o organismo cria memória imunológica para responder eficazmente a novos ataques pelo mesmo agente"
+  },
+  {
+    "pergunta": "Quais são causas da imunodeficiência?",
+    "resposta": "Doenças genéticas, VIH/SIDA, uso de imunossupressores"
+  },
+  {
+    "pergunta": "O que é a autoimunidade?",
+    "resposta": "Condicionamento em que o sistema imunitário ataca tecido normal como se fosse um agente externo, como na artrite reumatóide ou diabetes tipo 1"
+  },
+  {
+    "pergunta": "Quais são mecanismos imunitários básicos?",
+    "resposta": "Fagocitose, defensinas, sistema complemento"
+  },
+  {
+    "pergunta": "O que é um exemplo de sistema imunitário rudimentar?",
+    "resposta": "Enzimas em organismos unicelulares que protegem de infecções por bacteriófagos"
+  },
+  {
+    "pergunta": "Qual imagem representa a resposta imunológica primária?",
+    "resposta": "Primary immune response 1.png"
+  },
+  {
+    "pergunta": "O que é a base da vacinação?",
+    "resposta": "O processo de imunidade adquirida"
+  }
+]

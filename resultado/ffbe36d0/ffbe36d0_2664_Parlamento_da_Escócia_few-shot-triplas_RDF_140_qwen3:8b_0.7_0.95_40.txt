@@ -1,0 +1,103 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided data about the Scottish Parliament. Let me start by reviewing the information given.
+
+First, the data includes details about the Scottish Parliament's structure, elections, committees, and historical context. The examples provided in the prompt have questions about when the parliament was convened, the 1998 Scotland Act, legislative powers, reserved powers, and historical references like the 1997 referendum and the 1973 Kilbrandon Report.
+
+Looking at the examples, the answers are concise and often reference specific dates, acts, or historical events. The user wants similar questions and answers, so I should focus on key facts from the data.
+
+Let me list some key points from the data:
+
+- The Scottish Parliament is a unicameral legislature.
+- It was established after the 1997 referendum.
+- The Scotland Act 1998 is mentioned as the legislation granting powers.
+- The parliament has specific areas of legislative competence.
+- Reserved powers are with Westminster.
+- The current leader is Alison Johnstone, and the presiding officer is mentioned.
+- The election dates are 2021-05-13 and 2021-05-20.
+- The voting system is the Additional member system.
+- The parliament has committees like Economy, Energy and Tourism, Education, etc.
+- The location is Edinburgh, and the meeting place is the Scottish Parliament Building.
+
+Now, I need to form questions that cover these points. Let's make sure to vary the questions and avoid repeating the examples. For instance, the examples already covered the 1997 referendum and the 1998 Act. I can ask about the structure, committees, election dates, voting system, reserved powers, and maybe the role of the Presiding Officer.
+
+Wait, the examples also include questions about the lack of a parliament in the national identity and the number of years under British governance. But the data here doesn't mention the 300 years of governance, so maybe I shouldn't include that. I should stick to the data provided.
+
+Another point is the political groups mentioned as "In co-operation with," which might relate to the current political landscape. Also, the structure is mentioned as "Scottish-parliament.svg," but that's more of a visual. Maybe not a good question.
+
+Let me brainstorm possible questions:
+
+1. What is the legislative structure of the Scottish Parliament?
+2. Which act established the Scottish Parliament's powers?
+3. What are the main areas of legislative competence for the Scottish Parliament?
+4. Which powers are reserved for the UK Parliament?
+5. When was the last election for the Scottish Parliament?
+6. What voting system is used in Scottish Parliament elections?
+7. Who is the current Presiding Officer of the Scottish Parliament?
+8. What are some of the key committees of the Scottish Parliament?
+9. Where is the Scottish Parliament located?
+10. What is the name of the building where the Scottish Parliament meets?
+
+Now, I need to check the data for accuracy. The Scotland Act 1998 is mentioned, so that's correct. The last election date is 2021-05-06, but the data shows "lastElection" as "2021-05-06" and "election" as "2021-05-13" and "2021-05-20". Maybe the election was on May 6th, but the data might have some inconsistencies. I should use the dates provided.
+
+For the Presiding Officer, the data mentions "Presiding_Officer_of_the_Scottish_Parliament" as a subject, but the leader is Alison Johnstone. Wait, the leader is the Presiding Officer, but the examples have "Alison Johnstone" as the leader. Wait, the data says the leader is Alison Johnstone and the Presiding Officer is a separate role. Wait, the data has "ns1:leader <http://dbpedia.org/resource/Alison_Johnstone>, <http://dbpedia.org/resource/George_Adam>;" which might be a mistake, but the examples have Alison Johnstone as the leader. Maybe the Presiding Officer is a different role. Let me check the data again.
+
+Looking at the data, the "ns1:leader" includes Alison Johnstone and George Adam. But the examples have Alison Johnstone as the leader. The "Presiding_Officer_of_the_Scottish_Parliament" is another entity, so the Presiding Officer might be a different person. However, the data might have an error here. For the purpose of the answer, I'll use the information given, even if there's ambiguity.
+
+So, the answers would be:
+
+1. The Scottish Parliament is a unicameral legislature.
+2. The Scotland Act 1998 established its powers.
+3. It can legislate in areas like education, health, and environment.
+4. Reserved powers are with the UK Parliament (Westminster).
+5. The last election was on May 6, 2021.
+6. The Additional member system is used.
+7. Alison Johnstone is the current Presiding Officer.
+8. Committees include Economy, Education, and Rural Affairs.
+9. Located in Edinburgh.
+10. The Scottish Parliament Building is the meeting place.
+
+I need to make sure the answers are concise and match the examples. Also, check for any other key points. The data mentions "structure" as "Scottish-parliament.svg," which might be a visual, so maybe not a good question. The answer about the Presiding Officer might need clarification if there's confusion between the leader and Presiding Officer. But given the data, the leader is Alison Johnstone, and the Presiding Officer is a separate role, perhaps George Adam? Or maybe it's a mistake. Since the examples use Alison Johnstone as the leader, I'll stick with that for the answer.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a estrutura legislativa do Parlamento da Escócia?",
+    "resposta": "É uma assembleia unicameral."
+  },
+  {
+    "pergunta": "Qual ato estabeleceu os poderes do Parlamento da Escócia?",
+    "resposta": "Lei da Escócia de 1998."
+  },
+  {
+    "pergunta": "Quais são as áreas principais de competência legislativa do Parlamento da Escócia?",
+    "resposta": "Educação, saúde, ambiente e transportes."
+  },
+  {
+    "pergunta": "Quais poderes são reservados para o Parlamento do Reino Unido?",
+    "resposta": "Assuntos como defesa, imigração e políticas de segurança."
+  },
+  {
+    "pergunta": "Quando foi a última eleição para o Parlamento da Escócia?",
+    "resposta": "6 de maio de 2021."
+  },
+  {
+    "pergunta": "Qual sistema eleitoral é utilizado nas eleições do Parlamento da Escócia?",
+    "resposta": "Sistema adicional de membro."
+  },
+  {
+    "pergunta": "Quem é o atual Presidente do Parlamento da Escócia?",
+    "resposta": "Alison Johnstone."
+  },
+  {
+    "pergunta": "Quais são alguns dos principais comitês do Parlamento da Escócia?",
+    "resposta": "Economia, Educação, Meio Ambiente e Relações Exteriores."
+  },
+  {
+    "pergunta": "Onde está localizado o Parlamento da Escócia?",
+    "resposta": "Na cidade de Edimburgo."
+  },
+  {
+    "pergunta": "Qual é o nome do prédio onde o Parlamento da Escócia se reúne?",
+    "resposta": "Edifício do Parlamento da Escócia."
+  }
+]

@@ -1,0 +1,106 @@
+<think>
+Alright, let's tackle this. The user wants me to generate 10 question-answer pairs in Portuguese based on the provided context and facts. First, I need to parse the context and the facts to extract relevant information.
+
+The context is about economic inequality, covering topics like income distribution, wealth distribution, the Gini coefficient, and how globalization affects inequality. The facts mention various entities linked to economic inequality, such as authors, books, movements, and organizations.
+
+I need to make sure each question is unique and covers different aspects. Let me start by listing possible topics from the context: types of inequality (income vs. wealth), measurement methods (Gini coefficient, HDI), effects of globalization, concepts like equity and opportunities, and specific examples like movements (Occupy) and authors (Branko Milanović).
+
+Now, looking at the examples provided, they often use specific numbers or entities. However, since the user's examples included some specific stats not in the given context, I need to rely solely on the provided context and facts. The facts have a lot of DBpedia links, but the user's examples didn't use those. Instead, they used data from the context description.
+
+Wait, the context mentions the Gini coefficient and the HDI adjusted for inequality. So possible questions could be about which is the most used method, or what the HDI adjusted measures. Also, the context states that globalization reduced inequality between nations but increased it within countries. That's a good point for a question.
+
+The facts list several authors and books related to economic inequality. For example, Branko Milanović is in the field of economic inequality. So a question could ask which author is associated with that field. Similarly, the book "Capital in the Twenty-First Century" is mentioned; a question could ask which book is associated with the subject.
+
+The context also mentions concepts like equity, equality of outcomes, and opportunities. A question could ask which concept focuses on equal opportunities.
+
+Now, I need to structure each question to have a single correct answer from the context. For example:
+
+1. Which is the most commonly used method to measure economic inequality?
+   Answer: Coefficient of Gini
+
+2. What does the Human Development Index Adjusted for Inequality consider?
+   Answer: Inequality
+
+3. How does globalization affect inequality between and within countries?
+   Answer: It reduces between countries but increases within countries.
+
+4. Which author is associated with the field of economic inequality?
+   Answer: Branko Milanović
+
+5. Which book is linked to economic inequality as a subject?
+   Answer: Capital in the Twenty-First Century
+
+6. What is the term for the concept that emphasizes equal opportunities?
+   Answer: Equality of opportunities
+
+7. What is the primary focus of the Gini coefficient?
+   Answer: Income or wealth distribution
+
+8. Which movement is associated with economic inequality in the context?
+   Answer: Occupy Wall Street
+
+9. Which concept in the context refers to the idea that everyone should have the same opportunities?
+   Answer: Equality of opportunities
+
+10. What is the main difference between income and wealth distribution according to the context?
+    Answer: Income distribution refers to earnings, while wealth distribution refers to accumulated assets.
+
+Wait, but I need to ensure that the answers are directly from the context. Let me check again. The context says: "Segundo a Oxfam, as 85 pessoas mais ricas têm riqueza igual a quantas pessoas comuns?" – but the user's examples might not be part of the actual context. The user's examples are just examples, but the actual context is in the context section.
+
+So, sticking strictly to the context provided, which includes the Gini coefficient, HDI adjusted, globalization's effect, types of inequality (income vs. wealth), and concepts like equity. The facts mention several authors and books, so those can be used.
+
+I need to avoid making up numbers unless they are in the context. The user's examples had numbers like 40%, 3.5 billion, etc., but those aren't in the given context. So I should base answers only on the text provided.
+
+Let me go through the context again:
+
+- Types of inequality: income distribution and wealth distribution.
+- Measurement methods: Gini coefficient (most used) and HDI adjusted for inequality.
+- Globalization effect: reduces between countries, increases within.
+- Concepts: equity, equality of outcomes, equality of opportunities.
+- Entities: Branko Milanović, "Capital in the Twenty-First Century", Occupy movements.
+
+Using that, I can form the questions.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o principal método utilizado para medir a desigualdade econômica, segundo o contexto?",
+    "resposta": "Coeficiente de Gini"
+  },
+  {
+    "pergunta": "O que o Índice de Desenvolvimento Humano Ajustado pela Desigualdade (IDH-A) leva em consideração?",
+    "resposta": "A desigualdade"
+  },
+  {
+    "pergunta": "Como a globalização afeta a desigualdade entre e dentro dos países, conforme o texto?",
+    "resposta": "Reduz a desigualdade entre países, mas a aumenta dentro deles."
+  },
+  {
+    "pergunta": "Qual autor está associado ao campo de estudos da desigualdade econômica, segundo os fatos fornecidos?",
+    "resposta": "Branko Milanović"
+  },
+  {
+    "pergunta": "Qual livro está relacionado à temática da desigualdade econômica, conforme os dados do contexto?",
+    "resposta": "Capital no Século XXI"
+  },
+  {
+    "pergunta": "Qual conceito mencionado no contexto enfatiza a igualdade de oportunidades para todos?",
+    "resposta": "Igualdade de oportunidades"
+  },
+  {
+    "pergunta": "Qual é o foco principal do Coeficiente de Gini, segundo o texto?",
+    "resposta": "Distribuição de renda ou riqueza"
+  },
+  {
+    "pergunta": "Qual movimento está associado à luta contra a desigualdade econômica, conforme os fatos?",
+    "resposta": "Movimento Occupy Wall Street"
+  },
+  {
+    "pergunta": "Qual é a diferença principal entre a distribuição de renda e a distribuição de riqueza, segundo o contexto?",
+    "resposta": "A renda refere-se aos ganhos, enquanto a riqueza refere-se aos bens acumulados."
+  },
+  {
+    "pergunta": "Qual conceito do texto destaca a ideia de que todos devem ter as mesmas oportunidades?",
+    "resposta": "Igualdade de oportunidades"
+  }
+]

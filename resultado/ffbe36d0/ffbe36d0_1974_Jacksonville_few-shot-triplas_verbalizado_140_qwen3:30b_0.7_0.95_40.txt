@@ -1,0 +1,113 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs in Portuguese based on the provided context and facts about Jacksonville. First, I need to make sure I understand the requirements.
+
+The context gives general information about Jacksonville: it's the most populous city in Florida, located in Duval County, founded in 1791, population in 2020, geographical details, historical facts, etc. The facts list a bunch of specific data points, like events, people born there, locations, etc.
+
+The user emphasized that the questions must be varied, cover different aspects, and each answer must be directly from the content. Also, no repetition of similar questions. The output should be a JSON array with exactly 10 pairs.
+
+First, I'll go through the context and facts to extract possible questions. Let me start with the context.
+
+From the context:
+- Jacksonville is the most populous city in Florida, third on the east coast, 12th in the US with 950k in 2020.
+- Founded in 1791, incorporated in 1832.
+- Located on the St. Johns River, near Georgia and Miami.
+- Originally inhabited by Timucua, site of Fort Caroline (French colony in 1564).
+- Named after Andrew Jackson, who was the first military governor of Florida and 7th president.
+
+So possible questions:
+1. What is the population of Jacksonville according to the 2020 census? Answer: nearly 950 thousand.
+2. What is the ranking of Jacksonville in the US by population? Answer: 12th.
+3. What is the name of the river that flows through Jacksonville? Answer: St. Johns River.
+4. Which city is the third most populous on the east coast of the US? Answer: Jacksonville (after New York and Philadelphia).
+5. When was Jacksonville founded? Answer: 1791.
+6. Who is the city named after? Answer: Andrew Jackson.
+7. What is the population of the Jacksonville metropolitan area? Answer: 1,733,937 (from facts).
+8. What is the nickname of Jacksonville? Answer: "Jax", "The River City", etc.
+9. What is the county where Jacksonville is located? Answer: Duval County.
+10. What is the distance from Jacksonville to Miami? Answer: 528 kilometers.
+
+Wait, the context says "a 528 quilômetros ao norte de Miami" so the answer would be 528 km.
+
+But I need to check the facts for more data. The facts mention "Jacksonville, Florida possui população metropolitana 1733937" so that's 1,733,937. Also, "Jacksonville, Florida possui densidade populacional (km²) 490.63" which is population density.
+
+Another fact: "Jacksonville, Florida possui posição no ranking populacional 12" which confirms the 12th place.
+
+So, let's structure the questions:
+
+1. Pergunta: Qual é a população de Jacksonville segundo o censo nacional de 2020?
+   Resposta: Quase 950 mil habitantes.
+
+2. Pergunta: Em que posição Jacksonville se encontra no ranking populacional dos Estados Unidos?
+   Resposta: 12ª.
+
+3. Pergunta: Qual é o nome do rio que corta Jacksonville?
+   Resposta: Rio St. Johns.
+
+4. Pergunta: Qual cidade é a terceira mais populosa na costa leste dos EUA?
+   Resposta: Jacksonville (após Nova Iorque e Filadélfia).
+
+5. Pergunta: Em que ano Jacksonville foi fundada?
+   Resposta: 1791.
+
+6. Pergunta: Qual figura histórica recebeu o nome de Jacksonville?
+   Resposta: Andrew Jackson.
+
+7. Pergunta: Qual é a população da área metropolitana de Jacksonville?
+   Resposta: 1.733.937.
+
+8. Pergunta: Quais são os apelidos de Jacksonville?
+   Resposta: "Jax", "The River City", "The Bold New City of the South".
+
+9. Pergunta: Em qual condado está localizada Jacksonville?
+   Resposta: Duval.
+
+10. Pergunta: Qual a distância entre Jacksonville e Miami?
+    Resposta: 528 quilômetros.
+
+I need to check if these answers are directly from the context or facts. The facts mention the population metropolitana, the position in the ranking, the river, etc. The context says "a 528 quilômetros ao norte de Miami", so that's correct. The nickname is in the facts: "Jacksonville, Florida possui apelido 'Jax', 'The River City', The Bold New City of the South".
+
+I think these 10 questions cover different aspects: population, ranking, geography, history, nicknames, distance, etc. No repetition. Each answer is directly from the given data.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a população de Jacksonville segundo o censo nacional de 2020?",
+    "resposta": "Quase 950 mil habitantes."
+  },
+  {
+    "pergunta": "Em que posição Jacksonville se encontra no ranking populacional dos Estados Unidos?",
+    "resposta": "12ª."
+  },
+  {
+    "pergunta": "Qual é o nome do rio que corta Jacksonville?",
+    "resposta": "Rio St. Johns."
+  },
+  {
+    "pergunta": "Qual cidade é a terceira mais populosa na costa leste dos EUA?",
+    "resposta": "Jacksonville."
+  },
+  {
+    "pergunta": "Em que ano Jacksonville foi fundada?",
+    "resposta": "1791."
+  },
+  {
+    "pergunta": "Qual figura histórica recebeu o nome de Jacksonville?",
+    "resposta": "Andrew Jackson."
+  },
+  {
+    "pergunta": "Qual é a população da área metropolitana de Jacksonville?",
+    "resposta": "1.733.937."
+  },
+  {
+    "pergunta": "Quais são os apelidos de Jacksonville?",
+    "resposta": "'Jax', 'The River City', 'The Bold New City of the South'."
+  },
+  {
+    "pergunta": "Em qual condado está localizada Jacksonville?",
+    "resposta": "Duval."
+  },
+  {
+    "pergunta": "Qual a distância entre Jacksonville e Miami?",
+    "resposta": "528 quilômetros."
+  }
+]

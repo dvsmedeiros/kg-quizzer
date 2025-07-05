@@ -1,0 +1,92 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by carefully reading the context and the facts again to make sure I understand all the key points.
+
+The context says that Huguenots were French Protestants during the religious wars in the second half of the 16th century. Around 300,000 left France after persecutions under Louis XIV and the revocation of the Edict of Nantes in 1685. They were mostly Calvinists and part of the Reformed Church, while in Alsace, Moselle, and Montbéliard, the Protestants were mostly German Lutherans.
+
+Looking at the facts provided, there's a lot of RDF data, but I need to focus on the parts that relate to the context. The facts mention Camisards as a hypernym of Huguenots, the Catholic Church in France having separations with Huguenots, places named after Huguenots like in Orange County and Staten Island, and a relation to Scotch-Irish Americans. There's also info about the Edict of Nantes, the revocation in 1685, and some URLs and categories related to Huguenot history.
+
+Now, I need to create questions that cover different aspects. The example questions included locations, numbers, dates, the Edict of Nantes, the term's origin, Swiss political figures, Geneva as a Calvinist center, the Amboise conspiracy, and its date. To avoid repetition, I should ensure each question addresses a unique point.
+
+First, I can ask about the number of Huguenots who left France, which is given as 300,000. Then, the date of the Edict of Nantes revocation, which is 1685. Next, the main religion of Huguenots, which is Calvinism. The regions where German Lutherans were predominant (Alsace, Moselle, Montbéliard) can be another question. The Edict of Nantes granting autonomy is another point. The persecution under Louis XIV is a key event. The term "Camisard" as a hypernym of Huguenots from the facts. The relation to Scotch-Irish Americans. The number of Huguenots in France at the peak (one eighth). Lastly, the religious wars' duration (1562-1598) is covered in the example, but maybe the Edict of Nantes' role in ending the wars can be a question.
+
+Wait, the example already covered the Edict of Nantes and the duration of the wars. I need to check for uniqueness. Let me list possible questions:
+
+1. How many Huguenots left France after the revocation of the Edict of Nantes?
+2. When was the Edict of Nantes revoked?
+3. What was the main religion of the Huguenots?
+4. Which regions in France had German Lutheran Protestants?
+5. What did the Edict of Nantes grant to the Huguenots?
+6. Under which king's persecution did many Huguenots leave France?
+7. What is the relationship between Camisards and Huguenots?
+8. Which group is related to Huguenots according to the facts?
+9. What proportion of the population were Huguenots at their peak?
+10. Which treaty ended the French Wars of Religion?
+
+Wait, the last one is already in the example. Maybe instead, focus on the Edict of Nantes and its effects. Alternatively, the dates of the Edict's creation and revocation. The Edict of Nantes was issued in 1598, but the context doesn't mention that. The context mentions the revocation in 1685. So maybe a question about the Edict's revocation date.
+
+Another point is that Huguenots were mostly Calvinist, while in certain regions they were Lutheran. That's a good question. Also, the persecution under Louis XIV. The Camisards being a subset, the Scotch-Irish relation. The Edict granting autonomy. The number of Huguenots as one eighth of the population. The term origin from Besançon Hugues. The city of Geneva as the Calvinist center. The Amboise conspiracy. The Wars of Religion duration.
+
+But I need to make sure each question is unique and based on the context. Let me check the context again. The context mentions the revocation of the Edict of Nantes in 1685, leading to 300k leaving. They were Calvinist, while in Alsace, Moselle, and Montbéliard, they were Lutheran. The facts mention Camisards as hypernym, Scotch-Irish Americans related, places named after Huguenots, the Edict of Nantes, etc.
+
+So possible questions:
+
+1. Quantos Huguenotes deixaram a França após a revogação do Édito de Nantes?
+2. Em que ano ocorreu a revogação do Édito de Nantes?
+3. Qual era a religião predominante entre os Huguenotes?
+4. Quais regiões da França tinham Huguenotes predominantemente luteranos?
+5. O que o Édito de Nantes concedeu aos Huguenotes?
+6. Sob a perseguição de qual rei muitos Huguenotes deixaram a França?
+7. Qual é a relação entre Camisards e Huguenotes?
+8. Quem é o grupo relacionado aos Huguenotes segundo os fatos?
+9. Qual a proporção da população francesa que eram Huguenotes no auge?
+10. Qual tratado pôs fim às Guerras da Religião?
+
+Wait, the answer to the last question is the Edict of Nantes. But the example already has that. So maybe rephrase to focus on the Edict's role in ending the wars. Alternatively, the number of Huguenots as one eighth. Let me check the context again: the example mentions "cerca de um oitavo do número" which is about the proportion. So that's a valid question.
+
+Now, making sure each question is distinct and based on the context or facts. The Camisards are a subset, so question 7. The Scotch-Irish Americans are related, so question 8. The Edict's revocation date (1685), the number (300k), their religion (Calvinist), regions with Lutherans (Alsace, etc.), the Edict granting autonomy, persecution under Louis XIV, proportion as one eighth, and the relation to Camisards and Scotch-Irish.
+
+That gives 10 unique questions. Now, formulating the answers accordingly.
+</think>
+
+[
+  {
+    "pergunta": "Quantos Huguenotes deixaram a França após a revogação do Édito de Nantes?",
+    "resposta": "cerca de 300 000"
+  },
+  {
+    "pergunta": "Em que ano ocorreu a revogação do Édito de Nantes?",
+    "resposta": "1685"
+  },
+  {
+    "pergunta": "Qual era a religião predominante entre os Huguenotes?",
+    "resposta": "calvinismo"
+  },
+  {
+    "pergunta": "Quais regiões da França tinham Huguenotes predominantemente luteranos?",
+    "resposta": "Alsace, Moselle e Montbéliard"
+  },
+  {
+    "pergunta": "O que o Édito de Nantes concedeu aos Huguenotes?",
+    "resposta": "uma autonomia religiosa, política e militar substancial"
+  },
+  {
+    "pergunta": "Sob a perseguição de qual rei muitos Huguenotes deixaram a França?",
+    "resposta": "Louis XIV"
+  },
+  {
+    "pergunta": "Qual é a relação entre Camisards e Huguenotes?",
+    "resposta": "Camisards é um termo usado para designar um grupo de Huguenotes"
+  },
+  {
+    "pergunta": "Quem é o grupo relacionado aos Huguenotes segundo os fatos?",
+    "resposta": "Scotch-Irish Americans"
+  },
+  {
+    "pergunta": "Qual a proporção da população francesa que eram Huguenotes no auge?",
+    "resposta": "cerca de um oitavo do número"
+  },
+  {
+    "pergunta": "Qual tratado pôs fim às Guerras da Religião?",
+    "resposta": "o do Édito de Nantes"
+  }
+]

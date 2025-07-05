@@ -1,0 +1,64 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about the Scottish Parliament. Let me start by reading through all the information carefully.
+
+First, I should identify key aspects of the Scottish Parliament from the context. It's a unicameral legislature with 129 members called MSPs (Members of the Scottish Parliament). They are elected every four years using a mixed first-past-the-post and proportional representation system. There are 73 constituency members and 52 regionally elected, divided into eight regions.
+
+Looking at the facts, I see details about specific constituencies, committees, structures, leadership, and important events like election dates. For example, the last general election was on May 6, 2021, and the next is set for May 7, 2023.
+
+I should make sure each question is unique and touches different aspects of the Scottish Parliament. I'll start with basic information about its location and structure, then move to committees, elections, leadership roles, political parties, and specific constituencies.
+
+I need to ensure each answer is correct and directly derived from the facts provided. For instance, when asking about the location, the answer is Edinburgh. When mentioning the Presiding Officer, it's Alison Johnstone as the current leader.
+
+I also notice there are multiple constituencies listed, so I can include a few in the questions to add variety. Each question should be clear and directly relate to the context given without adding extra information.
+
+Let me structure each pair by selecting one relevant fact and phrasing it into a question, then providing the exact answer from the facts. This way, all answers are accurate and based on the provided data.
+
+I must avoid repeating similar questions about the same topics, so I'll spread out the focus on different aspects like committees, elections, structure, political groups, and specific MSP roles.
+
+Finally, after creating 10 pairs, I'll format them into a JSON array as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Onde está localizado o Parlamento Escocês?",
+    "resposta": "Edimburgo"
+  },
+  {
+    "pergunta": "Qual é a estrutura do Parlamento Escocês?",
+    "resposta": "Unicameral legislativo com 129 membros chamados MSPs."
+  },
+  {
+    "pergunta": "Quais são as datas importantes para eleições no Parlamento Escocês?",
+    "resposta": "A última eleição geral foi realizada em 6 de maio de 2021, e a próxima está programada para 7 de maio de 2023."
+  },
+  {
+    "pergunta": "Quem é o presidente atual do Parlamento Escocês?",
+    "resposta": "Alison Johnstone."
+  },
+  {
+    "pergunta": "Qual é a função do Comissário de Finanças e Economia no Parlamento Escocês?",
+    "resposta": "Responde à Scottish Parliament."
+  },
+  {
+    "pergunta": "Quais são os principais partidos políticos representados no Parlamento Escocês?",
+    "resposta": "Scottish National Party, Scottish Labour, Liberal Democrats e Scottish Liberal Democrats, entre outros."
+  },
+  {
+    "pergunta": "Qual é a função da Comissão de Agricultura e Meio Ambiente no Parlamento Escocês?",
+    "resposta": "Regulamenta e supervisiona as políticas relacionadas com a agricultura e o meio ambiente na Escócia."
+  },
+  {
+    "pergunta": " Qual é a denominação dos membros do Parlamento Escocês?",
+    "resposta": "Membros do Parlamento Escocês (MSPs)."
+  },
+  {
+    "pergunta": "Qual é o sistema de votação no Parlamento Escocês?",
+    "resposta": "Sistema misto de representação proporcional e first-past-the-post."
+  },
+  {
+    "pergunta": "Quantos distritos eleitorais existem no Parlamento Escocês?",
+    "resposta": "Existem 8 regiões eleitorais principais, com cada uma tendo um número específico de membros."
+  }
+]
+```

@@ -1,0 +1,72 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts about Warsaw. First, I need to make sure I understand the structure and requirements. They specified exactly 10 pairs, each with a relevant question and a correct answer, in Portuguese, and in a specific JSON format. No extra text, just the JSON.
+
+Looking at the context, Warsaw is the capital of Poland, located on the Vistula River. It has a significant population, various industries, educational institutions, historical sites, and has been through major events like WWII. The facts section lists many people born or died in Warsaw, along with locations of institutions, temperature data, and other details.
+
+I need to create questions that cover different aspects. Let me start by brainstorming possible topics: location, population, historical events, landmarks, notable people, administrative roles, temperature records, and cultural aspects. Each question should be unique and not repeat similar phrasing.
+
+First question: What is the capital of Poland? Answer: Warsaw. That's straightforward from the context.
+
+Next, about the river: Which river flows through Warsaw? Answer: Vistula.
+
+Historical event: Which event led to the destruction of the Warsaw Ghetto? Answer: The Warsaw Ghetto Uprising in 1943.
+
+Notable people: Who was born in Warsaw? Need to pick someone from the facts, like Zbigniew Brzezinski.
+
+Administrative role: Which institution has its headquarters in Warsaw? Example: Ministry of Finance (Poland).
+
+Temperature: What is the average temperature in Warsaw during May? The fact says 14.8°C.
+
+Landmark: Which historical site is located in Warsaw's Old Town? The answer could be the Royal Castle.
+
+Cultural: Which organization is based in Warsaw? Frontex is mentioned.
+
+Another fact: Which university is located in Warsaw? University of Warsaw.
+
+Another temperature fact: What's the record low temperature in Warsaw during April? -1.6°C.
+
+Wait, I need to ensure all answers are directly from the context or facts. Let me check each answer against the provided data. Also, avoid repeating the same type of questions, like multiple temperature questions. Let me make sure each question is varied and covers different aspects. Once I have 10, I'll format them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a capital da Polónia?",
+    "resposta": "Varsóvia"
+  },
+  {
+    "pergunta": "Qual rio flui pelas margens de Varsóvia?",
+    "resposta": "Rio Vístula"
+  },
+  {
+    "pergunta": "Qual evento histórico levou à destruição do Gueto de Varsóvia?",
+    "resposta": "Levante do Gueto de Varsóvia em 1943"
+  },
+  {
+    "pergunta": "Quem nasceu em Varsóvia, segundo os fatos fornecidos?",
+    "resposta": "Zbigniew Brzezinski"
+  },
+  {
+    "pergunta": "Qual instituição possui sede principal em Varsóvia?",
+    "resposta": "Ministério da Fazenda da Polónia"
+  },
+  {
+    "pergunta": "Qual é a temperatura média em Varsóvia durante maio?",
+    "resposta": "14,8 °C"
+  },
+  {
+    "pergunta": "Qual monumento histórico está localizado na Cidade Velha de Varsóvia?",
+    "resposta": "Castelo Real"
+  },
+  {
+    "pergunta": "Qual organização internacional tem sede em Varsóvia?",
+    "resposta": "Frontex"
+  },
+  {
+    "pergunta": "Qual universidade está localizada em Varsóvia?",
+    "resposta": "Universidade de Varsóvia"
+  },
+  {
+    "pergunta": "Qual é o recorde de temperatura mínima em Varsóvia durante abril?",
+    "resposta": "-1,6 °C"
+  }
+]

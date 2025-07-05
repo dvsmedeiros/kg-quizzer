@@ -1,0 +1,92 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts about British Satellite Broadcasting (BSB). First, I need to parse through all the given information to extract relevant details.
+
+Starting with the context: BSB was a London-based satellite TV company that merged with Sky Television to form BSkyB in November 1990. They started broadcasting in March 1990. The facts include various categories, ownership of TV channels, founding date, locations, etc.
+
+Looking at the facts, there are several points to use. For example, the company was founded on December 11, 1986, located in London and England, merged in 1990 to form BSkyB. They owned channels like The Movie Channel, The Power Station, Galaxy, Now. Also, some films were produced by them, like Memphis Belle and Hardware. They are categorized under different Wikipedia categories like 1990 mergers, British companies, etc.
+
+I need to make sure each question is unique and covers different aspects. Let's list possible questions:
+
+1. What company was formed by merging BSB and Sky Television? Answer: BSkyB.
+2. When was BSB founded? Answer: December 11, 1986.
+3. In which year did BSB start broadcasting? Answer: 1990 (March 25).
+4. Which TV channels were owned by BSB? Answers could include The Movie Channel, The Power Station, Galaxy, Now.
+5. What was the result of the merger in 1990? Answer: BSkyB.
+6. Which films were produced by BSB? Answers: Memphis Belle, Hardware.
+7. Where was BSB located? Answer: London or England.
+8. What categories does BSB belong to? Answers: 1980s in the UK, British companies established in 1986, etc.
+9. What was the successor company after BSB? Answer: Sky UK.
+10. What is the parent company of BSkyB? Answer: Sky plc. (But wait, in the examples, there's a mention of Sky plc as the holding company. However, in the provided facts, it's stated that BSB was succeeded by Sky UK. Maybe the parent company is Sky plc, but need to check the facts.)
+
+Wait, in the facts, it says "British Satellite Broadcasting foi sucedido por Sky UK". So the successor is Sky UK. The example mentions BSkyB's holding company as Sky plc. So for the question about the successor, answer is Sky UK. Also, the merger in 1990 formed BSkyB, which is a separate entity. The parent company might be Sky plc, but that's not directly stated here. However, the example includes a question about the holding company of BSkyB being Sky plc. Since the user provided examples, maybe that's acceptable. But in the current facts, it's not explicitly mentioned, so maybe avoid that unless it's in the facts.
+
+Looking back at the facts: The example includes a question about BSkyB's holding company as Sky plc. However, in the provided facts, the user's context doesn't mention Sky plc, but the example includes it. So perhaps it's acceptable to use that, but in the given facts, the user's data doesn't have that. Wait, in the user's facts, there's "British Satellite Broadcasting foi sucedido por Sky UK" and "The Movie Channel (British TV channel) tem como proprietário British Satellite Broadcasting". So the successor is Sky UK. The example also has a question about the holding company, but in the given facts, there's no mention of Sky plc. So perhaps the answer for the successor is Sky UK.
+
+Another point: BSB was located in Marco Polo House. That's a specific location. So a question could be where exactly it was located.
+
+Also, the company is categorized under "WikicatMediaCompaniesOfTheUnitedKingdom" and "Mass media companies established in 1986", so a question could ask which category it belongs to.
+
+Films produced by BSB: Memphis Belle and Hardware. So a question about the films.
+
+TV channels owned: The Movie Channel, The Power Station, Galaxy, Now, The Computer Channel (BSB). So questions about which channels they owned.
+
+Now, compiling the questions:
+
+1. Qual empresa foi formada pela fusão entre British Satellite Broadcasting e Sky Television? Resposta: BSkyB.
+2. Em que data a British Satellite Broadcasting foi fundada? Resposta: 11 de dezembro de 1986.
+3. Em que mês e ano a British Satellite Broadcasting começou a transmitir? Resposta: 25 de março de 1990.
+4. Quais canais de televisão eram propriedade da British Satellite Broadcasting? Resposta: The Movie Channel, The Power Station, Galaxy, Now, The Computer Channel (BSB).
+5. Qual é o nome da empresa que sucedeu a British Satellite Broadcasting após a fusão em 1990? Resposta: Sky UK.
+6. Quais filmes foram produzidos pela British Satellite Broadcasting? Resposta: Memphis Belle e Hardware.
+7. Em qual localidade a British Satellite Broadcasting estava sediada? Resposta: Londres.
+8. Qual categoria Wikipedia inclui a British Satellite Broadcasting como empresa estabelecida na década de 1980? Resposta: Category:1980s in British television.
+9. Qual é o nome completo da British Satellite Broadcasting? Resposta: British Satellite Broadcasting plc.
+10. Em que edifício a British Satellite Broadcasting estava localizada? Resposta: Marco Polo House.
+
+Checking for uniqueness and coverage of different aspects: company name, founding date, channels owned, successor, location, categories, films, full name, broadcasting start date, building. That seems to cover various aspects without repetition. Each question has a clear and correct answer based on the provided facts. The answers are explicit in the data given. The JSON structure should be correct with 10 pairs.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual empresa foi formada pela fusão entre British Satellite Broadcasting e Sky Television?",
+    "resposta": "BSkyB"
+  },
+  {
+    "pergunta": "Em que data a British Satellite Broadcasting foi fundada?",
+    "resposta": "11 de dezembro de 1986"
+  },
+  {
+    "pergunta": "Em que mês e ano a British Satellite Broadcasting começou a transmitir?",
+    "resposta": "25 de março de 1990"
+  },
+  {
+    "pergunta": "Quais canais de televisão eram propriedade da British Satellite Broadcasting?",
+    "resposta": "The Movie Channel, The Power Station, Galaxy, Now e The Computer Channel (BSB)"
+  },
+  {
+    "pergunta": "Qual é o nome da empresa que sucedeu a British Satellite Broadcasting após a fusão em 1990?",
+    "resposta": "Sky UK"
+  },
+  {
+    "pergunta": "Quais filmes foram produzidos pela British Satellite Broadcasting?",
+    "resposta": "Memphis Belle e Hardware"
+  },
+  {
+    "pergunta": "Em qual localidade a British Satellite Broadcasting estava sediada?",
+    "resposta": "Londres"
+  },
+  {
+    "pergunta": "Qual categoria Wikipedia inclui a British Satellite Broadcasting como empresa estabelecida na década de 1980?",
+    "resposta": "Category:1980s in British television"
+  },
+  {
+    "pergunta": "Qual é o nome completo da British Satellite Broadcasting?",
+    "resposta": "British Satellite Broadcasting plc"
+  },
+  {
+    "pergunta": "Em que edifício a British Satellite Broadcasting estava localizada?",
+    "resposta": "Marco Polo House"
+  }
+]
+```

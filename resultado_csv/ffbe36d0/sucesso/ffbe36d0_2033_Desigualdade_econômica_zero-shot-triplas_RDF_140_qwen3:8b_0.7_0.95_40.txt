@@ -1,0 +1,99 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts. First, I need to understand the context thoroughly. The main topic is economic inequality, covering aspects like distribution of income, wealth, measurement methods like the Gini coefficient, and related concepts such as human development indices adjusted for inequality. There's also mention of globalisation's impact and some references to specific resources and people associated with the topic.
+
+Now, the user provided a list of facts in RDF format, which seems to be about various entities linked to economic inequality. For example, there are mentions of books, movements, and scholars connected to the topic. I need to ensure that the questions are varied and cover different aspects of the context without repetition.
+
+First, I'll identify key points from the context. These include:
+1. Definition of economic inequality (income vs. wealth distribution).
+2. Measurement methods (Gini coefficient, HDI adjusted for inequality).
+3. Impact of globalization on inequality (reducing between nations, increasing within countries).
+4. Types of inequality (between countries, groups).
+5. Related concepts (equity, equality of results, opportunities).
+6. Research findings (desigualdade affecting growth duration but not rate).
+7. Notable figures and works (Branko Milanović, Piketty, Occupy movements).
+
+Next, I need to create questions that cover these areas. Let's start with definitions. For example, a question about what economic inequality refers to. Then, measurement methods like the Gini coefficient. Another could be about the HDI adjusted for inequality. 
+
+Impact of globalization is another key point. A question here could ask how globalization affects inequality between and within countries. 
+
+Research findings: a question about how inequality affects economic growth. 
+
+Concepts like equity and equality of opportunities. 
+
+Also, the context mentions specific books and authors, so questions about notable works or scholars. 
+
+The facts section includes mentions of movements like Occupy Wall Street, so a question about the causes of such movements. 
+
+Additionally, the context mentions that the Gini coefficient is the most used measure. 
+
+I need to ensure that each question is unique and covers a different aspect. Let me check for possible overlaps. For example, one question about measurement methods, another about the Gini coefficient specifically, another about the HDI. 
+
+Also, the context mentions that economic inequality is a topic in various fields, so a question about related disciplines. 
+
+Now, structuring the questions and answers. Each answer must be directly inferable from the context. Let me verify each point against the provided text. 
+
+For example, the answer to "What does economic inequality refer to?" would be the distribution of income and wealth. 
+
+For the Gini coefficient, the answer is it's the most used measure. 
+
+For the HDI adjusted, it's a composite index that includes inequality. 
+
+Globalization's effect: reduces between nations, increases within. 
+
+Research finding: inequality hinders growth duration, not rate. 
+
+Concepts: equity, equality of results, opportunities. 
+
+Scholars: Branko Milanović, Piketty, etc. 
+
+Movements: Occupy movements due to economic inequality. 
+
+Also, the context mentions that economic inequality is a topic in various disciplines like economics, sociology. 
+
+Now, ensuring that each question is distinct and covers different aspects. Let me count to make sure there are 10. 
+
+I think that covers it. Now, I'll format the JSON as required, making sure each pair is correctly structured and in Portuguese.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a definição de desigualdade econômica?",
+    "resposta": "A desigualdade econômica refere-se à distribuição de renda ou riqueza entre indivíduos ou grupos."
+  },
+  {
+    "pergunta": "Qual é a medida econômica mais utilizada para avaliar a desigualdade?",
+    "resposta": "O Coeficiente de Gini."
+  },
+  {
+    "pergunta": "O que é o Índice de Desenvolvimento Humano Ajustado pela Desigualdade?",
+    "resposta": "É um índice composto estatístico que leva em conta a desigualdade na avaliação do desenvolvimento humano."
+  },
+  {
+    "pergunta": "Como a globalização afeta a desigualdade econômica?",
+    "resposta": "Reduz a desigualdade entre nações, mas aumenta a desigualdade dentro de países."
+  },
+  {
+    "pergunta": "Qual é o impacto da desigualdade na economia?",
+    "resposta": "A desigualdade pode prejudicar a duração do crescimento econômico, mas não afeta a taxa de crescimento."
+  },
+  {
+    "pergunta": "Quais são os conceitos relacionados à desigualdade econômica mencionados no texto?",
+    "resposta": "Equidade, igualdade de resultados e igualdade de oportunidades."
+  },
+  {
+    "pergunta": "Quem é um dos principais autores associados ao estudo da desigualdade econômica?",
+    "resposta": "Branko Milanović."
+  },
+  {
+    "pergunta": "Quais movimentos sociais estão associados à desigualdade econômica?",
+    "resposta": "Movimentos como os 'Occupy' (por exemplo, Occupy Wall Street)."
+  },
+  {
+    "pergunta": "Qual é a relação entre desigualdade e crescimento econômico segundo o texto?",
+    "resposta": "A desigualdade pode inibir a duração do crescimento, mas não afeta a taxa de crescimento."
+  },
+  {
+    "pergunta": "Quais disciplinas abordam a desigualdade econômica segundo o texto?",
+    "resposta": "Economia, sociologia e ciências políticas."
+  }
+]

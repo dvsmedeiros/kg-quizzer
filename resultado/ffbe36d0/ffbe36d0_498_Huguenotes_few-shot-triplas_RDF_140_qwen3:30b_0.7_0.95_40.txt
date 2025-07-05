@@ -1,0 +1,92 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts. Let me start by understanding the context provided.
+
+The context mentions that Huguenots were French Protestants during the religious wars in France, mainly in the second half of the 16th century. About 300,000 left France after persecutions under Louis XIV and the revocation of the Edict of Nantes on October 18, 1685. They were mostly Calvinists and members of the Reformed Church, while those in Alsace, Moselle, and Montbéliard were mostly German Lutherans.
+
+Now, looking at the facts, there's a lot of RDF data, but I need to focus on the relevant info. The key points are the reasons for their migration (persecutions, revocation of Edict of Nantes), their religious affiliations (Calvinists, Lutherans in certain regions), and the time periods mentioned (16th century, 1685).
+
+I need to make sure each question is varied and covers different aspects. Let me brainstorm possible questions:
+
+1. What was the main reason Huguenots left France?
+   - Answer: Persecutions under Louis XIV and the revocation of the Edict of Nantes in 1685.
+
+2. When was the Edict of Nantes revoked?
+   - Answer: October 18, 1685.
+
+3. What religious groups were the Huguenots primarily?
+   - Answer: Calvinists and members of the Reformed Church.
+
+4. Which regions had Lutheran Huguenots?
+   - Answer: Alsace, Moselle, and Montbéliard.
+
+5. What was the approximate number of Huguenots who left France?
+   - Answer: About 300,000.
+
+6. During which period were the French religious wars?
+   - Answer: Second half of the 16th century.
+
+7. What did the Edict of Nantes grant to Huguenots?
+   - Answer: Substantial religious, political, and military autonomy.
+
+8. What term was used for French Protestants?
+   - Answer: Huguenots.
+
+9. Which Swiss city was a center of Calvinist movement?
+   - Answer: Geneva.
+
+10. What was the name of the conspiracy against the Guise family?
+    - Answer: Amboise.
+
+Wait, the example had "Amboise" as the answer, but the context here doesn't mention that. The user's example might be from another source. Since the provided context doesn't mention Amboise, I shouldn't include that. Let me check the context again.
+
+The context provided doesn't mention Amboise or any specific conspiracies. So I need to avoid that. Let me adjust the questions to fit the given context.
+
+Another possible question: What was the primary religion of Huguenots in Alsace, Moselle, and Montbéliard? Answer: Lutheran.
+
+Also, check if the facts mention anything else. The facts include URLs and templates, but they don't add more info. The main points are the reasons for migration, their religious affiliations, the Edict of Nantes, and the regions.
+
+So, I'll structure the 10 pairs based on these points, ensuring no repetition and covering different aspects.
+</think>
+
+[
+  {
+    "pergunta": "O que levou cerca de 300.000 huguenotes a deixar a França?",
+    "resposta": "perseguições contra as comunidades protestantes, sob Luís XIV e a revogação do Édito de Nantes."
+  },
+  {
+    "pergunta": "Em que data foi revogado o Édito de Nantes?",
+    "resposta": "18 de outubro de 1685."
+  },
+  {
+    "pergunta": "Qual era a principal denominação religiosa dos huguenotes?",
+    "resposta": "calvinistas e membros da Igreja Reformada."
+  },
+  {
+    "pergunta": "Quais regiões da França tinham comunidades huguenotes de maior influência luterana?",
+    "resposta": "Alsácia, Moselle e Montbéliard."
+  },
+  {
+    "pergunta": "Durante qual período ocorreram as guerras religiosas na França?",
+    "resposta": "segunda metade do século XVI."
+  },
+  {
+    "pergunta": "O que o Édito de Nantes concedeu aos huguenotes?",
+    "resposta": "autonomia religiosa, política e militar substancial."
+  },
+  {
+    "pergunta": "Qual foi o principal motivo da migração dos huguenotes?",
+    "resposta": "perseguições e a revogação do Édito de Nantes."
+  },
+  {
+    "pergunta": "Que cidade suíça era centro do movimento calvinista?",
+    "resposta": "Genebra."
+  },
+  {
+    "pergunta": "Quantos huguenotes deixaram a França após as perseguições?",
+    "resposta": "cerca de 300.000."
+  },
+  {
+    "pergunta": "O que o termo 'huguenote' originalmente significava?",
+    "resposta": "escárnio, como apelido pejorativo."
+  }
+]

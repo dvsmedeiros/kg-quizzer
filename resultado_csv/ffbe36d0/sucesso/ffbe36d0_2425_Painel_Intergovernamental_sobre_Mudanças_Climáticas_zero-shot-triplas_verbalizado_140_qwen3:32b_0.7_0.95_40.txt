@@ -1,0 +1,72 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about the IPCC. Let me start by reading through the context carefully. The context mentions the IPCC's creation in 1988 by the UN, its purpose to synthesize climate change knowledge, the Nobel Peace Prize in 2007, and other details like the number of reports.
+
+Now, looking at the facts, there's a lot of structured data from Wikipedia categories and templates. For example, the IPCC is part of the UN, based in Geneva, uses specific templates, and has notable members. I need to ensure that the questions are based on both the context and these facts, without adding external information.
+
+First question: What is the full name of the IPCC in English? The context says "Intergovernmental Panel on Climate Change," so the answer is straightforward.
+
+Second question: When was the IPCC established? The context mentions 1988, so that's the answer.
+
+Third: What is the main objective of the IPCC? From the context, it's to synthesize and disseminate knowledge on climate change.
+
+Fourth: Which organizations created the IPCC? The context states PNUMA and OMM (UNEP and WMO).
+
+Fifth: How many major reports has the IPCC produced? The context says five major reports from 1990 to 2014.
+
+Sixth: Which prize did the IPCC win in 2007? The Nobel Peace Prize.
+
+Seventh: What is the headquarters of the IPCC? The facts mention Geneva, Switzerland.
+
+Eighth: What is the IPCC's role in climate policy? The context says it's the main basis for global and national policies.
+
+Ninth: Who is the current chair of the IPCC? The facts list Hoesung Lee.
+
+Tenth: What type of organization is the IPCC? The context describes it as a scientific-political organization under the UN.
+
+I need to check for variety, ensuring each question covers different aspects. Also, avoid repetition. Let me verify each question against the context and facts to ensure accuracy. All answers should be explicitly stated or inferable. That should do it.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o nome completo do IPCC em inglês?",
+    "resposta": "Intergovernmental Panel on Climate Change"
+  },
+  {
+    "pergunta": "Em que ano o IPCC foi estabelecido?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal do IPCC?",
+    "resposta": "Sintetizar e divulgar o conhecimento sobre mudanças climáticas, causas, efeitos e sugestões para combater o aquecimento global"
+  },
+  {
+    "pergunta": "Quais organizações criaram o IPCC?",
+    "resposta": "Programa das Nações Unidas para o Meio Ambiente (PNUMA) e a Organização Meteorológica Mundial (OMM)"
+  },
+  {
+    "pergunta": "Quantos relatórios principais o IPCC já produziu até 2014?",
+    "resposta": "Cinco"
+  },
+  {
+    "pergunta": "Qual prêmio o IPCC recebeu em 2007?",
+    "resposta": "Prêmio Nobel da Paz"
+  },
+  {
+    "pergunta": "Onde está localizada a sede do IPCC?",
+    "resposta": "Genebra, Suíça"
+  },
+  {
+    "pergunta": "O que o IPCC não produz, segundo o contexto?",
+    "resposta": "Pesquisa original"
+  },
+  {
+    "pergunta": "Quem é o líder atual do IPCC, conforme os fatos?",
+    "resposta": "Hoesung Lee"
+  },
+  {
+    "pergunta": "A que tipo de organização o IPCC pertence?",
+    "resposta": "Organização científico-política criada no âmbito das Nações Unidas"
+  }
+]
+```

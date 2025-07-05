@@ -1,0 +1,65 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts about packet switching. First, I need to make sure I understand the context. The main topic is packet switching in computer networks, contrasting it with circuit switching. The facts include various people associated with it, like Paul Baran, Donald Davies, W. David Sincoskie, and Sharla Boehm. There are also mentions of different types like connection-oriented (virtual circuit) and connectionless (datagram), examples like ATM, Frame Relay, IP, and technical aspects such as optimizing bandwidth, latency, jitter, and QoS.
+
+Now, I need to generate 10 pairs. Each question should be unique and cover different aspects. Let me brainstorm possible questions. 
+
+First, who are the key figures associated with packet switching? That's a good start. Then, what are the two main types? Next, examples of connection-oriented and connectionless. What's the main advantage of packet switching over circuit switching? How does it optimize bandwidth? What are the drawbacks like jitter and latency? What are the two main paradigms in networking? What is the primary purpose of packet switching? What are the examples of protocols or technologies using it? And finally, who is associated with its development?
+
+Wait, I need to ensure each question is distinct and covers different points. Let me check the facts again. The facts mention specific people, examples, types, advantages, and technical aspects. I should include questions about the types (connection-oriented vs. connectionless), examples (ATM, IP), advantages (bandwidth optimization), drawbacks (jitter, latency), key figures, main purpose, and the two paradigms (packet vs. circuit switching). Also, the mention of Sharla Boehm and Paul Baran, and the historical aspects like the date 2009-08-01. Maybe include a question about the date or the URL? Wait, the user's facts list some URLs, but the instructions say to base questions on the context provided. The context includes the technical aspects and the key figures. The facts list some URLs and dates, but the main content is about the technical details. So maybe focus on the technical aspects and key people. Let me structure 10 questions based on that.
+
+1. Who are the key figures associated with packet switching?
+2. What are the two main types of packet switching?
+3. What is a primary advantage of packet switching over circuit switching?
+4. What are the drawbacks of packet switching?
+5. What are the two main paradigms in networking?
+6. What is the primary purpose of packet switching?
+7. What are examples of connection-oriented and connectionless packet switching?
+8. Who is known for contributing to the development of packet switching?
+9. What is a key difference between packet switching and circuit switching?
+10. What are the technical aspects that make packet switching more efficient?
+
+Wait, some of these might overlap. Let me adjust to ensure variety. Maybe include the historical date mentioned in the facts. Also, the examples given in the context, like ATM, Frame Relay, IP. Let me check the facts again for specific details. The facts mention Sharla Boehm, Paul Baran, Donald Davies, W. David Sincoskie. Also, the mention of the date 2009-08-01 and 2011-03-29. But the main context is about the technical aspects. So the questions should focus on the technical and key figures. Let me finalize the 10 questions accordingly.
+</think>
+
+[
+  {
+    "pergunta": "Quais são os dois principais tipos de comutação por pacotes?",
+    "resposta": "Com ligação (circuito virtual) e sem ligação (datagrama)"
+  },
+  {
+    "pergunta": "Quem é conhecido por contribuir para o desenvolvimento da comutação por pacotes?",
+    "resposta": "Paul Baran, Donald Davies e W. David Sincoskie"
+  },
+  {
+    "pergunta": "Qual é a principal vantagem da comutação por pacotes em comparação com a comutação de circuitos?",
+    "resposta": "Optimizar o uso da largura de banda da rede"
+  },
+  {
+    "pergunta": "Quais são os desafios da comutação por pacotes em termos de qualidade de serviço?",
+    "resposta": "Introduzir jitter e atrasos variáveis"
+  },
+  {
+    "pergunta": "Qual é o paradigma de comunicação que contrasta com a comutação por pacotes?",
+    "resposta": "A comutação de circuitos"
+  },
+  {
+    "pergunta": "Quais protocolos ou tecnologias utilizam a comutação por pacotes?",
+    "resposta": "ATM, Frame Relay, X.25 e IP"
+  },
+  {
+    "pergunta": "Qual é a definição de comutação por pacotes segundo o contexto apresentado?",
+    "resposta": "Um paradigma de comunicação em que pacotes são individualmente encaminhados entre nós da rede"
+  },
+  {
+    "pergunta": "Quais são exemplos de comutação por pacotes com ligação e sem ligação?",
+    "resposta": "ATM (com ligação) e IP (sem ligação)"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal da comutação por pacotes?",
+    "resposta": "Minimizar a latência e aumentar a robustez da comunicação"
+  },
+  {
+    "pergunta": "Quem atua na disciplina de comutação por pacotes segundo os fatos fornecidos?",
+    "resposta": "Sharla Boehm"
+  }
+]

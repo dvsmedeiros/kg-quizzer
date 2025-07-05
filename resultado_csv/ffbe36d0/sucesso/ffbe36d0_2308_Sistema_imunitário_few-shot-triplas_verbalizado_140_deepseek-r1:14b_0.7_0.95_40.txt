@@ -1,0 +1,73 @@
+<think>
+Ok, vou precisar ajudar o usuário a gerar 10 pares de perguntas e respostas baseadas no contexto fornecido sobre o sistema imunológico. Primeiro, leio atentamente o que está pedido: um JSON com 10 entradas, cada uma tendo uma pergunta relevante e a resposta correta.
+
+O contexto é bastante abrangente, falando desde a definição do sistema imunológico, os cientistas envolvidos, mecanismos de defesa, doenças relacionadas e até estruturas wiki usadas. Os fatos incluem vários elementos que fazem parte ou estão associados ao sistema imunológico.
+
+Preciso garantir que as perguntas sejam variadas e cubram diferentes aspectos do conteúdo. Vou começar identificando tópicos principais:
+
+1. Componentes do sistema imunológico (células, órgãos).
+2. Funções e processos imunitários.
+3. Doenças relacionadas ao sistema imunológico.
+4. Cientistas e descobertas relevantes.
+5. Modelos e estruturas wiki usados.
+
+Agora, vou pensar em perguntas para cada tópico:
+
+- Quem cunhou o termo "sistema imunológico"? Resposta: Ilya Ilyich Mechnikov.
+- Qual órgão é responsável pela produção de células sanguíneas do sistema imunológico? Resposta: Medula óssea.
+- Quais células são responsáveis por reconhecer e neutralizar patógenos? Exemplo: Macrófago, neutrófilo, dentre outros.
+- Qual doença está ligada a um sistema imunológico hiperativo? Resposta: Autoimunidade (ex. artrite reumatóide).
+- O que é usado para criar memória imunológica? Resposta: Imunidade adquirida.
+- Qual agente patogênico pode evitar a detecção pelo sistema imunológico? Resposta: Agentes que evoluíram para escapar, como vírus.
+
+Continuando assim, vou garantir que cada pergunta tenha uma única resposta clara e esteja baseada no contexto. Vou evitar repetições e assegurar que as perguntas cubram diferentes aspectos, desde fisiologia até patologias.
+
+Também preciso prestar atenção aos fatos fornecidos para incluir elementos específicos, como o "basophil" fazendo parte do sistema imunológico ou a relação entre artrite reumatóide e autoimunidade.
+
+Depois de elaborar as perguntas e respostas, vou estruturá-las no formato JSON exigido, sem adicionar comentários ou explicações além das próprias entradas.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual órgão produz células sanguíneas do sistema imunológico?",
+    "resposta": "Medula óssea."
+  },
+  {
+    "pergunta": "Quais são exemplos de células que reconhecem patógenos?",
+    "resposta": "Macrófago, neutrófilo, basófilo."
+  },
+  {
+    "pergunta": "Qual doença é consequência de um sistema imunológico hiperativo?",
+    "resposta": "Autoimunidade."
+  },
+  {
+    "pergunta": "O que permite ao organismo responder mais eficazmente a agentes específicos?",
+    "resposta": "Imunidade adquirida."
+  },
+  {
+    "pergunta": "Qual agente pode evitar detecção pelo sistema imunológico?",
+    "resposta": "Agentes patogénicos que evoluíram para escapar."
+  },
+  {
+    "pergunta": "Qual cientista cunhou o termo 'sistema imunológico'?",
+    "resposta": "Ilya Ilyich Mechnikov."
+  },
+  {
+    "pergunta": "Quais células são responsáveis por neutralizar patógenos?",
+    "resposta": "Fagócitos, como os neutrófilos e macrófagos."
+  },
+  {
+    "pergunta": "Qual doença é consequência de imunodeficiência?",
+    "resposta": "VIH/SIDA."
+  },
+  {
+    "pergunta": "Quais células são responsáveis por reconhecer agentes específicos?",
+    "resposta": "Células T e B."
+  },
+  {
+    "pergunta": "Qual processo cria memória imunológica?",
+    "resposta": "Imunidade adquirida."
+  }
+]
+```

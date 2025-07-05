@@ -1,0 +1,58 @@
+<think>
+Okay, let's see what the user is asking for here. They want me to create exactly 10 pairs of questions and answers based on the provided context and facts. Each pair should have a question in English and an answer in Portuguese. The context includes details about Varsóvia, its location, history, economy, etc.
+
+First, I need to understand each piece of information given. For example, Varsóvia is the capital of Poland, located near BAPTico and Cárpatos mountains, with a population of 1,716,855 in 2012. The facts list provides more specific details about its location, history, economy, etc.
+
+I should structure each question to cover different aspects that aren't explicitly mentioned but are implied by the context. For instance, knowing where it's located can answer a question about its geography, and knowing its population gives information about demographics.
+
+Next, I'll create 10 questions with unique topics so they cover various areas like geography, history, economy, etc., ensuring each question is relevant and has a clear answer based on the provided facts. I need to make sure that each response is accurate and directly links back to the given data.
+
+I also have to remember not to repeat any themes or contexts used in previous examples. Each question should be original and test understanding of different aspects of Varsóvia's history, geography, culture, etc.
+
+Finally, I'll format each pair as a JSON object with "pergunta" and "resposta" keys, ensuring the data is correct and meets all the user's requirements.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual cidade é o capital da Polônia?",
+    "resposta": "Varsóvia"
+  },
+  {
+    "pergunta": "Em que rio Varsóvia fica?",
+    "resposta": "Vístula"
+  },
+  {
+    "pergunta": "A qual distância se distancia Varsóvia do mar Báltico?",
+    "resposta": "cerca de 260 km"
+  },
+  {
+    "pergunta": "Qual é a maior cidade da Polônia?",
+    "resposta": "Varsóvia"
+  },
+  {
+    "pergunta": "Em que se encuentra o capital da União Europeia?",
+    "resposta": "Warszawa"
+  },
+  {
+    "pergunta": "Quem classificou a Varsóvia como a 32ª cidade mais habitável do mundo?",
+    "resposta": "."
+  },
+  {
+    "pergunta": "Em qual ano foi Varsóvia classificada da 32ª cidade mais habitável do mundo?",
+    "resposta": "2012"
+  },
+  {
+    "pergunta": "O que caracteriza o EITHERTECA da Varsóvia?",
+    "resposta": " pla variedade de indústrias"
+  },
+  {
+    "pergunta": "Que intercâmbio em Varsóvia é um dos mais importantes para a Europa Central e Oriental?",
+    "resposta": "esquisa"
+  },
+  {
+    "pergunta": "Qual o nome da agência da União Europeia para a segurança das fronteira externas?",
+    "resposta": "Frontex"
+  }
+]
+```

@@ -1,0 +1,64 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts about the Huguenots. First, I need to understand the context thoroughly.
+
+The context mentions that Huguenots were French Protestants during the religious wars in the late 16th century. Around 300,000 left France after persecution under Louis XIV and the revocation of the Edict of Nantes in 1685. They were mostly Calvinists, part of the Reformed Church, while those in Alsace, Moselle, and Montbéliard were Lutheran. 
+
+Looking at the facts, there are a lot of image references, Wikipedia templates, and related categories. But the main content is about their history, exodus, religious affiliations, and events like the Edict of Nantes. The examples provided by the user include questions about their location, population proportions, dates of wars, treaties, and some historical figures. 
+
+I need to create varied questions covering different aspects. Let me list possible topics: the reason for their exodus, the Edict of Nantes, their religious affiliations, key events like the St. Bartholomew's Day Massacre, their diaspora, related groups like the Scotch-Irish, their legacy in places like New York and Staten Island, and their connection to the French Wars of Religion. 
+
+Each question must have a unique answer based on the context. For example, the revocation of the Edict of Nantes in 1685 is a key date. Their main religion is Calvinism. The Massacre of St. Bartholomew is mentioned in the images, so a question about that event could be relevant. Also, the diaspora to places like Orange County and Staten Island. 
+
+I need to ensure that the questions are not repetitive. Avoid asking about the same event multiple times. Check for the correct answers based on the context. For instance, the Edict of Nantes was revoked in 1685, leading to their exodus. The Scotch-Irish Americans are related to Huguenots. The main religion is Calvinism. 
+
+Also, the user's examples include questions about the Treaty of Nantes and the Edict of Nantes. I need to make sure not to repeat those but cover other aspects. Maybe include the number of Huguenots who left France, the regions they were in, their connection to the French Wars of Religion, and their legacy in specific locations. 
+
+Now, structuring the JSON with exactly 10 entries. Each entry should have a unique question and answer. Make sure the answers are directly inferable from the context. For example, the answer to "Quando foi revogado o Édito de Nantes?" is 1685. The answer to "Quais eram as principais correntes religiosas dos Huguenotes?" would be Calvinismo e luteranismo. 
+
+I should also check for any other key points mentioned, like the Massacre of San Bartolomé, which is referenced in the images, so a question about that event's date or occurrence. Also, the connection to the French Wars of Religion and the anti-Catholicism in France. 
+
+Once the questions are framed, ensure the answers are precise and match the context. Avoid any generalizations not supported by the given information. Finally, format the JSON correctly without any additional text or explanations.
+</think>
+
+[
+  {
+    "pergunta": "Quando foi revogado o Édito de Nantes?",
+    "resposta": "18 de outubro de 1685"
+  },
+  {
+    "pergunta": "Quantos huguenotes deixaram a França após as perseguições?",
+    "resposta": "Cerca de 300 000"
+  },
+  {
+    "pergunta": "Quais eram as principais correntes religiosas dos huguenotes?",
+    "resposta": "Calvinismo e luteranismo"
+  },
+  {
+    "pergunta": "Qual foi o tratado que concedeu autonomia religiosa aos huguenotes?",
+    "resposta": "O Édito de Nantes"
+  },
+  {
+    "pergunta": "O que representa a imagem 'La masacre de San Bartolomé'?",
+    "resposta": "Um evento de perseguição religiosa contra os huguenotes"
+  },
+  {
+    "pergunta": "Quais regiões da França eram habitadas por huguenotes luteranos?",
+    "resposta": "Alsácia, Moselle e Montbéliard"
+  },
+  {
+    "pergunta": "Qual foi a causa principal da diáspora huguenota?",
+    "resposta": "As perseguições sob Luís XIV e a revogação do Édito de Nantes"
+  },
+  {
+    "pergunta": "Qual local dos EUA foi nomeado em homenagem aos huguenotes?",
+    "resposta": "Huguenot, Orange County, New York"
+  },
+  {
+    "pergunta": "Qual foi o nome da conspiração contra a Casa da Guise?",
+    "resposta": "Amboise"
+  },
+  {
+    "pergunta": "Qual era a relação dos huguenotes com a Igreja Reformada?",
+    "resposta": "Eram majoritariamente membros da Igreja Reformada"
+  }
+]

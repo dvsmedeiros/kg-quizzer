@@ -1,0 +1,58 @@
+<think>
+Okay, I need to generate 10 pairs of questions and correct answers based on the provided context about the immune system. Let me start by understanding the context thoroughly.
+
+First, I'll outline the main components of the immune system from the given information. These include types like Innate and Adaptive Immunity, key cells such as macrophages, neutrophils, T cells, B cells, and memory cells. Functions are another important aspect, like fighting pathogens, antigen presentation, cytokine production, vaccination effects, and immune response enhancement.
+
+Next, I'll brainstorm different question types that touch on these components. For example, identifying functions of specific immune cells or understanding the role of memory cells in long-term immunity. I should ensure each question is distinct and covers various aspects to meet the requirement of varied questions.
+
+I must make sure each answer is accurate and directly related to the context. If a question asks about the function of T cells, the answer should clearly state their role in cell-mediated responses and apoptosis induction.
+
+I'll also check that I'm not repeating similar questions, keeping them varied enough to cover different sub-topics within the immune system. Additionally, I need to avoid any markdown formatting, ensuring the JSON structure is correct with proper syntax.
+
+Finally, after drafting all pairs, I'll review each question and answer pair to confirm they're relevant, correct, and meet the user's instructions precisely.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a função principal dos neutrófilos no sistema imunitário?",
+    "resposta": "Os neutrófilos são responsáveis por destruir invasores potenciais e infligir danos nos patógenos, contribuindo para a defesa do corpo."
+  },
+  {
+    "pergunta": "Que tipo de imunidade permite que o corpo reconheça e elimine substâncias estranhas?",
+    "resposta": "A imunidade innata é a responsável por identificar e neutralizar substâncias estranhas no corpo, como bactérias ou vírus."
+  },
+  {
+    "pergunta": "Quais são as células principais associadas à resposta específica do sistema imunitário?",
+    "resposta": "As células B são as responsáveis por reconhecer e lembrar antigenos específicos, ajudando no processo de resposta imune."
+  },
+  {
+    "pergunta": "Qual é a função dos linfócitos T na resposta imunitária?",
+    "resposta": "Os linfócitos T são atualmente responsáveis por activar as células B e outros elementos do sistema imunitário, além de coordenar respostas de eliminação de células infectadas."
+  },
+  {
+    "pergunta": "O que ocorre durante a fase de sensibilização na resposta imune?",
+    "resposta": "Na fase de sensibilização, as células B são estimuladas a memoralizar o antigênico, permitindo que识别em posteriormente o mesmo patógeno."
+  },
+  {
+    "pergunta": "Qual é a função dos cytokinas no sistema imunitário?",
+    "resposta": "As cytokinas são quimiocas e servem como sinais entre as células do sistema imunitário, regulando processos como a inflamação e a resposta antiviral."
+  },
+  {
+    "pergunta": "Que tipo de memória imunológica é mais durável?",
+    "resposta": "A memória celular é a mais durável, permitindo que o corpo reconheça antigenos específicos com precisão por muitos anos."
+  },
+  {
+    "pergunta": "O que ocorre durante a fase de resposta primária na imunidade humana?",
+    "resposta": "Na fase de resposta primária, o corpo monta uma defesa mais forte contra um patógeno novo, gerando memória imunológica."
+  },
+  {
+    "pergunta": "Por que é importante a vacinação no contexto do sistema imunitário?",
+    "resposta": "A vacinação estimula o sistema imunitário a reconhecer e combatir determinados patógenos, reduzindo a probabilidade de doenças."
+  },
+  {
+    "pergunta": "Qual é o principal objetivo das células de memória no sistema imunitário?",
+    "resposta": "As células de memória são responsáveis por garantir que a resposta imunológica seja rápida e eficaz em caso de reaparecimento do mesmo patógeno."
+  }
+]
+```

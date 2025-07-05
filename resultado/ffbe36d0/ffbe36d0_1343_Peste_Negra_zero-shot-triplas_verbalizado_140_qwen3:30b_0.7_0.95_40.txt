@@ -1,0 +1,96 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers based on the given context and facts about the Black Death. The key points are that the questions must be varied, cover different aspects, and the answers must be directly from the content. No repetition of similar questions.
+
+First, I need to go through the context and facts provided. The context gives historical info about the Black Death: when it happened, the cause (Yersinia pestis), the impact on Europe's population, how it spread via the Silk Road and rats, and its long-term effects. The facts include various technical details like the number of deaths, models used on Wikipedia, images, and references to sources.
+
+I should start by identifying different aspects. For example, causes, spread, mortality rates, historical impact, sources, and specific details like the bacterium's name. Then, create questions that target these areas.
+
+Check for unique angles. For instance, one question could be about the origin, another about the bacteria, another on the mortality rate, another on the spread methods, another on the impact on Europe's population, another on the sources mentioned (like Geoffrey the Baker), another on the types of plague (bubonic, pneumonic, septicemic), another on the recovery time, another on the images provided, and another on the models used in the Wikipedia page.
+
+Need to ensure that each answer is directly from the context or facts. For example, the origin is Asia Central or East, the bacteria is Yersinia pestis, the mortality rate is 30-60% in Europe, spread via rats and fleas, the source Geoffrey the Baker, the three forms of plague, recovery taking 200 years, images like Yersinia pestis fluorescent.jpeg, and models like Template:Sfn.
+
+Avoid repeating similar questions. So, instead of asking about the spread multiple times, focus on different elements each time. Also, check that the answers are exact as per the provided data. For instance, the number of deaths is 75-200 million, but in the facts, there's a mention of 75,000,000. Need to verify which is correct. The context says 75-200 million, but the facts have "número de mortes 75000000" (75 million). Maybe the answer should use the exact number from the facts if it's specific.
+
+Also, check for any unique facts, like the quote about the spread in England, or the mention of specific categories like "Category:1340s in Europe". Maybe a question about the categories or the models used on the Wikipedia page.
+
+Need to make sure each pair is distinct and covers different parts of the provided info. Let me list possible questions:
+
+1. What was the primary cause of the Black Death?
+2. Where did the Black Death originate?
+3. What percentage of Europe's population died during the Black Death?
+4. How did the Black Death spread across Europe?
+5. What was the name of the bacterium responsible for the Black Death?
+6. What were the three forms of plague caused by Yersinia pestis?
+7. How long did it take for Europe's population to recover after the Black Death?
+8. Which historical figure's work is mentioned as a source for information on the Black Death?
+9. What is the name of the image showing the Oriental rat flea?
+10. What models were used on the Wikipedia page for the Black Death?
+
+Now, check the context and facts for answers. For example:
+
+1. Answer: Yersinia pestis.
+2. Answer: Asia Central or Asia Oriental.
+3. Answer: 30% to 60%.
+4. Answer: Via the Silk Road, rats, and fleas on merchant ships.
+5. Answer: Yersinia pestis.
+6. Answer: Bubonic, pneumonic, and septicemic.
+7. Answer: Approximately 200 years.
+8. Answer: Geoffrey the Baker.
+9. Answer: Yersinia pestis fluorescent.jpeg.
+10. Answer: Template:Sfn, Template:Other uses, etc.
+
+But need to ensure the answers are exactly as per the given data. Also, check if some answers are in the facts. For example, the facts mention "Black Death possui imagem representativa Yersinia pestis fluorescent.jpeg" so that's the image name. The models are listed as Template:Sfn, Template:Use dmy dates, etc. So the 10th question's answer would be a list, but the user wants a single answer. Maybe pick one model, but the instruction says "resposta correta" which is singular. So perhaps the answer is "Template:Sfn" as one of the models.
+
+Also, check if the facts have "Black Death é do tipo Pandemic" so maybe a question about the classification. But the user wants 10 pairs, so need to pick the most relevant ones.
+
+Need to make sure each question is unique and covers different aspects. Avoid overlapping. For example, one question on the cause, one on origin, one on mortality, one on spread, one on bacteria, one on forms, one on recovery, one on source, one on image, one on models.
+
+Yes, that should cover 10. Now, structure each pair with the exact answer from the context or facts. Ensure the answers are precise. For example, the answer to the origin is "Asia Central ou na Ásia Oriental" as per the context. The answer to the models could be "Template:Sfn" as it's one of the models listed. The image name is "Yersinia pestis fluorescent.jpeg" as per the facts.
+
+Double-check that all answers are directly from the provided content. Avoid using external knowledge. For example, the quote about the spread in England is in the facts, so a question about the quote could be included, but the user might prefer more straightforward answers.
+
+Okay, I think that's a solid approach. Now, format the JSON as specified, ensuring no extra text and correct structure.
+</think>
+
+[
+  {
+    "pergunta": "Qual foi a causa principal da Peste Negra?",
+    "resposta": "A bactéria Yersinia pestis."
+  },
+  {
+    "pergunta": "De onde a Peste Negra provavelmente teve sua origem?",
+    "resposta": "Ásia Central ou Ásia Oriental."
+  },
+  {
+    "pergunta": "Qual foi a porcentagem estimada da população europeia que morreu durante a Peste Negra?",
+    "resposta": "30% a 60%."
+  },
+  {
+    "pergunta": "Como a Peste Negra se espalhou pela Europa?",
+    "resposta": "Por meio de pulgas que viviam em ratos, transportadas por navios mercantes genoveses."
+  },
+  {
+    "pergunta": "Qual é o nome da bactéria responsável pela Peste Negra?",
+    "resposta": "Yersinia pestis."
+  },
+  {
+    "pergunta": "Quais são as três formas de peste causadas pela Yersinia pestis?",
+    "resposta": "Bubônica, pneumônica e septicêmica."
+  },
+  {
+    "pergunta": "Quanto tempo levou para a população europeia se recuperar após a Peste Negra?",
+    "resposta": "Aproximadamente 200 anos."
+  },
+  {
+    "pergunta": "Qual autor é mencionado como fonte para informações sobre a Peste Negra?",
+    "resposta": "Geoffrey the Baker."
+  },
+  {
+    "pergunta": "Qual é o nome da imagem que mostra a pulga oriental?",
+    "resposta": "Xenopsylla chepsis (oriental rat flea)."
+  },
+  {
+    "pergunta": "Qual modelo foi utilizado na página da Wikipédia sobre a Peste Negra?",
+    "resposta": "Template:Sfn."
+  }
+]

@@ -1,0 +1,101 @@
+<think>
+Okay, let's see. I need to generate 10 question-answer pairs based on the provided context and facts. The context is about British Satellite Broadcasting (BSB), which merged with Sky Television to form BSkyB in 1990. The facts include various triples from DBpedia, mentioning channels owned by BSB, its founding date, locations, successor company, etc.
+
+First, I should parse the context and facts thoroughly. The main points from the context are BSB's role in satellite TV in the UK, its merger to form BSkyB in November 1990, and its start date of March 25, 1990. The facts include triples about channels like Galaxy, Now, The Movie Channel, etc., that were owned by BSB. Also, BSB's founding date is 1986-12-11, location in London, and successor as Sky UK.
+
+Now, I need to create varied questions. Let's list possible areas:
+
+1. What was the successor company of BSB? Answer: Sky UK.
+2. When was BSB founded? Answer: 1986.
+3. When did BSB start transmitting? Answer: March 25, 1990.
+4. When did BSB merge with Sky Television? Answer: November 1990.
+5. What channels were owned by BSB? Answers like Galaxy, Now, The Movie Channel, etc.
+6. What is the full name of BSB? Answer: British Satellite Broadcasting plc.
+7. What was the result of the merger? Answer: BSkyB.
+8. What is the location of BSB? Answer: London, United Kingdom.
+9. What type of company was BSB? Answer: Television broadcasting company.
+10. What other entities are part of the merger? Answer: Sky Television.
+
+Wait, but some of these might be covered in the examples provided. The user's examples include questions about BSkyB's formation, merger details, etc. I need to avoid repeating those. So, focusing on BSB's details not covered in the examples.
+
+Looking at the facts, BSB owned several channels like Galaxy, Now, The Computer Channel, The Movie Channel, The Power Station. So questions about which channels BSB owned would be relevant. Also, the successor is Sky UK, founding date, location, merger date and result.
+
+I need to make sure each question is unique and based on explicit info. Let's start drafting:
+
+1. Qual empresa sucedeu a British Satellite Broadcasting após a fusão? Resposta: Sky UK.
+2. Em que data a British Satellite Broadcasting foi fundada? Resposta: 11 de dezembro de 1986.
+3. Em que cidade a British Satellite Broadcasting estava sediada? Resposta: Londres.
+4. Qual o nome completo da British Satellite Broadcasting? Resposta: British Satellite Broadcasting plc.
+5. Quais canais de TV eram de propriedade da British Satellite Broadcasting? Resposta: Galaxy, Now, The Movie Channel, The Computer Channel, The Power Station.
+6. Em que ano a British Satellite Broadcasting começou a transmitir? Resposta: 1990.
+7. Qual a data exata do início das transmissões da British Satellite Broadcasting? Resposta: 25 de março de 1990.
+8. Qual a data da fusão entre British Satellite Broadcasting e a Sky Television? Resposta: Novembro de 1990.
+9. Qual o nome da empresa formada pela fusão de British Satellite Broadcasting e Sky Television? Resposta: British Sky Broadcasting (BSkyB).
+10. Quais são os países associados à British Satellite Broadcasting? Resposta: Reino Unido e Inglaterra.
+
+Wait, the example questions already mention the merger forming BSkyB, but the user's examples are different. The user's examples have questions about BSkyB's acquisitions and partnerships, which are not in the provided context. Since the user provided their own examples, I should stick strictly to the given context and facts.
+
+So, for the 10 pairs, I can use the channels owned by BSB, founding date, merger details, successor, location, etc. Let's check if the facts support these answers.
+
+Looking at the facts, BSB's successor is Sky UK. Founding date is 1986-12-11. Locations include London and United Kingdom. The merger formed BSkyB in November 1990. The channels are listed in the triples.
+
+Now, compiling the 10 pairs. Need to ensure each question is distinct and answers are directly from the data. Also, avoid repeating the same question type, like different aspects of the merger.
+
+1. Qual empresa sucedeu a British Satellite Broadcasting após a fusão? Resposta: Sky UK.
+2. Em que data a British Satellite Broadcasting foi fundada? Resposta: 11 de dezembro de 1986.
+3. Qual o nome completo da British Satellite Broadcasting? Resposta: British Satellite Broadcasting plc.
+4. Em que cidade a British Satellite Broadcasting estava sediada? Resposta: Londres.
+5. Quais canais de TV eram de propriedade da British Satellite Broadcasting? Resposta: Galaxy, Now, The Movie Channel, The Computer Channel, The Power Station.
+6. Em que ano a British Satellite Broadcasting começou a transmitir? Resposta: 1990.
+7. Qual a data exata do início das transmissões da British Satellite Broadcasting? Resposta: 25 de março de 1990.
+8. Em que mês e ano ocorreu a fusão entre British Satellite Broadcasting e a Sky Television? Resposta: Novembro de 1990.
+9. Qual o nome da empresa formada pela fusão entre British Satellite Broadcasting e Sky Television? Resposta: British Sky Broadcasting (BSkyB).
+10. Quais são os países associados à sede da British Satellite Broadcasting? Resposta: Reino Unido e Inglaterra.
+
+That's 10 pairs. Let's verify each answer from the facts. The successor is Sky UK, founding date is 1986-12-11, the full name is in the foaf:name, location in ns2:location, channels in the various triples, start date in the context, merger date in the context, successor in the facts, and countries as location.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual empresa sucedeu a British Satellite Broadcasting após a fusão?",
+    "resposta": "Sky UK"
+  },
+  {
+    "pergunta": "Em que data a British Satellite Broadcasting foi fundada?",
+    "resposta": "11 de dezembro de 1986"
+  },
+  {
+    "pergunta": "Qual o nome completo da British Satellite Broadcasting?",
+    "resposta": "British Satellite Broadcasting plc"
+  },
+  {
+    "pergunta": "Em que cidade a British Satellite Broadcasting estava sediada?",
+    "resposta": "Londres"
+  },
+  {
+    "pergunta": "Quais canais de TV eram de propriedade da British Satellite Broadcasting?",
+    "resposta": "Galaxy, Now, The Movie Channel, The Computer Channel, The Power Station"
+  },
+  {
+    "pergunta": "Em que ano a British Satellite Broadcasting começou a transmitir?",
+    "resposta": "1990"
+  },
+  {
+    "pergunta": "Qual a data exata do início das transmissões da British Satellite Broadcasting?",
+    "resposta": "25 de março de 1990"
+  },
+  {
+    "pergunta": "Em que mês e ano ocorreu a fusão entre British Satellite Broadcasting e a Sky Television?",
+    "resposta": "Novembro de 1990"
+  },
+  {
+    "pergunta": "Qual o nome da empresa formada pela fusão entre British Satellite Broadcasting e Sky Television?",
+    "resposta": "British Sky Broadcasting (BSkyB)"
+  },
+  {
+    "pergunta": "Quais são os países associados à sede da British Satellite Broadcasting?",
+    "resposta": "Reino Unido e Inglaterra"
+  }
+]
+```

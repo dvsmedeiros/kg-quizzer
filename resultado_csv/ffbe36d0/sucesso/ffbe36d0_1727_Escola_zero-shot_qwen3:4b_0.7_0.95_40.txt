@@ -1,0 +1,72 @@
+<think>
+Okay, the user wants me to generate 10 objective question-answer pairs based on the context provided, which is "Escola" (School in Portuguese). Let me start by understanding the requirements.
+
+First, the output needs to be a JSON array with exactly 10 entries. Each entry has a question and a correct answer in Portuguese. The questions should be varied and cover different aspects of the school context. I need to make sure not to repeat similar questions.
+
+The context is "Escola", so I should think about different aspects of a school: structure, roles, activities, rules, subjects, etc. Let me brainstorm possible topics. 
+
+Possible topics could include:
+1. What is the main purpose of a school?
+2. Who are the main educators in a school?
+3. What are the main activities in a school?
+4. What is the role of the principal?
+5. What are the subjects typically taught in a school?
+6. What is the purpose of a classroom?
+7. What is the role of students in a school?
+8. What are the common rules in a school?
+9. What is the function of the school administration?
+10. What is the role of the teacher?
+
+Now, I need to ensure each question is unique and covers different aspects. Let me check if these questions are all different and relevant. The answers should be directly from the context or inferable from it. Since the context is just "Escola", I need to assume general knowledge about schools.
+
+Wait, the user said to base the questions and answers exclusively on the provided content. But the content is just "Escola". Maybe they expect me to use general knowledge, but the instructions say to generate based on the given context. However, the context is very minimal. Maybe the user intended for the questions to be general about schools, as that's the only context given. 
+
+In that case, the answers would be standard school-related facts. Let me proceed with that. I'll make sure each question is distinct and covers different areas. For example, the main purpose, roles of teachers and principal, activities, subjects, classroom function, student role, school rules, administration function, etc.
+
+Let me list out the 10 questions again to ensure they are varied. I think that's covered. Now, I need to write them in Portuguese, making sure the answers are accurate. For example, the main purpose of a school is to educate students, the main educator is the teacher, activities include classes and extracurriculars, the principal manages the school, subjects are varied, classroom is for learning, students learn and follow rules, common rules include punctuality, administration handles logistics, and teachers teach and guide.
+
+I need to check for any possible repetition or similar questions. For example, the question about the principal and the one about the administration might be related, but they are different aspects. The question about the role of students is different from the rules. I think this covers 10 distinct areas. Now, I'll structure them into JSON format as per the instructions, ensuring no markdown and correct syntax.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o principal objetivo de uma escola?",
+    "resposta": "Educar estudantes de diferentes idades e habilidades."
+  },
+  {
+    "pergunta": "Quem é o profissional principal responsável por ensinar alunos em uma escola?",
+    "resposta": "O professor."
+  },
+  {
+    "pergunta": "O que caracteriza as atividades principais de uma escola?",
+    "resposta": "Aulas, trabalhos práticos e atividades extracurriculares."
+  },
+  {
+    "pergunta": "Qual é o papel do diretor de uma escola?",
+    "resposta": "Gerenciar a administração e o funcionamento da instituição."
+  },
+  {
+    "pergunta": "Quais são alguns exemplos de disciplinas ensinadas em uma escola?",
+    "resposta": "Matemática, ciências, língua portuguesa e história."
+  },
+  {
+    "pergunta": "Qual é a função principal de uma sala de aula em uma escola?",
+    "resposta": "Ser o espaço onde ocorrem as aulas e interações pedagógicas."
+  },
+  {
+    "pergunta": "Qual é o papel dos alunos em uma escola?",
+    "resposta": "Aprender conteúdos curriculares e seguir as regras institucionais."
+  },
+  {
+    "pergunta": "Quais são algumas regras comuns em uma escola?",
+    "resposta": "Pontualidade, respeito aos colegas e atenção durante as aulas."
+  },
+  {
+    "pergunta": "O que é responsável por organizar o calendário escolar e as atividades?",
+    "resposta": "A coordenação pedagógica da escola."
+  },
+  {
+    "pergunta": "Qual é o objetivo principal de uma escola pública?",
+    "resposta": "Oferecer ensino gratuito e de qualidade a todos os estudantes."
+  }
+]

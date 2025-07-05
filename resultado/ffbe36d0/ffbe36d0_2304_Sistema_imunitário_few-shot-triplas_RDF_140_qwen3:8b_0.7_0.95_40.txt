@@ -1,0 +1,66 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts about the immune system. First, I need to make sure I understand the context thoroughly. The text explains the immune system's role in protecting against diseases, mentions Ilya Mechnikov as the founder, discusses various mechanisms like phagocytosis, defensins, complement system, and adaptive immunity with memory. It also talks about disorders like immunodeficiency and autoimmunity, and includes some facts from DBpedia about components like B-cells, T-cells, and related fields.
+
+The examples given by the user include questions about the purpose of the immune system, agents it detects, types of immunity, and specific disorders. I need to ensure that my questions are varied and cover different aspects. Let me list possible areas to cover: components of the immune system (like cells and organs), functions (like memory, detection), types of immunity (innate vs. adaptive), disorders (immunodeficiency, autoimmunity), key figures (Mechnikov), and related concepts (like the complement system or defensins).
+
+Now, I need to avoid repeating similar questions. For example, if I ask about the purpose, another question about the agents detected might be similar. So I should focus on different angles. Let me start by checking the context again for key points. The immune system protects against pathogens, detects them, has innate and adaptive mechanisms, includes cells like B-cells, T-cells, macrophages, etc., and has disorders like immunodeficiency and autoimmunity. Also, the text mentions that even unicellular organisms have a rudimentary system.
+
+Possible questions could be:
+1. What is the main function of the immune system? (Answer: protect against diseases)
+2. Who is considered the father of immunology? (Answer: Ilya Ilyich Mechnikov)
+3. What are the two main types of immunity? (Answer: innate and adaptive)
+4. What is the term for a hyperactive immune system attacking normal tissue? (Answer: autoimmunity)
+5. Which cells are involved in adaptive immunity? (Answer: B-cells and T-cells)
+6. What is the role of the complement system? (Answer: part of the immune response to help destroy pathogens)
+7. What is the condition when the immune system is less active than normal? (Answer: immunodeficiency)
+8. What are the basic mechanisms in eukaryotes? (Answer: phagocytosis, defensins, complement)
+9. Which cells are part of the immune system? (Answer: macrophages, lymphocytes, neutrophils)
+10. What is the basis for vaccination? (Answer: adaptive immunity and memory)
+
+Wait, I need to make sure each question is distinct and covers different aspects. Let me verify the facts from the provided DBpedia data. For example, the facts mention B-cells, T-cells, macrophages, etc., so including those in questions about components. Also, the complement system is mentioned as a basic mechanism. Autoimmunity is discussed as a condition. The text also says that the immune system creates memory for better response, which is the basis for vaccination. Ilya Mechnikov is the founder. The text mentions that even unicellular organisms have rudimentary systems, but the question about basic mechanisms in eukaryotes might be covered by the complement system, defensins, and phagocytosis.
+
+I should ensure that each answer is directly inferable from the context. For example, the complement system is part of the immune mechanisms. Also, the answer to the question about the two main types of immunity would be innate and adaptive. Let me structure the 10 pairs accordingly, making sure they are varied and each has a unique angle.
+</think>
+
+[
+  {
+    "pergunta": "Quem é considerado o pai da imunologia?",
+    "resposta": "Ilya Ilyich Mechnikov"
+  },
+  {
+    "pergunta": "Qual é a função principal do sistema imunológico?",
+    "resposta": "proteger o organismo contra doenças"
+  },
+  {
+    "pergunta": "Quais são os dois principais tipos de imunidade?",
+    "resposta": "imunidade inata e imunidade adaptativa"
+  },
+  {
+    "pergunta": "O que caracteriza a imunidade adaptativa?",
+    "resposta": "criar memória para respostas mais eficazes"
+  },
+  {
+    "pergunta": "Quais células são fundamentais para a imunidade adaptativa?",
+    "resposta": "linfócitos B e linfócitos T"
+  },
+  {
+    "pergunta": "Qual é a condição resultante de um sistema imunológico menos ativo?",
+    "resposta": "imunodeficiência"
+  },
+  {
+    "pergunta": "Qual é a denominação para um sistema imunológico hiperativo que ataca tecidos saudáveis?",
+    "resposta": "autoimunidade"
+  },
+  {
+    "pergunta": "Quais são os mecanismos básicos presentes em eucariontes?",
+    "resposta": "fagocitose, defensinas e sistema complemento"
+  },
+  {
+    "pergunta": "Quais componentes são parte do sistema imunológico?",
+    "resposta": "macrófagos, linfócitos e neutrófilos"
+  },
+  {
+    "pergunta": "Qual é a base para a vacinação?",
+    "resposta": "imunidade adaptativa e memória imunológica"
+  }
+]

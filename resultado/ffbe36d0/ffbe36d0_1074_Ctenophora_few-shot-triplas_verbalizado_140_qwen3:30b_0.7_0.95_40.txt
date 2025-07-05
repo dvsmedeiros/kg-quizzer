@@ -1,0 +1,71 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about Ctenophora. Let me start by reading through the context and facts carefully.
+
+First, the context says Ctenophora is a phylum of marine animals, commonly known as sea cabbages or comb jellies. They have cilia combs for swimming, are mostly planktonic, some benthic, bioluminescent, and their size ranges from 1mm to 1.5m. They resemble jellyfish but are not closely related. They've been around since the Cambrian period.
+
+Now, looking at the facts, there's a lot of technical information. For example, they have multiple taxonomic classifications, like being part of Animal100015388, PhysicalEntity100001930, etc. There are also mentions of specific species like Coeloplana, Callianira hexagona, Vallicula. They use various wiki templates, have images, and some have specific subdivisions like Tentaculata, Nuda, Scleroctenophora. Also, they were described by Eschscholtz in 1829, and their type species is Mnemiopsis leidyi.
+
+I need to make sure each question is varied and covers different aspects. Let me brainstorm possible questions:
+
+1. What is the scientific name for Ctenophora? (Answer: Ctenophora)
+2. What are the common names for Ctenophora? (Answer: sea cabbages or comb jellies)
+3. What is the primary method of locomotion for Ctenophora? (Answer: cilia combs)
+4. What is the size range of Ctenophora? (Answer: 1mm to 1.5m)
+5. What is the taxonomic classification of Ctenophora? (Answer: Phylum)
+6. What is the type species of Ctenophora? (Answer: Mnemiopsis leidyi)
+7. When were Ctenophora first described? (Answer: 1829 by Eschscholtz)
+8. What is the main difference between Ctenophora and jellyfish? (Answer: Convergent evolution, not close phylogenetic relation)
+9. What are the subdivisions of Ctenophora? (Answer: Tentaculata, Nuda, Scleroctenophora)
+10. What is the habitat of Ctenophora? (Answer: Marine waters, estuaries)
+
+Now, check if these are all based on the context and facts. The context mentions common names, locomotion via cilia, size, habitat, and that they are a phylum. The facts mention the type species, description year, subdivisions, and taxonomic classifications. The answer about the main difference with jellyfish is in the context. 
+
+I need to ensure no repetition. The examples had some similar questions, but I need to vary them. Also, make sure the answers are directly from the context or facts. For instance, the type species is Mnemiopsis leidyi, which is in the facts. The subdivisions are listed as *Tentaculata, *Nuda, *Scleroctenophora. The habitat is marine and estuarine as per the context.
+
+Double-check that each answer is correct. For example, the question about the taxonomic classification: the context says it's a phylum, and the facts mention "hiperônimo Phylum", so that's correct. The answer about the type species is in the facts. The description year is in the facts. The subdivisions are listed in the facts. The main difference with jellyfish is in the context.
+
+I think this covers 10 varied questions. Now, structure them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "O que é o Ctenophora?",
+    "resposta": "um filo de animais marinhos"
+  },
+  {
+    "pergunta": "Qual é o nome comum de Ctenophora?",
+    "resposta": "carambolas-do-mar ou águas-vivas-de-pente"
+  },
+  {
+    "pergunta": "Como os ctenóforos se locomovem?",
+    "resposta": "por meio de grupos de cílios formando 'pentes'"
+  },
+  {
+    "pergunta": "Qual o tamanho máximo de um ctenóforo?",
+    "resposta": "1,5 m de comprimento"
+  },
+  {
+    "pergunta": "O que distingue Ctenophora de medusas?",
+    "resposta": "semelhanças são convergência evolutiva, não relacionamento filogenético próximo"
+  },
+  {
+    "pergunta": "Quando Ctenophora aparece no registro fóssil?",
+    "resposta": "desde o Cambriano"
+  },
+  {
+    "pergunta": "Qual é a subdivisão de Ctenophora?",
+    "resposta": "Tentaculata, Nuda e Scleroctenophora"
+  },
+  {
+    "pergunta": "Quem descreveu Ctenophora?",
+    "resposta": "Eschscholtz, em 1829"
+  },
+  {
+    "pergunta": "Qual o nome da espécie-tipo de Ctenophora?",
+    "resposta": "Mnemiopsis leidyi"
+  },
+  {
+    "pergunta": "Onde Ctenophora habita?",
+    "resposta": "águas oceânicas e estuarinas"
+  }
+]

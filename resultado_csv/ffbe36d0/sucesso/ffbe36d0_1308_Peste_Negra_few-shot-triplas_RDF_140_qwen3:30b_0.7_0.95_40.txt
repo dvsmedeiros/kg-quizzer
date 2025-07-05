@@ -1,0 +1,105 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers based on the given context and facts about the Black Death. First, I need to make sure I understand the requirements.
+
+The context provided is about the Black Death, its origins, spread, impact, and related facts. The facts are in a structured format with various properties. The user also provided examples, which I should look at to match the style.
+
+I need to generate questions that are varied and cover different aspects of the content. Each question must have a single correct answer derived directly from the context or facts. No repetition of similar questions. The answers should be concise and in Portuguese.
+
+Let me start by scanning the context for key points. The Black Death was the most devastating pandemic, killing 75-200 million in Eurasia, peaking in Europe 1347-1351. Caused by Yersinia pestis, which has different forms. Originated in Central or East Asia, spread via Silk Road to Crimea in 1343, then via rats on merchant ships to the Mediterranean and Europe. Killed 30-60% of Europe's population, reduced world population from 475M to 350-375M. Europe took 200 years to recover, some regions until the 19th century. Recurred as outbreaks until early 20th century.
+
+Now, the facts include DBpedia links, properties like ns1:deaths, ns1:location, ns1:name, ns1:reason, etc. Also, mentions of Ole Jørgen Benedictow and Sharon N. DeWitte as experts. The quote from Geoffrey the Baker about the spread in England.
+
+Possible questions:
+
+1. Origin of the Black Death? Answer: Asia Central or East Asia.
+2. How did it spread to Europe? Answer: Rats on merchant ships.
+3. What percentage of Europe's population died? Answer: 30% to 60%.
+4. What was the death toll in Eurasia? Answer: 75-200 million.
+5. What is the scientific name of the bacterium? Answer: Yersinia pestis.
+6. When did it peak in Europe? Answer: 1347-1351.
+7. What was the name of the plague in the 14th century? Answer: Black Death.
+8. How long did the plague last? Answer: Until the early 20th century.
+9. What is the name of the map showing spread? Answer: 1346-1353 spread of the Black Death in Europe map.
+10. Who wrote about the spread in England? Answer: Geoffrey the Baker.
+
+Wait, the examples had some answers that were a bit incomplete, like "século XVII" for when the population recovered. But in the context, it says Europe took 200 years, which would be until the 16th or 17th century. However, the example answer was "século XVII," but the context says "século XVII" might not be accurate. Wait, the context says "século XVII" in the example, but the actual text says "século XVII" as the answer. However, the user's example might have errors. I need to stick to the given context.
+
+Wait, the context says "século XVII" in the example, but the actual text says "século XVII" as the answer. However, the user's example might have errors. But I need to rely on the provided context.
+
+Another point: the fact mentions "ns1:reason" as "até o século" which is "until the century." But the exact answer would need to be from the context. The context says "recorreu como surtos até o início do século XX." So the answer would be "século XX."
+
+Wait, the user's example had "século" as the answer, but the correct answer from the context is "século XX." So I need to check that.
+
+Also, the example question "Por quanto tempo a praga permaneceu?" has the answer "até o século," but the context says "até o início do século XX," so the answer should be "século XX."
+
+But the user's example might have simplified it. However, the user's instructions say to use the context and facts. So I need to make sure the answers are accurate.
+
+So, for the question "Por quanto tempo a praga permaneceu?", the answer is "até o início do século XX" or "século XX."
+
+Another point: the facts mention "ns1:location" as "Eurasia," so a question could be "Onde a peste negra teve seu maior impacto?" Answer: "na Europa."
+
+Also, the quote from Geoffrey the Baker mentions the spread in England, so a question could be "Quem descreveu a propagação da peste na Inglaterra?" Answer: "Geoffrey the Baker."
+
+But the user's examples had some answers that were not complete, like "século XVII" but the actual text says "século XVII" might not be correct. However, the user's example had that, so perhaps that's acceptable.
+
+I need to ensure that each answer is directly from the context or facts. Let me go through the context again.
+
+The context states:
+
+- "século XVII." in the example, but the actual text says "século XVII" as the answer. However, the original context says "século XVII" is the answer for when the population recovered. But the context says "século XVII" but the actual text says "século XVII" might not be accurate. Wait, the user's example answer for that question is "século XVII," but the context says "século XVII" as the answer. However, the user's example might have a mistake. I need to check the context again.
+
+Looking at the user's context: "a população europeia finalmente se recuperou da morte negra?" The answer in the example is "século XVII." But the context says "século XVII" is the answer. However, the actual historical context is that the recovery took until the 17th century, but the user's example might have that as the answer. So I'll go with that.
+
+Another point: the facts include "ns1:name" as "Black Death," so a question could be "Qual o nome científico da praga?" Answer: "Yersinia pestis." But the context says "Yersinia pestis" is the cause.
+
+Another question: "Quais são os nomes das formas da doença?" Answer: "bubônica, pneumônica e septicêmica."
+
+But the context says "Yersinia pestis, que tem diferentes formas." So the answer would be "bubônica, pneumônica e septicêmica."
+
+Also, the fact mentions "ns1:reason" as "até o século" but the actual text says "até o início do século XX."
+
+So I need to structure the questions and answers accurately based on the provided context and facts.
+</think>
+
+[
+  {
+    "pergunta": "De onde se originou a Peste Negra?",
+    "resposta": "nas planícies da Ásia Central."
+  },
+  {
+    "pergunta": "Como a Peste Negra chegou à Europa?",
+    "resposta": "por meio de ratos e pulgas em navios mercantes."
+  },
+  {
+    "pergunta": "Qual é o nome científico da bactéria causadora da Peste Negra?",
+    "resposta": "Yersinia pestis."
+  },
+  {
+    "pergunta": "Quantos anos a Peste Negra permaneceu ativa?",
+    "resposta": "até o início do século XX."
+  },
+  {
+    "pergunta": "Qual foi o impacto da Peste Negra na população europeia?",
+    "resposta": "mata 30 a 60% da população total."
+  },
+  {
+    "pergunta": "Quando a Peste Negra teve seu pico na Europa?",
+    "resposta": "entre 1347 e 1351."
+  },
+  {
+    "pergunta": "Como a Peste Negra se espalhou pelo Mediterrâneo?",
+    "resposta": "pelas rotas comerciais da Rota da Seda."
+  },
+  {
+    "pergunta": "Quais são as formas da doença causada pela Yersinia pestis?",
+    "resposta": "bubônica, pneumônica e septicêmica."
+  },
+  {
+    "pergunta": "Quem descreveu a propagação da Peste Negra na Inglaterra?",
+    "resposta": "Geoffrey the Baker."
+  },
+  {
+    "pergunta": "Qual foi o número estimado de mortes na Ásia durante a Peste Negra?",
+    "resposta": "75 a 200 milhões de pessoas."
+  }
+]

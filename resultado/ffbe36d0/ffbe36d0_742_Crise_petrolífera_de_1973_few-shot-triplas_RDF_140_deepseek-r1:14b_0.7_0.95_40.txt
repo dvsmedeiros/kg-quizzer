@@ -1,0 +1,84 @@
+<think>
+Okay, so I've got a user asking me to generate 10 question-answer pairs based on the context provided about the 1973 oil crisis. They want it in JSON format without any extra text, just the questions and answers.
+
+First, I need to parse the given content carefully. The main points are: the crisis started in October 1973 by OPAEP against countries supporting Israel during Yom Kippur War. Countries affected were USA, UK, Japan, Canada, Netherlands, later Portugal, Rhodesia, South Africa. Oil prices went up from $3 to $12 per barrel, with higher prices in the US. The embargo ended in March 1974, leading to the first oil shock, followed by 1979.
+
+I should create varied questions covering different aspects: when it started, who was involved, which countries were targeted, economic impact, duration, comparison with other crises, and related terms.
+
+Let me list out possible questions. For example:
+
+- When did it start? October 1973.
+- Which organization declared the embargo? OPAEP (Arab Oil Exporting Countries).
+- What was the purpose of the embargo? Retaliation against support for Israel.
+- Which countries were targeted initially?
+- How much did oil prices increase?
+- What was another name for this crisis?
+- When did the embargo end?
+- Did other crises happen after this? Yes, 1979.
+
+I need to ensure each question is unique and covers different angles. Also, make sure that the answers are directly from the provided content without adding any external info.
+
+Wait, the user also included some example pairs which might help in structuring similar questions but not repeating them. I should avoid duplication and cover all aspects mentioned in the context.
+
+I think 10 is manageable. Let me map out each pair:
+
+1. When did it begin? October 1973.
+2. Who declared embargo? OPAEP members.
+3. What was the price increase? From $3 to $12.
+4. Which countries were targeted first? Canada, Japan, Netherlands, UK, USA.
+5. How long did it last? 6 months (October 1973 to March 1974).
+6. Why did OPAEP do this? Support for Israel in Yom Kippur War.
+7. What was the nickname? First oil shock.
+8. What happened after lifting embargo? Prices stabilized but remained high.
+9. Which countries were affected later? Portugal, Rhodesia, South Africa.
+10. How many shocks? Two (1973 and 1979).
+
+That should cover all necessary points without overlapping. Now, I'll structure these into the required JSON format, ensuring each is a separate object within an array.
+
+Also, double-checking that each answer is accurate based on the provided context to avoid any mistakes.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em qual mês começou a crise petrolífera de 1973?",
+    "resposta": "outubro"
+  },
+  {
+    "pergunta": "Qual foi o objetivo do embargo declarado pelos membros da OPAEP?",
+    "resposta": "retaliação contra os países que apoiavam Israel"
+  },
+  {
+    "pergunta": "Quais foram as consequências econômicas imediatas do embargo?",
+    "resposta": "aumento significativo no preço do petróleo, de US$ 3 para US$ 12 por barril"
+  },
+  {
+    "pergunta": "Qual foi o nome dado a essa crise petrolífera?",
+    "resposta": "primeiro choque do petróleo"
+  },
+  {
+    "pergunta": "Quais países foram inicialmente afetados pelo embargo?",
+    "resposta": "Canadá, Japão, Holanda, Reino Unido e Estados Unidos"
+  },
+  {
+    "pergunta": "Em que ano o embargo foi levantado?",
+    "resposta": "1974"
+  },
+  {
+    "pergunta": "Qual foi a consequência política do embargo petrolífero?",
+    "resposta": "aumento da dependência energética e crise econômica global"
+  },
+  {
+    "pergunta": "Quais foram os países que mais sofreram com o aumento dos preços do petróleo?",
+    "resposta": "Estados Unidos, Reino Unido e outros importadores dependentes"
+  },
+  {
+    "pergunta": "Qual foi a duração do embargo petrolífero?",
+    "resposta": "cerca de seis meses, de outubro de 1973 a março de 1974"
+  },
+  {
+    "pergunta": "O que aconteceu com os preços do petróleo após o levantamento do embargo?",
+    "resposta": "os preços se estabilizaram, mas continuaram altos"
+  }
+]
+```

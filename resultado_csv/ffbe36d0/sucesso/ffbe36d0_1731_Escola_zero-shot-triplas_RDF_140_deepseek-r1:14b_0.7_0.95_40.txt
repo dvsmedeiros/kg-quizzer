@@ -1,0 +1,72 @@
+<think>
+Okay, so I need to figure out how to generate these 10 pairs of questions and answers based on the data provided. The data is a list of URLs from DBpedia, each pointing to a page about a private school. Each line starts with "Você é um..." which seems like it's part of a question in Portuguese, but then switches to English for the rest. 
+
+Looking at the examples given:
+
+1. **Pergunta:** Qual é o tipo de instituição do The Lamplighter School?  
+   **Resposta:** Escola particular.
+
+2. **Pergunta:** Qual é o tipo de instituição do The Leffell School?  
+   **Resposta:** Escola particular.
+
+I notice that the questions are asking about the type of institution, specifically if it's a private school, and the answers confirm that it is. 
+
+So, my task is to take each DBpedia URL provided and create a similar question-answer pair in Portuguese, where the question asks about the type of institution (if it's a private school) and the answer confirms that.
+
+I should make sure that each question starts with "Qual é o tipo de instituição do..." followed by the name of the school. The answer should always be "Escola particular." Since all these URLs are about private schools, the answer is consistent.
+
+Let me list out the steps:
+
+1. For each URL in the data:
+   a. Extract the name of the school.
+   b. Formulate the question as "Qual é o tipo de instituição do [Nome da Escola]?"
+   c. The answer will always be "Escola particular."
+
+I need to ensure that the names of the schools are correctly extracted from each URL and properly translated if necessary. Also, I should check for any inconsistencies or variations in the school names.
+
+Let me go through a few examples to make sure:
+
+- **USC Davis School of Gerontology** becomes "Qual é o tipo de instituição do USC Davis School of Gerontology?" with answer "Escola particular."
+- **University of Medical Sciences and Technology** becomes "... Universidade de Medicina e Tecnologia..." Wait, the URL is in Portuguese? No, looking back, all the URLs are in Portuguese except for the school names. So I need to see if the school names are already in Portuguese or in English.
+
+Wait, actually, the DBpedia URLs provided have school names that may be in English but linked from a Portuguese page. For example, "USC_Davis_School_of_Gerontology" is in English, so when creating the question, it should remain as such unless there's a Portuguese equivalent.
+
+Hmm, perhaps I can just use the name as it appears in the URL, which may be in English. So the questions will have the school names in their original form, but in Portuguese for the rest of the sentence.
+
+So, for each entry:
+
+- The question starts with "Qual é o tipo de instituição do" followed by the school's name (as per the URL), then "?".
+- The answer is always "Escola particular."
+
+I should make sure there are no typos and that all pairs follow this structure. Let me start crafting them one by one, making sure each pair is correctly formed.
+</think>
+
+1. **Pergunta:** Qual é o tipo de instituição do University of Medical Sciences and Technology?  
+   **Resposta:** Escola particular.
+
+2. **Pergunta:** Qual é o tipo de instituição do Washington University School of Medicine?  
+   **Resposta:** Escola particular.
+
+3. **Pergunta:** Qual é o tipo de instituição do USC Davis School of Gerontology?  
+   **Resposta:** Escola particular.
+
+4. **Pergunta:** Qual é o tipo de instituição do Thomas Jefferson School (St. Louis, Missouri)?  
+   **Resposta:** Escola particular.
+
+5. **Pergunta:** Qual é o tipo de instituição do Timothy Christian School (New Jersey)?  
+   **Resposta:** Escola particular.
+
+6. **Pergunta:** Qual é o tipo de instituição do Westfield Friends School?  
+   **Resposta:** Escola particular.
+
+7. **Pergunta:** Qual é o tipo de instituição do Westminster School (Oklahoma)?  
+   **Resposta:** Escola particular.
+
+8. **Pergunta:** Qual é o tipo de instituição do Xavier High School (New York City)?  
+   **Resposta:** Escola particular.
+
+9. **Pergunta:** Qual é o tipo de instituição do Yaeil Theological Seminary?  
+   **Resposta:** Escola particular.
+
+10. **Pergunta:** Qual é o tipo de instituição do Yeogang High School?  
+    **Resposta:** Escola particular.

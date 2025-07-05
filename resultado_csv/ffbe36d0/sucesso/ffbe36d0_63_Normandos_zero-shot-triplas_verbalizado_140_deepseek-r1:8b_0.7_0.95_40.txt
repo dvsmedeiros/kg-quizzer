@@ -1,0 +1,80 @@
+<think>
+Ok, eu preciso ajudar o usuário a gerar 10 pares de perguntas e respostas baseadas no contexto fornecido sobre os Normandos. Primeiro, vou analisar o conteúdo para identificar os fatos importantes que podem ser transformados em perguntas.
+
+O contexto informa que os Normandos eram um povo germânico estabelecido na França, com influências vikíngues. Eles tiveram papel político, militar e cultural em various parts of Europe and the Middle East, like a colonização da Normandia, a Conquista da Inglaterra, o estabelecimento no sul da Itália e nas Cruzadas.
+
+Os fatos fornecidos incluem informações sobre a relação dos Normandos com outros povos, como os franks, gallo-romans, etc. Há também mencionado a linguagem que usavam, o Old Norse, e a arquitetura que seguiriam, como castelos motte-and-bailey.
+
+Para gerar perguntas, preciso cobrir diferentes aspectos do conteúdo: história, etnia, influências culturais, conquistas militares, impacto em regiões específicas, etc. Cada pergunta deve ser única e abordar um aspecto diferente.
+
+Começo listando possíveis perguntas:
+
+1. Qual foi a origem étnica dos Normandos?
+2. Quais povos foram influenciados por eles durante suas conquistas?
+3. Em qual idioma os Normandos falavam?
+4. Qual foi o papel dos Normandos nas Cruzadas?
+5. Quais construções arquitetônicas foram feitas pelos Normandos?
+6. Que região da França foi colonizada por eles?
+7. Qual foi a relação entre os Normandos e os franks?
+8. Quem foi o principal líder na Conquista normanda da Inglaterra?
+9. Em que região italiana os Normandos estabeleceram um estado?
+10. Qual foi a religion dos Normandos?
+
+Agora, verifico se cada pergunta é relevante e tem uma única resposta correta baseada no contexto.
+
+Por exemplo:
+
+- Pergunta 1: Origem étnica dos Normandos é germânica.
+- Pergunta 2: Eles influenciaram povos como os franks, gallo-romans e outros.
+- Pergunta 3: Falam Old Norse.
+- etc.
+
+Preciso garantir que as respostas estejam claras e não repitam perguntas semelhantes. Vou elaborar cada par, verificando se estão cobertos diferentes aspectos do conteúdo.
+
+Finalmente, organizo tudo em JSON conforme a estrutura solicitada.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi a origem étnica dos Normandos?",
+    "resposta": "Os Normandos eram um povo germânico."
+  },
+  {
+    "pergunta": "Quais povos foram influenciados por eles durante suas conquistas?",
+    "resposta": "Eles influenciaram muitos povos, incluindo os franks, gallo-romans e outros grupos na Europa e no Oriente Médio."
+  },
+  {
+    "pergunta": "Em qual idioma os Normandos falavam?",
+    "resposta": "Os Normandos falavam o idioma Old Norse."
+  },
+  {
+    "pergunta": "Qual foi o papel dos Normandos nas Cruzadas?",
+    "resposta": "Eles desempenharam um papel importante na organização e na realização das Cruzadas, ajudando a unir forças entre os estados da Europa."
+  },
+  {
+    "pergunta": "Quais construções arquitetônicas foram feitas pelos Normandos?",
+    "resposta": "Eles construíram castelos de motte-and-bailey, como o Castelo de Dinan, que podem ser vistos na Bayeux Tapestry."
+  },
+  {
+    "pergunta": "Que região da França foi colonizada por eles?",
+    "resposta": "A Normandia foi colonizada pelos Normandos."
+  },
+  {
+    "pergunta": "Qual foi a relação entre os Normandos e os franks?",
+    "resposta": "Os Normandos combatiam os franks, como no cerco de Paris em 921."
+  },
+  {
+    "pergunta": "Quem foi o principal líder na Conquista normanda da Inglaterra?",
+    "resposta": "Ducado de Guilherme de Normandia foi o principal líder."
+  },
+  {
+    "pergunta": "Em que região italiana os Normandos estabeleceram um estado?",
+    "resposta": "Eles estabeleceram um estado na Sicília e no sul da península Itálica."
+  },
+  {
+    "pergunta": "Qual foi a religião dos Normandos?",
+    "resposta": "Os Normandos seguiam o paganismo Norse."
+  }
+]
+```

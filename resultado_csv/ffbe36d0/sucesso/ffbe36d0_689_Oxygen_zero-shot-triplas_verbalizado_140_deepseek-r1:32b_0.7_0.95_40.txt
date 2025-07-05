@@ -1,0 +1,103 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about oxygen. Let me start by reading through the context carefully.
+
+The context talks about oxygen being a chemical element with atomic number 8, symbol O, and it's part of the chalcogens group. It's highly electronegative, second only to fluorine. Oxygen is essential for life, making up about 20.8% of Earth's atmosphere. Historically, it was discovered by Scheele and Priestley, with Lavoisier naming it.
+
+Now, looking at the facts provided, they include things like the category "oxidizing agents," images related to oxygen, models used on wiki pages, books associated, and other relevant information. I should use this to create varied questions covering different aspects.
+
+I'll start by identifying key points from both the context and the facts:
+
+1. **Discovery**: Scheele and Priestley discovered oxygen.
+2. **Name Origin**: From Greek "oxys" (acid) and "gonos" (producer).
+3. **Chemical Properties**: Atomic number 8, symbol O, part of chalcogens.
+4. **Abundance**: Third most abundant element in the universe, most in Earth's crust as oxides.
+5. **Atmospheric Presence**: 20.8% as O₂.
+6. **Importance for Life**: Used in cellular respiration, part of major organic molecules.
+7. **Applications**: Various industrial uses, medical, rocket propulsion.
+8. **Environmental Impact**: Decreasing atmospheric levels due to fossil fuel emissions.
+9. **Ozone Layer**: Protects from UV radiation but is a pollutant at ground level.
+10. **Historical Figures**: Scheele (1773), Priestley (1774), Lavoisier (named it in 1777).
+
+Now, I'll formulate questions around these points, ensuring each question has a clear, correct answer from the provided information.
+
+I should make sure not to repeat similar questions and cover different aspects. Let me draft the questions:
+
+1. **Who were the two scientists who independently discovered oxygen?**
+   - Answer: Carl Wilhelm Scheele e Joseph Priestley.
+
+2. **What is the origin of the name "oxigénio"?**
+   - From Greek words meaning "acid" and "producer".
+
+3. **Which group does oxigénio belong to in the periodic table?**
+   - Chalcogens.
+
+4. **How much of Earth's atmosphere is composed of oxigénio?**
+   - 20,8%.
+
+5. **Why is oxigénio fundamental for life on Earth?**
+   - Essential for cellular respiration and part of major organic molecules.
+
+6. **What is causing the decrease in atmospheric oxigénio levels?**
+   - Fossil fuel emissions.
+
+7. **How does ozone affect UV radiation?**
+   - Absorbs it, protecting biosphere but harmful at ground level.
+
+8. **Who named oxigénio and when?**
+   - Antoine Lavoisier in 1777.
+
+9. **What percentage of Earth's crust is oxigénio?**
+   - About 50% as part of oxides.
+
+10. **Which industries use oxigénio extensively?**
+    - Steel production, chemicals, welding, aerospace.
+
+Wait, I need to ensure each answer is directly from the context. Let me check each point against the provided content.
+
+Yes, all these points are covered in either the context or facts. Now, I can structure them into JSON format as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quais são os dois cientistas que descobriram o oxigénio de forma independente?",
+    "resposta": "Carl Wilhelm Scheele e Joseph Priestley"
+  },
+  {
+    "pergunta": "De onde surge o nome 'oxigénio'?",
+    "resposta": "Do grego ὀξύς («ácido») e γόνος (-gonos) («produtor»)"
+  },
+  {
+    "pergunta": "A qual grupo químico pertence o oxigénio?",
+    "resposta": "Os calcogénios"
+  },
+  {
+    "pergunta": "Qual a proporção do oxigénio na atmosfera terrestre?",
+    "resposta": "20,8%"
+  },
+  {
+    "pergunta": "Por que motivo o oxigénio é fundamental para a vida na Terra?",
+    "resposta": "É essencial para a respiração celular e faz parte de moléculas orgânicas"
+  },
+  {
+    "pergunta": "Qual fator está causando a diminuição do oxigénio atmosférico global?",
+    "resposta": "Emissões provenientes da queima de combustíveis fósseis"
+  },
+  {
+    "pergunta": "Como o ozono se relaciona com a radiação ultravioleta?",
+    "resposta": "Absorve-a, protegendo a biosfera, mas é contaminante no solo"
+  },
+  {
+    "pergunta": "Quem cunhou o nome 'oxigénio' e em que ano?",
+    "resposta": "Antoine Lavoisier, em 1777"
+  },
+  {
+    "pergunta": "Qual a porcentagem de oxigénio na crosta terrestre?",
+    "resposta": "Cerca de metade da massa, como compostos óxidos"
+  },
+  {
+    "pergunta": "Quais são algumas das aplicações industriais do oxigénio?",
+    "resposta": "Produção de aço, plásticos, soldadura e propelentes para foguetes"
+  }
+]
+```

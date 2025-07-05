@@ -1,0 +1,90 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about the Normans. Let me start by understanding the context and the facts given.
+
+The context mentions that the Normans were a Germanic people from northern France, with aristocracy from Vikings. They played significant roles in medieval Europe, including the Conquest of England, Sicily, and the Crusades. Their history led to many legends. The facts provided are in RDF format, which I need to parse to extract relevant information.
+
+Looking at the facts, there are several entries. For example, the Normans are related to battles like the Battle of Cerami, Civitate, etc. There are also mentions of their language (Latin, Old Norman, Old Norse), religion (Christianity, Norse paganism), and their involvement in architecture (Norman architectural style). Also, there's information about their ethnic groups, like the Hauteville family, and their connections to places like Taunton Castle and Waytemore Castle.
+
+Now, I need to create 10 unique questions that cover different aspects. Let me list possible areas:
+
+1. Origin of the Normans (germanic, Viking descent)
+2. Meaning of the term "Norman"
+3. Key historical events (Conquest of England, Sicily)
+4. Battles they were involved in
+5. Languages spoken by Normans
+6. Religious practices
+7. Architectural style (Norman architecture)
+8. Ethnic groups associated with Normans
+9. Notable individuals (like Richard of Salerno)
+10. Their role in the Crusades
+
+Wait, the context also mentions the Siege of Mahdia in 1159-1160, which is part of the Crusades. Also, the Normans are linked to specific castles and battles. Let me make sure each question is distinct and based on the facts provided.
+
+For example, one question could be about their origin, another about the term "Norman", another about their language, etc. I need to ensure that each answer is directly inferable from the facts given. Let me check each fact to see which can be turned into a question.
+
+Looking at the facts, there's a mention of the Normans being related to the Battle of Cerami, Civitate, etc. So questions about battles they participated in. Also, their languages include Latin, Old Norman, and Old Norse. Their religion includes Christianity and Norse paganism. 
+
+Another fact is that the Normans are associated with the Hauteville family and the Lyons family as ethnic groups. Also, their architectural style is mentioned in the context of churches like St Bride's and St Mary's. 
+
+I should avoid repeating similar questions. For example, if I have a question about their origin, another about their ethnic groups. Also, the fact that they are called "Northmen" or Norsemen. 
+
+Let me structure each question and answer pair:
+
+1. Pergunta sobre a origem dos Normandos.
+2. Pergunta sobre o significado do termo "Normano".
+3. Pergunta sobre os eventos históricos importantes.
+4. Pergunta sobre as batalhas em que participaram.
+5. Pergunta sobre os idiomas falados.
+6. Pergunta sobre suas práticas religiosas.
+7. Pergunta sobre o estilo arquitetônico.
+8. Pergunta sobre grupos étnicos associados.
+9. Pergunta sobre uma figura específica (como Richard of Salerno).
+10. Pergunta sobre sua participação nas Cruzadas.
+
+Now, I need to ensure each answer is correct and directly from the facts. For example, the answer to the battle question should mention specific battles listed in the facts. The answer about languages should list Latin, Old Norman, Old Norse. The answer about religion should include both Christianity and Norse paganism. 
+
+I need to check that all answers are accurate based on the provided facts and that the questions are varied and not repetitive. Let me make sure each question is unique and covers different aspects. Once that's done, I can format them into the required JSON structure.
+</think>
+
+[
+  {
+    "pergunta": "De onde os Normandos originaram-se?",
+    "resposta": "Do norte da França, com uma aristocracia descendente de vikings da Escandinávia."
+  },
+  {
+    "pergunta": "Qual é a origem do termo 'Normano'?",
+    "resposta": "Deriva de 'Northmen' ou 'Norsemen', que significa 'homens do Norte'."
+  },
+  {
+    "pergunta": "Quais foram algumas das conquistas políticas e culturais dos Normandos?",
+    "resposta": "Colonização da Normandia, Conquista Normanda da Inglaterra, estabelecimento de estados na Sicília e sul da península Itálica, participação nas Cruzadas."
+  },
+  {
+    "pergunta": "Quais batalhas os Normandos participaram de acordo com os fatos?",
+    "resposta": "Batalhas de Cerami, Civitate, Misilmeri, Montepeloso, Northam, Olivento e Soissons (923)."
+  },
+  {
+    "pergunta": "Quais idiomas os Normandos falavam?",
+    "resposta": "Latim, Normando Antigo e Nórdico Antigo."
+  },
+  {
+    "pergunta": "Quais práticas religiosas os Normandos seguiam?",
+    "resposta": "Christianismo e paganismo nórdico."
+  },
+  {
+    "pergunta": "Qual estilo arquitetônico está associado aos Normandos?",
+    "resposta": "Estilo arquitetônico Norman, observado em construções como igrejas de St Bride e St Mary."
+  },
+  {
+    "pergunta": "Quais grupos étnicos estão associados aos Normandos?",
+    "resposta": "Família Hauteville e família Lyons."
+  },
+  {
+    "pergunta": "Qual figura específica é mencionada como relacionada aos Normandos?",
+    "resposta": "Richard de Salerno."
+  },
+  {
+    "pergunta": "Quais eventos históricos estão ligados à participação dos Normandos?",
+    "resposta": "Cruzadas, incluindo o cerco de Mahdia (1159-1160)."
+  }
+]

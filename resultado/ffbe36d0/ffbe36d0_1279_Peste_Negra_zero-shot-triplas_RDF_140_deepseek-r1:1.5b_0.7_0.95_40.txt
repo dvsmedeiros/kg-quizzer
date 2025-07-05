@@ -1,0 +1,73 @@
+<think>
+Okay, let me try to figure out how to approach this problem. The user wants me to generate exactly 10 pairs of questions and answers based on the given context and facts. Each question should be relevant, and each answer must be correct with no additional info.
+
+First, I'll read through the context carefully. It's about the Black Death pandemic, its spread in Europe, Middle East, and other regions. The facts provided include details like the date, location, number of deaths, direction, reason, etc. I need to extract information from these facts to form questions and answers.
+
+I should consider different aspects of the Black Death to create a variety of questions. Topics could include its causes, effects on various regions, statistics about its spread, and perhaps some cultural impacts or historical references.
+
+Let me start brainstorming possible questions:
+
+1. When did the Black Death occur? - This is directly from the facts.
+2. How was it transmitted in Europe? - Fact mentions vectors like Yersinia pestis.
+3. Who were the main reasons for its spread? - The facts specify bubonic plague and other factors.
+4. How many people died by 1500? - Given as 7,500,000.
+5. Where was it most severe in Europe? - Dorsetshire.
+6. What's the direction of the spread? - Horizontally, per the fact.
+7. Why did it stop after Gloucester? - Because there were no more inhabitants left.
+8. How many deaths were there globally by 1345? - Approximate 2 million from facts.
+9. Who was the reason for its spread in Middle East? - Fact mentions fleas and vectors.
+10. What's the date of the spread? - From facts, it's around 1346.
+
+Now, I'll structure these into questions with appropriate responses. Each response should be concise and directly answer the question without adding extra information beyond what is provided in the context or facts.
+
+I need to ensure that each pair has one question and one answer, covering different time periods (early 14th century, later), regions, statistics, causes, effects, reasons, duration, impact on global populations. This variety will meet the user's request for a comprehensive set of questions.
+
+Let me check each response against the facts to make sure they are accurate. For example, the first question about when it occurred is correctly answered as 1346. The second question about transmission in Europe uses Yersinia pestis and fleas, which aligns with the facts. Similarly, I'll verify that the responses match what's given or can be inferred from the context.
+
+Finally, I'll compile these into a JSON format as specified, ensuring each entry has "pergunta" and "resposta" keys.
+</think>
+
+```json
+[
+    {
+      "pergunta": "When did the Black Death occur?",
+      "resposta": "The Black Death occurred in the early 14th century."
+    },
+    {
+      "pergunta": "How was it transmitted in Europe?",
+      "resposta": "By fleas carrying Yersinia pestis, which are vectorized by the Yersinia pestis bacterium and can spread through blood in uninfected hosts."
+    },
+    {
+      "pergunta": "What is the main reason for its spread?",
+      "resposta": "The bubonic plague is the primary cause of the Black Death, along with environmental factors such as poor sanitation and reduced hygiene practices."
+    },
+    {
+      "pergunta": "How many people died by 1500?",
+      "resposta": "Approximately 7.5 million people died by the time of the pandemic."
+    },
+    {
+      "pergunta": "Where was it most severe in Europe?",
+      "resposta": "In Dorsetshire during the later part of the 14th century."
+    },
+    {
+      "pergunta": "What is the direction of its spread?",
+      "resposta": "The disease spreads horizontally, as it moves along the ground and through blood."
+    },
+    {
+      "pergunta": "Why did it stop after Gloucester?",
+      "resposta": "By the time there were no more people left in Gloucester to sustain the pandemic, the plague of England was over."
+    },
+    {
+      "pergunta": "How many deaths were there globally by 1345?",
+      "resposta": "Approximately two million people died from the Black Death globally during this period."
+    },
+    {
+      "pergunta": "Who was responsible for its spread in the Middle East?",
+      "resposta": "The fleas, which are vectorsized and can be transmitted through contact with Yersinia pestis, were introduced to the Middle East by fleas from Europe."
+    },
+    {
+      "pergunta": "What is the date of its spread?",
+      "resposta": "The Black Death began in 1346 and spread globally by the late 1350s."
+    }
+]
+```

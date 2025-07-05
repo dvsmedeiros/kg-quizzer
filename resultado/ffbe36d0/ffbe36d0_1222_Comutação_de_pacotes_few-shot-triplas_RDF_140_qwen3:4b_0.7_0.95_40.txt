@@ -1,0 +1,71 @@
+<think>
+Okay, the user wants me to generate 10 objective questions and answers based on the provided context about packet switching in computer networks. Let me start by carefully reading the context again to make sure I understand all the key points.
+
+The context explains that packet switching is a method where data is sent in individual packets, contrasting with circuit switching. It mentions that packet switching optimizes bandwidth, reduces latency, and increases robustness. There are two types: connection-oriented (like ATM, Frame Relay) and connectionless (like IP). Also, some facts are given about people associated with packet switching, like Donald Davies and Paul Baran.
+
+I need to create questions that cover different aspects. Let me list possible topics: definition of packet switching, comparison with circuit switching, types of packet switching, examples of each type, key figures involved, benefits of packet switching, and maybe some specific terms or concepts mentioned.
+
+Wait, the user provided examples, so I should avoid repeating those. The examples include questions about Paul Baran, Donald Davies, the types of packet switching, and their benefits. I need to make sure my questions are unique and cover different angles.
+
+Let me think of 10 different aspects. For example:
+
+1. What is packet switching?
+2. What is the main difference between packet switching and circuit switching?
+3. What are the two types of packet switching?
+4. What is an example of a connection-oriented packet switching method?
+5. What is an example of a connectionless packet switching method?
+6. Who is credited with modern packet switching terminology?
+7. What is a benefit of packet switching?
+8. What is the advantage of connection-oriented packet switching?
+9. What is the disadvantage of connectionless packet switching?
+10. What is the main advantage of packet switching over circuit switching?
+
+Now, I need to check if these questions are based on the given context. The context mentions that packet switching uses statistical time-division multiplexing, optimizes bandwidth, reduces latency, and is more complex with varying service quality. The two types are connection-oriented (circuit virtual) and connectionless (datagram). Examples given are ATM, Frame Relay, X.25 for connection-oriented, and IP for connectionless.
+
+Also, the facts mention Donald Davies is credited with the modern term and Paul Baran developed the concept. So, the questions should reference these.
+
+I need to make sure the answers are correct and directly from the context. Let me draft each question and answer now, ensuring they are unique and cover different aspects without overlapping with the examples provided.
+</think>
+
+[
+  {
+    "pergunta": "O que caracteriza a comutação de pacotes em relação à comutação de circuitos?",
+    "resposta": "A comutação de pacotes é caracterizada pela entrega individual de pacotes, enquanto a comutação de circuitos requer a estabelecimento de uma ligação virtual dedicada."
+  },
+  {
+    "pergunta": "Quais são os dois principais tipos de comutação de pacotes?",
+    "resposta": "Os dois principais tipos são: com ligação (circuito virtual) e sem ligação (datagrama)."
+  },
+  {
+    "pergunta": "O que é um exemplo de tecnologia de comutação de pacotes com ligação?",
+    "resposta": "Exemplos incluem ATM (comutação de células), Frame Relay e X.25."
+  },
+  {
+    "pergunta": "Qual é a principal vantagem da comutação de pacotes em termos de uso da banda?",
+    "resposta": "A comutação de pacotes permite um uso mais eficiente da largura de banda da rede por meio de técnicas de multiplexagem temporal estatística."
+  },
+  {
+    "pergunta": "O que caracteriza a comutação de pacotes sem ligação?",
+    "resposta": "A comutação de pacotes sem ligação permite que os pacotes sejam encaminhados independentemente, com flexibilidade e robustez, mas sem garantia de entrega ordenada."
+  },
+  {
+    "pergunta": "Quem é creditado por cunhar o nome moderno de comutação de pacotes?",
+    "resposta": "Donald Davies é creditado por cunhar o nome moderno de comutação de pacotes e inspirar várias redes de comutação de pacotes na Europa."
+  },
+  {
+    "pergunta": "O que é um exemplo de tecnologia de comutação de pacotes sem ligação?",
+    "resposta": "Exemplo é o endereço IP, que utiliza a comutação de pacotes sem ligação."
+  },
+  {
+    "pergunta": "Qual é uma desvantagem da comutação de pacotes em comparação com a comutação de circuitos?",
+    "resposta": "A comutação de pacotes apresenta variação na qualidade de serviço, introduzindo jitter e atrasos, enquanto a comutação de circuitos oferece garantia de entrega e ordem."
+  },
+  {
+    "pergunta": "O que é a comutação de pacotes com ligação?",
+    "resposta": "A comutação de pacotes com ligação estabelece um caminho virtual fixo para todos os pacotes, garantindo entrega ordenada e confiável."
+  },
+  {
+    "pergunta": "Qual é a principal função da comutação de pacotes em redes de comunicação?",
+    "resposta": "A comutação de pacotes permite a transferência eficiente de dados entre nós da rede, adaptando-se às condições de tráfego e otimizando o uso da largura de banda."
+  }
+]

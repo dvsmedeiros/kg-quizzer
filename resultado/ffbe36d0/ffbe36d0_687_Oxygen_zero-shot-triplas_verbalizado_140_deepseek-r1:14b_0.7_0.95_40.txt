@@ -1,0 +1,73 @@
+<think>
+Okay, so I need to generate 10 pairs of questions and answers based on the provided context about oxygen. The user has given a detailed description of oxygen, including its properties, history, and applications. They also included some facts that might be relevant.
+
+First, I should read through the context thoroughly to understand all the key points. Oxygen is element number 8 with symbol O, atomic mass 16 u. It's in group 16 (calcogénios), highly electronegative, second only to fluorine. It makes up about half of the Earth's crust mass as part of oxides. Under normal conditions, it forms O2 gas, which is 20.8% of the atmosphere and essential for life.
+
+Oxygen was discovered by Carl Wilhelm Scheele and Joseph Priestley, with Priestley getting more credit because his work was published first. Antoine Lavoisier named it and disproved the phlogiston theory. The name comes from Greek words meaning "acid" and "producer," as they thought all acids needed oxygen.
+
+Applications include use in combustion engines, steel production, plastics, textiles, industrial cutting and welding, rocket propellants, medical uses like hyperbaric therapy, and life support systems. It's also used in photosynthesis by plants to produce O2.
+
+Looking at the facts provided, there are mentions of companies (Inox Air Products, BOC Kenya) that have oxygen as a product, various Wikipedia templates used, categories it belongs to, images associated with it, and other scientific details like its atomic structure and reactions.
+
+I need to create varied questions covering different aspects. Let's brainstorm possible topics: discovery, properties, uses, history, chemical behavior, atmospheric role, health effects, and scientific models.
+
+1. Discovery and Credit: Who discovered oxygen and why is Priestley given priority?
+2. Chemical Structure: What is the molecular form of O2 under normal conditions?
+3. Element Grouping: Oxygen belongs to which group in the periodic table?
+4. Applications: Which industry uses liquid oxygen for cutting metals?
+5. Historical Naming: Why was oxygen named as such historically?
+6. Atmospheric Role: What percentage does O2 make up in Earth's atmosphere?
+7. Reactivity: How does oxygen compare in electronegativity among elements?
+8. Health Impact: What happens if there's too much oxygen in tissues (oxygen toxicity)?
+9. Historical Figure: Who else besides Priestley and Scheele contributed to understanding oxygen?
+10. Use in Space: Where is oxygen used for life support systems?
+
+Wait, looking back, the user included facts about models on Wikipedia, which might not be necessary for the questions as they are more about page formatting. So perhaps focus on more general scientific aspects.
+
+I should make sure each question has a clear answer from the context and that there's no overlap in topics to ensure variety.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem descobriu o oxigénio e por que Joseph Priestley é creditado?",
+    "resposta": "Joseph Priestley é creditado por ter sido o primeiro a publicar os resultados, apesar de Carl Wilhelm Scheele também ter descoberto Independemente."
+  },
+  {
+    "pergunta": "Qual é a forma molecular do oxigénio em condições normais?",
+    "resposta": "O₂"
+  },
+  {
+    "pergunta": "Em qual grupo da tabela periódica o oxigénio se encontra?",
+    "resposta": "Grupo dos calcogénios (grande Grupo 16)"
+  },
+  {
+    "pergunta": "Qual indústria utiliza oxigénio líquido para corte de metais?",
+    "resposta": "Indústria metalúrgica"
+  },
+  {
+    "pergunta": "Por que o oxigénio recebeu seu nome?",
+    "resposta": "Devido à crença de que era um agente essencial na formação de ácidos."
+  },
+  {
+    "pergunta": "Qual porcentagem do ar terrestre é composta por oxigénio?",
+    "resposta": "20,8%"
+  },
+  {
+    "pergunta": "Qual posição o oxigénio ocupa em termos de eletronegatividade?",
+    "resposta": "Segunda posição, atrás apenas do flúor."
+  },
+  {
+    "pergunta": "O que é conhecido como toxicidade por oxigénio excessivo?",
+    "resposta": "Toxicidade do oxigénio"
+  },
+    {
+      "pergunta": "Qual outro cientista além de Priestley e Scheele contribuiu para a compreensão do oxigénio?",
+      "resposta": "Antoine Lavoisier"
+    },
+    {
+      "pergunta": "Onde o oxigénio é usado em sistemas de suporte à vida?",
+      "resposta": "Em aeronaves, submarinos e naves espaciais."
+    }
+]
+```

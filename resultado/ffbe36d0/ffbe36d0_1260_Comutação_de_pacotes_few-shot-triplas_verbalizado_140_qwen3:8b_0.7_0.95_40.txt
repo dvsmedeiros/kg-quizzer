@@ -1,0 +1,86 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts about packet switching. First, I need to understand the context thoroughly. The main topic is packet switching in computer networks, contrasting it with circuit switching. The facts mention various people like Paul Baran, Donald Davies, W. David Sincoskie, and Sharla Boehm associated with packet switching. There are also technical aspects like types of packet switching (with and without connection), examples like ATM, Frame Relay, IP, and some Wikipedia templates and categories.
+
+Now, I need to create 10 distinct questions. Each question should cover different aspects. Let me list possible angles: key contributors, types of packet switching, advantages over circuit switching, examples of protocols, historical context, technical terms like jitter, and the purpose of packet switching. Also, the facts mention URLs, images, and categories, so maybe include some about those.
+
+Wait, the examples in the user's prompt have questions about who developed what, the purpose, contrasts with circuit switching, etc. I should avoid repeating those but ensure the questions are varied. Let me check the facts again. There's mention of NSFNET-traffic-visualization-1991.jpg, Packet Switching.gif, and other images. Also, categories like Computer networking, Network protocols, etc. Maybe include a question about the categories or images associated with packet switching.
+
+Also, the facts list different types like ComputerNetwork103085333, Telecommunication106271778, etc. Maybe ask about the types or classifications. Also, the URL baran-list.html and other URLs. But the user might prefer questions about the technical aspects rather than URLs unless specified. Since the examples in the prompt focus more on the technical and historical aspects, I'll follow that.
+
+Let me start drafting the questions:
+
+1. Who is known for developing packet switching? (Answer: Paul Baran, Donald Davies, W. David Sincoskie, Sharla Boehm)
+But need to check the facts. The facts say Paul Baran is known for packet switching, same with others. So the answer would list those names.
+
+Wait, the user's examples have answers with specific details. For example, "Paul Baran desenvolveu o conceito Switching Adaptive Message Block". But in the provided context, the examples might not be accurate. Wait, the user's examples are just examples, not the actual answers based on the given context. So I need to base the answers strictly on the context and facts provided.
+
+Looking back, the context mentions that packet switching is used to optimize bandwidth, minimize latency, etc. The facts list various people associated with it, like Paul Baran, Donald Davies, W. David Sincoskie, Sharla Boehm. Also, the types: with connection (circuit virtual) and without (datagram). Examples include ATM, Frame Relay, IP.
+
+So possible questions:
+
+1. What is the main advantage of packet switching over circuit switching? (Answer: Optimizes bandwidth usage)
+2. What is packet switching used for? (Answer: To optimize bandwidth, minimize latency, and increase communication robustness)
+3. Which protocol is an example of connection-oriented packet switching? (Answer: ATM)
+4. What is the difference between connection-oriented and connectionless packet switching? (Answer: Connection-oriented uses a fixed virtual path, while connectionless sends packets independently)
+5. Who are the key contributors to packet switching? (Answer: Paul Baran, Donald Davies, W. David Sincoskie, Sharla Boehm)
+6. What is a disadvantage of packet switching compared to circuit switching? (Answer: Higher variation in quality of service, jitter, and delays)
+7. What is an example of a connectionless packet switching protocol? (Answer: IP)
+8. What is the purpose of packet switching? (Answer: To optimize bandwidth usage, minimize latency, and increase robustness)
+9. What are the two main types of packet switching? (Answer: With connection (circuit virtual) and without connection (datagram))
+10. What is the main characteristic of packet switching? (Answer: Individual packets are routed through shared links)
+
+Wait, but the user's examples include specific answers like "Paul Baran desenvolveu o conceito Switching Adaptive Message Block", which might not be present in the provided context. The context here doesn't mention "Switching Adaptive Message Block", so I need to avoid that. The facts mention that Paul Baran is known for packet switching, but the context explains the types and advantages.
+
+So, the answers should be based on the context and facts. Let me ensure each answer is directly inferable from the given content. For example, the context says packet switching is used to optimize bandwidth, minimize latency, and increase robustness. So question 1 could be "What is the main purpose of packet switching?" with that answer.
+
+Another point: the facts mention that packet switching is the subject of categories like Computer networking, Network protocols, etc. So a question could be about the categories it belongs to.
+
+Also, the fact lists URLs and images, but the user's examples don't include those, so maybe not necessary unless the context explicitly mentions them. The context says "Packet switching possui imagem representativa NSFNET-traffic-visualization-1991.jpg", so a question could be about the images associated with it.
+
+But the user's examples focus on the technical aspects, so I should follow that. Let me structure the 10 questions to cover different aspects: key contributors, types, advantages, examples, contrast with circuit switching, categories, and technical terms like jitter.
+
+Now, I'll make sure each question is unique and the answers are correct based on the context and facts provided. Let me check for repetition and ensure each answer is directly from the given info.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a principal vantagem da comutação de pacotes em relação à comutação de circuitos?",
+    "resposta": "Optimizar o uso da largura de banda da rede"
+  },
+  {
+    "pergunta": "Quais são as duas principais categorias de comutação de pacotes?",
+    "resposta": "Com ligação (circuito virtual) e sem ligação (datagrama)"
+  },
+  {
+    "pergunta": "Quem é conhecido por contribuir para o desenvolvimento da comutação de pacotes?",
+    "resposta": "Paul Baran, Donald Davies, W. David Sincoskie e Sharla Boehm"
+  },
+  {
+    "pergunta": "Qual exemplo de protocolo utiliza comutação de pacotes com ligação?",
+    "resposta": "ATM (Asynchronous Transfer Mode)"
+  },
+  {
+    "pergunta": "O que caracteriza a comutação de pacotes sem ligação?",
+    "resposta": "Os pacotes são encaminhados independentemente, oferecendo flexibilidade e robustez"
+  },
+  {
+    "pergunta": "Quais são os efeitos negativos da comutação de pacotes?",
+    "resposta": "Jitter, atrasos variáveis e maior variação na qualidade de serviço"
+  },
+  {
+    "pergunta": "Qual é o principal objetivo da comutação de pacotes?",
+    "resposta": "Minimizar a latência e aumentar a robustez da comunicação"
+  },
+  {
+    "pergunta": "Quais são os exemplos de protocolos que utilizam comutação de pacotes sem ligação?",
+    "resposta": "Endereço IP"
+  },
+  {
+    "pergunta": "Qual é o contraste da comutação de pacotes com a comutação de circuitos?",
+    "resposta": "A comutação de circuitos estabelece uma ligação dedicada, enquanto a comutação de pacotes usa recursos compartilhados"
+  },
+  {
+    "pergunta": "Quais categorias são associadas à comutação de pacotes?",
+    "resposta": "Computer networking, Network protocols e History of the Internet"
+  }
+]

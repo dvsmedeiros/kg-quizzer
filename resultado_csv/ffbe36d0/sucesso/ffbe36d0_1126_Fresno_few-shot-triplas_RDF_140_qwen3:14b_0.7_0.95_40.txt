@@ -1,0 +1,82 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs about Fresno, California, based on the provided data. First, I need to look through the given information to find relevant facts. 
+
+Looking at the examples, they include things like population rank, distance to LA, meaning of the name, flag details, pronunciation, historical events, incorporation year, number of trolleys, and growth factors. So I need to find similar or new points from the data.
+
+The data mentions Fresno is the fifth largest city in California. That's already in the examples, so maybe not use that again. Wait, but the examples have it as a sample. The user might want new ones. Wait, the instruction says to generate 10 pairs, but the examples are given as samples. The user probably wants original ones based on the data provided, not repeating the examples.
+
+Looking through the triples: Fresno has an area code 559, government type is Strong Mayor, settlement type is a municipality in California. There's a point coordinate (36.75 -119.76666666666667), area total 300.438620798976 square kilometers. Also, it's part of San Joaquin Valley, has a flag with a sycamore leaf, and the name means "sycamore" in Spanish. 
+
+Other entities linked to Fresno include Sun-Maid, which is a raisin company. There's a mention of the Central Pacific Railroad establishing a station in 1872. The incorporation year is 1885. The Fresno Traction Company had 47 trolleys in 1931. The area code is 559. The government type is Strong Mayor. The city is in the San Joaquin Valley. The population rank is fifth. The pronunciation is /ˈfrɛznoʊ/.
+
+Wait, but the examples already cover some of these. To avoid repetition, I need to find new angles. For example, the area code, government type, the point coordinates, the total area, the categories it's in (like San Joaquin Valley), and the exact match in WordNet. Also, the FOAF depiction image. 
+
+But maybe the user wants questions that are not in the examples. Let me check the examples again. The examples include population rank, distance to LA, name meaning, flag, pronunciation, Central Pacific Railroad station year, reasons for moving to Fresno Station, incorporation year, number of trolleys, and growth entity. 
+
+So new topics could be area code, government type, coordinates, total area, categories, settlement type, exact match in WordNet, FOAF depiction, and maybe the official website (since there's a template for that). 
+
+But I need to phrase them as questions. For instance, "Qual é o código de área de Fresno?" for the area code. "Qual é o tipo de governo de Fresno?" for the government type. "Quais são as coordenadas geográficas de Fresno?" for the point. "Qual é a área total de Fresno em quilômetros quadrados?" for the area. "Em quais categorias Fresno é classificado?" for the categories. "Qual é o tipo de assentamento de Fresno?" for settlement type. "Qual é a correspondência exata de Fresno no WordNet?" for the exact match. "Qual é a imagem oficial de Fresno?" for the FOAF depiction. 
+
+But some of these might be too technical. Alternatively, the user might prefer more general questions. For example, "Quais são os principais recursos da cidade de Fresno?" but that's too vague. Maybe "Qual é o tipo de governo da cidade de Fresno?" is better. 
+
+Also, the data mentions that Fresno is part of the San Joaquin Valley, so a question like "Em qual vale geográfico Fresno está localizado?" would be good. 
+
+Another point is the settlement type: "List of municipalities in California", so a question about that. 
+
+The area code is 559, so a question about that. 
+
+The total area in square kilometers is 300.4386... so a question about that. 
+
+The categories include "WikicatCountySeatsInCalifornia", so asking about that. 
+
+The FOAF depiction is an image link, so a question about the official image. 
+
+The exact match in WordNet is a specific ID, but maybe that's too obscure. 
+
+Putting it all together, I can form 10 questions based on these points. Let me check again to ensure they are not repeating the examples. The examples mention incorporation year, trolleys, Central Pacific, name meaning, flag, etc. So the new ones are area code, government type, coordinates, area total, categories, settlement type, San Joaquin Valley, official image, and maybe the area code again. 
+
+I think that's enough. Now, phrasing each question and answer in Portuguese, ensuring they are clear and based on the data provided.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o código de área de Fresno?",
+    "resposta": "559"
+  },
+  {
+    "pergunta": "Qual é o tipo de governo da cidade de Fresno?",
+    "resposta": "Strong Mayor"
+  },
+  {
+    "pergunta": "Quais são as coordenadas geográficas de Fresno?",
+    "resposta": "36.75° N, 119.7667° O"
+  },
+  {
+    "pergunta": "Qual é a área total de Fresno em quilômetros quadrados?",
+    "resposta": "300,44 km²"
+  },
+  {
+    "pergunta": "Em quais categorias Fresno é classificado no Wikidata?",
+    "resposta": "WikicatCountySeatsInCalifornia e WikicatCitiesInCalifornia"
+  },
+  {
+    "pergunta": "Qual é o tipo de assentamento de Fresno segundo a classificação de California?",
+    "resposta": "List of municipalities in California"
+  },
+  {
+    "pergunta": "Em qual vale geográfico Fresno está localizado?",
+    "resposta": "San Joaquin Valley"
+  },
+  {
+    "pergunta": "Qual é a imagem oficial de Fresno disponível no Wikimedia Commons?",
+    "resposta": "Fresno_station_2434_35_(cropped2).jpg"
+  },
+  {
+    "pergunta": "Qual é a correspondência exata de Fresno no WordNet?",
+    "resposta": "i84248"
+  },
+  {
+    "pergunta": "Qual é a entidade que representa a cidade de Fresno no sistema de categorias da DBpedia?",
+    "resposta": "yago/Area108497294"
+  }
+]

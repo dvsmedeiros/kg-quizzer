@@ -1,0 +1,69 @@
+<think>
+Okay, so I need to help the user by generating 10 question-answer pairs based on the provided context and facts about economic inequality. Let me start by carefully reading the context to understand the key points.
+
+The context explains that economic inequality can refer to either income distribution (how much money people receive) or wealth distribution (the amount of assets people own). It also mentions that while globalization has reduced global inequality between nations, it's increased inequality within countries. Important measures include the Gini coefficient and the Inequality-Adjusted Human Development Index. The context also touches on concepts like equity, equality of results, and opportunities.
+
+Looking at the facts section, I see references to various images, models used in Wikipedia pages, people involved in studying economic inequality (like Branko Milanović), movements related to it (Occupy Berlin, Occupy Texas State, etc.), and specific books or works that discuss economic inequality. There are also statistics mentioned about wealth distribution.
+
+Since the user provided an example of 10 pairs with specific numbers, I should aim for similar clear and factual questions. Each question must have a single correct answer derived from the context or facts.
+
+Let me start brainstorming:
+
+1. What measures are commonly used to assess economic inequality? The Gini coefficient is mentioned as the most used.
+2. Which movement has causes related to economic inequality? Occupy movements are listed, like Occupy Berlin and others.
+3. How does globalization affect global inequality? It reduces it between nations but increases within countries.
+4. What is a key concept in equality besides equality of results? Equity.
+5. Who contributes to the study of economic inequality? Branko Milanović is one example.
+6. What image represents wealth disparity in major cities? The Beverly Hills mansion vs Skid Row tents.
+7. Which scholar focuses on economic inequality and its impact on development? Robert Wade.
+8. How much wealth do the top 1% hold globally? They own about half of global wealth.
+9. What book discusses economic inequality in the 21st century? "Capital in the Twenty-First Century."
+10. How does higher inequality affect economic growth? It makes growth duration harder, not necessarily the rate.
+
+I should ensure each question is unique and covers different aspects without repetition. I'll structure them as per the JSON format required.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual medida econômica é mais usada para avaliar a desigualdade?",
+    "resposta": "Coeficiente de Gini"
+  },
+  {
+    "pergunta": "Quais movimentos são motivados pela desigualdade econômica?",
+    "resposta": "Occupy Berlin e Occupy Texas State"
+  },
+  {
+    "pergunta": "Como a globalização afeta a desigualdade global?",
+    "resposta": "Reduz entre nações, mas aumenta dentro delas."
+  },
+  {
+    "pergunta": "Qual conceito de igualdade inclui equidade e igualdade de oportunidades?",
+    "resposta": "Equidade"
+  },
+  {
+    "pergunta": "Quem é um estudioso proeminente sobre desigualdade econômica?",
+    "resposta": "Branko Milanović"
+  },
+  {
+    "pergunta": "Qual imagem representa a disparidade de riqueza nas cidades?",
+    "resposta": "Casa em Beverly Hills vs acampamentos em Skid Row."
+  },
+  {
+    "pergunta": "Qual acadêmico estuda a desigualdade e desenvolvimento?",
+    "resposta": "Robert Wade"
+  },
+  {
+    "pergunta": "Quanto dos ativos globais pertencem ao top 1% em 2016?",
+    "resposta": "Metade."
+  },
+  {
+    "pergunta": "Qual livro trata da desigualdade no século XXI?",
+    "resposta": "Capital in the Twenty-First Century"
+  },
+  {
+    "pergunta": "Como a maior desigualdade afeta o crescimento econômico?",
+    "resposta": "Dificulta sua duração."
+  }
+]
+```

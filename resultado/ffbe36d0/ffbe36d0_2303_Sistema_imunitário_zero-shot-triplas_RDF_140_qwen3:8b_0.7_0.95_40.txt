@@ -1,0 +1,54 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by understanding the content thoroughly. The context explains the immune system's role in protecting the body, mentions Ilya Mechnikov as the founder, and discusses various components like B cells, T cells, and mechanisms such as phagocytosis. There's also information about adaptive immunity, vaccination, and disorders like autoimmunity and immunodeficiency. The facts section includes DBpedia data with entities related to the immune system, like B cells, T cells, and conditions like sepsis and food allergies.
+
+First, I'll identify key points from the context and facts. The immune system's function, its components (cells and processes), historical figures, disorders, and related medical conditions. Each question should target a different aspect to ensure variety. I need to avoid repetition and ensure each answer is directly inferable from the text.
+
+Let me list possible questions. For example, who discovered the term "immune system"? Answer: Ilya Mechnikov. Then, what are the main functions? Protection against pathogens. What are some components? B cells, T cells, macrophages. How does adaptive immunity work? Through memory cells. What's an example of a disorder? Autoimmune diseases like rheumatoid arthritis. What's the role of vaccines? Induce memory response. What's immunodeficiency? Reduced immune activity leading to infections. What's an example of a cell involved? Neutrophils. What's the basis of vaccination? Adaptive immunity. What's the role of phagocytosis? Engulf pathogens.
+
+Wait, I need to check the facts section for more entities. The facts mention B cells, T cells, macrophages, etc. Also, conditions like sepsis and food allergies are linked. Maybe include questions about these. Also, the mention of Charles Surh and César Milstein as related to the immune system. But the context doesn't specify their roles, so maybe not. Stick to the context for answers.
+
+Ensure each question is unique and covers different aspects. Avoid overlapping topics. Let me structure each pair now, making sure the answers are accurate and directly from the text.
+</think>
+
+[
+  {
+    "pergunta": "Quem foi o cientista que cunhou o termo 'sistema imunitário'?",
+    "resposta": "Ilya Ilyich Mechnikov"
+  },
+  {
+    "pergunta": "Qual é a função principal do sistema imunitário?",
+    "resposta": "Proteger o organismo contra doenças e agentes patogénicos"
+  },
+  {
+    "pergunta": "Quais são exemplos de células do sistema imunitário mencionadas no texto?",
+    "resposta": "B-células, T-células, macrófagos, neutrófilos, mastócitos"
+  },
+  {
+    "pergunta": "Como o sistema imunitário adquirido permite uma resposta mais eficaz a patógenos?",
+    "resposta": "Criando memória imunológica após uma exposição inicial"
+  },
+  {
+    "pergunta": "Qual é a base da vacinação segundo o texto?",
+    "resposta": "A imunidade adquirida"
+  },
+  {
+    "pergunta": "Quais são exemplos de transtornos do sistema imunitário mencionados?",
+    "resposta": "Doenças autoimunes, imunodeficiência, cancro"
+  },
+  {
+    "pergunta": "O que caracteriza a imunodeficiência?",
+    "resposta": "Atividade do sistema imunitário inferior ao normal, levando a infecções recorrentes"
+  },
+  {
+    "pergunta": "Quais são mecanismos imunitários básicos presentes em eucariotas?",
+    "resposta": "Fagocitose, peptídeos antimicrobianos (defensinas) e sistema complemento"
+  },
+  {
+    "pergunta": "Qual é a condição médica associada à imunodeficiência adquirida?",
+    "resposta": "VIH/SIDA"
+  },
+  {
+    "pergunta": "Quais são exemplos de doenças autoimunes citadas no texto?",
+    "resposta": "Artrite reumatóide, diabetes de tipo 1"
+  }
+]

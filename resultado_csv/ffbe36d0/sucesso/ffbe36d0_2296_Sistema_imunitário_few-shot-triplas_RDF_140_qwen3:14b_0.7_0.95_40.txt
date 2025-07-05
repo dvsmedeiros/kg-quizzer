@@ -1,0 +1,64 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts. First, I need to understand the context thoroughly. The context talks about the immune system, its functions, how it detects pathogens, its evolution, components like phagocytosis, defensins, complement system, adaptive immunity, memory, vaccination, and disorders like immunodeficiency and autoimmunity. The facts provided are in RDF format, linking various entities to the immune system, such as cells, diseases, and scientists.
+
+Now, the user's example shows that some questions are directly from the context, like "O sistema imunológico protege os organismos contra o que?" with the answer "doenças." Others are more specific, like mentioning Ilya Ilyich Mechnikov. But I need to ensure that the questions are varied and cover different aspects without repeating.
+
+First, I'll list key points from the context: the definition of the immune system, its function, Mechnikov's contribution, evolution of defense mechanisms, components like fagocitose, defensinas, complemento, adaptive immunity, memory, vaccination, disorders (autoimmune, immunodeficiency), causes of immunodeficiency (genetic, HIV, immunosuppressors), autoimmunity examples (rheumatoid arthritis, type 1 diabetes), and the scientific field of immunology.
+
+From the facts, there are mentions of specific cells (B cells, T cells, etc.), diseases (food allergy, sepsis), scientists (César Milstein, Lajos Kemény), and fields (rheumatology). However, the user's example didn't use all these, so I need to focus on the context and ensure answers are inferable from it.
+
+Possible questions could be about the function of the immune system, the term coined by Mechnikov, the role of adaptive immunity, examples of immunodeficiency, causes of autoimmunity, components like complement system, the concept of immunological memory, the basis of vaccination, the consequences of an overactive immune system, and the scientific study of the immune system.
+
+I need to avoid repeating similar questions. For example, the user's example had questions about the immune system protecting against diseases and detecting pathogens. I can ask about the term coined by Mechnikov, the role of adaptive immunity, the basis of vaccination, components like the complement system, and disorders like immunodeficiency and autoimmunity.
+
+Also, the context mentions that even unicellular organisms have a rudimentary immune system with enzymes. That's a good point for a question. Another point is the distinction between innate and adaptive immunity.
+
+I need to make sure each answer is directly from the context or can be inferred. For example, the answer to "Quem cunhou o termo sistema imunitário?" is "Ilya Ilyich Mechnikov em 1882."
+
+Another question could be about the mechanism of adaptive immunity, which the context explains as creating memory. The basis of vaccination is also mentioned in the context.
+
+Now, I'll structure each question and answer, ensuring they are unique and cover different aspects. Let's check for repetition and ensure that each answer is accurate based on the provided context.
+</think>
+
+[
+  {
+    "pergunta": "Quem cunhou o termo 'sistema imunitário'?",
+    "resposta": "Ilya Ilyich Mechnikov em 1882."
+  },
+  {
+    "pergunta": "Qual é a função principal do sistema imunitário?",
+    "resposta": "Proteger o organismo contra doenças."
+  },
+  {
+    "pergunta": "Como os agentes patogénicos evoluem para evitar o sistema imunitário?",
+    "resposta": "Rapidamente evoluem e adaptam-se para evitar a detecção e neutralização."
+  },
+  {
+    "pergunta": "Quais são exemplos de mecanismos imunitários básicos presentes em eucariotas?",
+    "resposta": "Fagocitose, defensinas e sistema complemento."
+  },
+  {
+    "pergunta": "O que permite ao sistema imunitário responder mais eficazmente a novos ataques por agentes específicos?",
+    "resposta": "A imunidade adquirida e a memória imunológica."
+  },
+  {
+    "pergunta": "Qual é a base da vacinação?",
+    "resposta": "A imunidade adquirida e a memória imunológica."
+  },
+  {
+    "pergunta": "O que caracteriza a imunodeficiência?",
+    "resposta": "O sistema imunitário ser menos ativo que o normal."
+  },
+  {
+    "pergunta": "Quais são exemplos de doenças causadas por um sistema imunitário hiperativo?",
+    "resposta": "Artrite reumatóide e diabetes tipo 1."
+  },
+  {
+    "pergunta": "Como os organismos unicelulares defendem-se contra patógenos?",
+    "resposta": "Com o uso de enzimas em um sistema imunitário rudimentar."
+  },
+  {
+    "pergunta": "Qual é o campo científico que estuda o sistema imunitário?",
+    "resposta": "Imunologia."
+  }
+]

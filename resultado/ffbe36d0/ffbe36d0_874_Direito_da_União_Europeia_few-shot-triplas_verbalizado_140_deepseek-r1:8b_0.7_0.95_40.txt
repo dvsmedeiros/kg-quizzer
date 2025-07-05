@@ -1,0 +1,80 @@
+<think>
+Okay, so I need to generate 10 pairs of questions and answers based on the given context about EU Law. Let me start by understanding the provided information.
+
+First, the context says that EU laws are a set of rules operating within EU member states since the formation of the European Community after WWII. The EU's goal is to promote peace, values, and well-being among its people. It has institutions that work beyond individual nations for cooperation and development. The EU's Court of Justice calls it a new international legal order.
+
+Next, looking at the facts:
+- "Law of the European Union" is the main topic.
+- Common Market Law Review operates within this field.
+- John Bell, a legal scholar, works in EU Law.
+- Henry G. Schermers is a sub-discipline under EU Law.
+- The template for the page uses specific wiki templates like R from word rearrangement and Redirect category shell.
+
+From these, I can extract key points to form questions. Let me brainstorm possible questions:
+
+1. What is the primary purpose of EU law?
+2. What institutions make up the legislative body of the EU?
+3. What are the main sources of primary EU law?
+4. How does EU law affect national laws of member states?
+5. What are the three main sources of EU law?
+6. Who are the two main legislative bodies in the EU?
+7. What is the role of the EU Court of Justice?
+8. What is the EU's legal system based on?
+9. What do Treaties that establish the EU do?
+10. How does EU secondary legislation work?
+
+Now, I need to ensure each question has a correct and unique answer, without repetition. Let me check if these questions are clear and related to the context.
+
+For example, question 1 asks about the primary purpose, which is promoting peace, values, etc.—that's directly from the context. Question 2 refers to the Parliament and Council, as stated in the facts.
+
+I should also ensure that each answer is accurate based on the provided information. For instance, the main sources of primary EU law are Treaties, as mentioned, so question 3 should reflect that.
+
+I need to make sure not to repeat questions like "What are the three main sources..." because it's repeated in the example, so I'll avoid similar ones.
+
+Now, let me structure this into JSON format with exactly 10 pairs. Each pair will have a relevant question and its correct answer. I'll go through each one to ensure they fit the criteria.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é o objetivo principal da União Europeia?",
+    "resposta": "promover a paz, seus valores e o bem-estar de seus povos."
+  },
+  {
+    "pergunta": "Quais são os dois órgãos que compõem o legislador da União Europeia?",
+    "resposta": "Parlamento Europeu e pelo Conselho da União Europeia."
+  },
+  {
+    "pergunta": "Quais são as principais fontes de direito primário na União Europeia?",
+    "resposta": "Tratados que instituem a União Europeia."
+  },
+  {
+    "pergunta": "Que efeito o direito da União Europeia tem sobre as leis dos estados membros?",
+    "resposta": "efeito direto ou indireto."
+  },
+  {
+    "pergunta": "Quais são as três fontes do direito da União Europeia?",
+    "resposta": "direito primário, direito secundário e direito complementar."
+  },
+  {
+    "pergunta": "Quais são os principais órgãos legislativos da União Europeia?",
+    "resposta": "Parlamento Europeu e pelo Conselho da União Europeia."
+  },
+  {
+    "pergunta": "O que é o direito da União Europeia?",
+    "resposta": "um corpo de tratados e legislação."
+  },
+  {
+    "pergunta": "Quais são as principais fontes de direito primário?",
+    "resposta": "Tratados que instituem a União Europeia."
+  },
+  {
+    "pergunta": "Que é o papel do Tribunal de Justiça da União Europeia?",
+    "resposta": "representa uma nova ordem jurídica de direito internacional."
+  },
+  {
+    "pergunta": "Quais são as fontes secundárias do direito primário na União Europeia?",
+    "resposta": "regulamentos e diretrizes."
+  }
+]
+```

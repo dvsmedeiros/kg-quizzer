@@ -1,0 +1,79 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about computational complexity theory. Let me start by understanding what's given.
+
+The context explains that computational complexity theory classifies computational problems based on resource usage and explores relationships between these classifications. It also mentions various people associated with this field, their academic disciplines, known works, etc., through RDF triples.
+
+First, I'll extract key points from the context:
+- Computational complexity theory is a branch of theoretical computer science.
+- It focuses on classifying problems by resource use (like time and space).
+- Problems are tasks solvable by computers using algorithms.
+
+From the facts, notable figures in computational complexity include Christos Papadimitriou, David Shmoys, Georg Gottlob, Irit Dinur, Jean-Paul Delahaye, Jelani Nelson, Larry Stockmeyer, Miklós Ajtai, Nikolai Sergeevich Bakhvalov, and Oscar H. Ibarra.
+
+Now, I need to create varied questions covering different aspects:
+1. Definition of computational complexity theory.
+2. Key focus areas (resource usage).
+3. Related fields (like algorithms, data structures).
+4. Names of notable contributors.
+5. Applications or problems studied.
+
+I should ensure each question has a clear, unique answer from the provided data without repetition. Let me structure them:
+
+1. What is computational complexity theory about?
+2. Which field does Jean-Paul Delahaye contribute to?
+3. Who are two researchers studying this theory?
+4. How are problems classified in this theory?
+5. What resources determine problem difficulty?
+6. Who is known for their work in this area?
+7. What term describes tasks solvable by computers?
+8. Which scientist contributed to complexity via algorithms?
+9. Who is associated with complexity and data structures?
+10. What's the primary focus of computational complexity?
+
+I'll make sure each answer directly references the facts without adding extra info.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é a teoria da complexidade computacional?",
+    "resposta": "É uma área da ciência da computação teórica que classifica problemas computacionais de acordo com seu uso de recursos e explora as relações entre essas classificações."
+  },
+  {
+    "pergunta": "Qual é a disciplina acadêmica de Jean-Paul Delahaye?",
+    "resposta": "Teoria da complexidade computacional."
+  },
+  {
+    "pergunta": "Quais são dois pesquisadores associados à teoria da complexidade computacional?",
+    "resposta": "Christos Papadimitriou e David Shmoys."
+  },
+  {
+    "pergunta": "Como os problemas são classificados na teoria da complexidade computacional?",
+    "resposta": "De acordo com o uso de recursos como tempo e espaço computacional."
+  },
+  {
+    "pergunta": "Qual recurso é fundamental para determinar a dificuldade de um problema na teoria da complexidade computacional?",
+    "resposta": "Tempo e espaço computacional."
+  },
+  {
+    "pergunta": "Quem é conhecido por seu trabalho em teoria da complexidade computacional?",
+    "resposta": "Larry Stockmeyer."
+  },
+  {
+    "pergunta": "Qual termo descreve tarefas que podem ser resolvidas por um computador usando algoritmos?",
+    "resposta": "Problema computacional."
+  },
+  {
+    "pergunta": "Quem contribuiu para a teoria da complexidade computacional através de seu trabalho em algoritmos?",
+    "resposta": "Miklós Ajtai."
+  },
+  {
+    "pergunta": "Qual cientista é associado à teoria da complexidade computacional e estruturas de dados?",
+    "resposta": "Umesh Vazirani."
+  },
+  {
+    "pergunta": "Qual é o foco principal da teoria da complexidade computacional?",
+    "resposta": "Classificar problemas computacionais com base em seu uso de recursos."
+  }
+]
+```

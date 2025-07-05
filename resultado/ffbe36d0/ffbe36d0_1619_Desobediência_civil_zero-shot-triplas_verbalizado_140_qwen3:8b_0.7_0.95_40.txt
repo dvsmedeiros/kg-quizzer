@@ -1,0 +1,60 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts about civil disobedience. First, I need to parse through the context and the facts to extract relevant information.
+
+The context mentions that civil disobedience is a form of peaceful protest against unjust orders or oppressive governments, originating from Henry David Thoreau and used by Gandhi and Martin Luther King. The facts list various events and organizations that used civil disobedience, along with Wikipedia templates and categories.
+
+I need to ensure each question is unique and covers different aspects. Let's start by identifying key points: origin, key figures, historical events, related movements, Wikipedia templates, categories, and specific examples. 
+
+For example, one question could be about the originator, another about Gandhi's use, another about Martin Luther King, and so on. Also, there are mentions of specific protests like the 2021 End SARS memorial protest and the Gwangju Uprising. Including these in the questions will make them varied.
+
+I should also check the facts for other details like categories (e.g., Category:Direct action), templates used (like Template:Cite book), and specific terms like "hyperonym Refusal". Each of these can form a question.
+
+I need to make sure each answer is directly inferable from the context or facts. For instance, the answer to "Who formulated the concept of civil disobedience?" would be Henry David Thoreau. 
+
+Avoid repeating similar questions. For example, if I have a question about Gandhi, I shouldn't have another about Martin Luther King unless they are distinct enough. 
+
+Now, compiling the 10 pairs. Let me list possible questions and their answers based on the info. Need to ensure they are in Portuguese and follow the JSON structure without any extra text.
+</think>
+
+[
+  {
+    "pergunta": "Quem formulou o conceito de desobediência civil?",
+    "resposta": "Henry David Thoreau"
+  },
+  {
+    "pergunta": "Qual movimento histórico utilizou a desobediência civil para a independência da Índia?",
+    "resposta": "Movimento de independência da Índia liderado por Mahatma Gandhi"
+  },
+  {
+    "pergunta": "Quem utilizou a desobediência civil na luta pelos direitos civis nos Estados Unidos?",
+    "resposta": "Martin Luther King"
+  },
+  {
+    "pergunta": "Qual protesto utilizou a desobediência civil em 2021 no contexto do fim da violência policial?",
+    "resposta": "End SARS memorial protest"
+  },
+  {
+    "pergunta": "Qual categoria está associada à desobediência civil em categorias de ativismo?",
+    "resposta": "Category:Activism by type"
+  },
+  {
+    "pergunta": "Qual modelo de página wiki é utilizado para a desobediência civil?",
+    "resposta": "Template:Cite book"
+  },
+  {
+    "pergunta": "Qual movimento social utiliza a desobediência civil para resistir a políticas de opressão?",
+    "resposta": "Refuse Fascism"
+  },
+  {
+    "pergunta": "Qual evento histórico utilizou a desobediência civil como forma de protesto?",
+    "resposta": "Gwangju Uprising"
+  },
+  {
+    "pergunta": "Qual categoria está associada à desobediência civil em termos de dissidência?",
+    "resposta": "Category:Dissent"
+  },
+  {
+    "pergunta": "Qual protesto em 2017 utilizou a desobediência civil contra corrupção?",
+    "resposta": "2017 Montenegrin anti-corruption protests"
+  }
+]

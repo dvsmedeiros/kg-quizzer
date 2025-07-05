@@ -1,0 +1,79 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts. The context is about the term "Império" (Empire) in Portuguese, and the facts include various DBpedia entries linking different entities to imperialism.
+
+First, I need to parse the context and facts carefully. The main points from the context are that an empire is a large territory with diverse nations, governed by a sovereign, often created through conquest, with a center and peripheries. The term is also used as an analytical category. The facts mention several political parties, historical events, and entities linked to imperialism via DBpedia.
+
+I need to create questions that are varied and cover different aspects. Let's start with the definition. Maybe a question about the origin of the term "Império." The context says it comes from Latin "imperium," so that's a good first question.
+
+Next, the structure of an empire: center and peripheries. A question could be about the administrative structure. The example given in the user's examples mentions the center being called metrópole. So a question about the term for the central part of an empire.
+
+Then, looking at the facts, there are entries like the Conservative Party of Canada having imperialism as ideology. So a question could ask which political party is associated with imperialism. Similarly, events like Circassian genocide have imperialism as a motive, so a question about the motive behind certain historical events.
+
+The DBpedia facts also mention books and authors. For example, "Culture and Imperialism" by Edward Said. A question could be about the subject of that book.
+
+There's also the mention of Portuguese Angola being in the imperialism era. A question about the colonial period in Portuguese Angola.
+
+The term "imperium Romanum" is mentioned, so a question about the Latin expression for the Roman Empire.
+
+The user's examples include types of imperialism, like formal and informal. The facts mention "imperialismo formal" in the examples. So maybe a question about the type of imperialism involving direct control.
+
+Also, the hypernym of imperialism is advocacy, from the DBpedia entry. So a question about the broader category that includes imperialism.
+
+I need to make sure not to repeat questions and cover different aspects: definition, structure, examples, associated ideologies, historical events, literature, etc. Let me list out possible questions and check against the facts and context to ensure the answers are present.
+
+1. Origem do termo "Império" (latim)
+2. Estrutura de um império (centro e periferias)
+3. Partido político associado ao imperialismo (Conservative Party of Canada)
+4. Motivo histórico ligado ao imperialismo (Circassian genocide)
+5. Livro com tema imperialism (Culture and Imperialism)
+6. Período colonial em Angola (imperialismo)
+7. Expressão latina para Império Romano (imperium Romanum)
+8. Tipo de imperialismo com controle direto (formal)
+9. Categoria superior do imperialismo (advocacy)
+10. Característica da administração imperial (conquista e manutenção por força)
+
+Check if all answers are supported by the context or facts. For example, the Conservative Party of Canada is linked to imperialism in the DBpedia facts. The Circassian genocide is listed under motives. The book is mentioned in the DBpedia hypernym. The rest are from the context. That should cover 10 varied questions without repetition.
+</think>
+
+[
+  {
+    "pergunta": "A origem do termo \"Império\" está associada a qual língua antiga?",
+    "resposta": "latim"
+  },
+  {
+    "pergunta": "Como é estruturado o poder em um império, segundo o texto?",
+    "resposta": "com um centro (metrópole) e periferias dominadas"
+  },
+  {
+    "pergunta": "Qual partido político está relacionado ao imperialismo, conforme as fontes?",
+    "resposta": "Conservative Party of Canada"
+  },
+  {
+    "pergunta": "Qual evento histórico tem como motivação o imperialismo, segundo os registros?",
+    "resposta": "genocídio circasso"
+  },
+  {
+    "pergunta": "Qual livro tem como tema central o imperialismo, segundo as fontes?",
+    "resposta": "Culture and Imperialism"
+  },
+  {
+    "pergunta": "Em que período histórico a Angola portuguesa está ligada ao imperialismo?",
+    "resposta": "era colonial"
+  },
+  {
+    "pergunta": "Qual expressão latina designa o Império Romano, conforme o texto?",
+    "resposta": "imperium Romanum"
+  },
+  {
+    "pergunta": "Qual tipo de imperialismo envolve domínio direto sobre territórios?",
+    "resposta": "imperialismo formal"
+  },
+  {
+    "pergunta": "A qual categoria superior pertence o conceito de imperialismo?",
+    "resposta": "advocacy"
+  },
+  {
+    "pergunta": "Como o poder imperial é mantido, segundo o texto?",
+    "resposta": "conquista e manutenção por meio de força"
+  }
+]

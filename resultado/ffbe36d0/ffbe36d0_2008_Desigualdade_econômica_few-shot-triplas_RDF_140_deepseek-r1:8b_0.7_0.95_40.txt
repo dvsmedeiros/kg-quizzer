@@ -1,0 +1,75 @@
+<think>
+Okay, I need to generate 10 pairs of relevant questions and correct answers based on the given context about economic inequality. Let me start by understanding the key points from the context.
+
+The context mentions that economic inequality can refer to income distribution or wealth distribution. It also talks about measures like the Gini coefficient and HDI adjusted for inequality. There are mentions of events like Occupy movements causing inequality, and figures such as Branko Milanović, Richard Wilkinson, and Thomas Piketty. These names likely relate to significant contributions in the field.
+
+Looking at the facts, there are many resources connected to economic inequality. For example, "Capital in the Twenty-First Century" by Piketty is a subject, indicating it's a key work. The Occupy movements across various cities were causes of inequality, showing real-world impacts.
+
+I should ensure each question is unique and covers different aspects. I'll start with basic facts like who wrote notable works or what indices measure inequality. Then move to specific data points, like wealth distribution percentages, methods used in studies (e.g., Kuznets curve), and implications such as the relationship between income inequality and social issues.
+
+I need to make sure each question is clear and directly related to the context. The answers should be accurate based on the provided information. Let me brainstorm 10 questions:
+
+1. Who is associated with a significant study on wealth distribution?
+2. Which index measures inequality, considering both income and wealth?
+3. What measure shows that higher inequality can reduce long-term growth?
+4. How does global warming relate to economic inequality (from context)?
+5. What did the Occupy movements primarily protest about?
+6. Who is known for using the Kuznets curve to analyze inequality?
+7. What country has the highest GINI score among developed nations?
+8. Which movement in Pakistan was linked with increased inequality?
+9. What is the main argument of "Capital and Ideology" regarding inequality?
+10. How does income inequality affect social mobility, especially in the US?
+
+Now, I'll check if these questions are varied and cover different aspects. They touch on people, measures, impacts, and specific events. The answers should be directly from the context or inferred accurately.
+
+For example, question 1 refers to Branko Milanović studying inequality. Question 2 mentions HDI adjusted for inequality, which is part of the context. Question 4 links global warming indirectly through environmental degradation affecting poor communities, as suggested in the context. Occupy movements (questions 5 and others) are directly linked as causes of inequality.
+
+I should ensure each answer is precise. For instance, question 7 asks about the highest GINI score in developed countries, which I know Richard Wilkinson studied, so his country's GINI might be high.
+
+Finally, I'll structure all this into a JSON array with each object containing a question and its answer.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o autor do livro 'Capital no Século XXI' que discute a desigualdade econômica?",
+    "resposta": "Thomas Piketty"
+  },
+  {
+    "pergunta": "Qual é o ícone associado ao estudo da distribuição da riqueza global?",
+    "resposta": "Branko Milanović"
+  },
+  {
+    "pergunta": "Qual é a principal medida utilizada para avaliar a desigualdade econômica e a renda?",
+    "resposta": "Índice de Gini (GINI)"
+  },
+  {
+    "pergunta": "Qual é o principal argumento do livro 'Capital e Ideologia' sobre a desigualdade?",
+    "resposta": "A riqueza concentração de recursos e seu impacto social."
+  },
+  {
+    "pergunta": "Qual movimento internacional foi associado ao aumento da desigualdade econômica?",
+    "resposta": "Movimentos Occupy"
+  },
+  {
+    "pergunta": "Qual curva é usada para analisar a relação entre desigualdade e desenvolvimento económico?",
+    "resposta": "Curva de Kuznets"
+  },
+  {
+    "pergunta": "Quais são as nações com os maiores índices GINI dentro das Nações Unidas?",
+    "resposta": "Países como Estados Unidos, Brasil e Rússia."
+  },
+  {
+    "pergunta": "Qual evento internacional foi marcado por protestos contra a desigualdade econômica?",
+    "resposta": "Movimentos Occupy Wall Street"
+  },
+  {
+    "pergunta": "Qual porcentagem de adultos mundiais possui menos da metade da riqueza do que os 1% mais ricos?",
+    "resposta": "cerca de 40%"
+  },
+  {
+    "pergunta": "Quanto a desigualdade econômica pode afetar a mobilidade social num país desenvolvido?",
+    "resposta": "diminui a mobilidade social"
+  }
+]
+```

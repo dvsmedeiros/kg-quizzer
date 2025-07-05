@@ -1,0 +1,71 @@
+<think>
+Okay, the user wants me to generate 10 pairs of questions and answers about the Black Death, using the given context. Let me start by understanding the requirements. The output must be a JSON array with exactly 10 entries, each containing a question and a correct answer in Portuguese. The questions need to be varied, covering different aspects of the context provided.
+
+First, I need to recall what the Black Death context includes. The Black Death was a pandemic in the 14th century, caused by the Yersinia pestis bacterium, spread by fleas on rats. It had a massive impact on Europe's population, leading to social and economic changes. People at the time didn't understand the cause, so they had various theories like miasma or divine punishment. Treatments were ineffective, like bloodletting. The disease had different forms: bubonic, septicemic, and pneumonic. It also led to persecution of minorities, like Jews, who were blamed for the outbreak.
+
+Now, I need to make sure each question is unique and covers different aspects. Let me list possible topics: cause, transmission, symptoms, historical impact, societal reactions, treatments, forms of the disease, geographical spread, religious beliefs, and long-term effects.
+
+For each topic, I can form a question. Let me check if the context mentions specific details. The user provided the context as "Peste_Negra", so I need to make sure all answers are based solely on that. Wait, the user hasn't provided specific text for the context, just the title "Peste_Negra". Hmm, maybe the context is the general knowledge about the Black Death. But the user says "based on the context and facts provided", but in this case, the only context given is the title. That's a problem. How can I generate accurate questions without specific content?
+
+Wait, maybe the user expects that the assistant uses general knowledge about the Black Death, but the instructions say "exclusivamente a partir do conteúdo fornecido". If the only content is "Peste_Negra", that's very limited. But perhaps the user intended that the context is the topic itself, and the assistant uses general knowledge. However, the rules say to generate from the content provided. Since the content is just the title, maybe the assistant is supposed to use common knowledge about the Black Death. But the user might have intended that the context is a specific text they provided earlier, but in this case, it's not here. 
+
+This is a bit confusing. But given the user's instruction, I'll proceed with general knowledge about the Black Death, assuming that the context refers to the topic itself. I'll make sure the answers are accurate based on historical facts about the Black Death.
+
+Now, let me draft the questions and answers:
+
+1. What was the primary cause of the Black Death? (Answer: Yersinia pestis bacterium)
+2. How was the disease primarily transmitted? (Answer: Fleas on rats)
+3. What were the main symptoms? (Answer: Buboes, fever, chills)
+4. What was the impact on Europe's population? (Answer: Millions died, leading to labor shortages)
+5. What were some incorrect theories about the cause? (Answer: Miasma, divine punishment)
+6. What treatments were commonly used? (Answer: Bloodletting, herbal remedies)
+7. What are the three forms of the disease? (Answer: Bubonic, septicemic, pneumonic)
+8. How did the pandemic affect society? (Answer: Persecution of minorities, social upheaval)
+9. What role did rats play in the spread? (Answer: Hosts for fleas that transmitted the bacteria)
+10. What was the long-term effect on Europe? (Answer: Decline of feudalism, changes in labor systems)
+
+Now, translating these into Portuguese, making sure the questions are clear and the answers are correct. Also, checking for repetition and ensuring each question is unique. Let me verify each point against historical facts to ensure accuracy.
+</think>
+
+[
+  {
+    "pergunta": "Qual era a principal causa da Peste Negra?",
+    "resposta": "A bactéria Yersinia pestis."
+  },
+  {
+    "pergunta": "Como a doença era principalmente transmitida?",
+    "resposta": "Por pulgas que viviam em ratos."
+  },
+  {
+    "pergunta": "Quais eram os sintomas principais da Peste Negra?",
+    "resposta": "Inchaços nos gânglios, febre alta e calafrios."
+  },
+  {
+    "pergunta": "Qual foi o impacto da Peste Negra na população europeia?",
+    "resposta": "Estimativa de 30% a 60% da população morreu."
+  },
+  {
+    "pergunta": "Quais teorias errôneas existiam sobre a causa da doença?",
+    "resposta": "Acredita-se que o ar impuro (miasma) ou punições divinas a causassem."
+  },
+  {
+    "pergunta": "Quais tratamentos eram comuns na época?",
+    "resposta": "Sangria e remédios herbais, embora ineficazes."
+  },
+  {
+    "pergunta": "Quais são as três formas da Peste Negra?",
+    "resposta": "Bubônica, septicêmica e pneumônica."
+  },
+  {
+    "pergunta": "Como a pandemia afetou a sociedade europeia?",
+    "resposta": "Perseguição de minorias, como judeus, e mudanças na estrutura social."
+  },
+  {
+    "pergunta": "Qual foi o papel dos ratos na propagação da doença?",
+    "resposta": "Eram hospedeiros das pulgas que transmitiam a bactéria."
+  },
+  {
+    "pergunta": "Qual foi o efeito de longo prazo da Peste Negra na Europa?",
+    "resposta": "Decréscimo do feudalismo e transformações na economia e trabalho."
+  }
+]

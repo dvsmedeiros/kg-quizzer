@@ -1,0 +1,89 @@
+<think>
+Okay, so I've been given this task to generate 10 question and answer pairs based on the provided context about the Yuan dynasty. Let me try to break down how I can approach this.
+
+First, I need to thoroughly understand the context and the facts provided. The Yuan dynasty was established by Kublai Khan in 1271, and it's a Mongol-led dynasty that ruled China. Looking at the facts, there are details about its start year, capital cities, leaders, related events like battles, temples established during this period, and even some information about the currency used.
+
+Now, I need to come up with varied questions covering different aspects of this context. Each question should have a clear answer derived directly from the provided data. Let's go through each fact and see how it can translate into a question.
+
+1. **Yuan dynasty possui anos 1271**: This tells me that the Yuan dynasty began in 1271. So, a natural question here is about when it was established.
+
+2. **Capital Shangdu e Khanbaliq (Daidu)**: The dynasty had two capitals. I can create a question asking which cities served as capitals.
+
+3. **Líder Toghon Temür**: This fact gives the name of one of the leaders, so a question about who was a notable leader fits here.
+
+4. **Moeda Cash (Chinese coin)**: This indicates what kind of currency they used, leading to a question about their monetary system.
+
+5. **Eventos: Battle of Yamen e Battle of Lake Poyang**: These battles are mentioned as events related to the Yuan dynasty. A question about significant military conflicts would be appropriate.
+
+6. **Templos estabelecidos: Haihui Temple, Xiyuan Temple, Puji Temple**: Temples were established during their rule. This can lead to a question about religious sites from that period.
+
+7. **Religiões seguidas**: The Yuan dynasty followed various religions, which allows for a question about their religious practices.
+
+8. **Dissolução em 1368**: The end year of the dynasty is given, so a question about when it fell would be suitable.
+
+9. **Yuan dynasty teve início com Kublai Khan**: This fact ties back to the founder and the start of the dynasty, but since I already used the establishment year, maybe another angle like who established it or their role.
+
+10. **Categoria do Yuan dynasty como um país**: The type information can lead to a question about how they are classified historically.
+
+Now, I need to ensure that each question is unique and covers different aspects without overlap. Also, each answer should be precise and directly tied to the context provided.
+
+Let me draft these out:
+
+1. When was the Yuan dynasty established? → 1271
+2. What were the capitals of the Yuan dynasty? → Shangdu and Khanbaliq (Daidu)
+3. Who was a notable leader of the Yuan dynasty? → Toghon Temür
+4. What type of currency did the Yuan dynasty use? → Cash coins
+5. Which major battles were associated with the Yuan dynasty? → Battle of Yamen and Battle of Lake Poyang
+6. Name two temples established during the Yuan dynasty. → Haihui Temple, Xiyuan Temple, or Puji Temple
+7. What religions did the Yuan dynasty follow? → Buddhism, Mongolian Tengrism, Shamanism, etc.
+8. When did the Yuan dynasty end? → 1368
+9. Who was responsible for establishing the Yuan dynasty as a major power? → Kublai Khan
+10. How is the Yuan dynasty categorized historically? → As a former country in East Asia
+
+I think these cover different areas: establishment, governance, economy, military, culture, religion, and decline. Each question is distinct and pulls information from various parts of the context. Now, I'll format them into JSON as required.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em qual ano a dinastia Yuan foi estabelecida?",
+    "resposta": "1271"
+  },
+  {
+    "pergunta": "Quais cidades serviram como capitais da dinastia Yuan?",
+    "resposta": "Shangdu e Khanbaliq (Daidu)"
+  },
+  {
+    "pergunta": "Qual foi um líder notável da dinastia Yuan?",
+    "resposta": "Toghon Temür"
+  },
+  {
+    "pergunta": "Que tipo de moeda a dinastia Yuan utilizava?",
+    "resposta": "Cash coins"
+  },
+  {
+    "pergunta": "Quais batalhas importantes estão associadas à dinastia Yuan?",
+    "resposta": "Battle of Yamen e Battle of Lake Poyang"
+  },
+  {
+    "pergunta": "Nomeie dois templos estabelecidos durante a dinastia Yuan.",
+    "resposta": "Haihui Temple, Xiyuan Temple ou Puji Temple"
+  },
+  {
+    "pergunta": "Quais religiões a dinastia Yuan seguiu?",
+    "resposta": "Buddhism, Mongolian Tengrism, Shamanism, Taoism, Confucianism, Chinese folk religion, Nestorian Christianity, Roman Catholic Christianity, Judaism, Manichaeism e Islam"
+  },
+  {
+    "pergunta": "Em qual ano a dinastia Yuan terminou?",
+    "resposta": "1368"
+  },
+  {
+    "pergunta": "Quem foi responsável por estabelecer a dinastia Yuan como uma grande potência?",
+    "resposta": "Kublai Khan"
+  },
+  {
+    "pergunta": "Como a dinastia Yuan é categorizada historicamente?",
+    "resposta": "Como um país anterior na Ásia Oriental"
+  }
+]
+```

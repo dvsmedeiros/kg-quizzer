@@ -1,0 +1,70 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the context provided, which is "Teoria da complexidade computacional." Let me start by recalling the key concepts in computational complexity theory. 
+
+First, I remember that computational complexity theory studies the resources required to solve computational problems, mainly time and space. So maybe the first question could be about what the theory studies. The answer would mention resources like time and space.
+
+Next, the classes P and NP are fundamental. I can ask what P stands for and explain that it's the class of problems solvable in polynomial time by a deterministic Turing machine. Then, NP would be problems where a solution can be verified in polynomial time. 
+
+Another important concept is NP-completeness. I can ask which problems are considered NP-complete and mention examples like the traveling salesman problem. 
+
+The P vs NP problem is a major unsolved question. A question about that would be good, with the answer stating that it's unknown whether P equals NP. 
+
+Reductions are another key topic. I can create a question about what polynomial-time reductions are used for, explaining they're used to show that one problem is at least as hard as another. 
+
+Space complexity classes like PSPACE come to mind. A question about PSPACE and its relation to other classes would be appropriate. 
+
+The time hierarchy theorem is also a topic. I can ask about its purpose, which is to separate complexity classes based on time. 
+
+Cobham's thesis relates to the idea that problems in P are tractable. A question on that would be useful. 
+
+Interactive proofs and their classes like IP might be another area. However, since the context is computational complexity theory, maybe sticking to more foundational topics is better. 
+
+Lastly, the concept of NP-hardness. A question asking which problems are NP-hard, with an example like the halting problem. 
+
+Wait, I need to ensure that each question is unique and covers different aspects. Let me check if I have 10 distinct topics. P and NP definitions, NP-completeness, P vs NP problem, reductions, space complexity, time hierarchy theorem, Cobham's thesis, and maybe the classes L and NL. Oh, I might have missed some. Let me adjust to cover more areas without repetition. 
+
+Okay, let me list out the 10 points again to make sure they're all distinct and based on the context. Each answer should be derived directly from the theory, without any assumptions beyond the given context. I need to be careful not to add any external information. Let me finalize the list now.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o objetivo principal da Teoria da Complexidade Computacional?",
+    "resposta": "Estudar os recursos computacionais necessários para resolver problemas, como tempo e espaço."
+  },
+  {
+    "pergunta": "O que define a classe P na Teoria da Complexidade?",
+    "resposta": "Problemas que podem ser resolvidos em tempo polinomial por uma máquina de Turing determinística."
+  },
+  {
+    "pergunta": "Quais problemas são classificados como NP?",
+    "resposta": "Problemas para os quais uma solução pode ser verificada em tempo polinomial por uma máquina de Turing determinística."
+  },
+  {
+    "pergunta": "O que caracteriza um problema NP-completo?",
+    "resposta": "Um problema que está em NP e a todos os problemas em NP podem ser reduzidos em tempo polinomial."
+  },
+  {
+    "pergunta": "Qual é a relação entre P e NP?",
+    "resposta": "P é um subconjunto de NP, mas é desconhecido se P é igual a NP."
+  },
+  {
+    "pergunta": "O que são reduções polinomiais?",
+    "resposta": "Técnicas usadas para mostrar que um problema é pelo menos tão difícil quanto outro."
+  },
+  {
+    "pergunta": "Qual é a importância do teorema da hierarquia de tempo?",
+    "resposta": "Demonstra que classes de complexidade diferentes baseadas no tempo são disjuntas."
+  },
+  {
+    "pergunta": "O que é a classe PSPACE?",
+    "resposta": "Conjunto de problemas solúveis com um espaço polinomial em uma máquina de Turing determinística."
+  },
+  {
+    "pergunta": "Como a hipótese de Cobham se relaciona com a classe P?",
+    "resposta": "Afirma que problemas em P são considerados tractáveis, enquanto problemas fora de P são intractáveis."
+  },
+  {
+    "pergunta": "Quais problemas são exemplos clássicos de NP-completos?",
+    "resposta": "O problema do caixeiro-viajante e o problema de satisfatibilidade booleana (SAT)."
+  }
+]

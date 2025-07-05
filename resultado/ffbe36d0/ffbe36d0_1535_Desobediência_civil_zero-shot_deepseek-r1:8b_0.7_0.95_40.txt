@@ -1,0 +1,74 @@
+<think>
+Okay, so I have this task where I need to generate 10 pairs of questions and correct answers based on the given context about civil disobedience. The user provided a JSON example with 10 entries, each containing a question and its answer. My job is to create similar pairs but starting from scratch, without looking at the previous examples.
+
+First, I should understand the topic: civil disobedience. It's about people refusing to obey laws or authority, often for moral or political reasons. So, topics related to this would include motivations of those who commit civil disobedience, historical figures, consequences, and its impact on society.
+
+Let me brainstorm some potential questions. Maybe start with definitions to get the basics right. Then move on to causes, examples, consequences, and implications.
+
+1. **What is civil disobedience?** – The answer would be a concise definition, something like "the refusal to obey laws or follow orders given by a government or other authority."
+
+2. **Why might someone engage in civil disobedience?** – This could touch on moral beliefs, political reasons, or opposition to policies.
+
+3. **Who are some notable figures associated with civil disobedience?** – Names like Gandhi, Martin Luther King Jr., and Nelson Mandela come to mind as they used nonviolent resistance.
+
+4. **What are the possible consequences of civil disobedience?** – This could include legal penalties, fines, or even imprisonment, depending on the severity.
+
+5. **How does civil disobedience affect society?** – It can lead to social change, promote dialogue, or challenge existing power structures.
+
+6. **In what situations is civil disobedience justified?** – When laws are unjust or when they conflict with moral principles.
+
+7. **What is the relationship between civil disobedience and democracy?** – It can encourage accountability and reform within a democratic system.
+
+8. **Can civil disobedience be considered a form of protest?** – Yes, it's often used as a method of peaceful resistance to express dissent.
+
+9. **How does civil disobedience differ from other forms of protest?** – It specifically involves refusing to obey laws or authorities, unlike strikes or marches which are more about demanding change.
+
+10. **What are the potential downsides of engaging in civil disobedience?** – Risks include legal action, imprisonment, and negative public perception if the actions are seen as destructive.
+
+I think these cover a range of aspects from definition to impact. Now, I'll structure each pair with a clear question and a precise answer.
+</think>
+
+```json
+[
+  {
+    "pergunta": "What is civil disobedience?",
+    "resposta": "The refusal to obey laws or follow orders given by a government or other authority."
+  },
+  {
+    "pergunta": "Why might someone engage in civil disobedience?",
+    "resposta": "Due to moral beliefs, political reasons, or opposition to specific policies."
+  },
+  {
+    "pergunta": "Who are some notable figures associated with civil disobedience?",
+    "resposta": "Notable figures include Gandhi, Martin Luther King Jr., and Nelson Mandela."
+  },
+  {
+    "pergunta": "What are the possible consequences of civil disobedience?",
+    "resposta": "Possible consequences include legal penalties, fines, or imprisonment."
+  },
+  {
+    "pergunta": "How does civil disobedience affect society?",
+    "resposta": "It can lead to social change, promote dialogue, and challenge existing power structures."
+  },
+  {
+    "pergunta": "In what situations is civil disobedience justified?",
+    "resposta": "When laws are unjust or conflict with moral principles."
+  },
+  {
+    "pergunta": "What is the relationship between civil disobedience and democracy?",
+    "resposta": "It encourages accountability and reform within a democratic system."
+  },
+  {
+    "pergunta": "Can civil disobedience be considered a form of protest?",
+    "resposta": "Yes, it is often used as a method of peaceful resistance to express dissent."
+  },
+  {
+    "pergunta": "How does civil disobedience differ from other forms of protest?",
+    "resposta": "It involves refusing to obey laws or authorities, unlike strikes or marches."
+  },
+  {
+    "pergunta": "What are the potential downsides of engaging in civil disobedience?",
+    "resposta": "Risks include legal action, imprisonment, and negative public perception if actions are seen as destructive."
+  }
+]
+```

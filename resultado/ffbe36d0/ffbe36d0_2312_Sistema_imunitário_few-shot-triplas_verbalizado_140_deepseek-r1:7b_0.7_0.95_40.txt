@@ -1,0 +1,73 @@
+<think>
+Alright, I need to generate 10 pairs of questions and answers based on the provided context and facts about the immune system. The goal is to create varied questions that are all related to the immune system and have clear correct answers.
+
+First, I'll review the context to identify key concepts: what the immune system does, its components like T cells, B cells, macrophages, dendritic cells, natural killer cells, basophils, eosinophils, neutrophils; how it detects pathogens; its role in diseases like rheumatoid arthritis and diabetes type 1; and related biological processes such as the primary immune response.
+
+Now, I'll think of different aspects to cover. Maybe start with general questions about what the immune system protects against, then move on to specific components or functions, interactions between cells, and consequences of immune system issues like immunodeficiency or autoimmunity.
+
+I should ensure each question is unique and targets a different aspect without repeating topics. Each answer must be directly supported by the context provided.
+
+Let me list potential questions:
+
+1. What does the immune system protect against?
+2. Which part of the body houses macrophages?
+3. What detects pathogens in the body?
+4. What cells kill cancer cells?
+5. How do dendritic cells function?
+6. What is the primary response to a pathogen called?
+7. What causes immunodeficiency?
+8. What are T cells able to do?
+9. What happens when the immune system is overactive?
+10. What do natural killer cells target?
+
+Now, I'll match each question with its correct answer from the context.
+
+I need to make sure the answers accurately reflect the information given. For example, the primary response is called the adaptive immune response, and dendritic cells present antigens to T cells.
+
+Finally, I'll structure this into JSON format as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que o sistema imunológico protege os organismos contra?",
+    "resposta": "doenças."
+  },
+  {
+    "pergunta": "Qual é a parte do corpo que houses macrophages?",
+    "resposta": "tissues."
+  },
+  {
+    "pergunta": "O que o sistema imunológico detecta e distingui de seu próprio tecido saudável?",
+    "resposta": "patógenos."
+  },
+  {
+    "pergunta": "Qual é a principal responsabilidade das células T em relation com as câritas?",
+    "resposta": "kill cancer cells."
+  },
+  {
+    "pergunta": "O que fazem as células de dendrítico para ativar o imunossistema?",
+    "resposta": "present antigen to T cells."
+  },
+  {
+    "pergunta": "Qual é o termo para a resposta principal do sistema imunológico a um agente patogenético?",
+    "resposta": "Adaptive immune response."
+  },
+  {
+    "pergunta": "O que pode levar à imunodeficiência no ser humano?",
+    "resposta": " doença genética, condição adquirida como VIH/SIDA ou uso de imunossupressores."
+  },
+  {
+    "pergunta": "Qual é o primary immune response do sistema imunológico chamado por um agente patogenético?",
+    "resposta": "primária."
+  },
+  {
+    "pergunta": "O que é responsável por envolver e neutralizar as invasíveis no primary immune response?",
+    "resposta": "enzimas."
+  },
+  {
+    "pergunta": "Qual é o termo para a ativação do imunossistema que resulta em resposta humoral versus mediada por células?",
+    "resposta": "Immunodeficiência."
+  }
+]
+```

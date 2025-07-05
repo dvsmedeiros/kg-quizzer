@@ -1,0 +1,11 @@
+pergunta;resposta
+Qual é o nome do problema que pergunta se há uma solução para todo problema nas classes de complexidade como P ou NP?;O problema Known as the P vs NP problem.
+Qual classe de tempo inclui problemas solucionáveis por um algoritmo determinístico em tempo polynomialo?;A classe de complexidade P.
+O que significa NP em teoria da complexidade computacional?;NP stands for Non-deterministic Polynomial.
+Qual das seguintes não é uma classe de tempo: O(1), O(n), Ω(n), Θ(n)?;Nenhuma dessas, todas são classes de tempo.
+Qual é a importância do Princípio Pigeonhole na complexidade computacional?;Usado para provar limites inferiores em problemas como os da classe NP.
+Quais problemas são considerados NP-hard? Podem existir problemas NP-soft ou NP-hard?;Problemas NP-hard são aqueles que não podem ser solvidos por um algoritmo determinístico em tempo-polinomial. O termo NP-soft é inventado e não é usado.
+O que significa ter um problema na Complexidade Polinomial (PT) e como está relacionado à classe P?;Problemas de PT são aqueles que podem ser solvidos por algoritmos com tempo-polinomial, o que os coloca na classe P.
+Todas as classes P também são problemas NP? Explique.;Não. Problemas da classe P não necessariamente pertencem à classe NP, pois podem existir soluções não-determinísticas que não estão na NP.
+O que significa a diferença entre O(n) e Ω(n)? Pode um ser mais rápido do que o outro?;O(n) é uma função upper bound, enquanto Ω(n) é uma lower bound. Eles representam diferentes taxas de crescimento, onde não se pode dizer qual é mais rápida.
+"Qual das seguintes afirmações sobre classes de complexidade é correta: a) Todas as classes P são em O(1); b) Alguns problemas NP-completos têm soluções em tempo-polinomial; c) A NP é um superset da P?";a) Errada. b) Correta. c) Errada.

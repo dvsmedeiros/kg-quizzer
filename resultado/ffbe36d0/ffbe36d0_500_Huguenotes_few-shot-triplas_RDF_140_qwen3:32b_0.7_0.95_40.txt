@@ -1,0 +1,92 @@
+<think>
+Okay, let's tackle this. I need to generate 10 question-answer pairs based on the provided context and facts about the Huguenots. First, I'll read through the context carefully. The Huguenots were French Protestants during the 16th-century religious wars. They were mainly Calvinists, part of the Reformed Church. After Louis XIV's persecution and the revocation of the Edict of Nantes in 1685, about 300,000 left France. The Alsace, Moselle, and Montbéliard regions had Lutheran Protestants.
+
+Looking at the facts section, there's a mention of Camisards being a hypernym of Huguenots, but I'm not sure how relevant that is. There are also references to places named after Huguenots, like Huguenot in Orange County and Staten Island. The Scotch-Irish Americans are related. The DBpedia links might not be necessary for the questions as long as the context is covered.
+
+The examples given in the prompt include questions about location, numbers, wars, the Edict of Nantes, the term's origin, related political figures, and events. I need to avoid repeating similar questions. Let me brainstorm some unique aspects.
+
+Possible questions could be about the religion of Huguenots (Calvinist), the reason for their exodus (revocation of Edict of Nantes), the number who left (300,000), the year of the Edict's revocation (1685), the regions where they were from, the persecution under Louis XIV, the name of the religious wars (French Wars of Religion), their status as a religious group, the difference between Huguenots and other Protestants in certain regions (Alsace Lutherans), and their diaspora.
+
+I should check if all these points are covered in the context. The context mentions they were Calvinists and the Reformed Church, the 300k exodus, the revocation in 1685, and the Alsace regions being Lutheran. The French Wars of Religion are mentioned as the time frame. Louis XIV's persecution is noted. The diaspora is implied by their leaving France. The term Huguenot's origin as derogatory might be in the example, but I need to avoid that. The examples also mention the Edict of Nantes ending the wars in 1598. However, the context here doesn't specify the wars' duration, so maybe I shouldn't assume that. The examples might have different info than the current context. I should stick strictly to the context provided here.
+
+Wait, the context says "segunda metade do século XVI" which is late 16th century. So the French Wars of Religion were in that period. The example mentions 1562-1598, but the current context doesn't give dates. So maybe I can't ask about that unless it's in the facts. The facts don't mention dates for the wars, so I should avoid that. The Edict of Nantes was revoked in 1685, which is in the context. The persecution under Louis XIV is in the context. The Alsace regions' Protestantism is mentioned as Lutheran. The number of Huguenots leaving is 300,000. Their religious affiliation is Calvinist. The diaspora locations like Orange County and Staten Island are in the facts. Also, the Camisards are a hypernym, but not sure how to use that. Maybe not necessary for the questions.
+
+Let me list possible questions:
+
+1. Qual a religião principal dos Huguenotes?
+Resposta: Calvinismo/Igreja Reformada.
+
+2. Quantos Huguenotes deixaram a França após a revogação do Édito de Nantes?
+Resposta: 300.000.
+
+3. Em que data ocorreu a revogação do Édito de Nantes?
+Resposta: 18 de outubro de 1685.
+
+4. Qual foi o motivo principal da expulsão dos Huguenotes da França?
+Resposta: Perseguições sob Luís XIV e revogação do Édito de Nantes.
+
+5. Quais regiões da França tinham Protestantes Luteranos?
+Resposta: Alsácia, Moselle e Montbéliard.
+
+6. Qual o nome dado aos protestantes franceses durante as guerras religiosas do século XVI?
+Resposta: Huguenotes.
+
+7. Qual era a denominação religiosa dos Huguenotes?
+Resposta: Igreja Reformada.
+
+8. Quais lugares são nomeados em homenagem aos Huguenotes?
+Resposta: Huguenot em Orange County, Nova York, e Staten Island.
+
+9. Quem era o monarca francês responsável pela perseguição aos Huguenotes?
+Resposta: Luís XIV.
+
+10. Qual a diferença religiosa entre os Huguenotes e os Protestantes da Alsácia?
+Resposta: Os Huguenotes eram Calvinistas, enquanto os da Alsácia eram Luteranos.
+
+I need to make sure each question is unique and covers different aspects. The first one about their main religion, second the number, third the date of revocation, fourth the reason, fifth regions with Lutherans, sixth their name, seventh denomination, eighth places named after them, ninth the monarch, tenth the difference in denominations. That should cover the context and facts without repetition. The answers are all present in the given context and facts. Let me check each answer against the context to ensure accuracy.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual era a religião predominante dos Huguenotes?",
+    "resposta": "calvinismo"
+  },
+  {
+    "pergunta": "Quantos Huguenotes deixaram a França após a revogação do Édito de Nantes?",
+    "resposta": "300 000"
+  },
+  {
+    "pergunta": "Em que data ocorreu a revogação do Édito de Nantes?",
+    "resposta": "18 de outubro de 1685"
+  },
+  {
+    "pergunta": "Quais regiões da França tinham maioria de Protestantes Luteranos?",
+    "resposta": "Alsácia, Moselle e Montbéliard"
+  },
+  {
+    "pergunta": "Quem era o monarca francês responsável pelas perseguições aos Huguenotes?",
+    "resposta": "Luís XIV"
+  },
+  {
+    "pergunta": "Qual denominação religiosa pertenciam os Huguenotes?",
+    "resposta": "Igreja Reformada"
+  },
+  {
+    "pergunta": "Quais lugares são nomeados em homenagem aos Huguenotes nos Estados Unidos?",
+    "resposta": "Huguenot em Orange County, Nova York, e Staten Island"
+  },
+  {
+    "pergunta": "Qual grupo religioso era majoritário nos Huguenotes?",
+    "resposta": "Calvinistas"
+  },
+  {
+    "pergunta": "Qual foi o evento que levou à expulsão dos Huguenotes da França?",
+    "resposta": "revogação do Édito de Nantes"
+  },
+  {
+    "pergunta": "Qual a diferença religiosa entre os Huguenotes e os Protestantes da Alsácia?",
+    "resposta": "os Huguenotes eram Calvinistas, enquanto os da Alsácia eram Luteranos"
+  }
+]
+```

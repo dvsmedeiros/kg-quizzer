@@ -1,0 +1,127 @@
+<think>
+Okay, so I need to generate 10 pairs of questions and answers based on the given context about packet switching in computer networks. The user provided both a detailed explanation and some example questions, which should help me structure my approach.
+
+First, I'll read through the context thoroughly to understand the key points. The main idea is that packet switching contrasts with circuit switching. It optimizes bandwidth, minimizes latency, and increases robustness but introduces complexity and variability in service quality. There are two types: connection-oriented (like ATM) and connectionless (like IP). Important figures mentioned include Paul Baran, Donald Davies, and W. David Sincoskie.
+
+Looking at the examples provided, I notice that questions vary between asking about contributions, definitions, advantages, and characteristics. Each question has a clear answer based on the context. I need to make sure my questions are varied, covering different aspects without repeating similar ones.
+
+I should extract key facts from the context:
+- Packet switching is used for optimizing bandwidth, minimizing latency, and increasing robustness.
+- It contrasts with circuit switching.
+- Types: connection-oriented (e.g., ATM) vs. connectionless (e.g., IP).
+- Contributors include Paul Baran, Donald Davies, W. David Sincoskie.
+
+Now, I'll brainstorm possible questions:
+1. What is packet switching?
+2. What are the two types of packet switching?
+3. Who contributed to packet switching?
+4. What does packet switching optimize?
+5. How does it contrast with circuit switching?
+6. What's the advantage of connection-oriented vs. connectionless?
+7. Who named modern packet switching?
+8. What is jitter in this context?
+9. When was packet switching developed?
+10. What are its disadvantages?
+
+Wait, I need to ensure each question has a unique and correct answer from the context. Let me check each against the provided information.
+
+I should also make sure not to repeat similar questions. For example, if I ask about advantages in one question, I shouldn't have another that's too similar.
+
+Now, structuring each pair:
+
+1. "O que é a comutação de pacotes?" with answer from the first paragraph.
+2. "Quais são os dois tipos principais de comutação de pacotes?" referring to connection-oriented and connectionless.
+3. "Quem está associado ao desenvolvimento da comutação de pacotes?" mentioning Paul Baran, Donald Davies, W. David Sincoskie.
+4. "Qual é a vantagem principal da comutação de pacotes?" focusing on optimizing bandwidth and minimizing latency.
+5. "Como a comutação de pacotes se contrasta à comutação de circuitos?" explaining the difference in connection setup.
+6. "O que caracteriza a comutação de pacotes ligada a circuito virtual?" referring to fixed paths like ATM.
+7. "Quem cunhou o nome moderno de comutação de pacotes?" Donald Davies.
+8. "O que é introduzido pela comutação de pacotes sem ligação?" mentioning jitter and variable latency.
+9. "Qual ano foi lançada a imagem representativa NSFNET-traffic-visualization-1991.jpg?" looking for the date in facts, found 2009 but that might not be right; perhaps another approach needed.
+Wait, the context mentions Packet switching possui data 2009-08-01 and 2011-03-29. Maybe a question about when it was developed or images were added. Alternatively, I can ask about the image itself.
+
+Alternatively, since there's mention of images and URLs, perhaps a question about that: "Qual imagem é representativa da comutação de pacotes?" with answer as NSFNET-traffic-visualization-1991.jpg.
+
+But considering the examples given don't include such questions, maybe it's better to focus on technical aspects. Let me adjust.
+
+Revisiting point 9: Maybe ask about a specific feature or another contributor.
+
+Let me try again:
+
+1. What is packet switching?
+2. Types of packet switching.
+3. Contributors.
+4. Advantages.
+5. Contrasts with circuit switching.
+6. Characteristics of connection-oriented.
+7. Who named it modernly.
+8. Disadvantages (jitter, variable QoS).
+9. Specific use case or example technology.
+10. Benefits over circuit switching.
+
+Wait, I think the user's examples included questions about who contributed and what they did, so perhaps I can structure more around that.
+
+Let me outline 10 distinct questions:
+
+1. What is packet switching?
+2. What are its main advantages?
+3. How does it differ from circuit switching?
+4. What are the two types of packet switching?
+5. Who developed the concept of adaptive message block switching?
+6. Who named modern packet switching and inspired European networks?
+7. What is a disadvantage of packet switching?
+8. Which type ensures ordered delivery (connection-oriented)?
+9. What image represents it? (From facts)
+10. When was the page updated? (From data fields)
+
+Wait, but some questions might be too specific or not directly tied to the content. For example, the image and dates are part of the facts, so including them could make sense.
+
+Alternatively, perhaps focus on the technical aspects without getting into URLs or images unless necessary.
+
+I think I can proceed by creating 10 varied questions covering definitions, advantages, types, contributors, contrasts, characteristics, disadvantages, examples, and related figures.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é a comutação de pacotes?",
+    "resposta": "A comutação de pacotes é um paradigma de comunicação de dados em que os pacotes são individualmente encaminhados entre os nós da rede."
+  },
+  {
+    "pergunta": "Quais são as vantagens principais da comutação de pacotes?",
+    "resposta": "Optimiza o uso da largura de banda, minimiza a latência e aumenta a robustez da comunicação."
+  },
+  {
+    "pergunta": "Como a comutação de pacotes se contrasta à comutação de circuitos?",
+    "resposta": "A comutação de pacotes não estabelece uma ligação fixa, ao contrário da comutação de circuitos."
+  },
+  {
+    "pergunta": "Quais são os dois tipos principais de comutação de pacotes?",
+    "resposta": "Com ligação (circuito virtual) e sem ligação (datagrama)."
+  },
+  {
+    "pergunta": "Quem desenvolveu o conceito de Switching Adaptive Message Block?",
+    "resposta": "Paul Baran."
+  },
+  {
+    "pergunta": "Quem cunhou o nome moderno de comutação de pacotes e inspirou redes na Europa?",
+    "resposta": "Donald Davies."
+  },
+  {
+    "pergunta": "Qual é uma desvantagem da comutação de pacotes?",
+    "resposta": "Introduz jitter e atrasos variáveis."
+  },
+  {
+    "pergunta": "Qual tipo de comutação garante entrega ordenada de pacotes?",
+    "resposta": "Com ligação (circuito virtual)."
+  },
+  {
+    "pergunta": "Qual imagem é representativa da comutação de pacotes?",
+    "resposta": "NSFNET-traffic-visualization-1991.jpg."
+  },
+  {
+    "pergunta": "Quando foi atualizado o conteúdo sobre comutação de pacotes?",
+    "resposta": "2009-08-01 e 2011-03-29."
+  }
+]
+```

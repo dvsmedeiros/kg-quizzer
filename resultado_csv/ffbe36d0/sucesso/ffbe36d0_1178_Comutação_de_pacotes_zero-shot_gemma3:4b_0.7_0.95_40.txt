@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "pergunta": "Qual é o principal objetivo da comutação de pacotes?",
+    "resposta": "Transmitir dados em pequenos segmentos (pacotes) de forma eficiente e confiável."
+  },
+  {
+    "pergunta": "O que diferencia a comutação de pacotes da comutação de circuitos?",
+    "resposta": "A comutação de pacotes utiliza um canal compartilhado, enquanto a comutação de circuitos estabelece um canal dedicado."
+  },
+  {
+    "pergunta": "Em que se baseia a comutação de pacotes para garantir a entrega dos dados?",
+    "resposta": "Utiliza endereços de destino nos pacotes para roteamento e controle de erros."
+  },
+  {
+    "pergunta": "Qual a vantagem da comutação de pacotes em relação à comutação de circuitos em redes de alta demanda?",
+    "resposta": "Melhor utilização dos recursos da rede, permitindo que múltiplos usuários compartilhem o mesmo canal."
+  },
+  {
+    "pergunta": "O que acontece com os pacotes de dados em uma rede que utiliza comutação de pacotes?",
+    "resposta": "São divididos em pacotes menores, roteados individualmente e remontados no destino."
+  },
+  {
+    "pergunta": "Qual protocolo é fundamental para a comutação de pacotes em redes IP?",
+    "resposta": "IP (Internet Protocol)"
+  },
+  {
+    "pergunta": "O que significa 'roteamento' no contexto da comutação de pacotes?",
+    "resposta": "O processo de determinar o melhor caminho para um pacote de dados através da rede."
+  },
+  {
+    "pergunta": "Como a comutação de pacotes lida com erros que podem ocorrer durante a transmissão?",
+    "resposta": "Utiliza mecanismos de detecção e correção de erros, como checksums."
+  },
+  {
+    "pergunta": "Qual o principal benefício da comutação de pacotes em termos de flexibilidade de rede?",
+    "resposta": "Permite a adição e remoção de nós e dispositivos sem interromper a comunicação."
+  },
+  {
+    "pergunta": "O que são 'pacotes' na comutação de pacotes?",
+    "resposta": "Unidades de dados que contêm informações de endereçamento e dados a serem transmitidos."
+  }
+]
+```

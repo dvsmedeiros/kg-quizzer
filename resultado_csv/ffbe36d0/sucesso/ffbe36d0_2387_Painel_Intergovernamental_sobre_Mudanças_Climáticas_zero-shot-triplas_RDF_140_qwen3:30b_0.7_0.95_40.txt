@@ -1,0 +1,67 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts. Let me start by reading through the context carefully.
+
+The context talks about the IPCC, its establishment in 1988 by UNEP and WMO, its role in summarizing climate change knowledge, the fact that it doesn't do original research, and mentions some key people and documents. The facts include RDF data about the IPCC, its abbreviations, headquarters in Geneva, parent organizations, and some individuals associated with it.
+
+First, I need to make sure each question is unique and covers different aspects. Let me brainstorm possible questions:
+
+1. When was the IPCC established? (From the context: 1988)
+2. What is the main goal of the IPCC? (Sintetizar e divulgar conhecimento sobre mudanças climáticas)
+3. What organizations founded the IPCC? (UNEP and WMO)
+4. Does the IPCC conduct original research? (No, it summarizes existing research)
+5. How many major reports has the IPCC produced? (Five, with the last in 2014)
+6. What is the headquarters of the IPCC? (Geneva)
+7. Who are the parent organizations of the IPCC? (UNEP and WMO)
+8. What award did the IPCC receive in 2007? (Nobel Peace Prize)
+9. Who was the chair of the IPCC according to the facts? (Hoesung Lee)
+10. What is the abbreviation for the IPCC? (IPCC)
+
+Wait, the facts mention "ns1:abbreviation "IPCC"" and "ns2:abbreviation "IPCC"", so that's consistent. Also, the leaderName is Hoesung Lee. The parent organizations are UNEP and WMO.
+
+I need to check if all answers are explicitly in the context or can be inferred. For example, the first report was 1990, last in 2014. The number of reports is five. The headquarters is Geneva, Switzerland. The parent organizations are UNEP and WMO. The Nobel Prize in 2007. The chair is Hoesung Lee. The abbreviation is IPCC.
+
+I need to make sure each question is phrased clearly in Portuguese and the answers are correct. Also, avoid repeating similar questions. Let me structure them as per the JSON format.
+</think>
+
+[
+  {
+    "pergunta": "Em que ano o IPCC foi criado?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal do IPCC?",
+    "resposta": "Sintetizar e divulgar o conhecimento mais avançado sobre as mudanças climáticas, especificamente o aquecimento global, suas causas, efeitos e riscos."
+  },
+  {
+    "pergunta": "Quais organizações criaram o IPCC?",
+    "resposta": "O Programa das Nações Unidas para o Meio Ambiente (PNUMA) e a Organização Meteorológica Mundial (OMM)."
+  },
+  {
+    "pergunta": "O IPCC realiza pesquisas originais?",
+    "resposta": "Não, o IPCC não produz pesquisa original, mas reúne e resume o conhecimento produzido por cientistas independentes."
+  },
+  {
+    "pergunta": "Quantos grandes relatórios o IPCC produziu até 2014?",
+    "resposta": "Cinco grandes relatórios."
+  },
+  {
+    "pergunta": "Onde está sediado o IPCC?",
+    "resposta": "Geneva, Suíça."
+  },
+  {
+    "pergunta": "Quais são as organizações pai do IPCC?",
+    "resposta": "O Programa das Nações Unidas para o Meio Ambiente (PNUMA) e a Organização Meteorológica Mundial (OMM)."
+  },
+  {
+    "pergunta": "Qual prêmio o IPCC recebeu em 2007?",
+    "resposta": "Prêmio Nobel da Paz."
+  },
+  {
+    "pergunta": "Quem é o presidente do IPCC, segundo os dados fornecidos?",
+    "resposta": "Hoesung Lee."
+  },
+  {
+    "pergunta": "Qual é a abreviação do nome do IPCC?",
+    "resposta": "IPCC."
+  }
+]

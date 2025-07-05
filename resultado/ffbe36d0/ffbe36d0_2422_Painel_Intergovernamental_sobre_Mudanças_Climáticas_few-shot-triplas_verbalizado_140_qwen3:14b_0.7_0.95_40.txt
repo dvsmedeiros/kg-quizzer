@@ -1,0 +1,69 @@
+<think>
+Okay, let's see. I need to generate 10 question-answer pairs based on the provided context and facts. The user wants them in Portuguese, structured as JSON with each pair containing a question and a correct answer. The questions must be varied and cover different aspects of the information given. 
+
+First, I'll read through the context again. The IPCC was established in 1988 by the UN Environment Programme (PNUMA) and the World Meteorological Organization (OMM). Its main role is to synthesize scientific knowledge on climate change, and it's part of the UN. They've produced five major reports, the last in 2014. They received the Nobel Peace Prize in 2007.
+
+Now looking at the facts, there's a lot of metadata: types, categories, models used, people associated, etc. For example, the IPCC is headquartered in Geneva, Switzerland. It's part of the World Meteorological Organization and the UN Environment Programme. Some people linked to the IPCC include Filippo Giorgi, Julie Arblaster, Rajendra K. Pachauri, and others. It's abbreviated as IPCC, and the current chair is Hoesung Lee.
+
+I need to make sure the questions are varied. Let me start with the basics: when was the IPCC created, who established it, its purpose, where it's based, its role in policy-making, the Nobel Prize, number of reports, the chair, associated people, and maybe some specific details like the models used in Wikipedia pages.
+
+Check for repetition. The examples given by the user had questions about the UN organizations, the president, the Nobel Prize, etc. I need to avoid similar ones. Let me list possible questions:
+
+1. When was the IPCC created?
+2. Which organizations established the IPCC?
+3. What is the main objective of the IPCC?
+4. Where is the IPCC headquartered?
+5. Which prize did the IPCC win in 2007?
+6. How many major reports has the IPCC produced?
+7. Who is the current chair of the IPCC?
+8. Which organizations does the IPCC belong to?
+9. What is the abbreviation for the IPCC?
+10. Who are some scientists associated with the IPCC?
+
+Now, checking the facts again to ensure answers are accurate. For example, the creation date is 1988, established by PNUMA and OMM. The main objective is synthesizing and disseminating scientific knowledge. Headquarters in Geneva, Switzerland. Nobel Peace Prize in 2007. Five major reports. Current chair is Hoesung Lee. Belongs to WMO and UN Environment Programme. Abbreviation is IPCC. Scientists like Filippo Giorgi, Julie Arblaster, Rajendra Pachauri, etc.
+
+I need to make sure each answer is directly from the context or facts provided. Avoid any external knowledge. Also, ensure the JSON structure is correct, with proper commas and quotation marks. Each question and answer should be a separate object in the array.
+</think>
+
+[
+  {
+    "pergunta": "Quando o IPCC foi criado?",
+    "resposta": "em 1988"
+  },
+  {
+    "pergunta": "Quais organizações estabeleceram o IPCC?",
+    "resposta": "o Programa das Nações Unidas para o Meio Ambiente (PNUMA) e a Organização Meteorológica Mundial (OMM)"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal do IPCC?",
+    "resposta": "sintetizar e divulgar o conhecimento mais avançado sobre as mudanças climáticas"
+  },
+  {
+    "pergunta": "Onde está sediada a organização IPCC?",
+    "resposta": "Geneva, Switzerland"
+  },
+  {
+    "pergunta": "Que prêmio o IPCC recebeu em 2007?",
+    "resposta": "Prêmio Nobel da Paz"
+  },
+  {
+    "pergunta": "Quantos relatórios principais o IPCC produziu até 2014?",
+    "resposta": "cinco"
+  },
+  {
+    "pergunta": "Quem é o líder atual do IPCC?",
+    "resposta": "Hoesung Lee"
+  },
+  {
+    "pergunta": "Quais organizações-mãe o IPCC pertence?",
+    "resposta": "World Meteorological Organization e United Nations Environment Program"
+  },
+  {
+    "pergunta": "Qual é a abreviação do IPCC em inglês?",
+    "resposta": "IPCC"
+  },
+  {
+    "pergunta": "Quem são exemplos de cientistas associados ao IPCC?",
+    "resposta": "Filippo Giorgi, Julie Arblaster, Rajendra K. Pachauri"
+  }
+]

@@ -1,0 +1,69 @@
+<think>
+Okay, let's tackle this query. The user wants 10 question-answer pairs in JSON format based on the provided context and facts about civil disobedience. First, I need to parse the context and the facts given.
+
+The context explains that civil disobedience is a form of peaceful protest against unjust laws or oppressive governments, with mentions of Thoreau, Gandhi, and MLK. The facts list various movements and organizations that use civil disobedience, along with some Wikipedia templates and categories they're associated with.
+
+I need to create diverse questions covering different aspects. Let me brainstorm possible angles:
+
+1. **Definition and Origin**: Who formulated the concept? Answer would be Thoreau.
+2. **Historical Examples**: Which leaders used it? Gandhi and MLK.
+3. **Modern Applications**: Which recent protests used it? Like the 2021 End SARS memorial.
+4. **Categories and Topics**: What categories is it associated with? Like Activism by type.
+5. **Templates Used**: What Wikipedia templates are used? Like Template:Cite book.
+6. **Organizations**: Which organizations use civil disobedience? Ruckus Society, Sisters Uncut.
+7. **Movements**: Which social movements employed it? Civil rights movement.
+8. **Models and Concepts**: What's a hypernym? Refusal.
+9. **Geographical Examples**: Which countries had protests using it? Montenegro, Iran.
+10. **Associated Events**: Specific incidents like Billy Hughes egg-throwing.
+
+Now, check for repetition. Each question should be unique. Ensure answers are directly from the facts or context. Avoid vague questions. Let me verify each against the provided data to confirm accuracy.
+
+For example, "Quem formulou originalmente o conceito de desobediência civil?" is correct with Thoreau. Checking the facts, "Henry David Thoreau possui ideias notáveis Civil disobedience" supports this. Similarly, "Quais protestos recentes utilizaram desobediência civil?" The 2021 End SARS is listed. 
+
+Make sure all answers are explicit in the facts or context. Avoid making up information. The JSON structure should be strict, no extra fields. Align with the user's format requirements.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem formulou originalmente o conceito de desobediência civil?",
+    "resposta": "Henry David Thoreau"
+  },
+  {
+    "pergunta": "Quais líderes históricos aplicaram com sucesso a desobediência civil em seus movimentos?",
+    "resposta": "Mahatma Gandhi e Martin Luther King"
+  },
+  {
+    "pergunta": "Que modelo de página wiki é usado em artigos sobre desobediência civil?",
+    "resposta": "Template:Cite book"
+  },
+  {
+    "pergunta": "Qual protesto de 2021 utilizou a desobediência civil como método de resistência?",
+    "resposta": "2021 End SARS memorial protest"
+  },
+  {
+    "pergunta": "Qual categoria na Wikipédia está associada à desobediência civil?",
+    "resposta": "Category:Activism by type"
+  },
+  {
+    "pergunta": "Quais organizações modernas utilizam a desobediência civil como estratégia de ação?",
+    "resposta": "Ruckus Society e Sisters Uncut"
+  },
+  {
+    "pergunta": "Que movimento social nos Estados Unidos adotou a desobediência civil para combater a segregação racial?",
+    "resposta": "Movimento pelos Direitos Civis"
+  },
+  {
+    "pergunta": "Qual termo é um hiperônimo da desobediência civil?",
+    "resposta": "Refusal"
+  },
+  {
+    "pergunta": "Quais protestos em Montenegro utilizaram a desobediência civil como forma de contestação?",
+    "resposta": "2019 Montenegrin anti-corruption protests"
+  },
+  {
+    "pergunta": "Que evento histórico envolveu a desobediência civil em 2020 na Síria?",
+    "resposta": "Syrian Revolution Network"
+  }
+]
+```

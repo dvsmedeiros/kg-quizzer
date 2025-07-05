@@ -1,0 +1,60 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts about the Normans. First, I need to make sure I understand the context thoroughly. The Normans were a Germanic people in northern France, originally from Vikings. They were involved in key historical events like the Norman Conquest of England and the Crusades. The facts listed include various battles, castles, people, and other details.
+
+I need to create diverse questions covering different aspects. Let me start by listing possible areas: origins, key events, important figures, cultural aspects, related battles, architecture, and their influence. Each question should have a clear, correct answer from the given data.
+
+First question: Where were the Normans established? The answer is northern France. Next, their origin as Vikings. Then, a key event like the Norman Conquest of England. Another could be about the Sicilian and Italian states. The Crusades are another point. Then, architectural examples like motte-and-bailey castles. Battles like the Battle of Civitate. Notable figures like Richard of Salerno. Their languages, Old Norse and Latin. Also, the Bayeux Tapestry as a historical document. Lastly, their religious practices, Norse paganism and later Christianity.
+
+I need to ensure each question is unique and covers different aspects. Let me check the facts again to confirm the answers. For example, the Siege of Mahdia (1159–1160) had Normans as combatants. The Bayeux Tapestry is mentioned, so a question about that. The Hauteville family is listed as having Norman ethnicity. The Battle of Civitate is another key battle. Also, the languages they spoke, like Old Norse and Latin. Their religious shift from Norse paganism to Christianity. The use of motte-and-bailey castles like Dún Dealgan Motte. The Norman Conquests image. The House of Normandy is a model they use. Their relation to Jersey people. The Battle of Northam where they were combatants. The construction of Waytemore Castle by Normans.
+
+I need to structure each pair in JSON format, making sure there are exactly 10, each with distinct topics. Let me make sure not to repeat any questions and that all answers are directly from the provided data. Also, check that each answer is specific and correct. For example, the answer to "Which historical document depicts Norman conquests?" should be the Bayeux Tapestry. The answer to "Which battle in 1053 involved Normans?" is the Battle of Civitate. The answer to "What is the term for a key Norman castle type?" is motte-and-bailey. The answer to "Which family is known for Norman ethnicity?" is the Hauteville family. The answer to "Which model is associated with the Normans?" is House of Normandy. The answer to "Which religious shift did Normans undergo?" is from Norse paganism to Christianity. The answer to "What notable castle was built by Normans?" is Waytemore Castle. The answer to "What language did the Normans speak?" is Old Norse. The answer to "Which battle in 1066 was led by Normans?" is the Norman Conquest of England (though the specific battle might be the Battle of Hastings, but the given context mentions the Norman Conquest as a broader event). Wait, the context says "Conquista Normanda da Inglaterra" which is the Norman Conquest of England. The key battle there is Hastings, but the question is about the conquest itself. So the answer would be the Norman Conquest of England. 
+
+Let me verify each answer against the facts. For example, the Siege of Mahdia is listed as having Normans as combatants. The Bayeux Tapestry is mentioned as an image. The Hauteville family is under "etnia" as Normans. The Battle of Civitate is in the facts. The House of Normandy is a template used. The religious shift from Norse paganism to Christianity is in the facts. Waytemore Castle is built by Normans. The answer to the language question is Old Norse. The Battle of Hastings is part of the Norman Conquest. 
+
+I think that's 10. Let me count: 1. Established in, 2. Origin from, 3. Conquest of England, 4. States in Sicily and Italy, 5. Crusades, 6. Castle type, 7. Battle of Civitate, 8. Hauteville family, 9. Religious shift, 10. Waytemore Castle. That's 10. Each is distinct and based on the provided data. The answers are all present in the facts given. Alright, that should meet the user's requirements.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em qual região da Europa os normandos estabeleceram-se principalmente?",
+    "resposta": "Norte da França"
+  },
+  {
+    "pergunta": "De qual grupo étnico os normandos descendiam em grande parte?",
+    "resposta": "Viquingues"
+  },
+  {
+    "pergunta": "Qual foi uma das conquistas políticas mais famosas dos normandos?",
+    "resposta": "Conquista Normanda da Inglaterra"
+  },
+  {
+    "pergunta": "Quais regiões da Itália foram colonizadas pelos normandos?",
+    "resposta": "Sicília e sul da península Itálica"
+  },
+  {
+    "pergunta": "Em quais expedições os normandos participaram ativamente durante a Idade Média?",
+    "resposta": "Cruzadas"
+  },
+  {
+    "pergunta": "Qual tipo de fortificação é associado ao estilo arquitetônico normando?",
+    "resposta": "Castelo motte-and-bailey"
+  },
+  {
+    "pergunta": "Qual batalha em 1053 envolveu combates entre normandos e bizantinos?",
+    "resposta": "Batalha de Civitate"
+  },
+  {
+    "pergunta": "Qual família histórica é conhecida por sua origem normanda?",
+    "resposta": "Família Hauteville"
+  },
+  {
+    "pergunta": "Qual foi a transição religiosa principal dos normandos ao longo do tempo?",
+    "resposta": "Do paganismo nórdico para o cristianismo"
+  },
+  {
+    "pergunta": "Qual castelo, construído pelos normandos, está localizado em Cambria (Gales)?",
+    "resposta": "Waytemore Castle"
+  }
+]
+```

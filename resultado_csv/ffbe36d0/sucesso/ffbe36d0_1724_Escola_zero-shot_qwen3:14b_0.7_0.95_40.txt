@@ -1,0 +1,70 @@
+<think>
+Okay, let's see. The user wants me to generate 10 question-answer pairs based on the context provided, which is "Escola" (School). The output needs to be in JSON format with each pair having a question and a correct answer. All must be in Portuguese, and I have to make sure not to add any extra information.
+
+First, I need to think about different aspects of a school. What are the key elements related to a school? Maybe subjects taught, school activities, roles of people in a school, infrastructure, rules, etc. Since the context is quite broad, I need to ensure that each question covers a different aspect to avoid repetition.
+
+Let me brainstorm some possible questions. For example, "Quais são os principais objetivos de uma escola?" would be a good starting point. The answer could be about education, developing skills, preparing students for the future. That's from the context.
+
+Next, maybe a question about subjects taught. "Quais são algumas das disciplinas comuns em uma escola?" The answer could list subjects like Portuguese, Math, Science, etc.
+
+Another area is school activities. "Quais são exemplos de atividades extracurriculares em uma escola?" Answers might include sports, arts, clubs.
+
+Then, roles like teachers, students, administrators. "Quem é responsável por ensinar os alunos em uma escola?" Answer: Teachers.
+
+School infrastructure: "Quais são os espaços comuns encontrados em uma escola?" Answers could be classrooms, library, gym, etc.
+
+Rules and discipline: "O que define as regras de comportamento em uma escola?" Answer: Code of conduct or regulations.
+
+Inclusion and diversity: "Como a escola promove a inclusão de alunos com necessidades especiais?" Answers might involve adapted resources, support teachers, etc.
+
+Education levels: "Em quais níveis de ensino uma escola geralmente atua?" Answer: Elementary, middle, high school.
+
+School events: "Quais são eventos comuns organizados por uma escola?" Answers could be festivals, competitions, exams.
+
+Lastly, the role of parents: "Como os pais participam da vida escolar dos filhos?" Answers might include meetings, activities, communication with teachers.
+
+I need to check that each question is unique and covers different aspects. Also, ensure answers are directly from the context or can be inferred. Avoid any markdown and stick to the JSON structure. Let me compile these into the required format now.
+</think>
+
+[
+  {
+    "pergunta": "Quais são os principais objetivos de uma escola?",
+    "resposta": "A escola tem como objetivos principal a educação dos alunos, o desenvolvimento de habilidades cognitivas e sociais, e a preparação dos estudantes para o futuro profissional e pessoal."
+  },
+  {
+    "pergunta": "Quais são algumas das disciplinas comuns em uma escola?",
+    "resposta": "Disciplinas comuns em uma escola incluem português, matemática, ciências, história, geografia, inglês, educação física e artes."
+  },
+  {
+    "pergunta": "Quais são exemplos de atividades extracurriculares em uma escola?",
+    "resposta": "Atividades extracurriculares podem incluir esportes, clubes de teatro, música, robótica, voluntariado e competições acadêmicas."
+  },
+  {
+    "pergunta": "Quem é responsável por ensinar os alunos em uma escola?",
+    "resposta": "Os professores são responsáveis por ensinar os alunos em uma escola, transmitindo conhecimento e orientando o aprendizado."
+  },
+  {
+    "pergunta": "Quais são os espaços comuns encontrados em uma escola?",
+    "resposta": "Espaços comuns em uma escola incluem salas de aula, biblioteca, laboratórios, refeitório, quadra de esportes e secretaria."
+  },
+  {
+    "pergunta": "O que define as regras de comportamento em uma escola?",
+    "resposta": "As regras de comportamento em uma escola são definidas pelo regimento escolar, estabelecido pela diretoria e alinhado com as normas legais."
+  },
+  {
+    "pergunta": "Como a escola promove a inclusão de alunos com necessidades especiais?",
+    "resposta": "A escola promove a inclusão por meio de adaptações curriculares, recursos pedagógicos específicos e apoio de professores especializados."
+  },
+  {
+    "pergunta": "Em quais níveis de ensino uma escola geralmente atua?",
+    "resposta": "Uma escola geralmente atua em três níveis de ensino: ensino fundamental, ensino médio e, em alguns casos, educação infantil."
+  },
+  {
+    "pergunta": "Quais são eventos comuns organizados por uma escola?",
+    "resposta": "Eventos comuns organizados por uma escola incluem festas juninas, shows de encerramento, competições interclasse e dias de atividades culturais."
+  },
+  {
+    "pergunta": "Como os pais participam da vida escolar dos filhos?",
+    "resposta": "Os pais participam da vida escolar por meio de reuniões, atividades escolares, monitoramento do progresso dos filhos e cooperação com a equipe pedagógica."
+  }
+]

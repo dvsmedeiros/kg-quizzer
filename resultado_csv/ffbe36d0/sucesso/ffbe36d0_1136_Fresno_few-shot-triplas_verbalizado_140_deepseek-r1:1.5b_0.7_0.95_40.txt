@@ -1,0 +1,68 @@
+<think>
+Okay, let's see what I need to do here. The user has provided a context and facts about Fresno, California, including cities, towns, landmarks, sports teams, and events. They want me to generate 10 pairs of questions and answers where each pair is relevant and the response is correct.
+
+First, I should go through each piece of information given and identify possible questions that can be asked about Fresno. For example, questions could be about the fifth largest city in California, the distance between Fresno and Los Angeles, the significance of "Fresno" in Spanish, etc.
+
+I need to ensure that each question is varied and covers different aspects. I'll also have to make sure that the responses are explicit or inferred from the context provided. For example, knowing the population size directly answers the question about the number of residents.
+
+I should avoid repeating questions from the examples given. Each response must be unique and clear. Also, since the user wants JSON output with specific structures, I need to format each pair correctly.
+
+Let me list out possible questions:
+
+1. What is the fifth largest city in California?
+2. How far is Fresno from Los Angeles?
+3. What does "Fresno" mean in Spanish?
+4. Why was Fresno incorporated in 1872 and when it became a state?
+5. Who established Fresno County?
+
+I can start generating questions based on these points. I'll make sure each has a unique answer that directly relates to the facts provided.
+
+Wait, looking back at the example answers, some were about the distance being 350 km apart. I should follow similar patterns for consistency.
+
+Let me try structuring 10 different questions covering population, geography, history, sports teams, events, etc., each with a specific answer based on the given data.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual cidade é a quinta maior cidade da Califórnia?",
+    "resposta": "Fresno"
+  },
+  {
+    "pergunta": "Quanto é a distância entre Fresno e Los Angeles?",
+    "resposta": "350 km"
+  },
+  {
+    "pergunta": "O que o nome Fresno significa em espanhol?",
+    "resposta": "freixo"
+  },
+  {
+    "pergunta": "O que é destaque na bandeira da cidade de Fresno?",
+    "resposta": "folha de freixo"
+  },
+  {
+    "pergunta": "Como você pronuncia Fresno?",
+    "resposta": "(/ ˈfrɛznoʊ / FREZ-noh),"
+  },
+  {
+    "pergunta": "A Ferrovia do Pacífico Central estabeleceu uma estação para sua nova linha em que ano?",
+    "resposta": "1872,"
+  },
+  {
+    "pergunta": "Quais foram as razões pelas quais os moradores se mudaram para a cidade de Fresno Station?",
+    "resposta": "a conveniência da ferrovia eific swee...",
+  },
+  {
+    "pergunta": "Em que ano Fresno se tornou uma cidade incorporada?",
+    "resposta": "1885."
+  },
+  {
+    "pergunta": "Quantos bondes a Fresno Traction Company operava em 1931?",
+    "resposta": "47 bondes"
+  },
+  {
+    "pergunta": "Que entidade desencadeou o crescimento da estação de Fresno?",
+    "resposta": "loja"
+  }
+]
+```

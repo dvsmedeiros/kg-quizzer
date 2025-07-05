@@ -1,0 +1,66 @@
+<think>
+Okay, let's tackle this query. The user wants 10 question-answer pairs based on the provided context and facts. The context is about the definition and characteristics of an empire, while the facts include various entities and models related to imperialism.
+
+First, I need to ensure that the questions are varied and cover different aspects. The context explains what an empire is, so questions could be about definitions, characteristics, examples, and maybe some related terms. The facts mention things like Wolfgang Mommsen, models used in Wikipedia pages, parties with imperialist ideologies, and images associated with imperialism.
+
+I need to avoid repeating similar questions. Let me check the facts again. There's mention of different parties (Conservative Party of Canada, Alliance for National Reconstruction) having imperialism as their ideology. Also, there are models like Template:Cite encyclopedia, images like "Expansion of the Mongol Empire.svg," and books like "Culture and Imperialism."
+
+So, possible questions could be:
+1. What is the primary definition of an empire according to the context?
+2. Which political ideology is associated with the Conservative Party of Canada (1867–1942)?
+3. What is the main term used in the context to describe the Roman Empire's territory?
+4. Which model is used in the Wikipedia page for Imperialism for citing encyclopedias?
+5. What is a primary motivation behind the Herero and Namaqua genocide?
+6. What is the name of the book that discusses imperialism in a non-fictional context?
+7. Which image is associated with the expansion of the Mongol Empire?
+8. What is the primary subject category of the topic "Imperialism"?
+9. Which author is known for their work on imperialism?
+10. What is the main image used to represent the British Empire in 1921?
+
+I need to make sure each answer is directly from the context or facts provided. Let me verify each one against the given data. For example, the Conservative Party's ideology is imperialism, the Roman Empire's territory is Imperium Romanum, the model for citing encyclopedias is Template:Cite encyclopedia, the Herero and Namaqua genocide's motivation is imperialism, the book is "Culture and Imperialism," the image is Expansion of the Mongol Empire.svg, the subject category is Category:Imperialism, the author is Wolfgang Mommsen, and the image for the British Empire is British Empire 1921.png.
+
+That covers 10 distinct questions, each with a clear answer from the provided information. I should structure them into the required JSON format now.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a definição primária do termo 'império' conforme o contexto?",
+    "resposta": "Um território geográfico extenso, não necessariamente contíguo, governado por um soberano ou oligarquia, caracterizado por uma estrutura de poder com centro dominante e periferias subordinadas."
+  },
+  {
+    "pergunta": "Qual é a ideologia associada ao Conservative Party of Canada (1867–1942)?",
+    "resposta": "Imperialism."
+  },
+  {
+    "pergunta": "Qual é o termo usado no contexto para descrever o território do Império Romano?",
+    "resposta": "Imperium Romanum."
+  },
+  {
+    "pergunta": "Qual modelo de página wiki é usado para citar enciclopédias no artigo sobre Imperialism?",
+    "resposta": "Template:Cite encyclopedia."
+  },
+  {
+    "pergunta": "Qual é uma das principais motivações do Herero and Namaqua genocide?",
+    "resposta": "Imperialism."
+  },
+  {
+    "pergunta": "Qual livro discute o tema do Imperialism em um contexto não ficcional?",
+    "resposta": "Culture and Imperialism."
+  },
+  {
+    "pergunta": "Qual imagem está associada à expansão do Império Mongol?",
+    "resposta": "Expansion of the Mongol Empire.svg."
+  },
+  {
+    "pergunta": "Qual é a categoria principal de assunto para o termo 'Imperialism'?",
+    "resposta": "Category:Imperialism."
+  },
+  {
+    "pergunta": "Qual autor é conhecido por seus estudos sobre imperialism?",
+    "resposta": "Wolfgang Mommsen."
+  },
+  {
+    "pergunta": "Qual imagem representa o Império Britânico em 1921?",
+    "resposta": "British Empire 1921.png."
+  }
+]

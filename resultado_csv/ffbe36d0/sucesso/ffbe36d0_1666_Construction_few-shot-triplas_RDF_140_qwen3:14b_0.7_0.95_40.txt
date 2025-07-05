@@ -1,0 +1,64 @@
+<think>
+Okay, let's tackle this query. The user wants 10 question-answer pairs related to construction, using the provided examples and the data from the knowledge base. First, I need to understand the structure of the examples. Each question is about construction, and the answers are concise, sometimes using specific terms like "megaprojetos" or "planejamento eficaz."
+
+Looking at the knowledge base, there are a lot of entities related to construction companies and organizations. Maybe I can use those to create questions about companies involved in construction. For example, "Quais são exemplos de empresas envolvidas na construção de infraestrutura?" and the answer could list some of the companies mentioned like Skanska, Multiplex, etc.
+
+Also, the examples include questions about percentages of GDP, necessary elements for construction, and roles in construction projects. I can mirror that structure. For instance, a question about the percentage of GDP contributed by construction, which the example answer says "seis a nove por cento." But I need to check if that's accurate based on the data provided. Wait, the knowledge base mentions a template about countries with the largest construction Gross Value Added in 2018. Maybe that's where the percentage comes from. However, the user might expect the answer to be based on the data given, even if it's not explicitly stated. But since the example uses that percentage, I can follow that.
+
+Another angle is to use the hypernyms like "Shipbuilding" or "Theme Park World" being part of construction. So a question could be "Quais áreas são consideradas partes da construção?" with answers listing those hypernyms.
+
+Also, the data includes companies like Samsung Engineering, Serneke, Toyo Engineering, etc. So questions about which companies are involved in construction, or which countries have the largest construction sectors based on the template mentioned.
+
+I need to ensure that the answers are concise and directly related to the information in the knowledge base. For example, if the knowledge base lists companies, the answers should include those names. Also, the example answers sometimes use phrases from the data, like "planejamento, o projeto e o financiamento."
+
+I should avoid making up information not present in the knowledge base. For example, if the percentage of GDP is not explicitly mentioned, maybe I should avoid that unless the example uses it, which it does. The example answer "seis a nove por cento" is provided, so I can use that even if the knowledge base doesn't specify the exact percentage, but the example uses it. So perhaps the user expects that answer to be reused.
+
+Also, the data includes "List of countries with the largest construction Gross Value Added in 2018" as part of the title. So a question could be "Quais são os países com o maior valor agregado da construção em 2018?" with the answer referring to that list, even if the exact countries aren't listed. But the knowledge base mentions templates like BRA, JAP, RUS, etc., which might be country codes. So maybe the answer is "os países mencionados nos templates como BRA, JAP, RUS, SWE, etc."
+
+Another point is the templates used, like Template:BRA, which could be Brazil, so the answer could mention those countries.
+
+I need to generate 10 pairs, making sure each is unique and based on the provided data. Let me start listing possible questions and answers based on the examples and the knowledge base.
+</think>
+
+[
+  {
+    "pergunta": "Quais são exemplos de empresas que atuam no setor de construção?",
+    "resposta": "Skanska, Multiplex, Samsung Engineering, Serneke, Toyo Engineering, Tutor Perini, Técnicas Reunidas"
+  },
+  {
+    "pergunta": "Quais países possuem os maiores valores agregados da construção em 2018?",
+    "resposta": "Países mencionados nos templates como BRA (Brasil), JAP (Japão), RUS (Rússia), SWE (Suécia), entre outros"
+  },
+  {
+    "pergunta": "Quais áreas são consideradas partes da construção?",
+    "resposta": "Navio (Shipbuilding), Parque Temático (Theme Park World), Escadas (Stairs), Engenharia Civil (Civil Engineering)"
+  },
+  {
+    "pergunta": "Qual é o percentual do PIB global atribuído à construção?",
+    "resposta": "Seis a nove por cento"
+  },
+  {
+    "pergunta": "Quais são os três elementos fundamentais para a execução de um projeto de construção?",
+    "resposta": "Planejamento, projeto e financiamento"
+  },
+  {
+    "pergunta": "Quem é responsável por supervisionar a execução de um projeto de construção?",
+    "resposta": "Gerente de construção, engenheiro de design, engenheiro de construção ou gerente de projeto"
+  },
+  {
+    "pergunta": "Para quem a construção ocorre no local?",
+    "resposta": "Para um cliente conhecido"
+  },
+  {
+    "pergunta": "Quais são os requisitos que devem ser considerados em projetos de infraestrutura?",
+    "resposta": "Zoneamento, impacto ambiental, orçamento e logística"
+  },
+  {
+    "pergunta": "Como são chamados os maiores projetos de construção?",
+    "resposta": "Megaprojetos"
+  },
+  {
+    "pergunta": "Quem normalmente gerencia um trabalho de construção?",
+    "resposta": "Um arquiteto"
+  }
+]

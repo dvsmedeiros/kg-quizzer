@@ -1,0 +1,118 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers in Portuguese based on the given context and facts. The context is about packet switching in computer networks, and the facts are in RDF format with some DBpedia links.
+
+First, I need to make sure I understand the context thoroughly. The main points are the difference between packet switching and circuit switching, the advantages of packet switching like bandwidth optimization and robustness, the two types of packet switching (with and without connection), examples like ATM, Frame Relay, IP, and the key figures involved.
+
+Now, the facts part has some RDF data. I need to extract relevant information from there. For example, the individuals mentioned (Donald Davies, Paul Baran, etc.) are known for packet switching. Also, the resource for Packet_switching has various properties like date, URLs, and templates. But since the user wants answers based on the context provided, maybe the facts are more about the technical details rather than the people. However, the context does mention the pioneers, so maybe some questions can be about that.
+
+Wait, the user said to generate questions and answers exclusively from the provided content. The context is the main text, and the facts are additional data. But the facts are in RDF, which might not be directly useful unless they have specific information. For example, the facts mention that Donald Davies and Paul Baran are known for packet switching. So a question could be about who developed it, but the context doesn't mention them. Wait, the context says "No contexto de redes de computadores..." but the facts have those names. However, the user's instruction is to use the context and facts provided. So I need to check if the context includes those names. Let me check the context again.
+
+Looking at the context, it doesn't mention specific people like Donald Davies or Paul Baran. The context is about the concept of packet switching, its types, advantages, and examples. The facts section includes those names, but the user might want the questions based on the context text, not the RDF facts. But the user said "a partir do conteúdo fornecido", which includes both the context and the facts. Hmm, but the facts are in a different format. Maybe the facts are just additional data, but the main content is the context. So I should focus on the context text.
+
+So, the main points in the context are:
+
+- Packet switching vs. circuit switching.
+- Advantages: bandwidth optimization, latency reduction, robustness.
+- Disadvantages: complexity, jitter, variable QoS.
+- Techniques: statistical time division multiplexing.
+- Types: with connection (virtual circuit) and without (datagram).
+- Examples: ATM, Frame Relay, X.25 (with connection); IP (without).
+
+So possible questions could be:
+
+1. What is the main difference between packet switching and circuit switching?
+2. What are the advantages of packet switching?
+3. What is the disadvantage of packet switching?
+4. What is the purpose of statistical time division multiplexing in packet switching?
+5. What are the two types of packet switching?
+6. Give an example of a packet switching method with a connection.
+7. Give an example of a packet switching method without a connection.
+8. What is the main advantage of virtual circuit packet switching?
+9. How does datagram packet switching handle network failures?
+10. What is the role of the address in datagram packet switching?
+
+Now, I need to make sure each question is in Portuguese and the answers are based on the context. Also, avoid repetition. Let me check the context again to confirm the answers.
+
+For example, the answer to question 1 would be that circuit switching establishes a dedicated connection, while packet switching uses shared links. The answer to question 2 would be optimizing bandwidth, reducing latency, increasing robustness. The answer to question 3 would be complexity, jitter, variable QoS. The answer to question 4 is using statistical time division multiplexing to optimize resources. The two types are with connection (virtual circuit) and without (datagram). Examples: ATM, Frame Relay, X.25 for with connection; IP for without. The advantage of virtual circuit is guaranteed delivery and ordered packets. Datagram is flexible and robust, adjusting to link failures. The address is needed in datagram to route each packet.
+
+I need to structure these into 10 pairs, ensuring they are varied and cover different aspects. Also, check for any possible overlaps. For example, not asking about the same example twice. Also, make sure the answers are concise and directly from the context.
+
+Now, translating the questions and answers into Portuguese. For example:
+
+1. Qual é a principal diferença entre comutação de pacotes e comutação de circuitos?
+   Resposta: A comutação de circuitos estabelece uma ligação dedicada entre os nós, enquanto a comutação de pacotes utiliza ligações compartilhadas.
+
+2. Quais são as vantagens da comutação de pacotes?
+   Resposta: Otimizar o uso da largura de banda, minimizar a latência e aumentar a robustez da comunicação.
+
+3. Quais são os desvantagens da comutação de pacotes?
+   Resposta: Maior complexidade, variação na qualidade de serviço, jitter e atrasos variados.
+
+4. Qual é o propósito da multiplexação temporal estatística na comutação de pacotes?
+   Resposta: Utilizar melhor os recursos da rede.
+
+5. Quais são os dois tipos de comutação de pacotes?
+   Resposta: Com ligação (circuito virtual) e sem ligação (datagrama).
+
+6. Dê um exemplo de método de comutação de pacotes com ligação.
+   Resposta: ATM (comutação de células), Frame Relay e X.25.
+
+7. Dê um exemplo de método de comutação de pacotes sem ligação.
+   Resposta: Endereço IP.
+
+8. Qual é a principal vantagem da comutação de pacotes com ligação?
+   Resposta: Oferece a garantia de entrega dos pacotes e de uma forma ordenada.
+
+9. Como a comutação de pacotes sem ligação lida com falhas na rede?
+   Resposta: A rede pode reajustar-se mediante a quebra de um link de transmissão de dados.
+
+10. Qual é o papel do endereço na comutação de pacotes sem ligação?
+    Resposta: É necessário enviar-se sempre o endereço de origem.
+
+I need to check if all answers are directly from the context. For example, the answer to question 7: "Endereço IP" is in the context, which says "Ex: endereço IP." So that's correct. Similarly, the other answers are based on the context. Also, ensure that the questions are varied and not repeating the same points. Looks like each question covers a different aspect: differences, advantages, disadvantages, types, examples, specific features like address in datagram, etc.
+
+Now, format this into JSON as specified, without any extra text. Make sure the JSON is valid, with proper commas and brackets. Check for 10 pairs.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a principal diferença entre comutação de pacotes e comutação de circuitos?",
+    "resposta": "A comutação de circuitos estabelece uma ligação dedicada entre os nós, enquanto a comutação de pacotes utiliza ligações compartilhadas."
+  },
+  {
+    "pergunta": "Quais são as vantagens da comutação de pacotes?",
+    "resposta": "Otimizar o uso da largura de banda, minimizar a latência e aumentar a robustez da comunicação."
+  },
+  {
+    "pergunta": "Quais são os desafios da comutação de pacotes?",
+    "resposta": "Maior complexidade, variação na qualidade de serviço, jitter e atrasos variados."
+  },
+  {
+    "pergunta": "Qual é o objetivo da multiplexação temporal estatística na comutação de pacotes?",
+    "resposta": "Utilizar melhor os recursos da rede."
+  },
+  {
+    "pergunta": "Quais são os dois tipos de comutação de pacotes?",
+    "resposta": "Com ligação (circuito virtual) e sem ligação (datagrama)."
+  },
+  {
+    "pergunta": "Dê um exemplo de comutação de pacotes com ligação.",
+    "resposta": "ATM (comutação de células), Frame Relay e X.25."
+  },
+  {
+    "pergunta": "Dê um exemplo de comutação de pacotes sem ligação.",
+    "resposta": "Endereço IP."
+  },
+  {
+    "pergunta": "Qual é a vantagem da comutação de pacotes com ligação?",
+    "resposta": "Oferece a garantia de entrega dos pacotes e de uma forma ordenada."
+  },
+  {
+    "pergunta": "Como a comutação de pacotes sem ligação lida com falhas na rede?",
+    "resposta": "A rede pode reajustar-se mediante a quebra de um link de transmissão de dados."
+  },
+  {
+    "pergunta": "Qual é a função do endereço na comutação de pacotes sem ligação?",
+    "resposta": "É necessário enviar-se sempre o endereço de origem."
+  }
+]

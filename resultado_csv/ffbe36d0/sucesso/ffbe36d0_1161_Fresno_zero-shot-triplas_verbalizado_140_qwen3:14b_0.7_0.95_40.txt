@@ -1,0 +1,88 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts. First, I need to make sure I understand the requirements. The questions must be in Portuguese, each with a single correct answer derived from the given information. No markdown, just JSON. Also, the questions should be varied and cover different aspects of the content.
+
+Looking at the context: Fresno is the fifth most populous city in California, incorporated in 1885, population over 542k as of 2020. Then there's a list of facts including people born or died there, sports teams, radio stations, coordinates, government type, area code, etc.
+
+I need to create questions that use different parts of this data. Let's start with the basics. The first question could be about the population rank. Then maybe the incorporation date. The area code is 559, so that's another point. The government type is Strong Mayor. Then, the coordinates. Also, the number of people born in Fresno, like Adam Prentice, Floyd H. Hyde, etc. There's also the radio stations like KRDU and KZOF. The sports teams, like the 2021 New Mexico Lobos football team. The total area of Fresno is 300.438... square kilometers. And the type of settlement is listed as "List of municipalities in California".
+
+Wait, I need to make sure each answer is directly from the text. For example, the population is 542k, the incorporation date is 1885, area code 559, government type Strong Mayor, coordinates 36.75 -119.76666666666667, total area 300.438..., and the number of people born there. Also, the sports teams and radio stations. But I need to ensure that each question is unique and covers different aspects.
+
+Let me check for duplicates. For example, there are multiple people mentioned, but each person is a different name. So asking about specific individuals born or died there could be separate questions. But maybe the user wants to avoid too many similar questions. The user said to avoid similar questions, so I should vary the topics: population, history, government, geography, people, sports, radio stations, area code, etc.
+
+So, I'll structure the questions to cover different categories. Let's list them:
+
+1. Population rank (5th)
+2. Incorporation year (1885)
+3. Area code (559)
+4. Government type (Strong Mayor)
+5. Coordinates
+6. Total area
+7. Number of people born in Fresno (like Adam Prentice, Floyd H. Hyde, etc.)
+8. Radio station (KRDU)
+9. Sports team (2021 New Mexico Lobos)
+10. Type of settlement (List of municipalities in California)
+
+Wait, the context mentions "List of municipalities in California" as the type of settlement. That's a good point. Also, the population is over 542k. But the user wants exactly 10 pairs. Let me count the facts again to ensure I'm not missing any.
+
+Also, the facts include multiple radio stations, sports teams, and people. Each of these can be separate questions. However, to avoid repetition, maybe focus on the most unique ones. For example, the area code is a key fact, the government type, coordinates, total area, and the number of people born there. Then, the sports teams and radio stations can be specific examples.
+
+I need to make sure each answer is correct. For example, the area code is 559, the government is Strong Mayor, coordinates are 36.75 and -119.76666666666667. The total area is 300.438... square kilometers. The type of settlement is "List of municipalities in California". The number of people born there is multiple, but the exact number isn't given. Wait, the context doesn't mention how many people were born in Fresno, only specific names. So maybe that's not a good question. Instead, maybe ask about specific people born there, like Adam Prentice.
+
+So, perhaps each question should focus on a specific fact. For example:
+
+- "Quem nasceu em Fresno, Califórnia, e é mencionado nos fatos?" with an answer like "Adam Prentice".
+- "Qual é o código de área de Fresno, Califórnia?" with "559".
+- "Qual é o tipo de governo de Fresno, Califórnia?" with "Strong Mayor".
+- "Quais são as coordenadas geográficas de Fresno, Califórnia?" with "36.75 -119.76666666666667".
+- "Qual é a área total de Fresno, Califórnia, em quilômetros quadrados?" with "300.438620798976".
+- "Qual é a 34ª cidade mais populosa dos Estados Unidos, segundo o censo de 2020?" with "Fresno".
+- "Qual é o nome de um dos times esportivos mencionados que está localizado em Fresno, Califórnia?" with "2021 New Mexico Lobos football team".
+- "Quem morreu em Fresno, Califórnia, e é mencionado nos fatos?" with "George N. Zenovich".
+- "Qual é o modelo de página wiki usado por Fresno, Califórnia?" with "Template:California cities and mayors of 100,000 population".
+- "Qual é o tipo de assentamento de Fresno, Califórnia?" with "List of municipalities in California".
+
+That should cover different aspects. Now, I need to ensure that each answer is directly from the text and that the questions are varied. Let me check each one against the provided context and facts to confirm accuracy.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a população de Fresno, Califórnia, segundo o censo de 2020?",
+    "resposta": "Mais de 542 mil habitantes"
+  },
+  {
+    "pergunta": "Em que ano Fresno, Califórnia, foi incorporada?",
+    "resposta": "12 de outubro de 1885"
+  },
+  {
+    "pergunta": "Qual é o código de área de Fresno, Califórnia?",
+    "resposta": "559"
+  },
+  {
+    "pergunta": "Qual é o tipo de governo de Fresno, Califórnia?",
+    "resposta": "Strong Mayor"
+  },
+  {
+    "pergunta": "Quais são as coordenadas geográficas de Fresno, Califórnia?",
+    "resposta": "36.75 -119.76666666666667"
+  },
+  {
+    "pergunta": "Qual é a área total de Fresno, Califórnia, em quilômetros quadrados?",
+    "resposta": "300.438620798976"
+  },
+  {
+    "pergunta": "Qual é o nome de uma das pessoas mencionadas nos fatos que nasceu em Fresno, Califórnia?",
+    "resposta": "Adam Prentice"
+  },
+  {
+    "pergunta": "Qual é o nome de uma das rádios mencionadas que opera em Fresno, Califórnia?",
+    "resposta": "KRDU"
+  },
+  {
+    "pergunta": "Qual é o nome de um dos times esportivos mencionados que está localizado em Fresno, Califórnia?",
+    "resposta": "2021 New Mexico Lobos football team"
+  },
+  {
+    "pergunta": "Qual é o tipo de assentamento de Fresno, Califórnia?",
+    "resposta": "List of municipalities in California"
+  }
+]

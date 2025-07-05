@@ -1,0 +1,71 @@
+<think>
+Ok, então preciso ajudar o usuário a geração de 10 perguntas e respostas sobre ctenóforos baseadas no contexto fornecido. Primeiro, vou olhar para todo o conteúdo disponibilizado para entender melhor o que está relacionado.
+
+O contexto mainly fala sobre o ctenóforo, também conhecido como geileiras de pente, que são animais marinhos, majormente planctónicos e bentónicos. Eles são bioluminescentes e usam pentes formados por cílios para nadar. Além disso, menciona a sua semelhança com medusas mas afirma que é mais uma convergência evolutiva do que um relacionamento filogenético próximo com os Cnidaria.
+
+Os fatos fornecidos incluem links para DBpedia que podem ajudar a obter informações adicionais sobre a classificação biológica, subclasses, e outros termos relacionados. Por exemplo, o ctenóforo é um Filo de animais (Reino Animal), pertence a Coelenterata (Clase Coeloplana) e também à Subclasse Vallicula.
+
+Para geração das perguntas, preciso criar 10 questions variadas que cobram diferentes aspectos do contexto. As respostas devem ser únicas e explícitas ou inferíveis a partir do conteúdo.
+
+Vou começar listando os principais pontos da info:
+- Definição de ctenóforo
+- Características principais (pentes, cílios, etc.)
+- Comparação com medusas
+- Localização (águas oceânicas e estuarinas)
+- Tamanho do ctenóforo
+- Tipos de ctenóforo
+- Bioluminescência
+- Classe biological (Coelenterata)
+
+Agora, vou pensar em perguntas que cobram esses tópicos, garantindo que cada pergunta seja clara e relateda ao conteúdo.
+
+Primeira pergunta pode ser sobre a definição do ctenóforo. Segunda sobre os pentes. Terceira sobre o uso de fluxo de água. Quarta sobre o tamanho. Quinta sobre a similaridade com medusas, etc.
+
+Preciso evitar repeties, então vou me certificar que cada pergunta aborda um tópico diferente. Além disso, as respostas devem ser claras e basculadas de forma que não haja necessidade de explicações lengthy.
+
+Além disso, devo manter o gênero em português e formatar como JSON conforme o exemplo fornecido.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é um ctenóforo?",
+    "resposta": "filo de animais que vivem em águas marinhas"
+  },
+  {
+    "pergunta": "O que são comumente conhecidos como ctenóforos?",
+    "resposta": "geleias de pente"
+  },
+  {
+    "pergunta": "O que o ctenóforo usa para nadar?",
+    "resposta": "'pentes' - grupos de cílios"
+  },
+  {
+    "pergunta": "Qual é a principal características distintiva dos ctenóforos?",
+    "resposta": "Bioluminescentes graus de pente e cílios para movimento"
+  },
+  {
+    "pergunta": "O que são os ctenóforos encontrados em distribuição cosmopolita?",
+    "resposta": "águas oceânicas e estuarinas"
+  },
+  {
+    "pergunta": "Qual é o tamanho do maior ctenóforo adulto?",
+    "resposta": "1,5 metros de comprimento"
+  },
+  {
+    "pergunta": "O que são os ctenóforos conhecidos por serem planctónicos?",
+    "resposta": "grupos de cílios que utilizam pentes para nadoo"
+  },
+  {
+    "pergunta": "Qual a classe biological dos ctenóforos?",
+    "resposta": "Coelenterata"
+  },
+  {
+    "pergunta": "O que é frequentemente associado ao ctenóforo?",
+    "resposta": "medusa"
+  },
+  {
+    "pergunta": "Qual é a hyperâmia do ctenóforo na hierarchicalidade biológica?",
+    "resposta": "Classificação de Coeloplana"
+}
+```

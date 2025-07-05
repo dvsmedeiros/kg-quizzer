@@ -1,0 +1,75 @@
+<think>
+Ok, vou começar tentando a entender o que o usuário está pedindo aqui. Ele quer que eu gere 10 pares de perguntas e respostas baseadas no conteúdo fornecido sobre o Painel Intergovernamental para Alterações Climáticas (IPCC). Primeiro, preciso focar no contexto e nos fatos apresentados.
+
+Primeiro, entendi que o IPCC foi criado em 1988 pelas Nações Unidas, através do PNUMA e da OMM. Sua principal função é sintetizar conhecimentos sobre mudanças climáticas, especialmente o aquecimento global. Além disso, ele produziu cinco relatórios desde 1990 até 2014, e ganhou o Prêmio Nobel da Paz em 2007.
+
+Agora, os fatos fornecidos incluem vários aspectos como tipos de entidades (YagoLegalActor, WikicatUnitedNations, entre outros), organizações associadas (UNEP, OMM), membros notórios como Filippo Giorgi, Rajendra K. Pachauri e Kevin E. Trenberth, e ainda mencionam a sede principal em Genebra.
+
+Meu objetivo é criar 10 perguntas relevantes com respostas corretas. Preciso assegurar que cada pergunta seja variada e cobra diferentes aspectos do conteúdo. As perguntas devem estar claramente relacionadas ao contexto fornecido e ter uma única resposta correta, que possa ser extraída ou inferida a partir dos fatos.
+
+Vou começar listando os principais pontos:
+
+1. Fundação do IPCC.
+2. Propósito principal.
+3. Localização da sede principal.
+4. Organizações mãe: UNEP e OMM.
+5. Tipo de entidade (Legal Actor).
+6. Memória de membros importantes.
+7. Autores de trabalhos como "Renewable Energy Sources and Climate Change Mitigation".
+8. Abreviação ou nome completo.
+9. Conselho Nobel de Paz em 2007.
+10. Primeiro relatório vs últimos relatórios.
+
+Agora, para cada ponto, vou formular uma pergunta e a resposta correspondente, garantindo que sejam claras e relevantes.
+
+Percebo que algumas informações podem ser repetidas, mas preciso evitar isso para manter as perguntas variadas. Por exemplo, menciono Filippo Giorgi e Rajendra K. Pachauri como membros, então vou criar duas perguntas diferentes sobre cada um.
+
+Também devo garantir que as respostas estejam corretas, sem erros factuais, baseando-me nos fatos fornecidos. Em caso algum a informação não está clara, vou tentar inferi-la ou omitá-la se não for possível.
+
+Finalmente, vou organizar essas pares em JSON conforme o formato solicitado.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi a data de fundação do Painel Intergovernamental para Alterações Climáticas (IPCC)?",
+    "resposta": "O IPCC foi fundado em 1988."
+  },
+  {
+    "pergunta": "Qual é o principal objetivo do Painel Intergovernamental para Alterações Climáticas (IPCC)?",
+    "resposta": "Sintetizar e divulgar o conhecimento mais avançado sobre as mudanças climáticas, especialmente o aquecimento global."
+  },
+  {
+    "pergunta": "onde está localizada a sede principal do IPCC?",
+    "resposta": "A sede principal do IPCC está em Genebra, na Suíça."
+  },
+  {
+    "pergunta": "Qual organização mãe criou o IPCC?",
+    "resposta": "O IPCC foi criado pelo Programa das Nações Unidas para o Meio Ambiente (PNUMA) e pela Organização Meteorológica Mundial (OMM)."
+  },
+  {
+    "pergunta": "Do que é exemplo um tipo de entidade relacionada ao IPCC?",
+    "resposta": "O IPCC é do tipo YagoLegalActor."
+  },
+  {
+    "pergunta": "Quem foi um membro notório do IPCC?",
+    "resposta": "Filippo Giorgi foi um membro do IPCC."
+  },
+  {
+    "pergunta": "Qual organização associou o IPCC a seu trabalho sobre fontes renováveis e mitigação do cambio climático?",
+    "resposta": "O trabalho foi associado ao Renewable Energy Sources and Climate Change Mitigation."
+  },
+  {
+    "pergunta": "Que prêmio Nobel ganhou o IPCC?",
+    "resposta": "O IPCC ganhou o Prêmio Nobel da Paz em 2007."
+  },
+  {
+    "pergunta": "Quanto relatórios tem o IPCC produzido desde sua fundação?",
+    "resposta": "O IPCC produziu cinco grandes relatórios desde 1990 até 2014."
+  },
+  {
+    "pergunta": "Qual é a abreviação do nome completo do Painel Intergovernamental para Alterações Climáticas (IPCC)?",
+    "resposta": "A abreviação é IPCC."
+  }
+]
+```

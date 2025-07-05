@@ -1,0 +1,86 @@
+<think>
+Okay, so I need to create 10 pairs of questions and answers based on the given context about the 1973 oil crisis. The user has provided both a textual description and some RDF facts, but I should focus mainly on the text since the RDF is more about metadata.
+
+First, I'll read through the context carefully. It mentions that the crisis started in October 1973 when OPAEP members declared an embargo against countries supporting Israel during the Yom Kippur War. The targeted nations were Canada, Japan, Netherlands, UK, and USA, later expanding to Portugal, Rhodesia, and South Africa. Prices rose from $3 to $12 per barrel globally, with even higher prices in the US. This led to a significant oil shock affecting global politics and economy, known as the first oil shock, followed by 1979's second.
+
+From this, I can identify several key points: causes (embargo by OPAEP against certain countries), consequences (price increases, economic impact), timing, affected countries, and its significance as the first oil crisis.
+
+Now, I need to generate varied questions covering different aspects. Let me list possible areas:
+
+1. **When did the 1973 oil crisis begin?**
+   - Direct from the text: October 1973.
+
+2. **Which organization declared the embargo?**
+   - OPAEP (Organização dos Países Árabes Exportadores de Petróleo).
+
+3. **What was the main reason for the embargo?**
+   - Support for Israel during Yom Kippur War.
+
+4. **Name some initial target countries of the embargo.**
+   - Canada, Japan, Netherlands, UK, USA.
+
+5. **How much did oil prices increase?**
+   - From $3 to $12 per barrel globally; higher in the US.
+
+6. **What was a direct result of the crisis?**
+   - Oil shock leading to economic and political effects.
+
+7. **Which countries were added later?**
+   - Portugal, Rhodesia, South Africa.
+
+8. **How many oil crises are there mentioned?**
+   - First (1973) and second (1979).
+
+9. **What was the impact on prices in the US?**
+   - Even higher than the global price.
+
+10. **What is another name for this crisis?**
+    - The first oil shock.
+
+I should make sure each question is unique and covers different aspects without overlapping too much. Let me structure them as per the required JSON format, ensuring the language is clear and in Portuguese.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando começou a crise petrolífera de 1973?",
+    "resposta": "Em outubro de 1973."
+  },
+  {
+    "pergunta": "Qual organização declarou o embargo petrolífero em 1973?",
+    "resposta": "A Organização dos Países Árabes Exportadores de Petróleo (OPAEP)."
+  },
+  {
+    "pergunta": "Por qual motivo foi declarado o embargo petrolífero em 1973?",
+    "resposta": "Em apoio a Israel durante a Guerra do Yom Kippur."
+  },
+  {
+    "pergunta": "Qual foi um dos países inicialmente afetados pelo embargo?",
+    "resposta": "Os Estados Unidos."
+  },
+  {
+    "pergunta": "Quanto subiu o preço do petróleo mundial após o embargo?",
+    "resposta": "De US$ 3 para US$ 12 por barril."
+  },
+  {
+    "pergunta": "O que é conhecido como 'primeiro choque do petróleo'?",
+    "resposta": "A crise petrolífera de 1973."
+  },
+  {
+    "pergunta": "Qual foi um dos efeitos da crise petrolífera de 1973?",
+    "resposta": "Aumento no preço do petróleo nos Estados Unidos acima do mundial."
+  },
+  {
+    "pergunta": "Quais países tiveram o embargo estendido posteriormente?",
+    "resposta": "Portugal, Rodésia e África do Sul."
+  },
+  {
+    "pergunta": "Quantas crises petrolíferas são mencionadas no texto?",
+    "resposta": "Duas: a de 1973 (primeiro choque) e a de 1979 (segundo choque)."
+  },
+  {
+    "pergunta": "Qual foi o impacto imediato do embargo petrolífero de 1973?",
+    "resposta": "Crise ou 'choque' de petróleo com efeitos políticos e econômicos globais."
+  }
+]
+```

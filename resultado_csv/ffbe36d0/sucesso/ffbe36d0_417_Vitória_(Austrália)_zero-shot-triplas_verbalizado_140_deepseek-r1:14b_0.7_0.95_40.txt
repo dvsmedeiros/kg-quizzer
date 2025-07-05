@@ -1,0 +1,79 @@
+<think>
+Okay, so I need to generate 10 pairs of questions and answers based on the provided context about Victoria, Australia. The user has given a detailed description of Victoria's history, geography, economy, culture, and some specific facts. They also included a list of various facts that could be used to create these Q&A pairs.
+
+First, I should understand what kind of information is available. The context mentions that Victoria is the smallest mainland state, its capital is Melbourne, it has a diverse economy, significant cultural landmarks like Melbourne Cricket Ground, and notable people who are from there. There's also information about government structures, education institutions, and specific places within Victoria.
+
+Looking at the facts section, there are a lot of details about locations, individuals associated with Victoria, organizations headquartered there, geographical features, and historical events related to Victoria.
+
+Now, I need to create 10 varied questions that cover different aspects without repeating similar ones. Each question should have one correct answer based on the provided content.
+
+Let me start by identifying key areas: geography, history, economy, culture, education, people, places, government, sports, and miscellaneous facts.
+
+For example, a question about Victoria's capital would be straightforward. Another could be about its population rank in Australia. Then, something about Melbourne's status as a financial hub. The state's GDP is mentioned, so that could be a question too.
+
+I should also include questions about specific landmarks or unique features, like the Melbourne Cricket Ground and the Australian Open location. Including some facts about famous individuals from Victoria would add variety.
+
+I'll make sure each question is clear and the answers are directly supported by the context. Also, I need to avoid repetition in topics; if one question is about population, another shouldn't be similar.
+
+Now, let's outline possible questions:
+
+1. What is Victoria's capital?
+2. Which city in Victoria is a major financial hub?
+3. Name a famous cricket stadium in Victoria.
+4. Where are the Australian Open tennis matches held annually?
+5. What is Victoria's population rank among Australian states?
+6. Which river flows through Wallagaraugh Foothills?
+7. Identify Melbourne's status regarding government offices before Canberra.
+8. What percentage of Victoria's workforce is in services sectors?
+9. Name a significant historical figure from Victoria.
+10. What was the record low temperature in Victoria during February?
+
+Now, let me ensure each answer is correct based on the context provided.
+
+I think that's a solid approach. I'll structure these into JSON format as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a capital do estado de Vitória na Austrália?",
+    "resposta": "Melbourne"
+  },
+  {
+    "pergunta": "Qual cidade em Vitória é um importante centro financeiro?",
+    "resposta": "Melbourne"
+  },
+  {
+    "pergunta": "Nomeie um estádio famoso de críquete localizado em Vitória.",
+    "resposta": "Melbourne Cricket Ground"
+  },
+  {
+    "pergunta": "Onde são realizados anualmente os jogos do Australian Open?",
+    "resposta": "Melbourne Park"
+  },
+  {
+    "pergunta": "Qual é a posição de Vitória em termos de população entre os estados da Austrália?",
+    "resposta": "Segundo mais populoso"
+  },
+  {
+    "pergunta": "Qual rio corre pelas Foz do Rio Wallagaraugh?",
+    "resposta": "Wallagaraugh River"
+  },
+  {
+    "pergunta": "Qual cidade foi a capital federal da Austrália até 1927?",
+    "resposta": "Melbourne"
+  },
+  {
+    "pergunta": "Que porcentagem da força de trabalho em Vitória está no setor de serviços?",
+    "resposta": "Maioria"
+  },
+  {
+    "pergunta": "Quem foi um político histórico que nasceu em Vitória?",
+    "resposta": "Daniel Andrews"
+  },
+  {
+    "pergunta": "Qual foi a temperatura mínima registrada em Vitória durante o mês de fevereiro?",
+    "resposta": "-18 °C"
+  }
+]
+```

@@ -1,0 +1,71 @@
+<think>
+Okay, I need to generate 10 question-answer pairs about prime numbers. Let me start by recalling what a prime number is. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. So, the first question could be about the definition.
+
+Next, I should think about examples. The smallest prime number is 2, right? Then maybe ask about the smallest prime. Also, 2 is the only even prime number. That's a good point for another question.
+
+What about numbers that are not prime? Composite numbers. So a question could be about what non-prime numbers are called. Then, maybe the largest known prime number. Wait, I remember that the largest known primes are Mersenne primes, discovered through projects like GIMPS. But the exact number might be too specific and not in the context. Maybe just mention they are large and discovered through projects.
+
+Another aspect is the distribution of primes. There are infinitely many primes, proven by Euclid. That's a key point. Also, primes are used in cryptography, like RSA. That's a practical application.
+
+What about the prime number theorem? It describes the asymptotic distribution of primes. But maybe that's too advanced. The context might not include that. Let me check the original context again. The user provided "Número_primo" as context, which is Portuguese for "Prime Number." So the questions should be based on general knowledge about prime numbers, not too specific.
+
+Wait, the user said to base questions on the provided context. Since the context is just "Número_primo," I need to make sure the questions are about general prime number facts. Let me list possible questions:
+
+1. What is a prime number?
+2. What is the smallest prime number?
+3. Why is 2 the only even prime number?
+4. What are numbers that are not prime called?
+5. What is the significance of prime numbers in mathematics?
+6. How are prime numbers used in real-world applications?
+7. Are there infinitely many prime numbers?
+8. What is a Mersenne prime?
+9. What is the largest known prime number as of the latest discovery?
+10. What is the role of prime numbers in cryptography?
+
+Now, I need to ensure the answers are correct and based on the context. For example, the answer to the first question should be the definition. The smallest prime is 2. The answer for 2 being the only even prime is because all other even numbers are divisible by 2. Composite numbers are non-prime. Infinitely many primes is proven by Euclid. Mersenne primes are a form of prime, and the largest known is a Mersenne prime found by GIMPS. In cryptography, primes are used in RSA encryption.
+
+Wait, the user's context might not mention GIMPS or specific examples, but the general knowledge is acceptable as it's inferred from the topic. I need to make sure answers are accurate. Let me structure each pair now.
+</think>
+
+[
+  {
+    "pergunta": "O que define um número primo?",
+    "resposta": "Um número primo é um número natural maior que 1 que não possui divisores positivos além de 1 e ele mesmo."
+  },
+  {
+    "pergunta": "Qual é o menor número primo?",
+    "resposta": "O menor número primo é 2."
+  },
+  {
+    "pergunta": "Por que o número 2 é o único número primo par?",
+    "resposta": "Porque todos os outros números pares são divisíveis por 2, tornando-os não primos."
+  },
+  {
+    "pergunta": "Como são chamados os números que não são primos?",
+    "resposta": "Eles são chamados de números compostos."
+  },
+  {
+    "pergunta": "Quantos números primos existem?",
+    "resposta": "Existem infinitos números primos."
+  },
+  {
+    "pergunta": "Qual é a principal aplicação dos números primos na criptografia?",
+    "resposta": "Eles são usados para gerar chaves em algoritmos como o RSA, que depende da dificuldade de fatorar números grandes."
+  },
+  {
+    "pergunta": "Quem provou que existem infinitos números primos?",
+    "resposta": "Euclides, na sua obra 'Elementos'."
+  },
+  {
+    "pergunta": "O que caracteriza um número de Mersenne?",
+    "resposta": "Um número de Mersenne é um número primo da forma $2^n - 1$, onde $n$ também é um número primo."
+  },
+  {
+    "pergunta": "Qual é o maior número primo conhecido até o momento?",
+    "resposta": "O maior número primo conhecido é um número de Mersenne com mais de 24 milhões de dígitos."
+  },
+  {
+    "pergunta": "Por que os números primos são considerados fundamentais na teoria dos números?",
+    "resposta": "Porque todo número inteiro maior que 1 pode ser expresso de forma única como um produto de números primos (teorema fundamental da aritmética)."
+  }
+]

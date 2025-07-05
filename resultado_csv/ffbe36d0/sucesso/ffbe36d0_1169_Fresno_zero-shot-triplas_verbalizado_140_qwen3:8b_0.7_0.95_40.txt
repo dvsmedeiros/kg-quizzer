@@ -1,0 +1,60 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts about Fresno, California. First, I need to parse through all the given information to identify key points that can form unique questions.
+
+Looking at the context, Fresno is the fifth most populous city in California, part of Fresno County, founded in 1872, incorporated in 1885, with a population over 542,000 as of 2020, and ranked 34th in the US. These are solid facts for questions about population, founding, incorporation, etc.
+
+Then there are various facts about people born or died in Fresno, like George N. Zenovich, Adam Prentice, Floyd H. Hyde, etc. Also, there's info on the government type (Strong Mayor), area code (559), coordinates, and other locations like Inyo County Airport, Physicians Building, Twining Laboratories, and sports teams associated with Fresno. There are also radio stations and other entities based there.
+
+I need to make sure each question is unique and covers different aspects. Let me list possible topics: population stats, founding and incorporation dates, notable people (born or died there), government structure, area code, geographical coordinates, sports teams, radio stations, and other landmarks or entities.
+
+I should avoid repeating similar questions. For example, one about population, another about founding date, another about incorporation, another about government type, etc. Also, include some about specific individuals and sports teams. Need to check that each answer is directly inferable from the context without adding external knowledge.
+
+Now, let's start drafting the questions and answers. Make sure the answers are accurate based on the given facts. For example, the population is over 542,000 as of 2020. The government type is Strong Mayor. Area code is 559. Coordinates are 36.75 -119.76666666666667. The city is the 34th most populous in the US. Also, include some about specific people like George N. Zenovich who died there, and sports teams like the 2021 New Mexico Lobos football team located in Fresno.
+
+Wait, some entries mention sports teams from other states but located in Fresno. Need to confirm if that's correct. For example, the 2021 New Mexico Lobos football team is listed as being in Fresno. But that might be a mistake, but since the user provided that, I have to use it as per the given data.
+
+Proceed to create 10 unique questions, each targeting different aspects. Let's ensure each answer is directly from the context without assumptions. Now, structure them into JSON format as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a população de Fresno, Califórnia, segundo o censo de 2020?",
+    "resposta": "Mais de 542 mil habitantes."
+  },
+  {
+    "pergunta": "Em que ano Fresno, Califórnia, foi incorporada?",
+    "resposta": "12 de outubro de 1885."
+  },
+  {
+    "pergunta": "Qual é o tipo de governo de Fresno, Califórnia?",
+    "resposta": "Strong Mayor."
+  },
+  {
+    "pergunta": "Qual é o código de área de Fresno, Califórnia?",
+    "resposta": "559."
+  },
+  {
+    "pergunta": "Quem morreu em Fresno, Califórnia, segundo os fatos fornecidos?",
+    "resposta": "George N. Zenovich."
+  },
+  {
+    "pergunta": "Quais são as coordenadas geográficas de Fresno, Califórnia?",
+    "resposta": "36.75 -119.76666666666667."
+  },
+  {
+    "pergunta": "Qual é a posição de Fresno, Califórnia, em termos de população nos Estados Unidos?",
+    "resposta": "34ª cidade mais populosa do país."
+  },
+  {
+    "pergunta": "Qual é o nome da estação de rádio que possui área de transmissão em Fresno, Califórnia?",
+    "resposta": "KRDU."
+  },
+  {
+    "pergunta": "Qual é o nome do aeroporto localizado em Fresno, Califórnia?",
+    "resposta": "Inyo County Airport."
+  },
+  {
+    "pergunta": "Quem nasceu em Fresno, Califórnia, segundo os fatos fornecidos?",
+    "resposta": "Adam Prentice."
+  }
+]

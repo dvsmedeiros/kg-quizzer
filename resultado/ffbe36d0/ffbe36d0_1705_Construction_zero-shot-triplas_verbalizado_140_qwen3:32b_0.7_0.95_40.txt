@@ -1,0 +1,60 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. The context is about construction in engineering and architecture, including definitions and terms specific to Brazil. The facts list various companies, terms, and their relation to the construction industry.
+
+First, I need to ensure each question is unique and covers different aspects. Let me look through the facts again. There are a lot of companies in the construction industry, terms like "reforma" in Brazil, and mentions of different sectors like infrastructure.
+
+For the first question, maybe ask about the main activity in construction. The answer is "execução do projeto previamente elaborado". Next, the term used in Brazil for renovation. The context says "reforma". Then, examples of large infrastructure projects, like bridges or tunnels. 
+
+Looking at the facts, companies like Aecon, Liberty Property Trust, Aoki Corporation are in construction. A question could list some companies in the industry. Also, terms like "obra" and "construção" are used, so a question about synonyms. 
+
+The context mentions that construction follows technical standards. A question about respecting norms. Another could be about the scope from foundation to finishing. 
+
+The list of companies is extensive, so a question asking for examples. Also, the term "hiperônimo" appears, maybe a question about categories under construction. 
+
+I need to make sure each question is distinct. Let me check the generated questions. Each should cover different points: definition, Brazilian term, examples, synonyms, infrastructure examples, technical standards, scope, companies, hypernym, and another synonym. That should cover 10 without repetition. Let me structure the JSON accordingly.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a definição de construção na engenharia e arquitetura segundo o contexto?",
+    "resposta": "A execução do projeto previamente elaborado, respeitando técnicas construtivas e normas técnicas vigentes."
+  },
+  {
+    "pergunta": "Qual termo é utilizado no Brasil para descrever reformas, ampliações ou restaurações em imóveis?",
+    "resposta": "Reforma."
+  },
+  {
+    "pergunta": "Cite um exemplo de obras de maior porte mencionadas no contexto.",
+    "resposta": "Ponte."
+  },
+  {
+    "pergunta": "Quais são os termos sinônimos para construção mencionados no texto?",
+    "resposta": "Obra e construção."
+  },
+  {
+    "pergunta": "Quantos pares de perguntas e respostas devem ser gerados conforme as instruções?",
+    "resposta": "10."
+  },
+  {
+    "pergunta": "Quais empresas mencionadas pertencem à indústria de construção?",
+    "resposta": "Aecon, Liberty Property Trust, Aoki Corporation, Access Engineering, Richard Pieris & Company, entre outras."
+  },
+  {
+    "pergunta": "Qual é o escopo da construção, desde a fundação até qual etapa?",
+    "resposta": "Até o acabamento."
+  },
+  {
+    "pergunta": "Qual é o hiperônimo associado a 'Castle of Ucero' segundo os fatos?",
+    "resposta": "Construction."
+  },
+  {
+    "pergunta": "Qual é o setor de atividade da profissão 'Architect' segundo os fatos?",
+    "resposta": "Construction."
+  },
+  {
+    "pergunta": "Qual termo técnico é utilizado para descrever a execução de todas as etapas de um projeto de construção?",
+    "resposta": "Construção."
+  }
+]
+```

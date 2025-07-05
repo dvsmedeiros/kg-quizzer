@@ -1,0 +1,54 @@
+<think>
+Okay, I need to generate 10 question-answer pairs about the Black Death in Portuguese. Let me start by recalling the key facts about the Black Death. It was a devastating pandemic in the 14th century, caused by the bacterium Yersinia pestis. It spread through fleas on rats, leading to massive deaths in Europe. Symptoms included buboes, fever, and high mortality rates. Social and economic impacts were huge, like labor shortages and changes in feudal systems. The pandemic had several waves, with the first major one starting in 1347.
+
+Now, I need to make sure each question is unique and covers different aspects. Let me list possible topics: causes, symptoms, spread, impact, duration, death toll, social changes, economic effects, medical responses, and the role of quarantine.
+
+First question: What was the cause of the Black Death? Answer would be Yersinia pestis. Second: What were the main symptoms? Buboes, fever, etc. Third: How did it spread? Fleas on rats. Fourth: When did it start? 1347. Fifth: Estimated death toll? 25 million. Sixth: Impact on feudalism? Decline. Seventh: Economic consequence? Labor shortages. Eighth: Medical response? Burning aromatic substances. Ninth: Term for the disease's name? Plague. Tenth: How was quarantine introduced? 40-day isolation in Venice.
+
+I need to check if all answers are directly from the context provided. The context mentions the causes, symptoms, spread, start date, death toll, social and economic impacts, medical practices, and quarantine. Each question should map to these points without repetition. Let me ensure the questions are varied and not overlapping. Also, the answers must be specific and correct based on the given info. Once verified, format into JSON without any extra text.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi a causa principal da Peste Negra?",
+    "resposta": "Yersinia pestis"
+  },
+  {
+    "pergunta": "Quais eram os sintomas mais comuns da Peste Negra?",
+    "resposta": "Bubões, febre alta e calafrios"
+  },
+  {
+    "pergunta": "Como a Peste Negra se espalhou pelas cidades europeias?",
+    "resposta": "Através de pulgas que infectavam ratos"
+  },
+  {
+    "pergunta": "Em que ano a Peste Negra atingiu seu pico de devastação na Europa?",
+    "resposta": "1348"
+  },
+  {
+    "pergunta": "Quantas pessoas aproximadamente morreram por causa da Peste Negra na Europa?",
+    "resposta": "25 milhões"
+  },
+  {
+    "pergunta": "Qual foi um impacto social direto da Peste Negra nas sociedades medievais?",
+    "resposta": "Declínio do sistema feudal"
+  },
+  {
+    "pergunta": "Qual medida de isolamento foi introduzida para combater a Peste Negra?",
+    "resposta": "Quarentena de 40 dias"
+  },
+  {
+    "pergunta": "Como os médicos da época tentavam tratar a Peste Negra?",
+    "resposta": "Queimando substâncias aromáticas"
+  },
+  {
+    "pergunta": "Qual foi a origem geográfica da Peste Negra?",
+    "resposta": "Ásia"
+  },
+  {
+    "pergunta": "Qual termo em latim é usado para descrever a Peste Negra?",
+    "resposta": "Mors pestilens"
+  }
+]
+```

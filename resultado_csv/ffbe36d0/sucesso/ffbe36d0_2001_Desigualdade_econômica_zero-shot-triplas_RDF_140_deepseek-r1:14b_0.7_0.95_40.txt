@@ -1,0 +1,70 @@
+<think>
+Alright, I need to generate 10 pairs of questions and answers based on the given context about economic inequality. The user has provided specific guidelines, so I'll follow them carefully.
+
+First, I'll review the context to understand the key points. It mentions that economic inequality can refer to income or wealth distribution, both between countries and within groups. Key concepts include equity, equality of outcomes, and opportunities. Important measurements are Gini Coefficient and HDI adjusted for inequality. Also, globalization reduced global inequality but increased it within countries.
+
+Looking at the facts section, there are various resources like books, movements, and economists related to economic inequality. These could be sources for questions about causes or notable figures.
+
+Now, I'll brainstorm possible questions covering different aspects: definitions, measurements, effects, comparisons, causes, etc. Each question should have a clear correct answer from the context.
+
+I need to ensure variety in the questions. For example, some can be about definitions, others about specific metrics, and some about global trends or notable works.
+
+Let me start drafting:
+
+1. What is economic inequality? - Direct definition from context.
+2. Which metric measures wealth distribution? - Gini Coefficient mentioned.
+3. True or false: Globalization reduced within-country inequality? False, it increased it.
+4. What does HDI adjusted for inequality assess? - From the context about composite stats.
+5. Name an economist studying inequality - Names like Branko Milanović are listed.
+
+Continue until 10 questions. Make sure each is unique and covers different aspects without overlapping too much.
+
+I should also check that each answer is directly supported by the provided content, no external knowledge needed.
+
+Once all pairs are created, structure them into JSON format as specified, ensuring only the required fields with correct values.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é a desigualdade econômica?",
+    "resposta": "A distribuição de renda ou riqueza entre diferentes grupos de pessoas ou países."
+  },
+  {
+    "pergunta": "Qual método é mais utilizado para medir a desigualdade econômica?",
+    "resposta": "O Coeficiente de Gini."
+  },
+  {
+    "pergunta": "Quais conceitos importantes estão relacionados à igualdade econômica?",
+    "resposta": "Equidade, igualdade de resultados e igualdade de oportunidades."
+  },
+  {
+    "pergunta": "Qual índice leva em conta a desigualdade econômica no desenvolvimento humano?",
+    "resposta": "Índice de Desenvolvimento Humano Ajustado pela Desigualdade."
+  },
+  {
+    "pergunta": "Qual livro aborda temas de desigualdade econômica?",
+    "resposta": "Capital and Ideology ou Capital in the Twenty-First Century."
+  },
+  {
+    "pergunta": "Quem é um economista notável que pesquisa desigualdade econômica?",
+    "resposta": "Branko Milanović."
+  },
+  {
+    "pergunta": "Qual movimento foi motivado pela desigualdade econômica na China?",
+    "resposta": "O Movimento da Reforma Agrária na China."
+  },
+  {
+    "pergunta": "Qual organização se concentra em questões de desigualdade econômica?",
+    "resposta": "Nathan Cummings Foundation."
+  },
+  {
+    "pergunta": "Como a globalização afeta a desigualdade interna dos países?",
+    "resposta": "Aumentou a desigualdade dentro dos países."
+  },
+  {
+    "pergunta": "Qual cidade teve um movimento Occupy motivado pela desigualdade econômica?",
+    "resposta": "Atlanta, Berlim, Buffalo, San Diego, Texas e Windsor."
+  }
+]
+```

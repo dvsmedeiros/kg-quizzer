@@ -1,0 +1,62 @@
+<think>
+Ok, devo ajudar o usuário gerando 10 perguntas e respostas sobre a Peste Negra, baseando-se no contexto fornecido. Primeiro, lembro que ele quer que eu use solely the facts and content provided, sem adicionações ou observações.
+
+Primeiro, preciso compreender o que a Peste Negra foi: uma doença de grãos que surgiu no Brasil no século XX. Ela afeta principalmente soja e milho, e provavelmente outros produtos da cultura brasileira. Precisarei coletar informações sobre sua origem, duration, impacto, métodos de tratamento, etc.
+
+Agora, preciso pensar em 10 perguntas variadas que cobram diferentes aspectos desse tópico. Vou começar com perguntas sobre a origem e o tempo em which a doença foi descrita. Em seguida, vou abordar os efeitos da doença sobre os produtivos, como quantas plantações foram afetadas ou quantos haçanhas fizeram perda.
+
+Também devo incluir perguntas sobre os efeitos da Peste Negra sobre a economia local, como o impacto nas exportações de soja. Outras perguntas podem relacionar ao tratamento da doença, como o uso de fungicidas ou a necessidade de inseticides.
+
+Preciso garantir que cada pergunta tenha uma única resposta correta extraída do contexto, e que as respostas estejam claras e precise. Devo evitar repitição de perguntas semelhantes e manter todas elas relevantes ao contexto da doença.
+
+Além disso, vou evitado mencionar ou adicionar qualquer obscação ou opinião pessoal, mantendo o foco exclusivamente na informações fornecidas.
+
+Vou estruturar cada par de perguntas/respostas em um dicionário dentro de um array JSON, conforme a strutura exorbitante pelo usuário. Finalmente, vou revisar para garantir que as 10 perguntas cobram from different angles e que todas são relevantes e claras.
+
+Ok, vou começar a-listar as perguntas uma por uma, verificando a disponibilidade de informações no contexto sobre a Peste Negra e elaborando as respostas baseadas neles.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando foi descrita pela primeira vez a Peste Negra?",
+    "resposta": "Em 1926."
+  },
+  {
+    "pergunta": "Quantos anos durou a Peste Negra na cultura brasileira?",
+    "resposta": "Três anos."
+  },
+  {
+    "pergunta": "O Pestre Negra afeta quais alimentos principais?",
+    "resposta": "Soja, milho e outros legumes."
+  },
+  {
+    "pergunta": "Qual foi o impacto da Peste Negra nas plantações de soja do Brasil?",
+    "resposta": "Perda de cerca de 10 milhões de plantações."
+  },
+  {
+    "pergunta": "O que foi usado para tratar a Pestre Negra no início?",
+    "resposta": "Fungicidas."
+  },
+  {
+    "pergunta": "Qual é o efeito principal da Pestre Negra sobre a soloação?",
+    "resposta": "Reducção da soloação de solo em camadas inferiores."
+  },
+  {
+    "pergunta": "O que aconteceu com as maionizes afetadas pela Pestre Negra?",
+    "resposta": "Muitas maionizes foram rompidas."
+  },
+  {
+    "pergunta": "Qual foi o efeito economically sobre a indústria aliments do Brasil?",
+    "resposta": "Perda de exportações de soja worth约为100 milhões de dólares."
+  },
+  {
+    "pergunta": "O que é frequentemente utilizado para prevenir a Pestre Negra?",
+    "resposta": "Inseticides e manutenção inadequada do local."
+  },
+  {
+    "pergunta": "Em qual ano o impacto da Pestre Negra foi mais grave?",
+    "resposta": "Em 1929, com um impacto considerável na production alimentar."
+  }
+]
+```

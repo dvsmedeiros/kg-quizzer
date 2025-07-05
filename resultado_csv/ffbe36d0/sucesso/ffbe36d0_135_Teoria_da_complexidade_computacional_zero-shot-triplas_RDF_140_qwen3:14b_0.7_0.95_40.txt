@@ -1,0 +1,86 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts. First, I need to understand the context and the facts given.
+
+The context is about computational complexity theory, explaining that it classifies computational problems based on resource usage and explores relationships between these classifications. A computational problem is a task solved by a computer using mechanical steps like algorithms.
+
+The facts are a bunch of RDF triples linking various people and concepts to computational complexity theory. Each person has properties like academicDiscipline, knownFor, fields, etc., all pointing to computational complexity theory. There's also some metadata about the theory itself, like its categories and templates used.
+
+Now, I need to create 10 varied questions. The questions should cover different aspects from the context and facts. Let's see:
+
+1. What is the main focus of computational complexity theory? (Answer from context)
+2. Who is associated with computational complexity theory? (From the facts, mention names like Christos Papadimitriou, David Shmoys, etc.)
+3. What are the resources considered in classifying problems? (From context)
+4. What is a computational problem? (From context)
+5. Which discipline does computational complexity theory belong to? (Computer science, from context)
+6. What is the purpose of classifying problems in computational complexity theory? (From context)
+7. Mention some individuals associated with the field. (From facts)
+8. What are the subclasses of computational complexity theory? (From the ontology classes)
+9. What is the relationship between computational complexity theory and algorithms? (From context)
+10. What are some subdisciplines related to computational complexity theory? (From the facts, like Steven Rudich's subDiscipline)
+
+Wait, need to make sure each question is unique and covers different points. Also, ensure answers are directly from the context or facts. For example, the answer to question 2 should list some names from the facts. But since there are many names, maybe pick a few. However, the user might want specific ones. Alternatively, ask about the field of study, which is computer science.
+
+Also, check if the ontology classes can be used for questions, like what categories computational complexity theory is classified under. But the answer is a list of YAGO classes, which might be too technical. Maybe better to ask about the main disciplines or relationships.
+
+I need to avoid repeating similar questions. Let me list possible questions:
+
+- What is the purpose of computational complexity theory?
+- Which academic discipline does it belong to?
+- What is a computational problem?
+- What are the resources considered in classification?
+- Who are some notable researchers in this field?
+- What are the relationships between complexity classes?
+- What are the subclasses or related areas?
+- How is computational complexity theory connected to algorithms?
+- What is the primary focus of the theory?
+- What are the ontological categories it belongs to?
+
+Now, formulating each question and answer based on the context and facts. For example, the answer to "Who are some notable researchers..." would be names from the facts. But since the user wants 10 pairs, I need to ensure each answer is correct and derived from the given data.
+
+Also, check if the facts mention any specific subdisciplines. For example, Steven Rudich's subDiscipline is computational complexity theory. So that could be a question.
+
+Make sure not to use any external knowledge, only what's in the context and facts. Alright, time to draft the JSON with 10 pairs.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o objetivo principal da teoria da complexidade computacional?",
+    "resposta": "Classificar problemas computacionais de acordo com seu uso de recursos e explorar as relações entre essas classificações."
+  },
+  {
+    "pergunta": "Quais recursos são considerados na classificação de problemas computacionais?",
+    "resposta": "Recursos como tempo e espaço de memória."
+  },
+  {
+    "pergunta": "O que define um problema computacional?",
+    "resposta": "Uma tarefa resolvida por um computador mediante a aplicação mecânica de etapas matemáticas, como um algoritmo."
+  },
+  {
+    "pergunta": "Qual área acadêmica está associada à teoria da complexidade computacional?",
+    "resposta": "Ciência da computação."
+  },
+  {
+    "pergunta": "Quem é um dos pesquisadores associados à teoria da complexidade computacional?",
+    "resposta": "Christos Papadimitriou."
+  },
+  {
+    "pergunta": "Qual é a relação entre a teoria da complexidade computacional e os algoritmos?",
+    "resposta": "A teoria classifica problemas com base na eficiência dos algoritmos que os resolvem."
+  },
+  {
+    "pergunta": "Qual é o campo de estudo principal da teoria da complexidade computacional?",
+    "resposta": "Computational complexity theory."
+  },
+  {
+    "pergunta": "Quais são exemplos de subdisciplinas relacionadas à teoria da complexidade computacional?",
+    "resposta": "Ciência da computação e matemática."
+  },
+  {
+    "pergunta": "Qual é o papel da teoria da complexidade computacional na ciência da computação?",
+    "resposta": "Classificar problemas computacionais e analisar a dificuldade de resolvê-los."
+  },
+  {
+    "pergunta": "Quem é considerado um dos especialistas em teoria da complexidade computacional mencionados nos fatos?",
+    "resposta": "David Shmoys."
+  }
+]

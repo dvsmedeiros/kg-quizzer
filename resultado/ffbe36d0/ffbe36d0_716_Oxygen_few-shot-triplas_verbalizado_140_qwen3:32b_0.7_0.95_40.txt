@@ -1,0 +1,86 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by reading through the context and the facts carefully to identify key points.
+
+First, the context talks about oxygen's atomic number (8), symbol (O), atomic mass (16 u), being a chalcogen, a reactive non-metal, and a strong oxidizing agent. It mentions its abundance in the universe, the Earth's crust, and the atmosphere (20.8% as O2). There's information about its discovery by Scheele and Priestley, Lavoisier's naming, its role in respiration and combustion, ozone layer, and various applications.
+
+The facts list include categories like oxidizing agents, chalcogens, related products, and various Wikipedia templates. Also, historical figures associated with oxygen's discovery and its use in different industries.
+
+Now, I need to create 10 varied questions. Let's start with basic properties: atomic number, symbol, group. Then move to abundance in the universe, crust, atmosphere. Applications in industry, medicine, etc. Historical aspects like discoverers and Lavoisier's contribution. Also, some facts from the provided data like categories, related products, and models used on Wikipedia.
+
+Check if each question has a single correct answer from the text. Avoid repetition. Let me list possible questions:
+
+1. Atomic number of oxygen? (8)
+2. What is the symbol for oxygen? (O)
+3. Which group in the periodic table is oxygen part of? (Chalcogens)
+4. What percentage of Earth's atmosphere is O2? (20.8%)
+5. Who named oxygen and helped disprove the phlogiston theory? (Antoine Lavoisier)
+6. What is the primary component of Earth's crust by mass? (Oxides, nearly half)
+7. What are the main applications of oxygen in industry? (Steel production, rocket fuel, medical use, etc.)
+8. Which scientists independently discovered oxygen? (Carl Wilhelm Scheele and Joseph Priestley)
+9. What is the electronegativity rank of oxygen? (Second, after fluorine)
+10. What is the role of the ozone layer in protecting Earth? (Absorbs UV radiation)
+
+Now, check the facts for additional points. For example, the facts mention categories like "Category:Oxidizing agents" and "Category:Chalcogens". So a question could be about the categories oxygen is associated with. Also, products like "Inox Air Products" and "BOC Kenya Limited" produce oxygen. Another fact is the ozone (O3) as an ozone layer component.
+
+Need to ensure each question is unique and covers different aspects. Let me adjust the list to include some from the facts:
+
+1. What is the atomic number of oxygen? 8
+2. What is the chemical symbol for oxygen? O
+3. Which group of the periodic table does oxygen belong to? Chalcogens
+4. What percentage of Earth's atmosphere is composed of diatomic oxygen (O2)? 20.8%
+5. Who is credited with naming oxygen and disproving the phlogiston theory? Antoine Lavoisier
+6. What is the primary form of oxygen in Earth's crust by mass? Oxides (nearly half)
+7. What are the main industrial applications of oxygen? Steel production, rocket fuel, medical use, etc.
+8. Which scientists independently discovered oxygen in the 18th century? Carl Wilhelm Scheele and Joseph Priestley
+9. What is the electronegativity ranking of oxygen among elements? Second, after fluorine
+10. What is the role of the ozone (O3) layer in Earth's atmosphere? Absorbs UV radiation, protecting biosphere
+
+Now, check for any repetition. The first two are atomic number and symbol, then group, percentage in atmosphere, discoverers, categories, applications, electronegativity, ozone role. That's 10. Each has a clear answer from the text. Also, some facts like "Oxygen possui assunto Category:Chalcogens" and "Category:Oxidizing agents" can be part of the categories question. The ozone role is covered. Applications are listed in the context. The answer for the 7th question can be derived from the context's mention of uses in steel, plastics, textiles, cutting, welding, rocket propellant, etc.
+
+Make sure the answers are concise and directly from the text. Avoid adding extra info. For example, the answer to the ozone question should be "Absorves UV radiation, protecting the biosphere" as per the context. Also, the ozone is a contaminant at surface but absorbs UV at high altitude.
+
+Now, structure the JSON with these 10 pairs, ensuring correct formatting and answers.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o número atômico do elemento oxigênio?",
+    "resposta": "8."
+  },
+  {
+    "pergunta": "Qual o símbolo químico do oxigênio na tabela periódica?",
+    "resposta": "O."
+  },
+  {
+    "pergunta": "A que grupo da tabela periódica o oxigênio pertence?",
+    "resposta": "Calcogênios."
+  },
+  {
+    "pergunta": "Que porcentagem do ar atmosférico da Terra é composta por O₂?",
+    "resposta": "20,8%."
+  },
+  {
+    "pergunta": "Quem é creditado com a nomenclatura do oxigênio e a refutação da teoria do flogístico?",
+    "resposta": "Antoine Lavoisier."
+  },
+  {
+    "pergunta": "Que tipo de compostos formam a maior parte da crosta terrestre em massa?",
+    "resposta": "Óxidos (quase metade)."
+  },
+  {
+    "pergunta": "Quais são as principais aplicações industriais do oxigênio?",
+    "resposta": "Produção de aço, propelente para foguetes, uso médico, corte e solda."
+  },
+  {
+    "pergunta": "Quais cientistas descobriram o oxigênio de forma independente no século XVIII?",
+    "resposta": "Carl Wilhelm Scheele e Joseph Priestley."
+  },
+  {
+    "pergunta": "Qual a posição do oxigênio em termos de eletronegatividade entre os elementos?",
+    "resposta": "Segunda, atrás apenas do flúor."
+  },
+  {
+    "pergunta": "Qual o papel da camada de ozônio (O₃) na atmosfera da Terra?",
+    "resposta": "Absorver radiação ultravioleta, protegendo a biosfera."
+  }
+]

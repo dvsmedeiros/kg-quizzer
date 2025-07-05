@@ -1,0 +1,61 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context about the IPCC. First, I need to make sure I understand the context thoroughly. The IPCC is an intergovernmental organization established in 1988 by the UN, specifically by the UN Environment Programme and the World Meteorological Organization. Its main role is to assess climate change science and provide information for policy-making. They don't do original research but synthesize existing studies. They've produced five major reports, the first in 1990 and the last in 2014. They were awarded the Nobel Peace Prize in 2007.
+
+Now, the user wants 10 pairs. Each question should be varied and cover different aspects. Let me list out key points from the context to form questions:
+
+1. What is the full name of IPCC? (Answer: Intergovernmental Panel on Climate Change)
+2. When was it established? (1988)
+3. Which organizations created it? (UNEP and WMO)
+4. What is its main purpose? (Synthesize climate change knowledge, assess causes, effects, risks)
+5. Does it conduct original research? (No, it summarizes existing studies)
+6. How many major reports have they produced? (Five)
+7. When was the first and last report? (1990 and 2014)
+8. What award did they receive? (Nobel Peace Prize in 2007)
+9. What is the abbreviation for IPCC? (IPCC)
+10. Where is its headquarters? (Geneva)
+
+Wait, that's 10 points. Let me check if these cover different aspects and are distinct. The first question is about the full name, which is covered. Second is establishment date. Third is founding organizations. Fourth is purpose. Fifth is research methodology. Sixth is number of reports. Seventh is first and last report dates. Eighth is the award. Ninth is the abbreviation. Tenth is headquarters. That's 10 varied questions. Now, I need to phrase them in Portuguese, ensuring the answers are accurate and directly from the context. Let me make sure each answer is correct based on the provided text. For example, the first report in 1990, last in 2014. The Nobel Prize in 2007. The headquarters in Geneva. The abbreviation is IPCC. The main purpose is to synthesize knowledge. No original research. Created by UNEP and WMO. The answer for the first question is the full name. All these points are covered in the context. Now, structure them into JSON format as specified, ensuring no markdown and only the required data. Let me double-check for any repetition or similar questions. Each question is unique and covers different aspects. Alright, that should work.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o nome completo do IPCC?",
+    "resposta": "Painel Intergovernamental sobre Mudanças Climáticas"
+  },
+  {
+    "pergunta": "Em que ano o IPCC foi criado?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "Quais organizações criaram o IPCC?",
+    "resposta": "Programa das Nações Unidas para o Meio Ambiente (PNUMA) e Organização Meteorológica Mundial (OMM)"
+  },
+  {
+    "pergunta": "Qual é o principal objetivo do IPCC?",
+    "resposta": "Sintetizar e divulgar o conhecimento sobre mudanças climáticas, suas causas, efeitos e riscos, além de sugerir formas de combater os problemas"
+  },
+  {
+    "pergunta": "O IPCC realiza pesquisa original?",
+    "resposta": "Não, o IPCC reúne e resume conhecimento produzido por cientistas independentes"
+  },
+  {
+    "pergunta": "Quantos relatórios principais o IPCC produziu?",
+    "resposta": "Cinco"
+  },
+  {
+    "pergunta": "Em quais anos surgiu o primeiro e o último relatório do IPCC?",
+    "resposta": "1990 e 2014"
+  },
+  {
+    "pergunta": "Qual prêmio o IPCC recebeu?",
+    "resposta": "Prêmio Nobel da Paz em 2007"
+  },
+  {
+    "pergunta": "Qual é a abreviação do IPCC?",
+    "resposta": "IPCC"
+  },
+  {
+    "pergunta": "Onde está localizada a sede do IPCC?",
+    "resposta": "Geneva"
+  }
+]

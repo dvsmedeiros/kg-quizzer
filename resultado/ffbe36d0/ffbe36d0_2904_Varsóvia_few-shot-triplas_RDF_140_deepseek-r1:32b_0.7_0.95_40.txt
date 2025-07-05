@@ -1,0 +1,92 @@
+<think>
+Okay, so I'm trying to figure out how to generate the 10 question-answer pairs about Warsaw based on the given data. Let me start by looking through all the information provided.
+
+First, there's a list of RDF triples that describe various aspects of Warsaw, like its UTC offset, average temperatures in April and May, some geographical details, and other related facts. Then there are examples of questions and answers which seem to be based on similar data but aren't directly linked to the triples given here. 
+
+My task is to create 10 new Q&A pairs using the provided RDF data. I need to make sure each question is clear and directly relates to one of the data points. The answers should be concise and accurate, pulling directly from the RDF information.
+
+Looking at the examples, they ask about cities, rivers, distances, populations, classifications, agencies, and economic characteristics. So I can think of similar questions based on Warsaw's data.
+
+Let me go through each RDF triple one by one to see what kind of questions I can form:
+
+1. `Warsaw a <http://dbpedia.org/class/yago/Region108630039>` – This indicates that Warsaw is a region or city.
+2. `ns2:utcOffset "+2"` – Warsaw's UTC offset is +2 hours.
+3. `ns1:aprAvgRecordLowC "-1.6"` – Average record low in April is -1.6°C.
+4. `ns1:aprLowC "4"` – Low temperature in April is 4°C.
+5. `ns1:aprRecordHighC "30.4"` – Record high in April is 30.4°C.
+6. `ns1:decHighC "2.7"` – High temperature in December is 2.7°C.
+7. `ns1:mayMeanC "14.8"` – Mean temperature in May is 14.8°C.
+8. `ns1:subdivisionName "City county"` – Warsaw is a city county.
+9. `ns1:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:Coord>` – Coordinates template used, but not directly useful for Q&A.
+10. `foaf:depiction` links to images, which aren't relevant here.
+
+From this, I can create questions about Warsaw's classification as a region, its UTC offset, temperatures in different months, and its administrative division.
+
+I should also consider other triples that mention Warsaw indirectly, like those related to rivers or geographical features. For example, `Warsaw_airlift ns1:place <http://dbpedia.org/resource/Warsaw>` might not be directly useful unless I know more context about the airlift.
+
+Wait, looking back, there's a triple about the Vistula river and Warsaw's location on it. That can lead to a question about which river flows through Warsaw.
+
+Also, considering the examples given, some questions are more about general knowledge (like the capital or population), but since those specific details aren't in the RDF data provided, I should focus only on what's available.
+
+Let me list potential questions:
+
+1. What is the UTC offset for Warsaw?
+2. What is the average record low temperature in April in Warsaw?
+3. What is the low temperature in April in Warsaw?
+4. What was the record high temperature in April in Warsaw?
+5. What is the high temperature in December in Warsaw?
+6. What is the mean temperature in May in Warsaw?
+7. How is Warsaw classified administratively?
+8. Which river flows through Warsaw?
+9. What is Warsaw's classification as a region?
+10. Is Warsaw considered a city county?
+
+I should ensure each question is clear and directly answers one fact from the data without adding extra information not present.
+
+Now, I'll format these into the required JSON structure with "pergunta" and "resposta".
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o fuso horário UTC de Varsóvia?",
+    "resposta": "+2"
+  },
+  {
+    "pergunta": "Qual é a temperatura média mais baixa registrada em abril em Varsóvia?",
+    "resposta": "-1.6°C"
+  },
+  {
+    "pergunta": "Qual é a temperatura mais baixa em abril em Varsóvia?",
+    "resposta": "4°C"
+  },
+  {
+    "pergunta": "Qual foi a temperatura máxima registrada em abril em Varsóvia?",
+    "resposta": "30.4°C"
+  },
+  {
+    "pergunta": "Qual é a temperatura mais alta no mês de dezembro em Varsóvia?",
+    "resposta": "2.7°C"
+  },
+  {
+    "pergunta": "Qual é a temperatura média em maio em Varsóvia?",
+    "resposta": "14.8°C"
+  },
+  {
+    "pergunta": "Como é classificada administrativamente Varsóvia?",
+    "resposta": "City county"
+  },
+  {
+    "pergunta": "Em qual rio fica localizada Varsóvia?",
+    "resposta": "Vístula"
+  },
+  {
+    "pergunta": "Qual é a classificação de região de Varsóvia?",
+    "resposta": "Região"
+  },
+  {
+    "pergunta": "É considerado que Varsóvia seja uma cidade-condado?",
+    "resposta": "Sim"
+  }
+]
+```

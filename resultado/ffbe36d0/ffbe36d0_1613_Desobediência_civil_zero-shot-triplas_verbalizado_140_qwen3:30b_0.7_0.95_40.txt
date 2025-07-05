@@ -1,0 +1,94 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers in Portuguese, based on the provided context and facts. The main challenge is to ensure that each question is unique and covers different aspects of civil disobedience as per the given data.
+
+First, I need to parse the context and facts. The context mentions Henry David Thoreau, Gandhi, Martin Luther King, and the definition of civil disobedience. The facts list various movements, events, and templates related to civil disobedience. 
+
+I should start by identifying key points from the context: origin by Thoreau, applications by Gandhi and MLK, the nature as peaceful protest against injustice, and the right to disobey an unsatisfactory government.
+
+For the facts, there are numerous examples like Refuse Fascism, Montenegrin protests, 2017 Serbian protests, etc. Also, mentions of templates used on Wikipedia, categories, and specific individuals associated with civil disobedience.
+
+Now, I need to create questions that are varied. Let's think of different angles: origins, key figures, historical examples, methods, related movements, templates, categories, and specific events. 
+
+First question could be about the origin. Then, who applied it successfully. Next, the purpose or nature. Then, examples of events. Maybe a question about the types of methods used. Also, the right to disobey. Then, a question about a specific event or movement. Another could be about the categories or topics related. Then, a question about the models or templates used. Finally, a question about a specific individual associated with it.
+
+Need to make sure each question is distinct and the answers are directly from the context or facts. For example, the first answer is Henry David Thoreau. The second could be Gandhi and MLK. The third about peaceful protest against injustice. Then, examples like the Indian independence movement, US civil rights. The right to disobey the government. Then, a specific event like the 2017 Serbian protests. Categories like activism by type. Models like Template:Cite book. And a person like Veliyankode Umar Khasi.
+
+Wait, the facts mention "Veliyankode Umar Khasi é conhecido por Civil disobedience" so that's a good name to include. Also, the image of Henry David Thoreau. And the fact that it's a type of Thing. 
+
+I need to check that each answer is either explicitly stated or can be inferred. For instance, the fact that "Civil disobedience é do tipo Thing" would lead to a question about its classification. 
+
+Let me list out possible questions:
+
+1. Quem formulou o conceito de desobediência civil?
+2. Quem aplicou com sucesso a desobediência civil na luta pela independência da Índia?
+3. Qual é o objetivo da desobediência civil?
+4. Cite um exemplo de movimento que utilizou desobediência civil.
+5. Qual é a natureza da desobediência civil?
+6. O que permite à população desobedecer ao governo?
+7. Qual evento específico utilizou métodos de desobediência civil em 2017?
+8. Qual categoria está associada à desobediência civil?
+9. Qual modelo de página wiki é utilizado pela desobediência civil?
+10. Quem é conhecido por sua atuação em desobediência civil?
+
+Now, check the facts for answers:
+
+1. Henry David Thoreau (contexto)
+2. Mahatma Gandhi (contexto)
+3. Protesto político pacífico contra injustiça (contexto)
+4. Índia/Paquistão (contexto), ou exemplos específicos como "2017 Serbian protests" (fatos)
+5. Pacífico (contexto)
+6. Direito de desobedecer (contexto)
+7. 2017 Serbian protests (fatos)
+8. Category:Activism by type (fatos)
+9. Template:Cite book (fatos)
+10. Veliyankode Umar Khasi (fatos)
+
+Make sure the answers are correct based on the data. Also, check for repetition. Each question should be unique. The answer to question 4 could be "Movimento pela independência da Índia" or a specific event. Maybe use the specific event from the facts. 
+
+So, adjust the questions and answers accordingly. Ensure that the answers are directly from the context or facts. Avoid any assumptions beyond the given data. For example, the answer to question 9 is "Template:Cite book" as per the facts. 
+
+Finally, structure the JSON with the 10 pairs, ensuring correct syntax and no extra content.
+</think>
+
+[
+  {
+    "pergunta": "Quem formulou o conceito de desobediência civil?",
+    "resposta": "Henry David Thoreau"
+  },
+  {
+    "pergunta": "Quem aplicou com sucesso a desobediência civil na luta pela independência da Índia?",
+    "resposta": "Mahatma Gandhi"
+  },
+  {
+    "pergunta": "Qual é o objetivo da desobediência civil?",
+    "resposta": "Protesto político pacífico contra injustiças ou governos opressores"
+  },
+  {
+    "pergunta": "Cite um exemplo de movimento que utilizou desobediência civil.",
+    "resposta": "Movimento pelos direitos civis nos Estados Unidos"
+  },
+  {
+    "pergunta": "Qual é a natureza da desobediência civil?",
+    "resposta": "Pacífica e voltada para a justiça social"
+  },
+  {
+    "pergunta": "O que permite à população desobedecer ao governo?",
+    "resposta": "O direito de desobedecer em caso de insatisfação com o governo"
+  },
+  {
+    "pergunta": "Qual evento específico utilizou métodos de desobediência civil em 2017?",
+    "resposta": "Protestos na Sérvia"
+  },
+  {
+    "pergunta": "Qual categoria está associada à desobediência civil?",
+    "resposta": "Category:Activism by type"
+  },
+  {
+    "pergunta": "Qual modelo de página wiki é utilizado pela desobediência civil?",
+    "resposta": "Template:Cite book"
+  },
+  {
+    "pergunta": "Quem é conhecido por sua atuação em desobediência civil?",
+    "resposta": "Veliyankode Umar Khasi"
+  }
+]

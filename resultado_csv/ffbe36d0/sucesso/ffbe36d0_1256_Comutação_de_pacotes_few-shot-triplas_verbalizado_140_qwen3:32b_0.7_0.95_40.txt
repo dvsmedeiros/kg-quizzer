@@ -1,0 +1,71 @@
+<think>
+Okay, let's see. The user wants me to generate 10 question-answer pairs based on the provided context and facts. The context is about packet switching in computer networks, comparing it to circuit switching, and there are some facts listed with names like Paul Baran, Donald Davies, W. David Sincoskie, and others associated with packet switching.
+
+First, I need to make sure each question is relevant to the context and the facts given. The answers must be directly from the content. I should avoid repeating similar questions. Let me start by listing the key points from the context and facts.
+
+The context explains packet switching vs. circuit switching, mentioning virtual circuits (like ATM, Frame Relay) and connectionless (like IP). The facts include people known for packet switching (Paul Baran, Donald Davies, W. David Sincoskie), categories (Computer networking, Network protocols), types (ComputerNetwork, Telecommunication, etc.), and some models used on Wikipedia pages.
+
+Now, I need to form questions around these points. Let's start with the key figures. For example, who is credited with coining the term "packet switching"? The facts mention Donald Davies for that. Then, what are examples of connection-oriented packet switching? The context lists ATM, Frame Relay, X.25. What are the two main types of packet switching? Connection-oriented and connectionless. What is a key advantage of connectionless? Flexibility and robustness. What does circuit switching establish? A virtual connection. What is used to optimize bandwidth in packet switching? Statistical time-division multiplexing. What is a disadvantage of packet switching? Increased jitter and delay variation. What is the main purpose of packet switching? Optimize bandwidth, reduce latency, increase robustness. What is an example of a connectionless protocol? IP. What is the main difference between packet and circuit switching? Packet uses virtual paths without dedicated links, while circuit uses dedicated.
+
+Wait, some of these might be overlapping. Need to check for unique aspects. Let me list them out:
+
+1. Who coined "packet switching"? Donald Davies.
+2. Examples of connection-oriented packet switching? ATM, Frame Relay, X.25.
+3. Two main types of packet switching? Connection-oriented and connectionless.
+4. Advantage of connectionless? Flexibility and robustness.
+5. What does circuit switching establish? Virtual connection.
+6. Technique used to optimize bandwidth? Statistical time-division multiplexing.
+7. Disadvantage of packet switching? Jitter and delay variation.
+8. Main purpose of packet switching? Optimize bandwidth, reduce latency, robustness.
+9. Example of connectionless protocol? IP.
+10. Main difference between packet and circuit switching? Dedicated vs. virtual paths.
+
+Now, phrasing these into questions and answers. Let me check the facts again to ensure accuracy. For instance, the facts mention Paul Baran and Donald Davies as key figures. The example questions already have some about Paul Baran, so maybe focus on the others. Also, the facts list W. David Sincoskie as known for packet switching. So a question could be "Quem é conhecido por Packet switching além de Paul Baran e Donald Davies?" The answer would be W. David Sincoskie.
+
+But the user wants exactly 10 pairs. Let me structure them step by step, ensuring each is distinct and based on the provided info.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem é creditado por cunhar o termo 'packet switching'?",
+    "resposta": "Donald Davies"
+  },
+  {
+    "pergunta": "Quais são exemplos de tecnologias que utilizam comutação de pacotes com ligação (circuito virtual)?",
+    "resposta": "ATM (comutação de células), Frame Relay e X.25"
+  },
+  {
+    "pergunta": "Qual é o principal objetivo da comutação de pacotes em redes de computadores?",
+    "resposta": "Optimizar o uso da largura de banda da rede, minimizar a latência e aumentar a robustez da comunicação"
+  },
+  {
+    "pergunta": "Qual é a principal diferença entre comutação de pacotes e comutação de circuitos?",
+    "resposta": "A comutação de circuitos estabelece uma ligação virtual dedicada entre os nós, enquanto a comutação de pacotes utiliza caminhos virtuais sem ligação dedicada"
+  },
+  {
+    "pergunta": "Qual técnica é usada pela comutação de pacotes para melhorar o uso da largura de banda?",
+    "resposta": "Multiplexagem temporal estatística"
+  },
+  {
+    "pergunta": "Quem, além de Paul Baran e Donald Davies, é conhecido por contribuições para a comutação de pacotes?",
+    "resposta": "W. David Sincoskie"
+  },
+  {
+    "pergunta": "Qual é uma desvantagem da comutação de pacotes em comparação com a comutação de circuitos?",
+    "resposta": "Introdução de jitter e variação na qualidade de serviço"
+  },
+  {
+    "pergunta": "Qual protocolo é um exemplo de comutação de pacotes sem ligação?",
+    "resposta": "Protocolo IP"
+  },
+  {
+    "pergunta": "Qual é a característica principal da comutação de pacotes sem ligação (datagrama)?",
+    "resposta": "Os pacotes são encaminhados independentemente, oferecendo flexibilidade e robustez"
+  },
+  {
+    "pergunta": "Qual categoria de assunto está associada à comutação de pacotes no contexto fornecido?",
+    "resposta": "Category:Computer networking"
+  }
+]
+```

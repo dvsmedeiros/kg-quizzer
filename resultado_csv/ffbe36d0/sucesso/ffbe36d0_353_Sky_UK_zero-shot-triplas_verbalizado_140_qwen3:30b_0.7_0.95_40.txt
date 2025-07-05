@@ -1,0 +1,99 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about British Satellite Broadcasting (BSB). Let me start by going through the context and facts carefully.
+
+First, the context says BSB was a TV company in London, provided satellite TV services to the UK, and was incorporated in November 1990 to form BSkyB. It started broadcasting on March 25, 1990. 
+
+Looking at the facts, there's a lot of information. Let me list out key points:
+
+- Founded in 1986 (December 11th)
+- Merged with Sky Television in 1990 to form BSkyB
+- Located in London, specifically Marco Polo House, England
+- Owned channels: The Movie Channel, The Power Station, Now, Galaxy (1), The Computer Channel (BSB)
+- Produced films: Memphis Belle, Hardware
+- Types: Company, Organisation, etc.
+- Categories: 1990s in UK, 1980s in UK, etc.
+- Logo and images: Squarial2.jpg, British Satellite Broadcasting logo.png, etc.
+- Models used: Template:Authority control, Template:Cite web, etc.
+
+Now, I need to create varied questions. Let me think of different aspects: founding date, merger, location, services, owned channels, productions, types, categories, images, models.
+
+First question: When was BSB founded? Answer: 1986 (specific date given as December 11, 1986).
+
+Second: When was BSB incorporated into BSkyB? Answer: November 1990.
+
+Third: Where was BSB located? Answer: London, Marco Polo House, England.
+
+Fourth: What channels did BSB own? Answer: The Movie Channel, The Power Station, Now, Galaxy (1), The Computer Channel.
+
+Fifth: What films did BSB produce? Answer: Memphis Belle, Hardware.
+
+Sixth: What company was BSB merged with? Answer: Sky Television.
+
+Seventh: What is the type of BSB? Answer: Company, Organisation, etc. (But need to pick one from the facts. The facts mention "Company" and "Organisation" as types. Maybe "Company" as per the name "British Satellite Broadcasting plc".)
+
+Eighth: What categories is BSB associated with? Answer: Categories like 1990s in UK, 1980s in UK, etc.
+
+Ninth: What is the name of BSB's logo image? Answer: British Satellite Broadcasting logo.png.
+
+Tenth: What model was used for BSB's page? Answer: Template:British Satellite Broadcasting.
+
+Wait, need to check if these are all unique and cover different aspects. Let me verify each:
+
+1. Founding date: Yes.
+2. Merger date: Yes.
+3. Location: Yes.
+4. Channels: Yes.
+5. Films: Yes.
+6. Merged with: Yes.
+7. Type: Yes.
+8. Categories: Yes.
+9. Logo image: Yes.
+10. Page model: Yes.
+
+That's 10. Now, ensure that each answer is directly from the context or facts. For example, the founding date is mentioned as "fundado em 1986-12-11" and "1986". The merger is "incorporada em novembro de 1990". Location is "London", "Marco Polo House", "England". Channels are listed multiple times. Films are Memphis Belle and Hardware. The merger is with Sky Television. The type is "Company". Categories include several, but the answer can be one example. The logo image is mentioned as "British Satellite Broadcasting logo.png". The model is "Template:British Satellite Broadcasting".
+
+I think that works. Now, structure each as a JSON pair.
+</think>
+
+[
+  {
+    "pergunta": "Em que ano a British Satellite Broadcasting (BSB) foi fundada?",
+    "resposta": "1986"
+  },
+  {
+    "pergunta": "Quando a BSB foi incorporada pela Sky Television para formar a BSkyB?",
+    "resposta": "novembro de 1990"
+  },
+  {
+    "pergunta": "Qual é o nome da sede da BSB?",
+    "resposta": "Marco Polo House"
+  },
+  {
+    "pergunta": "Quais canais de televisão eram de propriedade da BSB?",
+    "resposta": "The Movie Channel, The Power Station, Now, Galaxy (1), The Computer Channel"
+  },
+  {
+    "pergunta": "Quais filmes foram produzidos pela BSB?",
+    "resposta": "Memphis Belle, Hardware"
+  },
+  {
+    "pergunta": "Com qual empresa a BSB foi fundida?",
+    "resposta": "Sky Television"
+  },
+  {
+    "pergunta": "Qual é o tipo da British Satellite Broadcasting?",
+    "resposta": "Company"
+  },
+  {
+    "pergunta": "Qual categoria está associada à BSB?",
+    "resposta": "Category:1990s in British television"
+  },
+  {
+    "pergunta": "Qual é o nome da imagem representativa do logo da BSB?",
+    "resposta": "British Satellite Broadcasting logo.png"
+  },
+  {
+    "pergunta": "Qual modelo de página wiki era usado para a BSB?",
+    "resposta": "Template:British Satellite Broadcasting"
+  }
+]

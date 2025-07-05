@@ -1,0 +1,72 @@
+<think>
+Alright, so the user wants me to act as an objective question generator based on a given context about the Inter-Governmental Panel on Climate Change (IPCC). They provided some content in Portuguese and specified that I should generate exactly 10 pairs of questions and answers without adding any extra information.
+
+First, I need to extract key points from the provided context. The IPCC is an intergovernmental body established in 1988 by the UN. It assesses climate change impacts, focuses on mitigation and adaptation, produces reports with consensus among member countries, has 195 members, includes WG I for science, WG II for impacts, WG III for response strategies, and aims to provide solutions.
+
+Now, I'll think about various aspects covered in the context: establishment, purpose, number of member states, working groups, main objective. Each question should target a different aspect without repetition.
+
+Let me start by listing possible questions:
+1. When was the IPCC established? - 1988
+2. What is the main goal of the IPCC? - Assess impacts and provide solutions.
+3. How many countries are members? - 195
+4. Which UN agency supports it? - UN Environment Programme and WMO.
+5. What does WG I focus on? - Science, causes, and effects.
+6. What is the main objective of the IPCC?
+7. What areas does the IPCC assess? - Causes, impacts, mitigation.
+8. How often are reports produced? - Every 5-7 years.
+9. What's a key feature of its reports? - Consensus among members.
+10. Which working group addresses response strategies?
+
+I need to ensure that each question is unique and covers different aspects. I should also make sure the answers are directly extractable or inferable from the context.
+
+Wait, maybe rephrase some questions for clarity:
+- Instead of repeating "main objective," perhaps ask about the main areas assessed.
+- Ensure each question targets a specific detail without overlapping too much.
+
+I think that's a solid set. Now, I'll structure them into JSON as specified, making sure to follow the format exactly and only include the required fields without any additional text.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando foi estabelecido o Painel Intergovernamental sobre Mudanças Climáticas (IPCC)?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "Qual é a principal finalidade do IPCC?",
+    "resposta": "Assessar os impactos da mudança climática e propor soluções"
+  },
+  {
+    "pergunta": "Quantos países são membros do IPCC?",
+    "resposta": "195"
+  },
+  {
+    "pergunta": "Qual órgão das Nações Unidas apoia o trabalho do IPCC?",
+    "resposta": "Programa das Nações Unidas para o Meio Ambiente (UNEP) e Organização Meteorológica Mundial (WMO)"
+  },
+  {
+    "pergunta": "Qual é a principal área de atuação do Grupo de Trabalho I (WG I)?",
+    "resposta": "Ciência, causas e efeitos da mudança climática"
+  },
+  {
+    "pergunta": "Quais são as principais áreas assesadas pelo IPCC?",
+    "resposta": "Causas, impactos e mitigação da mudança climática"
+  },
+  {
+    "pergunta": "Com que frequência o IPCC publica relatórios?",
+    "resposta": "A cada 5-7 anos"
+  },
+  {
+    "pergunta": "Qual é um dos princípios fundamentais do trabalho do IPCC?",
+    "resposta": "Consenso entre os países membros"
+  },
+  {
+    "pergunta": "Qual Grupo de Trabalho se concentra em estratégias de resposta à mudança climática?",
+    "resposta": "Grupo de Trabalho III (WG III)"
+  },
+  {
+    "pergunta": "O IPCC é apoiado por quais organizações internacionais?",
+    "resposta": "UNEP e WMO"
+  }
+]
+```

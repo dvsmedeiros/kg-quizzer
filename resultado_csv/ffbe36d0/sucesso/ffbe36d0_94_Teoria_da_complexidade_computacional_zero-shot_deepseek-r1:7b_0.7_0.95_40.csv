@@ -1,0 +1,11 @@
+pergunta;resposta
+O que é a diferença entre os classes P e NP na teoria da complexidade computacional?;Os problemas pertencem ao class P se resolutiones efficientes, ou seja, em tempo polinomial, são encontradas. Os problemas de NP incluem aqueles cujas soluções verificadas são feitas rapidamente, mas aщу何处 finding solutions pode ser difícil.
+Qual é um exemplo de um problema NP-completo?;O problema do circuitsatisfiability (Circuit SAT) é NP-completo, representando um tipo de instância do problema Boolean satisfiability problem.
+O que significa dizer que um problema é NP-difícil?;Um problema é NP-difícil se todos os problemas NP-complete são reduzíveis a ele em tempo polinomial, indicando uma dificuldade significativa.
+O que é o papel das oracle machines na teoria de complexidade?;As oracle machines são um modelo teórico de computação que introduzem oraclees idealizados para resolver problemas específicos, permitindo a análise de complexidades relativas.
+Qual é um exemplo de algoritmo polinomial e por quê?;O algoritmo de bubblesort temComplexidade O(n²) no pior caso, mas outros como merge sort têmComplexidade O(n log n), classified as polynomial time algorithms.
+Como os reductions são importantes na classificação de problemas NP-completos?;Os reductions permitem classificar problemas NP-completos e mostrar a equivalência em complexidade entre diferentes problemas NP, indicando que um algoritmo para um problema pode ser adaptado para outros.
+Qual é um exemplo de um problema que não está sabido pertencer à classe NP?;O problema da fatoração dos inteiros grandes, que é central em segurança de cryptografia, não está confirmado estar na classe NP.
+Por que a hierarquia de complexidade é relevante?;Ela organiza as classes de complexidade hierárquicamente, mostrando ordem natural e relationships entre diferentes classes de problemas.
+O que é acomplexidade da circuito no contexto da teoria da complexidade computacional?;A complexidade de circuitos refere-se à taille e profundidade dos circuitos booleanos necessários para resolver um problema, influenciando a velocidade de computação.
+Como a teoria da complexidade impacta o cryptographic security?;Elas definiu limites sobre a complexidade necessária para as cifrações seguras, evitando que algoritmos com complexidades menores sejam usados, mantendo segurança em sistemas criptográficos.

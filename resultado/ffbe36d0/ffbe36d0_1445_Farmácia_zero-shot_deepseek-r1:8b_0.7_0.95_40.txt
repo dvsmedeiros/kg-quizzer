@@ -1,0 +1,69 @@
+<think>
+Ok, eu preciso ajudar o usuário a gerar questões objetivas sobre Farmácia com base no contexto fornecido. Primeiro, vou analisar o contexto para identificar os principais pontos que possuem informações relevantes.
+
+O contexto menciona vários fatos: a importância de seguir instruções médicas, a necessidade de usar medicamentos conforme prescrito, a verificação de expiração, a importância da dose correta e a prevenção de doenças via vacinação. Além disso, há informações sobre alemoína, penicilina e hepatite A.
+
+Para criar as perguntas, preciso cobrir cada um desses pontos de maneira variada e abranger diferentes aspectos. Cada pergunta deve ter uma única resposta correta que esteja claramente relacionada ao conteúdo.
+
+Começo listando os possíveis temas para perguntas:
+
+1. Instruções médicas: como seguir recomendações.
+2. Uso de medicamentos: importância do uso adequado.
+3. Verificação de expiração: data de validade.
+4. Dose correta: como calcular ou verificar a dose.
+5. Contrações e vacinação: impacto da vacinação.
+6. Alergênios: risco de alergenia em farmácias.
+7. Identificação de medicamentos: exemplos com alemoína, penicilina.
+8. Doença hepatite A: transmissão e prevenção.
+
+Agora, formulo as perguntas de maneira clara e direta, sempre relacionando com o conteúdo. Garantendo que cada resposta seja única e extraída diretamente dos fatos apresentados.
+
+Vou verificar se todas as perguntas são variadas e cobrem diferentes aspectos, sem repetir temas ou perguntas semelhantes. Além disso, assegurar que as respostas estejam corretas e claras.
+
+Finalmente, organizo os pares de perguntas e respostas em um JSON com a estrutura especificada.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Que é importante seguir as recomendações médicas fornecidas pelo profissional de saúde?",
+    "resposta": "É importante seguir as recomendações médicas para garantir o tratamento adequado e eficaz."
+  },
+  {
+    "pergunta": "Por que é essencial usar o medicamento conforme prescrito pelo médico?",
+    "resposta": "O uso inadequado pode levar a má absorção ou efeitos adversos, prejudicando o tratamento."
+  },
+  {
+    "pergunta": "Qual é a data de validade do medicamento em seu embalagem?",
+    "resposta": "A data de expiração está impressa no rótulo do produto ou na bula fornecida pelo fabricante."
+  },
+  {
+    "pergunta": "Como calcular a dose correta do medicamento?",
+    "resposta": "Use a dose calculada pelo profissional de saúde e siga as instruções de administração fornecidas."
+  },
+  {
+    "pergunta": "Por que é importante vacinar-se contra doenças como hepatite A?",
+    "resposta": "A vacinação preventa a doença e protege contra a transmissão do vírus."
+  },
+  {
+    "pergunta": "Qual é o risco de alergenia ao usar determinados medicamentos?",
+    "resposta": "Além de outros possíveis efeitos, a alergenia pode ocorrer em indivíduos sensíveis."
+  },
+  {
+    "pergunta": "Quais são exemplos de substâncias encontradas em farmácias que podem causar overdose?",
+    "resposta": "Exemplos incluem alemoína, penicilina e outros medicamentos potencialmente tóxicos."
+  },
+  {
+    "pergunta": "O que pode acontecer se o tratamento médico não for acompanhado adequadamente?",
+    "resposta": "Pode ocorrer má eficácia do tratamento ou riscos aumentados para o paciente."
+  },
+  {
+    "pergunta": "Por que é importante evitar a automedicação?",
+    "resposta": "Para prevenir erros médicos, garantir segurança e eficácia no tratamento."
+  },
+  {
+    "pergunta": "Qual é a principal maneira de identificar um medicamento potencialmente perigoso?",
+    "resposta": "Verifique a bula do produto ou consulte o profissional de saúde."
+  }
+]
+```

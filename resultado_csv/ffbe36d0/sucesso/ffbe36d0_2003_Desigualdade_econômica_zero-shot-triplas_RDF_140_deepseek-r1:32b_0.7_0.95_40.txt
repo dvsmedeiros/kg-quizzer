@@ -1,0 +1,90 @@
+<think>
+Okay, so I need to generate 10 question-answer pairs based on the given context and facts about economic inequality. Let me start by understanding what's provided.
+
+The context explains that economic inequality involves both income distribution (how much money people earn) and wealth distribution (what they own). It mentions that this can happen between countries or within, affecting different groups. The Coefficient of Gini is a key measure here, along with the Inequality-Adjusted Human Development Index. Concepts like equity, equality of results, and opportunities are important too. Research shows higher inequality makes growth harder to sustain but not necessarily slower in rate. Globalization has reduced global inequality between nations but increased it within countries.
+
+Looking at the facts, there are a bunch of resources linked to economic inequality as their subject or cause. There are people like Branko Milanović and Robert Wade who focus on this area. Movements like Occupy Wall Street and others cite economic inequality as a cause. Books such as "Capital in the Twenty-First Century" also discuss this topic.
+
+Now, I need to create varied questions covering different aspects. Let me think about possible angles: definitions, measurements (like Gini), effects of globalization, types of equality, related movements or books, key figures, etc.
+
+I should ensure each question has a clear correct answer from the context. Also, avoid repeating similar questions.
+
+Let's list potential questions:
+
+1. What is economic inequality about?
+   - It's about distribution of income and wealth.
+
+2. Which measure is most used for inequality?
+   - Coefficient of Gini.
+
+3. How does globalization affect global inequality?
+   - Reduces between nations but increases within.
+
+4. What are types of equality in context?
+   - Equity, equality of results/opportunities.
+
+5. Name a book on economic inequality.
+   - "Capital in the Twenty-First Century".
+
+6. Which index combines HDI with inequality?
+   - Inequality-Adjusted Human Development Index.
+
+7. Who studies this field? (Pick one from facts)
+   - Branko Milanović or Robert Wade.
+
+8. How does higher inequality affect growth duration?
+   - Makes it harder to sustain.
+
+9. What movements cite economic inequality as a cause?
+   - Occupy Wall Street, etc.
+
+10. What's the difference between income and wealth in this context?
+    - Income is what people earn; wealth is what they own.
+
+I think these cover different aspects without repetition. Now I'll structure them into JSON format with Portuguese language.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é a desigualdade econômica?",
+    "resposta": "A desigualdade econômica refere-se à distribuição de renda e riqueza entre pessoas ou países."
+  },
+  {
+    "pergunta": "Qual é a medida mais utilizada para avaliar a desigualdade econômica?",
+    "resposta": "O Coeficiente de Gini."
+  },
+  {
+    "pergunta": "Como a globalização afeta a desigualdade global?",
+    "resposta": "A globalização reduz a desigualdade entre nações, mas aumenta a desigualdade dentro dos países."
+  },
+  {
+    "pergunta": "Quais são os tipos de igualdade mencionados no contexto?",
+    "resposta": "Equidade, igualdade de resultados e igualdade de oportunidades."
+  },
+  {
+    "pergunta": "Qual livro aborda a desigualdade econômica?",
+    "resposta": "Capital no século XXI."
+  },
+  {
+    "pergunta": "Que índice leva em conta a desigualdade junto ao IDH?",
+    "resposta": "Índice de Desenvolvimento Humano Ajustado pela Desigualdade."
+  },
+  {
+    "pergunta": "Quem é um estudioso da desigualdade econômica?",
+    "resposta": "Branko Milanović."
+  },
+  {
+    "pergunta": "Como a maior desigualdade afeta o crescimento econômico?",
+    "resposta": "Torna mais difícil sustentar o crescimento."
+  },
+  {
+    "pergunta": "Qual movimento cita a desigualdade econômica como causa?",
+    "resposta": "O Occupy Wall Street."
+  },
+  {
+    "pergunta": "Qual é a diferença entre renda e riqueza?",
+    "resposta": "Renda é o que as pessoas ganham, enquanto riqueza é o que possuem."
+  }
+]
+```

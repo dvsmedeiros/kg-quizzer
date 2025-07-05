@@ -1,0 +1,69 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by carefully reading through the context and the facts to understand the key points.
+
+The context explains packet switching versus circuit switching, mentioning advantages like bandwidth optimization, latency reduction, and robustness. It also differentiates between connection-oriented (like ATM) and connectionless (like IP) packet switching. The facts include names associated with packet switching (Paul Baran, Donald Davies, W. David Sincoskie), some images, categories, and technical details.
+
+First, I should identify the main topics: definitions of packet switching, comparison with circuit switching, types of packet switching (connection-oriented vs. connectionless), key people involved, and technical aspects like multiplexing and jitter.
+
+Now, I need to ensure that each question is unique and covers different aspects. Let me list possible questions:
+
+1. What is packet switching? (From context)
+2. How does packet switching differ from circuit switching? (Context)
+3. What are the advantages of packet switching? (Context)
+4. What are the two types of packet switching? (Context)
+5. Who is associated with the development of packet switching? (Facts)
+6. What is an example of a connection-oriented packet switching technology? (Context)
+7. What is an example of a connectionless packet switching technology? (Context)
+8. What is a disadvantage of packet switching? (Context)
+9. What does the term "jitter" refer to in packet switching? (Context)
+10. What is the primary purpose of using statistical multiplexing in packet switching? (Context)
+
+Now, checking if these are all covered in the context and facts. The names like Paul Baran, Donald Davies, and W. David Sincoskie are in the facts. The examples of technologies (ATM, Frame Relay, X.25, IP) are in the context. The advantages and disadvantages are mentioned. The term "jitter" is in the context. Statistical multiplexing is also there.
+
+I need to make sure the answers are accurate. For example, the answer to question 5 should list Paul Baran, Donald Davies, and W. David Sincoskie. For question 8, the answer is the variability in QoS, jitter, and delays. Jitter refers to variation in packet arrival times.
+
+Now, phrasing the questions and answers in Portuguese, ensuring each is unique and based on the given information. Avoid any markdown and stick strictly to the JSON format as specified.
+</think>
+
+[
+  {
+    "pergunta": "O que é a comutação de pacotes?",
+    "resposta": "A comutação de pacotes é um paradigma de comunicação de dados em que pacotes são individualmente encaminhados entre os nós da rede através de ligações de dados partilhadas."
+  },
+  {
+    "pergunta": "Como a comutação de pacotes difere da comutação de circuitos?",
+    "resposta": "A comutação de pacotes não estabelece uma ligação virtual dedicada, ao contrário da comutação de circuitos, que reserva uma ligação para uso exclusivo durante a transmissão."
+  },
+  {
+    "pergunta": "Quais são as principais vantagens da comutação de pacotes?",
+    "resposta": "A comutação de pacotes otimiza o uso da largura de banda, minimiza a latência e aumenta a robustez da comunicação."
+  },
+  {
+    "pergunta": "Quais são os dois tipos de comutação de pacotes?",
+    "resposta": "Os dois tipos são: com ligação (circuito virtual) e sem ligação (datagrama)."
+  },
+  {
+    "pergunta": "Quem está associado ao desenvolvimento da comutação de pacotes?",
+    "resposta": "Paul Baran, Donald Davies e W. David Sincoskie estão associados ao desenvolvimento da comutação de pacotes."
+  },
+  {
+    "pergunta": "Qual é um exemplo de tecnologia de comutação de pacotes com ligação?",
+    "resposta": "ATM (comutação de células), Frame Relay e X.25 são exemplos de comutação de pacotes com ligação."
+  },
+  {
+    "pergunta": "Qual é um exemplo de tecnologia de comutação de pacotes sem ligação?",
+    "resposta": "O protocolo IP (Internet Protocol) é um exemplo de comutação de pacotes sem ligação."
+  },
+  {
+    "pergunta": "Qual é uma desvantagem da comutação de pacotes?",
+    "resposta": "A comutação de pacotes apresenta maior variação na qualidade de serviço, introduzindo jitter e atrasos diversos."
+  },
+  {
+    "pergunta": "O que é jitter na comutação de pacotes?",
+    "resposta": "O jitter refere-se à variação no tempo de chegada dos pacotes à sua destinatária."
+  },
+  {
+    "pergunta": "Qual técnica é utilizada na comutação de pacotes para melhorar o uso dos recursos da rede?",
+    "resposta": "A comutação de pacotes utiliza técnicas de multiplexagem temporal estatística para otimizar os recursos da rede."
+  }
+]

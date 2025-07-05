@@ -1,0 +1,96 @@
+<think>
+Okay, I need to help the user generate 10 question-answer pairs based on the provided context and facts about the IPCC. Let me first understand what's required.
+
+The user wants each pair to have a question related to the content and a correct answer. The questions should be varied but relevant to the IPCC's work. They also want the answers to be explicit or inferible from the given data, without repeating any.
+
+Looking at the context, the IPCC was established in 1988 by the UN, deals with climate change impacts, causes, effects, and solutions. They have produced several reports and received criticism but are still influential globally.
+
+Now, I'll go through each fact to create questions:
+
+1. **Facts about establishment**: The IPCC was created in 1988.
+   - Question: When was the IPCC created?
+   - Answer: 1988
+
+2. **Institutional aspects**: It's part of the UN and WMO, located in Geneva.
+   - Question: Where is the IPCC headquartered?
+   - Answer: Geneva, Switzerland
+
+3. **Key members**: Filippo Giorgi worked there.
+   - Question: Who has known worked at the IPCC?
+   - Answer: Filippo Giorgi
+
+4. **Leadership**: Kevin Trenberth was a leader.
+   - Question: Has Kevin E. Trenberth been part of the IPCC leadership?
+   - Answer: Yes
+
+5. **Report frequency**: The first report in 1990, last in 2014.
+   - Question: When did the IPCC produce its latest report?
+   - Answer: 2014
+
+6. **Facts about Rajendra Pachauri**: He co-wrote a major report.
+   - Question: Who has written a significant IPCC report?
+   - Answer: Rajendra K. Pachauri
+
+7. **Renewable energy role**: The IPCC includes a report on renewable sources and climate change mitigation.
+   - Question: What does the IPCC publish besides their main reports?
+   - Answer: Renewable energy solutions and climate change mitigation strategies.
+
+8. **Leadership again**: Mohan Munasinghe is known for his work.
+   - Question: Which notable person has contributed to the IPCC's work?
+   - Answer: Mohan Munasinghe
+
+9. **Julia Slingo's role**: She was part of the IPCC team.
+   - Question: Has Julia Slingo been associated with the IPCC?
+   - Answer: Yes
+
+10. **Criticism**: IPCC faces criticism but remains influential.
+    - Question: What is a common critique of the IPCC?
+    - Answer: They receive criticism from various quarters, including scientists who disagree with some findings.
+
+I need to ensure each question is clear and directly related to the facts. The answers should be concise and accurate based on the provided data. I also need to make sure there are no repeated questions or similar ones.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em qual ano foi criado o Intergovernmental Panel on Climate Change (IPCC)?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "O IPCC está localizado em qual cidade?",
+    "resposta": "Geneva, Suíça"
+  },
+  {
+    "pergunta": "Qual é um membro conhecido do IPCC?",
+    "resposta": "Filippo Giorgi"
+  },
+  {
+    "pergunta": "O Kevin E. Trenberth foi associated com a leitura do IPCC?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Qual foi a data da publicação da Relatório mais recente do IPCC?",
+    "resposta": "2014"
+  },
+  {
+    "pergunta": "Quem escreveu um relatório significativo para o IPCC?",
+    "resposta": "Rajendra K. Pachauri"
+  },
+  {
+    "pergunta": "O IPCC publicou algo além de reports principais sobre a mudanças climáticas?",
+    "resposta": "Relatórios sobre fontes renováveis e mitigação da mudança climática."
+  },
+  {
+    "pergunta": "Qual é um membro renomado do IPCC?",
+    "resposta": "Mohan Munasinghe"
+  },
+  {
+    "pergunta": "Julia Slingo foi associated com a leer do IPCC?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "O IPCC frequentemente receives críticas, mas como são elas perceptionalmente?",
+    "resposta": " recebem críticas de vários lados, incluindo cientistas que discordam de algumas das suas conclusões."
+  }
+]
+```

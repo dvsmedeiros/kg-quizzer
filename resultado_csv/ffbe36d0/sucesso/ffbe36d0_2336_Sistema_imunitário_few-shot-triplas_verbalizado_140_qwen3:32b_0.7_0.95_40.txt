@@ -1,0 +1,75 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. First, I need to make sure I understand the context. The context is about the immune system, its functions, historical aspects, components, and related disorders. The facts list various elements like cells, diseases, and models used in the wiki page.
+
+I need to generate questions that are varied and cover different aspects. Let me start by brainstorming possible topics from the context. The immune system's role in protecting against diseases, the scientist who coined the term (Mechnikov), mechanisms like innate vs adaptive immunity, cells involved (like B cells, T cells, macrophages), disorders like immunodeficiency and autoimmunity, and the basis of vaccination.
+
+Now, checking the facts provided. There are mentions of specific cells (Basophil, Microfold cell, etc.), diseases (Sepsis, Rheumatology), models used (wiki templates), and some key terms. I need to ensure that the questions are based on the context and facts given, not adding external knowledge.
+
+Possible questions could be about the origin of the term immune system, key cells involved, mechanisms of adaptive immunity, disorders related to the immune system, and components like the bone marrow's role. Also, the examples provided by the user can give a sense of the style, such as "What are the two types of immunity?" but I need to avoid repeating those.
+
+Wait, in the examples, there's a question about the two types of immunity being humoral and cell-mediated, which is in the context. But the user's example includes "imunidade humoral versus imunidade mediada por células." However, in the context, it's mentioned as "imunidade adquirida" and the basis of vaccination. So maybe focus more on the components listed in the facts, like cells and structures.
+
+Let me list out possible questions:
+
+1. Quem cunhou o termo sistema imunológico em 1882? Resposta: Ilya Ilyich Mechnikov.
+2. Qual é a função principal do sistema imunológico? Proteger contra doenças.
+3. Quais células fazem parte do sistema imunológico? Exemplos: B cells, T cells, Macrophages.
+4. O que é a imunidade adquirida? Memória imunológica.
+5. Quais são os dois tipos de distúrbios do sistema imunológico? Imunodeficiência e autoimunidade.
+6. Qual é a causa da imunodeficiência? Atividade imunológica inferior.
+7. Qual célula específica está envolvida na resposta imunológica adquirida? Lymphocyte.
+8. O que é a autoimunidade? Sistema imunológico atacando tecidos normais.
+9. Qual é a base da vacinação? Imunidade adquirida.
+10. Qual estrutura é parte do sistema imunológico e produz células sanguíneas? Medula óssea (bone marrow).
+
+Now, checking the facts for validation. The context mentions Mechnikov as the one who coined the term. The facts list various cells like B cell, T cell, Macrophage, etc. The context also explains adaptive immunity and vaccination. Disorders like immunodeficiency and autoimmunity are covered. Bone marrow is mentioned in the facts as part of the immune system.
+
+Need to ensure each answer is directly from the context or facts. For example, the question about the scientist is directly from the context. The cells are from the facts. The disorders are in the context. Bone marrow is in the facts.
+
+Let me structure each pair carefully. Avoid repetition. Make sure each question is unique and covers different aspects. The answer should be concise and correct based on the given information. Also, use the format required, in Portuguese, and JSON structure without any additional text.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem cunhou o termo sistema imunológico em 1882?",
+    "resposta": "Ilya Ilyich Mechnikov."
+  },
+  {
+    "pergunta": "Qual é a função principal do sistema imunológico?",
+    "resposta": "Proteger o organismo contra doenças."
+  },
+  {
+    "pergunta": "Quais células fazem parte do sistema imunológico, segundo os fatos fornecidos?",
+    "resposta": "B cell, T cell, Macrophage, Dendritic cell, Neutrophil, Lymphocyte."
+  },
+  {
+    "pergunta": "O que é a imunidade adquirida?",
+    "resposta": "A capacidade de criar memória imunológica após uma resposta inicial a um agente patogênico."
+  },
+  {
+    "pergunta": "Quais são os dois tipos de distúrbios do sistema imunológico mencionados no contexto?",
+    "resposta": "Imunodeficiência e autoimunidade."
+  },
+  {
+    "pergunta": "Qual estrutura faz parte do sistema imunológico e é responsável por produzir células sanguíneas?",
+    "resposta": "Medula óssea."
+  },
+  {
+    "pergunta": "O que ocorre em casos de autoimunidade?",
+    "resposta": "O sistema imunológico ataca tecidos normais como se fossem agentes externos."
+  },
+  {
+    "pergunta": "Qual é a base científica da vacinação?",
+    "resposta": "A imunidade adquirida."
+  },
+  {
+    "pergunta": "Quais são os mecanismos imunológicos básicos mencionados no texto?",
+    "resposta": "Fagocitose, defensinas e sistema complemento."
+  },
+  {
+    "pergunta": "Qual doença mencionada no contexto é causada por uma imunidade hiperativa?",
+    "resposta": "Artrite reumatóide."
+  }
+]
+```

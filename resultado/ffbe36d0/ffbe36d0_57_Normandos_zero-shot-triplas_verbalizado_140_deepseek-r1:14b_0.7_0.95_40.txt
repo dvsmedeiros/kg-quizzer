@@ -1,0 +1,64 @@
+<think>
+Ok, vou tentar entender o que o usuário está pedindo aqui. Primeiro, ele me apresentou um contexto sobre os normandos, falando que são um povo germânico estabelecido no norte da França, com origem em vikings escandinavos. Eles tiveram um papel importante na Europa Medieval e Oriente Médio, como a Conquista Normanda da Inglaterra e a colonização da Sicília.
+
+Depois, ele me forneceu uma lista de fatos sobre os normandos. Parecem ser informações variadas, incluindo língua falada, lugares associados, batalhas que participaram, líderes e até modelos de página wiki usados. Alguns pontos chamam minha atenção, como o fato de falarem Old Norse e Latin, e a relação com outros povos como os gauleses e francos.
+
+Agora, o usuário quer que eu gere 10 pares de perguntas e respostas baseadas nesse contexto e nos fatos fornecidos. Cada par deve ter uma pergunta relevante e uma única resposta correta, em português. E preciso evitar repetições e abranger diferentes aspectos do conteúdo.
+
+Primeiro, vou analisar os fatos para identificar quais são as informações-chave que posso transformar em perguntas. Vejo que estão mencionados idiomas falados (Old Norse, Latin), lugares associados (Normandia, Inglaterra, Sicília), batalhas e guerras (como a Conquista da Inglaterra, Batalha de Montepeloso), figuras importantes (Richard of Salerno, Lucien Musset), religiões (paganismo norte-americano e cristianismo) e aspectos culturais como arquitetura normanda.
+
+Preciso variar as perguntas para cobrir diferentes tópicos: origem, língua, batalhas, lugares, figuras históricas, religião, arquitetura, etc. Vou começar selecionando um fato e transformando-o em uma pergunta que possa ter uma resposta única.
+
+Por exemplo, o fato de que os normandos falavam Old Norse pode virar: "Qual língua os normandos falavam?" com a resposta "Old Norse". Outro exemplo, a Conquista Normanda da Inglaterra é um evento famoso, então uma pergunta sobre isso.
+
+Vou verificar se estou cobrindo diferentes aspectos e que não há repetições. Vou evitar perguntas semelhantes e garantir que cada pergunta tenha uma resposta claramente derivada do contexto ou fatos fornecidos.
+
+Também devo me certificar de que as respostas são exclusivamente baseadas no conteúdo, sem adicionar informações extra. Alguns fatos parecem redundantes, como o idioma Old Norman repetido, mas vou usar um exemplo só para cada tópico.
+
+Depois de estruturar as perguntas e respostas, vou organizar tudo em um JSON conforme especificado pelo usuário, com 10 entradas, cada uma com "pergunta" e "resposta".
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi a origem dos normandos?",
+    "resposta": "Os normandos eram um povo germânico estabelecido no norte da França, descendentes de vikings da Escandinávia."
+  },
+  {
+    "pergunta": "Quais idiomas os normandos falavam?",
+    "resposta": "Os normandos falavam Old Norse e Latin."
+  },
+  {
+    "pergunta": "Qual foi um dos eventos mais conhecidos protagonizados pelos normandos?",
+    "resposta": "A Conquista Normanda da Inglaterra."
+  },
+  {
+    "pergunta": "Quais regiões foram colonizadas pelos normandos na Europa Mediterrânea?",
+    "resposta": "Os normandos estabeleceram-se na Sicília e no sul da península Itálica."
+  },
+  {
+    "pergunta": "Qual batalha teve os normandos como combatentes?",
+    "resposta": "A Batalha de Montepeloso teve os normandos como combatentes."
+  },
+  {
+    "pergunta": "Quem foi um líder conhecido dos normandos na Inglaterra?",
+    "resposta": "Guilherme, o Conquistador, foi um líder normando na Inglaterra."
+  },
+  {
+    "pergunta": "Qual religião os normandos seguiram inicialmente?",
+    "resposta": "Os normandos seguiram o paganismismo Nórdico."
+  },
+  {
+    "pergunta": "Quais construções arquitetônicas são associadas aos normandos na Inglaterra?",
+    "resposta": "Castelos medievais, como o Tower of London, são associados aos normandos."
+  },
+  {
+    "pergunta": "Qual foi a nacionalidade de Richard of Salerno?",
+    "resposta": "Richard of Salerno era normando."
+  },
+  {
+    "pergunta": "Quais povos estavam relacionados aos normandos na época medieval?",
+    "resposta": "Os normandos estavam relacionados a povos como os gauleses, franceses e vikings."
+  }
+]
+```

@@ -1,0 +1,73 @@
+<think>
+Okay, so I need to figure out how to generate 10 pairs of true/false questions based on the context provided about packet switching. The user has given me a JSON structure with some examples and wants exactly 10 more. Let me start by understanding what packet switching is all about.
+
+From what I remember, packet switching is a method used in computer networking where data is divided into small units called packets. These packets are then transmitted over a network and reassembled at the destination. It's different from circuit switching, which sets up a dedicated connection before data transfer.
+
+Looking at the examples provided, each question is a true/false statement about packet switching. I need to create similar questions, making sure they cover different aspects without repeating the same information. Let me think about various angles: advantages, comparison with other technologies, technical details like fragmentation and headers, efficiency, use cases, OSI model layer, etc.
+
+I should ensure each question is clear and directly relates to packet switching. Also, each must have a single correct answer based on known facts. I need to avoid any ambiguity so that the answers are unambiguously true or false.
+
+Let me brainstorm some points:
+
+1. Packet switching reduces network congestion.
+2. It allows multiple users to share the same network resources efficiently.
+3. Each packet contains source and destination addresses.
+4. Fragmentation is part of packet switching to handle large data chunks.
+5. It's more efficient for bursty traffic compared to circuit switching.
+6. The process involves routing tables to direct packets.
+7. Packet switching operates at the transport layer in the OSI model.
+8. It improves error detection capabilities.
+9. It's used in voice communication, not just data.
+10. Datagram is a type of packet.
+
+Wait, I need to check if all these points are accurate. For example, point 7 mentions the transport layer. Actually, packet switching can operate at different layers depending on the protocol, but in the OSI model, the transport layer (layer 4) handles end-to-end connections, while lower layers manage data transmission.
+
+Point 9 about voice communication: While circuit switching is traditionally used for voice due to its constant bit rate, packet switching is increasingly used with VoIP, which can handle varying traffic more efficiently. So that's a correct statement.
+
+I should structure each as true/false questions and ensure the answers are correct based on these points.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O empacotamento (packet switching) reduz o congestionamento em redes?",
+    "resposta": "Verdadeiro"
+  },
+  {
+    "pergunta": "O empacotamento permite que múltiplos usuários compartilhem recursos de rede de forma eficiente?",
+    "resposta": "Verdadeiro"
+  },
+  {
+    "pergunta": "Cada pacote contém endereços de origem e destino?",
+    "resposta": "Verdadeiro"
+  },
+  {
+    "pergunta": "A fragmentação é utilizada no empacotamento para lidar com grandes blocos de dados?",
+    "resposta": "Verdadeiro"
+  },
+  {
+    "pergunta": "O empacotamento é mais eficiente para tráfego em bursts do que o circuit switching?",
+    "resposta": "Verdadeiro"
+  },
+  {
+    "pergunta": "O processo de empacotamento envolve a utilização de tabelas de roteamento para direcionar os pacotes?",
+    "resposta": "Verdadeiro"
+  },
+  {
+    "pergunta": "O empacotamento opera na camada de transporte (layer 4) do modelo OSI?",
+    "resposta": "Falso"
+  },
+  {
+    "pergunta": "O empacotamento melhora as habilidades de detecção de erros em redes?",
+    "resposta": "Verdadeiro"
+  },
+  {
+    "pergunta": "O empacotamento é utilizado apenas para comunicação de dados, não para voz?",
+    "resposta": "Falso"
+  },
+  {
+    "pergunta": "Datagrama é um tipo de pacote em redes de computadores?",
+    "resposta": "Verdadeiro"
+  }
+]
+```

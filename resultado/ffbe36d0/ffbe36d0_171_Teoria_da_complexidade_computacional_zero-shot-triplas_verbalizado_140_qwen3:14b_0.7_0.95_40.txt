@@ -1,0 +1,78 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts. Let me start by understanding the context thoroughly. The context is about computational complexity theory in computer science and mathematics, focusing on classifying problems based on resource usage and their relationships. The facts provided include various people associated with the theory, image representations, categories, and wiki templates used.
+
+First, I'll list out all the key elements from the facts that can be turned into questions. The main entities here are people (like Russell Impagliazzo, Umesh Vazirani, Scott Aaronson, etc.), image files (TSP Deutschland 3.png, Complexity classes.svg, etc.), categories (Category:Computational complexity theory), and wiki templates (Template:Citation, Template:Garey-Johnson, etc.). Also, there are some classifications like types (Algorithm105847438, Rule105846932, etc.), dates (January 2022), and other attributes.
+
+Now, I need to ensure that each question is unique and covers different aspects. Let me think of possible questions:
+
+1. Who is known for Computational complexity theory? The answer could be Russell Impagliazzo or Nikolai Sergeevich Bakhvalov.
+2. What is the name of an image associated with Computational complexity theory? Answers might be TSP Deutschland 3.png or Complexity classes.svg.
+3. What category is Computational complexity theory part of? The answer is Category:Computational complexity theory.
+4. Which template is used in Computational complexity theory? Examples are Template:Citation or Template:Garey-Johnson.
+5. What is the date associated with Computational complexity theory? The answer is January 2022.
+6. Who is a computer scientist working in Computational complexity theory? Scott Aaronson, Umesh Vazirani, etc.
+7. What is the main topic of Computational complexity theory? The classification of computational problems based on resources.
+8. What is the primary image used in Computational complexity theory? Complexity classes.svg or Decision Problem.svg.
+9. What is the identifier for Computational complexity theory? p/c130160.
+10. What are some subdisciplines of Computational complexity theory? Steven Rudich is a subdiscipline.
+
+Wait, need to check if these are all correct. Let me verify each point against the facts provided. For example, the image representations include TSP Deutschland 3.png, Complexity classes.svg, Sorting quicksort anim.gif, Decision Problem.svg, Complexity subsets pspace.svg, and Turing machine 2b.svg. So I should pick one of these for the image questions. Also, the identifier is p/c130160. The date is January 2022. The main topic is the classification of problems based on resources. The subdiscipline is Steven Rudich. The category is Category:Computational complexity theory. The templates include Template:Citation, Template:Garey-Johnson, Template:Main, etc. The people associated are numerous, so I should pick different ones for each question to avoid repetition.
+
+I need to make sure that each question is unique and covers different aspects. Also, the answers must be directly from the given facts. Let me structure each pair accordingly, ensuring that no two questions are about the same topic unless necessary, but since the user said not to repeat similar questions, I need to be careful. Let me check again:
+
+1. Person: Russell Impagliazzo
+2. Image: Complexity classes.svg
+3. Category: Category:Computational complexity theory
+4. Template: Template:Garey-Johnson
+5. Date: January 2022
+6. Person: Scott Aaronson
+7. Main topic: classification of computational problems based on resource usage
+8. Image: Decision Problem.svg
+9. Identifier: p/c130160
+10. Subdiscipline: Steven Rudich
+
+Yes, these all seem distinct and cover different aspects. Now, I'll format them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Quem é conhecido por contribuir para a teoria da complexidade computacional?",
+    "resposta": "Russell Impagliazzo"
+  },
+  {
+    "pergunta": "Qual é o nome de uma imagem representativa da teoria da complexidade computacional?",
+    "resposta": "Complexity classes.svg"
+  },
+  {
+    "pergunta": "Qual é a categoria que inclui a teoria da complexidade computacional?",
+    "resposta": "Category:Computational complexity theory"
+  },
+  {
+    "pergunta": "Qual modelo de página wiki é utilizado na teoria da complexidade computacional?",
+    "resposta": "Template:Garey-Johnson"
+  },
+  {
+    "pergunta": "Qual é a data associada à teoria da complexidade computacional?",
+    "resposta": "January 2022"
+  },
+  {
+    "pergunta": "Quem é um cientista da computação atuante na teoria da complexidade computacional?",
+    "resposta": "Scott Aaronson"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal da teoria da complexidade computacional?",
+    "resposta": "Classificação de problemas computacionais de acordo com seu uso de recursos"
+  },
+  {
+    "pergunta": "Qual é outro exemplo de imagem representativa da teoria da complexidade computacional?",
+    "resposta": "Decision Problem.svg"
+  },
+  {
+    "pergunta": "Qual é o identificador da teoria da complexidade computacional?",
+    "resposta": "p/c130160"
+  },
+  {
+    "pergunta": "Quem é considerado uma subdisciplina da teoria da complexidade computacional?",
+    "resposta": "Steven Rudich"
+  }
+]

@@ -1,0 +1,75 @@
+<think>
+Okay, let's see. The user wants me to generate 10 question-answer pairs based on the provided context about the Normans. The context given is just the title "Normandos" with no additional information. Hmm, that's a bit tricky because there's not much content to work with. 
+
+Wait, maybe the user expects me to use general knowledge about the Normans, even though the context is minimal. The instructions say to base the questions on the context and facts provided, but if the context is just the title, I need to rely on common knowledge about the Normans.
+
+First, I should recall key facts about the Normans. They were a group of Norse Vikings who settled in Normandy, France. They later invaded England in 1066 under William the Conqueror. Their influence on English culture, language, and the Domesday Book are important. Also, their descendants ruled England, and they had a significant impact on medieval Europe.
+
+Now, I need to create 10 varied questions. Let me brainstorm possible topics:
+
+1. Origin of the Normans (Norsemen in France)
+2. Leader of the Norman invasion (William the Conqueror)
+3. Battle of Hastings (1066)
+4. Domesday Book
+5. Norman influence on English language
+6. Norman architecture
+7. The Bayeux Tapestry
+8. When Normandy was established
+9. The role of the Norman conquest in English history
+10. The Norman dynasty in England
+
+Each question should have a clear, factual answer. Let me make sure the answers are correct and based on standard historical facts. For example, the Bayeux Tapestry depicts the events leading to the Norman conquest. The Domesday Book is a land survey commissioned by William. The Norman language influenced English, introducing many French words.
+
+I need to avoid repeating similar questions. Let's check the variety. Origins, leaders, key events, cultural impact, historical documents, and consequences. That should cover different aspects. Also, ensure that each question is in Portuguese, and the answers are concise.
+
+Let me start drafting the JSON structure. Each entry should have "pergunta" and "resposta". Let's make sure the answers are direct and accurate. For example, the question about the leader of the 1066 invasion would be answered with William the Conqueror.
+
+Double-checking each point to ensure accuracy. The Norman Conquest happened in 1066, the Bayeux Tapestry is a key artifact, the Domesday Book was completed in 1086. The Normans were originally Norse Vikings, so their origin is from Scandinavia. The Battle of Hastings was the decisive battle. The Norman period in England began with William's victory.
+
+I think that's a solid set. Let me structure them into the required JSON format, making sure there are exactly 10 pairs without any markdown or additional text.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem liderou a invasão normanda da Inglaterra em 1066?",
+    "resposta": "Guilherme, o Conquistador"
+  },
+  {
+    "pergunta": "Qual foi a batalha decisiva que resultou na conquista normanda da Inglaterra?",
+    "resposta": "Batalha de Hastings"
+  },
+  {
+    "pergunta": "Qual documento histórico, encomendado pelos normandos, registrava a propriedade da terra na Inglaterra?",
+    "resposta": "Livro de Doomsday (Domesday Book)"
+  },
+  {
+    "pergunta": "Qual é o nome do famoso manto tapeçado que narra os eventos da conquista normanda?",
+    "resposta": "Tapete de Bayeux"
+  },
+  {
+    "pergunta": "Quando os normandos estabeleceram seu controle sobre a Normandia, na França?",
+    "resposta": "Século X"
+  },
+  {
+    "pergunta": "Qual origem étnica os normandos possuíam?",
+    "resposta": "Vikings (povos nórdicos)"
+  },
+  {
+    "pergunta": "Qual língua foi introduzida na Inglaterra após a conquista normanda?",
+    "resposta": "Francês antigo"
+  },
+  {
+    "pergunta": "Qual foi o impacto principal da conquista normanda na arquitetura inglesa?",
+    "resposta": "Introdução do estilo arquitetônico românico"
+  },
+  {
+    "pergunta": "Quantos anos após a Batalha de Hastings foi concluído o Domesday Book?",
+    "resposta": "20 anos"
+  },
+  {
+    "pergunta": "Qual título foi concedido por Guilherme, o Conquistador, aos nobres normandos na Inglaterra?",
+    "resposta": "Barões"
+  }
+]
+```

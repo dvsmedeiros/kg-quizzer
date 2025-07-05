@@ -1,0 +1,86 @@
+<think>
+Okay, let me start by understanding the user's request. They want me to generate 10 question-answer pairs based on the provided context and facts about Ctenophora. The output needs to be in JSON format, with each pair containing a question and a correct answer. The key points are to ensure the questions are varied, cover different aspects of the content, and have a single correct answer derived from the given information.
+
+First, I'll go through the context and facts to identify key elements. The context describes Ctenophora as marine animals, their characteristics like ctenes, bioluminescence, size range, and their classification. The facts include their taxonomy, subdivisions, images, and various Wikipedia templates used.
+
+I need to make sure each question is unique and covers different areas. For example, questions about their classification, physical features, evolutionary relationships, habitat, historical records, and specific examples from the facts.
+
+Let me list possible topics:
+1. Common names (carambolas-do-mar, águas-vivas-de-pente)
+2. Distinctive feature (ctenes formed by cilia)
+3. Size range (1mm to 1.5m)
+4. Habitat (oceanic and estuarine)
+5. Bioluminescence
+6. Classification (phylum, related to Cnidaria)
+7. Fossil record (Cambrian period)
+8. Subdivisions (Tentaculata, Nuda, Scleroctenophora)
+9. Taxonomic information (described by Eschscholtz, 1829)
+10. Examples of species (Coeloplana, Callianira hexagona, Vallicula)
+
+Now, formulating questions for each topic. Need to ensure answers are directly from the context or facts. For example, a question on the common name would have "carambolas-do-mar" or "águas-vivas-de-pente" as the answer. The classification as a phylum is mentioned in the facts ("hiperônimo Phylum").
+
+Check for uniqueness. Avoid repeating similar types. Also, ensure that each answer is unambiguous. For example, when asking about the phylum, the answer is "Phylum," which is clear from the facts.
+
+Possible questions:
+1. What is the common name of Ctenophora in Portuguese?
+2. What is the distinctive feature of Ctenophora?
+3. What is the size range of adult Ctenophora?
+4. Where are Ctenophora found?
+5. Are Ctenophora bioluminescent?
+6. How are Ctenophora classified in terms of taxonomy?
+7. When do Ctenophora appear in the fossil record?
+8. What are the subdivisions of Ctenophora?
+9. Who described the phylum Ctenophora?
+10. Name an example species under Ctenophora.
+
+Now, verify each answer against the provided context and facts. For example, the answer to the first question is "carambolas-do-mar ou águas-vivas-de-pente," which is from the context. The subdivisions are listed in the facts as Tentaculata, Nuda, Scleroctenophora.
+
+Ensure that each question is clear and the answer is directly stated or can be inferred without outside knowledge. For instance, the question about the phylum classification is answered by the fact that Ctenophora is a phylum, mentioned in the facts as "hiperônimo Phylum."
+
+Finally, structure the JSON correctly, ensuring proper syntax and that each pair is unique and covers different aspects. Avoid any markdown formatting as per the user's instructions.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o nome comum em português para os ctenóforos?",
+    "resposta": "Carambolas-do-mar ou águas-vivas-de-pente"
+  },
+  {
+    "pergunta": "Qual é a característica distintiva dos ctenóforos que permite sua locomover-se usando cílios?",
+    "resposta": "Presença de pentes formados por grupos de cílios"
+  },
+  {
+    "pergunta": "Qual é a faixa de tamanho dos ctenóforos adultos?",
+    "resposta": "De cerca de 1 mm a 1,5 m de comprimento"
+  },
+  {
+    "pergunta": "Em quais ambientes os ctenóforos são encontrados naturalmente?",
+    "resposta": "Águas oceânicas e estuarinas"
+  },
+  {
+    "pergunta": "Os ctenóforos são bioluminescentes?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Como os ctenóforos são classificados em termos taxonômicos?",
+    "resposta": "Filho"
+  },
+  {
+    "pergunta": "Desde qual período geológico os ctenóforos são encontrados no registro fóssil?",
+    "resposta": "Cambriano"
+  },
+  {
+    "pergunta": "Quais são as subdivisões do filo Ctenophora mencionadas no conteúdo?",
+    "resposta": "Tentaculata, Nuda, Scleroctenophora"
+  },
+  {
+    "pergunta": "Quem descreveu o filo Ctenophora em 1829?",
+    "resposta": "Eschscholtz"
+  },
+  {
+    "pergunta": "Quais são exemplos de espécies pertencentes ao filo Ctenophora mencionadas no conteúdo?",
+    "resposta": "Coeloplana, Callianira hexagona, Vallicula"
+  }
+]
+```

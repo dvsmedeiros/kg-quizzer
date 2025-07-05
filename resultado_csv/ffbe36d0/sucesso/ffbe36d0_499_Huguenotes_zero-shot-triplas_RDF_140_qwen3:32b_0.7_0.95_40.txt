@@ -1,0 +1,80 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers based on the provided context and facts. Let me start by understanding the context given. The Huguenots were French Protestants during the 16th-century religious wars. Around 300,000 left France after the persecution under Louis XIV and the revocation of the Edict of Nantes in 1685. They were mainly Calvinists, part of the Reformed Church. In Alsace, Moselle, and Montbéliard, Protestants were mostly German Lutherans.
+
+Now, looking at the facts, there's some RDF data. The key points here are that the Camisards are a hypernym of Huguenots, the Catholic Church in France is separated from them, there are places named after Huguenots like in Orange County and Staten Island, and they're related to the Scotch-Irish Americans. Also, there are URLs and templates, but those might not be directly relevant for the questions.
+
+The user wants 10 varied questions covering different aspects of the content. Each question must have a single correct answer from the context or facts. I need to make sure the questions are clear and not repetitive.
+
+First, I'll list possible topics from the context and facts:
+1. The main religion of Huguenots (Calvinism).
+2. Reason for their exodus (revocation of the Edict of Nantes and persecution under Louis XIV).
+3. Number who left France (300,000).
+4. Time period of their presence (second half of the 16th century).
+5. Regions where Protestants were Lutherans (Alsace, Moselle, Montbéliard).
+6. Connection to Camisards (hypernym).
+7. Places named after them (Orange County, Staten Island).
+8. Related groups (Scotch-Irish Americans).
+9. The Edict of Nantes' revocation date (October 18, 1685).
+10. Huguenots as an ethno-religious group.
+
+Now, formulating the questions:
+1. Qual a principal religião dos Huguenotes?
+2. Quantos Huguenotes deixaram a França após a revogação do Édito de Nantes?
+3. Qual evento causou a saída dos Huguenotes da França no final do século XVII?
+4. Em que século os Huguenotes foram uma minoria protestante na França?
+5. Quais regiões da França tinham protestantes majoritariamente luteranos?
+6. Qual grupo está classificado como hipernimo dos Huguenotes?
+7. Que localidades nos Estados Unidos são nomeadas em homenagem aos Huguenotes?
+8. Qual é o grupo histórico relacionado aos Huguenotes mencionado no texto?
+9. Em que data o Édito de Nantes foi revogado, forçando os Huguenotes a saírem da França?
+10. Que classificação é dada aos Huguenotes no contexto religioso e étnico?
+
+Now, verifying each answer against the context and facts to ensure accuracy. For example, the first question's answer is Calvinismo, as stated. The second question's answer is 300.000. The third is the revogação do Édito de Nantes e perseguições sob Luís XIV. The fourth is século XVI. The fifth is Alsácia, Moselle e Montbéliard. The sixth is Camisards. The seventh is Orange County, New York e Staten Island. The eighth is Scotch-Irish Americans. The ninth is 18 de outubro de 1685. The tenth is grupo etnorrreligioso.
+
+I need to make sure each question is unique and covers different aspects. Also, check that answers are directly from the provided info without adding external knowledge. The JSON structure should have exactly 10 entries, each with "pergunta" and "resposta" in Portuguese. No markdown, just the JSON.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual a principal religião seguida pelos Huguenotes?",
+    "resposta": "Calvinismo"
+  },
+  {
+    "pergunta": "Quantos Huguenotes aproximadamente deixaram a França após a revogação do Édito de Nantes?",
+    "resposta": "300 000"
+  },
+  {
+    "pergunta": "Qual evento histórico causou a saída dos Huguenotes da França no final do século XVII?",
+    "resposta": "Revogação do Édito de Nantes e perseguições sob Luís XIV"
+  },
+  {
+    "pergunta": "Em que século os Huguenotes foram uma minoria protestante na França?",
+    "resposta": "Século XVI"
+  },
+  {
+    "pergunta": "Quais regiões da França tinham comunidades protestantes majoritariamente luteranas?",
+    "resposta": "Alsácia, Moselle e Montbéliard"
+  },
+  {
+    "pergunta": "Qual grupo histórico está classificado como hipernome dos Huguenotes nos fatos apresentados?",
+    "resposta": "Camisards"
+  },
+  {
+    "pergunta": "Que localidades nos Estados Unidos são nomeadas em homenagem aos Huguenotes?",
+    "resposta": "Orange County (Nova York) e Staten Island"
+  },
+  {
+    "pergunta": "Qual grupo histórico está relacionado aos Huguenotes segundo os fatos fornecidos?",
+    "resposta": "Scotch-Irish Americans"
+  },
+  {
+    "pergunta": "Em que data ocorreu a revogação do Édito de Nantes, que forçou a emigração dos Huguenotes?",
+    "resposta": "18 de outubro de 1685"
+  },
+  {
+    "pergunta": "Que classificação é dada aos Huguenotes no contexto religioso e étnico?",
+    "resposta": "Grupo etnorrreligioso"
+  }
+]
+```

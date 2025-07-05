@@ -1,0 +1,61 @@
+<think>
+Okay, I'm trying to figure out how to generate the 10 question-answer pairs based on the given data about Fresno and related entities. First, I'll look through the provided data to extract relevant information.
+
+I see that Fresno is a city in California with some notable landmarks like the Fresno Station. There's also mention of the Fresno Traction Company and historical facts about when Fresno became incorporated (1885). Additionally, there are references to sports teams based in Fresno, such as the Fresno Bulldogs, and connections to other places like San Joaquin Valley.
+
+I'll start by identifying key points:
+- Fresno Station
+- Fresno Traction Company
+- Fresno as a city incorporation date
+- Fresno Bulldogs football team
+- San Joaquin Valley
+- Train stations mentioned (Fresno Central Pacific Railroad)
+- People associated with Fresno, like Kevin Chappell and others
+
+Now, I'll create questions around these points and match them with the provided answers. I need to make sure each question is clear and directly relates to the answer.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é frequentemente associado à cidade de Fresno Station?",
+    "resposta": "A ferrovia do Pacífico Central"
+  },
+  {
+    "pergunta": "Quando foi a cidade de Fresno incorporada?",
+    "resposta": "1885."
+  },
+  {
+    "pergunta": "Qual é um dos principais times esportivos localizados em Fresno?",
+    "resposta": "Fresno Bulldogs"
+  },
+  {
+    "pergunta": "O que é emblemático da cidade de Fresno?",
+    "resposta": "A Freixa (freixa)"
+  },
+  {
+    "pergunta": "Em qual ano o Fresno Central Pacific Railroad abriu sua operação?",
+    "resposta": "1872,"
+  },
+  {
+    "pergunta": "O quarto maior município da Califórnia é qual cidade?",
+    "resposta": "Fresno"
+  },
+  {
+    "pergunta": "Qual é um dos,itens históricos da cidade de Fresno?",
+    "resposta": "A loja de Freijeiro, ou Freijos (do Freijo)"
+  },
+  {
+    "pergunta": "Quais foram as razões principais para a movimentação dos habitantes para a cidade de Fresno Station?",
+    "resposta": "Conveniência ferroviária e preocupações com inundações."
+  },
+  {
+    "pergunta": "O Fresno Traction Company operou quais bilionhes de dólares em 1931?",
+    "resposta": "47 milhões de dólares"
+  },
+  {
+    "pergunta": "Quais sete entidades estavam associadas à fundação da cidade de Fresno?",
+    "resposta": "Loja, ferrovia, freeios, freixes, e os demais"
+  }
+]
+```

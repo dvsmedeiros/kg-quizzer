@@ -1,0 +1,69 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts about computational complexity theory. First, I need to parse the context and the facts given. The context explains what computational complexity theory is, focusing on classifying problems by resource usage. The facts include various people associated with the field, types it belongs to, templates used in its Wikipedia page, images, and other related information.
+
+The task is to generate 10 varied questions, each with a correct answer derived from the given data. Each question must be in Portuguese, and the answers should be straightforward or inferable from the facts. I need to ensure that the questions don't repeat and cover different aspects.
+
+Starting with the main topic: what is computational complexity theory? The answer is in the context. Then, I can ask about key figures like Russell Impagliazzo and Umesh Vazirani, who are mentioned. The types it belongs to, like Algorithm105847438, Arrangement105726596, etc., can be another set of questions. The images associated, such as TSP Deutschland 3.png and Complexity classes.svg, are also in the facts. Templates used on its Wikipedia page, like Template:Citation and Template:Garey-Johnson, are another category. The categories it's part of, like Category:Computational complexity theory, are mentioned. Also, the main subject is "Computational complexity classes" as per the title.
+
+I need to make sure each question is unique and covers different aspects. Let me list possible questions:
+
+1. What is the primary focus of computational complexity theory?
+2. Which scientist is associated with computational complexity theory and known for it?
+3. What type is computational complexity theory classified as?
+4. What images are associated with the theory?
+5. What templates are used in its Wikipedia page?
+6. What category is it part of?
+7. What is the main subject of the theory?
+8. Who are some researchers in this field?
+9. What are the hypernyms of the theory?
+10. What data structure types is it categorized under?
+
+Now, checking the facts to ensure answers are present. For example, the primary focus is classification of problems by resource usage. Russell Impagliazzo is a known scientist. The types include Algorithm105847438, etc. Images like TSP Deutschland 3.png and Complexity classes.svg are listed. Templates like Template:Citation and Template:Garey-Johnson. Categories like Category:Computational complexity theory. Main subject is Computational complexity classes. Researchers include Umesh Vazirani, Scott Aaronson, etc. Hypernym is Branch. Data structures include WikicatDataStructures.
+
+I need to phrase these into Portuguese questions and ensure the answers are correctly pulled from the facts. Let's structure each pair carefully, avoiding repetition and covering different aspects.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o foco principal da teoria da complexidade computacional?",
+    "resposta": "Classificar problemas computacionais de acordo com seu uso de recursos e explorar as relações entre essas classificações."
+  },
+  {
+    "pergunta": "Qual cientista está associado à teoria da complexidade computacional e é conhecido por seu trabalho nessa área?",
+    "resposta": "Russell Impagliazzo"
+  },
+  {
+    "pergunta": "A teoria da complexidade computacional é classificada como qual tipo de entidade?",
+    "resposta": "Algorithm105847438"
+  },
+  {
+    "pergunta": "Quais são as imagens representativas associadas à teoria da complexidade computacional?",
+    "resposta": "TSP Deutschland 3.png, Complexity classes.svg, Sorting quicksort anim.gif"
+  },
+  {
+    "pergunta": "Quais modelos de página wiki são utilizados na representação da teoria da complexidade computacional?",
+    "resposta": "Template:Citation, Template:Garey-Johnson, Template:Computer science"
+  },
+  {
+    "pergunta": "A teoria da complexidade computacional pertence a qual categoria?",
+    "resposta": "Category:Computational complexity theory"
+  },
+  {
+    "pergunta": "Qual é o tópico principal associado à teoria da complexidade computacional?",
+    "resposta": "Computational complexity classes"
+  },
+  {
+    "pergunta": "Quem são exemplos de pesquisadores que atuam na disciplina de teoria da complexidade computacional?",
+    "resposta": "Umesh Vazirani, Scott Aaronson, Stefan Szeider"
+  },
+  {
+    "pergunta": "Qual é o hiperônimo da teoria da complexidade computacional?",
+    "resposta": "Branch"
+  },
+  {
+    "pergunta": "A teoria da complexidade computacional é categorizada como qual tipo de estrutura de dados?",
+    "resposta": "WikicatDataStructures"
+  }
+]
+```

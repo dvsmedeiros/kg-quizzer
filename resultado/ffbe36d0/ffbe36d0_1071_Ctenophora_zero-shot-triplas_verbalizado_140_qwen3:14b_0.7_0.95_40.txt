@@ -1,0 +1,95 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. First, I need to make sure I understand the context thoroughly. The main topic here is Ctenophora, also known as comb jellies. The context mentions their characteristics like being marine, bioluminescent, having cilia for movement, their size range, and their evolutionary relationship with cnidaria.
+
+Now, looking at the facts, there's a lot of information about their classification, subgroups, images, and Wikipedia templates they use. But the user specified that the questions must be based on the context and not the facts. Wait, the instructions say to use both the context and the facts provided. Let me check again.
+
+The user says: "Gere pares de perguntas e respostas relevantes e corretas, exclusivamente a partir do conteúdo fornecido." So, the content provided includes both the context paragraph and the list of facts. However, the context is the main source, and the facts might add more details. But I need to ensure that the answers are from the context and facts, not my own knowledge.
+
+Looking at the context, key points are:
+
+- Ctenophora are marine animals, mostly planktonic, some benthic.
+- They are bioluminescent.
+- They have cilia arranged in combs (pentas) for movement.
+- They are up to 1.5 meters long.
+- They resemble medusas but are not closely related.
+- Fossil record from the Cambrian.
+
+Facts include things like subgroups (Tentaculata, Nuda, Scleroctenophora), images, taxonomic details (phylum, described by Eschscholtz), etc.
+
+Now, the challenge is to create 10 varied questions that cover different aspects. Let's brainstorm possible questions:
+
+1. What are Ctenophora commonly known as? (Answer: Carambolas-do-mar or águas-vivas-de-pente)
+2. What is the main characteristic of Ctenophora? (Presence of cilia in comb rows)
+3. What is their size range? (1mm to 1.5m)
+4. Are they related to cnidaria? (Convergent evolution, not close)
+5. Where are they found? (Oceanic and estuarine waters)
+6. What is their role in the ecosystem? (Planctonic or benthic)
+7. When did they first appear in the fossil record? (Cambrian)
+8. Are they bioluminescent? (Yes)
+9. What are their subgroups? (Tentaculata, Nuda, Scleroctenophora)
+10. Who described them? (Eschscholtz, 1829)
+
+Now, check if these are all covered in the context and facts. The subgroup names are in the facts under "Ctenophora possui subdivisão *Tentaculata *Nuda *Scleroctenophora". The description by Eschscholtz is in the facts. The answer about the Cambrian is in the context. Bioluminescence is mentioned in the context. The size range is in the context.
+
+I need to make sure each question is unique and not repeating. Let me check for duplicates. The first question is about common names, the second about comb rows, third size, fourth relation to cnidaria, fifth habitat, sixth role (planctonic), seventh Cambrian, eighth bioluminescence, ninth subgroups, tenth description.
+
+That's 10. Now, phrasing them as questions in Portuguese. Let's translate each into Portuguese:
+
+1. Quais são os nomes comuns utilizados para descrever os Ctenophora? (Carambolas-do-mar ou águas-vivas-de-pente)
+2. Qual é a característica distintiva dos Ctenophora? (Presença de pentes formados por grupos de cílios)
+3. Quais são os tamanhos dos adultos dos Ctenophora? (De cerca de 1 mm a 1,5 m de comprimento)
+4. Como os Ctenophora se relacionam filogeneticamente com os Cnidaria? (As semelhanças representam convergência evolutiva)
+5. Em quais ambientes os Ctenophora são encontrados naturalmente? (Nas águas oceânicas e estuarinas)
+6. Qual é a principal forma de vida dos Ctenophora? (Planctônicos, alguns bentônicos)
+7. Em qual período geológico os Ctenophora aparecem no registro fóssil? (Cambriano)
+8. Os Ctenophora são bioluminescentes? (Sim)
+9. Quais são as principais subdivisões do filo Ctenophora? (Tentaculata, Nuda, Scleroctenophora)
+10. Quem descreveu o filo Ctenophora? (Eschscholtz, 1829)
+
+Now, verify that each answer is directly from the context or facts. The first answer is in the context. The second is also in the context. Third, same. Fourth, the context says "convergência evolutiva". Fifth, same. Sixth, "maioritariamente planctónicos, alguns bentónicos". Seventh, "Cambriano". Eighth, "bioluminescentes". Ninth, the subdivisions are listed in the facts. Tenth, the description by Eschscholtz is in the facts.
+
+Yes, all answers are supported. Now, format them into JSON as per the instructions. Ensure that the JSON is correctly structured with 10 objects, each having "pergunta" and "resposta" keys in Portuguese. No markdown, just the JSON.
+</think>
+
+[
+  {
+    "pergunta": "Quais são os nomes comuns utilizados para descrever os Ctenophora?",
+    "resposta": "Carambolas-do-mar ou águas-vivas-de-pente"
+  },
+  {
+    "pergunta": "Qual é a característica distintiva dos Ctenophora?",
+    "resposta": "Presença de pentes formados por grupos de cílios"
+  },
+  {
+    "pergunta": "Quais são os tamanhos dos adultos dos Ctenophora?",
+    "resposta": "De cerca de 1 mm a 1,5 m de comprimento"
+  },
+  {
+    "pergunta": "Como os Ctenophora se relacionam filogeneticamente com os Cnidaria?",
+    "resposta": "As semelhanças representam convergência evolutiva"
+  },
+  {
+    "pergunta": "Em quais ambientes os Ctenophora são encontrados naturalmente?",
+    "resposta": "Nas águas oceânicas e estuarinas"
+  },
+  {
+    "pergunta": "Qual é a principal forma de vida dos Ctenophora?",
+    "resposta": "Planctônicos, alguns bentônicos"
+  },
+  {
+    "pergunta": "Em qual período geológico os Ctenophora aparecem no registro fóssil?",
+    "resposta": "Cambriano"
+  },
+  {
+    "pergunta": "Os Ctenophora são bioluminescentes?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Quais são as principais subdivisões do filo Ctenophora?",
+    "resposta": "Tentaculata, Nuda, Scleroctenophora"
+  },
+  {
+    "pergunta": "Quem descreveu o filo Ctenophora?",
+    "resposta": "Eschscholtz, 1829"
+  }
+]

@@ -1,0 +1,64 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs about Harvard University in Portuguese, following specific rules. First, I need to make sure I understand the context. Harvard is a well-known university, so I'll need to extract key facts from the provided content. 
+
+I should start by listing out various aspects of Harvard: history, notable alumni, academic programs, campus, rankings, financial aid, etc. Each question should be unique and cover different areas. 
+
+Wait, the user mentioned that the content is provided under "Contexto" as "Universidade_Harvard". Since there's no specific text given, I'll have to rely on general knowledge about Harvard. But I need to be careful to make answers explicit or inferable from typical facts. 
+
+Let me brainstorm possible questions. For example, founding year, location, notable alumni, academic structure, libraries, rankings, financial aspects, campus features, sports teams, and languages. Each of these can be a separate question. 
+
+I need to ensure that each question has a clear, correct answer. For instance, "Em que ano a Universidade de Harvard foi fundada?" with the answer 1636. That's a common fact. 
+
+Next, "Qual é a localização da Universidade de Harvard?" should be Cambridge, Massachusetts, USA. Notable alumni like Barack Obama or Mark Zuckerberg. Academic divisions like Harvard College, Law School, etc. 
+
+The library system is another area. Widener Library is a good point. Rankings from U.S. News & World Report. Financial aid policies, like meeting full demonstrated need. Campus area in acres. Sports teams, the Harvard Crimson. Official languages, which is English. 
+
+I need to check for repetition. Each question should cover a different aspect. Let me count: 10 questions. Make sure the answers are concise and correct. Avoid any markdown, just the JSON structure. Also, ensure all in Portuguese, no extra text. Let me verify each answer for accuracy. For example, the number of libraries might be 18, but I should confirm that. Also, the Crimson is the sports team name. Languages are English. 
+
+I think that's a good set. Now, structure the JSON correctly with 10 pairs, each with pergunta and resposta. Double-check the facts to avoid errors.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em que ano a Universidade de Harvard foi fundada?",
+    "resposta": "1636"
+  },
+  {
+    "pergunta": "Qual é a localização da Universidade de Harvard?",
+    "resposta": "Cambridge, Massachusetts, EUA"
+  },
+  {
+    "pergunta": "Qual é o nome da biblioteca principal da Universidade de Harvard?",
+    "resposta": "Biblioteca Widener"
+  },
+  {
+    "pergunta": "Quantos prêmios Nobel foram concedidos a membros da Universidade de Harvard?",
+    "resposta": "156"
+  },
+  {
+    "pergunta": "Qual é o nome do time esportivo da Universidade de Harvard?",
+    "resposta": "Harvard Crimson"
+  },
+  {
+    "pergunta": "Quantos campus a Universidade de Harvard possui?",
+    "resposta": "10"
+  },
+  {
+    "pergunta": "Qual é o idioma oficial da Universidade de Harvard?",
+    "resposta": "Inglês"
+  },
+  {
+    "pergunta": "Qual é o número aproximado de alunos matriculados na Universidade de Harvard?",
+    "resposta": "22.000"
+  },
+  {
+    "pergunta": "Em que ranking a Universidade de Harvard foi classificada como número 1 pela U.S. News & World Report em 2023?",
+    "resposta": "Melhores universidades nacionais"
+  },
+  {
+    "pergunta": "Qual é o nome da universidade irmã da Universidade de Harvard?",
+    "resposta": "Universidade de Yale"
+  }
+]
+```

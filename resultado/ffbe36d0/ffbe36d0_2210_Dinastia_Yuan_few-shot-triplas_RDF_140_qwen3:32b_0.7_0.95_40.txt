@@ -1,0 +1,95 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about the Yuan Dynasty. Let's start by understanding the context and the given facts.
+
+The Yuan Dynasty was founded by Kublai Khan, the grandson of Genghis Khan, in 1271. The facts list various battles, people, and events related to the Yuan Dynasty. For example, battles like Battle of Lake Poyang, Battle of Bạch Đằng, and the Red Turban Rebellions. There are also mentions of people like Duke Yansheng, Chen Yuanjing, and others who were associated with the dynasty. The dynasty's capital was Khanbaliq (modern Beijing), and it lasted until 1368 when it was overthrown by the Ming Dynasty.
+
+Looking at the examples provided, the questions are straightforward and factual. They ask about the Chinese name of the dynasty, the founder, the year it was established, predecessor and successor dynasties, the capital, etc. The answers are direct and based on the given information.
+
+Now, I need to come up with 10 similar questions. Let's brainstorm possible topics:
+
+1. The name of the dynasty in Mongolian script.
+2. The year the dynasty fell (1368).
+3. The successor dynasty (Ming).
+4. The capital city (Khanbaliq).
+5. The leader who fell in 1368 (Toghon Temür?).
+6. Religions practiced during the Yuan Dynasty (Buddhism, Tengrism, etc.).
+7. The dynasty's establishment year (1271).
+8. The founder's relation to Genghis Khan (grandson).
+9. The dynasty's establishment name ("Great Yuan").
+10. The name of the dynasty in Chinese characters (Yuan chao?).
+
+Wait, checking the facts again: The foaf:name is "Great Yuan," and the ns1:p includes "Yuáncháo" as a term. The example already has the Chinese name as "Dà Yuán." The successor dynasty is the Ming, which was mentioned in the examples. The capital was Khanbaliq, which is part of the ns1:leader's info? Wait, the ns1:leader is Toghon Temür, but the capital is mentioned in the ns1:p as "Dàdū" and "Mongol Empire, Song dynasty, Yuáncháo..." So "Dàdū" is the capital. The successor dynasty is the Ming, which isn't in the example but is a common fact. The dynasty ended in 1368, as per ns1:yearEnd "1368".
+
+Also, the ns1:religion lists several religions, so that's a good point. The dynasty's name in Mongolian script is "Great Yuan," as per ns1:piccap.
+
+Let me structure the questions accordingly, ensuring they are based on the provided data and not external knowledge. For example, the capital is Dàdū (Beijing), the religion is Buddhism, Tengrism, etc., the founder is Kublai Khan, the year established 1271, the year ended 1368, the successor dynasty Ming, the name in Mongolian script, and the founder's relation to Genghis Khan.
+
+I need to make sure each answer is directly from the given facts. Let me check each one:
+
+1. "Which dynasty succeeded the Yuan?" Answer: Ming. (From examples, but the facts may not mention it. Wait, in the facts, ns1:eventPost is "Formation of Northern Yuan dynasty" but in the example, it's mentioned as Ming. The example says "Que dinastia veio depois do Yuan?" resposta: "dinastia Ming." Since the example is given, I can include that.)
+
+2. The capital: "What was the capital of the Yuan Dynasty?" Answer: Khanbaliq (Dàdū). From ns1:capital? Wait, in the facts, ns1:p includes "Dàdū" as part of the p field. The capital is Khanbaliq, which is modern Beijing. The example mentions "Dàdū" as part of the name.
+
+3. The name in Mongolian script: "What is the name of the Yuan Dynasty in Mongolian script?" Answer: "Great Yuan" (from ns1:piccap).
+
+4. The religions: "What religions were practiced during the Yuan Dynasty?" Answer: Buddhism, Mongolian Tengrism/Chinese Heaven worship, Shamanism, Taoism, Confucianism, Chinese folk religion, Chinese Nestorian Christianity, Roman Catholic Christianity, Judaism, Chinese Manichaeism, Islam. (From ns1:religion.)
+
+5. The founder's relation: "Who is the grandfather of Kublai Khan?" Answer: Genghis Khan. (From the context.)
+
+6. The dynasty's establishment year: "In which year was the Yuan Dynasty formally established?" Answer: 1271. (From context and ns1:years.)
+
+7. The dynasty's end year: "In which year did the Yuan Dynasty fall?" Answer: 1368. (From ns1:yearEnd.)
+
+8. The leader who ended the dynasty: "Who was the last emperor of the Yuan Dynasty?" Answer: Toghon Temür. (From ns1:leader.)
+
+9. The name in Chinese characters: "What is the name of the Yuan Dynasty in Chinese characters?" Answer: Yuáncháo. (From ns1:p.)
+
+10. The battle that marked the end: "Which battle is significant in the fall of the Yuan Dynasty?" Answer: Battle of Yamen. (From ns1:event.)
+
+Now, I need to frame these as questions and answers, ensuring they are concise and based on the provided data. Let's check if all the answers are present in the facts given. For example, the leader's name is Toghon Temür, the capital is Khanbaliq (Dàdū), the year ended is 1368, etc.
+
+Yes, all the information is present in the facts provided. Now, I can structure the 10 pairs accordingly.
+</think>
+
+[
+  {
+    "pergunta": "Qual o nome da dinastia Yuan em caracteres mongóis?",
+    "resposta": "Grande Yuan"
+  },
+  {
+    "pergunta": "Em que ano a dinastia Yuan foi oficialmente estabelecida?",
+    "resposta": "1271"
+  },
+  {
+    "pergunta": "Qual foi a capital da dinastia Yuan?",
+    "resposta": "Khanbaliq (Dàdū)"
+  },
+  {
+    "pergunta": "Quem foi o último imperador da dinastia Yuan?",
+    "resposta": "Toghon Temür"
+  },
+  {
+    "pergunta": "Que religiões eram praticadas durante a dinastia Yuan?",
+    "resposta": "Budismo, Tengrismo Mongol, Xamanismo, Taoísmo, Confucionismo, Religião Popular Chinesa, Cristianismo Nestoriano Chinês, Catolicismo, Judaísmo, Maniqueísmo Chinês e Islamismo"
+  },
+  {
+    "pergunta": "Em que ano a dinastia Yuan foi derrubada?",
+    "resposta": "1368"
+  },
+  {
+    "pergunta": "Qual o nome da dinastia Yuan em caracteres chineses?",
+    "resposta": "Yuancháo"
+  },
+  {
+    "pergunta": "Qual batalha é significativa para o fim da dinastia Yuan?",
+    "resposta": "Batalha de Yamen"
+  },
+  {
+    "pergunta": "Quem foi o avô de Kublai Khan?",
+    "resposta": "Genghis Khan"
+  },
+  {
+    "pergunta": "Qual dinastia sucedeu a Yuan?",
+    "resposta": "Dinastia Ming"
+  }
+]

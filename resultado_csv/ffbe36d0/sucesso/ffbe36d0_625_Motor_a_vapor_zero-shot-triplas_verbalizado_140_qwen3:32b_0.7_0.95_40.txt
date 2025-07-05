@@ -1,0 +1,72 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by reading through the context carefully. The context explains that steam engines work by using high-pressure steam to produce mechanical work, following thermodynamic laws. It also mentions their continued use in nuclear reactors for electricity generation.
+
+Looking at the facts, there are a lot of ships and vessels listed that use steam engines as their propulsion system. There are also references to images, templates, and other technical aspects. My task is to create varied questions that cover different aspects from both the context and the facts.
+
+First, I can ask about the primary function of a steam engine. The context says it converts thermal energy into mechanical work. That's a good first question.
+
+Next, the context mentions that even though internal combustion engines were invented, steam engines are still used in nuclear reactors. So a question about their current application could work.
+
+The facts list many ships with steam engine propulsion. A question asking for an example of a ship using a steam engine would be relevant. There are several examples like USS Ashuelot, USS Varina, etc.
+
+Another point from the context is the working fluid being high-pressure steam. A question on the fluid used would be straightforward.
+
+The context also explains that the expansion of steam generates mechanical energy. A question about the principle behind the turbine's operation would fit here.
+
+The facts mention images like "Watt steam pumping engine.jpg" and "Oscillating cylinder.svg". A question about the representative image could be included, but maybe focusing on the primary image.
+
+The context states that Thomas Newcomen is associated with steam engines. So a question on the inventor could be asked.
+
+The category of steam engines under energy conversion is mentioned in the facts. A question about the category they belong to.
+
+The working principle involves the expansion of steam leading to mechanical work. A question about the process that generates mechanical energy.
+
+Lastly, the context says that steam engines are a type of thermal machine. A question about the classification would work.
+
+I need to ensure that each question is unique and covers different aspects. Let me check for overlaps. The first question on function and the last on classification are distinct. The example ships are different each time. The images are separate from the working principle. The inventor is a fact from the data. The category and energy conversion are from the facts. That should cover 10 varied questions without repetition.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o principal fluido de trabalho utilizado nas máquinas a vapor?",
+    "resposta": "Vapor de água sob alta pressão e temperatura"
+  },
+  {
+    "pergunta": "Em quais reatores as máquinas a vapor ainda são amplamente utilizadas atualmente?",
+    "resposta": "Reatores nucleares"
+  },
+  {
+    "pergunta": "Qual é o princípio físico fundamental que rege o funcionamento das máquinas térmicas, incluindo o motor a vapor?",
+    "resposta": "Leis da termodinâmica"
+  },
+  {
+    "pergunta": "Quem é conhecido historicamente pela invenção ou desenvolvimento do motor a vapor?",
+    "resposta": "Thomas Newcomen"
+  },
+  {
+    "pergunta": "Qual é a principal diferença entre o funcionamento de uma turbina a vapor e uma máquina a vapor convencional?",
+    "resposta": "A turbina a vapor baseia-se na expansão do vapor, enquanto a máquina a vapor utiliza êmbolos"
+  },
+  {
+    "pergunta": "Quais são os dois fatores que determinam a eficiência energética de uma máquina a vapor?",
+    "resposta": "Pressão e temperatura do vapor"
+  },
+  {
+    "pergunta": "Qual é o termo técnico que descreve a conversão de energia interna do vapor em trabalho mecânico nas turbinas a vapor?",
+    "resposta": "Expansão do vapor"
+  },
+  {
+    "pergunta": "Quais são os dois exemplos de embarcações listadas no contexto que utilizam o motor a vapor como propulsão?",
+    "resposta": "USS Ashuelot e USCS Varina"
+  },
+  {
+    "pergunta": "Qual é o nome da imagem representativa mais mencionada no contexto do motor a vapor?",
+    "resposta": "Watt steam pumping engine.jpg"
+  },
+  {
+    "pergunta": "Qual é a principal característica que diferencia o motor a vapor de motores modernos de combustão interna?",
+    "resposta": "O motor a vapor utiliza vapor de água como fluido de trabalho, enquanto motores modernos utilizam combustíveis líquidos"
+  }
+]
+```

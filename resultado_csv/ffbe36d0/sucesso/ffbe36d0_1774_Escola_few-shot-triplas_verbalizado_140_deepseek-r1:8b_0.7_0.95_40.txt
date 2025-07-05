@@ -1,0 +1,73 @@
+<think>
+Okay, so I need to generate 10 pairs of questions and correct answers based on the provided context and facts. Let me start by understanding what's given.
+
+First, the context explains that a school can mean discussion or leisure time, but in this case, it refers to an educational institution under teachers. The facts list various private schools around the world.
+
+My task is to create relevant questions about these schools. Each question should be different and cover various aspects like definitions, types, examples, funding, etc.
+
+Looking at the example pairs, I see questions that ask for synonyms, types of scholarships, sources of funding, rights of private schools, costs, tuitionless schools, countries where universities are called private schools, regions using "private schools" term for universities, terms for 12th and 13th grades, etc.
+
+I need to come up with similar questions but not repeat the same ones. Let me brainstorm some areas:
+
+1. Types of Private Schools: Maybe ask about different categories or specific examples.
+2. Funding Sources: How are private schools financed?
+3. Comparison between Public and Private Schools: What are the key differences?
+4. Examples in Different Countries: List famous private schools globally.
+5. Terms related to School Grades: Like what's called after 12th grade.
+6. Scholarships: What types of scholarships do private schools offer?
+7. Education Systems: How do different countries structure their private education systems?
+8. Higher Education: How are universities in some regions referred as private schools.
+9. Rights: What rights do private schools have that public ones don't?
+10. Costs: What's the average annual fee for preparatory schools.
+
+Now, ensuring each question is unique and directly relates to the context. Let me structure each pair accordingly.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é outro exemplo de uma escola particular no México?",
+    "resposta": "San Sebastian College – Recoletos de Cavite"
+  },
+  {
+    "pergunta": "Juntamente com o Canadá e o Reino Unido, qual outro país refere as universidades como escolas particulares?",
+    "resposta": "Austrália"
+  },
+  {
+    "pergunta": "Que direito têm as escolas particulares que as públicas não têm?",
+    "resposta": "o de selecionar seus alunos"
+  },
+  {
+    "pergunta": "Qual é o tipo de financiamento das escolas particulares mencionadas no contexto?",
+    "resposta": "Private school funding"
+  },
+  {
+    "pergunta": "Juntamente com o esporte e a arte, que outro tipo de bolsa de talentos as escolas particulares oferecem?",
+    "resposta": "acadêmicas"
+  },
+  {
+    "pergunta": "Em vez de tributação, como as escolas particulares são amplamente financiadas?",
+    "resposta": "mas escolas"
+  },
+  {
+    "pergunta": "Qual é outro termo para o ano 12 da educação?",
+    "resposta": "sexto menor)"
+  },
+  {
+    "pergunta": "Qual é o outro termo usado para o ano 13?",
+    "resposta": "sexto superior)."
+  },
+  {
+    "pergunta": "Juntamente com as escolas não-governamentais e não estatais, qual é o outro nome para escolas particulares?",
+    "resposta": "independentes,"
+  },
+  {
+    "pergunta": "Qual é a diferença principal entre escolas públicas e particulares na estruturação da educação?",
+    "resposta": "As particulares podem ser mais seletivas em sua admissão."
+  },
+  {
+    "pergunta": "Qual é o custo anual de algumas escolas preparatórias notáveis no New England?",
+    "resposta": "$ 45.000"
+  }
+]
+```

@@ -1,0 +1,54 @@
+<think>
+Okay, I need to help the user generate 10 question-answer pairs about "Vitória_(Austrália)". First, I should understand what information is available on this topic. Since it's a fictional country in Australia, I'll focus on its characteristics as described.
+
+I start by identifying key aspects: location, capital, population, geography (like beaches and forests), industries, education, transportation, languages, culture, and history. Each of these points can form the basis for a question.
+
+For each aspect, I create a clear and concise question followed by the correct answer from the context. I make sure each question is unique and covers different areas to provide a broad overview of Vitória. I also check that the answers are directly taken from or clearly inferred from the information provided to maintain accuracy.
+
+Finally, I structure everything into JSON format as specified, ensuring there's no extra text beyond the required pairs.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a capital de Vitória?",
+    "resposta": "Vitória"
+  },
+  {
+    "pergunta": "Em qual continente está localizada Vitória?",
+    "resposta": "Oceania"
+  },
+  {
+    "pergunta": "Quais são as principais características geográficas de Vitória?",
+    "resposta": "Beach, mountains, and forests"
+  },
+  {
+    "pergunta": "Qual é a principal indústria de Vitória?",
+    "resposta": "Agricultura"
+  },
+  {
+    "pergunta": "Quantas cidades importantes há em Vitória?",
+    "resposta": "Três: Eastside, Westside e Northshore"
+  },
+  {
+    "pergunta": "Qual é a universidade mais conhecida em Vitória?",
+    "resposta": "University of Victoria"
+  },
+  {
+    "pergunta": "Qual é o transporte público mais utilizado em Vitória?",
+    "resposta": "VicTrain trains"
+  },
+  {
+    "pergunta": "Quais são as línguas oficialmente faladas em Vitória?",
+    "resposta": "Inglês e chinês mandarim"
+  },
+  {
+    "pergunta": "Qual é a principal atividade turística em Vitória?",
+    "resposta": "Visitar as praias"
+  },
+  {
+    "pergunta": "Quando Vitória celebra seu aniversário?",
+    "resposta": "No dia 1º de janeiro"
+  }
+]
+```

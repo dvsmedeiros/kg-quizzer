@@ -1,0 +1,11 @@
+pergunta;resposta
+O que é comutação de pacotes?;É um método de comunicação em que dados são divididos em pacotes, cada um com informações de endereço, e transmitidos independentemente por uma rede.
+Qual a principal diferença entre comutação de pacotes e comutação de circuitos?;Na comutação de pacotes, a conexão é estabelecida por pacotes individualmente, enquanto na comutação de circuitos, uma conexão dedicada é criada antes da transmissão.
+Quais são os dois principais tipos de comutação de pacotes?;Datagrama e circuito virtual.
+O que caracteriza o modelo de comutação de datagrama?;Cada pacote é tratado de forma independente, com roteamento individual e possíveis caminhos diferentes entre origem e destino.
+Qual o papel dos roteadores em uma rede de comutação de pacotes?;Eles encaminham os pacotes para o destino adequado com base em suas informações de endereço e tabelas de roteamento.
+Por que a comutação de pacotes é eficiente para redes com tráfego variável?;Porque permite que recursos da rede sejam compartilhados entre múltiplos usuários, otimizando o uso da capacidade disponível.
+Quais são as vantagens da comutação de circuito virtual em relação ao datagrama?;Oferece menor latência e maior eficiência na transmissão de dados, pois mantém um caminho estabelecido entre origem e destino.
+Como os pacotes são reorganizados no destino na comutação de pacotes?;Eles são reordenados com base no cabeçalho de cada pacote, garantindo a sequência correta da mensagem original.
+Quais protocolos são comumente associados à comutação de pacotes?;IP (Internet Protocol) e TCP (Transmission Control Protocol).
+Em qual tipo de rede a comutação de pacotes é mais frequentemente utilizada?;Em redes de dados, como a Internet, onde o tráfego é disperso e requer flexibilidade na transmissão.

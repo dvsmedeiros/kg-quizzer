@@ -1,0 +1,73 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts about the Black Death. First, I need to make sure I understand the context thoroughly.
+
+The context mentions the Black Death as the deadliest pandemic, causing 75-200 million deaths in Eurasia, peaking between 1347-1351. It was caused by Yersinia pestis, spread via fleas on rats along the Silk Road. It affected Europe through Genoese ships, killing 30-60% of the population. The population took 200 years to recover, with some areas like Florence recovering in the 19th century. It returned until the 20th century.
+
+Now, the facts list various metadata from Wikipedia, like categories, models used, sources, etc. But the user wants the questions and answers to be based on the context provided, not the technical metadata. So I should focus on the historical and medical aspects mentioned in the context.
+
+I need to create 10 pairs, each with a unique question and correct answer. The questions should be varied and cover different aspects. Let's brainstorm possible topics:
+
+1. Cause of the Black Death (Yersinia pestis)
+2. Time period it peaked (1347-1351)
+3. Estimated death toll in Eurasia (75-200 million)
+4. How it spread (fleas on rats via Silk Road)
+5. Impact on European population (30-60%)
+6. Regions affected first (Crimea via Genoese ships)
+7. How long it took for Europe to recover (200 years)
+8. Forms of the plague (bubonic, septicemic, pneumonic)
+9. Notable return in history (until 20th century)
+10. Economic and social effects (convulsions, etc.)
+
+Now, I need to frame these into clear questions and ensure the answers are directly from the context. Let me check each point again to confirm accuracy.
+
+For example, the first question might be "Qual bactéria foi a causa da Peste Negra?" with the answer "Yersinia pestis". The second could be "Em que anos a Peste Negra atingiu o pico na Europa?" with the answer "1347 e 1351".
+
+I need to avoid repeating questions and ensure each answer is unique and directly from the context. Also, check if the answer is explicitly stated or can be inferred. For instance, the recovery time is mentioned as 200 years, so the question could be "Quanto tempo a população europeia demorou para se recuperar após a Peste Negra?" with the answer "200 anos".
+
+I'll make sure to cover different aspects: causes, spread, impact, statistics, and effects. Let me structure each pair accordingly, ensuring they are in Portuguese and the answers are correct based on the provided context.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual bactéria foi identificada como a causa da Peste Negra?",
+    "resposta": "Yersinia pestis"
+  },
+  {
+    "pergunta": "Entre quais anos a Peste Negra atingiu seu pico na Europa?",
+    "resposta": "1347 e 1351"
+  },
+  {
+    "pergunta": "Quantas pessoas morreram estimadamente na Eurásia durante a Peste Negra?",
+    "resposta": "75 a 200 milhões"
+  },
+  {
+    "pergunta": "Como a Peste Negra se espalhou da Ásia para a Europa?",
+    "resposta": "Através da Rota da Seda, chegando à Crimeia em 1343 e sendo transportada por pulgas em ratos em navios mercantes genoveses"
+  },
+  {
+    "pergunta": "Qual porcentagem da população europeia foi afetada pela Peste Negra?",
+    "resposta": "30% a 60%"
+  },
+  {
+    "pergunta": "Quanto tempo a população europeia demorou para se recuperar após a Peste Negra?",
+    "resposta": "Cerca de 200 anos"
+  },
+  {
+    "pergunta": "Qual foi a forma mais comum de manifestação da Peste Negra?",
+    "resposta": "Bubônica"
+  },
+  {
+    "pergunta": "Até que século a Peste Negra retornou como surtos?",
+    "resposta": "Século XX"
+  },
+  {
+    "pergunta": "Qual cidade mencionada no texto levou até o século XIX para recuperar sua população após a Peste Negra?",
+    "resposta": "Florença"
+  },
+  {
+    "pergunta": "Qual modelo de transmissão da Yersinia pestis é destacado como principal na pandemia?",
+    "resposta": "Pulgas que viviam nos ratos"
+  }
+]
+```

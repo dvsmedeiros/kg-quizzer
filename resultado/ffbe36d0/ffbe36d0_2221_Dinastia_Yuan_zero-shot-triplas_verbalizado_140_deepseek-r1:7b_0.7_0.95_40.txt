@@ -1,0 +1,60 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers based on the provided context about the Yuan dynasty. Each question should be related to different aspects of the information given.
+
+First, I'll look through the context to identify key points that can be turned into questions. The Yuan dynasty was established in 1271 by Kublai Khan, it's mentioned as a mongol state, and has several important events like battles such as Battle of Ngasaunggyan and Battle of Yamen. There are also specific details about locations, people, and cultural elements.
+
+I'll start by identifying the year of establishment to form the first question. Then, I can ask about the capital city since that's a significant piece of information. Next, I can look for information on notable events or battles involving the Yuan dynasty. 
+
+I should also include details about leaders or individuals associated with the dynasty, such as Chen Yuanjing or He Zhen. Additionally, there are mentions of specific temples and images used to represent the dynasty, which could be good for questions.
+
+Some data points like the date when the Yuan dynasty ended (September 14, 1368) should also be included in a question. I'll make sure each question is clear and directly relates to the provided facts without being too broad or vague.
+
+I need to ensure that all answers are accurate based on the context and don't repeat any information unnecessarily. Each question-answer pair should cover different angles, from history to notable figures and events.
+
+Finally, I'll structure the output in JSON format as specified, making sure there are exactly 10 pairs without any additional text or explanations.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando foi fundada a dinastia Yuan?",
+    "resposta": "1271"
+  },
+  {
+    "pergunta": "O capital da dinastia Yuan foi qual cidade?",
+    "resposta": "Shangdu"
+  },
+  {
+    "pergunta": "Qual foi o nome completo do fundador da dinastia Yuan?",
+    "resposta": "Kublai Khan, filho de Genghis Khan"
+  },
+  {
+    "pergunta": "Em qual batalha os soldados mongols deram um blow final ao Song Dynasty?",
+    "resposta": "Battle of Yamen"
+  },
+  {
+    "pergunta": "O Quán suanhai (Great Yuan) pertenceu a qual gênero religioso principal?",
+    "resposta": "Buddhismo, com influência de Tengrim e Conciencianismo chineses."
+  },
+  {
+    "pergunta": "Qual foi o nome da imagen usada para representar a Yuan dynasty?",
+    "resposta": "Yuan Underglaze Blue Jingdezhen Porcelain.jpg"
+  },
+  {
+    "pergunta": "O chefe da dinastia Yuan, Toghon Temür, pertenceu à qual rainha chinesa?",
+    "resposta": "Nasr al-Din (Yunnan)"
+  },
+  {
+    "pergunta": "Qual foi a data final da dinastia Yuan?",
+    "resposta": "1368-09-14"
+  },
+  {
+    "pergunta": "Quais são algumas localidades que deram origem à Yuan dynasty?",
+    "resposta": "Nanjing baiju, Qiangtang (Xiangtan), Ningxiang (Haidian)"
+  },
+  {
+    "pergunta": "Qual foi o nome da imagen que ilustra a dinastia Yuan?",
+    "resposta": "Yuan Jingdezhen Porcelain Jar.jpg"
+  }
+]
+```

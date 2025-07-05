@@ -1,0 +1,64 @@
+<think>
+Okay, so I've got this query where the user wants me to generate 10 multiple-choice question-answer pairs based on a given context about the University of Chicago. They provided a detailed structure and some examples in Portuguese. 
+
+First, I need to understand the context thoroughly. The University of Chicago is a private research university located in Chicago, Illinois. It's known for its strong academic programs, especially in social sciences, humanities, and physical sciences. Notable figures like Milton Friedman, John Dewey, and Barack Obama have ties to the university. The main campus is on the South Side, near Hyde Park. They also mention the "Chicago Method," which emphasizes small classes, close student-faculty interaction, research opportunities, and interdisciplinary study.
+
+Now, I need to create 10 varied questions that cover different aspects of this context without repeating similar ones. Each question must have one correct answer clearly derived from the provided information.
+
+Let me brainstorm possible topics: location, establishment year, notable alumni, academic strengths, specific departments (like Booth School), campus size, teaching methods, research focus, and contributions to various fields.
+
+I should ensure each question is unique and touches on a different facet. For example, one about location, another about when it was founded, others about notable people associated with the university, its academic reputation, and educational methods.
+
+I also need to make sure the language is clear and relevant in Portuguese. Each answer must be directly supported by the context without ambiguity.
+
+Wait, I should check if there are any details that can lead to potential confusion or multiple correct answers. For instance, mentioning both Milton Friedman and John Dewey as notable professors—each from different fields—so their contributions can form separate questions.
+
+I need to structure each question to test specific knowledge points without overlap. Ensuring a balance between facts about the university's history, its educational approach, and its impact through alumni.
+
+Alright, I think I have a solid outline for the 10 questions covering various aspects of the University of Chicago based on the provided context. Let me draft them now.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em que cidade está localizada a Universidade de Chicago?",
+    "resposta": "Chicago"
+  },
+  {
+    "pergunta": "Quando foi fundada a Universidade de Chicago?",
+    "resposta": "1890"
+  },
+  {
+    "pergunta": "Qual é o nome do método educacional característico da Universidade de Chicago?",
+    "resposta": "Método de Chicago"
+  },
+  {
+    "pergunta": "Quem foi um dos professores mais influentes da Universidade de Chicago no século XX?",
+    "resposta": " Milton Friedman"
+  },
+  {
+    "pergunta": "Qual é a área de atuação do economista Milton Friedman, que lecionou na Universidade de Chicago?",
+    "resposta": "Economia"
+  },
+  {
+    "pergunta": "Em qual distrito está situado o campus principal da Universidade de Chicago?",
+    "resposta": "South Side"
+  },
+  {
+    "pergunta": "Qual é um dos pilares do Método de Chicago na Universidade de Chicago?",
+    "resposta": "Interdisciplinariedade"
+  },
+  {
+    "pergunta": "Quem foi o presidente dos Estados Unidos que cursou Direito na Universidade de Chicago?",
+    "resposta": "Barack Obama"
+  },
+  {
+    "pergunta": "Qual é uma das características do ensino na Universidade de Chicago?",
+    "resposta": "Pequenos grupos de alunos"
+  },
+  {
+    "pergunta": "Em qual área a Universidade de Chicago se destacou historicamente?",
+    "resposta": "Ciências sociais"
+  }
+]
+```

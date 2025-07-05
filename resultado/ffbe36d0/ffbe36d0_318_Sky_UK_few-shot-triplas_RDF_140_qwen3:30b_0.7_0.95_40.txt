@@ -1,0 +1,88 @@
+<think>
+Okay, let's tackle this query step by step. The user wants me to generate 10 pairs of questions and answers based on the provided context and facts about British Satellite Broadcasting (BSB). The key points here are to ensure that each question is relevant, varied, and that the answers are explicitly or inferentially derived from the given data.
+
+First, I need to parse the context and facts. The context mentions that BSB was a UK-based satellite TV company, incorporated in November 1990 to form BSkyB. It started broadcasting on March 25, 1990. The facts include various RDF triples, such as BSB being the owner of several TV channels and films, and its successor being Sky UK. Also, there's information about the founding date (December 11, 1986), locations (London, England), and other related entities.
+
+Now, I need to create 10 unique questions. Let's start by listing possible aspects:
+
+1. **Incorporation and Formation**: When was BSB incorporated? What company did it form?
+2. **Broadcasting Start**: When did BSB start transmitting?
+3. **Founding Date and Location**: When and where was BSB founded?
+4. **Successor Company**: What company succeeded BSB?
+5. **Ownership of Channels**: Which channels did BSB own?
+6. **Corporate Structure**: What types of organizations was BSB classified as?
+7. **Facts from RDF Triples**: For example, what is the primary topic of the Wikipedia page for BSB?
+8. **Mergers and Acquisitions**: What was the fate of BSB according to the data?
+9. **Related Entities**: What is the Wikidata entity for BSB?
+10. **Other Details**: Like the number of categories it's part of, or specific templates used.
+
+Let me check the facts again. The "fate" property says "Merged with Sky Television plcto form BSkyB" (though there's a typo here: "plcto" should be "plc to"). The founding date is 1986-12-11, and the locations include London and England. The successor is Sky UK. The categories include things like "British companies established in 1986" and "1990 mergers and acquisitions". The "dcterms:subject" lists various categories. Also, the "ns2:owningCompany" appears in several entries for TV channels.
+
+Now, formulating questions:
+
+1. **Incorporation Date**: "Em que mês e ano a British Satellite Broadcasting foi incorporada para formar a BSkyB?" – Answer: novembro de 1990.
+2. **Broadcasting Start Date**: "Em que data a British Satellite Broadcasting começou a transmitir?" – Answer: 25 de março de 1990.
+3. **Founding Date**: "Em que ano a British Satellite Broadcasting foi fundada?" – Answer: 1986.
+4. **Location**: "Em qual cidade e país a British Satellite Broadcasting tinha sua sede?" – Answer: Londres, Reino Unido.
+5. **Successor Company**: "Qual empresa sucedeu a British Satellite Broadcasting?" – Answer: Sky UK.
+6. **Channels Owned**: "Quais canais de televisão eram propriedade da British Satellite Broadcasting?" – Answer: Galaxy, Now, The Computer Channel, The Movie Channel, The Power Station.
+7. **Classification**: "Como a British Satellite Broadcasting era classificada em termos de organização?" – Answer: Company, Organisation, etc. (from the classes listed).
+8. **Mergers**: "Qual foi o destino da British Satellite Broadcasting de acordo com os dados fornecidos?" – Answer: Fundida com a Sky Television para formar a BSkyB.
+9. **Wikidata Entity**: "Qual é a entidade do Wikidata para a British Satellite Broadcasting?" – Answer: Q24229398, Q43229, Q4830453.
+10. **Categories**: "Quantas categorias a British Satellite Broadcasting está associada, segundo os dados fornecidos?" – Answer: 16 (counting the listed categories).
+
+Wait, the user's example had answers like "BSkyB" or "2014", so the answers should be concise. Let me adjust the questions to ensure they have clear answers from the context.
+
+Another point: The user's examples included some questions about BSkyB, but the context here is about BSB. So I need to focus on BSB's details.
+
+Check for repetition. For instance, the founding date and year are different, so that's okay. The channels owned are multiple, so each can be a separate question. But the user said not to repeat similar questions, so maybe pick different aspects.
+
+Also, the RDF facts mention specific channels, so that's a good source. For example, Galaxy, Now, etc.
+
+Another question could be about the primary topic of the Wikipedia page, which is linked to BSB.
+
+I think that's 10. Let me structure them in JSON format now.
+</think>
+
+[
+  {
+    "pergunta": "Em que mês e ano a British Satellite Broadcasting foi incorporada para formar a British Sky Broadcasting?",
+    "resposta": "novembro de 1990"
+  },
+  {
+    "pergunta": "Em que data a British Satellite Broadcasting começou a transmitir?",
+    "resposta": "25 de março de 1990"
+  },
+  {
+    "pergunta": "Qual foi o ano de fundação da British Satellite Broadcasting?",
+    "resposta": "1986"
+  },
+  {
+    "pergunta": "Em qual cidade e país a British Satellite Broadcasting tinha sua sede?",
+    "resposta": "Londres, Reino Unido"
+  },
+  {
+    "pergunta": "Qual empresa sucedeu a British Satellite Broadcasting?",
+    "resposta": "Sky UK"
+  },
+  {
+    "pergunta": "Quais canais de televisão eram propriedade da British Satellite Broadcasting?",
+    "resposta": "Galaxy, Now, The Computer Channel, The Movie Channel, The Power Station"
+  },
+  {
+    "pergunta": "Como a British Satellite Broadcasting era classificada em termos de organização?",
+    "resposta": "Company, Organisation, Organization"
+  },
+  {
+    "pergunta": "Qual foi o destino da British Satellite Broadcasting de acordo com os dados fornecidos?",
+    "resposta": "Fundida com a Sky Television para formar a BSkyB"
+  },
+  {
+    "pergunta": "Qual é a entidade do Wikidata para a British Satellite Broadcasting?",
+    "resposta": "Q24229398"
+  },
+  {
+    "pergunta": "Quantas categorias a British Satellite Broadcasting está associada, segundo os dados fornecidos?",
+    "resposta": "16"
+  }
+]

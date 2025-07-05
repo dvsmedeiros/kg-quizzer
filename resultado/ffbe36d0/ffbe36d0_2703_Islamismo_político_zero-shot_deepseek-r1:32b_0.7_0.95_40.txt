@@ -1,0 +1,69 @@
+<think>
+Okay, I need to help generate 10 objective question-answer pairs based on the context provided about political Islamism. The user wants these in Portuguese and strictly in JSON format without any extra explanations. First, I should understand what each part of the context entails.
+
+Looking at the context, it's a detailed explanation of political Islamism, its origins, influence, goals, and key movements like the Muslim Brotherhood. It also touches on controversial aspects such as the use of violence by some groups and the diversity within Islamic movements.
+
+I need to create varied questions that cover different aspects: definition, history, objectives, key figures or groups, regions of influence, and challenges faced. Each question should have a clear, correct answer based on the context provided.
+
+Let me start brainstorming:
+
+1. What is political Islamism? (Answer from the first paragraph)
+2. When did it emerge as a modern phenomenon? (From the second paragraph)
+3. What does it aim to establish? (First paragraph)
+4. Name an example of an Islamic political party in Indonesia. (Last paragraph)
+5. Why was the Muslim Brotherhood founded? (Third paragraph)
+6. In which countries is political Islamism influential? (Second paragraph)
+7. How do supporters view this movement as a solution? (Fourth paragraph)
+8. What are some goals they aim to achieve through state structures? (First paragraph)
+9. What controversial issue do some groups support? (Last paragraph)
+10. Why do critics argue that political Islamism is problematic? (Last paragraph)
+
+Now, I need to ensure each question is unique and covers different aspects without repetition. Also, the answers should be concise but accurate based on the context.
+
+I should structure these into JSON format, making sure each object has "pergunta" and "resposta" fields in Portuguese. Let me double-check that all answers are correctly extracted from the context and that there's no overlap between questions.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é o islamismo político?",
+    "resposta": "Uma ideologia que busca integrar os princípios islâmicos na estrutura política de um Estado."
+  },
+  {
+    "pergunta": "Quando emergiu o islamismo político como fenômeno moderno?",
+    "resposta": "No século XX, com a influência do Pan-Islamismo e movimentos nacionalistas."
+  },
+  {
+    "pergunta": "Qual é um objetivo principal do islamismo político?",
+    "resposta": "Estabelecer um Estado baseado na Sharia, ou lei islâmica."
+  },
+  {
+    "pergunta": "Nomeie um exemplo de partido político islâmico na Indonésia.",
+    "resposta": "Partido Justiça e Desenvolvimento (PKS)."
+  },
+  {
+    "pergunta": "Por que foi fundada a Irmandade Muçulmana?",
+    "resposta": "Para promover a islamização da sociedade egípcia."
+  },
+  {
+    "pergunta": "Em quais países o islamismo político tem influência significativa?",
+    "resposta": "Países do Oriente Médio, Ásia Central e partes da África."
+  },
+  {
+    "pergunta": "Como os apoiadores veem o islamismo político?",
+    "resposta": "Como uma solução para os problemas sociais e econômicos."
+  },
+  {
+    "pergunta": "Quais são algumas metas almejadas através das estruturas estatais?",
+    "resposta": "Impor a Sharia, impor valores islâmicos e islamizar a educação."
+  },
+  {
+    "pergunta": "Qual questão controversa abordam alguns grupos?",
+    "resposta": "A promoção de governos teocráticos."
+  },
+  {
+    "pergunta": "Por que críticos argumentam contra o islamismo político?",
+    "resposta": "Alegam que ameaça a separação entre Estado e religião e pode levar a regimes autoritários."
+  }
+]
+```

@@ -1,0 +1,112 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. First, I need to parse the context and the additional facts to find relevant information. 
+
+Starting with the context: Jacksonville is the most populous city in Florida, located in Duval County. It's the third largest on the East Coast after New York and Philadelphia, and 12th in the US with nearly 950k in 2020. Founded in 1791, incorporated in 1832. Located on the St. Johns River, in the First Coast region, 40km south of Georgia, 528 km north of Miami. Originally inhabited by Timucua, Fort Caroline in 1564. Under British rule, known as Cow Ford. Named after Andrew Jackson. Hosted Super Bowl in 2005 at EverBank Field.
+
+Now the facts include various events, people, and places associated with Jacksonville. For example, the 2015 Fort Lauderdale Strikers season was in Jacksonville, Double or Nothing 2020 event, 95 South from there, some sports teams using EverBank Field, notable people born or died there like Brad Bernard, Keith Johns, etc. Also, some infrastructure like Fuller Warren Bridge, KBJ Architects, and others.
+
+The examples provided by the user give a sense of the structure. Questions should be varied, covering different aspects like population, history, notable people, events, locations, etc. Each answer must be directly from the data given.
+
+I need to ensure that the questions are unique and cover different parts of the context and facts. Let me list possible topics:
+
+1. Population ranking in the US (12th)
+2. Founding year (1791)
+3. Incorporation date (1832)
+4. River it's located on (St. Johns)
+5. Distance from Miami (528 km)
+6. Original inhabitants (Timucua)
+7. French colony name (Fort Caroline)
+8. Named after Andrew Jackson
+9. Super Bowl year (2005)
+10. Condado (Duval)
+
+Also from the facts, maybe:
+
+- Notable people born there: Brad Bernard, Keith Johns, etc.
+- Events held there: Super Bowl 2005, Double or Nothing 2020.
+- Organizations based there: KBJ Architects, All Elite Wrestling.
+- Sports teams: Florida State Road 104, 2009–10 Belmont Bruins, etc.
+- Bridges: Fuller Warren Bridge.
+- Apelidos da cidade: "Jax", "The River City", etc.
+
+Need to make sure the answers are directly from the given data. For example, the population in 2020 is nearly 950k. The examples included a question about 2010 population with answer 1.345k, but the context says 2020 had 950k. Wait, the example might be incorrect, but the user provided it. However, the user's context says "com uma população de quase 950 mil habitantes, de acordo com o censo nacional de 2020." So the 2020 population is 950k. The example's question about 2010 is probably from elsewhere, but the user's context doesn't mention 2010 population, so maybe that's an error. But the user's example is just for illustration. I'll stick to the provided context and facts.
+
+So, possible questions:
+
+1. Qual é o ranking populacional de Jacksonville nos Estados Unidos?
+Resposta: 12ª
+
+2. Em que ano Jacksonville foi fundada?
+Resposta: 1791
+
+3. Qual rio corta a cidade de Jacksonville?
+Resposta: St. Johns
+
+4. Qual é a distância aproximada entre Jacksonville e Miami?
+Resposta: 528 km
+
+5. Qual foi o nome da colônia francesa estabelecida em 1564 em Jacksonville?
+Resposta: Fort Caroline
+
+6. A cidade de Jacksonville é sede de qual condado?
+Resposta: Duval
+
+7. Em que ano o Super Bowl foi realizado no estádio EverBank Field em Jacksonville?
+Resposta: 2005
+
+8. Qual é o apelido de Jacksonville que se refere ao seu localização em relação a um rio?
+Resposta: The River City
+
+9. Qual figura histórica deu nome à cidade de Jacksonville?
+Resposta: Andrew Jackson
+
+10. Quem eram os habitantes originais da região onde hoje está Jacksonville?
+Resposta: Timucua
+
+Need to check if all answers are in the provided data. The 12th ranking is in the facts under "Jacksonville, Florida possui posição no ranking populacional 12". The distance from Miami is 528 km as per context. The apelido "The River City" is listed in the facts. The answer about the original inhabitants is Timucua, from the context. The French colony is Fort Caroline. The answer for the Super Bowl year is 2005, which is in the context. The name after Andrew Jackson is from the context. The river is St. Johns. The condado is Duval. The founding year is 1791. 
+
+That's 10 questions covering different aspects. Let me make sure each answer is directly from the given data and that the questions are unique and varied.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o ranking populacional de Jacksonville nos Estados Unidos?",
+    "resposta": "12ª"
+  },
+  {
+    "pergunta": "Em que ano a cidade de Jacksonville foi fundada?",
+    "resposta": "1791"
+  },
+  {
+    "pergunta": "Qual é o nome do rio que corta a cidade de Jacksonville?",
+    "resposta": "St. Johns"
+  },
+  {
+    "pergunta": "Qual foi o nome da colônia francesa estabelecida em 1564 na região de Jacksonville?",
+    "resposta": "Fort Caroline"
+  },
+  {
+    "pergunta": "A cidade de Jacksonville é sede de qual condado da Flórida?",
+    "resposta": "Duval"
+  },
+  {
+    "pergunta": "Em que ano o Super Bowl foi realizado no estádio EverBank Field, localizado em Jacksonville?",
+    "resposta": "2005"
+  },
+  {
+    "pergunta": "Qual apelido de Jacksonville está diretamente relacionado à sua localização próxima a um rio?",
+    "resposta": "The River City"
+  },
+  {
+    "pergunta": "Qual figura histórica deu nome à cidade de Jacksonville?",
+    "resposta": "Andrew Jackson"
+  },
+  {
+    "pergunta": "Quem eram os habitantes originais da região onde hoje se encontra Jacksonville?",
+    "resposta": "Timucua"
+  },
+  {
+    "pergunta": "Qual é a distância aproximada entre Jacksonville e a cidade de Miami?",
+    "resposta": "528 km"
+  }
+]

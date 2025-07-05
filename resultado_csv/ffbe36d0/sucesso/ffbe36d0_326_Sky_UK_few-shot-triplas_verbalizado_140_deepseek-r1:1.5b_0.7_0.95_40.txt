@@ -1,0 +1,73 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers based on the provided context and rules. Let's start by understanding what's given.
+
+First, the context includes information about British Satellite Broadcasting (BSB), its history, operations, products, and some images. The facts section lists various aspects like its location, types, categories, etc.
+
+I need to create 10 questions related to this content. Each question should be unique and cover different aspects. Let me think about the key points:
+
+1. Formation of Sky television (BSkyB) from BSB.
+2. Major TV channel in the UK created by BSB.
+3. Year when BSB acquired Sky Italia.
+4. Name of the holding company or division of BSBDishes.
+5. Name of the operation under which BSB operates.
+6. Year when Setanta Sports acquired First Leage.
+7. Number of sets distributed to Prime Minister's department for Sky.
+8. Number of remaining packages after distributing sets.
+9. Revenue from selling 4 packages.
+10. Company that BSB was sold by.
+
+Now, let me structure each question with a clear answer based on the facts provided.
+
+For the first question about BSkyB formation, I'll use the info that it's a merger between BSB and BSkyB in 1990. For the second, listing the major channel as Sky TV makes sense.
+
+Third, when BSB acquired Sky Italia in 2014 is confirmed from facts. Fourth, Sky Plc. is mentioned with the logo image, fifth, Sky UK Limited is also from facts. 
+
+For the sixth question about Setanta Sports, it's clear that they got two sets out of six. The seventh refers to the remaining four packages. Eightth, calculating revenue based on £1.3 million for 4 packages. Lastly, noting that BSB was sold by ONdigital.
+
+I need to ensure each response is exactly one line and uses the correct Portuguese words from the facts. Also, check that there are no markdown formats or extra text beyond the JSON structure.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual empresa foi formada pela fusão da Sky Television e da British Satellite Broadcasting?",
+    "resposta": "BSkyB"
+  },
+  {
+    "pergunta": "Qual é o nome da major empresa de televisão no Reino Unido?",
+    "resposta": "Sky TV"
+  },
+  {
+    "pergunta": "Em qual ano a British Satellite Broadcasting adquiriu Sky Italia?",
+    "resposta": "2014"
+  },
+  {
+    "pergunta": "O nome da holding company associada ao BSBDishes é...",
+    "resposta": "Sky Plc."
+  },
+  {
+    "pergunta": " qual empresa operates no Reino Unido para BSkyB?",
+    "resposta": "Sky UK Limited"
+  },
+  {
+    "pergunta": " De qual ano Recebemos os direitos de transmissão da Setanta?",
+    "resposta": "2006"
+  },
+  {
+    "pergunta": " Qual o número de pacotes totais disponíveis para as emissoras que receberam como奖品?",
+    "resposta": "dois"
+  },
+  {
+    "pergunta": " qual empresa corresponde a 4 pacakages restantes do stock?",
+    "resposta": ""
+  },
+  {
+    "pergunta": " qual foi o valor total do Sky fez para ganhar os 4 pacacgratts de transmissão que elheu?",
+    "resposta": "£ 1,3"
+  },
+  {
+    "pergunta": " qual empresa correspondia ao contato ONdigital e que excluiu BSB?",
+    "resposta": "ONdigital"
+  }
+]
+```

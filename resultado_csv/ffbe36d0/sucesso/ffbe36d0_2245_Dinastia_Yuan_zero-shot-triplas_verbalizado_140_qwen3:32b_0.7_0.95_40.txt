@@ -1,0 +1,97 @@
+<think>
+Okay, let's see. I need to generate 10 question-answer pairs based on the provided context and facts about the Yuan Dynasty. The user wants them in JSON format, each with a unique question and correct answer. The answers should be explicitly stated or inferable from the given data. 
+
+First, I'll go through the context and facts. The Yuan Dynasty was founded by Kublai Khan in 1271. The facts mention various aspects like its capital, events it was involved in, people who lived or died during its reign, models used in Wikipedia pages, and more.
+
+I need to make sure the questions are varied. So I should cover different areas: founding, leaders, capitals, significant events, related battles, cultural aspects, duration, and maybe some specific people or temples established during that time.
+
+Let me start by listing possible questions:
+
+1. Who founded the Yuan Dynasty? Answer: Kublai Khan.
+2. When was the Yuan Dynasty established? Answer: 1271.
+3. What was the capital of the Yuan Dynasty? Answers mention both Shangdu and Khanbaliq (Dadu). Wait, need to check the facts. The facts say "Yuan dynasty tem como capital Shangdu" and "Yuan dynasty tem como capital Khanbaliq". So both are capitals? Maybe Shangdu was the summer capital and Khanbaliq the main one. Need to confirm. The user might expect both answers, but the question should be specific. Maybe ask for the main capital. But the facts list both. Hmm, maybe the main one is Khanbaliq (Dadu), as mentioned in "Yuan dynasty possui p Dàdū". So answer Khanbaliq.
+
+4. What was the name of the Yuan Dynasty in Mongolian? The facts mention "Yuan dynasty possui l "Yuan dynasty" and "Yuan dynasty possui l Great Yuan" and "Yuan dynasty possui y Yùhn chìuh" and "Yuan dynasty possui y Daai6 Yun4". Also, "Yuan dynasty possui legenda da imagem "Yuan dynasty" in Chinese characters and "Great Yuan State" in Mongolian script. So the Mongolian name is "Daai6 Yun4" or "Great Yuan State". But the user probably wants "Great Yuan" as the official name.
+
+5. What was the official title of the Yuan Dynasty in Chinese? The answer is "Yuán cháo" as per the context.
+
+6. When did the Yuan Dynasty end? The facts mention "Yuan dynasty teve data de dissolução 1368-09-14" and "Yuan dynasty possui fim no ano de 1368". So answer 1368.
+
+7. What significant battle involved the Yuan Dynasty in 1288? The Battle of Bạch Đằng in 1288 is mentioned.
+
+8. Which temple was established during the Yuan Dynasty? Haihui Temple (Xiangtan) and Xiyuan Temple are mentioned.
+
+9. What was the main religion practiced during the Yuan Dynasty? The facts list Buddhism, Mongolian Tengrism, etc., but the main one might be Buddhism and Mongolian Tengrism. However, the user might expect the main ones as Buddhism and Mongolian Tengrism/Chinese Heaven worship. But the answer should be concise. The facts list multiple, but maybe the answer is a combination.
+
+10. What was the currency used during the Yuan Dynasty? The facts mention Cash (Chinese coin).
+
+Wait, need to check for duplicates and ensure each question is unique. Also, some facts might be more specific. For example, the Battle of Yamen is mentioned as a combatant of Yuan. So another question could be about the Battle of Yamen. Also, the leader Toghon Temür is mentioned. So another question could be about the last emperor. Let me check the facts again for more distinct points.
+
+Other possible questions:
+- Which model is used for the Wikipedia page of the Yuan Dynasty? The facts mention several templates like Template:Infobox former country, Template:Main, etc.
+- What was the name of the calendar used by the Yuan Dynasty? The facts mention "Yuan dynasty possui l 'Time Granting Calendar'".
+- Who was the last leader of the Yuan Dynasty? The facts say "Yuan dynasty possui líder Toghon Temür".
+- What was the name of the dynasty in Mongolian script? The image legend mentions "Great Yuan State" in Mongolian script.
+
+Let me structure these into 10 questions. Need to ensure each answer is directly from the facts. Let me start drafting:
+
+1. Qual foi o fundador da Dinastia Yuan? Kublai Khan.
+2. Em que ano foi estabelecida a Dinastia Yuan? 1271.
+3. Qual era a capital principal da Dinastia Yuan? Khanbaliq (Dadu).
+4. Qual o nome oficial da Dinastia Yuan em língua mongol? Great Yuan State.
+5. Qual o nome da Dinastia Yuan em caracteres chineses? Yuan cháo.
+6. Em que data a Dinastia Yuan foi dissolvida? 1368-09-14.
+7. Qual batalha envolvendo a Dinastia Yuan ocorreu em 1288? Batalha de Bạch Đằng.
+8. Qual templo foi estabelecido durante a Dinastia Yuan? Haihui Temple (Xiangtan).
+9. Qual era a moeda utilizada na Dinastia Yuan? Cash (Chinese coin).
+10. Qual foi o último líder da Dinastia Yuan? Toghon Temür.
+
+Wait, but some answers might need to be checked. For example, the capital is both Shangdu and Khanbaliq, but the main one is Khanbaliq. The question about the Mongolian name of the dynasty: the facts mention "Great Yuan State" in Mongolian script, so the answer is "Great Yuan State". The calendar is 'Time Granting Calendar'. Also, the last leader is Toghon Temür. 
+
+I need to make sure all answers are correct based on the provided facts. Let me cross-verify each point again.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem foi o fundador da Dinastia Yuan?",
+    "resposta": "Kublai Khan"
+  },
+  {
+    "pergunta": "Em que ano foi estabelecida a Dinastia Yuan?",
+    "resposta": "1271"
+  },
+  {
+    "pergunta": "Qual era a capital principal da Dinastia Yuan?",
+    "resposta": "Khanbaliq"
+  },
+  {
+    "pergunta": "Qual o nome oficial da Dinastia Yuan em língua mongol?",
+    "resposta": "Great Yuan State"
+  },
+  {
+    "pergunta": "Qual o nome da Dinastia Yuan em caracteres chineses?",
+    "resposta": "Yuan cháo"
+  },
+  {
+    "pergunta": "Em que data a Dinastia Yuan foi dissolvida?",
+    "resposta": "1368-09-14"
+  },
+  {
+    "pergunta": "Qual batalha envolvendo a Dinastia Yuan ocorreu em 1288?",
+    "resposta": "Batalha de Bạch Đằng"
+  },
+  {
+    "pergunta": "Qual templo foi estabelecido durante a Dinastia Yuan?",
+    "resposta": "Haihui Temple (Xiangtan)"
+  },
+  {
+    "pergunta": "Qual era a moeda utilizada na Dinastia Yuan?",
+    "resposta": "Cash (Chinese coin)"
+  },
+  {
+    "pergunta": "Qual foi o último líder da Dinastia Yuan?",
+    "resposta": "Toghon Temür"
+  }
+]
+```

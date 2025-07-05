@@ -1,0 +1,69 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about Jacksonville, Florida. Let me start by reading through the context and facts to identify key points that can be turned into questions. 
+
+First, from the context: Jacksonville is the most populous city in Florida, located in Duval County. It's the third largest city on the East Coast after New York and Philadelphia, and the 12th largest in the US. Population is around 950k as per 2020 census. Founded in 1791, incorporated in 1832. Located on the St. Johns River, in the First Coast region of northeastern Florida, about 40 km south of Georgia and 528 km north of Miami. The communities of Jacksonville Beaches are along the adjacent Atlantic coast. Originally inhabited by the Timucua people, Fort Caroline (French) was there in 1564. Under British rule, it was called Wacca Pilatka by Seminole and Cow Ford by Brits. Established in 1822 after the US took Florida from Spain, named after Andrew Jackson. The Super Bowl in 2005 was held at EverBank Field.
+
+Now, looking at the facts list, there's a lot of information on events, people, and locations tied to Jacksonville. For example, the 2015 Fort Lauderdale Strikers season is in Jacksonville, Double or Nothing 2020 is there, 95 South's origin, SS Harald Torsvik built there, Florida State Road 104 has a junction there. Also, various sports teams, people born or died there, locations like the Port of Jacksonville, KBJ Architects, etc. The city has a nickname like "The River City" and is the 12th most populous in the US.
+
+I need to create questions that cover different aspects: population rank, historical events, geographical location, notable residents, sports events, infrastructure, etc. Each question should have a clear, correct answer from the given data. Let me list possible questions:
+
+1. What is the population rank of Jacksonville in the United States? (12th)
+2. Which river is Jacksonville centered around? (St. Johns River)
+3. When was Jacksonville incorporated? (1832)
+4. Who was the city named after? (Andrew Jackson)
+5. In which year was the Super Bowl held at EverBank Field in Jacksonville? (2005)
+6. What is the nickname "The River City" associated with? (Jacksonville)
+7. Which two cities are larger on the East Coast than Jacksonville? (New York and Philadelphia)
+8. What was the original name of the area under British rule? (Cow Ford)
+9. Which French colony was established in 1564 in the area? (Fort Caroline)
+10. What is the approximate population of Jacksonville according to the 2020 census? (950,000)
+
+Now, checking if all answers are present in the context or facts. For example, the population rank is mentioned as 12th. The river is St. Johns. The incorporation date is 1832. Named after Andrew Jackson. The Super Bowl in 2005. Nickname "The River City" is listed in the apelidos. The East Coast cities are New York and Philadelphia. Cow Ford was the British name. Fort Caroline was the French colony. Population is 950k as per 2020.
+
+I should ensure no repetition and that each question tests a different aspect. Let me verify each point and structure the JSON accordingly.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o posto populacional de Jacksonville nos Estados Unidos?",
+    "resposta": "12º"
+  },
+  {
+    "pergunta": "Em que rio Jacksonville está localizada?",
+    "resposta": "Rio St. Johns"
+  },
+  {
+    "pergunta": "Em que data Jacksonville foi incorporada como cidade?",
+    "resposta": "9 de fevereiro de 1832"
+  },
+  {
+    "pergunta": "Após quem a cidade de Jacksonville foi nomeada?",
+    "resposta": "Andrew Jackson"
+  },
+  {
+    "pergunta": "Em que ano o Super Bowl foi realizado no estádio EverBank Field em Jacksonville?",
+    "resposta": "2005"
+  },
+  {
+    "pergunta": "Qual apelido é associado a Jacksonville por sua localização ribeirinha?",
+    "resposta": "The River City"
+  },
+  {
+    "pergunta": "Quais são as duas cidades da costa leste dos EUA mais populosas que Jacksonville?",
+    "resposta": "Nova Iorque e Filadélfia"
+  },
+  {
+    "pergunta": "Qual foi o nome da área sob domínio britânico em Jacksonville?",
+    "resposta": "Cow Ford"
+  },
+  {
+    "pergunta": "Qual colônia francesa foi estabelecida no local em 1564?",
+    "resposta": "Fort Caroline"
+  },
+  {
+    "pergunta": "Qual é a população aproximada de Jacksonville segundo o censo de 2020?",
+    "resposta": "Quase 950 mil habitantes"
+  }
+]
+```

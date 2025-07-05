@@ -1,0 +1,73 @@
+<think>
+Okay, let's tackle this query. The user provided a bunch of RDF triples from DBpedia, all related to Harvard University and its associated people. The task is to generate 10 question-answer pairs based on this data. 
+
+First, I need to understand the structure of the data. Each line is an RDF triple where the subject is a resource (like a person or Harvard itself), the predicate is a property (like almaMater, workInstitution, etc.), and the object is a value or another resource. 
+
+The user wants the questions and answers in Portuguese, and the answers should be concise, using the data provided. Also, the questions should be in Portuguese, and the answers should be in the format "Resposta: ...".
+
+Let me start by identifying the key entities and their relationships. The main entity here is Harvard University. Then there are people who have some connection to Harvard, such as alumni (almaMater), faculty (workInstitution), or other roles. Also, there are properties like sameAs, foaf:depiction, and dcterms:subject which might be useful for questions about Harvard itself.
+
+I need to make sure each question is based on the given data. Let me list out possible questions:
+
+1. Who studied at Harvard? (Looking for people with almaMater as Harvard)
+2. Who works at Harvard? (People with workInstitution as Harvard)
+3. What is the sameAs link for Harvard? (The sameAs predicate)
+4. What are the depictions of Harvard? (The foaf:depiction links)
+5. What category is Harvard in? (dcterms:subject)
+6. What institutions are related to Harvard? (Institution108053576 might be a class, but maybe not relevant)
+7. Who are notable alumni of Harvard? (More alumni)
+8. What are the educational backgrounds of certain individuals? (Check specific people)
+9. What are the academic fields of Harvard's faculty? (WorkInstitution)
+10. What are the VIAF identifiers for Harvard? (sameAs viaf.org link)
+
+Now, let's go through the data and pick the appropriate triples for each question. For example, for the first question, there are many people with almaMater as Harvard. I can list a few. For the sameAs link, it's the viaf.org URL. The depictions are the image URLs. The category is the dcterms:subject.
+
+I need to ensure that each question is unique and the answers are accurate. Also, the answers should be in Portuguese, using the provided data without any external information. Let me check if the triples have the necessary information. For example, some people have both almaMater and workInstitution, so they can be used for different questions.
+
+Let me start drafting the questions and answers. For example:
+
+1. Quem estudou na Universidade de Harvard? Resposta: [List of people with almaMater as Harvard]
+2. Quem trabalha na Universidade de Harvard? Resposta: [List of people with workInstitution as Harvard]
+3. Qual é o link sameAs da Universidade de Harvard? Resposta: [viaf.org link]
+4. Quais são as imagens da Universidade de Harvard? Resposta: [List of foaf:depiction URLs]
+5. Qual é a categoria da Universidade de Harvard? Resposta: [Category mentioned in dcterms:subject]
+6. Quem são alguns alumni notáveis da Universidade de Harvard? Resposta: [More alumni]
+7. Quais são os campos acadêmicos dos professores da Universidade de Harvard? Resposta: [WorkInstitution mentions]
+8. Quais são os identificadores VIAF da Universidade de Harvard? Resposta: [SameAs viaf.org link]
+9. Quais são as instituições relacionadas à Universidade de Harvard? Resposta: [Mention the class Institution108053576? Maybe not, since it's a class, not an actual institution. Maybe not use this one.]
+10. Quais são os exemplos de pessoas com formação em Harvard? Resposta: [List more people with almaMater]
+
+I need to make sure each answer is a direct extraction from the provided data. Let me check the data again to confirm. For example, the first answer should list people like Robert Morris, Steven Abrams, etc. The depictions are the four image URLs. The category is about universities in Cambridge. The sameAs is the viaf.org link.
+
+I also need to avoid repeating the same answer structure. For example, some questions can be about specific individuals, others about Harvard's properties. Let me structure each pair carefully.
+</think>
+
+**1. Quem são alguns dos alunos que estudaram na Universidade de Harvard?**  
+Resposta: Robert Morris (criptógrafo), Steven L. Abrams, Tatyana Ali, Selma Botman, Subramanian Swamy, entre outros.  
+
+**2. Quais são os links de imagens associadas à Universidade de Harvard?**  
+Resposta: [Imagens no Wikimedia Commons](http://commons.wikimedia.org/wiki/Special:FilePath/Danielle_Allen_2017.jpg), [Henry Louis Gates 2014](http://commons.wikimedia.org/wiki/Special:FilePath/Henry_Louis_Gates_2014_(cropped).jpg), [Estatua de John Harvard](http://commons.wikimedia.org/wiki/Special:FilePath/John_Harvard_statue_at_Harvard_University.jpg), [Seamus Heaney](http://commons.wikimedia.org/wiki/Special:FilePath/Seamus_Heaney_Photograph_Edit.jpg).  
+
+**3. Qual é a categoria à qual a Universidade de Harvard pertence?**  
+Resposta: Universidades e colégios em Cambridge, Massachusetts.  
+
+**4. Quem são alguns professores ou funcionários vinculados à Universidade de Harvard?**  
+Resposta: William Klemperer, Philippe Le Corbeiller, Richard Lewontin, entre outros.  
+
+**5. Qual é o identificador VIAF (Virtual International Authority File) da Universidade de Harvard?**  
+Resposta: [http://viaf.org/viaf/128987800](http://viaf.org/viaf/128987800).  
+
+**6. Quem são exemplos de pessoas que têm a Universidade de Harvard como "alma mater"?**  
+Resposta: Radhika Coomaraswamy, Ralph Wormeley Curtis, Orlanda Schärer, Naomi Koshi, entre outros.  
+
+**7. Quais são os nomes de pessoas que trabalham ou fizeram carreira acadêmica na Universidade de Harvard?**  
+Resposta: William Mansfield Clark, Roy MacLeod, William Morgan (arquiteto), entre outros.  
+
+**8. Quem são alguns dos alunos notáveis da Universidade de Harvard mencionados no dataset?**  
+Resposta: Selma Botman, Sagiri Kitao, Sarita Khurana, Tariq Bajwa, Theodore Stebbins.  
+
+**9. Quais são os nomes de pessoas que possuem a Universidade de Harvard como instituição de estudo ou trabalho?**  
+Resposta: William Davis Taylor, William McClelland, William Alexander Robb Kerr, entre outros.  
+
+**10. Quem são exemplos de pessoas que cursaram ou estão associadas à Universidade de Harvard?**  
+Resposta: Paul Garabedian, Pedro De Abreu, Parveen Shakir, Peter W. Barca, Philip Young (embaixador).

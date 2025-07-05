@@ -1,0 +1,30 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided data about Fresno, California. Let me start by understanding the data. The user has given a bunch of triples where each entry has a subject, predicate, and object. The main subject here is "Fresno, California" and there are various properties like area, government type, area code, etc.
+
+First, I should look through the data and identify different properties. For example, there's the areaTotal, areaCode, governmentType, settlementType, wikiPageUsesTemplate, dcterms:subject, point, skos:exactMatch, and foaf:depiction. Also, there are other entries where other entities have relations to Fresno, like "Sun-Maid" having a locationCity of Fresno.
+
+So, for each of these properties, I can create a question. For instance, "What is the area code of Fresno, California?" The answer would be "559". Another one could be "What is the government type of Fresno, California?" Answer: "Strong Mayor".
+
+I need to make sure that each question is clear and the answer is directly from the data. Also, check if there are any other unique properties. The areaTotal is "300.438620798976", so a question about the total area. The point is coordinates, so maybe "What are the coordinates of Fresno, California?" Answer: "36.75 -119.76666666666667".
+
+Also, the settlementType is a link to a list, so the answer would be the name of that list. The dcterms:subject is a category, so the question could be "What category does Fresno, California belong to?" Answer: "Category:San Joaquin Valley".
+
+The wikiPageUsesTemplate has multiple entries, so the answer would list them. The skos:exactMatch is a global wordnet link, so the question would be about the exact match. The foaf:depiction is an image link, so the question could be "What is the depiction of Fresno, California?" Answer: the image URL.
+
+I should also check for any other properties. For example, "Sun-Maid" has a locationCity of Fresno, so a question could be "Which company is located in Fresno, California?" Answer: "Sun-Maid".
+
+Wait, but the user wants 10 pairs. Let me count. The main properties of Fresno are areaCode, governmentType, settlementType, areaTotal, point, dcterms:subject, wikiPageUsesTemplate, skos:exactMatch, foaf:depiction. That's 9. Then the Sun-Maid example adds one more. So total 10. I need to make sure each question is distinct and covers different aspects.
+
+I'll structure each pair as "pergunta;resposta" as per the instruction. Let me verify each answer against the data to ensure accuracy.
+</think>
+
+1. **Qual é o código de área de Fresno, Califórnia?**; 559  
+2. **Qual é o tipo de governo de Fresno, Califórnia?**; Strong Mayor  
+3. **Qual é a área total de Fresno, Califórnia?**; 300.438620798976  
+4. **Quais são as coordenadas geográficas de Fresno, Califórnia?**; 36.75 -119.76666666666667  
+5. **Em qual categoria Fresno, Califórnia está classificado?**; Category:San Joaquin Valley  
+6. **Quais modelos de página são usados na página de Fresno, Califórnia?**; Template:California_cities_and_mayors_of_100,000_population, Template:Fresno_County,_California, Template:Official_website  
+7. **Qual é o link de correspondência exata de Fresno, Califórnia no Global WordNet?**; http://globalwordnet.org/ili/i84248  
+8. **Qual é a imagem de representação de Fresno, Califórnia?**; http://commons.wikimedia.org/wiki/Special:FilePath/Fresno_station_2434_35_(cropped2).jpg  
+9. **Qual empresa está localizada em Fresno, Califórnia?**; Sun-Maid  
+10. **Qual é o tipo de município de Fresno, Califórnia?**; List of municipalities in California

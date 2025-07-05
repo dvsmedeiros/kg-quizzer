@@ -1,0 +1,56 @@
+<think>
+Alright, I need to generate exactly 10 pairs of questions and answers based on the provided context and facts about imperialism. First, I should thoroughly understand the content given.
+
+The context explains that an empire is a large territory controlled by a sovereign or oligarchy, often through conquest, with a central power dominating peripheral regions. It mentions examples like the Roman Empire and the term "Imperium." The facts section lists various aspects of imperialism, including associated images, templates used in Wikipedia pages, related categories, and individuals or parties linked to imperialism.
+
+I should create varied questions covering different aspects: causes, examples, key figures, models, etc. Each question must have a single correct answer from the context. I'll extract information about who's involved, what defines imperialism, its historical contexts, and visual representations.
+
+For example, since Wolfgang Mommsen is mentioned in the discipline of Imperialism, that could be a question. Similarly, specific images or models used on Wikipedia pages can form questions. Political parties with imperialist ideologies and genocides motivated by imperialism are also points to cover.
+
+I must ensure no repeated questions and each one addresses a unique aspect. I'll structure each JSON object with "pergunta" and "resposta," making sure they're in Portuguese as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual disciplina é associada a Wolfgang Mommsen?",
+    "resposta": "Imperialism"
+  },
+  {
+    "pergunta": "Qual modelo de página wiki é usado para Imperialism?",
+    "resposta": "Template:Cite encyclopedia"
+  },
+  {
+    "pergunta": "Qual era está ligada à Portuguese Angola?",
+    "resposta": "Imperialism"
+  },
+  {
+    "pergunta": "Qual partido político canadense teve como ideologia o Imperialismo?",
+    "resposta": "Conservative Party of Canada (1867–1942)"
+  },
+  {
+    "pergunta": "Qual livro trata de assunto não ficcional sobre Imperialism?",
+    "resposta": "Settlers: The Mythology of the White Proletariat"
+  },
+  {
+    "pergunta": "Qual categoria do Wikipedia está relacionada a Imperialism?",
+    "resposta": "Category:History of colonialism"
+  },
+  {
+    "pergunta": "Quem atua na área de Imperialism?",
+    "resposta": "Wolfgang Mommsen e Michael Parenti"
+  },
+  {
+    "pergunta": "Qual imagem representativa está associada a Imperialism?",
+    "resposta": "Roubaud. Russian troops entering Tiflis in 1799.jpg"
+  },
+  {
+    "pergunta": "Qual teoria política inclui Imperialism?",
+    "resposta": "Marxian economics"
+  },
+  {
+    "pergunta": "Qual livro trata de assunto não ficcional sobre Imperialism?",
+    "resposta": "Culture and Imperialism"
+  }
+]
+```

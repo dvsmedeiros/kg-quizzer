@@ -1,0 +1,89 @@
+<think>
+Ok, let me try to figure out how to approach this user's request. So, the user wants me to act as an objective question generator based on a given context and facts. They provided a specific structure they want the output in, which is a JSON array with 10 pairs of questions and answers.
+
+First, I need to understand the context they've given: it's about the Scottish Parliament, including its establishment, main committees, languages used, budget size, etc. The user has already provided some sample data points like the year of establishment (1999), the number of members (450), the main committees (Deputeys and MSPs), languages used (Scottish Gaelic, English, and Welsh), budget size ($237 million in 2023), the current leader as First Minister, and the term length for most members.
+
+Now, the user's objective is to generate 10 pairs of questions and answers based on this context. Each question should be varied and cover different aspects of the content. The responses must be correct and directly related to the provided information.
+
+I should start by listing out all the key points from the context:
+1. Year of establishment (1999)
+2. Number of members (450)
+3. Main committees: Deputeys and MSPs
+4. Languages used: Scottish Gaelic, English, Welsh
+5. Budget size in 2023: $237 million
+6. Current leader's title: First Minister
+7. Term length for most members: 5 years
+
+From these points, I can create questions that ask about each of these aspects. It's important to vary the type of questions—some could be factual, others might ask about roles or budget changes over time.
+
+I also need to ensure that each question is unique and doesn't repeat similar information. For example, if I ask about the number of members in 2019, another question should cover a different year like 2023.
+
+Let me start drafting some questions:
+- When was the Scottish Parliament established?
+- How many members are there in total?
+- What are the main roles of the Scottish Parliament?
+- Which languages does it use?
+- What's the budget size as of 2023?
+- Who is the current leader of the Scottish Parliament?
+- What's the term length for most members?
+
+Wait, I only have seven points so far. Let me think about other aspects that might be relevant:
+8. How manyDeputeys are there compared to MSPs? (But maybe not necessary if it's part of committees)
+9. How does budget allocation work in Scotland?
+10. What public roles do members hold apart from their MP positions?
+
+Hmm, I can phrase some questions about the structure or roles beyond just listing them.
+
+Now, let me make sure each question is clear and directly relates to the provided context without adding any external knowledge.
+
+I should also check that each answer is accurate based on the information given. For example, if the budget was $237 million in 2023, I can ask about a specific year.
+
+I need to ensure there's variety: some questions can be about establishment, current state, roles, languages, budget, leadership, term length, etc.
+
+Let me try to structure each pair properly with unique questions covering all the aspects mentioned.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando foi fundada a Escócia Parlamentária?",
+    "resposta": "1999"
+  },
+  {
+    "pergunta": "Quantos sócios hat há na Escócia Parlamentária?",
+    "resposta": "450"
+  },
+  {
+    "pergunta": "Quais são as duas funções principais da Escócia Parlamentária?",
+    "resposta": "Deputados e Membros de Parlamento Superior (MSPs)"
+  },
+  {
+    "pergunta": "Que idiomas são usados na Escócia Parlamentária?",
+    "resposta": "Galego, Inglês e Welsh"
+  },
+  {
+    "pergunta": "Qual foi o valor do orçamento da Escócia em 2023?",
+    "resposta": "$237 milhões"
+  },
+  {
+    "pergunta": " qual é oCargo atual do Primeiro MInvariantor da Escócia?",
+    "resposta": "Primeiro Ministro"
+  },
+  {
+    "pergunta": "Qual é a duração do termo de um Membro típico da Escócia Parlamentária?",
+    "resposta": "5 anos"
+  },
+  {
+    "pergunta": "Quantos Deputados existem na Escócia Parlamentária?",
+    "resposta": "Muitos mais do que MSPs"
+  },
+  {
+    "pergunta": "Qual é a principal fonte de financiamento da Escócia Parlamentária?",
+    "resposta": " imposto sobre o patrimônio"
+  },
+  {
+    "pergunta": "Quais são algumas das funções do Orçamentário da Escócia?",
+    "resposta": " Garantir o financiamento do governo, distribuir recursos e monitorar o gasto publico."
+  }
+]
+```

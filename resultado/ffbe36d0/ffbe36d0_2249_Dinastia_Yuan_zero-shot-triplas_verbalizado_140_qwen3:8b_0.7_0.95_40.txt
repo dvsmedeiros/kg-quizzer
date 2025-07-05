@@ -1,0 +1,64 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts about the Yuan Dynasty. The key points are that each question must be varied and cover different aspects, and the answers must be directly inferable from the given data.
+
+First, I need to parse through all the facts provided. There's a lot of information here, so I should categorize the facts into different themes. For example, some facts mention dates like the start in 1271 and end in 1368. Others talk about the capital cities like Shangdu and Khanbaliq. There are also mentions of events like battles, rebellions, and the religions practiced. Additionally, there are references to key figures like Kublai Khan and the use of certain templates in Wikipedia.
+
+I need to make sure that each question is unique and covers different aspects. Let me start by listing all the possible aspects: establishment date, capital cities, key events (battles, rebellions), notable figures, religions, associated templates, related dynasties or events, and other specific facts like the use of certain images or the calendar system.
+
+Now, I'll need to form questions that are clear and directly related to these aspects. For example, a question about the establishment year would be straightforward. Another could be about the capital. I should avoid repeating similar questions, so if I ask about the start date, I won't ask about the end date in the same way. Also, checking for unique facts like the specific temples established or the use of certain templates is important.
+
+Wait, the user mentioned that the answers must be explicitly or inferably from the content. So for each question, I need to ensure that the answer is present in the facts. For instance, the fact that the Yuan Dynasty is do tipo PopulatedPlace can be a question about its classification. Similarly, the mention of specific battles like the Battle of Yamen can be a question about which event it's related to.
+
+I should also be careful not to repeat the same type of questions. For example, if I ask about the capitals, I might have two different facts about capitals (Shangdu and Khanbaliq) so I can create two different questions. Another point is the religions practiced; the fact mentions several, so a question about the religions followed by the Yuan Dynasty would be appropriate.
+
+I need to make sure each of the 10 pairs is distinct. Let me go through the list again and pick 10 different aspects. Maybe start with the establishment date, capitals, key events (battles, rebellions), notable figures, religions, templates used, related dynasties, specific images, classifications, and the end date. That should cover a variety of aspects without repetition.
+
+Once I have the questions, I need to verify that the answers are directly from the provided facts. For example, the answer to "Qual foi o ano de fundação da Dinastia Yuan?" would be 1271, which is explicitly stated. Similarly, the capital Shangdu and Khanbaliq are mentioned, so those can be questions about the capitals.
+
+I should also check for any other unique facts, like the use of the "Cash (Chinese coin)" as currency, or the specific temples established. Each of these can be a question. Also, the fact that the Yuan Dynasty is do tipo PopulatedPlace and Country108544813 can be used for classification questions.
+
+Finally, ensuring that the JSON structure is correct and that each pair is properly formatted without any extra text or explanations. Let me compile the 10 pairs now, making sure they are varied and each answer is directly from the provided data.
+</think>
+
+[
+  {
+    "pergunta": "Qual foi o ano de fundação da Dinastia Yuan?",
+    "resposta": "1271"
+  },
+  {
+    "pergunta": "Qual foi a capital da Dinastia Yuan?",
+    "resposta": "Shangdu"
+  },
+  {
+    "pergunta": "Qual foi a moeda utilizada pela Dinastia Yuan?",
+    "resposta": "Cash (Chinese coin)"
+  },
+  {
+    "pergunta": "Quais foram os combatentes da Batalha de Yamen?",
+    "resposta": "Yuan dynasty"
+  },
+  {
+    "pergunta": "Quem foi o líder da Dinastia Yuan?",
+    "resposta": "Khubilai Khan"
+  },
+  {
+    "pergunta": "Qual era a religião praticada pela Dinastia Yuan?",
+    "resposta": "Budismo, Mongolian Tengrism/Chinese Heaven worship, Shamanism, Taoism, Confucianism, Chinese folk religion, Chinese Nestorian Christianity, Roman Catholic Christianity, Judaism, Chinese Manichaeism, Islam"
+  },
+  {
+    "pergunta": "Qual foi o ano de dissolução da Dinastia Yuan?",
+    "resposta": "1368-09-14"
+  },
+  {
+    "pergunta": "Quais foram as cidades que compunham a Dinastia Yuan?",
+    "resposta": "Khanbaliq"
+  },
+  {
+    "pergunta": "Qual foi o nome da Dinastia Yuan em chinês?",
+    "resposta": "元朝"
+  },
+  {
+    "pergunta": "Quais foram os eventos associados à Dinastia Yuan?",
+    "resposta": "Mongol conquest of the Song dynasty, Red Turban Rebellions, Battle of Lake Poyang"
+  }
+]

@@ -1,0 +1,88 @@
+<think>
+Alright, I need to generate 10 multiple-choice question pairs based on the provided context about the immune system. Let me start by understanding what's given.
+
+The user has specified that the questions should be in Portuguese and must strictly adhere to the content without adding any extra information. Each pair consists of a question and its correct answer, covering various aspects of the immune system.
+
+First, I'll go through each section of the context provided:
+
+1. **Visão Geral do Sistema Imunitário**: This explains what it is, defense mechanisms (internal and external barriers), types of immunity (innate and adaptive). It also mentions antigens, antibodies, B cells, T cells, vaccines, immune disorders, and treatments.
+
+2. **Células e Componentes Principais do Sistema Imunitário**: Details phagocytes, natural killer cells, dendritic cells, B lymphocytes (with memory cells), T lymphocytes (helper, cytotoxic, suppressor), antibodies types, complement system, cytokines, chemokines.
+
+3. **Processos e Respostas do Sistema Imunitário**: Explains non-specific and specific responses, inflammation, immune complexes, hypersensitivities (types I to IV), autoimmune diseases, immunodeficiencies.
+
+I'll need to create varied questions touching on each of these areas without repeating similar ones. Let me brainstorm possible questions:
+
+1. **What is the immune system's primary function?** - Direct from the overview.
+2. **Name two physical barriers in the immune system.** - From defense mechanisms.
+3. **Types of immunity: innate vs adaptive.** - Overview section.
+4. **Function of B cells.** - Cells and components.
+5. **Role of T helper cells.** - Same section.
+6. **What do antibodies neutralize?** - Types of antibodies.
+7. **Signs of a compromised immune system.** - Conditions like allergies or autoimmune diseases.
+8. **What triggers the complement system?** - Components part.
+9. **Difference between active and passive immunity.** - Vaccines vs maternal antibodies.
+10. **Name two cytokines.** - From cells and components.
+
+Now, I'll structure these into questions and ensure each has a correct answer from the context. Making sure the answers are explicit or inferable without extra info.
+
+I should also check that all answers are in Portuguese as per instructions. Let me write them out:
+
+1. Função principal: Defesa contra patógenos.
+2. Barreiras físicas: Pele, muco.
+3. Imunidade: Innata e adaptiva.
+4. B linfócitos:Produzem anticorpos.
+5. Células T auxiliares: ajudam outros cells.
+6. Anticorpos neutralizam: vírus, bactérias.
+7. Sinais de sistema fraco: doenças infecciosas frequentes.
+8. Complemento ativa: fagócitos, lyses cells.
+9. Ativa vs passiva: vacinas vs imunoglobulinas maternas.
+10. Citocinas: Interferon, interleucina.
+
+I think that covers all required areas without overlap. Each question addresses a different aspect, and the answers are directly supported by the context provided.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a função principal do sistema imunitário?",
+    "resposta": "Defesa contra patógenos"
+  },
+  {
+    "pergunta": "Quais são duas barreiras físicas no sistema imunitário?",
+    "resposta": "Pele e muco"
+  },
+  {
+    "pergunta": "Quantos tipos de imunidade existem?",
+    "resposta": "Duas (innata e adaptiva)"
+  },
+  {
+    "pergunta": "O que fazem os B linfócitos?",
+    "resposta": "Produzem anticorpos"
+  },
+  {
+    "pergunta": "Qual é a função dos T helper cells?",
+    "resposta": "Ajudam outros tipos de células imunitárias"
+  },
+  {
+    "pergunta": "O que os anticorpos neutralizam?",
+    "resposta": "Vírus e bactérias"
+  },
+  {
+    "pergunta": "Quais são sinais de um sistema imunitário comprometido?",
+    "resposta": "Doenças infecciosas frequentes"
+  },
+  {
+    "pergunta": "O que ativa o sistema complemento?",
+    "resposta": "Antígenos e produtos inflamatórios"
+  },
+  {
+    "pergunta": "Qual é a diferença entre imunidade ativa e passiva?",
+    "resposta": "Ativa: exposição a antígenos; Passiva: transferência de anticorpos prontos"
+  },
+  {
+    "pergunta": "Quais são exemplos de citocinas?",
+    "resposta": "Interferon e interleucina"
+  }
+]
+```

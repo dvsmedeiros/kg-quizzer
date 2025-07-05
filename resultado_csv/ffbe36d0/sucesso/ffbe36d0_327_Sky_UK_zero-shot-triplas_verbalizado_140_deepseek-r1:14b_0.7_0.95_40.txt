@@ -1,0 +1,62 @@
+<think>
+Okay, so I need to create 10 pairs of questions and answers based on the given context about British Satellite Broadcasting (BSB). The user has already provided a JSON structure with these pairs, but now they want me to simulate someone thinking through how to approach this task.
+
+First, I'll look at the context. BSB was a UK-based TV company that started broadcasting in March 1990 and merged with Sky Television in November 1990 to form BSkyB. The facts provided include details about their location, founding date, acquisition, and some of the channels they owned.
+
+I need to make sure each question is unique and covers different aspects. I'll start by identifying key points from the context: incorporation year, merger, founding date, headquarters, owned channels, image names, etc.
+
+For example, a good first question could be about when BSB was incorporated, which is November 1990. Another question might ask where they were located, like London or England. I should also include questions about the channels they owned and when they started broadcasting.
+
+I should check that each answer is directly supported by the facts provided. For instance, knowing that The Movie Channel and Now channel are BSB's properties comes from the facts section.
+
+It's important to vary the questions so that some ask for dates, others for locations or types of channels. I'll also include questions about their merger with Sky Television and when they stopped broadcasting.
+
+I need to make sure there's no repetition in the questions, so each one should target a different aspect. Also, all answers must be accurate based on the provided information, without adding any external knowledge.
+
+Finally, I'll structure each pair correctly, ensuring only "pergunta" and "resposta" are present in each JSON object, with proper Portuguese grammar.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em qual ano a British Satellite Broadcasting (BSB) foi incorporada?",
+    "resposta": "1990"
+  },
+  {
+    "pergunta": "Onde estava localizada a sede da BSB?",
+    "resposta": "Londres"
+  },
+  {
+    "pergunta": "Quando a BSB começou a transmitir?",
+    "resposta": "25 de março de 1990"
+  },
+  {
+    "pergunta": "Qual empresa resultou da fusão da BSB em 1990?",
+    "resposta": "British Sky Broadcasting (BSkyB)"
+  },
+  {
+    "pergunta": "Quais canais de TV pertenciam à BSB?",
+    "resposta": "The Movie Channel, The Power Station e Now"
+  },
+  {
+    "pergunta": "Qual foi o destino da BSB após a fusão com Sky Television?",
+    "resposta": "Formou BSkyB"
+  },
+  {
+    "pergunta": "Em qual ano a BSB foi fundada?",
+    "resposta": "1986"
+  },
+  {
+    "pergunta": "Qual é o nome completo da empresa mãe que absorveu a BSB em 1990?",
+    "resposta": "Sky Television plc"
+  },
+  {
+    "pergunta": "Qual foi a data de fusão que resultou na formação da BSkyB?",
+    "resposta": "Novembro de 1990"
+  },
+  {
+    "pergunta": "Onde a BSB estava sediada após sua fusão?",
+    "resposta": "Reino Unido"
+  }
+]
+```

@@ -1,0 +1,106 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs based on the context of Varsóvia, which is Warsaw. The instructions say to make sure the questions are varied and cover different aspects, each with a single correct answer that's either explicit or inferable. No repetition of similar questions, and only the JSON output without any extra text.
+
+First, I need to think about different aspects of Warsaw. Let me recall some key points. Warsaw is the capital of Poland. It was heavily damaged during World War II, especially in 1944. The city was rebuilt after the war, and there are notable landmarks like the Royal Palace, the Old Town, and the Warsaw Uprising Museum. Also, the city has a rich cultural scene, with places like the National Museum and the Chopin Airport. The Vistula River flows through the city. The population is around 1.7 million. The city is known for its architecture, both pre-war and post-war reconstructions. The Warsaw Uprising was a significant event in 1944. The city has a vibrant music scene, and the Warsaw Uprising Museum is a major historical site. There's also the Palace of Culture and Science, a Stalinist architecture building. The city is divided into districts like Śródmieście and Wola. The metro system is part of the city's infrastructure. The Warsaw Pact was named after the city, but that's more of a historical fact. Wait, the Warsaw Pact was formed in 1955, so that's a fact. Also, the city has a reputation for its resilience and the rebuilding efforts after the war. 
+
+Now, I need to create 10 unique questions. Let me list possible topics:
+
+1. Capital of Poland
+2. Population
+3. Historical event: Warsaw Uprising
+4. Post-war reconstruction
+5. Landmarks: Royal Palace
+6. Architectural style of Palace of Culture and Science
+7. River through the city
+8. Metro system
+9. Districts: Śródmieście
+10. Cultural scene: Chopin Airport
+
+Wait, the Chopin Airport is actually in the city. Also, the Warsaw Uprising Museum is a key site. Let me check if all these points are accurate. 
+
+For the first question, the capital of Poland is Warsaw. That's straightforward. 
+
+Second, the population is around 1.7 million. 
+
+Third, the Warsaw Uprising was in 1944. 
+
+Fourth, the city was rebuilt after WWII. 
+
+Fifth, the Royal Palace is a major landmark. 
+
+Sixth, the Palace of Culture and Science is Stalinist architecture. 
+
+Seventh, the Vistula River flows through. 
+
+Eighth, the metro system is part of the infrastructure. 
+
+Ninth, Śródmieście is a district. 
+
+Tenth, the Warsaw Uprising Museum is a historical site. 
+
+I need to ensure each question is unique and covers different aspects. Let me verify the facts again. 
+
+Population of Warsaw is indeed about 1.7 million. The Royal Palace was rebuilt after the war. The Palace of Culture and Science is a Stalinist building. The Vist, the river. The metro system is in place. Districts like Śródmieście. The Uprising Museum. The Warsaw Pact's name. Wait, the Warsaw Pact was named after the city. That's a possible question. So maybe replace the tenth question with that. Let me adjust. 
+
+So the 10 questions would be:
+
+1. Capital of Poland
+2. Population
+3. Warsaw Uprising year
+4. Post-war rebuilding
+5. Royal Palace
+6. Palace of Culture and Science architecture
+7. River through the city
+8. Metro system
+9. District: Śródmieście
+10. Warsaw Pact name origin
+
+That covers different aspects. Now, I need to phrase each question clearly and ensure the answers are correct based on the context provided. The user didn't provide specific details beyond the general info, so I have to rely on common knowledge. 
+
+Wait, the user's context is only "Varsóvia" (Warsaw), so maybe the user expects the questions to be based on general knowledge of Warsaw. Since the user hasn't provided specific facts beyond the city name, I need to make sure that the answers are standard facts. For example, the Royal Palace is a major landmark, the Vistula River flows through, etc. 
+
+I think this should work. Now, structure each pair in JSON without any extra text, just the 10 pairs.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a capital da Polônia?",
+    "resposta": "Varsóvia"
+  },
+  {
+    "pergunta": "Qual é a população estimada de Varsóvia?",
+    "resposta": "Aproximadamente 1,7 milhão de habitantes"
+  },
+  {
+    "pergunta": "Em que ano ocorreu a Revolta de Varsóvia?",
+    "resposta": "1944"
+  },
+  {
+    "pergunta": "Qual evento marcou a reconstrução de Varsóvia após a Segunda Guerra Mundial?",
+    "resposta": "A reconstrução da cidade após os bombardeios nazistas"
+  },
+  {
+    "pergunta": "Qual é um dos principais monumentos históricos de Varsóvia?",
+    "resposta": "O Palácio Real"
+  },
+  {
+    "pergunta": "Qual estilo arquitetônico caracteriza o Palácio de Cultura e Ciências em Varsóvia?",
+    "resposta": "Arquitetura estalinista"
+  },
+  {
+    "pergunta": "Qual rio passa por Varsóvia?",
+    "resposta": "Vistula"
+  },
+  {
+    "pergunta": "Qual sistema de transporte subterrâneo é encontrado em Varsóvia?",
+    "resposta": "Metrô"
+  },
+  {
+    "pergunta": "Qual distrito de Varsóvia é considerado o centro da cidade?",
+    "resposta": "Śródmieście"
+  },
+  {
+    "pergunta": "Qual evento internacional foi nomeado em homenagem a Varsóvia?",
+    "resposta": "Pacto de Varsóvia"
+  }
+]

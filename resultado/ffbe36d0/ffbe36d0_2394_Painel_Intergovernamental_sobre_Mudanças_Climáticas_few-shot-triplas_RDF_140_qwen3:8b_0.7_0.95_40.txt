@@ -1,0 +1,167 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts about the IPCC. First, I need to make sure I understand the requirements. The questions must be varied, cover different aspects, and each have a single correct answer that's either explicit or inferable from the content. No repetition of similar questions, and the output should be in JSON format with exactly 10 pairs.
+
+Looking at the context, the IPCC was established in 1988 by the UN, specifically by the PNUMA and WMO. Its main role is to synthesize scientific knowledge on climate change, not conduct original research. It has produced five major reports and some other documents, with the first in 1990 and the last in 2014. The IPCC was awarded the Nobel Peace Prize in 2007. The facts include some individuals associated with the IPCC, like Bert Bolin, Rajendra Pachauri, and Hoesung Lee, along with their roles and some details about the organization's structure and recognition.
+
+Now, I need to create questions that cover different aspects. Let's start with the establishment: who created it? Then, its main purpose. Next, the years of the first and last reports. The Nobel Prize year. The headquarters location. The parent organizations. The type of work they do (synthesizing vs. original research). The number of major reports. The name of the first chair. And maybe the year of the Nobel Prize.
+
+Wait, the example given includes questions about the parent organizations, the first chair, the Nobel Prize year, etc. I need to ensure that the questions are not repeated. Let me check the example again. The examples have questions about the organizations that established it, the parent organizations, the first chair, the Nobel Prize, etc. So I should avoid overlapping with those.
+
+Let me list possible questions:
+
+1. When was the IPCC established?
+2. What is the main objective of the IPCC?
+3. How many major reports has the IPCC produced?
+4. Which organizations established the IPCC?
+5. What is the headquarters of the IPCC?
+6. What award did the IPCC receive in 2007?
+7. What does the IPCC not do?
+8. Who was the first chair of the IPCC?
+9. Which year was the last major report published?
+10. What is the abbreviation for the IPCC?
+
+Wait, the context says the first report was in 1990 and the last in 2014. So the first question could be about the establishment year (1988). The main objective is to synthesize and disseminate knowledge. Number of major reports: five. Parent organizations: PNUMA and WMO. Headquarters in Geneva. Nobel Prize in 2007. They don't conduct original research. First chair was Bert Bolin. Last report in 2014. The abbreviation is IPCC. 
+
+But the example already includes some of these. Let me check the example again. The examples include questions about the organizations that established it (PNUMA and WMO), the first chair (Bert Bolin), the Nobel Prize (2007), etc. So I need to avoid repeating those. Let me think of other angles.
+
+What about the role of the IPCC? It's to synthesize knowledge, not original research. The parent organizations are the UN Environment Programme and WMO. The headquarters is Geneva. The abbreviation is IPCC. The number of major reports is five. The first report was in 1990. The last was in 2014. The Nobel Prize in 2007. The organization's type is a Panel. The main objective is to provide scientific assessments. Also, the leader is Hoesung Lee, but that's covered in the examples. Maybe the type of organization (Panel) or the fact that it's a working group? Wait, the facts mention the type as "Panel".
+
+So possible questions:
+
+1. What is the main objective of the IPCC? (Answer: synthesize and disseminate knowledge on climate change)
+2. How many major reports has the IPCC produced? (Answer: five)
+3. What is the headquarters of the IPCC? (Answer: Geneva)
+4. What award did the IPCC receive in 2007? (Answer: Nobel Peace Prize)
+5. What does the IPCC not conduct? (Answer: original research)
+6. Which year was the first major report published? (Answer: 1990)
+7. Which year was the last major report published? (Answer: 2014)
+8. What is the abbreviation for the IPCC? (Answer: IPCC)
+9. What is the type of organization the IPCC is? (Answer: Panel)
+10. What is the name of the organization in English? (Answer: Intergovernmental Panel on Climate Change)
+
+But some of these might be redundant. Let me check if the examples have these. The examples include the parent organizations, first chair, Nobel Prize, etc. So I need to ensure that the questions are not overlapping with those. For instance, the examples have the question "Quais organizações da ONU estabeleceram o IPCC?" which is about the parent organizations. So the user's example includes that, so I need to avoid that. Instead, I can focus on other aspects.
+
+Another angle: the fact that the IPCC is a body of the UN, but the example already has a question about the parent organizations. Maybe the question about the type of organization (Panel) as per the facts. Also, the fact that it's a working group? Wait, the facts mention the type as "Panel", so the answer would be "Panel".
+
+Also, the fact that the leader's name is Hoesung Lee, but that's covered in the example. Maybe the question about the leader's title (Chair) as per the facts. The example has "Quem é o presidente do IPCC?" which is covered.
+
+So, compiling the 10 questions:
+
+1. What is the main purpose of the IPCC?
+2. How many major reports has the IPCC published?
+3. What is the headquarters location of the IPCC?
+4. Which award did the IPCC receive in 2007?
+5. What is the type of organization the IPCC is?
+6. In which year was the first major report published?
+7. What is the abbreviation for the IPCC?
+8. What does the IPCC not conduct?
+9. Which year was the last major report published?
+10. What is the name of the organization in English?
+
+But need to check if these are all covered in the context. Let me verify:
+
+- Main purpose: "synthesize and disseminate knowledge on climate change"
+- Number of reports: five
+- Headquarters: Geneva
+- Award: Nobel Peace Prize
+- Type: Panel
+- First report year: 1990
+- Abbreviation: IPCC
+- What they don't do: original research
+- Last report year: 2014
+- English name: Intergovernmental Panel on Climate Change
+
+Yes, all these are covered. Now, translating these into Portuguese as per the examples, but the user's examples are in Portuguese. Wait, the user's examples are in Portuguese, but the instructions are in English. Wait, the user provided examples in Portuguese, but the final output should be in Portuguese. Wait, the user's instruction says to generate the pairs in Portuguese. Let me check the initial problem statement again.
+
+Looking back: The user's examples are in Portuguese, and the final output should be in Portuguese. So the questions and answers need to be in Portuguese. Let me make sure that the questions are in Portuguese, as per the examples.
+
+So, translating the questions:
+
+1. Qual é o principal objetivo do IPCC?
+2. Quantos relatórios principais o IPCC publicou?
+3. Onde fica a sede do IPCC?
+4. Qual prêmio o IPCC recebeu em 2007?
+5. Qual é o tipo de organização do IPCC?
+6. Em que ano foi publicado o primeiro relatório principal?
+7. Qual é a sigla do IPCC?
+8. O que o IPCC não realiza?
+9. Em que ano foi publicado o último relatório principal?
+10. Qual é o nome da organização em inglês?
+
+Now, check the answers:
+
+1. "Synthesize and disseminate knowledge on climate change" → "Sintetizar e disseminar conhecimento sobre mudanças climáticas"
+2. "five" → "cinco"
+3. "Geneva" → "Geneva"
+4. "Nobel Peace Prize" → "Prêmio Nobel da Paz"
+5. "Panel" → "Painel"
+6. "1990" → "1990"
+7. "IPCC" → "IPCC"
+8. "original research" → "pesquisa original"
+9. "2014" → "2014"
+10. "Intergovernmental Panel on Climate Change" → "Painel Intergovernamental sobre Mudança Climática"
+
+But need to ensure that the answers are in Portuguese, matching the examples. For example, in the examples, the answer for "Quais organizações da ONU estabeleceram o IPCC?" is "a Organização Meteorológica Mundial (OMM) e o Programa das Nações Unidas para o Meio Ambiente (PNUMA),", so the answers should be in Portuguese.
+
+So, the answers should be in Portuguese. Let me adjust:
+
+1. "Sintetizar e disseminar conhecimento sobre mudanças climáticas"
+2. "cinco"
+3. "Geneva"
+4. "Prêmio Nobel da Paz"
+5. "Painel"
+6. "1990"
+7. "IPCC"
+8. "pesquisa original"
+9. "2014"
+10. "Painel Intergovernamental sobre Mudança Climática"
+
+Now, check for repetition with the examples. The examples include questions about the parent organizations, first chair, etc. So the current questions are different from those. The example's first question is about the organization the IPCC is part of, which is the UN. The examples also include the first chair (Bert Bolin) and the Nobel Prize year (2007). So the current questions are new and not overlapping with the examples.
+
+Now, need to make sure that all 10 questions are covered and the answers are correct based on the context. Also, check for any possible errors. For example, the last report year is 2014 as per the facts. The first report in 1990. The number of reports is five. The type is Panel. The headquarters is Geneva. The Nobel Prize in 2007. The IPCC does not conduct original research. The abbreviation is IPCC. The English name is the full name.
+
+Yes, that seems correct. Now, the final step is to format the JSON with these 10 pairs, ensuring proper syntax and that the answers are correctly in Portuguese.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o principal objetivo do IPCC?",
+    "resposta": "Sintetizar e disseminar conhecimento sobre mudanças climáticas"
+  },
+  {
+    "pergunta": "Quantos relatórios principais o IPCC publicou?",
+    "resposta": "cinco"
+  },
+  {
+    "pergunta": "Onde fica a sede do IPCC?",
+    "resposta": "Geneva"
+  },
+  {
+    "pergunta": "Qual prêmio o IPCC recebeu em 2007?",
+    "resposta": "Prêmio Nobel da Paz"
+  },
+  {
+    "pergunta": "Qual é o tipo de organização do IPCC?",
+    "resposta": "Painel"
+  },
+  {
+    "pergunta": "Em que ano foi publicado o primeiro relatório principal?",
+    "resposta": "1990"
+  },
+  {
+    "pergunta": "Qual é a sigla do IPCC?",
+    "resposta": "IPCC"
+  },
+  {
+    "pergunta": "O que o IPCC não realiza?",
+    "resposta": "pesquisa original"
+  },
+  {
+    "pergunta": "Em que ano foi publicado o último relatório principal?",
+    "resposta": "2014"
+  },
+  {
+    "pergunta": "Qual é o nome da organização em inglês?",
+    "resposta": "Painel Intergovernamental sobre Mudança Climática"
+  }
+]

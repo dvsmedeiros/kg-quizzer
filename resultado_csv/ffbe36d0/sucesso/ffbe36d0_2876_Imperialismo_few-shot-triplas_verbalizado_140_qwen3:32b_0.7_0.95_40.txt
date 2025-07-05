@@ -1,0 +1,73 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. First, I need to understand the context and the facts given.
+
+The context is about the definition of an empire, its Latin origin, and characteristics like being governed by an emperor, having a central metropolis, and peripheral territories. The facts list various entries related to imperialism, including associated models, categories, images, political parties, and events.
+
+I need to make sure each question is relevant to the content and has a clear correct answer from the given data. Let me start by identifying key points from the context and facts. 
+
+From the context, the term "Império" comes from Latin "imperium," which means power or authority. The structure of an empire includes a central authority and subordinated peripheries. The Roman Empire is mentioned as an example with "Imperium Romanum."
+
+Looking at the facts, there are mentions of various models used in the Imperialism Wikipedia page, like Template:Cite encyclopedia, categories like History of colonialism, and specific events like Herero and Namaqua genocide linked to imperialism motivations. There are also political parties (e.g., Conservative Party of Canada) with ideologies tied to imperialism.
+
+I need to create varied questions. Let's brainstorm:
+
+1. Origin of the term "Império" – answer should be Latin. The context says "do latim imperium."
+2. What is the central part of an empire called? The context mentions "metrópole" as the center.
+3. Which empire is mentioned in the context? The Roman Empire is referenced as Imperium Romanum.
+4. What is the primary characteristic of an empire? The context states it's a political unit with diverse nations under a sovereign.
+5. Which political party is associated with imperialism? The Conservative Party of Canada (1867–1942) is listed.
+6. What category is linked to imperialism? The facts mention "Category:History of colonialism."
+7. What event is motivated by imperialism? The Herero and Namaqua genocide is listed.
+8. What model is used in the Imperialism page? Template:Cite encyclopedia is one.
+9. Which author is associated with imperialism studies? Wolfgang Mommsen is mentioned.
+10. What is the primary image of the Imperialism page? The images listed include "Roubaud. Russian troops entering Tiflis in 1799.jpg."
+
+Wait, need to check if the answers are explicit or inferable. For example, the Conservative Party is listed as having imperialism as ideology. The Herero genocide is listed under motivation. The model Template:Cite encyclopedia is used. The author Wolfgang Mommsen works in Imperialism. The main image is the Russian troops image.
+
+I need to make sure each question is unique and covers different aspects. Let me list the questions and answers based on these points. Avoid repetition. Check that each answer is directly from the provided data. Ensure the JSON structure is correct, with no extra text. Also, use proper Portuguese and make sure the answers are concise.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a origem linguística do termo 'Império'?",
+    "resposta": "latim"
+  },
+  {
+    "pergunta": "Qual é o nome da expressão latina que se refere ao território governado pela Roma antiga?",
+    "resposta": "Imperium Romanum"
+  },
+  {
+    "pergunta": "Qual é o termo que descreve a parte central de um império, exercendo controle sobre as periferias?",
+    "resposta": "metrópole"
+  },
+  {
+    "pergunta": "Qual partido político possui a ideologia 'Imperialism' segundo os dados fornecidos?",
+    "resposta": "Conservative Party of Canada (1867–1942)"
+  },
+  {
+    "pergunta": "Qual evento histórico é listado como motivado pelo imperialismo?",
+    "resposta": "Herero and Namaqua genocide"
+  },
+  {
+    "pergunta": "Qual modelo de página wiki é utilizado na estrutura do conceito 'Imperialism'?",
+    "resposta": "Template:Cite encyclopedia"
+  },
+  {
+    "pergunta": "Qual autor está associado à disciplina de 'Imperialism' segundo os dados?",
+    "resposta": "Wolfgang Mommsen"
+  },
+  {
+    "pergunta": "Qual é a categoria principal associada ao termo 'Imperialism'?",
+    "resposta": "Category:Imperialism"
+  },
+  {
+    "pergunta": "Qual é a imagem representativa mais mencionada no contexto do 'Imperialism'?",
+    "resposta": "Roubaud. Russian troops entering Tiflis in 1799.jpg"
+  },
+  {
+    "pergunta": "Qual teoria política está diretamente relacionada ao conceito de 'Imperialism'?",
+    "resposta": "Imperialism"
+  }
+]
+```

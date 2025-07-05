@@ -1,0 +1,54 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers based on the provided context about "Comutação_de_pacotes." First, I should understand what Comutação_de_pacotes means. It seems like it's about packet switching or data packet communication.
+
+I'll start by identifying key aspects from the context: types of networks (local, wide), protocol layers (OSI vs TCP/IP), common applications like FTP and HTTP, the function of switches in networking, MAC addresses, and potential issues like latency and congestion.
+
+Next, I'll create questions that cover these points. Each question should be specific and directly related to the context, ensuring only one correct answer per pair. I need to vary the questions across different aspects—some about protocols, others about hardware or applications.
+
+I also have to make sure each answer is accurate based on the provided context without adding any extra information. Let me structure them in JSON format as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o principal objetivo da Comutação_de_pacotes?",
+    "resposta": "A transmissão eficiente de dados em rede."
+  },
+  {
+    "pergunta": "Em que camadas do modelo OSI a Comutação_de_pacotes ocorre?",
+    "resposta": "Na camada de Link e na camada de Redes."
+  },
+  {
+    "pergunta": "Qual é a diferença entre uma rede Local (LAN) e uma Rede Global (WAN)?",
+    "resposta": "Redes LAN são mais pequenas e operam em espaços fechados, enquanto redes WAN são maiores e conectam redes globais."
+  },
+  {
+    "pergunta": "Qual é o exemplo de um protocolo usado na Comutação_de_pacotes?",
+    "resposta": "O protocolo TCP (Transmission Control Protocol)."
+  },
+  {
+    "pergunta": "Qual é a função do MAC address em uma conexão de rede?",
+    "resposta": "Identificar o dispositivo no tráfego de dados."
+  },
+  {
+    "pergunta": "Quais são as principais causas de latência na Comutação_de_pacotes?",
+    "resposta": "A velocidade da conexão, a distância física e os congestionamentos."
+  },
+  {
+    "pergunta": "Qual é o exemplo de aplicação que usa Comutação_de_pacotes?",
+    "resposta": "O protocolo FTP para transferência de arquivos."
+  },
+  {
+    "pergunta": "Como se denomina a tecnologia usedura na Comutação_de_pacotes?",
+    "resposta": "Switching de dados ou roteamento de pacotes."
+  },
+  {
+    "pergunta": "Qual é o principal desvantagem da Comutação_de_pacotes em comparação com a transmissão de dados em paralelo?",
+    "resposta": "A fragmentação dos dados pode levar à perda de informações ou reconexão."
+  },
+  {
+    "pergunta": "Qual é o principal objetivo do modelo TCP/IP na Comutação_de_pacotes?",
+    "resposta": "Providenciar uma maneira uniforme para a comunicação de dados em redes."
+  }
+]
+```

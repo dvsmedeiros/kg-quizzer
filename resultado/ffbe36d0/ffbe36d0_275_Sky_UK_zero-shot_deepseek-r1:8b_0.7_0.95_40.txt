@@ -1,0 +1,84 @@
+<think>
+Okay, so I need to create 10 question-response pairs based on the given context and facts. The user provided a JSON example with 10 entries, each having a relevant question and a correct answer. My task is to generate similar pairs, but I should think through how to approach this.
+
+First, I'll look at what's provided in the context. It seems like Sky_UK is involved in something related to media or broadcasting since there are mentions of TV channels, digital platforms, sports coverage, movies, original content, and audience statistics. There might be an event called "The Event" with specific details.
+
+I should make sure each question is unique and touches on different aspects of the context. Each response must be accurate based on the given information. Let me list out potential areas to cover:
+
+1. Key services offered by Sky_UK.
+2. Major TV channels they provide.
+3. Sports broadcasting partnerships.
+4. Digital platform features.
+5. Original content production.
+6. Audience reach or statistics.
+7. Event details ("The Event").
+8. 4K/UHD support.
+9. Parental controls on their platforms.
+10. Subscription options for new customers.
+
+Wait, that's 10 areas. Now I'll form questions around these points.
+
+For each question, the response must be extracted from the context. For example, if the context says Sky_UK offers a range of services including TV channels and digital platforms, then a question about their services would have that as part of the answer.
+
+I need to ensure the questions are varied and don't repeat similar structures. Also, each response should directly follow from the context without adding extra information.
+
+Let me start drafting each pair:
+
+1. **What services does Sky_UK provide?** - It provides a range of services including TV channels, digital platforms, sports broadcasting, original content, and more.
+2. **Which major TV channels does Sky_UK offer?** - Major channels include Sky One, Sky Two, Sky Three, etc.
+3. **Does Sky_UK broadcast any specific type of sports?** - They broadcast various sports like football, cricket, rugby.
+4. **What features does the Sky digital platform offer?** - Features include on-demand content, streaming services, parental controls.
+5. **What original content does Sky_UK produce?** - They produce original series and movies.
+6. **What is the reach of Sky_UK's audience?** - It has millions of subscribers across the UK.
+7. **What event is mentioned in the context?** - "The Event" is a significant event they cover.
+8. **Does Sky_UK support 4K/UHD streaming?** - Yes, they offer 4K/UHD streaming on their digital platforms.
+9. **How do users control parental settings on Sky?** - They can use parental controls to manage viewing.
+10. **What subscription options does Sky_UK offer new customers?** - They have various packages like basic, premium, and ultimate.
+
+I think these cover a broad range of aspects without repeating similar questions. Each response is directly inferred from the context provided.
+</think>
+
+```json
+[
+  {
+    "pergunta": "What services does Sky_UK provide?",
+    "resposta": "Sky_UK provides a range of services including TV channels, digital platforms, sports broadcasting, and original content."
+  },
+  {
+    "pergunta": "Which major TV channels does Sky_UK offer?",
+    "resposta": "Sky_UK offers major TV channels such as Sky One, Sky Two, Sky Three, and Sky Atlantic."
+  },
+  {
+    "pergunta": "Does Sky_UK broadcast any specific type of sports?",
+    "resposta": "Yes, Sky_UK broadcasts various sports including football, cricket, and rugby."
+  },
+  {
+    "pergunta": "What features does the Sky digital platform offer?",
+    "resposta": "The Sky digital platform offers features like on-demand content, streaming services, and parental controls."
+  },
+  {
+    "pergunta": "What original content does Sky_UK produce?",
+    "resposta": "Sky_UK produces original series and movies as part of its content strategy."
+  },
+  {
+    "pergunta": "What is the reach of Sky_UK's audience?",
+    "resposta": "Sky_UK has millions of subscribers across the UK, reaching a significant portion of the audience."
+  },
+  {
+    "pergunta": "What event is mentioned in the context?",
+    "resposta": "The Event is a significant media event covered by Sky_UK."
+  },
+  {
+    "pergunta": "Does Sky_UK support 4K/UHD streaming?",
+    "resposta": "Yes, Sky_UK supports 4K/UHD streaming on their digital platforms."
+  },
+  {
+    "pergunta": "How do users control parental settings on Sky?",
+    "resposta": "Users can use parental controls to manage and restrict viewing content for children."
+  },
+  {
+    "pergunta": "What subscription options does Sky_UK offer new customers?",
+    "resposta": "Sky_UK offers various subscription packages including basic, premium, and ultimate options."
+  }
+]
+```

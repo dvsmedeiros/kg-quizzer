@@ -1,0 +1,73 @@
+<think>
+Okay, so I need to generate 10 pairs of questions and correct answers based on the provided context about Normans. The user has given me a JSON example with 10 entries, each having a question and an answer. My task is to create similar pairs but in Portuguese.
+
+First, I'll review the context and facts related to Normands. They were a Germanic people from Northern France, their aristocracy often descended from Viking ancestors. They played significant roles politically, militarily, and culturally during the medieval period, including the Norman Conquest of England and settlements in Sicily and Southern Europe.
+
+I should make sure each question is relevant to this context and that each answer is accurate and directly related. The questions need to be varied and cover different aspects, avoiding repetition of similar ones. I'll also ensure that the JSON format is correct, with each entry having "pergunta" and "resposta" keys.
+
+Let me think about possible questions:
+
+1. Where was Normandy located?
+2. What were the origins of the Normans?
+3. What language did the Normans speak originally?
+4. Who were the Viking ancestors of the Normans?
+5. What significant historical events involved the Normans?
+6. What religion did the Normans follow?
+7. What is the original meaning of the word "Norman"?
+8. When was the Latin version of "Norman" first recorded?
+9. Who was the leader during the Battle of Hastings?
+10. What architectural style is associated with Norman churches?
+
+Now, I'll translate these questions into Portuguese and ensure the answers are correct.
+
+For example, "Where was Normandy located?" becomes "Em que país a Normandia está localizada?" and the answer is "França."
+
+I need to make sure each response is precise and matches the context given. I should avoid using any markdown or additional information, just stick to the facts provided.
+
+After creating all 10 pairs, I'll structure them in JSON format as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em que país a Normandia está localizada?",
+    "resposta": "França."
+  },
+  {
+    "pergunta": "De qual região os normandos se originaram?",
+    "resposta": " Norte da França"
+  },
+  {
+    "pergunta": "Qual foi a língua original dos normandos?",
+    "resposta": "Norsez"
+  },
+  {
+    "pergunta": "Quem eram os ancestrais Viking dos normandos?",
+    "resposta": "Escandinávios"
+  },
+  {
+    "pergunta": "Qual foi a principal contribuição dos normandos para a cultura e história europeia?",
+    "resposta": "Expansões militares, construções de castelos e influência cultural na Europa Medieval."
+  },
+  {
+    "pergunta": "Qual foi a religião predominante entre os normandos?",
+    "resposta": "Catolicismo"
+  },
+  {
+    "pergunta": "O que significa originalmente a palavra 'Norman'?",
+    "resposta": "Homem do Norte."
+  },
+  {
+    "pergunta": "Quando foi registrada a versão latina da palavra 'Norman' pela primeira vez?",
+    "resposta": "Século IX"
+  },
+  {
+    "pergunta": "Que batalha teve o duque dos normandos como comandante?",
+    "resposta": "Batalha de Hastings, liderada por Guilherme, o Conquistador."
+  },
+  {
+    "pergunta": "Qual estilo arquitetônico é associado às igrejas construídas pelos normandos?",
+    "resposta": "Romanânico"
+  }
+]
+```

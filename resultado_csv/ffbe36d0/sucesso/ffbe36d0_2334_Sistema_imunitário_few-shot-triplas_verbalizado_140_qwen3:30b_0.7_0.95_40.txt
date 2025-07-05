@@ -1,0 +1,119 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs in Portuguese based on the provided context and facts. The key points are that the questions must be varied, cover different aspects, and the answers must be directly from the content. No repetition of similar questions.
+
+First, I need to thoroughly understand the context. The context explains the immune system's role, its components, evolution, mechanisms like innate and adaptive immunity, diseases related to it, and mentions some key figures and terms. The facts list various elements like cell types, models, images, and related terms.
+
+I should start by identifying different aspects from the context. For example, the origin of the term, components of the immune system, types of immunity, diseases related to immune system disorders, and specific cells or processes.
+
+Looking at the facts, there are many cell types mentioned like T cells, B cells, macrophages, etc. Also, terms like adaptive immunity, innate immunity, vaccines, autoimmunity, immunodeficiency. The facts also mention specific images and models, but maybe those are less relevant for general knowledge questions.
+
+I need to ensure each question is unique. For example, one question could be about the origin of the term "immune system," another about the components, another about the types of immunity, then about specific cells, diseases, and so on.
+
+Check the examples given. They have questions about what the immune system protects against, agents detected, parts of the system, types of immunity, and related conditions. So I need to cover similar areas but avoid repeating the same questions.
+
+Possible questions:
+
+1. Who coined the term "immune system"? (Answer: Ilya Ilyich Mechnikov)
+2. What are the two main types of immunity? (Innate and adaptive)
+3. What is the role of T cells? (Adaptive immunity)
+4. What happens in immunodeficiency? (Lower activity, leading to infections)
+5. What is autoimmunity? (Hyperactive system attacking own tissues)
+6. What are the components of the innate immune system? (Phagocytosis, defensins, complement)
+7. What is the basis of vaccination? (Adaptive immunity and memory)
+8. What are some cells in the immune system? (T cells, B cells, macrophages, etc.)
+9. What causes immunodeficiency? (Genetic, HIV, immunosuppressants)
+10. What is the function of the complement system? (Part of innate immunity to neutralize pathogens)
+
+Wait, but the facts mention specific cells like Basophil, Microfold cell, etc. Maybe include some of those. Also, check if the answers are directly from the context.
+
+For example, the context says "O cientista que cunhou o termo foi Ilya Ilyich Mechnikov em 1882, que é considerado o pai da imunologia." So question 1 is covered.
+
+The context also mentions "os mecanismos imunitários básicos... fagocitose, os peptídeos antimicrobianos designados defensinas, e o sistema complemento." So question 6.
+
+The context says "Através da imunidade adquirida, o organismo cria memória imunológica... base da vacinação." So question 7.
+
+The context mentions "A imunodeficiência verifica-se quando a actividade... infecções recorrentes... VIH/SIDA, ou do uso de imunossupressores." So question 9.
+
+For the cells, the facts list many, but the context mentions "os vertebrados mandibulares... mecanismos de defesa... T cell, B cell, etc." So question 8 can be about cells in the immune system.
+
+Need to ensure that each answer is directly from the context or facts. For example, the facts mention "T cell faz parte do sistema Immune system" but the context says "os vertebrados... desenvolveram mecanismos... T cell, B cell, etc."
+
+Also, check for unique aspects. Maybe include something about the evolution of the immune system, like "O sistema imunitário... até mesmo os simples organismos unicelulares possuem um sistema imunitário rudimentar..." So a question about primitive immune systems in unicellular organisms.
+
+Another point: "os transtornos do sistema imunitário podem levar ao aparecimento de doenças autoimunes, inflamações e cancro." So a question about diseases caused by immune system disorders.
+
+Also, the context mentions "O processo de imunidade adquirida é a base da vacinação." So a question about the basis of vaccination.
+
+I need to make sure there are 10 distinct questions. Let me list them:
+
+1. Quem cunhou o termo "sistema imunitário"?
+2. Quais são os dois principais subsistemas do sistema imunitário?
+3. O que é a imunidade adquirida e qual sua importância?
+4. Quais são alguns exemplos de células do sistema imunitário?
+5. O que acontece em uma imunodeficiência?
+6. O que é a autoimunidade e como ela se manifesta?
+7. Quais mecanismos imunitários básicos estão presentes em eucariotos?
+8. Como o sistema imunitário evoluiu em organismos unicelulares?
+9. Quais são as causas da imunodeficiência?
+10. Qual é a relação entre a imunidade adquirida e a vacinação?
+
+Now, check if the answers are in the context:
+
+1. Ilya Ilyich Mechnikov (context)
+2. Inato e adaptativo (context mentions "sistema imunológico inato versus o sistema imunológico adaptativo")
+3. Imunidade adquirida cria memória imunológica, base da vacinação (context)
+4. T cells, B cells, macrophages, etc. (context and facts)
+5. Atividade inferior, infecções recorrentes (context)
+6. Sistema hiperativo ataca tecido normal (context)
+7. Fagocitose, defensinas, sistema complemento (context)
+8. Enzimas que protegem de bacteriófagos (context)
+9. Doenças genéticas, HIV, imunossupressores (context)
+10. Imunidade adquirida é base da vacinação (context)
+
+Yes, all answers are covered. Now, make sure the questions are varied and not similar. Each covers a different aspect: origin, subsystems, acquired immunity, cells, immunodeficiency, autoimmunity, basic mechanisms, evolution in unicellular, causes of immunodeficiency, and vaccination link.
+
+Now, structure them into JSON as per the example.
+</think>
+
+[
+  {
+    "pergunta": "Quem cunhou o termo 'sistema imunitário'?",
+    "resposta": "Ilya Ilyich Mechnikov"
+  },
+  {
+    "pergunta": "Quais são os dois principais subsistemas do sistema imunitário?",
+    "resposta": "sistema imunológico inato versus o sistema imunológico adaptativo"
+  },
+  {
+    "pergunta": "O que é a imunidade adquirida e qual sua importância?",
+    "resposta": "A imunidade adquirida permite a criação de memória imunológica, sendo a base da vacinação"
+  },
+  {
+    "pergunta": "Quais são alguns exemplos de células do sistema imunitário?",
+    "resposta": "T cell, B cell, macrófago, neutrófilo, linfócito"
+  },
+  {
+    "pergunta": "O que acontece em uma imunodeficiência?",
+    "resposta": "A atividade do sistema imunitário é inferior ao normal, levando a infecções recorrentes"
+  },
+  {
+    "pergunta": "O que é a autoimunidade e como ela se manifesta?",
+    "resposta": "É um sistema imunitário hiperativo que ataca tecidos normais, como na artrite ou diabetes"
+  },
+  {
+    "pergunta": "Quais mecanismos imunitários básicos estão presentes em eucariotos?",
+    "resposta": "Fagocitose, peptídeos antimicrobianos chamados defensinas e o sistema complemento"
+  },
+  {
+    "pergunta": "Como o sistema imunitário evoluiu em organismos unicelulares?",
+    "resposta": "Eles possuem um sistema imunitário rudimentar com enzimas que protegem contra bacteriófagos"
+  },
+  {
+    "pergunta": "Quais são as causas da imunodeficiência?",
+    "resposta": "Doenças genéticas, HIV/SIDA ou uso de imunossupressores"
+  },
+  {
+    "pergunta": "Qual é a relação entre a imunidade adquirida e a vacinação?",
+    "resposta": "A imunidade adquirida cria memória imunológica, essencial para a vacinação"
+  }
+]

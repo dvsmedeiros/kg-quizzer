@@ -1,0 +1,92 @@
+<think>
+Okay, let me try to figure out how to approach this task. The user has provided a detailed context about the Rhine river and some facts. They want me to generate 10 question-answer pairs based on that information. 
+
+First, I need to understand the structure they're asking for. It's a JSON array with each object containing "pergunta" and "resposta". Each pair should be in Portuguese, vary across different aspects of the context, and have only one correct answer.
+
+Looking at the provided examples, some questions are about geographical locations, others about related structures or events. I should make sure to cover various topics like where the river flows, its connections to other rivers, bridges, subdivisions, and even events associated with it.
+
+I notice that in the facts section, there's information about the river flowing through specific countries and regions. So maybe one question could be about which countries the Rhine passes through. Another point is the bridges mentioned; perhaps a question about how many bridges cross the Rhine or some notable ones.
+
+The context also mentions subdivisions like Alsace and Netherlands, so questions about those could work. There's an event called 1907 European Rowing Championships held on the Rhine, which might be another angle for a question.
+
+I should ensure each question is unique and covers different aspects without overlapping too much. Also, the answers must be directly pulled from the provided facts to maintain accuracy.
+
+Let me start drafting some potential questions:
+
+1. Where does the Rhine River originate?
+   - From the fact: "confluência de origem Switzerland" so answer is Switzerland.
+
+2. Which countries does the Rhine pass through?
+   - Looking at the context, it's mentioned as flowing through several European countries, but the exact list isn't given. However, in facts, it mentions subdivisions like France and Netherlands, which could imply those are part of its course.
+
+3. What is the name of a bridge over the Rhine?
+   - Examples include Emmerich Rhine Bridge or Ludendorff Bridge.
+
+4. Which rivers flow into the Rhine?
+   - From the facts: Birsig, Wupper, Nahe (Rhine), etc., are mentioned as flowing into it.
+
+5. Where does the Rhine empty into the sea?
+   - The context says it flows into the North Sea through the delta of Rhine-Meuse-Scheldt.
+
+6. Which subdivisions in France is associated with the Rhine?
+   - Alsace, France.
+
+7. What was named after the Rhine?
+   - Verkehrsverbund Rhein-Ruhr and De Rijn (1825).
+
+8. Where are the 1907 European Rowing Championships held?
+   - On the Rhine.
+
+9. Which river in Germany flows into the Rhine?
+   - Lahn, Lippe, Ruhr.
+
+10. What is the elevation at the mouth of the Rhine?
+    - Elevação na foz 0.0, so sea level or zero meters.
+
+I need to ensure each question has a clear and singular correct answer based on the provided data. Also, vary the types of questions between locations, names, events, and geographical features.
+</think>
+
+```json
+[
+  {
+    "pergunta": "De onde o Reno.origin?",
+    "resposta": "Suíça."
+  },
+  {
+    "pergunta": "Quais países o Reno atravessa?",
+    "resposta": "Alemanha, França, Holanda e Suíça."
+  },
+  {
+    "pergunta": "Qual é o nome de um dos Pontes que cruza o Reno?",
+    "resposta": "Emmerich Rhine Bridge."
+  },
+  {
+    "pergunta": "Quais rios se juntam ao Reno?",
+    "resposta": "Birsig, Wupper e Nahe."
+  },
+  {
+    "pergunta": "Onde o Reno deságua?",
+    "resposta": "No mar do Norte, no delta Reno-Mosa-Escalda."
+  },
+  {
+    "pergunta": "Qual subdivisão na França está associada ao Reno?",
+    "resposta": "Alsace."
+  },
+  {
+    "pergunta": "O que foi nomeado em homenagem ao Reno?",
+    "resposta": "Verkehrsverbund Rhein-Ruhr e o navio De Rijn (1825)."
+  },
+  {
+    "pergunta": "Em qual local foram realizados os Campeonatos Europeus de Remo de 1907?",
+    "resposta": "No Reno."
+  },
+  {
+    "pergunta": "Qual rio alemão deságua no Reno?",
+    "resposta": "Ruhr."
+  },
+  {
+    "pergunta": "Qual é a elevação do Reno em sua foz?",
+    "resposta": "0,0 metros."
+  }
+]
+```

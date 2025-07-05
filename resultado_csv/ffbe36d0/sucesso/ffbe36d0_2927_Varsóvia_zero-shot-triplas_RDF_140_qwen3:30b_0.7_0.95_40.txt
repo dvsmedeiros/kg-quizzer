@@ -1,0 +1,84 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided data. Let's start by understanding the data structure. The data is in RDF format with various properties linked to "Warsaw". Each entry has a subject, predicate, and object. 
+
+First, I'll go through each line and identify the different properties and their values. For example, "Warsaw" has properties like "utcOffset", "aprAvgRecordLowC", etc. Also, there are entries where other entities (like people, organizations) are linked to Warsaw via predicates like "birthPlace", "deathPlace", "headquarter", etc.
+
+I need to create questions that ask for specific information from these properties. The questions should be in Portuguese, and the answers should be the corresponding values. Let's list out possible questions:
+
+1. What is the UTC offset for Warsaw? (from ns2:utcOffset)
+2. What is the average record low temperature in April for Warsaw? (from ns1:aprAvgRecordLowC)
+3. What is the lowest temperature in April for Warsaw? (from ns1:aprLowC)
+4. What is the highest recorded temperature in April for Warsaw? (from ns1:aprRecordHighC)
+5. What is the highest temperature in December for Warsaw? (from ns1:decHighC)
+6. What is the average temperature in May for Warsaw? (from ns1:mayMeanC)
+7. What is the subdivision name of Warsaw? (from ns1:subdivisionName)
+8. Which template is used on the Wikipedia page for Warsaw? (from ns1:wikiPageUsesTemplate)
+9. What are the depictions of Warsaw on Wikimedia Commons? (from foaf:depiction)
+10. Who was born in Warsaw? (from various entities with ns2:birthPlace)
+
+Now, I need to ensure that each question is clear and the answer is directly taken from the data. For the depictions, the answer should list the URLs. For the people, I need to collect all names linked to Warsaw via birthPlace or deathPlace. Let's check the data again for those names.
+
+Looking at the data, there are several entries like "Zbigniew Brzezinski" with ns2:birthPlace "Warsaw", "Michał Kalecki" with ns1:deathPlace "Warsaw", etc. I'll need to list these as answers to the question about who was born in Warsaw or died there.
+
+Wait, the user wants 10 pairs. So maybe split the questions into different categories: geographical info, people, organizations, etc. Let me make sure each question is unique and covers different aspects.
+
+Also, check if there are other properties like "headquarter" for organizations. For example, "Ministry of Finance (Poland)" has ns2:headquarter "Warsaw". So a question could be about which ministry is headquartered in Warsaw.
+
+But the user might want more varied questions. Let me compile the 10 pairs now, ensuring each is based on different data points.
+</think>
+
+1. **Pergunta:** Qual é o deslocamento horário (UTC) de Varsóvia?  
+   **Resposta:** +2  
+
+2. **Pergunta:** Qual é a temperatura média mínima registrada em abril em Varsóvia?  
+   **Resposta:** -1,6°C  
+
+3. **Pergunta:** Qual é a temperatura mínima registrada em abril em Varsóvia?  
+   **Resposta:** 4°C  
+
+4. **Pergunta:** Qual é a temperatura máxima registrada em abril em Varsóvia?  
+   **Resposta:** 30,4°C  
+
+5. **Pergunta:** Qual é a temperatura máxima em dezembro em Varsóvia?  
+   **Resposta:** 2,7°C  
+
+6. **Pergunta:** Qual é a temperatura média em maio em Varsóvia?  
+   **Resposta:** 14,8°C  
+
+7. **Pergunta:** Qual é o nome da subdivisão de Varsóvia?  
+   **Resposta:** "City county"  
+
+8. **Pergunta:** Qual é o template usado na página da Wikipedia de Varsóvia?  
+   **Resposta:** Template:Coord  
+
+9. **Pergunta:** Quais são as imagens de Varsóvia no Wikimedia Commons?  
+   **Resposta:**  
+   - [Filtry Warszawskie...](http://commons.wikimedia.org/wiki/Special:FilePath/Filtry_Warszawskie_przy_ul._Koszykowej_81_w_Warszawie,_Hala_Filtrów_Powolnych.jpg)  
+   - [Old Town in Warsaw map](http://commons.wikimedia.org/wiki/Special:FilePath/Old_Town_in_Warsaw_map.png)  
+   - [Staroświecki Sklep Wedla...](http://commons.wikimedia.org/wiki/Special:FilePath/Staroświecki_Sklep_Wedla_Szpitalna_8_Warszawa.jpg)  
+
+10. **Pergunta:** Quem nasceu em Varsóvia?  
+    **Resposta:**  
+    - Zbigniew Brzezinski  
+    - Michał Kalecki  
+    - Mieczysław Weinberg  
+    - Stanisław Fołtyn  
+    - Yehudit Hendel  
+    - Zdzisław Peszkowski  
+    - Przemysław Bobak  
+    - Piotr Słonimski  
+    - Nahum Nir  
+    - Natalie Przybysz  
+    - Mike Chlasciak  
+    - Tadeusz Piotrowski  
+    - Stanisław Bułak-Bałachowicz  
+    - Stefán Ołdak  
+    - Rachel Zilberberg  
+    - Teresa Iżewska  
+    - Zbigniew Messner  
+    - Zbigniew Burzyński  
+    - Władysław Wankie  
+    - Xawery Dunikowski  
+
+---  
+*Nota: Algumas respostas foram resumidas para manter a clareza, mas os dados originais incluem mais nomes.*

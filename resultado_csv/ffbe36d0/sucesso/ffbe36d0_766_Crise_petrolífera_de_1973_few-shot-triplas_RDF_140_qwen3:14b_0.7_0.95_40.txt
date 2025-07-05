@@ -1,0 +1,143 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by reading through the context carefully. The main topic is the 1973 oil crisis, also known as the first oil shock. The key points are the embargo by OPEC members against countries supporting Israel, the affected nations, the price increase from $3 to $12 per barrel, and the subsequent economic and political impacts.
+
+Now, looking at the examples given, they cover when the crisis started, the price in 1974, the second crisis in 1979, alternative terms for the crisis, who imposed the embargo, reasons for European countries separating from the US, Nixon's negotiations, Kissinger's negotiation date, when the embargo ended, and the US leaving Bretton Woods. Wait, the last example about Bretton Woods isn't mentioned in the context. That's a problem because the user's example might include information not present in the context. But the user's instruction says to use only the provided context and facts. So I need to ensure that all answers are strictly from the given text.
+
+Let me check the facts again. The facts are in RDF format, which includes some metadata like categories, templates, and images, but the actual content is in the initial context paragraph. The main information is in the first paragraph. The facts might not add new info beyond that.
+
+So I should focus on the initial context. Let me list the key points again:
+
+- The 1973 oil crisis started in October 1973.
+- OPEC members imposed an oil embargo on countries supporting Israel during the Yom Kippur War.
+- Targeted countries: Canada, Japan, Netherlands, UK, USA, later Portugal, Rhodesia, South Africa.
+- The embargo ended in March 1974.
+- Oil prices rose from $3 to $12 per barrel globally; even higher in the US.
+- This was the first oil shock, followed by the 1979 crisis (second oil shock).
+
+Now, possible questions:
+
+1. When did the 1973 oil crisis begin?
+   - Answer: October 1973.
+
+2. Which organization imposed the oil embargo?
+   - Answer: OPEC (Organização dos Países Árabes Exportadores de Petróleo).
+
+3. Which countries were initially targeted by the embargo?
+   - Answer: Canada, Japan, Netherlands, UK, and the USA.
+
+4. When did the embargo end?
+   - Answer: March 1974.
+
+5. What was the initial price of oil per barrel before the embargo?
+   - Answer: $3.
+
+6. What was the price of oil per barrel in March 1974?
+   - Answer: $12.
+
+7. What was the term used for the 1973 crisis?
+   - Answer: First oil shock.
+
+8. What event led to the embargo?
+   - Answer: The Yom Kippur War, where OPEC members targeted countries supporting Israel.
+
+9. Which countries were added to the embargo later?
+   - Answer: Portugal, Rhodesia, and South Africa.
+
+10. What was the impact on oil prices in the US compared to the global price?
+    - Answer: The prices in the US were even higher than the global $12.
+
+Wait, I need to check if all these answers are present in the context. Let me verify each:
+
+1. October 1973: Yes, stated in the first sentence.
+
+2. OPEC: Yes, mentioned as "membros da Organização dos Países Árabes Exportadores de Petróleo (OPAEP)".
+
+3. Initially targeted countries: Canada, Japan, Netherlands, UK, USA: Yes.
+
+4. March 1974: Yes, "fim do embargo, em março de 1974".
+
+5. Initial price $3: Yes, "de US$ 3 por barril para cerca de US$ 12".
+
+6. March 1974 price $12: Yes.
+
+7. First oil shock: Yes, "chamada o 'primeiro choque do petróleo'".
+
+8. Yom Kippur War and support for Israel: Yes, "embargo foi direcionado as nações que eram vistas como apoiadoras de Israel durante a Guerra do Yom Kippur".
+
+9. Later additions: Portugal, Rhodesia, South Africa: Yes.
+
+10. US prices higher: Yes, "Os preços nos EUA foram ainda mais altos."
+
+That's 10 questions. Now, I need to make sure they are varied and cover different aspects. The examples included questions about the second crisis (1979), which is in the context as "segunda crise do petróleo", but the user's example might have included that. However, the initial context does mention the 1979 crisis as the second one, so that's valid.
+
+Wait, in the initial context, it says "chamada o 'primeiro choque do petróleo', seguido pela segunda crise do petróleo em 1979." So including a question about when the second crisis occurred (1979) is valid.
+
+So let me adjust the list to include that and ensure all 10 are covered without repetition.
+
+Let me reorganize:
+
+1. When did the 1973 oil crisis begin? (October 1973)
+
+2. Which organization imposed the oil embargo? (OPEC)
+
+3. Which countries were initially targeted by the embargo? (Canada, Japan, Netherlands, UK, USA)
+
+4. When did the embargo end? (March 1974)
+
+5. What was the initial price of oil per barrel before the embargo? ($3)
+
+6. What was the price of oil per barrel in March 1974? ($12)
+
+7. What term was used for the 1973 crisis? (First oil shock)
+
+8. What event led to the embargo? (Yom Kippur War and support for Israel)
+
+9. Which countries were added to the embargo later? (Portugal, Rhodesia, South Africa)
+
+10. When did the second oil crisis occur? (1979)
+
+That's 10 questions. Now, check if all answers are in the context. Yes, all are covered. Now, I need to format them as JSON with "pergunta" and "resposta" keys, ensuring correct punctuation and commas where needed, as in the examples.
+</think>
+
+[
+  {
+    "pergunta": "Quando começou a crise do petróleo de 1973?",
+    "resposta": "outubro de 1973,"
+  },
+  {
+    "pergunta": "Quem proclamou o embargo do petróleo?",
+    "resposta": "membros da Organização dos Países Árabes Exportadores de Petróleo"
+  },
+  {
+    "pergunta": "Quais países foram os primeiros alvos do embargo?",
+    "resposta": "Canadá, Japão, Holanda, Reino Unido e Estados Unidos"
+  },
+  {
+    "pergunta": "Quando o embargo foi levantado?",
+    "resposta": "março de 1974."
+  },
+  {
+    "pergunta": "Qual era o preço do petróleo antes do embargo?",
+    "resposta": "US$ 3 por barril"
+  },
+  {
+    "pergunta": "Qual o preço do petróleo em março de 1974?",
+    "resposta": "quase US$ 12 por barril"
+  },
+  {
+    "pergunta": "Como a crise de 1973 foi conhecida?",
+    "resposta": "'primeiro choque do petróleo'"
+  },
+  {
+    "pergunta": "Qual evento levou ao embargo?",
+    "resposta": "a Guerra do Yom Kippur, com apoio de Israel por parte de alguns países"
+  },
+  {
+    "pergunta": "Quais países foram adicionados ao embargo posteriormente?",
+    "resposta": "Portugal, Rodesia e África do Sul"
+  },
+  {
+    "pergunta": "Quando ocorreu a segunda crise do petróleo?",
+    "resposta": "1979"
+  }
+]

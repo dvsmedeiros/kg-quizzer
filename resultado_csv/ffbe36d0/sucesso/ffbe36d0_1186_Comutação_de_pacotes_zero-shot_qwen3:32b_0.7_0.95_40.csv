@@ -1,0 +1,11 @@
+pergunta;resposta
+Qual é a principal característica da comutação de pacotes?;Dividir os dados em pacotes com cabeçalhos contendo informações de roteamento.
+Quais são os dois principais tipos de comutação de pacotes?;Circuito virtual e datagrama.
+Qual é uma vantagem da comutação de pacotes em relação à comutação por circuito?;Uso mais eficiente da largura de banda.
+O que contém o cabeçalho de um pacote na comutação de pacotes?;Endereço de origem, endereço de destino, número de sequência e informações de controle.
+Como é realizado o roteamento dos pacotes na comutação de pacotes?;Roteadores utilizam tabelas de roteamento para encaminhar cada pacote de forma independente.
+Como os pacotes são reorganizados após a transmissão?;O destino reorganiza os pacotes com base nos números de sequência contidos nos cabeçalhos.
+Qual protocolo utiliza a comutação de pacotes como base?;TCP/IP.
+Como a detecção de erros é implementada na comutação de pacotes?;Através de checksums ou códigos de redundância cíclica (CRC) no cabeçalho.
+O que é fragmentação de pacotes?;Dividir pacotes em partes menores para adaptação à largura de banda da rede.
+Qual é uma desvantagem da comutação de pacotes?;Atraso variável (latência) devido ao roteamento independente de cada pacote.

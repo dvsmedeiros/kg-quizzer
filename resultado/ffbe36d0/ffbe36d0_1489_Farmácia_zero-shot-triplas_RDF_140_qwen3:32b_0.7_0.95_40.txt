@@ -1,0 +1,54 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided data about Pharmacy. Let's start by understanding the data structure. The data includes information about Pharmacy as a concept, its Greek origin, related professions, education, and various entities linked to it through different properties.
+
+First, I should identify key elements from the data. The main entity is "Pharmacy," which is described with properties like formation degrees, meshid, name, and templates used. There are also multiple entities connected to Pharmacy via different predicates like ns1:PersonFunction, ns1:Work, and various industries or roles (e.g., Pharmacist, Pharmasave, etc.). 
+
+For each question-answer pair, I need to use the information from the data. Let's think of possible questions. Since the data includes the Greek origin, a question about that makes sense. The formation degrees (Doctor of Pharmacy, etc.) can be another question. The subject categories (Greek words, Medicinal chemistry) could be another. Also, the depiction URLs might allow a question about images or symbols related to Pharmacy.
+
+I need to ensure that each question is answerable from the data provided. Let me list possible questions:
+
+1. What is the Greek origin of the word "Pharmacy"?
+2. What are the typical educational qualifications in Pharmacy?
+3. What is the MeSH ID for Pharmacy?
+4. What are the main categories associated with Pharmacy?
+5. What are some common symbols or depictions linked to Pharmacy?
+6. Which companies or institutions are associated with the Pharmacy industry?
+7. What are the main templates used in the Wikipedia page for Pharmacy?
+8. What are the primary functions or roles of Pharmacy as a profession?
+9. Which historical pharmacists or related professionals are mentioned?
+10. What are some key industries or sectors that Pharmacy is linked to?
+
+Now, I need to check the data to confirm each answer. For example, the Greek origin is mentioned in the text. The formation degrees are listed under ns2:formation. MeSH ID is D010604. Categories include Greek words and Medicinal chemistry. Depictions include various images. Companies like Pharmasave, Rexall are in the data. Templates include several listed in ns2:wikiPageUsesTemplate. Functions are ns1:PersonFunction and ns1:Work. Industries mentioned are various pharmacy companies and sectors.
+
+Each answer should directly reference the data provided. I need to make sure not to add any external information. Also, the answers should be concise, pulling exactly from the data. Let me structure each pair accordingly.
+</think>
+
+**Pergunta 1:** Qual é a origem grega da palavra "Farmácia"?  
+**Resposta:** A palavra "Farmácia" tem origem no termo grego "pharmakeia", que se refere à preparação e venda de medicamentos.  
+
+**Pergunta 2:** Quais são as qualificações educacionais comuns na Farmácia?  
+**Resposta:** Os diplomas típicos incluem Doutorado em Farmácia, Mestrado em Farmácia, Bacharelado em Farmácia e Diploma em Farmácia.  
+
+**Pergunta 3:** Qual é o ID MeSH associado à Farmácia?  
+**Resposta:** O ID MeSH para Farmácia é "D010604".  
+
+**Pergunta 4:** Quais são as categorias principais associadas à Farmácia?  
+**Resposta:** As categorias incluem "Palavras e frases gregas" e "Química medicinal".  
+
+**Pergunta 5:** Quais são os símbolos ou imagens comuns associados à Farmácia?  
+**Resposta:** Imagens associadas incluem o símbolo "Rx", globos vermelhos, e ilustrações de farmacêuticos com recipientes de medicamentos.  
+
+**Pergunta 6:** Quais empresas ou instituições estão associadas à indústria farmacêutica?  
+**Resposta:** Exemplos incluem Pharmasave, Rexall (Canadá), Watsons e Super-Pharm.  
+
+**Pergunta 7:** Quais são os principais modelos (templates) usados na página da Wikipédia sobre Farmácia?  
+**Resposta:** Modelos usados incluem "Infobox Occupation", "Pharmacy" e "Allied health professions".  
+
+**Pergunta 8:** Quais são as funções ou papéis principais da Farmácia como profissão?  
+**Resposta:** A Farmácia é classificada como "PersonFunction" e "Work", indicando sua natureza como profissão e atividade.  
+
+**Pergunta 9:** Quais farmacêuticos históricos ou profissionais relacionados são mencionados?  
+**Resposta:** Profissionais mencionados incluem Pierre Joseph Pelletier e Oliver Bernard (farmacêutico).  
+
+**Pergunta 10:** Quais setores ou indústrias estão vinculados à Farmácia?  
+**Resposta:** Setores vinculados incluem comércio de medicamentos (ex.: Rite Aid), hospitalar (ex.: Medicover Hospitals) e cooperativas de farmácias (ex.: Norsk Medisinaldepot).

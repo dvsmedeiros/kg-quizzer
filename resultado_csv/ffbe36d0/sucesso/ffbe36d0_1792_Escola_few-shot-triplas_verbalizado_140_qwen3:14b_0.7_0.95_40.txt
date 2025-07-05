@@ -1,0 +1,79 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let's start by understanding the context. The context talks about the historical meaning of schools as places for discussion or leisure, and how they evolved into formal institutions today. It mentions that most countries have formal education systems, which are usually mandatory, with levels like primary and secondary education, and higher education institutions like universities.
+
+The facts list a lot of schools and universities, each labeled as "Private school." The user wants questions that relate to these facts and the context. Each question must have a clear answer from the provided information.
+
+First, I should look for common elements in the facts. All the listed institutions are private schools. So, a question could be about the common characteristic of these institutions. For example, "What type of institution are all the listed schools?" The answer would be "Private school."
+
+Next, I need to ensure that the questions cover different aspects. Maybe some questions can focus on the types of institutions, others on the levels of education (like primary vs. higher), and others on the distinction between private and public schools. However, the context doesn't mention public schools, only that most countries have formal systems. The facts only list private schools, so I need to be careful not to infer public school information unless it's in the context.
+
+Another angle is the historical context of schools. The context mentions that "school" originally meant discussion or leisure, but now refers to formal education. So a question could ask about the historical meaning of the term "school."
+
+Looking at the examples provided, they often use the facts to create questions about private schools, their funding, selection of students, and comparisons with public schools. Since the facts only list private schools, the questions should focus on that.
+
+I need to avoid repeating similar questions. Let me brainstorm different aspects:
+
+1. Historical meaning of "school" – answer is "discussion or leisure" and "ocio" in the context.
+2. Current definition of schools – formal institutions with teachers and students.
+3. Levels of education in formal systems (primary, secondary, tertiary).
+4. What is a university? Answer from context: institution for higher education.
+5. Common term for higher education institutions – university or college.
+6. All listed institutions are private schools.
+7. What is a private school? Answer based on context: not public, funded by other means.
+8. What is the role of a school today? Teaching students under teachers' direction.
+9. What is the difference between a school and a university? School for basic education, university for higher.
+10. What is the purpose of a school according to the context? Education and progression through levels.
+
+Now, I need to form these into questions with answers. Let's check each against the context and facts.
+
+For example, the first question: "De acordo com o contexto, qual era um dos significados históricos da palavra 'escola'?" Answer: "discussão ou conferência". That's from the context.
+
+Another: "Qual é o nome comum para instituições que ensinam ensino superior?" Answer: "faculdade ou universidade".
+
+Another using the facts: "Qual é o tipo de instituição que todos os exemplos fornecidos possuem em comum?" Answer: "Private school".
+
+I need to make sure each question is unique and covers different parts. Let me check if I have 10 distinct questions. Yes, the above ideas can form 10 different questions. Now, structure them into JSON as per the example, ensuring each answer is directly from the context or facts.
+</think>
+
+[
+  {
+    "pergunta": "De acordo com o contexto, qual era um dos significados históricos da palavra 'escola'?",
+    "resposta": "discussão ou conferência"
+  },
+  {
+    "pergunta": "Qual é o nome comum para instituições que ensinam ensino superior?",
+    "resposta": "faculdade ou universidade"
+  },
+  {
+    "pergunta": "Qual é o tipo de instituição que todos os exemplos fornecidos possuem em comum?",
+    "resposta": "Private school"
+  },
+  {
+    "pergunta": "Quais são os níveis educacionais geralmente encontrados nos sistemas formais de educação?",
+    "resposta": "ensino fundamental e ensino médio"
+  },
+  {
+    "pergunta": "O que a escola representa hoje, de acordo com o contexto?",
+    "resposta": "instituição concebida para o ensino de alunos sob a direção de professores"
+  },
+  {
+    "pergunta": "Qual é a principal característica dos sistemas formais de educação mencionados no contexto?",
+    "resposta": "são obrigatórios"
+  },
+  {
+    "pergunta": "Como são chamados os níveis de ensino que os estudantes percorrem em sistemas formais?",
+    "resposta": "níveis escolares e sucessivos"
+  },
+  {
+    "pergunta": "De acordo com o contexto, o que era possível fazer no tempo ocioso das antigas escolas?",
+    "resposta": "ter uma conversa interessante e educativa"
+  },
+  {
+    "pergunta": "Qual é a diferença entre escolas e universidades, segundo o contexto?",
+    "resposta": "escolas ensinam alunos básicos, universidades ensinam ensino superior"
+  },
+  {
+    "pergunta": "Qual é o outro nome para instituições de ensino superior mencionado no contexto?",
+    "resposta": "universidades"
+  }
+]

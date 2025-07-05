@@ -1,0 +1,96 @@
+<think>
+Okay, so I need to generate 10 pairs of questions and answers based on the provided context and facts about computational complexity theory. Let me start by understanding what's given.
+
+The context says that computational complexity theory focuses on classifying computational problems according to their resource usage and explores the relationships between these classifications. It mentions that a computational problem is a task solved by a computer, often through mathematical steps like algorithms.
+
+Looking at the facts section, there are several RDF triples. Each seems to link different people to computational complexity theory via their academic disciplines or known works. For example, Christos Papadimitriou and David Shmoys are listed under ns1:academicDiscipline pointing to Computational_complexity_theory.
+
+The examples provided in the user's message show how to structure each question and answer pair. They all pertain to different aspects of computational complexity theory, varying from definitions to specific details about resources and related fields.
+
+Now, I need to create 10 unique questions that cover various angles of this topic without repeating similar ones. Let me brainstorm possible areas:
+
+1. Key focus areas (like classifying problems by resource usage)
+2. Specific resources measured (time, space)
+3. Relationship between complexity theory and algorithms
+4. Notable contributors or their contributions
+5. Practical implications of complexity theory
+
+I should ensure each question is clear and directly tied to the facts provided. Let me draft possible questions:
+
+1. What does computational complexity theory primarily focus on?
+2. Which resource usage is central in this classification?
+3. What distinguishes a computational problem from others?
+4. Who are key contributors to computational complexity theory?
+5. How do models of computation help in assessing resources?
+6. What's the main goal when analyzing algorithms?
+7. How does P vs NP capture computational challenges?
+8. What is the significance of efficient solutions in practice?
+9. Which specific problems are central in this study?
+10. What distinguishes different complexity classes?
+
+Wait, some might overlap or not be directly supported by the facts. Let me cross-check with the given data.
+
+The facts list many individuals associated with computational complexity theory, so a question about notable contributors would fit. The context mentions classifying problems by resource usage, which can form another question.
+
+I also need to ensure each answer is directly supported. For example, "recursos computacionais" (computational resources) from the context can be an answer.
+
+Let me structure these:
+
+1. Questão sobre o foco principal da teoria.
+2. Recurso central na classificação.
+3. Característica que define um problema computacional.
+4. Pesquisadores notáveis.
+5. Uso de modelos matemáticos para medir recursos.
+6. Objetivo na análise de algoritmos.
+7. Relação entre P vs NP e os desafios computacionais.
+8. Significado das soluções eficientes.
+9. Problemas centrais na teoria.
+10. O que define classes de complexidade diferentes.
+
+Now, each question should be clear and the answer directly tied to the provided context or facts. I'll make sure they vary in topic and cover different aspects without repetition.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o principal foco da teoria da complexidade computacional?",
+    "resposta": "classificação de problemas computacionais por seu uso de recursos"
+  },
+  {
+    "pergunta": "Quais são os principais recursos analisados na teoria da complexidade computacional?",
+    "resposta": "tempo e espaço"
+  },
+  {
+    "pergunta": "Qual é a característica principal que define um problema como computacional?",
+    "resposta": "a possibilidade de ser resolvido por um computador através de um algoritmo"
+  },
+  {
+    "pergunta": "Quais são alguns dos principais contribuidores à teoria da complexidade computacional?",
+    "resposta": "Christos Papadimitriou e David Shmoys"
+  },
+  {
+    "pergunta": "Como os modelos matemáticos de computação ajudam na avaliação de recursos?",
+    "resposta": "mediando a quantidade de tempo ou espaço necessários para resolver um problema"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal na análise de algoritmos em termos de complexidade?",
+    "resposta": "determinar a eficiência do algoritmo em termos de recursos"
+  },
+  {
+    "pergunta": "Qual conjectura famosa ilustra os desafios da teoria da complexidade computacional?",
+    "resposta": "P vs NP"
+  },
+  {
+    "pergunta": "Por que as soluções eficientes são significativas na prática?",
+    "resposta": "dão limite prático sobre o que computadores podem fazer"
+  },
+  {
+    "pergunta": "Quais problemas são centrais na teoria da complexidade computacional?",
+    "resposta": "problemas de decisão e otimização"
+  },
+  {
+    "pergunta": "O que define a diferença entre diferentes classes de复杂度?",
+    "resposta": "a quantidade de recursos necessários para resolver os problemas em cada classe"
+  }
+]
+```

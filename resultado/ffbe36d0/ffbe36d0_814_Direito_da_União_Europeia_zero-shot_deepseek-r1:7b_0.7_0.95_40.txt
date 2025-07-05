@@ -1,0 +1,56 @@
+<think>
+Ok, vou iniciar me engetando um exemplo de resposta formatada conforme os requisitos fornecidos. Primeiro, preciso compreender exatamente o que é sendo pedido. O usuário deseja que eu gere 10 pares de perguntas e respostas objativas, com base no contexto fornecido sobre a Direito da União Europeia. Cada par deve conter uma pergunta relevante e uma resposta correta em português.
+
+Primeiro, lembro que o contexto menciona片面的法律条文，可能涉及欧盟的条约、判例法以及单方面措施。接下来，我需要确保每一条都是独特的，并且涵盖不同的方面，以避免重复。
+
+我要注意不要使用Markdown格式，而是直接提供JSON结构。每一对都应该是独立的对象，包含“pergunta”和“resposta”两个字段。此外，必须保证只有10条，否则可能超限。
+
+现在，我需要构思10个不同且相关的法律主题，每个问题都要明确指向给定的材料，并确保每个回答是唯一的且正确的。比如，可以从条约名称、单方面措施的目的、判例法的应用等方面入手。
+
+最后，将这些想法整理成JSON格式，并检查是否符合所有指定的条件，比如语言、结构和数量等。确保没有遗漏任何一对，并且每对都独立存在。
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o nome da Convolução Europeia que define os direitos do indivíduo em relation a mais de um órgão da UE?",
+    "resposta": "Convolução europeia n. 348/95 (Razão Geral) sobre direitos do indivíduo."
+  },
+  {
+    "pergunta": "Qual é o objetivo principal das medidas unicas ao levels que afetam os direitos de um órgão da UE?",
+    "resposta": "Estabelecer as condições necessárias para que os órgãos da UE possam atender às expectativas e necessidades legais dos acionantes."
+  },
+  {
+    "pergunta": "Em qual tipo de Casos a Justiça Europeia utiliza as tribunais locais para recolher informationes e cumprir o seu emprego?",
+    "resposta": "Na aplicação de leis da UE ou nas decisões do ECJ."
+  },
+  {
+    "pergunta": "Qual é um exemplo de uma Convolução europeia que impõe responsabilidades sobre os órgãos da UE?",
+    "resposta": "Convolução sobre proteção environmental, como a CEQUAG e a CEPREME."
+  },
+  {
+    "pergunta": "O que define a aplicação das Directivas de Proteção Ambiental (DPA) na UE?",
+    "resposta": "A diretriz ou a ordem legal que estabelece os requisitos gerais de proteção ambiental e os procedimentos para a aplicação."
+  },
+  {
+    "pergunta": "Qual é o objetivo das Medidas Unicaujas na União Europeia?",
+    "resposta": "Garantir que as expectativas e necessidades legais dos acionantes sejam respeitadas."
+  },
+  {
+    "pergunta": "Quais órgãos da UE são os mais cobrados nas tribunais federais da UE?",
+    "resposta": "Orçamentos, direitos de fileiras, direitos de celebridades e direitos de acionantes."
+  },
+  {
+    "pergunta": "O que é a origem do direito de celebridade na União Europeia?",
+    "resposta": "Derrives da Convolução sobre direitos de celebridades (CDD n. 16/93)."
+  },
+  {
+    "pergunta": "Qual é o nome da diretriz que define os procedimentos para a application de medidas unicas?",
+    "resposta": "Directriz n. 8/72." 
+  },
+  {
+    "pergunta": "O que define a aplicação de um Decreto-Regulamento na UE?",
+    "resposta": "A diretriz ou a ordem legal que estabelece os requisitos gerais e os procedimentos para a aplicação."
+  }
+]
+```

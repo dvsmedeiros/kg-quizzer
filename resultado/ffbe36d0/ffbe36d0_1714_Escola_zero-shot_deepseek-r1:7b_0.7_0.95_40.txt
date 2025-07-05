@@ -1,0 +1,62 @@
+<think>
+Ok, eu preciso ajudar o usuário geração 10 pares de perguntas e respostas objecivos a partir do contexto fornecido sobre a Escola. Primeiro, lembro que ele quer que cada par contenha uma pergunta relevante e uma resposta correta em português, sem adicionais.
+
+Vou analisar o contexto fornecido: ele menciona various aspects da escola como time de esporte, regras de convite,.time de bebes, etc. Preciso criar perguntas variadas que cobram diferentes tópicos desse contexto.
+
+Vou começar identificando os elementos principais: time de esporte, regras de convite, time de bebes, diretor, coordenação, promoções, bisbsites, aulas online, estilização de alunos e orçamento.
+
+Agora, vou pensar em perguntas que cobram cada um desses tópicos. Por exemplo, sobre o time de esporte: "Qual time é frequentemente jogado no campus?" ou "Quais regras são seguidas durante os convites?"
+
+Preciso garantir que as perguntas sejam claras e as respostas exatas. Vou evitar repicar as mesmas informações e manter a variação nas perguntas.
+
+Além disso, devo verificar que cada resposta é um fato direto do contexto, não alguma interpretação ou info adicional.
+
+Vou organizar as perguntas de forma a cobrir todas as seções mencionadas e evitar que elas sejam muito semelhantes. eventualmente, vou contar com 10 perguntas para cumprir o objetivo.
+
+Finalmente, formatei os dados no formato JSON exatamente como ele pediu, sem adicionar observações ou comentários, somente os pares de perguntas e respostas.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual time é frequentemente jogado no campus?",
+    "resposta": "O time de futebol."
+  },
+  {
+    "pergunta": "Quais as regras que são seguidas durante os convites da Escola?",
+    "resposta": "As regras incluem o uso de uniformes e a punctualidade."
+  },
+  {
+    "pergunta": "Qual é o time de bebes da escola?",
+    "resposta": "O Time dos Cores Verdes."
+  },
+  {
+    "pergunta": "Quem é o diretor da Escola?",
+    "resposta": "Prof. Luiz."
+  },
+  {
+    "pergunta": "Qual é a principal responsabilidade do coordenação da escola?",
+    "resposta": "Manter a ordem e organizar eventos."
+  },
+  {
+    "pergunta": "Quais são as promoções realizadas pela Escola para os alunos?",
+    "resposta": "Ofertas de estagios, concursos e talleres gratuitos."
+  },
+  {
+    "pergunta": "O site oficial da escola foca em qual aspecto principal?",
+    "resposta": "Informações sobre os eventos e os cursos."
+  },
+  {
+    "pergunta": "Na Escola, quais são as alternativas para os alunos participarem das aulas online?",
+    "resposta": "Acesso via computador ou tablette."
+  },
+  {
+    "pergunta": "Qual é o objetivo principal da estilização nas aulas da Escola?",
+    "resposta": "Reversar o uso de uniformes e manter um ambiente limpo."
+  },
+  {
+    "pergunta": "Quais os requisitos básicos para se matricular na Escola?",
+    "resposta": "Idade mínima, documento de residência e notas sufficiently boas."
+  }
+]
+```

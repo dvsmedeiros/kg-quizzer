@@ -1,0 +1,2151 @@
+id_cenario;nome_cenario;triplas;prompt;tokens_contexto;tokens_resposta;max_tokens;tempo_execucao
+2852_1;Imperialismo_few-shot-triplas_verbalizado_140_deepseek-r1:7b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: A origem do imperativeismo pode ser traceada a qual língua antiga?  
+**Resposta**: latina
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+O termo Império (do latim imperium = poder, autoridade) denota primariamente um território geográfico extenso (o estado imperial), não necessariamente contíguo, contendo um conjunto de nações e povos etnicamente e/ou culturalmente diversos, governados por um soberano (denominado imperador) ou uma oligarquia, caracterizando-se como uma estrutura de poder. Um império é uma """"""""unidade política"""""""" composta por vários territórios e povos, """"""""normalmente criada por conquista, e dividida entre um centro dominante e periferias subordinadas"""""""". O centro do império (às vezes chamado de metrópole) exerce controle político sobre as periferias. O termo império é também utilizado como categoria de análise, ou seja, se refere a um conceito que abrange elementos ou aspectos com características comuns ou que se relacionam entre si, sendo que, neste caso, nem todos os estados assim classificados se autodenominaram impérios. Imperium Romanum é, provavelmente, a expressão latina mais conhecida, onde a palavra imperium é usada no sentido de """"""""território"""""""", sendo Império Romano, a parte do mundo sobre a qual Roma governava.
+
+### Fatos
+Wolfgang Mommsen atua na disciplina Imperialism
+Imperialism possui imagem representativa Roubaud. Russian troops entering Tiflis in 1799.jpg
+Imperialism usa modelo de página wiki Template:Cite encyclopedia
+Alliance for National Reconstruction possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Legend
+Imperialism usa modelo de página wiki Template:Main article
+Imperialism usa modelo de página wiki Template:Cite journal
+Imperialism possui assunto Category:History of colonialism
+Settlers: The Mythology of the White Proletariat trata de assunto não ficcional Imperialism
+Portuguese Angola pertence à era Imperialism
+Imperialism usa modelo de página wiki Template:Other uses
+Conservative Party of Canada (1867–1942) possui ideologia Imperialism
+Imperialism possui imagem representativa China imperialism cartoon.jpg
+Michael Parenti possui principais interesses Imperialism
+Conservative Party of Canada (1867–1942)  Conservative Party of Canada  1 possui ideologia Imperialism
+Imperialism possui imagem representativa Spanish Caribbean Islands in the American Viceroyalties 1600.png
+Imperialism possui imagem representativa British ships in Canton.jpg
+Imperialism possui imagem representativa Resa del bacino del Brandewater.jpg
+Imperialism possui correspondência exata 11083-1
+Imperialism possui imagem representativa LaGuerreAMadagascar.jpg
+Imperialism possui assunto Category:Marxian economics
+Imperialism faz parte de target
+Imperialism possui imagem representativa Expansion of the Mongol Empire.svg
+Imperialism possui imagem representativa Port Said from air.jpg
+Imperialism possui imagem representativa Japanese Empire (orthographic projection).svg
+Imperialism usa modelo de página wiki Template:Redirect
+Canadian Party possui ideologia Imperialism
+Culture and Imperialism possui assunto Imperialism
+Imperialism possui imagem representativa Austro-Hungary 1914.jpg
+Imperialism possui assunto Category:Imperialism
+Imperialism possui imagem representativa Independence Seaport Museum 226.jpg
+Imperialism usa modelo de página wiki Template:Authoritarian types of rule
+Imperialism possui imagem representativa Qing Empire circa 1820 EN.svg
+Imperialism usa modelo de página wiki Template:Politics
+Imperialism possui assunto Category:Political systems
+Imperialism possui imagem representativa Siege of Belgrade (Nándorfehérvár) 1456.jpg
+Herero and Namaqua genocide possui motivação Imperialism
+Imperialism possui imagem representativa EN-QIN260BCE.jpg
+Imperialism possui imagem representativa Aleppo-OttomantroopsTopicalpressagency.jpg
+Imperialism é do tipo Thing
+Imperialism usa modelo de página wiki Template:Main
+Imperialism usa modelo de página wiki Template:Wikiquote
+Imperialism usa modelo de página wiki Template:Refbegin
+Imperialism possui imagem representativa Italian empire 1940.png
+Imperialism é do tipo Organisation
+Imperialism possui assunto Category:Political theories
+Culture and Imperialism trata de assunto não ficcional Imperialism
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Blockquote
+Alliance for National Reconstruction  Alliance for National Reconstruction  1 possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Dubious
+Faultline 49 trata de assunto não ficcional Imperialism
+Imperialism usa modelo de página wiki Template:Cite book
+Circassian genocide possui motivação Imperialism
+Paul K. MacDonald possui principais interesses Imperialism
+Imperialism usa modelo de página wiki Template:Empires
+Imperialism usa modelo de página wiki Template:Monarchism
+Imperialism usa modelo de página wiki Template:Div col
+Imperialism usa modelo de página wiki Template:Div col end
+Imperialism usa modelo de página wiki Template:International relations
+Imperialism usa modelo de página wiki Template:Fact
+Wolfgang Mommsen atua nas áreas Imperialism
+Mykhailo Volobuiev é conhecido por Imperialism
+Canadian Party possui ideologia Imperialism
+Imperialism possui imagem representativa Soviet empire 1960.png
+Imperialism usa modelo de página wiki Template:Page needed
+Imperialism possui imagem representativa Raising of American flag at Iolani Palace with US Marines in the foreground (detailed).jpg
+Imperialism possui imagem representativa French Empire 17th century-20th century.png
+Imperialism possui imagem representativa German colonial.png
+Imperialism possui imagem representativa OttomanEmpire1683.png
+Imperialism possui hiperônimo Advocacy
+Imperialism possui imagem representativa Colonisation 1800.png
+Imperialism possui tópico principal Imperialism
+Léon-Étienne Duval foi contestado por Imperialism
+Imperialism possui imagem representativa Japanese Special Naval Landing Forces on the deck board of the IJN xxx, June 11th.jpg
+Imperialism possui imagem representativa Tipu Sultan, Indian warrior Emperor of Mysore.gif
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:See also
+Japanese war crimes possui motivação Imperialism
+Faultline 49 possui assunto Imperialism
+Settlers: The Mythology of the White Proletariat possui assunto Imperialism
+Imperialism usa modelo de página wiki Template:Authority control
+Imperialism possui imagem representativa Roman Empire Map.png
+Imperialism possui imagem representativa Colonial Africa 1913 map.svg
+Imperialism possui imagem representativa Spanish Empire Anachronous en.svg
+Imperialism usa modelo de página wiki Template:ISBN
+Imperialism usa modelo de página wiki Template:Expand section
+Imperialism possui imagem representativa All areas of the world that were once part of the Portuguese Empire.png
+Imperialism usa modelo de página wiki Template:Reflist
+Imperialism usa modelo de página wiki Template:Which
+Imperialism usa modelo de página wiki Template:Short description
+Imperialism usa modelo de página wiki Template:Refend
+Imperialism possui assunto Category:Invasions
+Imperialism possui imagem representativa Punch Rhodes Colossus.png
+Imperialism possui imagem representativa British Empire 1921.png
+Imperialism usa modelo de página wiki Template:Wiktionary
+Imperialism possui imagem representativa Colonialism in 1945 updated legend.png
+Imperialism usa modelo de página wiki Template:Party politics
+Imperialism possui imagem representativa First pictures of the Japanese occupation of Peiping in China.jpg
+Imperialism usa modelo de página wiki Template:Rp
+Imperialism usa modelo de página wiki Template:Political ideologies
+Imperialism possui assunto Category:Authoritarianism
+Imperialism usa modelo de página wiki Template:Citation needed
+
+### Exemplos
+[
+  {
+    """"""""pergunta"""""""": """"""""A palavra imperialismo tem suas origens em qual língua antiga?"""""""",
+    """"""""resposta"""""""": """"""""latina""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""De que maneira o imperialismo é geralmente administrado?"""""""",
+    """"""""resposta"""""""": """"""""força militar""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O termo imperialismo foi aplicado aos países ocidentais, e qual condado oriental?"""""""",
+    """"""""resposta"""""""": """"""""japonês),""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo é responsável pela rápida disseminação de quê?"""""""",
+    """"""""resposta"""""""": """"""""tecnologias e idéias.""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo estende o poder de um país e o quê?"""""""",
+    """"""""resposta"""""""": """"""""influência""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""o domínio colonial seria considerado que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""Imperialismo formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo muitas vezes divide os países usando qual técnica?"""""""",
+    """"""""resposta"""""""": """"""""outro""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo informal ainda é dominante; no entanto, menos o que?"""""""",
+    """"""""resposta"""""""": """"""""direto;""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""Um acordo comercial forçado entre dois países seria um exemplo de quê?"""""""",
+    """"""""resposta"""""""": """"""""imperialismo \""""""""formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""domínio colonial ou ocupação física de um território é um exemplo de que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""formal\""""""""""""""""
+  }
+]
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"A origem do imperativeismo pode ser traceada a qual língua antiga?"""",
+  """"resposta"""": """"latina"""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";3038;147;300;11.17295925
+2852_5;Imperialismo_few-shot-triplas_verbalizado_140_deepseek-r1:7b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: O imperativeismo formal é frequentemente aplicado em que tipo de situações political?  
+**Resposta**: Em envolvements where states seek to expand their influence globally through economic and military means.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+O termo Império (do latim imperium = poder, autoridade) denota primariamente um território geográfico extenso (o estado imperial), não necessariamente contíguo, contendo um conjunto de nações e povos etnicamente e/ou culturalmente diversos, governados por um soberano (denominado imperador) ou uma oligarquia, caracterizando-se como uma estrutura de poder. Um império é uma """"""""unidade política"""""""" composta por vários territórios e povos, """"""""normalmente criada por conquista, e dividida entre um centro dominante e periferias subordinadas"""""""". O centro do império (às vezes chamado de metrópole) exerce controle político sobre as periferias. O termo império é também utilizado como categoria de análise, ou seja, se refere a um conceito que abrange elementos ou aspectos com características comuns ou que se relacionam entre si, sendo que, neste caso, nem todos os estados assim classificados se autodenominaram impérios. Imperium Romanum é, provavelmente, a expressão latina mais conhecida, onde a palavra imperium é usada no sentido de """"""""território"""""""", sendo Império Romano, a parte do mundo sobre a qual Roma governava.
+
+### Fatos
+Wolfgang Mommsen atua na disciplina Imperialism
+Imperialism possui imagem representativa Roubaud. Russian troops entering Tiflis in 1799.jpg
+Imperialism usa modelo de página wiki Template:Cite encyclopedia
+Alliance for National Reconstruction possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Legend
+Imperialism usa modelo de página wiki Template:Main article
+Imperialism usa modelo de página wiki Template:Cite journal
+Imperialism possui assunto Category:History of colonialism
+Settlers: The Mythology of the White Proletariat trata de assunto não ficcional Imperialism
+Portuguese Angola pertence à era Imperialism
+Imperialism usa modelo de página wiki Template:Other uses
+Conservative Party of Canada (1867–1942) possui ideologia Imperialism
+Imperialism possui imagem representativa China imperialism cartoon.jpg
+Michael Parenti possui principais interesses Imperialism
+Conservative Party of Canada (1867–1942)  Conservative Party of Canada  1 possui ideologia Imperialism
+Imperialism possui imagem representativa Spanish Caribbean Islands in the American Viceroyalties 1600.png
+Imperialism possui imagem representativa British ships in Canton.jpg
+Imperialism possui imagem representativa Resa del bacino del Brandewater.jpg
+Imperialism possui correspondência exata 11083-1
+Imperialism possui imagem representativa LaGuerreAMadagascar.jpg
+Imperialism possui assunto Category:Marxian economics
+Imperialism faz parte de target
+Imperialism possui imagem representativa Expansion of the Mongol Empire.svg
+Imperialism possui imagem representativa Port Said from air.jpg
+Imperialism possui imagem representativa Japanese Empire (orthographic projection).svg
+Imperialism usa modelo de página wiki Template:Redirect
+Canadian Party possui ideologia Imperialism
+Culture and Imperialism possui assunto Imperialism
+Imperialism possui imagem representativa Austro-Hungary 1914.jpg
+Imperialism possui assunto Category:Imperialism
+Imperialism possui imagem representativa Independence Seaport Museum 226.jpg
+Imperialism usa modelo de página wiki Template:Authoritarian types of rule
+Imperialism possui imagem representativa Qing Empire circa 1820 EN.svg
+Imperialism usa modelo de página wiki Template:Politics
+Imperialism possui assunto Category:Political systems
+Imperialism possui imagem representativa Siege of Belgrade (Nándorfehérvár) 1456.jpg
+Herero and Namaqua genocide possui motivação Imperialism
+Imperialism possui imagem representativa EN-QIN260BCE.jpg
+Imperialism possui imagem representativa Aleppo-OttomantroopsTopicalpressagency.jpg
+Imperialism é do tipo Thing
+Imperialism usa modelo de página wiki Template:Main
+Imperialism usa modelo de página wiki Template:Wikiquote
+Imperialism usa modelo de página wiki Template:Refbegin
+Imperialism possui imagem representativa Italian empire 1940.png
+Imperialism é do tipo Organisation
+Imperialism possui assunto Category:Political theories
+Culture and Imperialism trata de assunto não ficcional Imperialism
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Blockquote
+Alliance for National Reconstruction  Alliance for National Reconstruction  1 possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Dubious
+Faultline 49 trata de assunto não ficcional Imperialism
+Imperialism usa modelo de página wiki Template:Cite book
+Circassian genocide possui motivação Imperialism
+Paul K. MacDonald possui principais interesses Imperialism
+Imperialism usa modelo de página wiki Template:Empires
+Imperialism usa modelo de página wiki Template:Monarchism
+Imperialism usa modelo de página wiki Template:Div col
+Imperialism usa modelo de página wiki Template:Div col end
+Imperialism usa modelo de página wiki Template:International relations
+Imperialism usa modelo de página wiki Template:Fact
+Wolfgang Mommsen atua nas áreas Imperialism
+Mykhailo Volobuiev é conhecido por Imperialism
+Canadian Party possui ideologia Imperialism
+Imperialism possui imagem representativa Soviet empire 1960.png
+Imperialism usa modelo de página wiki Template:Page needed
+Imperialism possui imagem representativa Raising of American flag at Iolani Palace with US Marines in the foreground (detailed).jpg
+Imperialism possui imagem representativa French Empire 17th century-20th century.png
+Imperialism possui imagem representativa German colonial.png
+Imperialism possui imagem representativa OttomanEmpire1683.png
+Imperialism possui hiperônimo Advocacy
+Imperialism possui imagem representativa Colonisation 1800.png
+Imperialism possui tópico principal Imperialism
+Léon-Étienne Duval foi contestado por Imperialism
+Imperialism possui imagem representativa Japanese Special Naval Landing Forces on the deck board of the IJN xxx, June 11th.jpg
+Imperialism possui imagem representativa Tipu Sultan, Indian warrior Emperor of Mysore.gif
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:See also
+Japanese war crimes possui motivação Imperialism
+Faultline 49 possui assunto Imperialism
+Settlers: The Mythology of the White Proletariat possui assunto Imperialism
+Imperialism usa modelo de página wiki Template:Authority control
+Imperialism possui imagem representativa Roman Empire Map.png
+Imperialism possui imagem representativa Colonial Africa 1913 map.svg
+Imperialism possui imagem representativa Spanish Empire Anachronous en.svg
+Imperialism usa modelo de página wiki Template:ISBN
+Imperialism usa modelo de página wiki Template:Expand section
+Imperialism possui imagem representativa All areas of the world that were once part of the Portuguese Empire.png
+Imperialism usa modelo de página wiki Template:Reflist
+Imperialism usa modelo de página wiki Template:Which
+Imperialism usa modelo de página wiki Template:Short description
+Imperialism usa modelo de página wiki Template:Refend
+Imperialism possui assunto Category:Invasions
+Imperialism possui imagem representativa Punch Rhodes Colossus.png
+Imperialism possui imagem representativa British Empire 1921.png
+Imperialism usa modelo de página wiki Template:Wiktionary
+Imperialism possui imagem representativa Colonialism in 1945 updated legend.png
+Imperialism usa modelo de página wiki Template:Party politics
+Imperialism possui imagem representativa First pictures of the Japanese occupation of Peiping in China.jpg
+Imperialism usa modelo de página wiki Template:Rp
+Imperialism usa modelo de página wiki Template:Political ideologies
+Imperialism possui assunto Category:Authoritarianism
+Imperialism usa modelo de página wiki Template:Citation needed
+
+### Exemplos
+[
+  {
+    """"""""pergunta"""""""": """"""""A palavra imperialismo tem suas origens em qual língua antiga?"""""""",
+    """"""""resposta"""""""": """"""""latina""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""De que maneira o imperialismo é geralmente administrado?"""""""",
+    """"""""resposta"""""""": """"""""força militar""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O termo imperialismo foi aplicado aos países ocidentais, e qual condado oriental?"""""""",
+    """"""""resposta"""""""": """"""""japonês),""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo é responsável pela rápida disseminação de quê?"""""""",
+    """"""""resposta"""""""": """"""""tecnologias e idéias.""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo estende o poder de um país e o quê?"""""""",
+    """"""""resposta"""""""": """"""""influência""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""o domínio colonial seria considerado que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""Imperialismo formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo muitas vezes divide os países usando qual técnica?"""""""",
+    """"""""resposta"""""""": """"""""outro""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo informal ainda é dominante; no entanto, menos o que?"""""""",
+    """"""""resposta"""""""": """"""""direto;""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""Um acordo comercial forçado entre dois países seria um exemplo de quê?"""""""",
+    """"""""resposta"""""""": """"""""imperialismo \""""""""formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""domínio colonial ou ocupação física de um território é um exemplo de que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""formal\""""""""""""""""
+  }
+]
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"O imperativeismo formal é frequentemente aplicado em que tipo de situações political?"""",
+  """"resposta"""": """"Em envolvements where states seek to expand their influence globally through economic and military means."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";3069;178;300;12.089721458
+2852_4;Imperialismo_few-shot-triplas_verbalizado_140_deepseek-r1:7b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: O imperativeismo combina imersões culturais e políticas de forma como?  
+**Resposta**: Cultural soft power"""" e imersões políticas.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+O termo Império (do latim imperium = poder, autoridade) denota primariamente um território geográfico extenso (o estado imperial), não necessariamente contíguo, contendo um conjunto de nações e povos etnicamente e/ou culturalmente diversos, governados por um soberano (denominado imperador) ou uma oligarquia, caracterizando-se como uma estrutura de poder. Um império é uma """"""""unidade política"""""""" composta por vários territórios e povos, """"""""normalmente criada por conquista, e dividida entre um centro dominante e periferias subordinadas"""""""". O centro do império (às vezes chamado de metrópole) exerce controle político sobre as periferias. O termo império é também utilizado como categoria de análise, ou seja, se refere a um conceito que abrange elementos ou aspectos com características comuns ou que se relacionam entre si, sendo que, neste caso, nem todos os estados assim classificados se autodenominaram impérios. Imperium Romanum é, provavelmente, a expressão latina mais conhecida, onde a palavra imperium é usada no sentido de """"""""território"""""""", sendo Império Romano, a parte do mundo sobre a qual Roma governava.
+
+### Fatos
+Wolfgang Mommsen atua na disciplina Imperialism
+Imperialism possui imagem representativa Roubaud. Russian troops entering Tiflis in 1799.jpg
+Imperialism usa modelo de página wiki Template:Cite encyclopedia
+Alliance for National Reconstruction possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Legend
+Imperialism usa modelo de página wiki Template:Main article
+Imperialism usa modelo de página wiki Template:Cite journal
+Imperialism possui assunto Category:History of colonialism
+Settlers: The Mythology of the White Proletariat trata de assunto não ficcional Imperialism
+Portuguese Angola pertence à era Imperialism
+Imperialism usa modelo de página wiki Template:Other uses
+Conservative Party of Canada (1867–1942) possui ideologia Imperialism
+Imperialism possui imagem representativa China imperialism cartoon.jpg
+Michael Parenti possui principais interesses Imperialism
+Conservative Party of Canada (1867–1942)  Conservative Party of Canada  1 possui ideologia Imperialism
+Imperialism possui imagem representativa Spanish Caribbean Islands in the American Viceroyalties 1600.png
+Imperialism possui imagem representativa British ships in Canton.jpg
+Imperialism possui imagem representativa Resa del bacino del Brandewater.jpg
+Imperialism possui correspondência exata 11083-1
+Imperialism possui imagem representativa LaGuerreAMadagascar.jpg
+Imperialism possui assunto Category:Marxian economics
+Imperialism faz parte de target
+Imperialism possui imagem representativa Expansion of the Mongol Empire.svg
+Imperialism possui imagem representativa Port Said from air.jpg
+Imperialism possui imagem representativa Japanese Empire (orthographic projection).svg
+Imperialism usa modelo de página wiki Template:Redirect
+Canadian Party possui ideologia Imperialism
+Culture and Imperialism possui assunto Imperialism
+Imperialism possui imagem representativa Austro-Hungary 1914.jpg
+Imperialism possui assunto Category:Imperialism
+Imperialism possui imagem representativa Independence Seaport Museum 226.jpg
+Imperialism usa modelo de página wiki Template:Authoritarian types of rule
+Imperialism possui imagem representativa Qing Empire circa 1820 EN.svg
+Imperialism usa modelo de página wiki Template:Politics
+Imperialism possui assunto Category:Political systems
+Imperialism possui imagem representativa Siege of Belgrade (Nándorfehérvár) 1456.jpg
+Herero and Namaqua genocide possui motivação Imperialism
+Imperialism possui imagem representativa EN-QIN260BCE.jpg
+Imperialism possui imagem representativa Aleppo-OttomantroopsTopicalpressagency.jpg
+Imperialism é do tipo Thing
+Imperialism usa modelo de página wiki Template:Main
+Imperialism usa modelo de página wiki Template:Wikiquote
+Imperialism usa modelo de página wiki Template:Refbegin
+Imperialism possui imagem representativa Italian empire 1940.png
+Imperialism é do tipo Organisation
+Imperialism possui assunto Category:Political theories
+Culture and Imperialism trata de assunto não ficcional Imperialism
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Blockquote
+Alliance for National Reconstruction  Alliance for National Reconstruction  1 possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Dubious
+Faultline 49 trata de assunto não ficcional Imperialism
+Imperialism usa modelo de página wiki Template:Cite book
+Circassian genocide possui motivação Imperialism
+Paul K. MacDonald possui principais interesses Imperialism
+Imperialism usa modelo de página wiki Template:Empires
+Imperialism usa modelo de página wiki Template:Monarchism
+Imperialism usa modelo de página wiki Template:Div col
+Imperialism usa modelo de página wiki Template:Div col end
+Imperialism usa modelo de página wiki Template:International relations
+Imperialism usa modelo de página wiki Template:Fact
+Wolfgang Mommsen atua nas áreas Imperialism
+Mykhailo Volobuiev é conhecido por Imperialism
+Canadian Party possui ideologia Imperialism
+Imperialism possui imagem representativa Soviet empire 1960.png
+Imperialism usa modelo de página wiki Template:Page needed
+Imperialism possui imagem representativa Raising of American flag at Iolani Palace with US Marines in the foreground (detailed).jpg
+Imperialism possui imagem representativa French Empire 17th century-20th century.png
+Imperialism possui imagem representativa German colonial.png
+Imperialism possui imagem representativa OttomanEmpire1683.png
+Imperialism possui hiperônimo Advocacy
+Imperialism possui imagem representativa Colonisation 1800.png
+Imperialism possui tópico principal Imperialism
+Léon-Étienne Duval foi contestado por Imperialism
+Imperialism possui imagem representativa Japanese Special Naval Landing Forces on the deck board of the IJN xxx, June 11th.jpg
+Imperialism possui imagem representativa Tipu Sultan, Indian warrior Emperor of Mysore.gif
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:See also
+Japanese war crimes possui motivação Imperialism
+Faultline 49 possui assunto Imperialism
+Settlers: The Mythology of the White Proletariat possui assunto Imperialism
+Imperialism usa modelo de página wiki Template:Authority control
+Imperialism possui imagem representativa Roman Empire Map.png
+Imperialism possui imagem representativa Colonial Africa 1913 map.svg
+Imperialism possui imagem representativa Spanish Empire Anachronous en.svg
+Imperialism usa modelo de página wiki Template:ISBN
+Imperialism usa modelo de página wiki Template:Expand section
+Imperialism possui imagem representativa All areas of the world that were once part of the Portuguese Empire.png
+Imperialism usa modelo de página wiki Template:Reflist
+Imperialism usa modelo de página wiki Template:Which
+Imperialism usa modelo de página wiki Template:Short description
+Imperialism usa modelo de página wiki Template:Refend
+Imperialism possui assunto Category:Invasions
+Imperialism possui imagem representativa Punch Rhodes Colossus.png
+Imperialism possui imagem representativa British Empire 1921.png
+Imperialism usa modelo de página wiki Template:Wiktionary
+Imperialism possui imagem representativa Colonialism in 1945 updated legend.png
+Imperialism usa modelo de página wiki Template:Party politics
+Imperialism possui imagem representativa First pictures of the Japanese occupation of Peiping in China.jpg
+Imperialism usa modelo de página wiki Template:Rp
+Imperialism usa modelo de página wiki Template:Political ideologies
+Imperialism possui assunto Category:Authoritarianism
+Imperialism usa modelo de página wiki Template:Citation needed
+
+### Exemplos
+[
+  {
+    """"""""pergunta"""""""": """"""""A palavra imperialismo tem suas origens em qual língua antiga?"""""""",
+    """"""""resposta"""""""": """"""""latina""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""De que maneira o imperialismo é geralmente administrado?"""""""",
+    """"""""resposta"""""""": """"""""força militar""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O termo imperialismo foi aplicado aos países ocidentais, e qual condado oriental?"""""""",
+    """"""""resposta"""""""": """"""""japonês),""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo é responsável pela rápida disseminação de quê?"""""""",
+    """"""""resposta"""""""": """"""""tecnologias e idéias.""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo estende o poder de um país e o quê?"""""""",
+    """"""""resposta"""""""": """"""""influência""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""o domínio colonial seria considerado que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""Imperialismo formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo muitas vezes divide os países usando qual técnica?"""""""",
+    """"""""resposta"""""""": """"""""outro""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo informal ainda é dominante; no entanto, menos o que?"""""""",
+    """"""""resposta"""""""": """"""""direto;""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""Um acordo comercial forçado entre dois países seria um exemplo de quê?"""""""",
+    """"""""resposta"""""""": """"""""imperialismo \""""""""formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""domínio colonial ou ocupação física de um território é um exemplo de que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""formal\""""""""""""""""
+  }
+]
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"O imperativeismo combina imersões culturais e políticas de forma como?"""",
+  """"resposta"""": """"Cultural soft power"""" e imersões políticas."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";3056;178;300;12.470762791999999
+2852_2;Imperialismo_few-shot-triplas_verbalizado_140_deepseek-r1:7b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: O imperativeismo geralmente envolve a imersão de quais elementos no contexto de outros países?  
+**Resposta**: técnicas como exploração mineral, construção de portas e instalação de redes de telecom.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+O termo Império (do latim imperium = poder, autoridade) denota primariamente um território geográfico extenso (o estado imperial), não necessariamente contíguo, contendo um conjunto de nações e povos etnicamente e/ou culturalmente diversos, governados por um soberano (denominado imperador) ou uma oligarquia, caracterizando-se como uma estrutura de poder. Um império é uma """"""""unidade política"""""""" composta por vários territórios e povos, """"""""normalmente criada por conquista, e dividida entre um centro dominante e periferias subordinadas"""""""". O centro do império (às vezes chamado de metrópole) exerce controle político sobre as periferias. O termo império é também utilizado como categoria de análise, ou seja, se refere a um conceito que abrange elementos ou aspectos com características comuns ou que se relacionam entre si, sendo que, neste caso, nem todos os estados assim classificados se autodenominaram impérios. Imperium Romanum é, provavelmente, a expressão latina mais conhecida, onde a palavra imperium é usada no sentido de """"""""território"""""""", sendo Império Romano, a parte do mundo sobre a qual Roma governava.
+
+### Fatos
+Wolfgang Mommsen atua na disciplina Imperialism
+Imperialism possui imagem representativa Roubaud. Russian troops entering Tiflis in 1799.jpg
+Imperialism usa modelo de página wiki Template:Cite encyclopedia
+Alliance for National Reconstruction possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Legend
+Imperialism usa modelo de página wiki Template:Main article
+Imperialism usa modelo de página wiki Template:Cite journal
+Imperialism possui assunto Category:History of colonialism
+Settlers: The Mythology of the White Proletariat trata de assunto não ficcional Imperialism
+Portuguese Angola pertence à era Imperialism
+Imperialism usa modelo de página wiki Template:Other uses
+Conservative Party of Canada (1867–1942) possui ideologia Imperialism
+Imperialism possui imagem representativa China imperialism cartoon.jpg
+Michael Parenti possui principais interesses Imperialism
+Conservative Party of Canada (1867–1942)  Conservative Party of Canada  1 possui ideologia Imperialism
+Imperialism possui imagem representativa Spanish Caribbean Islands in the American Viceroyalties 1600.png
+Imperialism possui imagem representativa British ships in Canton.jpg
+Imperialism possui imagem representativa Resa del bacino del Brandewater.jpg
+Imperialism possui correspondência exata 11083-1
+Imperialism possui imagem representativa LaGuerreAMadagascar.jpg
+Imperialism possui assunto Category:Marxian economics
+Imperialism faz parte de target
+Imperialism possui imagem representativa Expansion of the Mongol Empire.svg
+Imperialism possui imagem representativa Port Said from air.jpg
+Imperialism possui imagem representativa Japanese Empire (orthographic projection).svg
+Imperialism usa modelo de página wiki Template:Redirect
+Canadian Party possui ideologia Imperialism
+Culture and Imperialism possui assunto Imperialism
+Imperialism possui imagem representativa Austro-Hungary 1914.jpg
+Imperialism possui assunto Category:Imperialism
+Imperialism possui imagem representativa Independence Seaport Museum 226.jpg
+Imperialism usa modelo de página wiki Template:Authoritarian types of rule
+Imperialism possui imagem representativa Qing Empire circa 1820 EN.svg
+Imperialism usa modelo de página wiki Template:Politics
+Imperialism possui assunto Category:Political systems
+Imperialism possui imagem representativa Siege of Belgrade (Nándorfehérvár) 1456.jpg
+Herero and Namaqua genocide possui motivação Imperialism
+Imperialism possui imagem representativa EN-QIN260BCE.jpg
+Imperialism possui imagem representativa Aleppo-OttomantroopsTopicalpressagency.jpg
+Imperialism é do tipo Thing
+Imperialism usa modelo de página wiki Template:Main
+Imperialism usa modelo de página wiki Template:Wikiquote
+Imperialism usa modelo de página wiki Template:Refbegin
+Imperialism possui imagem representativa Italian empire 1940.png
+Imperialism é do tipo Organisation
+Imperialism possui assunto Category:Political theories
+Culture and Imperialism trata de assunto não ficcional Imperialism
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Blockquote
+Alliance for National Reconstruction  Alliance for National Reconstruction  1 possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Dubious
+Faultline 49 trata de assunto não ficcional Imperialism
+Imperialism usa modelo de página wiki Template:Cite book
+Circassian genocide possui motivação Imperialism
+Paul K. MacDonald possui principais interesses Imperialism
+Imperialism usa modelo de página wiki Template:Empires
+Imperialism usa modelo de página wiki Template:Monarchism
+Imperialism usa modelo de página wiki Template:Div col
+Imperialism usa modelo de página wiki Template:Div col end
+Imperialism usa modelo de página wiki Template:International relations
+Imperialism usa modelo de página wiki Template:Fact
+Wolfgang Mommsen atua nas áreas Imperialism
+Mykhailo Volobuiev é conhecido por Imperialism
+Canadian Party possui ideologia Imperialism
+Imperialism possui imagem representativa Soviet empire 1960.png
+Imperialism usa modelo de página wiki Template:Page needed
+Imperialism possui imagem representativa Raising of American flag at Iolani Palace with US Marines in the foreground (detailed).jpg
+Imperialism possui imagem representativa French Empire 17th century-20th century.png
+Imperialism possui imagem representativa German colonial.png
+Imperialism possui imagem representativa OttomanEmpire1683.png
+Imperialism possui hiperônimo Advocacy
+Imperialism possui imagem representativa Colonisation 1800.png
+Imperialism possui tópico principal Imperialism
+Léon-Étienne Duval foi contestado por Imperialism
+Imperialism possui imagem representativa Japanese Special Naval Landing Forces on the deck board of the IJN xxx, June 11th.jpg
+Imperialism possui imagem representativa Tipu Sultan, Indian warrior Emperor of Mysore.gif
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:See also
+Japanese war crimes possui motivação Imperialism
+Faultline 49 possui assunto Imperialism
+Settlers: The Mythology of the White Proletariat possui assunto Imperialism
+Imperialism usa modelo de página wiki Template:Authority control
+Imperialism possui imagem representativa Roman Empire Map.png
+Imperialism possui imagem representativa Colonial Africa 1913 map.svg
+Imperialism possui imagem representativa Spanish Empire Anachronous en.svg
+Imperialism usa modelo de página wiki Template:ISBN
+Imperialism usa modelo de página wiki Template:Expand section
+Imperialism possui imagem representativa All areas of the world that were once part of the Portuguese Empire.png
+Imperialism usa modelo de página wiki Template:Reflist
+Imperialism usa modelo de página wiki Template:Which
+Imperialism usa modelo de página wiki Template:Short description
+Imperialism usa modelo de página wiki Template:Refend
+Imperialism possui assunto Category:Invasions
+Imperialism possui imagem representativa Punch Rhodes Colossus.png
+Imperialism possui imagem representativa British Empire 1921.png
+Imperialism usa modelo de página wiki Template:Wiktionary
+Imperialism possui imagem representativa Colonialism in 1945 updated legend.png
+Imperialism usa modelo de página wiki Template:Party politics
+Imperialism possui imagem representativa First pictures of the Japanese occupation of Peiping in China.jpg
+Imperialism usa modelo de página wiki Template:Rp
+Imperialism usa modelo de página wiki Template:Political ideologies
+Imperialism possui assunto Category:Authoritarianism
+Imperialism usa modelo de página wiki Template:Citation needed
+
+### Exemplos
+[
+  {
+    """"""""pergunta"""""""": """"""""A palavra imperialismo tem suas origens em qual língua antiga?"""""""",
+    """"""""resposta"""""""": """"""""latina""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""De que maneira o imperialismo é geralmente administrado?"""""""",
+    """"""""resposta"""""""": """"""""força militar""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O termo imperialismo foi aplicado aos países ocidentais, e qual condado oriental?"""""""",
+    """"""""resposta"""""""": """"""""japonês),""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo é responsável pela rápida disseminação de quê?"""""""",
+    """"""""resposta"""""""": """"""""tecnologias e idéias.""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo estende o poder de um país e o quê?"""""""",
+    """"""""resposta"""""""": """"""""influência""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""o domínio colonial seria considerado que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""Imperialismo formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo muitas vezes divide os países usando qual técnica?"""""""",
+    """"""""resposta"""""""": """"""""outro""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo informal ainda é dominante; no entanto, menos o que?"""""""",
+    """"""""resposta"""""""": """"""""direto;""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""Um acordo comercial forçado entre dois países seria um exemplo de quê?"""""""",
+    """"""""resposta"""""""": """"""""imperialismo \""""""""formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""domínio colonial ou ocupação física de um território é um exemplo de que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""formal\""""""""""""""""
+  }
+]
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"O imperativeismo geralmente envolve a imersão de quais elementos no contexto de outros países?"""",
+  """"resposta"""": """"técnicas como exploração mineral, construção de portas e instalação de redes de telecom."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";3082;189;300;12.4898125
+2852_9;Imperialismo_few-shot-triplas_verbalizado_140_deepseek-r1:7b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: Uma imersão cultural em um contexto imperialista pode trazer quais benefícios para os locais localizados no território imperial?  
+**Resposta**: Conhecimento da língua, apropriação de cultura e possíveis negociações economicas.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+O termo Império (do latim imperium = poder, autoridade) denota primariamente um território geográfico extenso (o estado imperial), não necessariamente contíguo, contendo um conjunto de nações e povos etnicamente e/ou culturalmente diversos, governados por um soberano (denominado imperador) ou uma oligarquia, caracterizando-se como uma estrutura de poder. Um império é uma """"""""unidade política"""""""" composta por vários territórios e povos, """"""""normalmente criada por conquista, e dividida entre um centro dominante e periferias subordinadas"""""""". O centro do império (às vezes chamado de metrópole) exerce controle político sobre as periferias. O termo império é também utilizado como categoria de análise, ou seja, se refere a um conceito que abrange elementos ou aspectos com características comuns ou que se relacionam entre si, sendo que, neste caso, nem todos os estados assim classificados se autodenominaram impérios. Imperium Romanum é, provavelmente, a expressão latina mais conhecida, onde a palavra imperium é usada no sentido de """"""""território"""""""", sendo Império Romano, a parte do mundo sobre a qual Roma governava.
+
+### Fatos
+Wolfgang Mommsen atua na disciplina Imperialism
+Imperialism possui imagem representativa Roubaud. Russian troops entering Tiflis in 1799.jpg
+Imperialism usa modelo de página wiki Template:Cite encyclopedia
+Alliance for National Reconstruction possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Legend
+Imperialism usa modelo de página wiki Template:Main article
+Imperialism usa modelo de página wiki Template:Cite journal
+Imperialism possui assunto Category:History of colonialism
+Settlers: The Mythology of the White Proletariat trata de assunto não ficcional Imperialism
+Portuguese Angola pertence à era Imperialism
+Imperialism usa modelo de página wiki Template:Other uses
+Conservative Party of Canada (1867–1942) possui ideologia Imperialism
+Imperialism possui imagem representativa China imperialism cartoon.jpg
+Michael Parenti possui principais interesses Imperialism
+Conservative Party of Canada (1867–1942)  Conservative Party of Canada  1 possui ideologia Imperialism
+Imperialism possui imagem representativa Spanish Caribbean Islands in the American Viceroyalties 1600.png
+Imperialism possui imagem representativa British ships in Canton.jpg
+Imperialism possui imagem representativa Resa del bacino del Brandewater.jpg
+Imperialism possui correspondência exata 11083-1
+Imperialism possui imagem representativa LaGuerreAMadagascar.jpg
+Imperialism possui assunto Category:Marxian economics
+Imperialism faz parte de target
+Imperialism possui imagem representativa Expansion of the Mongol Empire.svg
+Imperialism possui imagem representativa Port Said from air.jpg
+Imperialism possui imagem representativa Japanese Empire (orthographic projection).svg
+Imperialism usa modelo de página wiki Template:Redirect
+Canadian Party possui ideologia Imperialism
+Culture and Imperialism possui assunto Imperialism
+Imperialism possui imagem representativa Austro-Hungary 1914.jpg
+Imperialism possui assunto Category:Imperialism
+Imperialism possui imagem representativa Independence Seaport Museum 226.jpg
+Imperialism usa modelo de página wiki Template:Authoritarian types of rule
+Imperialism possui imagem representativa Qing Empire circa 1820 EN.svg
+Imperialism usa modelo de página wiki Template:Politics
+Imperialism possui assunto Category:Political systems
+Imperialism possui imagem representativa Siege of Belgrade (Nándorfehérvár) 1456.jpg
+Herero and Namaqua genocide possui motivação Imperialism
+Imperialism possui imagem representativa EN-QIN260BCE.jpg
+Imperialism possui imagem representativa Aleppo-OttomantroopsTopicalpressagency.jpg
+Imperialism é do tipo Thing
+Imperialism usa modelo de página wiki Template:Main
+Imperialism usa modelo de página wiki Template:Wikiquote
+Imperialism usa modelo de página wiki Template:Refbegin
+Imperialism possui imagem representativa Italian empire 1940.png
+Imperialism é do tipo Organisation
+Imperialism possui assunto Category:Political theories
+Culture and Imperialism trata de assunto não ficcional Imperialism
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Blockquote
+Alliance for National Reconstruction  Alliance for National Reconstruction  1 possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Dubious
+Faultline 49 trata de assunto não ficcional Imperialism
+Imperialism usa modelo de página wiki Template:Cite book
+Circassian genocide possui motivação Imperialism
+Paul K. MacDonald possui principais interesses Imperialism
+Imperialism usa modelo de página wiki Template:Empires
+Imperialism usa modelo de página wiki Template:Monarchism
+Imperialism usa modelo de página wiki Template:Div col
+Imperialism usa modelo de página wiki Template:Div col end
+Imperialism usa modelo de página wiki Template:International relations
+Imperialism usa modelo de página wiki Template:Fact
+Wolfgang Mommsen atua nas áreas Imperialism
+Mykhailo Volobuiev é conhecido por Imperialism
+Canadian Party possui ideologia Imperialism
+Imperialism possui imagem representativa Soviet empire 1960.png
+Imperialism usa modelo de página wiki Template:Page needed
+Imperialism possui imagem representativa Raising of American flag at Iolani Palace with US Marines in the foreground (detailed).jpg
+Imperialism possui imagem representativa French Empire 17th century-20th century.png
+Imperialism possui imagem representativa German colonial.png
+Imperialism possui imagem representativa OttomanEmpire1683.png
+Imperialism possui hiperônimo Advocacy
+Imperialism possui imagem representativa Colonisation 1800.png
+Imperialism possui tópico principal Imperialism
+Léon-Étienne Duval foi contestado por Imperialism
+Imperialism possui imagem representativa Japanese Special Naval Landing Forces on the deck board of the IJN xxx, June 11th.jpg
+Imperialism possui imagem representativa Tipu Sultan, Indian warrior Emperor of Mysore.gif
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:See also
+Japanese war crimes possui motivação Imperialism
+Faultline 49 possui assunto Imperialism
+Settlers: The Mythology of the White Proletariat possui assunto Imperialism
+Imperialism usa modelo de página wiki Template:Authority control
+Imperialism possui imagem representativa Roman Empire Map.png
+Imperialism possui imagem representativa Colonial Africa 1913 map.svg
+Imperialism possui imagem representativa Spanish Empire Anachronous en.svg
+Imperialism usa modelo de página wiki Template:ISBN
+Imperialism usa modelo de página wiki Template:Expand section
+Imperialism possui imagem representativa All areas of the world that were once part of the Portuguese Empire.png
+Imperialism usa modelo de página wiki Template:Reflist
+Imperialism usa modelo de página wiki Template:Which
+Imperialism usa modelo de página wiki Template:Short description
+Imperialism usa modelo de página wiki Template:Refend
+Imperialism possui assunto Category:Invasions
+Imperialism possui imagem representativa Punch Rhodes Colossus.png
+Imperialism possui imagem representativa British Empire 1921.png
+Imperialism usa modelo de página wiki Template:Wiktionary
+Imperialism possui imagem representativa Colonialism in 1945 updated legend.png
+Imperialism usa modelo de página wiki Template:Party politics
+Imperialism possui imagem representativa First pictures of the Japanese occupation of Peiping in China.jpg
+Imperialism usa modelo de página wiki Template:Rp
+Imperialism usa modelo de página wiki Template:Political ideologies
+Imperialism possui assunto Category:Authoritarianism
+Imperialism usa modelo de página wiki Template:Citation needed
+
+### Exemplos
+[
+  {
+    """"""""pergunta"""""""": """"""""A palavra imperialismo tem suas origens em qual língua antiga?"""""""",
+    """"""""resposta"""""""": """"""""latina""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""De que maneira o imperialismo é geralmente administrado?"""""""",
+    """"""""resposta"""""""": """"""""força militar""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O termo imperialismo foi aplicado aos países ocidentais, e qual condado oriental?"""""""",
+    """"""""resposta"""""""": """"""""japonês),""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo é responsável pela rápida disseminação de quê?"""""""",
+    """"""""resposta"""""""": """"""""tecnologias e idéias.""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo estende o poder de um país e o quê?"""""""",
+    """"""""resposta"""""""": """"""""influência""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""o domínio colonial seria considerado que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""Imperialismo formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo muitas vezes divide os países usando qual técnica?"""""""",
+    """"""""resposta"""""""": """"""""outro""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo informal ainda é dominante; no entanto, menos o que?"""""""",
+    """"""""resposta"""""""": """"""""direto;""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""Um acordo comercial forçado entre dois países seria um exemplo de quê?"""""""",
+    """"""""resposta"""""""": """"""""imperialismo \""""""""formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""domínio colonial ou ocupação física de um território é um exemplo de que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""formal\""""""""""""""""
+  }
+]
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"Uma imersão cultural em um contexto imperialista pode trazer quais benefícios para os locais localizados no território imperial?"""",
+  """"resposta"""": """"Conhecimento da língua, apropriação de cultura e possíveis negociações economicas."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";3106;195;300;12.609536792
+2852_8;Imperialismo_few-shot-triplas_verbalizado_140_deepseek-r1:7b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: O imperativeismo pode contribuir para o desenvolvimento da tecnologia de comunicação em forma como?  
+**Resposta**: Desenvolvendo tecnologias de comunicação modernas que permitem a transmissão de idéias e recursos.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+O termo Império (do latim imperium = poder, autoridade) denota primariamente um território geográfico extenso (o estado imperial), não necessariamente contíguo, contendo um conjunto de nações e povos etnicamente e/ou culturalmente diversos, governados por um soberano (denominado imperador) ou uma oligarquia, caracterizando-se como uma estrutura de poder. Um império é uma """"""""unidade política"""""""" composta por vários territórios e povos, """"""""normalmente criada por conquista, e dividida entre um centro dominante e periferias subordinadas"""""""". O centro do império (às vezes chamado de metrópole) exerce controle político sobre as periferias. O termo império é também utilizado como categoria de análise, ou seja, se refere a um conceito que abrange elementos ou aspectos com características comuns ou que se relacionam entre si, sendo que, neste caso, nem todos os estados assim classificados se autodenominaram impérios. Imperium Romanum é, provavelmente, a expressão latina mais conhecida, onde a palavra imperium é usada no sentido de """"""""território"""""""", sendo Império Romano, a parte do mundo sobre a qual Roma governava.
+
+### Fatos
+Wolfgang Mommsen atua na disciplina Imperialism
+Imperialism possui imagem representativa Roubaud. Russian troops entering Tiflis in 1799.jpg
+Imperialism usa modelo de página wiki Template:Cite encyclopedia
+Alliance for National Reconstruction possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Legend
+Imperialism usa modelo de página wiki Template:Main article
+Imperialism usa modelo de página wiki Template:Cite journal
+Imperialism possui assunto Category:History of colonialism
+Settlers: The Mythology of the White Proletariat trata de assunto não ficcional Imperialism
+Portuguese Angola pertence à era Imperialism
+Imperialism usa modelo de página wiki Template:Other uses
+Conservative Party of Canada (1867–1942) possui ideologia Imperialism
+Imperialism possui imagem representativa China imperialism cartoon.jpg
+Michael Parenti possui principais interesses Imperialism
+Conservative Party of Canada (1867–1942)  Conservative Party of Canada  1 possui ideologia Imperialism
+Imperialism possui imagem representativa Spanish Caribbean Islands in the American Viceroyalties 1600.png
+Imperialism possui imagem representativa British ships in Canton.jpg
+Imperialism possui imagem representativa Resa del bacino del Brandewater.jpg
+Imperialism possui correspondência exata 11083-1
+Imperialism possui imagem representativa LaGuerreAMadagascar.jpg
+Imperialism possui assunto Category:Marxian economics
+Imperialism faz parte de target
+Imperialism possui imagem representativa Expansion of the Mongol Empire.svg
+Imperialism possui imagem representativa Port Said from air.jpg
+Imperialism possui imagem representativa Japanese Empire (orthographic projection).svg
+Imperialism usa modelo de página wiki Template:Redirect
+Canadian Party possui ideologia Imperialism
+Culture and Imperialism possui assunto Imperialism
+Imperialism possui imagem representativa Austro-Hungary 1914.jpg
+Imperialism possui assunto Category:Imperialism
+Imperialism possui imagem representativa Independence Seaport Museum 226.jpg
+Imperialism usa modelo de página wiki Template:Authoritarian types of rule
+Imperialism possui imagem representativa Qing Empire circa 1820 EN.svg
+Imperialism usa modelo de página wiki Template:Politics
+Imperialism possui assunto Category:Political systems
+Imperialism possui imagem representativa Siege of Belgrade (Nándorfehérvár) 1456.jpg
+Herero and Namaqua genocide possui motivação Imperialism
+Imperialism possui imagem representativa EN-QIN260BCE.jpg
+Imperialism possui imagem representativa Aleppo-OttomantroopsTopicalpressagency.jpg
+Imperialism é do tipo Thing
+Imperialism usa modelo de página wiki Template:Main
+Imperialism usa modelo de página wiki Template:Wikiquote
+Imperialism usa modelo de página wiki Template:Refbegin
+Imperialism possui imagem representativa Italian empire 1940.png
+Imperialism é do tipo Organisation
+Imperialism possui assunto Category:Political theories
+Culture and Imperialism trata de assunto não ficcional Imperialism
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Blockquote
+Alliance for National Reconstruction  Alliance for National Reconstruction  1 possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Dubious
+Faultline 49 trata de assunto não ficcional Imperialism
+Imperialism usa modelo de página wiki Template:Cite book
+Circassian genocide possui motivação Imperialism
+Paul K. MacDonald possui principais interesses Imperialism
+Imperialism usa modelo de página wiki Template:Empires
+Imperialism usa modelo de página wiki Template:Monarchism
+Imperialism usa modelo de página wiki Template:Div col
+Imperialism usa modelo de página wiki Template:Div col end
+Imperialism usa modelo de página wiki Template:International relations
+Imperialism usa modelo de página wiki Template:Fact
+Wolfgang Mommsen atua nas áreas Imperialism
+Mykhailo Volobuiev é conhecido por Imperialism
+Canadian Party possui ideologia Imperialism
+Imperialism possui imagem representativa Soviet empire 1960.png
+Imperialism usa modelo de página wiki Template:Page needed
+Imperialism possui imagem representativa Raising of American flag at Iolani Palace with US Marines in the foreground (detailed).jpg
+Imperialism possui imagem representativa French Empire 17th century-20th century.png
+Imperialism possui imagem representativa German colonial.png
+Imperialism possui imagem representativa OttomanEmpire1683.png
+Imperialism possui hiperônimo Advocacy
+Imperialism possui imagem representativa Colonisation 1800.png
+Imperialism possui tópico principal Imperialism
+Léon-Étienne Duval foi contestado por Imperialism
+Imperialism possui imagem representativa Japanese Special Naval Landing Forces on the deck board of the IJN xxx, June 11th.jpg
+Imperialism possui imagem representativa Tipu Sultan, Indian warrior Emperor of Mysore.gif
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:See also
+Japanese war crimes possui motivação Imperialism
+Faultline 49 possui assunto Imperialism
+Settlers: The Mythology of the White Proletariat possui assunto Imperialism
+Imperialism usa modelo de página wiki Template:Authority control
+Imperialism possui imagem representativa Roman Empire Map.png
+Imperialism possui imagem representativa Colonial Africa 1913 map.svg
+Imperialism possui imagem representativa Spanish Empire Anachronous en.svg
+Imperialism usa modelo de página wiki Template:ISBN
+Imperialism usa modelo de página wiki Template:Expand section
+Imperialism possui imagem representativa All areas of the world that were once part of the Portuguese Empire.png
+Imperialism usa modelo de página wiki Template:Reflist
+Imperialism usa modelo de página wiki Template:Which
+Imperialism usa modelo de página wiki Template:Short description
+Imperialism usa modelo de página wiki Template:Refend
+Imperialism possui assunto Category:Invasions
+Imperialism possui imagem representativa Punch Rhodes Colossus.png
+Imperialism possui imagem representativa British Empire 1921.png
+Imperialism usa modelo de página wiki Template:Wiktionary
+Imperialism possui imagem representativa Colonialism in 1945 updated legend.png
+Imperialism usa modelo de página wiki Template:Party politics
+Imperialism possui imagem representativa First pictures of the Japanese occupation of Peiping in China.jpg
+Imperialism usa modelo de página wiki Template:Rp
+Imperialism usa modelo de página wiki Template:Political ideologies
+Imperialism possui assunto Category:Authoritarianism
+Imperialism usa modelo de página wiki Template:Citation needed
+
+### Exemplos
+[
+  {
+    """"""""pergunta"""""""": """"""""A palavra imperialismo tem suas origens em qual língua antiga?"""""""",
+    """"""""resposta"""""""": """"""""latina""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""De que maneira o imperialismo é geralmente administrado?"""""""",
+    """"""""resposta"""""""": """"""""força militar""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O termo imperialismo foi aplicado aos países ocidentais, e qual condado oriental?"""""""",
+    """"""""resposta"""""""": """"""""japonês),""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo é responsável pela rápida disseminação de quê?"""""""",
+    """"""""resposta"""""""": """"""""tecnologias e idéias.""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo estende o poder de um país e o quê?"""""""",
+    """"""""resposta"""""""": """"""""influência""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""o domínio colonial seria considerado que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""Imperialismo formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo muitas vezes divide os países usando qual técnica?"""""""",
+    """"""""resposta"""""""": """"""""outro""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo informal ainda é dominante; no entanto, menos o que?"""""""",
+    """"""""resposta"""""""": """"""""direto;""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""Um acordo comercial forçado entre dois países seria um exemplo de quê?"""""""",
+    """"""""resposta"""""""": """"""""imperialismo \""""""""formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""domínio colonial ou ocupação física de um território é um exemplo de que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""formal\""""""""""""""""
+  }
+]
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"O imperativeismo pode contribuir para o desenvolvimento da tecnologia de comunicação em forma como?"""",
+  """"resposta"""": """"Desenvolvendo tecnologias de comunicação modernas que permitem a transmissão de idéias e recursos."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";3087;221;300;13.779953667000001
+2852_3;Imperialismo_few-shot-triplas_verbalizado_140_deepseek-r1:7b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: O imperativeismo pode afetar a economia global de forma quantitativa e qual tipo de impacto isso pode ter?  
+**Resposta**: de forma positiva e negativa, dependendo se o imersão é usada para diversificação ou para desacordos culturais.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+O termo Império (do latim imperium = poder, autoridade) denota primariamente um território geográfico extenso (o estado imperial), não necessariamente contíguo, contendo um conjunto de nações e povos etnicamente e/ou culturalmente diversos, governados por um soberano (denominado imperador) ou uma oligarquia, caracterizando-se como uma estrutura de poder. Um império é uma """"""""unidade política"""""""" composta por vários territórios e povos, """"""""normalmente criada por conquista, e dividida entre um centro dominante e periferias subordinadas"""""""". O centro do império (às vezes chamado de metrópole) exerce controle político sobre as periferias. O termo império é também utilizado como categoria de análise, ou seja, se refere a um conceito que abrange elementos ou aspectos com características comuns ou que se relacionam entre si, sendo que, neste caso, nem todos os estados assim classificados se autodenominaram impérios. Imperium Romanum é, provavelmente, a expressão latina mais conhecida, onde a palavra imperium é usada no sentido de """"""""território"""""""", sendo Império Romano, a parte do mundo sobre a qual Roma governava.
+
+### Fatos
+Wolfgang Mommsen atua na disciplina Imperialism
+Imperialism possui imagem representativa Roubaud. Russian troops entering Tiflis in 1799.jpg
+Imperialism usa modelo de página wiki Template:Cite encyclopedia
+Alliance for National Reconstruction possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Legend
+Imperialism usa modelo de página wiki Template:Main article
+Imperialism usa modelo de página wiki Template:Cite journal
+Imperialism possui assunto Category:History of colonialism
+Settlers: The Mythology of the White Proletariat trata de assunto não ficcional Imperialism
+Portuguese Angola pertence à era Imperialism
+Imperialism usa modelo de página wiki Template:Other uses
+Conservative Party of Canada (1867–1942) possui ideologia Imperialism
+Imperialism possui imagem representativa China imperialism cartoon.jpg
+Michael Parenti possui principais interesses Imperialism
+Conservative Party of Canada (1867–1942)  Conservative Party of Canada  1 possui ideologia Imperialism
+Imperialism possui imagem representativa Spanish Caribbean Islands in the American Viceroyalties 1600.png
+Imperialism possui imagem representativa British ships in Canton.jpg
+Imperialism possui imagem representativa Resa del bacino del Brandewater.jpg
+Imperialism possui correspondência exata 11083-1
+Imperialism possui imagem representativa LaGuerreAMadagascar.jpg
+Imperialism possui assunto Category:Marxian economics
+Imperialism faz parte de target
+Imperialism possui imagem representativa Expansion of the Mongol Empire.svg
+Imperialism possui imagem representativa Port Said from air.jpg
+Imperialism possui imagem representativa Japanese Empire (orthographic projection).svg
+Imperialism usa modelo de página wiki Template:Redirect
+Canadian Party possui ideologia Imperialism
+Culture and Imperialism possui assunto Imperialism
+Imperialism possui imagem representativa Austro-Hungary 1914.jpg
+Imperialism possui assunto Category:Imperialism
+Imperialism possui imagem representativa Independence Seaport Museum 226.jpg
+Imperialism usa modelo de página wiki Template:Authoritarian types of rule
+Imperialism possui imagem representativa Qing Empire circa 1820 EN.svg
+Imperialism usa modelo de página wiki Template:Politics
+Imperialism possui assunto Category:Political systems
+Imperialism possui imagem representativa Siege of Belgrade (Nándorfehérvár) 1456.jpg
+Herero and Namaqua genocide possui motivação Imperialism
+Imperialism possui imagem representativa EN-QIN260BCE.jpg
+Imperialism possui imagem representativa Aleppo-OttomantroopsTopicalpressagency.jpg
+Imperialism é do tipo Thing
+Imperialism usa modelo de página wiki Template:Main
+Imperialism usa modelo de página wiki Template:Wikiquote
+Imperialism usa modelo de página wiki Template:Refbegin
+Imperialism possui imagem representativa Italian empire 1940.png
+Imperialism é do tipo Organisation
+Imperialism possui assunto Category:Political theories
+Culture and Imperialism trata de assunto não ficcional Imperialism
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Blockquote
+Alliance for National Reconstruction  Alliance for National Reconstruction  1 possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Dubious
+Faultline 49 trata de assunto não ficcional Imperialism
+Imperialism usa modelo de página wiki Template:Cite book
+Circassian genocide possui motivação Imperialism
+Paul K. MacDonald possui principais interesses Imperialism
+Imperialism usa modelo de página wiki Template:Empires
+Imperialism usa modelo de página wiki Template:Monarchism
+Imperialism usa modelo de página wiki Template:Div col
+Imperialism usa modelo de página wiki Template:Div col end
+Imperialism usa modelo de página wiki Template:International relations
+Imperialism usa modelo de página wiki Template:Fact
+Wolfgang Mommsen atua nas áreas Imperialism
+Mykhailo Volobuiev é conhecido por Imperialism
+Canadian Party possui ideologia Imperialism
+Imperialism possui imagem representativa Soviet empire 1960.png
+Imperialism usa modelo de página wiki Template:Page needed
+Imperialism possui imagem representativa Raising of American flag at Iolani Palace with US Marines in the foreground (detailed).jpg
+Imperialism possui imagem representativa French Empire 17th century-20th century.png
+Imperialism possui imagem representativa German colonial.png
+Imperialism possui imagem representativa OttomanEmpire1683.png
+Imperialism possui hiperônimo Advocacy
+Imperialism possui imagem representativa Colonisation 1800.png
+Imperialism possui tópico principal Imperialism
+Léon-Étienne Duval foi contestado por Imperialism
+Imperialism possui imagem representativa Japanese Special Naval Landing Forces on the deck board of the IJN xxx, June 11th.jpg
+Imperialism possui imagem representativa Tipu Sultan, Indian warrior Emperor of Mysore.gif
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:See also
+Japanese war crimes possui motivação Imperialism
+Faultline 49 possui assunto Imperialism
+Settlers: The Mythology of the White Proletariat possui assunto Imperialism
+Imperialism usa modelo de página wiki Template:Authority control
+Imperialism possui imagem representativa Roman Empire Map.png
+Imperialism possui imagem representativa Colonial Africa 1913 map.svg
+Imperialism possui imagem representativa Spanish Empire Anachronous en.svg
+Imperialism usa modelo de página wiki Template:ISBN
+Imperialism usa modelo de página wiki Template:Expand section
+Imperialism possui imagem representativa All areas of the world that were once part of the Portuguese Empire.png
+Imperialism usa modelo de página wiki Template:Reflist
+Imperialism usa modelo de página wiki Template:Which
+Imperialism usa modelo de página wiki Template:Short description
+Imperialism usa modelo de página wiki Template:Refend
+Imperialism possui assunto Category:Invasions
+Imperialism possui imagem representativa Punch Rhodes Colossus.png
+Imperialism possui imagem representativa British Empire 1921.png
+Imperialism usa modelo de página wiki Template:Wiktionary
+Imperialism possui imagem representativa Colonialism in 1945 updated legend.png
+Imperialism usa modelo de página wiki Template:Party politics
+Imperialism possui imagem representativa First pictures of the Japanese occupation of Peiping in China.jpg
+Imperialism usa modelo de página wiki Template:Rp
+Imperialism usa modelo de página wiki Template:Political ideologies
+Imperialism possui assunto Category:Authoritarianism
+Imperialism usa modelo de página wiki Template:Citation needed
+
+### Exemplos
+[
+  {
+    """"""""pergunta"""""""": """"""""A palavra imperialismo tem suas origens em qual língua antiga?"""""""",
+    """"""""resposta"""""""": """"""""latina""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""De que maneira o imperialismo é geralmente administrado?"""""""",
+    """"""""resposta"""""""": """"""""força militar""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O termo imperialismo foi aplicado aos países ocidentais, e qual condado oriental?"""""""",
+    """"""""resposta"""""""": """"""""japonês),""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo é responsável pela rápida disseminação de quê?"""""""",
+    """"""""resposta"""""""": """"""""tecnologias e idéias.""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo estende o poder de um país e o quê?"""""""",
+    """"""""resposta"""""""": """"""""influência""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""o domínio colonial seria considerado que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""Imperialismo formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo muitas vezes divide os países usando qual técnica?"""""""",
+    """"""""resposta"""""""": """"""""outro""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo informal ainda é dominante; no entanto, menos o que?"""""""",
+    """"""""resposta"""""""": """"""""direto;""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""Um acordo comercial forçado entre dois países seria um exemplo de quê?"""""""",
+    """"""""resposta"""""""": """"""""imperialismo \""""""""formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""domínio colonial ou ocupação física de um território é um exemplo de que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""formal\""""""""""""""""
+  }
+]
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"O imperativeismo pode afetar a economia global de forma quantitativa e qual tipo de impacto isso pode ter?"""",
+  """"resposta"""": """"de forma positiva e negativa, dependendo se o imersão é usada para diversificação ou para desacordos culturais."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";3111;233;300;14.389268124999997
+2852_10;Imperialismo_few-shot-triplas_verbalizado_140_deepseek-r1:7b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: Uma imersão cultural em um país em Crôniacs pode envolver quais tipos de impactos sociais?  
+**Resposta**: Aumento da identidade cultural local e possíveis mudanças sociais na expectativa de mudanças políticas.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+O termo Império (do latim imperium = poder, autoridade) denota primariamente um território geográfico extenso (o estado imperial), não necessariamente contíguo, contendo um conjunto de nações e povos etnicamente e/ou culturalmente diversos, governados por um soberano (denominado imperador) ou uma oligarquia, caracterizando-se como uma estrutura de poder. Um império é uma """"""""unidade política"""""""" composta por vários territórios e povos, """"""""normalmente criada por conquista, e dividida entre um centro dominante e periferias subordinadas"""""""". O centro do império (às vezes chamado de metrópole) exerce controle político sobre as periferias. O termo império é também utilizado como categoria de análise, ou seja, se refere a um conceito que abrange elementos ou aspectos com características comuns ou que se relacionam entre si, sendo que, neste caso, nem todos os estados assim classificados se autodenominaram impérios. Imperium Romanum é, provavelmente, a expressão latina mais conhecida, onde a palavra imperium é usada no sentido de """"""""território"""""""", sendo Império Romano, a parte do mundo sobre a qual Roma governava.
+
+### Fatos
+Wolfgang Mommsen atua na disciplina Imperialism
+Imperialism possui imagem representativa Roubaud. Russian troops entering Tiflis in 1799.jpg
+Imperialism usa modelo de página wiki Template:Cite encyclopedia
+Alliance for National Reconstruction possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Legend
+Imperialism usa modelo de página wiki Template:Main article
+Imperialism usa modelo de página wiki Template:Cite journal
+Imperialism possui assunto Category:History of colonialism
+Settlers: The Mythology of the White Proletariat trata de assunto não ficcional Imperialism
+Portuguese Angola pertence à era Imperialism
+Imperialism usa modelo de página wiki Template:Other uses
+Conservative Party of Canada (1867–1942) possui ideologia Imperialism
+Imperialism possui imagem representativa China imperialism cartoon.jpg
+Michael Parenti possui principais interesses Imperialism
+Conservative Party of Canada (1867–1942)  Conservative Party of Canada  1 possui ideologia Imperialism
+Imperialism possui imagem representativa Spanish Caribbean Islands in the American Viceroyalties 1600.png
+Imperialism possui imagem representativa British ships in Canton.jpg
+Imperialism possui imagem representativa Resa del bacino del Brandewater.jpg
+Imperialism possui correspondência exata 11083-1
+Imperialism possui imagem representativa LaGuerreAMadagascar.jpg
+Imperialism possui assunto Category:Marxian economics
+Imperialism faz parte de target
+Imperialism possui imagem representativa Expansion of the Mongol Empire.svg
+Imperialism possui imagem representativa Port Said from air.jpg
+Imperialism possui imagem representativa Japanese Empire (orthographic projection).svg
+Imperialism usa modelo de página wiki Template:Redirect
+Canadian Party possui ideologia Imperialism
+Culture and Imperialism possui assunto Imperialism
+Imperialism possui imagem representativa Austro-Hungary 1914.jpg
+Imperialism possui assunto Category:Imperialism
+Imperialism possui imagem representativa Independence Seaport Museum 226.jpg
+Imperialism usa modelo de página wiki Template:Authoritarian types of rule
+Imperialism possui imagem representativa Qing Empire circa 1820 EN.svg
+Imperialism usa modelo de página wiki Template:Politics
+Imperialism possui assunto Category:Political systems
+Imperialism possui imagem representativa Siege of Belgrade (Nándorfehérvár) 1456.jpg
+Herero and Namaqua genocide possui motivação Imperialism
+Imperialism possui imagem representativa EN-QIN260BCE.jpg
+Imperialism possui imagem representativa Aleppo-OttomantroopsTopicalpressagency.jpg
+Imperialism é do tipo Thing
+Imperialism usa modelo de página wiki Template:Main
+Imperialism usa modelo de página wiki Template:Wikiquote
+Imperialism usa modelo de página wiki Template:Refbegin
+Imperialism possui imagem representativa Italian empire 1940.png
+Imperialism é do tipo Organisation
+Imperialism possui assunto Category:Political theories
+Culture and Imperialism trata de assunto não ficcional Imperialism
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Blockquote
+Alliance for National Reconstruction  Alliance for National Reconstruction  1 possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Dubious
+Faultline 49 trata de assunto não ficcional Imperialism
+Imperialism usa modelo de página wiki Template:Cite book
+Circassian genocide possui motivação Imperialism
+Paul K. MacDonald possui principais interesses Imperialism
+Imperialism usa modelo de página wiki Template:Empires
+Imperialism usa modelo de página wiki Template:Monarchism
+Imperialism usa modelo de página wiki Template:Div col
+Imperialism usa modelo de página wiki Template:Div col end
+Imperialism usa modelo de página wiki Template:International relations
+Imperialism usa modelo de página wiki Template:Fact
+Wolfgang Mommsen atua nas áreas Imperialism
+Mykhailo Volobuiev é conhecido por Imperialism
+Canadian Party possui ideologia Imperialism
+Imperialism possui imagem representativa Soviet empire 1960.png
+Imperialism usa modelo de página wiki Template:Page needed
+Imperialism possui imagem representativa Raising of American flag at Iolani Palace with US Marines in the foreground (detailed).jpg
+Imperialism possui imagem representativa French Empire 17th century-20th century.png
+Imperialism possui imagem representativa German colonial.png
+Imperialism possui imagem representativa OttomanEmpire1683.png
+Imperialism possui hiperônimo Advocacy
+Imperialism possui imagem representativa Colonisation 1800.png
+Imperialism possui tópico principal Imperialism
+Léon-Étienne Duval foi contestado por Imperialism
+Imperialism possui imagem representativa Japanese Special Naval Landing Forces on the deck board of the IJN xxx, June 11th.jpg
+Imperialism possui imagem representativa Tipu Sultan, Indian warrior Emperor of Mysore.gif
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:See also
+Japanese war crimes possui motivação Imperialism
+Faultline 49 possui assunto Imperialism
+Settlers: The Mythology of the White Proletariat possui assunto Imperialism
+Imperialism usa modelo de página wiki Template:Authority control
+Imperialism possui imagem representativa Roman Empire Map.png
+Imperialism possui imagem representativa Colonial Africa 1913 map.svg
+Imperialism possui imagem representativa Spanish Empire Anachronous en.svg
+Imperialism usa modelo de página wiki Template:ISBN
+Imperialism usa modelo de página wiki Template:Expand section
+Imperialism possui imagem representativa All areas of the world that were once part of the Portuguese Empire.png
+Imperialism usa modelo de página wiki Template:Reflist
+Imperialism usa modelo de página wiki Template:Which
+Imperialism usa modelo de página wiki Template:Short description
+Imperialism usa modelo de página wiki Template:Refend
+Imperialism possui assunto Category:Invasions
+Imperialism possui imagem representativa Punch Rhodes Colossus.png
+Imperialism possui imagem representativa British Empire 1921.png
+Imperialism usa modelo de página wiki Template:Wiktionary
+Imperialism possui imagem representativa Colonialism in 1945 updated legend.png
+Imperialism usa modelo de página wiki Template:Party politics
+Imperialism possui imagem representativa First pictures of the Japanese occupation of Peiping in China.jpg
+Imperialism usa modelo de página wiki Template:Rp
+Imperialism usa modelo de página wiki Template:Political ideologies
+Imperialism possui assunto Category:Authoritarianism
+Imperialism usa modelo de página wiki Template:Citation needed
+
+### Exemplos
+[
+  {
+    """"""""pergunta"""""""": """"""""A palavra imperialismo tem suas origens em qual língua antiga?"""""""",
+    """"""""resposta"""""""": """"""""latina""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""De que maneira o imperialismo é geralmente administrado?"""""""",
+    """"""""resposta"""""""": """"""""força militar""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O termo imperialismo foi aplicado aos países ocidentais, e qual condado oriental?"""""""",
+    """"""""resposta"""""""": """"""""japonês),""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo é responsável pela rápida disseminação de quê?"""""""",
+    """"""""resposta"""""""": """"""""tecnologias e idéias.""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo estende o poder de um país e o quê?"""""""",
+    """"""""resposta"""""""": """"""""influência""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""o domínio colonial seria considerado que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""Imperialismo formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo muitas vezes divide os países usando qual técnica?"""""""",
+    """"""""resposta"""""""": """"""""outro""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo informal ainda é dominante; no entanto, menos o que?"""""""",
+    """"""""resposta"""""""": """"""""direto;""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""Um acordo comercial forçado entre dois países seria um exemplo de quê?"""""""",
+    """"""""resposta"""""""": """"""""imperialismo \""""""""formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""domínio colonial ou ocupação física de um território é um exemplo de que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""formal\""""""""""""""""
+  }
+]
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"Uma imersão cultural em um país em Crôniacs pode envolver quais tipos de impactos sociais?"""",
+  """"resposta"""": """"Aumento da identidade cultural local e possíveis mudanças sociais na expectativa de mudanças políticas."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";3100;219;300;15.129726417
+2852_7;Imperialismo_few-shot-triplas_verbalizado_140_deepseek-r1:7b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: Os obstáculos na administração do imperativeismo podem incluir quais fatores specifics?  
+**Resposta**: Dificultades no equilíbrio entre imersões culturais e políticas, e a resistência dos locais a imersão.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+O termo Império (do latim imperium = poder, autoridade) denota primariamente um território geográfico extenso (o estado imperial), não necessariamente contíguo, contendo um conjunto de nações e povos etnicamente e/ou culturalmente diversos, governados por um soberano (denominado imperador) ou uma oligarquia, caracterizando-se como uma estrutura de poder. Um império é uma """"""""unidade política"""""""" composta por vários territórios e povos, """"""""normalmente criada por conquista, e dividida entre um centro dominante e periferias subordinadas"""""""". O centro do império (às vezes chamado de metrópole) exerce controle político sobre as periferias. O termo império é também utilizado como categoria de análise, ou seja, se refere a um conceito que abrange elementos ou aspectos com características comuns ou que se relacionam entre si, sendo que, neste caso, nem todos os estados assim classificados se autodenominaram impérios. Imperium Romanum é, provavelmente, a expressão latina mais conhecida, onde a palavra imperium é usada no sentido de """"""""território"""""""", sendo Império Romano, a parte do mundo sobre a qual Roma governava.
+
+### Fatos
+Wolfgang Mommsen atua na disciplina Imperialism
+Imperialism possui imagem representativa Roubaud. Russian troops entering Tiflis in 1799.jpg
+Imperialism usa modelo de página wiki Template:Cite encyclopedia
+Alliance for National Reconstruction possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Legend
+Imperialism usa modelo de página wiki Template:Main article
+Imperialism usa modelo de página wiki Template:Cite journal
+Imperialism possui assunto Category:History of colonialism
+Settlers: The Mythology of the White Proletariat trata de assunto não ficcional Imperialism
+Portuguese Angola pertence à era Imperialism
+Imperialism usa modelo de página wiki Template:Other uses
+Conservative Party of Canada (1867–1942) possui ideologia Imperialism
+Imperialism possui imagem representativa China imperialism cartoon.jpg
+Michael Parenti possui principais interesses Imperialism
+Conservative Party of Canada (1867–1942)  Conservative Party of Canada  1 possui ideologia Imperialism
+Imperialism possui imagem representativa Spanish Caribbean Islands in the American Viceroyalties 1600.png
+Imperialism possui imagem representativa British ships in Canton.jpg
+Imperialism possui imagem representativa Resa del bacino del Brandewater.jpg
+Imperialism possui correspondência exata 11083-1
+Imperialism possui imagem representativa LaGuerreAMadagascar.jpg
+Imperialism possui assunto Category:Marxian economics
+Imperialism faz parte de target
+Imperialism possui imagem representativa Expansion of the Mongol Empire.svg
+Imperialism possui imagem representativa Port Said from air.jpg
+Imperialism possui imagem representativa Japanese Empire (orthographic projection).svg
+Imperialism usa modelo de página wiki Template:Redirect
+Canadian Party possui ideologia Imperialism
+Culture and Imperialism possui assunto Imperialism
+Imperialism possui imagem representativa Austro-Hungary 1914.jpg
+Imperialism possui assunto Category:Imperialism
+Imperialism possui imagem representativa Independence Seaport Museum 226.jpg
+Imperialism usa modelo de página wiki Template:Authoritarian types of rule
+Imperialism possui imagem representativa Qing Empire circa 1820 EN.svg
+Imperialism usa modelo de página wiki Template:Politics
+Imperialism possui assunto Category:Political systems
+Imperialism possui imagem representativa Siege of Belgrade (Nándorfehérvár) 1456.jpg
+Herero and Namaqua genocide possui motivação Imperialism
+Imperialism possui imagem representativa EN-QIN260BCE.jpg
+Imperialism possui imagem representativa Aleppo-OttomantroopsTopicalpressagency.jpg
+Imperialism é do tipo Thing
+Imperialism usa modelo de página wiki Template:Main
+Imperialism usa modelo de página wiki Template:Wikiquote
+Imperialism usa modelo de página wiki Template:Refbegin
+Imperialism possui imagem representativa Italian empire 1940.png
+Imperialism é do tipo Organisation
+Imperialism possui assunto Category:Political theories
+Culture and Imperialism trata de assunto não ficcional Imperialism
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Blockquote
+Alliance for National Reconstruction  Alliance for National Reconstruction  1 possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Dubious
+Faultline 49 trata de assunto não ficcional Imperialism
+Imperialism usa modelo de página wiki Template:Cite book
+Circassian genocide possui motivação Imperialism
+Paul K. MacDonald possui principais interesses Imperialism
+Imperialism usa modelo de página wiki Template:Empires
+Imperialism usa modelo de página wiki Template:Monarchism
+Imperialism usa modelo de página wiki Template:Div col
+Imperialism usa modelo de página wiki Template:Div col end
+Imperialism usa modelo de página wiki Template:International relations
+Imperialism usa modelo de página wiki Template:Fact
+Wolfgang Mommsen atua nas áreas Imperialism
+Mykhailo Volobuiev é conhecido por Imperialism
+Canadian Party possui ideologia Imperialism
+Imperialism possui imagem representativa Soviet empire 1960.png
+Imperialism usa modelo de página wiki Template:Page needed
+Imperialism possui imagem representativa Raising of American flag at Iolani Palace with US Marines in the foreground (detailed).jpg
+Imperialism possui imagem representativa French Empire 17th century-20th century.png
+Imperialism possui imagem representativa German colonial.png
+Imperialism possui imagem representativa OttomanEmpire1683.png
+Imperialism possui hiperônimo Advocacy
+Imperialism possui imagem representativa Colonisation 1800.png
+Imperialism possui tópico principal Imperialism
+Léon-Étienne Duval foi contestado por Imperialism
+Imperialism possui imagem representativa Japanese Special Naval Landing Forces on the deck board of the IJN xxx, June 11th.jpg
+Imperialism possui imagem representativa Tipu Sultan, Indian warrior Emperor of Mysore.gif
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:See also
+Japanese war crimes possui motivação Imperialism
+Faultline 49 possui assunto Imperialism
+Settlers: The Mythology of the White Proletariat possui assunto Imperialism
+Imperialism usa modelo de página wiki Template:Authority control
+Imperialism possui imagem representativa Roman Empire Map.png
+Imperialism possui imagem representativa Colonial Africa 1913 map.svg
+Imperialism possui imagem representativa Spanish Empire Anachronous en.svg
+Imperialism usa modelo de página wiki Template:ISBN
+Imperialism usa modelo de página wiki Template:Expand section
+Imperialism possui imagem representativa All areas of the world that were once part of the Portuguese Empire.png
+Imperialism usa modelo de página wiki Template:Reflist
+Imperialism usa modelo de página wiki Template:Which
+Imperialism usa modelo de página wiki Template:Short description
+Imperialism usa modelo de página wiki Template:Refend
+Imperialism possui assunto Category:Invasions
+Imperialism possui imagem representativa Punch Rhodes Colossus.png
+Imperialism possui imagem representativa British Empire 1921.png
+Imperialism usa modelo de página wiki Template:Wiktionary
+Imperialism possui imagem representativa Colonialism in 1945 updated legend.png
+Imperialism usa modelo de página wiki Template:Party politics
+Imperialism possui imagem representativa First pictures of the Japanese occupation of Peiping in China.jpg
+Imperialism usa modelo de página wiki Template:Rp
+Imperialism usa modelo de página wiki Template:Political ideologies
+Imperialism possui assunto Category:Authoritarianism
+Imperialism usa modelo de página wiki Template:Citation needed
+
+### Exemplos
+[
+  {
+    """"""""pergunta"""""""": """"""""A palavra imperialismo tem suas origens em qual língua antiga?"""""""",
+    """"""""resposta"""""""": """"""""latina""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""De que maneira o imperialismo é geralmente administrado?"""""""",
+    """"""""resposta"""""""": """"""""força militar""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O termo imperialismo foi aplicado aos países ocidentais, e qual condado oriental?"""""""",
+    """"""""resposta"""""""": """"""""japonês),""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo é responsável pela rápida disseminação de quê?"""""""",
+    """"""""resposta"""""""": """"""""tecnologias e idéias.""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo estende o poder de um país e o quê?"""""""",
+    """"""""resposta"""""""": """"""""influência""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""o domínio colonial seria considerado que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""Imperialismo formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo muitas vezes divide os países usando qual técnica?"""""""",
+    """"""""resposta"""""""": """"""""outro""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo informal ainda é dominante; no entanto, menos o que?"""""""",
+    """"""""resposta"""""""": """"""""direto;""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""Um acordo comercial forçado entre dois países seria um exemplo de quê?"""""""",
+    """"""""resposta"""""""": """"""""imperialismo \""""""""formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""domínio colonial ou ocupação física de um território é um exemplo de que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""formal\""""""""""""""""
+  }
+]
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"Os obstáculos na administração do imperativeismo podem incluir quais fatores specifics?"""",
+  """"resposta"""": """"Dificultades no equilíbrio entre imersões culturais e políticas, e a resistência dos locais a imersão."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";3105;252;300;15.186025125000002
+2852_6;Imperialismo_few-shot-triplas_verbalizado_140_deepseek-r1:7b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: Uma imersão cultural em um país em Crôniacs poderia envolver quais ações relevantes?  
+**Resposta**: Conhecimento da língua, estudo de tradições e adesão à nova ideologia.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+O termo Império (do latim imperium = poder, autoridade) denota primariamente um território geográfico extenso (o estado imperial), não necessariamente contíguo, contendo um conjunto de nações e povos etnicamente e/ou culturalmente diversos, governados por um soberano (denominado imperador) ou uma oligarquia, caracterizando-se como uma estrutura de poder. Um império é uma """"""""unidade política"""""""" composta por vários territórios e povos, """"""""normalmente criada por conquista, e dividida entre um centro dominante e periferias subordinadas"""""""". O centro do império (às vezes chamado de metrópole) exerce controle político sobre as periferias. O termo império é também utilizado como categoria de análise, ou seja, se refere a um conceito que abrange elementos ou aspectos com características comuns ou que se relacionam entre si, sendo que, neste caso, nem todos os estados assim classificados se autodenominaram impérios. Imperium Romanum é, provavelmente, a expressão latina mais conhecida, onde a palavra imperium é usada no sentido de """"""""território"""""""", sendo Império Romano, a parte do mundo sobre a qual Roma governava.
+
+### Fatos
+Wolfgang Mommsen atua na disciplina Imperialism
+Imperialism possui imagem representativa Roubaud. Russian troops entering Tiflis in 1799.jpg
+Imperialism usa modelo de página wiki Template:Cite encyclopedia
+Alliance for National Reconstruction possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Legend
+Imperialism usa modelo de página wiki Template:Main article
+Imperialism usa modelo de página wiki Template:Cite journal
+Imperialism possui assunto Category:History of colonialism
+Settlers: The Mythology of the White Proletariat trata de assunto não ficcional Imperialism
+Portuguese Angola pertence à era Imperialism
+Imperialism usa modelo de página wiki Template:Other uses
+Conservative Party of Canada (1867–1942) possui ideologia Imperialism
+Imperialism possui imagem representativa China imperialism cartoon.jpg
+Michael Parenti possui principais interesses Imperialism
+Conservative Party of Canada (1867–1942)  Conservative Party of Canada  1 possui ideologia Imperialism
+Imperialism possui imagem representativa Spanish Caribbean Islands in the American Viceroyalties 1600.png
+Imperialism possui imagem representativa British ships in Canton.jpg
+Imperialism possui imagem representativa Resa del bacino del Brandewater.jpg
+Imperialism possui correspondência exata 11083-1
+Imperialism possui imagem representativa LaGuerreAMadagascar.jpg
+Imperialism possui assunto Category:Marxian economics
+Imperialism faz parte de target
+Imperialism possui imagem representativa Expansion of the Mongol Empire.svg
+Imperialism possui imagem representativa Port Said from air.jpg
+Imperialism possui imagem representativa Japanese Empire (orthographic projection).svg
+Imperialism usa modelo de página wiki Template:Redirect
+Canadian Party possui ideologia Imperialism
+Culture and Imperialism possui assunto Imperialism
+Imperialism possui imagem representativa Austro-Hungary 1914.jpg
+Imperialism possui assunto Category:Imperialism
+Imperialism possui imagem representativa Independence Seaport Museum 226.jpg
+Imperialism usa modelo de página wiki Template:Authoritarian types of rule
+Imperialism possui imagem representativa Qing Empire circa 1820 EN.svg
+Imperialism usa modelo de página wiki Template:Politics
+Imperialism possui assunto Category:Political systems
+Imperialism possui imagem representativa Siege of Belgrade (Nándorfehérvár) 1456.jpg
+Herero and Namaqua genocide possui motivação Imperialism
+Imperialism possui imagem representativa EN-QIN260BCE.jpg
+Imperialism possui imagem representativa Aleppo-OttomantroopsTopicalpressagency.jpg
+Imperialism é do tipo Thing
+Imperialism usa modelo de página wiki Template:Main
+Imperialism usa modelo de página wiki Template:Wikiquote
+Imperialism usa modelo de página wiki Template:Refbegin
+Imperialism possui imagem representativa Italian empire 1940.png
+Imperialism é do tipo Organisation
+Imperialism possui assunto Category:Political theories
+Culture and Imperialism trata de assunto não ficcional Imperialism
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Blockquote
+Alliance for National Reconstruction  Alliance for National Reconstruction  1 possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:Dubious
+Faultline 49 trata de assunto não ficcional Imperialism
+Imperialism usa modelo de página wiki Template:Cite book
+Circassian genocide possui motivação Imperialism
+Paul K. MacDonald possui principais interesses Imperialism
+Imperialism usa modelo de página wiki Template:Empires
+Imperialism usa modelo de página wiki Template:Monarchism
+Imperialism usa modelo de página wiki Template:Div col
+Imperialism usa modelo de página wiki Template:Div col end
+Imperialism usa modelo de página wiki Template:International relations
+Imperialism usa modelo de página wiki Template:Fact
+Wolfgang Mommsen atua nas áreas Imperialism
+Mykhailo Volobuiev é conhecido por Imperialism
+Canadian Party possui ideologia Imperialism
+Imperialism possui imagem representativa Soviet empire 1960.png
+Imperialism usa modelo de página wiki Template:Page needed
+Imperialism possui imagem representativa Raising of American flag at Iolani Palace with US Marines in the foreground (detailed).jpg
+Imperialism possui imagem representativa French Empire 17th century-20th century.png
+Imperialism possui imagem representativa German colonial.png
+Imperialism possui imagem representativa OttomanEmpire1683.png
+Imperialism possui hiperônimo Advocacy
+Imperialism possui imagem representativa Colonisation 1800.png
+Imperialism possui tópico principal Imperialism
+Léon-Étienne Duval foi contestado por Imperialism
+Imperialism possui imagem representativa Japanese Special Naval Landing Forces on the deck board of the IJN xxx, June 11th.jpg
+Imperialism possui imagem representativa Tipu Sultan, Indian warrior Emperor of Mysore.gif
+Progressive Party (Cape Colony) possui ideologia Imperialism
+Imperialism usa modelo de página wiki Template:See also
+Japanese war crimes possui motivação Imperialism
+Faultline 49 possui assunto Imperialism
+Settlers: The Mythology of the White Proletariat possui assunto Imperialism
+Imperialism usa modelo de página wiki Template:Authority control
+Imperialism possui imagem representativa Roman Empire Map.png
+Imperialism possui imagem representativa Colonial Africa 1913 map.svg
+Imperialism possui imagem representativa Spanish Empire Anachronous en.svg
+Imperialism usa modelo de página wiki Template:ISBN
+Imperialism usa modelo de página wiki Template:Expand section
+Imperialism possui imagem representativa All areas of the world that were once part of the Portuguese Empire.png
+Imperialism usa modelo de página wiki Template:Reflist
+Imperialism usa modelo de página wiki Template:Which
+Imperialism usa modelo de página wiki Template:Short description
+Imperialism usa modelo de página wiki Template:Refend
+Imperialism possui assunto Category:Invasions
+Imperialism possui imagem representativa Punch Rhodes Colossus.png
+Imperialism possui imagem representativa British Empire 1921.png
+Imperialism usa modelo de página wiki Template:Wiktionary
+Imperialism possui imagem representativa Colonialism in 1945 updated legend.png
+Imperialism usa modelo de página wiki Template:Party politics
+Imperialism possui imagem representativa First pictures of the Japanese occupation of Peiping in China.jpg
+Imperialism usa modelo de página wiki Template:Rp
+Imperialism usa modelo de página wiki Template:Political ideologies
+Imperialism possui assunto Category:Authoritarianism
+Imperialism usa modelo de página wiki Template:Citation needed
+
+### Exemplos
+[
+  {
+    """"""""pergunta"""""""": """"""""A palavra imperialismo tem suas origens em qual língua antiga?"""""""",
+    """"""""resposta"""""""": """"""""latina""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""De que maneira o imperialismo é geralmente administrado?"""""""",
+    """"""""resposta"""""""": """"""""força militar""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O termo imperialismo foi aplicado aos países ocidentais, e qual condado oriental?"""""""",
+    """"""""resposta"""""""": """"""""japonês),""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo é responsável pela rápida disseminação de quê?"""""""",
+    """"""""resposta"""""""": """"""""tecnologias e idéias.""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo estende o poder de um país e o quê?"""""""",
+    """"""""resposta"""""""": """"""""influência""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""o domínio colonial seria considerado que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""Imperialismo formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo muitas vezes divide os países usando qual técnica?"""""""",
+    """"""""resposta"""""""": """"""""outro""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""O imperialismo informal ainda é dominante; no entanto, menos o que?"""""""",
+    """"""""resposta"""""""": """"""""direto;""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""Um acordo comercial forçado entre dois países seria um exemplo de quê?"""""""",
+    """"""""resposta"""""""": """"""""imperialismo \""""""""formal\""""""""""""""""
+  },
+  {
+    """"""""pergunta"""""""": """"""""domínio colonial ou ocupação física de um território é um exemplo de que tipo de imperialismo?"""""""",
+    """"""""resposta"""""""": """"""""\""""""""formal\""""""""""""""""
+  }
+]
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"Uma imersão cultural em um país em Crôniacs poderia envolver quais ações relevantes?"""",
+  """"resposta"""": """"Conhecimento da língua, estudo de tradições e adesão à nova ideologia."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";3092;179;300;16.038075084

@@ -1,0 +1,98 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts. Let me start by carefully reading the context and facts provided.
+
+First, the context talks about prime numbers, their definitions, properties, examples like twin primes, the Fundamental Theorem of Arithmetic, and some specific numbers. There's also mention of primorials and open problems related to them. The facts list various numbers with "Prime number" as their factorization, along with some templates and images used in a wiki context.
+
+The user wants exactly 10 pairs, each with a question and a correct answer, all in Portuguese. The questions must be varied, cover different aspects, and the answers must be directly from the content. I need to avoid repetition and ensure each question is unique.
+
+Let me brainstorm possible questions:
+
+1. **Definition of a prime number**: The context says a prime has exactly two distinct natural divisors. So a question could be "O que define um número primo em termos de divisores?" with answer "um número que possui exatamente dois divisores distintos, 1 e ele mesmo."
+
+2. **Twin primes**: The example list includes pairs like (11, 13), (17, 19), etc. A question could ask for the term, like "Quais são os números primos gêmeos?" and answer "pares de números primos cuja diferença é 2."
+
+3. **Fundamental Theorem of Arithmetic**: The context mentions this theorem. A question could be "Qual teorema afirma que qualquer número maior que 1 pode ser representado como produto de primos?" Answer: "O teorema fundamental da aritmética."
+
+4. **Primorials**: The context discusses p# ±1. A question might be "O que são primoriais?" Answer: "produtos de todos os números primos até um certo número p."
+
+5. **Largest known prime**: The examples mention a 22,338,618-digit prime. But the context doesn't specify the exact number, but the facts mention "2,147,483,647" as a prime. However, the example given in the user's examples mentions 22 million digits. Wait, the context doesn't have that info, but the facts have "2,147,483,647" as a prime. Maybe I should check if the context mentions the largest prime. The context says "O maior primo encontrado da forma p# – 1; tem 6845 algarismos" but that's for p#-1. However, the example given by the user in their examples mentions 22 million digits. But since the context might not have that, I need to stick to the given context. So maybe a question about the largest prime found in the context: "Qual é o maior primo encontrado da forma p# – 1?" Answer: "15877# – 1."
+
+6. **Number of primes under 100**: The context lists several primes like 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. Counting them gives 25 primes. So a question could be "Quantos números primos existem menores que 100?" Answer: "25 números primos."
+
+7. **Prime numbers with specific factors**: The facts list numbers like 47, 113, 151, etc., all with factorization "Prime number". So a question like "Qual número primo é mencionado com a fatoração 'Prime number'?" Answer: "47" (but there are multiple, so maybe pick one, but the answer should be specific. However, the context may not have specific names, so perhaps a different approach.)
+
+Wait, the facts list many numbers with "Prime number" as their factorization. But the context might not mention specific numbers. Maybe better to ask about the list in the context. For example, the context lists primes up to 163, etc. But the user's examples have questions about specific numbers. Alternatively, check if the context mentions a specific number. For instance, "O que é 2,147,483,647?" Answer: "um número primo."
+
+8. **Prime number classes**: The facts mention "Template:Prime number classes". So a question could be "Qual modelo de página wiki é usado para classes de números primos?" Answer: "Template:Prime number classes."
+
+9. **Images related to prime numbers**: The facts mention images like "Gaussian primes.png", "Pentagon construct.gif", etc. A question could be "Qual imagem representa números primos em um diagrama de pizza?" Answer: "Pentagon construct.gif" (but I need to check the facts. The facts say "Prime number possui imagem representativa Pentagon construct.gif". So the answer would be "Pentagon construct.gif".
+
+10. **Historical figures related to primes**: The facts mention Landon Curt Noll and Heinrich Scherk. So a question like "Quem é conhecido por contribuições em números primos?" Answer: "Landon Curt Noll e Heinrich Scherk."
+
+Now, I need to ensure all answers are directly from the context or facts. Let me check each question against the context and facts.
+
+1. **Prime definition**: Yes, the context says "um número que possui exatamente dois divisores distintos, 1 e ele mesmo."
+
+2. **Twin primes**: The context mentions "números primos gêmeos" as pairs with difference 2.
+
+3. **Fundamental Theorem**: Yes, the context states "O teorema fundamental da aritmética."
+
+4. **Primorials**: The context discusses p# ±1, so the answer about primorials as products of primes up to p.
+
+5. **Largest p#-1 prime**: The context says "15877# – 1 é o maior primo encontrado da forma p# – 1".
+
+6. **Primes under 100**: The list in the context includes up to 97, and counting gives 25.
+
+7. **2,147,483,647**: The facts mention this as a prime.
+
+8. **Template for prime classes**: The facts have "Template:Prime number classes".
+
+9. **Image for Pentagon construct**: Yes, in the facts.
+
+10. **Historical figures**: Yes, the facts mention Landon Curt Noll and Heinrich Scherk.
+
+Now, I need to structure these into 10 pairs, making sure they are distinct and cover different aspects. Avoid repetition. Also, check for any possible errors.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a definição de um número primo em termos de divisores?",
+    "resposta": "um número que possui exatamente dois divisores distintos, 1 e ele mesmo."
+  },
+  {
+    "pergunta": "Quais são os números primos gêmeos mencionados no contexto?",
+    "resposta": "pares de números primos cuja diferença é 2, como (11, 13) e (17, 19)."
+  },
+  {
+    "pergunta": "Qual teorema afirma que qualquer número maior que 1 pode ser representado como produto de primos?",
+    "resposta": "O teorema fundamental da aritmética."
+  },
+  {
+    "pergunta": "O que são primoriais, segundo o contexto?",
+    "resposta": "produtos de todos os números primos até um certo número p."
+  },
+  {
+    "pergunta": "Qual é o maior primo encontrado da forma p# – 1?",
+    "resposta": "15877# – 1."
+  },
+  {
+    "pergunta": "Quantos números primos existem menores que 100?",
+    "resposta": "25 números primos."
+  },
+  {
+    "pergunta": "Qual número primo é mencionado com a fatoração 'Prime number' nos fatos?",
+    "resposta": "2,147,483,647."
+  },
+  {
+    "pergunta": "Qual modelo de página wiki é usado para classes de números primos?",
+    "resposta": "Template:Prime number classes."
+  },
+  {
+    "pergunta": "Qual imagem representa números primos em um diagrama de pizza?",
+    "resposta": "Pentagon construct.gif."
+  },
+  {
+    "pergunta": "Quem é conhecido por contribuições em números primos, segundo os fatos?",
+    "resposta": "Landon Curt Noll e Heinrich Scherk."
+  }
+]

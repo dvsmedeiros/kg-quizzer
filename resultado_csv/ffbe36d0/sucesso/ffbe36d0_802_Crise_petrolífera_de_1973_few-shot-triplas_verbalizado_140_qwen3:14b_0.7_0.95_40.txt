@@ -1,0 +1,67 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. The context is about the 1973 oil crisis, the embargo by OPEC, the affected countries, the price increase, and the long-term effects. The facts include a lot of metadata, like categories, templates, and images, but the main content is in the context paragraph.
+
+First, I need to make sure the questions are varied and cover different aspects. The examples given in the prompt include when the crisis started, price changes, the second crisis, terms used, who imposed the embargo, reasons for European countries separating from the US, Nixon's negotiations, Kissinger's date, when the embargo ended, and the US leaving Bretton Woods. Wait, but the last example about Bretton Woods isn't in the context. Hmm, maybe that's a mistake. The user's context doesn't mention Bretton Woods, so I should avoid that. Let me check the context again.
+
+The context says the embargo was from October 1973, targeted countries supporting Israel, price went from $3 to $12 by March 1974, the US had higher prices, caused a crisis, called the first oil shock, followed by 1979. The facts have a lot of technical info but the main info is in the context. The examples have some questions that are not directly from the context, like the US leaving Bretton Woods, which isn't in the user's context. That might be an error, but I need to follow the user's context strictly.
+
+So, I need to create 10 questions based on the context provided. Let's list possible aspects: the start date, the OPEC members, the targeted countries, the price increase, the term "first oil shock", the duration of the embargo, the effects on the economy, the subsequent 1979 crisis, the impact on the US, and maybe the reasons for the embargo (support for Israel). Also, the facts mention categories like Energy crises, Petroleum economics, etc., but the user said to base on the context and facts. However, the main content is the context paragraph. The facts are more about metadata, so perhaps the user wants to use the context paragraph's info and maybe some of the facts that are related. Wait, the user's instruction says "based on context and facts provided" but the examples include some from the context and some not. But the user's context is the paragraph, and the facts are additional info. Maybe the user wants to include some of the facts, like categories, but the examples given don't use them. The examples in the prompt are based on the context, not the facts. So I should focus on the context paragraph.
+
+Let me list possible questions:
+
+1. When did the 1973 oil crisis begin? (Answer: October 1973)
+2. Which organization imposed the oil embargo? (OPAEP/OPEC)
+3. Which countries were initially targeted by the embargo? (Canada, Japan, Netherlands, UK, USA)
+4. What was the price of oil before the embargo? (US$3 per barrel)
+5. What was the price in March 1974? (US$12)
+6. What was the term used for this crisis? (First oil shock)
+7. When did the embargo end? (March 1974)
+8. Which event followed the 1973 crisis? (1979 oil crisis, second shock)
+9. Why was the embargo imposed? (Support for Israel in Yom Kippur War)
+10. What were the effects of the crisis? (Economic and political impacts globally)
+
+That's 10. Now, need to check if these are all in the context. The context mentions OPAEP, the targeted countries, the price increase, the term "first shock", the end in March 1974, the 1979 crisis, the reason (support for Israel), the effects. Yes. Now, phrasing the questions and answers correctly, avoiding repetition. The examples had some that were similar, but I need to vary them. Also, make sure each answer is unique and from the context. Let me format them as JSON now.
+</think>
+
+[
+  {
+    "pergunta": "Quando foi proclamado o embargo petrolífero pela OPAEP?",
+    "resposta": "outubro de 1973"
+  },
+  {
+    "pergunta": "Quais países foram inicialmente alvo do embargo petrolífero?",
+    "resposta": "Canadá, Japão, Holanda, Reino Unido e Estados Unidos"
+  },
+  {
+    "pergunta": "Qual foi o aumento no preço do petróleo entre outubro de 1973 e março de 1974?",
+    "resposta": "de US$ 3 por barril para cerca de US$ 12"
+  },
+  {
+    "pergunta": "Por que o embargo foi imposto pelos países árabes?",
+    "resposta": "por apoiarem Israel durante a Guerra do Yom Kippur"
+  },
+  {
+    "pergunta": "Qual é o outro nome dado à crise petrolífera de 1973?",
+    "resposta": "primeiro choque do petróleo"
+  },
+  {
+    "pergunta": "Quando o embargo petrolífero foi levantado?",
+    "resposta": "março de 1974"
+  },
+  {
+    "pergunta": "Qual foi a crise petrolífera que ocorreu após a de 1973?",
+    "resposta": "crise de 1979"
+  },
+  {
+    "pergunta": "Qual foi o impacto da crise no mercado global?",
+    "resposta": "causou impactos econômicos e políticos em âmbito global"
+  },
+  {
+    "pergunta": "Qual país foi mencionado como tendo um aumento significativo no preço do petróleo?",
+    "resposta": "Estados Unidos"
+  },
+  {
+    "pergunta": "Qual organização foi responsável pela imposição do embargo?",
+    "resposta": "Organização dos Países Exportadores de Petróleo Árabes (OPAEP)"
+  }
+]

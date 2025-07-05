@@ -1,0 +1,93 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers based on the context "Comutação_de_pacotes". Let me start by recalling what packet switching is. It's a method where data is broken into packets, each with a header containing routing information. The packets travel independently through the network and are reassembled at the destination.
+
+First, I should think about key aspects of packet switching. Maybe the definition, types (like datagram vs. virtual circuit), advantages, how it works, comparison to circuit switching, protocols used, error handling, fragmentation, congestion control, and maybe real-world examples like the internet.
+
+Let me list possible questions. For example, "O que é comutação de pacotes?" with the answer being the definition. Then, types of packet switching could be another question. Advantages might be another, like efficiency compared to circuit switching. How routing works in packet switching. The role of headers. Error detection mechanisms. Congestion control methods. Examples of protocols (TCP/IP, UDP). Difference between virtual circuit and datagram. Reassembly process. Also, maybe something about fragmentation when packets are too large.
+
+Wait, I need to make sure each question has a clear, correct answer from the context. The user provided the context as "Comutação_de_pacotes", but maybe I need to infer from general knowledge since the context is just a title. However, the user might expect that the answers are based on standard information about packet switching. Let me check some points.
+
+Packet switching can be connectionless (datagram) or connection-oriented (virtual circuit). Advantages include efficient use of bandwidth, fault tolerance, scalability. Disadvantages might be variable delays. Protocols like TCP/IP use packet switching. Each packet has a header with source, destination, sequence number, etc. Routers use routing tables to forward packets. If packets arrive out of order, they are reassembled at the destination. Fragmentation occurs when a packet is too large for the network's MTU.
+
+Now, formulating questions. Let's start with the basics:
+
+1. Definição: What is packet switching?
+2. Types: What are the two main types?
+3. Advantage over circuit switching.
+4. Role of headers in packets.
+5. How does routing work?
+6. How are packets reassembled?
+7. Protocol example using packet switching.
+8. How does error detection work?
+9. What is fragmentation?
+10. What is the main disadvantage compared to circuit switching?
+
+Wait, but the user wants 10 pairs. Let me make sure each question is distinct and covers different aspects. Let me structure each step.
+
+Question 1: Definition. Answer should describe packet switching as breaking data into packets with headers for routing.
+
+Question 2: Types. Virtual circuit and datagram.
+
+Question 3: Advantage: Efficient bandwidth usage.
+
+Question 4: Header's role: Contains source, destination, sequence number, etc.
+
+Question 5: Routing process: Routers use routing tables to forward each packet independently.
+
+Question 6: Reassembly: Destination reassembles packets based on sequence numbers.
+
+Question 7: Protocol example: TCP/IP.
+
+Question 8: Error detection: Checksums or CRC in headers.
+
+Question 9: Fragmentation: Breaking packets into smaller units for transmission.
+
+Question 10: Disadvantage: Variable delay (latency) due to independent routing.
+
+I need to phrase these in Portuguese. Also, ensure each answer is correct and directly from the context. Let me check each one again for accuracy and uniqueness.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a principal característica da comutação de pacotes?",
+    "resposta": "Dividir os dados em pacotes com cabeçalhos contendo informações de roteamento."
+  },
+  {
+    "pergunta": "Quais são os dois principais tipos de comutação de pacotes?",
+    "resposta": "Circuito virtual e datagrama."
+  },
+  {
+    "pergunta": "Qual é uma vantagem da comutação de pacotes em relação à comutação por circuito?",
+    "resposta": "Uso mais eficiente da largura de banda."
+  },
+  {
+    "pergunta": "O que contém o cabeçalho de um pacote na comutação de pacotes?",
+    "resposta": "Endereço de origem, endereço de destino, número de sequência e informações de controle."
+  },
+  {
+    "pergunta": "Como é realizado o roteamento dos pacotes na comutação de pacotes?",
+    "resposta": "Roteadores utilizam tabelas de roteamento para encaminhar cada pacote de forma independente."
+  },
+  {
+    "pergunta": "Como os pacotes são reorganizados após a transmissão?",
+    "resposta": "O destino reorganiza os pacotes com base nos números de sequência contidos nos cabeçalhos."
+  },
+  {
+    "pergunta": "Qual protocolo utiliza a comutação de pacotes como base?",
+    "resposta": "TCP/IP."
+  },
+  {
+    "pergunta": "Como a detecção de erros é implementada na comutação de pacotes?",
+    "resposta": "Através de checksums ou códigos de redundância cíclica (CRC) no cabeçalho."
+  },
+  {
+    "pergunta": "O que é fragmentação de pacotes?",
+    "resposta": "Dividir pacotes em partes menores para adaptação à largura de banda da rede."
+  },
+  {
+    "pergunta": "Qual é uma desvantagem da comutação de pacotes?",
+    "resposta": "Atraso variável (latência) devido ao roteamento independente de cada pacote."
+  }
+]
+```

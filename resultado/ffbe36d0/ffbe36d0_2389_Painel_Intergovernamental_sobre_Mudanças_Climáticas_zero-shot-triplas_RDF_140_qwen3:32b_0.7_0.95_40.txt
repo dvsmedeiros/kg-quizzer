@@ -1,0 +1,80 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by carefully reading the context and the facts to identify key points.
+
+First, the context explains what the IPCC is, its creation, objectives, structure, and some achievements. The facts include information about the organization's structure, related organizations, locations, leaders, and some associated individuals.
+
+From the context, key points are:
+- IPCC was created in 1988 by UNEP and WMO.
+- It's a UN body.
+- Its main objectives: synthesize knowledge on climate change, causes, effects, mitigation.
+- Doesn't produce original research, summarizes scientific work.
+- Has five major reports, the last in 2014.
+- Won the Nobel Peace Prize in 2007.
+- Headquarters in Geneva.
+
+From the facts (RDF triples), there are mentions of related organizations (UNEP, WMO), headquarters in Geneva, current chair Hoesung Lee, and some scientists associated with IPCC. Also, the IPCC is categorized under various classes like organizations, groups, etc.
+
+Now, I need to form 10 varied questions. Let's brainstorm possible questions:
+
+1. When was the IPCC created? Answer: 1988.
+2. Which organizations created the IPCC? Answer: UNEP and WMO.
+3. What is the main objective of the IPCC? Answer: Synthesize and disseminate knowledge about climate change.
+4. Does the IPCC produce original research? Answer: No.
+5. How many major reports has the IPCC produced? Answer: Five (since 1990 to 2014).
+6. Which prize did the IPCC win in 2007? Answer: Nobel Peace Prize.
+7. Where is the IPCC headquartered? Answer: Geneva.
+8. Who is the current chair of the IPCC? Answer: Hoesung Lee.
+9. What are the parent organizations of the IPCC? Answer: UNEP and WMO.
+10. What is the primary function of the IPCC? Answer: To assess climate change science, impacts, and mitigation strategies.
+
+I need to check if all answers are present in the context or facts. For example, the chair is Hoesung Lee as per the facts. The headquarters are in Geneva. The Nobel Prize is mentioned in the context. The parent organizations are UNEP and WMO.
+
+I should avoid repeating similar questions. Each question should target a different aspect. Let's ensure each answer is directly from the given data. Also, using the facts, like the chair's name is in the facts, so that's valid.
+
+Now, structure the JSON output with these pairs. Make sure the JSON is correctly formatted, no markdown, just the JSON array.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em que ano foi criado o IPCC?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "Quais organizações criaram o IPCC?",
+    "resposta": "Programa das Nações Unidas para o Meio Ambiente (PNUMA) e Organização Meteorológica Mundial (OMM)"
+  },
+  {
+    "pergunta": "Qual é o principal objetivo do IPCC?",
+    "resposta": "Sintetizar e divulgar o conhecimento sobre mudanças climáticas, causas, efeitos e soluções"
+  },
+  {
+    "pergunta": "O IPCC produz pesquisas científicas originais?",
+    "resposta": "Não, o IPCC reúne e resume conhecimentos de cientistas independentes"
+  },
+  {
+    "pergunta": "Quantos grandes relatórios o IPCC já produziu?",
+    "resposta": "Cinco"
+  },
+  {
+    "pergunta": "Qual prêmio o IPCC recebeu em 2007?",
+    "resposta": "Prêmio Nobel da Paz"
+  },
+  {
+    "pergunta": "Onde está localizada a sede do IPCC?",
+    "resposta": "Genebra, Suíça"
+  },
+  {
+    "pergunta": "Quem é o atual presidente do IPCC?",
+    "resposta": "Hoesung Lee"
+  },
+  {
+    "pergunta": "Quais são as organizações parentes do IPCC?",
+    "resposta": "Programa das Nações Unidas para o Meio Ambiente (PNUMA) e Organização Meteorológica Mundial (OMM)"
+  },
+  {
+    "pergunta": "Qual é a função principal do IPCC em relação às mudanças climáticas?",
+    "resposta": "Avaliar ciência, impactos e estratégias de mitigação das mudanças climáticas"
+  }
+]
+```

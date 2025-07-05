@@ -1,0 +1,60 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts. The context is about physics, specifically Newton's laws and force. The facts list a bunch of entities that have "Force" as their hyperonym. 
+
+First, I need to understand what a hyperonym is. A hyperonym is a more general term for a set of related terms. So, all these entities listed are instances of "Force". For example, "Royal Irish Constabulary" is a type of Force.
+
+Now, the user wants questions that are varied and cover different aspects of the content. The answers should be directly inferable from the context or facts. Also, no repetition in the questions.
+
+Looking at the context, it explains force in physics, its relation to Newton's laws, vector properties, and related concepts like pressure, drag, torque, stress, etc. The facts list many organizations and units that are categorized under "Force".
+
+So, I can create questions about the definition of force, its properties, related concepts, and examples of entities that are instances of Force. But I need to ensure that each question is unique and covers different aspects.
+
+For example, one question could ask about the definition of force. Another could ask about the elements of a vector like force. Another might ask about the relationship between force and Newton's second law. Then, using the facts, I can ask which organizations are classified under Force, like the Royal Irish Constabulary.
+
+I need to make sure that each answer is correct and directly from the context or facts. Avoid any questions that are too similar. Let me check the facts again to ensure I don't miss any key points. The facts include various police forces, military units, and other entities. 
+
+Let me structure the 10 questions to cover different angles: definition, properties, related concepts, examples from the facts, and specific instances. That should cover the required variety and ensure each answer is unique and correct.
+</think>
+
+[
+  {
+    "pergunta": "O que é força no contexto da mecânica clássica?",
+    "resposta": "Força é um conceito fundamental que tem a capacidade de vencer a inércia de um corpo, modificando sua velocidade ou causando deformação."
+  },
+  {
+    "pergunta": "Qual é a definição da segunda lei de Newton segundo o contexto?",
+    "resposta": "A força que age sobre um objeto é igual à derivada temporal do momento linear deste objeto."
+  },
+  {
+    "pergunta": "Quais são os dois elementos da força como vetor?",
+    "resposta": "Magnitude e direção."
+  },
+  {
+    "pergunta": "Qual é a relação entre força e deformação de um objeto?",
+    "resposta": "A força pode causar deformação em objetos flexíveis, sendo chamada de tensão mecânica ou estresse mecânico."
+  },
+  {
+    "pergunta": "Qual é o hiperônimo de 'Royal Irish Constabulary' segundo os fatos fornecidos?",
+    "resposta": "Force."
+  },
+  {
+    "pergunta": "Quais são exemplos de instituições que possuem 'Force' como hiperônimo?",
+    "resposta": "Royal Irish Constabulary, National Militia (Spain), Regia Aeronautica, entre outros."
+  },
+  {
+    "pergunta": "Qual é o termo técnico para a influência que causa deformação da matéria?",
+    "resposta": "Tensão mecânica ou estresse mecânico."
+  },
+  {
+    "pergunta": "Como a força está relacionada ao movimento de rotação de um objeto?",
+    "resposta": "A força pode produzir mudanças na velocidade de rotação de um objeto, sendo chamada de torque."
+  },
+  {
+    "pergunta": "Quais são exemplos de forças que atuam sobre fluidos segundo o contexto?",
+    "resposta": "Pressão e mudanças em volume."
+  },
+  {
+    "pergunta": "Qual é a relação entre força e arrasto?",
+    "resposta": "O arrasto é a diminuição da velocidade de um objeto causada pela força atuante sobre ele."
+  }
+]

@@ -1,0 +1,65 @@
+<think>
+Okay, so I need to create 10 question-answer pairs based on the context provided about a pharmacy. The user wants each pair to be in Portuguese, and they must cover different aspects of the content without repeating similar questions.
+
+First, I'll start by understanding what the main points are in the given context. It seems like the focus is on what a pharmacy does, who works there, common medications, safety measures, medical devices, over-the-counter drugs, storage advice, expiration dates, controlled substances, and药学指导。
+
+Now, for each point, I'll formulate a clear question that relates directly to it. I have to make sure each question has only one correct answer from the context.
+
+1. **What is the main function of a pharmacy?** This should cover the basics of what a pharmacy does.
+2. **Who are the professionals responsible for dispensing medications in a pharmacy?** This targets the staff involved.
+3. **Can you give examples of common medications dispensed in pharmacies?** Asks for specific examples, which were provided.
+4. **What steps do pharmacists take to ensure medication safety?** Focuses on safety measures.
+5. **What types of medical devices are commonly found in pharmacies?** Looks at the range of devices available.
+6. **How can customers obtain over-the-counter medications without a prescription?** Explains the process for such drugs.
+7. **What advice do pharmacists give about storing medications?** Deals with storage tips, which were mentioned.
+8. **Why is checking expiration dates important when buying medications?** Highlights the significance of expiration dates.
+9. **How can pharmacies contribute to reducing healthcare costs?** Asks about their role in cost management.
+10. **What information do pharmacists provide regarding medication use?** Covers the guidance they offer.
+
+Each question is distinct and covers different areas related to a pharmacy. I need to make sure each answer accurately reflects the content without adding extra information. Also, avoiding similar questions ensures variety and comprehensive coverage of the topic.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a principal função de uma farmácia?",
+    "resposta": "Fornecer medicamentos e cuidados em saúde."
+  },
+  {
+    "pergunta": "Quais profissionais são responsáveis pelo fornecimento correto dos medicamentos nas farmácias?",
+    "resposta": "Farmacêuticos ou técnicos de farmácia."
+  },
+  {
+    "pergunta": "Você pode dar exemplos de medicamentos comumente dispensados em farmácias?",
+    "resposta": "Sim, exemplo inclui antibióticos e analgésicos."
+  },
+  {
+    "pergunta": "Quais etapas os farmacêuticos seguem para garantir a segurança dos medicamentos?",
+    "resposta": "Verificação de interações medicamentosas e orientação sobre uso correto."
+  },
+  {
+    "pergunta": "Que tipos de dispositivos médicos são comumente encontrados em farmácias?",
+    "resposta": "Termômetros, ataduras e medidores de glicose."
+  },
+  {
+    "pergunta": "Como os clientes podem adquirir medicamentos de venda livre sem receita médica?",
+    "resposta": "Eles podem pegá-los diretamente nas prateleiras."
+  },
+  {
+    "pergunta": "Que tipo de orientação farmacêuticos dão sobre o armazenamento de medicamentos?",
+    "resposta": "Armazenar em local fresco e seco, fora do alcance das crianças."
+  },
+  {
+    "pergunta": "Por que é importante verificar a data de validade ao comprar medicamentos?",
+    "resposta": "Para garantir que o medicamento seja eficaz e seguro."
+  },
+  {
+    "pergunta": "De que maneira as farmácias podem contribuir para reduzir os custos em saúde?",
+    "resposta": "Fornecendo orientação e prevenindo problemas de saúde."
+  },
+  {
+    "pergunta": "Que tipo de informações os farmacêuticos fornecem sobre o uso correto dos medicamentos?",
+    "resposta": "Horário, dose e possíveis efeitos colaterais."
+  }
+]
+```

@@ -1,0 +1,54 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs in Portuguese based on the context provided, which is "Vitória_(Austrália)". First, I need to understand what information is relevant about Victoria, Australia. 
+
+I remember that Victoria is a state in Australia, so the first question could be about its capital. The answer would be Melbourne. Next, maybe the largest city? That's also Melbourne. Then, the population? According to recent data, around 6.6 million. The official languages are English and some Indigenous languages, so the question could ask about the primary language. 
+
+Victoria is known for its natural landmarks like the Twelve Apostles. So a question about famous landmarks. The currency used in Victoria would be the Australian dollar. Political aspects: the current Premier as of 2023 is Daniel Andrews. Historical facts: founded in 1851. Sports teams like the Hawthorn Football Club. Climate: temperate, with four seasons. 
+
+I need to ensure each question is unique and covers different aspects. Let me check for repetition. Capital, largest city, population, languages, landmarks, currency, Premier, founding year, sports teams, climate. That's 10. Make sure the answers are accurate. Also, verify if all info is explicitly mentioned or inferable from the context. Since the context is just the name "Victoria_(Austrália)", I need to rely on common knowledge about the state. The user might expect answers based on general knowledge, so I should be careful with the data. Double-check facts like population and Premier to ensure they're up to date. Once confirmed, structure the JSON as specified without any additional text.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a capital do estado da Vitória na Austrália?",
+    "resposta": "Melbourne"
+  },
+  {
+    "pergunta": "Qual é a maior cidade do estado da Vitória?",
+    "resposta": "Melbourne"
+  },
+  {
+    "pergunta": "Qual é a população aproximada do estado da Vitória (2023)?",
+    "resposta": "6,6 milhões"
+  },
+  {
+    "pergunta": "Qual é o idioma oficial do estado da Vitória?",
+    "resposta": "Inglês"
+  },
+  {
+    "pergunta": "Qual é o nome da emblemática formação rochosa localizada na costa da Vitória?",
+    "resposta": "Twelve Apostles"
+  },
+  {
+    "pergunta": "Qual é a moeda oficial utilizada no estado da Vitória?",
+    "resposta": "Dólar Australiano"
+  },
+  {
+    "pergunta": "Quem é o atual Premier (governador) do estado da Vitória?",
+    "resposta": "Daniel Andrews"
+  },
+  {
+    "pergunta": "Em que ano o estado da Vitória foi fundado?",
+    "resposta": "1851"
+  },
+  {
+    "pergunta": "Qual é o nome do clube de futebol mais conhecido da cidade de Melbourne?",
+    "resposta": "Hawthorn Football Club"
+  },
+  {
+    "pergunta": "Que tipo de clima caracteriza o estado da Vitória?",
+    "resposta": "Clima temperado"
+  }
+]
+```

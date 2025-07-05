@@ -1,0 +1,75 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs in Portuguese based on the provided context and facts about the IPCC. The key points are that each pair must be relevant, have a single correct answer, and not repeat similar questions.
+
+First, I need to thoroughly understand the context and facts given. The context explains what the IPCC is, its establishment, purpose, and some key details like its Nobel Prize. The facts list various types, categories, people associated, and other attributes.
+
+I should start by identifying different aspects from the context and facts. For example, the IPCC's purpose, founding organizations, structure (like working groups), notable people, headquarters, awards, and so on. Each question should target a unique aspect.
+
+Let me brainstorm possible questions. For instance, "What is the main objective of the IPCC?" The answer would be summarizing climate change knowledge. Then, "Which UN agencies established the IPCC?" Answer: UNEP and WMO. Another could be about the Nobel Prize, the number of reports, the chairperson, the headquarters, etc.
+
+I need to ensure that each question is distinct. For example, instead of asking about the founding years multiple times, focus on different elements like the number of reports, key people, types of organizations, and so on. Also, check that answers are directly from the context or facts provided. For example, the facts mention "Intergovernmental Panel on Climate Change é abreviado como IPCC" so a question about the abbreviation would be valid.
+
+I should avoid questions that are too similar. For example, asking about the headquarters in Geneva and the location of the main seat are similar, so I need to phrase them differently. Also, check that all answers are explicitly stated in the context or facts. For instance, the answer to "Who is the current chair?" is Hoesung Lee, which is in the facts.
+
+I need to generate 10 pairs. Let me list possible ones:
+
+1. Objective of IPCC
+2. Founding UN agencies
+3. Nobel Prize year
+4. Number of reports
+5. Current chair
+6. Headquarters location
+7. Type of organization (e.g., panel)
+8. Notable people associated
+9. Categories it belongs to (e.g., United Nations)
+10. Key functions or activities
+
+Now, check each against the context and facts to ensure accuracy. For example, the context says the IPCC has produced five reports since 1990, so the answer would be five. The facts mention "Intergovernmental Panel on Climate Change é do tipo Panel" so the answer for the type would be "Panel".
+
+Make sure not to repeat the same question structure. Use different verbs like "qual", "quem", "quantos", "onde", etc. Also, ensure the answers are concise and directly from the provided data.
+
+Finally, structure the JSON as specified, without any extra text. Check for 10 entries, each with a unique question and correct answer based on the given context and facts.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o objetivo principal do IPCC?",
+    "resposta": "sintetizar e divulgar o conhecimento mais avançado sobre as mudanças climáticas"
+  },
+  {
+    "pergunta": "Quais organizações da ONU criaram o IPCC?",
+    "resposta": "o Programa das Nações Unidas para o Meio Ambiente (PNUMA) e a Organização Meteorológica Mundial (OMM)"
+  },
+  {
+    "pergunta": "Quantos relatórios o IPCC produziu desde sua fundação?",
+    "resposta": "cinco grandes relatórios"
+  },
+  {
+    "pergunta": "Quem é o presidente atual do IPCC?",
+    "resposta": "Hoesung Lee"
+  },
+  {
+    "pergunta": "Onde está sediado o IPCC?",
+    "resposta": "Genebra, Suíça"
+  },
+  {
+    "pergunta": "Qual prêmio o IPCC recebeu em 2007?",
+    "resposta": "Prêmio Nobel da Paz"
+  },
+  {
+    "pergunta": "Qual é o tipo de organização do IPCC?",
+    "resposta": "Panel"
+  },
+  {
+    "pergunta": "Quem foi o primeiro presidente do IPCC?",
+    "resposta": "Bert Bolin"
+  },
+  {
+    "pergunta": "Quais são as áreas de assunto do IPCC?",
+    "resposta": "organizações internacionais de mudanças climáticas e organizações ambientais"
+  },
+  {
+    "pergunta": "Como o IPCC é abreviado?",
+    "resposta": "IPCC"
+  }
+]

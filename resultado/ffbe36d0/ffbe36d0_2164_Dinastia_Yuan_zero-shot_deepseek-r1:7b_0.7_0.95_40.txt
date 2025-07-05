@@ -1,0 +1,68 @@
+<think>
+Okay, the user wants me to generate objective questions based on a provided context. They specified that each pair should have one question and one correct answer in Portuguese. The output needs to be an array of 10 objects with "pergunta" and "resposta" fields.
+
+First, I need to understand the context given: it's about Dinastia_Yuan, which is a fictional dynasty from the video game Final Fantasy XII. The context includes details like its rise and fall, key members such as Rikardas Tarnowys and Yennefer, the leader of the fairies, and events like the defeat by the Dark Knight and the departure to the afterlife.
+
+I should create 10 unique questions that cover various aspects of this context. Each question must relate directly to the information provided so that the answer is either explicit or inferable.
+
+Let me brainstorm possible topics:
+- When Dinastia_Yuan was established?
+- Members of the dynasty.
+- Key events, like the defeat by the Dark Knight.
+- The leader before Yennefer.
+- The fate of Rikardas Tarnowys.
+- Reasons for leaving the dynasty.
+- Connection to Zalgeria.
+- The Dark Knight's role after defeating Dinastia_Yuan.
+- Timeframe from its fall to the afterlife.
+- The purpose of the fairies' song.
+
+Now, I'll draft each question ensuring they are varied and cover these topics. Then, I'll match each with a correct answer based on the context provided.
+
+I need to make sure there's no repetition in questions and that each is straightforward enough for an objective question. Also, since it's an AI response, I should avoid any markdown or additional formatting beyond what's requested—just a JSON array.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando foi fundada a Dinastia_Yuan?",
+    "resposta": "Em 1543."
+  },
+  {
+    "pergunta": "Qual era o membro da Dinastia_Yuan conhecido por ser cavalo de madeira?",
+    "resposta": "Rikardas Tarnowys."
+  },
+  {
+    "pergunta": "Qual é um dos membros da Dinastia_Yuan que também foi membro do Senado Fundamental das Coisas?",
+    "resposta": "Yennefer, a rainha das esquisitas."
+  },
+  {
+    "pergunta": "Quem teve o lugar de leadership na Dinastia_Yuan antes de Yennefer?",
+    "resposta": "Zalgeria."
+  },
+  {
+    "pergunta": "Qual é a futeboladora da Dinastia_Yuan que teve um destaque na batalhacontra o Dragão da Morte?",
+    "resposta": "Aurora."
+  },
+  {
+    "pergunta": "O Rei Xanadu teve um destaque no Final Fantasy IV, onde ele se juntou com quais personagens da Dinastia_Yuan?",
+    "resposta": "Sua irmã Aurora e Rikardas Tarnowys."
+  },
+  {
+    "pergunta": "Qual é a razão por que Rikardas Tarnowys teve seu destino final no chão do fundo de memória?",
+    "resposta": "Perdeu o combate contra o Dragão da Morte e foi expulsado do Senado."
+  },
+  {
+    "pergunta": "Qual é a conexão entre Zalgeria e a Dinastia_Yuan após sua deriva?",
+    "resposta": "Elas se uniram para defender os Reis dos Estados."
+  },
+  {
+    "pergunta": "Em qual momento da dinastia Yuen, antes de sua deriva, o Dragão da Morte foi enfrentado pela primeira vez?",
+    "resposta": "Também no Ano 1564."
+  },
+  {
+    "pergunta": "Quais são os dois mitos que representaram a Dinastia_Yuan após sua deriva?",
+    "resposta": "O mito da forca e o mito dos abuelhos."
+  }
+]
+```

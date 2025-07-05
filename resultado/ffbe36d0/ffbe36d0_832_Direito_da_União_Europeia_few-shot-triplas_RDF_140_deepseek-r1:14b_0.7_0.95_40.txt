@@ -1,0 +1,83 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers based on the given context about European Union law. Let me start by reading through the problem carefully.
+
+First, the user provided a context that explains how EU laws work within member states, emphasizing peace, values, and well-being. It also mentions judicial aspects from the EU's Court of Justice. Then there are some RDF facts which link certain people and journals to EU Law, but I think those might not be directly useful for generating general questions.
+
+The user wants exactly 10 unique questions in Portuguese, each with a single correct answer based on the context or inferred from it. The questions should cover different aspects of the content without repeating similar ones.
+
+Looking at the example provided, they have varied questions about definitions, sources, effects, and institutions related to EU Law. I need to make sure my questions are distinct but similarly broad.
+
+Let me brainstorm possible topics:
+1. Definition of EU Law
+2. Primary legal sources
+3. Secondary legal instruments (regulations, directives)
+4. Legal hierarchy/different types of law
+5. Main legislative bodies
+6. Effects on member states' laws
+7. Philosophical or historical context (peace, well-being)
+8. Examples of scholars or journals related to EU Law
+
+Wait, the RDF facts mention some legal scholars and a journal. Maybe I can include a question about that without going too deep since it's just an example.
+
+Now, structuring each pair:
+
+1. "O que é o direito da União Europeia?" Resposta: Sistema de regras operando nos estados membros.
+2. Quais são as fontes principais do direito primário? Resposta: Tratados fundadores.
+3. Quais os instrumentos secundários? Regulamentos, directivas.
+4. Qual o efeito sobre Estados-membros? Direto ou indirecto.
+5. Quais órgãos legislativos? Parlamento Europeu e Conselho.
+6. Quem são especialistas em direito da UE? Henry Schermers, John Bell.
+7. Qual revista aborda este tema? Common Market Law Review.
+8. Qual é a filosofia da UE? Paz, valores, bem-estar.
+9. Quais fontes complementares? jurisprudência do TJUE.
+10. Existe uma ordem jurídica nova? Sim, chamada de direito internacional.
+
+I should check each question to ensure uniqueness and relevance. Also, make sure the answers are accurate based on the context provided.
+
+Double-checking for repetition: I think all questions are distinct enough. Now, translate them into proper Portuguese, ensuring clarity.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é o direito da União Europeia?",
+    "resposta": "um sistema de regras que opera nos estados membros da UE"
+  },
+  {
+    "pergunta": "Quais são as fontes principais do direito primário da UE?",
+    "resposta": "tratados fundadores como os que instituem a União Europeia"
+  },
+  {
+    "pergunta": "Quais são os instrumentos legais secundários da UE?",
+    "resposta": "regulamentos e diretrizes"
+  },
+  {
+    "pergunta": "Qual é o efeito do direito da UE sobre as leis dos estados membros?",
+    "resposta": "possui efeito direto ou indireto"
+  },
+  {
+    "pergunta": "Quais são os órgãos legislativos principais da UE?",
+    "resposta": "Parlamento Europeu e o Conselho da União Europeia"
+  },
+  {
+    "pergunta": "Quem são os principais especialistas em direito da UE mencionados?",
+    "resposta": "Henry G. Schermers e John Bell"
+  },
+  {
+    "pergunta": "Qual revista é focada no direito da União Europeia?",
+    "resposta": "Common Market Law Review"
+  },
+  {
+    "pergunta": "Qual filosofia orienta a UE segundo o contexto?",
+    "resposta": "promover a paz, valores e bem-estar dos povos"
+  },
+  {
+    "pergunta": "Quais fontes complementares existem no direito da UE?",
+    "resposta": "jurisprudência do Tribunal de Justiça da UE"
+  },
+  {
+    "pergunta": "Existe uma nova ordem jurídica na UE?",
+    "resposta": "sim, chamada de 'nova ordem jurídica de direito internacional'"
+  }
+]
+```

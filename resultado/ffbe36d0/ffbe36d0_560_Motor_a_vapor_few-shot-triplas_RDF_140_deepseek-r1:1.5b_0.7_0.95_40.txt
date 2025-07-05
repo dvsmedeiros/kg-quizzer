@@ -1,0 +1,67 @@
+<think>
+Okay, let's see what the user is asking for here. They want me to generate a list of 10 pairs consisting of "pergunta" and "resposta" based on some given instructions and rules.
+
+First, I need to look at the provided data which includes various properties of steam engines found in Wikipedia pages. The data structure seems to be an HTML table with multiple attributes for each engine, including details like per用途, applications, key features, technical specs, user info, and images links.
+
+The task is to extract specific information from these tables. The examples given include things like the source of heat (solar), the ideal cycle in Rankine, when water vaporizes, pressure when vaporized, types of engines that produce steam, who invented the first commercial motor, the year it was invented, who built the Savery pump, and who discovered the steam engine.
+
+So, for each example, I have to extract two pieces of information: "pergunta" which is a query about something, and "resposta" which is the answer provided. For instance, in the first example:
+
+Pergunta: "Juntamente com as fontes geotérmica e nuclear, o que é uma fonte notável de calor sem combustão?"
+Response: "solar"
+
+I need to extract these pairs similarly for each example given.
+
+Now, considering there are 10 examples provided, I should create a list with exactly 10 such pairs. Each pair will consist of a question and the corresponding answer based on the data in the respective Wikipedia pages.
+
+I'll go through each example one by one and identify the "pergunta" and "resposta". Once I have all ten, I can organize them into the required format.
+
+One thing to note is that some queries might be more specific than others. For instance, the first query asks about a resource of heat without combustion, which points to solar radiation as per the example. Another query about Rankine cycle's vaporization point is straightforward from its name.
+
+I also need to ensure that I don't miss any details in each table and extract the information accurately. It might help to list out all the possible attributes first before extracting them into questions and responses.
+
+Once I have all ten pairs, I'll present them in the specified format, making sure they are correctly formatted as JSON with "pergunta" and "resposta" keys and proper commas separating each pair.
+</think>
+
+```json
+{
+  "pergunta": "Juntamente com as fontes geotérmica e nuclear, o que é uma fonte notável de calor sem combustão?",
+  "resposta": "solar"
+},
+{
+  "pergunta": "Qual ciclo termodinâmico ideal analisa o processo pelo qual os motores a vapor funcionam?",
+  "resposta": "Rankine."
+},
+{
+  "pergunta": "No ciclo Rankine, em que a água se transforma quando aquecida?",
+  "resposta": "vapor"
+},
+{
+  "pergunta": "A que pressão a água é aquecida no ciclo Rankine?",
+  "resposta": "270°R (o grão)"
+},
+{
+  "pergunta": "Que tipos de motores são motores a vapor?",
+  "resposta": "combustão externa"
+},
+{
+  "pergunta": "Qual foi o primeiro motor verdadeiro que obteve successfulemente comercial?",
+  "resposta": "motor atmosférico"
+},
+{
+  "pergunta": "Quem foi o inventor do motor atmosférico?",
+  "resposta": "Thomas Newcomen"
+},
+{
+  "pergunta": "Em que ano o motor atmosférico foi inventado?",
+  "resposta": "1712."
+},
+{
+  "pergunta": "O que foi inventado por Savery?",
+  "resposta": "bomba de vapor"
+},
+{
+  "pergunta": "Quem conceituou o pistão?",
+  "resposta": "Papin."
+}
+}

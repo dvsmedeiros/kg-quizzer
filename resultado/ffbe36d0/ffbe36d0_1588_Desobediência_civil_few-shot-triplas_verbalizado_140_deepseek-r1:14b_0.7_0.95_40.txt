@@ -1,0 +1,69 @@
+<think>
+Okay, so I need to generate 10 pairs of questions and answers based on the provided context about civil disobedience. The user has given a detailed set of rules and an example, so I should follow those closely.
+
+First, I'll start by understanding the context. Civil disobedience is a peaceful form of protest against unjust laws or oppressive governments. It was first formulated by Henry David Thoreau and used effectively by Gandhi and Martin Luther King Jr. The facts provided list various events and groups that have employed civil disobedience, like the refusal fascism movement, Montenegrin protests, Occupy Canada, etc.
+
+I need to create varied questions covering different aspects: definitions, key figures, examples of use, characteristics, purposes, notable cases, etc. Each question should have a unique correct answer from the context. I'll avoid repeating similar questions and ensure each is clear and directly tied to the provided information.
+
+Let me brainstorm possible questions:
+
+1. Who formulated the concept of civil disobedience? (Thoreau)
+2. What does civil disobedience oppose? (unjust laws/government oppression)
+3. Which movement used civil disobedience for Indian independence? (Gandhi's)
+4. What kind of action is civil disobedience considered? (nonviolent direct action)
+5. Name a group that uses civil disobedience (Occupy Canada, Sisters Uncut, etc.)
+6. Which country's protests in 2021 used these methods? (Montenegro, Serbia, etc.)
+7. What's the main purpose of civil disobedience? (To protest laws deemed unjust)
+8. Who was known for throwing eggs at a leader? (Billy Hughes incident)
+9. What event in Poland involved civil disobedience? (LGBT protests 2020)
+10. Which category does civil disobedience fall under? (Direct action, nonviolence)
+
+I should check each answer against the facts provided to ensure accuracy. For example, when listing groups, I need to pick ones clearly mentioned. Also, ensuring that dates and countries are correctly referenced.
+
+Let me structure these into JSON format without any extra text, as per instructions. Each object will have "pergunta" and "resposta" in Portuguese.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem formulou o conceito de desobediência civil?",
+    "resposta": "Henry David Thoreau"
+  },
+  {
+    "pergunta": "O que a desobediência civil protesta contra?",
+    "resposta": "Leis consideradas injustas ou governos opressores."
+  },
+  {
+    "pergunta": "Qual exemplo histórico destacou a desobediência civil na Índia?",
+    "resposta": "Movimento de independência conduzido por Mahatma Gandhi."
+  },
+  {
+    "pergunta": "Como é classificada a ação da desobediência civil?",
+    "resposta": "Ação direta não violenta."
+  },
+  {
+    "pergunta": "Qual grupo canadense utiliza métodos de desobediência civil?",
+    "resposta": "Occupy Canada"
+  },
+  {
+    "pergunta": "Em qual ano a República Democrática do Congo teve protestos usando desobediência civil?",
+    "resposta": "2017"
+  },
+  {
+    "pergunta": "Qual é a principal finalidade da desobediência civil?",
+    "resposta": "Protestar contra leis ou condições consideradas injustas."
+  },
+  {
+    "pergunta": "Quem foi um líder que usou desobediência civil na luta pelos direitos civis nos EUA?",
+    "resposta": "Martin Luther King Jr."
+  },
+  {
+    "pergunta": "Qual foi um método de ação de protesto em Montenegro recentemente?",
+    "resposta": "Protestos episcopais de 2021"
+  },
+  {
+    "pergunta": "Que movimento polonês utilizou desobediência civil em 2020?",
+    "resposta": "Protestos LGBTT da Polônia."
+  }
+]
+```

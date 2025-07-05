@@ -1,0 +1,56 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context about the Intergovernmental Panel on Climate Change (IPCC). Let me start by understanding what the IPCC is. The IPCC is a UN body established in 1988 to assess scientific information on climate change. They publish reports that summarize the state of knowledge on climate change, its impacts, and mitigation strategies. Their work is critical for international climate policy, like the Paris Agreement. 
+
+First, I should list key facts about the IPCC. The establishment year is 1988. The main objectives: assess climate change science, impacts, and mitigation. They produce reports, including the Assessment Reports and special reports. The structure involves three working groups and a task force. The reports are used by governments for policy-making. They don't conduct their own research but synthesize existing studies. The Paris Agreement was influenced by their findings.
+
+Now, I need to form 10 varied questions. Let's think: questions about the establishment year, main objectives, types of reports, structure, role in the Paris Agreement, how they gather information, who uses their reports, the number of working groups, the task force's role, and their impact on policy.
+
+Check for repetition. Each question should target a different aspect. Avoid similar questions. Ensure answers are directly from the context. For example, the role of the task force is to assess greenhouse gas inventories. The number of working groups is three. The Paris Agreement was influenced by their reports. The main purpose is to assess scientific information. They publish Assessment Reports and special reports. Their structure includes three working groups and a task force. They don't conduct research but assess existing data. Governments use their reports for policy. The first report was in 1990. The task force's role is to assess inventories. The IPCC's role in international agreements is to provide scientific basis.
+
+Make sure each question is clear and the answer is unambiguous. Now, structure each pair in JSON format without any extra text. Verify that each answer is directly from the given context. Avoid any assumptions beyond the provided information. Check for 10 unique questions covering different aspects. Alright, time to compile the JSON.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em que ano foi estabelecido o Painel Intergovernamental sobre Mudanças Climáticas (IPCC)?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "Qual é o principal objetivo do IPCC?",
+    "resposta": "Avaliar informações científicas sobre mudanças climáticas, seus impactos e estratégias de mitigação."
+  },
+  {
+    "pergunta": "Quantos grupos de trabalho compõem a estrutura do IPCC?",
+    "resposta": "Três"
+  },
+  {
+    "pergunta": "O IPCC publica relatórios que servem de base para quais acordos internacionais?",
+    "resposta": "Acordos como o Acordo de Paris."
+  },
+  {
+    "pergunta": "O que o IPCC faz com as informações científicas sobre mudanças climáticas?",
+    "resposta": "Sintetiza e avalia estudos já existentes, sem realizar pesquisas próprias."
+  },
+  {
+    "pergunta": "Qual é a função do Grupo de Trabalho 3 do IPCC?",
+    "resposta": "Avaliar opções de mitigação das mudanças climáticas."
+  },
+  {
+    "pergunta": "Quais são os tipos de relatórios publicados pelo IPCC?",
+    "resposta": "Relatórios de Avaliação e relatórios especiais."
+  },
+  {
+    "pergunta": "Quem utiliza os relatórios do IPCC para formular políticas?",
+    "resposta": "Governos e instituições internacionais."
+  },
+  {
+    "pergunta": "Qual é o papel da Força-Tarefa sobre Inventários de Gases de Efeito Estufa do IPCC?",
+    "resposta": "Avaliar métodos para mensurar emissões de gases de efeito estufa."
+  },
+  {
+    "pergunta": "O que o IPCC não realiza em sua atividade?",
+    "resposta": "Não conduz pesquisas científicas independentes."
+  }
+]
+```

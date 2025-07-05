@@ -1,0 +1,84 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts about Victoria, Australia. Let me start by understanding the requirements.
+
+First, the questions must be relevant to the context provided. The context talks about Victoria's geography, history, population, economy, political structure, cultural aspects, and some specific facts. The facts list includes various locations, people, institutions, and other data points.
+
+Each question should be unique and cover different aspects. I need to avoid repetition. Let me go through the context and facts to find distinct points.
+
+From the context:
+- Victoria is the second most populous state, smallest in the continent.
+- Capital is Melbourne, which was the federal capital until 1927.
+- History: established in 1851, gold rush in 1850s-60s, part of New South Wales colony.
+- Political structure: 38 seats in House of Representatives, 12 in Senate. Governed by Labor Party since 2014.
+- Economy: diversified, services sector, second highest GDP, sixth in GDP per capita.
+- Cultural: Melbourne is the sports capital, has the MCG, Australian Open, etc.
+- Administrative: 79 local municipalities, 33 cities.
+
+From the facts:
+- Many entities located in Victoria, like African Safari World, Wallagaraugh River, Peter Nugent's death, Transport Ticketing Authority, etc.
+- Some specific data: lowest temperature in February -3.9°C, area 227,444 km², GDP per capita AU$68,996.
+
+Now, I need to form questions. Let me brainstorm:
+
+1. What is the second most populous state in Australia? (Answer: Victoria)
+2. What is the capital city of Victoria? (Answer: Melbourne)
+3. When was Victoria established as a colony? (Answer: 1851)
+4. What is the GDP per capita of Victoria? (Answer: AU$68,996)
+5. What is the area of Victoria in square kilometers? (Answer: 227444)
+6. Which city in Victoria is known as the sports capital? (Answer: Melbourne)
+7. What is the name of the largest stadium in Australia? (Answer: Melbourne Cricket Ground)
+8. What is the lowest temperature recorded in Victoria in February? (Answer: -3.9°C)
+9. How many local municipalities does Victoria have? (Answer: 79)
+10. Which political party has governed Victoria since 2014? (Answer: Labor Party)
+
+Wait, the examples had some specific answers. Let me check if these are covered in the context. For example, the GDP per capita is mentioned in the facts. The area is also in the facts. The number of municipalities is in the context. The capital is mentioned. The establishment date is in the context. The sports capital is mentioned. The lowest temperature is in the facts. The largest stadium is mentioned. The political party is in the context.
+
+I need to make sure the answers are accurate based on the given data. For example, the GDP per capita is AU$68,996. The area is 227,444 km². The number of municipalities is 79. The political party is Labor. The capital is Melbourne. The establishment date is 1851. The lowest temperature is -3.9°C. The sports capital is Melbourne. The largest stadium is MCG.
+
+Now, phrasing the questions clearly. Let me check for uniqueness and coverage of different aspects. Yes, each question covers a different area: population, capital, history, economy, geography, culture, politics, etc.
+
+I think this should meet the requirements. Now, format them into the required JSON structure.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o segundo estado mais populoso da Austrália?",
+    "resposta": "Victoria"
+  },
+  {
+    "pergunta": "Qual cidade é a capital do estado de Victoria?",
+    "resposta": "Melbourne"
+  },
+  {
+    "pergunta": "Em que ano Victoria foi estabelecida como colônia?",
+    "resposta": "1851"
+  },
+  {
+    "pergunta": "Qual é o PIB per capita de Victoria?",
+    "resposta": "AU$68.996"
+  },
+  {
+    "pergunta": "Qual é a área total de Victoria em quilômetros quadrados?",
+    "resposta": "227444"
+  },
+  {
+    "pergunta": "Qual cidade em Victoria é conhecida como a capital esportiva da Austrália?",
+    "resposta": "Melbourne"
+  },
+  {
+    "pergunta": "Qual é o nome do maior estádio da Austrália?",
+    "resposta": "Melbourne Cricket Ground"
+  },
+  {
+    "pergunta": "Qual foi a temperatura mais baixa registrada em Victoria em fevereiro?",
+    "resposta": "-3,9°C"
+  },
+  {
+    "pergunta": "Quantos municípios locais Victoria possui?",
+    "resposta": "79"
+  },
+  {
+    "pergunta": "Qual partido político tem governado Victoria desde 2014?",
+    "resposta": "Partido Trabalhista"
+  }
+]

@@ -1,0 +1,97 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. First, I need to parse through the context and facts to find relevant information.
+
+Starting with the context: Varsóvia is the capital of Poland, located on the Vistula River, population in 2012, industries, universities, historical events like the Warsaw Uprising, and its status as a UNESCO site. Then there are a bunch of facts about people born or died there, institutions, events, landmarks, temperatures, etc.
+
+I need to make sure each question is unique and covers different aspects. Let's see. From the context, possible questions could be about the capital status, location, population, historical events, UNESCO status, industries, universities. From the facts, people associated with Warsaw, institutions based there, events held there, temperatures, landmarks, etc.
+
+Wait, the user specified that questions must be based on the context and facts provided. So I need to check both. For example, the context mentions the Warsaw Uprising in 1944, the Phoenix City nickname, the 1980 UNESCO designation. The facts have entries like "Warsaw Ghetto está localizado em Warsaw" which is in the context as well.
+
+I need to avoid repeating questions. Let me list possible topics:
+
+1. Capital of Poland (context)
+2. Location (Vistula River, 260 km from Baltic, etc.)
+3. Population in 2012
+4. Industries (consumption goods, steel, etc.)
+5. Universities (University of Warsaw, etc.)
+6. Historical events (Levante do Gueto, Uprising)
+7. UNESCO status (1980)
+8. Nickname Phoenix City
+9. Institutions based in Warsaw (Frontex, Ministry of Finance, etc.)
+10. Temperatures (April min, May average, etc.)
+11. Landmarks (Coluna de Sigismundo, Barbacã, Castelo Real)
+12. Events (Warsaw Uprising, etc.)
+13. People born/died in Warsaw (from facts)
+14. Other facts like the 1985–86 Inter Milan season, etc.
+
+But the user wants 10 pairs. Need to pick the most distinct ones. Let's start with the most obvious ones from the context first. Then pick some from the facts.
+
+For example:
+
+Q1: Qual é a capital da Polônia? R: Varsóvia.
+
+Q2: Em que rio está localizada Varsóvia? R: Rio Vístula.
+
+Q3: Qual foi a população estimada de Varsóvia em 2012? R: 1.716.855 habitantes.
+
+Q4: Quais são algumas indústrias presentes em Varsóvia? R: Bens de consumo, aço, engenharia elétrica, automóveis.
+
+Q5: Quais universidades estão sediadas em Varsóvia? R: Universidade de Varsóvia, Universidade Tecnológica de Varsóvia, entre outras.
+
+Q6: Qual evento histórico ocorreu em Varsóvia em 1943? R: Levante do Gueto de Varsóvia.
+
+Q7: Em que ano o Centro Histórico de Varsóvia foi declarado Patrimônio da Humanidade pela Unesco? R: 1980.
+
+Q8: Qual é o apelido de Varsóvia devido à sua reconstrução pós-Guerra? R: Cidade Fênix.
+
+Q9: Quais instituições importantes têm sede em Varsóvia? R: Frontex, Ministério da Fazenda da Polônia, entre outras.
+
+Q10: Qual é a temperatura média em Varsóvia em maio? R: 14,8°C.
+
+Now check if these are all covered in the context and facts. Yes, the context mentions all the historical events, population, industries, universities, UNESCO, nickname, and the facts have the temperature data. The institutions like Frontex and Ministry of Finance are in the context. Also, the temperature in May is in the facts.
+
+Need to ensure that each question is unique and not repeating. Looks good. Now, format them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a capital da Polônia?",
+    "resposta": "Varsóvia"
+  },
+  {
+    "pergunta": "Em que rio está localizada Varsóvia?",
+    "resposta": "Rio Vístula"
+  },
+  {
+    "pergunta": "Qual foi a população estimada de Varsóvia em 2012?",
+    "resposta": "1 716 855 habitantes"
+  },
+  {
+    "pergunta": "Quais são algumas indústrias presentes em Varsóvia?",
+    "resposta": "Bens de consumo, aço, engenharia eléctrica, automóveis"
+  },
+  {
+    "pergunta": "Quais universidades estão sediadas em Varsóvia?",
+    "resposta": "Universidade de Varsóvia, Universidade Tecnológica de Varsóvia"
+  },
+  {
+    "pergunta": "Qual evento histórico ocorreu em Varsóvia em 1943?",
+    "resposta": "Levante do Gueto de Varsóvia"
+  },
+  {
+    "pergunta": "Em que ano o Centro Histórico de Varsóvia foi declarado Patrimônio da Humanidade pela Unesco?",
+    "resposta": "1980"
+  },
+  {
+    "pergunta": "Qual é o apelido de Varsóvia devido à sua reconstrução pós-Guerra?",
+    "resposta": "Cidade Fênix"
+  },
+  {
+    "pergunta": "Qual é a temperatura média em Varsóvia em maio?",
+    "resposta": "14,8°C"
+  },
+  {
+    "pergunta": "Onde está localizado o Gueto de Varsóvia?",
+    "resposta": "Em Varsóvia"
+  }
+]

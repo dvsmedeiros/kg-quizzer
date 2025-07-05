@@ -1,0 +1,69 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts about the Normans. Let me start by carefully reading the context and the facts provided.
+
+The context mentions that the Normans were a Germanic people in northern France, with aristocracy mostly descended from Vikings. The term "Norman" comes from "Northmen" or "Norsemen," meaning "men from the North." They played significant roles in political, military, and cultural aspects of medieval Europe and the Middle East, including the Norman Conquest of England, colonization of Sicily, and the Crusades. Their history has led to various legends.
+
+The facts are in RDF format, with various properties like nationality, combatant, occupants, ethnicity, etc. For example, several battles list the Normans as combatants, some castles have Normans as occupants, and there are references to their languages, religions, and related groups.
+
+Now, I need to create questions that are varied and cover different aspects. Let me brainstorm possible questions:
+
+1. What is the origin of the term "Norman"? (From the context: "Northmen" or "Norsemen")
+2. Which battles did the Normans participate in? (Facts mention several battles like Battle of Cerami, Civitate, etc.)
+3. What are the languages associated with the Normans? (Facts list Latin, Old Norman, Old Norse)
+4. What were the religious beliefs of the Normans? (Facts mention Christianity and Norse paganism)
+5. Which regions did the Normans colonize? (Context mentions Sicily, southern Italy, and the Norman Conquest of England)
+6. Who were some notable figures or families associated with the Normans? (Facts mention Hauteville family, Lyons family, etc.)
+7. What architectural styles are linked to the Normans? (Facts mention architectural style in churches)
+8. What is the ethnic origin of the Norman aristocracy? (Context says they descended from Vikings)
+9. Which castles or structures were occupied by the Normans? (Facts list several castles like Taunton Castle, Kells Castle)
+10. What are the modern-day descendants or languages of the Normans? (Facts mention Jèrriais, Guernésiais, French)
+
+Now, I need to ensure each question is unique and based on the provided data. Let me check the facts again to confirm.
+
+For example, the question about battles can be answered by listing the battles from the facts. The languages are explicitly listed. The religious beliefs are in the facts. The regions are mentioned in the context. The castles are in the facts. The ethnic origin is in the context. The architectural styles are in the facts. The families are in the facts. The modern languages are in the facts. 
+
+I need to make sure the answers are correct and directly from the context or facts. Also, avoid repeating similar questions. Let me structure each pair now.
+</think>
+
+[
+  {
+    "pergunta": "De onde originaram-se os normandos?",
+    "resposta": "Da Escandinávia."
+  },
+  {
+    "pergunta": "Qual é o significado da palavra 'Normano'?",
+    "resposta": "Homens do Norte."
+  },
+  {
+    "pergunta": "Quais povos contribuíram para a origem da aristocracia normanda?",
+    "resposta": "Viquingues."
+  },
+  {
+    "pergunta": "Quais são os idiomas associados aos normandos?",
+    "resposta": "Latim, Velho Normando e Velho Nórdico."
+  },
+  {
+    "pergunta": "Em quais regiões os normandos estabeleceram-se?",
+    "resposta": "Normandia, Inglaterra, Sicília e sul da península Itálica."
+  },
+  {
+    "pergunta": "Quais batalhas tiveram participação dos normandos?",
+    "resposta": "Batalha de Cerami, Batalha de Civitate, Batalha de Hastings."
+  },
+  {
+    "pergunta": "Quais são as religiões associadas aos normandos?",
+    "resposta": "Cristianismo e paganismo nórdico."
+  },
+  {
+    "pergunta": "Quais castelos foram ocupados pelos normandos?",
+    "resposta": "Taunton Castle, Kells Castle, Trim Castle."
+  },
+  {
+    "pergunta": "Quais são os descendentes modernos dos normandos?",
+    "resposta": "Jèrriais, Guernésiais e francês."
+  },
+  {
+    "pergunta": "Qual é o significado da palavra 'Viking'?",
+    "resposta": "Pirata ou explorador nórdico."
+  }
+]

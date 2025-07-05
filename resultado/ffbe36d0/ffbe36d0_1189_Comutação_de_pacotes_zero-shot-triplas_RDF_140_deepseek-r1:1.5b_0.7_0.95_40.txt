@@ -1,0 +1,97 @@
+<think>
+Okay, I need to create exactly 10 pairs of questions and answers based on the provided context and instructions. Each pair should consist of a relevant question and a correct answer. The questions should be varied but cover different aspects of network communication, specifically focusing on packet switching.
+
+First, I'll start by understanding the context given. It talks about how packet switching works in computer networks, comparing it to other methods like circuit switching. Packet switching is dynamic, allowing individual data packets to travel through the network independently. This contrasts with circuit switching, which relies on a virtual link between two points for all connections at once.
+
+Now, I need to think of different angles or examples related to packet switching that can be turned into questions and answers. Let me brainstorm some topics:
+
+1. **When packet switching is used**: This could relate to its advantages over other methods.
+2. **How packet switching works** - explaining the individual data transfer through links.
+3. **Packets in packet switching networks**: What types of packets are there?
+4. **Applications and benefits**: Examples of where packet switching is effective.
+5. **Limitations or challenges**: Why it's sometimes more complex than other methods.
+6. **Comparison with circuit switching**: Key differences, like dynamic vs. static links.
+7. **Network protocols involved**: Common techniques used in packet switching.
+8. **Impact on network performance**: How packet switching affects throughput and latency.
+9. **Historical context**: When packet switching became prominent.
+10. **Modern applications of packet switching** - examples today.
+
+Next, I'll draft each question and ensure the answer is clear and directly supported by the provided facts or context.
+
+- **Question:** When does packet switching become popular?
+  **Answer:** Packet switching was popularized in the late 20th century, especially with the rise of computer networks.
+  
+- **Question:** What types of packets are used in packet switching?
+  **Answer:** Packets can be IP-based (like TCP/IP), MAC-based (using Wi-Fi, Bluetooth), and other specialized types like HTTP or HTTPS.
+
+- **Question:** How does packet switching work in terms of link handling?
+  **Answer:** Each device or computer sends a unique packet over its own link, which is then routed to the destination through the network's routing protocols.
+
+- **Question:** What are some major applications of packet switching?
+  **Answer:** Packet switching is used in internet connections, email, video conferencing, and distributed systems where data needs to be transmitted independently.
+
+- **Question:** How does packet switching differ from circuit switching?**
+  **Answer:** Packet switching uses dynamic link creation for each connection, while circuit switching waits until a virtual link is established.
+
+- **Question:** What are the main challenges faced with packet switching?
+  **Answer:** Packet switching can lead to higher latency and jitter due to the random routing of packets. It also requires more complex network protocols than circuit switching.
+
+- **Question:** Which networking method uses multiple hardware devices connected by a virtual link?
+  **Answer:** Circuit switching is an example, where all connections are established at once via a single physical link.
+
+- **Question:** What is the role of packet switching in improving network performance?
+  **Answer:** It allows for higher throughput and reduces latency compared to circuit switching, which enforces strict timing constraints.
+
+- **Question:** When was packet switching introduced into internet standards?**
+  **Answer:** Packet switching was introduced as a key technology for the Internet via X.25 in the 1980s.
+
+- **Question:** How does packet switching affect the overall structure of a network?
+  **Answer:** It introduces multiple interconnected paths, making routing more complex but also capable of handling more dynamic data transfers.
+
+I need to ensure each question is unique and covers different facets of packet switching. Also, the answers should be concise and directly tied to the provided facts without adding extra information beyond what's necessary.
+</think>
+
+```json
+[
+  {
+    "pergunta": "When does packet switching become popular?", 
+    "resposta": "Packet switching became popularized in the late 20th century."
+  },
+  {
+    "pergunta": "What types of packets are used in packet switching?", 
+    "resposta": "IP-based, MAC-based, and specialized packets like HTTP."
+  },
+  {
+    "pergunta": "How does packet switching work in terms of link handling?", 
+    "resposta": "Each device sends a unique packet over its own link, routed through the network's routing protocols."
+  },
+  {
+    "pergunta": "What are some major applications of packet switching?", 
+    "resposta": "Internet connections, email, video conferencing, and distributed systems."
+  },
+  {
+    "pergunta": "How does packet switching differ from circuit switching?", 
+    "resposta": "Packet switching uses dynamic link creation for each connection, while circuit switching waits for a virtual link."
+  },
+  {
+    "pergunta": "What are the main challenges faced with packet switching?", 
+    "resposta": "Higher latency and jitter due to random routing; complex network protocols."
+  },
+  {
+    "pergunta": "Which networking method uses multiple hardware devices connected by a virtual link?", 
+    "resposta": "Circuit switching, where all connections are established at once via a physical link."
+  },
+  {
+    "pergunta": "What is the role of packet switching in improving network performance?", 
+    "resposta": "提高了网络性能，通过更高的吞吐量和更小的延迟来实现."
+  },
+  {
+    "pergunta": "When was packet switching introduced into internet standards?", 
+    "resposta": "In the 1980s via X.25."
+  },
+  {
+    "pergunta": "How does packet switching affect network structure?", 
+    "resposta": "引入了多个连接路径，增加了路由复杂度."
+  }
+]
+```

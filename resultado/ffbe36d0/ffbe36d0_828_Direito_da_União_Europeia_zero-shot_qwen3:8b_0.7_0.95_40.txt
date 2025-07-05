@@ -1,0 +1,67 @@
+<think>
+Okay, the user wants me to generate 10 question-answer pairs based on the provided context about European Union law. Let me start by understanding the context given. The context is about the European Union's legal framework, including key institutions like the European Court of Justice, the principle of supremacy, and the role of member states. 
+
+First, I need to make sure I cover different aspects of the EU law. The user specified that the questions should be varied and cover different points. So I should think about various elements such as the institutions, principles, legal sources, decision-making processes, and rights of citizens.
+
+I need to avoid repeating similar questions. For example, if I ask about the European Court of Justice, I should not have another question about the same institution. Let me brainstorm possible topics: institutions (ECJ, European Commission, Council, Parliament), principles (supremacy, proportionality), legal sources (treaties, regulations, directives), decision-making processes (qualified majority, unanimity), rights of citizens (free movement, right to vote), and the role of national courts in EU law.
+
+Now, I'll create questions for each of these areas. For each question, the answer must be directly from the context. Let me check the context again to ensure accuracy. The context mentions the European Court of Justice as the highest authority, the principle of supremacy, the European Commission's role in proposing legislation, the Council and Parliament's legislative process, the European Court of Justice's role in interpreting law, the principle of proportionality, the role of national courts in referring questions, the European Parliament's role in legislation, the European Council's role in setting guidelines, and the rights of EU citizens like free movement and voting rights.
+
+I need to make sure each question is distinct. Let me list out 10 possible questions:
+
+1. Which institution is the highest authority in interpreting EU law?
+2. What principle ensures EU law takes precedence over national laws?
+3. Which body proposes legislation for the EU?
+4. What is required for a regulation to be adopted?
+5. What role does the European Court of Justice play in EU law?
+6. What principle requires EU actions to be proportionate?
+7. How do national courts handle EU law conflicts?
+8. What is the role of the European Parliament in legislation?
+9. What is the role of the European Council?
+10. What rights do EU citizens have regarding voting?
+
+Now, I'll pair each with the correct answers from the context. I need to ensure the answers are concise and directly from the text. Let me verify each answer against the context to avoid errors. Once confirmed, I'll format them into a JSON array as specified, making sure there are exactly 10 pairs without any extra content.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a instituição responsável por interpretar a lei da União Europeia?",
+    "resposta": "O Tribunal de Justiça da União Europeia."
+  },
+  {
+    "pergunta": "Qual princípio garante que a lei da União Europeia prevalece sobre as leis nacionais?",
+    "resposta": "O princípio da supremacia do direito da União Europeia."
+  },
+  {
+    "pergunta": "Qual órgão propõe a legislação para a União Europeia?",
+    "resposta": "A Comissão Europeia."
+  },
+  {
+    "pergunta": "Qual é o procedimento necessário para aprovar uma regulamentação?",
+    "resposta": "A aprovação por unanimidade no Conselho Europeu."
+  },
+  {
+    "pergunta": "Qual é a função do Tribunal de Justiça da União Europeia?",
+    "resposta": "Interpretar e aplicar o direito da União Europeia."
+  },
+  {
+    "pergunta": "Qual princípio exige que as ações da União Europeia sejam proporcionais?",
+    "resposta": "O princípio da proporcionalidade."
+  },
+  {
+    "pergunta": "Como os tribunais nacionais lidam com conflitos entre leis nacionais e da União Europeia?",
+    "resposta": "Apoiam a aplicação da lei da União Europeia e podem recorrer ao Tribunal de Justiça."
+  },
+  {
+    "pergunta": "Qual é o papel do Parlamento Europeu na legislação?",
+    "resposta": "Aprovar leis propostas pela Comissão Europeia."
+  },
+  {
+    "pergunta": "Qual é a função do Conselho Europeu?",
+    "resposta": "Definir as diretrizes políticas da União Europeia."
+  },
+  {
+    "pergunta": "Quais direitos os cidadãos da União Europeia têm em relação ao voto?",
+    "resposta": "Direito de votar nas eleições para o Parlamento Europeu."
+  }
+]

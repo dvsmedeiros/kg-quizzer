@@ -1,0 +1,87 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts about the University of Chicago. First, I need to make sure I understand the requirements. Each pair must be in Portuguese, relevant to the content, and have a single correct answer derived from the given information. Also, the questions should cover different aspects and avoid repetition.
+
+Starting with the context, the University of Chicago is a private research university with various professional schools like the Pritzker School of Medicine and the Booth School of Business. The facts list many notable alumni and faculty members, along with some statistics like the number of students (18,452 total) and rankings (USNWR world rank 15). There's also information about Nobel laureates associated with the university and their contributions to fields like economics, sociology, and physics.
+
+First question idea: How many professional schools does the University of Chicago have? The context mentions seven, so that's a good candidate. Answer would be seven.
+
+Next, the number of Nobel laureates affiliated with the university is 98. That's a key fact from the context. So a question about the number of Nobel laureates would be valid.
+
+Another point is the total number of students. The context says 18,452, so a question asking for the total student count is another one.
+
+The university's location is Chicago, Illinois. So a question about where it's located.
+
+The context mentions the first self-sustaining nuclear reaction, Chicago Pile-1, under Stagg Field. So a question about that experiment's location.
+
+The university press is the largest in the US. The answer is University of Chicago Press.
+
+The Barack Obama Presidential Center is set to open in 2021. So a question about the completion year.
+
+The USNWR world ranking is 15. That's another fact to use.
+
+The number of professional schools is already covered, but maybe ask about the names of some schools. For example, which is the law school? The answer is the Law School.
+
+Another fact is the number of MacArthur Genius Grants recipients. The context states 34 faculty and 17 alumni, totaling 51. Wait, the context says 34 members of the faculty and 17 alumni, so the answer is 34 faculty and 17 alumni. But maybe the question is just about the number of faculty members who received it, which is 34.
+
+Wait, the user examples include a question about the number of professional schools. Let me check if I can use that. The answer in the example was seven, which matches the context. So that's correct.
+
+Also, there are mentions of various departments and research centers like Fermi National Accelerator Laboratory and Argonne National Laboratory. Maybe a question about those.
+
+But since the user wants 10, I need to pick the most relevant ones. Let's list possible questions:
+
+1. Quantas escolas profissionais a Universidade de Chicago possui? Resposta: sete.
+2. Quantos laureados com o Prêmio Nobel estão associados à Universidade de Chicago? Resposta: 98.
+3. Quantos estudantes a Universidade de Chicago possui no total? Resposta: 18.452.
+4. Onde está localizada a Universidade de Chicago? Resposta: Chicago, Illinois.
+5. Qual é o nome da primeira reação nuclear autossustentável realizada na Universidade de Chicago? Resposta: Chicago Pile-1.
+6. Qual é o nome da maior editora universitária dos Estados Unidos? Resposta: University of Chicago Press.
+7. Em que ano o Centro Presidencial Barack Obama será concluído? Resposta: 2021.
+8. Qual é a classificação mundial da Universidade de Chicago segundo o USNWR? Resposta: 15.
+9. Qual é o nome da escola de direito da Universidade de Chicago? Resposta: Faculdade de Direito.
+10. Quantos docentes da Universidade de Chicago receberam o prêmio MacArthur "Genius Grant"? Resposta: 34.
+
+I need to check if all these answers are present in the context or facts. The number of MacArthur recipients is 34 faculty and 17 alumni, but the question asks specifically about faculty members. The USNWR ranking is mentioned as 15. The law school is mentioned as Faculdade de Direito. The completion year for the Obama Center is 2021. The total students are 18,452. All these are covered in the context. The examples provided by the user also include similar questions, so this should be okay. Now, ensuring that each question is unique and covers different aspects. That should work.
+</think>
+
+[
+  {
+    "pergunta": "Quantas escolas profissionais a Universidade de Chicago possui?",
+    "resposta": "sete"
+  },
+  {
+    "pergunta": "Quantos laureados com o Prêmio Nobel estão associados à Universidade de Chicago?",
+    "resposta": "98"
+  },
+  {
+    "pergunta": "Quantos estudantes a Universidade de Chicago possui no total?",
+    "resposta": "18.452"
+  },
+  {
+    "pergunta": "Onde está localizada a Universidade de Chicago?",
+    "resposta": "Chicago, Illinois"
+  },
+  {
+    "pergunta": "Qual é o nome da primeira reação nuclear autossustentável realizada na Universidade de Chicago?",
+    "resposta": "Chicago Pile-1"
+  },
+  {
+    "pergunta": "Qual é o nome da maior editora universitária dos Estados Unidos?",
+    "resposta": "University of Chicago Press"
+  },
+  {
+    "pergunta": "Em que ano o Centro Presidencial Barack Obama será concluído?",
+    "resposta": "2021"
+  },
+  {
+    "pergunta": "Qual é a classificação mundial da Universidade de Chicago segundo o USNWR?",
+    "resposta": "15"
+  },
+  {
+    "pergunta": "Qual é o nome da escola de direito da Universidade de Chicago?",
+    "resposta": "Faculdade de Direito"
+  },
+  {
+    "pergunta": "Quantos docentes da Universidade de Chicago receberam o prêmio MacArthur 'Genius Grant'?",
+    "resposta": "34"
+  }
+]

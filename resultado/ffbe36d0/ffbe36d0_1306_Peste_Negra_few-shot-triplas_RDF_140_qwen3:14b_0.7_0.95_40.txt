@@ -1,0 +1,139 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts. The context is about the Black Death, so I need to make sure all questions are relevant to that.
+
+First, I'll read through the context again to pick out key points. The Black Death started in Eurasia, peaked in Europe between 1347-1351, caused by Yersinia pestis, spread via fleas on rats on Genoese ships, killed 75-200 million people, had social and economic effects, originated in Central or Eastern Asia, reduced the world population from 475M to 350-375M, took 200 years for Europe to recover, and returned until the early 20th century.
+
+Now, the facts provided are in RDF format, but the user mentioned using the context, so maybe the facts are additional info. However, the examples given by the user used info from both. For instance, the first example's answer "as planícies da Ásia Central" comes from the context, not the facts. The facts mention "Asia Central or Eastern Asia" as the origin, so I need to make sure the answers are based on that.
+
+Looking at the examples, they used info from the context. For example, the answer to "De onde se originou a morte negra?" is "as planícies da Ásia Central," which is from the context. However, the context says "Ásia Central ou na Ásia Oriental," so maybe the answer should be "Ásia Central ou Ásia Oriental." Wait, the example answer is "planícies da Ásia Central," but the context says "originou na Ásia Central ou na Ásia Oriental." So maybe the answer should be more precise. But the example uses "planícies da Ásia Central," which might not be accurate. Hmm, but the user provided that example, so maybe it's acceptable. However, I should check the original context again.
+
+Original context: "A Peste Negra provavelmente teve a sua origem na Ásia Central ou na Ásia Oriental, de onde viajou ao longo da Rota da Seda, atingindo a Crimeia em 1343." So the origin is Asia Central or Eastern Asia. The example answer says "planícies da Ásia Central," which might not be exact, but perhaps that's a common belief. However, I should follow the context exactly. So the answer should be "na Ásia Central ou na Ásia Oriental."
+
+Next, the user wants the answers to be based on the context and the facts. The facts include the RDF data, which has "foaf:name" as "Black Death" and other properties, but the main info is in the context. The examples also include some info from the context, like the percentage of the population killed (30-60%), the time to recover (200 years), etc.
+
+Now, I need to create 10 questions. Let's list possible points:
+
+1. Origin (Asia Central or Eastern Asia)
+2. How it spread to Europe (Genoese ships with rats)
+3. Mortality rate (30-60% of Europe's population)
+4. Global population reduction (from 475M to 350-375M)
+5. Time to recovery (200 years)
+6. Duration until it disappeared (until early 20th century)
+7. Cause (Yersinia pestis)
+8. Effects (social and economic)
+9. Years it peaked (1347-1351)
+10. Spread via fleas on rats
+
+Now, phrasing the questions:
+
+1. Where did the Black Death originate? (Answer: Asia Central or Eastern Asia)
+2. How did the Black Death reach Europe? (Answer: via Genoese merchant ships)
+3. What percentage of Europe's population did the Black Death kill? (30-60%)
+4. How did the Black Death affect the world population? (Reduced from 475M to 350-375M)
+5. How long did it take for Europe's population to recover? (200 years)
+6. Until when did the Black Death occur? (Early 20th century)
+7. What was the cause of the Black Death? (Yersinia pestis)
+8. What were the social and economic effects of the Black Death? (Social and economic effects)
+9. In which years did the Black Death peak in Europe? (1347-1351)
+10. What was the primary method of transmission for the Black Death? (Fleas on rats)
+
+Now, checking the examples provided by the user. They had questions like "Quanto da população europeia matou a morte negra?" with answer "30 a 60% da população total da Europa." So that's covered. The example also had "Quando a população mundial finalmente se recuperou da morte negra?" with answer "século XVII." Wait, the context says "200 years for Europe to recover," but the example answer is "século XVII." That seems conflicting. Wait, the context says "200 years for Europe to recover," but if the Black Death started in 1347-1351, then 200 years later would be around 1547-1551, which is the 16th century, not 17th. The example answer says "século XVII," which is 17th century. Hmm, that's a discrepancy. But the user provided that example, so maybe that's acceptable. However, I should follow the context's info.
+
+In the context, it says "200 years for Europe to recover," so if the Black Death started in the 14th century, then the recovery would be in the 16th or 17th century. The exact date isn't specified, but the user's example says "século XVII," which is 17th. But according to the context, "200 years" from the peak in 1347-1351 would be around 1547-1551, which is the 16th century. However, the example answer is "século XVII," which is 17th. That's a mistake, but the user provided that example. So I need to be careful here.
+
+Alternatively, maybe the context's "200 years" is a general statement, not precise. So the answer could be "200 anos" or "século XVII" depending on interpretation. However, I should stick to the context's exact wording. The context says "200 years for Europe to recover," so the answer should be "200 anos" or "após 200 anos."
+
+Another point: the user's examples had a question about "Quando começou a fome chinesa?" with answer "1331," but that's not in the context. That seems like a mistake. However, the user included that as an example, so maybe it's part of the test. But in our case, the context doesn't mention a Chinese famine, so I shouldn't include that.
+
+So, focusing back on the Black Death info.
+
+Now, ensuring that each question is distinct and covers different aspects. Let me check again:
+
+1. Origin: Asia Central or Eastern Asia
+2. How it reached Europe: Genoese ships
+3. Mortality rate: 30-60%
+4. Global population reduction: from 475M to 350-375M
+5. Time to recover: 200 years
+6. Duration until disappearance: until early 20th century
+7. Cause: Yersinia pestis
+8. Effects: social and economic
+9. Peak years: 1347-1351
+10. Transmission method: fleas on rats
+
+That's 10 points. Now, phrasing the questions and answers in Portuguese.
+
+For example:
+
+1. "De onde a Peste Negra provavelmente se originou?" → "na Ásia Central ou na Ásia Oriental."
+
+2. "Como a Peste Negra chegou à Europa?" → "por meio de navios mercantes genoveses."
+
+3. "Qual a porcentagem da população europeia que a Peste Negra matou?" → "30 a 60% da população europeia."
+
+4. "Como a Peste Negra afetou a população mundial?" → "reduziu a população mundial de 475 milhões para 350 a 375 milhões."
+
+5. "Quanto tempo levou para a população europeia se recuperar da Peste Negra?" → "200 anos."
+
+6. "Até quando a Peste Negra persistiu?" → "até o início do século XX."
+
+7. "Qual a causa da Peste Negra?" → "a bactéria Yersinia pestis."
+
+8. "Quais foram os efeitos sociais e econômicos da Peste Negra?" → "efeitos sociais e econômicos significativos."
+
+9. "Em quais anos a Peste Negra atingiu seu pico na Europa?" → "entre 1347 e 1351."
+
+10. "Qual o principal meio de transmissão da Peste Negra?" → "pulgas que viviam em ratos."
+
+That should cover all 10 questions. Now, checking if these answers are accurate based on the context. Yes, all are covered. The user's examples had some inaccuracies, but I need to follow the context strictly. For instance, the example answer about the origin was "planícies da Ásia Central," but the context says "Ásia Central ou Ásia Oriental," so I should use that exact wording.
+
+Another point: the user's example had "Quando a população mundial finalmente se recuperou da morte negra?" with answer "século XVII." But according to the context, it took 200 years for Europe to recover. The Black Death started in the 14th century, so 200 years later would be the 16th or 17th century. The exact answer isn't specified, but the context doesn't mention the exact year, just the duration. So the answer should be "200 anos" or "após 200 anos."
+
+In my list, question 5 asks about the time to recover and the answer is "200 anos," which is accurate.
+
+Another example: the user's answer for "Quanto da população europeia matou a morte negra?" was "30 a 60% da população total da Europa," which matches the context.
+
+So my 10 questions and answers should be accurate based on the context provided.
+</think>
+
+[
+  {
+    "pergunta": "De onde a Peste Negra provavelmente se originou?",
+    "resposta": "na Ásia Central ou na Ásia Oriental."
+  },
+  {
+    "pergunta": "Como a Peste Negra chegou à Europa?",
+    "resposta": "por meio de navios mercantes genoveses."
+  },
+  {
+    "pergunta": "Qual a porcentagem da população europeia que a Peste Negra matou?",
+    "resposta": "30 a 60% da população europeia."
+  },
+  {
+    "pergunta": "Como a Peste Negra afetou a população mundial?",
+    "resposta": "reduziu a população mundial de 475 milhões para 350 a 375 milhões."
+  },
+  {
+    "pergunta": "Quanto tempo levou para a população europeia se recuperar da Peste Negra?",
+    "resposta": "200 anos."
+  },
+  {
+    "pergunta": "Até quando a Peste Negra persistiu?",
+    "resposta": "até o início do século XX."
+  },
+  {
+    "pergunta": "Qual a causa da Peste Negra?",
+    "resposta": "a bactéria Yersinia pestis."
+  },
+  {
+    "pergunta": "Quais foram os efeitos sociais e econômicos da Peste Negra?",
+    "resposta": "efeitos sociais e econômicos significativos."
+  },
+  {
+    "pergunta": "Em quais anos a Peste Negra atingiu seu pico na Europa?",
+    "resposta": "entre 1347 e 1351."
+  },
+  {
+    "pergunta": "Qual o principal meio de transmissão da Peste Negra?",
+    "resposta": "pulgas que viviam em ratos."
+  }
+]

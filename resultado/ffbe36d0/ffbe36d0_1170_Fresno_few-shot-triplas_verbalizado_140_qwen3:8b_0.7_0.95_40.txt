@@ -1,0 +1,77 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about Fresno, California. Let me start by reviewing the context and the list of facts to identify key points.
+
+First, the context mentions that Fresno is the fifth most populous city in California, located in Fresno County, incorporated in 1885, with over 542,000 residents as of the 2020 census, making it the 34th largest city in the U.S. So, I can create questions about its population rank, incorporation date, and population figures.
+
+Looking at the facts, there are several names of people who were born or died in Fresno. For example, George N. Zenovich, Adam Prentice, Floyd H. Hyde, etc. I can ask who was born or died there. Also, there are mentions of the government type (Strong Mayor), area code (559), coordinates, and some sports teams based there. 
+
+Another fact is the use of specific Wikipedia templates and the area total of 300.438620798976 square miles. There's also information about radio stations and airports like Inyo County Airport. 
+
+I need to ensure the questions are varied and cover different aspects. Let me list possible questions:
+
+1. What is Fresno's population rank in California? (Answer: Fifth)
+2. When was Fresno incorporated? (1885)
+3. What is Fresno's population according to the 2020 census? (Over 542,000)
+4. Who was born in Fresno? (Examples: Adam Prentice, Floyd H. Hyde, etc.)
+5. What is the area code of Fresno? (559)
+6. What type of government does Fresno have? (Strong Mayor)
+7. Which radio station has Fresno as its area of transmission? (Examples: KRDU, KSOF, etc.)
+8. What is the total area of Fresno? (300.438620798976 square miles)
+9. Which airport is located in Fresno? (Inyo County Airport)
+10. Which sports team is based in Fresno? (Examples: 2021 New Mexico Lobos, 2018 Phoenix Rising FC, etc.)
+
+Wait, but the user wants exactly 10 pairs. Let me check if the facts have enough unique points. Also, the examples in the user's message include questions about population rank, incorporation date, population, people born or died there, area code, government type, radio stations, area, airports, and sports teams. That's a good spread. I need to make sure each question is distinct and based on the provided facts.
+
+For the people born or died in Fresno, the fact list has many names. I can create a question asking who was born there, and list one example, but the answer should be specific. Wait, the user's example shows that for the question "Who was born in Fresno?", the answer is "Adam Prentice, Floyd H. Hyde, etc." But the user's instruction says each question must have a single correct answer. However, the facts list multiple people, so maybe the question should be more specific. Alternatively, perhaps the answer can include multiple names as long as they are correct based on the facts.
+
+But the user's example has a question with a single answer. Wait, looking at the examples provided by the user, for instance, the question "Quais foram as razões pelas quais os moradores se mudaram para a cidade de Fresno Station?" has the answer "a conveniência da ferrovia e preocupados com as inundações," which is a single answer. So perhaps each question should have a single answer, even if the facts have multiple instances. However, in the facts, there are multiple people born or died in Fresno, so maybe the answer can list some of them, but the user's examples show that the answer is a single name. Wait, in the user's examples, the answer to "Quem nasceu em Fresno?" is "Adam Prentice, Floyd H. Hyde, etc." So maybe it's acceptable to list multiple names as the answer, as long as they are correct based on the facts.
+
+But the user's instruction says each question must have a unique correct answer. However, the facts have multiple people, so perhaps the question can be phrased to ask for one example, but the answer includes multiple names. Alternatively, the question could be "Who were born in Fresno?" with the answer listing several names. However, the user's examples show that sometimes the answer is a single name, but in other cases, it's a list. 
+
+But the user's examples include a question about population rank, which has a single answer. So, perhaps for the people born or died in Fresno, the answer can list multiple names, but each question is structured to have a correct answer based on the facts. 
+
+Therefore, I need to create 10 questions, each with a unique correct answer, based on the facts. Let me proceed to list the questions and answers accordingly.
+</think>
+
+[
+  {
+    "pergunta": "Qual cidade é a quinta maior cidade da Califórnia?",
+    "resposta": "Fresno"
+  },
+  {
+    "pergunta": "Em que ano Fresno se tornou uma cidade incorporada?",
+    "resposta": "1885"
+  },
+  {
+    "pergunta": "Qual é a população de Fresno segundo o censo de 2020?",
+    "resposta": "Mais de 542.000 habitantes"
+  },
+  {
+    "pergunta": "Quem nasceu em Fresno?",
+    "resposta": "Adam Prentice, Floyd H. Hyde, Mike Pronovost"
+  },
+  {
+    "pergunta": "Qual é o código de área de Fresno?",
+    "resposta": "559"
+  },
+  {
+    "pergunta": "Qual é o tipo de governo de Fresno?",
+    "resposta": "Governança de tipo Strong Mayor"
+  },
+  {
+    "pergunta": "Qual rádio transmite em Fresno?",
+    "resposta": "KRDU, KSOF, KFTV-DT"
+  },
+  {
+    "pergunta": "Qual é a área total de Fresno?",
+    "resposta": "300,438620798976 milhas quadradas"
+  },
+  {
+    "pergunta": "Qual aeroporto está localizado em Fresno?",
+    "resposta": "Inyo County Airport"
+  },
+  {
+    "pergunta": "Qual equipe de futebol profissional está baseada em Fresno?",
+    "resposta": "Fresno Monsters"
+  }
+]

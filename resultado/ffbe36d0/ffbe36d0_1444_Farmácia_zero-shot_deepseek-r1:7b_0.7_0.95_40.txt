@@ -1,0 +1,74 @@
+<think>
+Okay, let me try to figure out how to approach this query. The user wants me to generate 10 objective questions based on a provided context about pharmacy. They specified that each question should have one correct answer derived directly from the content.
+
+First, I need to understand the context thoroughly. It's about pharmacy, so topics might include medications, prescriptions, safety protocols, billing, staff training, customer care, etc.
+
+I'll start by listing various aspects of pharmacy where questions can be framed:
+1. Medication types and their uses.
+2. Understanding prescriptions and patient instructions.
+3. Safety precautions taken by pharmacists.
+4. Billing processes and requirements for new prescriptions.
+5. Staffing needs in pharmacies.
+6. Educational materials provided to patients.
+7. Handling of over-the-counter medications.
+
+Next, I need to ensure each question is unique and covers different areas to avoid repetition. Each should be clear and directly related to the context without being too broad or narrow.
+
+I'll draft a few questions on each topic:
+- For medications: What's the primary ingredient in ibuprofen? (Aspirin isn't correct here.)
+- Prescriptions: How are prescriptions filled by pharmacists?
+- Safety: What safety measures do pharmacists take during mask use?
+- Billing: Requirements for filling a new prescription.
+- Staffing: Number of pharmacists needed in a pharmacy setting.
+- Patient education: What information is provided about OTC meds.
+- Common medications: Purpose beyond pain relief, like Nexium for acid reflux.
+
+I'll make sure each question has only one correct answer and that the answers are explicitly stated based on the context. I should avoid any markdown or extra text, just a JSON array as specified.
+
+Finally, I'll compile these into the required format, ensuring there are exactly 10 pairs without any repetition.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o principal activeio em ibuprofen?",
+    "resposta": "Aspirina"
+  },
+  {
+    "pergunta": "Como os remédios são preenchidos nos farmáceses?",
+    "resposta": "Pelos farmáticos, que são treinados para isso."
+  },
+  {
+    "pergunta": "Que ativa é usada para prevenir e tratar maionese de complying?",
+    "resposta": "O safetyiro"
+  },
+  {
+    "pergunta": "Quais são as especificações necessárias para um nuevo处方?",
+    "resposta": "Nomes completo, endereço, data de nascimento e endereço de residência."
+  },
+  {
+    "pergunta": "Quantos farmáticos são necessários em um estabelecimento de farma de comércio interno?",
+    "resposta": "Minimum 3"
+  },
+  {
+    "pergunta": "Qual é a principal educateação fornecida aos pacientes sobre os medicamentos OTC?",
+    "resposta": "Sua utilização, efeitos possíveis, segurança e instruções de uso."
+  },
+  {
+    "pergunta": "O que é frequentemente used para ameliorar a algodanha?",
+    "resposta": "Meloxicam"
+  },
+  {
+    "pergunta": "Qual é o propósito primário de atalizes como Nexium?",
+    "resposta": "Al reversar a acidez do estomago."
+  },
+  {
+    "pergunta": "O que é fundamental para os farmáceses na aplicação de máscara duvidosa?",
+    "resposta": "Conceito de vacunicação."
+  },
+  {
+    "pergunta": "Qual é a principal causa de morte por medicamentos em homeopatia?",
+    "resposta": "Substâncias adversas ou excessivas dose."
+  }
+]
+```

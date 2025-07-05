@@ -1,0 +1,100 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about the Yuan Dynasty. Let me start by going through the context and facts carefully.
+
+First, the context says the Yuan Dynasty was founded by Kublai Khan, grandson of Genghis Khan, in 1271. The facts include various details like the capital being Shangdu, the dynasty's official name as "Great Yuan," the use of specific Wikipedia templates, associated events like the Battle of Yamen, and other related entities and dates.
+
+I should ensure each question is unique and covers different aspects. Let me list out possible areas: founding, official names, capitals, related events, associated people, templates used, dates, and other related information.
+
+For example, one question could be about the founder, another about the official name, then the capital. Then, events like the Battle of Yamen, the date of establishment (1271), the end date (1368), associated figures like Kublai Khan's grandfather, the religion followed, and maybe the use of specific Wikipedia templates.
+
+I need to check that each answer is directly from the facts provided. Let me go through each fact and see which ones can be turned into questions. For instance, "Yuan dynasty tem como capital Shangdu" can be a question about the capital. "Yuan dynasty possui data final --09-14" can be about the end date. "Yuan dynasty é do tipo Country108544813" might be tricky, but maybe not necessary since it's a classification code.
+
+Also, ensuring that the answers are concise and directly from the facts. Avoid any inferences beyond what's provided. Let me draft some questions:
+
+1. Quem fundou a dinastia Yuan?
+   Resposta: Kublai Khan
+
+2. Qual é o nome oficial da dinastia Yuan?
+   Resposta: Grande Yuan
+
+3. Em que ano a dinastia Yuan foi formalmente estabelecida?
+   Resposta: 1271
+
+4. Qual era a capital da dinastia Yuan?
+   Resposta: Shangdu
+
+5. Em que ano a dinastia Yuan terminou?
+   Resposta: 1368
+
+6. Qual foi a batalha em que a dinastia Yuan participou?
+   Resposta: Batalha de Yamen
+
+7. Quem foi o avô de Kublai Khan?
+   Resposta: Genghis Khan
+
+8. Quais são os modelos de página wiki utilizados pela dinastia Yuan?
+   Resposta: Template:Main, Template:Infobox former country, etc. (but the example uses specific ones, maybe pick a couple)
+
+9. Qual religião era praticada durante a dinastia Yuan?
+   Resposta: Budismo, Tengrismo mongol, Xamanismo, Taoísmo, Confucionismo, religião popular chinesa, Nestorianismo cristão chinês, Cristianismo católico romano, judaísmo, Maniqueísmo chinês, islamismo
+
+10. Qual é o nome chinês da dinastia Yuan?
+    Resposta: 元朝 (Yuán cháo)
+
+Wait, the example uses "yin: Dà Yuán;" but maybe the correct answer is "Yuán cháo" as per the context. Need to check the facts again. The context says "chinês: 元朝, Yuán cháo" so the name in Chinese is 元朝, Yuán cháo.
+
+Also, the facts mention "Yuan dynasty possui l 'Time Granting Calendar'" but that might not be a question. Maybe better to focus on more straightforward facts.
+
+Let me verify each question to ensure they are unique and based on the provided data. Also, avoid repeating the same structure, like using "Quem..." multiple times.
+
+Another possible question: Qual foi a moeda utilizada durante a dinastia Yuan? Resposta: Cash (Chinese coin)
+
+Another: Qual é o significado do nome "Yuan" em chinês? Resposta: 元朝 (Yuán cháo)
+
+But the example already has the name in Chinese, so maybe that's covered.
+
+I think I have enough points to form 10 unique questions. Now, structure them into JSON as required.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o nome oficial da dinastia Yuan?",
+    "resposta": "Grande Yuan"
+  },
+  {
+    "pergunta": "Quem fundou a dinastia Yuan?",
+    "resposta": "Kublai Khan"
+  },
+  {
+    "pergunta": "Em que ano a dinastia Yuan foi formalmente estabelecida?",
+    "resposta": "1271"
+  },
+  {
+    "pergunta": "Qual era a capital da dinastia Yuan?",
+    "resposta": "Shangdu"
+  },
+  {
+    "pergunta": "Quem foi o avô de Kublai Khan?",
+    "resposta": "Genghis Khan"
+  },
+  {
+    "pergunta": "Qual é o nome chinês da dinastia Yuan?",
+    "resposta": "元朝 (Yuán cháo)"
+  },
+  {
+    "pergunta": "Qual foi a data de dissolução da dinastia Yuan?",
+    "resposta": "1368-09-14"
+  },
+  {
+    "pergunta": "Quais são os modelos de página wiki utilizados pela dinastia Yuan?",
+    "resposta": "Template:Main, Template:Infobox former country"
+  },
+  {
+    "pergunta": "Qual religião era praticada durante a dinastia Yuan?",
+    "resposta": "Budismo, Tengrismo mongol, Xamanismo, Taoísmo, Confucionismo, religião popular chinesa, Nestorianismo cristão chinês, Cristianismo católico romano, judaísmo, Maniqueísmo chinês, islamismo"
+  },
+  {
+    "pergunta": "Qual é o significado do nome 'Yuan' em chinês?",
+    "resposta": "元 (Yuán), que significa 'origem' ou 'início'"
+  }
+]

@@ -1,0 +1,64 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs in Portuguese based on the provided context and facts. First, I need to make sure I understand the context. The Normans were a Germanic people in northern France, originally Vikings from Scandinavia. They played significant roles in medieval Europe, like the Norman Conquest of England, establishing states in Sicily and southern Italy, and participating in the Crusades. 
+
+Now, looking at the facts provided, there's a mix of information about the Normans, including their relation to other groups, battles they were involved in, places they occupied, languages they spoke, and some specific names like Richard of Salerno and the Hauteville family. There are also mentions of castles and churches built in the Norman style, as well as religious affiliations like Norse paganism and Christianity.
+
+I need to create varied questions that cover different aspects. Let's start by identifying key points from the context and facts. The origin of the Normans (Vikings from Scandinavia), their role in the Norman Conquest of England, their presence in Sicily and Italy, the Crusades, languages they spoke (Old Norse, Latin, Old Norman), religious beliefs (initially Norse paganism, later Christianity), notable figures, battles, and architectural contributions.
+
+Each question should have a single correct answer based on the given info. Let's avoid repeating similar questions. For example, if I ask about the origin, I can later ask about the languages they spoke or their religious transition. Also, some facts mention specific battles like the Siege of Mahdia or the Battle of Civitate, which could be used for questions. The Hauteville family and Richard of Salerno are mentioned, so maybe a question about their ethnicity or nationality. The religious aspect is covered in the facts with both Norse paganism and Christianity, so a question on that could be useful.
+
+I need to make sure the answers are directly from the context or facts. For instance, the context states that the Normans descend from Vikings, so the answer to a question about their origin should be "vikingues da Escandinávia." The Battle of Hastings is part of the Norman Conquest of England, so a question about that battle could have the answer "Conquista Normanda da Inglaterra."
+
+Also, the facts mention that the Normans fala o idioma Latin and Old Norman, so a question about their languages would be correct to answer with those. The examples provided by the user include questions about the meaning of "Norman" and their religious beliefs, so similar angles can be taken.
+
+I need to check for any possible overlaps or redundant questions. For example, if I ask about the origin, then another about their relation to Norse people, that's acceptable as they are different aspects. Also, the Hauteville family's ethnicity is mentioned, so a question about that would be valid.
+
+Now, let's list out possible questions and answers based on this analysis. Make sure each answer is directly supported by the context or facts. Avoid using information not present. For example, the user's example mentions the Battle of Hastings and the Duke involved, which is present in the context, so that's okay. However, if a question were about a battle not listed in the facts, that would be incorrect.
+
+Finally, structure the JSON as specified, with exactly 10 pairs, each in Portuguese, without any additional text. Check for correct spelling and that each answer is accurate according to the provided data.
+</think>
+
+```json
+[
+  {
+    "pergunta": "De qual etnia descendiam a maioria dos normandos?",
+    "resposta": "Vikingues da Escandinávia."
+  },
+  {
+    "pergunta": "Qual evento histórico marca a conquista normanda da Inglaterra?",
+    "resposta": "Conquista Normanda da Inglaterra."
+  },
+  {
+    "pergunta": "Quais religiões os normandos seguiram ao longo da história?",
+    "resposta": "Norse paganism e Christianity."
+  },
+  {
+    "pergunta": "Quem era a família de origem normanda mencionada nos fatos?",
+    "resposta": "Hauteville family."
+  },
+  {
+    "pergunta": "Qual batalha envolveu normandos na Sicília entre 1159–1160?",
+    "resposta": "Siege of Mahdia."
+  },
+  {
+    "pergunta": "Quais idiomas eram falados pelos normandos, segundo os registros?",
+    "resposta": "Old Norse, Latin e Old Norman."
+  },
+  {
+    "pergunta": "Qual é o significado da palavra 'Normans' em nórdico antigo?",
+    "resposta": "Northmen ou Norsemen."
+  },
+  {
+    "pergunta": "Quem foi um líder normando famoso mencionado nos fatos?",
+    "resposta": "Richard of Salerno."
+  },
+  {
+    "pergunta": "Qual característica arquitetônica está associada aos normandos?",
+    "resposta": "Estilo arquitetônico Normans."
+  },
+  {
+    "pergunta": "Em que região da Europa os normandos estabeleceram estados além da Inglaterra?",
+    "resposta": "Sul da península Itálica e Sicília."
+  }
+]
+```

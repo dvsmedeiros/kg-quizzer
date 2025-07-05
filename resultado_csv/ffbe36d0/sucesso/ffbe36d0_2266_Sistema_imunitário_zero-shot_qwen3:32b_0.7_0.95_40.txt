@@ -1,0 +1,65 @@
+<think>
+Okay, let's start by understanding the user's request. They want me to generate 10 pairs of questions and answers in Portuguese based on the context provided, which is "Sistema imunitário" (Immune System). The output needs to be a JSON structure with each pair containing a question and a correct answer. The key points are: 10 pairs, in Portuguese, no extra explanations, and each question must be relevant and have a single correct answer from the given context.
+
+First, I need to recall the main aspects of the immune system. The immune system is responsible for defending the body against pathogens like bacteria, viruses, fungi, and parasites. It includes various components such as white blood cells (leucocytes), antibodies, complement proteins, and physical barriers like the skin and mucous membranes. There are two main parts: the innate (non-specific) and adaptive (specific) immune systems. The adaptive system involves T cells and B cells, which can remember past infections. Autoimmune diseases occur when the immune system attacks the body's own cells. Vaccines work by stimulating the immune system to develop memory without causing the disease.
+
+Now, I need to create 10 varied questions. Let me brainstorm possible topics: components of the immune system, types of immunity, functions of different cells, diseases related to immune dysfunction, examples of pathogens, how vaccines work, etc. Each question should target a specific fact or concept from the immune system's context.
+
+1. What are the two main parts of the immune system? Answer: Innate and Adaptive.
+2. Which cells are responsible for producing antibodies? B cells.
+3. What is the role of the skin in the immune system? Physical barrier.
+4. Which type of immunity is specific to certain pathogens? Adaptive.
+5. What are the primary cells in the innate immune system? Phagocytes, natural killer cells, etc.
+6. What is an autoimmune disease? Immune system attacks own cells.
+7. What is the function of T cells? Direct attack on infected cells.
+8. How do vaccines protect against diseases? Stimulate immune memory.
+9. What are the three lines of defense in the immune system? Physical barriers, innate, adaptive.
+10. What is the role of antibodies? Neutralize pathogens.
+
+Wait, let me check if these are all covered in the context. The user's context is "Sistema imunitário," so I need to ensure each answer is directly from that. For example, the question about the two main parts (Innate and Adaptive) is correct. B cells producing antibodies is accurate. Skin as a barrier is part of the innate defense. Adaptive immunity being specific is correct. Phagocytes (like macrophages) are part of the innate system. Autoimmune disease definition is correct. T cells attacking infected cells is part of adaptive immunity. Vaccines inducing memory without causing disease is correct. Three lines of defense: physical, innate, adaptive. Antibodies neutralizing pathogens by binding to them. All these points are standard parts of the immune system, so they should be valid based on the context provided. Let me make sure there's no repetition. Each question is unique and covers different aspects. The answers are all direct and fact-based. Now, translating them into Portuguese and structuring the JSON as required.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quais são os dois principais componentes do sistema imunitário?",
+    "resposta": "Imunidade inata e imunidade adaptativa"
+  },
+  {
+    "pergunta": "Quais células são responsáveis por produzir anticorpos no sistema imunitário?",
+    "resposta": "Células B"
+  },
+  {
+    "pergunta": "Qual a função da pele no sistema imunitário?",
+    "resposta": "Atuar como barreira física contra patógenos"
+  },
+  {
+    "pergunta": "Qual tipo de imunidade é específico para patógenos reconhecidos anteriormente?",
+    "resposta": "Imunidade adaptativa"
+  },
+  {
+    "pergunta": "Quais células são fundamentais na imunidade inata para englobar e destruir microrganismos?",
+    "resposta": "Fagócitos"
+  },
+  {
+    "pergunta": "O que é uma doença autoimune?",
+    "resposta": "Condição em que o sistema imunitário ataca células do próprio corpo"
+  },
+  {
+    "pergunta": "Qual a principal função das células T no sistema imunitário?",
+    "resposta": "Destruir células infectadas ou cancerígenas"
+  },
+  {
+    "pergunta": "Como as vacinas promovem proteção contra doenças?",
+    "resposta": "Estimulam a produção de memória imunológica sem causar a doença"
+  },
+  {
+    "pergunta": "Quais são as três linhas de defesa do sistema imunitário?",
+    "resposta": "Barreiras físicas, imunidade inata e imunidade adaptativa"
+  },
+  {
+    "pergunta": "Qual o papel dos anticorpos no combate a patógenos?",
+    "resposta": "Neutralizar agentes patogênicos ao se ligarem a eles"
+  }
+]
+```

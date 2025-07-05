@@ -1,0 +1,69 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context about the IPCC. First, I need to parse the context and the facts to extract relevant information.
+
+Starting with the context: The IPCC was created in 1988 by the UN through UNEP and WMO. Its main role is to synthesize climate change research. They've produced five major reports, the last in 2014. They got the Nobel Peace Prize in 2007. The facts mention various people associated with the IPCC, like Bert Bolin as the first chair, Hoesung Lee as current chair, and others. There's also info about headquarters in Geneva, parent organizations, and some documents like the Renewable Energy Sources report.
+
+Now, I need to create 10 varied questions. Let me brainstorm possible angles:
+
+1. When was the IPCC established? (1988)
+2. Who created the IPCC? (UNEP and WMO)
+3. What is the main objective of the IPCC? (Synthesize and disseminate climate knowledge)
+4. How many major reports have they produced? (Five)
+5. What is the current chair of the IPCC? (Hoesung Lee)
+6. Where is the IPCC headquartered? (Geneva)
+7. What prize did the IPCC win? (Nobel Peace Prize in 2007)
+8. What is the role of the IPCC in climate policy? (Provide scientific basis for policies)
+9. Who was the first chairperson? (Bert Bolin)
+10. What is the full form of IPCC in Portuguese? (Painel Intergovernamental sobre Mudanças Climáticas)
+
+I need to ensure each question is unique and covers different aspects. Let me check the examples provided to avoid repetition. The examples already have some about the UN, organizations that established IPCC, the president, etc. So I need to pick different points like number of reports, headquarters, Nobel Prize, roles, etc.
+
+Also, the facts mention specific people like Rajendra K. Pachauri and others. But the context doesn't say when he resigned, so maybe avoid that unless it's in the context. The examples include some people, so maybe a question about the first chairperson.
+
+Let me draft the questions and answers accordingly, making sure they are in Portuguese and the answers are directly from the context or inferable.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em que ano foi criado o IPCC?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "Quais são as organizações responsáveis pela criação do IPCC?",
+    "resposta": "Programa das Nações Unidas para o Meio Ambiente (PNUMA) e Organização Meteorológica Mundial (OMM)"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal do IPCC?",
+    "resposta": "sintetizar e divulgar o conhecimento sobre mudanças climáticas, suas causas, efeitos e soluções"
+  },
+  {
+    "pergunta": "Quantos grandes relatórios o IPCC já produziu até 2014?",
+    "resposta": "cinco"
+  },
+  {
+    "pergunta": "Qual prêmio o IPCC recebeu em 2007?",
+    "resposta": "Prêmio Nobel da Paz"
+  },
+  {
+    "pergunta": "Qual cidade é a sede do IPCC?",
+    "resposta": "Genebra"
+  },
+  {
+    "pergunta": "Quem é o atual presidente do IPCC?",
+    "resposta": "Hoesung Lee"
+  },
+  {
+    "pergunta": "Quem foi o primeiro presidente do IPCC?",
+    "resposta": "Bert Bolin"
+  },
+  {
+    "pergunta": "Qual é o papel do IPCC no contexto das políticas climáticas?",
+    "resposta": "fornecer a base científica para decisões e acordos internacionais"
+  },
+  {
+    "pergunta": "Qual é a denominação oficial do IPCC em português?",
+    "resposta": "Painel Intergovernamental sobre Mudanças Climáticas"
+  }
+]
+```

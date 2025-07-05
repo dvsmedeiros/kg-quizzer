@@ -1,0 +1,82 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers based on the given context and facts. Let me start by understanding the context thoroughly. The context talks about economic inequality, covering aspects like income distribution, wealth distribution, measures like the Gini Coefficient, the Human Development Index adjusted for inequality, and concepts such as equity, equality of outcomes, and equality of opportunities. It also mentions that globalization has reduced global inequality but increased within-country inequality.
+
+Now, looking at the facts provided, there's a lot of RDF data linking various resources to "Economic_inequality". For example, books like "Capital and Ideology" and "Capital in the Twenty-First Century" are mentioned as subjects. There are also people like Branko Milanović and Richard Wilkinson associated with this topic. Additionally, events like the Occupy movements are linked to economic inequality as causes.
+
+The key is to create questions that are varied and cover different aspects of the context. Each question must have a unique answer directly from the content. Let me brainstorm possible questions:
+
+1. What are the two main aspects of economic inequality mentioned in the context?
+   - Answer: Distribution of income and distribution of wealth.
+
+2. Which measure is most commonly used to quantify economic inequality?
+   - Answer: The Gini Coefficient.
+
+3. What does the Human Development Index adjusted for inequality take into account?
+   - Answer: Inequality.
+
+4. What are three concepts related to equality mentioned in the context?
+   - Answer: Equity, equality of results, and equality of opportunities.
+
+5. According to the context, how does globalization affect global and within-country inequality?
+   - Answer: It reduces global inequality but increases within-country inequality.
+
+6. What is the main focus of the book "Capital in the Twenty-First Century" according to the facts?
+   - Answer: Economic inequality.
+
+7. Which economist is associated with the field of economic inequality according to the facts?
+   - Answer: Branko Milanović.
+
+8. What type of subject is "The Hidden Wealth of Nations" according to the facts?
+   - Answer: Non-fiction subject.
+
+9. What is the main topic of the resource "Economic_inequality" as per the classes listed?
+   - Answer: An abstraction related to social issues, economic indicators, and globalization issues.
+
+10. Which movement is linked to economic inequality as a cause according to the facts?
+    - Answer: Occupy movements (e.g., Occupy Atlanta, Occupy Berlin, etc.).
+
+Wait, I need to ensure that each question is unique and covers different aspects. Let me check for repetition. The first question covers aspects, the second the Gini Coefficient, third the HDI, fourth concepts, fifth globalization impact, sixth a specific book, seventh an economist, eighth a book's subject, ninth the resource's classes, and tenth the movements. That seems varied. Now, I need to make sure the answers are directly from the context or facts. For example, the answer to question 6 is "economic inequality" as per the fact where "Capital in the Twenty-First Century" is listed under subjects. Similarly, the answer to question 7 is Branko Milanović from the facts. The answer to question 10 is the Occupy movements as they are listed as causes in multiple entries. I think this covers the requirements. Let me structure them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Quais são os dois principais aspectos abordados pela desigualdade econômica, conforme o contexto?",
+    "resposta": "Distribuição de renda e distribuição de riqueza."
+  },
+  {
+    "pergunta": "Qual é o método mais utilizado para medir a desigualdade econômica?",
+    "resposta": "O Coeficiente de Gini."
+  },
+  {
+    "pergunta": "O que o Índice de Desenvolvimento Humano Ajustado pela Desigualdade leva em conta?",
+    "resposta": "A desigualdade."
+  },
+  {
+    "pergunta": "Cite três conceitos importantes de igualdade mencionados no contexto.",
+    "resposta": "Equidade, igualdade de resultados e igualdade de oportunidades."
+  },
+  {
+    "pergunta": "Como a globalização afeta a desigualdade global e a desigualdade dentro dos países, segundo o contexto?",
+    "resposta": "Reduz a desigualdade global, mas aumenta a desigualdade dentro dos países."
+  },
+  {
+    "pergunta": "Qual é o foco principal da obra 'Capital em oitenta e um anos' segundo os fatos?",
+    "resposta": "A desigualdade econômica."
+  },
+  {
+    "pergunta": "Qual economista é associado ao campo de desigualdade econômica nos fatos?",
+    "resposta": "Branko Milanović."
+  },
+  {
+    "pergunta": "Que tipo de assunto é 'O Segredo do Riqueza' segundo os fatos?",
+    "resposta": "Assunto de não ficção."
+  },
+  {
+    "pergunta": "Qual é o tema principal do recurso 'Economic_inequality' conforme as classes listadas?",
+    "resposta": "Uma abstração relacionada a problemas sociais, indicadores econômicos e questões de globalização."
+  },
+  {
+    "pergunta": "Qual movimento está ligado à desigualdade econômica como causa, segundo os fatos?",
+    "resposta": "O movimento Occupy."
+  }
+]

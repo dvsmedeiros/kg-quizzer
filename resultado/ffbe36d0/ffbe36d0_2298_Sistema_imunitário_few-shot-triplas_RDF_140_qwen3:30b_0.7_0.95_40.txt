@@ -1,0 +1,85 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by thoroughly understanding the context and facts given.
+
+The context explains the immune system's role in protecting the body from diseases, its ability to detect pathogens, and the history of immunology, including Mechnikov as the father. It mentions mechanisms like phagocytosis, antimicrobial peptides, complement system, and the adaptive immune response. Also, it talks about immunodeficiency, autoimmune diseases, and the basics of vaccination. The facts include various entities related to the immune system, like cell types (B cells, T cells, macrophages), medical conditions (allergies, sepsis), and scientists (Charles Surh, César Milstein).
+
+The user wants 10 pairs, each with a question and a correct answer. The questions must be varied, cover different aspects, and be based solely on the provided content. No repetition of similar questions. The answers must be explicit or inferable from the context.
+
+First, I'll list possible aspects from the context:
+
+1. Definition and function of the immune system.
+2. History and key figures (Mechnikov, the term "immunology").
+3. Components of the immune system (innate vs. adaptive, specific cells like B cells, T cells).
+4. Mechanisms (phagocytosis, complement system, antibodies).
+5. Immune disorders (immunodeficiency, autoimmune diseases).
+6. Vaccination and acquired immunity.
+7. Evolution of immune systems in different organisms.
+
+Now, I'll create questions for each aspect, ensuring they are distinct and answers are directly from the context.
+
+Check for possible questions:
+
+1. Who is considered the father of immunology? (Answer: Ilya Ilyich Mechnikov)
+2. What are the two main parts of the immune system? (Innate and adaptive)
+3. What is the process where the immune system remembers pathogens? (Acquired immunity)
+4. What is the term for the immune system attacking the body's own cells? (Autoimmunity)
+5. What is the name of the system that provides immediate defense? (Innate immune system)
+6. What are the cells that produce antibodies? (B cells)
+7. What is the role of the complement system? (Neutralize pathogens)
+8. What is the result of a weakened immune system? (Immunodeficiency)
+9. What is the process of vaccinating based on? (Acquired immunity)
+10. What are the two types of immune responses? (Humoral and cell-mediated)
+
+Wait, but the context mentions "imunidade adquirida" as the basis for vaccination. Also, the facts list entities like B cells, T cells, etc. Need to ensure answers are directly from the context.
+
+Check the context again for exact terms. For example, the context says "o processo de imunidade adquirida é a base da vacinação." So the answer for vaccination would be "imunidade adquirida."
+
+Another point: the context mentions "fagocitose, os peptídeos antimicrobianos designados defensinas, e o sistema complemento." So the complement system is part of the innate system.
+
+Also, the context says "os vertebrados mandibulares... desenvolveram mecanismos de defesa ainda mais complexos, entre os quais a capacidade de ao longo do tempo se adaptarem para reconhecer de forma eficiente agentes patogénicos específicos." So adaptive immunity is part of vertebrates.
+
+Now, compiling the 10 pairs, making sure each is unique and answers are precise.
+</think>
+
+[
+  {
+    "pergunta": "Quem é considerado o pai da imunologia?",
+    "resposta": "Ilya Ilyich Mechnikov"
+  },
+  {
+    "pergunta": "O que é a imunidade adquirida?",
+    "resposta": "O processo pelo qual o organismo cria memória imunológica para responder eficazmente a agentes patogénicos"
+  },
+  {
+    "pergunta": "Quais são os mecanismos de defesa inatas do sistema imunitário?",
+    "resposta": "fagocitose, peptídeos antimicrobianos (defensinas) e o sistema complemento"
+  },
+  {
+    "pergunta": "O que acontece quando o sistema imunológico ataca tecidos saudáveis?",
+    "resposta": "autoimunidade"
+  },
+  {
+    "pergunta": "Qual é a principal função do sistema imunológico?",
+    "resposta": "proteger os organismos contra doenças"
+  },
+  {
+    "pergunta": "Quais são as duas principais categorias do sistema imunitário?",
+    "resposta": "sistema imunológico inato e sistema imunológico adaptativo"
+  },
+  {
+    "pergunta": "O que é a imunodeficiência?",
+    "resposta": "condição em que o sistema imunológico é menos ativo que o normal"
+  },
+  {
+    "pergunta": "Qual é a base da vacinação?",
+    "resposta": "a imunidade adquirida"
+  },
+  {
+    "pergunta": "Quais células são responsáveis pela produção de anticorpos?",
+    "resposta": "células B"
+  },
+  {
+    "pergunta": "O que são patógenos?",
+    "resposta": "agentes detectados pelo sistema imunológico, como bactérias e vírus"
+  }
+]

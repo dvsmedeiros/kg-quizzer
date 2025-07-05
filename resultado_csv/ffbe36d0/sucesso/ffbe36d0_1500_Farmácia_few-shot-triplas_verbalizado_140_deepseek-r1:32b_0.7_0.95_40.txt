@@ -1,0 +1,94 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about Pharmacy. Let's start by understanding what's given.
+
+The context explains that Pharmacy is a science practiced by pharmacists, focusing on drugs and how users interact with them. The facts list various entities related to Pharmacy like companies, journals, education, etc.
+
+I should create varied questions covering different aspects. Let me go through the facts and identify key points.
+
+1. **Education**: Several individuals were educated in Pharmacy.
+   - Question: Quais pessoas foram educadas em Farmácia?
+   - Answer: Özgür Özel e Şakir Eczacıbaşı.
+
+2. **Industries**: Many companies belong to the Pharmacy industry.
+   - Question: Qual empresa pertence à indústria de Farmácia?
+   - Answer: Grupo DPSP, Galenica.
+
+3. **Products**: Some supermarkets have Pharmacy products.
+   - Question: Quais supermercados têm produtos de Farmácia?
+   - Answer: Santa Isabel e Companhia Portuguesa de Hipermercados.
+
+4. **Professionals**: Individuals active in the Pharmacy field.
+   - Question: Quem atua na área de Farmácia?
+   - Answer: Pierre Joseph Pelletier, Johann Gottlieb Kugelann.
+
+5. **Journals**: Publications related to Pharmacy.
+   - Question: Qual revista atua na disciplina de Farmácia?
+   - Answer: Current Trends in Biotechnology and Pharmacy.
+
+6. **Drugs Stores**: Names of pharmacies.
+   - Question: Quais drogarias existem?
+   - Answer: Genovese Drug Stores, Duane Reade.
+
+7. **Formação**: Educational degrees in Pharmacy.
+   - Question: Qual é a formação necessária para Farmácia?
+   - Answer: Doctor of Pharmacy, Master of Pharmacy.
+
+8. **Serviços**: Pharmacies offering services.
+   - Question: Quais empresas oferecem serviços de Farmácia?
+   - Answer: Gelson's Markets, Rite Aid.
+
+9. **Imagens**: Representative images for Pharmacy.
+   - Question: Quais imagens representam Farmácia?
+   - Answer: Medicin man.jpg, Rx symbol border.svg.
+
+10. **Hiperônimos**: Categories related to Pharmacy.
+    - Question: Qual é o hiperônimo de Farmácia?
+    - Answer: Profissão de saúde.
+
+I need to ensure each question is unique and covers different aspects without repetition. Let me structure them clearly in the JSON format as required.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quais pessoas foram educadas em Farmácia?",
+    "resposta": "Özgür Özel e Şakir Eczacıbaşı."
+  },
+  {
+    "pergunta": "Qual empresa pertence à indústria de Farmácia?",
+    "resposta": "Grupo DPSP, Galenica."
+  },
+  {
+    "pergunta": "Quais supermercados têm produtos de Farmácia?",
+    "resposta": "Santa Isabel e Companhia Portuguesa de Hipermercados."
+  },
+  {
+    "pergunta": "Quem atua na área de Farmácia?",
+    "resposta": "Pierre Joseph Pelletier, Johann Gottlieb Kugelann."
+  },
+  {
+    "pergunta": "Qual revista atua na disciplina de Farmácia?",
+    "resposta": "Current Trends in Biotechnology and Pharmacy."
+  },
+  {
+    "pergunta": "Quais drogarias existem?",
+    "resposta": "Genovese Drug Stores, Duane Reade."
+  },
+  {
+    "pergunta": "Qual é a formação necessária para Farmácia?",
+    "resposta": "Doctor of Pharmacy, Master of Pharmacy."
+  },
+  {
+    "pergunta": "Quais empresas oferecem serviços de Farmácia?",
+    "resposta": "Gelson's Markets, Rite Aid."
+  },
+  {
+    "pergunta": "Quais imagens representam Farmácia?",
+    "resposta": "Medicin man.jpg, Rx symbol border.svg."
+  },
+  {
+    "pergunta": "Qual é o hiperônimo de Farmácia?",
+    "resposta": "Profissão de saúde."
+  }
+]
+```

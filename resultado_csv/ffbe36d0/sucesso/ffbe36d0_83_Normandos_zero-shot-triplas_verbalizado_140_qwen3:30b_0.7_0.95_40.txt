@@ -1,0 +1,107 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers based on the given context and facts about the Normans. First, I need to make sure I understand the context and facts provided.
+
+The context says the Normans were a Germanic people in northern France, descended from Vikings. They had significant political, military, and cultural roles in medieval Europe and the Middle East. They colonized Normandy, conquered England, established states in Sicily, and participated in the Crusades. Their history has many legends.
+
+The facts list a bunch of data points, like their languages (Old Norse, Old Norman, Latin), their religious practices (Norse paganism, Christianity), notable places (Castles like Chepstow, Trim), battles they were involved in, and various wiki templates they use. Also, some people associated with them, like Richard of Salerno, and places like Jersey people.
+
+Now, I need to generate 10 unique questions and answers. Each question should be relevant, varied, and based on the content. Let me start by going through the facts and context to find distinct aspects.
+
+First, the origin: they were Germanic, descendants of Vikings. So a question about their origin. Then, their languages: Old Norse, Old Norman, Latin. Maybe ask which languages they spoke. 
+
+Religion: they followed Norse paganism and Christianity. A question about their religions. 
+
+Military actions: battles like the Battle of Civitate, Montepeloso, etc. Maybe ask which battles they participated in. 
+
+Cultural contributions: the Bayeux Tapestry, architectural styles like Norman architecture. 
+
+Historical events: the Conquest of England, establishment of states in Sicily. 
+
+Other aspects: wiki templates they use, notable people, places they occupied like castles. 
+
+I need to ensure each question is different. Let me list possible questions:
+
+1. Origin of the Normans?
+2. Languages they spoke?
+3. Religions they followed?
+4. Notable battles they were part of?
+5. Architectural styles associated with them?
+6. Historical events like the conquest of England?
+7. Places they occupied (castles)?
+8. People associated with them?
+9. Wiki templates they use?
+10. Their role in the Crusades?
+
+Now, check the facts to make sure answers are accurate. For example, the Bayeux Tapestry is mentioned, so a question about that. Also, the Battle of Montepeloso and others. The answer needs to be directly from the facts.
+
+Make sure not to repeat similar questions. For instance, instead of asking about multiple battles, pick different ones. Also, check that each answer is explicitly stated or inferable. 
+
+Let me draft each pair:
+
+1. Pergunta: De onde os normandos originaram-se? Resposta: Eram um povo germânico estabelecido no norte da França, descendentes de viquingues da Escandinávia.
+
+2. Pergunta: Quais idiomas os normandos falavam? Resposta: Falavam os idiomas Old Norse, Old Norman e Latin.
+
+3. Pergunta: Quais religiões os normandos seguiam? Resposta: Seguiam a religião Norse paganism e Christianity.
+
+4. Pergunta: Em quais batalhas os normandos participaram? Resposta: Participaram em batalhas como a Battle of Civitate, Battle of Montepeloso e Battle of Soissons (923).
+
+5. Pergunta: Qual estilo arquitetônico está associado aos normandos? Resposta: Seguiam o estilo arquitetônico Normans, como em St Mary's Church, Mortehoe.
+
+6. Pergunta: Qual evento histórico importante os normandos estiveram envolvidos? Resposta: Estiveram envolvidos na Conquista Normanda da Inglaterra e na colonização da Sicília.
+
+7. Pergunta: Quais castelos foram ocupados pelos normandos? Resposta: Castelos como Kells Castle, Waytemore Castle e Taunton Castle foram ocupados pelos normandos.
+
+8. Pergunta: Quem é uma figura associada aos normandos? Resposta: Richard of Salerno possuía nacionalidade Normans.
+
+9. Pergunta: Quais templates wiki os normandos utilizavam? Resposta: Utilizavam templates como Template:Norse people, Template:Refend e Template:Cite book.
+
+10. Pergunta: O que representa a Tapeçaria de Bayeux? Resposta: A Tapeçaria de Bayeux representa a Conquista Normanda da Inglaterra.
+
+I need to check if all answers are directly from the facts. For example, the Bayeux Tapestry is mentioned in the facts, so that's valid. The castles like Kells Castle and Waytemore Castle are listed as occupied by Normans. The Battle of Soissons (923) is mentioned as having Normans as commanders. 
+
+Make sure each question is unique and covers different aspects. Avoid repetition. Looks good. Now format into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "De onde os normandos originaram-se?",
+    "resposta": "Eram um povo germânico estabelecido no norte da França, descendentes de viquingues da Escandinávia."
+  },
+  {
+    "pergunta": "Quais idiomas os normandos falavam?",
+    "resposta": "Falavam os idiomas Old Norse, Old Norman e Latin."
+  },
+  {
+    "pergunta": "Quais religiões os normandos seguiam?",
+    "resposta": "Seguiam a religião Norse paganism e Christianity."
+  },
+  {
+    "pergunta": "Em quais batalhas os normandos participaram?",
+    "resposta": "Participaram em batalhas como a Battle of Civitate, Battle of Montepeloso e Battle of Soissons (923)."
+  },
+  {
+    "pergunta": "Qual estilo arquitetônico está associado aos normandos?",
+    "resposta": "Seguiam o estilo arquitetônico Normans, como em St Mary's Church, Mortehoe."
+  },
+  {
+    "pergunta": "Qual evento histórico importante os normandos estiveram envolvidos?",
+    "resposta": "Estiveram envolvidos na Conquista Normanda da Inglaterra e na colonização da Sicília."
+  },
+  {
+    "pergunta": "Quais castelos foram ocupados pelos normandos?",
+    "resposta": "Castelos como Kells Castle, Waytemore Castle e Taunton Castle foram ocupados pelos normandos."
+  },
+  {
+    "pergunta": "Quem é uma figura associada aos normandos?",
+    "resposta": "Richard of Salerno possuía nacionalidade Normans."
+  },
+  {
+    "pergunta": "Quais templates wiki os normandos utilizavam?",
+    "resposta": "Utilizavam templates como Template:Norse people, Template:Refend e Template:Cite book."
+  },
+  {
+    "pergunta": "O que representa a Tapeçaria de Bayeux?",
+    "resposta": "A Tapeçaria de Bayeux representa a Conquista Normanda da Inglaterra."
+  }
+]

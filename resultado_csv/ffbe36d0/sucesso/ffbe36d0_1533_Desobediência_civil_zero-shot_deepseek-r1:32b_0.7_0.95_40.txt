@@ -1,0 +1,65 @@
+<think>
+Ok, eu preciso ajudar o usuário a gerar 10 pares de perguntas e respostas baseados no contexto fornecido sobre desobediência civil. Primeiro, entendo que o usuário quer um JSON estruturado com esses pares, em português.
+
+Vou começar lendo atentamente o conteúdo do contexto para extrair informações-chave. O texto fala sobre desobediência civil como uma ação consciente e intencional contra leis consideradas injustas, destaca que é um protesto não violento, cita Gandhi e Luther King Jr. como exemplos, menciona as etapas envolvidas (reflexão ética, organização coletiva, ação pública), os objetivos (chamar atenção, promover diálogo, pressionar mudanças políticas), a diferença da rebelião armada, o caráter simbólico e educativo das ações, os riscos envolvidos (sanções legais) e a importância de um movimento massivo e organizado.
+
+Agora, para cada ponto importante, vou criar uma pergunta que abarque diferentes aspectos. Preciso garantir que as perguntas sejam variadas e cada uma tenha uma única resposta correta baseada no conteúdo.
+
+1. Definição: O que é desobediência civil?
+2. Características principais: Quais são características da desobediência civil?
+3. Exemplos históricos: Quem são exemplos de líderes que praticaram desobediência civil?
+4. Etapas envolvidas: Quais etapas fazem parte da prática organizada?
+5. Objetivo principal: Qual é o objetivo principal?
+6. Diferença com rebelião armada: Em que ela difere?
+7. Características das ações: O que define as ações de desobediência civil?
+8. Riscos envolvidos: Quais são os riscos para os participantes?
+9. Importância do movimento: Qual é a importância de um movimento amplo e organizado?
+10. Contexto histórico: Em qual contexto surgiu o conceito?
+
+Agora, vou transformar cada ponto em uma pergunta clara e uma resposta precisa, seguindo as regras fornecidas.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é desobediência civil?",
+    "resposta": "É uma ação consciente e intencional de desafiar ou violar leis consideradas injustas, com o objetivo de promover mudanças sociais."
+  },
+  {
+    "pergunta": "Quais são as características principais da desobediência civil?",
+    "resposta": "É uma forma de protesto não violenta e organizada contra leis ou políticas consideradas injustas."
+  },
+  {
+    "pergunta": "Quem são exemplos históricos de líderes que praticaram desobediência civil?",
+    "resposta": "Mahatma Gandhi e Martin Luther King Jr. são exemplos notáveis."
+  },
+  {
+    "pergunta": "Quais etapas fazem parte da prática organizada da desobediência civil?",
+    "resposta": "Reflexão ética, organização coletiva e ação pública."
+  },
+  {
+    "pergunta": "Qual é o objetivo principal da desobediência civil?",
+    "resposta": "Chamar atenção para injustiças, promover diálogo e pressionar mudanças políticas."
+  },
+  {
+    "pergunta": "Em que a desobediência civil difere de uma rebelião armada?",
+    "resposta": "A desobediência civil é não violenta, enquanto a rebelião armada utiliza força física."
+  },
+  {
+    "pergunta": "O que define as ações de desobediência civil?",
+    "resposta": "Caráter simbólico e educativo, com o propósito de conscientizar a sociedade."
+  },
+  {
+    "pergunta": "Quais são os riscos envolvidos na prática da desobediência civil?",
+    "resposta": "Os participantes podem enfrentar sanções legais ou repressões."
+  },
+  {
+    "pergunta": "Qual é a importância de um movimento amplo e organizado na desobediência civil?",
+    "resposta": "Ajuda a fortalecer a ação, garantindo maior impacto e sustentação."
+  },
+  {
+    "pergunta": "Em qual contexto histórico surgiu o conceito moderno de desobediência civil?",
+    "resposta": "Surgiu no século XIX como resposta a movimentos por justiça social e igualdade."
+  }
+]
+```

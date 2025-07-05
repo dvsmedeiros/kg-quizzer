@@ -1,0 +1,64 @@
+<think>
+Okay, let's tackle this query. The user provided a list of entities, each with a type, and they want me to generate 10 question-answer pairs based on those. The instructions mention using the "type" as the answer and creating questions that can be answered by that type.
+
+First, I need to parse the data correctly. Each entry has a subject and a type. For example, "San Sebastián College – Recoletos de Cavite" is a "Private school". So the question should be something like, "What type of institution is San Sebastián College – Recoletos de Cavite?" and the answer is "Private school".
+
+I need to make sure each question is unique and refers to a different entity. Let me go through the list and pick 10 different entries. Let's see:
+
+1. "Saint Mary's College of Quezon City" – Private school
+2. "St. John Paul II STEM Academy" – Private school
+3. "The British School, Kathmandu" – Private school
+4. "Westfield Friends School" – Private school (since the type is "Private school")
+5. "University of Medical Sciences and Technology" – Private school
+6. "Washington University School of Medicine" – Private school
+7. "Yaeil Theological Seminary" – Private school
+8. "Perm State Choreographic College" – Private school (type is "Private school")
+9. "St. Ignatius of Loyola College, Las Palmas" – Private school
+10. "St. Xavier High School (New York City)" – Private school
+
+Wait, some entries might have the same type. Let me check if all these have the type "Private school". Looking back at the data:
+
+- "Perm State Choreographic College" has type "Private school"
+- "Westfield Friends School" has type "Private school"
+- "University of Medical Sciences and Technology" – "Private school"
+- "Washington University School of Medicine" – "Private school"
+- "Yaeil Theological Seminary" – "Private school"
+- "St. Ignatius of Loyola College, Las Palmas" – "Private school"
+- "St. Xavier High School (New York City)" – "Private school"
+- "Saint Mary's College of Quezon City" – "Private school"
+- "St. John Paul II STEM Academy" – "Private school"
+- "The British School, Kathmandu" – "Private school"
+
+That's 10 entries. Now, I need to form the questions and answers. Each question should ask for the type, and the answer is the type. Let me make sure the questions are correctly phrased and the answers match. Also, ensure that the entities are correctly named. For example, "St. John Paul II STEM Academy" is correct as per the data. I'll proceed to list these pairs.
+</think>
+
+**pergunta;resposta**  
+1. Qual o tipo de instituição que é a "San Sebastián College – Recoletos de Cavite"?  
+**resposta**;Private school  
+
+2. Qual o tipo de instituição que é a "St. John Paul II STEM Academy"?  
+**resposta**;Private school  
+
+3. Qual o tipo de instituição que é a "The British School, Kathmandu"?  
+**resposta**;Private school  
+
+4. Qual o tipo de instituição que é a "Westfield Friends School"?  
+**resposta**;Private school  
+
+5. Qual o tipo de instituição que é a "University of Medical Sciences and Technology"?  
+**resposta**;Private school  
+
+6. Qual o tipo de instituição que é a "Washington University School of Medicine"?  
+**resposta**;Private school  
+
+7. Qual o tipo de instituição que é a "Yaeil Theological Seminary"?  
+**resposta**;Private school  
+
+8. Qual o tipo de instituição que é a "Perm State Choreographic College"?  
+**resposta**;Private school  
+
+9. Qual o tipo de instituição que é a "St. Ignatius of Loyola College, Las Palmas"?  
+**resposta**;Private school  
+
+10. Qual o tipo de instituição que é a "St. Xavier High School (New York City)"?  
+**resposta**;Private school

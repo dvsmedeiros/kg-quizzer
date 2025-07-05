@@ -1,0 +1,11 @@
+pergunta;resposta
+O que é comutação de pacotes?;É um método de transmissão de dados onde os dados são divididos em pacotes, cada um com um cabeçalho contendo informações de roteamento.
+Como os dados são divididos na comutação de pacotes?;Os dados são divididos em pacotes de tamanho fixo ou variável, cada um contendo uma parte da informação e informações de endereçamento.
+Qual é a função do cabeçalho em um pacote?;O cabeçalho contém informações de roteamento, como endereço de origem, destino e sequência para reorganização.
+Como os pacotes são transmitidos em uma rede?;Os pacotes são transmitidos individualmente por meio de roteadores, que decidem o caminho com base nas informações do cabeçalho.
+Quais são as vantagens da comutação de pacotes em comparação com a comutação de circuitos?;A comutação de pacotes permite maior eficiência no uso da largura de banda e flexibilidade na roteamento.
+Como os pacotes são reorganizados na destinação?;Os pacotes são reorganizados na ordem correta com base nas informações de sequência presentes no cabeçalho.
+Quais protocolos são comumente usados na comutação de pacotes?;Protocolos como IP, TCP e UDP são amplamente utilizados para gerenciar a transmissão e a confiabilidade dos pacotes.
+O que acontece se um pacote for perdido durante a transmissão?;O protocolo TCP detecta a perda e solicita a retransmissão do pacote, enquanto o UDP não garante a entrega.
+Como a comutação de pacotes suporta redes de diferentes tamanhos?;A comutação de pacotes é escalável, permitindo a transmissão de dados em redes locais, metropolitanas ou globais.
+Qual é o papel dos roteadores em uma rede de comutação de pacotes?;Roteadores direcionam os pacotes para o próximo nó da rede com base nas informações de roteamento no cabeçalho.

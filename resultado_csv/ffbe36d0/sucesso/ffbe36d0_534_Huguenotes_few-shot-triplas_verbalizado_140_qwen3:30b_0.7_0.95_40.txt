@@ -1,0 +1,85 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts about Huguenots. Let me start by understanding the context provided.
+
+The context says Huguenots were French Protestants during the religious wars in France, mainly in the second half of the 16th century. Around 300,000 left France after persecutions under Louis XIV and the revocation of the Edict of Nantes in 1685. They were mostly Calvinists and part of the Reformed Church, while those in Alsace, Moselle, and Montbéliard were mainly Lutheran Germans.
+
+Now, looking at the facts, there are a lot of technical details about their wiki pages, categories, images, and related topics. But I need to focus on the key points from the context. The user wants varied questions covering different aspects, so I need to make sure each question is unique and based on the provided info.
+
+First, I can ask about the main religious affiliation. The context mentions they were mostly Calvinists and part of the Reformed Church. So a question could be about their primary denomination.
+
+Next, the Edict of Nantes and its revocation. The context states the Edict was revoked in 1685, leading to their emigration. So a question about the revocation date and its impact.
+
+Then, the reasons for their migration. The context mentions persecutions under Louis XIV and the revocation. So a question on the main cause.
+
+Another point is the regions they were concentrated in. The context says parts of southern and central France. So a question about their geographical distribution.
+
+The term "Huguenot" origin: the context says it was originally a term of mockery, possibly linked to a Swiss politician. So a question about the origin of the term.
+
+The Edict of Nantes granted them autonomy, so a question on what the Edict did.
+
+The number of emigrants: around 300,000. A question about the estimated number.
+
+The impact of the revocation: leading to their departure. So a question on the consequence of the revocation.
+
+The difference between Huguenots in different regions: Alsace, Moselle, Montbéliard were Lutheran. So a question about the Lutheran presence in those areas.
+
+Lastly, the main historical event leading to their emigration: the revocation of the Edict of Nantes. So a question on the key event.
+
+I need to check if these questions are all unique and cover different aspects. Let me list them:
+
+1. Religious affiliation (Calvinists, Reformed Church)
+2. Revocation of Edict of Nantes (1685)
+3. Main cause of migration (persecutions under Louis XIV)
+4. Geographical concentration (southern and central France)
+5. Origin of the term "Huguenot" (mockery, Swiss politician)
+6. What the Edict of Nantes granted (autonomy)
+7. Number of emigrants (300,000)
+8. Consequence of revocation (emigration)
+9. Lutheran presence in specific regions (Alsace, etc.)
+10. Key event leading to emigration (revocation of Edict)
+
+That's 10. Now, I need to phrase each question clearly and ensure the answers are directly from the context. Avoid repetition. Check for any possible overlaps. Looks good. Now, format them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual era a principal denominação religiosa dos huguenotes?",
+    "resposta": "calvinistas e membros da Igreja Reformada"
+  },
+  {
+    "pergunta": "Em que data foi revogado o Édito de Nantes?",
+    "resposta": "18 de outubro de 1685"
+  },
+  {
+    "pergunta": "Qual foi a principal causa da emigração dos huguenotes da França?",
+    "resposta": "perseguições contra as comunidades protestantes, sob Luís XIV"
+  },
+  {
+    "pergunta": "Onde estavam concentradas as comunidades huguenotes na França?",
+    "resposta": "as partes sul e central da França"
+  },
+  {
+    "pergunta": "De onde o termo 'huguenote' pode ter origem?",
+    "resposta": "pode estar relacionado a Hugues, um político suíço"
+  },
+  {
+    "pergunta": "O que o Édito de Nantes concedeu aos huguenotes?",
+    "resposta": "autonomia religiosa, política e militar substancial"
+  },
+  {
+    "pergunta": "Quantos huguenotes deixaram a França após a revogação do Édito de Nantes?",
+    "resposta": "cerca de 300 000"
+  },
+  {
+    "pergunta": "Qual foi o impacto da revogação do Édito de Nantes?",
+    "resposta": "a perda de direitos e a emigração em massa dos huguenotes"
+  },
+  {
+    "pergunta": "Quais regiões da França tinham comunidades huguenotes de religião luterana?",
+    "resposta": "Alsácia, Moselle e Montbéliard"
+  },
+  {
+    "pergunta": "Qual evento histórico marcou o fim do período de tolerância religiosa para os huguenotes?",
+    "resposta": "a revogação do Édito de Nantes"
+  }
+]

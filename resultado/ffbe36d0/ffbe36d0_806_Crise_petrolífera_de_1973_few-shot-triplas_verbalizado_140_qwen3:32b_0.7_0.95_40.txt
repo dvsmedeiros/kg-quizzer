@@ -1,0 +1,131 @@
+<think>
+Okay, let's tackle this query. The user wants 10 question-answer pairs based on the provided context and facts. The context is about the 1973 oil crisis. First, I need to parse the context to extract key information. The crisis started in October 1973 when OPAEP (Organization of Arab Petroleum Exporting Countries) imposed an embargo on nations supporting Israel during the Yom Kippur War. Targeted countries included Canada, Japan, the Netherlands, the UK, and the US, later expanding to Portugal, Rhodesia, and South Africa. The oil price rose from $3 to $12 per barrel by March 1974, with even higher prices in the US. It's called the "first oil shock," followed by the 1979 crisis.
+
+Now, looking at the facts provided, there's a lot of metadata about the Wikipedia page, categories, templates, etc. But the user emphasized using the context and facts provided. However, the examples given in the prompt seem to be derived from the context, not the technical facts (like categories, templates). So, probably, the user wants the Q&A pairs based on the context paragraph, not the technical metadata.
+
+So, I need to generate 10 varied questions covering different aspects of the crisis. Let's brainstorm possible questions:
+
+1. When did the 1973 oil crisis start? (Answer: October 1973)
+2. Which organization imposed the oil embargo? (OPAEP)
+3. Countries targeted initially? (Canada, Japan, Netherlands, UK, US)
+4. The result of the embargo on oil prices? (From $3 to $12)
+5. What was it called? (First oil shock)
+6. When did the embargo end? (March 1974)
+7. What was the reason for the embargo? (Support for Israel during Yom Kippur War)
+8. Other countries added later? (Portugal, Rhodesia, South Africa)
+9. What was the impact in the US? (Higher prices than global average)
+10. What was the second oil crisis called? (1979, second oil shock)
+
+Wait, the example has a question about the second crisis. So including that makes sense. Also, need to ensure each question is unique and covers different aspects. Let's check the examples provided. The user's examples include questions like when it started, price in March 1974, second crisis, term used, who imposed, why nations separated, Nixon's negotiation, Kissinger's date, when the embargo was lifted, and when the US left Bretton Woods. But the last one about Bretton Woods isn't in the context. Wait, in the user's example, the last question is about when the US left Bretton Woods, but in the provided context, there's no mention of Bretton Woods. That seems to be an error. So I need to avoid that. The user's example might have incorrect information, but I should focus on the actual context given.
+
+So, to make sure, I need to base all answers strictly on the context provided. Let's list possible questions:
+
+- Organizations involved (OPAEP)
+- Target countries (initial and later)
+- Price changes (from $3 to $12)
+- Duration of the embargo (October 1973 to March 1974)
+- Terms used (first oil shock)
+- Consequences (economic and political)
+- Relation to Yom Kippur War
+- Follow-up crisis (1979, second shock)
+
+Now, let's form the 10 pairs. Each must be unique and cover different points. Also, avoid repeating the same info. Let's check the examples again to avoid duplication. The user's examples have 10, but some might be based on incorrect data. For instance, the example asks about nations separating to avoid the boycott, but the context doesn't mention that. The context says the embargo was directed at countries supporting Israel, but it doesn't mention other nations separating. So that example is invalid. Therefore, I need to stick strictly to the context.
+
+Let me go step by step:
+
+1. When did the 1973 oil crisis start? (October 1973)
+2. Which organization imposed the oil embargo? (OPAEP)
+3. What was the initial reason for the embargo? (Support for Israel during Yom Kippur War)
+4. Which countries were initially targeted by the embargo? (Canada, Japan, Netherlands, UK, US)
+5. What was the oil price before and after the embargo? (From $3 to $12 per barrel)
+6. When did the embargo end? (March 1974)
+7. What was the economic impact of the crisis? (Price increase, economic and political effects globally)
+8. What term was used to describe this crisis? (First oil shock)
+9. Which countries were added to the embargo later? (Portugal, Rhodesia, South Africa)
+10. What followed the 1973 crisis? (1979 crisis, second oil shock)
+
+That's 10. Now, phrasing the questions to be clear and the answers accurate. Also, need to ensure that each answer is directly from the context. For example, the answer to question 3 should be "supporting Israel during the Yom Kippur War."
+
+Let me verify each answer against the context:
+
+1. Start: October 1973. Correct.
+2. OPAEP. Correct.
+3. Supporting Israel. Correct.
+4. Initial countries. Correct.
+5. Prices. Correct.
+6. End in March 1974. Correct.
+7. Economic impact: price increase and effects globally. The context mentions "economic and political effects globally."
+8. First oil shock. Correct.
+9. Later countries: Portugal, Rhodesia, South Africa. Correct.
+10. Followed by 1979 crisis, second oil shock. Correct.
+
+Now, phrasing the questions properly. For example, question 7 could be "What were the economic impacts of the 1973 oil crisis?" Answer: "The price increased from $3 to $12 per barrel, leading to significant economic and political effects globally." But maybe the context says "significant economic and political effects globally." So the answer should be that.
+
+Wait, the context says: "resulted in significant economic and political effects globally." So the answer would be that. So question 7: "Quais foram as consequências econômicas da crise do petróleo de 1973?" Answer: "aumento de preços e efeitos econômicos e políticos globais."
+
+But in the user's examples, the answer was phrased as "significative economic and political effects globally." So need to match that.
+
+Another thing: the user's examples have some answers in Portuguese, but the current query is in Portuguese, so the answers should be in Portuguese. Wait, the user provided examples in Portuguese, so the answers should be in Portuguese. But the user's instruction is in Portuguese, so the Q&A pairs should be in Portuguese.
+
+Therefore, I need to make sure the questions are in Portuguese and the answers are in Portuguese, matching the context.
+
+Let me adjust the questions and answers accordingly.
+
+1. Quando começou a crise do petróleo de 1973? (Resposta: outubro de 1973)
+2. Qual organização impôs o embargo do petróleo? (Resposta: membros da Organização dos Países Exportadores de Petróleo Árabes)
+3. Qual foi o motivo inicial do embargo? (Resposta: apoio a Israel durante a Guerra do Yom Kippur)
+4. Quais países foram inicialmente alvo do embargo? (Resposta: Canadá, Japão, Holanda, Reino Unido e Estados Unidos)
+5. Qual foi o preço do petróleo antes e após o embargo? (Resposta: de US$ 3 para quase US$ 12 por barril)
+6. Quando o embargo foi levantado? (Resposta: março de 1974)
+7. Quais foram as consequências econômicas da crise? (Resposta: aumento significativo dos preços e efeitos econômicos e políticos globais)
+8. Qual termo foi usado para descrever essa crise? (Resposta: primeiro choque do petróleo)
+9. Quais países foram incluídos no embargo posteriormente? (Resposta: Portugal, Rodesia e África do Sul)
+10. Qual crise seguiu a crise de 1973? (Resposta: crise do petróleo de 1979, conhecida como o segundo choque do petróleo)
+
+Now, checking for uniqueness and coverage. Each question addresses a different aspect. The answers are all directly from the context. Also, the example provided by the user includes some errors, like the Bretton Woods question, which is not in the context, so avoiding that.
+
+Yes, this should meet the user's requirements.
+</think>
+
+[
+  {
+    "pergunta": "Quando começou a crise do petróleo de 1973?",
+    "resposta": "outubro de 1973"
+  },
+  {
+    "pergunta": "Qual organização impôs o embargo do petróleo?",
+    "resposta": "membros da Organização dos Países Exportadores de Petróleo Árabes"
+  },
+  {
+    "pergunta": "Qual foi o motivo inicial do embargo?",
+    "resposta": "apoio a Israel durante a Guerra do Yom Kippur"
+  },
+  {
+    "pergunta": "Quais países foram inicialmente alvo do embargo?",
+    "resposta": "Canadá, Japão, Holanda, Reino Unido e Estados Unidos"
+  },
+  {
+    "pergunta": "Qual foi o preço do petróleo antes e após o embargo?",
+    "resposta": "de US$ 3 para quase US$ 12 por barril"
+  },
+  {
+    "pergunta": "Quando o embargo foi levantado?",
+    "resposta": "março de 1974"
+  },
+  {
+    "pergunta": "Quais foram as consequências econômicas da crise?",
+    "resposta": "aumento significativo dos preços e efeitos econômicos e políticos globais"
+  },
+  {
+    "pergunta": "Qual termo foi usado para descrever essa crise?",
+    "resposta": "primeiro choque do petróleo"
+  },
+  {
+    "pergunta": "Quais países foram incluídos no embargo posteriormente?",
+    "resposta": "Portugal, Rodesia e África do Sul"
+  },
+  {
+    "pergunta": "Qual crise seguiu a crise de 1973?",
+    "resposta": "crise do petróleo de 1979, conhecida como o segundo choque do petróleo"
+  }
+]

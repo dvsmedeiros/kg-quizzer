@@ -1,0 +1,2111 @@
+id_cenario;nome_cenario;triplas;prompt;tokens_contexto;tokens_resposta;max_tokens;tempo_execucao
+3141_9;Força_zero-shot-triplas_verbalizado_140_qwen3:14b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: Qual unidade militar tem """"Force"""" como hiperônimo?  
+**Resposta**: 1st Cavalry Division Artillery (United States)"""" é uma unidade militar associada ao termo """"Force"""".
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+Força é um dos conceitos fundamentais da mecânica clássica. Relacionado com as três leis de Newton, é uma grandeza que tem a capacidade de vencer a inércia de um corpo, modificando-lhe a velocidade (seja na sua magnitude ou direção, já que se trata de um vetor). Como corolário, chega-se ao constructo de que a força pode causar deformação em um objeto flexível. A força, por ser também um vetor, tem dois elementos: a magnitude e a direção. A segunda lei de Newton,, foi originalmente formulada em termos ligeiramente diferentes, mas equivalentes: a versão original afirma que a força que age sobre um objeto é igual à derivada temporal do momento linear deste objeto. Alguns conceitos relacionados com a força: 
+* pressão, divisão ou distribuição da força sobre a área; 
+* arrasto, diminuição da velocidade de um objeto; 
+* torque, força que produz mudanças na velocidade de rotação de um objeto. A força aplicada num corpo fixo é chamada tensão mecânica ou estresse mecânico, um termo técnico para as influências que causam deformação da matéria. Enquanto o estresse mecânico pode permanecer incorporado em um objeto sólido e, gradualmente, deformá-lo, o estresse mecânico em um fluido determina mudanças em sua pressão e volume.
+
+### Fatos
+Royal Irish Constabulary possui hiperônimo Force
+National Militia (Spain) possui hiperônimo Force
+Regia Aeronautica possui hiperônimo Force
+R Force possui hiperônimo Force
+Greater Manchester Police possui hiperônimo Force
+1984–85 A.C. Milan season possui hiperônimo Force
+National Guard (Bahrain) possui hiperônimo Force
+Assault Craft Unit TWO possui hiperônimo Force
+Strathclyde Police possui hiperônimo Force
+La Coronela possui hiperônimo Force
+Inverness-shire Constabulary possui hiperônimo Force
+Force possui outras unidades Pound-force
+Home Service Battalions possui hiperônimo Force
+Liverpool and Bootle Constabulary possui hiperônimo Force
+Special Team Six possui hiperônimo Force
+Felony Investigative Assistance Team possui hiperônimo Force
+Fleet in being possui hiperônimo Force
+Force usa modelo de página wiki Template:Wiktionary
+Carmarthenshire and Cardiganshire Constabulary possui hiperônimo Force
+Newcastle upon Tyne Borough Police possui hiperônimo Force
+Northumbria Police possui hiperônimo Force
+Operation Alba possui hiperônimo Force
+New Westminster Police Department possui hiperônimo Force
+J. P. Pickens possui hiperônimo Force
+Joint Task Force 2 possui hiperônimo Force
+Wingmen of Thanagar possui hiperônimo Force
+Charlottetown Police Department possui hiperônimo Force
+Demilitarized Zone Peace Preservation Corps possui hiperônimo Force
+Dún Laoghaire Harbour Police possui hiperônimo Force
+Bristol Constabulary possui hiperônimo Force
+Caesar Hull possui hiperônimo Force
+Jagdwaffe possui hiperônimo Force
+Kingston upon Hull City Police possui hiperônimo Force
+Bangladesh Army Reserve possui hiperônimo Force
+Policía Municipal de Ponce possui hiperônimo Force
+Republika Srpska Air Force possui hiperônimo Force
+Unification Church views on sexuality possui hiperônimo Force
+Cape Mounted Yeomanry possui hiperônimo Force
+Greyhounds (police) possui hiperônimo Force
+Hertfordshire Constabulary possui hiperônimo Force
+West Vancouver Police Department possui hiperônimo Force
+Tajik Internal Troops possui hiperônimo Force
+Chilean Navy possui hiperônimo Force
+Saint Helena Police Service possui hiperônimo Force
+Zeravani possui hiperônimo Force
+Advanced Base Force possui hiperônimo Force
+Airport Police (Ireland) possui hiperônimo Force
+Garda Síochána possui hiperônimo Force
+Royal Cayman Islands Police Service possui hiperônimo Force
+Gideon Force possui hiperônimo Force
+Operation Panama Express possui hiperônimo Force
+Indian Defence Force possui hiperônimo Force
+Shelburne Police Service possui hiperônimo Force
+Jatiya Rakkhi Bahini possui hiperônimo Force
+Tasmania Police possui hiperônimo Force
+Corps expéditionnaire d'Orient possui hiperônimo Force
+Djibouti Air Force possui hiperônimo Force
+Task Force 37 possui hiperônimo Force
+Russian Corps possui hiperônimo Force
+Imperial Roman army possui hiperônimo Force
+Plateau effect possui hiperônimo Force
+Reading Borough Police possui hiperônimo Force
+Glamorgan Constabulary possui hiperônimo Force
+Michael Crossley possui hiperônimo Force
+Florida National Guard possui hiperônimo Force
+Air National Guard possui hiperônimo Force
+National Border Service possui hiperônimo Force
+Dubai Police Force possui hiperônimo Force
+Sûreté du Québec possui hiperônimo Force
+Carolina Police Department possui hiperônimo Force
+Hellenic Navy possui hiperônimo Force
+Sovereign Base Areas Police possui hiperônimo Force
+National Police of Colombia possui hiperônimo Force
+Victoria Police Department possui hiperônimo Force
+Popular Defence Forces possui hiperônimo Force
+Groove wander possui hiperônimo Force
+Kosovo Force possui hiperônimo Force
+Tanzania Air Force Command possui hiperônimo Force
+Hellenic Army possui hiperônimo Force
+Somali Air Force possui hiperônimo Force
+Iraqi Police possui hiperônimo Force
+Imperial and Royal Army during the Napoleonic Wars possui hiperônimo Force
+Royal Netherlands East Indies Army possui hiperônimo Force
+Vietnam People's Air Force possui hiperônimo Force
+Sherut Avir possui hiperônimo Force
+Abbotsford Police Department possui hiperônimo Force
+Service de police de la Ville de Montréal possui hiperônimo Force
+Orgone possui hiperônimo Force
+Marion L. Boswell possui hiperônimo Force
+One Power possui hiperônimo Force
+Royal Prussian Army of the Napoleonic Wars possui hiperônimo Force
+Estonian Security Police and SD possui hiperônimo Force
+Will to live possui hiperônimo Force
+Leeds City Police possui hiperônimo Force
+Thrust possui hiperônimo Force
+MNDF Marine Corps possui hiperônimo Force
+Guardia de Asalto possui hiperônimo Force
+Maquis de Saint-Marcel possui hiperônimo Force
+Multinational Force in Lebanon possui hiperônimo Force
+New York State Police possui hiperônimo Force
+Pennsylvania State Police possui hiperônimo Force
+South-West African Police possui hiperônimo Force
+Depletion force possui hiperônimo Force
+Gendarmerie Nationale (Niger) possui hiperônimo Force
+Royal Naval Reserve possui hiperônimo Force
+Lesotho Mounted Police Service possui hiperônimo Force
+Buckinghamshire Constabulary possui hiperônimo Force
+Royal Canadian Air Force possui hiperônimo Force
+Operation Commando Hunt possui hiperônimo Force
+Kerala Thunderbolts possui hiperônimo Force
+Canadian Siberian Expeditionary Force possui hiperônimo Force
+Scottish Crime and Drug Enforcement Agency possui hiperônimo Force
+Imperial Japanese Army Air Service possui hiperônimo Force
+Wolseley expedition possui hiperônimo Force
+Chitral Bodyguard possui hiperônimo Force
+Economic Community of West African States Monitoring Group possui hiperônimo Force
+Newport Borough Police (Monmouthshire) possui hiperônimo Force
+Law Enforcement Force of Islamic Republic of Iran possui hiperônimo Force
+Air Force of Serbia and Montenegro possui hiperônimo Force
+Federal Police (Mexico) possui hiperônimo Force
+Paratrooper Company possui hiperônimo Force
+1st Cavalry Division Artillery (United States) possui hiperônimo Force
+Ground combat element possui hiperônimo Force
+Osgood Hanbury possui hiperônimo Force
+Fourth Air Force possui hiperônimo Force
+Private army possui hiperônimo Force
+Stl’atl’imx Tribal Police Service possui hiperônimo Force
+Volunteer Regiment of Buda possui hiperônimo Force
+Abraham–Lorentz force possui hiperônimo Force
+Force usa modelo de página wiki Template:Val
+Greater Manchester Army Cadet Force possui hiperônimo Force
+Air Force of the Polish Army possui hiperônimo Force
+Task Force on the Implementation of Amendment 64 possui hiperônimo Force
+Alberta Provincial Police possui hiperônimo Force
+Yugoslav Air Force possui hiperônimo Force
+Free Libyan Air Force possui hiperônimo Force
+Paramilitary possui hiperônimo Force
+75th Ranger Regiment (United States) possui hiperônimo Force
+Golden Sabres possui hiperônimo Force
+Nelson Police Department possui hiperônimo Force
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"Qual unidade militar tem """"Force"""" como hiperônimo?"""",
+  """"resposta"""": """"1st Cavalry Division Artillery (United States)"""" é uma unidade militar associada ao termo """"Force""""."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";2921;164;300;11.5723545
+3141_8;Força_zero-shot-triplas_verbalizado_140_qwen3:14b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: Qual organização é mencionada como tendo """"Force"""" como hiperônimo?  
+**Resposta**: Law Enforcement Force of Islamic Republic of Iran"""" é uma das organizações listadas com """"Force"""" como hiperônimo.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+Força é um dos conceitos fundamentais da mecânica clássica. Relacionado com as três leis de Newton, é uma grandeza que tem a capacidade de vencer a inércia de um corpo, modificando-lhe a velocidade (seja na sua magnitude ou direção, já que se trata de um vetor). Como corolário, chega-se ao constructo de que a força pode causar deformação em um objeto flexível. A força, por ser também um vetor, tem dois elementos: a magnitude e a direção. A segunda lei de Newton,, foi originalmente formulada em termos ligeiramente diferentes, mas equivalentes: a versão original afirma que a força que age sobre um objeto é igual à derivada temporal do momento linear deste objeto. Alguns conceitos relacionados com a força: 
+* pressão, divisão ou distribuição da força sobre a área; 
+* arrasto, diminuição da velocidade de um objeto; 
+* torque, força que produz mudanças na velocidade de rotação de um objeto. A força aplicada num corpo fixo é chamada tensão mecânica ou estresse mecânico, um termo técnico para as influências que causam deformação da matéria. Enquanto o estresse mecânico pode permanecer incorporado em um objeto sólido e, gradualmente, deformá-lo, o estresse mecânico em um fluido determina mudanças em sua pressão e volume.
+
+### Fatos
+Royal Irish Constabulary possui hiperônimo Force
+National Militia (Spain) possui hiperônimo Force
+Regia Aeronautica possui hiperônimo Force
+R Force possui hiperônimo Force
+Greater Manchester Police possui hiperônimo Force
+1984–85 A.C. Milan season possui hiperônimo Force
+National Guard (Bahrain) possui hiperônimo Force
+Assault Craft Unit TWO possui hiperônimo Force
+Strathclyde Police possui hiperônimo Force
+La Coronela possui hiperônimo Force
+Inverness-shire Constabulary possui hiperônimo Force
+Force possui outras unidades Pound-force
+Home Service Battalions possui hiperônimo Force
+Liverpool and Bootle Constabulary possui hiperônimo Force
+Special Team Six possui hiperônimo Force
+Felony Investigative Assistance Team possui hiperônimo Force
+Fleet in being possui hiperônimo Force
+Force usa modelo de página wiki Template:Wiktionary
+Carmarthenshire and Cardiganshire Constabulary possui hiperônimo Force
+Newcastle upon Tyne Borough Police possui hiperônimo Force
+Northumbria Police possui hiperônimo Force
+Operation Alba possui hiperônimo Force
+New Westminster Police Department possui hiperônimo Force
+J. P. Pickens possui hiperônimo Force
+Joint Task Force 2 possui hiperônimo Force
+Wingmen of Thanagar possui hiperônimo Force
+Charlottetown Police Department possui hiperônimo Force
+Demilitarized Zone Peace Preservation Corps possui hiperônimo Force
+Dún Laoghaire Harbour Police possui hiperônimo Force
+Bristol Constabulary possui hiperônimo Force
+Caesar Hull possui hiperônimo Force
+Jagdwaffe possui hiperônimo Force
+Kingston upon Hull City Police possui hiperônimo Force
+Bangladesh Army Reserve possui hiperônimo Force
+Policía Municipal de Ponce possui hiperônimo Force
+Republika Srpska Air Force possui hiperônimo Force
+Unification Church views on sexuality possui hiperônimo Force
+Cape Mounted Yeomanry possui hiperônimo Force
+Greyhounds (police) possui hiperônimo Force
+Hertfordshire Constabulary possui hiperônimo Force
+West Vancouver Police Department possui hiperônimo Force
+Tajik Internal Troops possui hiperônimo Force
+Chilean Navy possui hiperônimo Force
+Saint Helena Police Service possui hiperônimo Force
+Zeravani possui hiperônimo Force
+Advanced Base Force possui hiperônimo Force
+Airport Police (Ireland) possui hiperônimo Force
+Garda Síochána possui hiperônimo Force
+Royal Cayman Islands Police Service possui hiperônimo Force
+Gideon Force possui hiperônimo Force
+Operation Panama Express possui hiperônimo Force
+Indian Defence Force possui hiperônimo Force
+Shelburne Police Service possui hiperônimo Force
+Jatiya Rakkhi Bahini possui hiperônimo Force
+Tasmania Police possui hiperônimo Force
+Corps expéditionnaire d'Orient possui hiperônimo Force
+Djibouti Air Force possui hiperônimo Force
+Task Force 37 possui hiperônimo Force
+Russian Corps possui hiperônimo Force
+Imperial Roman army possui hiperônimo Force
+Plateau effect possui hiperônimo Force
+Reading Borough Police possui hiperônimo Force
+Glamorgan Constabulary possui hiperônimo Force
+Michael Crossley possui hiperônimo Force
+Florida National Guard possui hiperônimo Force
+Air National Guard possui hiperônimo Force
+National Border Service possui hiperônimo Force
+Dubai Police Force possui hiperônimo Force
+Sûreté du Québec possui hiperônimo Force
+Carolina Police Department possui hiperônimo Force
+Hellenic Navy possui hiperônimo Force
+Sovereign Base Areas Police possui hiperônimo Force
+National Police of Colombia possui hiperônimo Force
+Victoria Police Department possui hiperônimo Force
+Popular Defence Forces possui hiperônimo Force
+Groove wander possui hiperônimo Force
+Kosovo Force possui hiperônimo Force
+Tanzania Air Force Command possui hiperônimo Force
+Hellenic Army possui hiperônimo Force
+Somali Air Force possui hiperônimo Force
+Iraqi Police possui hiperônimo Force
+Imperial and Royal Army during the Napoleonic Wars possui hiperônimo Force
+Royal Netherlands East Indies Army possui hiperônimo Force
+Vietnam People's Air Force possui hiperônimo Force
+Sherut Avir possui hiperônimo Force
+Abbotsford Police Department possui hiperônimo Force
+Service de police de la Ville de Montréal possui hiperônimo Force
+Orgone possui hiperônimo Force
+Marion L. Boswell possui hiperônimo Force
+One Power possui hiperônimo Force
+Royal Prussian Army of the Napoleonic Wars possui hiperônimo Force
+Estonian Security Police and SD possui hiperônimo Force
+Will to live possui hiperônimo Force
+Leeds City Police possui hiperônimo Force
+Thrust possui hiperônimo Force
+MNDF Marine Corps possui hiperônimo Force
+Guardia de Asalto possui hiperônimo Force
+Maquis de Saint-Marcel possui hiperônimo Force
+Multinational Force in Lebanon possui hiperônimo Force
+New York State Police possui hiperônimo Force
+Pennsylvania State Police possui hiperônimo Force
+South-West African Police possui hiperônimo Force
+Depletion force possui hiperônimo Force
+Gendarmerie Nationale (Niger) possui hiperônimo Force
+Royal Naval Reserve possui hiperônimo Force
+Lesotho Mounted Police Service possui hiperônimo Force
+Buckinghamshire Constabulary possui hiperônimo Force
+Royal Canadian Air Force possui hiperônimo Force
+Operation Commando Hunt possui hiperônimo Force
+Kerala Thunderbolts possui hiperônimo Force
+Canadian Siberian Expeditionary Force possui hiperônimo Force
+Scottish Crime and Drug Enforcement Agency possui hiperônimo Force
+Imperial Japanese Army Air Service possui hiperônimo Force
+Wolseley expedition possui hiperônimo Force
+Chitral Bodyguard possui hiperônimo Force
+Economic Community of West African States Monitoring Group possui hiperônimo Force
+Newport Borough Police (Monmouthshire) possui hiperônimo Force
+Law Enforcement Force of Islamic Republic of Iran possui hiperônimo Force
+Air Force of Serbia and Montenegro possui hiperônimo Force
+Federal Police (Mexico) possui hiperônimo Force
+Paratrooper Company possui hiperônimo Force
+1st Cavalry Division Artillery (United States) possui hiperônimo Force
+Ground combat element possui hiperônimo Force
+Osgood Hanbury possui hiperônimo Force
+Fourth Air Force possui hiperônimo Force
+Private army possui hiperônimo Force
+Stl’atl’imx Tribal Police Service possui hiperônimo Force
+Volunteer Regiment of Buda possui hiperônimo Force
+Abraham–Lorentz force possui hiperônimo Force
+Force usa modelo de página wiki Template:Val
+Greater Manchester Army Cadet Force possui hiperônimo Force
+Air Force of the Polish Army possui hiperônimo Force
+Task Force on the Implementation of Amendment 64 possui hiperônimo Force
+Alberta Provincial Police possui hiperônimo Force
+Yugoslav Air Force possui hiperônimo Force
+Free Libyan Air Force possui hiperônimo Force
+Paramilitary possui hiperônimo Force
+75th Ranger Regiment (United States) possui hiperônimo Force
+Golden Sabres possui hiperônimo Force
+Nelson Police Department possui hiperônimo Force
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"Qual organização é mencionada como tendo """"Force"""" como hiperônimo?"""",
+  """"resposta"""": """"Law Enforcement Force of Islamic Republic of Iran"""" é uma das organizações listadas com """"Force"""" como hiperônimo."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";2935;167;300;11.57679075
+3141_3;Força_zero-shot-triplas_verbalizado_140_qwen3:14b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: Como a força é descrita em relação aos vetores?  
+**Resposta**: A força é representada como um vetor, possuindo magnitude, direção e sentido, conforme a mecânica clássica.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+Força é um dos conceitos fundamentais da mecânica clássica. Relacionado com as três leis de Newton, é uma grandeza que tem a capacidade de vencer a inércia de um corpo, modificando-lhe a velocidade (seja na sua magnitude ou direção, já que se trata de um vetor). Como corolário, chega-se ao constructo de que a força pode causar deformação em um objeto flexível. A força, por ser também um vetor, tem dois elementos: a magnitude e a direção. A segunda lei de Newton,, foi originalmente formulada em termos ligeiramente diferentes, mas equivalentes: a versão original afirma que a força que age sobre um objeto é igual à derivada temporal do momento linear deste objeto. Alguns conceitos relacionados com a força: 
+* pressão, divisão ou distribuição da força sobre a área; 
+* arrasto, diminuição da velocidade de um objeto; 
+* torque, força que produz mudanças na velocidade de rotação de um objeto. A força aplicada num corpo fixo é chamada tensão mecânica ou estresse mecânico, um termo técnico para as influências que causam deformação da matéria. Enquanto o estresse mecânico pode permanecer incorporado em um objeto sólido e, gradualmente, deformá-lo, o estresse mecânico em um fluido determina mudanças em sua pressão e volume.
+
+### Fatos
+Royal Irish Constabulary possui hiperônimo Force
+National Militia (Spain) possui hiperônimo Force
+Regia Aeronautica possui hiperônimo Force
+R Force possui hiperônimo Force
+Greater Manchester Police possui hiperônimo Force
+1984–85 A.C. Milan season possui hiperônimo Force
+National Guard (Bahrain) possui hiperônimo Force
+Assault Craft Unit TWO possui hiperônimo Force
+Strathclyde Police possui hiperônimo Force
+La Coronela possui hiperônimo Force
+Inverness-shire Constabulary possui hiperônimo Force
+Force possui outras unidades Pound-force
+Home Service Battalions possui hiperônimo Force
+Liverpool and Bootle Constabulary possui hiperônimo Force
+Special Team Six possui hiperônimo Force
+Felony Investigative Assistance Team possui hiperônimo Force
+Fleet in being possui hiperônimo Force
+Force usa modelo de página wiki Template:Wiktionary
+Carmarthenshire and Cardiganshire Constabulary possui hiperônimo Force
+Newcastle upon Tyne Borough Police possui hiperônimo Force
+Northumbria Police possui hiperônimo Force
+Operation Alba possui hiperônimo Force
+New Westminster Police Department possui hiperônimo Force
+J. P. Pickens possui hiperônimo Force
+Joint Task Force 2 possui hiperônimo Force
+Wingmen of Thanagar possui hiperônimo Force
+Charlottetown Police Department possui hiperônimo Force
+Demilitarized Zone Peace Preservation Corps possui hiperônimo Force
+Dún Laoghaire Harbour Police possui hiperônimo Force
+Bristol Constabulary possui hiperônimo Force
+Caesar Hull possui hiperônimo Force
+Jagdwaffe possui hiperônimo Force
+Kingston upon Hull City Police possui hiperônimo Force
+Bangladesh Army Reserve possui hiperônimo Force
+Policía Municipal de Ponce possui hiperônimo Force
+Republika Srpska Air Force possui hiperônimo Force
+Unification Church views on sexuality possui hiperônimo Force
+Cape Mounted Yeomanry possui hiperônimo Force
+Greyhounds (police) possui hiperônimo Force
+Hertfordshire Constabulary possui hiperônimo Force
+West Vancouver Police Department possui hiperônimo Force
+Tajik Internal Troops possui hiperônimo Force
+Chilean Navy possui hiperônimo Force
+Saint Helena Police Service possui hiperônimo Force
+Zeravani possui hiperônimo Force
+Advanced Base Force possui hiperônimo Force
+Airport Police (Ireland) possui hiperônimo Force
+Garda Síochána possui hiperônimo Force
+Royal Cayman Islands Police Service possui hiperônimo Force
+Gideon Force possui hiperônimo Force
+Operation Panama Express possui hiperônimo Force
+Indian Defence Force possui hiperônimo Force
+Shelburne Police Service possui hiperônimo Force
+Jatiya Rakkhi Bahini possui hiperônimo Force
+Tasmania Police possui hiperônimo Force
+Corps expéditionnaire d'Orient possui hiperônimo Force
+Djibouti Air Force possui hiperônimo Force
+Task Force 37 possui hiperônimo Force
+Russian Corps possui hiperônimo Force
+Imperial Roman army possui hiperônimo Force
+Plateau effect possui hiperônimo Force
+Reading Borough Police possui hiperônimo Force
+Glamorgan Constabulary possui hiperônimo Force
+Michael Crossley possui hiperônimo Force
+Florida National Guard possui hiperônimo Force
+Air National Guard possui hiperônimo Force
+National Border Service possui hiperônimo Force
+Dubai Police Force possui hiperônimo Force
+Sûreté du Québec possui hiperônimo Force
+Carolina Police Department possui hiperônimo Force
+Hellenic Navy possui hiperônimo Force
+Sovereign Base Areas Police possui hiperônimo Force
+National Police of Colombia possui hiperônimo Force
+Victoria Police Department possui hiperônimo Force
+Popular Defence Forces possui hiperônimo Force
+Groove wander possui hiperônimo Force
+Kosovo Force possui hiperônimo Force
+Tanzania Air Force Command possui hiperônimo Force
+Hellenic Army possui hiperônimo Force
+Somali Air Force possui hiperônimo Force
+Iraqi Police possui hiperônimo Force
+Imperial and Royal Army during the Napoleonic Wars possui hiperônimo Force
+Royal Netherlands East Indies Army possui hiperônimo Force
+Vietnam People's Air Force possui hiperônimo Force
+Sherut Avir possui hiperônimo Force
+Abbotsford Police Department possui hiperônimo Force
+Service de police de la Ville de Montréal possui hiperônimo Force
+Orgone possui hiperônimo Force
+Marion L. Boswell possui hiperônimo Force
+One Power possui hiperônimo Force
+Royal Prussian Army of the Napoleonic Wars possui hiperônimo Force
+Estonian Security Police and SD possui hiperônimo Force
+Will to live possui hiperônimo Force
+Leeds City Police possui hiperônimo Force
+Thrust possui hiperônimo Force
+MNDF Marine Corps possui hiperônimo Force
+Guardia de Asalto possui hiperônimo Force
+Maquis de Saint-Marcel possui hiperônimo Force
+Multinational Force in Lebanon possui hiperônimo Force
+New York State Police possui hiperônimo Force
+Pennsylvania State Police possui hiperônimo Force
+South-West African Police possui hiperônimo Force
+Depletion force possui hiperônimo Force
+Gendarmerie Nationale (Niger) possui hiperônimo Force
+Royal Naval Reserve possui hiperônimo Force
+Lesotho Mounted Police Service possui hiperônimo Force
+Buckinghamshire Constabulary possui hiperônimo Force
+Royal Canadian Air Force possui hiperônimo Force
+Operation Commando Hunt possui hiperônimo Force
+Kerala Thunderbolts possui hiperônimo Force
+Canadian Siberian Expeditionary Force possui hiperônimo Force
+Scottish Crime and Drug Enforcement Agency possui hiperônimo Force
+Imperial Japanese Army Air Service possui hiperônimo Force
+Wolseley expedition possui hiperônimo Force
+Chitral Bodyguard possui hiperônimo Force
+Economic Community of West African States Monitoring Group possui hiperônimo Force
+Newport Borough Police (Monmouthshire) possui hiperônimo Force
+Law Enforcement Force of Islamic Republic of Iran possui hiperônimo Force
+Air Force of Serbia and Montenegro possui hiperônimo Force
+Federal Police (Mexico) possui hiperônimo Force
+Paratrooper Company possui hiperônimo Force
+1st Cavalry Division Artillery (United States) possui hiperônimo Force
+Ground combat element possui hiperônimo Force
+Osgood Hanbury possui hiperônimo Force
+Fourth Air Force possui hiperônimo Force
+Private army possui hiperônimo Force
+Stl’atl’imx Tribal Police Service possui hiperônimo Force
+Volunteer Regiment of Buda possui hiperônimo Force
+Abraham–Lorentz force possui hiperônimo Force
+Force usa modelo de página wiki Template:Val
+Greater Manchester Army Cadet Force possui hiperônimo Force
+Air Force of the Polish Army possui hiperônimo Force
+Task Force on the Implementation of Amendment 64 possui hiperônimo Force
+Alberta Provincial Police possui hiperônimo Force
+Yugoslav Air Force possui hiperônimo Force
+Free Libyan Air Force possui hiperônimo Force
+Paramilitary possui hiperônimo Force
+75th Ranger Regiment (United States) possui hiperônimo Force
+Golden Sabres possui hiperônimo Force
+Nelson Police Department possui hiperônimo Force
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"Como a força é descrita em relação aos vetores?"""",
+  """"resposta"""": """"A força é representada como um vetor, possuindo magnitude, direção e sentido, conforme a mecânica clássica."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";2925;189;300;12.243295042
+3141_6;Força_zero-shot-triplas_verbalizado_140_qwen3:14b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: Quais entidades têm """"Force"""" como hiperônimo?  
+**Resposta**: Exemplos incluem """"Greater Manchester Police"""", """"Federal Police (Mexico)"""", """"75th Ranger Regiment (United States)"""", e """"Air Force of Serbia and Montenegro"""".
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+Força é um dos conceitos fundamentais da mecânica clássica. Relacionado com as três leis de Newton, é uma grandeza que tem a capacidade de vencer a inércia de um corpo, modificando-lhe a velocidade (seja na sua magnitude ou direção, já que se trata de um vetor). Como corolário, chega-se ao constructo de que a força pode causar deformação em um objeto flexível. A força, por ser também um vetor, tem dois elementos: a magnitude e a direção. A segunda lei de Newton,, foi originalmente formulada em termos ligeiramente diferentes, mas equivalentes: a versão original afirma que a força que age sobre um objeto é igual à derivada temporal do momento linear deste objeto. Alguns conceitos relacionados com a força: 
+* pressão, divisão ou distribuição da força sobre a área; 
+* arrasto, diminuição da velocidade de um objeto; 
+* torque, força que produz mudanças na velocidade de rotação de um objeto. A força aplicada num corpo fixo é chamada tensão mecânica ou estresse mecânico, um termo técnico para as influências que causam deformação da matéria. Enquanto o estresse mecânico pode permanecer incorporado em um objeto sólido e, gradualmente, deformá-lo, o estresse mecânico em um fluido determina mudanças em sua pressão e volume.
+
+### Fatos
+Royal Irish Constabulary possui hiperônimo Force
+National Militia (Spain) possui hiperônimo Force
+Regia Aeronautica possui hiperônimo Force
+R Force possui hiperônimo Force
+Greater Manchester Police possui hiperônimo Force
+1984–85 A.C. Milan season possui hiperônimo Force
+National Guard (Bahrain) possui hiperônimo Force
+Assault Craft Unit TWO possui hiperônimo Force
+Strathclyde Police possui hiperônimo Force
+La Coronela possui hiperônimo Force
+Inverness-shire Constabulary possui hiperônimo Force
+Force possui outras unidades Pound-force
+Home Service Battalions possui hiperônimo Force
+Liverpool and Bootle Constabulary possui hiperônimo Force
+Special Team Six possui hiperônimo Force
+Felony Investigative Assistance Team possui hiperônimo Force
+Fleet in being possui hiperônimo Force
+Force usa modelo de página wiki Template:Wiktionary
+Carmarthenshire and Cardiganshire Constabulary possui hiperônimo Force
+Newcastle upon Tyne Borough Police possui hiperônimo Force
+Northumbria Police possui hiperônimo Force
+Operation Alba possui hiperônimo Force
+New Westminster Police Department possui hiperônimo Force
+J. P. Pickens possui hiperônimo Force
+Joint Task Force 2 possui hiperônimo Force
+Wingmen of Thanagar possui hiperônimo Force
+Charlottetown Police Department possui hiperônimo Force
+Demilitarized Zone Peace Preservation Corps possui hiperônimo Force
+Dún Laoghaire Harbour Police possui hiperônimo Force
+Bristol Constabulary possui hiperônimo Force
+Caesar Hull possui hiperônimo Force
+Jagdwaffe possui hiperônimo Force
+Kingston upon Hull City Police possui hiperônimo Force
+Bangladesh Army Reserve possui hiperônimo Force
+Policía Municipal de Ponce possui hiperônimo Force
+Republika Srpska Air Force possui hiperônimo Force
+Unification Church views on sexuality possui hiperônimo Force
+Cape Mounted Yeomanry possui hiperônimo Force
+Greyhounds (police) possui hiperônimo Force
+Hertfordshire Constabulary possui hiperônimo Force
+West Vancouver Police Department possui hiperônimo Force
+Tajik Internal Troops possui hiperônimo Force
+Chilean Navy possui hiperônimo Force
+Saint Helena Police Service possui hiperônimo Force
+Zeravani possui hiperônimo Force
+Advanced Base Force possui hiperônimo Force
+Airport Police (Ireland) possui hiperônimo Force
+Garda Síochána possui hiperônimo Force
+Royal Cayman Islands Police Service possui hiperônimo Force
+Gideon Force possui hiperônimo Force
+Operation Panama Express possui hiperônimo Force
+Indian Defence Force possui hiperônimo Force
+Shelburne Police Service possui hiperônimo Force
+Jatiya Rakkhi Bahini possui hiperônimo Force
+Tasmania Police possui hiperônimo Force
+Corps expéditionnaire d'Orient possui hiperônimo Force
+Djibouti Air Force possui hiperônimo Force
+Task Force 37 possui hiperônimo Force
+Russian Corps possui hiperônimo Force
+Imperial Roman army possui hiperônimo Force
+Plateau effect possui hiperônimo Force
+Reading Borough Police possui hiperônimo Force
+Glamorgan Constabulary possui hiperônimo Force
+Michael Crossley possui hiperônimo Force
+Florida National Guard possui hiperônimo Force
+Air National Guard possui hiperônimo Force
+National Border Service possui hiperônimo Force
+Dubai Police Force possui hiperônimo Force
+Sûreté du Québec possui hiperônimo Force
+Carolina Police Department possui hiperônimo Force
+Hellenic Navy possui hiperônimo Force
+Sovereign Base Areas Police possui hiperônimo Force
+National Police of Colombia possui hiperônimo Force
+Victoria Police Department possui hiperônimo Force
+Popular Defence Forces possui hiperônimo Force
+Groove wander possui hiperônimo Force
+Kosovo Force possui hiperônimo Force
+Tanzania Air Force Command possui hiperônimo Force
+Hellenic Army possui hiperônimo Force
+Somali Air Force possui hiperônimo Force
+Iraqi Police possui hiperônimo Force
+Imperial and Royal Army during the Napoleonic Wars possui hiperônimo Force
+Royal Netherlands East Indies Army possui hiperônimo Force
+Vietnam People's Air Force possui hiperônimo Force
+Sherut Avir possui hiperônimo Force
+Abbotsford Police Department possui hiperônimo Force
+Service de police de la Ville de Montréal possui hiperônimo Force
+Orgone possui hiperônimo Force
+Marion L. Boswell possui hiperônimo Force
+One Power possui hiperônimo Force
+Royal Prussian Army of the Napoleonic Wars possui hiperônimo Force
+Estonian Security Police and SD possui hiperônimo Force
+Will to live possui hiperônimo Force
+Leeds City Police possui hiperônimo Force
+Thrust possui hiperônimo Force
+MNDF Marine Corps possui hiperônimo Force
+Guardia de Asalto possui hiperônimo Force
+Maquis de Saint-Marcel possui hiperônimo Force
+Multinational Force in Lebanon possui hiperônimo Force
+New York State Police possui hiperônimo Force
+Pennsylvania State Police possui hiperônimo Force
+South-West African Police possui hiperônimo Force
+Depletion force possui hiperônimo Force
+Gendarmerie Nationale (Niger) possui hiperônimo Force
+Royal Naval Reserve possui hiperônimo Force
+Lesotho Mounted Police Service possui hiperônimo Force
+Buckinghamshire Constabulary possui hiperônimo Force
+Royal Canadian Air Force possui hiperônimo Force
+Operation Commando Hunt possui hiperônimo Force
+Kerala Thunderbolts possui hiperônimo Force
+Canadian Siberian Expeditionary Force possui hiperônimo Force
+Scottish Crime and Drug Enforcement Agency possui hiperônimo Force
+Imperial Japanese Army Air Service possui hiperônimo Force
+Wolseley expedition possui hiperônimo Force
+Chitral Bodyguard possui hiperônimo Force
+Economic Community of West African States Monitoring Group possui hiperônimo Force
+Newport Borough Police (Monmouthshire) possui hiperônimo Force
+Law Enforcement Force of Islamic Republic of Iran possui hiperônimo Force
+Air Force of Serbia and Montenegro possui hiperônimo Force
+Federal Police (Mexico) possui hiperônimo Force
+Paratrooper Company possui hiperônimo Force
+1st Cavalry Division Artillery (United States) possui hiperônimo Force
+Ground combat element possui hiperônimo Force
+Osgood Hanbury possui hiperônimo Force
+Fourth Air Force possui hiperônimo Force
+Private army possui hiperônimo Force
+Stl’atl’imx Tribal Police Service possui hiperônimo Force
+Volunteer Regiment of Buda possui hiperônimo Force
+Abraham–Lorentz force possui hiperônimo Force
+Force usa modelo de página wiki Template:Val
+Greater Manchester Army Cadet Force possui hiperônimo Force
+Air Force of the Polish Army possui hiperônimo Force
+Task Force on the Implementation of Amendment 64 possui hiperônimo Force
+Alberta Provincial Police possui hiperônimo Force
+Yugoslav Air Force possui hiperônimo Force
+Free Libyan Air Force possui hiperônimo Force
+Paramilitary possui hiperônimo Force
+75th Ranger Regiment (United States) possui hiperônimo Force
+Golden Sabres possui hiperônimo Force
+Nelson Police Department possui hiperônimo Force
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"Quais entidades têm """"Force"""" como hiperônimo?"""",
+  """"resposta"""": """"Exemplos incluem """"Greater Manchester Police"""", """"Federal Police (Mexico)"""", """"75th Ranger Regiment (United States)"""", e """"Air Force of Serbia and Montenegro""""."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";2944;198;300;12.630708333
+3141_2;Força_zero-shot-triplas_verbalizado_140_qwen3:14b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: Quais são exemplos de conceitos físicos associados à força?  
+**Resposta**: Pressão, arrasto (drag), torque e tensão (stress) são conceitos diretamente ligados à aplicação da força.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+Força é um dos conceitos fundamentais da mecânica clássica. Relacionado com as três leis de Newton, é uma grandeza que tem a capacidade de vencer a inércia de um corpo, modificando-lhe a velocidade (seja na sua magnitude ou direção, já que se trata de um vetor). Como corolário, chega-se ao constructo de que a força pode causar deformação em um objeto flexível. A força, por ser também um vetor, tem dois elementos: a magnitude e a direção. A segunda lei de Newton,, foi originalmente formulada em termos ligeiramente diferentes, mas equivalentes: a versão original afirma que a força que age sobre um objeto é igual à derivada temporal do momento linear deste objeto. Alguns conceitos relacionados com a força: 
+* pressão, divisão ou distribuição da força sobre a área; 
+* arrasto, diminuição da velocidade de um objeto; 
+* torque, força que produz mudanças na velocidade de rotação de um objeto. A força aplicada num corpo fixo é chamada tensão mecânica ou estresse mecânico, um termo técnico para as influências que causam deformação da matéria. Enquanto o estresse mecânico pode permanecer incorporado em um objeto sólido e, gradualmente, deformá-lo, o estresse mecânico em um fluido determina mudanças em sua pressão e volume.
+
+### Fatos
+Royal Irish Constabulary possui hiperônimo Force
+National Militia (Spain) possui hiperônimo Force
+Regia Aeronautica possui hiperônimo Force
+R Force possui hiperônimo Force
+Greater Manchester Police possui hiperônimo Force
+1984–85 A.C. Milan season possui hiperônimo Force
+National Guard (Bahrain) possui hiperônimo Force
+Assault Craft Unit TWO possui hiperônimo Force
+Strathclyde Police possui hiperônimo Force
+La Coronela possui hiperônimo Force
+Inverness-shire Constabulary possui hiperônimo Force
+Force possui outras unidades Pound-force
+Home Service Battalions possui hiperônimo Force
+Liverpool and Bootle Constabulary possui hiperônimo Force
+Special Team Six possui hiperônimo Force
+Felony Investigative Assistance Team possui hiperônimo Force
+Fleet in being possui hiperônimo Force
+Force usa modelo de página wiki Template:Wiktionary
+Carmarthenshire and Cardiganshire Constabulary possui hiperônimo Force
+Newcastle upon Tyne Borough Police possui hiperônimo Force
+Northumbria Police possui hiperônimo Force
+Operation Alba possui hiperônimo Force
+New Westminster Police Department possui hiperônimo Force
+J. P. Pickens possui hiperônimo Force
+Joint Task Force 2 possui hiperônimo Force
+Wingmen of Thanagar possui hiperônimo Force
+Charlottetown Police Department possui hiperônimo Force
+Demilitarized Zone Peace Preservation Corps possui hiperônimo Force
+Dún Laoghaire Harbour Police possui hiperônimo Force
+Bristol Constabulary possui hiperônimo Force
+Caesar Hull possui hiperônimo Force
+Jagdwaffe possui hiperônimo Force
+Kingston upon Hull City Police possui hiperônimo Force
+Bangladesh Army Reserve possui hiperônimo Force
+Policía Municipal de Ponce possui hiperônimo Force
+Republika Srpska Air Force possui hiperônimo Force
+Unification Church views on sexuality possui hiperônimo Force
+Cape Mounted Yeomanry possui hiperônimo Force
+Greyhounds (police) possui hiperônimo Force
+Hertfordshire Constabulary possui hiperônimo Force
+West Vancouver Police Department possui hiperônimo Force
+Tajik Internal Troops possui hiperônimo Force
+Chilean Navy possui hiperônimo Force
+Saint Helena Police Service possui hiperônimo Force
+Zeravani possui hiperônimo Force
+Advanced Base Force possui hiperônimo Force
+Airport Police (Ireland) possui hiperônimo Force
+Garda Síochána possui hiperônimo Force
+Royal Cayman Islands Police Service possui hiperônimo Force
+Gideon Force possui hiperônimo Force
+Operation Panama Express possui hiperônimo Force
+Indian Defence Force possui hiperônimo Force
+Shelburne Police Service possui hiperônimo Force
+Jatiya Rakkhi Bahini possui hiperônimo Force
+Tasmania Police possui hiperônimo Force
+Corps expéditionnaire d'Orient possui hiperônimo Force
+Djibouti Air Force possui hiperônimo Force
+Task Force 37 possui hiperônimo Force
+Russian Corps possui hiperônimo Force
+Imperial Roman army possui hiperônimo Force
+Plateau effect possui hiperônimo Force
+Reading Borough Police possui hiperônimo Force
+Glamorgan Constabulary possui hiperônimo Force
+Michael Crossley possui hiperônimo Force
+Florida National Guard possui hiperônimo Force
+Air National Guard possui hiperônimo Force
+National Border Service possui hiperônimo Force
+Dubai Police Force possui hiperônimo Force
+Sûreté du Québec possui hiperônimo Force
+Carolina Police Department possui hiperônimo Force
+Hellenic Navy possui hiperônimo Force
+Sovereign Base Areas Police possui hiperônimo Force
+National Police of Colombia possui hiperônimo Force
+Victoria Police Department possui hiperônimo Force
+Popular Defence Forces possui hiperônimo Force
+Groove wander possui hiperônimo Force
+Kosovo Force possui hiperônimo Force
+Tanzania Air Force Command possui hiperônimo Force
+Hellenic Army possui hiperônimo Force
+Somali Air Force possui hiperônimo Force
+Iraqi Police possui hiperônimo Force
+Imperial and Royal Army during the Napoleonic Wars possui hiperônimo Force
+Royal Netherlands East Indies Army possui hiperônimo Force
+Vietnam People's Air Force possui hiperônimo Force
+Sherut Avir possui hiperônimo Force
+Abbotsford Police Department possui hiperônimo Force
+Service de police de la Ville de Montréal possui hiperônimo Force
+Orgone possui hiperônimo Force
+Marion L. Boswell possui hiperônimo Force
+One Power possui hiperônimo Force
+Royal Prussian Army of the Napoleonic Wars possui hiperônimo Force
+Estonian Security Police and SD possui hiperônimo Force
+Will to live possui hiperônimo Force
+Leeds City Police possui hiperônimo Force
+Thrust possui hiperônimo Force
+MNDF Marine Corps possui hiperônimo Force
+Guardia de Asalto possui hiperônimo Force
+Maquis de Saint-Marcel possui hiperônimo Force
+Multinational Force in Lebanon possui hiperônimo Force
+New York State Police possui hiperônimo Force
+Pennsylvania State Police possui hiperônimo Force
+South-West African Police possui hiperônimo Force
+Depletion force possui hiperônimo Force
+Gendarmerie Nationale (Niger) possui hiperônimo Force
+Royal Naval Reserve possui hiperônimo Force
+Lesotho Mounted Police Service possui hiperônimo Force
+Buckinghamshire Constabulary possui hiperônimo Force
+Royal Canadian Air Force possui hiperônimo Force
+Operation Commando Hunt possui hiperônimo Force
+Kerala Thunderbolts possui hiperônimo Force
+Canadian Siberian Expeditionary Force possui hiperônimo Force
+Scottish Crime and Drug Enforcement Agency possui hiperônimo Force
+Imperial Japanese Army Air Service possui hiperônimo Force
+Wolseley expedition possui hiperônimo Force
+Chitral Bodyguard possui hiperônimo Force
+Economic Community of West African States Monitoring Group possui hiperônimo Force
+Newport Borough Police (Monmouthshire) possui hiperônimo Force
+Law Enforcement Force of Islamic Republic of Iran possui hiperônimo Force
+Air Force of Serbia and Montenegro possui hiperônimo Force
+Federal Police (Mexico) possui hiperônimo Force
+Paratrooper Company possui hiperônimo Force
+1st Cavalry Division Artillery (United States) possui hiperônimo Force
+Ground combat element possui hiperônimo Force
+Osgood Hanbury possui hiperônimo Force
+Fourth Air Force possui hiperônimo Force
+Private army possui hiperônimo Force
+Stl’atl’imx Tribal Police Service possui hiperônimo Force
+Volunteer Regiment of Buda possui hiperônimo Force
+Abraham–Lorentz force possui hiperônimo Force
+Force usa modelo de página wiki Template:Val
+Greater Manchester Army Cadet Force possui hiperônimo Force
+Air Force of the Polish Army possui hiperônimo Force
+Task Force on the Implementation of Amendment 64 possui hiperônimo Force
+Alberta Provincial Police possui hiperônimo Force
+Yugoslav Air Force possui hiperônimo Force
+Free Libyan Air Force possui hiperônimo Force
+Paramilitary possui hiperônimo Force
+75th Ranger Regiment (United States) possui hiperônimo Force
+Golden Sabres possui hiperônimo Force
+Nelson Police Department possui hiperônimo Force
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"Quais são exemplos de conceitos físicos associados à força?"""",
+  """"resposta"""": """"Pressão, arrasto (drag), torque e tensão (stress) são conceitos diretamente ligados à aplicação da força."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";2929;205;300;12.798354959000001
+3141_1;Força_zero-shot-triplas_verbalizado_140_qwen3:14b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: O que define a força na mecânica clássica?  
+**Resposta**: A força é uma grandeza vetorial que causa aceleração em um corpo, relacionada às leis de Newton, e possui magnitude e direção.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+Força é um dos conceitos fundamentais da mecânica clássica. Relacionado com as três leis de Newton, é uma grandeza que tem a capacidade de vencer a inércia de um corpo, modificando-lhe a velocidade (seja na sua magnitude ou direção, já que se trata de um vetor). Como corolário, chega-se ao constructo de que a força pode causar deformação em um objeto flexível. A força, por ser também um vetor, tem dois elementos: a magnitude e a direção. A segunda lei de Newton,, foi originalmente formulada em termos ligeiramente diferentes, mas equivalentes: a versão original afirma que a força que age sobre um objeto é igual à derivada temporal do momento linear deste objeto. Alguns conceitos relacionados com a força: 
+* pressão, divisão ou distribuição da força sobre a área; 
+* arrasto, diminuição da velocidade de um objeto; 
+* torque, força que produz mudanças na velocidade de rotação de um objeto. A força aplicada num corpo fixo é chamada tensão mecânica ou estresse mecânico, um termo técnico para as influências que causam deformação da matéria. Enquanto o estresse mecânico pode permanecer incorporado em um objeto sólido e, gradualmente, deformá-lo, o estresse mecânico em um fluido determina mudanças em sua pressão e volume.
+
+### Fatos
+Royal Irish Constabulary possui hiperônimo Force
+National Militia (Spain) possui hiperônimo Force
+Regia Aeronautica possui hiperônimo Force
+R Force possui hiperônimo Force
+Greater Manchester Police possui hiperônimo Force
+1984–85 A.C. Milan season possui hiperônimo Force
+National Guard (Bahrain) possui hiperônimo Force
+Assault Craft Unit TWO possui hiperônimo Force
+Strathclyde Police possui hiperônimo Force
+La Coronela possui hiperônimo Force
+Inverness-shire Constabulary possui hiperônimo Force
+Force possui outras unidades Pound-force
+Home Service Battalions possui hiperônimo Force
+Liverpool and Bootle Constabulary possui hiperônimo Force
+Special Team Six possui hiperônimo Force
+Felony Investigative Assistance Team possui hiperônimo Force
+Fleet in being possui hiperônimo Force
+Force usa modelo de página wiki Template:Wiktionary
+Carmarthenshire and Cardiganshire Constabulary possui hiperônimo Force
+Newcastle upon Tyne Borough Police possui hiperônimo Force
+Northumbria Police possui hiperônimo Force
+Operation Alba possui hiperônimo Force
+New Westminster Police Department possui hiperônimo Force
+J. P. Pickens possui hiperônimo Force
+Joint Task Force 2 possui hiperônimo Force
+Wingmen of Thanagar possui hiperônimo Force
+Charlottetown Police Department possui hiperônimo Force
+Demilitarized Zone Peace Preservation Corps possui hiperônimo Force
+Dún Laoghaire Harbour Police possui hiperônimo Force
+Bristol Constabulary possui hiperônimo Force
+Caesar Hull possui hiperônimo Force
+Jagdwaffe possui hiperônimo Force
+Kingston upon Hull City Police possui hiperônimo Force
+Bangladesh Army Reserve possui hiperônimo Force
+Policía Municipal de Ponce possui hiperônimo Force
+Republika Srpska Air Force possui hiperônimo Force
+Unification Church views on sexuality possui hiperônimo Force
+Cape Mounted Yeomanry possui hiperônimo Force
+Greyhounds (police) possui hiperônimo Force
+Hertfordshire Constabulary possui hiperônimo Force
+West Vancouver Police Department possui hiperônimo Force
+Tajik Internal Troops possui hiperônimo Force
+Chilean Navy possui hiperônimo Force
+Saint Helena Police Service possui hiperônimo Force
+Zeravani possui hiperônimo Force
+Advanced Base Force possui hiperônimo Force
+Airport Police (Ireland) possui hiperônimo Force
+Garda Síochána possui hiperônimo Force
+Royal Cayman Islands Police Service possui hiperônimo Force
+Gideon Force possui hiperônimo Force
+Operation Panama Express possui hiperônimo Force
+Indian Defence Force possui hiperônimo Force
+Shelburne Police Service possui hiperônimo Force
+Jatiya Rakkhi Bahini possui hiperônimo Force
+Tasmania Police possui hiperônimo Force
+Corps expéditionnaire d'Orient possui hiperônimo Force
+Djibouti Air Force possui hiperônimo Force
+Task Force 37 possui hiperônimo Force
+Russian Corps possui hiperônimo Force
+Imperial Roman army possui hiperônimo Force
+Plateau effect possui hiperônimo Force
+Reading Borough Police possui hiperônimo Force
+Glamorgan Constabulary possui hiperônimo Force
+Michael Crossley possui hiperônimo Force
+Florida National Guard possui hiperônimo Force
+Air National Guard possui hiperônimo Force
+National Border Service possui hiperônimo Force
+Dubai Police Force possui hiperônimo Force
+Sûreté du Québec possui hiperônimo Force
+Carolina Police Department possui hiperônimo Force
+Hellenic Navy possui hiperônimo Force
+Sovereign Base Areas Police possui hiperônimo Force
+National Police of Colombia possui hiperônimo Force
+Victoria Police Department possui hiperônimo Force
+Popular Defence Forces possui hiperônimo Force
+Groove wander possui hiperônimo Force
+Kosovo Force possui hiperônimo Force
+Tanzania Air Force Command possui hiperônimo Force
+Hellenic Army possui hiperônimo Force
+Somali Air Force possui hiperônimo Force
+Iraqi Police possui hiperônimo Force
+Imperial and Royal Army during the Napoleonic Wars possui hiperônimo Force
+Royal Netherlands East Indies Army possui hiperônimo Force
+Vietnam People's Air Force possui hiperônimo Force
+Sherut Avir possui hiperônimo Force
+Abbotsford Police Department possui hiperônimo Force
+Service de police de la Ville de Montréal possui hiperônimo Force
+Orgone possui hiperônimo Force
+Marion L. Boswell possui hiperônimo Force
+One Power possui hiperônimo Force
+Royal Prussian Army of the Napoleonic Wars possui hiperônimo Force
+Estonian Security Police and SD possui hiperônimo Force
+Will to live possui hiperônimo Force
+Leeds City Police possui hiperônimo Force
+Thrust possui hiperônimo Force
+MNDF Marine Corps possui hiperônimo Force
+Guardia de Asalto possui hiperônimo Force
+Maquis de Saint-Marcel possui hiperônimo Force
+Multinational Force in Lebanon possui hiperônimo Force
+New York State Police possui hiperônimo Force
+Pennsylvania State Police possui hiperônimo Force
+South-West African Police possui hiperônimo Force
+Depletion force possui hiperônimo Force
+Gendarmerie Nationale (Niger) possui hiperônimo Force
+Royal Naval Reserve possui hiperônimo Force
+Lesotho Mounted Police Service possui hiperônimo Force
+Buckinghamshire Constabulary possui hiperônimo Force
+Royal Canadian Air Force possui hiperônimo Force
+Operation Commando Hunt possui hiperônimo Force
+Kerala Thunderbolts possui hiperônimo Force
+Canadian Siberian Expeditionary Force possui hiperônimo Force
+Scottish Crime and Drug Enforcement Agency possui hiperônimo Force
+Imperial Japanese Army Air Service possui hiperônimo Force
+Wolseley expedition possui hiperônimo Force
+Chitral Bodyguard possui hiperônimo Force
+Economic Community of West African States Monitoring Group possui hiperônimo Force
+Newport Borough Police (Monmouthshire) possui hiperônimo Force
+Law Enforcement Force of Islamic Republic of Iran possui hiperônimo Force
+Air Force of Serbia and Montenegro possui hiperônimo Force
+Federal Police (Mexico) possui hiperônimo Force
+Paratrooper Company possui hiperônimo Force
+1st Cavalry Division Artillery (United States) possui hiperônimo Force
+Ground combat element possui hiperônimo Force
+Osgood Hanbury possui hiperônimo Force
+Fourth Air Force possui hiperônimo Force
+Private army possui hiperônimo Force
+Stl’atl’imx Tribal Police Service possui hiperônimo Force
+Volunteer Regiment of Buda possui hiperônimo Force
+Abraham–Lorentz force possui hiperônimo Force
+Force usa modelo de página wiki Template:Val
+Greater Manchester Army Cadet Force possui hiperônimo Force
+Air Force of the Polish Army possui hiperônimo Force
+Task Force on the Implementation of Amendment 64 possui hiperônimo Force
+Alberta Provincial Police possui hiperônimo Force
+Yugoslav Air Force possui hiperônimo Force
+Free Libyan Air Force possui hiperônimo Force
+Paramilitary possui hiperônimo Force
+75th Ranger Regiment (United States) possui hiperônimo Force
+Golden Sabres possui hiperônimo Force
+Nelson Police Department possui hiperônimo Force
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"O que define a força na mecânica clássica?"""",
+  """"resposta"""": """"A força é uma grandeza vetorial que causa aceleração em um corpo, relacionada às leis de Newton, e possui magnitude e direção."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";2935;229;300;14.294001625
+3141_4;Força_zero-shot-triplas_verbalizado_140_qwen3:14b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: Qual é a relação entre a força e a primeira lei de Newton?  
+**Resposta**: A primeira lei de Newton (lei da inércia) afirma que um corpo em repouso ou em movimento retilíneo uniforme permanece assim, a menos que uma força resultante atue sobre ele.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+Força é um dos conceitos fundamentais da mecânica clássica. Relacionado com as três leis de Newton, é uma grandeza que tem a capacidade de vencer a inércia de um corpo, modificando-lhe a velocidade (seja na sua magnitude ou direção, já que se trata de um vetor). Como corolário, chega-se ao constructo de que a força pode causar deformação em um objeto flexível. A força, por ser também um vetor, tem dois elementos: a magnitude e a direção. A segunda lei de Newton,, foi originalmente formulada em termos ligeiramente diferentes, mas equivalentes: a versão original afirma que a força que age sobre um objeto é igual à derivada temporal do momento linear deste objeto. Alguns conceitos relacionados com a força: 
+* pressão, divisão ou distribuição da força sobre a área; 
+* arrasto, diminuição da velocidade de um objeto; 
+* torque, força que produz mudanças na velocidade de rotação de um objeto. A força aplicada num corpo fixo é chamada tensão mecânica ou estresse mecânico, um termo técnico para as influências que causam deformação da matéria. Enquanto o estresse mecânico pode permanecer incorporado em um objeto sólido e, gradualmente, deformá-lo, o estresse mecânico em um fluido determina mudanças em sua pressão e volume.
+
+### Fatos
+Royal Irish Constabulary possui hiperônimo Force
+National Militia (Spain) possui hiperônimo Force
+Regia Aeronautica possui hiperônimo Force
+R Force possui hiperônimo Force
+Greater Manchester Police possui hiperônimo Force
+1984–85 A.C. Milan season possui hiperônimo Force
+National Guard (Bahrain) possui hiperônimo Force
+Assault Craft Unit TWO possui hiperônimo Force
+Strathclyde Police possui hiperônimo Force
+La Coronela possui hiperônimo Force
+Inverness-shire Constabulary possui hiperônimo Force
+Force possui outras unidades Pound-force
+Home Service Battalions possui hiperônimo Force
+Liverpool and Bootle Constabulary possui hiperônimo Force
+Special Team Six possui hiperônimo Force
+Felony Investigative Assistance Team possui hiperônimo Force
+Fleet in being possui hiperônimo Force
+Force usa modelo de página wiki Template:Wiktionary
+Carmarthenshire and Cardiganshire Constabulary possui hiperônimo Force
+Newcastle upon Tyne Borough Police possui hiperônimo Force
+Northumbria Police possui hiperônimo Force
+Operation Alba possui hiperônimo Force
+New Westminster Police Department possui hiperônimo Force
+J. P. Pickens possui hiperônimo Force
+Joint Task Force 2 possui hiperônimo Force
+Wingmen of Thanagar possui hiperônimo Force
+Charlottetown Police Department possui hiperônimo Force
+Demilitarized Zone Peace Preservation Corps possui hiperônimo Force
+Dún Laoghaire Harbour Police possui hiperônimo Force
+Bristol Constabulary possui hiperônimo Force
+Caesar Hull possui hiperônimo Force
+Jagdwaffe possui hiperônimo Force
+Kingston upon Hull City Police possui hiperônimo Force
+Bangladesh Army Reserve possui hiperônimo Force
+Policía Municipal de Ponce possui hiperônimo Force
+Republika Srpska Air Force possui hiperônimo Force
+Unification Church views on sexuality possui hiperônimo Force
+Cape Mounted Yeomanry possui hiperônimo Force
+Greyhounds (police) possui hiperônimo Force
+Hertfordshire Constabulary possui hiperônimo Force
+West Vancouver Police Department possui hiperônimo Force
+Tajik Internal Troops possui hiperônimo Force
+Chilean Navy possui hiperônimo Force
+Saint Helena Police Service possui hiperônimo Force
+Zeravani possui hiperônimo Force
+Advanced Base Force possui hiperônimo Force
+Airport Police (Ireland) possui hiperônimo Force
+Garda Síochána possui hiperônimo Force
+Royal Cayman Islands Police Service possui hiperônimo Force
+Gideon Force possui hiperônimo Force
+Operation Panama Express possui hiperônimo Force
+Indian Defence Force possui hiperônimo Force
+Shelburne Police Service possui hiperônimo Force
+Jatiya Rakkhi Bahini possui hiperônimo Force
+Tasmania Police possui hiperônimo Force
+Corps expéditionnaire d'Orient possui hiperônimo Force
+Djibouti Air Force possui hiperônimo Force
+Task Force 37 possui hiperônimo Force
+Russian Corps possui hiperônimo Force
+Imperial Roman army possui hiperônimo Force
+Plateau effect possui hiperônimo Force
+Reading Borough Police possui hiperônimo Force
+Glamorgan Constabulary possui hiperônimo Force
+Michael Crossley possui hiperônimo Force
+Florida National Guard possui hiperônimo Force
+Air National Guard possui hiperônimo Force
+National Border Service possui hiperônimo Force
+Dubai Police Force possui hiperônimo Force
+Sûreté du Québec possui hiperônimo Force
+Carolina Police Department possui hiperônimo Force
+Hellenic Navy possui hiperônimo Force
+Sovereign Base Areas Police possui hiperônimo Force
+National Police of Colombia possui hiperônimo Force
+Victoria Police Department possui hiperônimo Force
+Popular Defence Forces possui hiperônimo Force
+Groove wander possui hiperônimo Force
+Kosovo Force possui hiperônimo Force
+Tanzania Air Force Command possui hiperônimo Force
+Hellenic Army possui hiperônimo Force
+Somali Air Force possui hiperônimo Force
+Iraqi Police possui hiperônimo Force
+Imperial and Royal Army during the Napoleonic Wars possui hiperônimo Force
+Royal Netherlands East Indies Army possui hiperônimo Force
+Vietnam People's Air Force possui hiperônimo Force
+Sherut Avir possui hiperônimo Force
+Abbotsford Police Department possui hiperônimo Force
+Service de police de la Ville de Montréal possui hiperônimo Force
+Orgone possui hiperônimo Force
+Marion L. Boswell possui hiperônimo Force
+One Power possui hiperônimo Force
+Royal Prussian Army of the Napoleonic Wars possui hiperônimo Force
+Estonian Security Police and SD possui hiperônimo Force
+Will to live possui hiperônimo Force
+Leeds City Police possui hiperônimo Force
+Thrust possui hiperônimo Force
+MNDF Marine Corps possui hiperônimo Force
+Guardia de Asalto possui hiperônimo Force
+Maquis de Saint-Marcel possui hiperônimo Force
+Multinational Force in Lebanon possui hiperônimo Force
+New York State Police possui hiperônimo Force
+Pennsylvania State Police possui hiperônimo Force
+South-West African Police possui hiperônimo Force
+Depletion force possui hiperônimo Force
+Gendarmerie Nationale (Niger) possui hiperônimo Force
+Royal Naval Reserve possui hiperônimo Force
+Lesotho Mounted Police Service possui hiperônimo Force
+Buckinghamshire Constabulary possui hiperônimo Force
+Royal Canadian Air Force possui hiperônimo Force
+Operation Commando Hunt possui hiperônimo Force
+Kerala Thunderbolts possui hiperônimo Force
+Canadian Siberian Expeditionary Force possui hiperônimo Force
+Scottish Crime and Drug Enforcement Agency possui hiperônimo Force
+Imperial Japanese Army Air Service possui hiperônimo Force
+Wolseley expedition possui hiperônimo Force
+Chitral Bodyguard possui hiperônimo Force
+Economic Community of West African States Monitoring Group possui hiperônimo Force
+Newport Borough Police (Monmouthshire) possui hiperônimo Force
+Law Enforcement Force of Islamic Republic of Iran possui hiperônimo Force
+Air Force of Serbia and Montenegro possui hiperônimo Force
+Federal Police (Mexico) possui hiperônimo Force
+Paratrooper Company possui hiperônimo Force
+1st Cavalry Division Artillery (United States) possui hiperônimo Force
+Ground combat element possui hiperônimo Force
+Osgood Hanbury possui hiperônimo Force
+Fourth Air Force possui hiperônimo Force
+Private army possui hiperônimo Force
+Stl’atl’imx Tribal Police Service possui hiperônimo Force
+Volunteer Regiment of Buda possui hiperônimo Force
+Abraham–Lorentz force possui hiperônimo Force
+Force usa modelo de página wiki Template:Val
+Greater Manchester Army Cadet Force possui hiperônimo Force
+Air Force of the Polish Army possui hiperônimo Force
+Task Force on the Implementation of Amendment 64 possui hiperônimo Force
+Alberta Provincial Police possui hiperônimo Force
+Yugoslav Air Force possui hiperônimo Force
+Free Libyan Air Force possui hiperônimo Force
+Paramilitary possui hiperônimo Force
+75th Ranger Regiment (United States) possui hiperônimo Force
+Golden Sabres possui hiperônimo Force
+Nelson Police Department possui hiperônimo Force
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"Qual é a relação entre a força e a primeira lei de Newton?"""",
+  """"resposta"""": """"A primeira lei de Newton (lei da inércia) afirma que um corpo em repouso ou em movimento retilíneo uniforme permanece assim, a menos que uma força resultante atue sobre ele."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";2965;180;300;15.735870625
+3141_5;Força_zero-shot-triplas_verbalizado_140_qwen3:14b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: O que é a """"força de Abraham-Lorentz""""?  
+**Resposta**: É uma força associada ao desaceleramento de uma partícula carregada devido à radiação eletromagnética emitida, conforme a eletrodinâmica clássica.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+Força é um dos conceitos fundamentais da mecânica clássica. Relacionado com as três leis de Newton, é uma grandeza que tem a capacidade de vencer a inércia de um corpo, modificando-lhe a velocidade (seja na sua magnitude ou direção, já que se trata de um vetor). Como corolário, chega-se ao constructo de que a força pode causar deformação em um objeto flexível. A força, por ser também um vetor, tem dois elementos: a magnitude e a direção. A segunda lei de Newton,, foi originalmente formulada em termos ligeiramente diferentes, mas equivalentes: a versão original afirma que a força que age sobre um objeto é igual à derivada temporal do momento linear deste objeto. Alguns conceitos relacionados com a força: 
+* pressão, divisão ou distribuição da força sobre a área; 
+* arrasto, diminuição da velocidade de um objeto; 
+* torque, força que produz mudanças na velocidade de rotação de um objeto. A força aplicada num corpo fixo é chamada tensão mecânica ou estresse mecânico, um termo técnico para as influências que causam deformação da matéria. Enquanto o estresse mecânico pode permanecer incorporado em um objeto sólido e, gradualmente, deformá-lo, o estresse mecânico em um fluido determina mudanças em sua pressão e volume.
+
+### Fatos
+Royal Irish Constabulary possui hiperônimo Force
+National Militia (Spain) possui hiperônimo Force
+Regia Aeronautica possui hiperônimo Force
+R Force possui hiperônimo Force
+Greater Manchester Police possui hiperônimo Force
+1984–85 A.C. Milan season possui hiperônimo Force
+National Guard (Bahrain) possui hiperônimo Force
+Assault Craft Unit TWO possui hiperônimo Force
+Strathclyde Police possui hiperônimo Force
+La Coronela possui hiperônimo Force
+Inverness-shire Constabulary possui hiperônimo Force
+Force possui outras unidades Pound-force
+Home Service Battalions possui hiperônimo Force
+Liverpool and Bootle Constabulary possui hiperônimo Force
+Special Team Six possui hiperônimo Force
+Felony Investigative Assistance Team possui hiperônimo Force
+Fleet in being possui hiperônimo Force
+Force usa modelo de página wiki Template:Wiktionary
+Carmarthenshire and Cardiganshire Constabulary possui hiperônimo Force
+Newcastle upon Tyne Borough Police possui hiperônimo Force
+Northumbria Police possui hiperônimo Force
+Operation Alba possui hiperônimo Force
+New Westminster Police Department possui hiperônimo Force
+J. P. Pickens possui hiperônimo Force
+Joint Task Force 2 possui hiperônimo Force
+Wingmen of Thanagar possui hiperônimo Force
+Charlottetown Police Department possui hiperônimo Force
+Demilitarized Zone Peace Preservation Corps possui hiperônimo Force
+Dún Laoghaire Harbour Police possui hiperônimo Force
+Bristol Constabulary possui hiperônimo Force
+Caesar Hull possui hiperônimo Force
+Jagdwaffe possui hiperônimo Force
+Kingston upon Hull City Police possui hiperônimo Force
+Bangladesh Army Reserve possui hiperônimo Force
+Policía Municipal de Ponce possui hiperônimo Force
+Republika Srpska Air Force possui hiperônimo Force
+Unification Church views on sexuality possui hiperônimo Force
+Cape Mounted Yeomanry possui hiperônimo Force
+Greyhounds (police) possui hiperônimo Force
+Hertfordshire Constabulary possui hiperônimo Force
+West Vancouver Police Department possui hiperônimo Force
+Tajik Internal Troops possui hiperônimo Force
+Chilean Navy possui hiperônimo Force
+Saint Helena Police Service possui hiperônimo Force
+Zeravani possui hiperônimo Force
+Advanced Base Force possui hiperônimo Force
+Airport Police (Ireland) possui hiperônimo Force
+Garda Síochána possui hiperônimo Force
+Royal Cayman Islands Police Service possui hiperônimo Force
+Gideon Force possui hiperônimo Force
+Operation Panama Express possui hiperônimo Force
+Indian Defence Force possui hiperônimo Force
+Shelburne Police Service possui hiperônimo Force
+Jatiya Rakkhi Bahini possui hiperônimo Force
+Tasmania Police possui hiperônimo Force
+Corps expéditionnaire d'Orient possui hiperônimo Force
+Djibouti Air Force possui hiperônimo Force
+Task Force 37 possui hiperônimo Force
+Russian Corps possui hiperônimo Force
+Imperial Roman army possui hiperônimo Force
+Plateau effect possui hiperônimo Force
+Reading Borough Police possui hiperônimo Force
+Glamorgan Constabulary possui hiperônimo Force
+Michael Crossley possui hiperônimo Force
+Florida National Guard possui hiperônimo Force
+Air National Guard possui hiperônimo Force
+National Border Service possui hiperônimo Force
+Dubai Police Force possui hiperônimo Force
+Sûreté du Québec possui hiperônimo Force
+Carolina Police Department possui hiperônimo Force
+Hellenic Navy possui hiperônimo Force
+Sovereign Base Areas Police possui hiperônimo Force
+National Police of Colombia possui hiperônimo Force
+Victoria Police Department possui hiperônimo Force
+Popular Defence Forces possui hiperônimo Force
+Groove wander possui hiperônimo Force
+Kosovo Force possui hiperônimo Force
+Tanzania Air Force Command possui hiperônimo Force
+Hellenic Army possui hiperônimo Force
+Somali Air Force possui hiperônimo Force
+Iraqi Police possui hiperônimo Force
+Imperial and Royal Army during the Napoleonic Wars possui hiperônimo Force
+Royal Netherlands East Indies Army possui hiperônimo Force
+Vietnam People's Air Force possui hiperônimo Force
+Sherut Avir possui hiperônimo Force
+Abbotsford Police Department possui hiperônimo Force
+Service de police de la Ville de Montréal possui hiperônimo Force
+Orgone possui hiperônimo Force
+Marion L. Boswell possui hiperônimo Force
+One Power possui hiperônimo Force
+Royal Prussian Army of the Napoleonic Wars possui hiperônimo Force
+Estonian Security Police and SD possui hiperônimo Force
+Will to live possui hiperônimo Force
+Leeds City Police possui hiperônimo Force
+Thrust possui hiperônimo Force
+MNDF Marine Corps possui hiperônimo Force
+Guardia de Asalto possui hiperônimo Force
+Maquis de Saint-Marcel possui hiperônimo Force
+Multinational Force in Lebanon possui hiperônimo Force
+New York State Police possui hiperônimo Force
+Pennsylvania State Police possui hiperônimo Force
+South-West African Police possui hiperônimo Force
+Depletion force possui hiperônimo Force
+Gendarmerie Nationale (Niger) possui hiperônimo Force
+Royal Naval Reserve possui hiperônimo Force
+Lesotho Mounted Police Service possui hiperônimo Force
+Buckinghamshire Constabulary possui hiperônimo Force
+Royal Canadian Air Force possui hiperônimo Force
+Operation Commando Hunt possui hiperônimo Force
+Kerala Thunderbolts possui hiperônimo Force
+Canadian Siberian Expeditionary Force possui hiperônimo Force
+Scottish Crime and Drug Enforcement Agency possui hiperônimo Force
+Imperial Japanese Army Air Service possui hiperônimo Force
+Wolseley expedition possui hiperônimo Force
+Chitral Bodyguard possui hiperônimo Force
+Economic Community of West African States Monitoring Group possui hiperônimo Force
+Newport Borough Police (Monmouthshire) possui hiperônimo Force
+Law Enforcement Force of Islamic Republic of Iran possui hiperônimo Force
+Air Force of Serbia and Montenegro possui hiperônimo Force
+Federal Police (Mexico) possui hiperônimo Force
+Paratrooper Company possui hiperônimo Force
+1st Cavalry Division Artillery (United States) possui hiperônimo Force
+Ground combat element possui hiperônimo Force
+Osgood Hanbury possui hiperônimo Force
+Fourth Air Force possui hiperônimo Force
+Private army possui hiperônimo Force
+Stl’atl’imx Tribal Police Service possui hiperônimo Force
+Volunteer Regiment of Buda possui hiperônimo Force
+Abraham–Lorentz force possui hiperônimo Force
+Force usa modelo de página wiki Template:Val
+Greater Manchester Army Cadet Force possui hiperônimo Force
+Air Force of the Polish Army possui hiperônimo Force
+Task Force on the Implementation of Amendment 64 possui hiperônimo Force
+Alberta Provincial Police possui hiperônimo Force
+Yugoslav Air Force possui hiperônimo Force
+Free Libyan Air Force possui hiperônimo Force
+Paramilitary possui hiperônimo Force
+75th Ranger Regiment (United States) possui hiperônimo Force
+Golden Sabres possui hiperônimo Force
+Nelson Police Department possui hiperônimo Force
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"O que é a """"força de Abraham-Lorentz""""?"""",
+  """"resposta"""": """"É uma força associada ao desaceleramento de uma partícula carregada devido à radiação eletromagnética emitida, conforme a eletrodinâmica clássica."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";2958;188;300;17.275545708000003
+3141_10;Força_zero-shot-triplas_verbalizado_140_qwen3:14b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: O que representa a """"Force"""" em termos de categorização hierárquica?  
+**Resposta**: Force"""" atua como um hiperônimo (termo mais geral) para uma série de organizações, unidades e conceitos, incluindo tanto instituições de segurança como termos físicos.
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+Força é um dos conceitos fundamentais da mecânica clássica. Relacionado com as três leis de Newton, é uma grandeza que tem a capacidade de vencer a inércia de um corpo, modificando-lhe a velocidade (seja na sua magnitude ou direção, já que se trata de um vetor). Como corolário, chega-se ao constructo de que a força pode causar deformação em um objeto flexível. A força, por ser também um vetor, tem dois elementos: a magnitude e a direção. A segunda lei de Newton,, foi originalmente formulada em termos ligeiramente diferentes, mas equivalentes: a versão original afirma que a força que age sobre um objeto é igual à derivada temporal do momento linear deste objeto. Alguns conceitos relacionados com a força: 
+* pressão, divisão ou distribuição da força sobre a área; 
+* arrasto, diminuição da velocidade de um objeto; 
+* torque, força que produz mudanças na velocidade de rotação de um objeto. A força aplicada num corpo fixo é chamada tensão mecânica ou estresse mecânico, um termo técnico para as influências que causam deformação da matéria. Enquanto o estresse mecânico pode permanecer incorporado em um objeto sólido e, gradualmente, deformá-lo, o estresse mecânico em um fluido determina mudanças em sua pressão e volume.
+
+### Fatos
+Royal Irish Constabulary possui hiperônimo Force
+National Militia (Spain) possui hiperônimo Force
+Regia Aeronautica possui hiperônimo Force
+R Force possui hiperônimo Force
+Greater Manchester Police possui hiperônimo Force
+1984–85 A.C. Milan season possui hiperônimo Force
+National Guard (Bahrain) possui hiperônimo Force
+Assault Craft Unit TWO possui hiperônimo Force
+Strathclyde Police possui hiperônimo Force
+La Coronela possui hiperônimo Force
+Inverness-shire Constabulary possui hiperônimo Force
+Force possui outras unidades Pound-force
+Home Service Battalions possui hiperônimo Force
+Liverpool and Bootle Constabulary possui hiperônimo Force
+Special Team Six possui hiperônimo Force
+Felony Investigative Assistance Team possui hiperônimo Force
+Fleet in being possui hiperônimo Force
+Force usa modelo de página wiki Template:Wiktionary
+Carmarthenshire and Cardiganshire Constabulary possui hiperônimo Force
+Newcastle upon Tyne Borough Police possui hiperônimo Force
+Northumbria Police possui hiperônimo Force
+Operation Alba possui hiperônimo Force
+New Westminster Police Department possui hiperônimo Force
+J. P. Pickens possui hiperônimo Force
+Joint Task Force 2 possui hiperônimo Force
+Wingmen of Thanagar possui hiperônimo Force
+Charlottetown Police Department possui hiperônimo Force
+Demilitarized Zone Peace Preservation Corps possui hiperônimo Force
+Dún Laoghaire Harbour Police possui hiperônimo Force
+Bristol Constabulary possui hiperônimo Force
+Caesar Hull possui hiperônimo Force
+Jagdwaffe possui hiperônimo Force
+Kingston upon Hull City Police possui hiperônimo Force
+Bangladesh Army Reserve possui hiperônimo Force
+Policía Municipal de Ponce possui hiperônimo Force
+Republika Srpska Air Force possui hiperônimo Force
+Unification Church views on sexuality possui hiperônimo Force
+Cape Mounted Yeomanry possui hiperônimo Force
+Greyhounds (police) possui hiperônimo Force
+Hertfordshire Constabulary possui hiperônimo Force
+West Vancouver Police Department possui hiperônimo Force
+Tajik Internal Troops possui hiperônimo Force
+Chilean Navy possui hiperônimo Force
+Saint Helena Police Service possui hiperônimo Force
+Zeravani possui hiperônimo Force
+Advanced Base Force possui hiperônimo Force
+Airport Police (Ireland) possui hiperônimo Force
+Garda Síochána possui hiperônimo Force
+Royal Cayman Islands Police Service possui hiperônimo Force
+Gideon Force possui hiperônimo Force
+Operation Panama Express possui hiperônimo Force
+Indian Defence Force possui hiperônimo Force
+Shelburne Police Service possui hiperônimo Force
+Jatiya Rakkhi Bahini possui hiperônimo Force
+Tasmania Police possui hiperônimo Force
+Corps expéditionnaire d'Orient possui hiperônimo Force
+Djibouti Air Force possui hiperônimo Force
+Task Force 37 possui hiperônimo Force
+Russian Corps possui hiperônimo Force
+Imperial Roman army possui hiperônimo Force
+Plateau effect possui hiperônimo Force
+Reading Borough Police possui hiperônimo Force
+Glamorgan Constabulary possui hiperônimo Force
+Michael Crossley possui hiperônimo Force
+Florida National Guard possui hiperônimo Force
+Air National Guard possui hiperônimo Force
+National Border Service possui hiperônimo Force
+Dubai Police Force possui hiperônimo Force
+Sûreté du Québec possui hiperônimo Force
+Carolina Police Department possui hiperônimo Force
+Hellenic Navy possui hiperônimo Force
+Sovereign Base Areas Police possui hiperônimo Force
+National Police of Colombia possui hiperônimo Force
+Victoria Police Department possui hiperônimo Force
+Popular Defence Forces possui hiperônimo Force
+Groove wander possui hiperônimo Force
+Kosovo Force possui hiperônimo Force
+Tanzania Air Force Command possui hiperônimo Force
+Hellenic Army possui hiperônimo Force
+Somali Air Force possui hiperônimo Force
+Iraqi Police possui hiperônimo Force
+Imperial and Royal Army during the Napoleonic Wars possui hiperônimo Force
+Royal Netherlands East Indies Army possui hiperônimo Force
+Vietnam People's Air Force possui hiperônimo Force
+Sherut Avir possui hiperônimo Force
+Abbotsford Police Department possui hiperônimo Force
+Service de police de la Ville de Montréal possui hiperônimo Force
+Orgone possui hiperônimo Force
+Marion L. Boswell possui hiperônimo Force
+One Power possui hiperônimo Force
+Royal Prussian Army of the Napoleonic Wars possui hiperônimo Force
+Estonian Security Police and SD possui hiperônimo Force
+Will to live possui hiperônimo Force
+Leeds City Police possui hiperônimo Force
+Thrust possui hiperônimo Force
+MNDF Marine Corps possui hiperônimo Force
+Guardia de Asalto possui hiperônimo Force
+Maquis de Saint-Marcel possui hiperônimo Force
+Multinational Force in Lebanon possui hiperônimo Force
+New York State Police possui hiperônimo Force
+Pennsylvania State Police possui hiperônimo Force
+South-West African Police possui hiperônimo Force
+Depletion force possui hiperônimo Force
+Gendarmerie Nationale (Niger) possui hiperônimo Force
+Royal Naval Reserve possui hiperônimo Force
+Lesotho Mounted Police Service possui hiperônimo Force
+Buckinghamshire Constabulary possui hiperônimo Force
+Royal Canadian Air Force possui hiperônimo Force
+Operation Commando Hunt possui hiperônimo Force
+Kerala Thunderbolts possui hiperônimo Force
+Canadian Siberian Expeditionary Force possui hiperônimo Force
+Scottish Crime and Drug Enforcement Agency possui hiperônimo Force
+Imperial Japanese Army Air Service possui hiperônimo Force
+Wolseley expedition possui hiperônimo Force
+Chitral Bodyguard possui hiperônimo Force
+Economic Community of West African States Monitoring Group possui hiperônimo Force
+Newport Borough Police (Monmouthshire) possui hiperônimo Force
+Law Enforcement Force of Islamic Republic of Iran possui hiperônimo Force
+Air Force of Serbia and Montenegro possui hiperônimo Force
+Federal Police (Mexico) possui hiperônimo Force
+Paratrooper Company possui hiperônimo Force
+1st Cavalry Division Artillery (United States) possui hiperônimo Force
+Ground combat element possui hiperônimo Force
+Osgood Hanbury possui hiperônimo Force
+Fourth Air Force possui hiperônimo Force
+Private army possui hiperônimo Force
+Stl’atl’imx Tribal Police Service possui hiperônimo Force
+Volunteer Regiment of Buda possui hiperônimo Force
+Abraham–Lorentz force possui hiperônimo Force
+Force usa modelo de página wiki Template:Val
+Greater Manchester Army Cadet Force possui hiperônimo Force
+Air Force of the Polish Army possui hiperônimo Force
+Task Force on the Implementation of Amendment 64 possui hiperônimo Force
+Alberta Provincial Police possui hiperônimo Force
+Yugoslav Air Force possui hiperônimo Force
+Free Libyan Air Force possui hiperônimo Force
+Paramilitary possui hiperônimo Force
+75th Ranger Regiment (United States) possui hiperônimo Force
+Golden Sabres possui hiperônimo Force
+Nelson Police Department possui hiperônimo Force
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"O que representa a """"Force"""" em termos de categorização hierárquica?"""",
+  """"resposta"""": """"Force"""" atua como um hiperônimo (termo mais geral) para uma série de organizações, unidades e conceitos, incluindo tanto instituições de segurança como termos físicos."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";2967;200;300;24.084450666
+3141_7;Força_zero-shot-triplas_verbalizado_140_qwen3:14b_0.7_0.95_40;;"""
+Você é um avaliador imparcial e especializado em validar a qualidade de pares de pergunta e resposta gerados por modelos de linguagem. Avalie criticamente o par abaixo com base nos seguintes critérios, atribuindo uma nota de **1 a 5** para cada um deles:
+
+1. **Complexidade**: O par pergunta e resposta exigem raciocínio, síntese ou inferência além da simples memorização? Possuem estrutura válida de pergunta e resposta?
+   - 1: Muito simples, puramente factual ou trivial.
+   - 2: Simples, mas com mínima exigência de compreensão.
+   - 3: Média complexidade, exige compreensão do contexto.
+   - 4: Alta complexidade, requer análise ou inferência.
+   - 5: Muito desafiadora, exige raciocínio elaborado ou multidimensional.
+
+2. **Completude**: A resposta aborda todos os aspectos solicitados na pergunta? Responde completamente ao que foi perguntado?
+   - 1: Incompleta ou muito vaga.
+   - 2: Parcialmente completa, mas relevante.
+   - 3: Adequadamente completa.
+   - 4: Quase totalmente completa, apenas com detalhes ausentes.
+   - 5: Completude total e precisa.
+
+3. **Corretude**: A resposta está correta e coerente com a pergunta e contexto? O par é logicamente coerente e não há contradição entre os dois?
+   - 1: Incorreta ou contraditória.
+   - 2: Parcialmente correta, com falhas.
+   - 3: Correta, mas com margem de erro.
+   - 4: Correta com boa precisão.
+   - 5: Totalmente correta e precisa.
+
+4. **Fluidez**: O par apresenta clareza na leitura e fluidez natural do idioma português? A pergunta e a resposta soam naturais e bem estruturadas em português para um falante nativo?
+   - 1: Texto truncado ou mal estruturado.
+   - 2: Levemente artificial ou confuso.
+   - 3: Fluidez aceitável.
+   - 4: Natural, com boa estrutura.
+   - 5: Extremamente fluido e natural.
+
+5. **Qualidade do português**: O par apresenta escrita com ortografia correta, boa gramática, concordância e estilo adequado?
+   - 1: Muitos erros graves.
+   - 2: Erros moderados, mas compreensível.
+   - 3: Alguns erros leves.
+   - 4: Correto com fluidez.
+   - 5: Impecável, sem erros.
+
+### Par a ser avaliado:
+
+**Pergunta**: Qual modelo de página wiki é usado pela entrada """"Force""""?  
+**Resposta**: A entrada """"Force"""" utiliza os modelos de página wiki """"Template:Val"""" e """"Template:Val"""" (como mencionado nos fatos).
+
+**Prompt de entrada** (usado como base para gerar o par):  
+### Contexto
+Força é um dos conceitos fundamentais da mecânica clássica. Relacionado com as três leis de Newton, é uma grandeza que tem a capacidade de vencer a inércia de um corpo, modificando-lhe a velocidade (seja na sua magnitude ou direção, já que se trata de um vetor). Como corolário, chega-se ao constructo de que a força pode causar deformação em um objeto flexível. A força, por ser também um vetor, tem dois elementos: a magnitude e a direção. A segunda lei de Newton,, foi originalmente formulada em termos ligeiramente diferentes, mas equivalentes: a versão original afirma que a força que age sobre um objeto é igual à derivada temporal do momento linear deste objeto. Alguns conceitos relacionados com a força: 
+* pressão, divisão ou distribuição da força sobre a área; 
+* arrasto, diminuição da velocidade de um objeto; 
+* torque, força que produz mudanças na velocidade de rotação de um objeto. A força aplicada num corpo fixo é chamada tensão mecânica ou estresse mecânico, um termo técnico para as influências que causam deformação da matéria. Enquanto o estresse mecânico pode permanecer incorporado em um objeto sólido e, gradualmente, deformá-lo, o estresse mecânico em um fluido determina mudanças em sua pressão e volume.
+
+### Fatos
+Royal Irish Constabulary possui hiperônimo Force
+National Militia (Spain) possui hiperônimo Force
+Regia Aeronautica possui hiperônimo Force
+R Force possui hiperônimo Force
+Greater Manchester Police possui hiperônimo Force
+1984–85 A.C. Milan season possui hiperônimo Force
+National Guard (Bahrain) possui hiperônimo Force
+Assault Craft Unit TWO possui hiperônimo Force
+Strathclyde Police possui hiperônimo Force
+La Coronela possui hiperônimo Force
+Inverness-shire Constabulary possui hiperônimo Force
+Force possui outras unidades Pound-force
+Home Service Battalions possui hiperônimo Force
+Liverpool and Bootle Constabulary possui hiperônimo Force
+Special Team Six possui hiperônimo Force
+Felony Investigative Assistance Team possui hiperônimo Force
+Fleet in being possui hiperônimo Force
+Force usa modelo de página wiki Template:Wiktionary
+Carmarthenshire and Cardiganshire Constabulary possui hiperônimo Force
+Newcastle upon Tyne Borough Police possui hiperônimo Force
+Northumbria Police possui hiperônimo Force
+Operation Alba possui hiperônimo Force
+New Westminster Police Department possui hiperônimo Force
+J. P. Pickens possui hiperônimo Force
+Joint Task Force 2 possui hiperônimo Force
+Wingmen of Thanagar possui hiperônimo Force
+Charlottetown Police Department possui hiperônimo Force
+Demilitarized Zone Peace Preservation Corps possui hiperônimo Force
+Dún Laoghaire Harbour Police possui hiperônimo Force
+Bristol Constabulary possui hiperônimo Force
+Caesar Hull possui hiperônimo Force
+Jagdwaffe possui hiperônimo Force
+Kingston upon Hull City Police possui hiperônimo Force
+Bangladesh Army Reserve possui hiperônimo Force
+Policía Municipal de Ponce possui hiperônimo Force
+Republika Srpska Air Force possui hiperônimo Force
+Unification Church views on sexuality possui hiperônimo Force
+Cape Mounted Yeomanry possui hiperônimo Force
+Greyhounds (police) possui hiperônimo Force
+Hertfordshire Constabulary possui hiperônimo Force
+West Vancouver Police Department possui hiperônimo Force
+Tajik Internal Troops possui hiperônimo Force
+Chilean Navy possui hiperônimo Force
+Saint Helena Police Service possui hiperônimo Force
+Zeravani possui hiperônimo Force
+Advanced Base Force possui hiperônimo Force
+Airport Police (Ireland) possui hiperônimo Force
+Garda Síochána possui hiperônimo Force
+Royal Cayman Islands Police Service possui hiperônimo Force
+Gideon Force possui hiperônimo Force
+Operation Panama Express possui hiperônimo Force
+Indian Defence Force possui hiperônimo Force
+Shelburne Police Service possui hiperônimo Force
+Jatiya Rakkhi Bahini possui hiperônimo Force
+Tasmania Police possui hiperônimo Force
+Corps expéditionnaire d'Orient possui hiperônimo Force
+Djibouti Air Force possui hiperônimo Force
+Task Force 37 possui hiperônimo Force
+Russian Corps possui hiperônimo Force
+Imperial Roman army possui hiperônimo Force
+Plateau effect possui hiperônimo Force
+Reading Borough Police possui hiperônimo Force
+Glamorgan Constabulary possui hiperônimo Force
+Michael Crossley possui hiperônimo Force
+Florida National Guard possui hiperônimo Force
+Air National Guard possui hiperônimo Force
+National Border Service possui hiperônimo Force
+Dubai Police Force possui hiperônimo Force
+Sûreté du Québec possui hiperônimo Force
+Carolina Police Department possui hiperônimo Force
+Hellenic Navy possui hiperônimo Force
+Sovereign Base Areas Police possui hiperônimo Force
+National Police of Colombia possui hiperônimo Force
+Victoria Police Department possui hiperônimo Force
+Popular Defence Forces possui hiperônimo Force
+Groove wander possui hiperônimo Force
+Kosovo Force possui hiperônimo Force
+Tanzania Air Force Command possui hiperônimo Force
+Hellenic Army possui hiperônimo Force
+Somali Air Force possui hiperônimo Force
+Iraqi Police possui hiperônimo Force
+Imperial and Royal Army during the Napoleonic Wars possui hiperônimo Force
+Royal Netherlands East Indies Army possui hiperônimo Force
+Vietnam People's Air Force possui hiperônimo Force
+Sherut Avir possui hiperônimo Force
+Abbotsford Police Department possui hiperônimo Force
+Service de police de la Ville de Montréal possui hiperônimo Force
+Orgone possui hiperônimo Force
+Marion L. Boswell possui hiperônimo Force
+One Power possui hiperônimo Force
+Royal Prussian Army of the Napoleonic Wars possui hiperônimo Force
+Estonian Security Police and SD possui hiperônimo Force
+Will to live possui hiperônimo Force
+Leeds City Police possui hiperônimo Force
+Thrust possui hiperônimo Force
+MNDF Marine Corps possui hiperônimo Force
+Guardia de Asalto possui hiperônimo Force
+Maquis de Saint-Marcel possui hiperônimo Force
+Multinational Force in Lebanon possui hiperônimo Force
+New York State Police possui hiperônimo Force
+Pennsylvania State Police possui hiperônimo Force
+South-West African Police possui hiperônimo Force
+Depletion force possui hiperônimo Force
+Gendarmerie Nationale (Niger) possui hiperônimo Force
+Royal Naval Reserve possui hiperônimo Force
+Lesotho Mounted Police Service possui hiperônimo Force
+Buckinghamshire Constabulary possui hiperônimo Force
+Royal Canadian Air Force possui hiperônimo Force
+Operation Commando Hunt possui hiperônimo Force
+Kerala Thunderbolts possui hiperônimo Force
+Canadian Siberian Expeditionary Force possui hiperônimo Force
+Scottish Crime and Drug Enforcement Agency possui hiperônimo Force
+Imperial Japanese Army Air Service possui hiperônimo Force
+Wolseley expedition possui hiperônimo Force
+Chitral Bodyguard possui hiperônimo Force
+Economic Community of West African States Monitoring Group possui hiperônimo Force
+Newport Borough Police (Monmouthshire) possui hiperônimo Force
+Law Enforcement Force of Islamic Republic of Iran possui hiperônimo Force
+Air Force of Serbia and Montenegro possui hiperônimo Force
+Federal Police (Mexico) possui hiperônimo Force
+Paratrooper Company possui hiperônimo Force
+1st Cavalry Division Artillery (United States) possui hiperônimo Force
+Ground combat element possui hiperônimo Force
+Osgood Hanbury possui hiperônimo Force
+Fourth Air Force possui hiperônimo Force
+Private army possui hiperônimo Force
+Stl’atl’imx Tribal Police Service possui hiperônimo Force
+Volunteer Regiment of Buda possui hiperônimo Force
+Abraham–Lorentz force possui hiperônimo Force
+Force usa modelo de página wiki Template:Val
+Greater Manchester Army Cadet Force possui hiperônimo Force
+Air Force of the Polish Army possui hiperônimo Force
+Task Force on the Implementation of Amendment 64 possui hiperônimo Force
+Alberta Provincial Police possui hiperônimo Force
+Yugoslav Air Force possui hiperônimo Force
+Free Libyan Air Force possui hiperônimo Force
+Paramilitary possui hiperônimo Force
+75th Ranger Regiment (United States) possui hiperônimo Force
+Golden Sabres possui hiperônimo Force
+Nelson Police Department possui hiperônimo Force
+
+---
+
+## Instrução Final
+**Gere agora os 10 pares `pergunta;resposta` conforme as instruções e regras acima.**""""
+
+Retorne exclusivamente um JSON com o seguinte formato:
+
+```json
+{
+  """"pergunta"""": """"Qual modelo de página wiki é usado pela entrada """"Force""""?"""",
+  """"resposta"""": """"A entrada """"Force"""" utiliza os modelos de página wiki """"Template:Val"""" e """"Template:Val"""" (como mencionado nos fatos)."""",
+  """"complexidade"""": <1-5>,
+  """"completude"""": <1-5>,
+  """"corretude"""": <1-5>,
+  """"fluidez"""": <1-5>,
+  """"qualidade_portugues"""": <1-5>,
+  """"justificativa"""": """"<explicação suscinta da avaliação>""""
+}
+""";2931;184;300;24.101331625

@@ -1,0 +1,69 @@
+<think>
+Okay, I need to create a set of 10 multiple-choice questions and answers based on the given context about Pharmacy. The user provided an example with specific JSON structure, so I should follow that format.
+
+First, I'll look at the example they gave. It has 10 objects, each with "pergunta" and "resposta". The topics include types of pharmacies, abbreviations, storage conditions, services, roles, specializations, responsibilities, equipment, distribution systems, and legal aspects.
+
+I need to ensure that each question is unique and covers different aspects of Pharmacy. I'll brainstorm various areas within Pharmacy such as roles, functions, terminology, regulations, etc.
+
+Let me list possible questions:
+
+1. What is a common abbreviation in prescriptions?
+2. Who can prescribe medications?
+3. What does a pharmaceutical analysis involve?
+4. Which vaccine is given at birth?
+5. What's the role of pharmacists beyond dispensing?
+6. What's the term for controlled substances?
+7. Where are non-prescription drugs kept?
+8. What's an alternative to traditional pharmacies?
+9. What do pharmacists ensure regarding medications?
+10. What's a key aspect of pharmaceutical care?
+
+Now, I'll frame each as a question and provide the correct answer based on common Pharmacy knowledge.
+
+I should make sure that each question is clear and directly related to the content. Also, avoid repeating similar questions.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual abreviação é comumente usada em receitas médicas para indicar 'tablete'?",
+    "resposta": "Tab."
+  },
+  {
+    "pergunta": "Quem pode prescrever medicamentos no Brasil?",
+    "resposta": "Médicos e dentistas"
+  },
+  {
+    "pergunta": "O que é feito por farmacêuticos em análise farmacêutica?",
+    "resposta": "Analisar a qualidade,纯za e eficácia de medicamentos"
+  },
+  {
+    "pergunta": "Qual vacina é administrada imediatamente após o nascimento no Brasil?",
+    "resposta": "Vacina contra hepatite B"
+  },
+  {
+    "pergunta": "O que os farmacêuticos fazem além de dispensar medicamentos?",
+    "resposta": "Educar pacientes sobre medicação e promoção de saúde"
+  },
+  {
+    "pergunta": "Qual é o termo usado para substâncias controladas?",
+    "resposta": "Medicamentos sujeitos a receita médica"
+  },
+  {
+    "pergunta": "Onde os remédios não prescritivos são armazenados em farmácias?",
+    "resposta": "No setor de OTC (Over the Counter)"
+  },
+  {
+    "pergunta": "Qual é uma alternativa moderna para a farmácia convencional?",
+    "resposta": "Farmácia online"
+  },
+  {
+    "pergunta": "O que os farmacêuticos verificam sobre as medicações?",
+    "resposta": "Possíveis interações e doses corretas"
+  },
+  {
+    "pergunta": "Qual aspecto é crucial na assistência farmacêutica?",
+    "resposta": "Eficácia e segurança dos medicamentos ao paciente"
+  }
+]
+```

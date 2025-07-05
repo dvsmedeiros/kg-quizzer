@@ -1,0 +1,65 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context about the Yuan Dynasty. Let me start by understanding the context and the facts given.
+
+The Yuan Dynasty was established by Kublai Khan in 1271. It's a Mongol dynasty that ruled China. The facts include various RDF triples, which mention battles, events, locations, and people associated with the Yuan Dynasty. For example, there are mentions of battles like the Battle of Bạch Đằng (1288), the Mongol conquest of the Song Dynasty, and events like the establishment of the dynasty. There's also information about the capital cities (Khanbaliq and Shangdu), currency, dissolution date (1368), and religious practices.
+
+Now, I need to create 10 distinct questions that cover different aspects. Let me list possible areas:
+
+1. Founder of the Yuan Dynasty
+2. Year of establishment
+3. Capital cities
+4. Dissolution date
+5. Key battles (like Battle of Bạch Đằng)
+6. Religious practices
+7. Notable events (Mongol conquest of Song)
+8. Currency used
+9. Monarch associated with the dynasty
+10. A specific event like the Red Turban Rebellion
+
+I need to ensure each question is unique and covers different points. Let me check the facts again to find the correct answers. For example, the dynasty was founded by Kublai Khan, established in 1271, capitals are Khanbaliq and Shangdu, dissolved in 1368, currency was Cash (Chinese coin), and the Red Turban Rebellion is mentioned. Battles like Bạch Đằng and the Mongol conquest of the Song are listed. Religious practices include Buddhism, Taoism, etc. The leader is Toghon Temür. Also, there's a mention of the Yuan's establishment of the Red Turban Rebellion as an event.
+
+I need to phrase each question clearly and ensure the answers are directly from the context. Let me make sure there are no repeated questions and that each answer is correct based on the facts provided. Avoid any guesses and stick strictly to the given data. Alright, time to structure the JSON with these 10 pairs.
+</think>
+
+[
+  {
+    "pergunta": "Quem fundou a Dinastia Yuan?",
+    "resposta": "Kublai Khan"
+  },
+  {
+    "pergunta": "Em que ano a Dinastia Yuan foi formalmente estabelecida?",
+    "resposta": "1271"
+  },
+  {
+    "pergunta": "Quais foram as capitais da Dinastia Yuan?",
+    "resposta": "Khanbaliq e Shangdu"
+  },
+  {
+    "pergunta": "Em que ano a Dinastia Yuan foi dissolvida?",
+    "resposta": "1368"
+  },
+  {
+    "pergunta": "Qual foi um dos principais eventos da Dinastia Yuan?",
+    "resposta": "A conquista mongol da Dinastia Song"
+  },
+  {
+    "pergunta": "Quais religiões eram praticadas durante a Dinastia Yuan?",
+    "resposta": "Budismo, Taoísmo, Confucionismo, Islam, Cristianismo, Judaísmo, entre outras"
+  },
+  {
+    "pergunta": "Qual foi a moeda utilizada durante a Dinastia Yuan?",
+    "resposta": "Dinheiro de cobre chines"
+  },
+  {
+    "pergunta": "Qual foi um dos principais conflitos associados à Dinastia Yuan?",
+    "resposta": "A Rebelião dos Turbanos Vermelhos"
+  },
+  {
+    "pergunta": "Qual foi o título do líder da Dinastia Yuan?",
+    "resposta": "Khagan-Imperador"
+  },
+  {
+    "pergunta": "Qual foi o nome da capital principal da Dinastia Yuan?",
+    "resposta": "Khanbaliq"
+  }
+]

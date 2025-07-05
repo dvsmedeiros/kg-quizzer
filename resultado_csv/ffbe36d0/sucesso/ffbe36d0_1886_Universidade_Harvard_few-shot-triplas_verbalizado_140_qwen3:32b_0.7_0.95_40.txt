@@ -1,0 +1,92 @@
+<think>
+Okay, let's start by understanding the user's request. They want 10 pairs of questions and answers based on the provided context and facts about Harvard University. The output needs to be in JSON format, with each pair containing a relevant question and a correct answer.
+
+First, I'll go through the context to identify key points. The university's founding year is 1636, and it's the oldest institution in the US. It was named after John Harvard, who was the first benefactor. The context mentions its Ivy League membership, the transformation into a research university under Charles William Eliot, the merger with Radcliffe College in 1977 leading to coeducation, and notable facts like the number of Nobel laureates and US presidents who attended.
+
+Now, looking at the facts provided, there are many alumni and affiliated individuals listed. Each of these could be a potential question asking who studied or is affiliated with Harvard. For example, "Quem é o primeiro reitor mulher da Universidade de Harvard?" with the answer "Drew Gilpin Faust."
+
+Next, I need to ensure the questions cover different aspects: history, notable people, structure, and achievements. Let's check the example questions given to avoid repetition. The examples include the person after whom the university is named, when coeducation started, the leader during the Great Depression, etc.
+
+I should also make sure each question has a single correct answer from the context or facts. For instance, "Em qual cidade está localizado o campus principal?" would be answered with "Cambridge, Massachusetts."
+
+Let me list possible questions and answers:
+
+1. Quando a Universidade de Harvard foi fundada?
+Resposta: 1636
+
+2. Quem foi o primeiro reitor mulher da Universidade de Harvard?
+Resposta: Drew Gilpin Faust
+
+3. Em que ano a faculdade de graduação tornou-se coeducacional?
+Resposta: 1977
+
+4. Quantos presidentes dos EUA são ex-alunos da Universidade de Harvard?
+Resposta: Oito
+
+5. Qual é o nome da principal biblioteca da Universidade de Harvard?
+Resposta: Biblioteca da Universidade de Harvard
+
+6. Em que década Charles William Eliot transformou a universidade em uma moderna universidade de pesquisa?
+Resposta: Século XIX
+
+7. Qual é o nome do estádio de atletismo da Universidade de Harvard localizado em Boston?
+Resposta: Estádio da Harvard
+
+8. Quantos ganhadores do Prêmio Nobel estão associados à Universidade de Harvard?
+Resposta: 150
+
+9. Qual é o orçamento da Universidade de Harvard em setembro de 2012?
+Resposta: Cerca de 30 bilhões de dólares
+
+10. Em que associação a Universidade de Harvard foi membro fundador em 1900?
+Resposta: Associação de Universidades Americanas
+
+Now, I need to verify each answer against the context and facts. For example, the founding year is clearly stated as 1636. Drew Faust is mentioned as the first female rector elected in 2007. The merger with Radcliffe in 1977 made it coeducational. The number of US presidents and Nobel laureates is given. The budget figure is from 2012. The first female rector and the merger year are specific details from the context. The stadium name is mentioned in the context as part of the Allston campus. The budget in 2012 is also in the text. The athletic association with NCAA Division I is noted. The 1900 founding member of the association is correct.
+
+I should also check that each question is unique and covers different aspects. The questions range from founding details, key historical figures, structural changes, notable alumni, campus locations, financials, and affiliations. There's a mix of dates, names, numbers, and specific facts. Each answer is directly or inferably from the provided information without adding external knowledge. This should fulfill the user's requirements.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem foi o primeiro reitor mulher da Universidade de Harvard?",
+    "resposta": "Drew Gilpin Faust"
+  },
+  {
+    "pergunta": "Em que ano a faculdade de graduação tornou-se coeducacional?",
+    "resposta": "1977"
+  },
+  {
+    "pergunta": "Quantos presidentes dos EUA são ex-alunos da Universidade de Harvard?",
+    "resposta": "Oito"
+  },
+  {
+    "pergunta": "Qual é o nome do estádio de atletismo da Universidade de Harvard localizado em Boston?",
+    "resposta": "Estádio da Harvard"
+  },
+  {
+    "pergunta": "Em que associação a Universidade de Harvard foi membro fundador em 1900?",
+    "resposta": "Associação de Universidades Americanas"
+  },
+  {
+    "pergunta": "Quantos ganhadores do Prêmio Nobel estão associados à Universidade de Harvard?",
+    "resposta": "150"
+  },
+  {
+    "pergunta": "Qual é o orçamento da Universidade de Harvard em setembro de 2012?",
+    "resposta": "Cerca de 30 bilhões de dólares"
+  },
+  {
+    "pergunta": "Em que cidade está localizado o campus principal da Universidade de Harvard?",
+    "resposta": "Cambridge, Massachusetts"
+  },
+  {
+    "pergunta": "Quem foi o líder da Universidade de Harvard durante a Grande Depressão e a Segunda Guerra Mundial?",
+    "resposta": "James Bryant Conant"
+  },
+  {
+    "pergunta": "Qual é o nome da principal biblioteca da Universidade de Harvard?",
+    "resposta": "Biblioteca da Universidade de Harvard"
+  }
+]
+```

@@ -1,0 +1,82 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context about the Black Death. Let's start by reading through the context carefully to identify key facts and areas to cover.
+
+First, the context mentions that the Black Death was the most devastating pandemic in history, killing 75-200 million people in Eurasia between 1347-1351. The cause is Yersinia pestis, leading to bubonic, septicemic, and pneumonic plagues. The spread started from Asia, moved via the Silk Road, reached Crimea in 1343, then spread through Genoese ships to the Mediterranean and Europe. The death toll in Europe was 30-60%, and the population took 200 years to recover, with some cities like Florence recovering in the 19th century. The pandemic returned until the 20th century.
+
+Looking at the facts provided in the FOAF/RDF data, there are additional details like specific dates (1346), images related to the flea vector, and the primary source quote from Geoffrey the Baker. The death toll is listed as 75 million, which might be part of the 75-200 million range mentioned in the context. Also, the disease is categorized under bubonic plague.
+
+Now, to create varied questions. I should cover the causes, spread, impact, key statistics, historical context, and specific examples. Let me brainstorm possible questions:
+
+1. What was the primary cause of the Black Death?
+2. How many people are estimated to have died from the Black Death in Eurasia?
+3. What was the time period when the Black Death was most severe in Europe?
+4. Which bacterium is responsible for the Black Death?
+5. How did the Black Death spread from Asia to Europe?
+6. What percentage of the European population did the Black Death kill?
+7. How long did it take for Europe's population to recover to pre-plague levels?
+8. Which city is noted for recovering from the Black Death only in the 19th century?
+9. What are the three forms of plague caused by Yersinia pestis?
+10. What was a primary vector for spreading the Black Death according to the text?
+
+I need to check if these questions are covered in the context. For example, the bacterium is Yersinia pestis, the spread via rats and fleas on Genoese ships, the time period 1347-1351, the death estimates, the 30-60% mortality in Europe, the 200-year recovery, Florence's recovery in the 19th century. The three forms are bubonic, septicemic, and pneumonic.
+
+Now, ensuring each question has a single correct answer from the context. Also, avoiding repetition. Let me verify each question against the provided information.
+
+1. Primary cause: Yersinia pestis.
+2. Death toll: 75-200 million.
+3. Time period in Europe: 1347-1351.
+4. Bacterium: Yersinia pestis.
+5. Spread via Silk Road, then Genoese ships from Crimea.
+6. 30-60% in Europe.
+7. 200 years.
+8. Florence.
+9. Bubonic, septicemic, pneumonic.
+10. Fleas on rats.
+
+All these answers are directly stated in the context. Now, phrasing the questions in Portuguese, ensuring clarity and correctness. Also, checking for any possible overlaps or redundancy. Each question is distinct and covers different aspects: causes, spread, impact, statistics, specific locations, forms of the disease, and vectors. That should cover 10 varied questions.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a bactéria responsável pela Peste Negra?",
+    "resposta": "Yersinia pestis"
+  },
+  {
+    "pergunta": "Quantas pessoas morreram estimadamente na Eurásia devido à Peste Negra?",
+    "resposta": "75 a 200 milhões"
+  },
+  {
+    "pergunta": "Em que período a Peste Negra foi mais severa na Europa?",
+    "resposta": "1347-1351"
+  },
+  {
+    "pergunta": "Por que via a Peste Negra se espalhou da Ásia para a Europa?",
+    "resposta": "Pelo Caminho da Seda, depois por navios genoveses a partir da Crimeia em 1343"
+  },
+  {
+    "pergunta": "Qual a porcentagem da população europeia que morreu com a Peste Negra?",
+    "resposta": "30 a 60%"
+  },
+  {
+    "pergunta": "Quanto tempo a população da Europa levou para se recuperar aos níveis pré-gripe?",
+    "resposta": "200 anos"
+  },
+  {
+    "pergunta": "Qual cidade é citada como tendo se recuperado da Peste Negra apenas no século XIX?",
+    "resposta": "Florença"
+  },
+  {
+    "pergunta": "Quais são as três formas de peste causadas pela Yersinia pestis?",
+    "resposta": "Bubônica, septicêmica e pneumônica"
+  },
+  {
+    "pergunta": "Como a Peste Negra se disseminou após atingir a Europa?",
+    "resposta": "Por meio de pulgas que infestavam ratos em navios genoveses"
+  },
+  {
+    "pergunta": "Qual foi o principal vetor biológico para a propagação da Peste Negra?",
+    "resposta": "Pulgas do rato (Xenopsylla cheopis)"
+  }
+]
+```

@@ -1,0 +1,60 @@
+<think>
+Ok, eu preciso ajudar o usuário a gerar 10 pares de perguntas e respostas baseadas no contexto e nos fatos fornecidos sobre o oxigênio. Primeiro, vou analisar o conteúdo para identificar os principais temas e informações relevantes.
+
+O contexto inclui diversas informações sobre o oxigênio: sua importância na atmosfera, propriedades químicas, descobrimento por Scheele e Priestley, uso em aplicções industriais e médicas, entre outros. Os fatos fornecidos são uma lista variável que inclui produtos relacionados ao oxigênio, categorias, hiperônimos, modelos de página wiki, links externos, etc.
+
+Minha tarefa é criar perguntas variadas que abordem diferentes aspectos do conteúdo, com respostas unicamente corretas. Preciso evitar repetição de perguntas semelhantes e assegurar que cada uma esteja diretamente relacionada ao material fornecido.
+
+Vou começar identificando as áreas principais: história da descoberta, propriedades físicas, químicas, biológicas, aplicações em diferentes setores, entre outros. Em seguida, formarei perguntas que cobram cada um desses temas, extrayendo informações precisas das fontes fornecidas.
+
+Por exemplo, uma pergunta pode ser sobre a principal fonte de oxigênio na atmosfera terrestre, respondendo que é a acção fotossintética dos organismos vivos. Outra pode questionar qual elemento químico tem a segunda electronegatividade mais elevada, o que é o flúor.
+
+Continuarei esse processo, garantindo que cada pergunta e resposta esteja baseada nos fatos e contexto fornecidos, sem adicionar observações extra. Vou verificar que todas as perguntas sejam claras, relevantes e tenham respostas unívocas.
+
+Finalmente, organizarei todo o conteúdo em um JSON strutureado, conforme solicitado, com exatamente 10 pares de perguntas e respostas.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a principal fonte de oxigênio na atmosfera terrestre?",
+    "resposta": "A acção fotossintética dos organismos vivos."
+  },
+  {
+    "pergunta": "Qual é a segunda electronegatividade mais elevada entre os elementos químicos?",
+    "resposta": "O flúor."
+  },
+  {
+    "pergunta": "Quem descobriu o oxigênio por primeira vez?",
+    "resposta": "Joseph Priestley e Carl Wilhelm Scheele, mas Priestley é geralmente creditado primeiramente."
+  },
+  {
+    "pergunta": "Qual é a formula química do dioxigénio?",
+    "resposta": "O2."
+  },
+  {
+    "pergunta": "Para que queima o oxigênio em comburação?",
+    "resposta": "Com outros elementos como carbono, hidrogênio ou nitrogenas."
+  },
+  {
+    "pergunta": "Qual é a principal aplicação do oxigênio na indústria?",
+    "resposta": "Produção de aço, plásticos e têxteis."
+  },
+  {
+    "pergunta": "O que é o uso terapêutico do oxigênio em emergências médicas?",
+    "resposta": "Para auxiliar a respiração em casos de asfixia ou intoxicação por gases venenosos."
+  },
+  {
+    "pergunta": "Qual é a principal fonte de oxigênio na crosta terrestre?",
+    "resposta": "Compostos óxidos."
+  },
+  {
+    "pergunta": "Quem cunhou o nome de oxigênio?",
+    "resposta": "Antoine Lavoisier em 1777."
+  },
+  {
+    "pergunta": "Que elemento químico reage mais facilmente com o oxigênio?",
+    "resposta": "Os não metais, como carbono, hidrogênio e nitrogenas."
+  }
+]
+```

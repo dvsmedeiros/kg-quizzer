@@ -1,0 +1,82 @@
+<think>
+Okay, so I need to generate 10 question and answer pairs based on the context provided about the 1973 oil crisis. Let me read through the context again carefully.
+
+The context says that the oil crisis started in October 1973 when OPAEP members imposed an embargo targeting countries supporting Israel during the Yom Kippur War. The initial targets were Canada, Japan, Netherlands, UK, and the US, later expanding to Portugal, Rhodesia, and South Africa. Prices went from $3 to around $12 per barrel globally, higher in the US. This caused a global economic and political crisis, known as the first oil shock, followed by another in 1979.
+
+Now, looking at the facts provided, they include various categories and types related to the crisis, like being an embargo, part of economic disasters, energy crises, etc., but I think the main content is in the context paragraph.
+
+I need to create varied questions covering different aspects. Let me brainstorm possible angles:
+
+1. When did the 1973 oil crisis start?
+2. Which organization imposed the embargo?
+3. What countries were initially targeted?
+4. Why was the embargo imposed?
+5. How much did oil prices increase?
+6. What were the effects of the crisis?
+7. What is this event commonly called?
+8. When did the second oil shock occur?
+9. Which US president was in office during this time? (From context, it's mentioned the presidency of Richard Nixon)
+10. What was the price range of oil after the embargo?
+
+Wait, but some of these might not be directly answerable from the context. For example, the US president is only mentioned in one of the facts as "Category:Presidency of Richard Nixon," so that can be included.
+
+Let me check each point:
+
+1. Start date: October 1973.
+2. Organization: OPAEP (Organização dos Países Árabes Exportadores de Petróleo).
+3. Initial targets: Canadá, Japão, Holanda, Reino Unido, Estados Unidos.
+4. Reason: Support for Israel during the Yom Kippur War.
+5. Price increase: $3 to around $12 per barrel.
+6. Effects: Global economic and political crisis ("choque de petróleo").
+7. Common name: Primeiro choque do petróleo.
+8. Second oil shock year: 1979.
+9. US president: Richard Nixon.
+10. Post-embargo prices in the US were even higher than $12.
+
+I think these cover different aspects without repeating similar questions. Each question is clear and has a single correct answer from the context. Now, I'll structure them into JSON format as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando começou a crise petrolífera de 1973?",
+    "resposta": "Outubro de 1973"
+  },
+  {
+    "pergunta": "Qual organização impôs o embargo petrolífero em 1973?",
+    "resposta": "Organização dos Países Árabes Exportadores de Petróleo (OPAEP)"
+  },
+  {
+    "pergunta": "Quais países foram inicialmente alvo do embargo?",
+    "resposta": "Canadá, Japão, Holanda, Reino Unido e Estados Unidos"
+  },
+  {
+    "pergunta": "Qual foi o motivo do embargo petrolífero de 1973?",
+    "resposta": "Apoyo a Israel durante a Guerra do Yom Kippur"
+  },
+  {
+    "pergunta": "Como mudou o preço do petróleo após o embargo?",
+    "resposta": "Subiu de US$ 3 para cerca de US$ 12 por barril"
+  },
+  {
+    "pergunta": "Quais foram os efeitos principais da crise petrolífera?",
+    "resposta": "Crise econômica e política global, conhecida como 'choque do petróleo'"
+  },
+  {
+    "pergunta": "Como é comumente chamada a crise petrolífera de 1973?",
+    "resposta": "Primeiro choque do petróleo"
+  },
+  {
+    "pergunta": "Quando ocorreu o segundo choque do petróleo?",
+    "resposta": "1979"
+  },
+  {
+    "pergunta": "Qual presidente dos Estados Unidos estava no cargo durante a crise petrolífera de 1973?",
+    "resposta": "Richard Nixon"
+  },
+  {
+    "pergunta": "Quais foram os preços do petróleo nos Estados Unidos após o embargo?",
+    "resposta": "Foram ainda mais altos que US$ 12 por barril"
+  }
+]
+```

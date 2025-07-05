@@ -1,0 +1,65 @@
+<think>
+Okay, I need to create 10 question-answer pairs based on the provided DBpedia data about Islamism. Let me go through each part step by step.
+
+First, looking at the examples given, it seems each question is in Portuguese and the answer is a short phrase or word. The questions are about definitions, objectives, strategies, origins, etc., related to Islamism.
+
+I should start by identifying key points from the DBpedia data:
+
+1. **What is Islamic revival movement?** - It's about reviving Islamic values and reordering society under Islamic law.
+2. **Areas of life affected by Islamism:** All aspects, including politics, economy, culture, etc.
+3. **Goals regarding society and government:** Establishing an Islamic state with laws based on the Quran and Hadiths.
+4. **Different Islamic movements:** Some are moderate (e.g., Muslim Brotherhood) and others are radical (e.g., ISIS).
+5. **Strategies for Islamization:** Revolution, political participation, or military action.
+6. **Moderate reformists work within what system?** Democratic systems while pushing for more Islamic laws.
+7. **Origin of Hamas:** It's a Palestinian movement against Israel, seeking to establish an independent state.
+8. **Objective of Hezbollah and Hamas:** To resist Israeli occupation and promote Palestinian rights.
+9. **What do radical groups reject?** Western values like democracy and secularism.
+10. **On what grounds do radicals base their attacks?** Religious justifications from Islamic texts.
+
+Now, I'll frame these into questions and concise answers as per the examples.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que é um movimento de reavivamento islâmico?",
+    "resposta": "reviver os valores islâmicos e reordenar a sociedade."
+  },
+  {
+    "pergunta": "Em quais aspectos da vida o islamismo procura se integrar?",
+    "resposta": "política, econômica, social e cultural"
+  },
+  {
+    "pergunta": "Qual é o objetivo do islamismo para a sociedade?",
+    "resposta": "estabelecer um estado islâmico"
+  },
+  {
+    "pergunta": "Quais tipos de movimentos existem no islamismo?",
+    "resposta": "moderados e radicais"
+  },
+  {
+    "pergunta": "Qual estratégia usam os grupos islâmicos para alcançar seu objetivo?",
+    "resposta": "revolução, participação política ou ação militar"
+  },
+  {
+    "pergunta": "Dentro de qual sistema trabalham reformistas moderados?",
+    "resposta": "sistema democrático"
+  },
+  {
+    "pergunta": "Onde se origina o Hamas?",
+    "resposta": "Palestina"
+  },
+  {
+    "pergunta": "Qual é a meta dos grupos como Hezbollah e Hamas?",
+    "resposta": "resistir à ocupação israelense"
+  },
+  {
+    "pergunta": "O que rejeitam os grupos islâmicos radicais?",
+    "resposta": "valores ocidentais"
+  },
+  {
+    "pergunta": "Em qual base são conduzidos ataques por extremistas?",
+    "resposta": "justificativas religiosas"
+  }
+]
+```

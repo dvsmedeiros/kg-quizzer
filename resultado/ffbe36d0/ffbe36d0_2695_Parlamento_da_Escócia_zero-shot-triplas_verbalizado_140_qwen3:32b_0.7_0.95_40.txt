@@ -1,0 +1,69 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about the Scottish Parliament. Let me start by reading through the context and the additional facts carefully to extract relevant information.
+
+First, the context mentions the Scottish Parliament is located in Edinburgh, specifically in the Holyrood area. That's a good point for a question about its location. The last general election was in May 2016, so that's another fact. The current structure has 129 members, with 73 elected through first-past-the-post and 52 through proportional representation. The system is the Additional Member System (AMS) as mentioned in the facts. 
+
+The Scottish Parliament was re-established in 1999 after the devolution process, following the 1997 referendum. The 1998 Scotland Act granted it certain powers. The next election is scheduled for May 7th, though the year isn't specified in the context. Some key committees include Economy, Energy and Tourism, and Education, Lifelong Learning and Culture. 
+
+The current Presiding Officer is Alison Johnstone, as noted in the facts. The Parliament's building is called Scottish Parliament Building. The number of electoral regions is eight, each with seven regional members. The Parliament's official name in Gaelic is Pàrlamaid na h-Alba. The government responsible for the Parliament is the Scottish Government. 
+
+I need to make sure each question is unique and covers different aspects. Let me list out possible questions:
+
+1. Where is the Scottish Parliament located?
+2. When was the last general election held?
+3. How many members are in the Scottish Parliament?
+4. What electoral system is used?
+5. When was the current Scottish Parliament established?
+6. What is the Gaelic name for the Scottish Parliament?
+7. How many electoral regions are there?
+8. Who is the current Presiding Officer?
+9. What is the name of the building where the Parliament meets?
+10. What government is responsible for the Scottish Parliament?
+
+Now, checking the facts to confirm these answers. The location is Edinburgh (Holyrood), last election May 2016, 129 members, AMS, established in 1999, Gaelic name Pàrlamaid na h-Alba, 8 regions, Alison Johnstone as Presiding Officer, Scottish Parliament Building, and the Scottish Government. All these are covered in the context and facts provided. I should structure each question and answer pair accordingly, ensuring clarity and correctness.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Onde está localizado o Parlamento Escocês?",
+    "resposta": "Edimburgo"
+  },
+  {
+    "pergunta": "Qual o nome em língua gaélica escocesa do Parlamento Escocês?",
+    "resposta": "Pàrlamaid na h-Alba"
+  },
+  {
+    "pergunta": "Quantos deputados compõem o Parlamento Escocês?",
+    "resposta": "129"
+  },
+  {
+    "pergunta": "Qual sistema eleitoral é utilizado para eleger os membros do Parlamento Escocês?",
+    "resposta": "Representação proporcional mista (Additional Member System)"
+  },
+  {
+    "pergunta": "Quando foi realizada a última eleição geral para o Parlamento Escocês?",
+    "resposta": "5 de Maio de 2016"
+  },
+  {
+    "pergunta": "Quantos deputados são eleitos por distritos geográficos sob o sistema da pluralidade?",
+    "resposta": "73"
+  },
+  {
+    "pergunta": "Qual a data prevista para a próxima eleição do Parlamento Escocês?",
+    "resposta": "7 de Maio"
+  },
+  {
+    "pergunta": "Qual o nome do edifício onde o Parlamento Escocês se reúne?",
+    "resposta": "Scottish Parliament Building"
+  },
+  {
+    "pergunta": "Qual o nome da comissão responsável por assuntos culturais no Parlamento Escocês?",
+    "resposta": "Education, Lifelong Learning and Culture"
+  },
+  {
+    "pergunta": "Quando foi estabelecido o atual Parlamento Escocês após a devolução de competências?",
+    "resposta": "12 de Maio de 1999"
+  }
+]
+```

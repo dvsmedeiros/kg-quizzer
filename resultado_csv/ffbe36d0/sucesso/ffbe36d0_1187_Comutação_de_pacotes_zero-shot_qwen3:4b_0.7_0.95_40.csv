@@ -1,0 +1,11 @@
+pergunta;resposta
+O que é a comutação de pacotes?;É um método de transmissão de dados em que a informação é dividida em pacotes menores, cada um contendo endereços de origem e destino, e enviados independentemente pelo redes.
+Como os dados são divididos na comutação de pacotes?;Os dados são fragmentados em pacotes, cada um com um cabeçalho que contém informações de endereçamento e controle, para serem transmitidos individualmente.
+Qual o papel do roteador em uma rede de comutação de pacotes?;O roteador direciona cada pacote para o caminho mais eficiente para o destino, usando informações do cabeçalho de cada pacote para tomar decisões de roteamento.
+Como os pacotes lidam com erros durante a transmissão?;Os pacotes incluem mecanismos de confirmação e retransmissão, como números de sequência e campos de controle, para garantir a integridade e a entrega correta dos dados.
+Qual a diferença principal entre comutação de pacotes e comutação de circuitos?;Na comutação de pacotes, os dados são enviados em pacotes independentes, enquanto na comutação de circuitos, um caminho físico é estabelecido previamente entre os dispositivos.
+O que é um cabeçalho de pacote?;O cabeçalho de um pacote contém informações como endereços de origem e destino, tamanho do pacote, números de sequência e campos de controle para garantir a entrega correta.
+Como os pacotes são roteados através de uma rede?;Cada pacote é roteado de acordo com os endereços de origem e destino no cabeçalho, com roteadores escolhendo o caminho mais adequado para cada pacote.
+Qual é a função do número de sequência em um pacote?;O número de sequência garante que os pacotes sejam reconstituídos na ordem correta no destino, mesmo que cheguem em sequência diferente.
+Como a comutação de pacotes se beneficia da rede?;A comutação de pacotes permite que a rede utilize recursos de forma eficiente, pois cada pacote é tratado individualmente, permitindo roteamento dinâmico e uso de recursos variável.
+Qual é a vantagem principal da comutação de pacotes em relação a outros métodos?;A comutação de pacotes oferece maior flexibilidade e eficiência, pois permite que dados sejam transmitidos de forma adaptativa, mesmo com variações de carga e caminhos de rede.

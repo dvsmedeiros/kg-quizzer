@@ -1,0 +1,58 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the context provided, which is "Comutação_de_pacotes" (Packet Switching). Let me start by recalling what packet switching is. It's a method of data transmission where data is broken into packets, each routed independently through a network, and then reassembled at the destination. 
+
+First, I should think about the key aspects of packet switching. Maybe start with the definition. That's a basic question. Then, what's the main advantage over circuit switching? Probably efficiency and resource utilization.
+
+Next, how are packets handled in a packet-switched network? They are routed individually, so that's a point. What's the role of the header in a packet? It contains addressing information for routing.
+
+Another aspect is the difference between packet switching and circuit switching. Circuit switching establishes a dedicated path, while packet switching doesn't. What's an example of a packet-switched network? The internet is a common example.
+
+What's the process called when packets are reassembled at the destination? Reassembly or reassembly process. What's the main challenge in packet switching? Congestion control and ensuring reliable delivery.
+
+What's the significance of the checksum in a packet? It helps detect errors during transmission. What's the primary function of a router in packet switching? To forward packets based on destination addresses.
+
+I need to ensure each question is unique and covers different aspects. Let me check if I have 10 distinct points. Definition, advantage over circuit switching, packet handling, header role, difference from circuit switching, example, reassembly process, main challenge, checksum significance, and router function. That's 10. Now, I need to phrase each question clearly in Portuguese and ensure answers are accurate based on the context. Make sure no repetition and that each answer is directly inferable from packet switching principles.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a principal característica da comutação de pacotes?",
+    "resposta": "A divisão dos dados em pacotes que são transmitidos independentemente pelo rede."
+  },
+  {
+    "pergunta": "Como a comutação de pacotes difere da comutação por circuito?",
+    "resposta": "Na comutação de pacotes, não há um caminho dedicado; os pacotes são roteados individualmente, enquanto na comutação por circuito um caminho fixo é estabelecido antes da transmissão."
+  },
+  {
+    "pergunta": "O que é incluído no cabeçalho de um pacote?",
+    "resposta": "Informações de endereçamento, controle e dados de verificação para roteamento e reconstituição."
+  },
+  {
+    "pergunta": "Qual é uma vantagem da comutação de pacotes em relação à comutação por circuito?",
+    "resposta": "Maior eficiência no uso dos recursos da rede, pois não há necessidade de manter um caminho dedicado durante toda a comunicação."
+  },
+  {
+    "pergunta": "Como os pacotes são reconstituídos no destino?",
+    "resposta": "Por meio de uma sequência de números de ordem e informações de controle que permitem a montagem correta dos dados."
+  },
+  {
+    "pergunta": "Qual protocolo de rede é baseado na comutação de pacotes?",
+    "resposta": "O protocolo IP (Internet Protocol) é um exemplo de comutação de pacotes."
+  },
+  {
+    "pergunta": "O que ocorre com os pacotes se houver congestionamento na rede?",
+    "resposta": "Os pacotes podem ser atrasados, perdidos ou retransmitidos, dependendo do mecanismo de controle de congestionamento implementado."
+  },
+  {
+    "pergunta": "Qual é o objetivo da numeração de sequência nos pacotes?",
+    "resposta": "Garantir a ordem correta de reconstituição dos dados no destino."
+  },
+  {
+    "pergunta": "Como a comutação de pacotes contribui para a escalabilidade de redes?",
+    "resposta": "Permite que a rede suporte um grande número de usuários e tráfego simultâneo, sem a necessidade de recursos dedicados."
+  },
+  {
+    "pergunta": "O que acontece com os pacotes após a transmissão?",
+    "resposta": "Eles são reconstituídos no destino em sua forma original, com base nas informações contidas em seus cabeçalhos."
+  }
+]

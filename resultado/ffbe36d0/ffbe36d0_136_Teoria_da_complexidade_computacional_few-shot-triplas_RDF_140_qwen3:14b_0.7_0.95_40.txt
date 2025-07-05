@@ -1,0 +1,71 @@
+<think>
+Okay, let's start by understanding the user's request. They want me to generate 10 question-answer pairs based on the provided context and facts. The context is about computational complexity theory, and the facts include various individuals and their associations with this field.
+
+First, I need to ensure that each question is unique and covers different aspects of the content. The user provided examples, so I should follow that structure but avoid repetition. Let me look at the context again: it mentions that computational complexity theory classifies problems based on resource usage and explores relationships between these classifications. Problems are tasks solved by computers using mechanical steps like algorithms.
+
+The facts list several people with academic disciplines or fields related to computational complexity theory. For example, Christos Papadimitriou, David Shmoys, etc. Also, there's information about the ontology and categories linked to computational complexity theory.
+
+Now, I need to create questions that can be answered using the context and facts. Let's brainstorm possible questions:
+
+1. What is the main focus of computational complexity theory? (Answer from the context)
+2. Which field is associated with the classification of problems based on resource usage? (Answer from context)
+3. Who is a notable figure in computational complexity theory? (From the facts)
+4. What are the main resources considered in computational complexity? (From context)
+5. What is the purpose of classifying problems in this theory? (From context)
+6. What is an example of a problem in computational complexity theory? (From context)
+7. Which individuals are known for their work in computational complexity theory? (From the facts)
+8. What are the categories that computational complexity theory is part of? (From the ontology)
+9. How is computational complexity theory related to other fields? (From context)
+10. What is the significance of computational complexity theory in computer science? (From context)
+
+Wait, some of these might be too similar. Let me check for uniqueness. Also, need to make sure answers are directly from the given content. For example, the examples had questions about classification attributes, resources, etc. Let me ensure that each question is distinct and covers different aspects: some about the theory itself, some about associated individuals, others about resources, classifications, and relationships with other fields.
+
+Also, need to avoid using the same structure as the examples. The user provided examples, but I should vary the phrasing. For instance, instead of "what is the main focus," maybe "what does computational complexity theory primarily study?"
+
+Now, verifying each answer is present in the context or facts. For example, the answer to who is a notable figure would be any of the names listed in the facts. Also, the categories from the ontology are listed as yago classes, but the user might expect a more general answer like "branches of computer science" or specific categories mentioned.
+
+I need to make sure that each answer is explicitly or inferably from the provided content. Let me go through each question and verify.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o objetivo principal da teoria da complexidade computacional?",
+    "resposta": "classificação de problemas computacionais de acordo com seu uso de recursos e exploração das relações entre essas classificações"
+  },
+  {
+    "pergunta": "Quais recursos são utilizados para classificar problemas computacionais na teoria da complexidade?",
+    "resposta": "uso de recursos"
+  },
+  {
+    "pergunta": "Qual é o termo para uma tarefa resolvida por um computador segundo a teoria da complexidade?",
+    "resposta": "problema computacional"
+  },
+  {
+    "pergunta": "Quais são as áreas da ciência que abrigam a teoria da complexidade computacional?",
+    "resposta": "ciência da computação teórica"
+  },
+  {
+    "pergunta": "Que tipo de classificação é feita pelos problemas computacionais segundo a teoria da complexidade?",
+    "resposta": "classificação ampla por dificuldade e classe de relacionamento"
+  },
+  {
+    "pergunta": "Quem é um exemplo de pessoa associada à teoria da complexidade computacional?",
+    "resposta": "Christos Papadimitriou"
+  },
+  {
+    "pergunta": "Quais categorias da ontologia estão relacionadas à teoria da complexidade computacional?",
+    "resposta": "Category:Computational_complexity_theory e Category:Computational_fields_of_study"
+  },
+  {
+    "pergunta": "Quais são os dois recursos básicos utilizados para medir a complexidade de problemas computacionais?",
+    "resposta": "tempo e armazenamento"
+  },
+  {
+    "pergunta": "Como a teoria da complexidade computacional se relaciona com a teoria da computabilidade?",
+    "resposta": "ambas são campos da ciência da computação teórica"
+  },
+  {
+    "pergunta": "Qual é a unidade utilizada para medir a complexidade de circuitos?",
+    "resposta": "número de portas em um circuito"
+  }
+]

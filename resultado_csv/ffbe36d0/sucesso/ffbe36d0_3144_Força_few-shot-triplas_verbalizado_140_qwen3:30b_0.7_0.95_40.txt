@@ -1,0 +1,87 @@
+<think>
+Okay, let's tackle this query. The user wants 10 question-answer pairs in Portuguese based on the given context and facts. The context is about force in classical mechanics, Newton's laws, and related concepts. The facts list various entities with "Force" as a hypernym.
+
+First, I need to make sure the questions are varied and cover different aspects of the context. The context mentions Newton's laws, force as a vector, pressure, drag, torque, stress, and examples like the Royal Irish Constabulary being a hypernym of Force. The facts include many organizations and terms with "Force" in their names.
+
+I should start by creating questions about the definition of force, Newton's laws, vector nature, related concepts like pressure and torque, and the examples from the facts. But I need to avoid repeating similar questions. Also, the answers must be directly from the context or inferable from it.
+
+Wait, the user specified that the answers should be from the provided context and facts. However, the context mostly talks about physics concepts, while the facts are about organizations. But the user's examples include questions about physics, so maybe the focus is on the context, not the facts. But the user also mentioned "contexto e fatos fornecidos" so I need to check if the facts are part of the context.
+
+Looking at the instructions again: "Gerar pares de perguntas e respostas relevantes e corretas, exclusivamente a partir do conteúdo fornecido." So the content includes both the context and the facts. But the context is about physics, and the facts are lists of entities with "Force" as a hypernym. However, the examples given by the user are all about physics concepts, not the organizations. So maybe the user expects the questions to be based on the context, not the facts. But the user's examples include "Force" as a hypernym, like "Royal Irish Constabulary possui hiperônimo Force". But the examples given by the user in the "Exemplos" section are about physics, not the organizations.
+
+This is confusing. The user might have made a mistake in the facts section, but according to the rules, I must use the provided content. However, the context is about physics, and the facts are lists of entities. So perhaps the user wants questions based on the physics context, not the facts. But the instructions say "contexto e fatos fornecidos". Maybe the facts are part of the context? But they seem unrelated. Maybe the user wants questions based on both, but the examples are all about physics. 
+
+To resolve this, I'll focus on the context provided, which is about physics concepts. The facts might be a mistake or an error in the user's input, but since the examples are about physics, I'll proceed with the context. 
+
+So, creating 10 questions about force in physics: definitions, Newton's laws, vector aspects, related concepts like pressure, drag, torque, stress, and the second law's original formulation. Also, check if any of the facts can be used, but they don't seem relevant. So I'll stick to the context.
+
+Now, ensure each question is unique and covers different aspects. Avoid repeating similar questions. For example, one question about the definition, another about Newton's laws, another about vector components, another about related concepts, etc.
+
+Check the examples given by the user to see the style. They have questions like "Que conceito os filósofos da antiguidade usavam para estudar máquinas simples?" with answer "força". So the questions are about the context's content.
+
+So, the 10 pairs should be based on the physics context. Let me draft them:
+
+1. What is force in classical mechanics? (Answer: fundamental concept...)
+2. What does force do to an object's velocity? (Answer: modify its speed or direction)
+3. What is the second law of Newton's original formulation? (Answer: force equals time derivative of momentum)
+4. What is a vector's components? (Answer: magnitude and direction)
+5. What is pressure? (Answer: distribution of force over area)
+6. What is drag? (Answer: decrease in object's speed)
+7. What is torque? (Answer: force causing rotational speed changes)
+8. What is stress in a solid? (Answer: deformation caused by force)
+9. What is the effect of force on a fluid? (Answer: changes pressure and volume)
+10. What is the term for force applied to a fixed body? (Answer: mechanical stress)
+
+Wait, the context mentions "tensão mecânica ou estresse mecânico" for force applied to a fixed body. So the answer would be "tensão mecânica ou estresse mecânico". But the user's examples have shorter answers. Need to check the exact wording.
+
+Also, the context says "A força aplicada num corpo fixo é chamada tensão mecânica ou estresse mecânico". So the answer is "tensão mecânica ou estresse mecânico".
+
+Another question: What is the original formulation of Newton's second law? Answer: force equals time derivative of momentum.
+
+Another: What is the term for the distribution of force over area? Answer: pressão.
+
+Make sure all answers are directly from the context. Avoid using the facts list since they don't relate to physics. The user might have included them by mistake, but the examples are about physics, so proceed with that.
+</think>
+
+[
+  {
+    "pergunta": "O que é força no contexto da mecânica clássica?",
+    "resposta": "Conceito fundamental relacionado às três leis de Newton, capaz de vencer a inércia de um corpo."
+  },
+  {
+    "pergunta": "Como a força pode modificar o movimento de um corpo?",
+    "resposta": "Alterando sua velocidade, seja na magnitude, direção ou sentido."
+  },
+  {
+    "pergunta": "Qual é a definição de pressão em relação à força?",
+    "resposta": "Distribuição da força sobre uma área."
+  },
+  {
+    "pergunta": "O que é arrasto em termos de força?",
+    "resposta": "Força que causa a redução da velocidade de um objeto em movimento."
+  },
+  {
+    "pergunta": "Como a força é caracterizada em termos vetoriais?",
+    "resposta": "Possui magnitude e direção."
+  },
+  {
+    "pergunta": "Qual é a formulação original da segunda lei de Newton?",
+    "resposta": "Força é igual à derivada temporal do momento linear."
+  },
+  {
+    "pergunta": "O que é torque no contexto de forças?",
+    "resposta": "Força que causa variação na velocidade angular de um corpo."
+  },
+  {
+    "pergunta": "Como a força aplicada a um corpo fixo é denominada?",
+    "resposta": "Tensão mecânica ou estresse mecânico."
+  },
+  {
+    "pergunta": "Qual é o efeito da força em um fluido?",
+    "resposta": "Alteração na pressão e no volume do fluido."
+  },
+  {
+    "pergunta": "O que a força pode causar em um corpo elástico?",
+    "resposta": "Deformação, dependendo da magnitude e direção da força aplicada."
+  }
+]

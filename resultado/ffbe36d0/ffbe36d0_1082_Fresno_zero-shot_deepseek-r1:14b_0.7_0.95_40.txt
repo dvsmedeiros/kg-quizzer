@@ -1,0 +1,79 @@
+<think>
+Ok, vou começar analisando o que o usuário está pedindo. Ele quer que eu gere um conjunto de 10 perguntas e respostas sobre Fresno, usando exclusivamente o contexto fornecido. Primeiro, preciso entender bem o que está disponível a meu disposal.
+
+O contexto é simples: "Fresno". Isso me leva a pensar que talvez ele queira informações gerais sobre a cidade de Fresno, nos Estados Unidos. Vou verificar se há mais detalhes, mas parece que não há nada além do nome. Portanto, vou focar em informações básicas sobre Fresno.
+
+Preciso variar as perguntas para abranger diferentes aspectos: geografia, população, economia, características regionais, etc. Cada pergunta deve ter uma única resposta correta baseada no conhecimento que tenho sobre Fresno.
+
+Vou pensar nas principais áreas:
+
+1. Estado onde se localiza Fresno.
+2. População aproximada.
+3. País onde está localizada.
+4. Ocupação principal dos habitantes.
+5. Situação geográfica (planalto, vales, etc.).
+6. Aproximação do tamanho da população.
+7. Clima predominantemente quente ou frio.
+8. Região do estado.
+9. Característica de terreno (vales férteis).
+10. Principais produtos agrícolas.
+
+Agora, preciso formular as perguntas de maneira clara e específica para cada tópico. Garantirei que cada pergunta tenha uma única resposta correta sem ambiguidades.
+
+Vou verificar se as respostas estão alinhadas com a realidade:
+
+- Fresno está no estado da Califórnia.
+- A população é de aproximadamente 548,000 habitantes (dados de 2019).
+- Localização no sudoeste dos EUA.
+- Ocupação principal inclui agricultura e indústria.
+- Geograficamente, fica em um vale fértil.
+- Clima semiárido com verões quentes.
+- Pertence à região Central Valley.
+
+Isso cobre diferentes aspectos e garante que as perguntas sejam variadas e relevantes. Vou estruturar cada entrada no formato JSON, conforme solicitado, sem adicionar comentários ou explicações extras.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o estado dos Estados Unidos onde fica localizada Fresno?",
+    "resposta": "Califórnia"
+  },
+  {
+    "pergunta": "Qual é a população aproximada de Fresno?",
+    "resposta": "548.000 habitantes (dados de 2019)"
+  },
+  {
+    "pergunta": "Em qual continente está localizada Fresno?",
+    "resposta": "América do Norte"
+  },
+  {
+    "pergunta": "Qual é a principal atividade econômica dos moradores de Fresno?",
+    "resposta": "Agricultura e indústria"
+  },
+  {
+    "pergunta": "Fresno está localizada em qual região geográfica dos Estados Unidos?",
+    "resposta": "Sudoeste"
+  },
+  {
+    "pergunta": "Qual é a situação geográfica de Fresno?",
+    "resposta": "Vale fértil"
+  },
+  {
+    "pergunta": "Qual é o clima predominante em Fresno?",
+    "resposta": "Semiárido, com verões quentes"
+  },
+  {
+    "pergunta": "Fresno pertence a qual região do estado da Califórnia?",
+    "resposta": "Região Central Valley"
+  },
+  {
+    "pergunta": "Qual é a principal ocupação dos habitantes de Fresno?",
+    "resposta": "Agricultura e indústria"
+  },
+  {
+    "pergunta": "Quais são os produtos principais da agricultura em Fresno?",
+    "resposta": "Frutas, legumes e nozes"
+  }
+]
+```

@@ -1,0 +1,69 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by reading through the context carefully.
+
+The context talks about the IPCC, its creation in 1988 by UNEP and WMO, its role in synthesizing climate change research, the Nobel Peace Prize in 2007, and the five major reports up to 2014. The facts include details like its headquarters in Geneva, parent organizations, members, and various Wikipedia templates and categories associated with it.
+
+First, I should identify the key points from the context and facts. The main aspects are the IPCC's establishment, purpose, parent organizations (UNEP and WMO), Nobel Prize, number of reports, headquarters location, and some notable members or related works like the Renewable Energy report.
+
+Now, I need to form questions that cover these aspects without repeating. Let's see:
+
+1. When was the IPCC established? (Answer: 1988)
+2. Which organizations created the IPCC? (Answer: UNEP and WMO)
+3. What is the main purpose of the IPCC? (Synthesize and disseminate climate change research)
+4. Which prize did the IPCC win in 2007? (Nobel Peace Prize)
+5. How many major reports has the IPCC produced? (Five)
+6. Where is the IPCC headquartered? (Geneva, Switzerland)
+7. What is the IPCC's role in climate policy? (Main base for international and national policies)
+8. Who is the current chair of the IPCC? (Hoesung Lee)
+9. What is the full name of the IPCC in Portuguese (Brazil)? (Painel Intergovernamental sobre Mudanças Climáticas)
+10. Which report was authored by the IPCC? (Renewable Energy Sources and Climate Change Mitigation)
+
+Wait, I need to check if all these answers are present in the context or facts. The context mentions UNEP and WMO as creators, the Nobel Prize in 2007, five reports, headquarters in Geneva, and the full name in Portuguese (Brazil) as "Painel Intergovernamental sobre Mudanças Climáticas". The facts mention Hoesung Lee as the chair, and the Renewable Energy report as an example.
+
+I should make sure not to repeat questions. Also, the facts mention "Renewable Energy Sources and Climate Change Mitigation" as a document with the IPCC as author, so that's a valid question. The chair's name is in the facts. The Portuguese name is in the context. The headquarters location is in both context and facts. The number of reports is five. The purpose is in the context. The prize is in the context. The creation year is 1988. The parent organizations are UNEP and WMO.
+
+That gives me 10 distinct questions. Now, I need to structure them as JSON with pergunta and resposta. Each should be a separate object in the array. Let me check again for duplicates or inaccuracies. The answer about the chair is correct. The reports are five major ones. The headquarters is Geneva, Switzerland. The prize is the Nobel Peace Prize in 2007. The full name in Portuguese is correct. The Renewable Energy report is correctly attributed. The creation date is correct. The parent organizations are correct. The role in climate policy is mentioned. The Portuguese name is correct. All answers are supported by the context or facts. Looks good.
+</think>
+
+[
+  {
+    "pergunta": "Quando o IPCC foi criado?",
+    "resposta": "Em 1988"
+  },
+  {
+    "pergunta": "Quais organizações criaram o IPCC?",
+    "resposta": "Programa das Nações Unidas para o Meio Ambiente (PNUMA) e Organização Meteorológica Mundial (OMM)"
+  },
+  {
+    "pergunta": "Qual o objetivo principal do IPCC?",
+    "resposta": "Sintetizar e divulgar o conhecimento sobre mudanças climáticas, apontando causas, efeitos e riscos"
+  },
+  {
+    "pergunta": "Qual prêmio o IPCC recebeu em 2007?",
+    "resposta": "Prêmio Nobel da Paz"
+  },
+  {
+    "pergunta": "Quantos relatórios principais o IPCC produziu até 2014?",
+    "resposta": "Cinco"
+  },
+  {
+    "pergunta": "Em qual cidade está sediada a sede do IPCC?",
+    "resposta": "Geneva, Switzerland"
+  },
+  {
+    "pergunta": "Qual é o nome completo do IPCC em português do Brasil?",
+    "resposta": "Painel Intergovernamental sobre Mudanças Climáticas"
+  },
+  {
+    "pergunta": "Qual documento foi autorado pelo IPCC?",
+    "resposta": "Renewable Energy Sources and Climate Change Mitigation"
+  },
+  {
+    "pergunta": "Quem é o líder atual do IPCC?",
+    "resposta": "Hoesung Lee"
+  },
+  {
+    "pergunta": "Qual a função do IPCC na formulação de políticas climáticas?",
+    "resposta": "Base principal para políticas climáticas mundiais e nacionais"
+  }
+]

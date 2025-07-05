@@ -1,0 +1,60 @@
+<think>
+Okay, let's see. The user provided a list of schools and their relations to "Private school" from DBpedia. The task is to generate 10 question-answer pairs based on these. The instructions mention using the provided data and following specific rules, but since the user didn't specify the exact rules beyond that, I'll assume standard QA pair generation where each question asks if a particular school is a private school, and the answer is yes.
+
+First, I need to go through the list and pick 10 schools. Let me look at the list again. The first one is "Você" but that seems like the start of a question in Portuguese. Then there's the list of schools. Let me check the first few entries to make sure I'm picking the right ones.
+
+The first school listed is "Você" but that's probably part of the user's message, not a school. The actual schools start with "St. Agnes Boys High School" and so on. Wait, the user included a list of schools under the "## Instrução Final" section. Let me confirm.
+
+Looking at the data, after the initial instruction, there's a list of schools with URIs and relations. For example:
+
+<http://dbpedia.org/resource/St._Agnes_Boys_High_School> ns1:type <http://dbpedia.org/resource/Private_school> .
+
+So each line has a school's URI and states it's a private school. The task is to create 10 Q&A pairs where each question asks if a specific school is a private school, and the answer is yes.
+
+I need to pick 10 different schools from this list. Let me go through the list and select 10. Let's start from the top:
+
+1. St. Agnes Boys High School
+2. St. Andrews School (India)
+3. St. Benedict's Preparatory School
+4. St. Britto High School, Mapusa
+5. St. Francis High School (Wheaton, Illinois)
+6. St. Ignatius of Loyola College, Las Palmas
+7. St. James High School (Philippines)
+8. St. John Paul II STEM Academy
+9. St. John de Britto College
+10. St. Luke's School (Connecticut)
+
+Wait, but the user might have a specific structure in mind. Let me check if there are any duplicates or if some schools have the same names. Also, need to ensure that each school is correctly identified. For example, "St. John Paul II STEM Academy" and "St. John de Britto College" are distinct. Also, "St. Luke's School (Connecticut)" is different from others.
+
+I should make sure each question is phrased correctly, using the exact name as provided. Also, the answer should be straightforward: "Yes" since each is listed as a Private School. Let me compile the list now.
+</think>
+
+**1. Pergunta:** St. Agnes Boys High School é uma escola privada?  
+**Resposta:** Sim.  
+
+**2. Pergunta:** St. Andrews School (India) é uma escola privada?  
+**Resposta:** Sim.  
+
+**3. Pergunta:** St. Benedict's Preparatory School é uma escola privada?  
+**Resposta:** Sim.  
+
+**4. Pergunta:** St. Britto High School, Mapusa é uma escola privada?  
+**Resposta:** Sim.  
+
+**5. Pergunta:** St. Francis High School (Wheaton, Illinois) é uma escola privada?  
+**Resposta:** Sim.  
+
+**6. Pergunta:** St. Ignatius of Loyola College, Las Palmas é uma escola privada?  
+**Resposta:** Sim.  
+
+**7. Pergunta:** St. James High School (Philippines) é uma escola privada?  
+**Resposta:** Sim.  
+
+**8. Pergunta:** St. John Paul II STEM Academy é uma escola privada?  
+**Resposta:** Sim.  
+
+**9. Pergunta:** St. John de Britto College é uma escola privada?  
+**Resposta:** Sim.  
+
+**10. Pergunta:** St. Luke's School (Connecticut) é uma escola privada?  
+**Resposta:** Sim.

@@ -1,0 +1,107 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers based on the provided context and facts about Ctenophora. First, I need to thoroughly understand the context and facts given.
+
+The context mentions that Ctenophora are marine animals with a cosmopolitan distribution, mostly planktonic, some benthic, bioluminescent, and have cilia combs for swimming. They range from 1mm to 1.5m in size. They resemble jellyfish but are not closely related. They've been around since the Cambrian period.
+
+The facts include taxonomic information, like hypernyms, image captions, classifications, and other properties. There are also templates and categories related to them. 
+
+Now, I need to generate questions that are varied and cover different aspects. Let's list possible topics: definition, characteristics, locomotion, size, classification, relation to other organisms, bioluminescence, habitat, fossil record, common names, etc.
+
+First question: What is Ctenophora? Answer: A phylum of marine animals. 
+
+Next, their locomotion: They use cilia combs. 
+
+Size range: 1mm to 1.5m. 
+
+Common names: Comb jellies or sea walnuts. 
+
+Bioluminescence: Yes, they are bioluminescent. 
+
+Habitat: Marine and estuarine waters. 
+
+Fossil record: Present since the Cambrian. 
+
+Taxonomic classification: Phylum, with classes like Tentaculata, Nuda, Scleroctenophora. 
+
+Difference from jellyfish: Convergent evolution, not close relatives. 
+
+What's the main characteristic? The cilia combs. 
+
+Wait, need to check the facts for exact terms. The facts mention "subdivision" as classes: Tentaculata, Nuda, Scleroctenophora. So a question about their classification. 
+
+Also, the term "comb jellies" is in the facts. 
+
+Check if the answers are directly from the context. For example, the answer to "What is the main characteristic?" should be the cilia combs. 
+
+Avoid repeating the same question. For example, don't ask about size twice. 
+
+Make sure each question is unique and covers different aspects. Let me count the examples given. The user provided examples, but I need to make sure my 10 are different. 
+
+Possible 10 questions:
+
+1. Definition of Ctenophora.
+2. Locomotion method.
+3. Size range.
+4. Common names.
+5. Bioluminescence.
+6. Habitat.
+7. Fossil record.
+8. Taxonomic classes.
+9. Difference from jellyfish.
+10. Main distinguishing feature.
+
+Now, structure each as a pair. Ensure answers are exact from the context. For example, the answer to the fossil record is "since the Cambrian." 
+
+Check the facts for exact terms. The facts mention "subdivision" with the classes. So the answer would be "Tentaculata, Nuda, Scleroctenophora." 
+
+Also, the answer to the common names is "carambolas-do-mar ou águas-vivas-de-pente" as per the context. 
+
+Need to make sure all answers are derived from the provided context and facts, not external knowledge. 
+
+Double-check each question to ensure they are varied and cover different aspects. Avoid similar questions. 
+
+Once all 10 are drafted, format them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "O que é Ctenophora?",
+    "resposta": "filo de animais marinhos com distribuição cosmopolita"
+  },
+  {
+    "pergunta": "Como os ctenóforos se locomovem?",
+    "resposta": "utilizando grupos de cílios formando 'pentes'"
+  },
+  {
+    "pergunta": "Qual o tamanho máximo de um ctenóforo?",
+    "resposta": "1,5 m de comprimento"
+  },
+  {
+    "pergunta": "Quais são os nomes comuns de Ctenophora?",
+    "resposta": "carambolas-do-mar ou águas-vivas-de-pente"
+  },
+  {
+    "pergunta": "O que diferencia os ctenóforos das medusas?",
+    "resposta": "semelhanças são convergência evolutiva, não relacionamento filogenético próximo"
+  },
+  {
+    "pergunta": "Onde os ctenóforos são encontrados?",
+    "resposta": "nas águas oceânicas e estuarinas"
+  },
+  {
+    "pergunta": "O que significa o nome Ctenophora em grego?",
+    "resposta": "κτείς kteis 'pente' e φέρω pherō 'portador'"
+  },
+  {
+    "pergunta": "Quais são as classes de Ctenophora?",
+    "resposta": "Tentaculata, Nuda, Scleroctenophora"
+  },
+  {
+    "pergunta": "Desde quando os ctenóforos estão presentes no registro fóssil?",
+    "resposta": "desde o Cambriano"
+  },
+  {
+    "pergunta": "O que os ctenóforos utilizam para digestão e respiração?",
+    "resposta": "fluxo de água através da cavidade do corpo"
+  }
+]

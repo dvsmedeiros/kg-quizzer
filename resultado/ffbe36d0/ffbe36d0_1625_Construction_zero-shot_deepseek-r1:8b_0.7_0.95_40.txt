@@ -1,0 +1,71 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers based on the given context about construction. The user provided a context titled "Construction" but didn't specify any details, so I'll assume it's about general construction knowledge.
+
+First, I should brainstorm different aspects of construction to create varied questions. Possible areas include materials, tools, methods, safety, costs, timelines, and sustainability.
+
+I need to ensure each question is unique and targets a different aspect. For example, one could be about common building materials, another about tools used by carpenters, maybe one on eco-friendly practices, etc.
+
+Each answer must be correct and directly related to the context. I should avoid repeating similar questions or topics. Let me list out possible questions:
+
+1. What is a common type of structural material in construction?
+2. What tool is essential for cutting materials like beams and planks?
+3. Which construction method involves precast components?
+4. How long does it typically take to build a residential house?
+5. What is the main function of rebar in concrete structures?
+6. Which building material is known for its thermal properties?
+7. What are sustainable practices called in construction?
+8. In what phase does electrical work begin in a construction project?
+9. What is used to cover gaps between walls before painting?
+10. What type of fastener is commonly used with wood?
+
+Now, I'll make sure each answer is precise and accurate based on general construction knowledge. For example, rebar is used for reinforcement, structural steel is a common material, etc.
+
+I need to write these in Portuguese as per the instructions, making sure the language is correct and each pair follows the structure: "pergunta": "...", "resposta": "...".
+
+Finally, I'll compile all 10 pairs into a JSON array without any additional explanations or comments, just the questions and answers.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é um tipo comum de material estructural em construções?",
+    "resposta": "Aço estrutural"
+  },
+  {
+    "pergunta": "Qual é a ferramenta essencial para cortar materiais como vigas e placas?",
+    "resposta": "Mão de obra"
+  },
+  {
+    "pergunta": "Qual método de construção envolve componentes pré-moldados?",
+    "resposta": "Construção prefab"
+  },
+  {
+    "pergunta": "Quanto tempo geralmente leva para construir uma casa residencial?",
+    "resposta": "Entre 6 a 12 meses"
+  },
+  {
+    "pergunta": "Qual é o principal propósito do ferro de reforço em estruturas de concreto?",
+    "resposta": "Reforçar e distribuir cargas"
+  },
+  {
+    "pergunta": " Qual material é conhecido por suas propriedades térmicas?",
+    "resposta": "Xita"
+  },
+  {
+    "pergunta": "Qual é o nome dos práticas sustentáveis na construção?",
+    "resposta": "Práticas verdes"
+  },
+  {
+    "pergunta": "Em qual fase do projeto de construção começa a instalação elétrica?",
+    "resposta": "Fase de planejamento e projeto"
+  },
+  {
+    "pergunta": "Qual é usado para preencher os espaços entre as paredes antes da pintura?",
+    "resposta": " Morta"
+  },
+  {
+    "pergunta": "Qual tipo de alicate é comumente usado com madeira?",
+    "resposta": "Alicate de mão"
+  }
+]
+```

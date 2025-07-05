@@ -1,0 +1,86 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about the Normans. Let me start by understanding the context. The Normans were a Germanic people in northern France, with aristocracy from Viking Scandinavians. They played significant roles in medieval Europe, including the Norman Conquest of England, establishing states in Sicily, Italy, and participating in the Crusades. The facts include various battles, castles, families, and cultural aspects.
+
+First, I'll look at the context to form questions. Maybe start with their origin: Where were the Normans established? The answer would be northern France. Next, their descent from Vikings. Then, what's the origin of the word "Norman"? From Norsemen or Northmen. Their role in the Conquest of England is a key point. The Crusades are another area. Then, the architectural style they used, like in churches. Battles they were involved in, like the Battle of Civitate. The Hauteville family's ethnicity. The languages they spoke, like Old Norse and Old Norman. The siege of Mahdia. The motte-and-bailey castles. 
+
+I need to ensure each question is unique and covers different aspects. Let me check the facts again for specific details. For example, the Hauteville family's ethnicity is Norman. The Siege of Mahdia was a battle they participated in. The architectural style in churches is Norman. The languages include Latin, Old Norman, and Old Norse. The Conquest of England is mentioned in the context. 
+
+I need to structure each question to match the context and facts. Avoid repetition. Let me list possible questions and answers:
+
+1. Onde os normandos se estabeleceram?
+Resposta: No norte da França.
+
+2. De onde descendia a aristocracia normanda?
+Resposta: Dos viquingues da Escandinávia.
+
+3. Qual a origem da palavra "normando"?
+Resposta: Do termo "Northmen" ou "Norsemen", que significa "homens do Norte".
+
+4. Qual evento histórico marcante os normandos participaram na Inglaterra?
+Resposta: A Conquista Normanda da Inglaterra.
+
+5. Em quais regiões da Itália os normandos estabeleceram estados?
+Resposta: Na Sicília e no sul da península Itálica.
+
+6. Qual batalha os normandos lutaram no sul da Itália em 1053?
+Resposta: Batalha de Civitate.
+
+7. Qual a etnia da família Hauteville, mencionada nos fatos?
+Resposta: Normanda.
+
+8. Que idiomas os normandos falavam?
+Resposta: Latim, normano antigo e nórdico antigo.
+
+9. Qual sítio histórico foi sitiado pelos normandos entre 1159-1160?
+Resposta: Mahdia.
+
+10. Que tipo de castelo os normandos construíram, mencionado na tapeçaria de Bayeux?
+Resposta: Castelo de motte-and-bailey.
+
+I need to check if all these are in the context or facts. For example, the Hauteville family's ethnicity is stated in the facts. The Siege of Mahdia is mentioned. The motte-and-bailey is in the image caption. The languages are listed in the facts. Batalha de Civitate is in the facts. The Conquest of England is in the context. Yes, this covers different aspects. Make sure each answer is directly from the provided info. Avoid any extra info. Now, format into JSON as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Onde os normandos se estabeleceram?",
+    "resposta": "No norte da França."
+  },
+  {
+    "pergunta": "De qual grupo étnico descendia a aristocracia normanda?",
+    "resposta": "Dos viquingues da Escandinávia."
+  },
+  {
+    "pergunta": "Qual a origem etimológica da palavra 'normando'?",
+    "resposta": "Do termo 'Northmen' ou 'Norsemen', que significa 'homens do Norte'."
+  },
+  {
+    "pergunta": "Qual evento histórico marcante os normandos participaram na Inglaterra?",
+    "resposta": "A Conquista Normanda da Inglaterra."
+  },
+  {
+    "pergunta": "Em quais regiões da Itália os normandos estabeleceram estados?",
+    "resposta": "Na Sicília e no sul da península Itálica."
+  },
+  {
+    "pergunta": "Qual batalha os normandos lutaram no sul da Itália em 1053?",
+    "resposta": "Batalha de Civitate."
+  },
+  {
+    "pergunta": "Qual a etnia da família Hauteville, mencionada nos fatos?",
+    "resposta": "Normanda."
+  },
+  {
+    "pergunta": "Que idiomas os normandos falavam?",
+    "resposta": "Latim, normano antigo e nórdico antigo."
+  },
+  {
+    "pergunta": "Qual sítio histórico foi sitiado pelos normandos entre 1159-1160?",
+    "resposta": "Mahdia."
+  },
+  {
+    "pergunta": "Que tipo de castelo os normandos construíram, mencionado na tapeçaria de Bayeux?",
+    "resposta": "Castelo de motte-and-bailey."
+  }
+]
+```

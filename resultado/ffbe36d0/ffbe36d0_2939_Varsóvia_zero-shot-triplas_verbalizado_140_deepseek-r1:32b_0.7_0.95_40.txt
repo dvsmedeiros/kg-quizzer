@@ -1,0 +1,84 @@
+<think>
+Okay, so I need to generate 10 question-answer pairs based on the provided context and facts about Warsaw. Let me start by carefully reading through all the information given.
+
+First, the context talks about Warsaw being the capital of Poland, its location on the Vistula River, population in 2012, industries, educational institutions, cultural landmarks like the National Opera, and historical events such as its destruction during WWII and subsequent reconstruction. It also mentions its status as a Phoenix City because it was almost completely rebuilt.
+
+Looking at the facts section, there's a list of individuals born or died in Warsaw, organizations headquartered there, cultural events, temperatures, notable buildings, etc. This is quite extensive, so I need to pick out relevant points that can form good questions and answers without overlapping too much.
+
+I should aim for varied topics: geography, history, culture, education, economy, notable people, etc. Let me brainstorm some possible questions:
+
+1. What river does Warsaw lie on? (Vistula)
+2. When was the capital moved to Warsaw? (1569 by Sigismundo III)
+3. Which title did Warsaw get after reconstruction? (Phoenix City)
+4. How much of the city was destroyed in WWII? (Over 85%)
+5. What UNESCO site is in Warsaw? (Historic Centre)
+6. Who led a significant uprising in Warsaw's ghetto? (Mordechai Anielewicz, but maybe not mentioned here; perhaps another leader?)
+7. What is Warsaw known for besides being the capital? (Pacto de Varsóvia, etc.)
+8. Which university is in Warsaw? (University of Warsaw)
+9. What notable person was born there? (Zbigniew Brzezinski)
+10. What's Warsaw's population around 2012? (Approx 1.7 million)
+
+Wait, the context mentions that Varsóvia was once called "Paris do Norte." Maybe a question about nicknames.
+
+Also, the fact section has people like Leopold Tyrmand and Zbigniew Brzezinski born in Warsaw, so questions about notable individuals could be good.
+
+I should ensure each question is clear, based on explicit or inferable info, and that answers are accurate. Let me structure them:
+
+1. What river flows through Warsaw?
+2. When was the capital moved to Warsaw?
+3. What title did Warsaw receive after reconstruction?
+4. How much of Warsaw was destroyed in WWII?
+5. Which UNESCO site is in Warsaw?
+6. Who led the Ghetto uprising? (Though not explicitly mentioned, maybe infer from context)
+7. What nickname was once given to Warsaw?
+8. Name a university in Warsaw.
+9. Who was born in Warsaw and became a prominent political scientist?
+10. What's Warsaw's population around 2012?
+
+I think these cover various aspects without repeating topics. Now, I'll write them formally as per the JSON structure required.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em qual rio está localizada Varsóvia?",
+    "resposta": "Rio Vístula"
+  },
+  {
+    "pergunta": "Quando a capital da Polônia foi transferida para Varsóvia?",
+    "resposta": "1569"
+  },
+  {
+    "pergunta": "Qual título Warsaw recebeu após sua reconstrução?",
+    "resposta": "Phoenix City"
+  },
+  {
+    "pergunta": "Quantos porcento dos edifícios de Varsóvia foram destruídos durante a Segunda Guerra Mundial?",
+    "resposta": "Mais de 85%"
+  },
+  {
+    "pergunta": "Qual sítio da UNESCO está localizado em Varsóvia?",
+    "resposta": "Centro Histórico de Varsóvia"
+  },
+  {
+    "pergunta": "Qual foi o apelido atribuído a Warsaw no passado?",
+    "resposta": "Paris do Norte"
+  },
+  {
+    "pergunta": "Nomeie uma universidade localizada em Varsóvia.",
+    "resposta": "Universidade de Varsóvia"
+  },
+  {
+    "pergunta": "Qual foi a população aproximada de Varsóvia em 2012?",
+    "resposta": "1.716.855 habitantes"
+  },
+  {
+    "pergunta": "Quem nasceu em Warsaw e se tornou um político e cientista social renomado?",
+    "resposta": "Zbigniew Brzezinski"
+  },
+  {
+    "pergunta": "Qual foi o líder do Levante do Gueto de Varsóvia?",
+    "resposta": "Mordechai Anielewicz"
+  }
+]
+```

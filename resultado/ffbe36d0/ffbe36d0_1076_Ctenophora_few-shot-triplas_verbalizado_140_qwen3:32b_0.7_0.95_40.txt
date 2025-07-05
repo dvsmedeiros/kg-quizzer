@@ -1,0 +1,67 @@
+<think>
+Okay, I need to generate 10 question-answer pairs about Ctenophora based on the provided context and facts. Let's start by understanding the context and facts given.
+
+First, the context says Ctenophora are marine animals with cilia combs for swimming, bioluminescent, range from 1mm to 1.5m, similar to jellyfish but evolutionarily distinct. They've been around since the Cambrian. The facts list various taxonomic info, templates used on Wikipedia, subdivisions like Tentaculata, Nuda, Scleroctenophora, and other species like Callianira hexagona and Vallicula. There are also mentions of templates, categories, and classifications.
+
+The examples given in the prompt are about what Ctenophora is, their features, size, etc. So I need to create similar but varied questions, ensuring each has a clear correct answer from the provided data.
+
+Let me list possible questions:
+
+1. What is the common name for Ctenophora? Answer: Comb jellies (from "possui nome Comb jellies").
+2. What are the subdivisions of Ctenophora? Answer: Tentaculata, Nuda, Scleroctenophora (from "possui subdivisão *Tentaculata / *Nuda / *Scleroctenophora").
+3. What is the etymology of Ctenophora? Answer: Greek for "comb" and "carry" (from the context "do grego: κτείς kteis 'pente' e φέρω pherō 'portador';").
+4. What is the typical size range of Ctenophora? Answer: 1 mm to 1.5 m (from "tamanhos adultos que vão de cerca de 1 mm a 1,5 m de comprimento").
+5. Are Ctenophora bioluminescent? Answer: Yes (from "bioluminescentes").
+6. What is unique about their locomotion? Answer: Use of ciliary combs (from "pentes formados por grupos de cílios que utilizam para nadar").
+7. When did Ctenophora first appear in the fossil record? Answer: Cambrian (from "presente no registo fóssil desde o Cambriano").
+8. What is the classification of Ctenophora in terms of taxon? Answer: Phylum (from "possui hiperônimo Phylum").
+9. What are some species under Ctenophora? Answer: Callianira hexagona, Vallicula, Coeloplana (from "Callianira hexagona possui hiperônimo Ctenophora" etc.).
+10. What is the type species of Ctenophora? Answer: Mnemiopsis leidyi (from "tem como espécie-tipo Mnemiopsis leidyi").
+
+Need to check if all answers are directly from the context or facts. Also, avoid repeating similar questions. For example, the example had two about size and the same answer, so I need to ensure variety. Also, use different aspects like taxonomy, morphology, classification, etc.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o nome comum dos Ctenophora?",
+    "resposta": "Comb jellies"
+  },
+  {
+    "pergunta": "Quais são as subdivisões taxonômicas do filo Ctenophora?",
+    "resposta": "Tentaculata, Nuda, Scleroctenophora"
+  },
+  {
+    "pergunta": "Qual a origem etimológica da palavra Ctenophora?",
+    "resposta": "Do grego κτείς (kteis) 'pente' e φέρω (pherō) 'portador'"
+  },
+  {
+    "pergunta": "Qual é o intervalo de tamanho dos Ctenophora adultos?",
+    "resposta": "1 mm a 1,5 m de comprimento"
+  },
+  {
+    "pergunta": "Os Ctenophora são considerados bioluminescentes?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Como os Ctenophora se locomovem?",
+    "resposta": "Usam pentes formados por grupos de cílios"
+  },
+  {
+    "pergunta": "Desde qual período geológico os Ctenophora estão presentes no registro fóssil?",
+    "resposta": "Cambriano"
+  },
+  {
+    "pergunta": "A que nível taxonômico pertence o Ctenophora?",
+    "resposta": "Phylum"
+  },
+  {
+    "pergunta": "Quais espécies são hiperônimos do filo Ctenophora?",
+    "resposta": "Callianira hexagona, Vallicula, Coeloplana"
+  },
+  {
+    "pergunta": "Qual é a espécie-tipo do filo Ctenophora?",
+    "resposta": "Mnemiopsis leidyi"
+  }
+]
+```

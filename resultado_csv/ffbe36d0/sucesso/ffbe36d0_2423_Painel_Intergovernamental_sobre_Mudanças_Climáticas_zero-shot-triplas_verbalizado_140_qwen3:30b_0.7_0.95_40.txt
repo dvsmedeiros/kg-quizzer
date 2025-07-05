@@ -1,0 +1,68 @@
+<think>
+Okay, let's tackle this query. The user wants 10 pairs of questions and answers in Portuguese based on the provided context and facts. The key points are that each question must be relevant, varied, and have a single correct answer derived from the content. No repetition of similar questions.
+
+First, I need to parse the context and facts. The context gives general info about the IPCC: its establishment, purpose, role, structure, and some notable facts like the Nobel Prize. The facts are more technical, listing types, categories, people associated, locations, etc.
+
+I should start by identifying different aspects from the context. For example, the IPCC's purpose, its creation, the number of reports, its role in policy, the Nobel Prize, members, structure (like working groups), and its headquarters. Then, check the facts for specific details that can form questions.
+
+Possible questions:
+1. What is the main purpose of the IPCC? (from context)
+2. When was the IPCC established? (context)
+3. How many major reports has the IPCC published? (context mentions five)
+4. What is the IPCC's role in climate policy? (context)
+5. Which organizations founded the IPCC? (context mentions UNEP and WMO)
+6. Where is the IPCC headquartered? (context says Geneva)
+7. What is the acronym for the IPCC in English? (context says IPCC)
+8. Which Nobel Prize did the IPCC receive? (context says Peace in 2007)
+9. Who is the current chair? (from facts: Hoesung Lee)
+10. What type of organization is the IPCC? (context says it's a scientific-political body, but facts list types like Organization, Agency, etc.)
+
+Wait, need to ensure answers are directly from the content. For example, the facts mention "Intergovernmental Panel on Climate Change é abreviado como IPCC" so the acronym is IPCC. The context says it was created in 1988. The Nobel was in 2007. The headquarters is Geneva. The founding organizations are UNEP and WMO. The current chair is Hoesung Lee (from facts). The types include Organization, Agency, etc. The number of reports is five, with the last in 2014. The main purpose is to synthesize climate change knowledge. The role in policy is being the main basis. The working groups are mentioned in the facts (WikicatWorkingGroups). Also, the facts mention that it's a Panel, so a question about its structure.
+
+Need to make sure each question is unique and covers different aspects. Avoid repeating the same type of question. Check that answers are explicit or inferable. For example, the question about the Nobel Prize is explicit in the context. The chair's name is in the facts. The number of reports is mentioned in the context. The types from the facts can be used for questions about its classification.
+
+Now, structure them into 10 pairs. Let me check for duplicates and ensure each is based on the given data. Also, use Portuguese correctly. Avoid any markdown, just the JSON.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o objetivo principal do IPCC?",
+    "resposta": "Sintetizar e divulgar o conhecimento mais avançado sobre as mudanças climáticas, especificamente o aquecimento global, suas causas, efeitos e riscos."
+  },
+  {
+    "pergunta": "Em que ano o IPCC foi criado?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "Quais são as organizações que fundaram o IPCC?",
+    "resposta": "Programa das Nações Unidas para o Meio Ambiente (PNUMA) e a Organização Meteorológica Mundial (OMM)"
+  },
+  {
+    "pergunta": "Quantos grandes relatórios o IPCC produziu até 2014?",
+    "resposta": "Cinco"
+  },
+  {
+    "pergunta": "Onde está sediado o IPCC?",
+    "resposta": "Genebra, Suíça"
+  },
+  {
+    "pergunta": "Qual é o prêmio recebido pelo IPCC em 2007?",
+    "resposta": "Prêmio Nobel da Paz"
+  },
+  {
+    "pergunta": "Qual é a abreviação do IPCC em inglês?",
+    "resposta": "IPCC"
+  },
+  {
+    "pergunta": "Quem é o atual presidente do IPCC?",
+    "resposta": "Hoesung Lee"
+  },
+  {
+    "pergunta": "O que o IPCC não produz?",
+    "resposta": "Pesquisa original"
+  },
+  {
+    "pergunta": "Qual é a principal função do IPCC no contexto das políticas climáticas?",
+    "resposta": "Ser a principal base para o estabelecimento de políticas climáticas mundiais e nacionais"
+  }
+]

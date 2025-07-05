@@ -1,0 +1,92 @@
+<think>
+Okay, so I need to generate 10 question-answer pairs based on the provided context and facts about the Black Death. Let me start by carefully reading through the context and facts to understand the key points.
+
+From the context, I know that the Black Death was a major pandemic in human history, causing between 75 to 200 million deaths in Eurasia. It peaked in Europe between 1347-1351. The cause is Yersinia pestis bacteria, leading to different forms of plague, with bubonic being the most common. It originated probably from Central or Eastern Asia and spread via the Silk Road to Crimea by 1343, then through Genoese merchant ships infested with rats carrying fleas.
+
+The Black Death had significant social, religious, and economic impacts. It reduced Europe's population by 30-60%, and the world population dropped from 475 million to around 350-375 million in the 14th century. Recovery took about 200 years for Europe, with some areas like Florence only recovering in the 19th century.
+
+Looking at the facts provided, there are details about categories, templates used on Wikipedia pages, images, and specific data points like death tolls, dates, and regions affected. There's also mention of scholars like Geoffrey the Baker and Sharon N. DeWitte who have studied the Black Death.
+
+Now, I need to create varied questions that cover different aspects: causes, impact, spread, statistics, social effects, etc. Each question should have a clear, correct answer from the context or facts.
+
+Let me outline potential questions:
+
+1. What was the primary cause of the Black Death?
+2. How many people did the Black Death affect globally?
+3. Which regions were most affected in Europe?
+4. What bacteria is responsible for bubonic plague?
+5. What led to the spread of the disease from Crimea to Europe?
+6. How long did it take for Europe's population to recover?
+7. What was one social consequence of the pandemic?
+8. When did the Black Death reach England?
+9. Which scholar documented its effects in England?
+10. What percentage of Europe's population died?
+
+I need to ensure each question is unique and covers different facets without repetition. Also, some questions might focus on specific data points from the facts, like death tolls or dates.
+
+Wait, for example, one fact mentions that the Black Death had a death toll of 750,000,000. That's a key figure. Another point is that it reduced the world population by around 30-60% in Europe and globally from 475M to ~350M.
+
+I should also include questions about transmission methods, like the role of fleas and rats.
+
+Let me adjust some questions:
+
+1. What bacteria caused the Black Death?
+2. How many people died worldwide due to it?
+3. Which European regions were hardest hit?
+4. Through which route did the plague spread from Asia to Europe?
+5. What percentage of Europe's population was killed?
+6. When did the disease reach England?
+7. Name a scholar who documented its effects.
+8. How long until Europe recovered its population?
+9. What social/economic impact did it have?
+10. Which century saw the first major European outbreak?
+
+I need to make sure each answer is directly from the context or facts, without adding external info. Also, some of the facts mention specific Wikipedia templates and categories, but those aren't relevant for general questions, so I'll focus on the broader context.
+
+Now, let me draft the JSON structure with these questions and their correct answers based on the provided data.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual bacteria foi responsável pela Peste Negra?",
+    "resposta": "Yersinia pestis"
+  },
+  {
+    "pergunta": "Quantas pessoas morreram mundialmente devido à Peste Negra?",
+    "resposta": "75 a 200 milhões de pessoas"
+  },
+  {
+    "pergunta": "Quais regiões europeias foram mais afetadas pela peste negra?",
+    "resposta": "Itália, Inglaterra e França"
+  },
+  {
+    "pergunta": "Por qual rota a praga se espalhou da Ásia para a Europa?",
+    "resposta": "Através da Rota da Seda até a Crimeia e depois por navios mercantes genoveses."
+  },
+  {
+    "pergunta": "Qual foi a redução percentual da população europeia durante a Peste Negra?",
+    "resposta": "30% a 60%"
+  },
+  {
+    "pergunta": "Em que ano a doença chegou à Inglaterra?",
+    "resposta": "1347"
+  },
+  {
+    "pergunta": "Qual historiador documentou os efeitos da Peste Negra na Inglaterra?",
+    "resposta": "Geoffrey the Baker"
+  },
+    {
+    "pergunta": "Quanto tempo levou para que a população europeia se recuperasse?",
+    "resposta": "cerca de 200 anos"
+  },
+  {
+    "pergunta": "Qual foi um impacto social e econômico da Peste Negra na Europa?",
+    "resposta": "Carência de mão de obra, elevação dos salários e crise econômica."
+  },
+  {
+    "pergunta": "Em qual século ocorreu o primeiro surto majoritário da peste negra na Europa?",
+    "resposta": "Século XIV"
+  }
+]
+```

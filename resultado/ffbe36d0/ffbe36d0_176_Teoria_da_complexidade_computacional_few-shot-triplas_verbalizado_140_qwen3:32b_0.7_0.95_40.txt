@@ -1,0 +1,135 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts. The context is about computational complexity theory, so I need to focus on that. 
+
+First, I need to parse through all the facts given. There are a lot of mentions of people associated with the field, categories, types, models used in the Wikipedia page, and some other identifiers. The main subject here is "computational complexity theory," so the questions should revolve around that.
+
+The examples provided give a good template. They ask about the field itself, classification of problems, resources used, etc. I need to make sure my questions are varied and cover different aspects. Let's list out possible topics:
+
+1. Definition and purpose of computational complexity theory.
+2. Key figures in the field (like Russell Impagliazzo, Scott Aaronson).
+3. Models or templates used (e.g., Template:Citation).
+4. Categories or types (e.g., Category:Computational complexity theory).
+5. Related subfields or areas (like algorithms, data structures).
+6. Images or visual representations (e.g., TSP Deutschland 3.png).
+7. Classifications or types of the theory itself (like type Thing, Organisation).
+8. Notable contributions or works (e.g., David Shmoys).
+9. Other associated models (Template:ComplexityClasses).
+10. Hypernyms or broader categories (Branch).
+
+Now, formulating questions. For each topic, create a question that can be answered directly from the facts. For example, for the first topic, a question could be "Qual é o objetivo principal da teoria da complexidade computacional?" The answer would be from the context: classification of problems based on resource usage and exploring relationships.
+
+For the key figures, ask who is associated with the theory. For example, "Qual teórico da computação é conhecido por sua contribuição para a teoria da complexidade computacional?" The answer would be someone like Russell Impagliazzo.
+
+Models and templates can be asked as "Que modelo wiki é utilizado na página da teoria da complexidade computacional?" Answer could be Template:Citation.
+
+Categories and types: "A qual categoria pertence a teoria da complexidade computacional?" Answer: Category:Computational complexity theory.
+
+Subfields: "Quais áreas da ciência da computação estão relacionadas à teoria da complexidade computacional?" Answer could be algorithms and data structures.
+
+Images: "Qual é a imagem representativa associada à teoria da complexidade computacional?" Answer: TSP Deutschland 3.png.
+
+Types of the theory: "Que tipo de entidade é classificada como teoria da complexidade computacional?" Answer: Thing.
+
+Contributions: "Quem atua na disciplina da teoria da complexidade computacional?" Answer could be Scott Aaronson.
+
+Other models: "Que modelo wiki é usado para representar classes de complexidade computacional?" Answer: Template:ComplexityClasses.
+
+Hypernyms: "Qual é o hiperônimo da teoria da complexidade computacional?" Answer: Branch.
+
+I need to ensure no repetition and each question is unique. Let's check for each fact and see which ones can be transformed into questions. Also, make sure the answers are directly from the facts provided. Avoid any external knowledge. Stick strictly to the given data.
+
+Another point is to use the types and categories mentioned. For example, "A teoria da complexidade computacional é classificada como qual tipo de entidade?" Answer: Thing. Or "Qual é a disciplina principal associada à teoria da complexidade computacional?" Answer: Computational complexity theory.
+
+Also, some facts mention that the theory is a type of Event, Activity, etc. So questions like "Que tipo de evento a teoria da complexidade computacional é classificada?" Answer: Event100029378. But maybe it's better to phrase it as "A teoria da complexidade computacional é classificada como qual tipo de evento?" Answer: Event.
+
+But the user might prefer answers in Portuguese as given in the facts. For example, if the fact is "Computational complexity theory é do tipo Event100029378", the answer would be "Event100029378".
+
+Also, there are multiple people listed, so questions can be about specific individuals. For example, "Qual pesquisador atua na área de teoria da complexidade computacional?" Answer could be someone like Umesh Vazirani.
+
+Need to generate 10 pairs, so pick the most relevant and varied ones. Let's start drafting:
+
+1. Pergunta: Qual é o objetivo principal da teoria da complexidade computacional? Resposta: classificação de problemas computacionais de acordo com seu uso de recursos e exploração das relações entre essas classificações.
+
+2. Pergunta: Qual teórico da computação é conhecido por sua contribuição para a teoria da complexidade computacional? Resposta: Russell Impagliazzo.
+
+3. Pergunta: Que modelo wiki é utilizado na página da teoria da complexidade computacional? Resposta: Template:Citation.
+
+4. Pergunta: A qual categoria pertence a teoria da complexidade computacional? Resposta: Category:Computational complexity theory.
+
+5. Pergunta: Quais áreas da ciência da computação estão relacionadas à teoria da complexidade computacional? Resposta: algoritmos e estruturas de dados.
+
+6. Pergunta: Qual é a imagem representativa associada à teoria da complexidade computacional? Resposta: TSP Deutschland 3.png.
+
+7. Pergunta: Que tipo de entidade é classificada como teoria da complexidade computacional? Resposta: Thing.
+
+8. Pergunta: Quem atua na disciplina da teoria da complexidade computacional? Resposta: Scott Aaronson.
+
+9. Pergunta: Que modelo wiki é usado para representar classes de complexidade computacional? Resposta: Template:ComplexityClasses.
+
+10. Pergunta: Qual é o hiperônimo da teoria da complexidade computacional? Resposta: Branch.
+
+Check if all answers are from the facts and if the questions are unique. Let's see:
+
+- Question 1 is from the context paragraph.
+- Question 2 is from the fact about Russell Impagliazzo.
+- Question 3 is from the fact about Template:Citation.
+- Question 4 is from Category:Computational complexity theory.
+- Question 5: The context mentions computer science, but the facts list categories like Computational fields of study and WikicatAlgorithms. Maybe adjust to "algoritmos e teoria da computação" or similar. However, the example uses "análise de algoritmos e teoria da computabilidade." But the facts have "WikicatAlgorithms" and "WikicatDataStructures," so maybe "algoritmos e estruturas de dados" is acceptable.
+
+Question 6: Correct image from facts.
+
+Question 7: Type as Thing.
+
+Question 8: Scott Aaronson in the facts.
+
+Question 9: Template:ComplexityClasses.
+
+Question 10: Hypernym is Branch.
+
+This seems to cover different aspects: definition, people, models, categories, images, types, related areas, etc. No repetition. All answers are from the provided facts. Now, format into JSON as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o objetivo principal da teoria da complexidade computacional?",
+    "resposta": "classificação de problemas computacionais de acordo com seu uso de recursos e exploração das relações entre essas classificações"
+  },
+  {
+    "pergunta": "Qual teórico da computação é conhecido por sua contribuição para a teoria da complexidade computacional?",
+    "resposta": "Russell Impagliazzo"
+  },
+  {
+    "pergunta": "Que modelo wiki é utilizado na página da teoria da complexidade computacional?",
+    "resposta": "Template:Citation"
+  },
+  {
+    "pergunta": "A qual categoria pertence a teoria da complexidade computacional?",
+    "resposta": "Category:Computational complexity theory"
+  },
+  {
+    "pergunta": "Quais áreas da ciência da computação estão relacionadas à teoria da complexidade computacional?",
+    "resposta": "algoritmos e estruturas de dados"
+  },
+  {
+    "pergunta": "Qual é a imagem representativa associada à teoria da complexidade computacional?",
+    "resposta": "TSP Deutschland 3.png"
+  },
+  {
+    "pergunta": "Que tipo de entidade é classificada como teoria da complexidade computacional?",
+    "resposta": "Thing"
+  },
+  {
+    "pergunta": "Quem atua na disciplina da teoria da complexidade computacional?",
+    "resposta": "Scott Aaronson"
+  },
+  {
+    "pergunta": "Que modelo wiki é usado para representar classes de complexidade computacional?",
+    "resposta": "Template:ComplexityClasses"
+  },
+  {
+    "pergunta": "Qual é o hiperônimo da teoria da complexidade computacional?",
+    "resposta": "Branch"
+  }
+]
+```

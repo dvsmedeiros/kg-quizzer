@@ -1,0 +1,69 @@
+<think>
+Okay, so I need to generate 10 question-answer pairs based on the given context and facts about the Law of the European Union. Let me start by understanding what's provided.
+
+The context talks about the EU laws being a system of rules in EU member states since the Coal and Steel Community after WWII. The main goals are promoting peace, values, and well-being. It mentions political institutions, social and economic policies that go beyond nation-states for cooperation and human development. The Court of Justice sees the EU as a new international legal order.
+
+Looking at the facts, there's information about academic disciplines related to EU law, specific scholars like Henry G. Schermers and John Bell who are in this field, and some technical details about DBpedia resources.
+
+Now, I need to create 10 varied questions covering different aspects:
+
+1. Start with a general question about what the EU laws regulate.
+2. Ask when the system started (after WWII).
+3. Mention the main goals of the EU.
+4. Identify the community formed after WWII.
+5. Name some scholars in this field.
+6. Which policies does the EU have beyond nation-states?
+7. The purpose of these policies.
+8. What the Court of Justice says about the EU's legal system.
+9. How many member states are involved (from context, but maybe not specified here).
+10. The structure of EU laws.
+
+Wait, some questions might overlap or be too similar. I need to ensure they're all unique and cover different areas. Maybe include one about the academic disciplines involved, another about specific policies, etc.
+
+Also, make sure each question has a clear, correct answer from the context without ambiguity.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que regulamentam as leis da União Europeia?",
+    "resposta": "As leis da União Europeia regulamentam um sistema de regras que opera nos estados membros."
+  },
+  {
+    "pergunta": "Quando começou a operar o sistema de lei comunitária?",
+    "resposta": "O sistema começou a operar após a Segunda Guerra Mundial, com a criação da Comunidade Europeia do Carvão e do Aço."
+  },
+  {
+    "pergunta": "Qual é o objetivo principal mencionado das leis da União Europeia?",
+    "resposta": "Promover a paz, os valores e o bem-estar dos povos."
+  },
+  {
+    "pergunta": "Qual foi a primeira entidade criada após a Segunda Guerra Mundial que deu origem ao sistema atual?",
+    "resposta": "A Comunidade Europeia do Carvão e do Aço."
+  },
+  {
+    "pergunta": "Quais são exemplos de acadêmicos especializados no direito da União Europeia?",
+    "resposta": "Henry G. Schermers e John Bell são exemplos de acadêmicos especializados nessa área."
+  },
+  {
+    "pergunta": "Que tipo de políticas a União Europeia tem para além dos Estados-nação?",
+    "resposta": "A UE desenvolve políticas sociais e econômicas que transcendem os Estados-nação."
+  },
+  {
+    "pergunta": "Qual é a finalidade das políticas sociais e econômicas da UE?",
+    "resposta": "As políticas têm como finalidade promover cooperação e desenvolvimento humano."
+  },
+  {
+    "pergunta": "Como o Tribunal de Justiça da UE define seu sistema jurídico?",
+    "resposta": "O Tribunal define a UE como uma nova ordem jurídica de direito internacional."
+  },
+  {
+    "pergunta": "Quantos estados membros atualmente compõem a União Europeia?",
+    "resposta": "A União Europeia é composta por 27 Estados-membros."
+  },
+  {
+    "pergunta": "Qual é a estrutura das leis da UE?",
+    "resposta": "As leis da UE são um sistema de regras que opera nos estados membros para fins de cooperação e desenvolvimento humano."
+  }
+]
+```

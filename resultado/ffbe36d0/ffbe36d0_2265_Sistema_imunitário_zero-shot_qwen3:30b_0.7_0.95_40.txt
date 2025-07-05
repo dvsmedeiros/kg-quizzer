@@ -1,0 +1,73 @@
+<think>
+Okay, the user wants me to generate 10 pairs of questions and answers about the immune system based on the given context. Let me start by recalling what the immune system does. The context provided is just "Sistema_imunitário", so I need to make sure all the questions and answers are directly related to that.
+
+First, I should think about the main components of the immune system. There's the innate and adaptive immunity. Maybe start with what the immune system's primary function is. Then, the cells involved, like white blood cells, antibodies, T-cells, B-cells. Also, the organs like the spleen, thymus, lymph nodes. Then, processes like inflammation, vaccination, and how the body remembers pathogens.
+
+I need to make sure each question is different. Let me list possible topics: functions, cells, organs, types of immunity, antibodies, vaccination, inflammation, memory cells, pathogens, and maybe something about immune disorders. Wait, but the context is just "Sistema_imunitário", so maybe avoid going into disorders unless it's part of the basic info.
+
+Check for variations. For example, one question could be about the main function, another about the types of immunity, then cells involved, then organs, then how the immune system recognizes pathogens, antibodies, vaccination, inflammation, memory cells, and maybe the role of the spleen. That's 10 points.
+
+Now, phrasing each question clearly. Make sure the answers are directly from the context. Since the context is limited, I have to stick to general knowledge about the immune system. For example, "What is the primary function of the immune system?" Answer: "Defender the body against pathogens." But need to make sure it's accurate.
+
+Wait, the user said to generate from the content provided. The context is just "Sistema_imunitário", so maybe the user expects me to use standard knowledge about the immune system. But the user might have provided more context, but in this case, the context is only that. So I have to rely on general knowledge.
+
+Another question: "Which cells are responsible for producing antibodies?" Answer: "B-cells." Then, "What is the role of T-cells in the immune system?" Answer: "They help destroy infected cells and regulate the immune response."
+
+Make sure not to repeat similar questions. For example, don't ask about both B-cells and T-cells in different ways. Also, check that each answer is correct. Let me verify each point.
+
+1. Function of the immune system.
+2. Types of immunity (innate and adaptive).
+3. Cells involved (white blood cells, etc.).
+4. Organs (spleen, thymus).
+5. Antibodies production.
+6. Vaccination mechanism.
+7. Inflammation process.
+8. Memory cells.
+9. Pathogen recognition.
+10. Role of the spleen.
+
+That should cover 10 varied questions. Now, structure them in JSON format without any extra text. Ensure the answers are concise and correct. Avoid any markdown, just the JSON. Let me put it all together.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a principal função do sistema imunitário?",
+    "resposta": "Defender o corpo contra agentes patogênicos."
+  },
+  {
+    "pergunta": "Quais são os dois principais tipos de imunidade?",
+    "resposta": "Imunidade inata e imunidade adaptativa."
+  },
+  {
+    "pergunta": "Quais células são responsáveis pela produção de anticorpos?",
+    "resposta": "Células B."
+  },
+  {
+    "pergunta": "O que é a resposta inflamatória?",
+    "resposta": "Um processo de defesa que envolve a liberação de substâncias químicas para combater infecções."
+  },
+  {
+    "pergunta": "Qual órgão é responsável pela maturação das células T?",
+    "resposta": "Timo."
+  },
+  {
+    "pergunta": "Como o sistema imunitário reconhece células estranhas?",
+    "resposta": "Através de receptores específicos que identificam antígenos."
+  },
+  {
+    "pergunta": "O que são células de memória no sistema imunitário?",
+    "resposta": "Células que lembram patógenos anteriores para uma resposta mais rápida."
+  },
+  {
+    "pergunta": "Qual é o papel dos linfócitos na imunidade?",
+    "resposta": "Eles atuam na identificação e eliminação de patógenos."
+  },
+  {
+    "pergunta": "Como a vacinação contribui para a imunidade?",
+    "resposta": "Induz a produção de anticorpos sem causar a doença."
+  },
+  {
+    "pergunta": "O que é a imunidade adquirida?",
+    "resposta": "A proteção desenvolvida após a exposição a um patógeno ou vacina."
+  }
+]

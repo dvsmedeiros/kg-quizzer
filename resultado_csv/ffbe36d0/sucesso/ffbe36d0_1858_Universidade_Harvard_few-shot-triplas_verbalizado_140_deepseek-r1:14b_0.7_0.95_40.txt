@@ -1,0 +1,95 @@
+<think>
+Okay, so I'm trying to figure out how to generate these 10 question-answer pairs based on the context and facts given about Harvard University. The user wants me to create a JSON with exactly 10 objects, each having a "pergunta" and "resposta". 
+
+First, I'll read through the context provided. It's pretty detailed—Harvard's history, locations, notable people, achievements, etc. The facts section lists many individuals associated with Harvard, along with some other details like images and affiliations.
+
+I remember the user emphasized that each question must be unique and cover different aspects of the content. So, I need to vary the topics: maybe some about famous alumni, others about key events or locations.
+
+Looking at the examples they provided, I see questions about when something happened, names of leaders, and statistics like number of Nobel laureates. That gives me a pattern to follow.
+
+I should start by identifying key points from the context that can form clear questions. For instance, the founding year is 1636, so a question could ask about that. The first benefactor was John Harvard, which could be another question.
+
+Harvard's location in Cambridge and Boston is mentioned, so I can ask about where it's situated. There are images linked to Harvard, like "John Harvard statue" and others, which can form questions about the university's symbolic representations.
+
+The user also included a lot of alumni names, but since each fact mentions an individual, maybe some general questions about notable alumni or specific achievements, though I have to be careful not to repeat similar questions.
+
+I should avoid making the questions too broad. Each should target a specific piece of information. For example, instead of asking about any Nobel laureates, I can specify how many there are.
+
+Also, considering the examples provided by the user, they included questions like "Qual é o maior sistema de bibliotecas..." which translates to "What is the largest academic library system...". So, including facts about the library's size would be useful.
+
+I need to make sure each question has a single correct answer based on the content. For example, asking when the undergraduate program became coeducational after merging with Radcliffe College in 1977.
+
+Another point is the financial aspect—Harvard's budget being around $30 billion. That could lead to a question about its annual budget.
+
+I should also think about including information about Harvard's sports teams or notable buildings, but I don't have specific details on that from the context provided.
+
+Wait, in the facts section, there are mentions of different houses like Cabot House and Adams House. Maybe a question about one of these could be good.
+
+But to keep it varied, perhaps focus more on key historical figures, events, locations, and statistics.
+
+I need to ensure that each pair is unique and doesn't overlap with others in terms of subject matter. So mixing questions about people, places, timelines, and numbers would work well.
+
+Let me list out possible question topics:
+
+1. Founding year
+2. First benefactor's name
+3. Location in Massachusetts
+4. Number of Nobel laureates
+5. Year undergrad became coeducational
+6. Budget size
+7. Name of the main campus area
+8. Statue's name representing Harvard
+9. Affiliation with sports teams
+10. Number of US presidents graduated
+
+Wait, some of these might not have enough detail in the context. For example, the sports part only mentions that they compete in 42 intercollegiate sports but doesn't specify names.
+
+Alternatively, I can focus on other aspects like notable alumni or key events.
+
+I think sticking to the examples and covering a range of categories—history, people, locations, achievements—would be best. So I'll start drafting each question based on these areas, ensuring each is unique and directly related to the content.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi o ano de fundação da Universidade Harvard?",
+    "resposta": "1636"
+  },
+  {
+    "pergunta": "Quem foi o primeiro benfeitor da Universidade Harvard?",
+    "resposta": "John Harvard"
+  },
+  {
+    "pergunta": "Em qual estado está localizada a Universidade Harvard?",
+    "resposta": "Massachusetts"
+  },
+  {
+    "pergunta": "Quantos presidentes dos Estados Unidos foram alunos da Universidade Harvard?",
+    "resposta": "Oito"
+  },
+  {
+    "pergunta": "Quando a faculdade de graduação tornou-se mista?",
+    "resposta": "1977"
+  },
+  {
+    "pergunta": "Qual é o tamanho do orçamento anual da Universidade Harvard?",
+    "resposta": "cerca de US$30 bilhões"
+  },
+  {
+    "pergunta": "Qual é o nome do campus principal da universidade?",
+    "resposta": "Camargo"
+  },
+  {
+    "pergunta": "Qual estátua representa a Universidade Harvard?",
+    "resposta": "Estátua de John Harvard"
+  },
+  {
+    "pergunta": "Quantos volumes estão contidos na biblioteca da universidade?",
+    "resposta": "18 milhões de volumes"
+  },
+  {
+    "pergunta": "Qual organização Harvard encontrou em 1900?",
+    "resposta": "Associação de Universidades Americanas"
+  }
+]
+```

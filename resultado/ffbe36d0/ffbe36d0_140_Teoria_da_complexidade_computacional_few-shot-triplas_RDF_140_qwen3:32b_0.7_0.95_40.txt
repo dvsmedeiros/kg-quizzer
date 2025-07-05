@@ -1,0 +1,79 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs in Portuguese based on the provided context and facts. The context is about computational complexity theory, and the facts include a list of academics associated with this field.
+
+First, I need to make sure each question is relevant and has a clear, correct answer from the given data. I should avoid repeating similar questions and cover different aspects. Let's start by identifying key points from the context and facts.
+
+The main topic here is computational complexity theory. The context explains it's about classifying problems by their resource usage and exploring relationships between these classifications. The facts list various scholars (like Christos Papadimitriou, David Shmoys, etc.) who are associated with this theory through their academic disciplines or known works.
+
+So, possible questions could be about the definition of computational complexity theory, the resources considered, the purpose of the classification, and the scholars involved. Since there's a list of people linked to the theory, some questions can ask for examples of scholars in this field.
+
+I need to ensure each answer is directly from the provided data. For example, when asking for a scholar, I can pick one from the list. Also, the examples given in the prompt include questions about the main attributes, resources, and practical implications. I should vary the angles but stay within the given context.
+
+Let me start drafting the questions:
+
+1. What is the primary focus of computational complexity theory?
+2. What are the two main resources considered when classifying computational problems?
+3. What is the purpose of classifying computational problems according to their resource usage?
+4. Name one academic associated with computational complexity theory.
+5. What does the theory explore regarding the classifications of computational problems?
+6. What is a computational problem according to the context?
+7. What field of study does computational complexity theory belong to?
+8. What are the classes of problems based on in computational complexity theory?
+9. What is the practical application of understanding computational complexity?
+10. Which scholar is known for work in computational complexity theory?
+
+Now, checking the facts to ensure the answers are accurate. For example, the answer to question 4 would be any of the listed scholars. Similarly, the resources are time and storage as per the example.
+
+I need to make sure the answers are explicit or inferable from the context. For example, the theory's purpose is to classify problems by resource usage and explore relationships, so that's a direct answer.
+
+Also, the user's examples included terms like "dificuldade inerente" and "tempo e armazenamento," so I should use similar terminology in Portuguese.
+
+Avoiding repetition: Each question should target a different aspect. For example, one about definition, another about resources, another about scholars, another about purpose, etc.
+
+Now, translating the questions into Portuguese and ensuring the answers match the provided data. Let me compile the JSON accordingly, making sure each pair is correct and follows the structure.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o principal objetivo da teoria da complexidade computacional?",
+    "resposta": "classificar problemas computacionais de acordo com seu uso de recursos e explorar as relações entre essas classificações"
+  },
+  {
+    "pergunta": "Quais são os dois recursos principais considerados na análise de complexidade computacional?",
+    "resposta": "tempo e armazenamento"
+  },
+  {
+    "pergunta": "Qual é a definição de um problema computacional conforme o contexto?",
+    "resposta": "uma tarefa resolvida por um computador por meio de etapas matemáticas mecânicas, como um algoritmo"
+  },
+  {
+    "pergunta": "Quem é um acadêmico associado à teoria da complexidade computacional?",
+    "resposta": "Christos Papadimitriou"
+  },
+  {
+    "pergunta": "Quais são os campos teóricos relacionados diretamente à teoria da complexidade computacional?",
+    "resposta": "análise de algoritmos e teoria da computabilidade"
+  },
+  {
+    "pergunta": "Qual é a função prática de estudar a complexidade de problemas computacionais?",
+    "resposta": "determinar os limites práticos sobre o que os computadores podem ou não fazer"
+  },
+  {
+    "pergunta": "Que tipo de classificação é explorada na teoria da complexidade computacional?",
+    "resposta": "relacionamentos entre classes de problemas com base na dificuldade inerente"
+  },
+  {
+    "pergunta": "Qual é o termo usado para descrever a dificuldade inerente de resolver um problema computacional?",
+    "resposta": "complexidade"
+  },
+  {
+    "pergunta": "Que modelo é usado para medir a complexidade de circuitos em teoria computacional?",
+    "resposta": "número de portas em um circuito"
+  },
+  {
+    "pergunta": "Qual é o critério fundamental para classificar problemas computacionais na teoria da complexidade?",
+    "resposta": "a quantidade de recursos (como tempo e memória) necessários para sua solução"
+  }
+]
+```

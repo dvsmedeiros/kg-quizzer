@@ -1,0 +1,67 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts about Warsaw. Let me start by carefully reading the context and facts to identify key points.
+
+First, the context mentions that Warsaw is the capital of Poland, located on the Vistula River, with a population of 1.7 million in 2012. It has a rich history, including being the capital since 1569, the Warsaw Uprising, and its reconstruction after WWII. It's also a cultural and economic hub, with the Old Town being a UNESCO site. The facts list various things related to Warsaw, like institutions, people born or died there, locations, and some statistics.
+
+I need to make sure each question is unique and covers different aspects. Let me brainstorm possible questions:
+
+1. Capital of Poland? Answer: Warsaw.
+2. River where Warsaw is located? Answer: Vistula.
+3. Population in 2012? Answer: 1,716,855.
+4. When did Warsaw become the capital? Answer: 1569.
+5. What is the Old Town? Answer: UNESCO site.
+6. Which agency is based in Warsaw? Answer: Frontex.
+7. What event happened in 1944? Answer: Warsaw Uprising.
+8. What is the temperature in April? Answer: 4°C (minimum) and 30.4°C (max).
+9. What is the UTC time? Answer: +2.
+10. Which university is in Warsaw? Answer: University of Warsaw.
+
+Wait, I need to check the facts for accuracy. The facts mention "Warsaw possui temperatura mínima em abril (°C) 4" and "recorde de temperatura alta em abril (°C) 30.4". Also, "Warsaw possui deslocamento UTC +2". The context says the Old Town is a UNESCO site. The facts list several institutions like the University of Warsaw. Also, the Warsaw Uprising is mentioned in the context.
+
+I need to ensure each answer is directly from the context or facts. For example, the question about the UTC offset is in the facts. The population figure is in the context. The 1944 event is the Warsaw Uprising. The UNESCO site is the Old Town. The answer for the UTC is +2. The temperature in April is 4°C minimum and 30.4°C maximum. The University of Warsaw is mentioned in the facts.
+
+I need to make sure not to repeat similar questions. Let me check if the 10 questions cover different aspects: capital, river, population, history, UNESCO, agencies, events, temperatures, UTC, and universities. That seems varied. Now, structure them into 10 pairs without any markdown, just JSON.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a capital da Polônia?",
+    "resposta": "Varsóvia"
+  },
+  {
+    "pergunta": "Em qual rio Varsóvia está localizada?",
+    "resposta": "Vístula"
+  },
+  {
+    "pergunta": "Qual era a população de Varsóvia em 2012?",
+    "resposta": "1 716 855 habitantes"
+  },
+  {
+    "pergunta": "Quando Varsóvia tornou-se a capital da Polônia?",
+    "resposta": "Em 1569"
+  },
+  {
+    "pergunta": "O que é o Centro Histórico de Varsóvia?",
+    "resposta": "Patrimônio da Humanidade pela UNESCO"
+  },
+  {
+    "pergunta": "Qual agência europeia está sediada em Varsóvia?",
+    "resposta": "Frontex"
+  },
+  {
+    "pergunta": "Qual evento histórico ocorreu em Varsóvia em 1944?",
+    "resposta": "A Revolta de Varsóvia"
+  },
+  {
+    "pergunta": "Qual é a temperatura mínima registrada em Varsóvia em abril?",
+    "resposta": "4°C"
+  },
+  {
+    "pergunta": "Qual é o fuso horário de Varsóvia?",
+    "resposta": "+2"
+  },
+  {
+    "pergunta": "Qual universidade está localizada em Varsóvia?",
+    "resposta": "Universidade de Varsóvia"
+  }
+]

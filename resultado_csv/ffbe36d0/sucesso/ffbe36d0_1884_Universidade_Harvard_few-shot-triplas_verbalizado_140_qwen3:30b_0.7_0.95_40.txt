@@ -1,0 +1,58 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts about Harvard University. The key points are that each pair must be in Portuguese, the questions should be varied, and the answers must be directly from the content given.
+
+First, I need to go through the context and facts to extract relevant information. The context mentions Harvard's founding in 1636, its location in Cambridge, Massachusetts, being part of the Ivy League, the first benefactor John Harvard, the merger with Radcliffe College in 1977, the first female dean Drew Gilpin Faust, the number of Nobel laureates, the library, the budget, and notable alumni.
+
+Looking at the facts, there are many names of people associated with Harvard, but the user wants questions based on the context, not the specific names. So I should focus on the context provided rather than the list of individuals.
+
+Possible questions could be about the founding year, the person after whom it's named, the merger year, the first female dean, the number of Nobel laureates, the library details, the budget, the number of schools, the location of specific campuses, and the number of U.S. presidents who graduated.
+
+I need to ensure each question is unique and covers different aspects. Let me check the examples given to avoid repetition. For instance, the examples include founding year, merger, first female dean, Nobel laureates, library details, budget, etc.
+
+Now, I'll draft each question and find the corresponding answer from the context. Let me verify each answer is explicitly stated or can be inferred. For example, the context says "Fundada em 1636" so the founding year is 1636. The merger with Radcliffe was in 1977. The first female dean is Drew Gilpin Faust. The number of Nobel laureates is 150. The library is the largest in the US. The budget in 2012 was $30 billion. The university has 11 academic units. The main campus is in Cambridge, and the sports facilities are in Allston. The number of U.S. presidents is eight.
+
+I need to make sure there are exactly 10 pairs and that they are varied. Let me list them out and check for repetition. Each question should target a different piece of information from the context. Once confirmed, I can structure the JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Em que ano a Universidade de Harvard foi fundada?",
+    "resposta": "1636"
+  },
+  {
+    "pergunta": "Qual foi o primeiro benfeitor da universidade?",
+    "resposta": "John Harvard"
+  },
+  {
+    "pergunta": "Em que ano a faculdade de graduação tornou-se mista?",
+    "resposta": "1977"
+  },
+  {
+    "pergunta": "Quem foi a primeira mulher a liderar a universidade?",
+    "resposta": "Drew Gilpin Faust"
+  },
+  {
+    "pergunta": "Quantos ganhadores do Prêmio Nobel estão associados à universidade?",
+    "resposta": "150"
+  },
+  {
+    "pergunta": "Qual é o nome do maior sistema de bibliotecas da universidade?",
+    "resposta": "Biblioteca da Universidade de Harvard"
+  },
+  {
+    "pergunta": "Em que ano a universidade tornou-se membro da Associação de Universidades Americanas?",
+    "resposta": "1900"
+  },
+  {
+    "pergunta": "Quantas unidades acadêmicas a universidade possui?",
+    "resposta": "onze"
+  },
+  {
+    "pergunta": "Qual é o orçamento da universidade em 2012?",
+    "resposta": "30 bilhões de dólares"
+  },
+  {
+    "pergunta": "Quantos presidentes dos Estados Unidos se formaram na universidade?",
+    "resposta": "oito"
+  }
+]

@@ -1,0 +1,84 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the given context and facts about Computational Complexity Theory. First, I need to understand the context provided. It's about computational complexity theory, its classification of problems based on resource usage, and some facts related to various scholars and models.
+
+The user provided examples of questions and answers, so I should follow that structure. The key is to make sure each question is varied and covers different aspects of the content. Also, avoid repeating similar questions. Let me start by listing out the main points from the context.
+
+The main points are:
+- Computational complexity theory classifies problems by resource usage (time, space).
+- It's part of theoretical computer science and mathematics.
+- It explores relationships between different classes of problems.
+- There are various scholars associated with it, like Russell Impagliazzo, Umesh Vazirani, etc.
+- It uses models like the Turing machine, complexity classes, and specific templates in Wikipedia.
+
+Now, I need to create questions that cover these aspects. For example, a question about the primary focus of the theory, another about the resources measured, scholars associated, models used, etc. Let me check the examples given to ensure I'm not repeating the same structure.
+
+Looking at the examples, they covered definitions, classification criteria, related fields, scholars, and models. I should ensure my questions are different but still relevant. Let me list possible questions:
+
+1. What is the main focus of computational complexity theory?
+2. Which scholars are known for working in this field?
+3. What are the primary resources measured in this theory?
+4. What is the purpose of classifying problems in computational complexity?
+5. Which models are used in this theory?
+6. What are the main categories of problems in this theory?
+7. What is the significance of complexity classes?
+8. How does computational complexity theory relate to algorithm analysis?
+9. What are the key areas of study within this theory?
+10. What is the role of resource usage in problem classification?
+
+Wait, some of these might overlap. I need to ensure each question is distinct and covers different aspects. Let me verify the facts provided. For instance, the context mentions specific scholars, models like Wikipedia templates, and the relation to theoretical computer science. Also, there's mention of complexity classes and their images.
+
+So, I can create questions about the scholars, the models used, the classification criteria, the main areas, the relation to other fields, the resources measured, the purpose of classification, the main categories, the significance of complexity classes, and the role of resource usage.
+
+Now, I need to phrase these questions in Portuguese, ensuring they are clear and each has a unique answer based on the context. Let me check the examples again to avoid duplication. The examples included questions about the branch of science, classification attributes, problems as tasks, resource measurement, etc.
+
+I need to make sure the answers are correct and directly inferred from the context. For example, the answer to a question about scholars would list names like Russell Impagliazzo, Umesh Vazirani, etc., as mentioned in the facts. The models used would include templates like Template:ComplexityClasses, Template:Harv, etc.
+
+Let me structure each pair, ensuring they are varied and cover different aspects. I'll need to avoid repeating the same type of questions. For example, if one question is about scholars, another could be about models, another about classification criteria, and so on.
+
+Once I have the questions, I'll format them into the required JSON structure. Let me double-check that each answer is explicitly stated or can be inferred from the context provided. For instance, the answer to a question about the main focus would be the classification of problems based on resource usage.
+
+Finally, I'll compile the 10 pairs into the JSON format as specified, making sure there are no extra explanations or content beyond the required structure.
+</think>
+
+[
+  {
+    "pergunta": "Quem é conhecido por trabalhar na teoria da complexidade computacional?",
+    "resposta": "Russell Impagliazzo"
+  },
+  {
+    "pergunta": "Quais modelos de página wiki são usados na teoria da complexidade computacional?",
+    "resposta": "Template:ComplexityClasses, Template:Harv, Template:Springer"
+  },
+  {
+    "pergunta": "Qual é o principal objetivo da teoria da complexidade computacional?",
+    "resposta": "Classificar problemas computacionais por dificuldade e relacionar suas classes"
+  },
+  {
+    "pergunta": "Quais são os dois recursos básicos usados para medir a complexidade de um problema?",
+    "resposta": "Tempo e armazenamento"
+  },
+  {
+    "pergunta": "Quem atua na disciplina de teoria da complexidade computacional?",
+    "resposta": "Scott Aaronson"
+  },
+  {
+    "pergunta": "Qual é a imagem representativa associada à teoria da complexidade computacional?",
+    "resposta": "Complexity classes.svg"
+  },
+  {
+    "pergunta": "Quais são os principais campos da ciência da computação conectados à teoria da complexidade?",
+    "resposta": "Análise de algoritmos e teoria da computabilidade"
+  },
+  {
+    "pergunta": "Qual é o tipo de classificação associado à teoria da complexidade computacional?",
+    "resposta": "Complexidade de problemas"
+  },
+  {
+    "pergunta": "Quem é associado à disciplina de teoria da complexidade computacional?",
+    "resposta": "Vijay Vazirani"
+  },
+  {
+    "pergunta": "Qual é o título principal da teoria da complexidade computacional?",
+    "resposta": "Classes de complexidade computacional"
+  }
+]

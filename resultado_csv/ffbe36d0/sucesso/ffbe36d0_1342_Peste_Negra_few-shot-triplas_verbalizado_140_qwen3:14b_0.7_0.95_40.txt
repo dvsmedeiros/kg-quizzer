@@ -1,0 +1,84 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let me start by reading through the context and facts carefully to identify key points.
+
+The context talks about the Black Death, its origin in Central or Eastern Asia, spread via the Silk Road, the role of rats and fleas on merchant ships, the impact on Europe's population (30-60% death), the time it took for recovery (200 years), and its recurrence until the early 20th century. The facts include specific data like the number of deaths (75-200 million), the bacterium Yersinia pestis, the spread through the Mediterranean, and various models and categories used in Wikipedia pages.
+
+Now, I need to make sure each question is unique and covers different aspects. Let's list possible points:
+
+1. Origin of the Black Death
+2. How it spread to Europe (via ships, fleas)
+3. Percentage of European population killed
+4. Time taken for Europe's population to recover
+5. The bacterium responsible
+6. The name "Great Plague" (though the context says "Peste Negra" which is Black Death)
+7. Recurrence of the plague until the early 20th century
+8. The impact on world population (from 475M to 350-375M)
+9. The role of the Silk Road in its spread
+10. The name of the disease (Bubonic plague)
+
+Wait, the context mentions the Great Plague as another name, but the user might prefer the term "Peste Negra" which is Black Death. Also, the facts mention "Black Death" is the name, and the disease is Bubonic plague.
+
+Let me check for duplicates. The example had some questions about origin, spread via ships, percentage killed, recovery time, recurrence. I need to avoid those and come up with new ones.
+
+Looking at the facts, there's a lot of data: number of deaths (75-200 million), the bacterium (Yersinia pestis), the time period (1346-1351 peak), the regions affected (Eurasia, North Africa), and the models used in Wikipedia pages. But the user wants questions based on the context and facts, not the Wikipedia templates.
+
+So possible questions:
+
+- What was the estimated death toll of the Black Death?
+- What is the primary cause of the Black Death?
+- Which regions were most affected by the Black Death?
+- What was the time period when the Black Death reached its peak in Europe?
+- How long did it take for Europe's population to recover after the Black Death?
+- What was the impact of the Black Death on the world population in the 14th century?
+- What role did the Silk Road play in the spread of the Black Death?
+- Which bacterium is responsible for the Black Death?
+- What were the main routes of transmission for the Black Death?
+- How many times did the Black Death recur after the initial pandemic?
+
+Now, checking the context and facts for accuracy. The context says 75-200 million deaths in Eurasia, 30-60% of Europe's population, originated in Central or Eastern Asia via the Silk Road, spread by fleas on rats on merchant ships, and the bacterium is Yersinia pestis. The world population dropped from 475M to 350-375M. Recovery took 200 years, and it recurred until early 20th century.
+
+So the answers should be based on that. Let me structure each question and answer pair, ensuring they are unique and cover different aspects.
+</think>
+
+[
+  {
+    "pergunta": "Qual foi a causa principal da Peste Negra?",
+    "resposta": "A bactéria Yersinia pestis."
+  },
+  {
+    "pergunta": "Qual foi a estimativa de mortes causadas pela Peste Negra na Eurásia?",
+    "resposta": "75 a 200 milhões de pessoas."
+  },
+  {
+    "pergunta": "Como a Peste Negra se espalhou para a Europa?",
+    "resposta": "Por meio de navios mercantes genoveses que transportavam ratos infectados."
+  },
+  {
+    "pergunta": "Qual a porcentagem da população europeia que a Peste Negra eliminou?",
+    "resposta": "30% a 60% da população da Europa."
+  },
+  {
+    "pergunta": "Quanto tempo demorou para a Europa recuperar sua população após a Peste Negra?",
+    "resposta": "Cerca de 200 anos."
+  },
+  {
+    "pergunta": "Qual foi o período de pico da Peste Negra na Europa?",
+    "resposta": "Entre os anos de 1347 e 1351."
+  },
+  {
+    "pergunta": "Qual foi o impacto da Peste Negra na população mundial no século XIV?",
+    "resposta": "Reduziu a população mundial de 475 milhões para 350–375 milhões."
+  },
+  {
+    "pergunta": "Qual a origem provável da Peste Negra?",
+    "resposta": "Ásia Central ou Ásia Oriental."
+  },
+  {
+    "pergunta": "Quantas vezes a Peste Negra recorreu após a pandemia inicial?",
+    "resposta": "Até o início do século XX."
+  },
+  {
+    "pergunta": "Qual a principal forma de transmissão da Peste Negra?",
+    "resposta": "Por meio de pulgas infectadas que se alimentavam de ratos e depois de humanos."
+  }
+]

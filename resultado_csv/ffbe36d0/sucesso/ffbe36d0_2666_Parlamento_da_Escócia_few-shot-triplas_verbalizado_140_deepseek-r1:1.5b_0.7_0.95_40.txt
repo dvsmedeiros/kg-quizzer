@@ -1,0 +1,54 @@
+<think>
+Primeiro, identifiquemos que o usuário está pedindo geração de 10 pergunta-resposta parouts de um contexto específico—parlamento escocês. Precisamos usar os dados fornecidos no contexto e a fatoa da comissão sobre as representações legais.
+
+Em seguida, identificamos as variáveis relevantes: constituency, nome parlamentar, cometos, etc., que precisam ser incluídos em cada pergunta. Assim, cada pergunta deve ser variationada de maneira que possa adicionar mais informations sem incluir novas fatoa.
+
+Para each one da pergunta, verificamos se a resposta é explicita ou inferível, com base nas informações fornecidas. Isso garantiza que o usuário tenha respostas corretas e claras, sem precisar de adicionar mais informações non-existantes.
+
+Finalmente, organizamos os 10 pergaunes em uma lista de JSON, garantindo a estrutura do pedido e exatamente as perguntas e respostas daordo.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual constituency da escócia foi representada por o parque Scottish Parliament?",
+    "resposta": "Dundee East"
+  },
+  {
+    "pergunta": "Quais cometos são estabeleCIDOs no parlamento escocês?",
+    "resposta": "Comissões Scottish Parliamentary Pensions Scheme, Comissões Economy, Etc."
+  },
+  {
+    "pergunta": "Quais atos são explicitly listed to the public in the Scottish Parliament?",
+    "resposta": "Parlamento do Reino Unido"
+  },
+  {
+    "pergunta": "Por que o Parlamento escocês é designado como gathering e officials?",
+    "resposta": "Os poderes do parlamento são distribuídos em forma separatada"
+  },
+  {
+    "pergunta": "Quais os direitos da escócia necessários para um parque escócia ser legido?",
+    "resposta": "Westminster"
+  },
+  {
+    "pergunta": "Quais as principias que mantive a escócia ao longo dos anos?",
+    "resposta": "faltou um Parlamento escocoso"
+  },
+  {
+    "pergunta": "Quantas centenas de anos tem o Reino Unido escócia pelo parque escócia?",
+    "resposta": "trezentos"
+  },
+  {
+    "pergunta": "Por que as sugestões iniciais para um parlamento desconcentrado antes de 1914 foram arquivadas?",
+    "resposta": "Primeira Guerra Mundral"
+  },
+  {
+    "pergunta": "Quais atos são explicitly listed to the public no parque escócia na Grã-Bretanha?",
+    "resposta": "Assembléia Escocesa eleita diretamente"
+  },
+  {
+    "pergunta": "Qual Constituinte da escócia foi representada por o parque escócia?",
+    "resposta": "."
+  }
+]
+```

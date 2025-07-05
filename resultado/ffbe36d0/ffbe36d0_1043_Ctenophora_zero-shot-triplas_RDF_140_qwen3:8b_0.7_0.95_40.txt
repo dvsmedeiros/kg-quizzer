@@ -1,0 +1,80 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context about Ctenophora. Let me start by understanding the context thoroughly.
+
+First, the context mentions that Ctenophora are marine animals with a cosmopolitan distribution, mostly planktonic but some are benthic. They have cilia (pentes) for movement, are bioluminescent, and range in size from 1 mm to 1.5 m. They are similar to jellyfish in appearance but are a separate phylum. They've been around since the Cambrian period.
+
+Now, the facts provided include some RDF triples, but the main content is in the context. I need to extract key points to form varied questions. Let me list out important aspects:
+
+1. Common names (carambolas-do-mar, águas-vivas-de-pente)
+2. Distribution (cosmopolitan, marine, estuarine)
+3. Locomotion (cilia, pentes)
+4. Size range (1 mm to 1.5 m)
+5. Bioluminescence
+6. Comparison to jellyfish (convergent evolution, not closely related)
+7. Taxonomic classification (phylum, classes like Tentaculata, Nuda, Scleroctenophora)
+8. Fossil record (since Cambrian)
+9. Examples of species (Mnemiopsis leidyi as type species)
+10. Classification in ontologies (e.g., Animal, Invertebrate)
+
+I need to make sure each question is distinct and covers different aspects. Let me brainstorm possible questions:
+
+1. What are the common names for Ctenophora?
+2. Where are Ctenophora typically found?
+3. What structure do Ctenophora use for movement?
+4. What is the size range of adult Ctenophora?
+5. Are Ctenophora bioluminescent?
+6. How do Ctenophora compare to jellyfish in terms of evolutionary relationship?
+7. What are the classes within the Ctenophora phylum?
+8. When did Ctenophora first appear in the fossil record?
+9. What is the type species of Ctenophora?
+10. What classification categories does Ctenophora fall under?
+
+Now, I need to verify that each answer is directly inferable from the context. For example, the common names are given in the first paragraph. The distribution is mentioned as cosmopolitan in marine and estuarine waters. The cilia (pentes) are the structure for movement. The size range is specified. Bioluminescence is a characteristic. The comparison to jellyfish is about convergent evolution, not close relation. The classes are listed in the subdivision. Fossil record starts in Cambrian. The type species is Mnemiopsis leidyi. Classification includes Animal, Invertebrate, etc.
+
+I should also check for repetition and ensure each question is unique. For instance, the first question is about common names, which is different from the one about distribution. The answer to the taxonomic classification includes multiple categories, so the question should ask for the categories, not just the phylum. The classes are listed in the subdivision, so the question about classes is valid. The fossil record is mentioned as Cambrian. The type species is explicitly stated. The classification categories are in the ontology part.
+
+I need to make sure each answer is concise and directly from the text. Avoid adding extra information. Now, structure each pair in JSON format, ensuring proper Portuguese language and correct formatting. Also, check that there are exactly 10 pairs without any extra content.
+</think>
+
+[
+  {
+    "pergunta": "Quais são os nomes comuns dos ctenóforos?",
+    "resposta": "Carambolas-do-mar ou águas-vivas-de-pente"
+  },
+  {
+    "pergunta": "Qual é a distribuição natural dos ctenóforos?",
+    "resposta": "Cosmopolita, presentes nas águas oceânicas e estuarinas"
+  },
+  {
+    "pergunta": "Quais estruturas os ctenóforos utilizam para nadar?",
+    "resposta": "Pentes formados por grupos de cílios"
+  },
+  {
+    "pergunta": "Qual é o intervalo de tamanho dos ctenóforos adultos?",
+    "resposta": "De cerca de 1 mm a 1,5 m de comprimento"
+  },
+  {
+    "pergunta": "São os ctenóforos bioluminescentes?",
+    "resposta": "Sim, apresentam bioluminescência"
+  },
+  {
+    "pergunta": "Como os ctenóforos se relacionam evolutivamente com as medusas?",
+    "resposta": "Representam uma convergência evolutiva, não um relacionamento filogenético próximo"
+  },
+  {
+    "pergunta": "Quais são as classes do filo Ctenophora?",
+    "resposta": "*Tentaculata, *Nuda, *Scleroctenophora"
+  },
+  {
+    "pergunta": "Quando os ctenóforos estão presentes no registo fóssil?",
+    "resposta": "Desde o Cambriano"
+  },
+  {
+    "pergunta": "Qual é a espécie-tipo do filo Ctenophora?",
+    "resposta": "Mnemiopsis leidyi"
+  },
+  {
+    "pergunta": "Quais categorias de classificação os ctenóforos pertencem?",
+    "resposta": "Animal, Invertebrado, Organismo, Eucariota, Entidade Física"
+  }
+]

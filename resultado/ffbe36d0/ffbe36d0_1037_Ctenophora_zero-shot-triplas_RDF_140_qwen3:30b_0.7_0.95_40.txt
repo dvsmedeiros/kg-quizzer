@@ -1,0 +1,82 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers based on the given context and facts about Ctenophora. Let me start by carefully reading the context and the facts provided.
+
+First, the context mentions that Ctenophora are marine animals with a cosmopolitan distribution, found in oceanic and estuarine waters. They are mostly planktonic, some benthic, bioluminescent, and have ciliary combs for swimming. Their size ranges from 1mm to 1.5m. They resemble jellyfish in morphology but are not closely related. They've been in the fossil record since the Cambrian.
+
+The facts include some DBpedia links, taxonomic information, hypernyms, image captions, and other properties. For example, they are classified under various classes like Tentaculata, Nuda, Scleroctenophora. The authority is Eschscholtz, 1829. The type species is Mnemiopsis leidyi. There are also templates and categories they're part of.
+
+Now, I need to create 10 questions and answers. Each question should be unique and cover different aspects. Let me brainstorm possible questions:
+
+1. What is the common name for Ctenophora? (Answer: carambolas-do-mar or águas-vivas-de-pente)
+2. What is the scientific name? (Answer: Ctenophora)
+3. What are their main characteristics? (Answer: bioluminescent, ciliary combs, planktonic, etc.)
+4. How big can they get? (Answer: 1mm to 1.5m)
+5. What is their habitat? (Answer: oceanic and estuarine waters)
+6. Are they related to jellyfish? (Answer: No, convergent evolution)
+7. What is the name of the type species? (Answer: Mnemiopsis leidyi)
+8. What is their classification? (Answer: Phylum, with classes like Tentaculata)
+9. When were they first found in the fossil record? (Answer: Cambrian)
+10. What is the authority for their classification? (Answer: Eschscholtz, 1829)
+
+Wait, I need to check if all these answers are present in the context or facts. The context says "carambolas-do-mar ou águas-vivas-de-pente" as common names. The scientific name is Ctenophora. The size range is mentioned. Habitat is oceanic and estuarine. They are not closely related to jellyfish, just convergent. The type species is Mnemiopsis leidyi. The classes are Tentaculata, Nuda, Scleroctenophora. Fossil record since Cambrian. Authority is Eschscholtz, 1829.
+
+I need to make sure each question is distinct. Let me structure them:
+
+1. Pergunta: Qual é o nome comum para Ctenophora? Resposta: carambolas-do-mar ou águas-vivas-de-pente.
+2. Pergunta: Qual é o nome científico do grupo? Resposta: Ctenophora.
+3. Pergunta: Quais são as características principais dos ctenóforos? Resposta: Bioluminescência, presença de pentes de cílios, serem planctônicos ou bentónicos.
+4. Pergunta: Qual o tamanho máximo de um ctenóforo adulto? Resposta: Até 1,5 metros de comprimento.
+5. Pergunta: Em quais ambientes os ctenóforos são encontrados? Resposta: Águas oceânicas e estuarinas.
+6. Pergunta: Os ctenóforos são filogeneticamente próximos às medusas? Resposta: Não, as semelhanças são convergência evolutiva.
+7. Pergunta: Qual é a espécie-tipo de Ctenophora? Resposta: Mnemiopsis leidyi.
+8. Pergunta: Quais são as classes principais do filo Ctenophora? Resposta: Tentaculata, Nuda e Scleroctenophora.
+9. Pergunta: Quando os ctenóforos aparecem no registro fóssil? Resposta: Desde o Cambriano.
+10. Pergunta: Quem é o autor da classificação de Ctenophora? Resposta: Eschscholtz, 1829.
+
+I need to ensure that each answer is directly from the context or facts. For example, the classes are listed in the facts as subdivision: "Tentaculata, Nuda, Scleroctenophora". The authority is in the facts as "ns2:authority "Eschscholtz, 1829"". The type species is "ns2:typeSpecies "Mnemiopsis leidyi"."
+
+I think these questions cover different aspects: common names, scientific name, characteristics, size, habitat, relation to jellyfish, type species, classification, fossil record, and authority. They should be varied and not repeat similar questions. Now, I'll format them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o nome comum para Ctenophora?",
+    "resposta": "carambolas-do-mar ou águas-vivas-de-pente"
+  },
+  {
+    "pergunta": "Qual é o nome científico do grupo?",
+    "resposta": "Ctenophora"
+  },
+  {
+    "pergunta": "Quais são as características distintivas dos ctenóforos?",
+    "resposta": "Presença de pentes formados por grupos de cílios para nadar e serem bioluminescentes"
+  },
+  {
+    "pergunta": "Qual o tamanho máximo de um ctenóforo adulto?",
+    "resposta": "Até 1,5 metros de comprimento"
+  },
+  {
+    "pergunta": "Onde os ctenóforos são encontrados naturalmente?",
+    "resposta": "Águas oceânicas e estuarinas, com distribuição cosmopolita"
+  },
+  {
+    "pergunta": "Os ctenóforos são filogeneticamente próximos às medusas?",
+    "resposta": "Não, as semelhanças são resultado de convergência evolutiva"
+  },
+  {
+    "pergunta": "Qual é a espécie-tipo de Ctenophora?",
+    "resposta": "Mnemiopsis leidyi"
+  },
+  {
+    "pergunta": "Quais são as classes principais do filo Ctenophora?",
+    "resposta": "Tentaculata, Nuda e Scleroctenophora"
+  },
+  {
+    "pergunta": "Quando os ctenóforos aparecem no registro fóssil?",
+    "resposta": "Desde o Cambriano"
+  },
+  {
+    "pergunta": "Quem é o autor da classificação de Ctenophora?",
+    "resposta": "Eschscholtz, 1829"
+  }
+]

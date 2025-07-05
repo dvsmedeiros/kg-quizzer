@@ -1,0 +1,88 @@
+<think>
+Okay, I'm trying to help the user generate 10 objective questions and their correct answers based on the given context about Fresno, California. Let me start by understanding what's required.
+
+First, the user provided a lot of data about Fresno, including its establishment year, population, notable residents like George N. Zenovich who passed away there, various places and organizations named after it, and some facts about basketball teams and other local entities.
+
+The task is to create 10 pairs where each pair consists of a question related to the context and a correct answer extracted directly from the provided data. Each question must be unique and cover different aspects of the information given.
+
+I'll go through the provided data and extract key points that can form questions. For example, Fresno's population, its establishment year, notable residents, types of government, languages spoken there, geographical coordinates, sports teams associated with it, and so on.
+
+I need to ensure each question is clear and directly related to the context. Also, I must avoid repeating similar questions or ones that might have multiple correct answers based on the data provided.
+
+Let me list out possible questions:
+
+1. Population of Fresno: 542,086 (from the 2020 census)
+2. Year Fresno was founded: 1872
+3. Mayor's name when Fresno became a city: Adam Prentice and John E. irretrievable? Wait, looking back, I see that both Adam Prentice and John E. are listed as having born in Fresno. Maybe the mayor is one of them; perhaps it was John E.?
+4. Language used for government documents: Spanish
+5. Mayor's last name when established: Hughey
+6. Coordinates: 36.75, -119.76666666666667
+7. Type of government: Strong Mayor system
+8. Team based in Fresno for men's basketball (from 2014-15): Fresno State
+9. University with a football team in Fresno: Cal State Northridge
+10. Area of Fresno: 300.4386 square miles
+
+Wait, I think for question 3, the mayor when Fresno became a city was John E., as per the data provided.
+
+I should make sure each answer is exact and matches what's in the context. Also, double-checking to ensure no duplicates or multiple correct answers based on similar data points.
+
+Let me organize these into pairs:
+
+1. Population: 542,086
+2. Year founded: 1872
+3. Mayor when established: John E.
+4. Government type: Strong Mayor
+5. Coordinates: (36.75°N, -119.7667°W)
+6. Mayor's last name: Hughey
+7. Area in square miles: 300.44
+8. Basketball team: Fresno State
+9. University football team: Cal State Northridge
+10. Language for government documents: Spanish
+
+I think these cover a good range of aspects from population, governance, geography, demographics, and local sports teams.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quais foram os nomes de dois matrizes nascidos em Fresno?",
+    "resposta": "Adam Prentice e John E. Hughey"
+  },
+  {
+    "pergunta": "De qual tipo é a governança de Fresno?",
+    "resposta": "Strong Mayor"
+  },
+  {
+    "pergunta": "Qual foi o nome do Governador de Fresno no ano de sua incorporação?",
+    "resposta": "Herbert E. Hughey"
+  },
+  {
+    "pergunta": "Qual é a área geográfica de Fresno em square miles?",
+    "resposta": "300.44 square miles"
+  },
+  {
+    "pergunta": "Em qual ano o basketball da Fresno State foi Selected by the NCAA?",
+    "resposta": "2014–15 season"
+  },
+  {
+    "pergunta": "Qual é o nome do time de basquete da Cal State Northridge que está localizado em Fresno?",
+    "resposta": "Dons"
+  },
+  {
+    "pergunta": "Quais foram os nomes dos dois primeiros cidadinos de Fresno?",
+    "resposta": "George N. Zenovich e Nathan Yau"
+  },
+  {
+    "pergunta": "Em qual estado live a football team da Fresno State no ano de 2014–15?",
+    "resposta": "California"
+  },
+  {
+    "pergunta": "Qual é o nome do time de basquete que frequentou o Fresno na temporada de 2017–18?",
+    "resposta": "Fresno State Bulldogs"
+  },
+  {
+    "pergunta": "Em qual ano a Califórnia do Grupo PACIFIC estabeceu sua estação de rádio KerpR?",
+    "resposta": "1936"
+  }
+]
+```

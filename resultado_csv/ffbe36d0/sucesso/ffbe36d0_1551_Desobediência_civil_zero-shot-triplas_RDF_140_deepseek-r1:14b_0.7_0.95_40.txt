@@ -1,0 +1,89 @@
+<think>
+Okay, so I need to generate 10 pairs of questions and answers based on the given context about civil disobedience. The user provided a detailed context explaining what civil disobedience is, its origins with Thoreau and Gandhi, and some facts in RDF format linking various events and movements to civil disobedience.
+
+First, I should understand the structure they want: each pair is a JSON object with "pergunta" and "resposta". I need exactly 10 of these. The questions must be varied, covering different aspects of the content, without repeating similar ones.
+
+Looking at the context, key points are:
+- Definition and purpose
+- Historical figures (Thoreau, Gandhi, MLK)
+- Examples of movements and protests
+
+So, possible question topics could include:
+1. What is civil disobedience?
+2. Who introduced it?
+3. Who applied it successfully?
+4. What are some examples?
+5. Why do people use it?
+
+I should ensure each question has a unique focus. Let's brainstorm:
+
+Q1: Definition
+Q2: Originator (Thoreau)
+Q3: Who used it in India and US? Gandhi, MLK
+Q4: Methods linked to CD
+Q5: Event against unjust laws
+Q6: Nature of protest
+Q7: Movements using CD
+Q8: Purpose behind CD
+Q9: Example from Thoreau's work
+Q10: Application by Gandhi
+
+Wait, the user provided a response that already lists 10 questions. I need to make sure my approach is correct but perhaps think if there are other angles or specific events mentioned in the facts.
+
+The RDF facts list various protests and movements using civil disobedience, like the 1998 Russian miners' strike, 2015 Montenegrin crisis, etc. Maybe some questions can ask about these examples.
+
+But since the user's sample response didn't use those specific events, perhaps it's better to stick with general knowledge from the context provided.
+
+I should avoid repeating similar questions. For example, both Gandhi and MLK are mentioned; maybe one question on each.
+
+Also, ensure that each answer is directly supported by the context. For instance, Thoreau is noted as the originator, so a question about who formulated it would have him as the answer.
+
+Another point: the purpose of CD is to oppose injustice or oppressive governments, so questions could ask about this purpose.
+
+I should structure the JSON correctly, without markdown, and ensure each entry is properly formatted.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a definição de desobediência civil?",
+    "resposta": "Uma forma de protesto político feito pacificamente contra ordens consideradas injustas ou opressivas."
+  },
+  {
+    "pergunta": "Quem foi o primeiro a conceber teoricamente a desobediência civil?",
+    "resposta": "Henry David Thoreau."
+  },
+  {
+    "pergunta": "Qual líder histórico aplicou com sucesso a desobediência civil na Índia?",
+    "resposta": "Mahatma Gandhi."
+  },
+  {
+    "pergunta": "Quem usou a desobediência civil nos Estados Unidos na luta pelos direitos civis?",
+    "resposta": "Martin Luther King Jr."
+  },
+  {
+    "pergunta": "Qual é um exemplo de método associado à desobediência civil?",
+    "resposta": "Protestos, greves e manifestações pacíficas."
+  },
+  {
+    "pergunta": "Para que fim a população pode usar a desobediência civil?",
+    "resposta": "Quando o governo não satisfaz as exigências da população."
+  },
+  {
+    "pergunta": "Qual foi um movimento histórico que utilizou a desobediência civil?",
+    "resposta": "A Marcha dos Círculos Civis (Civil Rights Movement)."
+  },
+  {
+    "pergunta": "Qual é o propósito fundamental da desobediência civil?",
+    "resposta": "Oprimir um governo considerado opressivo ou injusto."
+  },
+  {
+    "pergunta": "Qual obra de Thoreau é associada à desobediência civil?",
+    "resposta": "Ensaio sobre o Governo, ou A Reluctant Resister."
+  },
+  {
+    "pergunta": "Quem ajudou a libertar a Índia e o Paquistão usando a desobediência civil?",
+    "resposta": "Mahatma Gandhi."
+  }
+]
+```

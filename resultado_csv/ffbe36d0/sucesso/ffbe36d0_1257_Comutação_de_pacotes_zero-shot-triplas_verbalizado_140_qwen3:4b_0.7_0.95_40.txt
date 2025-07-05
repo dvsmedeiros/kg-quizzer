@@ -1,0 +1,69 @@
+<think>
+Okay, I need to generate 10 objective questions and answers based on the provided context and facts about packet switching. Let me start by understanding the content thoroughly.
+
+The context explains packet switching as a communication method in computer networks where data packets are individually routed. It contrasts with circuit switching, which uses dedicated paths. Key points include optimizing bandwidth, minimizing latency, and increasing robustness. There are two types: circuit-switched (virtual circuits) and datagram (no connection). Examples given are ATM, Frame Relay, X.25 for circuit-switched, and IP for datagram. Also, the context mentions some people associated with packet switching like W. David Sincoskie, Donald Davies, Paul Baran, and Sharla Boehm.
+
+The facts list various attributes of packet switching, including categories like Computer Networking, Telecommunications, types like Network, Software, PhysicalEntity, and URLs. There are images and templates used in Wikipedia pages related to packet switching. Also, dates and other technical terms are mentioned.
+
+Now, I need to create 10 unique questions that cover different aspects. Let me brainstorm possible questions:
+
+1. What is the main difference between packet switching and circuit switching? (Answer: Packet switching routes packets individually, while circuit switching uses dedicated paths.)
+2. What is the purpose of packet switching? (Answer: To optimize bandwidth, minimize latency, and increase robustness.)
+3. What are the two main types of packet switching? (Answer: Circuit-switched (virtual circuits) and datagram.)
+4. Which protocol uses datagram packet switching? (Answer: IP (Internet Protocol).)
+5. Who are known for developing packet switching? (Answer: W. David Sincoskie, Donald Davies, Paul Baran, and Sharla Boehm.)
+6. What is an example of a circuit-switched packet switching technology? (Answer: ATM, Frame Relay, X.25.)
+7. What are the advantages of packet switching? (Answer: Better bandwidth utilization, lower latency, higher robustness.)
+8. What is the main disadvantage of packet switching? (Answer: Variable quality of service, jitter, and delays.)
+9. What is the primary use of packet switching in computer networks? (Answer: Efficient data transmission with dynamic routing.)
+10. Which category is packet switching associated with in the given context? (Answer: Computer Networking and Telecommunications.)
+
+Wait, I need to make sure each question is unique and covers different aspects. Let me check if these are all distinct and based on the facts. Also, ensure that the answers are directly from the text or can be inferred. For example, the question about who is known for packet switching includes the names mentioned in the facts. The examples for circuit-switched are ATM, Frame Relay, X.25. The advantages and disadvantages are mentioned in the context. The categories like Computer Networking and Telecommunications are listed in the facts.
+
+I should also check for any possible overlaps or if some answers are not explicitly stated but can be inferred. For instance, the advantage of better bandwidth utilization is mentioned. The disadvantage is variable service quality. The examples for datagram are IP. The types of packet switching are circuit-switched and datagram. The people associated are the ones listed.
+
+I think these 10 questions cover different aspects: definition, purpose, types, examples, advantages, disadvantages, key figures, categories, and uses. Each answer is either directly stated or can be inferred from the given text. Now, I need to structure them into the JSON format as specified, ensuring that the pergunta and resposta are in Portuguese and correctly formatted.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a diferença principal entre a comutação de pacotes e a comutação de circuitos?",
+    "resposta": "A comutação de pacotes encaminha pacotes individualmente, enquanto a comutação de circuitos utiliza caminhos dedicados entre os nós."
+  },
+  {
+    "pergunta": "Qual é o objetivo principal da comutação de pacotes?",
+    "resposta": "Otimizar o uso da largura de banda da rede, minimizar a latência e aumentar a robustez da comunicação."
+  },
+  {
+    "pergunta": "Quais são os dois tipos principais de comutação de pacotes?",
+    "resposta": "Com ligação (circuito virtual) e sem ligação (datagrama)."
+  },
+  {
+    "pergunta": "Qual protocolo utiliza a comutação de pacotes sem ligação?",
+    "resposta": "O protocolo IP (Internet Protocol)."
+  },
+  {
+    "pergunta": "Quem é conhecido por ter contribuído para a desenvolvimento da comutação de pacotes?",
+    "resposta": "W. David Sincoskie, Donald Davies, Paul Baran e Sharla Boehm."
+  },
+  {
+    "pergunta": "Qual é um exemplo de tecnologia de comutação de pacotes com ligação?",
+    "resposta": "ATM (Asynchronous Transfer Mode), Frame Relay e X.25."
+  },
+  {
+    "pergunta": "Quais são os benefícios da comutação de pacotes em redes de computadores?",
+    "resposta": "Melhor utilização da largura de banda, menor latência e maior robustez na comunicação."
+  },
+  {
+    "pergunta": "Qual é o principal desvantagem da comutação de pacotes?",
+    "resposta": "Variabilidade na qualidade de serviço, jitter e atrasos diversos."
+  },
+  {
+    "pergunta": "Qual é a principal função da comutação de pacotes em redes de computadores?",
+    "resposta": "Facilitar a transmissão eficiente de dados com roteamento dinâmico."
+  },
+  {
+    "pergunta": "Quais categorias estão associadas à comutação de pacotes no contexto fornecido?",
+    "resposta": "Computação e Telecomunicações."
+  }
+]

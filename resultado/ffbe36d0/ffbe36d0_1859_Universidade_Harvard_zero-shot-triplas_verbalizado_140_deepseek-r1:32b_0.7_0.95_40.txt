@@ -1,0 +1,69 @@
+<think>
+Okay, so I need to generate 10 question-answer pairs based on the given context and facts about Harvard University. Let me start by reading through everything carefully.
+
+First, the context provides a lot of information about Harvard's history, location, notable alumni, academic units, financial status, sports, and more. The facts list includes many individuals associated with Harvard as alumni or faculty, along with some images and other details.
+
+I should make sure each question is unique and covers different aspects of the content. Let me think about what key points I can extract.
+
+1. **Founding Year**: The university was founded in 1636.
+2. **Donor's Name**: Named after John Harvard, its first benefactor.
+3. **Campus Location**: Main campus is in Cambridge, MA.
+4. **Presidents Count**: Eight U.S. presidents are alumni.
+5. **Nobel Laureates**: Over 150 Nobel laureates have been affiliated with Harvard.
+6. **Libraries**: It has the largest academic library system in the U.S.
+7. **Athletics**: Competes in 42 NCAA Division I sports.
+8. **Funding**: The budget was around $30 billion in 2012.
+9. **Academic Units**: Eleven units including ten faculties and one institute.
+10. **Notable Alumni Example**: Bill Gates studied there.
+
+I should phrase each of these points into a clear question with the corresponding answer. Let me check if I can vary the aspects, like history, location, achievements, finances, etc., to make sure they're diverse.
+
+Wait, some facts list individuals as alumni or faculty. Maybe include one about notable people? But I think it's better to focus on general facts about the university itself rather than individual names unless specified.
+
+I should ensure each question has only one correct answer and that it's directly supported by the context or facts provided.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Em que ano foi fundada a Universidade Harvard?",
+    "resposta": "1636"
+  },
+  {
+    "pergunta": "Quem foi o primeiro benfeitor da Universidade Harvard?",
+    "resposta": "John Harvard"
+  },
+  {
+    "pergunta": "Onde está localizado o campus principal da Universidade Harvard?",
+    "resposta": "Cambridge, Massachusetts"
+  },
+  {
+    "pergunta": "Quantos presidentes dos Estados Unidos são alumni da Universidade Harvard?",
+    "resposta": "Oito"
+  },
+  {
+    "pergunta": "Quantos laureados com o Prêmio Nobel estão associados à Universidade Harvard?",
+    "resposta": "Cerca de 150"
+  },
+  {
+    "pergunta": "Qual é o tamanho do orçamento da Universidade Harvard?",
+    "resposta": "30 bilhões de dólares"
+  },
+  {
+    "pergunta": "Em quantos esportes a Universidade Harvard compete na NCAA Division I?",
+    "resposta": "42"
+  },
+  {
+    "pergunta": "Qual é o nome da maior biblioteca acadêmica dos Estados Unidos?",
+    "resposta": "Biblioteca da Universidade de Harvard"
+  },
+  {
+    "pergunta": "Quantas unidades acadêmicas a Universidade Harvard possui?",
+    "resposta": "Onze"
+  },
+  {
+    "pergunta": "Qual é um exemplo de pessoa famosa que estudou na Universidade Harvard?",
+    "resposta": "Bill Gates"
+  }
+]
+```

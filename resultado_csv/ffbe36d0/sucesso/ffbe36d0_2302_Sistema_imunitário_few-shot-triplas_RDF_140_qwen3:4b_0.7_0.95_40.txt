@@ -1,0 +1,74 @@
+<think>
+Okay, the user wants me to generate 10 pairs of questions and answers in Portuguese based on the provided context and facts. Let me start by carefully reading through the context and facts given.
+
+The context explains the immune system, its functions, the work of Ilya Mechnikov, various mechanisms like phagocytosis, complement system, and the difference between adaptive and innate immunity. It also mentions diseases like autoimmune disorders and immunodeficiency. The facts include various entities related to the immune system, like B cells, T cells, macrophages, etc.
+
+I need to make sure the questions cover different aspects. Let me list out possible topics: the definition of the immune system, the creator of the term, types of immunity, components of the immune system, functions, diseases related to the immune system, and maybe some specific cells or processes.
+
+First question: What is the primary function of the immune system? Answer: Protect the organism against diseases.
+
+Second: Who is credited with coining the term "immune system"? Answer: Ilya Ilyich Mechnikov.
+
+Third: What are the two main types of immunity mentioned? Answer: Innate and adaptive.
+
+Fourth: What is the process by which the immune system remembers pathogens? Answer: Immunological memory.
+
+Fifth: What is the term for when the immune system attacks the body's own tissues? Answer: Autoimmunity.
+
+Sixth: What are some mechanisms used by the immune system to detect pathogens? Answer: Phagocytosis, complement system, defensins.
+
+Seventh: What is the result of immunodeficiency? Answer: Recurrent infections and risk of life-threatening conditions.
+
+Eighth: Which cells are part of the adaptive immune system? Answer: B cells, T cells, and natural killer cells.
+
+Ninth: What is the role of the complement system? Answer: Aid in the destruction of pathogens.
+
+Tenth: What is the term for the immune system's ability to adapt over time? Answer: Adaptive immunity.
+
+I need to check if these questions are all distinct and based on the provided content. Also, ensure that the answers are correctly derived from the text. For example, the complement system is mentioned in the context, and adaptive immunity is discussed. The answer about immunological memory is from the part where it says the body creates memory after an initial response.
+
+I think that's 10. Let me structure them in JSON format as specified, making sure the language is Portuguese and the answers are accurate.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a principal função do sistema imunológico?",
+    "resposta": "proteger o organismo contra doenças."
+  },
+  {
+    "pergunta": "Quem é creditado com a criação do termo 'sistema imunológico'?",
+    "resposta": "Ilya Ilyich Mechnikov."
+  },
+  {
+    "pergunta": "Quais são os dois tipos principais de imunidade mencionados no texto?",
+    "resposta": "imunidade inata e imunidade adaptativa."
+  },
+  {
+    "pergunta": "O que acontece quando o sistema imunológico é menos ativo do que o normal?",
+    "resposta": "imunodeficiência."
+  },
+  {
+    "pergunta": "O que é o sistema imunológico adaptativo?",
+    "resposta": "capacidade do organismo de se adaptar para reconhecer agentes patogénicos específicos."
+  },
+  {
+    "pergunta": "Quais são alguns mecanismos utilizados pelo sistema imunológico para detectar patógenos?",
+    "resposta": "fagocitose, sistema complemento e defensinas."
+  },
+  {
+    "pergunta": "Qual é o termo para quando o sistema imunológico ataca tecidos normais do corpo?",
+    "resposta": "autoimunidade."
+  },
+  {
+    "pergunta": "Quais células são parte do sistema imunológico adaptativo?",
+    "resposta": "células B, células T e células naturais de killer."
+  },
+  {
+    "pergunta": "Qual é o papel do sistema complemento no organismo?",
+    "resposta": "ajudar na destruição de patógenos."
+  },
+  {
+    "pergunta": "O que é a memória imunológica?",
+    "resposta": "processo pelo qual o sistema imunológico 'lembrar' patógenos após uma exposição inicial."
+  }
+]

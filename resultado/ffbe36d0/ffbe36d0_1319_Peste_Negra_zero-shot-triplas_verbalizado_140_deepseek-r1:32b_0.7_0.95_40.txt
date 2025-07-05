@@ -1,0 +1,98 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts about the Black Death. Let me start by reading through the context carefully.
+
+The Black Death was a massive pandemic in human history, killing between 75 to 200 million people in Eurasia. It peaked in Europe from 1347 to 1351. The cause was Yersinia pestis bacteria, leading to different forms like bubonic, septicemic, and pneumonic plague. This was the first major European outbreak and part of the second pandemic.
+
+It originated in Central or East Asia and spread via the Silk Road to Crimea by 1343. From there, it moved through Genoese merchant ships, carried by fleas on rats. Europe's population dropped by 30-60%, with a global decrease from 475 million to around 350-375 million in the 14th century. It took about 200 years for Europe's population to recover, and some areas like Florence only recovered in the 19th century. The plague recurred until the early 20th century.
+
+Looking at the facts, they include sources, categories, images, models used on the wiki page, death tolls, etc. But I should focus mainly on the context for questions.
+
+Now, I need to create varied questions covering different aspects: causes, effects, spread, demographics, historical impact, etc. Each question should have a clear, single correct answer from the context.
+
+1. What was the main cause of the Black Death?
+   - Yersinia pestis bacteria
+
+2. When did the Black Death peak in Europe?
+   - Between 1347 and 1351
+
+3. How many people died in Eurasia during the pandemic?
+   - 75 to 200 million
+
+4. What were the three forms of plague caused by Yersinia pestis?
+   - Bubonic, septicemic, pneumonic (but since context mentions "mais comum, bubónica", maybe just ask about the most common form? Or include all three as separate answers?)
+
+Wait, in the context, it says "resulta em várias formas de peste (septicémica, pneumónica e, a mais comum, bubónica)". So septicemic, pneumonic, and bubonic.
+
+But to keep it simple, maybe just ask for the main form. But perhaps better to cover different aspects.
+
+Alternatively: What were the three forms of plague caused by Yersinia pestis? Answer: Bubonic, septicemic, and pneumonic plagues.
+
+5. How did the Black Death spread from Crimea to Europe?
+   - Via fleas on rats aboard Genoese merchant ships
+
+6. What was the global population before and after the pandemic in the 14th century?
+   - From 475 million to around 350–375 million
+
+7. How long did it take for Europe's population to recover from the Black Death?
+   - About 200 years
+
+8. Which regions were particularly affected by the pandemic beyond Europe?
+   - Eurasia, North Africa, Near East (from the map description)
+
+9. What was one of the significant impacts of the Black Death on European society?
+   - Profound effects on religious, social, and economic structures
+
+10. When did the Black Death likely originate?
+    - In Central or East Asia
+
+Wait, looking back at the context: "a Peste Negra provavelmente teve a sua origem na Ásia Central ou na Ásia Oriental". So origin was in Central or East Asia.
+
+I think these cover different aspects. Let me make sure each question is unique and covers various points without overlap.
+</think>
+
+Here are the 10 question-answer pairs based on the Black Death context:
+
+```json
+[
+  {
+    "pergunta": "Qual foi a principal causa da Peste Negra?",
+    "resposta": "A bactéria Yersinia pestis"
+  },
+  {
+    "pergunta": "Quando é considerado o ápice da Peste Negra na Europa?",
+    "resposta": "Entre os anos de 1347 e 1351"
+  },
+  {
+    "pergunta": "Quantas pessoas morreram na Eurásia durante a pandemia?",
+    "resposta": "Entre 75 milhões e 200 milhões de pessoas"
+  },
+  {
+    "pergunta": "Quais são as três formas de peste causadas pela Yersinia pestis?",
+    "resposta": "Peste bubónica, septicémica e pneumónica"
+  },
+  {
+    "pergunta": "Como a Peste Negra se espalhou da Crimeia para a Europa?",
+    "resposta": "Por meio de pulgas em ratos que viajavam em navios mercantes genoveses"
+  },
+  {
+    "pergunta": "Qual foi a redução na população mundial no século XIV devido à Peste Negra?",
+    "resposta": "Da estimativa de 475 milhões para 350–375 milhões"
+  },
+  {
+    "pergunta": "Quanto tempo levou para que a população da Europa se recuperasse do impacto da Peste Negra?",
+    "resposta": "Aproximadamente 200 anos"
+  },
+  {
+    "pergunta": "Para quais regiões além da Europa a Peste Negra teve um grande impacto?",
+    "resposta": "Ásia, África do Norte e Oriente Próximo"
+  },
+  {
+    "pergunta": "Qual foi um dos grandes impactos da Peste Negra na sociedade europeia?",
+    "resposta": "Efeitos profundos nas estruturas religiosas, sociais e econômicas"
+  },
+  {
+    "pergunta": "De onde a Peste Negra provavelmente teve sua origem?",
+    "resposta": "Ásia Central ou Ásia Oriental"
+  }
+]
+```

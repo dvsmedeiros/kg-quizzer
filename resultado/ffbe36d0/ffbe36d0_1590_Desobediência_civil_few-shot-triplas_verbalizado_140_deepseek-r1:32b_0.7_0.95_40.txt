@@ -1,0 +1,71 @@
+<think>
+Okay, so I'm trying to figure out how to approach this task. The user provided a context about civil disobedience and a list of facts related to it. They want me to generate 10 question-answer pairs based on that information. Each pair should be in Portuguese, with the question and the correct answer. 
+
+First, I need to understand the context thoroughly. Civil disobedience is a form of peaceful protest against unjust laws or oppressive governments. It's been used by notable figures like Thoreau, Gandhi, and Martin Luther King Jr. The facts list various movements and events that have employed civil disobedience, such as the Montgomery Bus Boycott, Occupy Canada, and others.
+
+Next, I should look through the provided facts to identify key points. These include different protests, organizations, and historical figures associated with civil disobedience. My goal is to create varied questions covering these aspects without repeating similar ones. Each question must have a clear, single correct answer derivable from the context or facts.
+
+I also need to ensure that each question is in Portuguese and properly formatted as per the JSON structure given. I'll avoid any additional explanations or justifications beyond what's necessary for the Q&A pairs.
+
+Let me start brainstorming some questions:
+
+1. Who is considered the father of civil disobedience?
+2. What movement led by Martin Luther King Jr. used civil disobedience?
+3. Which country saw civil disobedience during the 2019 protests against corruption?
+4. Name one environmental group that uses civil disobedience.
+5. How did Gandhi use civil disobedience in India?
+6. What was a significant event of civil disobedience in South Africa?
+7. Identify a protest movement in Canada that used civil disobedience.
+8. Which organization focuses on nonviolent resistance and has ties to civil disobedience?
+9. What's the term for refusing to obey certain laws peacefully?
+10. How did Thoreau influence the concept of civil disobedience?
+
+Now, I'll match each question with the correct answer from the facts provided. For example, the father is Henry David Thoreau, and Gandhi's action was the Salt March.
+
+I need to make sure all answers are accurate and directly relate to the context or listed facts without introducing new information.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem é considerado o pai da desobediência civil?",
+    "resposta": "Henry David Thoreau"
+  },
+  {
+    "pergunta": "Qual movimento liderado por Martin Luther King Jr. utilizou a desobediência civil?",
+    "resposta": "Movimento pelos Direitos Civis nos Estados Unidos"
+  },
+  {
+    "pergunta": "Em qual país ocorreram protestos contra a corrupção em 2019 que usaram desobediência civil?",
+    "resposta": "Montenegro"
+  },
+  {
+    "pergunta": "Nomeie um grupo ambiental que utiliza desobediência civil.",
+    "resposta": "Insulate Britain"
+  },
+  {
+    "pergunta": "Como Gandhi utilizou a desobediência civil na Índia?",
+    "resposta": "Caminhada do Sal (Dandi March)"
+  },
+  {
+    "pergunta": "Qual foi um evento significativo de desobediência civil na África do Sul?",
+    "resposta": "Movimento contra o apartheid"
+  },
+  {
+    "pergunta": "Identifique um movimento de protesto no Canadá que usou desobediência civil.",
+    "resposta": " Occupy Canada"
+  },
+  {
+    "pergunta": "Qual organização foca em resistência não violenta e está ligada à desobediência civil?",
+    "resposta": "Ruckus Society"
+  },
+  {
+    "pergunta": "Qual é o termo para recusar obedecer a certas leis de maneira pacífica?",
+    "resposta": "Desobediência Civil"
+  },
+  {
+    "pergunta": "Como Thoreau influenciou o conceito de desobediência civil?",
+    "resposta": "Com seu ensaio 'Sobre a Desobediência Civil'"
+  }
+]
+```

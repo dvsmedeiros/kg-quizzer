@@ -1,0 +1,69 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts about computational complexity theory. First, I need to understand the context thoroughly.
+
+The context mentions that computational complexity theory classifies computational problems based on resource usage and explores relationships between these classifications. It also lists various facts from DBpedia about individuals associated with this field, their academic disciplines, and related topics.
+
+So, the goal is to create 10 pairs. Each question should be varied and cover different aspects of the content. I need to avoid repeating similar questions. Let me start by identifying key points from the context:
+
+1. Definition of computational complexity theory.
+2. Classification of problems based on resource usage.
+3. Key figures in the field (like Christos Papadimitriou, David Shmoys, etc.).
+4. Relationships between different complexity classes.
+5. Mention of specific resources like Wikipedia and DBpedia entries.
+6. Categories and subcategories (e.g., complexity classes, decision problems).
+7. Notable concepts like P vs NP, algorithms, data structures.
+8. Academic disciplines and their connections.
+9. The role of computational complexity in computer science.
+10. Theoretical aspects and their practical implications.
+
+Now, I need to form questions that are distinct and cover these areas. Let me ensure each question is unique and answers are directly inferable from the context. For example, a question about the main focus of the theory, another about key researchers, another about the classification criteria, etc.
+
+I should check that each answer is explicitly stated or can be inferred without adding external knowledge. For instance, the fact that computational complexity theory is part of computer science is mentioned in the context. Also, the mention of specific individuals and their associations with the field can be used for questions about notable contributors.
+
+I need to make sure not to repeat the same type of questions. For example, if I ask about the main focus, another question could be about the classification criteria, another about the relationship between complexity classes, and so on. Also, including questions about the role of DBpedia and Wikipedia entries might be relevant.
+
+Let me draft the questions and answers step by step, ensuring they are varied and correctly based on the provided facts. Once I have 10, I'll format them into the required JSON structure without any additional text.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o foco principal da teoria da complexidade computacional?",
+    "resposta": "Classificar problemas computacionais com base no uso de recursos e explorar relações entre essas classificações."
+  },
+  {
+    "pergunta": "Quem é um exemplo de acadêmico associado à teoria da complexidade computacional?",
+    "resposta": "Christos Papadimitriou."
+  },
+  {
+    "pergunta": "Qual é a relação entre a teoria da complexidade computacional e a ciência da computação?",
+    "resposta": "É uma subárea central da ciência da computação teórica."
+  },
+  {
+    "pergunta": "Qual é o tema principal da entrada da Wikipedia referenciada no contexto?",
+    "resposta": "Teoria da complexidade computacional."
+  },
+  {
+    "pergunta": "Qual é uma das categorias associadas à teoria da complexidade computacional?",
+    "resposta": "Computational complexity classes."
+  },
+  {
+    "pergunta": "Quem é um pesquisador associado à teoria da complexidade computacional mencionado no contexto?",
+    "resposta": "David Shmoys."
+  },
+  {
+    "pergunta": "Qual é o campo de estudo principal da teoria da complexidade computacional?",
+    "resposta": "Ciência da computação teórica e matemática."
+  },
+  {
+    "pergunta": "Qual é uma das propriedades de um problema computacional segundo o contexto?",
+    "resposta": "Pode ser resolvido por um algoritmo aplicando etapas matemáticas mecânicas."
+  },
+  {
+    "pergunta": "Qual é o nome do recurso que menciona a teoria da complexidade computacional como tema principal?",
+    "resposta": "Wikipedia."
+  },
+  {
+    "pergunta": "Quem é outro acadêmico associado à teoria da complexidade computacional listado no contexto?",
+    "resposta": "Umesh Vazirani."
+  }
+]

@@ -1,0 +1,95 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let's start by thoroughly understanding the context. The context is about oxygen, its properties, discovery, uses, and related information. The facts include various categories, images, models, and other related terms. 
+
+First, I should identify key points from the context. Oxygen's atomic number is 8, it's a chalcogen, a diatomic gas (O2), makes up 20.8% of the atmosphere, essential for life, reactive, and involved in photosynthesis. It was discovered by Scheele and Priestley, with Lavoisier giving it the name. Also, its role in oxidation, applications in industry, medical uses, and environmental impact like ozone layer and smog.
+
+Now, the facts mention things like "Oxygen possui assunto Category:Oxidizing agents" or "Oxygen é do tipo ChemicalCompound". But the user wants questions based on the context, not the facts. Wait, the instructions say to generate questions and answers based on the context and facts provided. So I need to use both the context and the facts.
+
+But wait, the user says "exclusivamente a partir do conteúdo fornecido." So the context and facts. However, the facts are more about Wikipedia models, categories, images, etc. But the user wants questions relevant to the context. So the facts might not be directly useful unless they relate to the context. For example, "Oxygen possui imagem representativa Goddard and Rocket.jpg" might not be relevant, but "Oxygen é do tipo ChemicalCompound" could be used in a question about its classification.
+
+But maybe the main focus is the context. Let me check the context again. The context is a detailed description of oxygen. So the questions should be based on that. Let me list possible aspects:
+
+1. Discovery of oxygen (Scheele, Priestley, Lavoisier)
+2. Properties (diatomic, colorless, role in atmosphere)
+3. Abundance in the universe and Earth's crust
+4. Role in biological processes (cellular respiration, organic molecules)
+5. Ozone layer and its importance
+6. Uses in industry, medicine, etc.
+7. Historical significance (flogiston theory)
+8. Reactivity and oxidation
+9. Physical states (gas, liquid, solid)
+10. Environmental impact (decreasing atmospheric levels)
+
+Now, I need to form 10 unique questions, each with a correct answer from the context. Let's start drafting:
+
+1. Who discovered oxygen? (Answer: Carl Wilhelm Scheele and Joseph Priestley, but Priestley is credited more)
+2. What is the percentage of oxygen in Earth's atmosphere? (20.8%)
+3. What is the chemical symbol and atomic number of oxygen? (O, 8)
+4. What is the role of oxygen in the atmosphere? (Supports life, part of ozone layer)
+5. What are the main applications of oxygen? (Respiration, industrial uses, medical)
+6. What is the significance of oxygen in the formation of oxides? (Forms compounds with most elements)
+7. What is the effect of oxygen on the environment? (Decreasing levels due to fossil fuels)
+8. How does oxygen contribute to the biosphere? (Component of water and organic molecules)
+9. What is the historical context of oxygen's discovery? (Lavoisier's role in disproving flogiston)
+10. What are the physical properties of oxygen? (Colorless, inodorous, insoluble in water)
+
+Now, check if these are all covered in the context. The context mentions all these points. Now, ensure that each question is unique and not similar. Also, check for correct answers based on the context.
+
+Now, translate to Portuguese and structure as JSON. Make sure each pair is correct. Let me verify each:
+
+1. Pergunta: Quem descobriu o oxigénio? Resposta: Carl Wilhelm Scheele e Joseph Priestley, mas Joseph Priestley é mais creditado.
+2. Pergunta: Qual a porcentagem de oxigénio na atmosfera terrestre? Resposta: 20,8%.
+3. Pergunta: Qual o símbolo e número atómico do oxigénio? Resposta: Símbolo O, número atómico 8.
+4. Pergunta: Qual a função do oxigénio na atmosfera? Resposta: Suporta a vida, parte da camada de ozono.
+5. Pergunta: Quais são as principais aplicações do oxigénio? Resposta: Respiração, uso industrial e médico.
+6. Pergunta: Qual a importância do oxigénio na formação de óxidos? Resposta: Forma compostos com a maioria dos elementos.
+7. Pergunta: Qual o impacto do oxigénio no ambiente? Resposta: Níveis em declínio devido à queima de combustíveis fósseis.
+8. Pergunta: Como o oxigénio contribui para a biosfera? Resposta: Componente da água e moléculas orgânicas.
+9. Pergunta: Qual o contexto histórico do descobrimento do oxigénio? Resposta: Lavoisier desacreditou a teoria do flogisto.
+10. Pergunta: Quais são as propriedades físicas do oxigénio? Resposta: Incolor, inodoro, pouco solúvel em água.
+
+Check if all answers are in the context. Yes, each answer is directly from the context. Now, ensure that the JSON is correctly formatted with 10 pairs.
+</think>
+
+[
+  {
+    "pergunta": "Quem descobriu o oxigénio?",
+    "resposta": "Carl Wilhelm Scheele e Joseph Priestley, mas Joseph Priestley é mais creditado."
+  },
+  {
+    "pergunta": "Qual a porcentagem de oxigénio na atmosfera terrestre?",
+    "resposta": "20,8%."
+  },
+  {
+    "pergunta": "Qual o símbolo e número atómico do oxigénio?",
+    "resposta": "Símbolo O, número atómico 8."
+  },
+  {
+    "pergunta": "Qual a função do oxigénio na atmosfera?",
+    "resposta": "Suporta a vida, parte da camada de ozono."
+  },
+  {
+    "pergunta": "Quais são as principais aplicações do oxigénio?",
+    "resposta": "Respiração, uso industrial e médico."
+  },
+  {
+    "pergunta": "Qual a importância do oxigénio na formação de óxidos?",
+    "resposta": "Forma compostos com a maioria dos elementos."
+  },
+  {
+    "pergunta": "Qual o impacto do oxigénio no ambiente?",
+    "resposta": "Níveis em declínio devido à queima de combustíveis fósseis."
+  },
+  {
+    "pergunta": "Como o oxigénio contribui para a biosfera?",
+    "resposta": "Componente da água e moléculas orgânicas."
+  },
+  {
+    "pergunta": "Qual o contexto histórico do descobrimento do oxigénio?",
+    "resposta": "Lavoisier desacreditou a teoria do flogisto."
+  },
+  {
+    "pergunta": "Quais são as propriedades físicas do oxigénio?",
+    "resposta": "Incolor, inodoro, pouco solúvel em água."
+  }
+]

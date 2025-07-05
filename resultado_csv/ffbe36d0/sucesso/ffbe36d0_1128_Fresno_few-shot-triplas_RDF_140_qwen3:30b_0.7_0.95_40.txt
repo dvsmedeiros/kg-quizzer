@@ -1,0 +1,120 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided data about Fresno, California. First, I need to understand the data given.
+
+Looking at the data, there's a lot of structured information. The main entity is Fresno, with various properties like area, population, government type, etc. There are also examples of questions and answers provided, which can guide me on the type of questions to ask.
+
+The examples include questions about the city's ranking, distance from other cities, meaning of the name, symbols in the flag, pronunciation, historical facts, and more. So I need to come up with similar questions but not exactly the same as the examples.
+
+First, I'll go through the data and note key points. The area is 300.438620798976 square kilometers, area code 559, government type is "Strong Mayor," settlement type is a list of municipalities in California. There's also a point with coordinates 36.75 -119.76666666666667. The Wikipedia category is San Joaquin Valley. The depiction is a picture of Fresno station.
+
+Now, I need to think of questions that can be answered with this data. Let's start with the area. The user might ask for the total area, so "Qual é a área total de Fresno?" The answer would be the number provided.
+
+Next, the area code. A question like "Qual é o código de área de Fresno?" with answer "559."
+
+The government type is "Strong Mayor," so "Qual é o tipo de governo de Fresno?" and the answer would be "Strong Mayor."
+
+The settlement type is a list of municipalities in California. Maybe "Qual é o tipo de assentamento de Fresno?" Answer: "List of municipalities in California."
+
+The coordinates can lead to a question about the geographical coordinates. "Quais são as coordenadas geográficas de Fresno?" Answer: "36.75 -119.76666666666667."
+
+The Wikipedia category is San Joaquin Valley. So "Em qual região está localizada Fresno?" Answer: "San Joaquin Valley."
+
+The depiction is a photo of the Fresno station. A question could be "Qual é a imagem representativa de Fresno?" Answer: "Foto da estação de Fresno."
+
+Another point is the historical fact about the Central Pacific Railroad establishing a station in 1872. But the example already has that. Maybe a different historical fact. Wait, the data mentions that the city was incorporated in 1885. So "Em que ano Fresno foi incorporada como cidade?" Answer: "1885."
+
+Also, there's a mention of the Fresno Traction Company operating 47 trolleys in 1931. But the example already has that. So maybe a different one. The data also has "Sun-Maid" located in Fresno. So "Qual empresa é conhecida em Fresno?" Answer: "Sun-Maid."
+
+Another point is the population. Wait, the data doesn't have population numbers. But the examples have a question about the fifth-largest city in California. The answer was Fresno. So maybe "Qual é a quinta maior cidade da Califórnia?" Answer: "Fresno." But that's already an example. Need to avoid duplicates.
+
+So I need to generate 10 unique ones. Let me check the examples again to avoid repetition. The examples include:
+
+- Fifth largest city: Fresno
+- Distance to LA: 350 km
+- Meaning of Fresno: "freixo"
+- Flag symbol: "folha de freixo"
+- Pronunciation: /ˈfrɛznoʊ/
+- Central Pacific Railroad station established in 1872
+- Reasons for moving to Fresno Station: convenience of the railroad and flood concerns
+- Incorporated as a city in 1885
+- 47 trolleys in 1931
+- The entity that spurred growth: "loja" (store)
+
+So I need to create 10 new ones. Let me list possible questions:
+
+1. What is the total area of Fresno? (Answer: 300.438620798976)
+2. What is the area code of Fresno? (Answer: 559)
+3. What is the government type of Fresno? (Answer: Strong Mayor)
+4. What is the settlement type of Fresno? (Answer: List of municipalities in California)
+5. What are the geographical coordinates of Fresno? (Answer: 36.75 -119.76666666666667)
+6. In which region is Fresno located? (Answer: San Joaquin Valley)
+7. What is the depiction of Fresno? (Answer: Photo of Fresno station)
+8. When was Fresno incorporated as a city? (Answer: 1885)
+9. Which company is known in Fresno? (Answer: Sun-Maid)
+10. What is the significance of the name Fresno? (Answer: "freixo" in Spanish)
+
+Wait, the example already has the meaning of the name. So maybe rephrase. Alternatively, use another aspect. Maybe the pronunciation, but that's also in the example. Hmm. Alternatively, the historical event of the Central Pacific Railroad establishing the station in 1872. But that's in the example. Maybe the reason for the name, but the example has that. 
+
+Alternatively, the number of trolleys in 1931 is in the example. So maybe another historical fact. But the data doesn't have more. Maybe the number of trolleys is 47, but that's already an example. 
+
+Alternatively, the population? But the data doesn't have that. 
+
+Alternatively, the city's nickname. The example has "freixo" as the meaning, but maybe the nickname is something else. But the data doesn't mention that. 
+
+Alternatively, the total area in square kilometers. The data has "300.438620798976" but the example says "350 km" for distance. So maybe the area is 300.44 km². So the question could be "Qual é a área total de Fresno em quilômetros quadrados?" Answer: "300.44 km²."
+
+Another idea: The city's official website. The data mentions a template for the official website. So "Qual é o link para o site oficial de Fresno?" But the data has "wikiPageUsesTemplate" with a template, but not the actual URL. So maybe that's not possible.
+
+Alternatively, the number of municipalities in the list. But the data doesn't specify. 
+
+Alternatively, the coordinates can be used for a question about latitude and longitude. "Quais são as coordenadas de latitude e longitude de Fresno?" Answer: "36.75 e -119.76666666666667."
+
+Another question: What is the significance of the Sun-Maid company in Fresno? Answer: "Sun-Maid is located in Fresno."
+
+I think that's 10. Now, I need to make sure they are all unique and not repeating the examples. Let me check again.
+
+Yes, the 10 questions I have now are different from the examples provided. So that should work.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a área total de Fresno em quilômetros quadrados?",
+    "resposta": "300,44 km²"
+  },
+  {
+    "pergunta": "Qual é o código de área de Fresno?",
+    "resposta": "559"
+  },
+  {
+    "pergunta": "Qual é o tipo de governo de Fresno?",
+    "resposta": "Strong Mayor"
+  },
+  {
+    "pergunta": "Qual é o tipo de assentamento de Fresno?",
+    "resposta": "Lista de municípios da Califórnia"
+  },
+  {
+    "pergunta": "Quais são as coordenadas geográficas de Fresno?",
+    "resposta": "36,75 -119,76666666666667"
+  },
+  {
+    "pergunta": "Em qual região está localizada Fresno?",
+    "resposta": "Vale do San Joaquin"
+  },
+  {
+    "pergunta": "Qual é a imagem representativa de Fresno?",
+    "resposta": "Foto da estação de Fresno"
+  },
+  {
+    "pergunta": "Quando Fresno foi incorporada como cidade?",
+    "resposta": "1885"
+  },
+  {
+    "pergunta": "Qual empresa é conhecida em Fresno?",
+    "resposta": "Sun-Maid"
+  },
+  {
+    "pergunta": "Qual é a significância da Sun-Maid em Fresno?",
+    "resposta": "A Sun-Maid está localizada em Fresno"
+  }
+]

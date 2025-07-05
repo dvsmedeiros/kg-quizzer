@@ -1,0 +1,52 @@
+<think>
+Okay, the user wants me to generate 10 objective questions and answers based on the context provided, which is "Oxygen". But wait, the context given is just "Oxygen" and no additional details. That's a bit confusing. How can I create questions without any specific information?
+
+Hmm, maybe the user expects me to use general knowledge about oxygen. Let me think. Oxygen is an element, essential for life, part of the periodic table, etc. I need to make sure the questions are varied and cover different aspects. Let me list possible topics: properties of oxygen, its role in respiration, chemical symbol, importance in the atmosphere, uses, molecular structure, discovery, oxidation states, and maybe some facts about its compounds.
+
+Wait, the user specified that the answers must be explicitly or inferable from the provided content. But the content is just "Oxygen". So I have to assume that the context is general knowledge about oxygen. Let me check if I'm allowed to use general knowledge. The user said "based on context and facts provided", but the context is just "Oxygen". So maybe I should stick to basic facts about oxygen.
+
+I need to make sure each question is unique. Let me start by creating questions about the chemical symbol, atomic number, role in respiration, molecular structure, uses, discovery, and so on. Let me count: 10 questions. Let me verify each one to ensure they are distinct and cover different aspects. Also, check that the answers are correct and based on general knowledge. For example, the chemical symbol is O, atomic number 8, diatomic molecule O2, used in medical treatments, discovered by Carl Wilhelm Scheele, etc. I need to make sure each answer is accurate. Alright, I think that's covered. Now, structure them into JSON as per the user's instructions.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o símbolo químico do oxigênio?",
+    "resposta": "O"
+  },
+  {
+    "pergunta": "Qual é o número atômico do oxigênio?",
+    "resposta": "8"
+  },
+  {
+    "pergunta": "O oxigênio é essencial para qual processo metabólico em seres vivos?",
+    "resposta": "Fotossíntese e respiração celular"
+  },
+  {
+    "pergunta": "Em que estado físico o oxigênio existe na atmosfera terrestre?",
+    "resposta": "Gasoso"
+  },
+  {
+    "pergunta": "Qual é a fórmula molecular do oxigênio em sua forma diatômica?",
+    "resposta": "O₂"
+  },
+  {
+    "pergunta": "Qual é o principal uso do oxigênio em ambientes médicos?",
+    "resposta": "Oxiárea e tratamento de pacientes com insuficiência respiratória"
+  },
+  {
+    "pergunta": "Quem foi o químico que descobriu o oxigênio em 1772?",
+    "resposta": "Carl Wilhelm Scheele"
+  },
+  {
+    "pergunta": "Qual é a carga elétrica do oxigênio em compostos iônicos?",
+    "resposta": "−2"
+  },
+  {
+    "pergunta": "O oxigênio é componente principal do que na atmosfera terrestre?",
+    "resposta": "Ar atmosférico"
+  },
+  {
+    "pergunta": "Qual é o nome do processo pelo qual as plantas produzem oxigênio?",
+    "resposta": "Fotossíntese"
+  }
+]

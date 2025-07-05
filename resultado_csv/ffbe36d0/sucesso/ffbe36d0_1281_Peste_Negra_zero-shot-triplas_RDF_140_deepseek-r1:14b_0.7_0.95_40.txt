@@ -1,0 +1,64 @@
+<think>
+Alright, let me try to figure out how to approach this user's query. They want me to generate 10 question-answer pairs based on the provided context about the Black Death. The instructions are pretty specific: only Portuguese, no extra content, just JSON with the questions and answers.
+
+First, I need to understand the structure they're asking for. Each entry in the JSON array should have a "pergunta" and a "resposta". So I'll make sure each pair is correctly formatted.
+
+Looking at the context, it's rich with information about when the Black Death occurred, its impact, causes, spread mechanisms, and effects on society. I should create varied questions that touch on different aspects: dates, numbers, causes, effects, etc.
+
+I need to ensure each question has a single correct answer directly from the context. For example, one question could ask for the time period in Europe, which is 1347-1351. Another might focus on how it spread, mentioning fleas and rats.
+
+Also, I should avoid repeating similar questions. So if I ask about the spread via ships once, I won't make another question that's too alike.
+
+I'll go through the context again to extract key points: Yersinia pestis as the cause, 75-200 million deaths globally, impact on Europe's population dropping by 30-60%, and the origins in Asia via the Silk Road.
+
+Each fact should inspire a question. For example, the origin could be a question about where it likely started, and another about how it reached Europe.
+
+I also notice specific numbers like 75 million deaths and 200 years to recover, which can form direct questions with numerical answers.
+
+Finally, I'll structure each pair clearly, making sure the JSON is correctly formatted without any additional explanations. Let me start drafting these pairs now.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi o período de pico da Peste Negra na Europa?",
+    "resposta": "1347 a 1351"
+  },
+  {
+    "pergunta": "Quais foram as causas da Peste Negra?",
+    "resposta": "A bactéria Yersinia pestis, responsável por formas como septicémica, pneumónica e bubónica."
+  },
+  {
+    "pergunta": "Qual foi a região de origem mais provável da Peste Negra?",
+    "resposta": "Ásia Central ou Ásia Oriental"
+  },
+  {
+    "pergunta": "Como a Peste Negra chegou à Europa?",
+    "resposta": "Por meio de pulgas que viviam em ratos transportados por navios mercantes genoveses."
+  },
+  {
+    "pergunta": "Qual foi a taxa de mortalidade na Europa causada pela Peste Negra?",
+    "resposta": "Entre 30% e 60% da população"
+  },
+  {
+    "pergunta": "Quantas pessoas morreram mundialmente durante a Peste Negra?",
+    "resposta": "Entre 75 e 200 milhões de pessoas"
+  },
+  {
+    "pergunta": "Qual foi o impacto demográfico da Peste Negra na Europa?",
+    "resposta": "Redução de população de 475 milhões para entre 350 e 375 milhões no século XIV."
+  },
+  {
+    "pergunta": "Quanto tempo a Europa levou para recuperar sua população após a Peste Negra?",
+    "resposta": "Cerca de 200 anos"
+  },
+  {
+    "pergunta": "Qual foi o nome científico da bactéria responsável pela Peste Negra?",
+    "resposta": "Yersinia pestis"
+  },
+  {
+    "pergunta": "Quais foram as consequências sociais e econômicas da Peste Negra na Europa?",
+    "resposta": "CRISE RELIGIOSA, SOCIAIS E ECONÔMICAS COM EFETOS PROFUNDOS NA HISTÓRIA DA EUROPA."
+  }
+]
+```

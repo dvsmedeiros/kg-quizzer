@@ -1,0 +1,56 @@
+<think>
+Okay, the user wants me to generate 10 pairs of questions and answers based on the provided context and facts. Let me start by understanding the requirements.
+
+First, the context talks about EU laws, their origin, objectives, and institutions. The facts include some DBpedia links and mentions of specific resources like the Common Market Law Review, Henry G. Schermers, and John Bell. The user emphasized that the questions must be varied, cover different aspects, and each has a single correct answer from the content.
+
+I need to make sure not to repeat similar questions. Let me list possible aspects from the context: the purpose of EU laws, the origin (post-WWII, Coal and Steel Community), the role of the Court of Justice, the disciplines mentioned (Law of the European Union), the institutions, the values promoted, the academic disciplines related, the resources like the journal, and the scholars associated.
+
+Now, I'll draft questions for each aspect. For example, the first question could be about the objective of EU laws. The answer is promoting peace, values, and well-being. Then, the origin in 1951 with the Coal and Steel Community. The Court of Justice's role as a new legal order. The academic disciplines mentioned in the facts, like Law of the European Union. The institutions mentioned in the context. The values promoted by the EU. The journal's name, Common Market Law Review. The scholars like Henry G. Schermers and John Bell. The templates used in the Wikipedia page. And the primary topic of the Wikipedia article.
+
+I need to check that each answer is directly from the context or inferable. For instance, the fact that the EU has political, social, and economic policies is mentioned, so a question about the types of policies is valid. Also, the fact that the Court of Justice refers to the EU as a new legal order is key for that question.
+
+I should avoid any markdown and ensure the JSON structure is correct. Let me count the pairs to make sure there are 10. Each question should be unique and cover different parts of the provided info. Alright, that should cover it.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o objetivo principal das leis da União Europeia, segundo o contexto?",
+    "resposta": "Promover a paz, seus valores e o bem-estar de seus povos."
+  },
+  {
+    "pergunta": "Desde quando a União Europeia tem suas bases jurídicas, segundo o contexto?",
+    "resposta": "Desde a fundação da Comunidade Europeia do Carvão e do Aço após a Segunda Guerra Mundial."
+  },
+  {
+    "pergunta": "Como o Tribunal de Justiça da União Europeia descreve a União Europeia?",
+    "resposta": "Como uma nova ordem jurídica de direito internacional."
+  },
+  {
+    "pergunta": "Qual é o tema central das disciplinas mencionadas nos fatos?",
+    "resposta": "Law of the European Union (Direito da União Europeia)."
+  },
+  {
+    "pergunta": "Quais são os tipos de políticas desenvolvidas pela União Europeia?",
+    "resposta": "Políticas sociais, econômicas e instituições políticas."
+  },
+  {
+    "pergunta": "Qual é o nome da revista mencionada nos fatos que se relaciona ao Direito da União Europeia?",
+    "resposta": "Common Market Law Review."
+  },
+  {
+    "pergunta": "Quem é um dos acadêmicos mencionados nos fatos relacionados ao Direito da União Europeia?",
+    "resposta": "Henry G. Schermers."
+  },
+  {
+    "pergunta": "Qual é o propósito das instituições da União Europeia, segundo o contexto?",
+    "resposta": "Para cooperação e desenvolvimento humano, transcendendo os Estados-nação."
+  },
+  {
+    "pergunta": "Qual é o tema principal da página da Wikipedia mencionada nos fatos?",
+    "resposta": "Law of the European Union (Direito da União Europeia)."
+  },
+  {
+    "pergunta": "Quais são os modelos usados na página da Wikipedia sobre o Direito da União Europeia?",
+    "resposta": "Template:R_from_move, Template:R_from_word_rearrangement e Template:Redirect_category_shell."
+  }
+]

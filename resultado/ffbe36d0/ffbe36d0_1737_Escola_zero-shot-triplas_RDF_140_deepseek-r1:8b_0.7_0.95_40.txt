@@ -1,0 +1,43 @@
+<think>
+Okay, so I have this task where I need to generate 10 question-answer pairs based on the given data. The user has provided a list of schools and universities, each with their respective types like 'Private school' or 'University'. My job is to parse through this information and create meaningful questions and answers.
+
+First, I'll look at the structure of the data. Each entry starts with "http://dbpedia.org/resource/" followed by the name of the institution. After that, there's a line indicating the type, like "ns1:type <Private school>". My goal is to extract this information into pairs where each pair has a question about the type and the corresponding answer.
+
+I need to make sure that each question is clear and directly relates to the type specified. For example, one question could be asking what type of institution St. John's High School is. The answer would then confirm it as a private school.
+
+Since there are 30 entries provided, I can easily create 10 pairs without any issues. I'll go through each entry, extract the name and type, then formulate a question that asks about the type in general. The answers will be straightforward, just confirming the type mentioned.
+
+I should also ensure that each pair is unique and doesn't repeat the same institution or question. By carefully selecting different institutions and varying the questions slightly, I can maintain the user's requirements.
+
+Alright, let me start by listing out each school and its type, then form the pairs accordingly.
+</think>
+
+1. **Pergunta:** Qual tipo de instituição a St. John's High School é?  
+   **Resposta:** A St. John's High School é uma Private school.
+
+2. **Pergunta:** Qual tipo de estabelecimento educacional a Padua Franciscan High School é?  
+   **Resposta:** A Padua Franciscan High School é uma Private school.
+
+3. **Pergunta:** Qual tipo de faculdade a St. Mary's College of Quezon City é?  
+   **Resposta:** A St. Mary's College of Quezon City é uma Private school.
+
+4. **Pergunta:**Qual tipo de escola a Presentation Convent Senior Secondary School, Jammu é?  
+   **Resposta:** A Presentation Convent Senior Secondary School, Jammu é uma Private school.
+
+5. **Pergunta:** Qual tipo de universidade a University of Medical Sciences and Technology é?  
+   **Resposta:** A University of Medical Sciences and Technology é uma Private school.
+
+6. **Pergunta:** Qual tipo de instituição de ensino superior a St. Andrew's School (India) é?  
+   **Resposta:** A St. Andrew's School (India) é uma Private school.
+
+7. **Pergunta:** Qual tipo de escola a St. Michael's High School é?  
+   **Resposta:** A St. Michael's High School é uma Private school.
+
+8. **Pergunta:** Qual tipo de estabelecimento educacional a Rabbi Pesach Raymon Yeshiva é?  
+   **Resposta:** A Rabbi Pesach Raymon Yeshiva é uma Private school.
+
+9. **Pergunta:** Qual tipo de faculdade a St. Luke's School (Connecticut) é?  
+   **Resposta:** A St. Luke's School (Connecticut) é uma Private school.
+
+10. **Pergunta:** Qual tipo de universidade a Southwestern College (New Mexico) é?  
+    **Resposta:** A Southwestern College (New Mexico) é uma Private school.

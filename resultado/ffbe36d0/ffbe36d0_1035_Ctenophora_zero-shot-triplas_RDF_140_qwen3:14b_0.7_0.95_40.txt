@@ -1,0 +1,76 @@
+<think>
+Okay, let's tackle this query. The user wants me to generate 10 question-answer pairs based on the provided context and facts. First, I need to make sure I understand the context thoroughly.
+
+The main topic here is Ctenophora, also known as comb jellies. The context mentions their classification, characteristics, habitat, and some evolutionary aspects. The facts include some ontological information from DBpedia, like hypernyms and taxonomic classifications.
+
+I need to create questions that cover different aspects of the context. Let's start by identifying key points from the context. The main points are:
+
+1. Ctenophora are marine animals, cosmopolitan distribution.
+2. They are mostly planktonic, some benthic, bioluminescent.
+3. Distinctive feature: comb rows (ctenes) made of cilia for swimming.
+4. Size range from 1mm to 1.5m.
+5. Resemble medusas but are a separate group, evolutionary convergence.
+6. Fossil record from the Cambrian period.
+
+From the facts, there's more taxonomic info: they are a phylum, their type species is Mnemiopsis leidyi, they have subdivisions like Tentaculata, Nuda, Scleroctenophora, and some species examples like Callianira hexagona, Coelenterata, Coeloplana, Vallicula.
+
+Now, I need to make sure each question is unique and covers different aspects. Let me brainstorm possible questions:
+
+- What is the common name for Ctenophora?
+- What is the primary locomotion method of Ctenophora?
+- What is the size range of adult Ctenophora?
+- In which geological period are Ctenophora first recorded as fossils?
+- What is the relationship between Ctenophora and Cnidaria?
+- What are the comb rows made of?
+- What is the type species of Ctenophora?
+- What are the subdivisions of Ctenophora?
+- What are some examples of species in Ctenophora?
+- What is the taxonomic rank of Ctenophora?
+
+Now, checking if these questions are covered in the context or facts. For example, the common name is "carambolas-do-mar" or "água-viva-de-pente". The primary locomotion is via comb rows (ctenes) made of cilia. The size range is given. Fossil record is Cambrian. Relationship with Cnidaria is convergent evolution. Type species is Mnemiopsis leidyi. Subdivisions are Tentaculata, Nuda, Scleroctenophora. Examples include Callianira hexagona, Coeloplana, Vallicula. Taxonomic rank is phylum.
+
+I need to ensure that each answer is directly from the context or facts. Also, avoid repetition. Let me verify each question and answer pair for accuracy and uniqueness. Once that's done, structure them into the JSON format as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o nome comum dos animais pertencentes ao filo Ctenophora?",
+    "resposta": "Carambolas-do-mar ou águas-vivas-de-pente"
+  },
+  {
+    "pergunta": "Qual é a característica distintiva dos ctenóforos?",
+    "resposta": "A presença de pentes formados por grupos de cílios"
+  },
+  {
+    "pergunta": "Qual é o período geológico em que os ctenóforos estão registrados nos fósseis?",
+    "resposta": "Cambriano"
+  },
+  {
+    "pergunta": "Quais são os tamanhos dos adultos de Ctenophora?",
+    "resposta": "De cerca de 1 mm a 1,5 m de comprimento"
+  },
+  {
+    "pergunta": "Como os ctenóforos se locomovem?",
+    "resposta": "Utilizando cílios organizados em pentes"
+  },
+  {
+    "pergunta": "O que define a relação evolutiva entre ctenóforos e medusas?",
+    "resposta": "Convergência evolutiva, não relacionamento filogenético próximo"
+  },
+  {
+    "pergunta": "Quais são as subdivisões do filo Ctenophora?",
+    "resposta": "Tentaculata, Nuda, Scleroctenophora"
+  },
+  {
+    "pergunta": "Qual é a espécie tipo do filo Ctenophora?",
+    "resposta": "Mnemiopsis leidyi"
+  },
+  {
+    "pergunta": "Quais são exemplos de espécies pertencentes ao filo Ctenophora?",
+    "resposta": "Callianira hexagona, Coeloplana, Vallicula"
+  },
+  {
+    "pergunta": "Qual é a classificação taxonômica do filo Ctenophora?",
+    "resposta": "Phylum"
+  }
+]

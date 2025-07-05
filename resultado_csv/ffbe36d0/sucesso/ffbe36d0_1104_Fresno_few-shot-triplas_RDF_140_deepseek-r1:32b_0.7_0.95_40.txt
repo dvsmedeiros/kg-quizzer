@@ -1,0 +1,65 @@
+<think>
+Okay, I'm looking at this problem where the user has provided a set of data about Fresno, California, in RDF format and some example questions and answers. They want me to generate 10 new question-answer pairs based on the given data.
+
+First, I need to understand the structure of the existing examples. Each example is a JSON object with "pergunta" (question) and "resposta" (answer). The questions are in Portuguese, and the answers are short, factual responses extracted from the RDF data.
+
+So, my task is to parse the provided RDF data and extract relevant information that can form new questions and answers. I'll need to focus on the key-value pairs in the data. 
+
+Looking at the RDF, Fresno has several properties:
+- Area total
+- Area code
+- Government type
+- Settlement type
+- Coordinates (point)
+- Wikipedia page templates
+- Subject categories
+
+From these, I can derive questions about:
+1. The area of Fresno.
+2. The telephone area code.
+3. The form of government.
+4. Its classification as a municipality in California.
+5. Geographic coordinates.
+6. Categories it belongs to on Wikipedia.
+
+I should also check if there are other properties that might be interesting, like the population or notable landmarks, but from the given data, those aren't present. So I'll focus on what's available.
+
+Now, for each property, I can create a question. For example:
+- What is the area of Fresno?
+- What is the telephone area code for Fresno?
+
+I need to ensure that each answer is accurate based on the RDF data. The answers should be concise and in Portuguese, matching the examples provided.
+
+Let me start drafting these questions and make sure they're clear and cover different aspects of the data.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a área total de Fresno?",
+    "resposta": "300.438620798976 km²"
+  },
+  {
+    "pergunta": "Qual é o código de área telefônica de Fresno?",
+    "resposta": "559"
+  },
+  {
+    "pergunta": "Qual é o tipo de governo de Fresno?",
+    "resposta": "Strong Mayor"
+  },
+  {
+    "pergunta": "A que categoria Fresno pertence na lista de municípios da Califórnia?",
+    "resposta": "List_of_municipalities_in_California"
+  },
+  {
+    "pergunta": "Quais são as coordenadas geográficas de Fresno?",
+    "resposta": "36.75 -119.76666666666667"
+  },
+  {
+    "pergunta": "Em qual categoria da Wikipedia Fresno está listada?",
+    "resposta": "Category:San_Joaquin_Valley"
+  }
+]
+```
+
+This JSON structure provides six new question-answer pairs based on the RDF data provided, each addressing a specific property of Fresno.

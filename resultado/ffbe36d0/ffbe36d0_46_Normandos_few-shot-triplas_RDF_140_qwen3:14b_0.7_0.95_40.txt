@@ -1,0 +1,119 @@
+<think>
+Okay, let's tackle this. The user wants me to generate 10 question-answer pairs based on the provided context and facts. The context is about the Normans, their origins, and their historical impact. The facts are in RDF format, which includes various entities and relationships.
+
+First, I need to make sure I understand the context thoroughly. The Normans were a Germanic people in northern France, with aristocracy mostly from Viking Scandinavians. They had significant roles in medieval Europe and the Middle East, like the Norman Conquest of England, Sicily, and the Crusades. The facts mention battles, places, and people associated with the Normans.
+
+Now, looking at the examples provided, the questions are varied and cover different aspects: location, time periods, origins, religious beliefs, historical events, etc. I need to avoid repeating similar questions and ensure each answer is directly from the context or inferable.
+
+Let me start by identifying key points from the context and facts. The Normans are from northern France, descended from Vikings. They're called Northmen or Norsemen. Their influence includes England, Sicily, and the Crusades. The facts list several battles and places where Normans were involved, like Battle of Cerami, Battle of Civitate, etc. Also, there are references to people like Richard of Salerno, families like Hauteville, and places like Taunton Castle.
+
+Possible questions could be about the origin of the term "Norman," their Viking connections, specific battles they were involved in, regions they colonized, and their religious affiliations. Since the examples already have some of these, I need to find others.
+
+For example, one fact mentions that the term "Norman" comes from Northmen or Norsemen, meaning "men of the North." That could be a question about the meaning of the term. Another point is their role in the Crusades, which is mentioned in the context. Also, the fact that they colonized Sicily and southern Italy could be another question.
+
+Looking at the RDF facts, there are several battles listed where Normans were combatants. So, a question could ask for examples of battles involving the Normans. Also, places like Taunton Castle have the Normans as builders, which could be another question.
+
+I need to ensure that each question is unique and covers different aspects. Let me list possible questions:
+
+1. What is the origin of the term "Norman"?
+2. Which regions did the Normans colonize?
+3. What role did the Normans play in the Crusades?
+4. What are some battles in which the Normans were involved?
+5. What is the connection between the Normans and the Vikings?
+6. Which countries are associated with the Normans' origins?
+7. What religious beliefs did the Normans have?
+8. Who were some notable figures from the Norman era?
+9. What is the significance of the term "Northmen"?
+10. Which historical events are the Normans known for?
+
+Now, checking the context and facts for each:
+
+- The term "Norman" comes from Northmen/Norsemen, meaning "men of the North."
+- Colonized Normandy, England, Sicily, southern Italy.
+- Participated in the Crusades.
+- Battles listed in the facts: Battle of Cerami, Civitate, Misilmeri, Montepeloso, Northam, Olivento, Soissons, etc.
+- Descendants of Vikings from Scandinavia (Denmark, Norway, Iceland).
+- Religions mentioned: Christianity and Norse paganism.
+- Notable figures: Richard of Salerno, Hauteville family.
+- Northmen refers to their origin in the North (Scandinavia).
+- Historical events: Conquest of England, establishment in Sicily, Crusades.
+
+Now, formulating the questions and answers:
+
+1. **Pergunta**: Qual é a origem do termo "Normando"?  
+   **Resposta**: A palavra "Normando" vem de "Northmen" ou "Norsemen", que significa "homens do Norte".
+
+2. **Pergunta**: Quais regiões foram colonizadas pelos normandos?  
+   **Resposta**: Normandia, Inglaterra, Sicília e partes do sul da Itália.
+
+3. **Pergunta**: Em quais cruzadas os normandos participaram?  
+   **Resposta**: Cruzadas no Oriente Médio.
+
+4. **Pergunta**: Quais são exemplos de batalhas em que os normandos participaram?  
+   **Resposta**: Batalha de Cerami, Batalha de Civitate, Batalha de Misilmeri, entre outras.
+
+5. **Pergunta**: Qual é a conexão entre os normandos e os vikings?  
+   **Resposta**: A aristocracia normanda era principalmente descendente de vikings escandinavos.
+
+6. **Pergunta**: Quais países estão associados à origem dos normandos?  
+   **Resposta**: Dinamarca, Noruega e Islândia.
+
+7. **Pergunta**: Quais crenças religiosas eram praticadas pelos normandos?  
+   **Resposta**: Cristianismo e paganismos nórdicos.
+
+8. **Pergunta**: Quem foram figuras notáveis da era normanda?  
+   **Resposta**: Ricardo de Salerno e a família Hauteville.
+
+9. **Pergunta**: Qual é a significância do termo "Northmen"?  
+   **Resposta**: Refere-se à origem dos normandos no norte da Europa, especificamente na Escandinávia.
+
+10. **Pergunta**: Quais eventos históricos são associados aos normandos?  
+    **Resposta**: Conquista da Inglaterra, estabelecimento em Sicília e participação nas Cruzadas.
+
+Now, I need to check if these answers are directly supported by the context and facts. The context mentions their role in the Crusades, the connection to Vikings, and the regions they colonized. The facts list specific battles and places, and mention the religions. The examples given in the user's prompt also have similar structures, so this should align with their expectations.
+
+I think this covers 10 distinct questions, each with answers derived from the provided information. I should ensure that the answers are concise and directly from the context or inferable from the facts without adding extra information.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a origem do termo 'Normando'?",
+    "resposta": "A palavra 'Normando' vem de 'Northmen' ou 'Norsemen', que significa 'homens do Norte'."
+  },
+  {
+    "pergunta": "Quais regiões foram colonizadas pelos normandos?",
+    "resposta": "Normandia, Inglaterra, Sicília e partes do sul da Itália."
+  },
+  {
+    "pergunta": "Quais religiões eram praticadas pelos normandos?",
+    "resposta": "Cristianismo e paganismos nórdicos."
+  },
+  {
+    "pergunta": "Quais são exemplos de batalhas em que os normandos participaram?",
+    "resposta": "Batalha de Cerami, Batalha de Civitate, Batalha de Misilmeri, entre outras."
+  },
+  {
+    "pergunta": "Quais países estão associados à origem dos normandos?",
+    "resposta": "Dinamarca, Noruega e Islândia."
+  },
+  {
+    "pergunta": "Quem foram figuras notáveis da era normanda?",
+    "resposta": "Ricardo de Salerno e a família Hauteville."
+  },
+  {
+    "pergunta": "Em quais eventos históricos os normandos participaram?",
+    "resposta": "Conquista da Inglaterra, estabelecimento em Sicília e participação nas Cruzadas."
+  },
+  {
+    "pergunta": "Qual é a significância do termo 'Northmen'?",
+    "resposta": "Refere-se à origem dos normandos no norte da Europa, especificamente na Escandinávia."
+  },
+  {
+    "pergunta": "Quais são exemplos de locais associados aos normandos?",
+    "resposta": "Castelo de Taunton, Castelo de Trim e outras fortificações em Inglaterra e Itália."
+  },
+  {
+    "pergunta": "Qual era a relação entre os normandos e os vikings?",
+    "resposta": "A aristocracia normanda era principalmente descendente de vikings escandinavos."
+  }
+]

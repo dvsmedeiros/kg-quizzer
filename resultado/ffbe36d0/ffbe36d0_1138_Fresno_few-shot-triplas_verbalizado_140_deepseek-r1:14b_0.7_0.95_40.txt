@@ -1,0 +1,69 @@
+<think>
+Okay, so I need to create 10 question-answer pairs based on the given context and facts about Fresno. Let's start by understanding what information is provided.
+
+First, the context says Fresno is the fifth most populous city in California, located in Fresno County. It was founded in 1872 and incorporated in October 12, 1885. The population as per the 2020 census is over 542,000, making it the 34th largest city in the US.
+
+Looking at the facts, there's a lot about people born or died in Fresno, along with some details about sports teams located there, radio stations, geographical coordinates, area codes, government types, and more.
+
+I should create varied questions covering different aspects. Let me think of possible categories: population, founding date, location, people associated with Fresno, sports teams, radio stations, geographical data, etc.
+
+1. **Population**: The first example already covers this, so maybe another question about the rank.
+2. **Founding Date**: Perhaps when it was founded.
+3. **Incorporation Date**: When it became a city.
+4. **Geographical Coordinates**: Where is Fresno located geographically?
+5. **Area Code**: What's the area code for Fresno?
+6. **Type of Government**: What kind of government does Fresno have?
+7. **Sports Teams**: Which sports teams are based in Fresno?
+8. **Birthplace of Notables**: Who were born in Fresno.
+9. **Radio Stations**: Which radio stations cover Fresno?
+10. **Nearby Natural Features**: Which natural area is near Fresno?
+
+Let me structure these into questions and ensure the answers match the facts provided.
+
+Wait, some facts repeat or are about deaths, which might not be as useful for questions unless they're notable people. I'll focus on more general info first.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a população de Fresno?",
+    "resposta": "Mais de 542 mil habitantes"
+  },
+  {
+    "pergunta": "Quando foi fundada Fresno?",
+    "resposta": "1872"
+  },
+  {
+    "pergunta": "Em que ano Fresno se tornou uma cidade incorporada?",
+    "resposta": "1885"
+  },
+  {
+    "pergunta": "Qual é a coordenada geográfica de Fresno?",
+    "resposta": "36.75 -119.76666666666667"
+  },
+  {
+    "pergunta": "Qual é o código de área de Fresno?",
+    "resposta": "559"
+  },
+  {
+    "pergunta": "Qual tipo de governo tem Fresno?",
+    "resposta": "Strong Mayor"
+  },
+  {
+    "pergunta": "Qual time de futebol americano está localizado em Fresno?",
+    "resposta": "Phoenix Rising FC"
+  },
+  {
+    "pergunta": "Qual estação meteorológica está localizada em Fresno?",
+    "resposta": "Inyo County Airport"
+  },
+  {
+    "pergunta": "Qual foi um dos fundadores de Fresno?",
+    "resposta": "George N. Zenovich"
+  },
+  {
+    "pergunta": "Qual é a área total de Fresno?",
+    "resposta": "300.438620798976"
+  }
+]
+```

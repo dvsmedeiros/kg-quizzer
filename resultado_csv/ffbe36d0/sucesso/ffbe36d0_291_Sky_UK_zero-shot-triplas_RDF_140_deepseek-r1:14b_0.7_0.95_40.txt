@@ -1,0 +1,71 @@
+<think>
+Okay, so I need to create 10 question-answer pairs based on the provided context about British Satellite Broadcasting (BSB). The user has given me a JSON structure to follow and specified that each pair should have a relevant question and a correct answer derived from the content.
+
+First, I'll review the context. BSB was a UK-based TV company that started in 1986, providing satellite broadcasts. It merged with Sky Television in November 1990 to form BSkyB. They began transmitting on March 25, 1990.
+
+Looking at the facts section, there are several RDF triples indicating ownership relationships between BSB and various TV channels or films. For example, Galaxy TV channel's owner is BSB, as are Now, The Movie Channel, Memphis Belle (film), etc.
+
+I need to make sure each question is unique and covers different aspects of BSB, such as their founding date, merger details, transmission start date, ownership of specific channels, and locations. Each answer should be directly supported by the given information.
+
+Let me outline possible questions:
+
+1. When was BSB founded?
+2. What company did BSB merge with in 1990?
+3. On what date did BSB begin transmissions?
+4. Which channel was owned by BSB?
+5. What was BSB's successor after merging?
+6. Where was BSB headquartered?
+7. Under what name was BSB rebranded?
+8. Which film production company was linked to BSB?
+9. Which TV channel was co-owned by BSB and another company before the merger?
+10. Which channels were part of BSB's ownership?
+
+I should ensure that each question is clear and only has one correct answer from the provided data. For example, for the film, "Hardware" is mentioned as a production company under BSB.
+
+Now, I'll structure these into JSON format without any additional text.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando foi fundada a British Satellite Broadcasting (BSB)?",
+    "resposta": "1986"
+  },
+  {
+    "pergunta": "Com qual empresa a BSB se uniu para formar a BSkyB?",
+    "resposta": "Sky Television"
+  },
+  {
+    "pergunta": "Em que data a BSB começou suas transmissões?",
+    "resposta": "25 de março de 1990"
+  },
+  {
+    "pergunta": "Qual canal de TV era dono da British Satellite Broadcasting (BSB)?",
+    "resposta": "Galaxy (canal de TV britânico)"
+  },
+  {
+    "pergunta": "Qual foi a empresa sucessora da BSB após sua fusão?",
+    "resposta": "Sky UK"
+  },
+  {
+    "pergunta": "Onde estava sediada a British Satellite Broadcasting (BSB)?",
+    "resposta": "Londres, Inglaterra"
+  },
+  {
+    "pergunta": "Qual foi o nome da rebranding da BSB após a fusão?",
+    "resposta": "BSkyB"
+  },
+  {
+    "pergunta": "Qual filme foi produzido pela British Satellite Broadcasting (BSB)?",
+    "resposta": "Hardware"
+  },
+  {
+    "pergunta": " Qual canal de TV era co-dono da BSB junto com outra empresa?",
+    "resposta": "The Power Station (TV channel)"
+  },
+  {
+    "pergunta": "Quais canais eram donos da British Satellite Broadcasting (BSB)?",
+    "resposta": "The Movie Channel, The Computer Channel"
+  }
+]
+```

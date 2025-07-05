@@ -1,0 +1,77 @@
+<think>
+Alright, I'm trying to tackle this query where the user wants me to generate 10 question-answer pairs based on a given context and facts about the Normans. Let's break down what they're asking for.
+
+First, the objective is clear: create exactly 10 pairs, each with a relevant question and the correct answer, all in Portuguese. The output needs to be a JSON array without any extra text or explanations—just the data.
+
+The context provided explains that Normans were a Germanic people settled in northern France, with their aristocracy descending from Viking expeditions. They had significant political, military, and cultural roles across parts of medieval Europe and the Middle East. Key examples include the Norman Conquest of England, their settlements in Sicily and southern Italy, and their involvement in the Crusades.
+
+Looking at the facts section, there's a lot of RDF data linking various DBpedia resources to the Normans. This includes battles they fought, places they occupied, notable individuals, and architectural influences. For instance, the Battle_of_Cerami lists the Normans as combatants, and Richard_of_Salerno is noted as a Norman.
+
+The user also provided an example of what they expect, which helps clarify the format. Each question should be varied, covering different aspects like origins, key events, notable figures, cultural impacts, etc., without repeating similar questions.
+
+I need to ensure that each question is unique and touches on various dimensions of the Normans' history and influence. The answers must be directly supported by the provided context or inferred from it accurately.
+
+Let me start brainstorming possible questions based on the context:
+
+1. **Ethnic Origin**: Where did the Normans originate from? (Context mentions they were Germanic, descendants of Vikings.)
+2. **Geographical Presence**: Which regions in Europe and beyond were influenced by Norman settlements?
+3. **Cultural Impact**: What notable structures or styles are associated with Normans?
+4. **Historical Events**: Significant events or periods where Normans made an impact.
+5. **Religion**: What was the predominant religion among Normans after their Christian conversion?
+6. **Language**: What languages did Normans speak, including older forms like Old Norman or Old Norse?
+7. **Influence on Architecture**: How can one recognize Norman architectural styles in buildings today?
+8. **Political Structure**: Who were prominent leaders or families among the Normans?
+9. **Expansion Areas**: Which regions in Italy and the Mediterranean had significant Norman presence?
+10. **Economic Activities**: What were some economic activities or trades associated with Normans?
+
+Now, I'll map these ideas to specific questions and ensure each has a clear, correct answer based on the given data.
+
+I should also check for any repetitive information and make sure each question is distinct. For example, avoiding multiple questions about battles unless they cover different aspects like locations or leaders.
+
+Finally, compiling all this into the required JSON format without adding extra text, ensuring only the questions and answers are present.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual foi a origem étnica dos normandos?",
+    "resposta": " Germânica"
+  },
+  {
+    "pergunta": "Onde os normandos estabeleceram-se inicialmente na Europa?",
+    "resposta": "na norte da França"
+  },
+  {
+    "pergunta": "Quais foram as principais regiões onde os normandos tiveram influência política e cultural?",
+    "resposta": "norte e sudoeste da Europa Medieval e Oriente Médio"
+  },
+  {
+    "pergunta": "Qual foi um dos eventos históricos mais marcantes protagonizados pelos normandos?",
+    "resposta": "a Conquista Normanda da Inglaterra"
+  },
+  {
+    "pergunta": "Quais foram as regiões da Itália Meridional onde os normandos estabeleceram estados?",
+    "resposta": "Sicília e sul da península Itálica"
+  },
+  {
+    "pergunta": "Qual foi a religião predominante dos normandos após sua cristianização?",
+    "resposta": "a religião católica"
+  },
+  {
+    "pergunta": "Quais línguas os normandos falavam?",
+    "resposta": "latim, francês e dialetos germânicos como o Norman"
+  },
+  {
+    "pergunta": "Qual foi a significação original da palavra 'Norman' em sânscrito antigo?",
+    "resposta": "Viking\"."
+  },
+  {
+    "pergunta": "Quais foram as batalhas mais importantes que os normandos participaram na Inglaterra?",
+    "resposta": "Hastings"
+  },
+  {
+    "pergunta": "Qual foi a época em que os normandos ganharam identidade separada?",
+    "resposta": "século X"
+  }
+]
+```

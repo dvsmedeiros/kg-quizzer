@@ -1,0 +1,84 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided context and facts. Let's start by looking at the context given. Fresno is the fifth most populous city in California, incorporated in 1885, with a population over 542k as of 2020. Then there are a bunch of facts about people born or died there, organizations based there, area code, government type, coordinates, etc.
+
+First, I should make sure each question is unique and covers different aspects. Let's see. The context mentions the population rank, incorporation date, 2020 census number. The facts include people like George N. Zenovich, Adam Prentice, Floyd H. Hyde, etc., born or died there. There's the area code 559, government type (Strong Mayor), coordinates, radio stations (KRDU, KSOF, etc.), sports teams (like 2021 New Mexico Lobos, 2018 Phoenix Rising FC), universities, and other details.
+
+So possible questions could be about the incorporation year, population rank, area code, government type, notable people born or died there, radio stations, sports teams, coordinates, and maybe the template used for the city's page. Let me check the examples given. They had questions about the city's rank, distance to LA (which wasn't in the context, so maybe that's from the user's example but not part of the actual context here), the meaning of the name, flag, pronunciation, railroad station, reasons people moved there, incorporation year again, number of trams, and the entity that caused growth. But in our case, the user's context doesn't mention the railroad or trams, so I need to stick to the provided info.
+
+So I need to avoid making up info. Let me list possible questions:
+
+1. What is the population rank of Fresno in the United States? (From context: 34th)
+2. In what year was Fresno incorporated? (1885)
+3. What is the area code of Fresno, California? (559)
+4. What type of government does Fresno, California have? (Strong Mayor)
+5. Who was born in Fresno, California? (Adam Prentice, Floyd H. Hyde, Nathan Yau, Jenna Prandini, Stewart Rhodes, etc.)
+6. What is the geographic coordinate of Fresno, California? (36.75 -119.76666666666667)
+7. Which radio stations have their transmission area in Fresno, California? (KRDU, KSOF, KRZR, KJWL, KXEX, etc.)
+8. Which sports teams are based in Fresno, California? (2021 New Mexico Lobos, 2018 Phoenix Rising FC, etc.)
+9. What is the total area of Fresno, California? (300.438620798976 square kilometers)
+10. What is the official website template used for Fresno, California's page? (Template:Official website)
+
+Wait, but the user's context mentions "Fresno, California usa modelo de página wiki Template:California cities and mayors of 100,000 population" and "Template:Official website". So maybe that's a point.
+
+Also, the fact that it's the 34th most populous city. The example had a question about the fifth most populous city in California, which matches the context here. So that's covered.
+
+Now, need to make sure each question is unique and doesn't repeat. Let me check the list again.
+
+1. What is the population rank of Fresno in the United States? (34th)
+2. In what year was Fresno incorporated? (1885)
+3. What is the area code of Fresno, California? (559)
+4. What type of government does Fresno, California have? (Strong Mayor)
+5. Who was born in Fresno, California? (Adam Prentice, Floyd H. Hyde, etc.)
+6. What is the geographic coordinate of Fresno, California? (36.75 -119.76666666666667)
+7. Which radio stations have their transmission area in Fresno, California? (KRDU, KSOF, KRZR, KJWL, KXEX, etc.)
+8. Which sports teams are based in Fresno, California? (2021 New Mexico Lobos, 2018 Phoenix Rising FC, etc.)
+9. What is the total area of Fresno, California? (300.438620798976 square kilometers)
+10. What is the official website template used for Fresno, California's page? (Template:Official website)
+
+That's 10. Let's check if the answers are present in the context or facts. For example, the area code is 559, yes. The government is Strong Mayor. Coordinates are given. Radio stations like KRDU, KSOF, KRZR, KJWL, KXEX are listed. Sports teams include 2021 New Mexico Lobos, 2018 Phoenix Rising FC. The total area is 300.438... The official website template is Template:Official website. The birth/death info is in the facts. The population rank is 34th. Incorporation year is 1885.
+
+Okay, that should work. Now, phrasing each question clearly and ensuring answers are accurate based on the provided info.
+</think>
+
+[
+  {
+    "pergunta": "Qual é a posição de Fresno no ranking de população dos Estados Unidos?",
+    "resposta": "34º"
+  },
+  {
+    "pergunta": "Em que ano Fresno foi incorporada como cidade?",
+    "resposta": "1885"
+  },
+  {
+    "pergunta": "Qual é o código de área de Fresno, Califórnia?",
+    "resposta": "559"
+  },
+  {
+    "pergunta": "Qual é o tipo de governo de Fresno, Califórnia?",
+    "resposta": "Strong Mayor"
+  },
+  {
+    "pergunta": "Quais pessoas famosas nasceram em Fresno, Califórnia?",
+    "resposta": "Adam Prentice, Floyd H. Hyde, Nathan Yau, Jenna Prandini, Stewart Rhodes"
+  },
+  {
+    "pergunta": "Quais são as coordenadas geográficas de Fresno, Califórnia?",
+    "resposta": "36.75 -119.76666666666667"
+  },
+  {
+    "pergunta": "Quais estações de rádio têm sua área de transmissão em Fresno, Califórnia?",
+    "resposta": "KRDU, KSOF, KRZR, KJWL, KXEX"
+  },
+  {
+    "pergunta": "Quais times esportivos têm sede em Fresno, Califórnia?",
+    "resposta": "2021 New Mexico Lobos, 2018 Phoenix Rising FC"
+  },
+  {
+    "pergunta": "Qual é a área total de Fresno, Califórnia?",
+    "resposta": "300,438620798976 km²"
+  },
+  {
+    "pergunta": "Qual é o modelo de página wiki oficial usado para a página de Fresno, Califórnia?",
+    "resposta": "Template:Official website"
+  }
+]

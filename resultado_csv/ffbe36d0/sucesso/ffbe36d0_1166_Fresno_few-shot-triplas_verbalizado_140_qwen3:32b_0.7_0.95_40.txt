@@ -1,0 +1,98 @@
+<think>
+Okay, let's tackle this. The user wants 10 question-answer pairs based on the provided context and facts about Fresno, California. The context mentions that Fresno is the fifth most populous city in California, part of Fresno County, incorporated in 1885, and has over 542,000 residents as of the 2020 census. 
+
+Looking at the facts, there are a lot of details about people born or died in Fresno, sports teams, radio stations, geographical data, etc. The examples given by the user include questions about the city's rank in population, distance from LA, meaning of the name, flag, pronunciation, railroads, incorporation year, trolleys, and growth factors.
+
+I need to make sure each question is unique and covers different aspects. Let's start with the population rank, which is in the context. Then, maybe the year it was incorporated. The area code is provided, so that's another point. The government type is mentioned as Strong Mayor. Coordinates are given, so that's a possible question. 
+
+Some of the facts list people born or died there, so perhaps a question about notable residents. There's info about radio stations like KRDU and KSO, so their areas of transmission. Also, sports teams like the New Mexico Lobos football team in 2021, so a question about that. 
+
+The examples included the distance from LA, but that's not in the given context. Wait, the user provided examples, but the actual context doesn't mention LA's distance. So maybe avoid that. Instead, use the data present. 
+
+Need to ensure answers are directly from the context or facts. For example, the area code is 559. The government type is Strong Mayor. The coordinates are 36.75 -119.7667. The total area is 300.438620798976 (though the unit isn't specified, but maybe in the original context it's in square kilometers or miles? Not sure, but the number is there). 
+
+Also, the city is the 34th largest in the US. So a question about that. 
+
+Let me list possible questions:
+
+1. Qual é o código de área de Fresno, California?
+   Resposta: 559
+
+2. Em que ano Fresno foi incorporada como cidade?
+   Resposta: 1885
+
+3. Qual o tipo de governo de Fresno, California?
+   Resposta: Strong Mayor
+
+4. Quantos habitantes Fresno tinha segundo o censo de 2020?
+   Resposta: mais de 542.000
+
+5. Qual a coordenada geográfica de Fresno, California?
+   Resposta: 36.75 -119.7667
+
+6. Qual é a posição de Fresno em termos de população no Estados Unidos?
+   Resposta: 34ª cidade mais populosa
+
+7. Quem nasceu em Fresno, California e é conhecido como George N. Zenovich?
+   Resposta: George N. Zenovich
+
+8. Qual a área total de Fresno, California?
+   Resposta: 300.438620798976 (assumindo km² ou mi², mas o fato não especifica unidade)
+
+9. Que equipe de futebol americano esteve localizada em Fresno, California em 2021?
+   Resposta: New Mexico Lobos
+
+10. Qual o modelo de página wiki usado por Fresno, California?
+    Resposta: Template:California cities and mayors of 100,000 population
+
+Wait, need to check if all answers are explicitly mentioned. For example, the 2021 New Mexico Lobos football team is listed as being in Fresno. The model of the wiki page is also mentioned. The area total is given as 300.438..., but the unit isn't specified. However, the user's example included "350 km" so maybe they just want the number without unit. 
+
+Also, need to avoid repeating similar questions. For example, if I use "Qual a posição de Fresno em termos de população no Estados Unidos?" that's okay. Another question about being the fifth most populous in California is already in the example. 
+
+I need to ensure all 10 are unique. Let's compile them now.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual o código de área de Fresno, California?",
+    "resposta": "559"
+  },
+  {
+    "pergunta": "Em que ano Fresno foi incorporada como cidade?",
+    "resposta": "1885"
+  },
+  {
+    "pergunta": "Qual o tipo de governo de Fresno, California?",
+    "resposta": "Strong Mayor"
+  },
+  {
+    "pergunta": "Quantos habitantes Fresno tinha segundo o censo de 2020?",
+    "resposta": "mais de 542.000"
+  },
+  {
+    "pergunta": "Qual a coordenada geográfica de Fresno, California?",
+    "resposta": "36.75 -119.7667"
+  },
+  {
+    "pergunta": "Qual é a posição de Fresno em termos de população no Estados Unidos?",
+    "resposta": "34ª cidade mais populosa"
+  },
+  {
+    "pergunta": "Quem nasceu em Fresno, California e é conhecido como George N. Zenovich?",
+    "resposta": "George N. Zenovich"
+  },
+  {
+    "pergunta": "Qual a área total de Fresno, California?",
+    "resposta": "300.438620798976"
+  },
+  {
+    "pergunta": "Que equipe de futebol americano esteve localizada em Fresno, California em 2021?",
+    "resposta": "New Mexico Lobos"
+  },
+  {
+    "pergunta": "Qual o modelo de página wiki usado por Fresno, California?",
+    "resposta": "Template:California cities and mayors of 100,000 population"
+  }
+]
+```

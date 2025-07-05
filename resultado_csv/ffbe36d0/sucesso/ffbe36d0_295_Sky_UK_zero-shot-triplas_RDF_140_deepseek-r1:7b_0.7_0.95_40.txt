@@ -1,0 +1,58 @@
+<think>
+Okay, let's tackle this query step by step. The user wants me to generate 10 pairs of questions and answers based on the provided context about British Satellite Broadcasting (BSB). They emphasized that each pair should be unique, cover different aspects of the content, and have a single correct answer derivable from the text.
+
+First, I'll review the context and facts. BSB was formed in November 1990 to create BS Sky Broadcasting (BSK), right? They started broadcasting on March 25, 1990. The context also mentions their role in providing direct satellite services to the UK. There are some DBpedia links which likely offer more structured data.
+
+I need to ensure each question is clear and directly relates to the content. I'll vary the questions by asking about when BSB was formed, what company it merged with, its founding year, their headquarters location, key dates in their history, and notable channels they owned.
+
+Looking at the facts, there's information about the formation date, merger details, ownership changes of various channels, their location in London, and specific projects like "Heil Honey I'm Home!" The logo is associated with Marco Polo House. 
+
+I'll structure each question to extract one piece of information accurately without ambiguity. For example, asking when BSB was formed gives a single answer (1986). Questions about mergers can be phrased to ask for the year or details. I should avoid any questions that require combining multiple facts.
+
+Now, compiling these into 10 pairs, ensuring each covers a different aspect and is clearly tied to the provided context.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando foi formada British Satellite Broadcasting (BSB)?",
+    "resposta": "1986"
+  },
+  {
+    "pergunta": "Em qual ano BSB e Sky Television foram juntadas para formar BSkyB?",
+    "resposta": "1990"
+  },
+  {
+    "pergunta": "O que BSB ajudou a Criar em 1990?",
+    "resposta": "BSK (British Sky Broadcasting)"
+  },
+  {
+    "pergunta": "Onde está localizado BSB no Reino Unido?",
+    "resposta": "Londres"
+  },
+  {
+    "pergunta": "Qual é um dos produtos da BSB que surgiu após a fusão com Sky Television em 1990?",
+    "resposta": "Now (British TV channel)"
+  },
+  {
+    "pergunta": "Em qual ano BSB começou a transmitir TV Direta por satellite na UK?",
+    "resposta": "1990"
+  },
+  {
+    "pergunta": "Qual foi o nome do site queagera a BSB e sua loja de DVD?",
+    "resposta": "Galaxy (British TV channel)"
+  },
+  {
+    "pergunta": "Em qual ano BSB was formado para juntar quais empresas?",
+    "resposta": "BSB (British Satellite Broadcasting) foi formada para juntar British Sky Broadcasting e Christopher Hieda and Company"
+  },
+  {
+    "pergunta": "Qual é um dos filmes produzidos pela BSB company?",
+    "resposta": "Heil Honey I'm Home!"
+  },
+  {
+    "pergunta": "Quais were duas empresas que comprou BSB para formar BSkyB?",
+    "resposta": "BS Sky Broadcasting e Sky Plc"
+  }
+]
+```

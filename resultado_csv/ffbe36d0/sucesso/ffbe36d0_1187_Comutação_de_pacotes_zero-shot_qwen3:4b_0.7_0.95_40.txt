@@ -1,0 +1,69 @@
+<think>
+Okay, the user wants me to generate 10 objective questions and answers based on the provided context about "Comutação_de_pacotes". Let me start by understanding the context. The term "Comutação_de_pacotes" translates to packet switching in Portuguese. So, I need to create questions that cover different aspects of packet switching.
+
+First, I should recall what packet switching is. It's a method of breaking data into packets and sending them independently through a network. Each packet contains the data and addressing information. The key points here are the structure of packets, routing, error handling, and the difference between packet switching and circuit switching.
+
+Now, I need to make sure the questions are varied. Let me think of different aspects: how data is divided, how packets are routed, error handling, the role of routers, comparison with circuit switching, the structure of packets, the purpose of headers, how retransmission works, and maybe the main advantage of packet switching.
+
+Wait, the user specified that each question must be unique and cover different aspects. Let me list possible topics:
+
+1. What is packet switching?
+2. How is data divided in packet switching?
+3. What is the role of a router in packet switching?
+4. How do packets handle errors?
+5. What is the difference between packet switching and circuit switching?
+6. What is a packet header?
+7. How are packets routed through a network?
+8. What is the purpose of the sequence number in a packet?
+9. How does packet switching handle data transmission?
+10. What is the advantage of packet switching over circuit switching?
+
+I need to make sure each of these is a separate question. Let me check if these are all covered and not overlapping. Also, the answers must be directly from the context. Since the context is "Comutação_de_pacotes", I should use that term in the questions.
+
+Wait, the user provided a context but no actual content. Oh, right, the context is just the title "Comutação_de_pacotes", which is the topic. So I need to base the questions on general knowledge about packet switching. But the user might have intended that the context is the actual content, but in the given problem, the context is just the title. Hmm, maybe the user expects that the context is the topic, and the questions are about the concept of packet switching.
+
+So I need to generate questions based on that. Let me proceed to create the 10 questions and answers, ensuring they are all distinct and cover different aspects of packet switching. Let me check if each question is clear and the answers are accurate.
+</think>
+
+[
+  {
+    "pergunta": "O que é a comutação de pacotes?",
+    "resposta": "É um método de transmissão de dados em que a informação é dividida em pacotes menores, cada um contendo endereços de origem e destino, e enviados independentemente pelo redes."
+  },
+  {
+    "pergunta": "Como os dados são divididos na comutação de pacotes?",
+    "resposta": "Os dados são fragmentados em pacotes, cada um com um cabeçalho que contém informações de endereçamento e controle, para serem transmitidos individualmente."
+  },
+  {
+    "pergunta": "Qual o papel do roteador em uma rede de comutação de pacotes?",
+    "resposta": "O roteador direciona cada pacote para o caminho mais eficiente para o destino, usando informações do cabeçalho de cada pacote para tomar decisões de roteamento."
+  },
+  {
+    "pergunta": "Como os pacotes lidam com erros durante a transmissão?",
+    "resposta": "Os pacotes incluem mecanismos de confirmação e retransmissão, como números de sequência e campos de controle, para garantir a integridade e a entrega correta dos dados."
+  },
+  {
+    "pergunta": "Qual a diferença principal entre comutação de pacotes e comutação de circuitos?",
+    "resposta": "Na comutação de pacotes, os dados são enviados em pacotes independentes, enquanto na comutação de circuitos, um caminho físico é estabelecido previamente entre os dispositivos."
+  },
+  {
+    "pergunta": "O que é um cabeçalho de pacote?",
+    "resposta": "O cabeçalho de um pacote contém informações como endereços de origem e destino, tamanho do pacote, números de sequência e campos de controle para garantir a entrega correta."
+  },
+  {
+    "pergunta": "Como os pacotes são roteados através de uma rede?",
+    "resposta": "Cada pacote é roteado de acordo com os endereços de origem e destino no cabeçalho, com roteadores escolhendo o caminho mais adequado para cada pacote."
+  },
+  {
+    "pergunta": "Qual é a função do número de sequência em um pacote?",
+    "resposta": "O número de sequência garante que os pacotes sejam reconstituídos na ordem correta no destino, mesmo que cheguem em sequência diferente."
+  },
+  {
+    "pergunta": "Como a comutação de pacotes se beneficia da rede?",
+    "resposta": "A comutação de pacotes permite que a rede utilize recursos de forma eficiente, pois cada pacote é tratado individualmente, permitindo roteamento dinâmico e uso de recursos variável."
+  },
+  {
+    "pergunta": "Qual é a vantagem principal da comutação de pacotes em relação a outros métodos?",
+    "resposta": "A comutação de pacotes oferece maior flexibilidade e eficiência, pois permite que dados sejam transmitidos de forma adaptativa, mesmo com variações de carga e caminhos de rede."
+  }
+]

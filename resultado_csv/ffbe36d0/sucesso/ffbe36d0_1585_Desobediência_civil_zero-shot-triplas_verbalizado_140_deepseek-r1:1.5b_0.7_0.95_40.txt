@@ -1,0 +1,70 @@
+<think>
+Okay, let me see what I need to do here. The user wants me to generate ten pairs of questions and answers based on a given context and facts. Each pair should be relevant, unique, in Portuguese, and without any extra information.
+
+First, I'll read through the context carefully. It's about various types of civil disobedience actions or protests. The context mentions different countries, events, and movements that use Civil disobedience as a method. My task is to turn each of these into question-answer pairs.
+
+I need to make sure each question relates directly to one of these contexts. That means I should pick a specific instance from the facts section for each question. For example, "How did the 2017 Serbian protests utilize Civil disobedience?" would be a good start.
+
+I also have to ensure that the responses are clear and straightforward, using Portuguese. Each response should directly address the question without adding extra information beyond what's provided in the context.
+
+I'll go through each fact one by one, extract the key details, formulate a relevant question, and then provide an answer based on that detail. I need to make sure there are no repeated questions, so I have to vary the focus each time.
+
+Let me also check if any of the facts seem too similar or if they might be considered duplicates. For instance, the mention of civil disobedience in the context is pretty broad, but I can create specific questions around different aspects like its definition, types, and key examples.
+
+I should also ensure that the Portuguese translations are accurate and appropriate for this context. It's important to maintain the tone as formal since it's about historical events, so the answers need to be precise and correctly translated.
+
+Once I've structured all ten pairs, I'll format them into a JSON response as specified, making sure each object contains a "pergunta" and "resposta" property with the correct values.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Como foi utilizada Civil disobedience no passo 2017 na demonstração da Roupa seriana?",
+    "resposta": "Em 2017, o passo 2017 da Roupa seriana utiliza Civil disobedience para exibir um visual profissional e activar a爱国ização do grupo."
+  },
+  {
+    "pergunta": "Qual foi o objetivo principal da civil disobedição no passo 2017 na demonstrateção da Roupa seriana?",
+    "resposta": "Portanto, o objetivo principal foi reforçar o estilo profissional e promover a爱国ização."
+  },
+  {
+    "pergunta": "Em quais countries utilizaram Civil disobedience para exibir um visual profissional?",
+    "resposta": "Números de países usam Civil disobedience para exibir um visual profissional, incluindo o Brasil, o Portugal e o Espanha."
+  },
+  {
+    "pergunta": " qual foi o mainstay do passo 2017 da Roupa seriana na demonstrateação civil?",
+    "resposta": "O mainstay era a exibição visual profissional em um formato académico ou business-like."
+  },
+  {
+    "pergunta": "Em que国籍 usaram Civil disobedience para exibir uma demonstração profissional?",
+    "resposta": "No Brasil, o Portugal e o Espanha utilizam Civil disobedience para exibir uma demonstração profissional em formates como powerpoint ou slides."
+  },
+  {
+    "pergunta": "Como foi utilizada Civil disobedience no passo 2015-2016 na demonstrateação da Roupa seriana?",
+    "resposta": "No passo 2015-2016, o passo 2017 da Roupa seriana utilize Civil disobedience para exibir um powerpoint profissional e promover a爱国ização."
+  },
+  {
+    "pergunta": " Qual foi o objetivo principal da civil disobedição no passo 2015-2016?",
+    "resposta": "Portanto, o objetivo principal foi reforçar o estilo académico e promover a爱国ização."
+  },
+  {
+    "pergunta": "Em quais国籍es utilizaram Civil disobedience para exibir um powerpoint profissional?",
+    "resposta": "No Brasil, o Portugal e o Espanha utilizam Civil disobedience para exibir powerpoints profissional em formatos como powerpoint slides."
+  },
+  {
+    "pergunta": " qual foi o mainstay do passo 2015-2016 da Roupa seriana?",
+    "resposta": "O mainstay era a exibição visual profissional em um formato business-like ou slides."
+  },
+  {
+    "pergunta": "Em quais国籍es utilizaram Civil disobedience para exibir uma demonstrateação profissional?",
+    "resposta": "No Brasil, o Portugal e o Espanha utilizam Civil disobedience para exibir uma demonstrateação profissional em formatos como powerpoint slides."
+  },
+  {
+    "pergunta": " qual foi o objetivo principal da civil disobedição no passo 2018-2019 na demonstation da roupa seriana?",
+    "resposta": "Portanto, o objetivo principal foi reforçar o estilo académico e promover a爱国ização."
+  },
+  {
+    "pergunta": "Em quais国籍es utilizaram Civil disobedience para exibir um powerpoint profissional?",
+    "resposta": "No Brasil, o Portugal e o Espanha utilizam Civil disobedience para exibir powerpoints profissional em formatos como slides."
+  }
+]
+```

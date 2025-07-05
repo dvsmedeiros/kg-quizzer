@@ -1,0 +1,78 @@
+<think>
+Okay, so I need to create a JSON with exactly 10 question-answer pairs based on the given context and facts about Ctenophora. Let me go through this step by step.
+
+First, I'll read the context carefully. It talks about Ctenophora, which are marine animals known as comb jellies or sea walnuts. They have unique features like ciliary combs for swimming, are bioluminescent, and are found in oceans and estuaries. They're distinct from medusas despite similar appearances.
+
+Looking at the facts provided, there's information about their classification, such as being a phylum, their subdivisions into classes, and specific species mentioned. Also, details about their locomotion using cilia, size range, evolutionary aspects, and fossil records are included.
+
+I need to ensure each question is unique and covers different aspects. Let me list possible topics: taxonomy (phylum name, classification), physical characteristics (combs, bioluminescence), locomotion methods, size range, comparison with medusas, presence in the fossil record, habitat, types of species, etc.
+
+I'll start by identifying key points from which to formulate questions. For example:
+
+1. Taxonomy: What is the scientific name of the phylum?
+2. Characteristics: What do they use for swimming?
+3. Size variation: What's the size range of adults?
+4. Relation to medusas: Are they closely related to cnidarians?
+
+I should also consider their habitat, subdivisions into classes, whether they're colonial, examples of species like Mnemiopsis leidyi.
+
+Wait, I need 10 questions. Let me list more points:
+
+5. Presence in the fossil record since which period?
+6. What's another common name besides comb jellies?
+7. Do they have a gelatinous layer (mesoglea)?
+8. Are they bioluminescent? Yes.
+9. Do they form colonies or are they solitary?
+10. How do they locomote—using cilia?
+
+I think that covers different aspects without repeating similar questions. Now, I'll phrase each into a question and provide the correct answer from the context.
+
+Let me double-check if all answers are explicitly stated or can be inferred. For example, the fossil record is mentioned as Cambrian, so that's clear. The presence of mesoglea is inferred from their similarity to medusas but not directly stated; however, since it's part of their description, it's acceptable.
+
+I need to ensure each answer is accurate and directly related to the context provided.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é o nome científico do filo dos ctenóforos?",
+    "resposta": "Ctenophora"
+  },
+  {
+    "pergunta": "O que os ctenóforos utilizam para nadar?",
+    "resposta": "Pentes formados por grupos de cílios"
+  },
+  {
+    "pergunta": "Qual é o tamanho dos adultos de Ctenophora?",
+    "resposta": "De cerca de 1 mm a 1,5 m de comprimento"
+  },
+  {
+    "pergunta": "Ctenóforos são animais coloniais ou solitários?",
+    "resposta": "Não coloniais"
+  },
+  {
+    "pergunta": "Em qual período os ctenóforos aparecem no registro fóssil?",
+    "resposta": "Cambriano"
+  },
+  {
+    "pergunta": "Qual é outro nome comum para os ctenóforos?",
+    "resposta": "Águas-vivas-de-pente"
+  },
+  {
+    "pergunta": "Os ctenóforos têm uma camada gelatinosa chamada mesogleia?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "São os ctenóforos bioluminescentes?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Qual é a relação filogenética dos ctenóforos com as medusas?",
+    "resposta": "Convergência evolutiva, não relacionamento próximo"
+  },
+  {
+    "pergunta": "O que os ctenóforos são os maiores exemplos entre os animais que se locomovem utilizando?",
+    "resposta": "Cílios"
+  }
+]
+```

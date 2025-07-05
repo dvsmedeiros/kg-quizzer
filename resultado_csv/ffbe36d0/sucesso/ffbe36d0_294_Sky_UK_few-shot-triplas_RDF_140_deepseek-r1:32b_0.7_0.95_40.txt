@@ -1,0 +1,69 @@
+<think>
+Okay, I need to help the user by generating 10 question-answer pairs based on the given context and facts about British Satellite Broadcasting (BSB). Let me start by thoroughly understanding the information provided.
+
+First, the context mentions that BSB was a TV company in London providing satellite broadcasts in the UK. It started transmitting on March 25, 1990, and merged with Sky Television to form BSkyB in November 1990. 
+
+Looking at the facts, there are several RDF triples provided. I see that BSB owns or operates various TV channels like Galaxy, Now, The Computer Channel, The Movie Channel, and The Power Station. It's also involved in producing films such as "Hardware" and "Memphis Belle." Additionally, BSB is linked to companies like Heil Honey I'm Home! and Hardware (film). 
+
+The facts also mention that BSB was founded on December 11, 1986, and later merged with Sky Television to become BSkyB. It's located in England, specifically London, at the Marco Polo House. The company is categorized under various media categories and has successors like Sky UK.
+
+Now, I need to create varied questions covering different aspects of BSB. Let me brainstorm possible questions:
+
+1. When did BSB start transmitting? (March 25, 1990)
+2. What was the result of BSB's merger with Sky Television? (BSkyB)
+3. Name a TV channel owned by BSB. (Galaxy, Now, etc.)
+4. When was BSB founded? (1986)
+5. Where is BSB headquartered? (London, England, UK, Marco Polo House)
+6. What film production companies are associated with BSB? (Hardware and Memphis Belle films)
+7. Which company succeeded BSB? (Sky UK)
+8. What category does BSB fall under? (British media companies, defunct media companies)
+9. Name a TV show produced by BSB. (Heil Honey I'm Home!)
+10. When did the merger with Sky Television occur? (November 1990)
+
+I should ensure each question is clear and only has one correct answer based on the provided facts. Also, avoid repeating similar questions.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quando a British Satellite Broadcasting começou a transmitir?",
+    "resposta": "25 de março de 1990"
+  },
+  {
+    "pergunta": "Qual empresa resultou da fusão da BSB com a Sky Television?",
+    "resposta": "BSkyB"
+  },
+  {
+    "pergunta": "Qual canal de TV é propriedade da British Satellite Broadcasting?",
+    "resposta": "Galaxy"
+  },
+  {
+    "pergunta": "Em que ano a British Satellite Broadcasting foi fundada?",
+    "resposta": "1986"
+  },
+  {
+    "pergunta": "Onde está sediada a British Satellite Broadcasting?",
+    "resposta": "Londres, Inglaterra, Reino Unido"
+  },
+  {
+    "pergunta": "Qual filme teve produção associada à BSB?",
+    "resposta": "Hardware"
+  },
+  {
+    "pergunta": "Qual empresa sucedeu a British Satellite Broadcasting?",
+    "resposta": "Sky UK"
+  },
+  {
+    "pergunta": "Em qual categoria a BSB se enquadra?",
+    "resposta": "Empresas de mídia britânicas"
+  },
+  {
+    "pergunta": "Qual série ou filme foi produzido pela BSB?",
+    "resposta": "Heil Honey I'm Home!"
+  },
+  {
+    "pergunta": "Em qual mês de 1990 a BSB se fundiu com a Sky Television?",
+    "resposta": "novembro"
+  }
+]
+```

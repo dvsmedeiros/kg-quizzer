@@ -1,0 +1,52 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the provided data. Let me start by understanding the data. The data is a list of educational institutions with their types, mostly labeled as "Private school" or "Private school" with some variations. The user wants me to create questions that ask about the type of each institution and the answers should be the corresponding type.
+
+First, I'll go through the list and pick 10 entries. Each entry has the format "http://dbpedia.org/resource/Name ns1:type <http://dbpedia.org/resource/Private_school>". The name is the school's name, and the type is "Private school". So the question should be "What type of school is [Name]?" and the answer is "Private school".
+
+I need to make sure that the names are correctly formatted. For example, "St. Mary's Academy (New Orleans)" and "The British School, Kathmandu" are valid. I'll check for any variations in the types, but in the given data, most are "Private school" or "Private school" with a different URI, but the label seems consistent. I'll use "Private school" as the answer for all.
+
+Now, I'll list 10 names from the data:
+
+1. St. Agnes Boys High School
+2. St. Andrews School (India)
+3. St. Benedict's Preparatory School
+4. St. Britto High School, Mapusa
+5. St. Francis High School (Wheaton, Illinois)
+6. St. Ignatius of Loyola College, Las Palmas
+7. St. James High School (Philippines)
+8. St. John de Britto College
+9. St. Luke's School (Connecticut)
+10. St. Mary's Academy (New Orleans)
+
+Wait, I need to make sure that each question is unique and the answers are accurate. Let me verify each entry:
+
+- "St. Agnes Boys High School" has "ns1:type <http://dbpedia.org/resource/Private_school>" so the answer is "Private school".
+- "St. Andrews School (India)" same.
+- "St. Benedict's Preparatory School" same.
+- "St. Britto High School, Mapusa" same.
+- "St. Francis High School (Wheaton, Illinois)" same.
+- "St. Ignatius of Loyola College, Las Palmas" same.
+- "St. James High School (Philippines)" same.
+- "St. John de Britto College" same.
+- "St. Luke's School (Connecticut)" same.
+- "St. Mary's Academy (New Orleans)" same.
+
+Yes, all these entries have the same type. Now, I'll format each as "pergunta;resposta".
+
+I need to ensure that the names are correctly capitalized and that the questions are phrased as "What type of school is [Name]?".
+
+Let me check for any typos or errors in the names. For example, "St. Mary's Academy (New Orleans)" is correct. "St. John de Britto College" is also correct. 
+
+Once I have 10, I can present them as the answer.
+</think>
+
+St. Agnes Boys High School;Private school  
+St. Andrews School (India);Private school  
+St. Benedict's Preparatory School;Private school  
+St. Britto High School, Mapusa;Private school  
+St. Francis High School (Wheaton, Illinois);Private school  
+St. Ignatius of Loyola College, Las Palmas;Private school  
+St. James High School (Philippines);Private school  
+St. John de Britto College;Private school  
+St. Luke's School (Connecticut);Private school  
+St. Mary's Academy (New Orleans);Private school

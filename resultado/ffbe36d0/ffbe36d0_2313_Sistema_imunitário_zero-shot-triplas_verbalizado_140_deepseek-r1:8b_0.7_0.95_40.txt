@@ -1,0 +1,73 @@
+<think>
+Okay, I need to generate 10 question-response pairs based on the provided context and facts. Let me start by understanding what's given.
+
+First, the context explains that the immune system is a biological system that protects organisms from diseases by detecting and neutralizing pathogens. It was pioneered by Ilya Ilyich Mechnikov in 1882. The immune system uses various mechanisms like phagocytosis, antimicrobial peptides, and the complement system. Adaptive immunity allows for a memory of past infections, enabling stronger responses to repeated threats. Vaccination is based on this adaptive immunity. Immunodeficiency can lead to recurrent infections and is caused by genetic disorders, HIV/SIDA, or immunosuppressors. Autoimmunity occurs when the immune system mistakenly attacks the body's own tissues.
+
+Now, looking at the facts:
+- Basophil is part of the immune system.
+- The immune system has an LC (lymphocyte) topic.
+- It includes images like SEM blood cells and Rheumatoid Arthritis.
+- Microfold cells are part of the immune system.
+- Models like Template:Immune system are used.
+- Adaptive NK cells, granulocytes, T cells, sepsis, stamps, books, B cells, defensins, monoblasts, Langerhans cells, histiocytes, food allergies, lymphatic systems, lymphocytes, neutrophils, Paul Ehrlich's work, César Milstein, rheumatology, Charles Surh, Natural killer cells are all related.
+
+I need to create 10 varied questions that cover different aspects. Let me list possible topics:
+
+1. Definition: What is the primary function of the immune system?
+2. History: Who is known as the father of immunology?
+3. Structure: Which type of cell is part of the immune response against pathogens?
+4. Mechanisms: How do natural killer cells contribute to the immune defense?
+5. Autoimmunity: What autoimmune condition affects the joints and is characterized by joint inflammation?
+6. Adaptive Immunity: How does vaccination work based on the immune system's memory?
+7. Causes: What can cause immunodeficiency in humans?
+8. Cells: Which cell type helps in presenting antigens to other immune cells?
+9. Research: Who is associated with the study of the immune system's response to cancer?
+10. Specificity: How does the immune system distinguish between self and non-self?
+
+Now, I'll frame each question and ensure the correct answers are extracted from the context.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a principal função do sistema imune?",
+    "resposta": "O sistema imune protege o organismo contra doenças, detectando e neutralizando agentes patogénicos."
+  },
+  {
+    "pergunta": "Quem foi considerado o pai da imunologia?",
+    "resposta": "Ilya Ilyich Mechnikov em 1882 foi o primeiro a cunhar o termo imunologia."
+  },
+  {
+    "pergunta": "Qual tipo de célula participa do processo de fagocitose?",
+    "resposta": "As células Basophil são responsáveis por processar e destruir patogênicos via fagocitose."
+  },
+  {
+    "pergunta": "Como contribuem os NK cells para a defesa imune?",
+    "resposta": "Eles identificam e matam células infectadas ou cancerígenas sem necessidade de marcação específica."
+  },
+  {
+    "pergunta": "Qual doença autoimune afeta as articulações e é acompanhada por inflamação nas articulares?",
+    "resposta": "A artrite reumatóide é uma doença autoimune que causa dor e inflamação nos joelhos e ombros."
+  },
+  {
+    "pergunta": "Como a vacinação utiliza a memória imunológica?",
+    "resposta": "Após uma infecção, o organismo cria memória imunológica, permitindo uma resposta mais forte à reintegração do mesmo agente patogênico."
+  },
+  {
+    "pergunta": "Quais fatores podem causar imunodeficiência em humanos?",
+    "resposta": "Doenças genéticas, HIV/SIDA e uso de imunossupressores são causas principais de imunodeficiência."
+  },
+  {
+    "pergunta": "Qual célula apresenta antígenos para outros elementos do sistema imune?",
+    "resposta": "As células Dendrítica processam e apresentam antígenos para os linfócitos T."
+  },
+  {
+    "pergunta": "Quem é associado ao estudo da resposta imunológica ao câncer?",
+    "resposta": "O Dr. Charles Surh pesquisa a interação entre o sistema imune e o câncer."
+  },
+  {
+    "pergunta": "Como o sistema imune distingue entre si mesmo e elementos estranhos?",
+    "resposta": "O sistema imune reconhece moléculas como os próprios componentes do corpo usando mecanismos de memorização."
+  }
+]
+```

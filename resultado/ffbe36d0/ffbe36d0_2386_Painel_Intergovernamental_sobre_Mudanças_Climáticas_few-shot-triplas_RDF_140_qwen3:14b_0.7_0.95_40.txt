@@ -1,0 +1,69 @@
+<think>
+Okay, let's start by understanding the user's request. They want me to generate 10 question-answer pairs based on the provided context and facts. The context is about the IPCC, its creation, purpose, and some related information. The facts include a lot of RDF data, which I need to parse to extract relevant details.
+
+First, I'll go through the context again to identify key points. The IPCC was established in 1988 by the UN Environment Programme (UNEP) and the World Meteorological Organization (WMO). Its main role is to synthesize scientific research on climate change. It doesn't conduct original research but summarizes existing studies. They've produced five major reports, with the last one in 2014. The IPCC received the Nobel Peace Prize in 2007.
+
+Now, looking at the facts, there's a lot of structured data. For example, the headquarters is in Geneva, Switzerland. The current leader is Hoesung Lee, and the parent organizations are UNEP and WMO. There are also mentions of various individuals associated with the IPCC, like Bert Bolin, Filippo Giorgi, etc. Also, the Nobel Prize in 2007 is noted.
+
+I need to make sure that the questions cover different aspects: creation, purpose, structure, key people, awards, reports, and maybe some specific details from the facts. Let's start listing possible questions.
+
+1. What is the full name of the IPCC in Portuguese (Brazil)? Answer: Painel Intergovernamental sobre Mudanças Climáticas.
+2. Which two organizations established the IPCC? Answer: PNUMA and OMM.
+3. Where is the IPCC headquartered? Answer: Geneva, Switzerland.
+4. Who is the current chair of the IPCC? Answer: Hoesung Lee.
+5. What year was the IPCC created? Answer: 1988.
+6. How many major reports has the IPCC produced? Answer: Five.
+7. Which prize did the IPCC win in 2007? Answer: Nobel Peace Prize.
+8. What is the main purpose of the IPCC? Answer: To synthesize and disseminate knowledge on climate change.
+9. Who was the first president of the IPCC? Answer: Bert Bolin.
+10. In which year was the last major report published? Answer: 2014.
+
+Now, I need to check if these questions are all covered in the context and facts. The first question about the Portuguese name is in the context. The establishment by PNUMA and OMM is in the context. Headquarters in Geneva is in the facts. Hoesung Lee is mentioned as the leader. Created in 1988, five reports, Nobel Prize in 2007, purpose is in the context. Bert Bolin is mentioned as the first president. The last report in 2014 is in the context.
+
+I should make sure there are no duplicates and each question is unique. Also, check that answers are directly from the provided information. For example, the Nobel Prize is explicitly stated. The headquarters is in the facts. The number of reports is mentioned in the context.
+
+I think this covers all necessary points. Now, format them into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual o nome completo do IPCC em português do Brasil?",
+    "resposta": "Painel Intergovernamental sobre Mudanças Climáticas"
+  },
+  {
+    "pergunta": "Quais são as duas organizações que estabeleceram o IPCC?",
+    "resposta": "Programa das Nações Unidas para o Meio Ambiente (PNUMA) e Organização Meteorológica Mundial (OMM)"
+  },
+  {
+    "pergunta": "Em que cidade está sediada a sede do IPCC?",
+    "resposta": "Geneva, Switzerland"
+  },
+  {
+    "pergunta": "Quem é o líder atual do IPCC?",
+    "resposta": "Hoesung Lee"
+  },
+  {
+    "pergunta": "Em que ano foi criado o IPCC?",
+    "resposta": "1988"
+  },
+  {
+    "pergunta": "Quantos relatórios principais o IPCC já produziu?",
+    "resposta": "Cinco"
+  },
+  {
+    "pergunta": "Que prêmio o IPCC recebeu em 2007?",
+    "resposta": "Prêmio Nobel da Paz"
+  },
+  {
+    "pergunta": "Qual é o objetivo principal do IPCC?",
+    "resposta": "Sintetizar e divulgar conhecimento sobre mudanças climáticas"
+  },
+  {
+    "pergunta": "Quem foi o primeiro presidente do IPCC?",
+    "resposta": "Bert Bolin"
+  },
+  {
+    "pergunta": "Em que ano foi publicado o último relatório principal do IPCC?",
+    "resposta": "2014"
+  }
+]

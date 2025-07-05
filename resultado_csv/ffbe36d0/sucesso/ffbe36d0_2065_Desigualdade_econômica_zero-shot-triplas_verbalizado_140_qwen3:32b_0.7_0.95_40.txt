@@ -1,0 +1,87 @@
+<think>
+Okay, let's see. I need to generate 10 question-answer pairs based on the provided context and facts. The user wants them in JSON format, each with a question and a correct answer, all in Portuguese. The questions should cover different aspects of the content and not be repetitive.
+
+First, I'll go through the context. The main points are economic inequality, including income and wealth distribution, the Gini coefficient, the HDI adjusted for inequality, global vs. within-country inequality, globalization's role, and related concepts like equity and opportunity. 
+
+Now, looking at the facts provided, there's a lot of information about models used (like Gini index, Kuznets curve), images, categories (e.g., Economic globalization, Social inequality), notable people (Branko Milanović, Richard G. Wilkinson), movements (Occupy Wall Street, Land Reform Movement in China), and specific data points (like income share of top percentiles).
+
+I need to form questions that are varied. Let's start with the main concepts. Maybe ask about the most common measure of economic inequality, which is the Gini coefficient. Then, another question about the effect of globalization on inequality. The context mentions that it reduced between-nations inequality but increased within-nations. 
+
+Next, the HDI adjusted for inequality is another measure. A question about that. Also, the difference between income and wealth distribution. The context says economic inequality can refer to income or wealth distribution. 
+
+Another point is the impact of inequality on economic growth. The context states that higher inequality hinders growth duration, not the rate. 
+
+There's a mention of categories like Economic globalization and Social inequality. A question could ask about the categories the topic is associated with. 
+
+Notable people like Branko Milanović working in this area. A question about scholars in this field. 
+
+Movements like Occupy Wall Street caused by economic inequality. So a question about social movements related to it. 
+
+The Kuznets curve is mentioned in the images. Maybe a question about the curve's purpose. 
+
+Global vs. national inequality: the context says globalization reduced between-country inequality but increased within. 
+
+The main types of economic inequality measures: income, wealth, consumption. 
+
+I need to ensure each question is unique and covers different aspects. Let me list possible questions:
+
+1. Qual é a medida mais utilizada para medir a desigualdade econômica? Resposta: Coeficiente de Gini.
+2. Como a globalização afeta a desigualdade entre e dentro dos países? Resposta: Reduz entre nações, aumenta dentro.
+3. Qual índice composto considera a desigualdade no cálculo do desenvolvimento humano? Resposta: Índice de Desenvolvimento Humano Ajustado pela Desigualdade.
+4. Quais são os dois principais aspectos da desigualdade econômica mencionados? Resposta: Distribuição de renda e riqueza.
+5. Que economista está associado à análise da desigualdade econômica mencionada no contexto? Resposta: Branko Milanović.
+6. Qual teoria é representada pela curva de Kuznets? Resposta: Relação entre desenvolvimento econômico e desigualdade (a curva sugere que a desigualdade aumenta até um certo ponto de desenvolvimento e depois diminui).
+7. Quais categorias no contexto estão relacionadas à desigualdade econômica? Resposta: Globalização econômica e desigualdade social.
+8. Qual movimento social está ligado à luta contra a desigualdade econômica? Resposta: Movimento Occupy Wall Street.
+9. Como a desigualdade afeta o crescimento econômico, segundo o texto? Resposta: Dificulta a duração do crescimento, mas não sua taxa.
+10. Quais são os três tipos principais de medidas econômicas focadas na desigualdade? Resposta: Riqueza, renda e consumo.
+
+I need to check if all answers are correct based on the context and facts. The Gini coefficient is indeed the most used. Globalization's effect is as stated. HDI adjusted is correct. The two aspects (income and wealth) are mentioned. Branko Milanović is listed in the facts. The Kuznets curve is part of the images. Categories like Economic globalization and Social inequality are in the facts. The Occupy movement is mentioned. The impact on growth duration is correct. The three types (wealth, income, consumption) are in the context.
+
+I think that covers 10 varied questions without repetition. Now, format them into JSON as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Qual é a medida mais utilizada para medir a desigualdade econômica?",
+    "resposta": "Coeficiente de Gini"
+  },
+  {
+    "pergunta": "Como a globalização afeta a desigualdade entre e dentro dos países?",
+    "resposta": "Reduz a desigualdade entre nações, mas aumenta a desigualdade dentro dos países"
+  },
+  {
+    "pergunta": "Qual índice composto considera a desigualdade no cálculo do desenvolvimento humano?",
+    "resposta": "Índice de Desenvolvimento Humano Ajustado pela Desigualdade"
+  },
+  {
+    "pergunta": "Quais são os dois principais aspectos da desigualdade econômica mencionados no contexto?",
+    "resposta": "Distribuição de renda e riqueza"
+  },
+  {
+    "pergunta": "Que economista está associado à análise da desigualdade econômica mencionada no contexto?",
+    "resposta": "Branko Milanović"
+  },
+  {
+    "pergunta": "Qual teoria é representada pela curva de Kuznets?",
+    "resposta": "Relação entre desenvolvimento econômico e desigualdade"
+  },
+  {
+    "pergunta": "Quais categorias no contexto estão relacionadas à desigualdade econômica?",
+    "resposta": "Globalização econômica e desigualdade social"
+  },
+  {
+    "pergunta": "Qual movimento social está ligado à luta contra a desigualdade econômica?",
+    "resposta": "Movimento Occupy Wall Street"
+  },
+  {
+    "pergunta": "Como a desigualdade afeta o crescimento econômico, segundo o texto?",
+    "resposta": "Dificulta a duração do crescimento, mas não sua taxa"
+  },
+  {
+    "pergunta": "Quais são os três tipos principais de medidas econômicas focadas na desigualdade?",
+    "resposta": "Riqueza, renda e consumo"
+  }
+]
+```

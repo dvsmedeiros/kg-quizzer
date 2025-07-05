@@ -1,0 +1,70 @@
+<think>
+Okay, I need to generate 10 pairs of questions and answers based on the given context about the immune system. The questions should be varied and relate to different aspects of the immune system. Each question must have a unique correct answer that's explicitly or inferibly from the content.
+
+First, I'll go through the provided DBpedia triples to extract relevant information. I can see mentions of various immune cells like Adaptive NK cell, B cell, Basophil, etc., and processes such as adaptive immunity, immune system components, diseases related to immunodeficiency, food allergies, and more.
+
+I should start by identifying key areas within the immune system to base my questions on. These include different types of immune cells, their functions, processes like active and passive immune responses, specific conditions (like autoimmune diseases), diseases related to the immune system (e.g., Sepsis), and medical concepts such as food allergies.
+
+For each area, I'll formulate a question that asks about a specific aspect. For example, in Adaptive immunity, I can ask what it involves or how it detects pathogens. In terms of cells, questions could focus on identifying cell types or their roles.
+
+I also need to ensure variety so that the questions cover different mechanisms (like cell types, processes, responses), conditions (autoimmune vs. infections), and specific immune system functions (like defense against specific pathogens).
+
+Let me list out some potential topics:
+
+1. Adaptive Immunity: What it does, detecting agents like viruses.
+2. Cells involved: Examples of cells in the immune system.
+3. Passive Response: The involvement of B cells and T cells.
+4. Components: Macrophages as part of the immune system.
+5. Autoimmune Diseases: Causes or examples (like César Milstein).
+6. Medical Conditions: Sepsis and its relation to immune response.
+7. Cells in Defense: Neutrophils, Lymphocytes, etc., against specific pathogens.
+8. Processes: Active vs. Passive Immune Responses.
+9. Pathogens: How they are detected by the immune system (like via complement or phagocytosis).
+10. Conditions related to immune system failure or deficiency.
+
+Now I'll create 10 questions based on these topics, ensuring each is distinct and covers a different aspect of the immune system as per the provided context.
+</think>
+
+```json
+[
+  {
+    "pergunta": "O que envolve a imunidade adquirida e como ela relaciona-se com a vacinação?",
+    "resposta": "A imunidade adquirida é um respostas organizada do sistema imunitário que recupera danos e ataca agens patogénicos. Ela é baseada na memória imunológica e é usada para evitar doenças repetidas, o que é a base da vacinação."
+  },
+  {
+    "pergunta": "O que são B-cells e qual papel theyem nos sistemas imunitários?",
+    "resposta": "As B-cells são células que se desenvolvem no bone髓, e são um sistema imunitário fundamental para a defensión de agentes virais, bactérias, e parasitários."
+  },
+  {
+    "pergunta": "O que é a imunodeficiência e em qual situação ela pode ocorrer?",
+    "resposta": "A imunodeficiência ocorre quando a atividade do sistema imunitário é baixa ao normal, o que pode levar a infecções recorrentes. Ela pode resultar de doenças genéticas, condicões adquiridas como VIH/SIDA, ou o uso de imunossupressores."
+  },
+  {
+    "pergunta": "Quais são os mecanismos de defesa do sistema imunitário em face a danos saudáveis?",
+    "resposta": "O sistema imunitário detem danos saudáveis como por exemplo, via phagocytose e defesas passivas. Ela envolve enzimas que se adaptam a danos imunológicos."
+  },
+  {
+    "pergunta": "Qual é o propósito principal do sistema imunitário em face a doença autoimune?",
+    "resposta": "O sistema imunitário vaguely detectar e neutralizar danos patogénicos por ser excessivo, o que pode levar a doenças autoimunes como rheumadi e diabetes de tipo 1."
+  },
+  {
+    "pergunta": "Qual é a diferença entre a resposta imunológica ativa e repressiva?",
+    "resposta": "A resposta imunológica ativa envolve a detectão de agentes patogénicos e sua defesa, incluindo a produção de complemento e cefaleas. A repressiva envolve a interação de T-cells com linfocytes periféricas para prevenir ataques do imunossupressor."
+  },
+  {
+    "pergunta": "O que é a imunodeficiência e em qual situação ela pode ocorrer?",
+    "resposta": "A imunodeficiência ocorre quando a atividade do sistema imunitário é baixa ao normal, o que pode levar a infecções recorrentes. Ela pode resultar de doenças genéticas, condicões adquiridas como VIH/SIDA, ou o uso de imunossupressores."
+  },
+  {
+    "pergunta": "O que são T-cells e qual é seu papel no sistema imunitário?",
+    "resposta": "Os T-cells são células que se desenvolvem do bone髓 e são um dos componentes principais do sistema imunitário. Eles se envolvements na identificação de agentes patogénicos e na geração de respostas imunológicas ativa ou repressiva."
+  },
+  {
+    "pergunta": "O que é a vacinação e como ela relaciona-se com o sistema imunitário?",
+    "resposta": "A vacinação envolve a administração de substâncias que imunizam os seres humanos contra doenças, baseando-se em memórias imunológicas developed pelo sistema imunitário."
+  },
+  {
+    "pergunta": "O que são Adaptive NK cells e qual é seu propósito no sistema imunitário?",
+    "resposta": "Os Adaptive NK cells são tipo de células imunológicas que envolvem a defensión de danos imunológicos, como atacar linfocytes periféricas e geração de respostas imunológicas imune."
+}
+```

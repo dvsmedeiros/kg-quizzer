@@ -1,0 +1,52 @@
+Para gerar as questões objetivas a partir do contexto "Número_primo", vamos primeiro entender o que são números primos:
+
+Um número primo é um número inteiro maior que 1 que possui exatamente dois divisores distintos: 1 e ele mesmo. Isso significa que não pode ser dividido por nenhum outro número sem deixar resto, exceto por 1 e pelo próprio número.
+
+Com base nessa definição, podemos criar as questões objetivas:
+
+```json
+[
+  {
+    "pergunta": "Qual é a característica principal de um número primo?",
+    "resposta": "Possui exatamente dois divisores distintos: 1 e ele mesmo."
+  },
+  {
+    "pergunta": "Qual o menor número primo?",
+    "resposta": "2"
+  },
+  {
+    "pergunta": "Por que o número 1 não é considerado um número primo?",
+    "resposta": "Porque possui apenas um divisor distinto de si mesmo."
+  },
+  {
+    "pergunta": "O número 7 é primo. Quais são seus divisores?",
+    "resposta": "1 e 7"
+  },
+  {
+    "pergunta": "Qual dos seguintes números não é primo: 3, 5, 9, 11?",
+    "resposta": "9"
+  },
+  {
+    "pergunta": "O número 2 é o único número primo par. Por quê?",
+    "resposta": "Porque qualquer outro número par pode ser dividido por 2."
+  },
+  {
+    "pergunta": "Qual condição um número deve satisfazer para não ser considerado primo?",
+    "resposta": "Deve ter mais de dois divisores distintos."
+  },
+  {
+    "pergunta": "Por que o número 11 é considerado primo?",
+    "resposta": "Porque seus únicos divisores são 1 e 11."
+  },
+  {
+    "pergunta": "Quais números primos estão entre 10 e 20?",
+    "resposta": "11, 13, 17, 19"
+  },
+  {
+    "pergunta": "Como se pode verificar rapidamente se um número é primo?",
+    "resposta": "Verificando se ele não é divisível por números primos menores ou iguais à sua raiz quadrada."
+  }
+]
+```
+
+Essas questões cobrem diferentes aspectos relacionados a números primos, incluindo definições básicas, exemplos e propriedades específicas.

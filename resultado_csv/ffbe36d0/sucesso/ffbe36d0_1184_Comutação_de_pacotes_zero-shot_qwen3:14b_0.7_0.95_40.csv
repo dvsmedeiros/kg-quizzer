@@ -1,0 +1,11 @@
+pergunta;resposta
+Qual é a principal característica da comutação de pacotes?;A divisão dos dados em pacotes que são transmitidos independentemente pelo rede.
+Como a comutação de pacotes difere da comutação por circuito?;"Na comutação de pacotes, não há um caminho dedicado; os pacotes são roteados individualmente, enquanto na comutação por circuito um caminho fixo é estabelecido antes da transmissão."
+O que é incluído no cabeçalho de um pacote?;Informações de endereçamento, controle e dados de verificação para roteamento e reconstituição.
+Qual é uma vantagem da comutação de pacotes em relação à comutação por circuito?;Maior eficiência no uso dos recursos da rede, pois não há necessidade de manter um caminho dedicado durante toda a comunicação.
+Como os pacotes são reconstituídos no destino?;Por meio de uma sequência de números de ordem e informações de controle que permitem a montagem correta dos dados.
+Qual protocolo de rede é baseado na comutação de pacotes?;O protocolo IP (Internet Protocol) é um exemplo de comutação de pacotes.
+O que ocorre com os pacotes se houver congestionamento na rede?;Os pacotes podem ser atrasados, perdidos ou retransmitidos, dependendo do mecanismo de controle de congestionamento implementado.
+Qual é o objetivo da numeração de sequência nos pacotes?;Garantir a ordem correta de reconstituição dos dados no destino.
+Como a comutação de pacotes contribui para a escalabilidade de redes?;Permite que a rede suporte um grande número de usuários e tráfego simultâneo, sem a necessidade de recursos dedicados.
+O que acontece com os pacotes após a transmissão?;Eles são reconstituídos no destino em sua forma original, com base nas informações contidas em seus cabeçalhos.

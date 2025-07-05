@@ -1,0 +1,69 @@
+<think>
+Okay, so I've got this task where I need to generate 10 question-answer pairs based on the provided context and facts about Ctenophora. Let me start by reading through the context carefully.
+
+First, the context explains that Ctenophora are marine animals known as comb jellies or sea walnuts. They use cilia in rows called "ctenes" to swim. They're planktonic mostly, some are benthic, and they can bioluminesce. Their sizes vary from 1mm to 1.5m. They resemble medusas but aren't closely related; it's just convergent evolution.
+
+Now, looking at the facts section, there are a lot of details about classifications, images, templates used on their Wikipedia page, and some specific organisms under Ctenophora like Coeloplana, Callianira hexagona, Vallicula, etc. They were described by Eschscholtz in 1829, and the type species is Mnemiopsis leidyi.
+
+I need to create questions that cover different aspects: classification, physical characteristics, locomotion, bioluminescence, relation to other animals, distribution, evolutionary aspects, historical description, types, and specific examples.
+
+Let me think about each point:
+
+1. Classification: They belong to the phylum Ctenophora.
+2. Physical characteristic: Transparent bodies with a gelatinous layer (mesoglea).
+3. Locomotion: Use cilia in rows called "ctenes."
+4. Bioluminescence: Yes, they are bioluminescent.
+5. Relation to medusas: Not closely related; convergent evolution.
+6. Distribution: Cosmopolitan, in oceans and estuaries.
+7. Evolutionary aspect: Present since the Cambrian period.
+8. Historical note: Described by Eschscholtz in 1829.
+9. Types: Subdivisions include Tentaculata, Nuda, Scleroctenophora.
+10. Specific example: Mnemiopsis leidyi is the type species.
+
+I should phrase each as a question and provide the correct answer from the context. Let's make sure each question is clear, varies in focus, and doesn't repeat similar content.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Para qual filo pertencem os ctenóforos?",
+    "resposta": "Ctenophora"
+  },
+  {
+    "pergunta": "Quais são as características físicas dos ctenóforos que os tornam semelhantes às medusas?",
+    "resposta": "Transparentes e com uma camada gelatinosa (mesoglea)"
+  },
+  {
+    "pergunta": "Como os ctenóforos se locomovem?",
+    "resposta": "Usando cílios organizados em pentes chamados 'ctenes'"
+  },
+  {
+    "pergunta": "Os ctenóforos são bioluminescentes?",
+    "resposta": "Sim"
+  },
+  {
+    "pergunta": "Qual é a relação evolutiva entre ctenóforos e medusas?",
+    "resposta": "Representam uma convergência evolutiva, não estando próximos filogeneticamente"
+  },
+  {
+    "pergunta": "Em quais habitats os ctenóforos são encontrados?",
+    "resposta": "Águas oceânicas e estuarinas de distribuição cosmopolita"
+  },
+  {
+    "pergunta": "Desde quando os ctenóforos estão presentes no registro fóssil?",
+    "resposta": "Cambriano"
+  },
+  {
+    "pergunta": "Quem descreveu os ctenóforos e em que ano?",
+    "resposta": "Eschscholtz, em 1829"
+  },
+  {
+    "pergunta": "Quais são as principais subdivisões do filo Ctenophora?",
+    "resposta": "Tentaculata, Nuda e Scleroctenophora"
+  },
+  {
+    "pergunta": "Qual é a espécie-tipo dos ctenóforos?",
+    "resposta": "Mnemiopsis leidyi"
+  }
+]
+```

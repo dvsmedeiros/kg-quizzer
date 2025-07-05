@@ -1,0 +1,67 @@
+<think>
+Okay, so I have this task where I need to generate 10 question and answer pairs based on the given context about the immune system. The user provided a detailed explanation of the immune system, including its functions, key components, historical aspects, disorders, and related scientific fields. They also included some RDF data that links various biological entities to the immune system.
+
+First, I should carefully read through the context to understand all the important points. The context mentions that the immune system protects against pathogens, was named by Mechnikov, involves mechanisms like phagocytosis and complement system, and discusses immunodeficiency and autoimmune diseases. It also lists several cells related to the immune system, such as B cells, T cells, natural killer cells, etc.
+
+Looking at the facts provided in RDF format, I see that many DBpedia resources are linked to the immune system. For example, entities like Adaptive NK cell, B cell, Basophil, etc., all belong to the immune system. This suggests that questions about specific components or their roles could be derived from this data.
+
+I need to create varied and relevant questions. Let's brainstorm possible topics:
+
+1. Historical aspects: Who developed the term 'immune system'?
+2. Functions: What does the immune system protect against?
+3. Mechanisms: List some defense mechanisms.
+4. Specific cells: Which cells are part of the immune system?
+5. Diseases: Conditions related to immune system disorders.
+6. Scientific study: What field studies the immune system?
+
+Now, I'll structure these into questions and find the answers in the context.
+
+For example, a question about Mechnikov's contribution is directly answered in the context. For cells, the RDF lists many, so I can pick some to ask about their inclusion.
+
+I need to ensure each answer is unique and correctly inferred from the provided data without adding extra information.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quem cunhou o termo 'sistema imunitário'?",
+    "resposta": "Ilya Ilyich Mechnikov"
+  },
+  {
+    "pergunta": "Qual é a função principal do sistema imunitário?",
+    "resposta": "Proteger o organismo contra doenças e agentes patogénicos"
+  },
+  {
+    "pergunta": "Quais são exemplos de mecanismos básicos de defesa do sistema imunitário?",
+    "resposta": "Fagocitose, defensinas e complemento"
+  },
+  {
+    "pergunta": "Qual doença pode resultar de uma imunodeficiência?",
+    "resposta": "Infecções recorrentes e risco de vida"
+  },
+  {
+    "pergunta": "O que é a imunologia?",
+    "resposta": "Área científica que estuda todos os aspectos do sistema imunitário"
+  },
+  {
+    "pergunta": "Quais são células do sistema imunitário?",
+    "resposta": "B细胞, T细胞, macrófago e neutrófilo"
+  },
+  {
+    "pergunta": "Qual é um exemplo de doença autoimune?",
+    "resposta": "Artrite reumatóide ou diabetes tipo 1"
+  },
+  {
+    "pergunta": "O que a vacinação baseia-se?",
+    "resposta": "Imunidade adquirida e memória imunológica"
+  },
+  {
+    "pergunta": "Quais são os tipos de células imunitárias mencionadas no contexto?",
+    "resposta": "Células T, B, macrófagos, neutrófilos, mastócitos e basófilos"
+  },
+  {
+    "pergunta": "Qual foi a contribuição de Ilya Mechnikov para a imunologia?",
+    "resposta": "Considerado o pai da imunologia ao cunhar o termo 'sistema imunitário' em 1882"
+  }
+]
+```

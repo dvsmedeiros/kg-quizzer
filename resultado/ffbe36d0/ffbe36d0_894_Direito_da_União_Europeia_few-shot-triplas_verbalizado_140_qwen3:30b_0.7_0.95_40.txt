@@ -1,0 +1,91 @@
+<think>
+Okay, I need to generate 10 question-answer pairs based on the given context and facts. Let me start by understanding the requirements. The user wants exactly 10 pairs, each with a question and a correct answer in Portuguese. The questions must be varied, cover different aspects of the content, and the answers must be directly from the provided context or inferable from it. No repetition of similar questions.
+
+First, I'll look at the context provided. The context mentions that EU laws are a system of rules in member states, starting from the European Coal and Steel Community after WWII, aiming to promote peace, values, and well-being. It also talks about EU institutions, social and economic policies, and the Court of Justice stating the EU represents a new international law order.
+
+The facts include things like "Law of the European Union" being a main topic, Common Market Law Review in that discipline, John Bell as a legal scholar in that area, Henry G. Schermers as a subdiscipline, and some wiki templates used. 
+
+Now, I need to create questions that cover different aspects. Let's brainstorm possible questions:
+
+1. What is the main objective of the EU according to the context? The answer would be promoting peace, values, and well-being.
+2. What are the main institutions of the EU? The context mentions political institutions, so maybe answer with "instituições políticas, políticas sociais e econômicas."
+3. Who is a legal scholar associated with the Law of the European Union? John Bell.
+4. What is a subdiscipline of the Law of the European Union? Henry G. Schermers.
+5. What are the primary sources of EU law? The context mentions treaties, so "Tratados que instituem a União Europeia."
+6. What is the role of the Court of Justice according to the context? It states the EU represents a new international law order.
+7. What are the secondary sources of EU law? The examples mention regulations and guidelines, but the context doesn't specify. Wait, the facts mention "direito primário, direito secundário e direito complementar" in the examples, but the context doesn't. Hmm, need to check. The context says "leis da União Europeia são um sistema de regras" but doesn't list primary, secondary, etc. So maybe avoid that. Instead, use the facts about the wiki templates.
+8. What wiki templates are used for the Law of the European Union? The facts list "Template:R from word rearrangement," "Template:Redirect category shell," "Template:R from move." So the answer would be those three.
+9. What is the main topic discussed in the context? "Law of the European Union."
+10. What is the purpose of the EU's institutions? The context says they transcend national states for cooperation and development.
+
+Wait, need to ensure that each answer is directly from the context or facts. Let me check each point again.
+
+For question 1: The context says "promover a paz, seus valores e o bem-estar de seus povos." So the answer is that.
+
+Question 2: The context mentions "instituições políticas, políticas sociais e econômicas." So answer with "instituições políticas, políticas sociais e econômicas."
+
+Question 3: Facts state "John Bell (legal scholar) atua na disciplina Law of the European Union." So answer is John Bell.
+
+Question 4: "Henry G. Schermers é subdisciplina de Law of the European Union." So answer is Henry G. Schermers.
+
+Question 5: The context says "tratados que instituem a União Europeia." So answer is "Tratados que instituem a União Europeia."
+
+Question 6: The Court of Justice says "uma nova ordem jurídica de direito internacional." So answer is "uma nova ordem jurídica de direito internacional."
+
+Question 7: The facts mention the wiki templates. So the answer would list the three templates.
+
+Question 8: The main topic is "Law of the European Union."
+
+Question 9: The purpose of institutions is "transcender os Estados-nação para fins de cooperação e desenvolvimento humano."
+
+Question 10: The context mentions the EU's origin from the European Coal and Steel Community after WWII. So the answer is "após a Segunda Guerra Mundial."
+
+Wait, need to make sure all answers are from the context or facts. Let me verify each:
+
+Yes, all these points are covered in the context or facts. Now, I need to structure them into 10 pairs, ensuring no repetition. Let me check for duplicates. For example, the example had "Quais são as principais fontes de direito primário?" but in the context, it's "Tratados que instituem a União Europeia." So that's covered.
+
+I think this should work. Now, format into JSON as specified.
+</think>
+
+[
+  {
+    "pergunta": "Qual é o objetivo principal da União Europeia segundo o contexto?",
+    "resposta": "promover a paz, seus valores e o bem-estar de seus povos"
+  },
+  {
+    "pergunta": "Quais são as instituições mencionadas no contexto da União Europeia?",
+    "resposta": "instituições políticas, políticas sociais e econômicas"
+  },
+  {
+    "pergunta": "Quem é um acadêmico associado ao direito da União Europeia?",
+    "resposta": "John Bell"
+  },
+  {
+    "pergunta": "Qual é uma subdisciplina do direito da União Europeia?",
+    "resposta": "Henry G. Schermers"
+  },
+  {
+    "pergunta": "Quais são as fontes principais do direito da União Europeia?",
+    "resposta": "Tratados que instituem a União Europeia"
+  },
+  {
+    "pergunta": "O que o Tribunal de Justiça da União Europeia afirma sobre a UE?",
+    "resposta": "uma nova ordem jurídica de direito internacional"
+  },
+  {
+    "pergunta": "Quais são os modelos de página wiki utilizados para o direito da União Europeia?",
+    "resposta": "Template:R from word rearrangement, Template:Redirect category shell, Template:R from move"
+  },
+  {
+    "pergunta": "Qual é o tópico principal abordado no contexto?",
+    "resposta": "Law of the European Union"
+  },
+  {
+    "pergunta": "Qual é o propósito das instituições da União Europeia?",
+    "resposta": "transcender os Estados-nação para fins de cooperação e desenvolvimento humano"
+  },
+  {
+    "pergunta": "De onde a União Europeia teve origem segundo o contexto?",
+    "resposta": "a fundação da Comunidade Europeia do Carvão e do Aço após a Segunda Guerra Mundial"
+  }
+]

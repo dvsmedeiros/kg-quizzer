@@ -1,0 +1,70 @@
+<think>
+Okay, I need to generate 10 question-answer pairs about European Union Law based on the provided context. Let me start by recalling the key areas of EU law. The main sources of law include treaties, primary legislation, secondary legislation like regulations and directives, case law from the Court of Justice, and international agreements. 
+
+First question could be about the main sources of EU law. The answer should list treaties, primary, secondary, case law, and international agreements. That's a fundamental point.
+
+Next, maybe the difference between regulations and directives. Regulations are directly applicable across all member states without needing national implementation, whereas directives set goals for member states to achieve through their own laws. That's a common point of confusion, so a good question.
+
+Third, which institution proposes legislation. The European Commission has the exclusive right to propose new laws, so that's a solid question.
+
+Fourth, the role of the Court of Justice. They ensure EU law is interpreted and applied consistently, so that's another key point.
+
+Fifth, the principle of supremacy. EU law takes precedence over national laws when there's a conflict, so that's important.
+
+Sixth, the principle of direct effect. Individuals can invoke EU law in national courts if it's clear and unconditional, which is a specific but crucial concept.
+
+Seventh, the Charter of Fundamental Rights. It's legally binding and integrates the ECHR and other rights, so that's a good question.
+
+Eighth, the principle of proportionality. Ensures that EU measures are appropriate and not excessive, which is part of the general principles of law.
+
+Ninth, the difference between harmonization and approximation. Harmonization creates uniform laws across all states, while approximation reduces differences but doesn't make them the same. Another common distinction.
+
+Tenth, the role of the European Court of Auditors. They audit EU finances and ensure legality and regularity, which is a specific institution's function.
+
+I need to make sure each question is unique and covers different aspects. Let me check for repetition. The questions range from sources, types of legislation, institutions, principles, and specific documents. They seem varied. Each answer is directly from the context provided. I think this meets the requirements. Now, I'll structure them into the JSON format as specified.
+</think>
+
+```json
+[
+  {
+    "pergunta": "Quais são as principais fontes do Direito da União Europeia?",
+    "resposta": "Tratados, legislação primária, legislação secundária, jurisprudência do Tribunal de Justiça e acordos internacionais."
+  },
+  {
+    "pergunta": "Qual é a diferença entre uma diretiva e um regulamento da União Europeia?",
+    "resposta": "Uma diretiva é um ato legal que estabelece objetivos a serem alcançados por Estados-Membros, enquanto um regulamento é diretamente aplicável em todos os Estados-Membros sem necessidade de transposição nacional."
+  },
+  {
+    "pergunta": "Qual instituição da União Europeia tem a prerrogativa exclusiva de propor novas leis?",
+    "resposta": "A Comissão Europeia."
+  },
+  {
+    "pergunta": "Qual o papel do Tribunal de Justiça da União Europeia?",
+    "resposta": "Garantir a interpretação coerente e uniforme do direito europeu em todos os Estados-Membros."
+  },
+  {
+    "pergunta": "Qual é o princípio da supremacia do direito europeu?",
+    "resposta": "Estabelece que as normas da União Europeia prevalecem sobre as normas nacionais em caso de conflito."
+  },
+  {
+    "pergunta": "O que é o princípio do efeito direto no direito europeu?",
+    "resposta": "Permite que cidadãos ou empresas invoquem diretamente normas da UE em tribunais nacionais, desde que sejam claras e incondicionais."
+  },
+  {
+    "pergunta": "Qual é a importância da Carta dos Direitos Fundamentais da União Europeia?",
+    "resposta": "É um instrumento juridicamente vinculativo que consolida direitos fundamentais reconhecidos nos Tratados e no Direito Europeu."
+  },
+  {
+    "pergunta": "Qual é o princípio da proporcionalidade no direito europeu?",
+    "resposta": "Determina que as medidas da União Europeia devem ser adequadas para atingir seus objetivos e não exceder o necessário."
+  },
+  {
+    "pergunta": "O que distingue a harmonização da aproximação no direito europeu?",
+    "resposta": "A harmonização cria uma legislação uniforme entre Estados-Membros, enquanto a aproximação reduz divergências sem uniformizar totalmente as normas."
+  },
+  {
+    "pergunta": "Qual é a função do Tribunal de Contas Europeu?",
+    "resposta": "Auditar as contas financeiras da União Europeia e garantir a legalidade e regularidade dos gastos públicos."
+  }
+]
+```
