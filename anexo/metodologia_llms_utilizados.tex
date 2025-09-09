@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\centering
+\caption{LLMs utilizados na geração de perguntas e respostas, agrupados por porte.}
+\small
+\label{tab:modelos_utilizados_por_porte}
+\begin{tabular}{@{}p{3cm}p{4cm}p{4cm}p{4cm}@{}}
+\toprule
+\textbf{Porte} & \textbf{Modelos} & \textbf{Família} & \textbf{Tokenizer} \\
+\midrule
+\textbf{Pequeno} &
+deepseek-r1:1.5b \newline gemma3:4b \newline qwen2.5:3b \newline qwen3:4b &
+DeepSeek, Gemma, Qwen &
+deepseek-ai/deepseek-llm-7b-base \newline google/gemma-7b \newline Qwen/Qwen1.5-7B \\
+\midrule
+\textbf{Médio} &
+deepseek-r1:\{7b, 8b, 14b\} \newline gemma3:12b \newline granite3.1-dense:8b \newline phi4:14b \newline qwen2.5:14b \newline qwen3:\{8b, 14b\} &
+DeepSeek, Gemma, Mistral, Phi, Qwen &
+deepseek-ai/deepseek-llm-7b-base \newline google/gemma-7b \newline mistralai/Mistral-7B-v0.1 \newline microsoft/Phi-2 \newline Qwen/Qwen1.5-7B \\
+\midrule
+\textbf{Grande} &
+deepseek-r1:32b \newline gemma3:27b \newline qwen2.5:32b \newline qwen3:\{30b, 32b\} &
+DeepSeek, Gemma, Qwen &
+deepseek-ai/deepseek-llm-7b-base \newline google/gemma-7b \newline Qwen/Qwen1.5-7B \\
+\bottomrule
+\end{tabular}
+\end{table}
